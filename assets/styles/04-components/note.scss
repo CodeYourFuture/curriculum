@@ -52,6 +52,9 @@
       @at-root .c-note--piece & {
         content: "🧩 ";
       }
+      @at-root .c-note--question & {
+        content: "🧐 ";
+      }
     }
   }
 
