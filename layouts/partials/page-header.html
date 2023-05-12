@@ -12,7 +12,7 @@
   <!-- content -->
   <div class="c-page-header__container">
     <div class="c-page-header__breadcrumbs">
-      {{ partial "breadcrumbs.html" .Page }}
+      {{ partial "breadcrumbs.html" . }}
     </div>
     <h1 class="c-page-header__title e-heading__1">
       {{ $override := .Scratch.Get "emoji" }}
