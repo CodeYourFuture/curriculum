@@ -1,0 +1,13 @@
+// wherever we have long form body copy
+// we just want to make sure the line length isn't too long
+.c-copy {
+  & p,
+  & ol,
+  & ul {
+    max-width: var(--theme-spacing--linelength);
+  }
+  margin-bottom: var(--theme-spacing--gutter);
+  h1 {
+    font-size: var(--theme-type-size--2);
+  }
+}

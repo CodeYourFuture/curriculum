@@ -1,0 +1,24 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "The CYF curriculum website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeYourFuture/curriculum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeYourFuture/curriculum/issues"
+  },
+  "homepage": "https://github.com/CodeYourFuture/curriculum#readme",
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}

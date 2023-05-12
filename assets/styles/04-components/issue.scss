@@ -1,0 +1,35 @@
+.c-issue {
+  ~ .c-issue {
+    padding-top: var(--theme-spacing--6);
+  }
+  &__title {
+    font-weight: 600;
+    margin-bottom: var(--theme-spacing--1);
+  }
+  &__body {
+    padding: var(--theme-spacing--gutter);
+    max-width: var(--theme-spacing--linelength);
+    box-shadow: var(--theme-box-shadow);
+    border-radius: var(--theme-border-radius);
+
+    h3 {
+      font-size: var(--theme-type-size--4);
+    }
+  }
+
+  &__labels {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--theme-spacing--1);
+  }
+  &__label {
+    background: var(--github);
+    font: 600 var(--theme-type-size--6) system-ui;
+    border: 1px solid;
+    border-radius: 1em;
+    &-name {
+      display: inline-block;
+      padding: 0.125em 0.5em;
+    }
+  }
+}

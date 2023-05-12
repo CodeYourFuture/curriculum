@@ -1,0 +1,14 @@
+:root {
+  --theme-border: 0.5px solid var(--theme-color--pop);
+  --theme-border--thick: 4px solid;
+  --theme-border-radius: 0.5em;
+  --theme-border-radius--maxi: 2.5em;
+  --theme-border-radius--wireframe: 255px 15px 225px 15px/15px 225px 15px 255px;
+  --theme-border-image: linear-gradient(
+      180deg,
+      var(--theme-color--pop),
+      var(--theme-color--accent),
+      var(--theme-color--pop)
+    )
+    1;
+}

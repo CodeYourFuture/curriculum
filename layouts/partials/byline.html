@@ -1,0 +1,41 @@
+{{ $src := .block.src }}
+{{ $contributors := .block.authors }}
+{{ if "github" | in $src }}
+  <!-- convert the src to a github api url -->
+  {{ $src = replace $src "https://github.com/CodeYourFuture/"
+    "https://api.github.com/repos/CodeYourFuture/"
+  }}
+  {{ $src = replace $src
+    "/tree/main" "/commits?path"
+  }}
+  {{ $commitList := getJSON $src }}
+  {{ $tempArrayToDeDupe := slice }}
+  {{ range $commitList }}
+    {{ with .committer }}
+      {{ if ne .login "web-flow" }}
+        {{ $tempArrayToDeDupe = $tempArrayToDeDupe | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $contributors := $tempArrayToDeDupe | uniq }}
+
+
+  <ol class="c-byline">
+    <li class="c-byline__chip">
+      <span class="c-byline__link">
+        <img
+          class="c-byline__avatar"
+          src="https://avatars.githubusercontent.com/u/19864447?v=4"
+          alt="github icon indicating contributors to this file on github"
+      /></span>
+    </li>
+    {{ range $contributors }}
+      <li class="c-byline__chip">
+        <a class="c-byline__link" href="{{ .html_url }}"
+          ><span class="c-byline__name">{{ .login }}</span>
+          <img class="c-byline__avatar" src="{{ .avatar_url }}" alt=""
+        /></a>
+      </li>
+    {{ end }}
+  </ol>
+{{ end }}

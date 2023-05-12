@@ -1,0 +1,23 @@
+{{ $name := .block.name | default "error" }}
+{{ $src := .block.src }}
+{{ $blockPath := printf "blocks/%s" $name }}
+
+{{ if eq $src "module" }}
+  {{ $blockPath = printf "%s/blocks/%s" .Page.Section $name }}
+{{ end }}
+{{ $block := .Page.Site.GetPage $blockPath }}
+
+{{ if $block }}
+  {{ with $block.Params.Objectives }}
+    <section class="c-objectives">
+      <h3 class="c-objectives__title e-heading__2">{{ $block.Title }}</h3>
+      <ul class="c-objectives__list">
+        {{ range $block.Params.Objectives }}
+          <li class="c-objectives__item">
+            <label><input type="checkbox" /><span>{{ . }}</span></label>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+{{ end }}

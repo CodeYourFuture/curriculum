@@ -1,0 +1,41 @@
+{{ $alt := .PlainText | safeHTML }}
+{{ $caption := "" }}
+{{ with .Title }}
+  {{ $caption = . | safeHTML }}
+{{ end }}
+
+{{ with .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+  {{ $image := . }}
+  {{ $small := (cond (gt $image.Width 480) ($image.Resize "480x webp q75") $image) }}
+  {{ $medium := (cond (gt $image.Width 768) ($image.Resize "768x webp q75") $image) }}
+  {{ $big := (cond (gt $image.Width 1024) ($image.Resize "1024x webp q75") $image) }}
+
+
+  <figure>
+    <a href="{{ $image.RelPermalink }}">
+      <img
+        loading="lazy"
+        src="{{ $image.RelPermalink }}"
+        srcset="
+          {{ $small.RelPermalink }}  480w,
+          {{ $medium.RelPermalink }}  768w,
+          {{ $big.RelPermalink }} 1024w
+        "
+        sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1024px"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+        alt="{{ if $alt }}
+          {{ $alt }}
+        {{ else if $caption }}
+          {{ $caption | markdownify | plainify }}
+        {{ else }}
+          &nbsp;
+        {{ end }}" />
+    </a>
+    {{ with $caption }}
+      <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end }}
+  </figure>
+{{ else }}
+  <div style="font-size: 48px; text-align: center;">🖼️</div>
+{{ end }}

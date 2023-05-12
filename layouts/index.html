@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article>
+    {{- .Scratch.Set "emoji" "🧑🏿‍🏫👨🏽‍🎓" }}
+    {{- .Scratch.Set "headerClass"
+      "c-page-header--splash"
+    }}
+    {{- partial "page-header.html" . }}
+    <section class="">
+      {{ .Content }}
+      <ol class="c-timeline c-timeline--card">
+        {{- range site.Menus.syllabus }}
+          <li class="c-timeline__entry">{{ partial "card.html" . }}</li>
+        {{- end }}
+      </ol>
+    </section>
+  </article>
+{{ end }}

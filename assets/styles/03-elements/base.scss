@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: var(--theme-font--copy);
+  font-size: 100%;
+  background-color: var(--theme-color--paper);
+  color: var(--theme-color--ink);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  animation: fade-in 0.2s;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

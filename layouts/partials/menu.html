@@ -1,0 +1,32 @@
+<nav
+  class="l-layout__menu l-menu"
+  aria-label="Main Site Links."
+  id="site-menu"
+  hidden
+  tabindex="0">
+  <div class="l-menu__container">
+    <h2 class="l-menu__heading e-heading__2">
+      <a href="/" class="l-menu__home is-invisible">Menu</a>
+    </h2>
+    <button
+      class="l-menu__action e-button e-button--icon js-menu-toggle e-heading__2"
+      id="close-menu">
+      ❎
+      <span class="is-invisible">Close Menu.</span>
+    </button>
+    <ul class="l-menu__primary">
+      {{- range site.Menus.syllabus }}
+        <li class="l-menu__link">
+          <a class="e-heading__2" href="{{ .URL }}"> {{ .Name }} </a>
+        </li>
+      {{- end }}
+    </ul>
+    <ul class="l-menu__secondary">
+      {{- range site.Menus.secondary }}
+        <li class="l-menu__link">
+          <a class="e-heading__3" href="{{ .URL }}"> {{ .Name }} </a>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+</nav>

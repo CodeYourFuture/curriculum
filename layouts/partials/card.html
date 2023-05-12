@@ -1,0 +1,14 @@
+{{ $fallBackEmoji := "🤖" }}
+{{ $BaseURL := .Page.Parent.Permalink }}
+<a class="c-card" href="{{ .URL }}">
+  <h3 class="c-card__title">{{ .Name }}</h3>
+  <p class="c-card__description">{{ .Page.Description }}</p>
+  <!-- Display emoji -->
+  <div class="c-card__image">
+    {{ if .Page.Params.emoji }}
+      {{ .Page.Params.emoji }}
+    {{ else }}
+      {{ $fallBackEmoji }}
+    {{ end }}
+  </div>
+</a>

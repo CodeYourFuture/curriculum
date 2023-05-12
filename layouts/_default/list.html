@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  <article class="{{ with .Content }}c-copy{{ end }}">{{ .Content }}</article>
+  <!-- generic list -->
+  <ol class="c-timeline">
+    {{ range .Pages }}
+      <li class="c-timeline__entry">
+        <a class="c-timeline__post" href="{{ .Permalink }}"
+          ><h3 class="c-timeline__title">{{ .Title }}</h3></a
+        >
+      </li>
+    {{ end }}
+  </ol>
+{{ end }}

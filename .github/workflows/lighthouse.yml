@@ -1,0 +1,31 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install Lighthouse CI
+        run: npm ci
+
+      - name: Run Lighthouse CI
+        run: |
+          export DEPLOY_URL="$(curl -s -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys | jq -r ".[0].deploy_ssl_url")"
+          echo "DEPLOY_URL=$DEPLOY_URL" >> $GITHUB_ENV
+          npx lhci autorun --collect.url=$DEPLOY_URL --upload.target=temporary-public-storage
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

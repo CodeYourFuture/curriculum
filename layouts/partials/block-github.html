@@ -1,0 +1,43 @@
+<!-- prettier-ignore -->
+{{ $name := .block.name | default "error"}}
+{{ $src := .block.src }}
+<!-- convert the src to a github api url  eg
+  https://github.com/CodeYourFuture/Module-Databases/tree/main/Big-Spender
+  to
+  https://api.github.com/repos/CodeYourFuture/Module-Databases/readme/Big-Spender/-->
+{{ $src = replace $src "https://github.com/CodeYourFuture/"
+  "https://api.github.com/repos/CodeYourFuture/"
+}}
+{{ $src = replace $src
+  "/tree/main" "/readme/"
+}}
+
+{{ $resp := getJSON $src }}
+{{ if $resp }}
+  <!-- most blocks are just plain readmes, 
+  but if we're pulling from a readme-ised static site, like the PD platform,
+  we can render the front matter and make it fancy-->
+  {{ if "CYF-PD" | in $src }}
+    {{ $decodedContent := $resp.content | base64Decode }}
+    {{ partial "block-pd.html" (dict "decodedContent" $decodedContent "resp" $resp
+      "name" $name "src" $src)
+    }}
+  {{ else }}
+    <section class="c-block">
+      <header class="c-block__header">
+        <h2 class="c-block__title e-heading__2" id="{{ $name |urlize }}">
+          <a href="{{ $resp.html_url }}">{{ $name }} 🔗</a>
+        </h2>
+        <h3 class="c-block__byline e-heading__5">
+          {{ partial "byline.html" . }}
+        </h3>
+        <time class="c-block__time" datetime="P60M">60 minutes</time>
+      </header>
+      <div class="c-block__content c-copy">
+        {{ $resp.content | base64Decode | markdownify }}
+      </div>
+    </section>
+  {{ end }}
+{{ else }}
+  <h3>Error</h3>
+{{ end }}

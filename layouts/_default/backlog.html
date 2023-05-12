@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article>
+    <!-- reset emoji from page matter to calendar emoji -->
+    {{ .Scratch.Set "emoji" "📅" }}
+    {{ partial "page-header.html" . }}
+    {{ with .Content }}
+      <section class="c-copy">{{ . }}</section>
+    {{ end }}
+    {{ partial "issues.html" . }}
+  </article>
+{{ end }}

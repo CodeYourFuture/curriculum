@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <article>
+    {{ partial "page-header.html" . }}
+    <section class="l-page__main c-copy">{{ .Content }}</section>
+    <div class="c-block__list">
+      <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
+      {{ range .Params.blocks }}
+        {{ partial "block.html" (dict "block" . "Page"
+          $.Page)
+        }}
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

@@ -1,0 +1,50 @@
+.c-block {
+  padding: var(--theme-spacing--4) var(--theme-spacing--gutter)
+    var(--theme-spacing--6);
+  border-bottom: var(--theme-border--thick);
+  border-image: var(--theme-border-image);
+  width: 100%;
+
+  &__header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--theme-spacing--gutter);
+  }
+
+  &__series {
+    display: grid;
+    gap: var(--theme-spacing--gutter);
+  }
+
+  &--youtube {
+    text-align: center;
+    padding: var(--theme-spacing--4) 0;
+    border: 0;
+  }
+
+  .c-block__series--timeline & {
+    // this mashes up blocks and timeline (.c-timeline) to create a sketchy plan view
+    border-image: 0;
+    border: var(--theme-border);
+    border-radius: var(--theme-border-radius--wireframe);
+    box-shadow: var(--theme-box-shadow--wireframe);
+    border-style: dashed;
+    margin-bottom: calc(-1 * var(--theme-spacing--gutter));
+
+    &__title {
+      font-family: var(--theme-font--plan);
+      text-transform: uppercase;
+    }
+
+    &__lastmod {
+      display: none;
+    }
+
+    &__time {
+      font-family: var(--theme-font--plan);
+      font-size: var(--theme-type-size--4);
+    }
+  }
+}

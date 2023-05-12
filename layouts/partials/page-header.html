@@ -1,0 +1,76 @@
+{{ $hasTOC := false }}
+{{ $headerClass := .Scratch.Get "headerClass" }}
+{{ if and
+  (gt .Page.WordCount 400) (.Page.TableOfContents)
+}}
+  {{ $hasTOC = true }}
+{{ end }}
+<header
+  class="c-page-header {{ if $headerClass }}
+    {{ $headerClass }}
+  {{ end }} {{ if $hasTOC }}c-page-header--toc{{ end }}">
+  <!-- content -->
+  <div class="c-page-header__container">
+    <div class="c-page-header__breadcrumbs">
+      {{ partial "breadcrumbs.html" .Page }}
+    </div>
+    <h1 class="c-page-header__title e-heading__1">
+      {{ $override := .Scratch.Get "emoji" }}
+      {{ if $override }}
+        {{ $override }}
+      {{ else }}
+        {{ with .Page.Params.emoji }}{{ . }}{{ end }}
+      {{ end }}{{ .Page.Title }}
+    </h1>
+    {{ if eq .Page.Params.layout "backlog" }}
+      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__2">
+        {{ .Page.Params.backlog }}
+        <a
+          class="c-page-header__link"
+          href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
+          >🔗</a
+        >
+      </h2>
+    {{ else }}
+      {{ with .Page.Description }}
+        <h3 class="c-page-header__description">{{ . | markdownify }}</h3>
+      {{ end }}
+    {{ end }}
+    <!--TOC-->
+    {{ if $hasTOC }}
+      <section class="c-page-header__toc c-toc" id="toc">
+        <a
+          id="top"
+          class="c-toc__top e-button e-button--icon e-heading__3"
+          href="#skip-link"
+          >📎</a
+        >
+        {{ .Page.TableOfContents }}
+      </section>
+    {{ end }}
+
+
+    <!--handmade TOC-->
+    {{ if or (eq .Layout "prep") (eq .Layout "day-plan") }}
+      <section class="c-page-header__toc c-toc" id="toc">
+        <a
+          id="top"
+          class="c-toc__top e-button e-button--icon e-heading__3"
+          href="#skip-link"
+          >📎</a
+        >
+        <ol>
+          {{ range .Params.blocks }}
+            <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+  </div>
+  <!-- picture -->
+  {{ with .Page.Resources.GetMatch "hero" }}
+    {{ partial "picture.html" (dict
+      "pictureClass" "c-page-header__picture" "resource" .)
+    }}
+  {{ end }}
+</header>

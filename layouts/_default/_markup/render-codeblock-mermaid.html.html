@@ -1,0 +1,7 @@
+<div class="mermaid">{{- .Inner | safeHTML }}</div>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+</script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
