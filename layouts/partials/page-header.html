@@ -67,10 +67,4 @@
       </section>
     {{ end }}
   </div>
-  <!-- picture -->
-  {{ with .Page.Resources.GetMatch "hero" }}
-    {{ partial "picture.html" (dict
-      "pictureClass" "c-page-header__picture" "resource" .)
-    }}
-  {{ end }}
 </header>
