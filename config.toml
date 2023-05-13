@@ -26,7 +26,7 @@ org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 tree = "https://github.com/CodeYourFuture/curriculum/tree/main/"
 edit = "https://github.com/CodeYourFuture/curriculum/edit/main/"
-root = "syllabus"
+root = "curriculum"
 orgapi = "https://api.github.com/repos/CodeYourFuture/"
 
 [markup]
