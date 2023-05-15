@@ -5,7 +5,6 @@ class RandomEmoji extends HTMLElement {
   }
 
   connectedCallback() {
-    console.log("connected");
     const emojiList = ["🎈", "🚌", "🍔", "🕹️", "🎛️", "🔑", "🪣", "⚙️", "📖"];
     const randomEmoji = emojiList[Math.floor(Math.random() * emojiList.length)];
 
