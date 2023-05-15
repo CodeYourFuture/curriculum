@@ -1,0 +1,23 @@
+{{ $resp := .resp }}
+{{ $decodedContent := $resp.content | base64Decode }}
+{{ $regex := "```objectives\\s*([^`]*?)\\s*```" }}
+{{ $blocks := findRE $regex $decodedContent }}
+{{ $allObjectives := slice }}
+<!-- build a list of all objectives -->
+{{ range $blocks }}
+  {{ $blockContent := replaceRE "```objectives\\s*|\\s*```" "" . }}
+  {{ $objectives := split $blockContent "- [ ]" }}
+  {{ range $objectives }}
+    {{ if ne . "" }}
+      {{ $allObjectives = $allObjectives | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<!--output list-->
+{{ if gt (len $allObjectives ) 0 }}
+  {{ with $allObjectives }}
+    {{ partial "objectives-block.html" . }}
+  {{ end }}
+{{ else }}
+  <p>No objectives defined</p>
+{{ end }}
