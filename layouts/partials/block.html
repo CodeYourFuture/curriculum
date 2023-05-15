@@ -1,6 +1,7 @@
 {{ $name := .block.name | default "error" }}
 {{ $src := .block.src }}
 {{ $blockPath := printf "blocks/%s" $name }}
+{{ $onlyObjectives := .Page.Layout }}
 
 {{ if eq $src "module" }}
   {{ $blockPath = printf "%s/blocks/%s" .Page.Section $name }}
@@ -24,28 +25,31 @@
 {{ end }}
 <!-- if block is in the blocks folder, use this block partial -->
 {{ if $internal }}
-  <section class="c-block">
-    <header class="c-block__header">
-      <h2 class="c-block__title e-heading__2" id="{{ $name |urlize }}">
-        {{ $block.Title }}
-      </h2>
-      <div class="c-block__lastmod">{{ partial "lastmod.html" . }}</div>
-      <time
-        class="c-block__time"
-        datetime="P{{ $block.Params.time | default 60 }}M"
-        >{{ $block.Params.time }} minutes</time
-      >
-    </header>
+  <!-- if this is a success page, only print the objectives -->
+  {{ if eq $onlyObjectives "success" }}
     {{ with $block.Params.Objectives }}
-      <details>
-        <summary><h3 class="e-heading__5">Objectives</h3></summary>
-        <ul>
-          {{ range $block.Params.Objectives }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </details>
+      {{ partial "objectives-block.html" . }}
     {{ end }}
-    <div class="c-block__content c-copy">{{ $block.Content }}</div>
-  </section>
+  {{ else }}
+    <section class="c-block">
+      <header class="c-block__header">
+        <h2 class="c-block__title e-heading__2" id="{{ $name |urlize }}">
+          {{ $block.Title }}
+        </h2>
+        <div class="c-block__lastmod">{{ partial "lastmod.html" . }}</div>
+        <time
+          class="c-block__time"
+          datetime="P{{ $block.Params.time | default 60 }}M"
+          >{{ $block.Params.time }} minutes</time
+        >
+      </header>
+      {{ with $block.Params.Objectives }}
+        <details>
+          <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+          {{ partial "objectives-block.html" (dict "Heading" false "Objectives" .) }}
+        </details>
+      {{ end }}
+      <div class="c-block__content c-copy">{{ $block.Content }}</div>
+    </section>
+  {{ end }}
 {{ end }}
