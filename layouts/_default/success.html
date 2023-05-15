@@ -1,45 +1,53 @@
 {{ define "main" }}
   <article>
-    <!-- reset emoji from page matter to checkbox emoji -->
+    {{/* reset emoji from page matter to checkbox emoji */}}
     {{ .Scratch.Set "emoji" "✅" }}
     {{ partial "page-header.html" . }}
     {{ with .Content }}
       <section class="l-page__main c-copy">{{ . }}</section>
     {{ end }}
-    <!-- get the path to the prep page that is the sibling of this page-->
-    {{ $prep := .Site.GetPage (printf "%sprep/index.md"
-      .CurrentSection.RelPermalink)
-    }}
-    <!-- get the blocks from the prep page front matter -->
-    {{ $blocks := $prep.Params.blocks }}
     <confetti-checkboxes>
-      <!-- for each block, print the objectives only -->
-      {{ range $blocks }}
-        {{ partial "objectives.html" (dict "block" . "Page"
-          $.Page)
-        }}
-      {{ end }}
-
-
-      <!-- now print any objectives from the success page front matter -->
+      {{/* print any objectives from the success page front matter */}}
       {{ if .Params.Objectives }}
         <section class="c-objectives">
-          <h3 class="c-block__title e-heading__3">{{ .Title }}</h3>
-          <ul class="c-objectives__list">
-            {{ range .Params.Objectives }}
-              <li class="c-objectives__item">
-                <label><input type="checkbox" />{{ . }}</label>
-              </li>
-            {{ end }}
-          </ul>
+          <h3 class="c-objectives__title e-heading__4">Overall Objectives</h3>
+          {{ partial "objectives-block.html" .Params.Objectives }}
         </section>
+        <hr />
       {{ end }}
+      <section class="c-objectives">
+        <h2 class="e-heading__4 c-objectives__title">
+          Compiled Learning Objectives
+        </h2>
+        {{/* get the path to the prep page that is the sibling of this page */}}
+        {{ $prep := .Site.GetPage (printf "%sprep/index.md"
+          .CurrentSection.RelPermalink)
+        }}
+        {{/* get the blocks from the prep page front matter */}}
+        {{ $blocks := $prep.Params.blocks }}
+        {{/* now we need to extract objectives from blocks not stored in this repo,
+          which means we will actually loop through each block type
+          with an onlyObjectives flag set on page layout eq success
+          I'm not keen on Janus components like this but
+          I can't seem to extend hugo with a custom function
+          and I'm not reproducing all the lookups again
+          so, for each block, print the objectives only
+        */}}
+        {{ range $blocks }}
+          <section class="c-objectives">
+            <h3 class="c-objectives__title">
+              {{ .name }}
+            </h3>
+            {{ partial "block.html" (dict "block" . "Page"
+              $.Page)
+            }}
+          </section>
+        {{ end }}
+      </section>
     </confetti-checkboxes>
   </article>
 
-  {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" |
-    resources.Minify
-  }}
+  {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" | resources.Minify }}
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti" defer></script>
   <script src="{{ $confetti.Permalink }}" type="module" defer></script>
 {{ end }}

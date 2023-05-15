@@ -1,5 +1,5 @@
-<!-- prettier-ignore -->
-{{ $name := .block.name | default "error"}}
+{{ $onlyObjectives := .Page.Layout }}
+{{ $name := .block.name | default "error" }}
 {{ $src := .block.src }}
 <!-- convert the src to a github api url  eg
   https://github.com/CodeYourFuture/Module-Databases/tree/main/Big-Spender
@@ -18,10 +18,12 @@
   but if we're pulling from a readme-ised static site, like the PD platform,
   we can render the front matter and make it fancy-->
   {{ if "CYF-PD" | in $src }}
-    {{ $decodedContent := $resp.content | base64Decode }}
-    {{ partial "block-pd.html" (dict "decodedContent" $decodedContent "resp" $resp
-      "name" $name "src" $src)
+    {{ partial "block-pd.html" (dict "resp" $resp
+      "name" $name "src" $src "Page" $.Page)
     }}
+    <!-- if we're on the success page, we only want to show objectives -->
+  {{ else if eq $onlyObjectives "success" }}
+    {{ partial "objectives-parsed.html" (dict "resp" $resp ) }}
   {{ else }}
     <section class="c-block">
       <header class="c-block__header">
