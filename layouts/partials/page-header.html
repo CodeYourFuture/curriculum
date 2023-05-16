@@ -5,6 +5,9 @@
 }}
   {{ $hasTOC = true }}
 {{ end }}
+{{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
+  {{ $hasTOC = true }}
+{{ end }}
 <header
   class="c-page-header {{ if $headerClass }}
     {{ $headerClass }}
@@ -45,26 +48,20 @@
           href="#skip-link"
           >📎</a
         >
-        {{ .Page.TableOfContents }}
+        {{ if and
+          (gt .Page.WordCount 400) (.Page.TableOfContents)
+        }}
+          {{ .Page.TableOfContents }}
+        {{ end }}
+        {{ if gt .Params.blocks 1 }}
+          <ol>
+            {{ range .Params.blocks }}
+              <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
+            {{ end }}
+          </ol>
+        {{ end }}
       </section>
     {{ end }}
 
-
-    <!--handmade TOC-->
-    {{ if or (eq .Layout "prep") (eq .Layout "day-plan") }}
-      <section class="c-page-header__toc c-toc" id="toc">
-        <a
-          id="top"
-          class="c-toc__top e-button e-button--icon e-heading__3"
-          href="#skip-link"
-          >📎</a
-        >
-        <ol>
-          {{ range .Params.blocks }}
-            <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
-          {{ end }}
-        </ol>
-      </section>
-    {{ end }}
   </div>
 </header>
