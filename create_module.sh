@@ -87,7 +87,7 @@ for block in "${BLOCKS[@]}"; do
   echo "+++
 title = '$block'
 headless = true
-time = 0.3
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
