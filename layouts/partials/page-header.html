@@ -5,6 +5,9 @@
 }}
   {{ $hasTOC = true }}
 {{ end }}
+{{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
+  {{ $hasTOC = true }}
+{{ end }}
 <header
   class="c-page-header {{ if $headerClass }}
     {{ $headerClass }}
@@ -46,19 +49,6 @@
           >📎</a
         >
         {{ .Page.TableOfContents }}
-      </section>
-    {{ end }}
-
-
-    <!--handmade TOC-->
-    {{ if or (eq .Layout "prep") (eq .Layout "day-plan") }}
-      <section class="c-page-header__toc c-toc" id="toc">
-        <a
-          id="top"
-          class="c-toc__top e-button e-button--icon e-heading__3"
-          href="#skip-link"
-          >📎</a
-        >
         <ol>
           {{ range .Params.blocks }}
             <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
@@ -66,5 +56,6 @@
         </ol>
       </section>
     {{ end }}
+
   </div>
 </header>
