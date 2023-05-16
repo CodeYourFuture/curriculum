@@ -1,7 +1,7 @@
 +++
 title = 'block2'
 headless = true
-time = 0.3
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -9,5 +9,3 @@ emoji= '🧩'
     2='Limit the objectives to 3-5 items'
     3='Write objectives you can measure'
 +++
-
-
