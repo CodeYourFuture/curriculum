@@ -9,8 +9,6 @@ backlog_filter= 'Week 1'
 +++
 
 
-# JavaScript Core 1 Week 1
-
 ## Prerequisites
 
 - Basic arithmetic
