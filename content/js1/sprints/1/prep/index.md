@@ -40,6 +40,8 @@ backlog_filter= 'Week 1'
 
 terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate, implementation, opaque
 
+## Notes
+
 ### Understanding the computer 💻
 
 Modern computers are highly complex devices. It would be too difficult to list all the components that make up a modern computer. Instead, we can form a useful abstraction to make sense of what a computer is and what it does. An **abstraction** is a simplification that we use to focus on certain key aspects of a particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it. At the same time, we don't need to delve into the complex inner workings of the computer itself. So we begin with the following abstraction:
@@ -55,15 +57,15 @@ A computer is a device used to store and process data. Computers have the capaci
 
 As a user, we don't need to understand the complexities of the computer's inner workings. As users we need to harness the computer's memory and processing ability to perform certain tasks. For this purpose, we can issue commands or instructions to the computer for it to carry out some tasks. A computer terminal is an application where users can enter commands to a computer. On a Mac, the terminal looks like this:
 
-![terminal](./assets/terminal.png)
+![terminal](terminal.png)
 
 The terminal appears as a window on the computer, prompting users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
 
-![enter-ls-command](./assets/enter-ls-command.png)
+![enter-ls-command](enter-ls-command.png)
 
 We can then press enter to issue this command to the computer and get a response:
 
-![ls-feedback](./assets/ls-feedback.png)
+![ls-feedback](ls-feedback.png)
 
 ### Writing computer instructions
 
@@ -73,13 +75,13 @@ However, we can make use of different programming languages. A programming langu
 A computer will store data in memory, which will be modified during the execution of a program.
 So we can think of a programming language as allowing us to describe **data** and **operations** on that data.
 
-:::note
+{{<note title="Definition" type="info">}}
 **Data** consists of information in different forms: for example, numbers and text could be different forms of data. The data in a executing program is sometimes referred to as the **state**.
-:::
+{{</note>}}
 
-:::note
+{{<note title="Definition" type="info">}}
 **Operations** are anything that take data and modify existing data or create new data from the current data in the program.
-:::
+{{</note>}}
 
 In other words, any computer program will specify what data we've got and how it will be processed.
 
@@ -88,9 +90,9 @@ In other words, any computer program will specify what data we've got and how it
 In this course, we’re going to focus on the JavaScript programming language.
 Any programming language will have different forms of data that we call **data types**.
 
-:::note
+{{<note title="Definition" type="info">}}
 A **data type** is a grouping of data with some particular properties.
-:::
+{{</note>}}
 
 In JavaScript, we have several different data types, like **numbers** and **strings**.
 
@@ -120,11 +122,12 @@ the sum of 10 and 32
 In symbolic form, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation. In this example, `+` is used to represent the add operation “add the 2 numbers together”.  
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
-:::info
+{{<note title="Definition" type="info">}}
 An **expression** is a value or any valid combination of values and symbols that results in a single value.  
 We say that expressions **evaluate** to a single value.  
 So we say that `10 + 32` **evaluates** to the value `42`.
-:::
+
+{{</note >}}
 
 ### Evaluating expressions
 
@@ -133,7 +136,7 @@ However, we can use computers to evaluate expressions. We can use NodeJS, a Java
 
 Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input JavaScript expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
 
-:::note
+{{<note title="Definition" type="info">}}
 
 ℹ️ Definition: REPL is a special type of program that stands for
 
@@ -142,7 +145,7 @@ Node can be used in a number of different ways; however, one particular mode is 
 **Print**  
 **Loop**
 
-:::
+{{</note>}}
 
 We can type each of the following expressions into the REPL and then press enter to check the result.
 
@@ -178,11 +181,11 @@ Suppose we want to reuse this string in several different places. For example, w
 
 We can use a **variable** to store this string value so it can be referenced and used again.
 
-:::info
+{{<note title="Definition" type="info">}}
 
 A **variable** is a label for a piece of data. We can assign a piece of data to a particular label and then refer back to this label.
+{{</note>}}
 
-:::
 
 We can create a variable in our program by writing a **variable declaration**, in the following way:
 
@@ -199,15 +202,15 @@ We can break down the different syntactic elements of this variable declaration:
 
 We can type this variable declaration into the REPL:
 
-![greeting-variable-declaration](./assets/greeting-variable-declaration.png)
+![greeting-variable-declaration](greeting-variable-declaration.png)
 
 Now we can refer to the label `greeting` again in the REPL:
 
-![reference-greeting](./assets/reference-greeting.png)
+![reference-greeting](reference-greeting.png)
 
 Now we have the `greeting` variable stored in memory we can reuse it to build more expressions:
 
-![use-greeting-variable](./assets/use-greeting-variable.png)
+![use-greeting-variable](use-greeting-variable.png)
 
 {{<note title="Definition" type="info">}}
 
@@ -239,11 +242,11 @@ In particular, we can make use of a function called `Math.round`. Recalling the 
 
 So we can write `Math.round` in the Node REPL:
 
-![round-img](./assets/math.round-img.png)
+![round-img](math.round-img.png)
 
 After we've hit enter to evaluate, we then get the following:
 
-![round-img](./assets/math.round-evaluated.png)
+![round-img](math.round-evaluated.png)
 
 So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
 
@@ -265,9 +268,9 @@ Calling a function means telling the computer to read the function's instruction
 
 If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that `Math.round(10.3)` evaluates to 10.
 
-:::note
+{{<note title="Abstraction" type="info">}}
 Important to note that `Math.round` is **implementation opaque**. **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
-:::
+{{</note>}}
 
 ### Running scripts
 
