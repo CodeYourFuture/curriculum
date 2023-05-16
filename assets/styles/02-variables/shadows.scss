@@ -3,6 +3,10 @@
     hsla(var(--hsl), var(--alpha)) 0px 1px 0px 0px,
     hsla(var(--hsl), var(--alpha)) 0px 0px 8px 0px,
     0px 9.25px 20px hsla(var(--hsl), var(--alpha));
+  --theme-box-shadow--slim: hsla(var(--hsl), var(--alpha)) 0px 0px 0px 1px,
+    hsla(var(--hsl), var(--alpha)) 0px 1px 0px 0px,
+    hsla(var(--hsl), var(--alpha)) 0px 0px 2.5px 0px,
+    0px 3.25px 6px hsla(var(--hsl), var(--alpha));
 
   --theme-drop-shadow: 0 0 0.75rem hsla(var(--hsl), var(--alpha));
 }
