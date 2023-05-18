@@ -4,7 +4,6 @@
 <!-- api call -->
 {{ $commitObject := getJSON $issues }}
 <!-- if no object show error -->
-
 {{ if $commitObject }}
   <!-- range over issues list and pull out useful data -->
   {{ range $commitObject }}
