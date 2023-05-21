@@ -1,11 +1,20 @@
-import { EditorView, basicSetup } from "codemirror";
+import { EditorView, keymap } from "@codemirror/view";
+import { basicSetup } from "codemirror";
+import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 
 const containers = document.querySelectorAll(".cm6");
 
 containers.forEach((container) => {
   const view = new EditorView({
-    extensions: [basicSetup, javascript()],
+    extensions: [
+      // Enable "basic" functionality, see https://codemirror.net/docs/ref/#codemirror.basicSetup
+      basicSetup,
+      // Enable indenting via Tab, see https://codemirror.net/examples/tab/
+      keymap.of([indentWithTab]),
+      // Enable JS specific features
+      javascript(),
+    ],
     // Set up the initial doc to be the contents of the original container
     doc: container.innerText,
   });
