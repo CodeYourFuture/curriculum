@@ -54,8 +54,8 @@ We can call functions and log their return values to the console. However we can
 
 
 Given the problem we stated above, whenever we call `formatAs12HourClock` we expect it to return a particular value.  
-For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"8:00 am"`. 
-We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"8:00 am"` and ask: **are these 2 values the same?**
+For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"08:00 am"`. 
+We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?**
 
 To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`.
 We can write an expression as follows:
@@ -140,7 +140,7 @@ function formatAs12HourClock() {
 }
 
 const currentOutput = formatAs12HourClock("08:00");
-const expectedOutput = "8:00 am";
+const expectedOutput = "08:00 am";
 console.assert(
    currentOutput === expectedOutput,
    "current output: %s, expected output: %s",
@@ -166,11 +166,11 @@ So we have the following:
 
 
 ```js title="problem.js"
-function convertTo12HrClock(time) {
+function formatAs12HourClock(time) {
    return `${time} am`
 }
 
-const currentOutput = convertTo12HrClock("08:00");
+const currentOutput = formatAs12HourClock("08:00");
 const expectedOutput = "08:00 am";
 console.assert(
    currentOutput === expectedOutput,
@@ -190,12 +190,12 @@ However, we need to assert the function behaves correctly cases when the time is
 
 
 ```js title="problem.js"
-function convertTo12HrClock(time) {
+function formatAs12HourClock(time) {
    return `${time} am`
 }
 
-const currentOutput = convertTo12HrClock("08:00");
-const expectedOutput = "8:00 am";
+const currentOutput = formatAs12HourClock("08:00");
+const expectedOutput = "08:00 am";
 console.assert(
    currentOutput === expectedOutput,
    "current output: %s, expected output: %s",
@@ -204,7 +204,7 @@ console.assert(
 );
 
 
-const currentOutput = convertTo12HourClock("23:00");
+const currentOutput = formatAs12HourClock("23:00");
 const expectedOutput = "11:00 pm";
 console.assert(
    currentOutput === expectedOutput,
@@ -218,6 +218,7 @@ console.assert(
 ### Reusing variable names
 
 When we run the file with Node, we get an error in the console:
+
 ```bash
 SyntaxError: Identifier 'currentOutput' has already been declared
 ```
@@ -225,7 +226,7 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 An identifier is the name of a variable, so in a variable declaration like
 
 ```js
-const currentOutput = convertTo12HourClock("08:23");
+const currentOutput = formatAs12HourClock("08:23");
 ```
 `currentOutput` is the **identifier**.  
 
@@ -245,12 +246,12 @@ A block is a set of curly braces in which we write any number of statements. As 
 
 
 ```js title="problem.js"
-function convertTo12HrClock(time) {
+function formatAs12HourClock(time) {
    return `${time} am`
 }
 
 {
-const currentOutput = convertTo12HourClock("08:00");
+const currentOutput = formatAs12HourClock("08:00");
 const expectedOutput = "8:00 am";
 console.assert(
    currentOutput === expectedOutput,
@@ -261,7 +262,7 @@ console.assert(
 }
 {
 // ❌ this assertion now fails
-const currentOutput = convertTo12HourClock("23:00");
+const currentOutput = formatAs12HourClock("23:00");
 const expectedOutput = "11:00 pm";
 console.assert(
    currentOutput === expectedOutput,
@@ -301,7 +302,7 @@ E --> F[Step 6: return the new time]
 This approach involves running some **conditionally**. In this case, we're only going to continue doing something if the condition **hours are greater than 12** is `true`.
 
 
-### Conditionally executing code
+### ❓ Conditionally executing code
 
 In programming, an `if` statement will execute some code when a given condition is `true`.  
 In JavaScript, we can write an `if` statement as follows:
@@ -325,7 +326,6 @@ flowchart TD
     IC{condition}
     IB[If Body]
     EXIT([End of if statement])
-
     IC --> |true| IB
     IC -.-> |false| EXIT
     IB --> EXIT
@@ -339,7 +339,7 @@ flowchart TD
 
 So for `formatAs12HourClock` we said part of the strategy for handling "23:00" would involve the following check:  
 
->   ❓ Check: Are the hours greater than 12?
+>  Check: Are the hours greater than 12?
 
 We want to check that some value hours value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.  
 So `3 > 12` would evaluate to be `false`, as 3 is not greater than 12.  
@@ -429,20 +429,38 @@ if (+time.slice(0,2) > 12) {
 }
 ```
 
-Now we can recheck our assertions:
+The `return` statement above implements the following steps we set out earlier:
+
+```mermaid 
+
+flowchart TD
+
+D[Step 4: subtract 12 from the hours]
+D --> E[Step 5: add the rest of the time with 'pm']
+E --> F[Step 6: return the new time]
+
+```
+
+Now we can re-check our assertions from earlier to check our function behaves as expected.
 
 
-### Improving the code
+### 🧹 Improving the code
 
 
-The function’s output satisfies the assertions: in other words, our function’s current output matches with the expected output described in the previous assertions. In our code at the moment, we’re making use of the same expression twice. time.slice(0,2). This means we’re calling the function slice twice. Additionally, expressions like inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label a particularly useful expression so we can reuse wherever necessary in our code. 
+The function’s output satisfies the assertions: in other words, our function’s current output matches with the expected output described in the previous assertions.
+
+However, at the moment, we’re making use of the same expression twice: `time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code. 
 
 Let’s create a variable called hours.
 
 ```js
-const hours = +time.slice(0,2)
+function formatAs12HourClock(time) {
+   const hours = +time.slice(0,2);
 
-if (hours > 12) {
-	return `${hours - 12}:00 pm`
+   if (hours > 12) {
+      return `${hours - 12}:00 pm`
+   }
 }
 ```
+
+ℹ️ 
