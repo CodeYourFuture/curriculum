@@ -408,7 +408,7 @@ We can use a function called `slice`.
  
 ### 🏗️ Assembling the parts
 
-Now we can return to our conditional statement and write:
+Now we can return to our `if` statement and write:
 
 ```js
 if (+time.slice(0,2) > 12) {
