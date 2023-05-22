@@ -1,0 +1,10 @@
+{{ $src := .Inner }}
+{{ $videoID := delimit ((split $src "?v=") | last 1 ) "" "" }}
+<section class="c-block--youtube">
+  <div class="c-block__content">
+    <!-- register youtube player component -->
+    {{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
+    <script src="{{ $player.Permalink }}" defer></script>
+    <youtube-player data-video-id="{{ $videoID }}"></youtube-player>
+  </div>
+</section>
