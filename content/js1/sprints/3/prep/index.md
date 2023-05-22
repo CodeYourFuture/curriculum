@@ -71,7 +71,7 @@ This begs the question:
 > What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 
-### Boolean values
+### 1️⃣ 0️⃣ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. 
 Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations with those numbers.
@@ -278,26 +278,35 @@ console.assert(
 
 ### Describing the approach 
 
-So we need to go from the input "23:00" to "11:00pm"
-We can describe approach in steps:
+Our function works we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
 
-1. Get the hours from time "23:00", so access the 23
-2. Check the hours (23) are above 12 (midday),
-3. if true, then 
-   Convert to a number to get 23
-   Subtract 12 from the hours and add the rest of the time with "pm" on the end.
-3. if false, 
-   then return the time with am added to the end
+We need to describe our approach when dealing with the case of an input like `"23:00"`, when our function should return `"11:00pm"`.
 
-The approach described above involves running some **conditionally**. In other words, we must check if some condition is true and if so, execute some code. 
-We can start by writing out
+
+Earlier on we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
+
+_Before_ writing code, we can define our approach in steps:
+
+Starting with an input like `"23:00"`:
+
+```mermaid 
+
+flowchart TD
+
+A[Step 1: Extract the hours from the time '23:00', to get '23'] --> B[Step 2: Convert '23' to a number, to get 23]
+B --> C{Check: Are the hours greater than 12?}
+C -- true --> D[subtract 12 from the hours]
+D --> E[add the rest of the time with 'pm']
+E --> F[return the new time]
+```
+
+This approach involves running some **conditionally**. In this case, we're only going to continue doing something if the condition **hours are greater than 12** is `true`.
 
 
 ### Conditionally executing code
 
-
-We can start by writing an if statement:
-The condition will be evaluated to a boolean: if this is true then the code inside the curly braces will be executed. According to the approach above, we need to check that the hours are above 12. So we’ll need to access the first characters of the string.
+In programming, an `if` statement will execute some code when a given condition is `true`.  
+In JavaScript, we can write an `if` statement as follows:
 
 ```js {title="main.js"}
 if (condition) {
@@ -305,29 +314,60 @@ if (condition) {
 }
 ```
 
-We want to check that some value ( the hours ) is less than 12. We can use another comparison operator for this purpose: < operator. This will check if the value on the left of the operator is less than the value on the right of the operator. 
-So 
-3 < 12 would be true, as 3 is less than 12.
-So if we can create an expression for the hours from the time, then we can write a conditional statement as follows:
+The `if` statement consists of:
+1. `if` keyword: this is the start of the `if` statement
+2.  `(condition)`: some conditional expression that is wrapped in parentheses.
+3. `{}`: a block statement: any code we want to execute if the condition is true goes inside the curly braces here
+
+We can represent this with a diagram too:
+
+```mermaid
+
+flowchart TD
+    IC{condition}
+    IB[If Body]
+    EXIT([End of if statement])
+
+    IC --> |true| IB
+    IC -.-> |false| EXIT
+    IB --> EXIT
+
+```
+
+</br>
+</br>
+
+### Applying new knowledge
+
+So for `formatAs12HourClock` we said part of the strategy for handling "23:00" would involve the following check:  
+
+>   ❓ Check: Are the hours greater than 12?
+
+We want to check that some value hours value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.  
+So `3 > 12` would evaluate to be `false`, as 3 is not greater than 12.  
+So provided we have an expression for the hours from the time, then we can write a conditional statement as follows:
 
 ```js
 if (expressionsForHours < 12) {}
 ```
 
-> 🎯 Aim: Find an expression for the hours digits from the `time` 
+> 🎯 Aim: Find an expression for the hours digits from the `time` input 
 
 ### Accessing strings
 
 
-So given a string `"23:00"` we want to access the hours portion of the string - the _first 2 characters_ of the string. Strings are zero-indexed: we talk of characters being at a certain position in the string starting from zero and incrementing by one as we move to the right.
+So given a string `"23:00"` we want to access the hours portion of the string - the _first 2 characters_ of the string.
 
-Here are the positions for "`23:00"`
+We say that strings are **zero-indexed**.
+In this context, **index** means **position**, so **zero-indexed** means we start counting character positions from 0 onwards.
+
+Here are the positions/indexes for `"23:00"`
 
 |   index   |  0  |  1  | 2   | 3   | 4   |
 |:---------:|:---:|:---:|-----|-----|-----|
 | character | `"2"` | `"3"` | `":"` | `"0"` | `"0"` |
 
-In JavaScript, we can use square bracket notation to access specific characters in the string
+In JavaScript, we can use square bracket notation to access specific characters in the string using the index.
 
 ```js
 time[0] // evaluates to "2"
@@ -344,9 +384,9 @@ So we must use another method to extract _multiple_ characters from the given st
 
 ### Extracting a slice
 
-We can use a function called slice - a function that is accessed of the string itself in the following way:
+We can use a function called `slice`.
 
-[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. Slice will return a section of the string from the start index up to but not including the start index. 
+[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the start index. 
 
 
 `time // "23:00"`
@@ -358,8 +398,9 @@ We can use a function called slice - a function that is accessed of the string i
 | character | `"2"` | `"3"` |
 
 <br>
+<br>
  
-### Assembling the parts
+### 🏗️ Assembling the parts
 
 Now we can return to our conditional statement and write:
 
@@ -369,7 +410,20 @@ if (+time.slice(0,2) > 12) {
 }
 ```
 
-If the time is "23:00" then the condition +time.slice(0,2) > 12 will evaluate to true and the code inside the curly braces will be executed. Now we can format the string as with our approach from earlier:
+If the time is `"23:00"` then the condition `+time.slice(0,2) > 12` will evaluate to true and the code inside the curly braces will be executed. 
+
+It is important to note that this `if` statement is implementing this part of our diagram:
+
+```mermaid 
+
+flowchart TD
+
+A{Check: Are the hours greater than 12?}
+
+```
+
+
+Now we can format the string as with our approach from earlier:
 We’ll need to append "pm" to the string expression and subtract 12 from the hours. So we get the following:
 
 ```js
