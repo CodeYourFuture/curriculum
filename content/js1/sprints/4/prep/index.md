@@ -10,21 +10,18 @@ backlog_filter= 'Week 4'
 
 
 
-### Code specification
+### Counting words 🧮
 
-
-countWords 🧮
-
-Let's consider a function called countWords that needs to work as follows:
+Let's consider a function called `countWords` that needs to work as follows:
 
 - it takes one argument - a _string_ of words separated by spaces, e.g. `"hello world"`
 - returns an _number_ that counts each word in the string
 
-The points above form a specification of how the function countWords should behave - in other words, the specification is a description of how the function should work. Once we have a specification for how the function should work we can create many cases showing how we expect the function countWords to behave when it is called with certain inputs.
+The points above form a specification of how the function `countWords` should behave - in other words, the specification is a description of how the function should work. Once we have a specification for how the function should work we can create many cases showing how we expect the function `countWords` to behave when it is called with certain inputs.
 
 ### Describing functionality
 
-To implement a function like countWords we can try specifying simpler functionality and from there build up functionality. A simpler case is often one where the input is smaller or in some sense less complex. In the case of countWords, we could try counting multiple words at once - and this would work. However, we can often consider simpler test cases when we start working. 
+To implement a function like `countWords` we can try specifying simpler functionality and from there build up functionality. A simpler case is often one where the input is smaller or in some sense less complex. In the case of `countWords`, we could try counting multiple words at once - and this would work. However, we can often consider simpler test cases when we start working. 
 
 #### Case 1 💼
 
@@ -33,14 +30,14 @@ const input = "hello";
 const result = countWords(input);
 ```
 
-Check that countWords when called with input of “hello” should equal 1. 
-In example 1, input stores a string "hello" which we pass as an argument to countWords.
-We then store the return value of countWords in a variable called result.
+Check that `countWords` when called with input of “hello” should equal 1. 
+In example 1, input stores a string "hello" which we pass as an argument to `countWords`.
+We then store the return value of `countWords` in a variable called result.
 In this case, we expect the `result` to be 1.
 
 ### Using a test framework
 
-Our aim now is to write a test to check that countWords works as we described in the specification above.
+Our aim now is to write a test to check that `countWords` works as we described in the specification above.
 
 > 🔑 A test is any piece of code that checks a certain unit of code ( typically a function ) behaves in a particular way
 
@@ -66,8 +63,6 @@ Our project structure looks as follows:
 Project
 
 We’ll start by creating a test file. 
-
-
 
 We need to manage install and manage dependencies in the project. We’ll need to record our use of packages in the project. We can make use of a `package.json` file to track our project dependencies. We can create a package.json with the following command:
 
@@ -133,11 +128,11 @@ index.test.js
 test("one word string gives a count of 1", function () {});
 ```
 
-We need to write an assertion inside the body of function () {}
+We need to write an assertion inside the body of `function () {}`
 
 The assertion is the part of the test code that actually checks to see if something is true or not. In this example, we are claiming that the following is true:
 
-We expect countWords("hello") to be 1
+We expect `countWords("hello")` to be `1`
 
 An assertion in Jest looks like this:
 
@@ -145,7 +140,7 @@ An assertion in Jest looks like this:
 expect(countWords("hello")).toBe(1);
 ```
 
-The function toBe is used to check that the return value of countWords("hello") and 1 are equal to each other. toBe is just one example of a function called a matcher. we can use to compare values in Jest: we can consult the Jest documentation to find other functions depending on the situation. 
+The function `toBe` is used to check that the return value of `countWords("hello")` and `1` are equal to each other. `toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers). We can use to compare values in Jest: we can consult the Jest documentation to find other functions depending on the situation. 
 
 So we can combine this with the test we wrote earlier, to get our first complete test case:
 
@@ -210,25 +205,25 @@ Now when we run the test script again, we get different feedback:
 This time the console logs show an AssertionError.
 
 
-An AssertionError is a type of error that is thrown by the expect function when the assertion is false. So in this case, the rreturnn value of countWords is undefined and we expect it to equal 1. 
+An AssertionError is a type of error that is thrown by the expect function when the assertion is false. So in this case, the return value of `countWords` is undefined and we expect it to equal 1. 
 We can continue re-running our tests to get feedback on our code.
 
 Assertion Error diagram
 
 
-### Passing countWords
+### Passing `countWords`
 
-To make the test pass we can start moving in the right direction by declaring the function countWords. We can update index.test.js so we’ve got the following:
+To make the test pass we can start moving in the right direction by declaring the function `countWords`. We can update index.test.js so we’ve got the following:
 
 Index.test.js
 
 
-This is feedback is telling us that we expected to get an output of 1 but countWords is actually returning undefined. 
+This is feedback is telling us that we expected to get an output of 1 but `countWords` is actually returning undefined. 
 
 
-### Using an interface
+### 🕹️ Using an interface
 
-We’ve encountered several functions like console.log, Math.round before. Now we’ve also encountered test and `expect` from the Jest library. In this project, we’ve not implemented any of the previously mentioned functions; we only care how to use these functions in our project.
+We’ve encountered several functions like `console.log`, `Math.round` before. Now we’ve also encountered test and `expect` from the Jest library. In this project, we’ve not implemented any of the previously mentioned functions; we only care how to use these functions in our project.
 
 In programming, we continually make use of APIs:
 An API is an Application Programming Interface
@@ -246,7 +241,7 @@ We can write tests in many different ways. Sometimes developers may write additi
 ```js
 test("one word string gives a count of 1", function () {
   const input = "hello";
-  const actualResult = countWords(input);
+  const actualResult = `countWords`(input);
   const expectedResult = 1;
   expect(actualResult).toEqual(expectedResult);
 });
@@ -256,8 +251,8 @@ test("one word string gives a count of 1", function () {
 
 In this example, we're declaring some variables that will store values that we compare later on in the test.
 
-- We declare an input variable that stores a value that we will pass to the function we are testing - countWords.
-- We declare an actualResult variable that stores the return value of our function countWords.
+- We declare an input variable that stores a value that we will pass to the function we are testing - `countWords`.
+- We declare an actualResult variable that stores the return value of our function `countWords`.
 - We declare an expectedResult which stores what we expect the actualResult to be when our function behaves according to the test description.
 
 ℹ️
