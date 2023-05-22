@@ -40,8 +40,8 @@ We can write a short table summarising some of the times and how they are conver
 
 ### 🧩 Problem
 
-Let's suppose we have the following problem: given any time in 24 hour clock, we want to format it as 12 hour clock time.  
-To achieve this goal, we're going to implement a function `formatAs12HourClock` that will take any string representing a time in 24 hour clock and convert it to the corresponding time in 12 hour clock.
+Let's suppose we have the following problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
+To achieve this goal, we're going to implement a function `formatAs12HourClock` that will take any string representing the time in 24 hour clock and convert it to the corresponding time in 12 hour clock.
 
 
 > Given any string input representing a 24 hour clock time,  
@@ -51,32 +51,35 @@ To achieve this goal, we're going to implement a function `formatAs12HourClock` 
 ### ⚖️ Comparing output with expectation
 
 We can call functions and log their return values to the console. However we can also **compare** 2 values.
-Given the problem we stated above, whenever we call `formatAs12HourClock` we expect it to return a particular value.
-For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"8:00 am"`  
-Given the input "08:00", we want to compare the function `formatAs12HourClock`'s current return value with its expected output. 
 
-To compare 2 values or expressions in JavaScript, we can use a comparison operator `===` and write the following expression:
+
+Given the problem we stated above, whenever we call `formatAs12HourClock` we expect it to return a particular value.  
+For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"8:00 am"`. 
+We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"8:00 am"` and ask: **are these 2 values the same?**
+
+To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`.
+We can write an expression as follows:
 
 ```js
 formatAs12HourClock("08:00") === "8:00 am"
 ```
 
-`===` is the strictly equality operator: it will check the value on the left of the operaror and the value on the right to see if they’re the same. This begs the question:
-
+In the code above, `===` will check the value on the left of the operator and the value on the right to see if they’re the same.  
 In other words we can think of the expression above as saying:
 
-Does formatAs12HourClock("08:00") have the same value as "20:00" ?
+❓ Does formatAs12HourClock("08:00") have the same value as "20:00" ?
 
 This begs the question:
+
 > What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 
-### 1️⃣ 0️⃣ Boolean values
+### ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. 
-Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations with those numbers.
+Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations with those numbers.  
 However, if we're comparing values or expressions then we have one of 2 different states: true or false.
-This brings to the boolean data type: which has only values of `true` or `false`
+This brings us to the boolean data type: which has only values of `true` or `false`.
 
 Whenever we compare 2 expressions with a comparison operator then the comparison itself will evaluate to a boolean value: `true` or `false`.
 For example:
@@ -90,7 +93,7 @@ The comparison expression above is asking whether `42` has the same value as `10
 ### Writing an assertion
 
 
-Now that we can check the function’s output, we can write an **assertion**. 
+Now we have 2 new pieces of information: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
 > 🔑 An assertion is a check that our code behaves in a particular way: this check can either be `true` or `false`.
 
@@ -104,7 +107,7 @@ function formatAs12HourClock() {
 console.assert(formatAs12HourClock("08:00") === "20:00");
 ```
 
-The documentation for `console.assert` states that a message will be written to the console if the condition is false. We can see above that convertAs12HourClock("08:00") will evaluate to false so we’ll get an error printed to the console. 
+The documentation for `console.assert` states that a message will be written to the console if the condition is false. We can see above that `convertAs12HourClock("08:00")` will evaluate to false so we’ll get an error printed to the console. 
 It would be useful to have slightly more information as to why this assertion failed.
  We can pass additional arguments to console.assert:
 
@@ -136,7 +139,7 @@ We can tidy up the assertion even further. As we’re reusing the same expressio
 function formatAs12HourClock() {
 }
 
-const currentOutput = convertTo12HourClock("08:00");
+const currentOutput = formatAs12HourClock("08:00");
 const expectedOutput = "8:00 am";
 console.assert(
    currentOutput === expectedOutput,
@@ -294,10 +297,10 @@ Starting with an input like `"23:00"`:
 flowchart TD
 
 A[Step 1: Extract the hours from the time '23:00', to get '23'] --> B[Step 2: Convert '23' to a number, to get 23]
-B --> C{Check: Are the hours greater than 12?}
-C -- true --> D[subtract 12 from the hours]
-D --> E[add the rest of the time with 'pm']
-E --> F[return the new time]
+B --> C{Step 3\nCheck: Are the hours greater than 12?}
+C -- true --> D[Step 4: subtract 12 from the hours]
+D --> E[Step 5: add the rest of the time with 'pm']
+E --> F[Step 6: return the new time]
 ```
 
 This approach involves running some **conditionally**. In this case, we're only going to continue doing something if the condition **hours are greater than 12** is `true`.
@@ -376,7 +379,7 @@ time[2] // evaluates to ":"
 // etc
 ```
 
-We want to access the hours section of the string. If we can access "23" from the string time we can convert it to a number. 
+We want to access the hours section of the string. If we can access `"23"` from the string time we can convert it to a number. 
 
 However at the moment, square bracket access wil only give a single character.
 So we must use another method to extract _multiple_ characters from the given string,
@@ -422,9 +425,8 @@ A{Check: Are the hours greater than 12?}
 
 ```
 
-
-Now we can format the string as with our approach from earlier:
-We’ll need to append "pm" to the string expression and subtract 12 from the hours. So we get the following:
+Now we can format the string using our approach from earlier:
+we’ll need to append `"pm"` to the string expression and subtract 12 from the hours. So we get the following:
 
 ```js
 if (+time.slice(0,2) > 12) {
