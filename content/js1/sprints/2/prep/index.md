@@ -35,7 +35,7 @@ Math.round(3.141); // will output 3
 
 All these expressions above are _function calls_:  - we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. 
 
-In this case, we want to build functionality to convert any number to a percentage. WAs the previous examples indicate, we can build a function that will enable us to convert a specific number to a percentage. WSo given our problem above we can now say that we want to create a function that:
+In this case, we want to build functionality to convert any number to a percentage. As the previous examples indicate, we can build a function that will enable us to convert a specific number to a percentage. WSo given our problem above we can now say that we want to create a function that:
 
 
 - takes any number input
@@ -46,7 +46,10 @@ In this case, we want to build functionality to convert any number to a percenta
 ### Useful expressions
 
 
-We want to convert any number into a percentage string. However, it is often helpful to solve a problem in one specific instance before doing it in any case. LSo let’s consider how to convert just one number and consider how to convert it to a percentage. In programming, we always try the simplest thing first.Hopefully being able to do this for one number will help us to do this for any number later on.
+We want to convert any number into a percentage string. However, it is often helpful to solve a problem in one specific instance before doing it in any case.
+
+So let’s consider how to convert just one number and consider how to convert it to a percentage. In programming, we always try the simplest thing first.
+Hopefully being able to do this for one number will help us to do this for any number later on.
 Let’s consider the variable declaration below:
 
 ```js
@@ -54,7 +57,7 @@ const num = 0.5;
 ```
 
 
-WIn our code, we want to create an expression for the percentage using the value of num. 
+In our code, we want to create an expression for the percentage using the value of num. 
 To convert to a percentage, we can multiply the number by 100 and then add a `"%"` sign on the end.
 
 So we can write:
@@ -84,16 +87,15 @@ function convertToPercentage() {
 ```
 
 Then go through the different syntactic elements of the function declaration - including the function name. 
-Inside the curly braces, we can insert any number of javascript statements that we want to reuse. So we can wrap up the functionality we want to reuse inside the curly braces and write:
+Inside the curly braces, we can insert any number of javascript statements that we want to reuse.  
+So we can wrap up the functionality we want to reuse inside the curly braces and write:
 
-```js
+```js {linenos=table,hl_lines=[2,3],linenostart=1}
 function convertToPercentage() {
    const num = 0.5;
    const percentage = `${num * 100}%`;`
 }   
 ```
-
-Here we “wrap” up the expression in a naive way - without the return statement and with num declared inside the function declaration. 
 
 
 ### 🔎 Checking the output
@@ -129,7 +131,7 @@ However, we need to get a percentage from our function every time it is called.
 
 In the body of our function, we can write a return statement, specifying the value we want to output. We write a return statement as follows:
 
-```js
+```js {linenos=table,hl_lines=4,linenostart=1}
 function convertToPercentage() {
     const num = 0.5;
     const percentage = `${num * 100}%`;
@@ -260,7 +262,7 @@ To make this function reusable for any number, we need to introduce a parameter.
 
 We can write this as follows:
 
-```js
+```js {linenos=table,hl_lines=1,linenostart=1}
 function convertToPercentage(num) {
     const percentage = `${num * 100}%`;
     return percentage;
@@ -284,19 +286,18 @@ Root[What does the return keyword do?]
 
 ```
 
-### Local scope
+### 🔭 Local scope
 
 
 The variable `num` we described above is said to be in the local scope of `convertToPercentage`. 
 
 When we say a variable is in local scope we are saying that num is only accessible within the body of `convertToPercentage`, the section of code enclosed by curly braces. 
 
-We can prove that num is local to `convertToPercentage` by trying to reference num outside the body of `convertToPercentage`.
+We can prove that num is local to `convertToPercentage` by trying to reference `num` outside the body of `convertToPercentage`.
 
 Let’s consider the code in a slightly modified form:
 
-```js
-
+```js {linenos=table,hl_lines=4,linenostart=1}
 function convertToPercentage(num) {
     return `${num * 100}%`;
 }
