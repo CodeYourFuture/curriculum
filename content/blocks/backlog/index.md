@@ -12,7 +12,7 @@ vocabulary="Backlog"
 
 You will find your backlog in the [Backlog](../backlog/). This is a list of all the tickets for the module. You can also go week by week by looking in the sprint backlog.
 
-Copy the tickets you are working on to your own backlog. Organise your tickets on your board and move them to the right column as you work through them. It's a flowchart:
+Copy the tickets you are working on to your own backlog. Your backlog is stored as issues on your [Coursework Planner](https://github.com/CodeYourFuture/Coursework-Planner). Organise your tickets on your project board and move them to the right column as you work through them. It's a flowchart:
 
 ```mermaid
 flowchart LR
