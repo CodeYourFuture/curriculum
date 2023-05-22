@@ -50,11 +50,12 @@ To achieve this goal, we're going to implement a function `formatAs12HourClock` 
 
 ### ⚖️ Comparing output with expectation
 
-We can call functions and log their return values to the console. However we can also **compare** 2 values.
-
 
 Given the problem we stated above, whenever we call `formatAs12HourClock` we expect it to return a particular value.  
 For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"08:00 am"`. 
+
+We can call functions and log their return values to the console. However we can also **compare** 2 values.
+
 We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?**
 
 To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`.
@@ -157,11 +158,12 @@ Assertion failed: current output: undefined, expected output: 08:00 am
 
 Let’s consider the following problem: we want to convert any time in 24 hour clock to 12 hour clock. 
 
-The function is being passed a single argument so we can parametrise and label this input as time.
-According to our assertion we get an input of `"08:00"` and need to create output of `"8:00 am"`.
+The function is being passed a single argument so we can parametrise and label this input as `time`.  
+According to our assertion we get an input of `"08:00"` and need to create output of `"08:00 am"`.
 
-So we can start by accessing the string inside the function. So we’ll need to add "am" to the time and to get the required output. We can make use of a template literal and set the return value, and then re-run our assertion.
-We can continue checking our assertion to see if our function’s current behaviour meets our expectations.
+So we can start by accessing the string inside the function. So we’ll need to add `"am"` to the time to get the expected output.  
+We can make use of a template literal and set the return value, and then re-run our assertion.
+We can continually check our assertions to see if our function’s current behaviour meets our expectations.
 So we have the following:
 
 
@@ -181,11 +183,12 @@ console.assert(
 ```
 
 
-### Asserting more behaviour
+### Checking different cases
 
 
-So far we’ve only created assertions that check the function’s behaviour for times after midnight and before midday. In these cases, there is a clear pattern: 
-Take the current time and append the "am" string to the current time. 
+So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: 
+take the current time and append the `"am"` string to the current time.
+
 However, we need to assert the function behaves correctly cases when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`
 
 
@@ -242,7 +245,8 @@ We can make use of a block declaration as follows:
   StatementList 
 }
 ```
-A block is a set of curly braces in which we write any number of statements. As with function scope, block scope means that variables declared inside a given block are only accessible inside the given block. This means we can declare a variable with the same name in 2 different blocks and we won't get an error!
+
+A block is a region of code defined by a set of curly braces in which we write any number of statements. As with function scope, block scope means that variables declared inside a given block are only accessible inside the given region. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`.
 
 
 ```js title="problem.js"
@@ -252,7 +256,7 @@ function formatAs12HourClock(time) {
 
 {
 const currentOutput = formatAs12HourClock("08:00");
-const expectedOutput = "8:00 am";
+const expectedOutput = "08:00 am";
 console.assert(
    currentOutput === expectedOutput,
    "current output: %s, expected output: %s",
@@ -272,12 +276,18 @@ console.assert(
 );
 }
 ```
-✅ this code now doesn't error!
+
+So the second assertion fails with the following message:
+
+```bash
+Assertion failed: current output: 23:00 am, expected output: 11:00 pm
+```
+
 
 
 ### Describing the approach 
 
-Our function works we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
+Our function works when we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
 
 We need to describe our approach when dealing with the case of an input like `"23:00"`, when our function should return `"11:00 pm"`.
 
@@ -449,9 +459,9 @@ Now we can re-check our assertions from earlier to check our function behaves as
 
 The function’s output satisfies the assertions: in other words, our function’s current output matches with the expected output described in the previous assertions.
 
-However, at the moment, we’re making use of the same expression twice: `time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code. 
+However, at the moment, we’re making use of the same expression twice: `+time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code. 
 
-Let’s create a variable called hours.
+Let’s create a variable called `hours` and assign to it our expression.
 
 ```js
 function formatAs12HourClock(time) {
@@ -460,6 +470,7 @@ function formatAs12HourClock(time) {
    if (hours > 12) {
       return `${hours - 12}:00 pm`
    }
+   return `${time} am`
 }
 ```
 
