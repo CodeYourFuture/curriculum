@@ -34,14 +34,16 @@
           so, for each block, print the objectives only
         */}}
         {{ range $blocks }}
-          <section class="c-objectives">
-            <h3 class="c-objectives__title">
-              {{ .name }}
-            </h3>
-            {{ partial "block.html" (dict "block" . "Page"
-              $.Page)
-            }}
-          </section>
+          {{ if not "youtube" | in .Params.src }}
+            <section class="c-objectives">
+              <h3 class="c-objectives__title">
+                {{ .name }}
+              </h3>
+              {{ partial "block.html" (dict "block" . "Page"
+                $.Page)
+              }}
+            </section>
+          {{ end }}
         {{ end }}
       </section>
     </confetti-checkboxes>
