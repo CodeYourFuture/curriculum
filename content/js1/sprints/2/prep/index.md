@@ -33,6 +33,10 @@ And given the number 0.23 we should get "23%" and so forth.
 So we want to implement some functionality that will enable us to convert any given number into a percentage.
 Previously, we saw how to use some functions to perform a given task. Here are some examples:
 
+```js
+console.log("hello world");
+Math.round(3.141)
+```
 
 All these expressions above are function calls:  - we’re passing input to the functions, console.log or Math.round to use their functionality. 
 
@@ -46,17 +50,24 @@ In this case, we want to build functionality to convert any number to a percenta
 
 
 
-We want to convert any number into a percentage string. IHowever, it is often helpful to solve a problem in one specific instance before doing it in any case. LSo let’s consider how to convert just one number and consider how to convert it to a percentage. In programming, we always try the simplest thing first.Hopefully being able to do this for one number will help us to do this for any number later on.
+We want to convert any number into a percentage string. However, it is often helpful to solve a problem in one specific instance before doing it in any case. LSo let’s consider how to convert just one number and consider how to convert it to a percentage. In programming, we always try the simplest thing first.Hopefully being able to do this for one number will help us to do this for any number later on.
 Let’s consider the variable declaration below:
 
+```js
+const num = 0.5;
+```
 
 
 WIn our code, we want to create an expression for the percentage using the value of num. 
 To convert to a percentage, we can multiply the number by 100 and then add a "%" sign on the end.
 
-So we canould write
+So we can write:
 
- 
+```js
+const num = 0.5;
+const percentage = `${num * 100}%`;
+```
+
 
 Recalling template literals, the expression in the curly braces will be evaluated first and then inserted into the string, giving us the percentage string.
 
@@ -64,42 +75,55 @@ Recalling template literals, the expression in the curly braces will be evaluate
 
 ### Wrapping up functionality
 
-Can we take the expression we’ve created and wrap it up somehow so that it can be reused to convert any number into a percentage?
 
-
+Can we take the expression we’ve created and wrap it up somehow so that it can be reused to convert any number into a percentage?  
 We can take this unit of code and write a function declaration to reuse some given unit of code. A function declaration looks like this:
 
 
+```js
+function convertToPercentage() {
+
+}
+```
 
 Then go through the different syntactic elements of the function declaration - including the function name. 
 Inside the curly braces, we can insert any number of javascript statements that we want to reuse. So we can wrap up the functionality we want to reuse inside the curly braces and write:
 
-
-
+```js
+function convertToPercentage() {
+   const num = 0.5;
+   const percentage = `${num * 100}%`;`
+}   
+```
 
 Here we “wrap” up the expression in a naive way - without the return statement and with num declared inside the function declaration. 
 
 
-
 ### Checking the output
-
 
 
 Now we can call our function and store the output from the function.
 So we can write:
 
 
+```js
+const result = convertToPercentage(0.3);
+```
 
 Then we can print the value of the result to the terminal using console.log
 
+```js
+const result = convertToPercentage(0.3);
+console.log(result)
+```
 
 
 ### Undefined values
 
 
-When we log the value of the result to the terminal we get a new data type - undefined. Undefined is a data type used to represent the absence of some value. 
+When we log the value of the result to the terminal we get a new data type - undefined. `undefined` is a data type used to represent the absence of some value. 
 
-A function’s output is always undefined whenever we don’t set the output.
+A function’s output is always `undefined` whenever we don’t set the output.
 However, we need to get a percentage from our function every time it is called.
 
 
@@ -108,22 +132,38 @@ However, we need to get a percentage from our function every time it is called.
 
 In the body of our function, we can write a return statement, specifying the value we want to output. We write a return statement as follows:
 
+```js
+function convertToPercentage() {
+    const num = 0.5;
+    const percentage = `${num * 100}%`;
+    return percentage; 
+}
+```
 
 
 Now that our function contains a return statement we can re-run our script to check the output.
-Calling with different arguments
+
+### Calling with different arguments
+
+
+```js
+console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.3));
+```
 
 
 
 Now we have a function declaration we can check if our function works for any number. If we call the function with different arguments, we should get different corresponding outputs each time.
 So we can call our function several times:
 
+```bash
+50%
+50%
+```
 
 
-When we execute the code we expect to see “50%” and “23%”.
+When we execute the code we expect to see `"50%"` and `"23%"`.
 However, at the moment, our console output isn’t quite the same. See the diagram below:
-
-
 
 
 ### Code runtime
@@ -139,14 +179,30 @@ To understand how our function currently behaves we must start building a mental
 Let’s start by looking at our code:
 
 
+```js
+function convertToPercentage() {
+    const num = 0.5;
+    const percentage = `${num * 100}%`;
+    return percentage;
+}
+
+console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.23));
+```
+
+
 ### Storing things in memory
 
 Mention that convertToPercentage is stored in memory at first ( but not executed )
 
 ### Order of function calls
 
-Still needs fleshing out here. Talk about entering convertToPercentage first and running the code in there. There is no explicit need to mention the call stack here, but we are preparing the ground. The entry point will involve examining what happens with the expression:
+Still needs fleshing out here. Talk about entering `convertToPercentage` first and running the code in there. There is no explicit need to mention the call stack here, but we are preparing the ground. The entry point will involve examining what happens with the expression:
 
+
+```js
+console.log(convertToPercentage(0.5));
+```
 
 
 In other words, how do we make sense of expressions of form f(g()) at runtime ( but not phrased in so technical terms!! )
@@ -155,9 +211,7 @@ In other words, how do we make sense of expressions of form f(g()) at runtime ( 
 ### Top to bottom
 
 
-
 Still needs fleshing out here. Talk about running code in the function line by line from top to bottom ( this is more recap )
-
 
 
 ### Returning from a function
@@ -186,7 +240,7 @@ Good place for an activity inviting trainees to step through this line of code t
 
 ### Generalising functionality 
 
-The variable num gets recreated and set to 0.5 every time we call the function convertToPercentage. So we need a way to access the input passed to the function each time. This will allow us to generalise our functionality: in other words, we’ll be able to reuse this function for any number we like.
+The variable num gets recreated and set to 0.5 every time we call the function `convertToPercentage`. So we need a way to access the input passed to the function each time. This will allow us to generalise our functionality: in other words, we’ll be able to reuse this function for any number we like.
 
 
 ### Parameterising a function
@@ -198,23 +252,38 @@ To make this function reusable for any number, we need to introduce a parameter.
 
 We can write this as follows:
 
+```js
+function convertToPercentage(num) {
+    const percentage = `${num * 100}%`;
+    return percentage;
+}
+```
 
-
-
-This time we have a difference in that we have defined a parameter num in the function declaration of convertToPercentage. In our current mental model, a function call means going to convertToPercentage and running the code inside the function.
+This time we have a difference in that we have defined a parameter num in the function declaration of `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
 
 🔑 We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
 
 ### Local scope
 
 
-The variable num we described above is said to be in the local scope of convertToPercentage. 
+The variable num we described above is said to be in the local scope of `convertToPercentage`. 
 
-When we say a variable is in local scope we are saying that num is only accessible within the body of convertToPercentage, the section of code enclosed by curly braces. 
+When we say a variable is in local scope we are saying that num is only accessible within the body of `convertToPercentage`, the section of code enclosed by curly braces. 
 
-We can prove that num is local to convertToPercentage by trying to reference num outside the body of convertToPercentage.
+We can prove that num is local to `convertToPercentage` by trying to reference num outside the body of `convertToPercentage`.
 
 Let’s consider the code in a slightly modified form:
+
+```js
+
+function convertToPercentage(num) {
+    return `${num * 100}%`;
+}
+console.log(num);
+
+console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.23));
+```
 
 In this situation, num is a local variable and we’re attempting to reference it outside of convertToPercentage. 
 
