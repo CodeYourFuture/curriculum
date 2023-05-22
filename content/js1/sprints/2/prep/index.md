@@ -32,7 +32,7 @@ Math.round(3.141); // will output 3
 
 All these expressions above are _function calls_:  - we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. 
 
-In this case, we want to build functionality to convert any number to a percentage. As the previous examples indicate, we can build a function that will enable us to convert a specific number to a percentage. WSo given our problem above we can now say that we want to create a function that:
+In this case, we want to build functionality to convert any number to a percentage. As the previous examples indicate, we can build a function that will enable us to convert a specific number to a percentage. So given our problem above we can now say that we want to create a function that:
 
 
 - takes any number input
@@ -212,7 +212,7 @@ console.log(convertToPercentage(0.5));
 Still needs fleshing out here. Talk about running code in the function line by line from top to bottom ( this is more recap )
 
 
-### ✉️ Returning from a function
+### 📥 Returning from a function
 
 
 Earlier we defined output for the function by writing a return statement and setting a return value.
@@ -230,6 +230,8 @@ Root[What does the return keyword do?]
     D[Return to the place where the function was called]
 ```
 
+<br>
+<br>
 
 ### Logging the output
 
@@ -266,9 +268,9 @@ function convertToPercentage(num) {
 }
 ```
 
-This time we have a difference in that we have defined a parameter num in the function declaration of `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
+This time we have a difference in that we have defined a parameter `num` in the function declaration inside parentheses after the function name `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
 
-🔑 We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
+We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
 
 
 ```mermaid
