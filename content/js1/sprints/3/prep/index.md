@@ -283,8 +283,6 @@ So the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ```
 
-
-
 ### Describing the approach 
 
 Our function works when we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
