@@ -12,9 +12,8 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 +++
 
 
-Week 2
 
-Motivation
+### Motivation
 
 In this section, I think we want to focus on starting to develop the following mental models:
 🧵"Let's build a mental model to understand what I want a computer to do vs what it is actually doing"
@@ -22,7 +21,7 @@ In this section, I think we want to focus on starting to develop the following m
 
 
 
-Defining a problem
+### Defining a problem
 
 
 Given a number I want to convert it into a percentage format.
@@ -30,21 +29,15 @@ Given a number I want to convert it into a percentage format.
 For example, given the number 0.5 we should get "50%"
 And given the number 0.23 we should get "23%" and so forth.
 
-Restating the problem
+
+### Restating the problem
 
 
-
-WSo we want to implement some functionality that will enable us to convert any given number into a percentage.
+So we want to implement some functionality that will enable us to convert any given number into a percentage.
 Previously, we saw how to use some functions to perform a given task. Here are some examples:
 
 
-
-
-
 All these expressions above are function calls:  - we’re passing input to the functions, console.log or Math.round to use their functionality. 
-
-
-
 
 In this case, we want to build functionality to convert any number to a percentage. WAs the previous examples indicate, we can build a function that will enable us to convert a specific number to a percentage. WSo given our problem above we can now say that we want to create a function that:
 - takes any number input
@@ -52,7 +45,7 @@ In this case, we want to build functionality to convert any number to a percenta
 - in percentage form. 
 
 
-Useful expressions
+### Useful expressions
 
 
 
@@ -72,7 +65,7 @@ Recalling template literals, the expression in the curly braces will be evaluate
 
 
 
-Wrapping up functionality
+### Wrapping up functionality
 
 Can we take the expression we’ve created and wrap it up somehow so that it can be reused to convert any number into a percentage?
 
@@ -91,7 +84,7 @@ Here we “wrap” up the expression in a naive way - without the return stateme
 
 
 
-Checking the output
+### Checking the output
 
 
 
@@ -104,9 +97,7 @@ Then we can print the value of the result to the terminal using console.log
 
 
 
-
-
-Undefined values
+### Undefined values
 
 
 When we log the value of the result to the terminal we get a new data type - undefined. Undefined is a data type used to represent the absence of some value. 
@@ -115,7 +106,7 @@ A function’s output is always undefined whenever we don’t set the output.
 However, we need to get a percentage from our function every time it is called.
 
 
-Setting an output
+### Setting an output
 
 
 In the body of our function, we can write a return statement, specifying the value we want to output. We write a return statement as follows:
@@ -138,7 +129,7 @@ However, at the moment, our console output isn’t quite the same. See the diagr
 
 
 
-Code runtime
+### Code runtime
 
 To understand how our function currently behaves we must start building a mental model to understand how our code is executed during runtime. Our current mental model may consist of the following notions:
 
@@ -151,14 +142,11 @@ To understand how our function currently behaves we must start building a mental
 Let’s start by looking at our code:
 
 
-
-
-
-Storing things in memory
+### Storing things in memory
 
 Mention that convertToPercentage is stored in memory at first ( but not executed )
 
-Order of function calls
+### Order of function calls
 
 Still needs fleshing out here. Talk about entering convertToPercentage first and running the code in there. There is no explicit need to mention the call stack here, but we are preparing the ground. The entry point will involve examining what happens with the expression:
 
@@ -167,7 +155,7 @@ Still needs fleshing out here. Talk about entering convertToPercentage first and
 In other words, how do we make sense of expressions of form f(g()) at runtime ( but not phrased in so technical terms!! )
 
 
-Top to bottom
+### Top to bottom
 
 
 
@@ -175,7 +163,7 @@ Still needs fleshing out here. Talk about running code in the function line by l
 
 
 
-Returning from a function
+### Returning from a function
 
 
 Earlier we defined output for the function by writing a return statement and setting a return value. However, the return keyword also has additional consequences. As well as defining the output, it also indicates where we go next during runtime. The return keyword indicates we stop executing inside the current function and return to the location where the function was originally called.
@@ -186,26 +174,25 @@ Exit the currently executing function
 Return to the place where the function was called
 
 
-
-
-Logging the output
+### Logging the output
 
 
 Mention here that we return out of the function and then make a call to console.log and hence get an output printed to the terminal.
 
 
-Stepping through again
+### Stepping through again
 
 Now we reach the line with the same form:
 
 Good place for an activity inviting trainees to step through this line of code themselves in a similar fashion.
 
 
-Generalising functionality 
+### Generalising functionality 
 
 The variable num gets recreated and set to 0.5 every time we call the function convertToPercentage. So we need a way to access the input passed to the function each time. This will allow us to generalise our functionality: in other words, we’ll be able to reuse this function for any number we like.
 
-Parameterising a function
+
+### Parameterising a function
 
 To make this function reusable for any number, we need to introduce a parameter.
 
@@ -219,9 +206,10 @@ We can write this as follows:
 
 This time we have a difference in that we have defined a parameter num in the function declaration of convertToPercentage. In our current mental model, a function call means going to convertToPercentage and running the code inside the function.
 
-🔑We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
+🔑 We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
 
-Local scope
+### Local scope
+
 
 The variable num we described above is said to be in the local scope of convertToPercentage. 
 
@@ -231,13 +219,9 @@ We can prove that num is local to convertToPercentage by trying to reference num
 
 Let’s consider the code in a slightly modified form:
 
-
-
 In this situation, num is a local variable and we’re attempting to reference it outside of convertToPercentage. 
 
-
-
-Runtime errors
+### Runtime errors
 
 
 In the situation above, the runtime will throw an error. This means that the execution of the program will stop and we’ll get an error message telling us why the program execution was terminated. 
