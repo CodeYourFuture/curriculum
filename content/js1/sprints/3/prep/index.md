@@ -27,7 +27,7 @@ We can write a short table summarising some of the times and how they are conver
 
 |   Time in 24 hour clock   |   Time in 12 hour clock   |
 |---------------------------|---------------------------|
-|           09:00           |          9:00 am          |
+|           09:00           |          09:00 am          |
 |           10:00           |          10:00 am         |
 |           11:00           |          11:00 am         |
 |           12:00           |          12:00 pm         |
@@ -157,7 +157,10 @@ Assertion failed: current output: undefined, expected output: 08:00 am
 
 Let’s consider the following problem: we want to convert any time in 24 hour clock to 12 hour clock. 
 
-The function is being passed a single argument so we can parametrise and label this input as time. According to our assertion we get an input of "08:00" and need to create output of "8:00 am". So we can start by accessing the string inside the function. So we’ll need to add "am" to the time and to get the required output. We can make use of a template literal and set the return value, and then re-run our assertion.
+The function is being passed a single argument so we can parametrise and label this input as time.
+According to our assertion we get an input of `"08:00"` and need to create output of `"8:00 am"`.
+
+So we can start by accessing the string inside the function. So we’ll need to add "am" to the time and to get the required output. We can make use of a template literal and set the return value, and then re-run our assertion.
 We can continue checking our assertion to see if our function’s current behaviour meets our expectations.
 So we have the following:
 
@@ -168,7 +171,7 @@ function convertTo12HrClock(time) {
 }
 
 const currentOutput = convertTo12HrClock("08:00");
-const expectedOutput = "8:00 am";
+const expectedOutput = "08:00 am";
 console.assert(
    currentOutput === expectedOutput,
    "current output: %s, expected output: %s",
@@ -178,20 +181,12 @@ console.assert(
 ```
 
 
-The current output is 
-
-
-This is very close! However, the hours still has a zero in front of the function’s current output.
-One approach can be to access the hours section of the string. 
-
-
-
-### Asserting more cases
+### Asserting more behaviour
 
 
 So far we’ve only created assertions that check the function’s behaviour for times after midnight and before midday. In these cases, there is a clear pattern: 
 Take the current time and append the "am" string to the current time. 
-However, we need to assert the function behaves correctly cases when the time is later than midday. Let’s create an assertion for our function when passed an input of "23:00"
+However, we need to assert the function behaves correctly cases when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`
 
 
 ```js title="problem.js"
@@ -283,7 +278,7 @@ console.assert(
 
 Our function works we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
 
-We need to describe our approach when dealing with the case of an input like `"23:00"`, when our function should return `"11:00pm"`.
+We need to describe our approach when dealing with the case of an input like `"23:00"`, when our function should return `"11:00 pm"`.
 
 
 Earlier on we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
