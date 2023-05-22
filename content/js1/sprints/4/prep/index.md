@@ -9,7 +9,6 @@ backlog_filter= 'Week 4'
 +++
 
 
-
 ### Counting words 🧮
 
 Let's consider a function called `countWords` that needs to work as follows:
@@ -99,11 +98,9 @@ project
 └── node_modules
 ```
 
-### 🧪  Setting up a test case
+### 🧪 Setting up a test case
 
 We want to set up a test case to check the following behaviour:
-
-
 
 Let’s suppose we start with a project as follows: we have the following files in our project folder. We can create a file called count-words.js and in there write our first test. We can figure out how to write this test using the Jest documentation. We can start writing a test:
 
@@ -116,7 +113,7 @@ test("one word string gives a count of 1", function () {});
 The test function takes 2 arguments:
 A test description - "will count the number of words for a single word string", which describes the behaviour we expect in this particular test
 
-a function () {} in which we will write our test code.
+a `function () {}` in which we will write our test code.
 
 ### Creating assertions
 
@@ -146,11 +143,12 @@ So we can combine this with the test we wrote earlier, to get our first complete
 
 ```js
 test("one word string gives a count of 1", function () {
-   expect(countWords("hello")).toBe(1)
+         expect(countWords("hello")).toBe(1)
 });
 ```
 
-### Running tests
+
+### 👟 Running tests
 
 We can try running the file index.test.js with node in the following way:
 node index.test.js but we get a ReferenceError. This is because test isn’t defined anywhere in the file. So we need to run the file so we can reference the functions that make up the Jest API.
@@ -202,20 +200,20 @@ Jest has “captured” the underlying error in order and resurfaced it in the c
 To fix the `ReferenceError` we can declare the function `countWords`.
 
 Now when we run the test script again, we get different feedback:
-This time the console logs show an AssertionError.
+This time the console logs show an `AssertionError`.
 
 
-An AssertionError is a type of error that is thrown by the expect function when the assertion is false. So in this case, the return value of `countWords` is undefined and we expect it to equal 1. 
+An `AssertionError` is a type of error that is thrown by the expect function when the assertion is false.  
+So in this case, the return value of `countWords` is undefined and we expect it to equal 1. 
 We can continue re-running our tests to get feedback on our code.
 
 Assertion Error diagram
-
 
 ### Passing `countWords`
 
 To make the test pass we can start moving in the right direction by declaring the function `countWords`. We can update index.test.js so we’ve got the following:
 
-Index.test.js
+index.test.js
 
 
 This is feedback is telling us that we expected to get an output of 1 but `countWords` is actually returning undefined. 
@@ -248,7 +246,6 @@ test("one word string gives a count of 1", function () {
 ```
 
 
-
 In this example, we're declaring some variables that will store values that we compare later on in the test.
 
 - We declare an input variable that stores a value that we will pass to the function we are testing - `countWords`.
@@ -259,9 +256,8 @@ In this example, we're declaring some variables that will store values that we c
 It's important to note that the test here and the one above it are checking the same thing. The variables are just being used to make the test easier to understand for ourselves and other developers.
 ℹ️
 
+After making our first test pass, we can continue to write more test cases to check the function’s output with different inputs. 
 
-After making our first test pass, we can continue to write more test cases to chck the function’s output with different inputs. 
-Understanding test feedback
 
 Consider an extract from the test file `countWords.test.js`
 
@@ -288,8 +284,6 @@ We can see the test feedback is telling us that `received` is `undefined`. In ot
 
 
 ### Implementing further functionality
-
-
 
 
 
