@@ -3,7 +3,7 @@ import { basicSetup } from "codemirror";
 import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 
-const containers = document.querySelectorAll(".cm6");
+const containers = document.querySelectorAll("[data-cm-editor]");
 
 containers.forEach((container) => {
   const view = new EditorView({
