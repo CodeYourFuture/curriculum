@@ -1,4 +1,6 @@
 .c-tabs {
+  display: block;
+  margin-bottom: var(--theme-spacing--6);
   &__list {
     display: flex;
   }
