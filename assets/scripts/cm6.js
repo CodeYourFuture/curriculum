@@ -12,6 +12,7 @@ containers.forEach((container) => {
       basicSetup,
       // Enable indenting via Tab, see https://codemirror.net/examples/tab/
       keymap.of([indentWithTab]),
+      theme(),
       // Enable JS specific features
       javascript(),
     ],
@@ -27,3 +28,11 @@ containers.forEach((container) => {
   container.after(view.dom);
   container.remove();
 });
+
+function theme() {
+  return EditorView.baseTheme({
+    "&.cm-editor": {
+      fontSize: "1rem",
+    },
+  });
+}
