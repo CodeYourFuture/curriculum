@@ -1,0 +1,29 @@
+.c-tabs {
+  &__list {
+    display: flex;
+  }
+  &__link {
+    padding: var(--theme-spacing--1) var(--theme-spacing--2);
+    line-height: 2.25;
+    &.is-active {
+      background: var(--theme-color--block);
+      box-shadow: var(--theme-box-shadow);
+    }
+  }
+  &__group {
+    display: grid;
+    grid-template: "tab";
+    @include block(thin, true, true, true);
+  }
+  &__panel {
+    grid-area: tab;
+    padding: var(--theme-spacing--gutter);
+    @include block(thin, true, true, true);
+    border-top-left-radius: 0;
+    opacity: 0;
+
+    &.is-active {
+      opacity: 1;
+    }
+  }
+}
