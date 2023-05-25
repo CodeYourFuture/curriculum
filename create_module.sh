@@ -39,6 +39,7 @@ emoji= '📝'
 menu_level = ['module']
 weight = $MENU_ORDER
 backlog= 'Module-$MODULE_NAME'
+backlog_filter= '$MODULE_NAME'
 +++
 
 " > $MODULE_DIR/$file/index.md
