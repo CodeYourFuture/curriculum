@@ -38,27 +38,31 @@ We can write a short table summarising some of the times and how they are conver
 </br>
 </br>
 
+Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
+
 ### 🧩 Problem
 
-Let's suppose we have the following problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
-To achieve this goal, we're going to implement a function `formatAs12HourClock` that will take any string representing the time in 24 hour clock and convert it to the corresponding time in 12 hour clock.
+Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
+To achieve this goal, we're going to implement a function `formatAs12HourClock`.
 
-
-> Given any string input representing a 24 hour clock time,  
-> when this input is passed to `formatAs12HourClock`,  
-> it should return the time in 12 hour clock format
+> `formatAs12HourClock` is a function that should take any string representing the time in 24 hour clock 
+and return the corresponding time in 12 hour clock.
+> Examples:  
+>       `formatAs12HourClock("09:00")` should return `"09:00 am"`  
+>      `formatAs12HourClock("14:00")` should return `"2:00 pm"` 
 
 ### ⚖️ Comparing output with expectation
 
 
-Given the problem we stated above, whenever we call `formatAs12HourClock` we expect it to return a particular value.  
-For example, we expect `formatAs12HourClock("08:00")` to have a return value of `"08:00 am"`. 
+Whenever we call `formatAs12HourClock` we expect it to return a particular value.  
+For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. 
 
 We can call functions and log their return values to the console. However we can also **compare** 2 values.
 
-We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?**
+We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?** This is very useful whenever we want to check that our code behaves in the way we expect.
 
-To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`.
+To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
+
 We can write an expression as follows:
 
 ```js
@@ -66,9 +70,10 @@ formatAs12HourClock("08:00") === "8:00 am"
 ```
 
 In the code above, `===` will check the value on the left of the operator and the value on the right to see if they’re the same.  
-In other words we can think of the expression above as saying:
 
-❓ Does formatAs12HourClock("08:00") have the same value as "20:00" ?
+We can think of `formatAs12HourClock("08:00") === "8:00 am"`
+as being like the question:  
+Does `formatAs12HourClock("08:00")` have the same value as `"20:00"` ?
 
 This begs the question:
 
@@ -79,7 +84,8 @@ This begs the question:
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. 
 Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations with those numbers.  
-However, if we're comparing values or expressions then we have one of 2 different states: true or false.
+However, if we're comparing values or expressions then we have one of 2 different states: **true** or **false**.
+
 This brings us to the boolean data type: which has only values of `true` or `false`.
 
 Whenever we compare 2 expressions with a comparison operator then the comparison itself will evaluate to a boolean value: `true` or `false`.
@@ -89,17 +95,20 @@ For example:
 42 === 10 + 32
 // evaluates to true
 ```
-The comparison expression above is asking whether `42` has the same value as `10 + 32`. These values are the same when we evaluate them: so the whole comparison expression evaluates to `true`.
+
+
+The comparison expression above is asking whether `42` has the same value as `10 + 32`.
+
 
 ### Writing an assertion
 
 
 Now we have 2 new pieces of information: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
-> 🔑 An assertion is a check that our code behaves in a particular way: this check can either be `true` or `false`.
+> 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either be `true` or `false`.
 
-Up to now we've access the log function off `console`.
-However, we can also access `assert` to write assertions other than log. We can use console.assert:
+Up to now we've used the log function off `console`.
+However, we can also write assertions using another function: `console.assert`. Let's look at an example using `console.assert`:
 
 
 ```js
@@ -108,9 +117,12 @@ function formatAs12HourClock() {
 console.assert(formatAs12HourClock("08:00") === "20:00");
 ```
 
-The documentation for `console.assert` states that a message will be written to the console if the condition is false. We can see above that `convertAs12HourClock("08:00")` will evaluate to false so we’ll get an error printed to the console. 
-It would be useful to have slightly more information as to why this assertion failed.
- We can pass additional arguments to console.assert:
+The documentation for `console.assert` states that a message will be written to the console if the condition is `false`.
+
+We can see above that `convertAs12HourClock("08:00")` will evaluate to `false` so we’ll get an error printed to the console. 
+
+It would be useful to have more information as to why this assertion failed.
+We can pass additional arguments to `console.assert`:
 
 
 ```js
@@ -133,10 +145,10 @@ Let's break down these arguments to make sense of what's going on:
 
 4. 4th argument - `"20:00"` - this value will get substituted into the message string at the second "%d"
 
-We can tidy up the assertion even further. As we’re reusing the same expressions and values, we should store these in variable and refer to these variables again.
+We can tidy up the assertion even further. As we’re reusing the same expressions and values, we should store these in variables and refer to them again:
 
 
-```js
+```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {
 }
 
@@ -156,18 +168,26 @@ Now we get a log in the console:
 Assertion failed: current output: undefined, expected output: 08:00 am
 ```
 
-Let’s consider the following problem: we want to convert any time in 24 hour clock to 12 hour clock. 
 
-The function is being passed a single argument so we can parametrise and label this input as `time`.  
+On line 4, the function is being passed a single argument `"08:00"` so we can parametrise the function and label this input as `time`:
+
+```js
+function formatAs12HourClock(time) {
+
+}
+```
+
 According to our assertion we get an input of `"08:00"` and need to create output of `"08:00 am"`.
 
-So we can start by accessing the string inside the function. So we’ll need to add `"am"` to the time to get the expected output.  
-We can make use of a template literal and set the return value, and then re-run our assertion.
-We can continually check our assertions to see if our function’s current behaviour meets our expectations.
+So we can add `"am"` to the `time` to get the expected output.
+We can make use of a template literal and set the return value, and then _re-run_ our assertion to check the function is returning the correct value.
+
+📓 We can continually check our assertions to see if our function’s current behaviour meets our expectations.
+
 So we have the following:
 
 
-```js title="problem.js"
+```js {linenos=table,linenostart=1}
 function formatAs12HourClock(time) {
    return `${time} am`
 }
@@ -181,18 +201,18 @@ console.assert(
     expectedOutput
 );
 ```
+✅ Nothing is printed to the console, so this assertion is working 😎
 
 
 ### Checking different cases
 
 
-So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: 
-take the current time and append the `"am"` string to the current time.
+So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: take the current time and add `"am"` to the end.
 
-However, we need to assert the function behaves correctly cases when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`
+However, we need to assert the function behaves correctly in cases when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
 
 
-```js title="problem.js"
+```js  {linenos=table,linenostart=1,hl_lines=["15-22"]}
 function formatAs12HourClock(time) {
    return `${time} am`
 }
@@ -217,7 +237,6 @@ console.assert(
 );
 ```
 
-
 ### Reusing variable names
 
 When we run the file with Node, we get an error in the console:
@@ -238,7 +257,7 @@ We want to do multiple assertions whilst using the same variables.
 
 ### Block scope
 
-We can make use of a block declaration as follows:
+To reuse variable names, we can make use of a block declaration as follows:
 
 ```js
 {
@@ -246,7 +265,9 @@ We can make use of a block declaration as follows:
 }
 ```
 
-A block is a region of code defined by a set of curly braces in which we write any number of statements. As with function scope, block scope means that variables declared inside a given block are only accessible inside the given region. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`.
+🔑 A **block** is a region of code defined by a set of curly braces in which we write any number of statements.
+
+ As with function scope, block scope means that variables declared inside a given block are only accessible inside the given region. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`.
 
 
 ```js title="problem.js"
@@ -283,12 +304,26 @@ So the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ```
 
-### Describing the approach 
+### Branching out
 
-Our function works when we pass an input a time in the morning like `"08:00"`. In this case, the function returns `"08:00am"` as expected.
+Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
+However, at the moment `formatAs12HourClock("23:00")` returns `"11:00 am"`.
 
-We need to describe our approach when dealing with the case of an input like `"23:00"`, when our function should return `"11:00 pm"`.
+> 💡 In this situation, we need to do something different when the time is after midday. So essentially we need to do something differently when the time is beyond midday.
 
+We could express this idea in a diagram:
+
+```mermaid 
+
+flowchart LR
+
+A{Is the time before midday?} -- true --> B[Add am to time string]
+A -- false --> C[???]
+```
+
+### Describing the approach
+
+We then need to describe our approach when dealing with an input which is after midday.
 
 Earlier on we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
 
@@ -302,8 +337,8 @@ flowchart TD
 
 A[Step 1: Extract the hours from the time '23:00', to get '23'] --> B[Step 2: Convert '23' to a number, to get 23]
 B --> C{Step 3\nCheck: Are the hours greater than 12?}
-C -- true --> D[Step 4: subtract 12 from the hours]
-D --> E[Step 5: add the rest of the time with 'pm']
+C -- true --> D[Step 4: subtract 12 from the hours, to get 11]
+D --> E[Step 5: add the rest of the time with 'pm', to get '11:00 pm']
 E --> F[Step 6: return the new time]
 ```
 
@@ -330,14 +365,13 @@ We can represent this with a diagram too:
 
 ```mermaid
 
-flowchart TD
+flowchart LR
     IC{condition}
-    IB[If Body]
+    IB[Execute code in body]
     EXIT([End of if statement])
     IC --> |true| IB
     IC -.-> |false| EXIT
     IB --> EXIT
-
 ```
 
 </br>
@@ -349,12 +383,15 @@ So for `formatAs12HourClock` we said part of the strategy for handling "23:00" w
 
 >  Check: Are the hours greater than 12?
 
-We want to check that some value hours value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.  
-So `3 > 12` would evaluate to be `false`, as 3 is not greater than 12.  
+We want to check that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.
+So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`. 
+
 So provided we have an expression for the hours from the time, then we can write a conditional statement as follows:
 
 ```js
-if (expressionsForHours < 12) {}
+if (expressionsForHours < 12) {
+   // do code to format the 12 hours 
+}
 ```
 
 > 🎯 Aim: Find an expression for the hours digits from the `time` input 
@@ -362,10 +399,10 @@ if (expressionsForHours < 12) {}
 ### Accessing strings
 
 
-So given a string `"23:00"` we want to access the hours portion of the string - the _first 2 characters_ of the string.
+Given a `time` string we need to access the _first 2 characters_ of the string which represent the hours.
 
-We say that strings are **zero-indexed**.
-In this context, **index** means **position**, so **zero-indexed** means we start counting character positions from 0 onwards.
+Strings are **zero-indexed**.
+**Index** means **position**, so **zero-indexed** means we start counting character positions from `0` onwards.
 
 Here are the positions/indexes for `"23:00"`
 
@@ -382,33 +419,50 @@ time[2] // evaluates to ":"
 // etc
 ```
 
-We want to access the hours section of the string. If we can access `"23"` from the string time we can convert it to a number. 
-
 However at the moment, square bracket access wil only give a single character.
-So we must use another method to extract _multiple_ characters from the given string,
+So we must use another method to extract _multiple_ characters from the given string.
 
 
 ### Extracting a slice
 
 We can use a function called `slice`.
 
-[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the start index. 
+[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the start index.
+
+```js
+time // holds the value "23:00"
+```
+```js
+time.slice(0,2) // will access the characters below
+```
 
 
-`time // "23:00"`
-
-`time.slice(0,2)` will access the characters below:
- 
 |   index   |  0  |  1  | 
 |:---------:|:---:|:---:|
 | character | `"2"` | `"3"` |
+
+
+So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. We can use the `+` operator to convert strings to numbers by writing the following:
+
+```js
++time.slice(0,2); // evaluates to 23
+```
+
 
 <br>
 <br>
  
 ### 🏗️ Assembling the parts
 
-Now we can return to our `if` statement and write:
+Earlier we had an `if` statement in the form:
+
+```js
+if (expressionForHours > 12) {
+
+}
+```
+
+So now we've found an expression for the `hours` using `slice`, we can write:
 
 ```js
 if (+time.slice(0,2) > 12) {
@@ -416,9 +470,9 @@ if (+time.slice(0,2) > 12) {
 }
 ```
 
-If the time is `"23:00"` then the condition `+time.slice(0,2) > 12` will evaluate to true and the code inside the curly braces will be executed. 
+If the time is `"23:00"` then the condition `+time.slice(0,2) > 12` will evaluate to `true` and the code inside the curly braces will be executed. 
 
-It is important to note that this `if` statement is implementing this part of our diagram:
+This `if` statement is implementing the following part of the diagram from earlier:
 
 ```mermaid 
 
@@ -449,7 +503,7 @@ E --> F[Step 6: return the new time]
 
 ```
 
-Now we can re-check our assertions from earlier to check our function behaves as expected.
+🧪 Now we can **re-run** our assertions from earlier to check our function behaves as expected.
 
 
 ### 🧹 Improving the code
