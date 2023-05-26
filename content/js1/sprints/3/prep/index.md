@@ -89,7 +89,9 @@ However, if we're comparing values or expressions then we have one of 2 differen
 This brings us to the boolean data type: which has only values of `true` or `false`.
 
 Whenever we compare 2 expressions with a comparison operator then the comparison itself will evaluate to a boolean value: `true` or `false`.
+
 For example:
+
 ```js
 // comparison expression
 42 === 10 + 32
@@ -169,7 +171,7 @@ Assertion failed: current output: undefined, expected output: 08:00 am
 ```
 
 
-On line 4, the function is being passed a single argument `"08:00"` so we can parametrise the function and label this input as `time`:
+On line 4, the function is being passed a single argument `"08:00"`. Ww can parametrise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {
@@ -313,7 +315,7 @@ However, at the moment `formatAs12HourClock("23:00")` returns `"11:00 am"`.
 
 We could express this idea in a diagram:
 
-```mermaid 
+```mermaid
 
 flowchart LR
 
@@ -321,9 +323,9 @@ A{Is the time before midday?} -- true --> B[Add am to time string]
 A -- false --> C[???]
 ```
 
-### Describing the approach
+### 🗺️ Describing the strategy
 
-We then need to describe our approach when dealing with an input which is after midday.
+Let's describe the strategy for dealing with an input which is after midday.
 
 Earlier on we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
 
@@ -379,11 +381,7 @@ flowchart LR
 
 ### Applying new knowledge
 
-So for `formatAs12HourClock` we said part of the strategy for handling "23:00" would involve the following check:  
-
->  Check: Are the hours greater than 12?
-
-We want to check that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.
+So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve the following checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`. 
 
 So provided we have an expression for the hours from the time, then we can write a conditional statement as follows:
@@ -525,5 +523,4 @@ function formatAs12HourClock(time) {
    return `${time} am`
 }
 ```
-
-ℹ️ 
+ 
