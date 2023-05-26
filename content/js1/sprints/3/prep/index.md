@@ -269,7 +269,7 @@ To reuse variable names, we can make use of a block declaration as follows:
 
 🔑 A **block** is a region of code defined by a set of curly braces in which we write any number of statements.
 
- As with function scope, block scope means that variables declared inside a given block are only accessible inside the given region. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`.
+As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`:
 
 
 ```js title="problem.js"
@@ -287,6 +287,7 @@ console.assert(
     expectedOutput
 );
 }
+
 {
 // ❌ this assertion now fails
 const currentOutput = formatAs12HourClock("23:00");
@@ -300,7 +301,7 @@ console.assert(
 }
 ```
 
-So the second assertion fails with the following message:
+Now the second assertion fails with the following message:
 
 ```bash
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
@@ -309,11 +310,9 @@ Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ### Branching out
 
 Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
-However, at the moment `formatAs12HourClock("23:00")` returns `"11:00 am"`.
+However, at the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`. We need to do something different when the time is after midday like "23:00"
 
-> 💡 In this situation, we need to do something different when the time is after midday. So essentially we need to do something differently when the time is beyond midday.
-
-We could express this idea in a diagram:
+> 💡 We must do something different depending on some whether some condition is `true` or `false`.
 
 ```mermaid
 
@@ -325,15 +324,15 @@ A -- false --> C[???]
 
 ### 🗺️ Describing the strategy
 
-Let's describe the strategy for dealing with an input which is after midday.
+Let's describe the strategy for dealing with an input that is after midday.
 
-Earlier on we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
+Earlier we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
 
 _Before_ writing code, we can define our approach in steps:
 
 Starting with an input like `"23:00"`:
 
-```mermaid 
+```mermaid
 
 flowchart TD
 
@@ -501,13 +500,13 @@ E --> F[Step 6: return the new time]
 
 ```
 
-🧪 Now we can **re-run** our assertions from earlier to check our function behaves as expected.
+Now we can **re-run** our assertions from earlier to check our function behaves as expected.
 
 
 ### 🧹 Improving the code
 
 
-The function’s output satisfies the assertions: in other words, our function’s current output matches with the expected output described in the previous assertions.
+Now the assertions pass: in other words, our function’s current output matches with the expected output described in the assertions.
 
 However, at the moment, we’re making use of the same expression twice: `+time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code. 
 
@@ -523,4 +522,6 @@ function formatAs12HourClock(time) {
    return `${time} am`
 }
 ```
+
+Note that the behaviour of the function hasn't changed: it is still returning the same outputs from the given inputs. We've just improved the implementation without changing the underlying behaviour.
  
