@@ -7,9 +7,9 @@ vocabulary=["MVP"]
 emoji= '🧩'
 [objectives]
 1='Identify described requirements'
-    2='Identify extra requirements from your own experience'
-    3='Resolve trade-offs in conflicting requirements'
-    4='Translate requirements into high-level design outlines' 
+2='Identify extra requirements from your own experience'
+3='Resolve trade-offs in conflicting requirements'
+4='Translate requirements into high-level design outlines' 
 +++
 
 ### Recap - user stories

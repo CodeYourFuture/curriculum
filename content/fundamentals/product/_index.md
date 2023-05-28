@@ -4,6 +4,7 @@ description = 'You will build your own website, add an interactive feature using
 layout = 'product'
 emoji= '🎁'
 menu_level = ['module']
+weight=6
 +++
 
 ```mermaid
