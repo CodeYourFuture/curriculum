@@ -3,10 +3,25 @@ import { basicSetup } from "codemirror";
 import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 
+import { lineHighlighter } from "./highlight-lines";
+
+// List of all possible options: https://github.com/gohugoio/hugo/blob/master/markup/highlight/highlight.go#L37-L48
+// But for now we just support line highlighting
+interface CodeBlockOptions {
+  hl_lines?: [number, number];
+}
+
 const containers: NodeListOf<HTMLElement> =
   document.querySelectorAll("[data-cm-editor]");
 
 containers.forEach((container) => {
+  let options: CodeBlockOptions = {};
+  try {
+    options = JSON.parse(container.dataset.options);
+  } catch {
+    console.error("Invalid .Options on CM6 editor");
+  }
+
   const view = new EditorView({
     extensions: [
       // Enable "basic" functionality, see https://codemirror.net/docs/ref/#codemirror.basicSetup
@@ -16,6 +31,8 @@ containers.forEach((container) => {
       theme(),
       // Enable JS specific features (syntax highlighting, autocomplete, etc)
       javascript(),
+      // Enable highlighting of specific lines
+      lineHighlighter(options.hl_lines),
     ],
     // Set up the initial doc to be the contents of the original container
     doc: container.innerText,
