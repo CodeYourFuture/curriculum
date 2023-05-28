@@ -3,7 +3,8 @@ import { basicSetup } from "codemirror";
 import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 
-const containers = document.querySelectorAll("[data-cm-editor]");
+const containers: NodeListOf<HTMLElement> =
+  document.querySelectorAll("[data-cm-editor]");
 
 containers.forEach((container) => {
   const view = new EditorView({
@@ -13,7 +14,7 @@ containers.forEach((container) => {
       // Enable indenting via Tab, see https://codemirror.net/examples/tab/
       keymap.of([indentWithTab]),
       theme(),
-      // Enable JS specific features
+      // Enable JS specific features (syntax highlighting, autocomplete, etc)
       javascript(),
     ],
     // Set up the initial doc to be the contents of the original container
