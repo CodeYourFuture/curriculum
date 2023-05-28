@@ -9,6 +9,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+assets/jsconfig.json
 
 # Misc
 .DS_Store
