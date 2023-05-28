@@ -12,11 +12,9 @@ const highlightedLine = Decoration.line({ class: "hl_line" });
 // Define a ViewPlugin that controls how the highlightedLine Decoration is
 // applied to the view
 const highlightLinesPlugin = ViewPlugin.define(
-  (view) => {
-    return {
-      decorations: Decoration.set(highlightLines(view)),
-    };
-  },
+  (view) => ({
+    decorations: highlightLines(view),
+  }),
   {
     decorations: (viewPlugin) => viewPlugin.decorations,
   }
@@ -27,6 +25,9 @@ function highlightLines(view: EditorView) {
 
   // Pull the highlighted line numbers from the facet
   const lines = view.state.facet(highlightedLineNumbers);
+
+  // Don't show any decorations if there are no highlighted line numbers
+  if (!lines && !lines.length) return Decoration.none;
 
   for (const line of lines) {
     // Hugo gives us a start line and an end line. For CM6 we need to generate a
@@ -47,7 +48,7 @@ function highlightLines(view: EditorView) {
     }
   }
 
-  return decorations;
+  return Decoration.set(decorations);
 }
 
 // Helper function to generate an array of line numbers between a start and end
@@ -59,7 +60,7 @@ function range(start, end) {
 
 // Define a facet for storing the highlighted lines, that is an array of a
 // starting line number and an ending line number
-const highlightedLineNumbers: Facet<[number?, number?]> = Facet.define({
+const highlightedLineNumbers: Facet<[number, number]> = Facet.define({
   // Since we only have 1 place this can be configured, we just always take the
   // first input value
   combine: ([val]) => val,
@@ -71,7 +72,7 @@ const highlightLinesTheme = EditorView.baseTheme({
   ".hl_line": { backgroundColor: "hsl(60deg 100% 90% / 0.8)" },
 });
 
-export function lineHighlighter(lines: [number?, number?] = []) {
+export function lineHighlighter(lines: [number, number]) {
   return [
     // Configure the highlighted lines
     highlightedLineNumbers.of(lines),
