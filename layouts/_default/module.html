@@ -1,19 +1,24 @@
 {{ define "main" }}
   {{ partial "page-header.html" . }}
-  <article class="{{ with .Content }}c-copy{{ end }}">{{ .Content }}</article>
+  {{ with .Content }}<article class="c-copy">{{ . }}</article>{{ end }}
   <!-- timeline of module: prep, sprints, backlog, success -->
+  <!-- if there are blocks on this page, pop them in a deselected tab-->
   {{ $parent := .Section }}
-  <ol class="c-timeline">
-    {{ range where .Site.Pages "Section" $parent }}
-      {{ if in .Params.menu_level
-        "module"
-      }}
-        <li class="c-timeline__entry">
-          <a class="c-timeline__post" href="{{ .Permalink }}"
-            ><h3 class="c-timeline__title">{{ .Title }}</h3></a
-          >
-        </li>
+  {{ if .Params.blocks }}
+    {{ partial "module-tabs" . }}
+  {{ else }}
+    <ol class="c-timeline">
+      {{ range where .Site.Pages "Section" $parent }}
+        {{ if in .Params.menu_level
+          "module"
+        }}
+          <li class="c-timeline__entry">
+            <a class="c-timeline__post" href="{{ .Permalink }}"
+              ><h3 class="c-timeline__title">{{ .Title }}</h3></a
+            >
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </ol>
+    </ol>
+  {{ end }}
 {{ end }}

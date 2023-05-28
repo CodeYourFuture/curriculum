@@ -1,0 +1,54 @@
+{{ $parent := .Section }}
+<tab-panels class="c-tabs c-tabs--module">
+  <ul class="c-tabs__list" id="{{ .Title | urlize }}" role="tablist">
+    <li class="c-tabs__item">
+      <a
+        data-toggle="tab"
+        class="c-tabs__link is-active"
+        href="#timeline"
+        role="tab"
+        aria-controls="Timeline"
+        aria-selected="true"
+        >Timeline</a
+      >
+    </li>
+    <li class="c-tabs__item">
+      <a
+        data-toggle="tab"
+        class="c-tabs__link "
+        href="#context"
+        role="tab"
+        aria-controls="Context"
+        >Context</a
+      >
+    </li>
+  </ul>
+  <div class="c-tabs__group">
+   <div class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="#timeline" id="timeline">
+    <ol class="c-timeline">
+      {{ range where .Site.Pages "Section" $parent }}
+        {{ if in .Params.menu_level
+          "module"
+        }}
+          <li class="c-timeline__entry">
+            <a class="c-timeline__post" href="{{ .Permalink }}"
+              ><h3 class="c-timeline__title">{{ .Title }}</h3></a
+            >
+          </li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  </div>
+ <div id="context" class="c-tabs__panel" role="tabpanel" aria-labelledby="#context">
+    <div class="c-block__list">
+      <!-- Blocks will appear here in order listed in the blocks list in the front matter -->
+      {{ range .Params.blocks }}
+        {{ partial "block.html" (dict "block" . "Page"
+          $.Page)
+        }}
+      {{ end }}
+    </div>
+  </div>
+</tab-panels>
+{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
+<script src="{{ $tabs.Permalink }}" type="module" defer></script>
