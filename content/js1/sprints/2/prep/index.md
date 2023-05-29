@@ -197,7 +197,7 @@ When we execute the code we expect to see `"50%"` and `"23%"`.
 However, at the moment, our console output isn’t quite the same. See the diagram below:
 
 
-### Code runtime
+### Running the code
 
 To understand how our function currently behaves we must start building a mental model to understand how our code is executed. Our current mental model may consist of the following ideas:
 
@@ -360,7 +360,6 @@ Root[What does the return keyword do?]
     D[Return to the place where the function was called]
     E[Assign arguments to the parameters]
     ::: urgent large
-
 ```
 
 ### 🔭 Local scope
