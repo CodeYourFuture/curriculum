@@ -11,8 +11,14 @@ backlog_filter= 'Week 4'
 
 ## Learning objectives
 
+
+- Execute a test script
+- Isolate a test case in a test suite
+- Differentiate between running code with `node` command and with an `npm` script, such as `npm test`
 - Interpret documentation to determine how part of an 3rd API behaves
 - Define the term _API_
+- Outline what `npm test` command does 
+- Define _dependency_
 - Explain why we use interfaces in programming
 - List the benefits of using a 3rd party software library when programming
 - Explain the purpose of each syntactic element of a test case implemented in Jest
@@ -24,7 +30,8 @@ backlog_filter= 'Week 4'
 - Determine the line an error occurred from some test output
 - State the current return value of a function and the target output from some test output
 - Explain the process involved in looking up how to write tests for someone using a language other than JavaScript
-- 
+- Express an acceptance criterion as a test case
+
 
 
 ### Counting words 🧮
