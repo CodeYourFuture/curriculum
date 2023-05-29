@@ -58,6 +58,7 @@
     }
   }
   &__title {
+    display: flex;
     line-height: 0.75;
     text-shadow: -2px 1px 0 var(--theme-color--pop);
     background-color: var(--theme-color--block);
@@ -75,7 +76,7 @@
   }
 
   &__breadcrumbs {
-    padding: 0 0 0 9.25ch;
+    padding: 0 0 0 var(--theme-type-size--1);
     z-index: 1;
     .c-page-header--splash & {
       display: none;
