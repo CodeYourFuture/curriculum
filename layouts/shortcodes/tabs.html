@@ -4,57 +4,56 @@
 {{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) (.Page.Scratch.Get "tabset-counter") ) | anchorize -}}
 {{- $tabs := .Scratch.Get "tabs" -}}
 {{- if .Inner -}}{{- /* We don't use the inner content, but Hugo will complain if we don't reference it. */ -}}{{- end -}}
- <tab-panels class="c-tabs">   
-<ul class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
-	{{- range $i, $e := $tabs -}}
-	  {{- $id := printf "%s-%d" $tab_set_id $i -}}
-	  {{- if (eq $i 0) -}}
-		<li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link is-active" href="#{{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="true">{{- trim .name " " -}}</a></li>
-	  {{ else }}
-		<li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link " href="#{{ $id }}" role="tab" aria-controls="{{ $id }}">{{- trim .name " " -}}</a></li>
-	  {{- end -}}
-{{- end -}}
-</ul>
-<div class="c-tabs__group" id="{{ $tab_set_id }}">
-{{- range $i, $e := $tabs -}}
-{{- $id := printf "%s-%d" $tab_set_id $i -}}
-{{- if (eq $i 0) -}}
-  <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="{{ $id }}">
-{{ else }}
-  <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby="{{ $id }}">
-{{ end }}
-<p>
-	{{- with .content -}}
-        {{ if in . "```"}}
+<tab-panels class="c-tabs">
+  <ul class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
+    {{- range $i, $e := $tabs -}}
+      {{- $id := printf "%s-%d" $tab_set_id $i -}}
+      {{- if (eq $i 0) -}}
+        <li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link is-active" href="#{{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="true">{{- trim .name " " -}}</a></li>
+      {{ else }}
+        <li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link " href="#{{ $id }}" role="tab" aria-controls="{{ $id }}">{{- trim .name " " -}}</a></li>
+      {{- end -}}
+    {{- end -}}
+  </ul>
+  <div class="c-tabs__group" id="{{ $tab_set_id }}">
+    {{- range $i, $e := $tabs -}}
+      {{- $id := printf "%s-%d" $tab_set_id $i -}}
+      {{- if (eq $i 0) -}}
+        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="{{ $id }}">
+      {{ else }}
+        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby="{{ $id }}">
+      {{ end }}
+        {{- with .content -}}
+          {{ if in . "```"}}
             {{- . | markdownify -}}
-        {{ else }}
-        {{- . -}}
+          {{ else }}
+            {{- . -}}
+          {{- end -}}
+        {{- else -}}
+          {{- if eq $.Page.BundleType "leaf" -}}
+            {{- /* find the file somewhere inside the bundle. Note the use of double asterisk */ -}}
+            {{- with $.Page.Resources.GetMatch (printf "**%s*" .include) -}}
+              {{- if ne .ResourceType "page" -}}
+                {{- /* Assume it is a file that needs code highlighting. */ -}}
+                {{- highlight .Content -}}
+              {{- else -}}
+                {{- .Content -}}
+              {{- end -}}
+            {{- end -}}
+          {{- else -}}
+            {{- $path := path.Join $.Page.File.Dir .include -}}
+            {{- $page := site.GetPage "page" $path -}}
+            {{- with $page -}}
+              {{- .Content -}}
+            {{- else -}}
+              {{- errorf "[%s] tabs include not found for path %q" site.Language.Lang $path -}}
+            {{- end -}}
+          {{- end -}}
         {{- end -}}
-	{{- else -}}
-		{{- if eq $.Page.BundleType "leaf" -}}
-			{{- /* find the file somewhere inside the bundle. Note the use of double asterisk */ -}}
-			{{- with $.Page.Resources.GetMatch (printf "**%s*" .include) -}}
-				{{- if ne .ResourceType "page" -}}
-				{{- /* Assume it is a file that needs code highlighting. */ -}}
-				{{- highlight .Content -}}
-				{{- else -}}
-					{{- .Content -}}
-				{{- end -}}
-			{{- end -}}
-		{{- else -}}
-		{{- $path := path.Join $.Page.File.Dir .include -}}
-		{{- $page := site.GetPage "page" $path -}}
-		{{- with $page -}}
-			{{- .Content -}}
-		{{- else -}}
-		{{- errorf "[%s] tabs include not found for path %q" site.Language.Lang $path -}}
-		{{- end -}}
-		{{- end -}}
-	{{- end -}}
-</div>
-{{- end -}}
-</div>
+      </div>
+    {{- end -}}
+  </div>
 </tab-panels>
 
-  {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-  <script src="{{ $tabs.Permalink }}" type="module" defer></script>
+{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
+<script src="{{ $tabs.Permalink }}" type="module" defer></script>
