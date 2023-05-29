@@ -1,30 +1,24 @@
-import {
-  EditorView,
-  ViewPlugin,
-  Decoration,
-  type DecorationSet,
-} from "@codemirror/view";
-import { type Range, Facet } from "@codemirror/state";
+import { EditorView, Decoration, type DecorationSet } from "@codemirror/view";
+import { type Range, StateField } from "@codemirror/state";
 
-// Define a Line Decoration that applies a class to the relevant line
-const highlightedLine = Decoration.line({ class: "hl_line" });
+// Define a StateField that holds the current set of highlighted lines
+const highlightedLines = StateField.define<DecorationSet>({
+  create() {
+    return Decoration.none;
+  },
 
-// Define a ViewPlugin that controls how the highlightedLine Decoration is
-// applied to the view
-const highlightLinesPlugin = ViewPlugin.define(
-  (view) => ({
-    decorations: highlightLines(view),
-  }),
-  {
-    decorations: (viewPlugin) => viewPlugin.decorations,
-  }
-);
+  update(lines, tr) {
+    // Map the highlighted lines through changes to the document
+    lines = lines.map(tr.changes);
+    return lines;
+  },
 
-function highlightLines(view: EditorView) {
+  // Provide the highlighted line decorations to the view
+  provide: (field) => EditorView.decorations.from(field),
+});
+
+function highlightLines(state, lines: [number, number][]) {
   let decorations: Range<Decoration>[] = [];
-
-  // Pull the highlighted line numbers from the facet
-  const lines = view.state.facet(highlightedLineNumbers);
 
   // Don't show any decorations if there are no highlighted line numbers
   if (!lines && !lines.length) return Decoration.none;
@@ -42,7 +36,7 @@ function highlightLines(view: EditorView) {
 
     for (const lineBetween of linesBetween) {
       // Calculate the line position in the CM6 offset coords system
-      const { from } = view.state.doc.line(lineBetween);
+      const { from } = state.doc.line(lineBetween);
       // Create a Line Decoration for the line position
       decorations.push(highlightedLine.range(from));
     }
@@ -58,25 +52,18 @@ function range(start, end) {
     .map((_, idx) => start + idx);
 }
 
-// Define a facet for storing the highlighted lines, that is an array of a
-// starting line number and an ending line number
-const highlightedLineNumbers: Facet<[number, number]> = Facet.define({
-  // Since we only have 1 place this can be configured, we just always take the
-  // first input value
-  combine: ([val]) => val,
-  static: true,
-});
+// Define a Line Decoration that applies a class to the relevant line
+const highlightedLine = Decoration.line({ class: "hl_line" });
 
 // Define a theme that styles the highlighted lines
 const highlightLinesTheme = EditorView.baseTheme({
   ".hl_line": { backgroundColor: "hsl(60deg 100% 90% / 0.8)" },
 });
 
-export function lineHighlighter(lines: [number, number]) {
+export function lineHighlighter(lines: [number, number][]) {
   return [
-    // Configure the highlighted lines
-    highlightedLineNumbers.of(lines),
-    highlightLinesPlugin,
+    // Initialise the StateField with the lines from Hugo
+    highlightedLines.init((state) => highlightLines(state, lines)),
     highlightLinesTheme,
   ];
 }
