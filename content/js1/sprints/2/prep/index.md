@@ -12,8 +12,40 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 +++
 
 
+## Learning objectives
 
-### 🧩 Defining a problem
+- Label and describe the syntatic features of a function declaration
+- Identify a call site
+- Differentiate between a function declaration and a function invocation
+- Propose a function definition to satisfy some problem requirements
+- Given a short program, determine which variable names are _bad_ choices
+- Give examples of when the `undefined` data type may occur in a JavaScript program
+- Construct simple expressions to represent a set of operations
+- Define a _parameter_
+- Identify the return value a call site given its function declaration
+- Identify the value assigned to a parameter when a function is invoked
+- Identify the type of a return value given some call site
+- Given a short program, state the number of times a given function is called
+- Differentiate between parameters and arguments
+- Invoke a given function with appropriate arguments to produce some target output
+- Describe how to log the output of a function
+- Given a short program, specify the line in which a ReferenceError is thrown
+- Define _local scope_
+- Explain the difference between returning a value and logging a value
+- Assess and explain whether a function can reference a given variable or not
+- Explain what is meant by the term "implementation opacity" 
+- Explain how to reuse some code to perform a specific task
+- Propose clear and meaningful parameter names for a function
+- Given a problem, suggest clear semantic names for a function designed to solve the given problem
+- Give examples of how functionality can be generalised
+
+
+
+
+These objectives cover the key skills and knowledge that learners should acquire from the lesson. You can modify or expand upon them to align with the specific goals of your lesson and the needs of your target audience.
+
+
+### 🧩 Percentages
 
 
 Given a number I want to convert it into a percentage format.
@@ -75,7 +107,7 @@ Recalling template literals, the expression in the curly braces will be evaluate
 ### ♻️ Wrapping up functionality
 
 
-Can we take the expression we’ve created and wrap it up somehow so that it can be reused to convert any number into a percentage?
+Can we take the expression we’ve created and wrap it up so it can be reused to convert any number into a percentage?
 
 We can take this unit of code and write a function declaration to reuse some given unit of code. A function declaration looks like this:
 
@@ -86,15 +118,20 @@ function convertToPercentage() {
 }
 ```
 
-Then go through the different syntactic elements of the function declaration - including the function name. 
-Inside the curly braces, we can insert any number of javascript statements that we want to reuse.  
+The `function` declaration consists of the following elements:
+- `function` keyword, denotes the beginning of a function declaration
+- convertToPercentage` - this is the name of the function 
+- `{}` - the body of the function is written inside the curly braces
+
 So we can wrap up the functionality we want to reuse inside the curly braces and write:
 
 ```js {linenos=table,hl_lines=[2,3],linenostart=1}
+
 function convertToPercentage() {
    const num = 0.5;
    const percentage = `${num * 100}%`;`
-}   
+}
+
 ```
 
 
@@ -129,7 +166,7 @@ However, we need to get a percentage from our function every time it is called.
 ### Setting an output
 
 
-In the body of our function, we can write a return statement, specifying the value we want to output. We write a return statement as follows:
+In the body of our function, we can write a `return` statement, specifying the value we want to output. We write a return statement as follows:
 
 ```js {linenos=table,hl_lines=4,linenostart=1}
 function convertToPercentage() {
@@ -140,25 +177,25 @@ function convertToPercentage() {
 ```
 
 
-Now that our function contains a return statement we can re-run our script to check the output.
+Now that our function contains a `return` statement we can re-run our script to check the output.
+
 
 ### Calling with different arguments
 
+
+Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the outputs we get each time.
 
 ```js
 console.log(convertToPercentage(0.5));
 console.log(convertToPercentage(0.3));
 ```
 
-
-Now we have a function declaration we can check if our function works for any number. If we call the function with different arguments, we should get different corresponding outputs each time.
-So we can call our function several times:
+In our console we get the following logs:
 
 ```bash
 50%
 50%
 ```
-
 
 When we execute the code we expect to see `"50%"` and `"23%"`.
 However, at the moment, our console output isn’t quite the same. See the diagram below:
@@ -166,7 +203,7 @@ However, at the moment, our console output isn’t quite the same. See the diagr
 
 ### Code runtime
 
-To understand how our function currently behaves we must start building a mental model to understand how our code is executed during runtime. Our current mental model may consist of the following ideas:
+To understand how our function currently behaves we must start building a mental model to understand how our code is executed. Our current mental model may consist of the following ideas:
 
 
 ```mermaid
@@ -182,7 +219,7 @@ Root[How is a piece of code executed?]
 Let’s start by looking at our code:
 
 
-```js
+```js {linenos=table,hl_lines=["1-5"] ,linenostart=1}
 function convertToPercentage() {
     const num = 0.5;
     const percentage = `${num * 100}%`;
@@ -196,23 +233,65 @@ console.log(convertToPercentage(0.23));
 
 ### Storing things in memory
 
-Mention that `convertToPercentage` is stored in memory at first ( but not executed )
+At the beginning of our script, we encounter a function declaration:
+
+```js {linenos=table,hl_lines=["1-5"] ,linenostart=1}
+function convertToPercentage() {
+    const num = 0.5;
+    const percentage = `${num * 100}%`;
+    return percentage;
+}
+
+console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.23));
+```
+
+The function declaration `convertToPercentage` means a function is stored in memory.
+We could write this as follows:
+
+
+Mention that `convertToPercentage` is stored in memory but the code inside the body of `convertToPercentage` is not executed yet.
 
 
 ### Order of function calls
 
-Still needs fleshing out here. Talk about entering `convertToPercentage` first and running the code in there. There is no explicit need to mention the call stack here, but we are preparing the ground. The entry point will involve examining what happens with the expression:
+Now we encouter line 7:
 
+```js {linenos=table,hl_lines=[7] ,linenostart=1}
+function convertToPercentage() {
+    const num = 0.5;
+    const percentage = `${num * 100}%`;
+    return percentage;
+}
 
-```js
 console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.23));
 ```
 
 
+The statement `console.log(convertToPercenatage(0.5))` involves 2 function calls. We're calling `console.log` and we're also calling `convertToPercentage`. In this situation, `convertToPercentage` will get executed first: the program needs to evaluate `convertToPercentage` before logging the value.
+
+So now we can run the code inside `convertToPercentage`.
+
 ###  ⬇️ Top to bottom
 
+We can now start working from top to bottom inside the body of `convertToPercentage`. The first line in `convertToPercentage` is a variable declaration: so we can write this as follows:
+ 
+```js {linenos=table, hl_lines=[2] ,linenostart=1}
+function convertToPercentage() {
+    const num = 0.5;
+    const percentage = `${num * 100}%`;
+    return percentage;
+}
 
-Still needs fleshing out here. Talk about running code in the function line by line from top to bottom ( this is more recap )
+console.log(convertToPercentage(0.5));
+console.log(convertToPercentage(0.23));
+```
+
+So now we can write memory as follows:
+
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0A%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20%20%20const%20num%20%3D%200.5%3B%0A%20%20%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20%20%20return%20percentage%3B%0A%7D%0A%0Aconsole.log%28convertToPercentage%280.5%29%29%3B%0Aconsole.log%28convertToPercentage%280.23%29%29%3B%0A%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 
 ### 📥 Returning from a function
