@@ -26,7 +26,11 @@ backlog_filter= 'Week 3'
 - Describe how to convert a string into a number in JavaScript
 - Define _block scope_
 - Define _zero-indexing_
-- Predict the output of a call to `slice`
+- Evaluate the return value of a call to `slice` without executing a given program
+- Given a problem, identify potential sub-goals required to reach a solution
+- Determine the output of a program that uses a conditional statement
+- Analyse a conditional statement to determine whether or not the statement will be executed
+- Predict and explain how statements conditional statements involving `else`, `else if` will be executed
 - Explain why _refactoring_ is necessary in the production of software
 - Propose a strategy for solving a problem
 - Write an assertion to check for some behaviour of a given function
