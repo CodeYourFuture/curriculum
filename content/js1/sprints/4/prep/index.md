@@ -275,8 +275,8 @@ test("one word string gives a count of 1", function () {
 In this example, we're declaring some variables that will store values that we compare later on in the test.
 
 - We declare an input variable that stores a value that we will pass to the function we are testing - `countWords`.
-- We declare an actualResult variable that stores the return value of our function `countWords`.
-- We declare an expectedResult which stores what we expect the actualResult to be when our function behaves according to the test description.
+- We declare an `actualResult` variable that stores the return value of our function `countWords`.
+- We declare an `expectedResult` which stores what we expect the actualResult to be when our function behaves according to the test description.
 
 ℹ️
 It's important to note that the test here and the one above it are checking the same thing. The variables are just being used to make the test easier to understand for ourselves and other developers.
