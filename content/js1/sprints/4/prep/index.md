@@ -9,6 +9,24 @@ backlog_filter= 'Week 4'
 +++
 
 
+## Learning objectives
+
+- Interpret documentation to determine how part of an 3rd API behaves
+- Define the term _API_
+- Explain why we use interfaces in programming
+- List the benefits of using a 3rd party software library when programming
+- Explain the purpose of each syntactic element of a test case implemented in Jest
+- Implement a test case to describe the behaviour of a function
+- Outline the effects of running an installation command, e.g. `npm install`
+- Describe what `toBe` checks in the Jest library
+- Suggest potential Jest matchers to check a specified behaviour for a function
+- Predict and justify the test output for a given function and test case
+- Determine the line an error occurred from some test output
+- State the current return value of a function and the target output from some test output
+- Explain the process involved in looking up how to write tests for someone using a language other than JavaScript
+- 
+
+
 ### Counting words 🧮
 
 Let's consider a function called `countWords` that needs to work as follows:
