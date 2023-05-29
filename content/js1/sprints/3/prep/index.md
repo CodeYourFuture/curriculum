@@ -11,7 +11,22 @@ backlog_filter= 'Week 3'
 
 ## Prerequistes
 
+
+
 ## Learning objectives
+
+
+- Write a problem, write an assertion for a function that implements a solution to a given problem
+- Given an assertion and a function declaration, identify and explain whether the assertion will pass or fail
+- Explain when to use the `===` operator
+- Construct a flow diagram that describes how to produce an output from a given input
+- Explain when it is necessary to use a conditional statement
+- Identify the sytantic features of an `if` statement
+- Evaluate an expression that uses a comparison operator
+- Describe how to convert a string into a number in JavaScript
+- Define _block scope_
+- Define _zero-indexing_
+- Predict the output of a call to `slice`
 
 ## Notes
 
