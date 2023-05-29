@@ -29,6 +29,7 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Differentiate between parameters and arguments
 - Invoke a given function with appropriate arguments to produce some target output
 - Describe how to log the output of a function
+- Analyse each line in a given program and state what the line does when the program executes
 - Given a short program, specify the line in which a ReferenceError is thrown
 - Define _local scope_
 - Explain the difference between returning a value and logging a value
@@ -38,7 +39,6 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Propose clear and meaningful parameter names for a function
 - Given a problem, suggest clear semantic names for a function designed to solve the given problem
 - Give examples of how functionality can be generalised
-
 
 
 ### 🧩 Percentages
