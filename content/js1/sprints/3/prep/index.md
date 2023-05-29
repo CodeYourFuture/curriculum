@@ -21,12 +21,19 @@ backlog_filter= 'Week 3'
 - Explain when to use the `===` operator
 - Construct a flow diagram that describes how to produce an output from a given input
 - Explain when it is necessary to use a conditional statement
-- Identify the sytantic features of an `if` statement
+- Identify the syntactic features of an `if` statement
 - Evaluate an expression that uses a comparison operator
 - Describe how to convert a string into a number in JavaScript
 - Define _block scope_
 - Define _zero-indexing_
 - Predict the output of a call to `slice`
+- Explain why _refactoring_ is necessary in the production of software
+- Propose a strategy for solving a problem
+- Write an assertion to check for some behaviour of a given function
+- Identify a pattern between a set of inputs and outpts produced by a given function
+- Propose alternative implementations to a problem 
+- Suggest several appropriate ways to refactor a given piece of code
+
 
 ## Notes
 
