@@ -16,25 +16,27 @@ backlog_filter= 'Week 3'
 ## Learning objectives
 
 
-- Write a problem, write an assertion for a function that implements a solution to a given problem
+- Write an assertion for a function that implements a solution to a given problem
 - Given an assertion and a function declaration, identify and explain whether the assertion will pass or fail
-- Explain when to use the `===` operator
+- Explain when to use the `===` operator in a program
 - Construct a flow diagram that describes how to produce an output from a given input
 - Explain when it is necessary to use a conditional statement
 - Identify the syntactic features of an `if` statement
+- Describe the difference between `console.log` and `console.assert`
 - Evaluate an expression that uses a comparison operator
 - Describe how to convert a string into a number in JavaScript
+- Implement a piece of functionality specified in an assertion
 - Define _block scope_
 - Define _zero-indexing_
-- Evaluate the return value of a call to `slice` without executing a given program
-- Given a problem, identify potential sub-goals required to reach a solution
+- Given a short program, determine the return value of a call to `slice` before execution
+- Given a problem, suggest potential sub-goals required to reach a solution
 - Determine the output of a program that uses a conditional statement
 - Analyse a conditional statement to determine whether or not the statement will be executed
-- Predict and explain how statements conditional statements involving `else`, `else if` will be executed
+- Predict and explain how conditional statements involving `else`, `else if` and `while` will be executed
 - Explain why _refactoring_ is necessary in the production of software
 - Propose a strategy for solving a problem
 - Write an assertion to check for some behaviour of a given function
-- Identify a pattern between a set of inputs and outpts produced by a given function
+- Identify a pattern between a set of inputs and outputs produced by a given function
 - Propose alternative implementations to a problem 
 - Suggest several appropriate ways to refactor a given piece of code
 
@@ -338,7 +340,7 @@ Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
 However, at the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`. We need to do something different when the time is after midday like "23:00"
 
-> 💡 We must do something different depending on some whether some condition is `true` or `false`.
+> 💡 The execution of task will only take place when some condition is `true`
 
 ```mermaid
 
