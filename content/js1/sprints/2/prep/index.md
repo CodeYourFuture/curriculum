@@ -38,10 +38,6 @@ backlog_filter= 'Week 2'
 
 
 
-
-These objectives cover the key skills and knowledge that learners should acquire from the lesson. You can modify or expand upon them to align with the specific goals of your lesson and the needs of your target audience.
-
-
 ### 🧩 Percentages
 
 
