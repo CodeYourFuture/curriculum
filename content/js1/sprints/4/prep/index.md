@@ -17,7 +17,8 @@ backlog_filter= 'Week 4'
 - Differentiate between running code with `node` command and with an `npm` script, such as `npm test`
 - Interpret documentation to determine how part of an 3rd API behaves
 - Define the term _API_
-- Outline what `npm test` command does 
+- Identify the unit under test in a given test case
+- Outline the effect of running `npm test`
 - Define _dependency_
 - Explain why we use interfaces in programming
 - List the benefits of using a 3rd party software library when programming
