@@ -12,7 +12,6 @@ backlog_filter= 'Week 3'
 ## Prerequistes
 
 
-
 ## Learning objectives
 
 
@@ -450,7 +449,7 @@ So we must use another method to extract _multiple_ characters from the given st
 
 ### Extracting a slice
 
-We can use a function called `slice`.
+We can use a function called `slice` to extract 1 or characters from a string.
 
 [`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the start index.
 
