@@ -1,8 +1,7 @@
 +++
 title="Kata"
-headless="false"
+headless="true"
 time= 30
-
 [objectives]
     1="Write a failing test"
     2="Write the simplest code that passes the test"
