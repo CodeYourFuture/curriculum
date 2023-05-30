@@ -12,7 +12,7 @@ class TabPanels extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
             <style>
-                /* Your styles here */
+                /* These styles are in components/tabs.scss for now */
             </style>
             <slot></slot>
         `;

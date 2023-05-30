@@ -7,7 +7,9 @@
   &__link {
     padding: var(--theme-spacing--1) var(--theme-spacing--2);
     line-height: 2.25;
-    &.is-active {
+    &.is-active,
+    &:hover,
+    &:focus {
       background: var(--theme-color--block);
       box-shadow: var(--theme-box-shadow);
     }
@@ -17,6 +19,7 @@
     grid-template: "tab";
     @include block(thin, true, true, true);
   }
+
   &__panel {
     grid-area: tab;
     padding: var(--theme-spacing--gutter);
@@ -26,6 +29,18 @@
 
     &.is-active {
       opacity: 1;
+      z-index: 1;
+    }
+  }
+  // a much subtler tab style for module indices so info can be loaded in without overwhelming
+  &--module {
+    .c-tabs__group,
+    .c-tabs__panel {
+      background: var(--theme-color--paper);
+      box-shadow: none;
+    }
+    .c-tabs__link {
+      background: var(--theme-color--paper);
     }
   }
 }
