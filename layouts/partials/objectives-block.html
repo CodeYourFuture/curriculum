@@ -1,7 +1,7 @@
 <ul class="c-objectives__list">
-  {{ range . }}
+  {{ range $key, $value := .Objectives }}
     <li class="c-objectives__item">
-      <label><input type="checkbox" />{{ . }}</label>
+      <label><input type="checkbox" />{{ $value }}</label>
     </li>
   {{ end }}
 </ul>
