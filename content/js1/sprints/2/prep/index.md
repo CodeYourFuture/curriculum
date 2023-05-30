@@ -337,7 +337,7 @@ So we need a way to access the input passed to the function each time. This will
 
 ### Parametrising a function
 
-To make this function reusable for any number, we need to introduce handle some input. We do this using a parameter.
+To make this function reusable for any number, we need to handle inputs. We do this using a parameter.
 
 
 🔑 A parameter is a variable that enables us to reference the input to a function. 
