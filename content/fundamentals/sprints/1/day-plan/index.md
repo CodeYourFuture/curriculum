@@ -11,6 +11,7 @@ backlog_filter= 'Week 1'
 name="energiser"
 [[blocks]]
 name="pd-placeholder"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/fundamentals-test"
 [[blocks]]
 name="morning-break"
 [[blocks]]
