@@ -131,7 +131,7 @@ function convertToPercentage() {
 ### 🔎 Checking the output
 
 
-Now we can call our function and store the output from the function.
+Now we can call our function and store the output in a variable.
 We can write:
 
 
