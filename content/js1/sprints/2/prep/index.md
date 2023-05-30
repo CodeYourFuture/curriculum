@@ -47,8 +47,8 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 
 Given a number I want to convert it into a percentage format.
 
-For example, given the number 0.5 we should get "50%"
-And given the number 0.23 we should get "23%" and so forth.
+For example, given the number `0.5` we should get `"50%"`
+And given the number `0.23` we should get `"23%"` and so forth.
 
 
 ### Restating the problem
@@ -62,7 +62,7 @@ console.log("hello world"); // prints "hello world" to the console
 Math.round(3.141); // will output 3
 ```
 
-All these expressions are _function calls_:  - we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. 
+All these expressions are _function calls_: we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. 
 
 In this case, we want to convert any number to a percentage. We can build a function to convert a specific number to a percentage. We can now say that we want to create a function that:
 
@@ -113,7 +113,7 @@ function convertToPercentage() {
 }
 ```
 
-The `function` declaration consists of the following elements:
+The `function` declaration consists of the following syntactic elements:
 - `function` keyword, denotes the beginning of a function declaration
 - convertToPercentage` - this is the name of the function 
 - `{}` - the body of the function is written inside the curly braces
@@ -150,17 +150,16 @@ console.log(result);
 ### Undefined values
 
 
-When we log the value of the result to the terminal we observe a new data type - `undefined`. `undefined` is a data type used to represent the absence of some value. 
-
-A function’s output is always `undefined` whenever we don’t set the output.
-However, we need to get a percentage from our function every time it is called.
+When we log result's value to the terminal we get a new data type - `undefined`.  
+`undefined` is a data type used to represent the absence of some value.  
+A function’s output is always `undefined` whenever we omit a return statement; but we need to get a percentage from our function every time it is called.
 
 
 ### Setting an output
 
 
 In the body of our function, we can write a `return` statement, specifying the value we want to output.  
-If your function call is a question, the return statement is the answer. It's what comes back.
+If your function call is like a question, the return statement is the answer. It's what comes back.
 We write a return statement as follows:
 
 ```js {linenos=table,hl_lines=4,linenostart=1}
@@ -301,9 +300,9 @@ So now we can write memory as follows:
 
 Earlier we defined output for the function by writing a return statement and setting a return value.
 
-However, the `return keyword` also has additional consequences. As well as defining the output, it also indicates where we go next during execution. The return keyword indicates we stop executing inside the current function and return to the location where the function was originally called.
+However, the `return keyword` also has additional effects. As well as defining the output, it also indicates where we go next during execution. The return keyword indicates we stop executing inside the current function and return to the location where the function was originally called.
 
-So the return statement is a powerful statement which does 3 things:
+So the return statement is a powerful statement which does 3 things. We can map out the ideas below:
 
 
 ```mermaid
@@ -336,14 +335,14 @@ The variable `num` gets recreated and set to `0.5` every time we call the functi
 So we need a way to access the input passed to the function each time. This will allow us to generalise our functionality: in other words, we’ll be able to reuse this function for any number we like.
 
 
-### parametrising a function
+### Parametrising a function
 
-To make this function reusable for any number, we need to introduce a parameter.
+To make this function reusable for any number, we need to introduce handle some input. We do this using a parameter.
 
 
 🔑 A parameter is a variable that enables us to reference the input to a function. 
 
-We can write this as follows:
+We can add a parameter `num` to our function:
 
 ```js {linenos=table,hl_lines=1,linenostart=1}
 function convertToPercentage(num) {
@@ -355,8 +354,13 @@ console.log(convertToPercentage(0.5));
 console.log(convertToPercentage(0.23));
 ```
 
+Now try playing computer with a pen and paper with the code above.
 
-We can think of a function as a "box". We pass inputs to into it, the function's code executed and we get an output afterwards. We can visualise as follows:
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0A%0A%0Afunction%20convertToPercentage%28num%29%20%7B%0A%20%20%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20%20%20return%20percentage%3B%0A%7D%0A%0Aconsole.log%28convertToPercentage%280.5%29%29%3B%0Aconsole.log%28convertToPercentage%280.23%29%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+
+We can think of a function as a "box". We pass inputs to into it, the function's code executed and we get an output at the end. We can visualise as follows:
 
 ```mermaid
 
