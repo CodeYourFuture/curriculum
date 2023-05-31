@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 3
 backlog= 'Module-JS1'
 backlog_filter= 'Week 3'
+
 [[blocks]]
 name="energiser"
 [[blocks]]
@@ -13,15 +14,15 @@ name="pd-placeholder"
 [[blocks]]
 name="morning-break"
 [[blocks]]
+name="Question and review"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+[[blocks]]
 name="lunch"
 [[blocks]]
-name="user-stories"
-src="module"
+name="coursework"
 [[blocks]]
 name="afternoon-break"
 [[blocks]]
-name="ship-it-requirements"
-src="module"
-[[blocks]]
 name="retro"
+
 +++
