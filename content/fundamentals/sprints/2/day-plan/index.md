@@ -20,7 +20,11 @@ src="module"
 [[blocks]]
 name="lunch"
 [[blocks]]
-name="pd-placeholder"
+name="Using the Slack app"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/using-the-slack-app"
+[[blocks]]
+name="Organising the Slack Rota for our daily posts"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota"
 [[blocks]]
 name="pairing"
 src="module"
