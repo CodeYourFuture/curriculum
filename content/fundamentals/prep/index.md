@@ -7,6 +7,9 @@ menu_level = ["module"]
 weight = 1
 backlog= "Course-Fundamentals"
 [[blocks]]
+name="Read and sign CYF agremeents"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/agreements"
+[[blocks]]
 name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
 [[blocks]]
