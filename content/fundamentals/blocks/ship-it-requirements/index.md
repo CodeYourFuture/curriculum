@@ -22,7 +22,7 @@ It's important that software _works_ and that we can _use_ it!
 
 - Your personal home page on Codepen
 - An account with Github and to be logged in
-- An account with Netlify, so [sign up now](https://app.netlify.com/signup) using the “Sign up with Github” option
+- An account with Netlify, so [sign up now](https://app.netlify.com/signup) using the “Sign up with Github” option if you have not done so already
 
 {{<note type="activity" title=" Exercise">}}
 You’ll export your page to a folder on your computer, upload it to Github, and deploy it to Netlify.
