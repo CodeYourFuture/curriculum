@@ -32,7 +32,8 @@
 {{ end }}
 
 {{ if "github" | in $src }}
-  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+{{/*  https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory */}}
+  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }} 
   {{ if (in $src "issues") }}
     {{ .Scratch.SetInMap "blockData" "type" "issue" }}
   {{ else }}
@@ -44,9 +45,12 @@
 
 {{ if "cyf-pd.netlify.app" | in $src }}
   {{ .Scratch.SetInMap "blockData" "type" "pd" }}
-  {{ $newSrc := replace $src "https://cyf-pd.netlify.app/blocks" "https://api.github.com/repos/CodeYourFuture/CYF-PD/contents/blocks" }}
+  {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+  {{ $blockPath := replace $blockPath "/readme/" "" }}
+  {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
 {{ end }}
+
 
 {{ if "youtu" | in $src }}
   {{ $newSrc := cond (in $src "youtu.be") (last 1 (split $src "/")) (last 1 (split $src "?v=")) }}
