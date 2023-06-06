@@ -1,0 +1,58 @@
+{{/* This scratch block takes a url and converts it to a map containing:
+  1. type of block to call, and the options are:
+  - gh readme
+  - gh issue
+  - pd (for the PD platform)
+  - youtube
+  - local module content
+  - local course content
+  2. api, converted from the url based on the type of block
+  3. block name
+  4. source of truth (sot)
+*/}}
+{{ $name := .name | default "warning: name is empty" }}
+{{ $src := .src | default "warning: src is empty" }}
+
+{{/* Initialize the blockData map */}}
+{{ .Scratch.Set "blockData" (dict) }}
+
+{{/* Set the block name */}}
+{{ .Scratch.SetInMap "blockData" "name" $name }}
+
+{{/* Set the source of truth */}}
+{{ .Scratch.SetInMap "blockData" "sot" $src }}
+
+{{/* Default block */}}
+{{ .Scratch.SetInMap "blockData" "type" "local_course" }}
+{{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $name) }}
+
+{{ if eq $src "module" }}
+  {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
+  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $.Page.Section $name) }}
+{{ end }}
+
+{{ if "github" | in $src }}
+  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+  {{ if (in $src "issues") }}
+    {{ .Scratch.SetInMap "blockData" "type" "issue" }}
+  {{ else }}
+    {{ $newSrc = replace $newSrc "/tree/main" "/contents" }}
+    {{ .Scratch.SetInMap "blockData" "type" "readme" }}
+  {{ end }}
+  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+{{ end }}
+
+{{ if "cyf-pd.netlify.app" | in $src }}
+  {{ .Scratch.SetInMap "blockData" "type" "pd" }}
+  {{ $newSrc := replace $src "https://cyf-pd.netlify.app/blocks" "https://api.github.com/repos/CodeYourFuture/CYF-PD/contents/blocks" }}
+  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+{{ end }}
+
+{{ if "youtu" | in $src }}
+  {{ $newSrc := cond (in $src "youtu.be") (last 1 (split $src "/")) (last 1 (split $src "?v=")) }}
+  {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
+  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+{{ end }}
+
+
+{{/*  <h4>{{ .Scratch.Get "blockData" | jsonify }}</h4>  */}}
