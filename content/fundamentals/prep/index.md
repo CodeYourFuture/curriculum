@@ -10,6 +10,9 @@ backlog= "Course-Fundamentals"
 name="Read and sign CYF agremeents"
 src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/agreements"
 [[blocks]]
+name="Childcare expenses"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/childcare-expenses"
+[[blocks]]
 name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
 [[blocks]]
