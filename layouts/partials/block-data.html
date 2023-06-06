@@ -24,7 +24,7 @@
 
 {{/* Default block */}}
 {{ .Scratch.SetInMap "blockData" "type" "local_course" }}
-{{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $name) }}
+{{ .Scratch.SetInMap "blockData" "api" (printf "blocks/%s" $name) }}
 
 {{ if eq $src "module" }}
   {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
