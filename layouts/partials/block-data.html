@@ -36,7 +36,7 @@
   {{ if (in $src "issues") }}
     {{ .Scratch.SetInMap "blockData" "type" "issue" }}
   {{ else }}
-    {{ $newSrc = replace $newSrc "/tree/main" "/contents" }}
+    {{ $newSrc = replace $newSrc "/tree/main" "/readme/" }}
     {{ .Scratch.SetInMap "blockData" "type" "readme" }}
   {{ end }}
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
