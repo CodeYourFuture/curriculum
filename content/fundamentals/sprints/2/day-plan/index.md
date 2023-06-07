@@ -21,10 +21,10 @@ src="module"
 name="lunch"
 [[blocks]]
 name="Using the Slack app"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/using-the-slack-app"
+src="https://cyf-pd.netlify.app/blocks/using-the-slack-app/readme/"
 [[blocks]]
 name="Organising the Slack Rota for our daily posts"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota"
+src="https://cyf-pd.netlify.app/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota/readme/"
 [[blocks]]
 name="pairing"
 src="module"

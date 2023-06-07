@@ -9,5 +9,5 @@ backlog= 'Course-Fundamentals'
 backlog_filter= 'Week 2'
 [[blocks]]
 name="Learn about Slack"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/learn-about-slack"
+src="https://cyf-pd.netlify.app/blocks/learn-about-slack/readme/"
 +++

@@ -7,11 +7,11 @@ menu_level = ["module"]
 weight = 1
 backlog= "Course-Fundamentals"
 [[blocks]]
-name="Read and sign CYF agremeents"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/agreements"
+name="Read and sign CYF agreements"
+src="https://cyf-pd.netlify.app/blocks/agreements/readme/"
 [[blocks]]
 name="Childcare expenses"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/childcare-expenses"
+src="https://cyf-pd.netlify.app/blocks/childcare-expenses/readme/"
 [[blocks]]
 name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
