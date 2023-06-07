@@ -26,8 +26,7 @@
         }}
          {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
           .CurrentSection.RelPermalink)
-        }} {{ printf "%sday-plan/index.md"
-          .CurrentSection.RelPermalink}}
+        }}
         {{ $blocks := slice }}
 {{/* append non-nil blocks */}}
         {{ range $prep.Params.blocks }}
@@ -36,8 +35,8 @@
         {{ range $dayplan.Params.blocks }}
           {{ if . }} {{ $blocks = $blocks | append . }} {{ end }}
         {{ end }}
-
-
+        {{/* Deduplicate blocks */}}
+        {{ $blocks = $blocks | uniq }}
         {{/* now we need to extract objectives from blocks not stored in this repo,
           so we will use the block-data scratch function to get the block data
         */}}
