@@ -32,8 +32,8 @@
 {{ end }}
 
 {{ if "github" | in $src }}
-{{/*  https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory */}}
-  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }} 
+  {{/* https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory */}}
+  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
   {{ if (in $src "issues") }}
     {{ .Scratch.SetInMap "blockData" "type" "issue" }}
   {{ else }}
@@ -51,12 +51,8 @@
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
 {{ end }}
 
-
 {{ if "youtu" | in $src }}
   {{ $newSrc := cond (in $src "youtu.be") (last 1 (split $src "/")) (last 1 (split $src "?v=")) }}
   {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
-  {{ .Scratch.SetInMap "blockData" "api" (delimit $newSrc "" "")}}
+  {{ .Scratch.SetInMap "blockData" "api" (delimit $newSrc "" "") }}
 {{ end }}
-
-
-{{/*  <h4>{{ .Scratch.Get "blockData" | jsonify }}</h4>  */}}

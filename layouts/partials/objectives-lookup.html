@@ -1,14 +1,6 @@
-{{ $name := .block.name | default "error" }}
-{{ $src := .block.src }}
-{{ $blockPath := printf "blocks/%s" $name }}
-
-{{ if eq $src "module" }}
-  {{ $blockPath = printf "%s/blocks/%s" .Page.Section $name }}
-{{ end }}
-{{ $block := .Page.Site.GetPage $blockPath }}
-
-{{ if $block }}
-  {{ with $block.Params.Objectives }}
-    {{ partial "objectives-block.html" . }}
-  {{ end }}
+{{ $scope := . }}
+{{ $pageContext := .pageContext }}
+{{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
+{{ with $localBlock.Params.Objectives }}
+  {{ partial "objectives-block.html" . }}
 {{ end }}

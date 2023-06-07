@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $pageContext := . }}
   <article>
     {{/* reset emoji from page matter to checkbox emoji */}}
     {{ .Scratch.Set "emoji" "✅" }}
@@ -26,24 +27,23 @@
         {{/* get the blocks from the prep page front matter */}}
         {{ $blocks := $prep.Params.blocks }}
         {{/* now we need to extract objectives from blocks not stored in this repo,
-          which means we will actually loop through each block type
-          with an onlyObjectives flag set on page layout eq success
-          I'm not keen on Janus components like this but
-          I can't seem to extend hugo with a custom function
-          and I'm not reproducing all the lookups again
-          so, for each block, print the objectives only
+          so we will use the block-data scratch function to get the block data
         */}}
         {{ range $blocks }}
-          {{ if not "youtube" | in .Params.src }}
-            <section class="c-objectives">
-              <h3 class="c-objectives__title">
-                {{ .name }}
-              </h3>
-              {{ partial "block.html" (dict "block" . "Page"
-                $.Page)
-              }}
-            </section>
+          {{ $name := .name | default "warning: name is empty" }}
+          {{ $src := .src }}
+          {{/* Call our scratch function */}}
+          {{ partial "block-data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
+          {{/* Retrieve the blockData from Scratch */}}
+          {{ $blockData := $.Page.Scratch.Get "blockData" }}
+          {{/* Depending on the type of block, call the appropriate partial */}}
+          {{/*  {{ if or (eq $blockData.type "readme") (eq $blockData.type "pd") }}
+            {{ partial "objectives-parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
+          {{ end }}  */}}
+          {{ if or (eq $blockData.type "local_module") (eq $blockData.type "local_course") }}
+            {{ partial "objectives-lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
           {{ end }}
+
         {{ end }}
       </section>
     </confetti-checkboxes>
