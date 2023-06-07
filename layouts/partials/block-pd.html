@@ -1,32 +1,27 @@
-{{ $resp := .resp }}
-{{ $name := .name }}
-{{ $decodedContent := $resp.content | base64Decode }}
-{{ $placeholder := "UNIQUE_PLACEHOLDER" }}
-{{ $decodedContentWithPlaceholder :=
-  replaceRE "((?:.*---.*){1})---" "${1}" $decodedContent
-}}
-{{ $contentParts :=
-  split $decodedContentWithPlaceholder $placeholder
-}}
-{{ $frontMatter := index
-  $contentParts 0
-}}
-{{ $markdownContent := index $contentParts 1 }}
-{{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
 
-{{ $onlyObjectives := .Page.Layout }}
+{{ $response := getJSON $blockData.api }}
+
+{{ if $response }}
+  {{ $decodedContent := $response.content | base64Decode }}
+  {{ $placeholder := "UNIQUE_PLACEHOLDER" }}
+  {{ $decodedContentWithPlaceholder :=
+    replaceRE "((?:.*---.*){1})---" "${1}" $decodedContent
+  }}
+  {{ $contentParts :=
+    split $decodedContentWithPlaceholder $placeholder
+  }}
+  {{ $frontMatter := index
+    $contentParts 0
+  }}
+  {{ $markdownContent := index $contentParts 1 }}
+  {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
 
 
-<!-- if we only want objectives, print those -->
-{{ if eq $onlyObjectives "success" }}
-  {{ with $parsedFrontMatter.objectives }}
-    {{ partial "objectives-block.html" . }}
-  {{ end }}
-{{ else }}
   <section class="c-block c-block--pd">
     <header class="c-block__header">
-      <h2 class="c-block__title e-heading__2" id="{{ $name |urlize }}">
-        <a href="{{ $resp.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
+      <h2 class="c-block__title e-heading__2" id="{{ $blockData |urlize }}">
+        <a href="{{ $response.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
       </h2>
       <time class="c-block__time" datetime="P{{ $parsedFrontMatter.time }}M"
         >{{ $parsedFrontMatter.time }} minutes</time
@@ -43,7 +38,7 @@
         <summary>
           <h3 class="c-objectives__title e-heading__2">Learning Objectives</h3>
         </summary>
-        {{ partial "objectives-block.html" (dict "Heading" false "." .) }}
+        {{ partial "objectives-block.html" . }}
       </details>
     {{ end }}
     {{ with $parsedFrontMatter.prep }}
