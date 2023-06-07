@@ -20,17 +20,29 @@
         <h2 class="e-heading__4 c-objectives__title">
           Compiled Learning Objectives
         </h2>
-        {{/* get the path to the prep page that is the sibling of this page */}}
+        {{/* get the path to the pages that are the siblings of this page */}}
         {{ $prep := .Site.GetPage (printf "%sprep/index.md"
           .CurrentSection.RelPermalink)
         }}
-        {{/* get the blocks from the prep page front matter */}}
-        {{ $blocks := $prep.Params.blocks }}
+         {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
+          .CurrentSection.RelPermalink)
+        }} {{ printf "%sday-plan/index.md"
+          .CurrentSection.RelPermalink}}
+        {{ $blocks := slice }}
+{{/* append non-nil blocks */}}
+        {{ range $prep.Params.blocks }}
+          {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
+        {{ end }}
+        {{ range $dayplan.Params.blocks }}
+          {{ if . }} {{ $blocks = $blocks | append . }} {{ end }}
+        {{ end }}
+
+
         {{/* now we need to extract objectives from blocks not stored in this repo,
           so we will use the block-data scratch function to get the block data
         */}}
         {{ range $blocks }}
-          {{ $name := .name | default "warning: name is empty" }}
+          {{ $name := .name }}
           {{ $src := .src }}
           {{/* Call our scratch function */}}
           {{ partial "block-data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
