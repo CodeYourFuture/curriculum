@@ -11,7 +11,7 @@
         class="c-block__series c-block__series--timeline c-timeline c-timeline--block">
         {{ range $index, $block := .Params.blocks }}
           <div class="c-timeline__entry">
-            {{ partial "block.html" (dict "block" $block "Page" $.Page) }}
+            {{ partial "block/block.html" (dict "block" $block "Page" $.Page) }}
           </div>
         {{ end }}
       </div>

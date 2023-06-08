@@ -16,7 +16,7 @@
 <!--output list-->
 {{ if gt (len $allObjectives ) 0 }}
   {{ with $allObjectives }}
-    {{ partial "objectives-block.html" . }}
+    {{ partial "objectives/block.html" . }}
   {{ end }}
 {{ else }}
   <p>No objectives defined</p>
