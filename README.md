@@ -19,7 +19,7 @@ brew install hugo
 ### To run locally
 
 ```bash
-hugo server
+npm i && hugo server
 ```
 
 ### To create a new module
