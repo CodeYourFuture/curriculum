@@ -1,5 +1,4 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
 {{ $response := getJSON $blockData.api }}
 
 {{ if $response }}
