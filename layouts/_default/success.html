@@ -24,16 +24,16 @@
         {{ $prep := .Site.GetPage (printf "%sprep/index.md"
           .CurrentSection.RelPermalink)
         }}
-         {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
+        {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
           .CurrentSection.RelPermalink)
         }}
         {{ $blocks := slice }}
-{{/* append non-nil blocks */}}
+        {{/* append non-nil blocks */}}
         {{ range $prep.Params.blocks }}
           {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
         {{ end }}
         {{ range $dayplan.Params.blocks }}
-          {{ if . }} {{ $blocks = $blocks | append . }} {{ end }}
+          {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
         {{ end }}
         {{/* Deduplicate blocks */}}
         {{ $blocks = $blocks | uniq }}
@@ -48,9 +48,14 @@
           {{/* Retrieve the blockData from Scratch */}}
           {{ $blockData := $.Page.Scratch.Get "blockData" }}
           {{/* Depending on the type of block, call the appropriate partial */}}
-          {{/*  {{ if or (eq $blockData.type "readme") (eq $blockData.type "pd") }}
+          {{ if or (eq $blockData.type "readme") (eq $blockData.type "pd") }}
+            <h5>
+              <a href="{{ $blockData.sot }}" class="c-objectives__link">
+                {{ $blockData.name }} 🔗
+              </a>
+            </h5>
             {{ partial "objectives-parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
-          {{ end }}  */}}
+          {{ end }}
           {{ if or (eq $blockData.type "local_module") (eq $blockData.type "local_course") }}
             {{ partial "objectives/lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
           {{ end }}
