@@ -1,53 +1,46 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html lang="en-gb">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>{{ .Site.Title }}</title>
-    <meta name="description" content="{{ .Site.Params.description }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- suppress FOUC-->
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        animation: fade-in 0.2s;
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- suppress FOUC-->
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      animation: fade-in 0.2s;
+    }
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
       }
-      @keyframes fade-in {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
+      100% {
+        opacity: 1;
       }
-    </style>
-    {{ $sass := resources.Match "styles/**.scss" | resources.Concat
-      "bundled.css"
-    }}
-    {{ $style := $sass | toCSS | minify | fingerprint "md5" }}
-    <link
-      rel="stylesheet"
-      href="{{ $style.RelPermalink }}"
-      media="print"
-      onload="this.media='all'" />
-    <noscript>
-      <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
-    </noscript>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Caveat:wght@500&family=Inter:wght@400;600&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'" />
+    }
+  </style>
+  {{ $sass := resources.Match "styles/**.scss" | resources.Concat
+    "bundled.css"
+  }}
+  {{ $style := $sass | toCSS | minify | fingerprint "md5" }}
+  <link
+    rel="stylesheet"
+    href="{{ $style.RelPermalink }}"
+    media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+  </noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Caveat:wght@500&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'" />
 
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
-  </head>
-</html>
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
+</head>
