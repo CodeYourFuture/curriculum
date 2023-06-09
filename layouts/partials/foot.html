@@ -33,8 +33,6 @@
   </button>
 </footer>
 {{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
-{{ $menuButton := resources.Get "scripts/random-emoji.js" | resources.Minify }}
 {{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build }}
 <script src="{{ $scripts.Permalink }}" defer></script>
-<script src="{{ $menuButton.Permalink }}"></script>
 <script src="{{ $codemirror.Permalink }}"></script>
