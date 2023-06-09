@@ -20,7 +20,11 @@ src="module"
 [[blocks]]
 name="lunch"
 [[blocks]]
-name="pd-placeholder"
+name="Using the Slack app"
+src="https://cyf-pd.netlify.app/blocks/using-the-slack-app/readme/"
+[[blocks]]
+name="Organising the Slack Rota for our daily posts"
+src="https://cyf-pd.netlify.app/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota/readme/"
 [[blocks]]
 name="pairing"
 src="module"

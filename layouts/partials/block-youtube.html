@@ -1,15 +1,15 @@
-{{ $name := .block.name | default "error" }}
-{{ $src := .block.src }}
-{{ $videoID := delimit ((split $src "?v=") | last 1 ) "" "" }}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
 <section class="c-block c-block--youtube">
-  <h2 class="c-block__title e-heading__2 is-invisible" id="{{ $name |urlize }}">
-    <a href="{{ $src }}">{{ $name }} 🔗</a>
+  <h2
+    class="c-block__title e-heading__2 is-invisible"
+    id="{{ $blockData.name |urlize }}">
+    <a href="{{ $blockData.sot }}">{{ $blockData.name }} 🔗</a>
   </h2>
   <h3 class="c-block__byline e-heading__5">{{ partial "byline.html" }}</h3>
   <div class="c-block__content">
     <!-- register youtube player component -->
     {{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
     <script src="{{ $player.Permalink }}" defer></script>
-    <youtube-player data-video-id="{{ $videoID }}"></youtube-player>
+    <youtube-player data-video-id="{{ $blockData.api }}"></youtube-player>
   </div>
 </section>

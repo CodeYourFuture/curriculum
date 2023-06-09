@@ -10,7 +10,11 @@ backlog_filter= 'Week 1'
 [[blocks]]
 name="energiser"
 [[blocks]]
-name="pd-placeholder"
+name="Importance of Professional Development"
+src="https://cyf-pd.netlify.app/blocks/fundamentals-test/readme/"
+[[blocks]]
+name="Let's talk about our Code of Conduct"
+src="https://cyf-pd.netlify.app/blocks/lets-talk-about-our-code-of-conduct/readme/"
 [[blocks]]
 name="morning-break"
 [[blocks]]

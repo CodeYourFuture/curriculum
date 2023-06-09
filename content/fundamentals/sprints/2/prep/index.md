@@ -11,5 +11,8 @@ backlog_filter= 'Week 2'
 name="overcoming-blockers"
 src="module"
 [[blocks]]
+name="Learn about Slack"
+src="https://cyf-pd.netlify.app/blocks/learn-about-slack/readme/"
+[[blocks]]
 name="backlog"
 +++
