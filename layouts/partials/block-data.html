@@ -12,6 +12,7 @@
 */}}
 {{ $name := .name | default "warning: name is empty" }}
 {{ $src := .src | default "warning: src is empty" }}
+{{/* We need to know what page this block is on */}}
 {{ $p := .page }}
 
 {{/* Initialize the blockData map */}}
