@@ -12,6 +12,7 @@
 */}}
 {{ $name := .name | default "warning: name is empty" }}
 {{ $src := .src | default "warning: src is empty" }}
+{{ $p := .page }}
 
 {{/* Initialize the blockData map */}}
 {{ .Scratch.Set "blockData" (dict) }}
@@ -28,7 +29,7 @@
 
 {{ if eq $src "module" }}
   {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
-  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $.Page.Section $name) }}
+  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $p.Page.Section $name) }}
 {{ end }}
 
 {{ if "github" | in $src }}
