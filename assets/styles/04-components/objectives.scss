@@ -18,6 +18,10 @@ li:has(input[type="checkbox"]) {
     content: "☑️ ";
     font-size: 22px;
   }
+  label {
+    padding-left: calc(22px + 1ch);
+    margin-left: calc(-1 * calc(22px + 1ch));
+  }
 }
 li:has(input[type="checkbox"]:checked) {
   &::marker {

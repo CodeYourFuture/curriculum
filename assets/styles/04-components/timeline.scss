@@ -13,6 +13,7 @@
   );
   &__entry,
   [class="c-timeline__entry"] {
+    width: 100%;
     display: flex;
     max-width: var(--theme-spacing--container);
     align-items: center;

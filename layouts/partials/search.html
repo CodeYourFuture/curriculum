@@ -1,0 +1,48 @@
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
+<style>
+  :root {
+    --pagefind-ui-primary: var(--theme-color--ink);
+    --pagefind-ui-text: var(--theme-color--ink);
+    --pagefind-ui-background: var(--theme-color--paper);
+    --pagefind-ui-border: var(--theme-color--outline);
+    --pagefind-ui-tag: var(--theme-color--block);
+    --pagefind-ui-border-radius: 2em;
+    --pagefind-ui-image-border-radius: var(--theme-border-radius);
+    --pagefind-ui-font: var(--theme-font--copy);
+  }
+  .pagefind-ui--reset {
+    position: absolute;
+  }
+  #search .pagefind-ui__search-input {
+    box-shadow: var(--theme-box-shadow--inset);
+    margin-bottom: var(--theme-spacing--1);
+  }
+  #search .pagefind-ui__search-clear {
+    background-color: transparent;
+  }
+  #search .pagefind-ui__drawer {
+    background-color: var(--theme-color--paper);
+    box-shadow: var(--theme-box-shadow--slim);
+    transform: translateY(-1.5px);
+    {{/*  !mn no justification TODO refactor */}}
+  }
+  #search .pagefind-ui__message {
+    padding-left: min(calc(40px * var(--pagefind-ui-scale)), 3%);
+  }
+  #search .pagefind-ui__result:focus-within, #search .pagefind-ui__button:focus {
+  background-color: var(--theme-color--block)
+}
+  #search .pagefind-ui__result-thumb {
+    width: min-content;
+  }
+  #search .pagefind-ui__button {
+  border:none;
+}
+</style>
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<div id="search" class="l-header__search"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    new PagefindUI({ element: "#search" });
+  });
+</script>

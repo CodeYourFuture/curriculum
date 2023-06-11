@@ -1,12 +1,12 @@
 .l-header {
-  @include grid-assign(heading, nav, action, container);
+  @include grid-assign(heading, search, action, container);
 
   @include backdrop(true, true, 0.7);
   background-color: var(--theme-color--paper);
   color: var(--theme-color--accent);
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   box-shadow: var(--theme-box-shadow);
   grid-template:
     " . ......... . " var(--theme-spacing--1)
@@ -17,13 +17,13 @@
   &__container {
     display: grid;
     grid-template:
-      ". heading nav action" min-content
-      / 1fr min-content 1fr min-content;
-    align-items: center;
+      "heading . search action" min-content
+      / min-content var(--theme-spacing--gutter) 1fr
+      min-content;
   }
   &__heading {
-    font: var(--theme-font--brand);
     color: var(--theme-color--brand);
+    max-width: 140px;
   }
   &__home {
     @include on-event {
@@ -31,9 +31,14 @@
       outline: none;
     }
   }
-  &__list {
-    display: flex;
-    justify-content: flex-end;
-    gap: var(--theme-spacing--gutter);
+  &__search {
+    position: relative;
+  }
+  &__action {
+    transform: translateX(
+      calc(
+        calc(var(--theme-spacing--touchtarget) / 2) - var(--theme-spacing--1)
+      )
+    );
   }
 }
