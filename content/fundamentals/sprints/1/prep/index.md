@@ -38,7 +38,7 @@ This is your public professional email address. Use it to sign up for all your p
 Google Chrome is the first browser we will all use together.
 
 - [ ] I have downloaded and installed Google Chrome.
-- [ ] I have created my professional profile on Chrome.
+- [ ] I have logged into my professional profile on Chrome.
 
 Use your professional Chrome profile for all your CYF work. You will often have to share your screen during class, so keep your personal internet use private and away from your professional profile.
 
