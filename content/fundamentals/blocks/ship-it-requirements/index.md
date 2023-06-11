@@ -15,7 +15,7 @@ Now we will ship some code, because we expect you to ship very often at CYF.
 You're going to be working on and developing your own projects over the Fundamentals course, so let's begin with your Personal Home Page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
 {{<note type="tip" title="Tip">}}
-It's important that software _works_ and that we can _use_ it!
+It's important that software _works_ and that both we _and other people_ can _use_ it!
 {{</note>}}
 
 #### You will need:
