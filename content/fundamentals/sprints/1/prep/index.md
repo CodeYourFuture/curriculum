@@ -10,7 +10,7 @@ backlog_filter= 'Week 1'
 +++
 
 {{<note type="warning" title="Important">}}
-Before you come to class, make sure you've done the [precourse prep](../../../prep/) and this prep.
+Before you come to class, make sure you've done the [pre-course prep](../../../prep/) and this per-sprint prep.
 {{</note>}}
 
 ## Professional Accounts (2 hours)
