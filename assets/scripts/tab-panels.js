@@ -7,6 +7,11 @@ class TabPanels extends HTMLElement {
   connectedCallback() {
     this.render();
     this._addEventListeners();
+
+    // Handle fragment navigation on component mount
+    if (window.location.hash) {
+      this._handleFragmentNavigation(window.location.hash);
+    }
   }
 
   render() {
@@ -24,6 +29,20 @@ class TabPanels extends HTMLElement {
         this._handleTabClick(e);
       }
     });
+
+    // Listen for hashchange events on the window
+    window.addEventListener("hashchange", (e) => {
+      this._handleFragmentNavigation(window.location.hash);
+    });
+  }
+
+  _handleFragmentNavigation(hash) {
+    // when we link directly to a tab, we expect it to be focused
+    const tabToFocus = this.querySelector(`[href="${hash}"]`);
+
+    if (tabToFocus) {
+      this._handleTabClick({ target: tabToFocus, preventDefault: () => {} });
+    }
   }
 
   _handleTabClick(e) {
