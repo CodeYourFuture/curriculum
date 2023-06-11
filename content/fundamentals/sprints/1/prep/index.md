@@ -10,7 +10,7 @@ backlog_filter= 'Week 1'
 +++
 
 {{<note type="warning" title="Important">}}
-Before you come to class, make sure you've done the [precourse prep](../../../prep/) and this prep.
+Before you come to class, make sure you've done the [pre-course prep](../../../prep/) and this per-sprint prep.
 {{</note>}}
 
 ## Professional Accounts (2 hours)
@@ -29,17 +29,16 @@ Make a new Google account if you do not have a professional one already. Use you
 
 > GBencci@gmail.com
 
-This is your public professional email address. Use it to sign up for all your professional accounts unless you can use your Github. Put it in your Slack profile.
+This is your public professional email address. Use it to sign up for all your professional accounts unless you can use your Github.
 
 - [ ] I have made a professional Google account and Gmail address.
-- [ ] I have put this in my Slack Profile
 
 ### Google Chrome
 
 Google Chrome is the first browser we will all use together.
 
 - [ ] I have downloaded and installed Google Chrome.
-- [ ] I have created my professional profile on Chrome.
+- [ ] I have logged into my professional profile on Chrome.
 
 Use your professional Chrome profile for all your CYF work. You will often have to share your screen during class, so keep your personal internet use private and away from your professional profile.
 
@@ -50,7 +49,7 @@ Slack is our community space and how we communicate with each other. Download an
 - [ ] I have downloaded the Slack app on my computer and phone
 - [ ] I have logged in to the Code Your Future Intro to Coding Workspace
 - [ ] I have found and joined my class channels
-- [ ] I have updated my profile with my picture and class
+- [ ] I have updated my profile with my picture, my professional email address, my GitHub username, and my class
 
 {{<note type="tip" title="Robohash" >}}
 CYF understands you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
@@ -64,7 +63,7 @@ We use Zoom for remote sessions. Install it now.
 
 ### LinkedIn
 
-Sign up for Linked In. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
+Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
