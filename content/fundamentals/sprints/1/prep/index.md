@@ -63,7 +63,7 @@ We use Zoom for remote sessions. Install it now.
 
 ### LinkedIn
 
-Sign up for Linked In. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
+Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
