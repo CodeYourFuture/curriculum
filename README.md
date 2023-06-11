@@ -30,11 +30,20 @@ npm i && hugo server
 
 ### Linting
 
-All CYF repos use the Prettier standard. However, Prettier doesn't have golang by default so you must install a plugin for it to work in VSCode. I've included it in a package.json. The only thing this package does is install the golang linter for prettier.
+All CYF repos use the Prettier standard. However, Prettier doesn't have golang by default so you must install a plugin for it to work in VSCode. I've included it in the package.json.
 
-```bash
-npm i
+### Site Search
+
+PageFind runs the search. https://pagefind.app/
+It's in the build command on Netlify `hugo && npx pagefind --source "public"`
+If you need to develop on this locally, run:
+
+```zsh
+rm -rf public &&
+hugo && npx pagefind --source "public" --serve
 ```
+
+And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
 
 ## Contributing
 

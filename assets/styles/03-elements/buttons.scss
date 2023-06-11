@@ -12,6 +12,7 @@
   min-width: fit-content;
   height: fit-content;
   gap: var(--theme-spacing--1);
+  cursor: hand;
 
   // vars to override in other places
   --button-color: var(--theme-color--ink);
