@@ -18,8 +18,11 @@ brew install hugo
 
 ### To run locally
 
+You'll need to get a fine-grained GitHub API token which allows read-only access to all public CYF repos from [this page](https://github.com/settings/tokens?type=beta).
+
 ```bash
-npm i && hugo server
+npm i
+CYF_CURRICULUM_GITHUB_BEARER_TOKEN=your_github_api_token hugo server
 ```
 
 ### To create a new module

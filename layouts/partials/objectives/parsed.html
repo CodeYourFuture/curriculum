@@ -1,4 +1,8 @@
-{{ $response := getJSON .blockData.api }}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ $response := getJSON .blockData.api $headers }}
 {{ $type := .blockData.type }}
 {{ $decodedContent := $response.content | base64Decode }}
 {{/* Find fenced objectives in text */}}

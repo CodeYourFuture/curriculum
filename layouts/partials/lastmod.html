@@ -8,7 +8,11 @@
 <!-- api call -->
 {{ $api:="https://api.github.com/repos/CodeYourFuture/immersive-go-course/commits" }}
 {{ $url := print $api "?path=" $p }}
-{{ $commitObject := getJSON $url }}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ $commitObject := getJSON $url $headers }}
 <!-- range over commit -->
 {{ range first 1 $commitObject }}
   <h3 class="c-lastmod e-heading__6">
