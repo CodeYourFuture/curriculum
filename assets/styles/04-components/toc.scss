@@ -9,6 +9,14 @@
   max-height: 25vh;
   overflow-y: auto;
 
+  // When scrolling into view, add a bit of spacing above to give room for
+  // sticky header.
+  // Calculate the height of the header, summing:
+  //   45px (rough logo height - magic number since height isn't defined)
+  //   --theme-spacing--1 * 2 (padding around logo)
+  //   --theme-spacing-2 (some extra breathing room)
+  scroll-margin-block-start: calc(calc(calc(var(--theme-spacing--1) * 2) + 45px) + var(--theme-spacing--2));
+
   ol {
     color: var(--theme-color--ink);
     padding-right: var(--theme-spacing--gutter);
