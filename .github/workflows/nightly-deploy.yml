@@ -1,0 +1,14 @@
+on:
+  scheduler:
+    - cron: '15 19 * * *'
+name: Nightly publish to Netlify
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish
+      uses: netlify/actions/build@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
