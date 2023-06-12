@@ -1,5 +1,5 @@
 ---
-title: Github > Render
+title: GitHub > Render
 description: How to connect your GitHub to Render
 emoji: 🔌
 ---
@@ -8,7 +8,7 @@ emoji: 🔌
 
 ![Render homepage](sign-in.png)
 
-2. Choose Github as your sign in method
+2. Choose GitHub as your sign in method
 
 ![Sign into Render using GitHub](sign-in-with-github.png)
 
