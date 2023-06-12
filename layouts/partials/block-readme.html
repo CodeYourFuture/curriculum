@@ -1,5 +1,9 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api }}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ $response := getJSON $blockData.api $headers }}
 
 {{ if $response }}
   <section class="c-block">

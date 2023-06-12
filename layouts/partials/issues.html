@@ -2,9 +2,13 @@
 {{ $issues := print .Site.Params.orgapi $repo "/issues" }}
 {{ $filter := .Params.backlog_filter }}
 <!-- api call -->
-{{ $commitObject := getJSON $issues }}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ $commitObject := getJSON $issues $headers }}
 <!-- if no object show error -->
-{{ if $commitObject }}
+{{ if ne $commitObject nil }}
   <!-- range over issues list and pull out useful data -->
   {{ range $commitObject }}
     <!-- only show open issues -->
@@ -23,6 +27,9 @@
       {{ end }}
       <!-- now show the issue -->
       {{ if $showIssue }}
+        {{ if strings.Contains .body "_No response_" }}
+          {{ warnf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
+        {{ end }}
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
@@ -44,5 +51,5 @@
     {{ end }}
   {{ end }}
 {{ else }}
-  <h3>Error, fetch failed</h3>
+  {{ errorf "Error, fetch of %s failed: %v" $issues $commitObject }}
 {{ end }}
