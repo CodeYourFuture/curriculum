@@ -127,18 +127,31 @@ function convertToPercentage() {
 Now we can call our function and store the output in a variable.
 We can write:
 
-```js
+```js {linenos=table,hl_lines=["5"],linenostart=1}
+function convertToPercentage() {
+  const num = 0.5;
+  const percentage = `${num * 100}%`;
+}
 const result = convertToPercentage(0.3);
 ```
 
 Then we can print the value of the result to the terminal using `console.log`.
 
-```js
+```js {linenos=table,hl_lines=["6"],linenostart=1}
+function convertToPercentage() {
+  const num = 0.5;
+  const percentage = `${num * 100}%`;
+}
 const result = convertToPercentage(0.3);
 console.log(result);
 ```
 
 <br>
+
+{{<note type="question" title="exercise">}}
+Given the code above, try predicting what `result` will evaluate to.
+
+{{</note>}}
 
 ### Undefined values
 
@@ -195,7 +208,7 @@ However, _given the function's current implementation_, we get the following log
 
 ### 💻 Playing computer
 
-To understand how our function currently behaves we must start building a mental model to understand how our code is executed. Our current mental model may consist of the following ideas:
+To understand how our function currently behaves we must start building an understanding of how our code is executed. We might currently have some ideas of how code is executed in our program:
 
 ```mermaid
 mindmap
@@ -206,9 +219,7 @@ Root[How is a piece of code executed?]
     E[When returning from a function we get an output]
 ```
 
-### Execution diagrams
-
-#### Current line of code
+### ➡️ Current line of code
 
 We can make use of execution diagrams to visualise how a program is executed by a computer.
 
@@ -226,25 +237,25 @@ const name = "Gayle";
 
 which means store a string `"Gayle"` in memory.
 
-#### Storing things in memory
+### Storing things in memory
 
 As variables are declared, we need a way to keep track of the memory that is stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
 
 For now, we can think of a frame as a space in our diagram that represents the variables stored in memory at a particular point.
 
-The _global frame_ is always the first frame that gets created when our program is executing: the _global frame_ is a memory location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame:
+The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as a location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame:
 
 ![runtime-diagram](runtime-diagram-1.png)
 
 Every time you click on the next button in the diagram you should observe changes to the memory in the frame.
 
-#### Executing functions
+### 🏃 Executing functions
 
 So far we've seen 2 things:
 
 - lines of code are executed from top to bottom
-- we can keep track of our variables stored in memory using a global frame
+- we keep track of variables stored in memory using a global frame
 
 However, we need to consider what happens when we declare and call a function in our program.
 Let's consider another example:
@@ -271,20 +282,36 @@ A function call means "go execute the instructions in the body of a function".
 
 🤔 In our diagram we need a way to show what happens to the current executing line when a function is called.
 
-🖊️ Carefully observe what happens when the line goes over the function call.
+{{<note type="activity" title="exercise">}}
+Given the code above, try using the visualisation diagrams to work out what happens when makeFreeting` is called on line 278.
 
-The arrow representing the current line of execution now moves to the first line inside the function: this represents how we now jump to run the code inside some function. In addition, we can also observe another frame being created: the sum frame.
-So the sum frame is a way of tracking the variables that are defined in the `sum` function body.
+What happens to the arrow indicating the current line of code that we're executing.
+What else do you notice when `makeGreeting` is called above?
+
+{{</note>}}
+
+The arrow representing the current line of execution now moves to the first line inside the function: this shows that the computer now starts running instructions inside the function.
+
+In addition, another frame is created when we call `makeGreeting`:
+
+![make-greeting-frame](make-greeting-frame.png)
+
+Like the global frame, the `makeGreeting` frame will be used to track variables that are created when `makeGreeting` is executed.
 
 <br>
 
-#### 📥 Returning from a function
+### 📥 Returning from a function
 
 Earlier we defined output for the function by writing a return statement and setting a return value.
 
 <iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%0A%20%20%20%20return%20greeting%3B%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0A%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-However, we can see that the `return keyword` also has additional effects. As well as defining the output, it also indicates where we go next during execution. The return keyword indicates we stop executing inside the current function and return to the location where the function was originally called. We can use another example with the code above slightly modified to include a return statement.
+However, we can see that the `return` keyword also has additional effects. As well as defining the output, it also tells us to "return" to the place where in our code where the function was called.
+
+{{<note type="activity" title="exercise">}}
+Try using the visualisation diagram above to work out what happens when the computer executes the return statement.
+
+{{</note>}}
 
 <br>
 <br>
@@ -293,23 +320,23 @@ However, we can see that the `return keyword` also has additional effects. As we
 ### 🧩 Putting everything together
 
 So now we have some idea of how the computer executes our code, we can apply these ideas to a program for our current implementation of `convertToPercentage`:
-Let's consider the code below:
 
-```js {linenos=table,linenostart=1}
-function convertToPercentage() {
-  const num = 0.5;
-  const percentage = `${num * 100}%`;
-  return percentage;
-}
-
-const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.3);
-```
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20num%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 <br>
 <br>
 
-### Generalising functionality
+{{<note type="activity" title="exercise">}}
+Given the code above, try using the visualisation diagrams to "play computer" with this example. Try stepping through each line of code to see what the console output is.
+
+Explain _why_ the program is not giving the correct output we described earlier.
+
+{{</note>}}
+
+<br>
+<br>
+
+### Checking our code
 
 Given our code below:
 
@@ -320,14 +347,11 @@ function convertToPercentage() {
   return percentage;
 }
 
-console.log(convertToPercentage(0.5));
-console.log(convertToPercentage(0.23));
+const output1 = convertToPercentage(0.5);
+const output2 = convertToPercentage(0.23);
 ```
 
-when the function `convertToPercentage` is called, the variable `num` gets recreated in the `makeGreeting` frame and set to `0.5` every time we call the function `convertToPercentage`.
-However, we need to make use of the input that is passed to the function `convertToPercentage` every time it is called.
-
-This will allow us to generalise our functionality: in other words, we’ll be able to reuse this function for any number we like.
+when the function `convertToPercentage` is called, the variable `num` gets recreated in the `convertToPercentage` frame and set to `0.5` every time we call the function. Instead of `num` being reset every time the function is called, we want to make use of the input that is passed to the function `convertToPercentage` every time it is called.
 
 <br>
 
@@ -345,11 +369,9 @@ function convertToPercentage(num) {
   return percentage;
 }
 
-console.log(convertToPercentage(0.5));
-console.log(convertToPercentage(0.23));
+const output1 = convertToPercentage(0.5);
+const output2 = convertToPercentage(0.23);
 ```
-
-🖊️ Now try playing computer with a pen and paper with the code above.
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0A%0A%0Afunction%20convertToPercentage%28num%29%20%7B%0A%20%20%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20%20%20return%20percentage%3B%0A%7D%0A%0Aconsole.log%28convertToPercentage%280.5%29%29%3B%0Aconsole.log%28convertToPercentage%280.23%29%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -364,7 +386,7 @@ flowchart LR
 
 This time we have a difference in that we have defined a parameter `num` in the function declaration inside parentheses after the function name `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
 
-We can now update the model and say if we have a parameter then we declare a variable called num first and assign it a value of the input that was passed to the function
+We can now update the model and say if we have a parameter then we declare a variable called `num` first and assign it a value of the input that was passed to the function
 
 ```mermaid
 
