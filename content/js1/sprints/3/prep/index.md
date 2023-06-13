@@ -103,10 +103,11 @@ This begs the question:
 ### ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
-Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations with those numbers.  
+Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations like addition etc.
+
 However, if we're comparing values or expressions then we have one of 2 different states: **true** or **false**.
 
-This brings us to the boolean data type: which has only values of `true` or `false`.
+This leads us to the boolean data type: which only has values of `true` or `false`.
 
 Whenever we compare 2 expressions with a comparison operator then the comparison itself will evaluate to a boolean value: `true` or `false`.
 
@@ -119,6 +120,32 @@ For example:
 ```
 
 The comparison expression above is asking whether `42` has the same value as `10 + 32`.
+
+{{<note type="exercise" title="Exercise 1.1">}}
+
+Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check documentation if you've not seen a particular operator before.
+
+```js {linenos=table,linenostart=1}
+true === false;
+5 == 2 + 4;
+4 * 5 == "20";
+4 * 5 === "20";
+3 * 2 === 6;
+4 = 4;
+let mhairiName = "Mhairi";
+let mhairiAge = 28;
+let isMhairOldEnoughToDrive = true;
+"hello Mhairi" === `hello ${Mhairi}`;
+`Mhairi is 28` === `mhairi is ${mhairiAge}`;
+"${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
+isMhairOldEnoughToDrive;
+isMhairOldEnoughToDrive === true;
+mhairiAge >= 18;
+mhairiAge >= 28;
+29 <= mhairiAge;
+```
+
+{{</note>}}
 
 ### Writing an assertion
 
@@ -276,7 +303,7 @@ To reuse variable names, we can make use of a block declaration as follows:
 
 🔑 A **block** is a region of code defined by a set of curly braces in which we write any number of statements.
 
-As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get an `ReferenceError`:
+As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get a `ReferenceError`:
 
 ```js title="problem.js"
 function formatAs12HourClock(time) {
@@ -318,7 +345,9 @@ Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
 However, at the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`. We need to do something different when the time is after midday like "23:00"
 
-> 💡 The execution of task will only take place when some condition is `true`
+> 💡 We need to execute some different logic when the time is beyond midday
+
+We can visualise this as a question:
 
 ```mermaid
 
@@ -328,11 +357,13 @@ A{Is the time before midday?} -- true --> B[Add am to time string]
 A -- false --> C[???]
 ```
 
+We need to work out what to do in the case when the time input is later than midday.
+
 ### 🗺️ Describing the strategy
 
 Let's describe the strategy for dealing with an input that is after midday.
 
-Earlier we observed that when the time goes beyond midday then we can subtract 12 from the hours time to get the new hours for the 12 hour clock time.
+Earlier we observed that when the time goes beyond midday then **we can subtract 12 from the hours time to get the new hours for the 12 hour clock time**. So if the time is "23:00", we know that the hours will be "11" in the 12 hour clock time.
 
 _Before_ writing code, we can define our approach in steps:
 
@@ -345,7 +376,7 @@ flowchart TD
 A[Step 1: Extract the hours from the time '23:00', to get '23'] --> B[Step 2: Convert '23' to a number, to get 23]
 B --> C{Step 3\nCheck: Are the hours greater than 12?}
 C -- true --> D[Step 4: subtract 12 from the hours, to get 11]
-D --> E[Step 5: add the rest of the time with 'pm', to get '11:00 pm']
+D --> E[Step 5: add 'pm' to the rest of the time, to get '11:00 pm']
 E --> F[Step 6: return the new time]
 ```
 
@@ -384,9 +415,33 @@ flowchart LR
 </br>
 </br>
 
+{{<note type="exercise" title="Exercise 2.1">}}
+Write a program that defines a variable `eleniAge`.
+
+If Eleni is less than 18, the program should print out nothing to the console.
+
+If Eleni is 18 years old or older, the program should print out:
+
+```bash
+Eleni is old enough to drive
+```
+
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 2.2">}}
+
+Modify the program above so that if Eleni is less than 18 the program prints out:
+
+```bash
+Eleni is not old enough to drive
+```
+
+{{</note>}}
+
 ### Applying new knowledge
 
-So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve the following checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator. This will check if the value on the left of the operator is less than the value on the right of the operator.
+So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator.
+`>` will check if the value on the left of the operator is less than the value on the right of the operator.
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
 
 So provided we have an expression for the hours from the time, then we can write a conditional statement as follows:
@@ -495,7 +550,7 @@ The `return` statement above implements the following steps we set out earlier:
 flowchart TD
 
 D[Step 4: subtract 12 from the hours]
-D --> E[Step 5: add the rest of the time with 'pm']
+D --> E[Step 5: add 'pm' to the rest of the time]
 E --> F[Step 6: return the new time]
 
 ```
