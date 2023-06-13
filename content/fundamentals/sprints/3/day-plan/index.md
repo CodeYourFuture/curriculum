@@ -16,7 +16,7 @@ src="module"
 name="morning-break"
 [[blocks]]
 name="Presenting your Blockly project"
-src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/presenting-your-blockly-project"
+src="https://cyf-pd.netlify.app/blocks/presenting-your-blockly-project/readme/"
 [[blocks]]
 name="lunch"
 [[blocks]]
