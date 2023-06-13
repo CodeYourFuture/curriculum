@@ -29,8 +29,6 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Invoke a given function with appropriate arguments to produce some target output
 - Describe how to log the output of a function
 - Analyse each line in a given program and state what the line does when the program executes
-- Given a short program, specify the line in which a ReferenceError is thrown
-- Define _local scope_
 - Explain the difference between returning a value and logging a value
 - Assess and explain whether a function can reference a given variable or not
 - Explain what is meant by the term "implementation opacity"
@@ -240,16 +238,16 @@ const name = "Gayle";
 
 which means store a string `"Gayle"` in memory.
 
-### Storing things in memory
+### 🗒️ Storing things in memory
 
 As variables are declared, we need a way to keep track of the memory that is stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
 
-For now, we can think of a frame as a space in our diagram that represents the variables stored in memory at a particular point.
+For now, we can think of a frame as a space in our diagram that represents the variables stored in memory in some part of our code.
 
 The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as a location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame:
 
-![runtime-diagram](runtime-diagram-1.png)
+![global-frame](global-frame.png)
 
 Every time you click on the next button in the diagram you should observe changes to the memory in the frame.
 
@@ -324,7 +322,7 @@ Try using the visualisation diagram above to work out what happens when the comp
 
 So now we have some idea of how the computer executes our code, we can apply these ideas to a program for our current implementation of `convertToPercentage`:
 
-<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20num%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20num%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 <br>
 <br>
@@ -364,19 +362,7 @@ To make this function reusable for any number, we need to handle inputs. We do t
 
 🔑 A parameter is a variable that enables us to reference the input to a function.
 
-We can add a parameter `num` to our function, as highlighted below:
-
-```js {linenos=table,hl_lines=["1"],linenostart=1}
-function convertToPercentage(num) {
-  const percentage = `${num * 100}%`;
-  return percentage;
-}
-
-const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.23);
-```
-
-<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0A%0A%0Afunction%20convertToPercentage%28num%29%20%7B%0A%20%20%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20%20%20return%20percentage%3B%0A%7D%0A%0Aconsole.log%28convertToPercentage%280.5%29%29%3B%0Aconsole.log%28convertToPercentage%280.23%29%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+We can add a parameter `num` to our function, as with the execution diagram below:
 
 We can think of a function as a "box". We pass inputs to into it, the function's code is executed and we get an output at the end. We can visualise this as follows:
 
@@ -387,44 +373,19 @@ flowchart LR
     B --> C[output]
 ```
 
-This time we have a difference in that we have defined a parameter `num` in the function declaration inside parentheses after the function name `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
-
-We can now update the model and say if we have a parameter then we declare a variable called `num` first and assign it a value of the input that was passed to the function
+We could visualise what happens when makeGreeting is passed a specific argument:
 
 ```mermaid
 
-mindmap
-Root[What does the return keyword do?]
-    B[Set the output]
-    C[Exit the currently executing function]
-    D[Return to the place where the function was called]
-    E[Assign arguments to the parameters]
-    ::: urgent large
+flowchart LR
+    A[0.23] --> B{convertToPercentage}
+    B --> C[23%]
 ```
 
-### 🔭 Local scope
+This time we have a difference in that we have defined a parameter `num` in the function declaration inside parentheses after the function name `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
 
-The variable `num` we described above is said to be in the local scope of `convertToPercentage`.
+<iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28num%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-When we say a variable is in local scope we are saying that num is only accessible within the body of `convertToPercentage`, the section of code enclosed by curly braces.
-
-We can show that `num` is local to `convertToPercentage` by trying to reference `num` outside the body of `convertToPercentage`.
-
-Let’s consider the code in a slightly modified form:
-
-```js {linenos=table,hl_lines=4,linenostart=1}
-function convertToPercentage(num) {
-  return `${num * 100}%`;
-}
-console.log(num);
-
-console.log(convertToPercentage(0.5));
-console.log(convertToPercentage(0.23));
-```
-
-In this situation, num is a local variable and we’re attempting to reference it outside of `convertToPercentage`.
-
-### Errors during execution
-
-In the situation above, the runtime will throw an error. This means that the execution of the program will stop and we’ll get an error message telling us why the program execution was terminated.
-Will need to add more info about the ReferenceError here.
+{{<note type="activity" title="exercise">}}
+Use the visualiation digram to see what happens when the code is above is executed. Pay special attention the lines when `convertToPercentage` is called.
+{{</note>}}
