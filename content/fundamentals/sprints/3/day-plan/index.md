@@ -15,7 +15,8 @@ src="module"
 [[blocks]]
 name="morning-break"
 [[blocks]]
-name="pd-placeholder"
+name="Presenting your Blockly project"
+src="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/presenting-your-blockly-project"
 [[blocks]]
 name="lunch"
 [[blocks]]
