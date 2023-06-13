@@ -8,7 +8,6 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 1'
 +++
 
-
 ## Prerequisites
 
 - Basic arithmetic
@@ -51,7 +50,6 @@ Modern computers are highly complex devices. It would be too difficult to list a
 A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through its processing capacity.
 
 {{</note>}}
-
 
 ### Interacting with the computer
 
@@ -161,7 +159,7 @@ We can type each of the following expressions into the REPL and then press enter
 3 ** 4
 ```
 
-### Saving expressions
+### 🏷️ Saving expressions
 
 Often in programming we may want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
 
@@ -183,9 +181,8 @@ We can use a **variable** to store this string value so it can be referenced and
 
 {{<note title="Definition" type="info">}}
 
-A **variable** is a label for a piece of data. We can assign a piece of data to a particular label and then refer back to this label.
+🏷️ A **variable** is a label for a piece of data. We can assign a piece of data to a particular label and then refer back to this label.
 {{</note>}}
-
 
 We can create a variable in our program by writing a **variable declaration**, in the following way:
 
@@ -354,7 +351,6 @@ When this program is executed, the variable `result` will evaluate to `undefined
 :::
 
 We could add another log to our program in order to verify this claim. Essentially, console.log’s output will always be undefined.
-
 
 {{<note type="activity">}}
 
