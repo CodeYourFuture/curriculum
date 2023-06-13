@@ -23,9 +23,9 @@ Copy the tickets you are working on to your own backlog. Organise your tickets o
 ```mermaid
 flowchart LR
     Backlog --> Ready
-    Ready --> In_Progress
-    In_Progress --> In_Review
-    In_Review --> Done
+    Ready --> in_progress
+    in_progress[In Progress] --> in_review
+    in_review[In Review] --> Done
 ```
 
 {{<note title="Backlog (30 minutes)" type="activity">}}

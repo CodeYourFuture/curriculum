@@ -1,5 +1,11 @@
-<!-- todo: parse these objectives and render with valid html-->
-<section class="c-objectives">
-  <h3 class="c-objectives__title e-heading__2">Learning Objectives</h3>
-  {{- .Inner | safeHTML | markdownify }}
-</section>
+{{ $items := slice }}
+{{ $objectives := split .Inner "\n" }}
+{{ range $objectives }}
+  {{ $objective := replace . "- [ ] " "" }}
+  {{ if ne (trim $objective " ") "" }}
+    {{ $items = $items | append $objective }}
+  {{ end }}
+{{ end }}
+{{ with $items }}
+  {{ partial "objectives-block" . }}
+{{ end }}

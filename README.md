@@ -5,7 +5,7 @@
 - [Hugo](https://gohugo.io/) - Static site generator
 - [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) - Asset pipeline
 - [Netlify](https://www.netlify.com/) - Hosting and deployment
-- [Github](https://github.com/CodeYourFuture/CYF-Signposts) - Source code repository
+- [GitHub](https://github.com/CodeYourFuture/CYF-Signposts) - Source code repository
 - [Bash](https://www.gnu.org/software/bash/) - Bash script to create new module structures
 
 ## Developing the source website
@@ -30,15 +30,24 @@ npm i && hugo server
 
 ### Linting
 
-All CYF repos use the Prettier standard. However, Prettier doesn't have golang by default so you must install a plugin for it to work in VSCode. I've included it in a package.json. The only thing this package does is install the golang linter for prettier.
+All CYF repos use the Prettier standard. However, Prettier doesn't have golang by default so you must install a plugin for it to work in VSCode. I've included it in the package.json.
 
-```bash
-npm i
+### Site Search
+
+PageFind runs the search. https://pagefind.app/
+It's in the build command on Netlify `hugo && npx pagefind --source "public"`
+If you need to develop on this locally, run:
+
+```zsh
+rm -rf public &&
+hugo && npx pagefind --source "public" --serve
 ```
+
+And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
 
 ## Contributing
 
-To add content via Github, open a PR, following the CONTRIBUTING.md guidelines and PR template.
+To add content via GitHub, open a PR, following the CONTRIBUTING.md guidelines and PR template.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
@@ -64,7 +73,7 @@ Code Your Future helps people who need it most to reach their goal of working in
 
 Our PERN software development programme is part-time, vocational and practical. We teach functional programming with React, Jest, Postgres, Node, Express. We press hard on Agile, teamworking, conflict management, and self-study. We drill with Codewars problems and Codility tech tests for discipline and fluency, and encourage self-directed passion projects for creativity and innovation.
 
-We do our work in public; our courses are free and open source and we develop them in public as FOSS projects on Github. Right here!
+We do our work in public; our courses are free and open source and we develop them in public as FOSS projects on GitHub. Right here!
 
 To graduate at CYF our trainees must deliver, deploy, and demo a working MVP of a full-stack web application, typically for a real NGO we partner with, in a cross-functional Agile team.
 

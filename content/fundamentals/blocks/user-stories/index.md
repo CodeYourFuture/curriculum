@@ -45,7 +45,7 @@ As trainees, you have coursework to do. Imagine a website which tracks how cours
 - As a trainee, I can ask for help with a topic or task.
 - As a mentor, I can see who needs extra support.
 - As a trainee, I can see what coursework I need to complete and when.
-- As a mentor, I can see what coursework has not been turned in.
+- As a mentor, I can see what coursework has not been completed.
 
 These each take the form "As [who], I can [what]". They don't say why yet.
 
@@ -55,7 +55,7 @@ In groups of about 5.
 Talk about why the "who" is useful. What would we be missing if we didn't think about the "Who"?
 
 Now think about the "why" for each of the listed user stories. Why are they important?
-Discover requirements
+
 {{</note>}}
 
 > As a [who], I can [what] so that **[why]**

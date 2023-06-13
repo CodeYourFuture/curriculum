@@ -22,5 +22,3 @@ Let's all look through the interface together now, and do one exercise as a grou
 - Everybody open the interface on their own computer as well
 - Complete all steps of the first exercise
   {{</note>}}
-
-  {{<iframe src="https://blocks.codeyourfuture.io/">}}

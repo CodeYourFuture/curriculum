@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
 1='Export your Codepen to zip'
-2='Upload your folder to Github'
+2='Upload your folder to GitHub'
 3='Deploy your folder to Netlify'
 +++
 
