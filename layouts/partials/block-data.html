@@ -24,6 +24,12 @@
 {{/* Set the source of truth */}}
 {{ .Scratch.SetInMap "blockData" "sot" $src }}
 
+{{/* Prep and Day Plan want times */}}
+{{ .Scratch.SetInMap "blockData" "showTime" false }}
+{{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
+  {{ .Scratch.SetInMap "blockData" "showTime" true }}
+{{ end }}
+
 {{/* Default block */}}
 {{ .Scratch.SetInMap "blockData" "type" "local_course" }}
 {{ .Scratch.SetInMap "blockData" "api" (printf "blocks/%s" $name) }}
