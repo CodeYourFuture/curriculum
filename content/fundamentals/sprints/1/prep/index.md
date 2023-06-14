@@ -51,7 +51,7 @@ Slack is our community space and how we communicate with each other. Download an
 - [ ] I have logged in to the Code Your Future Intro to Coding Workspace.
 - [ ] I have found and joined my class channels.
 - [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
-- [ ] I have posted something on my co-hort channel.
+- [ ] I have posted something on my cohort channel.
 
 {{<note type="tip" title="Robohash" >}}
 CYF understands you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
