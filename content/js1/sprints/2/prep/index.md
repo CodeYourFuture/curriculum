@@ -10,7 +10,7 @@ backlog_filter= 'Week 2'
 
 ## Learning objectives
 
-- Label and describe the syntatic features of a function declaration
+- Label and describe the syntactic features of a function declaration
 - Identify a call site
 - Differentiate between a function declaration and a function invocation
 - Propose a function definition to satisfy some problem requirements
