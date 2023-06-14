@@ -91,6 +91,33 @@ const percentage = `${num * 100}%`;
 
 Recalling template literals, the expression in the curly braces will be evaluated first and then inserted into the string, giving us the percentage string.
 
+{{<note type="exercise" title="Exercise 1.1">}}
+
+The following variables represent the dimensions of a rectangle:
+
+```js
+height; // could have a value like 10
+width; // could have a value like 30
+```
+
+Write expressions for the following in terms of the variables above:
+a) area of the rectangle
+b) perimeter of the rectangle
+
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 1.2">}}
+
+The following variable represents the cost of something in pence:
+
+```js
+price; // could have a value like "130p"
+```
+
+Write an expression for the price in pounds. The price in pounds should start with a "£" symbol. The price should be to 2 decimal places.
+
+{{</note>}}
+
 <br>
 
 ### ♻️ Wrapping up functionality
@@ -235,7 +262,7 @@ const name = "Gayle";
 
 which means store a string `"Gayle"` in memory.
 
-### 🗒️ Storing things in memory
+### 🖼️ Storing things in memory
 
 As variables are declared, we need a way to keep track of the memory that is stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
@@ -245,8 +272,6 @@ For now, we can think of a frame as a space in our diagram that represents the v
 The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as a location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame:
 
 ![global-frame](global-frame.png)
-
-Every time you click on the next button in the diagram you should observe changes to the memory in the frame.
 
 ### 🏃 Executing functions
 
