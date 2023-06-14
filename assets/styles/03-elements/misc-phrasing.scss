@@ -48,10 +48,11 @@ code:not([class]) {
 
 // details could show up in github flavoured markdown so we put a basic style on here
 summary {
-  margin-bottom: var(--theme-spacing--gutter);
+  margin-bottom: var(--theme-spacing--1);
 }
 summary > * {
   display: inline-block;
+  vertical-align: text-bottom;
 }
 summary::marker {
   color: var(--theme-color--accent);

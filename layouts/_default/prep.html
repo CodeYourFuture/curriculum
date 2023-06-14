@@ -5,7 +5,9 @@
       "c-page-header--toc"
     }}
     {{ partial "page-header.html" . }}
-    <section class="l-page__main c-copy">{{ .Content }}</section>
+    {{ with .Content }}
+      <section class="l-page__main c-block">{{ . }}</section>
+    {{ end }}
     <div class="c-block__list">
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
