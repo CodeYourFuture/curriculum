@@ -203,7 +203,9 @@ We need to specify the value want to output from our function: if we don't state
 
 Now we need to add a statement to our function specifying the value we want to output.
 To specify output in a function, we write a `return` statement.
+
 If your function call is like a question, the return statement is the answer. It's what comes back.
+
 We can add a return statement to the function as follows:
 
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
@@ -364,9 +366,15 @@ So now we have some idea of how the computer executes our code, we can apply the
 <br>
 
 {{<note type="activity" title="exercise">}}
-Given the code above, try using the visualisation diagrams to "play computer" with this example. Try stepping through each line of code to see what the console output is.
 
-Explain _why_ the program is not giving the correct output we described earlier.
+Earlier we noted that when the computer executes the code above, we get the following output:
+
+```bash
+50%
+50%
+```
+
+Given the code above, try using the visualisation diagrams to "play computer" with this example. Try stepping through each line of code to explain why the program is giving this output
 
 {{</note>}}
 
@@ -423,5 +431,9 @@ This time we have a difference in that we have defined a parameter `num` in the 
 <iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28num%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 {{<note type="activity" title="exercise">}}
+Use the visualiation digram to see what happens when the code is above is executed. Pay special attention the lines when `convertToPercentage` is called.
+{{</note>}}
+
+{{<note type="exercise" title="exercise">}}
 Use the visualiation digram to see what happens when the code is above is executed. Pay special attention the lines when `convertToPercentage` is called.
 {{</note>}}
