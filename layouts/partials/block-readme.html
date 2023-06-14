@@ -9,10 +9,10 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-      <h3 class="c-block__byline e-heading__5">
-        {{ partial "byline.html" . }}
+    {{ partial "byline.html" . }}
       </h3>
       {{ partial "time.html" (dict "blockData" $blockData "time" "60") }}
+      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
     <div class="c-block__content c-copy">
       {{ $response.content | base64Decode | markdownify }}
