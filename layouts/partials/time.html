@@ -2,6 +2,6 @@
 {{ $time := .time }}
 {{ if $blockData.showTime }}
   <time class="c-block__time" datetime="P{{ $time | default 60 }}M"
-    >{{ . | default 60 }} minutes</time
+    >{{ .time | default 60 }} minutes</time
   >
 {{ end }}
