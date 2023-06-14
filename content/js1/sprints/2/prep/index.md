@@ -152,7 +152,15 @@ function convertToPercentage() {
 
 ### 🔎 Checking the output
 
-Now we can call our function and store the output in a variable.
+Earlier we saw how to store a function's output in a variable.
+
+```js
+const result = Math.round(10.3);
+```
+
+In the code above, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` will evaluate to `10`.
+
+Now we want to call our function `convertToPercentage` and store the output in a variable.
 We can write:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
@@ -174,6 +182,8 @@ const result = convertToPercentage(0.3);
 console.log(result);
 ```
 
+If our function behaves as intended, we expect the output to be `"30%"`.
+
 <br>
 
 {{<note type="question" title="exercise">}}
@@ -185,13 +195,14 @@ Given the code above, try predicting what `result` will evaluate to.
 
 When we log result's value to the terminal we get a new data type - `undefined`.  
 `undefined` is a data type used to represent the absence of some value.  
-A function’s output is always `undefined` whenever we omit a return statement; but we need to get a percentage from our function every time it is called.
+We need to specify the value want to output from our function: if we don't state what our function should output then the default output will be `undefined`.
 
 <br>
 
 ### Setting an output
 
-In the body of our function, we can write a `return` statement, specifying the value we want to output.  
+Now we need to add a statement to our function specifying the value we want to output.
+To specify output in a function, we write a `return` statement.
 If your function call is like a question, the return statement is the answer. It's what comes back.
 We can add a return statement to the function as follows:
 
