@@ -30,21 +30,23 @@ name="Backlog"
 
 ## Getting Started
 
-To get started on the prep work, you will need to sign up to Github, get your planner set up and start working through the assignments of week 0. You should do this as soon as you are invited to the course, even if the start date is some time away.
+To get started on the prep work, you will need to sign up to GitHub, get your planner set up and start working through the assignments of week 0. You should do this as soon as you are invited to the course, even if the start date is some time away.
 
-### Github
+### GitHub
 
-Github is for developers. It's how you will work on code with other developers and where you will build a portfolio of work to show employers. You should already have a Github account from the application process. If you don’t, make one now.
+GitHub is for developers. It's how you will work on code with other developers and where you will build a portfolio of work to show employers. You should already have a GitHub account from the application process. If you don’t, make one now.
 
-- [ ] I have made a Github account.
+- [ ] I have made a GitHub account.
 - [ ] I have used my real name.
 - [ ] I have not put my birth year in my user name.
 
 {{<note type="tip" title="Use your name">}}
-Your Github account name should look something like this: https://github.com/SallyMcGrath
+Your GitHub account name should look something like this: https://github.com/SallyMcGrath
 {{</note>}}
 
-When prospective employers are looking at your Github portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your Github, even though some mentors do. They are not applying for entry level developer roles.
+When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
+
+To find out more about what GitHub is used for, watch the video in the "What is GitHub" tab above.
 {{% /tab %}}
 
 {{<tab name="What is GitHub">}}

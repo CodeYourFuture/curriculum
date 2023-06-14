@@ -41,26 +41,28 @@
     {{ end }}
     <!--TOC-->
     {{ if $hasTOC }}
-      <section class="c-page-header__toc c-toc" id="toc">
-        <a
-          id="top"
-          class="c-toc__top e-button e-button--icon e-heading__3"
-          href="#skip-link"
-          >📎</a
-        >
-        {{ if and
-          (gt .Page.WordCount 400) (.Page.TableOfContents)
-        }}
-          {{ .Page.TableOfContents }}
-        {{ end }}
-        {{ if gt .Params.blocks 1 }}
-          <ol>
-            {{ range .Params.blocks }}
-              <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
-            {{ end }}
-          </ol>
-        {{ end }}
-      </section>
+      <div class="c-page-header__toc" id="toc">
+        <section class="c-toc">
+          <a
+            id="top"
+            class="c-toc__top e-button e-button--icon e-heading__3"
+            href="#toc"
+            >📎</a
+          >
+          {{ if and
+            (gt .Page.WordCount 400) (.Page.TableOfContents)
+          }}
+            {{ .Page.TableOfContents }}
+          {{ end }}
+          {{ if gt .Params.blocks 1 }}
+            <ol>
+              {{ range .Params.blocks }}
+                <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
+              {{ end }}
+            </ol>
+          {{ end }}
+        </section>
+      </div>
     {{ end }}
 
   </div>

@@ -8,6 +8,11 @@ weight = 1
 backlog= 'Course-Fundamentals'
 backlog_filter= 'Week 2'
 [[blocks]]
+name="overcoming-blockers"
+src="module"
+[[blocks]]
 name="Learn about Slack"
 src="https://cyf-pd.netlify.app/blocks/learn-about-slack/readme/"
+[[blocks]]
+name="backlog"
 +++

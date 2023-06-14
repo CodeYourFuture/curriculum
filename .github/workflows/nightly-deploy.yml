@@ -1,0 +1,13 @@
+on:
+  schedule:
+    - cron: '15 19 * * *'
+  workflow_dispatch:
+name: Nightly publish to Netlify
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish
+      run: curl --fail -X POST ${{ secrets.NETLIFY_DEPLOY_HOOK_URL }}

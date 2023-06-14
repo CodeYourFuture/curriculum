@@ -21,7 +21,7 @@ function highlightLines(state, lines: [number, number][]) {
   let decorations: Range<Decoration>[] = [];
 
   // Don't show any decorations if there are no highlighted line numbers
-  if (!lines && !lines.length) return Decoration.none;
+  if (!lines || !lines.length) return Decoration.none;
 
   for (const line of lines) {
     // Hugo gives us a start line and an end line. For CM6 we need to generate a

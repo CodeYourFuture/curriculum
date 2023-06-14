@@ -8,7 +8,7 @@ emoji: 🚀
 
 ## First: log into [Netlify](https://www.netlify.com/)
 
-{{<note type="tip" title="Remember">}}remember that you sign in using GitHub{{</note>}}
+{{<note type="tip" title="Remember">}}Remember that you sign in using GitHub.{{</note>}}
 
 1. ![Netlify dashboard](01-netlify-dashboard.png "On your Netlify dashboard, click Sites in the top navigation")
 

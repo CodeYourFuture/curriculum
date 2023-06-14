@@ -12,6 +12,8 @@
 */}}
 {{ $name := .name | default "warning: name is empty" }}
 {{ $src := .src | default "warning: src is empty" }}
+{{/* We need to know what page this block is on */}}
+{{ $p := .page }}
 
 {{/* Initialize the blockData map */}}
 {{ .Scratch.Set "blockData" (dict) }}
@@ -22,13 +24,19 @@
 {{/* Set the source of truth */}}
 {{ .Scratch.SetInMap "blockData" "sot" $src }}
 
+{{/* Prep and Day Plan want times */}}
+{{ .Scratch.SetInMap "blockData" "showTime" false }}
+{{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
+  {{ .Scratch.SetInMap "blockData" "showTime" true }}
+{{ end }}
+
 {{/* Default block */}}
 {{ .Scratch.SetInMap "blockData" "type" "local_course" }}
 {{ .Scratch.SetInMap "blockData" "api" (printf "blocks/%s" $name) }}
 
 {{ if eq $src "module" }}
   {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
-  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $.Page.Section $name) }}
+  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $p.Page.Section $name) }}
 {{ end }}
 
 {{ if "github" | in $src }}

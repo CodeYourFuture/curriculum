@@ -41,5 +41,5 @@ guessSyntax = true
 [markup.goldmark.renderer]
 # Enable HTML codeblocks, e.g. for <details> blocks
 unsafe = true
-
+hardWraps = true
 disableKinds = ["taxonomy", "term"]

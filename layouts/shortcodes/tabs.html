@@ -24,11 +24,7 @@
         <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby="{{ $id }}">
       {{ end }}
         {{- with .content -}}
-          {{ if in . "```"}}
-            {{- . | markdownify -}}
-          {{ else }}
-            {{- . -}}
-          {{- end -}}
+          {{- . | markdownify -}}
         {{- else -}}
           {{- if eq $.Page.BundleType "leaf" -}}
             {{- /* find the file somewhere inside the bundle. Note the use of double asterisk */ -}}
