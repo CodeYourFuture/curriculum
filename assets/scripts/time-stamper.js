@@ -9,7 +9,7 @@ class TimeStamper extends HTMLElement {
             <slot></slot>
         `;
 
-    this.timelineEntries = this.querySelectorAll(".c-timeline__entry");
+    this.timelineEntries = this.querySelectorAll(".c-block");
   }
 
   connectedCallback() {

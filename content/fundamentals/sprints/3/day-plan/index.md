@@ -15,7 +15,8 @@ src="module"
 [[blocks]]
 name="morning-break"
 [[blocks]]
-name="pd-placeholder"
+name="Presenting your Blockly project"
+src="https://cyf-pd.netlify.app/blocks/presenting-your-blockly-project/readme/"
 [[blocks]]
 name="lunch"
 [[blocks]]

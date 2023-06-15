@@ -22,7 +22,7 @@ Can you remember the structure of a typical user story?
 
 Split into groups and think about one of your favourite phone apps. Agree on one you all know. Come up with as many user stories as you can for it.
 
-You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/).
+You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/) or post-it notes.
 {{</note>}}
 
 ### Defining the Minimum Viable Product

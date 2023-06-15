@@ -21,13 +21,6 @@
     border-image: var(--theme-border-image);
     padding: 0 var(--box) var(--theme-spacing--5) 0;
     counter-increment: timeline 1;
-    .c-timeline--block & {
-      border-image: 0;
-      border: 0;
-      border-left: var(--theme-border);
-      border-style: dashed;
-      margin-bottom: calc(-2 * var(--theme-spacing--gutter));
-    }
     &:before {
       content: counter(timeline);
       padding: var(--box);

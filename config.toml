@@ -31,7 +31,7 @@ orgapi = "https://api.github.com/repos/CodeYourFuture/"
 
 [markup]
 [markup.tableOfContents]
-endLevel = 6
+endLevel = 2
 ordered = true
 startLevel = 2
 [markup.highlight]
@@ -41,5 +41,5 @@ guessSyntax = true
 [markup.goldmark.renderer]
 # Enable HTML codeblocks, e.g. for <details> blocks
 unsafe = true
-
+hardWraps = true
 disableKinds = ["taxonomy", "term"]
