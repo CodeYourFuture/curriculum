@@ -11,7 +11,7 @@
     <div class="c-block__list">
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
-        {{ partial "block.html" (dict "block" . "Page"
+        {{ partial "block/block.html" (dict "block" . "Page"
           $.Page)
         }}
       {{ end }}
