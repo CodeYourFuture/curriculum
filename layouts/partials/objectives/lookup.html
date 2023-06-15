@@ -3,5 +3,5 @@
 {{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
 {{ with $localBlock.Params.Objectives }}
   <h5>{{ $scope.blockData.name }}</h5>
-  {{ partial "objectives-block.html" . }}
+  {{ partial "objectives/block.html" . }}
 {{ end }}
