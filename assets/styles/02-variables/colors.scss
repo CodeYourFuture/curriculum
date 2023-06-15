@@ -11,7 +11,7 @@
   --alpha: 0.95;
   --hsl: var(--hue), var(--sat), var(--lum);
   // now build all the shades
-  --theme-color--paper: hsl(
+  --theme-color--paper: hsla(
     var(--hue),
     calc(var(--sat) * 1.2),
     calc(var(--lum) * 1.06),
@@ -29,11 +29,16 @@
     calc(var(--lum) * 0.3),
     calc(var(--alpha) * 0.3)
   );
-
+  --theme-color--paper-fade: hsla(
+    var(--hue),
+    calc(var(--sat) * 1.2),
+    calc(var(--lum) * 1.06),
+    0.9
+  );
   --theme-color--contrast-max: hsl(
     var(--hue),
     calc(var(--sat) / 100),
-    calc(var(--lum) * 2),
+    calc(var(--lum) * 2)
     var(--alpha)
   );
 

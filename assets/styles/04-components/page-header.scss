@@ -33,16 +33,18 @@
       / 1fr var(--gap) minmax(0, 1fr);
 
     .c-page-header--toc & {
-      grid-template:
-        ".              .   .        " var(--gap)
-        "breadcrumbs    .   edit     " min-content
-        "title          .   toc      " min-content
-        "subtitle       .   toc      " min-content
-        "description    .   toc      " min-content
-        ".              .   toc      " auto
-        ".              .   lastmod  " min-content
-        ".              .   .        " var(--gap)
-        / 1fr var(--gap) minmax(0, 1fr);
+      @media (min-width: $c-max) {
+        grid-template:
+          ".              .   .        " var(--gap)
+          "breadcrumbs    .   edit     " min-content
+          "title          .   toc      " min-content
+          "subtitle       .   toc      " min-content
+          "description    .   toc      " min-content
+          ".              .   toc      " auto
+          ".              .   lastmod  " min-content
+          ".              .   .        " var(--gap)
+          / 1fr var(--gap) minmax(0, 1fr);
+      }
     }
 
     .c-page-header--splash & {
