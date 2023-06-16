@@ -1,5 +1,7 @@
 {{ $response := getJSON .blockData.api }}
 {{ $type := .blockData.type }}
+{{ $sot := .blockData.sot }}
+{{ $name := .blockData.name }}
 {{ $decodedContent := $response.content | base64Decode }}
 {{/* Find fenced objectives in text */}}
 {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
@@ -32,6 +34,9 @@
 
 {{/* Output list */}}
 {{ if gt (len $blocks) 0 }}
+  <h5>
+    <a href="{{ $sot }}" class="c-objectives__link"> {{ $name }} 🔗 </a>
+  </h5>
   {{ with $blocks }}
     {{ partial "objectives/block.html" . }}
   {{ end }}
