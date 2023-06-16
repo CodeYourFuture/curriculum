@@ -8,7 +8,6 @@ class TabPanels extends HTMLElement {
     this.render();
     this._addEventListeners();
 
-    // Handle fragment navigation on component mount
     if (window.location.hash) {
       this._handleFragmentNavigation(window.location.hash);
     }
@@ -30,15 +29,15 @@ class TabPanels extends HTMLElement {
       }
     });
 
-    // Listen for hashchange events on the window
     window.addEventListener("hashchange", (e) => {
       this._handleFragmentNavigation(window.location.hash);
     });
   }
 
   _handleFragmentNavigation(hash) {
-    // when we link directly to a tab, we expect it to be focused
-    const tabToFocus = this.querySelector(`[href="${hash}"]`);
+    const tabToFocus = this.querySelector(
+      `[aria-controls="${hash.substring(1)}"]`
+    );
 
     if (tabToFocus) {
       this._handleTabClick({ target: tabToFocus, preventDefault: () => {} });
@@ -48,7 +47,9 @@ class TabPanels extends HTMLElement {
   _handleTabClick(e) {
     e.preventDefault();
     const clickedTab = e.target;
-    const tabPanel = this.querySelector(clickedTab.getAttribute("href"));
+    const tabPanel = this.querySelector(
+      "#" + clickedTab.getAttribute("aria-controls")
+    );
     const tabs = this.querySelectorAll('[data-toggle="tab"]');
     const tabPanels = this.querySelectorAll('[role="tabpanel"]');
     tabs.forEach((tab) => {
@@ -56,13 +57,11 @@ class TabPanels extends HTMLElement {
       tab.classList.remove("is-active");
     });
     tabPanels.forEach((panel) => {
-      panel.setAttribute("aria-hidden", "true");
       panel.classList.remove("is-active");
     });
     clickedTab.setAttribute("aria-selected", "true");
     clickedTab.classList.add("is-active");
     if (tabPanel) {
-      tabPanel.setAttribute("aria-hidden", "false");
       tabPanel.classList.add("is-active");
     }
   }
