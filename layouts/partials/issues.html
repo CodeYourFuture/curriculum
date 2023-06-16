@@ -28,7 +28,7 @@
       <!-- now show the issue -->
       {{ if $showIssue }}
         {{ if strings.Contains .body "_No response_" }}
-          {{ warnf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
+          {{ errorf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
         {{ end }}
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
