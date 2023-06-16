@@ -19,9 +19,9 @@
     {{- range $i, $e := $tabs -}}
       {{- $id := printf "%s-%d" $tab_set_id $i -}}
       {{- if (eq $i 0) -}}
-        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='{{ printf "tab-label-" $id }}'>
+        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ else }}
-        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='{{ printf "tab-label-" $id }}'>
+        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ end }}
         {{- with .content -}}
           {{- . | markdownify -}}
