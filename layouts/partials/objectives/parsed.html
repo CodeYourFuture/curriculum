@@ -1,4 +1,4 @@
-{{ $response := getJSON .blockData.api }}
+{{ $response := getJSON .blockData.api .blockData.headers }}
 {{ $type := .blockData.type }}
 {{ $decodedContent := $response.content | base64Decode }}
 {{/* Find fenced objectives in text */}}

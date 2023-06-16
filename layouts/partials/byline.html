@@ -9,7 +9,11 @@
   {{ $src = replace $src
     "/tree/main" "/commits?path"
   }}
-  {{ $commitList := getJSON $src }}
+  {{ $headers := (dict) }}
+  {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+  {{ end }}
+  {{ $commitList := getJSON $src $headers }}
   {{ $tempArrayToDeDupe := slice }}
   {{ range $commitList }}
     {{ with .committer }}

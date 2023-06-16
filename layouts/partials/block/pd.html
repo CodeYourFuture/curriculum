@@ -1,6 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
-{{ $response := getJSON $blockData.api }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   {{ $decodedContent := $response.content | base64Decode }}
