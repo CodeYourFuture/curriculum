@@ -1,11 +1,6 @@
 {{/* This block expects the github issue api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
-{{ end }}
-{{ $response := getJSON $blockData.api $headers }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   <section class="c-block">
