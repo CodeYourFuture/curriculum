@@ -1,29 +1,43 @@
 .c-tabs {
   display: block;
-  margin-bottom: var(--theme-spacing--6);
+  --outset: calc(-1 * var(--theme-spacing--gutter));
+  --tabline: 1px;
+  margin: 0 var(--outset) var(--theme-spacing--6);
   &__list {
     display: flex;
   }
-  &__link {
+  &__tab {
+    font-family: var(--theme-font--display);
+    transform: translateY(2px);
     padding: var(--theme-spacing--1) var(--theme-spacing--2);
-    line-height: 2.25;
+    border-top: var(--tabline) solid var(--theme-color--outline);
+    border-right: var(--tabline) solid var(--theme-color--outline);
+    border-bottom: none;
+    border-left: var(--tabline) solid var(--theme-color--outline);
+    background: var(--theme-color--paper);
+    box-shadow: var(--theme-box-shadow--top);
+    color: currentColor;
+    place-content: center;
+    transform: translateY(5px);
     &.is-active,
     &:hover,
     &:focus {
-      background: var(--theme-color--block);
-      box-shadow: var(--theme-box-shadow);
+      z-index: 2;
+      transform: translateY(3px);
     }
   }
   &__group {
     display: grid;
     grid-template: "tab";
-    @include block(thin, true, true, true);
+    padding: var(--tabline);
   }
 
   &__panel {
     grid-area: tab;
-    padding: var(--theme-spacing--gutter);
-    @include block(thin, true, true, true);
+    padding: var(--theme-spacing--4) var(--theme-spacing--gutter);
+    background: var(--theme-color--paper);
+    box-shadow: var(--theme-box-shadow--slim);
+    border-radius: var(--theme-border-radius);
     border-top-left-radius: 0;
     opacity: 0;
 
@@ -34,13 +48,6 @@
   }
   // a much subtler tab style for module indices so info can be loaded in without overwhelming
   &--module {
-    .c-tabs__group,
-    .c-tabs__panel {
-      background: var(--theme-color--paper);
-      box-shadow: none;
-    }
-    .c-tabs__link {
-      background: var(--theme-color--paper);
-    }
+    margin: 0 0 var(--theme-spacing--6);
   }
 }
