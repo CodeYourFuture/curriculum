@@ -240,7 +240,7 @@ When reading other people's code, think about the variable names. If the names a
 
 Define your variables with the narrowest scope they can have. This is easiest to explain with an example...
 
-```js {3,5}
+```js
 function findLongestFirstName(fullNames) {
   let longest;
   let firstName;
@@ -256,7 +256,7 @@ function findLongestFirstName(fullNames) {
 
 It is considered better code to combine the two highlighted lines into one like this...
 
-```js {4}
+```js
 function findLongestFirstName(fullNames) {
   let longest;
   for (let i = 0; i < fullNames.length; i++) {

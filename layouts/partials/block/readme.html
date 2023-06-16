@@ -1,6 +1,4 @@
-{{/* This block expects the github issue api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
 {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
@@ -15,25 +13,15 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-      {{ range $response.labels }}
-        {{ if in .name "Size" }}
-          <time class="c-block__time" datetime="P60M">{{ .name }}</time>
-        {{ end }}
-      {{ end }}
+    {{ partial "byline.html" . }}
+      </h3>
+      {{ partial "time.html" (dict "blockData" $blockData "time" "60") }}
+      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
     <div class="c-block__content c-copy">
-      {{ $response.body | markdownify }}
+      {{ $response.content | base64Decode | markdownify }}
     </div>
-    {{ with $response.labels }}
-      <ul class="c-issue__labels">
-        {{ range . }}
-          <li class="c-issue__label" style="--github:#{{ .color }}4d">
-            <span class="c-issue__label-name" title="{{ .description }}">
-              {{ .name }}
-            </span>
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
   </section>
+{{ else }}
+  <h3>Cannot get a response</h3>
 {{ end }}

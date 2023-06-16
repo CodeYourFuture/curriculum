@@ -44,7 +44,7 @@
           {{ $name := .name }}
           {{ $src := .src }}
           {{/* Call our scratch function */}}
-          {{ partial "block-data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
+          {{ partial "block/data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
           {{/* Retrieve the blockData from Scratch */}}
           {{ $blockData := $.Page.Scratch.Get "blockData" }}
           {{/* Depending on the type of block, call the appropriate partial */}}
@@ -54,10 +54,10 @@
                 {{ $blockData.name }} 🔗
               </a>
             </h5>
-            {{ partial "objectives-parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
+            {{ partial "objectives/parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
           {{ end }}
           {{ if or (eq $blockData.type "local_module") (eq $blockData.type "local_course") }}
-            {{ partial "objectives-lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
+            {{ partial "objectives/lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
           {{ end }}
 
         {{ end }}

@@ -30,7 +30,7 @@ orgapi = "https://api.github.com/repos/CodeYourFuture/"
 
 [markup]
 [markup.tableOfContents]
-endLevel = 6
+endLevel = 2
 ordered = true
 startLevel = 2
 [markup.highlight]
