@@ -3,7 +3,8 @@
 .c-copy {
   & p,
   & ol,
-  & ul {
+  & ul,
+  &__node {
     max-width: var(--theme-spacing--linelength);
   }
   margin-bottom: var(--theme-spacing--gutter);
