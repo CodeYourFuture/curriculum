@@ -24,7 +24,7 @@
         <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby="{{ $id }}">
       {{ end }}
         {{- with .content -}}
-          {{- . | markdownify -}}
+          {{- . -}}
         {{- else -}}
           {{- if eq $.Page.BundleType "leaf" -}}
             {{- /* find the file somewhere inside the bundle. Note the use of double asterisk */ -}}
@@ -33,7 +33,7 @@
                 {{- /* Assume it is a file that needs code highlighting. */ -}}
                 {{- highlight .Content -}}
               {{- else -}}
-                {{- .Content -}}
+                {{- .Content | markdownify -}}
               {{- end -}}
             {{- end -}}
           {{- else -}}
