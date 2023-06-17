@@ -12,12 +12,10 @@
     toc,
     edit
   );
-  @include grid-breakout();
   grid-template:
-    " . ... . " var(--gap)
-    " . container ." minmax(0, 1fr)
-    " . ... ." var(--gap) / minmax(var(--gap), 1fr)
-    var(--theme-spacing--container) minmax(var(--gap), 1fr);
+    "." var(--gap)
+    "container" 1fr
+    "." var(--gap);
 
   &__container {
     pointer-events: all;
