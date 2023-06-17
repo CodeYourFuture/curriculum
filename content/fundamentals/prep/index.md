@@ -44,7 +44,7 @@ GitHub is for developers. It's how you will work on code with other developers a
 Your GitHub account name should look something like this: https://github.com/SallyMcGrath
 {{</note>}}
 
-When prospective employers are looking at your Github portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your Github, even though some mentors do. They are not applying for entry level developer roles.
+When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
 
 Watch [What is GitHub](#prep-1)
 {{% /tab %}}
