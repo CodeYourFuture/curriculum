@@ -5,23 +5,23 @@
 {{- $tabs := .Scratch.Get "tabs" -}}
 {{- if .Inner -}}{{- /* We don't use the inner content, but Hugo will complain if we don't reference it. */ -}}{{- end -}}
 <tab-panels class="c-tabs">
-  <ul class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
+  <div class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
     {{- range $i, $e := $tabs -}}
       {{- $id := printf "%s-%d" $tab_set_id $i -}}
       {{- if (eq $i 0) -}}
-        <li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link is-active" href="#{{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="true">{{- trim .name " " -}}</a></li>
+        <button data-toggle="tab" id="tab-label-{{$id}}" class="c-tabs__tab is-active e-heading__5" role="tab" aria-controls="{{ $id }}" aria-selected="true">{{- trim .name " " -}}</button>
       {{ else }}
-        <li class="c-tabs__item"><a data-toggle="tab" class="c-tabs__link " href="#{{ $id }}" role="tab" aria-controls="{{ $id }}">{{- trim .name " " -}}</a></li>
+        <button data-toggle="tab" id="tab-label-{{$id}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{ $id }}" aria-selected="false">{{- trim .name " " -}}</button>
       {{- end -}}
     {{- end -}}
-  </ul>
+  </div>
   <div class="c-tabs__group" id="{{ $tab_set_id }}">
     {{- range $i, $e := $tabs -}}
       {{- $id := printf "%s-%d" $tab_set_id $i -}}
       {{- if (eq $i 0) -}}
-        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="{{ $id }}">
+        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ else }}
-        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby="{{ $id }}">
+        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ end }}
         {{- with .content -}}
           {{- . | markdownify -}}

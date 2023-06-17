@@ -7,6 +7,7 @@
     hsla(var(--hsl), var(--alpha)) 0px 1px 0px 0px,
     hsla(var(--hsl), var(--alpha)) 0px 0px 2.5px 0px,
     0px 3.25px 6px hsla(var(--hsl), var(--alpha));
+  --theme-box-shadow--top: hsla(var(--hsl), var(--alpha)) 0px -1.5px 2px 0px;
   --theme-box-shadow--bottom: 0px 3.25px 6px hsla(var(--hsl), var(--alpha));
   --theme-box-shadow--inset: inset 0px -3.25px 12px hsla(var(--hsl), var(--alpha));
 
