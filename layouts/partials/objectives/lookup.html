@@ -1,7 +1,10 @@
 {{ $scope := . }}
 {{ $pageContext := .pageContext }}
 {{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
-{{ with $localBlock.Params.Objectives }}
+{{ if (eq $scope.blockData.type "local_module") }}
+  {{ $localBlock = $pageContext.GetPage (replace $scope.blockData.api "%!s(<nil>)" .pageContext.Section) }}
+{{ end }}
+{{ with $localBlock.Page.Params.Objectives }}
   <h5>{{ $scope.blockData.name }}</h5>
   {{ partial "objectives/block.html" . }}
 {{ end }}
