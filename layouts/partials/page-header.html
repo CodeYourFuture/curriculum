@@ -22,12 +22,16 @@
       {{ partial "breadcrumbs.html" . }}
     </div>
     <h1 class="c-page-header__title e-heading__1">
-      {{ $override := .Scratch.Get "emoji" }}
-      {{ if $override }}
-        {{ $override }}
-      {{ else }}
-        {{ with .Page.Params.emoji }}{{ . }}{{ end }}
-      {{ end }}{{ .Page.Title }}
+      <span class="c-emoji">
+        {{ $override := .Scratch.Get "emoji" }}
+        {{ if $override }}
+          {{ $override }}
+        {{ else }}
+          {{ with .Page.Params.emoji }}
+            {{ . }}
+          {{ end }}
+        {{ end }} </span
+      >{{ .Page.Title }}
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
       <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__2">
