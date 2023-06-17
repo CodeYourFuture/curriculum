@@ -39,13 +39,13 @@
     {{ with $parsedFrontMatter.prep }}
       <section class="c-copy">
         <h3>Preparation</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.introduction }}
       <section class="c-copy">
         <h3>Introduction</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.exercises }}
