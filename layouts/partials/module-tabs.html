@@ -1,3 +1,4 @@
+{{.Page.Store.Set "hasTabs" true }}
 {{ $parent := .Section }}
 <tab-panels class="c-tabs c-tabs--module">
   <div class="c-tabs__list" id="{{ .Title | urlize }}" role="tablist">
@@ -44,5 +45,4 @@
     </div>
   </div>
 </tab-panels>
-{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-<script src="{{ $tabs.Permalink }}" type="module" defer></script>
+
