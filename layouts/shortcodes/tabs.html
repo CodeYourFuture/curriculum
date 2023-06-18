@@ -1,5 +1,5 @@
 {{/*  These tabs are based on the Kubernetes docs*/}}
-    
+{{- .Page.Store.Set "hasTabs" true -}}  
 {{- .Page.Scratch.Add "tabset-counter" 1 -}}  
 {{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) (.Page.Scratch.Get "tabset-counter") ) | anchorize -}}
 {{- $tabs := .Scratch.Get "tabs" -}}
@@ -50,6 +50,3 @@
     {{- end -}}
   </div>
 </tab-panels>
-
-{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-<script src="{{ $tabs.Permalink }}" type="module" defer></script>
