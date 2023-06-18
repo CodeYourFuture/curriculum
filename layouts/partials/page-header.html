@@ -44,7 +44,9 @@
       </h2>
     {{ else }}
       {{ with .Page.Description }}
-        <h3 class="c-page-header__description">{{ . | markdownify }}</h3>
+        <h2 class="c-page-header__description e-heading__3">
+          {{ . | markdownify }}
+        </h2>
       {{ end }}
     {{ end }}
     <!--TOC-->
