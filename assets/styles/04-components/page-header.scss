@@ -66,11 +66,9 @@
       text-shadow: none;
     }
   }
-  &__edit {
-    color: var(--theme-color--contrast-max);
-    font-size: var(--theme-type-size--6);
-    padding: calc(var(--theme-spacing--1) / 2);
-    text-align: right;
+
+  &__description {
+    font-weight: 300;
   }
 
   &__breadcrumbs {
