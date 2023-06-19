@@ -1,8 +1,12 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>{{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}" />
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ if .Page.Params.description }}
+    <meta name="description" content="{{ .Page.Params.description }}" />
+  {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}" />
+  {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- suppress FOUC-->
   <style>
@@ -43,4 +47,24 @@
     onload="this.media='all'" />
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
+  <meta name="theme-color" content="#e3ddeef2" />
+  <link rel="manifest" href="manifest.json" />
+  <script src="sw.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/sw.js").then(
+          function (registration) {
+            console.log(
+              "ServiceWorker registration successful with scope: ",
+              registration.scope
+            );
+          },
+          function (err) {
+            console.log("ServiceWorker registration failed: ", err);
+          }
+        );
+      });
+    }
+  </script>
 </head>
