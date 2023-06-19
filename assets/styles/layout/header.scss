@@ -18,12 +18,14 @@
     display: grid;
     grid-template:
       "heading . search action" min-content
-      / min-content var(--theme-spacing--gutter) 1fr
+      / min-content var(--theme-spacing--4) 1fr
       min-content;
   }
   &__heading {
     color: var(--theme-color--brand);
     max-width: 140px;
+    display: flex;
+    align-items: center;
   }
   &__home {
     @include on-event {
