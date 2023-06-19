@@ -9,7 +9,7 @@
     ". .           . .     ." var(--theme-spacing--gutter)
     / var(--theme-spacing--gutter) minmax(
       var(--smallest-width-with-timeline),
-      1fr
+      calc(var(--theme-spacing--container-min) * 2)
     )
     var(--theme-spacing--2) 1fr var(--theme-spacing--gutter);
 

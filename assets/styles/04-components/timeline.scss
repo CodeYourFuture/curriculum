@@ -3,12 +3,11 @@
   --box: var(--theme-spacing--gutter);
   position: relative;
   transform: translateX(var(--box));
-  width: min-content;
+
   padding: var(--theme-spacing--6) 0;
 
   &__entry,
   [class="c-timeline__entry"] {
-    width: 100%;
     display: flex;
     align-items: center;
     border-left: var(--theme-border--thick);
