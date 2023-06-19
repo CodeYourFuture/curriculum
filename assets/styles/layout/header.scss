@@ -18,15 +18,18 @@
     display: grid;
     grid-template:
       "heading . search action" min-content
-      / min-content var(--theme-spacing--4) 1fr
+      / max-content var(--theme-spacing--4) 1fr
       min-content;
   }
   &__heading {
     color: var(--theme-color--brand);
-    max-width: 140px;
-    display: flex;
+    display: grid;
     align-items: center;
+    @media (min-width: $c-max) {
+      width: 140px;
+    }
   }
+
   &__home {
     @include on-event {
       color: var(--theme-color--accent);
