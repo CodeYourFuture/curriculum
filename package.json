@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/CodeYourFuture/curriculum#readme",
   "dependencies": {
-    "@codemirror/highlight": "^0.19.8",
     "@codemirror/lang-javascript": "^6.1.8",
     "@codemirror/theme-one-dark": "^6.1.2",
     "codemirror": "^6.0.1",
