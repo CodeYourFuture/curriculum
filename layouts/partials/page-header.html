@@ -34,12 +34,12 @@
       >{{ .Page.Title }}
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
-      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__2">
-        {{ .Page.Params.backlog }}
+      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__3">
         <a
           class="c-page-header__link"
           href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
-          >🔗</a
+          >{{ .Page.Params.backlog }}
+          🔗</a
         >
       </h2>
     {{ else }}
