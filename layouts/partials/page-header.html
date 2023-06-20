@@ -34,17 +34,19 @@
       >{{ .Page.Title }}
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
-      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__2">
-        {{ .Page.Params.backlog }}
+      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__3">
         <a
           class="c-page-header__link"
           href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
-          >🔗</a
+          >{{ .Page.Params.backlog }}
+          🔗</a
         >
       </h2>
     {{ else }}
       {{ with .Page.Description }}
-        <h3 class="c-page-header__description">{{ . | markdownify }}</h3>
+        <h2 class="c-page-header__description e-heading__3">
+          {{ . | markdownify }}
+        </h2>
       {{ end }}
     {{ end }}
     <!--TOC-->

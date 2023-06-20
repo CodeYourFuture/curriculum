@@ -2,20 +2,13 @@
 [class="c-timeline"] {
   --box: var(--theme-spacing--gutter);
   position: relative;
-  counter-reset: timeline;
   transform: translateX(var(--box));
-  width: max-content;
+
   padding: var(--theme-spacing--6) 0;
-  background-image: linear-gradient(
-    to right,
-    var(--theme-color--backdrop-from) 50%,
-    transparent
-  );
+
   &__entry,
   [class="c-timeline__entry"] {
-    width: 100%;
     display: flex;
-    max-width: var(--theme-spacing--container);
     align-items: center;
     border-left: var(--theme-border--thick);
     border-image: var(--theme-border-image);
