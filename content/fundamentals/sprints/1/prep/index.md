@@ -78,3 +78,11 @@ Your cohort is your first network, and this is one of the most valuable things y
 Code.org is a website aimed at helping people learn computer science. You will be doing one of their courses. Register an account now.
 
 - [ ] I have signed up for code.org.
+
+### VSCode
+
+In ITD, you wrote code in Codepen - an online Integrated Development Environment (IDE). This was really useful, we can save code there and see what it does.
+
+Now you will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a professional IDE you will use at work.
+
+Download and install VSCode - you will be using it in this course.
