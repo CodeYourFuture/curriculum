@@ -1,0 +1,14 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{- .Page.Store.Set "hasYoutube" true -}}
+<section class="c-block c-block--youtube">
+  {{ if $blockData }}
+    <h2
+      class="c-block__title e-heading__2 is-invisible"
+      id="{{ $blockData.name |urlize }}">
+      <a href="{{ $blockData.sot }}">{{ $blockData.name }} 🔗</a>
+    </h2>
+  {{ end }}
+  <div class="c-block__content">
+    <youtube-player data-video-id="{{ $blockData.api }}"></youtube-player>
+  </div>
+</section>

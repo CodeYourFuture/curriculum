@@ -1,6 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
-{{ $response := getJSON $blockData.api }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   {{ $decodedContent := $response.content | base64Decode }}
@@ -23,12 +22,8 @@
       <h2 class="c-block__title e-heading__2" id="{{ $blockData |urlize }}">
         <a href="{{ $response.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
       </h2>
-      <time class="c-block__time" datetime="P{{ $parsedFrontMatter.time }}M"
-        >{{ $parsedFrontMatter.time }} minutes</time
-      >
-      <h3 class="c-block__byline e-heading__5">
-        {{ partial "byline.html" . }}
-      </h3>
+      {{ partial "time.html" (dict "blockData" $blockData "time" $parsedFrontMatter.time) }}
+      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
 
     <section class="c-copy">{{ $markdownContent | markdownify }}</section>
@@ -38,19 +33,19 @@
         <summary>
           <h3 class="c-objectives__title e-heading__5">Learning Objectives</h3>
         </summary>
-        {{ partial "objectives-block.html" . }}
+        {{ partial "objectives/block.html" . }}
       </details>
     {{ end }}
     {{ with $parsedFrontMatter.prep }}
       <section class="c-copy">
         <h3>Preparation</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.introduction }}
       <section class="c-copy">
         <h3>Introduction</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.exercises }}
@@ -58,7 +53,7 @@
         <h3>Exercises</h3>
         {{ range . }}
           <section class="c-note c-note--exercise">
-            <h4 class="c-note__title e-heading e-heading__2">{{ .name }}</h4>
+            <h4 class="c-note__title e-heading e-heading__4">{{ .name }}</h4>
             <div class="c-note__text">
               <p>
                 <strong>Goal: </strong>{{ .goal | markdownify }}

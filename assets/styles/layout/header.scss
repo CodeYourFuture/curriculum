@@ -18,13 +18,18 @@
     display: grid;
     grid-template:
       "heading . search action" min-content
-      / min-content var(--theme-spacing--gutter) 1fr
+      / max-content var(--theme-spacing--4) 1fr
       min-content;
   }
   &__heading {
     color: var(--theme-color--brand);
-    max-width: 140px;
+    display: grid;
+    align-items: center;
+    @media (min-width: $c-max) {
+      width: 140px;
+    }
   }
+
   &__home {
     @include on-event {
       color: var(--theme-color--accent);
@@ -41,4 +46,10 @@
       )
     );
   }
+}
+// post header height to other elements
+:root {
+  --header-height: calc(
+    var(--theme-spacing--touchtarget) + calc(var(--theme-spacing--1) * 2)
+  );
 }

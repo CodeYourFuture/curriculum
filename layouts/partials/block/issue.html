@@ -1,7 +1,6 @@
 {{/* This block expects the github issue api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
-{{ $response := getJSON $blockData.api }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   <section class="c-block">
@@ -11,6 +10,7 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
+      {{/* TODO - lookup time from label dictionary */}}
       {{ range $response.labels }}
         {{ if in .name "Size" }}
           <time class="c-block__time" datetime="P60M">{{ .name }}</time>

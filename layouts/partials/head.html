@@ -4,24 +4,6 @@
   <title>{{ .Site.Title }}</title>
   <meta name="description" content="{{ .Site.Params.description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- suppress FOUC-->
-  <style>
-    body,
-    html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      animation: fade-in 0.2s;
-    }
-    @keyframes fade-in {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  </style>
   {{ $sass := resources.Match "styles/**.scss" | resources.Concat
     "bundled.css"
   }}
@@ -37,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Caveat:wght@500&family=Inter:wght@400;600&family=Roboto+Slab:wght@900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&family=Roboto+Slab:wght@900&display=swap"
     rel="stylesheet"
     media="print"
     onload="this.media='all'" />

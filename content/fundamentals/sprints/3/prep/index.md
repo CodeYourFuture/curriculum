@@ -9,5 +9,12 @@ backlog_filter= 'Week 3'
 [[blocks]]
 name="Prepare Your CYF Blocks Presentation"
 src="https://cyf-pd.netlify.app/blocks/prepare-your-blocky-presentation/readme/"
+name="backlog"
 +++
+
+If you have not done so already, complete all of the exercises and at least the first project in CYF Blocks.
+
+You must complete a project in CYF Blocks before you come to class.
+
+{{<iframe src="https://blocks.codeyourfuture.io/#exercise_arrays_sum">}}
 

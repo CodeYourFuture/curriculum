@@ -28,7 +28,7 @@ In pairs, define some user stories for your own websites, to improve it. These s
 - a small change
 - that is achievable with the CYF Blocks seen in the course so far
 - but a complete feature
-- try for at least one feature that updates or changes the page when an action is taken
+- try for at least one feature that updates or changes the page when an action is taken (e.g. clicking when a button)
 
 {{</note>}}
 

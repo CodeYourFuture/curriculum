@@ -46,10 +46,10 @@ Your GitHub account name should look something like this: https://github.com/Sal
 
 When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
 
-To find out more about what GitHub is used for, watch the video in the "What is GitHub" tab above.
+Watch [What is GitHub](#prep-1)
 {{% /tab %}}
 
-{{<tab name="What is GitHub">}}
+{{<tab name="📼 Watch: What is GitHub">}}
 {{% youtube %}}https://www.youtube.com/watch?v=pBy1zgt0XPc{{% /youtube %}}
 {{</tab>}}
 

@@ -4,7 +4,6 @@ title = "CodeYourFuture Curriculum"
 languageLang = "en"
 sectionPagesMenu = "main"
 enableEmoji = true
-ignoreErrors = ["error-remote-getjson"]
 
 [menus]
     [[menus.secondary]]
@@ -31,7 +30,7 @@ orgapi = "https://api.github.com/repos/CodeYourFuture/"
 
 [markup]
 [markup.tableOfContents]
-endLevel = 6
+endLevel = 2
 ordered = true
 startLevel = 2
 [markup.highlight]
@@ -43,3 +42,12 @@ guessSyntax = true
 unsafe = true
 hardWraps = true
 disableKinds = ["taxonomy", "term"]
+
+[caches.getjson]
+# Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
+maxAge = 0
+
+[security.funcs]
+# Allow accessing a GitHub bearer token to avoid rate limits when doing HTTP fetches to the GitHub API.
+# This can be generated at https://github.com/settings/tokens?type=beta and needs read-only access to all public CYF GitHub repos.
+getenv = ["^CYF_CURRICULUM_GITHUB_BEARER_TOKEN$"]

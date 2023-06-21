@@ -9,6 +9,7 @@
   2. api, converted from the url based on the type of block
   3. block name
   4. source of truth (sot)
+  5. headers and auth for the api call
 */}}
 {{ $name := .name | default "warning: name is empty" }}
 {{ $src := .src | default "warning: src is empty" }}
@@ -23,6 +24,12 @@
 
 {{/* Set the source of truth */}}
 {{ .Scratch.SetInMap "blockData" "sot" $src }}
+
+{{/* Prep and Day Plan want times */}}
+{{ .Scratch.SetInMap "blockData" "showTime" false }}
+{{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
+  {{ .Scratch.SetInMap "blockData" "showTime" true }}
+{{ end }}
 
 {{/* Default block */}}
 {{ .Scratch.SetInMap "blockData" "type" "local_course" }}
@@ -64,3 +71,10 @@
   {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
   {{ .Scratch.SetInMap "blockData" "api" (delimit $newSrc "" "") }}
 {{ end }}
+
+{{/* Now let's do our headers */}}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ .Scratch.SetInMap "blockData" "headers" $headers }}

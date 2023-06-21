@@ -12,12 +12,10 @@
     toc,
     edit
   );
-  @include grid-breakout();
   grid-template:
-    " . ... . " var(--gap)
-    " . container ." minmax(0, 1fr)
-    " . ... ." var(--gap) / minmax(var(--gap), 1fr)
-    var(--theme-spacing--container) minmax(var(--gap), 1fr);
+    "." var(--gap)
+    "container" 1fr
+    "." var(--gap);
 
   &__container {
     pointer-events: all;
@@ -33,16 +31,18 @@
       / 1fr var(--gap) minmax(0, 1fr);
 
     .c-page-header--toc & {
-      grid-template:
-        ".              .   .        " var(--gap)
-        "breadcrumbs    .   edit     " min-content
-        "title          .   toc      " min-content
-        "subtitle       .   toc      " min-content
-        "description    .   toc      " min-content
-        ".              .   toc      " auto
-        ".              .   lastmod  " min-content
-        ".              .   .        " var(--gap)
-        / 1fr var(--gap) minmax(0, 1fr);
+      @media (min-width: $c-max) {
+        grid-template:
+          ".              .   .        " var(--gap)
+          "breadcrumbs    .   edit     " min-content
+          "title          .   toc      " min-content
+          "subtitle       .   toc      " min-content
+          "description    .   toc      " min-content
+          ".              .   toc      " auto
+          ".              .   lastmod  " min-content
+          ".              .   .        " var(--gap)
+          / 1fr var(--gap) minmax(0, 1fr);
+      }
     }
 
     .c-page-header--splash & {
@@ -56,6 +56,7 @@
     }
   }
   &__title {
+    display: flex;
     line-height: 0.75;
     text-shadow: -2px 1px 0 var(--theme-color--pop);
     background-color: var(--theme-color--block);
@@ -65,18 +66,20 @@
       text-shadow: none;
     }
   }
-  &__edit {
-    color: var(--theme-color--contrast-max);
-    font-size: var(--theme-type-size--6);
-    padding: calc(var(--theme-spacing--1) / 2);
-    text-align: right;
+
+  &__description {
+    font-weight: 300;
   }
 
   &__breadcrumbs {
-    padding: 0 0 0 9.25ch;
+    padding: 0 0 0 var(--theme-type-size--1);
     z-index: 1;
     .c-page-header--splash & {
       display: none;
     }
+  }
+
+  &__toc {
+    scroll-margin-top: calc(2 * var(--header-height));
   }
 }

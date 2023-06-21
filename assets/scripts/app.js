@@ -41,3 +41,16 @@ const editableCodeBlocks = document.querySelectorAll("code[data-lang]");
 editableCodeBlocks.forEach((block) => {
   block.setAttribute("contenteditable", true);
 });
+
+// Fix for GFM task lists
+// https://github.com/github/cmark-gfm/issues/299
+window.addEventListener("DOMContentLoaded", (event) => {
+  const taskListItems = document.querySelectorAll(
+    "ul > li > input[type=checkbox]"
+  );
+  taskListItems.forEach((item) => {
+    item.removeAttribute("disabled");
+    const parent = item.parentNode;
+    parent.innerHTML = `<label>${parent.innerHTML}</label>`;
+  });
+});

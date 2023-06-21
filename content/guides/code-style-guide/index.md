@@ -14,7 +14,7 @@ To help write more understandable code, programmers follow a _style guide_. It p
 
 ### Using Prettier to format code automatically
 
-Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VS Code extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
+Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VSCode extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
 
 Prettier is a tool that rearranges your code (called _formatting_). It follows a set of rules that programmers have agreed make your code easier to read and understand.
 
@@ -240,7 +240,7 @@ When reading other people's code, think about the variable names. If the names a
 
 Define your variables with the narrowest scope they can have. This is easiest to explain with an example...
 
-```js {3,5}
+```js
 function findLongestFirstName(fullNames) {
   let longest;
   let firstName;
@@ -256,7 +256,7 @@ function findLongestFirstName(fullNames) {
 
 It is considered better code to combine the two highlighted lines into one like this...
 
-```js {4}
+```js
 function findLongestFirstName(fullNames) {
   let longest;
   for (let i = 0; i < fullNames.length; i++) {
