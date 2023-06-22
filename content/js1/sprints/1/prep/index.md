@@ -273,8 +273,12 @@ The process of finding the nearest whole number to 10.3 is called **rounding**. 
 
 > 🤔 "What does the number `10.3` **round** to?”
 
-Again we can use Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number `10.3` in JavaScript.
-However, we will often want to carry out some kind of operation or series of operations repeatedly. For example, we will often want to round numbers again and again. So in this case we can use a **function**.
+Again we can use the Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number `10.3` in JavaScript.
+
+However, we will often want to carry out some sequence of operations **again and again**.
+For example, we will often want to round numbers again and again.
+
+So in this case we can use a **function**.
 
 {{<note title="Definition" type="info">}}
 
@@ -282,7 +286,9 @@ Definition: A function is a reusable set of instructions.
 
 {{</note>}}
 
-In particular, we can make use of a function called `Math.round`. Recalling the definition, a function is a reusable set of instructions: so `Math.round` contains instructions for rounding any number. Functions will often take **inputs** and then **apply their set of instructions to the inputs** in order to produce an **output**.
+`Math.round` is an example of a function. Recalling the definition, a function is a reusable set of instructions: `Math.round` contains instructions for rounding any number.
+
+Functions will often take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
 
 So we can write `Math.round` in the Node REPL:
 
@@ -302,18 +308,20 @@ Once we have the name for a function, we need to get Node to read the function's
 
 Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parentheses is the **input** we're passing to the function.
 
-{{<note title="Abstraction" type="info">}}
+{{<note title="Definition" type="info">}}
 
-Calling a function means telling the computer to read the function's instructions and carry out its instructions. When calling a function we can also pass inputs to the function.
+**Calling a function** means telling the computer to read the function's instructions and carry out its instructions. When calling a function we can also pass inputs to the function.
 
 {{</note>}}
 
 `Math.round(10.3)` is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number `10.3`.
 
-If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that `Math.round(10.3)` evaluates to 10.
+If we type `Math.round(10.3)` then again we get the result 10.
+So we say that `Math.round(10.3)` outputs 10.
 
-{{<note title="Abstraction" type="info">}}
-Important to note that `Math.round` is **implementation opaque**. **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
+{{<note title="Note" type="note">}}
+It's important to note that `Math.round` is **implementation opaque**.
+**Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
 {{</note>}}
 
 ### Running scripts
@@ -338,11 +346,23 @@ This command is an instruction to execute the program written inside index.js. O
 `10 * 3;` the computer will evaluate this expression  
 `10 / 3;` the computer will evaluate this expression
 
+{{<note title="Activity" type="activity">}}
+
+Try out the following steps below to check you can run a file with Node:
+
+1. In your terminal, create a new file called `example.js`.
+
+2. Try writing a few expressions in the file like the ones above.
+
+3. Get Node to run this file. ( Don't use the REPL now - there should be a command to execute the whole file.)
+
+{{</note>}}
+
 Once the computer evaluates these expressions the execution of the program is complete. But, we’re left with a problem. With the REPL, the user inputs an expression, the computer evaluates it and then prints the result. It then loops back and prompts the user for another input. But now the computer will go and execute each line sequentially until completion.
 
 So this new problem can be expressed as a question:
 
-> #### ❓ Problem
+> ❓ Problem
 >
 > "How can we inspect the data in our program during runtime?"
 > In other words: "how can I print values to the terminal when my program is being executed?"
@@ -373,9 +393,8 @@ Now if we our terminal, we should see the string "hello there!" logged out in th
 
 ### Saving function output
 
-Often in programs we may want to refer to a particular expression over and over again.
+We can use variables to store the output from a function.
 
-With our knowledge of functions and variables, we can use variables to store the output from a function.
 Let’s consider the following file, `arithmetic.js`;
 
 ```js title="arithmetic.js"
@@ -383,7 +402,8 @@ const result = Math.round(10.3);
 ```
 
 When this program is executed, it creates a variable called result and assigns to it **the output of the function**, in this case the rounded number.
-So `result` will evaluate to `10`.
+
+So `result` will store the value `10`.
 
 Let’s consider what happens with the following file, `log.js`:
 
