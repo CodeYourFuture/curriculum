@@ -41,46 +41,52 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ## Notes
 
-### Interacting with computers 💻
+### 💻 Interacting with computers
 
-Modern computers are highly complex devices. It would be too difficult to list all the components that make up a modern computer. We don't need to understand the inner workings of a computer ( how it is built) so we can start with a simplified definition:
+Modern computers are highly complex devices: itt would be too difficult and time-consuming to list all the components that make up a modern computer. To begin understanding, we can start with a simple definition of a computer:
 
 {{<note title="Definition" type="info">}}
 
-A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through its processing capacity.
+A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through their processing ability.
 
 {{</note>}}
 
-As a user, we don't need to understand the complexities of the computer's inner workings. As users we need to harness the computer's memory and processing ability to perform certain tasks.
-
 ### 🕹️ Using an interface
 
-As a user, we want to interact with a computer without understanding how it is built. Every day we interact with machines to carry out some certain tasks: in most of these cases we have no idea how these machines are built. It would be impossible to use complex technology if we had to know how these machines were built at the same time.
+As a user, we want to interact with computers _without_ understanding how they are built. Every day we interact with machines to carry out specific tasks: in most of these cases we have no idea how these machines are designed and. It would be impossible to use of new technology if we had to know how all these machines were built at the same time.
 
-Instead we make use of **interfaces**. An interface can be thought of as a boundary that allows communication between user and machine.
-The user will ask the machine to carry out certain tasks via the interface. We can think of the interface as a gateway between the user and the machine.
+Instead we make use of **interfaces**.
+
+{{<note title="Definition" type="info">}}
+
+An **interface** can be thought of as a boundary that allows communication between a user and a machine.
+The user asks the machine to carry out certain tasks via the interface. We can think of the interface as a gateway between the user and the machine.
+
+{{</note>}}
 
 For example, we may want to withdraw money from an ATM machine. We go to a machine in the wall with a screen and a keypad. The **screen and the keypad** form the user interface in this case. We can use this user interface to ask the machine to carry out certain tasks - like give my balance, or please withdraw some money from my account.
 
 {{<note title="Activity" type="info">}}
 
-Try and define the **user interface** for the following machines:
+Try and define the **user interface** for the following devices:
 
 - a calculator
 - a microwave
 - a desktop lamp
+- Alexa
+- ChatGPT
 
 {{</note>}}
 
 ### Terminal interface
 
-As with any other machine, programmers need computer interfaces to ask machines to carry out tasks.
+As with other machines, programmers need to use interfaces to get machines to carry out tasks.
 
-A computer terminal is an **interface** where users can issue commands to a computer. On a Mac, the terminal looks like this:
+A computer terminal is an **interface** where programmers can issue commands to a computer. On a Mac, the terminal looks like this:
 
 ![terminal](terminal.png)
 
-The terminal appears as a window on the computer, prompting users for instructions. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
+The terminal appears as a window on the computer, prompting users for instructions. So we can input a command into the prompt and hit enter. After hitting enter, the interface passes this command along for the computer to execute. For example, we can input the `ls` command into the terminal:
 
 ![enter-ls-command](enter-ls-command.png)
 
@@ -92,7 +98,7 @@ As users enter text instructions and receive text output, we say that the termin
 
 ### Writing computer instructions
 
-We've seen we can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
+We've can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
 However, we can make use of other programming languages too.
 
 A programming language is a particular set of rules for writing computer instructions.
@@ -125,11 +131,12 @@ In JavaScript, we have several different data types, like **numbers** and **stri
 For example, `10` is part of the number data type.  
 `3.14` is also part of the number data type, as we include both integers non-integers in this data type.
 
-We also have the string data type in JavaScript. A string is a sequence of characters. In JavaScript a string is denoted using opening quotation marks and closing quotation marks.
+We also have the string data type in JavaScript. A string is a sequence of characters.
+In JavaScript a string is denoted using opening quotation marks and closing quotation marks. `"Code Your Future"` is an example of a string.
 
 ### Creating expressions
 
-Let's consider the numbers 10 and 32. Given these 2 numbers, we might want to ask several questions about these numbers:
+Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several questions about these numbers:
 
 a) What is the **sum** of 10 and 32?  
 b) What is the **product** of 10 and 32?  
@@ -212,7 +219,8 @@ Try creating your own expressions and entering them into the Node REPL. In each 
 
 ### 🏷️ Saving expressions
 
-In programming we often want to reuse a particular expressions. Therefore, we need a way to refer back to particular expressions. Let’s consider the following string:
+In programming we often want to reuse particular expressions.
+Therefore, we need a way to refer back to particular expressions. Let’s consider the following string:
 
 ```js
 "Hello there";
@@ -273,7 +281,7 @@ The process of finding the nearest whole number to 10.3 is called **rounding**. 
 
 > 🤔 "What does the number `10.3` **round** to?”
 
-Again we can use the Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number `10.3` in JavaScript.
+Again we can use the Node REPL to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number `10.3` in JavaScript.
 
 However, we will often want to carry out some sequence of operations **again and again**.
 For example, we will often want to round numbers again and again.
@@ -282,7 +290,7 @@ So in this case we can use a **function**.
 
 {{<note title="Definition" type="info">}}
 
-Definition: A function is a reusable set of instructions.
+A function is a reusable set of instructions.
 
 {{</note>}}
 
@@ -300,11 +308,11 @@ After we've hit enter to evaluate, we then get the following:
 
 So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
 
-### Calling a function
+### 📲 Calling a function
 
 Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out. So we can write the following in the REPL:
 
-![round-img](./assets/math.round-number-10.3.png)
+![round-img](math.round-number-10.3.png)
 
 Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parentheses is the **input** we're passing to the function.
 
@@ -314,7 +322,9 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 
 {{</note>}}
 
-`Math.round(10.3)` is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number `10.3`.
+`Math.round(10.3)` is a call expression: it can be thought of as saying:
+
+"apply the set of instructions for `Math.round` to the number `10.3`."
 
 If we type `Math.round(10.3)` then again we get the result 10.
 So we say that `Math.round(10.3)` outputs 10.
@@ -326,9 +336,13 @@ It's important to note that `Math.round` is **implementation opaque**.
 
 ### Running scripts
 
-So far we’ve seen how expressions can be evaluated when using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly. However, most of the time, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use Node to execute the instructions in a file.
+So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly.
 
-We can use the node command to run a JavaScript file. A JavaScript file ends with `.js` - this is known as the file extension.
+However, most of the time, we need to write more complex programs in files that consist of many lines.
+Instead of using the REPL mode, we can get Node to execute the instructions written in our file.
+
+We can use the node command to run a JavaScript file.
+A JavaScript file ends with `.js` - this is known as the file extension.
 
 Let’s suppose we have a file `sums.js` like this:
 
@@ -364,15 +378,13 @@ So this new problem can be expressed as a question:
 
 > ❓ Problem
 >
-> "How can we inspect the data in our program during runtime?"
-> In other words: "how can I print values to the terminal when my program is being executed?"
-
-In order to do this, we can use another function.
+> "How can we check the values of variables in our program when it is being executed?"
 
 ### Printing to the terminal
 
-In order to print an expression’s result to the terminal we can make use of a function called `console.log`.  
-`console.log` will allow us to print expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
+In order to check the values when our program runs, we can make use of a function called `console.log`.  
+`console.log` will allow us to log expressions to the console while our program is executing. This is very useful for complex programs when we need to inspect the result of certain expressions.
+
 Let's see how to use `console.log`
 
 In a file called `example.js`, we can write name of the function `console.log`.
@@ -382,14 +394,14 @@ console.log;
 ```
 
 However, if we run this file with Node, we won't be able to see anything in the terminal.
-As with `Math.round` we need to use the syntax for calling this function.
+As with `Math.round` we need to use the syntax for calling a function.
 So we can add parentheses after the function name to indicate we're calling this function:
 
 ```js title="example.js"
 console.log("hello there!");
 ```
 
-Now if we our terminal, we should see the string "hello there!" logged out in the terminal.
+We should see the string "hello there!" logged out in the terminal.
 
 ### Saving function output
 
@@ -405,23 +417,37 @@ When this program is executed, it creates a variable called result and assigns t
 
 So `result` will store the value `10`.
 
-Let’s consider what happens with the following file, `log.js`:
+### 🔭 Logging vs function output
 
-```js title="log.js"
+Some functions output values that we can use in our program.
+
+`Math.round` takes an input, does a calculation and then outputs values that we can use when our program is running.
+
+However, some functions don't produce useful outputs in our running program; however they can still cause **effects**. Consider the following line:
+
+```js
 const result = console.log("hello world");
 ```
 
-When this program is executed, the variable `result` will evaluate to `undefined`. This is potentially confusing as `console.log` contains instructions that do something. `console.log` _does_ have an effect: it logs values to the console. However, inside our program, `console.log` doesn't produce an output that we can store in a variable.
+{{<note title="Exercise" type="exercise">}}
 
-:::info
+Try predicting what `result` will evaluate to when the code above runs. Try executing this line in the Node REPL to observe what happens.
+
+{{</note>}}
+
+When this program runs, the variable `result` will evaluate to `undefined`.
+
+{{<note title="Note" type="note">}}
+
 `undefined` is a data type in JavaScript often used to represent the absence of a specific value
-:::
 
-We could add another log to our program in order to verify this claim. Essentially, console.log’s output will always be undefined.
+{{</note>}}
 
-{{<note type="activity">}}
+This is potentially confusing as `console.log` is a function with a set of instructions. `console.log` _does_ have an effect: it logs values to the console. However, `console.log` doesn't produce an output that we can use _inside_ the rest of our running program
 
-Key fact: `console.log` is used to print its inputs to the terminal. It doesn’t produce an output in the running program.
+{{<note type="info">}}
+
+Key fact: `console.log` is used to print values to the terminal. It doesn’t produce an output in the running program.
 
 {{</note>}}
 
