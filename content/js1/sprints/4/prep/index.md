@@ -31,7 +31,7 @@ backlog_filter= 'Week 4'
 - Explain the process involved in looking up how to write tests for someone using a language other than JavaScript
 - Express an acceptance criterion as a test case
 
-### Counting words 🧮
+### counting words 🧮
 
 Let's consider a function called `countWords` that needs to work as follows:
 
@@ -64,14 +64,25 @@ Our aim now is to write a test to check that `countWords` works as we described 
 
 To write test cases we can make use of libraries written by other programmers - otherwise, coding would be a very time-consuming endeavour indeed! We can download and install these libraries in our project so we can use them when we're building software. We call these libraries of code dependencies - libraries of code that we depend on when we're writing our code.
 
-We use a popular JavaScript testing framework called Jest to write the test code. We'll examine the example below written using Jest, and then break down the different parts of the test code to understand how it all works. To use Jest, we need to install the library in our project to write our test.
-The Jest documentation gives an example of how a test is written:
+### 🕹️ Application Programming Interface
 
-```js
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
-});
-```
+We’ve encountered several functions like `console.log`, `Math.round` before.
+`console.log` and `Math.round` are parts of an **API**.
+
+API stands for **Application Programming Interface**. We can break down each word in this acronym to understand it properly. We've already encountered the word **interface** before.
+
+- An application is a program or piece of software designed to use serve some purpose.
+- Programming refers to the process of writing code or software.
+- An interface is a shared boundary across which two or more separate components of a system exchange information.
+
+So an API is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with the application’s underlying functionality.
+For example, `console.log` is said to be part of the console API.
+
+### Writing tests
+
+To write tests efficiently, we can use an package or library created by other developers.
+We use a popular JavaScript testing framework called Jest to write the test code.
+As with other applications, we don't need to understand how Jest is implemented: we just need to understand how to use Jest's **API** so we can make use of its functionality.
 
 Before we begin to understand how this syntax works we must first install the Jest package so we can use it in our project.
 
@@ -225,18 +236,6 @@ To make the test pass we can start moving in the right direction by declaring th
 index.test.js
 
 This is feedback is telling us that we expected to get an output of 1 but `countWords` is actually returning undefined.
-
-### 🕹️ Using an interface
-
-We’ve encountered several functions like `console.log`, `Math.round` before. Now we’ve also encountered test and `expect` from the Jest library. In this project, we’ve not implemented any of the previously mentioned functions; we only care how to use these functions in our project.
-
-In programming, we continually make use of APIs:
-An API is an Application Programming Interface
-An application is a program or piece of software designed to use serve some purpose.
-Programming refers to the process of writing code or software.
-In computing, an interface is a shared boundary across which two or more separate components of a computer system exchange information.
-
-So an API is a boundary between the programmer and an application, enabling a programmer to use an application’s functionality without being concerned with the application’s underlying functionality. `console.log` is said to be part of the console API.
 
 ### Improving the tests
 
