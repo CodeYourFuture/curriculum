@@ -1,5 +1,7 @@
 # Code Your Future Curriculum
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34db2751-bd7a-4828-a54d-787fa17b11e9/deploy-status)](https://app.netlify.com/sites/cyf-curriculum/deploys)
+
 ## Tools
 
 - [Hugo](https://gohugo.io/) - Static site generator

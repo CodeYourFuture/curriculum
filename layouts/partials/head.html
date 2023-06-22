@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&family=Roboto+Slab:wght@900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
     rel="stylesheet"
     media="print"
     onload="this.media='all'" />
@@ -49,7 +49,7 @@
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
   <meta name="theme-color" content="#e3ddeef2" />
   <link rel="manifest" href="manifest.json" />
-  <script src="sw.js"></script>
+  <script src="{{ .Site.BaseURL }}sw.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
