@@ -19,7 +19,7 @@ The key outcome of Fundamentals is that trainees and mentors start getting to kn
 
 ### Start as we mean to go on 🧰
 
-Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no slides**, **no lectures**, **no missing coursework**, **100% attendance**. This applies to everybody and we should all hold each other to these standards.
+Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no missing coursework**, **100% attendance**, **no slides**, **no lectures**. This applies to everybody and we should all hold each other to these standards.
 
 This is our opportunity to coach ourselves into the "right" behaviours from the start.
 
@@ -45,15 +45,21 @@ Each week has suggested schedules, team exercises, and challenges, but understan
 
 :man_and_woman_holding_hands::skin-tone-4: 🧰: 🧩 :boat: talk to each other and have proven to be useful mantras for understanding what this course should be:
 
-Should we upload the result of our week 1 work to Netlify? Yes, we should **ship it**. Yes, we should **start as we mean to go on**. Should we ask trainees to figure out how to improve on each other's week 1 work as part of a three week project? Yes, because **I am part of a cohort**. Yes because we should practice **breaking down problems**. Yes because we should **start as we mean to go on**.
+* Should we upload the result of our week 1 work to Netlify?
+  * Yes, we should **ship it**.
+  * Yes, we should **start as we mean to go on**
+* Should we ask trainees to figure out how to improve on each other's week 1 work as part of a three week project?
+  * Yes, because **I am part of a cohort**.
+  * Yes because we should practice **breaking down problems**.
+  * Yes because we should **start as we mean to go on**.
 
 ## Structure
 
 3 week repetition of a common pattern, each week with its special focus:
 
-- [Week 1](../sprint/1): **Requirements**, Iteration, Delivery
-- [Week 2](../sprint/2): Requirements, **Iteration**, Delivery
-- [Week 3](../sprint/3): Requirements, Iteration, **Delivery**
+- [Week 1](sprints/1): **Requirements**, Iteration, Delivery
+- [Week 2](sprints/2): Requirements, **Iteration**, Delivery
+- [Week 3](sprints/3): Requirements, Iteration, **Delivery**
 
 ### Requirements
 

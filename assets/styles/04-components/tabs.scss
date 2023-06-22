@@ -7,7 +7,7 @@
     display: flex;
   }
   &__tab {
-    cursor: hand;
+    cursor: pointer;
     font-family: var(--theme-font--display);
     transform: translateY(2px);
     padding: var(--theme-spacing--1) var(--theme-spacing--2);

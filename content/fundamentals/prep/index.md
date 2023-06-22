@@ -44,6 +44,10 @@ GitHub is for developers. It's how you will work on code with other developers a
 Your GitHub account name should look something like this: https://github.com/SallyMcGrath
 {{</note>}}
 
+{{<note type="info" title="Real Name" >}}
+CYF recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
+{{</note>}}
+
 When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
 
 Watch [What is GitHub](#prep-1)
