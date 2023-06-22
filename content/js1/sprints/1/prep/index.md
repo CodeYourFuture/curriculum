@@ -41,29 +41,54 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ## Notes
 
-### Understanding the computer 💻
+### Interacting with computers 💻
 
-Modern computers are highly complex devices. It would be too difficult to list all the components that make up a modern computer. Instead, we can form a useful abstraction to make sense of what a computer is and what it does. An **abstraction** is a simplification that we use to focus on certain key aspects of a particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it. At the same time, we don't need to delve into the complex inner workings of the computer itself. So we begin with the following abstraction:
+Modern computers are highly complex devices. It would be too difficult to list all the components that make up a modern computer. We don't need to understand the inner workings of a computer ( how it is built) so we can start with a simplified definition:
 
-{{<note title="Abstraction" type="info">}}
+{{<note title="Definition" type="info">}}
 
 A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through its processing capacity.
 
 {{</note>}}
 
-### Interacting with the computer
+As a user, we don't need to understand the complexities of the computer's inner workings. As users we need to harness the computer's memory and processing ability to perform certain tasks.
 
-As a user, we don't need to understand the complexities of the computer's inner workings. As users we need to harness the computer's memory and processing ability to perform certain tasks. For this purpose, we can issue commands or instructions to the computer for it to carry out some tasks. A computer terminal is an application where users can enter commands to a computer. On a Mac, the terminal looks like this:
+### 🕹️ Using an interface
+
+As a user, we want to interact with a computer without understanding how it is built. Every day we interact with machines to carry out some certain tasks: in most of these cases we have no idea how these machines are built. It would be impossible to use complex technology if we had to know how these machines were built at the same time.
+
+Instead we make use of **interfaces**. An interface can be thought of as a boundary that allows communication between user and machine.
+The user will ask the machine to carry out certain tasks via the interface. We can think of the interface as a gateway between the user and the machine.
+
+For example, we may want to withdraw money from an ATM machine. We go to a machine in the wall with a screen and a keypad. The **screen and the keypad** form the user interface in this case. We can use this user interface to ask the machine to carry out certain tasks - like give my balance, or please withdraw some money from my account.
+
+{{<note title="Activity" type="info">}}
+
+Try and define the **user interface** for the following machines:
+
+- a calculator
+- a microwave
+- a desktop lamp
+
+{{</note>}}
+
+### Terminal interface
+
+As with any other machine, programmers need computer interfaces to ask machines to carry out tasks.
+
+A computer terminal is an **interface** where users can issue commands to a computer. On a Mac, the terminal looks like this:
 
 ![terminal](terminal.png)
 
-The terminal appears as a window on the computer, prompting users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
+The terminal appears as a window on the computer, prompting users for instructions. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
 
 ![enter-ls-command](enter-ls-command.png)
 
 We can then press enter to issue this command to the computer and get a response:
 
 ![ls-feedback](ls-feedback.png)
+
+As users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
 ### Writing computer instructions
 
@@ -209,11 +234,7 @@ Now we have the `greeting` variable stored in memory we can reuse it to build mo
 
 ![use-greeting-variable](use-greeting-variable.png)
 
-{{<note title="Definition" type="info">}}
-
 In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign and a set of curly braces. The variable name itself is then placed inside the curly braces. The value this variable holds is then placed inside the string.
-
-{{</note>}}
 
 ### Reusing instructions
 
