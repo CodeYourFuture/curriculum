@@ -37,7 +37,7 @@ backlog_filter= 'Week 1'
 
 ## Key vocabulary
 
-terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate, implementation, opaque
+terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate, implementation opaque
 
 ## Notes
 
@@ -53,7 +53,7 @@ A computer is a device used to store and process data. Computers have the capaci
 
 ### 🕹️ Using an interface
 
-As a user, we want to interact with computers _without_ understanding how they are built. Every day we interact with machines to carry out specific tasks: in most of these cases we have no idea how these machines are designed and. It would be impossible to use of new technology if we had to know how all these machines were built at the same time.
+As a user, we want to interact with computers _without_ understanding how they are built. Every day we interact with machines to carry out specific tasks: in most of these cases we have no idea how these machines are designed and constructed. It would be impossible to make use of new technology if we had to know how all these machines were built at the same time.
 
 Instead we make use of **interfaces**.
 
@@ -98,13 +98,13 @@ As users enter text instructions and receive text output, we say that the termin
 
 ### Writing computer instructions
 
-We've can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
+We can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
+
 However, we can make use of other programming languages too.
-
 A programming language is a particular set of rules for writing computer instructions.
+During the execution of a computer program, a computer will store and modify data.
 
-A computer will store data in memory, which will be modified during the execution of a program.
-So we can think of a programming language as allowing us to describe **data** and **operations** on that data.
+So we can think of a programming language as allowing us to create **data** and **operations** on that data.
 
 {{<note title="Definition" type="info">}}
 **Data** consists of information in different forms: for example, numbers and text could be different forms of data. The data in a executing program is sometimes referred to as the **state**.
@@ -113,8 +113,6 @@ So we can think of a programming language as allowing us to describe **data** an
 {{<note title="Definition" type="info">}}
 **Operations** are anything that take data and modify existing data or create new data from the current data in the program.
 {{</note>}}
-
-In other words, any computer program will specify what data we've got and how it will be processed.
 
 ### Classifying data
 
@@ -136,7 +134,7 @@ In JavaScript a string is denoted using opening quotation marks and closing quot
 
 ### Creating expressions
 
-Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several questions about these numbers:
+Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several questions:
 
 a) What is the **sum** of 10 and 32?  
 b) What is the **product** of 10 and 32?  
@@ -174,10 +172,10 @@ NodeJS can be used in a number of different ways; however, one particular mode i
 
 ℹ️ Definition: REPL is a special type of program that stands for
 
-**Read**  
-**Evaluate**  
-**Print**  
-**Loop**
+**Read** - Users enter an expression that Node will **read**
+**Evaluate** - Node will then **evaluate** this expression
+**Print** - Node will **print** the result to the terminal
+**Loop** - Node will **loop** back to the beginning and prompt users for an input
 
 {{</note>}}
 
@@ -200,7 +198,7 @@ We can type each of the following expressions into the REPL and then press enter
 {{<note title="Activity" type="activity">}}
 
 In this activity, you'll check that you're set up to use the Node REPL on your machine.
-Follow the instructions below and check you can do each step:
+Try and complete each step below:
 
 1. Start a terminal application on your computer
 2. Check you've got Node installed on your computer
@@ -383,7 +381,7 @@ So this new problem can be expressed as a question:
 ### 🖨️ Printing to the terminal
 
 In order to check the values when our program runs, we can make use of a function called `console.log`.  
-`console.log` will allow us to log expressions to the console while our program is executing. This is very useful for complex programs when we need to inspect the result of certain expressions.
+`console.log` will allow us to log expressions to the console while our program is executing. This is very useful for complex programs when we need to check the value of expressions in our program.
 
 Let's see how to use `console.log`
 
