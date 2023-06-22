@@ -93,7 +93,9 @@ As users enter text instructions and receive text output, we say that the termin
 ### Writing computer instructions
 
 We've seen we can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
-However, we can make use of different programming languages. A programming language is a particular set of rules for writing computer instructions.
+However, we can make use of other programming languages too.
+
+A programming language is a particular set of rules for writing computer instructions.
 
 A computer will store data in memory, which will be modified during the execution of a program.
 So we can think of a programming language as allowing us to describe **data** and **operations** on that data.
@@ -111,7 +113,8 @@ In other words, any computer program will specify what data we've got and how it
 ### Classifying data
 
 In this course, we’re going to focus on the JavaScript programming language.
-Any programming language will have different forms of data that we call **data types**.
+
+A programming language will have certain ways of organising data. They split data up into different categories called **data types**.
 
 {{<note title="Definition" type="info">}}
 A **data type** is a grouping of data with some particular properties.
@@ -132,11 +135,7 @@ a) What is the **sum** of 10 and 32?
 b) What is the **product** of 10 and 32?  
 c) What is the **remainder** when 32 is divided by 10?
 
-From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. So “the sum of 10 and 32” can be written as `10 + 32` in symbolic form.
-
-```raw title="written form"
-the sum of 10 and 32
-```
+From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. So “the sum of 10 and 32” can be written as `10 + 32` as follows:
 
 ```raw title="symbolic form"
 10 + 32
@@ -146,18 +145,23 @@ In symbolic form, `+` is an operator: an **operator** is a symbol that is used t
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
 {{<note title="Definition" type="info">}}
-An **expression** is a value or any valid combination of values and symbols that results in a single value.  
-We say that expressions **evaluate** to a single value.  
+An **expression** is a value or any valid combination of values and symbols that results in a single value.
+
+We say that expressions **evaluate** to a single value.
+
 So we say that `10 + 32` **evaluates** to the value `42`.
 
 {{</note >}}
 
 ### Evaluating expressions
 
-So we can look at an expression like `36 * 45` and ask: what does this expression evaluate to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
-However, we can use computers to evaluate expressions. We can use NodeJS, a JavaScript runtime, an application that runs JavaScript programs.
+We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.
 
-Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input JavaScript expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
+However, we can use computers to evaluate expressions.
+
+**NodeJS** is an application that allows us to run JavaScript programs. In other words, NodeJS can understand and execute programs written in the JavaScript language.
+
+NodeJS can be used in a number of different ways; however, one particular mode is the **REPL**.
 
 {{<note title="Definition" type="info">}}
 
@@ -169,6 +173,8 @@ Node can be used in a number of different ways; however, one particular mode is 
 **Loop**
 
 {{</note>}}
+
+The Node REPL enables us to input JavaScript instructions that are then executed by NodeJS. The REPL will then print out the result of this execution.
 
 We can type each of the following expressions into the REPL and then press enter to check the result.
 
@@ -206,7 +212,7 @@ Try creating your own expressions and entering them into the Node REPL. In each 
 
 ### 🏷️ Saving expressions
 
-Often in programming we may want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
+In programming we often want to reuse a particular expressions. Therefore, we need a way to refer back to particular expressions. Let’s consider the following string:
 
 ```js
 "Hello there";
@@ -222,7 +228,7 @@ Suppose we want to reuse this string in several different places. For example, w
 "Hello there, Barny"
 ```
 
-We can use a **variable** to store this string value so it can be referenced and used again.
+We can use a **variable** to store this string value so that it can be used again.
 
 {{<note title="Definition" type="info">}}
 
