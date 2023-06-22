@@ -334,7 +334,7 @@ It's important to note that `Math.round` is **implementation opaque**.
 **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
 {{</note>}}
 
-### Running scripts
+### 📁 Running scripts
 
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly.
 
@@ -380,7 +380,7 @@ So this new problem can be expressed as a question:
 >
 > "How can we check the values of variables in our program when it is being executed?"
 
-### Printing to the terminal
+### 🖨️ Printing to the terminal
 
 In order to check the values when our program runs, we can make use of a function called `console.log`.  
 `console.log` will allow us to log expressions to the console while our program is executing. This is very useful for complex programs when we need to inspect the result of certain expressions.
