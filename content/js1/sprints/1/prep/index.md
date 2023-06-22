@@ -184,6 +184,26 @@ We can type each of the following expressions into the REPL and then press enter
 3 ** 4
 ```
 
+{{<note title="Activity" type="activity">}}
+
+In this activity, you'll check that you're set up to use the Node REPL on your machine.
+Follow the instructions below and check you can do each step:
+
+1. Start a terminal application on your computer
+2. Check you've got Node installed on your computer
+3. Start the Node REPL in your terminal
+4. Enter the expressions above and evaluate them using the Node REPL
+
+Note: If you don't know how to do any of the steps above, then try searching for an appropriate command online - searching for things when you're stuck is super important part of being a developer!
+
+{{</note>}}
+
+{{<note title="Activity" type="activity">}}
+
+Try creating your own expressions and entering them into the Node REPL. In each case, before hitting enter, try predicting what the output will be in the REPL.
+
+{{</note>}}
+
 ### 🏷️ Saving expressions
 
 Often in programming we may want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
