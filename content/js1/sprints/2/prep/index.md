@@ -53,7 +53,9 @@ console.log("hello world"); // prints "hello world" to the console
 Math.round(3.141); // will output 3
 ```
 
-All these expressions are _function calls_: we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS. However, there is so no such pre-built function that allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following properties:
+All these expressions are _function calls_: we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS.
+
+However, there is so no such pre-built function that allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following properties:
 
 - takes any number input
 - converts it to a string output in percentage form.
@@ -70,7 +72,7 @@ convertToPercentage(0.23); // should return "23%"
 
 ### Useful expressions
 
-We want to convert _any_ number into a percentage string. It is often helpful to solve a problem in one specific instance before doing it in any case.
+It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
 In programming, we always try the simplest thing first. Let’s consider how to convert just one number in to a percentage.
 Let’s consider the variable declaration below:
@@ -133,7 +135,7 @@ function convertToPercentage() {}
 The `function` declaration consists of the following syntactic elements:
 
 - `function` keyword, denotes the beginning of a function declaration
-- convertToPercentage` - this is the name of the function
+- `convertToPercentage` - this is the name of the function
 - `{}` - the body of the function is written inside the curly braces
 
 We can wrap the functionality we want to reuse inside the curly braces by writing:
@@ -155,10 +157,10 @@ Earlier we saw how to store a function's output in a variable.
 const result = Math.round(10.3);
 ```
 
-In the code above, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` will evaluate to `10`.
+In the code above, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` stores a value of `10`.
 
-Now we want to call our function `convertToPercentage` and store the output in a variable.
-We can write:
+Now we want to call the function `convertToPercentage` and store the output in a variable.
+We can store the return value in a variable in exactly the same way:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function convertToPercentage() {
@@ -191,15 +193,14 @@ Given the code above, try predicting what `result` will evaluate to.
 ### Undefined values
 
 When we log result's value to the terminal we get a new data type - `undefined`.  
-`undefined` is a data type used to represent the absence of some value.  
-We need to specify the value want to output from our function: if we don't state what our function should output then the default output will be `undefined`.
+`undefined` is a data type used to represent the absence of a value.  
+We need to specify the value want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
 
 <br>
 
 ### Setting an output
 
-Now we need to add a statement to our function specifying the value we want to output.
-To specify output in a function, we write a `return` statement.
+To specify a function's output, we write a `return` statement.
 
 If your function call is like a question, the return statement is the answer. It's what comes back.
 
@@ -215,7 +216,7 @@ function convertToPercentage() {
 
 Now that our function contains a `return` statement we can re-run our script to check the output.
 
-### Calling with different arguments
+### Checking with different inputs
 
 Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the outputs we get each time.
 
@@ -319,7 +320,7 @@ A function call means "go execute the instructions in the body of a function".
 🤔 In our diagram we need a way to show what happens to the current executing line when a function is called.
 
 {{<note type="activity" title="exercise">}}
-Given the code above, try using the visualisation diagrams to work out what happens when makeFreeting` is called on line 278.
+Given the code above, try using the visualisation diagrams to work out what happens when `makeGreeting` is called on line 8.
 
 What happens to the arrow indicating the current line of code that we're executing.
 What else do you notice when `makeGreeting` is called above?
@@ -342,7 +343,7 @@ Earlier we defined output for the function by writing a return statement and set
 
 <iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%0A%20%20%20%20return%20greeting%3B%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0A%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-However, we can see that the `return` keyword also has additional effects. As well as defining the output, it also tells us to "return" to the place where in our code where the function was called.
+However, we can see that the `return` keyword also has additional effects. As well as defining the output, it also tells us to "return" to the place in our code where the function was called.
 
 {{<note type="activity" title="exercise">}}
 Try using the visualisation diagram above to work out what happens when the computer executes the return statement.
@@ -414,7 +415,7 @@ flowchart LR
     B --> C[output]
 ```
 
-We could visualise what happens when makeGreeting is passed a specific argument:
+We could visualise what happens when `makeGreeting` is passed a specific argument:
 
 ```mermaid
 
