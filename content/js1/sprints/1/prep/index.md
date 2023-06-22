@@ -450,5 +450,3 @@ This is potentially confusing as `console.log` is a function with a set of instr
 Key fact: `console.log` is used to print values to the terminal. It doesn’t produce an output in the running program.
 
 {{</note>}}
-
-### Further reading
