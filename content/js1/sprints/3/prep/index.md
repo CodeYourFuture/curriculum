@@ -62,7 +62,7 @@ We can write a short table summarising some of the times and how they are conver
 
 Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
 
-### 🧩 Stating a roblem
+### 🧩 Stating the problem
 
 Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
 To achieve this goal, we're going to implement a function `formatAs12HourClock`.
@@ -227,7 +227,7 @@ function formatAs12HourClock(time) {}
 According to our assertion we get an input of `"08:00"` and need to create output of `"08:00 am"`.
 
 So we can add `"am"` to the `time` to get the expected output.
-We can make use of a template literal and set the return value, and then _re-run_ our assertion to check the function is returning the correct value.
+We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
 
 📓 We can continually check our assertions to see if our function’s current behaviour meets our expectations.
 
@@ -346,10 +346,12 @@ Now the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ```
 
-### Logical branching
+### ↙️ ↘️ Making a choice
 
-Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
-However, at the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`. We need to do something different when the time is after midday like "23:00"
+Our function works for morning inputs like `"08:00"`.
+In this case, the function returns `"08:00 am"` as expected.
+
+At the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`.
 
 > 💡 We need to execute some different logic when the time is beyond midday
 
@@ -370,6 +372,7 @@ We need to work out what to do in the case when the time input is later than mid
 Let's describe the strategy for dealing with an input that is after midday.
 
 Earlier we observed that when the time goes beyond midday then **we can subtract 12 from the hours time to get the new hours for the 12 hour clock time**.
+
 _Before_ writing code, we can define our approach in steps using a flowchart:
 
 Starting with an input like `"23:00"`:
@@ -445,7 +448,7 @@ Eleni is not old enough to drive
 
 ### Applying new knowledge
 
-So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>` operator.
+So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>`.
 `>` will check if the value on the left of the operator is less than the value on the right of the operator.
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
 
@@ -457,7 +460,7 @@ if (expressionsForHours < 12) {
 }
 ```
 
-> 🎯 Aim: Find an expression for the hours digits from the `time` input
+> 🎯 Sub-goal: Find an expression for the hours digits from the `time` input
 
 ### Accessing strings
 
@@ -486,7 +489,7 @@ So we must use another method to extract _multiple_ characters from the given st
 
 ### Extracting a slice
 
-We can use a function called `slice` to extract 1 or characters from a string.
+We can use a function called `slice` to extract 1 or more characters from a string.
 
 [`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the start index.
 
@@ -520,7 +523,7 @@ if (expressionForHours > 12) {
 }
 ```
 
-So now we've found an expression for the `hours` using `slice`, we can write:
+So now we've found an expression for the `hours`, we can write:
 
 ```js
 if (+time.slice(0, 2) > 12) {
