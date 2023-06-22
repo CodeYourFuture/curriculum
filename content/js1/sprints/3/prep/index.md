@@ -44,7 +44,7 @@ A typical time can be written in one of 2 ways: 24 hour clock or 12 hour clock.
 
 In 12 hour clock time the hours reset after midday, so an hour after midday is written as 1 pm. The pm means "in the afternoon".
 
-For 24 hour clock, the hours continue counting up after midday.  
+For 24 hour clocks, the hours continue counting up after midday.  
 So in 24 hour clock, 1 hour after midday would be 13:00 and so on.
 We can write a short table summarising some of the times and how they are converted from 24 hour to 12 hour:
 
@@ -53,16 +53,16 @@ We can write a short table summarising some of the times and how they are conver
 | 09:00                 | 09:00 am              |
 | 10:00                 | 10:00 am              |
 | 11:00                 | 11:00 am              |
-| 12:00                 | 12:00 pm              |
-| 13:00                 | 1:00 pm               |
-| 14:00                 | 2:00 pm               |
+| 12:00                 | 12:00 **pm**          |
+| 13:00                 | 1:00 **pm**           |
+| 14:00                 | 2:00 **pm**           |
 
 </br>
 </br>
 
 Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
 
-### 🧩 Problem
+### 🧩 Stating a roblem
 
 Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
 To achieve this goal, we're going to implement a function `formatAs12HourClock`.
@@ -93,8 +93,10 @@ formatAs12HourClock("08:00") === "8:00 am";
 In the code above, `===` will check the value on the left of the operator and the value on the right to see if they’re the same.
 
 We can think of `formatAs12HourClock("08:00") === "8:00 am"`
-as being like the question:  
-Does `formatAs12HourClock("08:00")` have the same value as `"20:00"` ?
+
+as being like the question:
+
+Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
 
 This begs the question:
 
@@ -109,7 +111,7 @@ However, if we're comparing values or expressions then we have one of 2 differen
 
 This leads us to the boolean data type: which only has values of `true` or `false`.
 
-Whenever we compare 2 expressions with a comparison operator then the comparison itself will evaluate to a boolean value: `true` or `false`.
+Whenever we compare 2 values with a comparison operator then we end up with a boolean value: `true` or `false`.
 
 For example:
 
@@ -161,9 +163,13 @@ function formatAs12HourClock() {}
 console.assert(formatAs12HourClock("08:00") === "20:00");
 ```
 
-The documentation for `console.assert` states that a message will be written to the console if the condition is `false`.
+The documentation for `console.assert` states that a message will be written to the console if a condition is `false`.
 
-We can see above that `convertAs12HourClock("08:00")` will evaluate to `false` so we’ll get an error printed to the console.
+{{<note type="exercise" title="Exercise 2.1">}}
+
+Predict and explain if the assertion above is true or false. Pay particular attention to the return value of `formatAs12HourClock` above.
+
+{{</note>}}
 
 It would be useful to have more information as to why this assertion failed.
 We can pass additional arguments to `console.assert`:
@@ -172,7 +178,7 @@ We can pass additional arguments to `console.assert`:
 function formatAs12HourClock() {}
 
 console.assert(
-  formatAs12HourClock("08:00") === "20:00",
+  formatAs12HourClock("08:00") === "08:00 am",
   "current function output: %s, expected output: %s",
   formatAs12HourClock("08:00"),
   "20:00"
@@ -210,7 +216,9 @@ Now we get a log in the console:
 Assertion failed: current output: undefined, expected output: 08:00 am
 ```
 
-On line 4, the function is being passed a single argument `"08:00"`. Ww can parametrise the function and label the input as `time`:
+### Implementing the functionality
+
+On line 4, the function is being passed a single argument `"08:00"`. We can parametrise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {}
@@ -291,8 +299,6 @@ const currentOutput = formatAs12HourClock("08:23");
 When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user.
 We want to do multiple assertions whilst using the same variables.
 
-### Block scope
-
 To reuse variable names, we can make use of a block declaration as follows:
 
 ```js
@@ -340,7 +346,7 @@ Now the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ```
 
-### Branching out
+### Logical branching
 
 Our function works when we pass a time in the morning like `"08:00"`. In this case, the function returns `"08:00 am"` as expected.
 However, at the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`. We need to do something different when the time is after midday like "23:00"
@@ -363,9 +369,8 @@ We need to work out what to do in the case when the time input is later than mid
 
 Let's describe the strategy for dealing with an input that is after midday.
 
-Earlier we observed that when the time goes beyond midday then **we can subtract 12 from the hours time to get the new hours for the 12 hour clock time**. So if the time is "23:00", we know that the hours will be "11" in the 12 hour clock time.
-
-_Before_ writing code, we can define our approach in steps:
+Earlier we observed that when the time goes beyond midday then **we can subtract 12 from the hours time to get the new hours for the 12 hour clock time**.
+_Before_ writing code, we can define our approach in steps using a flowchart:
 
 Starting with an input like `"23:00"`:
 
