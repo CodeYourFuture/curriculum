@@ -8,9 +8,7 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 4'
 +++
 
-
 ## Learning objectives
-
 
 - Execute a test script
 - Isolate a test case in a test suite
@@ -33,8 +31,6 @@ backlog_filter= 'Week 4'
 - Explain the process involved in looking up how to write tests for someone using a language other than JavaScript
 - Express an acceptance criterion as a test case
 
-
-
 ### Counting words 🧮
 
 Let's consider a function called `countWords` that needs to work as follows:
@@ -46,16 +42,16 @@ The points above form a specification of how the function `countWords` should be
 
 ### Describing functionality
 
-To implement a function like `countWords` we can try specifying simpler functionality and from there build up functionality. A simpler case is often one where the input is smaller or in some sense less complex. In the case of `countWords`, we could try counting multiple words at once - and this would work. However, we can often consider simpler test cases when we start working. 
+To implement a function like `countWords` we can try specifying simpler functionality and from there build up functionality. A simpler case is often one where the input is smaller or in some sense less complex. In the case of `countWords`, we could try counting multiple words at once - and this would work. However, we can often consider simpler test cases when we start working.
 
-#### Case 1 💼
+- Case 1 💼
 
 ```js
 const input = "hello";
 const result = countWords(input);
 ```
 
-Check that `countWords` when called with input of “hello” should equal 1. 
+Check that `countWords` when called with input of “hello” should equal 1.
 In example 1, input stores a string "hello" which we pass as an argument to `countWords`.
 We then store the return value of `countWords` in a variable called result.
 In this case, we expect the `result` to be 1.
@@ -68,13 +64,12 @@ Our aim now is to write a test to check that `countWords` works as we described 
 
 To write test cases we can make use of libraries written by other programmers - otherwise, coding would be a very time-consuming endeavour indeed! We can download and install these libraries in our project so we can use them when we're building software. We call these libraries of code dependencies - libraries of code that we depend on when we're writing our code.
 
-
 We use a popular JavaScript testing framework called Jest to write the test code. We'll examine the example below written using Jest, and then break down the different parts of the test code to understand how it all works. To use Jest, we need to install the library in our project to write our test.
 The Jest documentation gives an example of how a test is written:
 
 ```js
-test('adds 1 + 2 to equal 3', () => {
- expect(sum(1, 2)).toBe(3);
+test("adds 1 + 2 to equal 3", () => {
+  expect(sum(1, 2)).toBe(3);
 });
 ```
 
@@ -84,10 +79,9 @@ Before we begin to understand how this syntax works we must first install the Je
 
 Our project structure looks as follows:
 
-
 Project
 
-We’ll start by creating a test file. 
+We’ll start by creating a test file.
 
 We need to manage install and manage dependencies in the project. We’ll need to record our use of packages in the project. We can make use of a `package.json` file to track our project dependencies. We can create a package.json with the following command:
 
@@ -112,7 +106,6 @@ project
 |   └── countWords.test.js
 └── node_modules
 ```
-
 
 Once the installation is complete we should now have a directory called node_modules in our project. The node_modules directory contains all the code from the dependencies like Jest we installed in our project. You won't need to look inside the node_modules directory - you just need to know it contains the code for Jest and any other libraries we install in our project.
 
@@ -143,10 +136,10 @@ a `function () {}` in which we will write our test code.
 
 ### Creating assertions
 
-
 Now that we have
 
 index.test.js
+
 ```js
 test("one word string gives a count of 1", function () {});
 ```
@@ -163,28 +156,24 @@ An assertion in Jest looks like this:
 expect(countWords("hello")).toBe(1);
 ```
 
-The function `toBe` is used to check that the return value of `countWords("hello")` and `1` are equal to each other. `toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers). We can use to compare values in Jest: we can consult the Jest documentation to find other functions depending on the situation. 
+The function `toBe` is used to check that the return value of `countWords("hello")` and `1` are equal to each other. `toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers). We can use to compare values in Jest: we can consult the Jest documentation to find other functions depending on the situation.
 
 So we can combine this with the test we wrote earlier, to get our first complete test case:
 
 ```js
 test("one word string gives a count of 1", function () {
-         expect(countWords("hello")).toBe(1)
+  expect(countWords("hello")).toBe(1);
 });
 ```
-
 
 ### 👟 Running tests
 
 We can try running the file index.test.js with node in the following way:
 node index.test.js but we get a ReferenceError. This is because test isn’t defined anywhere in the file. So we need to run the file so we can reference the functions that make up the Jest API.
 
-
 In the test script, we’re calling the test function from Jest but we’ve not imported the test function into the script. Normally we would expect to see a ReferenceError when we do this: however when we run the npm test script then Jest will ensure that `test` is available in memory when our tests run
 
 When we execute the test script again, we get some feedback from Jest.
-
-
 
 Finally, we'll need to run our tests. We can check the package.json for a section called "scripts", see below:
 
@@ -193,7 +182,6 @@ Finally, we'll need to run our tests. We can check the package.json for a sectio
   "test": "echo \"Error: no test specified\" && exit 1",
 }
 ```
-
 
 This section is where we'll store some commands that we can use in our project. We'll need to update the `package.json` so that it reads as follows:
 
@@ -205,7 +193,6 @@ This section is where we'll store some commands that we can use in our project. 
 
 When we run index.test.js with the test case then the console should display a passing test.
 
-
 ### Understanding test feedback
 
 With our test file in the following form:
@@ -216,21 +203,17 @@ We can now execute the tests. Using the command npm test.
 
 We get the following feedback:
 
-
-Jest has “captured” the underlying error in order and resurfaced it in the console. So we can see that the test that has result in an error and also why ths error occurred. 
-
+Jest has “captured” the underlying error in order and resurfaced it in the console. So we can see that the test that has result in an error and also why ths error occurred.
 
 ### Assertion errors
-
 
 To fix the `ReferenceError` we can declare the function `countWords`.
 
 Now when we run the test script again, we get different feedback:
 This time the console logs show an `AssertionError`.
 
-
 An `AssertionError` is a type of error that is thrown by the expect function when the assertion is false.  
-So in this case, the return value of `countWords` is undefined and we expect it to equal 1. 
+So in this case, the return value of `countWords` is undefined and we expect it to equal 1.
 We can continue re-running our tests to get feedback on our code.
 
 Assertion Error diagram
@@ -241,9 +224,7 @@ To make the test pass we can start moving in the right direction by declaring th
 
 index.test.js
 
-
-This is feedback is telling us that we expected to get an output of 1 but `countWords` is actually returning undefined. 
-
+This is feedback is telling us that we expected to get an output of 1 but `countWords` is actually returning undefined.
 
 ### 🕹️ Using an interface
 
@@ -253,14 +234,13 @@ In programming, we continually make use of APIs:
 An API is an Application Programming Interface
 An application is a program or piece of software designed to use serve some purpose.
 Programming refers to the process of writing code or software.
-In computing, an interface is a shared boundary across which two or more separate components of a computer system exchange information. 
+In computing, an interface is a shared boundary across which two or more separate components of a computer system exchange information.
 
 So an API is a boundary between the programmer and an application, enabling a programmer to use an application’s functionality without being concerned with the application’s underlying functionality. `console.log` is said to be part of the console API.
 
 ### Improving the tests
 
 We can write tests in many different ways. Sometimes developers may write additional variables to label some of the values in the test code more clearly. We could re-write the test above in the following way:
-
 
 ```js
 test("one word string gives a count of 1", function () {
@@ -270,7 +250,6 @@ test("one word string gives a count of 1", function () {
   expect(actualResult).toEqual(expectedResult);
 });
 ```
-
 
 In this example, we're declaring some variables that will store values that we compare later on in the test.
 
@@ -282,8 +261,7 @@ In this example, we're declaring some variables that will store values that we c
 It's important to note that the test here and the one above it are checking the same thing. The variables are just being used to make the test easier to understand for ourselves and other developers.
 ℹ️
 
-After making our first test pass, we can continue to write more test cases to check the function’s output with different inputs. 
-
+After making our first test pass, we can continue to write more test cases to check the function’s output with different inputs.
 
 Consider an extract from the test file `countWords.test.js`
 
@@ -308,13 +286,4 @@ Passing the test
 
 We can see the test feedback is telling us that `received` is `undefined`. In other words, actualResult ( `countWords`'s return value) is `undefined`.
 
-
 ### Implementing further functionality
-
-
-
-## Further reading
-
-- Find out more about Jest by visiting the documentation [here](https://jestjs.io/docs/getting-started)
-- You can also check out [Coding Train](https://www.youtube.com/watch?v=S3QwafQEvSs) for more explanations of how tests work
-
