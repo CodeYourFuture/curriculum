@@ -16,7 +16,7 @@ A sprint backlog is like a to-do list. It lists what the team has decided to wor
 
 For your course, the mandatory work has been scheduled already. You will add any other tickets you want to work on to your backlog and schedule them according to your own goals and capacity. Use your planning board to do this.
 
-You will find your backlog in the [Backlog](../backlog/).
+You will find your backlog in the Backlog view on every sprint.
 
 Copy the tickets you are working on to your own backlog. Organise your tickets on your board and move them to the right column as you work through them. It's a flowchart:
 

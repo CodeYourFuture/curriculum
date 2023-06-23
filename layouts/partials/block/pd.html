@@ -23,7 +23,6 @@
         <a href="{{ $response.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
       </h2>
       {{ partial "time.html" (dict "blockData" $blockData "time" $parsedFrontMatter.time) }}
-      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
 
     <section class="c-copy">{{ $markdownContent | markdownify }}</section>
