@@ -511,9 +511,6 @@ So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Final
 +time.slice(0, 2); // evaluates to 23
 ```
 
-<br>
-<br>
- 
 ### 🏗️ Assembling the parts
 
 Earlier we had an `if` statement in the form:
