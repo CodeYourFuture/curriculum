@@ -68,8 +68,6 @@ convertToPercentage(0.5); // should return "50%"
 convertToPercentage(0.23); // should return "23%"
 ```
 
-<br>
-
 ### Useful expressions
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
@@ -120,8 +118,6 @@ Write an expression for the price in pounds. The price in pounds should start wi
 
 {{</note>}}
 
-<br>
-
 ### ♻️ Wrapping up functionality
 
 Now we want to wrap up the expression we’ve created and reuse it to convert any number into a percentage.
@@ -146,8 +142,6 @@ function convertToPercentage() {
   const percentage = `${num * 100}%`;
 }
 ```
-
-<br>
 
 ### 🔎 Checking the output
 
@@ -183,8 +177,6 @@ console.log(result);
 
 If our function behaves as intended, we expect the output to be `"30%"`.
 
-<br>
-
 {{<note type="question" title="exercise">}}
 Given the code above, try predicting what `result` will evaluate to.
 
@@ -195,8 +187,6 @@ Given the code above, try predicting what `result` will evaluate to.
 When we log result's value to the terminal we get a new data type - `undefined`.  
 `undefined` is a data type used to represent the absence of a value.  
 We need to specify the value want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
-
-<br>
 
 ### Setting an output
 
@@ -335,8 +325,6 @@ In addition, another frame is created when we call `makeGreeting`:
 
 Like the global frame, the `makeGreeting` frame will be used to track variables that are created when `makeGreeting` is executed.
 
-<br>
-
 ### 📥 Returning from a function
 
 Earlier we defined output for the function by writing a return statement and setting a return value.
@@ -350,18 +338,11 @@ Try using the visualisation diagram above to work out what happens when the comp
 
 {{</note>}}
 
-<br>
-<br>
-<br>
-
 ### 🧩 Putting everything together
 
 So now we have some idea of how the computer executes our code, we can apply these ideas to a program for our current implementation of `convertToPercentage`:
 
 <iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20num%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7Bnum%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.3%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-
-<br>
-<br>
 
 {{<note type="activity" title="exercise">}}
 
@@ -375,9 +356,6 @@ Earlier we noted that when the computer executes the code above, we get the foll
 Given the code above, try using the visualisation diagrams to "play computer" with this example. Try stepping through each line of code to explain why the program is giving this output
 
 {{</note>}}
-
-<br>
-<br>
 
 ### Checking our code
 
@@ -395,8 +373,6 @@ const output2 = convertToPercentage(0.23);
 ```
 
 when the function `convertToPercentage` is called, the variable `num` gets recreated in the `convertToPercentage` frame and set to `0.5` every time we call the function. Instead of `num` being reset every time the function is called, we want to make use of the input that is passed to the function `convertToPercentage` every time it is called.
-
-<br>
 
 ### Parametrising a function
 
