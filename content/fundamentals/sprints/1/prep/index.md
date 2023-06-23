@@ -43,6 +43,19 @@ Google Chrome is the first browser we will all use together.
 
 Use your professional Chrome profile for all your CYF work. You will often have to share your screen during class, so keep your personal internet use private and away from your professional profile.
 
+### LinkedIn
+
+Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
+
+Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
+
+Your cohort is your first network, and this is one of the most valuable things you can develop at Code Your Future. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
+
+- [ ] I have made a LinkedIn account using my professional email address.
+- [ ] I have used my real name.
+- [ ] I have connected with my cohort.
+- [ ] I am following CodeYourFuture.
+
 ### Slack
 
 Slack is our community space and how we communicate with each other. Download and install it now.
@@ -62,19 +75,6 @@ CYF understands you may need to keep your picture off the internet. In this case
 We use Zoom for remote sessions. Install it now.
 
 - [ ] I have downloaded and installed Zoom onto my computer.
-
-### LinkedIn
-
-Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
-
-Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
-
-Your cohort is your first network, and this is one of the most valuable things you can develop at Code Your Future. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
-
-- [ ] I have made a LinkedIn account using my professional email address.
-- [ ] I have used my real name.
-- [ ] I have connected with my cohort.
-- [ ] I am following CodeYourFuture.
 
 ### Code.org
 
