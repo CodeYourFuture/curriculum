@@ -1,5 +1,5 @@
 {{/*  These tabs are based on the Kubernetes docs*/}}
-{{- .Page.Store.Set "hasTabs" true -}}  
+{{- page.Store.Set "hasTabs" true -}}
 {{- .Page.Scratch.Add "tabset-counter" 1 -}}  
 {{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) (.Page.Scratch.Get "tabset-counter") ) | anchorize -}}
 {{- $tabs := .Scratch.Get "tabs" -}}
@@ -24,7 +24,7 @@
         <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ end }}
         {{- with .content -}}
-          {{- . -}}
+          {{- .  -}}
         {{- else -}}
           {{- if eq $.Page.BundleType "leaf" -}}
             {{- /* find the file somewhere inside the bundle. Note the use of double asterisk */ -}}

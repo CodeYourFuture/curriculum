@@ -1,15 +1,22 @@
-{{/* global */}}
-{{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
-{{/* temporarily load scripts until we track down this page store problem
-  https://discourse.gohugo.io/t/page-store-is-sometimes-empty-for-unclear-reasons/44950
+{{/* components
+  set the page store to true in the partial and then load your resources here
+  https://discourse.gohugo.io/t/page-store-is-sometimes-empty-cannot-load-mermaid-script-reliably/44950/8
+  It needs to be the lowercase page function and not the uppercase .Page
 */}}
-<script src="{{ $scripts.Permalink }}" defer></script>
-{{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
-<script src="{{ $player.Permalink }}" defer></script>
-{{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build | resources.Minify }}
-<script src="{{ $codemirror.Permalink }}" defer></script>
-{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-<script src="{{ $tabs.Permalink }}" type="module" defer></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
+{{ if page.Store.Get "hasMermaid" }}
+  <script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
+{{ end }}
+{{ if page.Store.Get "hasYoutube" }}
+  {{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
+  <script src="{{ $player.Permalink }}" defer></script>
+{{ end }}
+{{ if page.Store.Get "hasCodeMirror" }}
+  {{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build | resources.Minify }}
+  <script src="{{ $codemirror.Permalink }}" defer></script>
+{{ end }}
+{{ if page.Store.Get "hasTabs" }}
+  {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
+  <script src="{{ $tabs.Permalink }}" type="module" defer></script>
+{{ end }}
