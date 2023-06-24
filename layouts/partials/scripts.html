@@ -1,6 +1,12 @@
 {{/* global */}}
 {{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
 <script src="{{ $scripts.Permalink }}" defer></script>
+<div>
+  <pre style="color: blue">Scripts page.File.Path = {{ page.File.Path }}</pre>
+  <pre style="color: green">
+Mermaid page store = {{ page.Store.Get "hasMermaid" }}</pre
+  >
+</div>
 {{/* components
   set the page store to true in the partial and then load your resources here
   https://discourse.gohugo.io/t/page-store-is-sometimes-empty-cannot-load-mermaid-script-reliably/44950/8

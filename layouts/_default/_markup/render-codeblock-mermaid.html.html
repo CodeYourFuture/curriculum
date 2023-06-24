@@ -10,3 +10,6 @@
 <div class="mermaid">{{- .Inner | safeHTML }}</div>
 <pre style="color: red">Mermaid .Page.File.Path = {{ .Page.File.Path }}</pre>
 <pre style="color: blue">Mermaid page.File.Path = {{ page.File.Path }}</pre>
+<pre style="color: green">
+Mermaid page store = {{ page.Store.Get "hasMermaid" }}</pre
+>
