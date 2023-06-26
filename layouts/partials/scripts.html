@@ -1,25 +1,8 @@
 {{/* global */}}
-{{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
+{{ $components := resources.Get "scripts/components.js" }}
+{{ $componentsLoader := $components | resources.ExecuteAsTemplate "components" . }}
+{{ $global := resources.Get "scripts/app.js" }}
+{{ $scripts := slice $componentsLoader $global | resources.Concat "scripts/app.js" | resources.Minify }}
+
+
 <script src="{{ $scripts.Permalink }}" defer></script>
-{{/* components
-  set the page store to true in the partial and then load your resources here
-  https://discourse.gohugo.io/t/page-store-is-sometimes-empty-cannot-load-mermaid-script-reliably/44950/8
-  It needs to be the lowercase page function and not the uppercase .Page
-*/}}
-{{ if or (page.Store.Get "hasMermaid") (.Page.Store.Get "hasMermaid") }}
-  <script
-    type="module"
-    src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
-{{ end }}
-{{ if or (page.Store.Get "hasYoutube") (.Page.Store.Get "hasYoutube") }}
-  {{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
-  <script src="{{ $player.Permalink }}" defer></script>
-{{ end }}
-{{ if or (page.Store.Get "hasCodeMirror") (.Page.Store.Get "hasCodeMirror") }}
-  {{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build | resources.Minify }}
-  <script src="{{ $codemirror.Permalink }}" defer></script>
-{{ end }}
-{{ if or (page.Store.Get "hasTabs") (.Page.Store.Get "hasTabs") }}
-  {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-  <script src="{{ $tabs.Permalink }}" type="module" defer></script>
-{{ end }}
