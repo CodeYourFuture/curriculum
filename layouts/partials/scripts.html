@@ -5,4 +5,4 @@
 {{ $scripts := slice $componentsLoader $global | resources.Concat "scripts/app.js" | resources.Minify }}
 
 
-<script src="{{ $scripts.Permalink }}" defer></script>
+<script src="{{ $scripts.Permalink }}" async></script>
