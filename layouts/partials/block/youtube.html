@@ -1,7 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{- page.Store.Set "hasYoutube" true -}}
-{{- .Page.Store.Set "hasYoutube" true -}}
-<section class="c-block c-block--youtube">
+<section class="c-block c-block--youtube is-dynamic has-youtube">
   {{ if $blockData }}
     <h2
       class="c-block__title e-heading__2 is-invisible"

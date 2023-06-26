@@ -1,5 +1,3 @@
-{{- page.Store.Set "hasMermaid" true -}}
-{{- .Page.Store.Set "hasMermaid" true -}}
 <style>
   .mermaid svg {
     height: initial;
@@ -8,4 +6,4 @@
     margin-bottom: var(--theme-spacing--gutter);
   }
 </style>
-<div class="mermaid">{{- .Inner | safeHTML }}</div>
+<div class="mermaid has-mermaid is-dynamic">{{- .Inner | safeHTML }}</div>
