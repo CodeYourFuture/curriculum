@@ -1,5 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   <section class="c-block">
@@ -9,10 +9,7 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-    {{ partial "byline.html" . }}
-      </h3>
       {{ partial "time.html" (dict "blockData" $blockData "time" "60") }}
-      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
     <div class="c-block__content c-copy">
       {{ $response.content | base64Decode | markdownify }}

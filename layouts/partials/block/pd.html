@@ -1,6 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
-{{ $response := getJSON $blockData.api }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
   {{ $decodedContent := $response.content | base64Decode }}
@@ -24,7 +23,6 @@
         <a href="{{ $response.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
       </h2>
       {{ partial "time.html" (dict "blockData" $blockData "time" $parsedFrontMatter.time) }}
-      {{ partial "byline.html" (dict "context" "c-block__byline" "block" .) }}
     </header>
 
     <section class="c-copy">{{ $markdownContent | markdownify }}</section>
@@ -40,13 +38,13 @@
     {{ with $parsedFrontMatter.prep }}
       <section class="c-copy">
         <h3>Preparation</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.introduction }}
       <section class="c-copy">
         <h3>Introduction</h3>
-        {{ . | markdownify }}
+        <div class="c-copy__node">{{ . | markdownify }}</div>
       </section>
     {{ end }}
     {{ with $parsedFrontMatter.exercises }}

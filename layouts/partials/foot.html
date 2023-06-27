@@ -32,7 +32,3 @@
     <span class="is-invisible">Toggle between light and dark mode</span>
   </button>
 </footer>
-{{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
-{{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build }}
-<script src="{{ $scripts.Permalink }}" defer></script>
-<script src="{{ $codemirror.Permalink }}"></script>

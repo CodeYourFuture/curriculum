@@ -14,7 +14,7 @@ To help write more understandable code, programmers follow a _style guide_. It p
 
 ### Using Prettier to format code automatically
 
-Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VS Code extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
+Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VSCode extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
 
 Prettier is a tool that rearranges your code (called _formatting_). It follows a set of rules that programmers have agreed make your code easier to read and understand.
 

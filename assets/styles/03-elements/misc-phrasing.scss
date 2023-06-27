@@ -49,6 +49,7 @@ code:not([class]) {
 // details could show up in github flavoured markdown so we put a basic style on here
 summary {
   margin-bottom: var(--theme-spacing--1);
+  cursor: pointer;
 }
 summary > * {
   display: inline-block;

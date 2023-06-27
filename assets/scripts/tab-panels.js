@@ -7,6 +7,10 @@ class TabPanels extends HTMLElement {
   connectedCallback() {
     this.render();
     this._addEventListeners();
+
+    if (window.location.hash) {
+      this._handleFragmentNavigation(window.location.hash);
+    }
   }
 
   render() {
@@ -24,12 +28,28 @@ class TabPanels extends HTMLElement {
         this._handleTabClick(e);
       }
     });
+
+    window.addEventListener("hashchange", (e) => {
+      this._handleFragmentNavigation(window.location.hash);
+    });
+  }
+
+  _handleFragmentNavigation(hash) {
+    const tabToFocus = this.querySelector(
+      `[aria-controls="${hash.substring(1)}"]`
+    );
+
+    if (tabToFocus) {
+      this._handleTabClick({ target: tabToFocus, preventDefault: () => {} });
+    }
   }
 
   _handleTabClick(e) {
     e.preventDefault();
     const clickedTab = e.target;
-    const tabPanel = this.querySelector(clickedTab.getAttribute("href"));
+    const tabPanel = this.querySelector(
+      "#" + clickedTab.getAttribute("aria-controls")
+    );
     const tabs = this.querySelectorAll('[data-toggle="tab"]');
     const tabPanels = this.querySelectorAll('[role="tabpanel"]');
     tabs.forEach((tab) => {
@@ -37,13 +57,11 @@ class TabPanels extends HTMLElement {
       tab.classList.remove("is-active");
     });
     tabPanels.forEach((panel) => {
-      panel.setAttribute("aria-hidden", "true");
       panel.classList.remove("is-active");
     });
     clickedTab.setAttribute("aria-selected", "true");
     clickedTab.classList.add("is-active");
     if (tabPanel) {
-      tabPanel.setAttribute("aria-hidden", "false");
       tabPanel.classList.add("is-active");
     }
   }

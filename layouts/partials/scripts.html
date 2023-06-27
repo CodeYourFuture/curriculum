@@ -1,0 +1,15 @@
+{{/* global */}}
+{{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
+{{/* temporarily load scripts until we track down this page store problem
+  https://discourse.gohugo.io/t/page-store-is-sometimes-empty-for-unclear-reasons/44950
+*/}}
+<script src="{{ $scripts.Permalink }}" defer></script>
+{{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
+<script src="{{ $player.Permalink }}" defer></script>
+{{ $codemirror := resources.Get "scripts/cm6.ts" | js.Build | resources.Minify }}
+<script src="{{ $codemirror.Permalink }}" defer></script>
+{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
+<script src="{{ $tabs.Permalink }}" type="module" defer></script>
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
