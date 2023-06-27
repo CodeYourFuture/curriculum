@@ -1,14 +1,8 @@
-.cm-scroller {
-  display: block;
-  padding: var(--theme-spacing--gutter);
-  overflow-x: auto;
-  margin: 0;
-}
-
 .cm-editor {
-  border: var(--theme-border);
-  padding: var(--theme-spacing--1);
-  max-width: var(--theme-spacing--linelength);
-  @include pattern(dots, currentColor, c, false);
-  margin-bottom: var(--theme-spacing--4);
+  background-color: #272822;
+  padding: var(--theme-spacing--gutter);
+
+  .cm-scroller {
+    font: var(--theme-font--system);
+  }
 }
