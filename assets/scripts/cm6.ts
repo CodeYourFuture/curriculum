@@ -4,6 +4,7 @@ import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 
 import { lineHighlighter } from "./highlight-lines";
+import { oneDark } from "@codemirror/theme-one-dark";
 
 // List of all possible options: https://github.com/gohugoio/hugo/blob/master/markup/highlight/highlight.go#L37-L48
 // But for now we just support line highlighting
@@ -29,6 +30,7 @@ containers.forEach((container) => {
       // Enable indenting via Tab, see https://codemirror.net/examples/tab/
       keymap.of([indentWithTab]),
       theme(),
+      oneDark,
       // Enable JS specific features (syntax highlighting, autocomplete, etc)
       javascript(),
       // Enable highlighting of specific lines
