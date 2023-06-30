@@ -18,13 +18,13 @@ backlog_filter= 'Week 2'
 - Give examples of when the `undefined` data type may occur in a JavaScript program
 - Construct simple expressions to represent a set of operations
 - Define a _parameter_
-- Identify the return value a call site given its function declaration
+- Identify the return value evluated at a call site given its function declaration
 - Identify the value assigned to a parameter when a function is invoked
 - Identify the type of a return value given some call site
 - Given a short program, state the number of times a given function is called
 - Differentiate between parameters and arguments
 - Invoke a given function with appropriate arguments to produce some target output
-- Describe how to log the output of a function
+- Describe how to log the return value of a function
 - Analyse each line in a given program and state what the line does when the program executes
 - Explain the difference between returning a value and logging a value
 - Assess and explain whether a function can reference a given variable or not
@@ -41,7 +41,7 @@ backlog_filter= 'Week 2'
 Given a number I want to convert it into a percentage format.
 
 For example, given the number `0.5` we should get `"50%"`
-And given the number `0.23` we should get `"23%"` and so forth.
+And given the number `0.231` we should get `"23.1%"` and so forth.
 
 ### Restating the problem
 
@@ -49,23 +49,23 @@ We want to implement some functionality to convert _any_ given number into a per
 Previously, we saw how to use some functions to perform a given task. Here are some examples:
 
 ```js {linenos=table,linenostart=1}
-console.log("hello world"); // prints "hello world" to the console
-Math.round(3.141); // will output 3
+console.log("hello world"); // logs "hello world" to the console
+Math.round(3.141); // evaluates to 3
 ```
 
-All these expressions are _function calls_: we’re passing input to the functions, `console.log` or `Math.round` to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS.
+All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS.
 
 However, there is so no such pre-built function that allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following properties:
 
 - takes any number input
-- converts it to a string output in percentage form.
+- converts it to a string in percentage form, and returns that string.
 
 ```js {linenos=table,linenostart=1}
 convertToPercentage(0.5); // should return "50%"
 ```
 
 ```js {linenos=table,linenostart=1}
-convertToPercentage(0.23); // should return "23%"
+convertToPercentage(0.231); // should return "23.1%"
 ```
 
 ### Useful expressions
@@ -125,14 +125,16 @@ Now we want to wrap up the expression we’ve created and reuse it to convert an
 We can write a function declaration to reuse some code. A function declaration looks like this:
 
 ```js {linenos=table,linenostart=1}
-function convertToPercentage() {}
+function convertToPercentage() {
+}
 ```
 
 The `function` declaration consists of the following syntactic elements:
 
 - `function` keyword, denotes the beginning of a function declaration
 - `convertToPercentage` - this is the name of the function
-- `{}` - the body of the function is written inside the curly braces
+- `()` - any input to the function will go between these (our function above doesn't take any input (yet), but it still needs the `()`s)
+- `{}` - the body of the function is written inside the curly braces (our function above doesn't do anything yet, but it still needs the `{}`s)
 
 We can wrap the functionality we want to reuse inside the curly braces by writing:
 
@@ -145,15 +147,15 @@ function convertToPercentage() {
 
 ### 🔎 Checking the output
 
-Earlier we saw how to store a function's output in a variable.
+Earlier we saw how to store a function's return value in a variable.
 
 ```js
 const result = Math.round(10.3);
 ```
 
-In the code above, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` stores a value of `10`.
+In the example from before, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` stores a value of `10`.
 
-Now we want to call the function `convertToPercentage` and store the output in a variable.
+Now we want to call the function `convertToPercentage` and store the return value in a variable.
 We can store the return value in a variable in exactly the same way:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
@@ -175,22 +177,22 @@ const result = convertToPercentage(0.3);
 console.log(result);
 ```
 
-If our function behaves as intended, we expect the output to be `"30%"`.
-
 {{<note type="question" title="exercise">}}
 Given the code above, try predicting what `result` will evaluate to.
 
 {{</note>}}
 
+If our function behaves as intended, we expect the value of `result` to be `"30%"`, and to see `30%` (without the quotes) printed in the terminal.
+
 ### Undefined values
 
-When we log result's value to the terminal we get a new data type - `undefined`.  
+When we log `result`'s value to the terminal we get a new data type - `undefined`.  
 `undefined` is a data type used to represent the absence of a value.  
 We need to specify the value want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
 
 ### Setting an output
 
-To specify a function's output, we write a `return` statement.
+To specify a function's return value (what an expression calling the function will evaluate to), we write a `return` statement.
 
 If your function call is like a question, the return statement is the answer. It's what comes back.
 
@@ -218,19 +220,22 @@ function convertToPercentage() {
 }
 
 const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.3);
+const output2 = convertToPercentage(0.231);
+
+console.log(output1);
+console.log(output2);
 ```
 
-When we execute the code we _want_ to log the target output for each input `0.5` and `0.3`:
+When we execute the code we _want_ to log the target output for each input `0.5` and `0.231`:
 
-```bash
+```
 50%
-23%
+23.1%
 ```
 
 However, _given the function's current implementation_, we get the following logs:
 
-```bash
+```
 50%
 50%
 ```
@@ -271,7 +276,7 @@ which means store a string `"Gayle"` in memory.
 As variables are declared, we need a way to keep track of the memory that is stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
 
-For now, we can think of a frame as a space in our diagram that represents the variables stored in memory in some part of our code.
+For now, we can think of a frame as a space in our diagram that represents the variables stored in memory.
 
 The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as a location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame:
 
@@ -293,7 +298,7 @@ The first thing in the program is the function declaration for `makeGreeting`.
 
 `makeGreeting` is stored in the Global frame as an **object**. We don't need to explore objects as this point - all we need to understand at this stage is that objects are a data type in JavaScript. We will return to objects in more depth later on in the course.
 
-On line 11 we have a function call:
+On line 7 we have a function call:
 
 ```js {linenos=table,hl_lines=["7"],linenostart=1}
 function makeGreeting() {
@@ -310,7 +315,7 @@ A function call means "go execute the instructions in the body of a function".
 🤔 In our diagram we need a way to show what happens to the current executing line when a function is called.
 
 {{<note type="activity" title="exercise">}}
-Given the code above, try using the visualisation diagrams to work out what happens when `makeGreeting` is called on line 8.
+Given the code above, try using the visualisation diagrams to work out what happens when `makeGreeting` is called on line 7.
 
 What happens to the arrow indicating the current line of code that we're executing.
 What else do you notice when `makeGreeting` is called above?
@@ -327,11 +332,11 @@ Like the global frame, the `makeGreeting` frame will be used to track variables 
 
 ### 📥 Returning from a function
 
-Earlier we defined output for the function by writing a return statement and setting a return value.
+Earlier we defined the value a function call evaluates to by writing a return statement with a return value.
 
 <iframe width="800" height="350" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%0A%20%20%20%20return%20greeting%3B%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0A%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-However, we can see that the `return` keyword also has additional effects. As well as defining the output, it also tells us to "return" to the place in our code where the function was called.
+However, we can see that the `return` keyword also has additional effects. As well as defining the value the function call will evaluate to, it also tells us to "return" to the place in our code where the function was called.
 
 {{<note type="activity" title="exercise">}}
 Try using the visualisation diagram above to work out what happens when the computer executes the return statement.
@@ -372,23 +377,23 @@ const output1 = convertToPercentage(0.5);
 const output2 = convertToPercentage(0.23);
 ```
 
-when the function `convertToPercentage` is called, the variable `num` gets recreated in the `convertToPercentage` frame and set to `0.5` every time we call the function. Instead of `num` being reset every time the function is called, we want to make use of the input that is passed to the function `convertToPercentage` every time it is called.
+when the function `convertToPercentage` is called, the variable `num` gets recreated in the `convertToPercentage` frame and set to `0.5` every time we call the function. Instead of `num` being set to `0.5` every time the function is called, we want to make use of the input that is passed to the function `convertToPercentage` each time it is called.
 
 ### Parametrising a function
 
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 
-🔑 A parameter is a variable that enables us to reference the input to a function.
+🔑 A parameter is a special kind of variable that enables us to reference the input to a function.
 
 We can add a parameter `num` to our function, as with the execution diagram below:
 
-We can think of a function as a "box". We pass inputs to into it, the function's code is executed and we get an output at the end. We can visualise this as follows:
+We can think of a function as a "box". We pass inputs to into it, the function's code is executed and we get a return value at the end. We can visualise this as follows:
 
 ```mermaid
 
 flowchart LR
     A[input] --> B{function}
-    B --> C[output]
+    B --> C[return]
 ```
 
 We could visualise what happens when `makeGreeting` is passed a specific argument:
@@ -396,8 +401,8 @@ We could visualise what happens when `makeGreeting` is passed a specific argumen
 ```mermaid
 
 flowchart LR
-    A[0.23] --> B{convertToPercentage}
-    B --> C[23%]
+    A[0.231] --> B{convertToPercentage}
+    B --> C[23.1%]
 ```
 
 This time we have a difference in that we have defined a parameter `num` in the function declaration inside parentheses after the function name `convertToPercentage`. In our current mental model, a function call means going to `convertToPercentage` and running the code inside the function.
