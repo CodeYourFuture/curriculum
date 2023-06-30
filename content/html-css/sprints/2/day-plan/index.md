@@ -8,7 +8,7 @@ backlog= 'Module-HTML-CSS'
 backlog_filter= 'Week 2'
 [[blocks]]
 name=Active listening"
-src="https://cyf-pd.netlify.app/admin/#/collections/blocks/entries/active-listening/readme"
+src="https://cyf-pd.netlify.app/blocks/active-listening/readme/"
 +++
 
 
