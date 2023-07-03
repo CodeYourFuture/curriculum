@@ -78,37 +78,20 @@ To solve this goal, we're going to implement a function `formatAs12HourClock`.
 
 ### ⚖️ Comparing current and target output
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the **target output**.
-For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. In this case, `"08:00 am"` is the target output.
+Let's start with a function declaration of `formatAs12HourClock` like this:
 
-We can call functions and log their return values to the console. However we can also **compare** 2 values.
-This is very useful whenever we want to check that a function produces some 🎯 **target output**.
-
-We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-
-To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
-
-We can write an expression as follows:
-
-```js
-formatAs12HourClock("08:00") === "8:00 am";
+```js {linenos=table,linenostart=1}
+function formatAs12HourClock() {}
 ```
 
-In the code above, `===` will check the values on the left and the right of the operator to see if they’re the same.
-
-We can think of `formatAs12HourClock("08:00") === "8:00 am"`
-
-as being like the question:
-
-Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
-
-This leads to the question:
-
-> What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
+Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the **target output**.
+For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
+In this case, `"08:00 am"` is the 🎯 **target output**.
+However, the **current output** is what the function actually returns given its current implementation.
 
 {{<note type="exercise" title="Exercise 1.1">}}
 
-Let's start with a function declaration of `formatAs12HourClock` like this:
+Let's continue with `formatAs12HourClock` defined like this:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
@@ -135,6 +118,31 @@ a) the current output?
 b) the 🎯 target output?
 
 {{</note>}}
+
+We can call functions and log their return values to the console. However we can also **compare** 2 values.
+This is very useful whenever we want to check that a function produces some target output.
+
+We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
+
+To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
+
+We can write an expression as follows:
+
+```js
+formatAs12HourClock("08:00") === "8:00 am";
+```
+
+In the code above, `===` will check the values on the left and the right of the operator to see if they’re the same.
+
+We can think of `formatAs12HourClock("08:00") === "8:00 am"`
+
+as being like the question:
+
+Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
+
+This leads to the question:
+
+> What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 ### ✅ ❌ Boolean values
 
