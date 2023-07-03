@@ -410,9 +410,9 @@ Assertion failed: current output: 23:00 am, target output: 11:00 pm
 ### ↙️ ↘️ Making a choice
 
 Our function works for morning inputs like `"08:00"`.
-In this case, the function returns `"08:00 am"` as target.
+In this case, the function returns the target output of `"08:00 am"` as required.
 
-However, at the moment, `formatAs12HourClock("23:00")` returns `"23:00 am"`.
+However, at the moment, `formatAs12HourClock("23:00")`'s current output is `"23:00 am"`.
 
 > 💡 We need to execute some different logic when the time is beyond midday
 
