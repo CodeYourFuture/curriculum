@@ -84,9 +84,10 @@ Let's start with a function declaration of `formatAs12HourClock` like this:
 function formatAs12HourClock() {}
 ```
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the **target output**.
+Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**.
 For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
 In this case, `"08:00 am"` is the 🎯 **target output**.
+
 However, the **current output** is what the function actually returns given its current implementation.
 
 {{<note type="exercise" title="Exercise 1.1">}}
@@ -97,25 +98,25 @@ Let's continue with `formatAs12HourClock` defined like this:
 function formatAs12HourClock() {}
 ```
 
-Suppose we call the function like this:
+a) Suppose we call the function like this:
 
 ```js
 formatAs12HourClock("20:10");
 ```
 
 For the call above, what is the
-a) the current output?
-b) the 🎯 target output?
+i) the current output?
+ii) the 🎯 target output?
 
-Suppose we now call the function like this:
+b) Suppose we now call the function like this:
 
 ```js
 formatAs12HourClock("05:30");
 ```
 
 For the call above, what is the
-a) the current output?
-b) the 🎯 target output?
+i) the current output?
+ii) the 🎯 target output?
 
 {{</note>}}
 
