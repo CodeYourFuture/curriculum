@@ -64,24 +64,27 @@ Often we use the notation "HH:MM" for a time to denote the fact that the first 2
 
 ### 🧩 Stating the problem
 
-Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.  
-To achieve this goal, we're going to implement a function `formatAs12HourClock`.
+Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.
+
+To solve this goal, we're going to implement a function `formatAs12HourClock`.
 
 > `formatAs12HourClock` is a function that should take any string representing the time in 24 hour clock
 > and return the corresponding time in 12 hour clock.
+>
 > Examples:  
 >  `formatAs12HourClock("09:00")` should return `"09:00 am"`  
 >  `formatAs12HourClock("14:00")` should return `"2:00 pm"`
+> etc...
 
-### ⚖️ Comparing output with expectation
+### ⚖️ Comparing current and target output
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value.  
-For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
+Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the **target output**.
+For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. In this case, `"08:00 am"` is the target output.
 
 We can call functions and log their return values to the console. However we can also **compare** 2 values.
+This is very useful whenever we want to check that a function produces some 🎯 **target output**.
 
-We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?**.
-This is very useful whenever we want to check that our code produces some 🎯 **target behaviour**.
+We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
 
 To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
 
@@ -102,6 +105,36 @@ Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
 This begs the question:
 
 > What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
+
+{{<note type="exercise" title="Exercise 1.1">}}
+
+Let's start with a function declaration of `formatAs12HourClock` like this:
+
+```js {linenos=table,linenostart=1}
+function formatAs12HourClock() {}
+```
+
+Suppose we call the function like this:
+
+```js
+formatAs12HourClock("20:10");
+```
+
+For the call above, what is the
+a) the current output?
+b) the 🎯 target output?
+
+Suppose we now call the function like this:
+
+```js
+formatAs12HourClock("05:30");
+```
+
+For the call above, what is the
+a) the current output?
+b) the 🎯 target output?
+
+{{</note>}}
 
 ### ✅ ❌ Boolean values
 
@@ -125,7 +158,7 @@ For example:
 // evaluates to false
 ```
 
-{{<note type="exercise" title="Exercise 1.1">}}
+{{<note type="exercise" title="Exercise 1.2">}}
 
 Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check out some relevant documentation if you've not seen a particular operator before.
 
@@ -147,6 +180,17 @@ isMhairOldEnoughToDrive === true;
 mhairiAge >= 18;
 mhairiAge >= 28;
 29 <= mhairiAge;
+```
+
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 1.3">}}
+Trickier 🧩
+
+Look at the code below and then try predicting what the expression will evaluate to. Be sure to explain your answer too. Try using the Node Repl to check your answer. Does the REPL output make sense?
+
+```js {linenos=table,linenostart=1}
+console.log(10 + 32) === 42;
 ```
 
 {{</note>}}
@@ -231,7 +275,7 @@ According to our assertion we get an input of `"08:00"` and need to create outpu
 So we can add `"am"` to the `time` to get the expected output.
 We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
 
-📓 We can and should continually check our assertions to see if our function’s current behaviour meets our target behaviour.
+📓 We can and should continually check our assertions to see if our function’s current output meets our target output.
 
 So we have the following:
 
@@ -348,6 +392,12 @@ Now the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ```
 
+{{<note type="exercise" title="Exercise 2.1">}}
+
+✏️ Write another assertion that checks `formatAs12HourClock` returns the target output when passed another _time input in the afternoon._
+
+{{</note>}}
+
 ### ↙️ ↘️ Making a choice
 
 Our function works for morning inputs like `"08:00"`.
@@ -462,7 +512,7 @@ if (expressionsForHours < 12) {
 }
 ```
 
-To complete the logic, we now have a sub-goal:
+To complete the logic, we now have to achieve a sub-goal:
 
 > 🎯 Sub-goal: Find an expression for the hours from the `time` input
 
