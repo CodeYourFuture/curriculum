@@ -472,9 +472,6 @@ flowchart LR
     IB --> EXIT
 ```
 
-</br>
-</br>
-
 {{<note type="exercise" title="Exercise 2.1">}}
 Write a program that defines a variable `eleniAge`.
 
