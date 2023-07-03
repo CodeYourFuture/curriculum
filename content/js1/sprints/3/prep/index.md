@@ -38,7 +38,7 @@ backlog_filter= 'Week 3'
 
 ## Notes
 
-### 12 vs 24 hour clock 🕥
+### 🕥 12 vs 24 hour clock
 
 A typical time can be written in one of 2 ways: 24 hour clock or 12 hour clock.
 
@@ -151,7 +151,7 @@ mhairiAge >= 28;
 
 {{</note>}}
 
-### Writing an assertion
+### ✏️ Writing an assertion
 
 We now have 2 new concepts: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
@@ -282,7 +282,7 @@ console.assert(
 );
 ```
 
-### Reusing variable names
+### 🔄 Reusing variable names
 
 When we run the file with Node, we get an error in the console:
 
