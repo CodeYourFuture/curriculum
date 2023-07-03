@@ -94,7 +94,7 @@ We can write an expression as follows:
 formatAs12HourClock("08:00") === "8:00 am";
 ```
 
-In the code above, `===` will check the value on the left of the operator and the value on the right to see if they’re the same.
+In the code above, `===` will check the values on the left and the right of the operator to see if they’re the same.
 
 We can think of `formatAs12HourClock("08:00") === "8:00 am"`
 
@@ -102,7 +102,7 @@ as being like the question:
 
 Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
 
-This begs the question:
+This leads to the question:
 
 > What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
