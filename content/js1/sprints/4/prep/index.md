@@ -8,8 +8,6 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 4'
 +++
 
-console.log('hello')
-
 ## Learning objectives
 
 - Execute a test script
