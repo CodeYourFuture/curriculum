@@ -225,7 +225,7 @@ function formatAs12HourClock() {}
 
 console.assert(
   formatAs12HourClock("08:00") === "08:00 am",
-  "current function output: %s, expected output: %s",
+  "current function output: %s, target output: %s",
   formatAs12HourClock("08:00"),
   "20:00"
 );
@@ -235,7 +235,7 @@ Let's break down these arguments to make sense of what's going on:
 
 1. first argument - `formatAs12HourClock("08:00") === "20:00"` - the condition we're checking
 
-2. second argument - `"current function output: %d, expected output: %d"` - a message string that will be logged to the console if the condition is false.
+2. second argument - `"current function output: %d, target output: %d"` - a message string that will be logged to the console if the condition is false.
 
 3. third argument - `formatAs12HourClock("08:00")` - this value will get substituted into the message string at the first "%d"
 
@@ -247,19 +247,19 @@ We can tidy up the assertion even further. As we’re reusing the same expressio
 function formatAs12HourClock() {}
 
 const currentOutput = formatAs12HourClock("08:00");
-const expectedOutput = "08:00 am";
+const targetOutput = "08:00 am";
 console.assert(
-  currentOutput === expectedOutput,
-  "current output: %s, expected output: %s",
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
   currentOutput,
-  expectedOutput
+  targetOutput
 );
 ```
 
 When the code above executes, we now get a log in the console:
 
 ```bash
-Assertion failed: current output: undefined, expected output: 08:00 am
+Assertion failed: current output: undefined, target output: 08:00 am
 ```
 
 ### 🧰 Implementing the functionality
@@ -272,7 +272,7 @@ function formatAs12HourClock(time) {}
 
 According to our assertion we get an input of `"08:00"` and need to create output of `"08:00 am"`.
 
-So we can add `"am"` to the `time` to get the expected output.
+So we can add `"am"` to the `time` to get the target output.
 We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
 
 📓 We can and should continually check our assertions to see if our function’s current output meets our target output.
@@ -285,12 +285,12 @@ function formatAs12HourClock(time) {
 }
 
 const currentOutput = formatAs12HourClock("08:00");
-const expectedOutput = "08:00 am";
+const targetOutput = "08:00 am";
 console.assert(
-  currentOutput === expectedOutput,
-  "current output: %s, expected output: %s",
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
   currentOutput,
-  expectedOutput
+  targetOutput
 );
 ```
 
@@ -308,21 +308,21 @@ function formatAs12HourClock(time) {
 }
 
 const currentOutput = formatAs12HourClock("08:00");
-const expectedOutput = "08:00 am";
+const targetOutput = "08:00 am";
 console.assert(
-  currentOutput === expectedOutput,
-  "current output: %s, expected output: %s",
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
   currentOutput,
-  expectedOutput
+  targetOutput
 );
 
 const currentOutput = formatAs12HourClock("23:00");
-const expectedOutput = "11:00 pm";
+const targetOutput = "11:00 pm";
 console.assert(
-  currentOutput === expectedOutput,
-  "current output: %s, expected output: %s",
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
   currentOutput,
-  expectedOutput
+  targetOutput
 );
 ```
 
@@ -364,24 +364,24 @@ function formatAs12HourClock(time) {
 
 {
   const currentOutput = formatAs12HourClock("08:00");
-  const expectedOutput = "08:00 am";
+  const targetOutput = "08:00 am";
   console.assert(
-    currentOutput === expectedOutput,
-    "current output: %s, expected output: %s",
+    currentOutput === targetOutput,
+    "current output: %s, target output: %s",
     currentOutput,
-    expectedOutput
+    targetOutput
   );
 }
 
 {
   // ❌ this assertion now fails
   const currentOutput = formatAs12HourClock("23:00");
-  const expectedOutput = "11:00 pm";
+  const targetOutput = "11:00 pm";
   console.assert(
-    currentOutput === expectedOutput,
-    "current output: %s, expected output: %s",
+    currentOutput === targetOutput,
+    "current output: %s, target output: %s",
     currentOutput,
-    expectedOutput
+    targetOutput
   );
 }
 ```
@@ -389,7 +389,7 @@ function formatAs12HourClock(time) {
 Now the second assertion fails with the following message:
 
 ```bash
-Assertion failed: current output: 23:00 am, expected output: 11:00 pm
+Assertion failed: current output: 23:00 am, target output: 11:00 pm
 ```
 
 {{<note type="exercise" title="Exercise 2.1">}}
@@ -401,7 +401,7 @@ Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 ### ↙️ ↘️ Making a choice
 
 Our function works for morning inputs like `"08:00"`.
-In this case, the function returns `"08:00 am"` as expected.
+In this case, the function returns `"08:00 am"` as target.
 
 However, at the moment, `formatAs12HourClock("23:00")` returns `"23:00 am"`.
 
@@ -614,11 +614,11 @@ E --> F[Step 6: return the new time]
 
 ```
 
-Now we can **re-run** our assertions from earlier to check our function behaves as expected.
+Now we can **re-run** our assertions from earlier to check our function behaves as target.
 
 ### 🧹 Improving the code
 
-Now the assertions pass: in other words, our function’s current output matches with the expected output described in the assertions.
+Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions.
 
 However, at the moment, we’re making use of the same expression twice: `+time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code.
 
