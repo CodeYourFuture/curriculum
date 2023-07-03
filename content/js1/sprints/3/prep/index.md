@@ -80,7 +80,8 @@ For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
 
 We can call functions and log their return values to the console. However we can also **compare** 2 values.
 
-We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?** This is very useful whenever we want to check that our code behaves in the way we expect.
+We can compare the value `formatAs12HourClock("08:00")` with the expected output of `"08:00 am"` and ask: **are these 2 values the same?**.
+This is very useful whenever we want to check that our code produces some 🎯 **target behaviour**.
 
 To compare 2 expressions and check if they have the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
 
@@ -105,11 +106,11 @@ This begs the question:
 ### ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
-Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations like addition etc.
+Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations like addition, multiplication etc.
 
 However, if we're comparing values or expressions then we have one of 2 different states: **true** or **false**.
 
-This leads us to the boolean data type: which only has values of `true` or `false`.
+This leads us to the **boolean data type**: which only has values of `true` or `false`.
 
 Whenever we compare 2 values with a comparison operator then we end up with a boolean value: `true` or `false`.
 
@@ -119,13 +120,14 @@ For example:
 // comparison expression
 42 === 10 + 32;
 // evaluates to true
-```
 
-The comparison expression above is asking whether `42` has the same value as `10 + 32`.
+10 * 5 === 60;
+// evaluates to false
+```
 
 {{<note type="exercise" title="Exercise 1.1">}}
 
-Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check documentation if you've not seen a particular operator before.
+Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check out some relevant documentation if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
 true === false;
@@ -151,12 +153,12 @@ mhairiAge >= 28;
 
 ### Writing an assertion
 
-Now we have 2 new pieces of information: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
+We now have 2 new concepts: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
 > 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either be `true` or `false`.
 
-Up to now we've used the log function off `console`.
-However, we can also write assertions using another function: `console.assert`. Let's look at an example using `console.assert`:
+Up to now we've used the log function `console.log`.
+However, we can also write assertions using another function: `console.assert`. Let's look at an example using this function:
 
 ```js
 function formatAs12HourClock() {}
@@ -195,7 +197,7 @@ Let's break down these arguments to make sense of what's going on:
 
 4. 4th argument - `"20:00"` - this value will get substituted into the message string at the second "%d"
 
-We can tidy up the assertion even further. As we’re reusing the same expressions and values, we should store these in variables and refer to them again:
+We can tidy up the assertion even further. As we’re reusing the same expressions, we can store these in variables so we can reuse them and give them more meaning:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
@@ -210,13 +212,13 @@ console.assert(
 );
 ```
 
-Now we get a log in the console:
+When the code above executes, we now get a log in the console:
 
 ```bash
 Assertion failed: current output: undefined, expected output: 08:00 am
 ```
 
-### Implementing the functionality
+### 🧰 Implementing the functionality
 
 On line 4, the function is being passed a single argument `"08:00"`. We can parametrise the function and label the input as `time`:
 
@@ -229,7 +231,7 @@ According to our assertion we get an input of `"08:00"` and need to create outpu
 So we can add `"am"` to the `time` to get the expected output.
 We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
 
-📓 We can continually check our assertions to see if our function’s current behaviour meets our expectations.
+📓 We can and should continually check our assertions to see if our function’s current behaviour meets our target behaviour.
 
 So we have the following:
 
@@ -250,7 +252,7 @@ console.assert(
 
 ✅ Nothing is printed to the console, so this assertion is working 😎
 
-### Checking different cases
+### 💼 Checking different cases
 
 So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: take the current time and add `"am"` to the end.
 
@@ -288,7 +290,7 @@ When we run the file with Node, we get an error in the console:
 SyntaxError: Identifier 'currentOutput' has already been declared
 ```
 
-An identifier is the name of a variable, so in a variable declaration like
+In this case, identifier means name of a variable, so in a variable declaration like
 
 ```js
 const currentOutput = formatAs12HourClock("08:23");
@@ -297,7 +299,7 @@ const currentOutput = formatAs12HourClock("08:23");
 `currentOutput` is the **identifier**.
 
 When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user.
-We want to do multiple assertions whilst using the same variables.
+However, we want to do multiple assertions whilst using the same variables.
 
 To reuse variable names, we can make use of a block declaration as follows:
 
@@ -309,7 +311,7 @@ To reuse variable names, we can make use of a block declaration as follows:
 
 🔑 A **block** is a region of code defined by a set of curly braces in which we write any number of statements.
 
-As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get a `ReferenceError`:
+As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get a `SyntaxError`:
 
 ```js title="problem.js"
 function formatAs12HourClock(time) {
@@ -351,11 +353,11 @@ Assertion failed: current output: 23:00 am, expected output: 11:00 pm
 Our function works for morning inputs like `"08:00"`.
 In this case, the function returns `"08:00 am"` as expected.
 
-At the moment `formatAs12HourClock("23:00")` returns `"23:00 am"`.
+However, at the moment, `formatAs12HourClock("23:00")` returns `"23:00 am"`.
 
 > 💡 We need to execute some different logic when the time is beyond midday
 
-We can visualise this as a question:
+We can interpret this behaviour as a question:
 
 ```mermaid
 
@@ -367,7 +369,7 @@ A -- false --> C[???]
 
 We need to work out what to do in the case when the time input is later than midday.
 
-### 🗺️ Describing the strategy
+### 🧭 Describing the strategy
 
 Let's describe the strategy for dealing with an input that is after midday.
 
@@ -388,11 +390,11 @@ D --> E[Step 5: add 'pm' to the rest of the time, to get '11:00 pm']
 E --> F[Step 6: return the new time]
 ```
 
-This approach involves running some **conditionally**. In this case, we're only going to continue doing something if the condition **hours are greater than 12** is `true`.
+This approach involves running some **conditionally**. In this case, we're only going to continue doing Steps 4-6 if the condition **hours are greater than 12** is `true`.
 
 ### ❓ Conditionally executing code
 
-In programming, an `if` statement will execute some code when a given condition is `true`.  
+In programming, we can use an `if` statement to execute some code when a given condition is `true`.  
 In JavaScript, we can write an `if` statement as follows:
 
 ```js {title="main.js"}
@@ -446,13 +448,13 @@ Eleni is not old enough to drive
 
 {{</note>}}
 
-### Applying new knowledge
+### 🧠 Applying new knowledge
 
 So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>`.
 `>` will check if the value on the left of the operator is less than the value on the right of the operator.
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
 
-So provided we have an expression for the hours from the time, then we can write a conditional statement as follows:
+So provided we have an expression for the hours from the time, we can write a conditional statement as follows:
 
 ```js
 if (expressionsForHours < 12) {
@@ -460,9 +462,11 @@ if (expressionsForHours < 12) {
 }
 ```
 
-> 🎯 Sub-goal: Find an expression for the hours digits from the `time` input
+To complete the logic, we now have a sub-goal:
 
-### Accessing strings
+> 🎯 Sub-goal: Find an expression for the hours from the `time` input
+
+### 🧶 Accessing strings
 
 Given a `time` string we need to access the _first 2 characters_ of the string which represent the hours.
 
@@ -487,7 +491,7 @@ time[2]; // evaluates to ":"
 However at the moment, square bracket access wil only give a single character.
 So we must use another method to extract _multiple_ characters from the given string.
 
-### Extracting a slice
+### ✂️ Extracting a slice
 
 We can use a function called `slice` to extract 1 or more characters from a string.
 
