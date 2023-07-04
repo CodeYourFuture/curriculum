@@ -57,9 +57,6 @@ We can write a short table summarising some of the times and how they are conver
 | 13:00                 | 1:00 **pm**           |
 | 14:00                 | 2:00 **pm**           |
 
-</br>
-</br>
-
 Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
 
 ### 🧩 Stating the problem
