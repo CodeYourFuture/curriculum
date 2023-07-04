@@ -137,21 +137,13 @@ We can summarise the thought process as a brief dialogue:
 >
 > "We can make use of a testing framework - this will help us to write test cases quickly. And it will ensure that the tests give us fast, reliable feedback."
 
-## 🧭 Setting up a test
+### 🎒 Starting a project
 
-To set up a test, we'll need to use a potentially unfamiliar
-
-## Starting a project
-
-Let's imagine we've started a brand new project in a directory called `week-4-example`:
-
-```raw
-week-4-example
-```
+Let's imagine we've started a brand new project in a directory called `week-4-example`.
 
 To start, we need a `package.json` file in our project.
 
-> A `package.json` is used to store useful information about our current project, like the name etc.
+> A `package.json` is used to store useful information about our current project, like the name, description etc.
 
 We can create a `package.json` file and add the following to it:
 
@@ -162,7 +154,7 @@ We can create a `package.json` file and add the following to it:
 ```
 
 Anyone using this project can now check the `package.json` to get the name of the project.
-We can add more:
+We can also add a description:
 
 ```json
 {
@@ -174,22 +166,27 @@ We can add more:
 We can continue adding more information about our project as the project grows.
 For now we can double check the file structure in our project:
 
+```bash
+$ ls
+package.json
+```
+
 ### 📦 Using packages
 
 When writing software, we need to continually make use of **packages** written by other developers.
 
-A **package** is a set of programs which are grouped together to provide some required fucntionality.
+A **package** is a set of programs which are grouped together to provide some functionality.
 
 Different programming languages give developers different ways of accessing packages for use in their code.
 
-In JavaScript, we can use **npm** - a javascript package manager.
+In JavaScript, we can use **npm**.
 **npm** is an online database of packages that can be downloaded and used to help developers write applications.
 Our first step will be to figure out how to install the Jest package on our machine.
 
 ### 🃏 Installing Jest
 
 We can find out more about the Jest framework from the documentation online.
-We can head to the documentation and find out how to get set up.
+We can head to the documentation and find out how to get set up there.
 
 ![jest-install](jest-install.png)
 
@@ -309,16 +306,16 @@ const targetOutput = "1st";
 
 To work out how to write a test using Jest, we can check out the documentation.
 
-Let’s suppose we start with a project as follows: we have the following files in our project folder. We can create a file called count-words.js and in there write our first test. We can figure out how to write this test using the Jest documentation. We can start writing a test:
+Let’s suppose we start with a project as follows: we have the following files in our project folder. We can create a file called `get-ordinal-number.js` and in there write our first test. We can figure out how to write this test using the Jest documentation. We can start writing a test:
 
 index.test.js
 
 ```js
-test("one word string gives a count of 1", function () {});
+test("converts 1 to an ordinal number", function () {});
 ```
 
 The test function takes 2 arguments:
-A test description - "will count the number of words for a single word string", which describes the behaviour we expect in this particular test
+A test description - `"converts 1 to an ordinal number"`, which describes the behaviour we're testing for and
 
 a `function () {}` in which we will write our test code.
 
@@ -401,64 +398,10 @@ When we run index.test.js with the test case then the console should display a p
 
 ### Understanding test feedback
 
-With our test file in the following form:
-
-And our current project as follows:
-
-We can now execute the tests. Using the command npm test.
-
-We get the following feedback:
-
-Jest has “captured” the underlying error in order and resurfaced it in the console. So we can see that the test that has result in an error and also why ths error occurred.
-
 ### Assertion errors
-
-To fix the `ReferenceError` we can declare the function `countWords`.
-
-Now when we run the test script again, we get different feedback:
-This time the console logs show an `AssertionError`.
-
-An `AssertionError` is a type of error that is thrown by the expect function when the assertion is false.  
-So in this case, the return value of `countWords` is undefined and we expect it to equal 1.
-We can continue re-running our tests to get feedback on our code.
-
-Assertion Error diagram
 
 ### Passing `getOrdinalNumber`
 
-To make the test pass we can start moving in the right direction by declaring the function `getOrdinalNumber`. We can update index.test.js so we’ve got the following:
-
-index.test.js
-
-This is feedback is telling us that we expected to get an output of 1 but `getOrdinalNumber` is actually returning undefined.
-
 ### Improving the tests
-
-We can write tests in many different ways. Sometimes developers may write additional variables to label some of the values in the test code more clearly. We could re-write the test above in the following way:
-
-```js
-test("converts 1 to an ordinal number", function () {
-  const input = 1;
-  const currentResult = 1;
-  const targetResult = "1st";
-  expect(getOrdinalNumber(1)).toBe("1st");
-});
-```
-
-In this example, we're declaring some variables that will store values that we compare later on in the test.
-
-- We declare an input variable that stores a value that we will pass to the function we are testing - `getOrdinalNumber`.
-- We declare an `currentResult` variable that stores the return value of our function `getOrdinalNumber`.
-- We declare an `targetResult` which stores what we expect the actualResult to be when our function behaves according to the test description.
-
-ℹ️
-It's important to note that the test here and the one above it are checking the same thing. The variables are just being used to make the test easier to understand for ourselves and other developers.
-ℹ️
-
-After making our first test pass, we can continue to write more test cases to check the function’s output with different inputs.
-
-## Passing the test
-
-We can see the test feedback is telling us that `received` is `undefined`. In other words, actualResult ( `countWords`'s return value) is `undefined`.
 
 ### Implementing further functionality
