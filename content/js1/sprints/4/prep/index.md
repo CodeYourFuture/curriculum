@@ -35,7 +35,19 @@ backlog_filter= 'Week 4'
 
 ## Notes
 
-### counting words 🧮
+### 🧮 Ordinal numbers
+
+An **ordinal number** is used to describe the position in a sequence.
+Let's suppose that there are 3 in a queue: "Ahmed", "Nina", "Sulaimann"
+
+We need of describing their positions in the queue.
+For example, "Ahmed" might be next in the queue so we would describe him as being in **1st position**.
+After that, "Nina" might be next in the queue so we would describe her as being in **2nd position**.
+For "Sulmainan", he would say he is "3rd" in the queue.
+
+We can form ordinal numbers by taking a number and adding a **suffix** ( a group of characters to the end of the number)
+
+Here is a list of some of the ordinal numbers:
 
 Let's consider a function called `countWords` that needs to work as follows:
 
