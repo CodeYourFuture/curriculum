@@ -8,6 +8,8 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 4'
 +++
 
+## Pre-requisites
+
 ## Learning objectives
 
 - Execute a test script
@@ -30,6 +32,8 @@ backlog_filter= 'Week 4'
 - State the current return value of a function and the target output from some test output
 - Explain the process involved in looking up how to write tests for someone using a language other than JavaScript
 - Express an acceptance criterion as a test case
+
+## Notes
 
 ### counting words 🧮
 
