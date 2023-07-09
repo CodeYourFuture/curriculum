@@ -423,7 +423,7 @@ So this new problem can be expressed as a question:
 
 > ❓ Problem
 >
-> "How can we check the values of evaluated in our program when it is being executed?"
+> "How can we check what the values evaluated to in our program when it is being executed?"
 
 ### 🖨️ Printing to the terminal
 
