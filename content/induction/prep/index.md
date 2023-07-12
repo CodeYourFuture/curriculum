@@ -1,6 +1,6 @@
 +++
 title = 'prep'
-description = 'prep description'
+description = 'You can use these notes to prepare for the first in-person session of the software development course'
 layout = 'prep'
 emoji= '📝'
 menu_level = ['module']
