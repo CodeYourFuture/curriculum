@@ -113,7 +113,7 @@ Follow the following instructions.
 2. Run the `pwd` command. Check the command output - what does this command tell you? Double **check** you're in the home directory.
 3. Run the `ls` command. What does this command tell you?
 4. Using the terminal, use a command to create a new directory called "CYF". You'll use this directory to store the files and folders in your project.
-5. Change your the current directory your terminal is poining to. your terminal to the "CYF" directory.
+5. Change your working directory to the "CYF" directory.
 
 {{</note>}}
 
@@ -140,9 +140,10 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 {{<note type="exercise">}}
 
-Figure it out
-
-1. Research a command you can use to get a local copy of a repository on your local machine.
-   Use this command to check
+Figure out how to open the cloned repository on your local machine in VSCode. Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
 {{</note>}}
+
+## 🏗️ Git model
+
+Let's consider
