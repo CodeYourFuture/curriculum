@@ -119,7 +119,7 @@ We can use Github to view and manage repositories. However, we can also work wit
 
 {{<note type="exercise" title="Exercise">}}
 
-🔍 Figure it out
+🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
 
 Firstly,
 
@@ -150,7 +150,7 @@ In other words, we need to get a copy of the codebase on Github on to our device
 
 {{<note type="exercise" title="Exercise">}}
 
-Figure it out
+🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
 
 1. Research a command you can use to get a local copy of a repository on your local machine.
    Use this command to check
