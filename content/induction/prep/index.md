@@ -23,7 +23,7 @@ Describe the purpose of version control
 Explain the difference between Git and Github
 Get a local copy of a repository on your local machine
 Given a local repository, make a local change and inspect the Source Control panel in VSCode
-Given a local repository,
+Given a local repository, make some local changes and commit those changes
 
 ## 📜 Code base
 
@@ -34,11 +34,11 @@ Today our lives depends on countless applications that we access on digital devi
 A repository is a place where we store files and folders used to build a software project.W
 We can now think about the
 
-## 🏢 Storing repositories
+## 🗄️ Storing repositories
 
 Github is a web-based platform used to store repositories. Github is a place where repositories are **hosted**. IN other words, a repository for a project is available over a network. THis means a Github repository can be accessed by multiple developers across a network where they can collaborate on the project.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 1.1">}}
 
 Follow the link below: figure out the answer to the following questions.
 Follow the link to the project.
@@ -58,7 +58,7 @@ Imagine a situation where we're making changes to a single file.
 We might want to make a change so we have to edit this file and then to fix a mistake. We then save the changes.
 This means the old version of the file is overwritten and we're left with the newly saved file.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 2.1">}}
 
 Why is it important to build up different versions of a project over time?
 If we build up a collection of different versions in our project?
@@ -69,9 +69,14 @@ Imagine if you want to track the growth of a plant over time.
 You could start by taking a photo at the very beginning.You could then add water to the plant to help it grow and then take another photo of the plant. You could continue taking photos this way. Each photo is a snapshot: a record of the plant at a given moment in time.
 In a similar way, we want to build up snapshots of our project's repository over time.
 can think of a **commit** as a snapshot of our project at a given moment in time.
+
+{{<note type="definition" title="Definition">}}
+
 A **commit** is a version of our code base at a particular point in time: in other words, a commit is a snapshot
 
-{{<note type="activity" title="Analysing version timelines">}}
+{{</note >}}
+
+{{<note type="exercise" title="Exercise">}}
 
 🔍 In this activity, you'll need to figure out how to do something.
 
@@ -93,7 +98,7 @@ e) What problem did commit "dfef8" solve? What change was introduced to solve th
 
 What is _in_ a commit? We can recall that a commit is a snapshot of a codebase. Therefore, we should be able to check out the codebase at a given point in the timeline and look at the files and folders there. We can use the Github website to not only see the different **commits** in our project - we can also check out the files and folders at a given point in the history.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 4.1">}}
 
 Go back to this page GITHUB_REPO_URL to look at the following:
 
@@ -107,7 +112,7 @@ Do the same but for the commit "edf89".
 
 Often we want to take an existing project and start working on it independtly: in other words, we start making our own versions of the project separate from the original project.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 5.1">}}
 
 Visit the following GITHUB_REPO_URL and create a fork of the repository to your local account.
 
@@ -117,7 +122,7 @@ Visit the following GITHUB_REPO_URL and create a fork of the repository to your 
 
 We can use Github to view and manage repositories. However, we can also work with repositories locally. **Locally** means taking a copy of a repository on Github and downloading it on to our local machine where we can look around and make changes without being on Github.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 6.1">}}
 
 🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
 
@@ -166,7 +171,3 @@ Once you've got a local copy of a codebase on your local machine you can start t
 Figure out how to open the cloned repository on your local machine in VSCode. Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
 {{</note>}}
-
-## 🏗️ Git model
-
-Let's consider
