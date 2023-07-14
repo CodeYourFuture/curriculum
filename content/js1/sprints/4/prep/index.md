@@ -597,8 +597,6 @@ What are the differences/similarities between these tables and the **1 - 10** ta
 
 {{</note>}}
 
-### ❓ Find the problem
-
 The numbers 11 - 20 and 21 - 30 seem similar: however, there's a small difference.
 The numbers 11, 12 and 13 have ordinal numbers
 
@@ -635,9 +633,7 @@ function getOrdinalNumber(num) {
   }
   return `${num}th`;
 }
-```
 
-```js
 test("converts 1-10 to an ordinal number", function () {
   expect(getOrdinalNumber(1)).toBe("1st");
   expect(getOrdinalNumber(2)).toBe("2nd");
@@ -652,3 +648,11 @@ test("handles exceptional cases 11-13", function () {
   expect(getOrdinalNumber(13)).toBe("13th");
 });
 ```
+
+{{<note type="exercise">}}
+
+Compare the ordinal number tables **11 - 20** and **21 - 30**.
+What are the differences/similarities between these 2 tables?
+What are the differences/similarities between these tables and the **1 - 10** table in the first section?
+
+{{</note>}}
