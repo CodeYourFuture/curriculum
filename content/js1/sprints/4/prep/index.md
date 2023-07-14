@@ -68,6 +68,7 @@ Here is a list of the first 10 ordinal numbers.
 | 7      | 7**th**        |
 | 8      | 8**th**        |
 | 9      | 9**th**        |
+| 10     | 10**th**       |
 
 {{<note type="exercise" title="Exercise">}}
 
@@ -439,7 +440,7 @@ test("converts 1 to an ordinal number", function () {
 Predict what the test feedback will say when the test above is executed.
 {{</note>}}
 
-### 🚢 Exporting
+### 🚢 Defining the function
 
 At the moment, our test feedback gives the following:
 
@@ -463,23 +464,10 @@ Create your own file with the function defined above and then check the test out
 At the moment, the test output still tells us that there is a `ReferenceError`, telling us that `getOrdinalNumber` is not defined.
 To make `getOrdinalNumber` available to the test file, we need to **export** it.
 
-We can make use of the export syntax in Node:
-
-get-ordinal-number.js
+We can define `getOrdinalNumber` in our test file.
 
 ```js
 function getOrdinalNumber() {}
-
-module.exports = getOrdinalNumber;
-```
-
-`module.exports` is anything we want to export and make available to another file. We can assign `module.exports` to the function `getOrdinalNumber`.
-Once we've exported this function we can import it into the test file.
-
-get-ordinal-number.test.js
-
-```js
-const getOrdinalNumber = require("./get-ordinal-number.test.js");
 
 test("converts 1 to an ordinal number", function () {
   expect(getOrdinalNumber(1)).toBe("1st");
@@ -514,6 +502,153 @@ What line number did the test case fail on?
 
 ### Passing `getOrdinalNumber`
 
+We can now make the test pass by implementing functionality for the first test case.
+We could write the following:
+
+get-ordinal-number.test.js
+
+```js
+function getOrdinalNumber() {
+  return "1st";
+}
+
+test("converts 1 to an ordinal number", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+});
+```
+
 ### Improving the tests
 
+We can now go further and add more assertions based on the table we saw describing `getOrdinalNumber` at the start:
+
+get-ordinal-number.test.js
+
+```js
+test("converts 1-10 to an ordinal number", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+  expect(getOrdinalNumber(2)).toBe("2nd");
+  expect(getOrdinalNumber(3)).toBe("3rd");
+  expect(getOrdinalNumber(4)).toBe("4th");
+  expect(getOrdinalNumber(5)).toBe("5th");
+});
+```
+
+{{<note type="exercise">}}
+
+What do you think the test output will be when the test runs? Remember to think in terms of targetOutput and currentOutput.
+How can you approach implementing the logic for this function each time?
+Can we add any more assertions to this test case?
+{{</note>}}
+
 ### Implementing further functionality
+
+We may now have an implementation of `getOrdinalNumber` that looks like this:
+
+```js
+function getOrdinalNumber(num) {
+  if (num === 1) {
+    return "1st";
+  }
+  if (num === 2) {
+    return "2nd";
+  }
+  if (num === 3) {
+    return "3rd";
+  }
+  return `${num}th`;
+}
+```
+
+However, we can look at more ordinal numbers later on:
+
+**numbers 11 - 20**
+| number | ordinal number |
+| ------ | -------------- |
+| 11 | 11**th** |
+| 12 | 12**th** |
+| 13 | 13**th** |
+| 14 | 14**th** |
+| 15 | 15**th** |
+| 16 | 16**th** |
+| 17 | 17**th** |
+| 18 | 18**th** |
+| 19 | 19**th** |
+| 20 | 20**th** |
+
+**numbers 21 - 30**
+| number | ordinal number |
+| ------ | -------------- |
+| 21 | 21**st** |
+| 22 | 22**nd** |
+| 23 | 23**rd** |
+| 24 | 24**th** |
+| 25 | 25**th** |
+| 26 | 26**th** |
+| 27 | 27**th** |
+| 28 | 28**th** |
+| 29 | 29**th** |
+| 30 | 30**th** |
+
+{{<note type="exercise">}}
+
+Compare the ordinal number tables **11 - 20** and **21 - 30**.
+What are the differences/similarities between these 2 tables?
+What are the differences/similarities between these tables and the **1 - 10** table in the first section?
+
+{{</note>}}
+
+### ❓ Find the problem
+
+The numbers 11 - 20 and 21 - 30 seem similar: however, there's a small difference.
+The numbers 11, 12 and 13 have ordinal numbers
+
+But for 21 - 20,
+
+21 => 21**st**
+22 => 22**nd**
+23 => 23**rd**
+
+But for 11 - 29,
+
+11 => 11**th**
+12 => 12**th**
+13 => 13**th**
+
+21, 22 and 23 behave follow the pattern we saw in the first table.
+
+But 11, 12 and 13 are exceptions to this pattern.
+
+### 🧭 Future strategies
+
+We could write another test case to isolate the execeptional cases:
+
+```js
+function getOrdinalNumber(num) {
+  if (num === 1) {
+    return "1st";
+  }
+  if (num === 2) {
+    return "2nd";
+  }
+  if (num === 3) {
+    return "3rd";
+  }
+  return `${num}th`;
+}
+```
+
+```js
+test("converts 1-10 to an ordinal number", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+  expect(getOrdinalNumber(2)).toBe("2nd");
+  expect(getOrdinalNumber(3)).toBe("3rd");
+  expect(getOrdinalNumber(4)).toBe("4th");
+  expect(getOrdinalNumber(5)).toBe("5th");
+});
+
+test("handles exceptional cases 11-13", function () {
+  expect(getOrdinalNumber(11)).toBe("11th");
+  expect(getOrdinalNumber(12)).toBe("12th");
+  expect(getOrdinalNumber(13)).toBe("13th");
+});
+```
