@@ -42,7 +42,7 @@ We need a way to describe each level of the building.
 
 We start on the **ground floor** of the building - level with the ground.
 
-We can use **ordinal number** to describe the level we're on in the building.
+We can use an **ordinal number** to describe the level we're on in the building.
 Up from the ground floor, we are then on the **1st floor** (fir**st** floor)
 Up from the **1st floor**, we are on the **2nd floor** (seco**nd** floor)
 
@@ -69,7 +69,14 @@ Here is a list of the first 10 ordinal numbers.
 | 8      | 8**th**        |
 | 9      | 9**th**        |
 
-{{<note type="exercise">}}
+{{<note type="exercise" title="Exercise">}}
+
+Using the information from above, try to answer the following questions:
+
+a) What will the ordinal number be for 21?
+b) What will the ordinal number be for 40?
+c) What will the ordinal number be for 49?
+d) What will the ordinal number be for 13?
 
 {{</note>}}
 
@@ -86,7 +93,7 @@ getOrdinalNumber(2); // returns "2nd";
 getOrdinalNumber(6); // returns "6th";
 ```
 
-The points above form a specification of how the function `countWords` should behave - in other words, the specification is a description of how the function should work. Once we have a specification for how the function should work we can create many cases showing how we expect the function `countWords` to behave when it is called with certain inputs.
+The requirements above form a specification of how the function `getOrdinalNumber` should behave - in other words, the specification is a description of how the function should work. Once we have a specification for how the function should work we can create many cases showing how we expect the function `getOrdinalNumber` to behave when it is called with certain inputs.
 
 ### Describing functionality
 
@@ -109,7 +116,7 @@ Our aim is to check that `getOrdinalNumber` works as we described in the specifi
 We need to check our code behaves according to the specification.
 So we can write **tests** to check our code is behaving in a particular way.
 
-> 🔑 A test is any piece of code that checks a certain unit of code ( typically a function ) behaves in a particular way
+> 🔑 A test is any piece of code that runs an assertion on the code we're testing
 
 In addition, we want our tests to:
 
@@ -180,13 +187,14 @@ A **package** is a set of programs which are grouped together to provide some fu
 Different programming languages give developers different ways of accessing packages for use in their code.
 
 In JavaScript, we can use **npm**.
-**npm** is an online database of packages that can be downloaded and used to help developers write applications.
+
+> **npm** is a collection of packages that can be downloaded and used to help developers write applications.
+
 Our first step will be to figure out how to install the Jest package on our machine.
 
 ### 🃏 Installing Jest
 
-We can find out more about the Jest framework from the documentation online.
-We can head to the documentation and find out how to get set up there.
+We can find out more about the Jest framework from the [documentation online](https://jestjs.io/docs/getting-started).
 
 ![jest-install](jest-install.png)
 
@@ -206,7 +214,7 @@ npm install --save-dev jest
 - `jest` - this is the name of the package we want to install on our machine
 
 So overall we can think of this command as saying:
-"Please go to the npm database, find the Jest package and install it on my local machine"
+_"Please go to the npm database, find the Jest package and install it on my local machine"_
 
 To make use of Jest's API in our tests, we need to **install** the Jest software so we can run it on our machine.
 In this context, **install** means downloading an application so we can use it in our own software.
@@ -244,6 +252,8 @@ project
 └── node_modules
 ```
 
+We also have a directory called `node_modules` in our project too. The `node_modules` directory contains all the code from the dependencies like Jest we installed in our project. You won't need to look inside the node_modules directory - you just need to know it contains the code for Jest and any other libraries we install in our project.
+
 Let's double check the `package.json`:
 
 ```json
@@ -264,8 +274,6 @@ We've now got some additional information inside the `package.json`:
 
 A **dependency** is a package that your project depends upon. Now that we're using Jest in our project, we **depend** on the Jest package. In particular, a **devDependency** is a **developer dependency** - a **dependency** we use for developing and testing our application.
 
-We also have a directory called `node_modules` in our project too. The `node_modules` directory contains all the code from the dependencies like Jest we installed in our project. You won't need to look inside the node_modules directory - you just need to know it contains the code for Jest and any other libraries we install in our project.
-
 ### 🕹️ Application Programming Interface
 
 With Jest installed, we need to figure out how to use the Jest framework to write tests.
@@ -285,7 +293,11 @@ But we can break down each word in this acronym to understand it altogether.
 - **Programming** refers to the process of writing code or software.
 - An 🕹️**interface** is a shared boundary across which two or more systems.
 
-So an API is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.
+{{<note type="Definition" title="Definition">}}
+
+An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.
+
+{{</note >}}
 
 We’ve encountered several functions like `console.log`, `Math.round` already.
 `console.log` and `Math.round` are parts of an **API**.
@@ -308,16 +320,18 @@ To work out how to write a test using Jest, we can check out the documentation.
 
 Let’s suppose we start with a project as follows: we have the following files in our project folder. We can create a file called `get-ordinal-number.js` and in there write our first test. We can figure out how to write this test using the Jest documentation. We can start writing a test:
 
-index.test.js
+get-ordinal-number.test.js
 
 ```js
 test("converts 1 to an ordinal number", function () {});
 ```
 
-The test function takes 2 arguments:
-A test description - `"converts 1 to an ordinal number"`, which describes the behaviour we're testing for and
+Let's break down this syntax.
+The `test` function is part of the Jest API: it is an interface we use to perform a particular task. In this case, we're using `test` to create a test case.
+Let's break down the arguments we're passing to `test`:
 
-a `function () {}` in which we will write our test code.
+- 1st argument: `"converts 1 to an ordinal number"`, which describes the behaviour we're testing for
+- 2nd argument: `function () {}`, we will write some assertions in this `function () {}` to check the behaviour
 
 ### Creating assertions
 
@@ -329,9 +343,10 @@ index.test.js
 test("converts 1 to an ordinal number", function () {});
 ```
 
-We need to write an assertion inside the body of `function () {}`
+We need to write an **assertion** inside the body of `function () {}`
 
-The assertion is the part of the test code that actually checks to see if something is true or not. In this example, we are claiming that the following is true:
+The assertion is the part of the test code that actually checks to see if something is true or not.
+In this example, we want to check that the following is true:
 
 We expect `getOrdinalNumber(1)` to be `"1st"`
 
@@ -342,7 +357,8 @@ expect(getOrdinalNumber(1)).toBe("1st");
 ```
 
 The function `toBe` is used to check that the current output of `getOrdinalNumber(1)` and the target output of `"1st"` are equal to each other.
-`toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers). A matcher is a function we use to compare values in Jest.
+`toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers).
+A matcher is a function we use to compare values in Jest.
 
 So we can combine this with the test we wrote earlier, to get our first complete test case:
 
@@ -363,9 +379,9 @@ node index.test.js
 but we get a `ReferenceError`.
 
 This is because `test` isn’t defined anywhere in the file.
-So we need to execute this file so that the `test` function is available in our file.
+So we need to execute this file so that the Jest API is available in our file.
 
-In the documentation, we're told to add the following to our package.json:
+In the documentation, we're told to add the following to our `package.json`:
 
 ```json {linenos=table,hl_lines=["4-6"],linenostart=1}
 {
@@ -394,11 +410,107 @@ This section is where we'll store some commands that we can use in our project. 
 }
 ```
 
+Now we can run the command `npm test`.
+
 When we run index.test.js with the test case then the console should display a passing test.
 
 ### Understanding test feedback
 
+After running some tests, we should get feedback indicating whether or not the test has passed.
+We currently have a project structure like this:
+
+```raw
+project
+├── package.json
+|_ get-ordinal-number.test.js
+└── node_modules
+```
+
+And `get-ordinal-number.test.js`
+looks like this
+
+```js
+test("converts 1 to an ordinal number", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+});
+```
+
+{{<note type="exercise" title="exercise">}}
+Predict what the test feedback will say when the test above is executed.
+{{</note>}}
+
+### 🚢 Exporting
+
+At the moment, our test feedback gives the following:
+
+![test-reference-error](test-reference-error.png)
+
+The test code is throwing a **ReferenceError**.
+So we need to define the function `getOrdinalNumber` and make it available to the test file.
+
+We can define a file called `get-ordinal-number.js`:
+
+get-ordinal-number.js
+
+```js
+function getOrdinalNumber() {}
+```
+
+{{<note type="exercise">}}
+Create your own file with the function defined above and then check the test output. What do you notice?
+{{</note>}}
+
+At the moment, the test output still tells us that there is a `ReferenceError`, telling us that `getOrdinalNumber` is not defined.
+To make `getOrdinalNumber` available to the test file, we need to **export** it.
+
+We can make use of the export syntax in Node:
+
+get-ordinal-number.js
+
+```js
+function getOrdinalNumber() {}
+
+module.exports = getOrdinalNumber;
+```
+
+`module.exports` is anything we want to export and make available to another file. We can assign `module.exports` to the function `getOrdinalNumber`.
+Once we've exported this function we can import it into the test file.
+
+get-ordinal-number.test.js
+
+```js
+const getOrdinalNumber = require("./get-ordinal-number.test.js");
+
+test("converts 1 to an ordinal number", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+});
+```
+
+Now we can run the tests again and we get the following:
+
 ### Assertion errors
+
+We now get the following feedback:
+
+![test-feedback-fail](test-feedback-fail.png)
+
+Jest tells us 3 main things:
+
+1. The test case that failed
+2. The targetOutput and the currentOutput
+3. The line number the test failed on.
+
+Jest defines **Expected** and **Received** in the test feedback:
+
+- Received: `undefined`
+- Expected: "1st"
+
+{{<note type="exercise">}}
+
+How do Received and Expected match up with the targetOutput and expectedOutput ?
+What line number did the test case fail on?
+
+{{</note>}}
 
 ### Passing `getOrdinalNumber`
 
