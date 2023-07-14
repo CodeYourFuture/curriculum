@@ -559,68 +559,24 @@ function getOrdinalNumber(num) {
 }
 ```
 
-However, we can look at more ordinal numbers later on:
-
-**numbers 11 - 20**
-| number | ordinal number |
-| ------ | -------------- |
-| 11 | 11**th** |
-| 12 | 12**th** |
-| 13 | 13**th** |
-| 14 | 14**th** |
-| 15 | 15**th** |
-| 16 | 16**th** |
-| 17 | 17**th** |
-| 18 | 18**th** |
-| 19 | 19**th** |
-| 20 | 20**th** |
-
-**numbers 21 - 30**
-| number | ordinal number |
-| ------ | -------------- |
-| 21 | 21**st** |
-| 22 | 22**nd** |
-| 23 | 23**rd** |
-| 24 | 24**th** |
-| 25 | 25**th** |
-| 26 | 26**th** |
-| 27 | 27**th** |
-| 28 | 28**th** |
-| 29 | 29**th** |
-| 30 | 30**th** |
+However, we can get ordinal numbers for numbers beyond 10.
 
 {{<note type="exercise">}}
 
-Compare the ordinal number tables **11 - 20** and **21 - 30**.
-What are the differences/similarities between these 2 tables?
-What are the differences/similarities between these tables and the **1 - 10** table in the first section?
+What are the ordinal numbers for
+a) 21
+b) 51
+c) 61
+
+Suggest a possible test case used to define the behaviour above.
 
 {{</note>}}
 
-The numbers 11 - 20 and 21 - 30 seem similar: however, there's a small difference.
-The numbers 11, 12 and 13 have ordinal numbers
+###  🧭 Future strategies
 
-But for 21 - 20,
+We could write another test case to isolate these cases like this:
 
-21 => 21**st**
-22 => 22**nd**
-23 => 23**rd**
-
-But for 11 - 29,
-
-11 => 11**th**
-12 => 12**th**
-13 => 13**th**
-
-21, 22 and 23 behave follow the pattern we saw in the first table.
-
-But 11, 12 and 13 are exceptions to this pattern.
-
-### 🧭 Future strategies
-
-We could write another test case to isolate the execeptional cases:
-
-```js
+```js {linenos=table,hl_lines=["22-26"],linenostart=1}
 function getOrdinalNumber(num) {
   if (num === 1) {
     return "1st";
@@ -642,17 +598,19 @@ test("converts 1-10 to an ordinal number", function () {
   expect(getOrdinalNumber(5)).toBe("5th");
 });
 
-test("handles exceptional cases 11-13", function () {
-  expect(getOrdinalNumber(11)).toBe("11th");
-  expect(getOrdinalNumber(12)).toBe("12th");
-  expect(getOrdinalNumber(13)).toBe("13th");
+test("numbers ending in 1 have st on the end", function () {
+  expect(getOrdinalNumber(21)).toBe("21st");
+  expect(getOrdinalNumber(31)).toBe("31st");
+  expect(getOrdinalNumber(61)).toBe("61st");
 });
 ```
 
-{{<note type="exercise">}}
+{{<note type="exercise" title="exercise">}}
 
-Compare the ordinal number tables **11 - 20** and **21 - 30**.
-What are the differences/similarities between these 2 tables?
-What are the differences/similarities between these tables and the **1 - 10** table in the first section?
+Predict what the feedback will be for the test case "handles exceptional cases 11-13"? Does it pass or fail, if so why?
+
+Before coding, outline a strategy for handling the second test case.
+
+Think carefully about how you can update `getOrdinalNumber` so it works in both cases.
 
 {{</note>}}
