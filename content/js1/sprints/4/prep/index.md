@@ -117,7 +117,7 @@ In other words, a specification is a set of requirements for how a piece of soft
 
 Once we have a specification for how the function should work we can create many cases showing how we expect the function `getOrdinalNumber` to behave when it is called with certain inputs.
 
-### Describing functionality
+### 🖼️ Using a test framework
 
 To implement a function like `getOrdinalNumber` we can try specifying a single case:
 
@@ -130,8 +130,6 @@ const targetOutput = "1st";
 ```
 
 Case 1 states that when `getOrdinalNumber` is called with an input of 1, it has a target output of "1st".
-
-### 🖼️ Using a test framework
 
 Our aim is to check that `getOrdinalNumber` works as we described in the case above.
 
