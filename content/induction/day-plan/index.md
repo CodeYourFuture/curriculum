@@ -23,6 +23,11 @@ src="module"
 name="lunch"
 [[blocks]]
 name="Git workshop"
-time="120"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/breakdown"
+time="120"
+[[blocks]]
+name="next-steps"
+src="module"
+[[blocks]]
+name="retro"
 +++

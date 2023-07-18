@@ -13,6 +13,10 @@ At Code Your Future, we learn as a **community.**
 
 In this session, we're going to describe how we harness our community to overcome obstacles and develop our understanding.
 
+### Resources
+
+The facilitator will need to use this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVPy92Cu8=/)
+
 ### Preparation
 
 - [ ] Facilitator: Review this [presentation](https://miro.com/app/board/uXjVPy92Cu8=/) before class.
