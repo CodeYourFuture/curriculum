@@ -25,6 +25,51 @@ Get a local copy of a repository on your local machine
 Given a local repository, make a local change and inspect the Source Control panel in VSCode
 Given a local repository, make some local changes and commit those changes
 
+## 📝 CYF blog
+
+Imagine is someone is creating an educational content for a blog at CYF.
+
+You can find a link to the blog here.
+
+The blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
+
+{{<note type="definition" title="definition">}}
+Live means an web application is up and running and available for use by users on the internet
+{{</note>}}
+
+{{<note type="exercise" title="exercise">}}
+Try exploring the site above. Try clicking around different links on the site and check to see if they're working.
+{{</note>}}
+
+## 💾 Saving changes
+
+You may have tried dealing with a project by creating multiple copies of a file. You may have ended up with something that looks like this.
+
+Instead we can develop applications using different versions.
+
+{{<note type="activity" title="activity">}}
+
+Try explaining why we try the person above has tried to manage their file in this way. Describe some of the problems that occur when we try managing versions of a document in this way.
+
+{{</note>}}
+
+## Different versions
+
+We have a need for a way of creating and managing different versions of our project over time.
+
+{{<note type="exercise" title="exercise">}}
+
+Here are some links to the different versions of the same CYF educational backlog
+
+[Version A educational blog](https://64b6fd80d14d510008aab4aa--git-demo-week1.netlify.app)
+[Version B educational blog](https://64b6f8e6044ccc0742386430--git-demo-week1.netlify.app/)
+[Version C educational blog](https://64b6fd80d14d510008aab4aa--git-demo-week1.netlify.app/)
+
+Answer the following questions:
+a) What is the difference between Version A and Version B on the README page.
+
+{{</note>}}
+
 ## 📜 Code base
 
 Today our lives depends on countless applications that we access on digital devices. These applications run on these devices, and in order to carry out their tasks they make use of software ( or instructions for machines ). A code base is defined as the all code required to implement an application. So a code base is a collection of files and folders that represent all the code we need for a particular application.
@@ -110,7 +155,7 @@ Do the same but for the commit "edf89".
 
 ## 🍴 Forking a repository
 
-Often we want to take an existing project and start working on it independtly: in other words, we start making our own versions of the project separate from the original project.
+Often we want to take an existing project and start working on it independently: in other words, we start making our own versions of the project separate from the original project.
 
 {{<note type="exercise" title="Exercise 5.1">}}
 
