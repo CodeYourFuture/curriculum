@@ -528,6 +528,7 @@ Jest defines **Expected** and **Received** in the test feedback:
 
 {{<note type="exercise" title="exercise">}}
 
+What are the values of Expected and Received in the test output?
 How do Received and Expected match up with the targetOutput and expectedOutput ?
 
 What line number did the test case fail on?
@@ -551,21 +552,36 @@ test("converts 1 to an ordinal number", function () {
 });
 ```
 
-### 💼 More test cases
+### 🗄️ Generalising further
 
-We can now go further and add more assertions based on the table we saw describing `getOrdinalNumber` at the start. We can also update the test case if our test case has changed.
+In English, ordinal numbers mostly follow the same pattern.
+
+> Numbers ending in 1 will generally have an ordinal number ending in "st".
+
+Here are some examples of this pattern,
+
+1st, 11**th**, 21st, 31st, 41st,...
+
+All the numbers ending in 1 will continue to end in "st", with the exception of 11.
+11 is slightly different and ends with a "th".
+
+We can now create a test case to check that `getOrdinalNumber` works for _any_ number ending in 1.
 
 get-ordinal-number.test.js
 
-```js
-test("converts 1-10 to an ordinal number", function () {
+```js {linenos=table,hl_lines=["5-9"],linenostart=1}
+function getOrdinalNumber() {
+  return "1st";
+}
+
+test("works for any number ending in 1", function () {
   expect(getOrdinalNumber(1)).toBe("1st");
-  expect(getOrdinalNumber(2)).toBe("2nd");
-  expect(getOrdinalNumber(3)).toBe("3rd");
-  expect(getOrdinalNumber(4)).toBe("4th");
-  expect(getOrdinalNumber(5)).toBe("5th");
+  expect(getOrdinalNumber(11)).toBe("11th");
+  expect(getOrdinalNumber(21)).toBe("21st");
 });
 ```
+
+We've also updated the test description because we're adding more assertions and checking slightly different functionality.
 
 {{<note type="exercise" title="exercise">}}
 
@@ -579,35 +595,24 @@ Can we add any more assertions to this test case?
 
 ### 🧰 Implementing further functionality
 
-We may now have an implementation of `getOrdinalNumber` that looks like this:
+We can now implement functionality for `getOrdinalNumber`.
 
-```js
+Our strategy might be something like this:
+
+```js {linenos=table,hl_lines=["5-9"],linenostart=1}
 function getOrdinalNumber(num) {
-  if (num === 1) {
-    return "1st";
+  if (num === 11) {
+    return "11th";
   }
-  if (num === 2) {
-    return "2nd";
-  }
-  if (num === 3) {
-    return "3rd";
-  }
-  return `${num}th`;
+  return `${num}st`;
 }
+
+test("works for any number ending in 1", function () {
+  expect(getOrdinalNumber(1)).toBe("1st");
+  expect(getOrdinalNumber(11)).toBe("11th");
+  expect(getOrdinalNumber(21)).toBe("21st");
+});
 ```
-
-However, we can get ordinal numbers for numbers beyond 10.
-
-{{<note type="exercise" title="exercise">}}
-
-What are the ordinal numbers for
-a) 21
-b) 51
-c) 61
-
-Suggest a possible test case used to define the behaviour above.
-
-{{</note>}}
 
 ###  🧭 Future strategies
 
