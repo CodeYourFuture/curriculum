@@ -182,9 +182,9 @@ $ pwd
 
 {{</note>}}
 
-To start, we need a `package.json` file in our project.
+To start, we need to create a file called `package.json` in our project.
 
-> A `package.json` is used to store useful information about our current project, like the name, description etc.
+> A `package.json` is used to store useful information about our current project, like the name, description, version etc.
 
 We can create a `package.json` file and add the following to it:
 
@@ -228,7 +228,7 @@ In JavaScript, we can use **npm**.
 
 ### 🃏 Installing Jest
 
-Our first step will be to figure out how to install the Jest package on our machine.
+Our next step will be to figure out how to install the Jest package on our machine.
 
 We can find out more about the Jest framework from the [documentation online](https://jestjs.io/docs/getting-started).
 
@@ -340,7 +340,16 @@ But we can break down each word in this acronym to understand it altogether.
 
 An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.
 
+We’ve encountered several functions like `console.log`, `Math.round` already.
+`console.log` and `Math.round` are **API**s.
+
 {{</note >}}
+
+{{<note type="exercise" title="exercise">}}
+
+Explain why `Math.round` is an **API**
+
+{{</note>}}
 
 {{<note type="exercise" title="exercise">}}
 
@@ -348,9 +357,6 @@ An **API** is a boundary between a programmer and an application, enabling a pro
 
 There should be one more change to your project after running the installation command. Use documentation or ChatGPT to figure out what this change is for.
 {{</note>}}
-
-We’ve encountered several functions like `console.log`, `Math.round` already.
-`console.log` and `Math.round` are parts of an **API**.
 
 ### 🖌️ First test case
 
