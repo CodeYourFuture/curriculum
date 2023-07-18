@@ -562,8 +562,8 @@ Here are some examples of this pattern,
 
 1st, 11**th**, 21st, 31st, 41st,...
 
-All the numbers ending in 1 will continue to end in "st", with the exception of 11.
-11 is slightly different and ends with a "th".
+All the numbers ending in 1 will continue to end in ` "st"``, with the exception of 11.
+11 is slightly different and ends with a  `"th"`.
 
 We can now create a test case to check that `getOrdinalNumber` works for _any_ number ending in 1.
 
@@ -593,13 +593,28 @@ Can we add any more assertions to this test case?
 
 {{</note>}}
 
-### 🧰 Implementing further functionality
+### 🧰 Handling outliers
 
 We can now implement functionality for `getOrdinalNumber`.
 
 Our strategy might be something like this:
 
-```js {linenos=table,hl_lines=["5-9"],linenostart=1}
+```mermaid
+
+flowchart LR
+
+A{Check is num 11} -- true --> B[return 11th]
+A -- false --> C[return num + st]
+```
+
+Most of the time we just need to return the number with "st" on the end.
+However, 11 is an outlier: it doesn't conform to the pattern.
+
+So our current strategy for this test case will be to check if the number is 11 first and do something differently ( return `"11th"` ): otherwise we return the default value of num with `"st"` on the end.
+
+Here's the implementation:
+
+```js {linenos=table,hl_lines=["1-5"],linenostart=1}
 function getOrdinalNumber(num) {
   if (num === 11) {
     return "11th";
@@ -616,43 +631,39 @@ test("works for any number ending in 1", function () {
 
 ###  🧭 Future strategies
 
-We could write another test case to test for cases as those defined above.
+Now, we've handled any numerical inputs ending in 1. We can try to build up functionality for _any_ number ending in 2.
 
-```js {linenos=table,hl_lines=["22-26"],linenostart=1}
+We can start simply by adding a test case that only asserts something about the input of 2.
+
+```js {linenos=table,hl_lines=["14-16"],linenostart=1}
 function getOrdinalNumber(num) {
-  if (num === 1) {
-    return "1st";
+  if (num === 11) {
+    return "11th";
   }
-  if (num === 2) {
-    return "2nd";
-  }
-  if (num === 3) {
-    return "3rd";
-  }
-  return `${num}th`;
+  return `${num}st`;
 }
 
-test("converts 1-10 to an ordinal number", function () {
+test("works for any number ending in 1", function () {
   expect(getOrdinalNumber(1)).toBe("1st");
-  expect(getOrdinalNumber(2)).toBe("2nd");
-  expect(getOrdinalNumber(3)).toBe("3rd");
-  expect(getOrdinalNumber(4)).toBe("4th");
-  expect(getOrdinalNumber(5)).toBe("5th");
+  expect(getOrdinalNumber(11)).toBe("11th");
+  expect(getOrdinalNumber(21)).toBe("21st");
 });
 
-test("numbers ending in 1 have st on the end", function () {
-  expect(getOrdinalNumber(21)).toBe("21st");
-  expect(getOrdinalNumber(31)).toBe("31st");
-  expect(getOrdinalNumber(61)).toBe("61st");
+test("converts 2 to an ordinal number", function () {
+  expect(getOrdinalNumber(2)).toBe("2nd");
 });
 ```
 
 {{<note type="exercise" title="exercise">}}
 
-Predict what the feedback will be for the test case "numbers ending in 1 have st on the end"? Does it pass or fail, if so why?
+Predict what the feedback will be for the test case "converts 2 to an ordinal number"? Does it pass or fail, if so why?
 
 Before coding, outline a strategy for handling the second test case.
 
-Why is 11 not part of the test case above?
+{{</note>}}
+
+{{<note type="exercise" title="exercise">}}
+
+How can you update the test second test case to check `getOrdinalNumber` works for any numerical input ending in 2?
 
 {{</note>}}
