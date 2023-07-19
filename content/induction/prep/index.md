@@ -238,10 +238,15 @@ In other words, we need to get a copy of the codebase on Github on to our device
 
 {{<note type="exercise" title="Exercise">}}
 
-🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
+## 👣 Follow the steps
 
-1. Research a command you can use to get a local copy of a repository on your local machine.
-   Use this command to check
+You'll need to follow the steps below so we can achieve the following goal:
+
+> 🎯 Goal: Clone a remote repository to our local machine
+
+You'll need to clone the following repository 👉 https://github.com/Co deYourFuture/cyf-demo-repo
+
+To achieve this goal, follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs
 
 {{</note>}}
 
