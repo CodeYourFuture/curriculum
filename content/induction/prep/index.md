@@ -27,29 +27,118 @@ Given a local repository, make some local changes and commit those changes
 
 ## 📝 CYF blog
 
-Imagine is someone is creating an educational content for a blog at CYF.
+Imagine a scenario where 2 people are writing a blog.
+Ahmed and Naima are co-authoring an educational blog to document the things they're struggling with at CYF.
 
-You can find a link to the blog here.
-
-The blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
-
-{{<note type="definition" title="definition">}}
-Live means an web application is up and running and available for use by users on the internet
-{{</note>}}
+The published blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
 
 {{<note type="exercise" title="exercise">}}
 Try exploring the site above. Try clicking around different links on the site and check to see if they're working.
 {{</note>}}
 
-## 💾 Saving changes
+This is their current work process for developing the blog together:
 
-You may have tried dealing with a project by creating multiple copies of a file. You may have ended up with something that looks like this.
+- writing the blog in a single file by sharing a **single** computer
+- saving multiple versions of the file on a single computer
+- they take it in turns to the use the computer at different points in the day
 
-Instead we can develop applications using different versions.
+At the moment, the computer has a folder with the work that looks like this:
 
-{{<note type="activity" title="activity">}}
+![different-blog-versions](different-blog-versions.png)
 
-Try explaining why we try the person above has tried to manage their file in this way. Describe some of the problems that occur when we try managing versions of a document in this way.
+{{<note type="activity" title="activity 1.1">}}
+
+Describe some of the challenges that Ahmed and Naima face when trying to write a blog together in this way.
+
+{{</note>}}
+
+## ⌛ Shared history
+
+> To improve their way of working, Ahmed and Naima realise they need the following:
+>
+> - want to see a history or timeline of our project as it changes over time
+> - a way to create and manage the different versions in the history of our project
+> - a way to share the history of the project between different users
+
+{{<note type="activity" title="activity 1.1">}}
+
+To manage the different versions of the blog project, they decide to use Git.
+
+{{</note>}}
+
+{{<note type="definition">}}
+
+Git is **version control software** that allows developers to create and manage different version of a project
+
+{{</note>}}
+
+In Git, we create different versions of a project over time by creating a **commit**.
+
+A **commit** is a snapshot of our project at a particular point in time. You can also think of a **commit** as a particular version of a project in time.
+
+**Commits** will give us the following information👍
+
+- what changed in this commit
+- who created the change
+- what time the change happen
+- what the previous commit was
+
+A typical timeline of commits might look like this:
+
+![commit-history](commit-history.png)
+
+{{<note type="exercise" title="exercise">}}
+
+## Explore 🔍
+
+Go to the following link: https://github.com/CodeYourFuture/git-demo/commits/main
+
+Try answering the following questions:
+
+Go to the commit that says "add test p element to index page"
+
+![highlight-2nd-commit.png]
+
+Try answering the following questions:
+
+- How many files were changed in this commit?
+- Who created the change?
+- What time did the change take place?
+
+{{</note>}}
+
+## 🗄️ 🌐 Sharing histories
+
+One of the previous needs earlier was as follows:
+
+> a way to share the history of the project between different users
+
+We want to develop a project ( like the blog ) but we will also want to collaborate with other users. So we can also store our projects and their history online.
+
+**Github** is an online platform where teams can store their projects and histories online.
+On Github we call our project and its history a **repository**.
+
+{{<note type="exercise" title="Exercise 1.1">}}
+
+## Explore 🔍
+
+⚠️ In this exercise, you'll need to explore a Github repository.
+You'll need to look around and figure out where to find different files and find out information about them.
+You won't be expected to know what the files do at this stage.
+
+Go to the following link: https://github.com/CodeYourFuture/git-demo
+
+It will take you to the Github repo called **git-demo**.
+
+Follow the link below: figure out the answer to the following questions.
+Follow the link to the project.
+
+Answer the following questions:
+
+a) Look at the README.md. Read the instructions on there?
+b) How many files are there inside the `blogs` folder?
+c) How many lines are there in the **package.json**?
+d) Find the file with the blog content you can see on the [live website here](https://git-demo-week1.netlify.app/)
 
 {{</note>}}
 
@@ -69,57 +158,6 @@ Answer the following questions:
 a) What is the difference between Version A and Version B on the README page.
 
 {{</note>}}
-
-## 📜 Code base
-
-Today our lives depends on countless applications that we access on digital devices. These applications run on these devices, and in order to carry out their tasks they make use of software ( or instructions for machines ). A code base is defined as the all code required to implement an application. So a code base is a collection of files and folders that represent all the code we need for a particular application.
-
-## 🗃️ Repository
-
-A repository is a place where we store files and folders used to build a software project.W
-We can now think about the
-
-## 🗄️ Storing repositories
-
-Github is a web-based platform used to store repositories. Github is a place where repositories are **hosted**. IN other words, a repository for a project is available over a network. THis means a Github repository can be accessed by multiple developers across a network where they can collaborate on the project.
-
-{{<note type="exercise" title="Exercise 1.1">}}
-
-Follow the link below: figure out the answer to the following questions.
-Follow the link to the project.
-
-Answer the following questions:
-
-a) Look at the README.md. Read the instructions on there
-b) How many folders are there in the project?
-c) How many files are there in the project?
-
-{{</note>}}
-
-## 📸 Different versions
-
-Building software is difficult: it is easy for developers to make errors and program computers to do the wrong thing.
-Imagine a situation where we're making changes to a single file.
-We might want to make a change so we have to edit this file and then to fix a mistake. We then save the changes.
-This means the old version of the file is overwritten and we're left with the newly saved file.
-
-{{<note type="exercise" title="Exercise 2.1">}}
-
-Why is it important to build up different versions of a project over time?
-If we build up a collection of different versions in our project?
-
-{{</note>}}
-
-Imagine if you want to track the growth of a plant over time.
-You could start by taking a photo at the very beginning.You could then add water to the plant to help it grow and then take another photo of the plant. You could continue taking photos this way. Each photo is a snapshot: a record of the plant at a given moment in time.
-In a similar way, we want to build up snapshots of our project's repository over time.
-can think of a **commit** as a snapshot of our project at a given moment in time.
-
-{{<note type="definition" title="Definition">}}
-
-A **commit** is a version of our code base at a particular point in time: in other words, a commit is a snapshot
-
-{{</note >}}
 
 {{<note type="exercise" title="Exercise">}}
 
@@ -190,9 +228,9 @@ You'll need a place to store the repositories you'll use on the CYF course.
 
 {{</note>}}
 
-## Version control software
+## Going local
 
-**Version control software** is software that allows developers to create and manage the versions of a codebase. **Git** is a particular tye of version control software. **Github** is built using Git. However, we can also Git on our local machine to perform similar tasks as we do on Github. The first task we have is This
+However, we can also use Git on our local machine to perform similar tasks as we do on Github. The first task we have is This
 
 > ? How can we get a local copy of an existing Github repository on our local machine.
 
