@@ -2,7 +2,7 @@
 title = 'day-plan'
 layout = 'day-plan'
 emoji= '📝'
-menu_level = ['module']
+menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Induction'
 backlog_filter= 'Week 1'
@@ -23,7 +23,7 @@ src="module"
 name="lunch"
 [[blocks]]
 name="Git workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/breakdown"
+src="https://github.com/CodeYourFuture/CYF-Workshops/blob/rewrite/git-day-1/git-day-1/README.md"
 time="120"
 [[blocks]]
 name="next-steps"
