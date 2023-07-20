@@ -113,7 +113,7 @@ It will take you to a Github repository called **education-blog**.
 
 Answer the following questions using the page linked to above:
 
-a) Look at the README.md. Read the instructions on there?
+a) Look at the README.md. What do the instructions tell you?
 b) How many files are there inside the `blogs` folder?
 c) How many lines are there in the **package.json**?
 d) Find the file with the blog content you can see on the [live website here](https://git-demo-week1.netlify.app/)
@@ -142,7 +142,7 @@ Try answering the following questions:
 
 {{</note>}}
 
-## Different versions
+## Previous versions
 
 We have a need for a way of creating and managing different versions of our project over time.
 
@@ -156,20 +156,6 @@ Here are some links to the different versions of the same CYF educational backlo
 
 Answer the following questions:
 a) What is the difference between Version A and Version B on the README page.
-
-{{</note>}}
-
-## 🔍 Check out a commit
-
-What is _in_ a commit? We can recall that a commit is a snapshot of a codebase. Therefore, we should be able to check out the codebase at a given point in the timeline and look at the files and folders there. We can use the Github website to not only see the different **commits** in our project - we can also check out the files and folders at a given point in the history.
-
-{{<note type="exercise" title="Exercise 4.1">}}
-
-Go back to this page GITHUB_REPO_URL to look at the following:
-
-and look at one of the commit with hash "d3567h" and then look for the icon that that says "Browse the repository at this point in the history".
-
-Do the same but for the commit "edf89".
 
 {{</note>}}
 
@@ -194,41 +180,49 @@ When we create a fork on Github, the new forked repository gets a new url:
 
 {{<note type="exercise" title="Exercise 5.1">}}
 
+### 🍴 Forking a repo
+
 Visit the following https://github.com/CodeYourFuture/education-blog and firstly locate the Fork button on this page.
 
 Click on the Fork button to create a new fork of the repository and set yourself as the owner of the fork.
+
+📋 How can you check you successfully forked the original repository?
+
+{{<details summary="hint">}}
+Hint: Check the url of your forked repository
+{{</details>}}
 
 {{</note>}}
 
 ## 💻 Working locally
 
-We can use Github to view and manage repositories. However, we can also work with repositories locally. **Locally** means taking a copy of a repository on Github and downloading it on to our local machine where we can look around and make changes without being on Github.
+We can also use Git on our local machine to perform similar tasks as we do on Github. So we have the following question:
 
-{{<note type="exercise" title="Exercise 6.1">}}
+{{<note type="question" title="❓">}}
 
-🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
-
-Firstly,
+How can we get a local copy of an existing Github repository on our local machine.
 
 {{</note>}}
 
-## Going local
+In other words, we need to get a copy of the repository on Github on to our device.
 
-However, we can also use Git on our local machine to perform similar tasks as we do on Github. The first task we have is This
+{{<note type="note" title="cloning">}}
 
-> ? How can we get a local copy of an existing Github repository on our local machine.
+We call a local copy of a Github repository a **clone**.
 
-In other words, we need to get a copy of the codebase on Github on to our device.
+The process of copying a remote repo on to a local machine is known as **cloning**.
 
-{{<note type="exercise" title="Exercise">}}
+{{</note>}}
 
-## 👣 Follow the steps
+{{<note type="exercise" title="Exercise 6.1 - 👣 Follow the steps">}}
 
-> 🎯 Goal: Clone a remote repository to our local machine
+###
 
-You'll need to follow the steps below so we can achieve the following goal:
+> 🎯 Goal: Clone a remote repository to your local machine
 
-You'll need to clone the following repository 👉 https://github.com/CodeYourFuture/cyf-demo-repo
+You'll need to use the information below so we can achieve the following goal:
+
+You'll need to clone the following repository 👉 https://github.com/CodeYourFuture/education-blog
 
 To achieve this goal, follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs
 
@@ -236,7 +230,9 @@ To achieve this goal, follow through the steps in this video 👉 https://www.yo
 
 ## 📘 Viewing the files
 
-Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode; VSCode is an application that enables developers to view and edit files on their local machine.
+Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.
+
+VSCode is an application that enables developers to view and edit files on their local machine.
 
 {{<note type="exercise" title="Exercise">}}
 
