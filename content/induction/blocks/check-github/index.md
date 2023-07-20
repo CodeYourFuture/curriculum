@@ -1,7 +1,7 @@
 +++
 title = '📋 Setting up Coursework planner'
 headless = true
-time = 45
+time = 15
 facilitation = false
 vocabulary=[""]
 emoji= '🧩'
@@ -12,4 +12,6 @@ emoji= '🧩'
 
 ### GitHub
 
-In the Fundamentals, you should have set up your Coursework planner. Ensure you've completed the following issue 👉 https://github.com/CodeYourFuture/Coursework-Planner/blob/main/readme.md
+In the Fundamentals, you should have set up your Coursework planner.
+
+Ensure you've completed the following issue 👉 https://github.com/CodeYourFuture/Coursework-Planner/blob/main/readme.md

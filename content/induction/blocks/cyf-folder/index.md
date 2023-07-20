@@ -6,10 +6,12 @@ facilitation = false
 vocabulary=[""]
 emoji= '🧩'
 [objectives]
-1='Double check Github account is setup'
-2='Double check Course planner is setup'
+1='Create a cyf directory to store your work over the course'
 +++
 
 ### Create a cyf folder on your hard drive
 
-If you have not done so already, create a CYF folder on your hard drive in your home directory or top level directory.
+If you have not done so already, you'll need to create a CYF folder to store your work on the course.
+
+1. Go to a terminal on your computer
+2. Check your pwd
