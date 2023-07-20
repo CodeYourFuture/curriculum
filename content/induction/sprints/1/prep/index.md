@@ -11,7 +11,6 @@ backlog_filter= 'Induction'
 
 ## Learning objectives
 
-Define a code base
 Define a repository
 Explain why we use Github
 Given a remote or local repository, identify the number of commits
@@ -20,27 +19,25 @@ Given a remote or local repository, identify the files and folders from any comm
 Describe the purpose of version control
 Explain the difference between Git and Github
 Get a local copy of a repository on your local machine
-Given a local repository, make a local change and inspect the Source Control panel in VSCode
-Given a local repository, make some local changes and commit those changes
 
 ## 📝 CYF blog
 
 Imagine a scenario where 2 people are writing a blog.
-Ahmed and Naima are co-authoring this blog to document the things they're struggling with whilst learning to code.
+Ahmed and Naima are co-authoring a blog to document the things they're struggling with whilst learning to code.
 
 The published blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
 
 {{<note type="exercise" title="exercise 1.1">}}
-Try exploring the site above. Try clicking around different links on the site and check to see if they're working.
+Try exploring the site above. Try clicking on the link on the site and check to see if its working.
 {{</note>}}
 
-## 🧰 Work process
+## 🧰 Development process
 
-Ahmed and Naima are currently using the following **work process** for writing the blog:
+Ahmed and Naima are currently using the following **development process** for writing the blog:
 
-- writing the blog in a single file on a **single** computer
-- saving multiple versions of the file on the same computer
-- they take it in turns to the use the computer at different points in the day
+> - writing the blog in a single file on a **single** computer
+> - saving multiple versions of the file on the same computer
+> - they take it in turns to the use the computer at different points in the day
 
 At the moment, the computer has a folder with the blog that looks like this:
 
@@ -49,7 +46,8 @@ At the moment, the computer has a folder with the blog that looks like this:
 {{<note type="exercise" title="exercise 1.2">}}
 
 Describe some of the challenges that Ahmed and Naima face when trying to write a blog together in this way.
-Try asking on Slack to see if your cohort colleagues came up with similar answers.
+
+Try creating a thread 🧵 Slack to see if your cohort colleagues came up with similar answers.
 
 {{</note>}}
 
@@ -60,7 +58,7 @@ Try asking on Slack to see if your cohort colleagues came up with similar answer
 > - a way to create and manage the different versions of their project
 > - a way to share the history of the project between different users
 
-To manage the different versions of the blog project, they decide to use Git.
+To manage the different versions of the blog project, they decide to use **Git**.
 
 {{<note type="definition" title="definition">}}
 
@@ -85,13 +83,13 @@ A typical timeline of commits might look like this:
 
 ## 🗄️ 🌐 Sharing history
 
-Earlier on, Ahmed and Naima realised they needed the following:
+Earlier on, Ahmed and Naima realised they also need the following:
 
 > a way to share the history of the project between different users
 
 To share a project and its history, we can use an online platform called **Github**
 
-**Github** is an online platform where teams can store their projects and histories online.
+**Github** is an online platform where teams can store their projects and its history of versions online.
 
 {{<note type="definition" title="Definition">}}
 On Github we call our project and its history a **repository**.
@@ -113,14 +111,16 @@ It will take you to a Github repository called **education-blog**.
 
 Answer the following questions using the page linked to above:
 
-a) Look at the README.md. What do the instructions tell you?
+a) View the **README.md** file. What do the instructions tell you?
 b) How many files are there inside the `blogs` folder?
-c) How many lines are there in the **package.json**?
-d) Find the file with the blog content you can see on the [live website here](https://git-demo-week1.netlify.app/)
+c) How many lines are there in the **package.json** file?
+d) Find the file with the blog content you can see on the live site here [blog 1](https://git-demo-week1.netlify.app/blogs/1)
+
+You'll learn more about these type of files throughout the course.
 
 {{</note>}}
 
-We can use the Github interface to explore the different **commits** ( versions ) of the project.
+> We can use the Github interface to explore the different **commits** ( versions ) of a project.
 
 {{<note type="exercise" title="exercise 2.2">}}
 
@@ -142,20 +142,57 @@ Try answering the following questions:
 
 {{</note>}}
 
+{{<note type="exercise" title="exercise 2.3">}}
+
+### Explore 🔍
+
+Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main
+
+Try answering the following questions:
+
+Go to the commit that says "remove \ and # from start of paragraph"
+
+Try answering the following questions:
+
+- How many files were changed in this commit?
+- What change was made in this commit?
+
+{{</note>}}
+
 ## 📜 Previous versions
 
-We have a need for a way of creating and managing different versions of our project over time.
+We can view the different commits of a project on Github.
+
+Therefore we can also see what the website looked at previous versions.
 
 {{<note type="exercise" title="exercise 3.1">}}
 
 Here are some links to the different versions of the same CYF educational backlog
 
-[Version A educational blog](https://64b6fd80d14d510008aab4aa--git-demo-week1.netlify.app)
-[Version B educational blog](https://64b6f8e6044ccc0742386430--git-demo-week1.netlify.app/)
-[Version C educational blog](https://64b6fd80d14d510008aab4aa--git-demo-week1.netlify.app/)
+[Deployed version A educational blog](https://64b6f9a2b9c00a00082bbeeb--git-demo-week1.netlify.app/)
+
+<!---
+Version A should have a test p element on the index page
+-->
+
+[Deployed version B educational blog](https://64b6fd80d14d510008aab4aa--git-demo-week1.netlify.app/)
+
+<!---
+Version B should have nothing on the index page
+-->
+
+[Deployed version C educational blog](https://64b971b0adae9e00089d7531--git-demo-week1.netlify.app/)
+
+<!---
+Version C should be same as production deployment but with some rogue characters on the page
+-->
 
 Answer the following questions:
-a) What is the difference between Version A and Version B on the README page.
+
+a) What is the difference between Version A and Version B on the index page ( the page you first land on after clicking on the link )
+b) What is the difference between Version C and the main version of the site.
+c) Which commit from the [**education-blog**](https://github.com/CodeYourFuture/education-blog/commits/main) repo correspond to Version C? Remember to check the git history.
+d) Which commit from the [**education-blog**](https://github.com/CodeYourFuture/education-blog/commits/mainLive) repo correspond to Version A?
 
 {{</note>}}
 
@@ -188,9 +225,7 @@ Click on the Fork button to create a new fork of the repository and set yourself
 
 📋 How can you check you successfully forked the original repository?
 
-{{<details summary="hint">}}
 Hint: Check the url of your forked repository
-{{</details>}}
 
 {{</note>}}
 
