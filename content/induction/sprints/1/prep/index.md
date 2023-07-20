@@ -142,7 +142,7 @@ Try answering the following questions:
 
 {{</note>}}
 
-## Previous versions
+## 📜 Previous versions
 
 We have a need for a way of creating and managing different versions of our project over time.
 
