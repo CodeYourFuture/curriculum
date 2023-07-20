@@ -46,7 +46,7 @@ At the moment, the computer has a folder with the blog that looks like this:
 
 ![different-blog-versions](different-blog-versions.png)
 
-{{<note type="exercise" title="activity 1.2">}}
+{{<note type="exercise" title="exercise 1.2">}}
 
 Describe some of the challenges that Ahmed and Naima face when trying to write a blog together in this way.
 Try asking on Slack to see if your cohort colleagues came up with similar answers.
@@ -146,7 +146,7 @@ Try answering the following questions:
 
 We have a need for a way of creating and managing different versions of our project over time.
 
-{{<note type="exercise" title="exercise">}}
+{{<note type="exercise" title="exercise 3.1">}}
 
 Here are some links to the different versions of the same CYF educational backlog
 
@@ -194,7 +194,7 @@ When we create a fork on Github, the new forked repository gets a new url:
 
 {{<note type="exercise" title="Exercise 5.1">}}
 
-Visit the following https://github.com/CodeYourFuture/education-blog and firstly identify the Fork button.
+Visit the following https://github.com/CodeYourFuture/education-blog and firstly locate the Fork button on this page.
 
 Click on the Fork button to create a new fork of the repository and set yourself as the owner of the fork.
 
@@ -209,21 +209,6 @@ We can use Github to view and manage repositories. However, we can also work wit
 🔍 Figure it out - in this exercise, you'll need to figure out how to do something. Even though it is a little unfamiliar.
 
 Firstly,
-
-1. Open a terminal on your computer.
-
-For each of the steps below, you'll need to use your terminal to carry out the commands below.
-You can use the [documentation](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
-
-2. Print your current working directory.
-3. List the files and folders in your current working directory.
-
-You'll need a place to store the repositories you'll use on the CYF course.
-
-4. Make a new directory called `cyf` in your home directory.
-5. Change directory into the `cyf` directory.
-6. Using the terminal, use a command to create a new directory called "CYF". You'll use this directory to store the files and folders in your project.
-7. Change your working directory to the "CYF" directory.
 
 {{</note>}}
 
@@ -255,15 +240,8 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 {{<note type="exercise" title="Exercise">}}
 
-Figure out how to open the cloned repository on your local machine in VSCode. Explore the repository in VSCode and use the code editor to look at the various files and folders.
+Figure out how to open the cloned repository on your local machine in VSCode.
 
-{{</note>}}
-
-## Source Control
-
-We can use the **Source Control** tab in VSCode to manage the commits in our project.
-Check out this video to familarise yourself about the VSCode source control panel ahead of Saturday's session.
-
-{{<note>}}
+Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
 {{</note>}}
