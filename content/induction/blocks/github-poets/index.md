@@ -1,7 +1,7 @@
 +++
 title = '📖 Git and Github for poets'
 headless = true
-time = 20
+time = 15
 facilitation = false
 vocabulary=[""]
 emoji= '🧩'
