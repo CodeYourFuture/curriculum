@@ -1,7 +1,7 @@
 +++
 title = '🧰 Install VSCode'
 headless = true
-time = 40
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
