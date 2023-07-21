@@ -275,4 +275,71 @@ Figure out how to open the cloned repository on your local machine in VSCode.
 
 Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
+Try opening the Integrated Terminal in your VSCode window
+
+{{</note>}}
+
+## 🌳 Branching
+
+We can check the commits on the remote repository as before:
+
+![commit-history](commit-history.png)
+
+On the left page of the page, we see additional information:
+
+![main-branch-highlighted](main-branch-highlighted.png)
+
+> So what is **`main`**?
+
+`main` is a **branch**.
+
+Commits form a sequence that look like this:
+
+```mermaid
+gitGraph
+       commit
+       commit
+       commit
+```
+
+The **main branch** is a sequence of commits. It represents a particular line of development in a project.
+
+{{<note type="definition" title="definition">}}
+
+A **branch** is a sequence of commits in a project.
+
+{{</note>}}
+
+Often we want to start work on a particular change _without_ altering the history in a particular branch.
+
+Instead we can create a new branch to start producing our own work.
+
+We can start to create independent branches like this:
+
+```mermaid
+gitGraph
+        commit
+        commit
+        branch "week-1-coursework"
+        commit
+        commit
+        commit
+```
+
+In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
+
+{{<note type="exercise" title="exercise 7.1">}}
+
+### Creating a local branch
+
+1. Open the `education-blog` repository in VSCode.
+
+2. [Open the terminal](https://code.visualstudio.com/docs/terminal/basics) in VSCode
+
+3. Use the command line to check your current working directory and list the contents of the current directory. Double check you're in the right place.
+
+4. Using this clip, create a new branch called `update-blog-1` in your local repository 👉 https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw
+
+📋 How can you check that you've successfully created a branch?
+
 {{</note>}}
