@@ -4,7 +4,7 @@
 <!-- api call -->
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
 {{ $commitObject := getJSON $issues $headers }}
 <!-- if no object show error -->
@@ -33,6 +33,11 @@
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            <div
+              class="clone-button-root"
+              data-props="{{ dict "issue" .number "module" $repo "sprint" $filter | jsonify }}">
+              clone
+            </div>
           </summary>
           <div class="c-issue__body">{{ .body | markdownify }}</div>
         </details>

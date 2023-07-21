@@ -32,3 +32,5 @@
     <span class="is-invisible">Toggle between light and dark mode</span>
   </button>
 </footer>
+{{ $react := resources.Get "scripts/react/app.jsx" | js.Build }}
+<script src="{{ $react.Permalink }}"></script>
