@@ -1,0 +1,97 @@
++++
+title = 'What is HTML?'
+headless = true
+time = 60
+facilitation = false
+emoji= '🧩'
+[objectives]
+    1='Use the Teach Tech Together guide to construct your objectives'
+    2='Limit the objectives to 3-5 items'
+    3='Write objectives you can measure'
++++
+
+<details>
+<summary>What is HTML?</summary>
+
+HTML stands for Hypertext Markup Language. Markup means tags that go around content like text, pictures, videos, to "mark" or describe what they are.
+
+HTML tags look like this: `<p>This is a paragraph.</p>`. They typically surround a piece of content, like a block of text, and describes it as such. In this case, the `<p>` tag describes the content as a paragraph.
+
+</details>
+
+<details>
+<summary>What are some examples of HTML tags?</summary>
+
+Examples of HTML tags include `<p>`, `<article>`, `<header>`, and `<h1>`.
+
+</details>
+
+<details>
+<summary>What does it mean to nest HTML tags?</summary>
+
+Nesting is like Russian dolls - or tupperware - a box in a box in a box. We _nest_ tags _inside_ each other. That's how we write HTML. For example:
+
+```html
+<article>
+  <header>
+    <h1>Title</h1>
+  </header>
+</article>
+```
+
+</details>
+<details>
+<summary>What are some examples of web browsers?</summary>
+
+Chrome, Firefox, Safari, Lynx, JAWS, Brave, Edge, Vivaldi, Opera...
+
+</details>
+<details>
+<summary>Here’s an interesting question: what does HTML produce in the browser?</summary>
+
+The browser **parses** the HTML we write, executes the linked Javascript, loads the CSS, media, and other resources, and produces a _model_ of our document, called the document object model. It produces an **API** called the **DOM**.
+
+</details>
+
+<details>
+<summary>What is parsing?</summary>
+
+Make sense of. Analyse **syntactically**.
+
+</details>
+
+<details>
+<summary>What is syntax?</summary>
+
+The rules that structure language, so it can be understood by someone else. I put words in an order, according to rules, I _structure meaning_ and you can get that meaning back out if you know the same rules. Programming languages are the same - they each have a set of rules, they each have a _syntax_.
+
+</details>
+
+<details>
+<summary>What is an API?</summary>
+
+API stands for Application Programming Interface. Imagine you are at a train station: You ask the station master what trains are running today, and they read you a list. You ask when the next train to Manchester is, and they tell you it has been delayed.
+
+The station master has _lots more_ information on the trains, but when you ask your question, they know precisely what information you want, based on your shared understanding of the question. The DOM is the station master; the DOM is the interface.
+
+</details>
+
+<details>
+<summary>What is semantic HTML? What does semantic mean?</summary>
+
+Semantics means _meaning_. Semantic HTML is _meaningful code_: each piece of data marked up with correct, that is to say, descriptive tags. A heading has an h1 tag. A button has a button tag. There are only two html tags that are deliberately NULL, or have no meaning.
+
+These tags are then _interpreted_ by APIs to give functionality to the page. A button tag is interpreted by the browser as a button, and so it can be clicked. A heading tag is interpreted by the browser as a heading, and so provides a traversible page outline to a screen reader.
+
+HTML tags are powerful because they are meaningful. They are meaningful because they are semantic. Semantic HTML is powerful HTML.
+
+</details>
+
+<details>
+<summary>Why is semantic HTML important?</summary>
+
+HTML tags are powerful because they are meaningful. They are meaningful because they are semantic. Semantic HTML is powerful HTML.
+
+The better structured your document, the more meaning you can pack into it, the more powerful your code is, the better it will work in more contexts, and more things will be able to interface with it. The more meaning you put in, the more meaning other readers can get out.
+
+</details>
