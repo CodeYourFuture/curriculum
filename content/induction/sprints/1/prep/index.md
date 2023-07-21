@@ -89,7 +89,9 @@ Earlier on, Ahmed and Naima realised they also need the following:
 
 To share a project and its history, we can use an online platform called **Github**
 
-**Github** is an online platform where teams can store their projects and its history of versions online.
+**Github** is a platform where teams can store projects along with a history of their different versions.
+
+By storing projects on Github, multiple users can gain access to the history of a project.
 
 {{<note type="definition" title="Definition">}}
 On Github we call our project and its history a **repository**.
