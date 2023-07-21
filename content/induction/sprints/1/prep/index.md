@@ -122,7 +122,7 @@ You'll learn more about these type of files throughout the course.
 
 {{</note>}}
 
-> We can use the Github interface to explore the different **commits** ( versions ) of a project.
+> We can use the Github interface to explore the different **commits** ( versions ) of a project too.
 
 {{<note type="exercise" title="exercise 2.2">}}
 
@@ -133,8 +133,6 @@ Go to the following link: https://github.com/CodeYourFuture/education-blog/commi
 Try answering the following questions:
 
 Go to the commit that says "add test p element to index page"
-
-![highlight-2nd-commit.png](./highlight-2nd-commit.png)
 
 Try answering the following questions:
 
@@ -165,11 +163,11 @@ Try answering the following questions:
 
 We can view the different commits of a project on Github.
 
-Therefore we can also see what the website looked at previous versions.
+Therefore we can also see what the website looked at previous versions too.
 
 {{<note type="exercise" title="exercise 3.1">}}
 
-Here are some links to the different versions of the same CYF educational backlog
+Here are some links to the different versions of the same CYF educational backlog.
 
 [Deployed version A educational blog](https://64b6f9a2b9c00a00082bbeeb--git-demo-week1.netlify.app/)
 
@@ -221,7 +219,9 @@ When we create a fork on Github, the new forked repository gets a new url:
 
 ### 🍴 Forking a repo
 
-Visit the following https://github.com/CodeYourFuture/education-blog and firstly locate the Fork button on this page.
+Visit the following https://github.com/CodeYourFuture/education-blog.
+
+Firstly locate the **Fork** button on this page.
 
 Click on the Fork button to create a new fork of the repository and set yourself as the owner of the fork.
 
@@ -233,21 +233,25 @@ Hint: Check the url of your forked repository
 
 ## 💻 Working locally
 
-We can also use Git on our local machine to perform similar tasks as we do on Github. So we have the following question:
+We can also use Git on our local machine to perform similar tasks as we do on Github. So we need to address the following question:
 
 {{<note type="question" title="❓">}}
 
-How can we get a local copy of an existing Github repository on our local machine.
+How can we get a copy of an existing Github repository on our local machine?
 
 {{</note>}}
 
-In other words, we need to get a copy of the repository on Github on to our device.
+In other words, we need to get a local copy of the repository on Github.
 
 {{<note type="note" title="cloning">}}
 
 We call a local copy of a Github repository a **clone**.
 
-The process of copying a remote repo on to a local machine is known as **cloning**.
+The process of copying a remote repository on to a local machine is known as **cloning**.
+
+A repository on Github is said to be **remote**.
+
+A repository on our own computer is said to be **local**.
 
 {{</note>}}
 
@@ -257,11 +261,11 @@ The process of copying a remote repo on to a local machine is known as **cloning
 
 > 🎯 Goal: Clone a remote repository to your local machine
 
-You'll need to use the information below so we can achieve the following goal:
+You'll need to use the information below to achieve this goal:
 
 You'll need to clone the following repository 👉 https://github.com/CodeYourFuture/education-blog
 
-To achieve this goal, follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs
+Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs ( Remember to use the url for the education-blog repo when you are cloning )
 
 {{</note>}}
 
@@ -272,6 +276,8 @@ Once you've got a local copy of a codebase on your local machine you can start t
 VSCode is an application that enables developers to view and edit files on their local machine.
 
 {{<note type="exercise" title="Exercise">}}
+
+### Explore VSCode
 
 Figure out how to open the cloned repository on your local machine in VSCode.
 
