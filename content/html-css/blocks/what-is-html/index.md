@@ -1,28 +1,30 @@
 +++
 title = 'What is HTML?'
 headless = true
-time = 60
+time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define HTML, tags, and nesting'
+    2='Explore the semantics of HTML'
+    3='Analyse the role of HTML in the browser'
 +++
 
+{{<note type="question" title="10 Things About HTML">}}
+
 <details>
-<summary>What is HTML?</summary>
+   <summary>What is HTML?</summary>
 
-HTML stands for Hypertext Markup Language. Markup means tags that go around content like text, pictures, videos, to "mark" or describe what they are.
+HTML stands for Hypertext Markup Language. Markup means tags that go around content like text, pictures, videos, to "mark up" or describe what they are.
 
-HTML tags look like this: `<p>This is a paragraph.</p>`. They typically surround a piece of content, like a block of text, and describes it as such. In this case, the `<p>` tag describes the content as a paragraph.
+HTML tags look like this: `<p>This is a paragraph.</p>`. They typically surround a piece of content, like a block of text, and describe it as such. In this case, the `<p>` tag describes the content as a paragraph.
 
 </details>
 
 <details>
 <summary>What are some examples of HTML tags?</summary>
 
-Examples of HTML tags include `<p>`, `<article>`, `<header>`, and `<h1>`.
+Examples of HTML tags include `<mark>`, `<section>`, `<header>`, and `<button>`.
 
 </details>
 
@@ -49,7 +51,7 @@ Chrome, Firefox, Safari, Lynx, JAWS, Brave, Edge, Vivaldi, Opera...
 <details>
 <summary>Here’s an interesting question: what does HTML produce in the browser?</summary>
 
-The browser **parses** the HTML we write, executes the linked Javascript, loads the CSS, media, and other resources, and produces a _model_ of our document, called the document object model. It produces an **API** called the **DOM**.
+It produces what we see, of course. But in a little more detail: the browser **parses** the HTML we write, executes the linked Javascript, loads the CSS, media, and other resources, and produces a _model_ of our document, called the document object model. It produces an **API** called the **DOM**.
 
 </details>
 
@@ -81,7 +83,7 @@ The station master has _lots more_ information on the trains, but when you ask y
 
 Semantics means _meaning_. Semantic HTML is _meaningful code_: each piece of data marked up with correct, that is to say, descriptive tags. A heading has an h1 tag. A button has a button tag. There are only two html tags that are deliberately NULL, or have no meaning.
 
-These tags are then _interpreted_ by APIs to give functionality to the page. A button tag is interpreted by the browser as a button, and so it can be clicked. A heading tag is interpreted by the browser as a heading, and so provides a traversible page outline to a screen reader.
+These tags are then _interpreted_ by APIs to give functionality to the page. A button tag is interpreted by the browser as a button, and so it can be clicked, or triggered in many ways. A heading tag is interpreted by the browser as a heading, and so provides a traversible page outline to a screen reader.
 
 HTML tags are powerful because they are meaningful. They are meaningful because they are semantic. Semantic HTML is powerful HTML.
 
@@ -95,3 +97,5 @@ HTML tags are powerful because they are meaningful. They are meaningful because 
 The better structured your document, the more meaning you can pack into it, the more powerful your code is, the better it will work in more contexts, and more things will be able to interface with it. The more meaning you put in, the more meaning other readers can get out.
 
 </details>
+
+{{</note>}}
