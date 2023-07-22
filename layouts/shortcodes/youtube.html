@@ -1,4 +1,5 @@
 {{ $src := .Inner }}
 {{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" "" "page" .) }}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $isShortcode := .Page.Scratch.Set "isShortcode" true }}
 {{ partial "block/youtube.html" . }}
