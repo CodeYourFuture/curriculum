@@ -67,9 +67,8 @@
 {{ end }}
 
 {{ if "youtu" | in $src }}
-  {{ $newSrc := cond (in $src "youtu.be") (last 1 (split $src "/")) (last 1 (split $src "?v=")) }}
   {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
-  {{ .Scratch.SetInMap "blockData" "api" (delimit $newSrc "" "") }}
+  {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ end }}
 
 {{/* Now let's do our headers */}}
