@@ -1,7 +1,6 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{- .Page.Store.Set "hasYoutube" true -}}
 <section class="c-block c-block--youtube">
-  {{ if $blockData }}
+  {{ if not $blockData.isShortcode }}
     <h2
       class="c-block__title e-heading__2 is-invisible"
       id="{{ $blockData.name |urlize }}">
