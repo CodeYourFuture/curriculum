@@ -18,7 +18,7 @@ Create a CYF folder to store your work on the course.
 
 For each of the steps below, you'll need to use the command line in your terminal.
 
-You can use this [cli documentation](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/) to refresh your memory on terminal commands.
+Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/) to remember terminal commands.
 
 2. In your terminal, print your current working directory.
 3. List the files and folders in your current working directory.
