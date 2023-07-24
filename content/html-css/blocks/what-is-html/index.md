@@ -82,6 +82,14 @@ Make sense of. Analyse **syntactically**.
 
 The rules that structure language, so it can be understood by someone else. I put words in an order, according to rules, I _structure meaning_ and you can get that meaning back out if you know the same rules. Programming languages are the same - they each have a set of rules, they each have a _syntax_.
 
+Think about HTML and CSS. They use different syntaxes.
+
+For instance, when grouping together the information about an HTML tag, you may write: `<h1 class="main-title">This is a title</h1>` - there are several pieces of syntax here, and one is that the tag is opened by `<h1>` and its contents are done when you see `</h1>`.
+
+In CSS, on the other hand, you may have a rule like `h1 { color: red; }` - we group together declarations applying to the selector between `{}`s.
+
+HTML and CSS use different syntaxes, even though some of the concepts are similar.
+
 </details>
 
 <details>
