@@ -6,9 +6,9 @@ emoji: 📋
 
 # 🔃 Comparing changes
 
-As developers, we can develop new features on a branch.
+As developers, we often develop new features on a branch.
 
-Once we've made a branch, we'll then want to **merge** our changes into another branch.
+When we've completed the feature , we need to **merge** our changes into another branch.
 
 So we'll need a way to compare changes between two different branches on Github.
 
@@ -67,6 +67,8 @@ A **pull request** is a request to merge code from one branch into another.
 {{</note>}}
 
 ## Creating a new pull request
+
+During the course, we'll use Pull Requests to review your work. You'll need to submit your work on a branch and compare it
 
 We can use the Github interface to create a new Pull Request.
 
