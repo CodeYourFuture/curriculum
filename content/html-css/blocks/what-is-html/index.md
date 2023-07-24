@@ -96,7 +96,7 @@ The station master has _lots more_ information on the trains, but when you ask y
 <details>
 <summary>What is semantic HTML? What does semantic mean?</summary>
 
-Semantics means _meaning_. Semantic HTML is _meaningful code_: each piece of data marked up with correct, that is to say, descriptive tags. A heading has an h1 tag. A button has a button tag. There are only two html tags that are deliberately NULL, or have no meaning.
+Semantics means _meaning_. Semantic HTML is _meaningful code_: each piece of data marked up with correct, that is to say, descriptive tags. A heading has an h1 tag. A button has a button tag. There are only two html tags that deliberately have no meaning (div and span).
 
 These tags are then _interpreted_ by APIs to give functionality to the page. A button tag is interpreted by the browser as a button, and so it can be clicked, or triggered in many ways. A heading tag is interpreted by the browser as a heading, and so provides a traversible page outline to a screen reader.
 
