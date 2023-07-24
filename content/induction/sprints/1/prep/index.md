@@ -134,7 +134,7 @@ Try answering the following questions:
 
 Go to the commit that says "add test p element to index page"
 
-Try answering the following questions:
+#### Questions
 
 - How many files were changed in this commit?
 - Who created the change?
