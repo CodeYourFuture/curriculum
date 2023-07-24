@@ -27,4 +27,4 @@ The facilitator will use this presentation 👉 [Learning as a community present
 
 ### Introduction
 
-The facilitator can use the Miro board presentation to guide trainees and volunteers on a discussion about how we learn together as a community.
+The facilitator will use the Miro board presentation to guide trainees and volunteers on a discussion about how we learn together as a community.
