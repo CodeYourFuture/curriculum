@@ -23,7 +23,7 @@ Get a local copy of a repository on your local machine
 ## 📝 CYF blog
 
 Imagine that two people are writing a blog.
-Ahmed and Naima are co-authoring a blog to document the things they're struggling with whilst learning to code.
+Ahmed and Naima are writing a blog together about their struggles learning coding.
 
 The published blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
 
