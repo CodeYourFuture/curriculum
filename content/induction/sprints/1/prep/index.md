@@ -167,7 +167,7 @@ Therefore we can also see what the website looked at previous versions too.
 
 {{<note type="exercise" title="exercise 3.1">}}
 
-Here are some links to the different versions of the same CYF educational backlog.
+Here are some different versions of the same CYF educational backlog.
 
 [Deployed version A educational blog](https://64b6f9a2b9c00a00082bbeeb--git-demo-week1.netlify.app/)
 
@@ -271,9 +271,9 @@ Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4
 
 ## 📘 Viewing the files
 
-Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase.  Use VSCode.
+Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.
 
-VSCode is an application developers use to view and edit files on their local machine.
+VSCode is an application that enables developers to view and edit files on their local machine.
 
 {{<note type="exercise" title="Exercise">}}
 
@@ -293,7 +293,7 @@ We can check the commits on the remote repository as before:
 
 ![commit-history](commit-history.png)
 
-On the left page of the page, we see more information:
+On the left page of the page, we see additional information:
 
 ![main-branch-highlighted](main-branch-highlighted.png)
 
