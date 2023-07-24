@@ -41,6 +41,21 @@ Nesting is like Russian dolls - or tupperware - a box in a box in a box. We _nes
 </article>
 ```
 
+Here the `<header>` tag is nested inside the `<article>` tag, and the `<h1>` tag is inside the `<header>` tag.
+
+Not all tags are nested, in this example:
+
+```html
+<article>
+  <header>
+    <h1>Title</h1>
+  </header>
+  <p>Some content</p>
+</article>
+```
+
+Both the `<header>` and `<p>` tags are nested inside the `<article>` tag, but the `<header>` and `<p>` tags are not nested inside each other - they are siblings.
+
 </details>
 <details>
 <summary>What are some examples of web browsers?</summary>
