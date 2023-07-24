@@ -14,6 +14,6 @@ This playlist introduces Git & Github: tools we'll be using from now on.
 
 These videos cover concepts that you'll learn slowly over this course. Bookmark these videos and come back in the future when you need them.
 
-For now, you only need to watch the first video:
+For now, watch only the first video:
 
 https://www.youtube.com/watch?v=BCQHnlnPusY
