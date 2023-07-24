@@ -293,7 +293,7 @@ We can check the commits on the remote repository as before:
 
 ![commit-history](commit-history.png)
 
-On the left page of the page, we see additional information:
+On the left page of the page, we see more information:
 
 ![main-branch-highlighted](main-branch-highlighted.png)
 
