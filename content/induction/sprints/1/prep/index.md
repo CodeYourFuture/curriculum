@@ -7,18 +7,18 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Induction'
 backlog_filter= 'Induction'
+[objectives]
+1='Define a repository'
+2='Explain why we use Github'
+3='Given a remote or local repository, identify the number of commits'
+4='Given a remote or local repository, identify the author, time and message of a given commit'
+5='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
+6='Describe the purpose of version control'
+7='Explain the difference between Git and Github'
+8='Get a local copy of a repository on your local machine'
 +++
 
 ## Learning objectives
-
-Define a repository
-Explain why we use Github
-Given a remote or local repository, identify the number of commits
-Given a remote or local repository, identify the author, time and message of a given commit
-Given a remote or local repository, identify the files and folders from any commit in a version timeline
-Describe the purpose of version control
-Explain the difference between Git and Github
-Get a local copy of a repository on your local machine
 
 ## 📝 CYF blog
 
