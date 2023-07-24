@@ -37,7 +37,7 @@
         {{ end }}
         {{/* Deduplicate blocks */}}
         {{ $blocks = $blocks | uniq }}
-        {{/* now we need to extract objectives from blocks not stored in this repo,
+        {{/* now we need to extract objectives from blocks, some not stored in this repo,
           so we will use the block-data scratch function to get the block data
         */}}
         {{ range $blocks }}
