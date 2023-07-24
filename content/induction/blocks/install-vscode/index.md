@@ -11,6 +11,5 @@ emoji= '🧩'
 
 We use VS Code to write all of our code in the course. It is known as an Integrated Developer Environment (IDE) and really helps you write great code!
 
-please follow the link below and download the appropriate version for your operating system.
 
 [🔗 Download and install VSCode now](https://code.visualstudio.com/)
