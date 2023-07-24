@@ -33,11 +33,11 @@ Try exploring the site above. Try clicking on the link on the site and check to 
 
 ## 🧰 Development process
 
-Ahmed and Naima are currently using the following **development process** for writing the blog:
+Ahmed and Naima are using the following **development process** for writing their blog:
 
 > - writing the blog in a single file on a **single** computer
 > - saving multiple versions of the file on the same computer
-> - they take it in turns to the use the computer at different points in the day
+> - taking turns to use the computer during the day
 
 At the moment, the computer has a folder with the blog that looks like this:
 
@@ -47,7 +47,7 @@ At the moment, the computer has a folder with the blog that looks like this:
 
 Describe some of the challenges that Ahmed and Naima face when trying to write a blog together in this way.
 
-Try creating a thread 🧵 Slack to see if your cohort colleagues came up with similar answers.
+Create or join a thread 🧵 on Slack to share your answers. Did your cohort colleagues think of similar things?
 
 {{</note>}}
 
@@ -70,7 +70,7 @@ In Git, we create different versions of a project over time by creating a **comm
 
 A **commit** is a snapshot of our project at a particular point in time. You can also think of a **commit** as a particular version of a project.
 
-**Commits** will give us the following information👍
+**Commits** store the following information👍
 
 - what changed in this commit
 - who created the change
@@ -148,11 +148,11 @@ Go to the commit that says "add test p element to index page"
 
 Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main
 
-Try answering the following questions:
+#### Questions:
 
 Go to the commit that says "remove \ and # from start of paragraph"
 
-Try answering the following questions:
+#### Questions:
 
 - How many files were changed in this commit?
 - What change was made in this commit?
@@ -163,7 +163,7 @@ Try answering the following questions:
 
 We can view the different commits of a project on Github.
 
-Therefore we can also see what the website looked at previous versions too.
+This means we can see what the website looked like before, in previous versions.
 
 {{<note type="exercise" title="exercise 3.1">}}
 
@@ -187,7 +187,7 @@ Version B should have nothing on the index page
 Version C should be same as production deployment but with some rogue characters on the page
 -->
 
-Answer the following questions:
+#### Questions:
 
 a) What is the difference between Version A and Version B on the index page ( the page you first land on after clicking on the link )
 b) What is the difference between Version C and the main version of the site.
