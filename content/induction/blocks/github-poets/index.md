@@ -12,7 +12,7 @@ emoji= '🧩'
 
 This playlist introduces Git & Github: tools we'll be using from now on.
 
-These videos cover concepts that you'll be learn slowly over this course as you need them. Be sure to use these videos in the future when you need them.
+These videos cover concepts that you'll learn slowly over this course. Bookmark these videos and come back in the future when you need them.
 
 For now, you only need to watch the first video:
 
