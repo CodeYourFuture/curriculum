@@ -26,6 +26,6 @@ Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-co
 You'll need a place to store your work for the CYF course.
 
 4. Make a new directory called `cyf` in your home directory.
-5. Change directory into the `cyf` directory.
+5. **C**hange **d**irectory into the `cyf` directory.
 6. Using the terminal, use a command to create a new directory called `cyf`. You'll use this directory to store the files and folders in your project.
 7. Change your working directory to the `cyf` directory. Double check you're in the right by printing your current directory.
