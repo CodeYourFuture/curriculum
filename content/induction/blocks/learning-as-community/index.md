@@ -15,7 +15,7 @@ In this session, we're going to describe how we harness our community to overcom
 
 ### Resources
 
-The facilitator will need to use this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVPy92Cu8=/)
+The facilitator will use this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVPy92Cu8=/)
 
 ### Preparation
 
