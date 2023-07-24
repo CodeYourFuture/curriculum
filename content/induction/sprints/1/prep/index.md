@@ -273,7 +273,7 @@ Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4
 
 Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.
 
-VSCode is an application that enables developers to view and edit files on their local machine.
+VSCode is an application developers use to view and edit files on their local machine.
 
 {{<note type="exercise" title="Exercise">}}
 
