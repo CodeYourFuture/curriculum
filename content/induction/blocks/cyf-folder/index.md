@@ -12,7 +12,7 @@ emoji= '🧩'
 
 ### Create a cyf folder on your hard drive
 
-If you have not done so already, you'll need to create a CYF folder to store your work on the course.
+Create a CYF folder to store your work on the course.
 
 1. Open a terminal on your computer.
 
