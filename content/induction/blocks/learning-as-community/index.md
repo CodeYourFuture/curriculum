@@ -21,7 +21,7 @@ The facilitator will use this presentation 👉 [Learning as a community present
 
 - [ ] Facilitator: Review this [presentation](https://miro.com/app/board/uXjVPy92Cu8=/) before class.
 - [ ] Facilitator: Ensure everyone can access the Miro board presentation.
-- [ ] Facilitator: Make sure everyone is split into groups of no more than 5.
+- [ ] Facilitator: Split the class into groups of no more than 5.
 - [ ] Facilitator: Make sure every group has access to a laptop.
 - [ ] Facilitator: Make sure every group has access to a piece of paper and pen
 
