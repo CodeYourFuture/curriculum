@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Figure out what we need to do next in the course'
-    2='Familiarise ourselves with the curriculum'
+    2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when were stuck'
 +++
 
