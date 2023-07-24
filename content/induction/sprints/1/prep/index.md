@@ -28,7 +28,7 @@ Ahmed and Naima are writing a blog together about their struggles learning codin
 The published blog is live here 👉 [CYF educational blog](https://git-demo-week1.netlify.app/)
 
 {{<note type="exercise" title="exercise 1.1">}}
-Try exploring the site above. Try clicking on the link on the site and check to see if its working.
+Explore the [CYF educational blog](https://git-demo-week1.netlify.app/). Click on the link on the site and check to see if it is working.
 {{</note>}}
 
 ## 🧰 Development process
