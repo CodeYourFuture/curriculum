@@ -29,7 +29,8 @@ gitGraph
    commit
 ```
 
-And there's another forked repository belonging to owner **Dedekind561**. Dedekind561 has created a branch called -add-bio-page` with the new feature.
+And there's another forked repository belonging to owner **Dedekind561**.
+Dedekind561 has created a branch called `bio-page` with the new feature.
 
 ### 🍴 Forked repository
 
@@ -42,13 +43,13 @@ gitGraph
    commit
    commit
    commit
-   branch add-bio-page
+   branch bio-page
    commit
    commit
    commit
 ```
 
-> 🎯 Goal: Merge changes from the `add-bio-page` branch into the CodeYourFuture/GitHomeworkTest repo
+> 🎯 Goal: Merge changes from the `bio-page` branch into the CodeYourFuture/GitHomeworkTest repo
 
 ## Pull Request
 
