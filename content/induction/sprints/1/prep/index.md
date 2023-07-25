@@ -60,7 +60,7 @@ Create or join a thread 🧵 on Slack to share your answers. Did your cohort col
 
 To manage the different versions of the blog project, they decide to use **Git**.
 
-{{<note type="definition" title="definition">}}
+{{<note type="definition" title="definition: Git">}}
 
 Git is **version control software** that allows developers to create and manage different versions of a project.
 
@@ -93,7 +93,7 @@ To share a project and its history, we can use an online platform called **Githu
 
 By storing projects on Github, multiple users can gain access to the history of a project.
 
-{{<note type="definition" title="Definition">}}
+{{<note type="definition" title="Definition: Repository">}}
 On Github we call our project and its history a **repository**.
 {{</note>}}
 
@@ -207,7 +207,7 @@ We might want to start creating our version of this project in isolation from th
 
 So we can create a **fork**.
 
-{{<note type="definition" title="definition">}}
+{{<note type="definition" title="definition: Fork">}}
 A **fork** is a copy of a repository that exists on Github
 
 {{</note>}}
@@ -312,7 +312,7 @@ gitGraph
 
 The **main branch** is a sequence of commits. It represents a particular line of development in a project.
 
-{{<note type="definition" title="definition">}}
+{{<note type="definition" title="definition: Branch">}}
 
 A **branch** is a sequence of commits in a project.
 
