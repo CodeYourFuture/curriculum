@@ -57,7 +57,6 @@
     */}}
     {{ $newSrc = replace $newSrc "/tree/main" "/readme" }}
     {{ $newSrc = replace $newSrc "/blob/main/README.md" "/readme" }}
-    {{ $newSrc = "https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/git-day-1?ref=rewrite/git-day-1" }}
     {{ .Scratch.SetInMap "blockData" "type" "readme" }}
   {{ end }}
 
