@@ -10,6 +10,9 @@ weight = 1
 name="check-github"
 src="module"
 [[blocks]]
+name="check-git-installation"
+src="module"
+[[blocks]]
 name="install-vscode"
 src="module"
 [[blocks]]

@@ -12,6 +12,6 @@ emoji= '🧩'
 
 ### GitHub
 
-In the Fundamentals, you should have set up your Coursework planner.
+In Fundamentals, you should have set up your Coursework planner.
 
 Ensure you've completed the following issue 👉 https://github.com/CodeYourFuture/Coursework-Planner/blob/main/readme.md
