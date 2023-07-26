@@ -1,6 +1,6 @@
 ---
 name: Rewrite a week in the curriculum
-about: Suggest a change to the syllabus
+about: Propose changes to a week in the curriculum
 title: "Rewrite a week in the curriculum"
 labels: rewrite
 assignees: ""
@@ -10,22 +10,27 @@ assignees: ""
 Module(s):
 Week(s):
 
-## Prep
+Rewriting a week in the curriculum will often involve updating different sections of the curriculum, including the backlog and workshops. You can use this issue to organise the different changes in the curriculum content for a week at CYF.
+
+## Prep
 
 Prep material is the narrative and activities that trainees will use to prepare at the start of the week.
 
-<!-- Please try to be as descriptive as possible -->
+### Checklist
 
-## Day plan
+- [ ] Prep content has learning objectives
 
-<!-- How is the day plan changing ? -->
-<!-- Tag anyone who might want to be notified about this PR -->
+<!-- How has prep changed? -->
 
-<!-- Please try to be as descriptive as possible -->
+## Day plan & workshop content
+
+<!-- How has the day plan changed? -->
+<!-- Link to any workshop content that has changed -->
 
 ## Backlog
 
-<!-- How is the backlog changing  -->
+<!-- The backlog tasks and module repo may need to change in response to a change in the prep content>
+<!-- How is the backlog changing?  -->
 
 **Who might need to know about this change?**
 
