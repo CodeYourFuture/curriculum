@@ -20,7 +20,7 @@ backlog_filter= 'Induction'
 10='Get a local copy of a repository on your local machine'
 11='Create a fork of a repository'
 12='Create a local branch'
-12='Explain the difference between a fork and a clone'
+13='Explain the difference between a fork and a clone'
 +++
 
 ## Learning objectives
