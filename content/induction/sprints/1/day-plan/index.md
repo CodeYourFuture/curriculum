@@ -23,7 +23,7 @@ src="module"
 name="lunch"
 [[blocks]]
 name="Git workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/git-day-1/README.md"
+src="https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/git-day-1"
 time="120"
 [[blocks]]
 name="next-steps"
