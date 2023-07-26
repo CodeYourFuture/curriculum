@@ -26,3 +26,4 @@ Get into pairs with somebody you've not paired up with today and try figuring ou
 
 1. Check you can find the classroom planning board for your region ( if one exists )
 2. Check you can find the day-plan for the next week/module
+3. Follow through the instructions on the Priority 🔑 issues for this week ( both Tech Ed and PD )
