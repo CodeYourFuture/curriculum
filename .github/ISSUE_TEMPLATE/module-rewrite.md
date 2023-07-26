@@ -14,7 +14,7 @@ Rewriting a week in the curriculum will often involve updating different section
 
 ## Prep
 
-Prep material is the narrative and activities that trainees will use to prepare at the start of the week.
+Prep material is the combination of explanations and activities that trainees will use to prepare at the start of the week.
 
 ### Checklist
 
