@@ -9,13 +9,18 @@ backlog= 'Module-Induction'
 backlog_filter= 'Induction'
 [objectives]
 1='Define a repository'
-2='Explain why we use Github'
-3='Given a remote or local repository, identify the number of commits'
-4='Given a remote or local repository, identify the author, time and message of a given commit'
-5='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
-6='Describe the purpose of version control'
-7='Explain the difference between Git and Github'
-8='Get a local copy of a repository on your local machine'
+2='Define a commit'
+3='Explain why we use Git'
+4='Explain why we use Github'
+5='Given a remote or local repository, identify the number of commits'
+6='Given a remote or local repository, identify the author, time and message of a given commit'
+7='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
+8='Describe the purpose of version control'
+9='Explain the difference between Git and Github'
+10='Get a local copy of a repository on your local machine'
+11='Create a fork of a repository'
+12='Create a local branch'
+12='Explain the difference between a fork and a clone'
 +++
 
 ## Learning objectives
@@ -215,7 +220,7 @@ A **fork** is a copy of a repository that exists on Github
 When we create a fork on Github, the new forked repository gets a new url:
 ![lesson1-forked-url-anatomy](lesson1-forked-url-anatomy.png)
 
-{{<note type="exercise" title="Exercise 5.1">}}
+{{<note type="exercise" title="Exercise 4.1">}}
 
 ### 🍴 Forking a repo
 
@@ -235,7 +240,7 @@ Hint: Check the url of your forked repository
 
 We can also use Git on our local machine to perform similar tasks as we do on Github. So we need to address the following question:
 
-{{<note type="question" title="❓">}}
+{{<note type="question" title="❓ Question: ">}}
 
 How can we get a copy of an existing Github repository on our local machine?
 
@@ -255,11 +260,11 @@ A repository on our own computer is said to be **local**.
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 6.1 - 👣 Follow the steps">}}
+{{<note type="exercise" title="Exercise 5.1 - 👣 Follow the steps">}}
 
 ###
 
-> 🎯 Goal: Clone a remote repository to your local machine
+> 🎯 Goal: Clone a remote repository to a local machine
 
 You'll need to use the information below to achieve this goal:
 
@@ -275,7 +280,7 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 VSCode is an application that enables developers to view and edit files on their local machine.
 
-{{<note type="exercise" title="Exercise">}}
+{{<note type="exercise" title="Exercise 5.1">}}
 
 ### Explore VSCode
 
@@ -336,7 +341,7 @@ gitGraph
 
 In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
 
-{{<note type="exercise" title="exercise 7.1">}}
+{{<note type="exercise" title="exercise 6.1">}}
 
 ### Creating a local branch
 

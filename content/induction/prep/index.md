@@ -1,6 +1,6 @@
 +++
 title = "setup"
-description = "Get setup with the main applications you'll need for the Software Development Course"
+description = "Get setup with the main resources you'll need for the Software Development Course"
 layout = "prep"
 emoji= "🧰"
 menu_level = ["module"]
@@ -17,8 +17,5 @@ name="install-vscode"
 src="module"
 [[blocks]]
 name="cyf-folder"
-src="module"
-[[blocks]]
-name="github-poets"
 src="module"
 +++
