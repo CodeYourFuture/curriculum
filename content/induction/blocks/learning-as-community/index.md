@@ -11,9 +11,9 @@ emoji= '🧩'
 
 At Code Your Future, we learn as a **community.**
 
-In this session, we're going to describe how we harness our community to overcome obstacles and develop our understanding.
+In this session, we're going to describe how we harness our community to learn together.
 
-### Resources
+### Resources
 
 The facilitator will use this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVPy92Cu8=/)
 
