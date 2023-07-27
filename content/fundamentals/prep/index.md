@@ -26,7 +26,7 @@ name="Backlog"
 +++
 
 {{<tabs name="prep">}}
-{{% tab name="Getting Started" %}}
+{{< tab name="Getting Started" >}}
 
 ## Getting Started
 
@@ -51,10 +51,10 @@ CYF recognises you may need to keep your birth name private. When we say real na
 When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
 
 Watch [What is GitHub](#prep-1)
-{{% /tab %}}
+{{< /tab >}}
 
 {{<tab name="📼 Watch: What is GitHub">}}
-{{% youtube %}}https://www.youtube.com/watch?v=pBy1zgt0XPc{{% /youtube %}}
+{{< youtube >}}https://www.youtube.com/watch?v=pBy1zgt0XPc{{< /youtube >}}
 {{</tab>}}
 
 {{</tabs>}}

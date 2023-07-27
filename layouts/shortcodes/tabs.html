@@ -24,7 +24,7 @@
         <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
       {{ end }}
         {{- with .content -}}
-          {{- . -}}
+          {{- . | markdownify -}}
         {{- end -}}
       </div>
     {{- end -}}
