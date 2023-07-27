@@ -85,7 +85,7 @@ A **commit** is a snapshot of our project at a particular point in time. You can
 
 A typical timeline of commits might look like this:
 
-![commit-history](commit-history.png)
+![commit-history](commit-history-relative-dates.png)
 
 ## 🗄️ 🌐 Sharing history
 
@@ -373,11 +373,12 @@ In the diagram above, we can continue to commit on the "week-1-coursework" branc
 
 ### 🎁 Wrapping up
 
-{{<note type="activity" title="Figure it 🔍: Creating a commits">}}
+{{<note type="activity" title="Creating a commits - Figure it out 🔍">}}
 
 📋 Double check the learning objectives from this section. Make a note of those objectives that you're still struggling with.
 
 Now you'll need to **create a commit**.
+
 You can use this video 👉 https://www.youtube.com/watch?v=B8RSMBSzFuA to figure out how to create a commit.
 
 We'll cover this topic in class on Saturday too.
