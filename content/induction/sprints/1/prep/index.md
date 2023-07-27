@@ -60,8 +60,9 @@ Create or join a thread 🧵 on Slack to share your answers. Did your cohort col
 
 > To improve their way of working, Ahmed and Naima realise they need the following:
 >
-> - a way to create and manage the different versions of their project
-> - a way to share the history of the project between different users
+> - a way to both know what the most recent version is
+> - a way to know what the old versions were, and in what order (i.e. how they got to the current version, and what content they may have deleted that they may want to get back)
+> - a way to share all of this information across both of their computers
 
 To manage the different versions of the blog project, they decide to use **Git**.
 
