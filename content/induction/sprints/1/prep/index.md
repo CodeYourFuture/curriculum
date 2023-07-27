@@ -266,11 +266,9 @@ A repository on our own computer is said to be **local**.
 
 > 🎯 Goal: Clone a remote repository to a local machine
 
-You'll need to use the information below to achieve this goal:
+You'll need to clone **your fork** of the education blog repo.
 
-You'll need to clone the following repository 👉 https://github.com/CodeYourFuture/education-blog
-
-Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs ( Remember to use the url for the education-blog repo when you are cloning )
+Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs ( Remember to use the url for your fork of the education-blog repo when you are cloning )
 
 {{</note>}}
 
