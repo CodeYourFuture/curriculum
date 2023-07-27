@@ -1,31 +1,51 @@
 import React from "react";
-import { cloneIssue, useAuthentication } from "coursework-helper-ui";
-import { API_URL } from "../const";
+import { API_URL, CLIENT_ID } from "../const";
 import toast, { Toaster } from "react-hot-toast";
+import { githubLoginUrl, cloneSuccessText } from "../helpers";
 import GithubSignInButton from "./GithubSignInButton";
+import useAuth from "../hooks/useAuth";
 
-const successText = (data) => {
-  let text = "";
-  const count = data.total - data.skipped;
-  if (data.total > 0) {
-    text += `Cloned ${count} issue${count > 1 ? "s" : ""}!`;
+export async function cloneIssue(module, sprint, issue) {
+  // Construct the URL based on the provided module and optional issue number
+  const url = issue
+    ? new URL(`${API_URL}/github/clone/${module}/${issue}`)
+    : new URL(`${API_URL}/github/clone/${module}`);
+
+  // If a sprint parameter is provided, append it to the URL's search parameters
+  if (sprint) {
+    url.searchParams.append("sprint", sprint);
   }
-  if (data.skipped > 0) {
-    text += ` Skipped ${data.skipped} issue${data.skipped > 1 ? "s" : ""}.`;
-  }
-  return text;
-};
+
+  // Make a POST request to the constructed URL with the required headers
+  return fetch(url, {
+    method: "POST",
+    credentials: "include",
+  })
+    .then((res) => {
+      if (res.status === 401) {
+        window.location.href = githubLoginUrl(CLIENT_ID);
+      }
+      return res.json();
+    })
+    .then((data) => {
+      if (data.error) {
+        throw new Error(data.error); // Throw an error if the response contains an error property
+      }
+      return data; // Return the data if no error occurred
+    });
+}
 
 const CloneButton = ({ module, issue, sprint }) => {
-  const { isAuthenticated, token } = useAuthentication(API_URL);
+  const { isAuthenticated } = useAuth(API_URL);
 
   const clone = () => {
-    toast.promise(cloneIssue(API_URL, token, module, sprint, issue), {
+    toast.promise(cloneIssue(module, sprint, issue), {
       loading: "Cloning...",
       success: (data) => {
-        return successText(data);
+        return cloneSuccessText(data);
       },
       error: (err) => {
+        console.log({ err });
         return `Failed to clone issues: ${err}`;
       },
     });

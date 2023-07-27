@@ -1,17 +1,33 @@
 import React from "react";
-import { SignInButton } from "coursework-helper-ui";
+import useAuth from "../hooks/useAuth";
 import { API_URL, CLIENT_ID } from "../const";
+import toast, { Toaster } from "react-hot-toast";
+import { githubLoginUrl } from "../helpers";
 
 const GithubSignInButton = () => {
-  return (
-    <SignInButton
-      clientId={CLIENT_ID}
-      apiUrl={API_URL}
-      classNames={{
-        signInButton: "e-button",
-        signOutButton: "e-button",
-      }}
-    />
+  const { isAuthenticated, signOut } = useAuth(API_URL);
+
+  const onLogout = () => {
+    toast.promise(signOut(), {
+      loading: "Logging you out...",
+      success: (data) => {
+        return data.message;
+      },
+      error: (err) => {
+        return `Failed to logout: ${err}`;
+      },
+    });
+  };
+
+  return isAuthenticated ? (
+    <button onClick={onLogout} className="e-button">
+      Logout
+      <Toaster />
+    </button>
+  ) : (
+    <a href={githubLoginUrl(CLIENT_ID)} className="e-button">
+      Login
+    </a>
   );
 };
 
