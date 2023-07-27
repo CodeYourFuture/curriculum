@@ -23,7 +23,7 @@ You're going to use this prep time to answer some questions _and schedule in tim
 
 Do this now. Then move forward to working through as many of these questions as you can. (You may not complete them all, and that is ok.)
 
-_Write down your answers first_ and then update them after looking in the details, if it's useful to do so. Use all available tools to help you answer, and remember:
+_Write down your answers first_ and then update them after looking at the sample answers, if it's useful to do so. Use all available tools to help you answer, and remember:
 
 > the point _is not_ to complete the exercises
 > the point is for you to secure your own understanding
