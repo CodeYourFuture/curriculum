@@ -76,7 +76,7 @@ In Git, we create different versions of a project over time by creating a **comm
 
 A **commit** is a snapshot of our project at a particular point in time. You can also think of a **commit** as a particular version of a project.
 
-**Commits** store the following information👍
+**Commits** store the following information:
 
 - what changed in this commit
 - who created the change
@@ -135,7 +135,7 @@ Therefore, we should be able to check out the codebase at a given point in the t
 
 {{<note type="exercise" title="Exercise 4.1">}}
 
-Go back to this page GITHUB_REPO_URL to look at the following:
+Go back to this page https://github.com/CodeYourFuture/education-blog to look at the following:
 
 and look at one of the commit with hash "d3567h" and then look for the icon that that says "Browse the repository at this point in the history".
 
@@ -368,5 +368,22 @@ In the diagram above, we can continue to commit on the "week-1-coursework" branc
 4. Using this clip, create a new branch called `update-blog-1` in your local repository 👉 https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw
 
 📋 How can you check that you've successfully created a branch?
+
+{{</note>}}
+
+### 🎁 Wrapping up
+
+{{<note type="activity" title="Figure it 🔍: Creating a commits">}}
+
+📋 Double check the learning objectives from this section. Make a note of those objectives that you're still struggling with.
+
+Now you'll need to **create a commit**.
+You can use this video 👉 https://www.youtube.com/watch?v=B8RSMBSzFuA to figure out how to create a commit.
+
+We'll cover this topic in class on Saturday too.
+
+1. Try opening your clone of education-blog in VSCode
+2. Try fixing a typo in the `README.md` file
+3. Try using the video to create a commit of your work.
 
 {{</note>}}
