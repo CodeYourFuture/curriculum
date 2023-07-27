@@ -10,10 +10,6 @@ emoji= '🧩'
 2='Create a cyf directory to store your work over the course'
 +++
 
-{{<tabs name="create-cyf-folder">}}
-
-{{% tab name="Create a CYF folder" %}}
-
 You'll need to create a CYF folder to store your projects on the course.
 
 1. Open a terminal on your computer.
@@ -33,11 +29,3 @@ You'll need a place to store your work for the CYF course.
 5. **C**hange **d**irectory into the `cyf` directory.
 
 6. Double check you're in the right place by **p**rinting your current **w**orking **d**irectory.
-
-{{% /tab %}}
-
-{{<tab name="📼 Watch: How to create a CYF folder">}}
-{{% youtube %}}https://www.youtube.com/watch?v=JFX8UfXWmok{{% /youtube %}}
-{{</tab>}}
-
-{{</tabs>}}
