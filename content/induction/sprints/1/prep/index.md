@@ -127,6 +127,21 @@ You'll learn more about these type of files throughout the course.
 
 {{</note>}}
 
+## 🔍 Check out a commit
+
+What is _in_ a commit? Recall that a commit is a snapshot of our project at some point in time.
+Therefore, we should be able to check out the codebase at a given point in the timeline and look at the files and folders there. We can use the Github website to not only see the different **commits** in our project - we can also check out the files and folders at a given point in the history.
+
+{{<note type="exercise" title="Exercise 4.1">}}
+
+Go back to this page GITHUB_REPO_URL to look at the following:
+
+and look at one of the commit with hash "d3567h" and then look for the icon that that says "Browse the repository at this point in the history".
+
+Do the same but for the commit "edf89".
+
+{{</note>}}
+
 > We can use the Github interface to explore the different **commits** ( versions ) of a project too.
 
 {{<note type="exercise" title="exercise 2.2">}}
