@@ -307,7 +307,7 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 VSCode is an application that enables developers to view and edit files on their local machine.
 
-{{<note type="exercise" title="Exercise 5.1">}}
+{{<note type="exercise" title="Exercise 7.1">}}
 
 ### Explore VSCode
 
@@ -368,7 +368,7 @@ gitGraph
 
 In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
 
-{{<note type="exercise" title="exercise 7.1">}}
+{{<note type="exercise" title="exercise 8.1">}}
 
 ### Creating a local branch
 
