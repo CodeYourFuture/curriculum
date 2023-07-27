@@ -79,13 +79,23 @@ A **commit** is a snapshot of our project at a particular point in time. You can
 **Commits** store the following information:
 
 - what changed in this commit
+
 - who created the change
+
 - what time the change happen
+
 - what the previous commit was
 
 A typical timeline of commits might look like this:
 
 ![commit-history](commit-history-relative-dates.png)
+
+{{<note type="note" title="Commit hashes">}}
+Commits also have a **hash** associated with them. A **hash** is a long string of characters used to identify a particular commit.
+
+A typical hash will look like this: `fec6909d6de23c75e77960986a9b6a7aee7feec7` but you will often see them abbreviated to the first 7 characters like this: `fec6909`
+
+{{</note>}}
 
 ## 🗄️ 🌐 Sharing history
 
