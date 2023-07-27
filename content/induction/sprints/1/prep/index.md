@@ -128,21 +128,6 @@ You'll learn more about these type of files throughout the course.
 
 {{</note>}}
 
-## 🔍 Check out a commit
-
-What is _in_ a commit? Recall that a commit is a snapshot of our project at some point in time.
-Therefore, we should be able to check out the codebase at a given point in the timeline and look at the files and folders there. We can use the Github website to not only see the different **commits** in our project - we can also check out the files and folders at a given point in the history.
-
-{{<note type="exercise" title="Exercise 4.1">}}
-
-Go back to this page https://github.com/CodeYourFuture/education-blog to look at the following:
-
-and look at one of the commit with hash "d3567h" and then look for the icon that that says "Browse the repository at this point in the history".
-
-Do the same but for the commit "edf89".
-
-{{</note>}}
-
 > We can use the Github interface to explore the different **commits** ( versions ) of a project too.
 
 {{<note type="exercise" title="exercise 2.2">}}
@@ -180,13 +165,31 @@ Go to the commit that says "remove \ and # from start of paragraph"
 
 {{</note>}}
 
+## 🔍 Check out a commit
+
+Recall that a commit is a snapshot of our project at some point in time.
+
+Therefore, we should be able to check out a previous version of our project and look at the files and folders there.
+We can use the Github interface to check out the files and folders at a previous commit.
+
+{{<note type="exercise" title="Exercise 3.1">}}
+
+Go back to this page https://github.com/CodeYourFuture/education-blog/commits/main
+
+Locate the the commit with hash `4e78b32` and then look for the icon that that says "Browse the repository at this point in the history".
+Explore the code at this point in the history. What differences do you notice?
+
+Do the same but for the commit `cd981a0`.
+
+{{</note>}}
+
 ## 📜 Previous versions
 
 We can view the different commits of a project on Github.
 
 This means we can see what the website looked like before, in previous versions.
 
-{{<note type="exercise" title="exercise 3.1">}}
+{{<note type="exercise" title="exercise 4.1">}}
 
 Here are some different versions of the same CYF educational backlog.
 
@@ -236,7 +239,7 @@ A **fork** is a copy of a repository that exists on Github
 When we create a fork on Github, the new forked repository gets a new url:
 ![lesson1-forked-url-anatomy](lesson1-forked-url-anatomy.png)
 
-{{<note type="exercise" title="Exercise 4.1">}}
+{{<note type="exercise" title="Exercise 5.1">}}
 
 ### 🍴 Forking a repo
 
@@ -276,7 +279,7 @@ A repository on our own computer is said to be **local**.
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 5.1 - 👣 Follow the steps">}}
+{{<note type="exercise" title="Exercise 6.1 - 👣 Follow the steps">}}
 
 ###
 
@@ -355,7 +358,7 @@ gitGraph
 
 In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
 
-{{<note type="exercise" title="exercise 6.1">}}
+{{<note type="exercise" title="exercise 7.1">}}
 
 ### Creating a local branch
 
