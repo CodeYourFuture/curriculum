@@ -66,7 +66,7 @@ Chrome, Firefox, Safari, Lynx, JAWS, Brave, Edge, Vivaldi, Opera...
 <details>
 <summary>Here’s an interesting question: what does HTML produce in the browser?</summary>
 
-It produces what we see, of course. But in a little more detail: the browser **parses** the HTML we write, executes the linked Javascript, loads the CSS, media, and other resources, and produces a _model_ of our document, called the document object model. It produces an **API** called the **DOM**.
+It produces what we see, of course; it produces a visual representation of the document. But in a little more detail: the browser **parses** the HTML we write, executes the linked Javascript, loads the CSS, media, and other resources, and produces a _model_ of our document, called the document object model. It produces an **API** called the **DOM**.
 
 </details>
 
