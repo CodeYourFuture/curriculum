@@ -10,6 +10,8 @@
   3. block name
   4. source of truth (sot)
   5. headers and auth for the api call
+  6. showTime, a boolean to show the time in the block
+  7. isShortcode, a boolean to indicate if the block is being called from a shortcode
 */}}
 {{ $name := .name | default "warning: name is empty" }}
 {{ $src := .src | default "warning: src is empty" }}
@@ -30,6 +32,9 @@
 {{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
   {{ .Scratch.SetInMap "blockData" "showTime" true }}
 {{ end }}
+
+{{/* It's only the Youtube partial that cares about being a shortcode */}}
+{{ .Scratch.SetInMap "blockData" "isShortcode" false }}
 
 {{/* Default block */}}
 {{ .Scratch.SetInMap "blockData" "type" "local_course" }}
@@ -56,6 +61,9 @@
   {{ end }}
 
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+
+  {{/* set a default time of 120 minutes for workshops */}}
+  {{ .Scratch.SetInMap "blockData" "time" 120 }}
 {{ end }}
 
 {{ if "cyf-pd.netlify.app" | in $src }}
@@ -67,9 +75,8 @@
 {{ end }}
 
 {{ if "youtu" | in $src }}
-  {{ $newSrc := cond (in $src "youtu.be") (last 1 (split $src "/")) (last 1 (split $src "?v=")) }}
   {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
-  {{ .Scratch.SetInMap "blockData" "api" (delimit $newSrc "" "") }}
+  {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ end }}
 
 {{/* Now let's do our headers */}}
