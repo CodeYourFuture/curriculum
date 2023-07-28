@@ -62,7 +62,6 @@ Create or join a thread 🧵 on Slack to share your answers. Did your cohort col
 >
 > - a way to both know what the most recent version is
 > - a way to know what the old versions were, and in what order (i.e. how they got to the current version, and what content they may have deleted that they may want to get back)
-> - a way to share all of this information across both of their computers
 
 To manage the different versions of the blog project, they decide to use **Git**.
 
@@ -72,7 +71,7 @@ Git is **version control software** that allows developers to create and manage 
 
 {{</note>}}
 
-In Git, we create different versions of a project over time by creating a **commit**.
+In Git, we create different versions of a project over time by creating **commits**.
 
 A **commit** is a snapshot of our project at a particular point in time. You can also think of a **commit** as a particular version of a project.
 
@@ -101,23 +100,23 @@ A typical hash will look like this: `fec6909d6de23c75e77960986a9b6a7aee7feec7` b
 
 Earlier on, Ahmed and Naima realised they also need the following:
 
-> a way to share the history of the project between different users
+> a way to share the history of the project between different users and different computers
 
-To share a project and its history, we can use an online platform called **Github**
+To share a project and its history, we can use an online platform called **GitHub**
 
-**Github** is a platform where teams can store projects along with a history of their different versions.
+**GitHub** is a platform where teams can store projects along with a history of their different versions.
 
-By storing projects on Github, multiple users can gain access to the history of a project.
+By storing projects on GitHub, multiple users can gain access to the history of a project.
 
 {{<note type="definition" title="Definition: Repository">}}
-On Github we call our project and its history a **repository**.
+On GitHub we call our project and its history a **repository**.
 {{</note>}}
 
 {{<note type="exercise" title="Exercise 2.1">}}
 
 ### Explore 🔍
 
-In this exercise, you'll need to explore a **Github repository.**
+In this exercise, you'll need to explore a **GitHub repository.**
 
 You'll need to look around and figure out where to find different files and find out information about them.
 
@@ -125,7 +124,7 @@ You'll need to look around and figure out where to find different files and find
 
 Go to the following link: https://github.com/CodeYourFuture/education-blog
 
-It will take you to a Github repository called **education-blog**.
+It will take you to a GitHub repository called **education-blog**.
 
 Answer the following questions using the page linked to above:
 
@@ -138,7 +137,7 @@ You'll learn more about these type of files throughout the course.
 
 {{</note>}}
 
-> We can use the Github interface to explore the different **commits** ( versions ) of a project too.
+> We can use the Github interface to explore the different **commits** (versions) of a project too.
 
 {{<note type="exercise" title="exercise 2.2">}}
 
@@ -223,7 +222,7 @@ Version C should be same as production deployment but with some rogue characters
 
 #### Questions:
 
-a) What is the difference between Version A and Version B on the index page ( the page you first land on after clicking on the link )
+a) What is the difference between Version A and Version B on the index page (the page you first land on after clicking on the link)
 b) What is the difference between Version C and the main version of the site.
 c) Which commit from the [**education-blog**](https://github.com/CodeYourFuture/education-blog/commits/main) repo correspond to Version C? Remember to check the git history.
 d) Which commit from the [**education-blog**](https://github.com/CodeYourFuture/education-blog/commits/mainLive) repo correspond to Version A?
@@ -261,29 +260,29 @@ Click on the Fork button to create a new fork of the repository and set yourself
 
 📋 How can you check you successfully forked the original repository?
 
-Hint: Check the url of your forked repository
+Hint: Check the URL of your forked repository
 
 {{</note>}}
 
 ## 💻 Working locally
 
-We can also use Git on our local machine to perform similar tasks as we do on Github. So we need to address the following question:
+We can also use Git on our local machine to perform similar tasks as we do on GitHub. So we need to address the following question:
 
 {{<note type="question" title="❓ Question: ">}}
 
-How can we get a copy of an existing Github repository on our local machine?
+How can we get a copy of an existing GitHub repository on our local machine?
 
 {{</note>}}
 
-In other words, we need to get a local copy of the repository on Github.
+In other words, we need to get a local copy of the repository which is on GitHub.
 
 {{<note type="note" title="cloning">}}
 
-We call a local copy of a Github repository a **clone**.
+We call a local copy of a GitHub repository a **clone**.
 
 The process of copying a remote repository on to a local machine is known as **cloning**.
 
-A repository on Github is said to be **remote**.
+A repository on GitHub is said to be **remote**.
 
 A repository on our own computer is said to be **local**.
 
@@ -293,11 +292,11 @@ A repository on our own computer is said to be **local**.
 
 ###
 
-> 🎯 Goal: Clone a remote repository to a local machine
+> 🎯 Goal: Clone a remote repository to your local machine
 
 You'll need to clone **your fork** of the education blog repo.
 
-Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs ( Remember to use the url for your fork of the education-blog repo when you are cloning )
+Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs (Remember to use the url for your fork of the education-blog repo when you are cloning)
 
 {{</note>}}
 
@@ -342,7 +341,7 @@ gitGraph
        commit
 ```
 
-The **main branch** is a sequence of commits. It represents a particular line of development in a project.
+A branch represents a particular history of development in a project - the different versions there have been.
 
 {{<note type="definition" title="definition: Branch">}}
 
@@ -350,9 +349,25 @@ A **branch** is a sequence of commits in a project.
 
 {{</note>}}
 
-Often we want to start work on a particular change _without_ altering the history in a particular branch.
+There can be different branches with different names, which may have different versions.
 
-Instead we can create a new branch to start producing our own work.
+For example, if we were testing out some different visual styles, maybe we would have one branch with some extra changes which make the website more blue, and a different branch with some extra changes which make the website more purple. These branches may share some commits in history, but have some extra different commits separately.
+
+```mermaid
+gitGraph
+        commit
+        commit
+        branch "try-purple"
+        commit
+        commit
+        checkout main
+        branch "try-blue"
+        commit
+```
+
+The **`main`** branch is often treated as a special branch - it's where we put commits which people working on the project have agreed on. Other branches (e.g. the experimental purple branch) may have extra changes, and if people working on the project agree the changes are good, we'll add those changes to the main branch.
+
+When we're working on something new, we haven't agreed with other people that our new thing is good yet, so we often don't add our changes to the main branch straight away. Instead we make our own branch to experiment on.
 
 We can start to create independent branches like this:
 
