@@ -318,6 +318,10 @@ Try opening the Integrated Terminal in your VSCode window
 
 {{</note>}}
 
+Here is a diagram representing how the repositories interact after forking and cloning:
+
+![fork-and-clone-diagram](fork-and-clone-diagram.png)
+
 ## 🌳 Branching
 
 We can check the commits on the remote repository as before:
