@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { hashedFetch } from "../helpers";
 
 const useAuth = (apiURL) => {
   const [loading, setLoading] = useState(true);
@@ -21,8 +22,7 @@ const useAuth = (apiURL) => {
       return;
     }
 
-    // Authenticate using the provided code
-    fetch(`${apiURL}/auth?code=${code}`, {
+    hashedFetch(`${apiURL}/auth?code=${code}`, {
       method: "POST",
       credentials: "include",
     })
@@ -40,7 +40,7 @@ const useAuth = (apiURL) => {
       .finally(() => {
         setLoading(false);
       });
-  }, []);
+  }, [apiURL]);
 
   const signOut = async () => {
     return fetch(`${apiURL}/auth/logout`, {
@@ -59,9 +59,9 @@ const useAuth = (apiURL) => {
   };
 
   return {
-    loading,
-    error,
-    isAuthenticated,
+    loading: loading,
+    error: error,
+    isAuthenticated: isAuthenticated,
     signOut,
     redirectPath: state?.prevPath,
   };

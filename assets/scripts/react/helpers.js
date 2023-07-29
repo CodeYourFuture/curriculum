@@ -23,3 +23,17 @@ export const cloneSuccessText = (data) => {
   }
   return text;
 };
+
+const createFetch = () => {
+  const hash = {};
+
+  return (url, opts) => {
+    if (!hash[url]) {
+      hash[url] = fetch(url, opts);
+    }
+
+    return hash[url];
+  };
+};
+
+export const hashedFetch = createFetch();

@@ -2,7 +2,6 @@ import React from "react";
 import { API_URL, CLIENT_ID } from "../const";
 import toast, { Toaster } from "react-hot-toast";
 import { githubLoginUrl, cloneSuccessText } from "../helpers";
-import GithubSignInButton from "./GithubSignInButton";
 import useAuth from "../hooks/useAuth";
 
 export async function cloneIssue(module, sprint, issue) {
@@ -52,7 +51,11 @@ const CloneButton = ({ module, issue, sprint }) => {
   };
 
   if (!isAuthenticated) {
-    return <GithubSignInButton.component />;
+    return (
+      <a href={githubLoginUrl(CLIENT_ID)} className="e-button">
+        Login
+      </a>
+    );
   }
 
   return (
