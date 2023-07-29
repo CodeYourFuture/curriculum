@@ -233,7 +233,7 @@ d) Which commit from the [**education-blog**](https://github.com/CodeYourFuture/
 
 Often we want to take an existing project and start working on it independently: in other words, we start making our own versions of the project separate from the original project.
 
-We may have a repo will the following url:
+We may have a repo with the following url:
 ![lesson1-github-url-anatomy](lesson1-github-url-anatomy.png)
 
 We might want to start creating our version of this project in isolation from the original project.
@@ -318,6 +318,10 @@ Try opening the Integrated Terminal in your VSCode window
 
 {{</note>}}
 
+Here is a diagram representing how the repositories interact after forking and cloning:
+
+![fork-and-clone-diagram](fork-and-clone-diagram.png)
+
 ## 🌳 Branching
 
 We can check the commits on the remote repository as before:
@@ -401,7 +405,7 @@ In the diagram above, we can continue to commit on the "week-1-coursework" branc
 
 ### 🎁 Wrapping up
 
-{{<note type="activity" title="Creating a commits - Figure it out 🔍">}}
+{{<note type="activity" title="Creating a commit - Figure it out 🔍">}}
 
 📋 Double check the learning objectives from this section. Make a note of those objectives that you're still struggling with.
 
