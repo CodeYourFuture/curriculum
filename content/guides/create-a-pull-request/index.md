@@ -116,7 +116,7 @@ d) Double check the head branch ( this should be set to `bio-page` )
 
 ### Step 6
 
-Update the Pull Request title to include your **region**, **name** and the week the coursework is for.
+Update the Pull Request title to include your **region**, **name** and the **week** the coursework is for.
 
 ![update-pr-title](update-pr-title.png)
 
