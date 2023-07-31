@@ -136,6 +136,11 @@ Double check you end up with a pull request like this:
 
 ![new-pr-landing-page](new-pr-landing-page.png)
 
+#### Questions
+
+a) Locate the **Files changed** tab and check the change you've added in your branch
+b) Locate the **Commits** tab and check the commits from your `bio-page` branch
+
 ## Using a Pull Request template
 
 Often you can create a new pull request using a **template**.
@@ -145,8 +150,3 @@ Check the description field for any instructions to complete the pull request.
 Check out the example below:
 
 ![update-pr-using-template](update-pr-using-template.png)
-
-#### Questions
-
-a) Locate the **Files changed** tab and check the change you've added in your branch
-b) Locate the **Commits** tab and check the commits from your `bio-page` branch
