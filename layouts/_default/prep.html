@@ -5,6 +5,12 @@
       "c-page-header--toc"
     }}
     {{ partial "page-header.html" . }}
+    {{ with .Params.Objectives }}
+      <details>
+        <summary><h3 class="e-heading__2">Learning Objectives</h3></summary>
+        {{ partial "objectives/block.html" . }}
+      </details>
+    {{ end }}
     {{ with .Content }}
       <section class="l-page__main c-block">{{ . }}</section>
     {{ end }}
