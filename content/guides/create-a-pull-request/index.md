@@ -122,11 +122,29 @@ Update the Pull Request title to include your **region**, **name** and the week 
 
 ### Step 7
 
+Update the Pull Request description with information about the changes on your branch.
+
+Below we've added a description "Create a bio page with details about myself"
+
+![update-pr-title](update-pr-title-description.png)
+
+### Step 8
+
 Finally, click on **Create pull request**.
 
 Double check you end up with a pull request like this:
 
 ![new-pr-landing-page](new-pr-landing-page.png)
+
+## Using a Pull Request template
+
+Often you can create a new pull request using a **template**.
+
+Check the description field for any instructions to complete the pull request.
+
+Check out the example below:
+
+![update-pr-using-template](update-pr-using-template.png)
 
 #### Questions
 
