@@ -36,8 +36,7 @@ _Write down your answers first_ and then update them after looking at the sample
   {{</tab>}}
 
 {{<tab name="Video">}}
-{{<youtube>}}
-https://youtu.be/U1QWx8xbbt4
+{{<youtube>}}https://www.youtube.com/watch?v=U1QWx8xbbt4
 {{</youtube>}}
 {{</tab>}}
 {{</tabs>}}
