@@ -97,9 +97,17 @@ HTML and CSS use different syntaxes, even though some of the concepts are simila
 <details>
 <summary>What is an API?</summary>
 
-API stands for Application Programming Interface. Imagine you are at a train station: You ask the station master what trains are running today, and they read you a list. You ask when the next train to Manchester is, and they tell you it has been delayed.
+API stands for Application Programming Interface.
 
-The station master has _lots more_ information on the trains, but when you ask your question, they know precisely what information you want, based on your shared understanding of the question. The DOM is the station master; the DOM is the interface.
+Imagine you want to know what the weather is going to be tomorrow. You may have an app in your phone which can tell the weather, but it doesn't _know_ the weather everywhere - it will ask some service on the internet.
+
+That service on the internet is an API. The service on the internet can be asked specific questions. Maybe it can be asked "What will the temperature be tomorrow in London?" or "Tell me the next week's temperatures for every city in the UK?" or "When will it next rain in Glasgow?".
+
+And when you ask a question, you need to know how to interpret the answer. If you ask "When will it next rain in Glasgow", and get back an answer of "5", what does that mean? In 5 minutes? In 5 hours? It's been raining for the last 5 days?
+
+The service may have a lot of knowledge, but it can only be asked specific questions. And the app on your phone needs to know how to interact with it. "What can I ask/tell the API?", "How do I ask/tell it those things?", and "How should I interpret the answers I get back?" are all good things to think about when thinking about an API.
+
+The DOM is an API. From our code, we can tell it things (like "All h1 tags should be blue"), and it will take action as a result. One of the ways we can interact with the DOM API is by giving it a CSS file - it will apply the CSS file when it's working out how to display a page. The CSS specification helps us understand how we can interact with the API - what we can tell it, and how we tell it those things.
 
 </details>
 
