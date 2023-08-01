@@ -4,7 +4,15 @@ title: Creating a Pull Request
 emoji: 📋
 ---
 
-# 🔃 Comparing changes
+## Learning objectives
+
+```objectives
+- [ ] 1. Locate remote branches on GitHub
+- [ ] 2. Create a pull request
+- [ ] 3. Update pull request with title and a relevant description
+```
+
+## 🔃 Comparing changes
 
 As developers, we often develop new features on a branch.
 
