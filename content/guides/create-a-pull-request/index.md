@@ -7,9 +7,9 @@ emoji: 📋
 ## Learning objectives
 
 ```objectives
-- [ ] 1. Locate remote branches on GitHub
-- [ ] 2. Create a pull request
-- [ ] 3. Update pull request with title and a relevant description
+- [ ] Locate remote branches on GitHub
+- [ ] Create a pull request
+- [ ] Update pull request with title and a relevant description
 ```
 
 ## 🔃 Comparing changes
