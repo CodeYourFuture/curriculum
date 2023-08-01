@@ -9,7 +9,7 @@ emoji: 📋
 ```objectives
 - [ ] Locate remote branches on GitHub
 - [ ] Create a pull request
-- [ ] Update pull request with title and a relevant description
+- [ ] Update a pull request with a title and a relevant description
 ```
 
 ## 🔃 Comparing changes
