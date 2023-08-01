@@ -16,11 +16,11 @@ emoji: 📋
 
 As developers, we often develop new features on a branch.
 
-When we've completed the feature , we need to **merge** our changes into another branch.
+When we've completed the feature, we need to **merge** our changes into another branch.
 
-So we'll need a way to compare changes between two different branches on Github.
+So we'll need a way to compare changes between two different branches on GitHub.
 
-Let's consider the following situation:
+Let's consider the following situation.
 
 We have a repository like this:
 
@@ -57,11 +57,11 @@ gitGraph
    commit
 ```
 
-> 🎯 Goal: Merge changes from the `bio-page` branch into the CodeYourFuture/GitHomeworkTest repo
+> 🎯 Goal: Merge changes from the `bio-page` branch into the CodeYourFuture/GitHomeworkTest `main` branch
 
 ## Pull Request
 
-To merge changes from one branch to another, we need to let other users know👍
+To merge changes from one branch to another, we need to let other users know:
 
 - what the changes are
 - which branches we're comparing
@@ -77,11 +77,11 @@ A **pull request** is a request to merge code from one branch into another.
 
 ## Creating a new pull request
 
-During the course, we'll use Pull Requests to review your work. You'll need to submit your work on a branch and compare it
+During the course, we'll use pull requests to review your work. You'll need to submit your work on a branch and then open a pull request to get feedback on your work.
 
-We can use the Github interface to create a new Pull Request.
+We can use the Github interface to create a new pull request.
 
-The steps below assume you have a forked a repository called `GitHoneworkTest` and you've pushed a branch to this remote repository.
+The steps below assume you have a forked a repository called `GitHomeworkTest` and you've pushed a branch to this remote repository.
 
 ### Step 1
 
@@ -124,13 +124,13 @@ d) Double check the head branch ( this should be set to `bio-page` )
 
 ### Step 6
 
-Update the Pull Request title to include your **region**, **name** and the **week** the coursework is for.
+Update the pull request title to include your **region**, **name** and the **week** the coursework is for.
 
 ![update-pr-title](update-pr-title.png)
 
 ### Step 7
 
-Update the Pull Request description with information about the changes on your branch.
+Update the pull request description with information about the changes on your branch.
 
 Below we've added a description "Create a bio page with details about myself"
 
@@ -149,7 +149,7 @@ Double check you end up with a pull request like this:
 a) Locate the **Files changed** tab and check the change you've added in your branch
 b) Locate the **Commits** tab and check the commits from your `bio-page` branch
 
-## Using a Pull Request template
+## Using a pull request template
 
 Often you can create a new pull request using a **template**.
 
