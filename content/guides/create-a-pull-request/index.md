@@ -65,7 +65,7 @@ To merge changes from one branch to another, we need to let other users know:
 
 - what the changes are
 - which branches we're comparing
-- additional context about the proposed change
+- additional context about the proposed change, like why we're making the change
 
 For this purpose, we can use a **pull request**.
 
@@ -77,7 +77,7 @@ A **pull request** is a request to merge code from one branch into another.
 
 ## Creating a new pull request
 
-During the course, we'll use pull requests to review your work. You'll need to submit your work on a branch and then open a pull request to get feedback on your work.
+During the course, we'll use pull requests to review your work. You'll need to push your work on a branch and then open a pull request to get feedback on your work.
 
 We can use the Github interface to create a new pull request.
 
@@ -89,7 +89,7 @@ Go to your forked repository. The page should look like this:
 
 ![github-fork-main-page](github-fork-main-page.png)
 
-Double check your url, it should be `github.com/YOUR_USERNAME/GitHomeworkTest
+Double check your url, it should be `github.com/YOUR_USERNAME/GitHomeworkTest`
 
 ### Step 2
 
@@ -111,7 +111,7 @@ Locate the **New pull request** button for the `bio-page` branch.
 
 ### Step 5
 
-Double check you cans see the **Open a pull request** view.
+Double check you can see the **Open a pull request** view.
 
 ![open-pull-request-page](open-pull-request-page.png)
 
@@ -151,10 +151,12 @@ b) Locate the **Commits** tab and check the commits from your `bio-page` branch
 
 ## Using a pull request template
 
-Often you can create a new pull request using a **template**.
+Some repositories are set up with a **template** for a description, which gets automatically set in the **Open a pull request** view.
 
 Check the description field for any instructions to complete the pull request.
 
 Check out the example below:
 
 ![update-pr-using-template](update-pr-using-template.png)
+
+Here there are some prompts for you to fill in information - make sure you fill it in.
