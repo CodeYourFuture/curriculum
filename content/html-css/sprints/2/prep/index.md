@@ -13,8 +13,9 @@ src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/46"
 name="spaced-repetition"
 [[blocks]]
 name="what-is-css"
+src="module"
 [[blocks]]
-name="CSS skills"
+name="CSS skills practice"
 src="https://www.youtube.com/playlist?list=PLozA7cloMbPgM0Cra4IhDg_HvhP727Abo"
 [[blocks]]
 name="Active listening prep"
