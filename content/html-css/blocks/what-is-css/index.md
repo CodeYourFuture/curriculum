@@ -93,7 +93,7 @@ Stronger rules _override_ weaker rules. Everything is sorted and sorted until ev
 
 </details>
 
-<details><summary>What do we mean by order?</summary
+<details><summary>What do we mean by order?</summary>
 
 Order means 'what comes first?'.
 
