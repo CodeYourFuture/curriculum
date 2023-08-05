@@ -24,7 +24,6 @@ Get into pairs with somebody you've not paired up with today and try figuring ou
 1. Go to your group Slack channel and start a thread 🧵 outlining times you're free to meet up to discuss the prep work during the week
 1. Which day ⏰ should you start the prep work for the upcoming HTML module.
 1. Experiment with your project planner: can you filter by Size, Week 1, Tech ed, PD etc.?
-1.
 
 ## For volunteers
 
@@ -32,4 +31,3 @@ Get into pairs with somebody you've not paired up with today and try figuring ou
 1. Locate the the day-plan for the next week/module
 1. Check the instructions and links on the **Priority 🔑 issues** for the upcoming week ( both Tech Ed and PD )
 1. In the day-plan for the upcoming week identify the instructions for any workshops and visit the repository containing that readme. Check the instructions make sense.
-1.
