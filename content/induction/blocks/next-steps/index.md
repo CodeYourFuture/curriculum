@@ -22,7 +22,7 @@ Get into pairs with somebody you've not paired up with today and try figuring ou
 1. Check you can find the backlog page for the Induction sprint. Double check you've copied all the issues from the backlog over to your Course Planner.
 1. Identify all the issues with 🔑 icon that are marked as **Priority**. What does the **Priority icon** 🔑 mean?
 1. Go to your group Slack channel and start a thread 🧵 outlining times you're free to meet up to discuss the prep work during the week
-1. Which day ⏰ should you start the prep work for the upcoming HTML module.
+1. Which day ⏰ should you start the prep work for the upcoming HTML module?
 1. Experiment with your project planner: can you filter by Size, Week 1, Tech ed, PD etc.?
 
 ## For volunteers
