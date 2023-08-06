@@ -49,7 +49,7 @@ You learn them by using them. You look it up here: https://developer.mozilla.org
 
 <iframe src="https://giphy.com/embed/zFSGphnnT9opa" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/zFSGphnnT9opa">via GIPHY</a></p>
 
-A cascade is a stream or sequence of a things where each thing affects the next. You might imagine pouring champagne into a tower of glasses. The champagne flows into the containers; it cascades. In CSS we’re actually pouring from many bottles into one tower.
+A cascade is a stream or sequence of a things where each thing affects the next. You might imagine pouring champagne into a tower of glasses. The champagne flows into the top container; it then cascades into the next container; etc. In CSS we’re actually pouring from many bottles into one tower.
 
 So in CSS 'the cascade' means the order or sequence of the rules as they flow into the DOM tree according to CSS precedence.
 
