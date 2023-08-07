@@ -156,10 +156,9 @@ The actual combination of symbols `10 + 32` we say is an **expression**.
 An **expression** is a value or any valid combination of values and symbols that results in a single value.
 
 We say that expressions **evaluate** to a single value.
-
 So we say that `10 + 32` **evaluates** to the value `42`.
 
-`10` is also an expression. It **evalutes** to the value `10`.
+`10` is also an expression. It **evaluates** to the value `10`.
 
 {{</note >}}
 
@@ -455,9 +454,10 @@ console.log("hello there!");
 
 We should see the string "hello there!" logged out in the terminal.
 
-## Saving function output
+## Saving return values
 
-We can use variables to store the output from a function.
+We can use variables to store the return value of a function.
+Since function calls are also expressions, their value can also be stored in variables, same as the math expressions we've seen earlier.
 
 Let’s suppose we have a file `arithmetic.js` with the following contents:
 
@@ -465,9 +465,9 @@ Let’s suppose we have a file `arithmetic.js` with the following contents:
 const result = Math.round(10.3);
 ```
 
-When this program is executed, it creates a variable called result and assigns to it **the output of the function**, in this case the rounded number.
+When this program is executed, it creates a variable called result and assigns to it **the return value of the function**, in this case the rounded number.
 
-So `result` will store the value `10`.
+So `result` will have a value of `10`.
 
 ## 🔭 Logging vs function output
 
