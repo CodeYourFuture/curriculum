@@ -29,7 +29,7 @@ selector {
 }
 ```
 
-Selectors look like this: `p { background: red }`. The selector is the `p` in this case. This p selects all elements of the DOM tree called `p` and sets a rule about how to show them. Selectors always come first in a ruleset.
+Selectors look like this: `p { background: red }`. The selector is the `p` in this case. This `p` selects all elements of the DOM tree called `p` and sets a rule about how to show them. Selectors always come first in a ruleset.
 
 A property is a quality, a characteristic. A value is the amount.
 
