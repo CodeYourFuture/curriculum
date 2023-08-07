@@ -37,7 +37,7 @@ src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 
 ## Key vocabulary
 
-terminal, console, expression, function, call, invoke, argument, parentheses, REPL, evaluate, implementation opaque
+terminal, console, expression, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ## 💻 Interacting with computers
 
@@ -365,7 +365,7 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 If we type `Math.round(10.3)` then we get the result 10.
 So we say that `Math.round(10.3)` returns 10.
 
-A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evalutes to the value `10`.
+A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evaluates to the value `10`.
 
 This means that if we assign that expression to a variable, or use it in a string, we'll get the value `10`. So we can write:
 
@@ -380,11 +380,6 @@ const roundedValueInAString = `10.3 rounds to ${Math.round(10.3)}`;
 ```
 
 Both of these instructions **evaluate** the call expression `Math.round(10.3)` to the returned value `10` as soon as the call expression appears. The variable `roundedValue` will have a numeric value `10` (just like if we'd written `const roundedValue = 10;`), and the variable `roundedValueInAString` will have a string value `"10.3 rounds to 10"`.
-
-{{<note title="Note" type="note">}}
-It's important to note that `Math.round` is **implementation opaque**.
-**Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
-{{</note>}}
 
 ## 📁 Running scripts
 
