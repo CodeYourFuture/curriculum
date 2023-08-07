@@ -260,6 +260,10 @@ We can break down the different syntactic elements of this variable declaration:
 - `=` this is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
 - `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
 
+{{<note>}}
+We say that "Hello there" is a **string literal** here. This means we're
+{{</note>}}
+
 We can type this variable declaration into the REPL:
 
 ![greeting-variable-declaration](greeting-variable-declaration.png)
@@ -280,7 +284,12 @@ When an operation uses an expression, that expression is immediately evaluated, 
 const greetAlicia = "Hello there, Alicia";
 ```
 
----
+{{<note type="note" title="string literal">}}
+In this example, we don't use a variable or an expression to create a string. Instead we just write a string `"Hello there, Alicia"`.
+
+A value like `"Hello there, Alicia"` that is just a sequence of characters enclosed in quotation marks is said to be a **string literal**.
+
+## {{</note>}}
 
 ```js
 const name = "Alicia";
