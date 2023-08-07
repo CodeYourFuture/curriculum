@@ -9,32 +9,31 @@ backlog_filter= 'Week 1'
 [[blocks]]
 name= "Critical Thinking"
 src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
+[objectives]
+1='Double check Git is installed on your local machine'
+2='Define a terminal'
+3='Define the Node REPL'
+4='Define an expression'
+5='Identify the syntactic features of a variable declaration'
+6='Explain why we use variable declarations'
+7='Describe what template literals do'
+8='Create strings using variables and template literals'
+9='Explain how we use basic arithmetical operators'
+10='Evaluate basic JavaScript expressions using the Node REPL'
+11='Predict the result of evaluating an expression in JavaScript'
+12='Define a function'
+13='Define a function call'
+14='Identify the key features of a function call expression: identifier; parentheses, argument(s)'
+15='Call and print the output of some basic JavaScript functions'
+16='Execute a JavaScript file using Node (not in a REPL)'
+17='Log JavaScript expressions to the terminal (not in a REPL)'
+18='Predict the console output when a basic JS program is executed using Node'
 +++
 
 ## Prerequisites
 
 - Basic arithmetic
 - Access to a Linux/MacOS terminal
-
-## Learning objectives
-
-- Define a terminal
-- Define the Node REPL
-- Define an expression
-- Identify the syntactic features of a variable declaration
-- Explain why we use variable declarations
-- Describe what template literals do
-- Create strings using variables and template literals
-- Explain how we use basic arithmetical operators
-- Evaluate basic JavaScript expressions using the Node REPL
-- Predict the result of evaluating an expression in JavaScript
-- Define a function
-- Define a function call
-- Identify the key features of a function call expression: identifier; parentheses, argument(s)
-- Call and print the output of some basic JavaScript functions
-- Execute a JavaScript file using Node (not in a REPL)
-- Log JavaScript expressions to the terminal (not in a REPL)
-- Predict the console output when a basic JS program is executed using Node
 
 ## Key vocabulary
 
