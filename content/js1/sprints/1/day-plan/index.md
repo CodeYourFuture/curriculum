@@ -10,7 +10,8 @@ backlog_filter= 'Week 1'
 [[blocks]]
 name="energiser"
 [[blocks]]
-name="pd-placeholder"
+name= "Critical Thinking"
+src="https://cyf-pd.netlify.app/blocks/critical-thinking/readme/"
 [[blocks]]
 name="morning-break"
 [[blocks]]
@@ -24,5 +25,4 @@ name="coursework"
 name="afternoon-break"
 [[blocks]]
 name="retro"
-
 +++
