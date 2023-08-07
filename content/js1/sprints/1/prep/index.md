@@ -39,19 +39,17 @@ src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 
 terminal, console, expression, function, call, invoke, argument, parentheses, REPL, evaluate, implementation opaque
 
-## Notes
-
-### 💻 Interacting with computers
+## 💻 Interacting with computers
 
 Modern computers are highly complex devices: it would be too difficult and time-consuming to list all the components that make up a modern computer. To begin understanding, we can start with a simple definition of a computer:
 
 {{<note title="Definition" type="info">}}
 
-A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through their processing ability.
+A computer is a device used to store and perform operations on data.
 
 {{</note>}}
 
-### 🕹️ Using an interface
+## 🕹️ Using an interface
 
 As a user, we want to interact with computers _without_ understanding how they are built. Every day we interact with machines to carry out specific tasks: in most of these cases we have no idea how these machines are designed and constructed. It would be impossible to make use of new technology if we had to know how all these machines were built at the same time.
 
@@ -79,7 +77,7 @@ Try and define the **user interface** for the following devices:
 
 {{</note>}}
 
-### Terminal interface
+## Terminal interface
 
 As with other machines, programmers need to use interfaces to get computers to carry out tasks.
 
@@ -97,7 +95,7 @@ We can then press enter to issue this command to the computer and get a response
 
 Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
-### Writing computer instructions
+## Writing computer instructions
 
 We can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
 
@@ -119,7 +117,7 @@ The data in a executing program is sometimes referred to as the **state**.
 For example, adding one to a number, subtracting one number from another, or converting some text into ALL UPPER CASE are all operations.
 {{</note>}}
 
-### Classifying data
+## Classifying data
 
 In this course, we’re going to focus on the JavaScript programming language.
 
@@ -137,7 +135,7 @@ In JavaScript, we have several different data types, like **numbers** and **stri
 We also have the string data type in JavaScript. A string is a sequence of characters.
 In JavaScript a string is denoted using opening quotation marks and closing quotation marks. `"Code Your Future"` is an example of a string.
 
-### Creating expressions
+## Creating expressions
 
 Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several questions:
 
@@ -164,7 +162,7 @@ So we say that `10 + 32` **evaluates** to the value `42`.
 
 {{</note >}}
 
-### Evaluating expressions
+## Evaluating expressions
 
 We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents (in this case multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression.
 
@@ -223,7 +221,7 @@ Try creating your own expressions and entering them into the Node REPL. In each 
 
 {{</note>}}
 
-### 🏷️ Saving expressions
+## 🏷️ Saving expressions
 
 In programming we often want to reuse particular expressions.
 Therefore, we need a way to refer back to particular expressions. Let’s consider the following string:
@@ -299,7 +297,7 @@ const greetAlicia = `${greeting}, ${name}`;
 
 The `greetAlicia` variable doesn't remember whether you used variables to make it or not - in all three cases, `greetAlicia` contains the string `"Hello there, Alicia"`. Once a value is made, it doesn't matter _how_ it was made.
 
-### Reusing instructions
+## Reusing instructions
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
@@ -337,7 +335,7 @@ After we've hit enter to evaluate our expression, we then get the following:
 
 So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
 
-### 📲 Calling a function
+## 📲 Calling a function
 
 Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out. So we can write the following in the REPL:
 
@@ -379,7 +377,7 @@ It's important to note that `Math.round` is **implementation opaque**.
 **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
 {{</note>}}
 
-### 📁 Running scripts
+## 📁 Running scripts
 
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly.
 
@@ -425,7 +423,7 @@ So this new problem can be expressed as a question:
 >
 > "How can we check what the values evaluated to in our program when it is being executed?"
 
-### 🖨️ Printing to the terminal
+## 🖨️ Printing to the terminal
 
 In order to check the values when our program runs, we can make use of a function called `console.log`.  
 `console.log` will allow us to log the result of expressions to the console while our program is executing. This is very useful for complex programs when we need to check the values expressions evaluate to in our program.
@@ -448,7 +446,7 @@ console.log("hello there!");
 
 We should see the string "hello there!" logged out in the terminal.
 
-### Saving function output
+## Saving function output
 
 We can use variables to store the output from a function.
 
@@ -462,7 +460,7 @@ When this program is executed, it creates a variable called result and assigns t
 
 So `result` will store the value `10`.
 
-### 🔭 Logging vs function output
+## 🔭 Logging vs function output
 
 Some functions return values that we can use in our program.
 
