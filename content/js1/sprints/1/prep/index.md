@@ -391,15 +391,15 @@ Instead of using the REPL mode, we can get Node to execute the instructions writ
 We can use the node command to run a JavaScript file.
 A JavaScript file ends with `.js` - this is known as the file extension.
 
-Let’s suppose we have a file `sums.js` like this:
+Let’s suppose we have a file `arithmetic.js` like this:
 
-```js title="sums.js"
+```js title="arithmetic.js"
 10 + 3;
 10 * 3;
 10 / 3;
 ```
 
-In this case, we can write the command `node sums.js` in our terminal.
+In this case, we can write the command `node arithmetic.js` in our terminal.
 
 This terminal command is an instruction to execute the program written inside sums.js. Our program consists of 3 lines, each line an expression. So the computer will go through the file line by line:
 
@@ -454,7 +454,7 @@ We should see the string "hello there!" logged out in the terminal.
 
 We can use variables to store the output from a function.
 
-Let’s consider the following file, `arithmetic.js`;
+Let’s suppose we have a file `arithmetic.js` with the following contents:
 
 ```js title="arithmetic.js"
 const result = Math.round(10.3);
