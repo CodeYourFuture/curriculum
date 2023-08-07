@@ -27,7 +27,6 @@ backlog_filter= 'Week 1'
 - Predict the result of evaluating an expression in JavaScript
 - Define a function
 - Define a function call
-- Define the term “implementation opaque”
 - Identify the key features of a function call expression: identifier; parentheses, argument
 - Run and print the output of some basic JavaScript functions
 - Execute a JavaScript file using Node
