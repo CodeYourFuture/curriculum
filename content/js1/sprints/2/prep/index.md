@@ -43,7 +43,7 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 
 Given a number I want to convert it into a percentage format.
 
-For example, given the number `0.5` we should get `"50%"`
+For example, given the number `0.5` we should get the string `"50%"`.
 And given the number `0.231` we should get `"23.1%"` and so forth.
 
 ### Restating the problem
