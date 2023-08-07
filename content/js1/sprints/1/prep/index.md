@@ -183,15 +183,15 @@ The Node REPL enables us to input JavaScript instructions that are then executed
 We can type each of the following expressions into the REPL and then press enter to check the result.
 
 ```bash
-10 + 32
+10 + 32;
 ```
 
 ```bash
-32 / 10
+32 / 10;
 ```
 
 ```bash
-3 ** 4
+3 ** 4;
 ```
 
 {{<note title="Activity" type="activity">}}
@@ -230,7 +230,7 @@ Suppose we want to reuse this string in several different places. For example, w
 ```
 
 ```bash
-"Hello there, Barny"
+"Hello there, Barny";
 ```
 
 We can use a **variable** to store this string value so that it can be used again.
@@ -323,8 +323,8 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 
 "apply the set of instructions for `Math.round` to the number `10.3`."
 
-If we type `Math.round(10.3)` then again we get the result 10.
-So we say that `Math.round(10.3)` outputs 10.
+If we type `Math.round(10.3);` then again we get the result 10.
+So we say that `Math.round(10.3);` outputs 10.
 
 {{<note title="Note" type="note">}}
 It's important to note that `Math.round` is **implementation opaque**.
