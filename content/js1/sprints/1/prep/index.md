@@ -30,21 +30,21 @@ src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 - Predict the result of evaluating an expression in JavaScript
 - Define a function
 - Define a function call
-- Identify the key features of a function call expression: identifier; parentheses, argument
-- Run and print the output of some basic JavaScript functions
-- Execute a JavaScript file using Node
-- Log JavaScript expressions to the terminal
+- Identify the key features of a function call expression: identifier; parentheses, argument(s)
+- Call and print the output of some basic JavaScript functions
+- Execute a JavaScript file using Node (not in a REPL)
+- Log JavaScript expressions to the terminal (not in a REPL)
 - Predict the console output when a basic JS program is executed using Node
 
 ## Key vocabulary
 
-terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate, implementation opaque
+terminal, console, expression, function, call, invoke, argument, parentheses, REPL, evaluate, implementation opaque
 
 ## Notes
 
 ### 💻 Interacting with computers
 
-Modern computers are highly complex devices: itt would be too difficult and time-consuming to list all the components that make up a modern computer. To begin understanding, we can start with a simple definition of a computer:
+Modern computers are highly complex devices: it would be too difficult and time-consuming to list all the components that make up a modern computer. To begin understanding, we can start with a simple definition of a computer:
 
 {{<note title="Definition" type="info">}}
 
@@ -65,7 +65,7 @@ The user asks the machine to carry out certain tasks via the interface. We can t
 
 {{</note>}}
 
-For example, we may want to withdraw money from an ATM machine. We go to a machine in the wall with a screen and a keypad. The **screen and the keypad** form the user interface in this case. We can use this user interface to ask the machine to carry out certain tasks - like give my balance, or please withdraw some money from my account.
+For example, we may want to withdraw money from an ATM machine. We go to a machine in the wall with a screen and a keypad. The **screen and the keypad** form the user interface in this case. We can use this user interface to ask the machine to carry out certain tasks - like giving my balance, or withdrawing some money from my account.
 
 {{<note title="Activity" type="info">}}
 
@@ -82,13 +82,13 @@ Try and define the **user interface** for the following devices:
 
 ### Terminal interface
 
-As with other machines, programmers need to use interfaces to get machines to carry out tasks.
+As with other machines, programmers need to use interfaces to get computers to carry out tasks.
 
 A computer terminal is an **interface** where programmers can issue commands to a computer. On a Mac, the terminal looks like this:
 
 ![terminal](terminal.png)
 
-The terminal appears as a window on the computer, prompting users for instructions. So we can input a command into the prompt and hit enter. After hitting enter, the interface passes this command along for the computer to execute. For example, we can input the `ls` command into the terminal:
+The terminal appears as a window on the computer, prompting users for instructions. We can input a command into the prompt and hit enter. After hitting enter, the terminal interface passes this command along for the computer to execute. For example, we can input the `ls` command into the terminal:
 
 ![enter-ls-command](enter-ls-command.png)
 
@@ -96,7 +96,7 @@ We can then press enter to issue this command to the computer and get a response
 
 ![ls-feedback](ls-feedback.png)
 
-As users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
+Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
 ### Writing computer instructions
 
@@ -109,11 +109,15 @@ During the execution of a computer program, a computer will store and modify dat
 So we can think of a programming language as allowing us to create **data** and **operations** on that data.
 
 {{<note title="Definition" type="info">}}
-**Data** consists of information in different forms: for example, numbers and text could be different forms of data. The data in a executing program is sometimes referred to as the **state**.
+**Data** consists of information. The information may be in different forms: for example, some data may be in the form of text and other data may be in the form of images.
+
+The data in a executing program is sometimes referred to as the **state**.
 {{</note>}}
 
 {{<note title="Definition" type="info">}}
 **Operations** are anything that take data and modify existing data or create new data from the current data in the program.
+
+For example, adding one to a number, subtracting one number from another, or converting some text into ALL UPPER CASE are all operations.
 {{</note>}}
 
 ### Classifying data
@@ -142,7 +146,7 @@ a) What is the **sum** of 10 and 32?
 b) What is the **product** of 10 and 32?  
 c) What is the **remainder** when 32 is divided by 10?
 
-From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. So “the sum of 10 and 32” can be written as `10 + 32` as follows:
+From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32` as follows:
 
 ```raw title="symbolic form"
 10 + 32
@@ -158,13 +162,15 @@ We say that expressions **evaluate** to a single value.
 
 So we say that `10 + 32` **evaluates** to the value `42`.
 
+`10` is also an expression. It **evalutes** to the value `10`.
+
 {{</note >}}
 
 ### Evaluating expressions
 
-We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.
+We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents (in this case multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression.
 
-However, we can use computers to evaluate expressions.
+However, we can use computers to evaluate expressions for us.
 
 **NodeJS** is an application that allows us to run JavaScript programs. In other words, NodeJS can understand and execute programs written in the JavaScript language.
 
@@ -172,18 +178,20 @@ NodeJS can be used in a number of different ways; however, one particular mode i
 
 {{<note title="Definition" type="info">}}
 
-ℹ️ Definition: REPL is a special type of program that stands for
+ℹ️ Definition: REPL is a special type of program. REPL stands for:
 
 **Read** - Users enter an expression that Node will **read**
 **Evaluate** - Node will then **evaluate** this expression
 **Print** - Node will **print** the result to the terminal
-**Loop** - Node will **loop** back to the beginning and prompt users for an input
+**Loop** - Node will **loop** back to the beginning and prompt users to input another expression
+
+A REPL allows us to run bits of code in a programming language and see what values are evaluated by them.
 
 {{</note>}}
 
 The Node REPL enables us to input JavaScript instructions that are then executed by NodeJS. The REPL will then print out the result of this execution.
 
-We can type each of the following expressions into the REPL and then press enter to check the result.
+We can type each of the following expressions into the REPL one at a time and then press enter to check the result.
 
 ```bash
 10 + 32;
@@ -222,14 +230,14 @@ Try creating your own expressions and entering them into the Node REPL. In each 
 In programming we often want to reuse particular expressions.
 Therefore, we need a way to refer back to particular expressions. Let’s consider the following string:
 
-```js
-"Hello there";
+```
+"Hello there"
 ```
 
 Suppose we want to reuse this string in several different places. For example, we may want to create different greetings for different users, like:
 
-```bash
-"Hello there, Alicia";
+```
+"Hello there, Alicia"
 ```
 
 ```bash
@@ -253,8 +261,8 @@ We can break down the different syntactic elements of this variable declaration:
 
 - `const` is a keyword used to indicate we're creating a variable.
 - `greeting` is the variable name - like the name of the label for our piece of data.
-- `=` this is the assignment operator. It means assign to the label `greeting` the expression on the right hand side.
-- `"Hello there"` - this is the value we're assigning to the label `greeting`.
+- `=` this is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
+- `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
 
 We can type this variable declaration into the REPL:
 
@@ -268,7 +276,30 @@ Now we have the `greeting` variable stored in memory we can reuse it to build mo
 
 ![use-greeting-variable](use-greeting-variable.png)
 
-In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign and a set of curly braces. The variable name itself is then placed inside the curly braces. The value this variable holds is then placed inside the string.
+In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign and a set of curly braces. We can put any expression (e.g. a variable name) inside the curly braces. The value that expression evaluates to is then placed inside the string.
+
+When an operation uses an expression, that expression is immediately evaluated, and how it was written is forgotten about. That means that the `greetAlicia` variable is the same in all three of these cases:
+
+```js
+const greetAlicia = "Hello there, Alicia";
+```
+
+---
+
+```js
+const name = "Alicia";
+const greetAlicia = `Hello there, ${name}`;
+```
+
+---
+
+```js
+const greeting = "Hello there";
+const name = "Alicia";
+const greetAlicia = `${greeting}, ${name}`;
+```
+
+The `greetAlicia` variable doesn't remember whether you used variables to make it or not - in all three cases, `greetAlicia` contains the string `"Hello there, Alicia"`. Once a value is made, it doesn't matter _how_ it was made.
 
 ### Reusing instructions
 
@@ -277,7 +308,7 @@ Given the number `10.3`, we could ask:
 
 > 🤔 "What is the nearest whole number to `10.3`?"
 
-The process of finding the nearest whole number to 10.3 is called **rounding**. So we could rephrase the previous question to be:
+The process of finding the nearest whole number to a decimal number is called **rounding**. So we could rephrase the previous question to be:
 
 > 🤔 "What does the number `10.3` **round** to?”
 
@@ -298,11 +329,11 @@ A function is a reusable set of instructions.
 
 Functions will often take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
 
-So we can write `Math.round` in the Node REPL:
+We can write `Math.round` in the Node REPL:
 
 ![round-img](math.round-img.png)
 
-After we've hit enter to evaluate, we then get the following:
+After we've hit enter to evaluate our expression, we then get the following:
 
 ![round-img](math.round-evaluated.png)
 
@@ -326,8 +357,25 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 
 "apply the set of instructions for `Math.round` to the number `10.3`."
 
-If we type `Math.round(10.3);` then again we get the result 10.
-So we say that `Math.round(10.3);` outputs 10.
+
+If we type `Math.round(10.3)` then we get the result 10.
+So we say that `Math.round(10.3)` returns 10.
+
+A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evalutes to the value `10`.
+
+This means that if we assign that expression to a variable, or use it in a string, we'll get the value `10`. So we can write:
+
+```js
+const roundedValue = Math.round(10.3);
+```
+
+or we can write:
+
+```js
+const roundedValueInAString = `10.3 rounds to ${Math.round(10.3)}`;
+```
+
+Both of these instructions **evaluate** the call expression `Math.round(10.3)` to the returned value `10` as soon as the call expression appears. The variable `roundedValue` will have a numeric value `10` (just like if we'd written `const roundedValue = 10;`), and the variable `roundedValueInAString` will have a string value `"10.3 rounds to 10"`.
 
 {{<note title="Note" type="note">}}
 It's important to note that `Math.round` is **implementation opaque**.
@@ -338,7 +386,7 @@ It's important to note that `Math.round` is **implementation opaque**.
 
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly.
 
-However, most of the time, we need to write more complex programs in files that consist of many lines.
+However, most of the time, we need to write more complex programs in files that consist of many instructions.
 Instead of using the REPL mode, we can get Node to execute the instructions written in our file.
 
 We can use the node command to run a JavaScript file.
@@ -352,9 +400,9 @@ Let’s suppose we have a file `sums.js` like this:
 10 / 3;
 ```
 
-In this case, we can write the command `node sums.js`.
+In this case, we can write the command `node sums.js` in our terminal.
 
-This command is an instruction to execute the program written inside index.js. Our program consists of 3 lines, each line an expression. So the machine will start:
+This terminal command is an instruction to execute the program written inside sums.js. Our program consists of 3 lines, each line an expression. So the machine will go through the file line by line:
 
 `10 + 3;` the computer will evaluate this expression  
 `10 * 3;` the computer will evaluate this expression  
@@ -368,26 +416,26 @@ Try out the following steps below to check you can run a file with Node:
 
 2. Try writing a few expressions in the file like the ones above.
 
-3. Get Node to run this file. ( Don't use the REPL now - there should be a command to execute the whole file.)
+3. Get Node to run this file. (Don't use the REPL now - you should run a command to execute the whole file.)
 
 {{</note>}}
 
-Once the computer evaluates these expressions the execution of the program is complete. But, we’re left with a problem. With the REPL, the user inputs an expression, the computer evaluates it and then prints the result. It then loops back and prompts the user for another input. But now the computer will go and execute each line sequentially until completion.
+Once the computer evaluates these expressions the execution of the program is complete. But, we’re left with a problem. With the REPL, the user inputs an expression, the computer evaluates it and then prints the result. But now the computer will go and execute each line sequentially until completion _without_ printing the values of each expression it evaluates.
 
 So this new problem can be expressed as a question:
 
 > ❓ Problem
 >
-> "How can we check the values of variables in our program when it is being executed?"
+> "How can we check what the values evaluated to in our program when it is being executed?"
 
 ### 🖨️ Printing to the terminal
 
 In order to check the values when our program runs, we can make use of a function called `console.log`.  
-`console.log` will allow us to log expressions to the console while our program is executing. This is very useful for complex programs when we need to check the value of expressions in our program.
+`console.log` will allow us to log the values of expressions to the console while our program is executing. This is very useful for complex programs when we need to check the values expressions in our program evaluate to.
 
 Let's see how to use `console.log`
 
-In a file called `example.js`, we can write name of the function `console.log`.
+In a file called `example.js`, we can write the name of the function `console.log`.
 
 ```js title="example.js"
 console.log;
@@ -440,6 +488,8 @@ When this program runs, the variable `result` will evaluate to `undefined`.
 {{<note title="Note" type="note">}}
 
 `undefined` is a data type in JavaScript often used to represent the absence of a specific value
+
+Unlike the `number` data type, which contains many possible values (`1`, `2`, `10.3`, etc), the `undefined` data type has exactly one value, `undefined`.
 
 {{</note>}}
 
