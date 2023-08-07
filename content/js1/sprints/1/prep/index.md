@@ -430,7 +430,7 @@ So this new problem can be expressed as a question:
 ### 🖨️ Printing to the terminal
 
 In order to check the values when our program runs, we can make use of a function called `console.log`.  
-`console.log` will allow us to log the values of expressions to the console while our program is executing. This is very useful for complex programs when we need to check the values expressions in our program evaluate to.
+`console.log` will allow us to log the result of expressions to the console while our program is executing. This is very useful for complex programs when we need to check the values expressions evaluate to in our program.
 
 Let's see how to use `console.log`
 
