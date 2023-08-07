@@ -71,6 +71,7 @@ Try and define the **user interface** for the following devices:
 - a calculator
 - a microwave
 - a desktop lamp
+- Facebook
 - Alexa
 - ChatGPT
 
