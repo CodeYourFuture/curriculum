@@ -95,15 +95,13 @@ We can then press enter to issue this command to the computer and get a response
 
 Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
-## Writing computer instructions
+## 🖊️ Writing computer instructions
 
-We can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
+We can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret.
 
-However, we can make use of other programming languages too.
-A programming language is a particular set of rules for writing computer instructions.
-During the execution of a computer program, a computer will store and modify data.
+Given the `ls` command, the computer knows this means **"list the files and directories in the current directory"**.
 
-So we can think of a programming language as allowing us to create **data** and **operations** on that data.
+During the execution of a computer program, a computer will store and modify data using operations.
 
 {{<note title="Definition" type="info">}}
 **Data** consists of information. The information may be in different forms: for example, some data may be in the form of text and other data may be in the form of images.
@@ -117,9 +115,17 @@ The data in a executing program is sometimes referred to as the **state**.
 For example, adding one to a number, subtracting one number from another, or converting some text into ALL UPPER CASE are all operations.
 {{</note>}}
 
-## Classifying data
+`ls` is a part of a programming language we can use to interact with the files and folders on our computer.
+
+{{<note title="Definition" type="definition">}}
+
+A **programming language** is a particular set of rules for writing computer instructions.
+
+{{</note>}}
 
 In this course, we’re going to focus on the JavaScript programming language.
+
+## Classifying data
 
 A programming language will have certain ways of organising data. They split data up into different categories called **data types**.
 
@@ -178,7 +184,7 @@ NodeJS can be used in a number of different ways; however, one particular mode i
 
 {{<note title="Definition" type="info">}}
 
-ℹ️ Definition: REPL is a special type of program. REPL stands for:
+REPL is a special type of program that stands for:
 
 **Read** - Users enter an expression that Node will **read**
 **Evaluate** - Node will then **evaluate** this expression
@@ -199,10 +205,6 @@ We can type each of the following expressions into the REPL one at a time and th
 
 ```bash
 32 / 10;
-```
-
-```bash
-3 ** 4;
 ```
 
 {{<note title="Activity" type="activity">}}
@@ -433,8 +435,18 @@ So this new problem can be expressed as a question:
 
 ## 🖨️ Printing to the terminal
 
-In order to check the values when our program runs, we can make use of a function called `console.log`.  
-`console.log` will allow us to log the result of expressions to the console while our program is executing. This is very useful for complex programs when we need to check the values expressions evaluate to in our program.
+In order to check the values when our program runs, we can make use of a function called `console.log`.
+
+{{<note type="note" title="console.log">}}
+**console** will often refer to the _a text interface_ like a terminal.
+A **log** is a written record of something that happens.
+
+So `console.log` will _record something that happens in our program_ and print it to a _text based interface_.
+
+{{</note>}}
+
+`console.log` will allow us to log the result of expressions while our program is executing.
+This is very useful for complex programs when we need to check the values expressions evaluate to in our program.
 
 Let's see how to use `console.log`
 
