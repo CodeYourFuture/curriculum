@@ -142,13 +142,14 @@ Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several 
 a) What is the **sum** of 10 and 32?  
 b) What is the **product** of 10 and 32?
 
-From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32` as follows:
+From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and an operator. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32` as follows:
 
 ```raw
 10 + 32
 ```
 
-In JavaScript, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation. In this example, `+` is used to represent the sum operation “make the sum of the numbers”.  
+In JavaScript, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation.
+In this example, `+` is used to represent the sum operation “make the sum of the numbers”.  
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
 {{<note title="Definition" type="info">}}
