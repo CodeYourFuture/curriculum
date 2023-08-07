@@ -148,11 +148,11 @@ c) What is the **remainder** when 32 is divided by 10?
 
 From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32` as follows:
 
-```raw title="symbolic form"
+```raw
 10 + 32
 ```
 
-In symbolic form, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation. In this example, `+` is used to represent the add operation “add the 2 numbers together”.  
+In JavaScript, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation. In this example, `+` is used to represent the sum operation “make the sum of the numbers”.  
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
 {{<note title="Definition" type="info">}}
