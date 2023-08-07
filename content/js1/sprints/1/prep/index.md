@@ -164,6 +164,10 @@ So we say that `10 + 32` **evaluates** to the value `42`.
 
 ## Evaluating expressions
 
+> Recall 🗣️ : Computers work by storing and performing operations on data.
+> Computer programs will often consist of many expressions built from operations on data.
+> So we must understand how expressions are evaluated if we are to understand how computer programs are executed.
+
 We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents (in this case multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression.
 
 However, we can use computers to evaluate expressions for us.
