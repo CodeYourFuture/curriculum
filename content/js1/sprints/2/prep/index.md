@@ -153,7 +153,7 @@ Earlier we saw how to store a function's return value in a variable.
 const result = Math.round(10.3);
 ```
 
-In the example from before, we call `Math.round` which takes the input `10.3` and then outputs the rounded number `10`. So `result` stores a value of `10`.
+In the example from before, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`. So `result` stores a value of `10`.
 
 Now we want to call the function `convertToPercentage` and store the return value in a variable.
 We can store the return value in a variable in exactly the same way:
