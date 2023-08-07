@@ -357,7 +357,6 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 
 "apply the set of instructions for `Math.round` to the number `10.3`."
 
-
 If we type `Math.round(10.3)` then we get the result 10.
 So we say that `Math.round(10.3)` returns 10.
 
@@ -402,7 +401,7 @@ Let’s suppose we have a file `sums.js` like this:
 
 In this case, we can write the command `node sums.js` in our terminal.
 
-This terminal command is an instruction to execute the program written inside sums.js. Our program consists of 3 lines, each line an expression. So the machine will go through the file line by line:
+This terminal command is an instruction to execute the program written inside sums.js. Our program consists of 3 lines, each line an expression. So the computer will go through the file line by line:
 
 `10 + 3;` the computer will evaluate this expression  
 `10 * 3;` the computer will evaluate this expression  
