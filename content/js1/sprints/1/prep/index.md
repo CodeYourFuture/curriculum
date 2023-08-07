@@ -132,7 +132,7 @@ A **data type** is a grouping of data with some particular properties.
 
 In JavaScript, we have several different data types, like **numbers** and **strings**.
 
-For example, `10` is part of the number data type.  
+`10` is an example of the number data type.
 `3.14` is also part of the number data type, as we include both integers non-integers in this data type.
 
 We also have the string data type in JavaScript. A string is a sequence of characters.
