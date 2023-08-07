@@ -16,7 +16,6 @@ backlog_filter= 'Week 1'
 ## Learning objectives
 
 - Define a terminal
-- Describe the purpose of VSCode
 - Define the Node REPL
 - Define an expression
 - Identify the syntactic features of a variable declaration
