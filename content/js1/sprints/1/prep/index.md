@@ -452,7 +452,7 @@ So we can add parentheses after the function name to indicate we're calling this
 console.log("hello there!");
 ```
 
-We should see the string "hello there!" logged out in the terminal.
+We should see the string `"hello there!"` logged out in the terminal.
 
 ## Saving return values
 
@@ -469,13 +469,14 @@ When this program is executed, it creates a variable called result and assigns t
 
 So `result` will have a value of `10`.
 
-## 🔭 Logging vs function output
+## 🔭 Logging vs function return values
 
 Some functions return values that we can use in our program.
 
-`Math.round` takes an input, does a calculation and then outputs values that we can use when our program is running.
+`Math.round` takes a single input, does a calculation and then returns a value that we can use when our program is running.
 
-However, some functions don't produce useful outputs in our running program; however they can still cause **effects**. Consider the following line:
+However, some functions don't produce useful return values in our running program; however they can still cause **effects**.
+Consider the following line:
 
 ```js
 const result = console.log("hello world");
