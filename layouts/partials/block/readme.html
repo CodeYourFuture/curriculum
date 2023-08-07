@@ -1,0 +1,20 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
+
+{{ if $response }}
+  <section class="c-block">
+    <header class="c-block__header">
+      <h2
+        class="c-block__title e-heading__2"
+        id="{{ $blockData.name |urlize }}">
+        <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
+      </h2>
+      {{ partial "time.html" $blockData }}
+    </header>
+    <div class="c-block__content c-copy">
+      {{ $response.content | base64Decode | replaceRE "<!--" "" | replaceRE "-->" ""  | markdownify }}
+    </div>
+  </section>
+{{ else }}
+  <h3>Cannot get a response</h3>
+{{ end }}

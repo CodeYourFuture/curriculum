@@ -1,0 +1,35 @@
+{{/* This block expects the github issue api */}}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
+
+{{ if $response }}
+  <section class="c-block">
+    <header class="c-block__header">
+      <h2
+        class="c-block__title e-heading__2"
+        id="{{ $blockData.name |urlize }}">
+        <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
+      </h2>
+      {{/* TODO - lookup time from label dictionary */}}
+      {{ range $response.labels }}
+        {{ if in .name "Size" }}
+          <time class="c-block__time" datetime="P60M">{{ .name }}</time>
+        {{ end }}
+      {{ end }}
+    </header>
+    <div class="c-block__content c-copy">
+      {{ $response.body | markdownify }}
+    </div>
+    {{ with $response.labels }}
+      <ul class="c-issue__labels">
+        {{ range . }}
+          <li class="c-issue__label" style="--github:#{{ .color }}4d">
+            <span class="c-issue__label-name" title="{{ .description }}">
+              {{ .name }}
+            </span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+{{ end }}

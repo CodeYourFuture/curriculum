@@ -1,0 +1,87 @@
+{{/* This scratch block takes a url and converts it to a map containing:
+  1. type of block to call, and the options are:
+  - gh readme
+  - gh issue
+  - pd (for the PD platform)
+  - youtube
+  - local module content
+  - local course content
+  2. api, converted from the url based on the type of block
+  3. block name
+  4. source of truth (sot)
+  5. headers and auth for the api call
+  6. showTime, a boolean to show the time in the block
+  7. isShortcode, a boolean to indicate if the block is being called from a shortcode
+*/}}
+{{ $name := .name | default "warning: name is empty" }}
+{{ $src := .src | default "warning: src is empty" }}
+{{/* We need to know what page this block is on */}}
+{{ $p := .page }}
+
+{{/* Initialize the blockData map */}}
+{{ .Scratch.Set "blockData" (dict) }}
+
+{{/* Set the block name */}}
+{{ .Scratch.SetInMap "blockData" "name" $name }}
+
+{{/* Set the source of truth */}}
+{{ .Scratch.SetInMap "blockData" "sot" $src }}
+
+{{/* Prep and Day Plan want times */}}
+{{ .Scratch.SetInMap "blockData" "showTime" false }}
+{{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
+  {{ .Scratch.SetInMap "blockData" "showTime" true }}
+{{ end }}
+
+{{/* It's only the Youtube partial that cares about being a shortcode */}}
+{{ .Scratch.SetInMap "blockData" "isShortcode" false }}
+
+{{/* Default block */}}
+{{ .Scratch.SetInMap "blockData" "type" "local_course" }}
+{{ .Scratch.SetInMap "blockData" "api" (printf "blocks/%s" $name) }}
+
+{{ if eq $src "module" }}
+  {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
+  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $p.Page.Section $name) }}
+{{ end }}
+
+{{ if "github" | in $src }}
+  {{/* Change base URL to api.github.com */}}
+  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+
+  {{ if (in $src "issues") }}
+    {{ .Scratch.SetInMap "blockData" "type" "issue" }}
+  {{ else }}
+    {{/* For repositories and individual README files, use readme API endpoint
+      https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory
+    */}}
+    {{ $newSrc = replace $newSrc "/tree/main" "/readme" }}
+    {{ $newSrc = replace $newSrc "/blob/main/README.md" "/readme" }}
+    {{ .Scratch.SetInMap "blockData" "type" "readme" }}
+  {{ end }}
+
+  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+
+  {{/* set a default time of 120 minutes for workshops */}}
+  {{ .Scratch.SetInMap "blockData" "time" 120 }}
+{{ end }}
+
+{{ if "cyf-pd.netlify.app" | in $src }}
+  {{ .Scratch.SetInMap "blockData" "type" "pd" }}
+  {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+  {{ $blockPath := replace $blockPath "/readme/" "" }}
+  {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
+  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+{{ end }}
+
+{{ if "youtu" | in $src }}
+  {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
+  {{ .Scratch.SetInMap "blockData" "api" $src }}
+{{ end }}
+
+{{/* Now let's do our headers */}}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ end }}
+{{ .Scratch.SetInMap "blockData" "headers" $headers }}

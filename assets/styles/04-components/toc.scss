@@ -7,16 +7,33 @@
   border-image: var(--theme-border-image);
   box-shadow: var(--theme-box-shadow);
   max-height: 25vh;
+  padding: var(--theme-spacing--1) var(--theme-spacing--2)
+    var(--theme-spacing--4);
   overflow-y: auto;
+  counter-reset: item;
 
   ol {
     color: var(--theme-color--ink);
-    padding-right: var(--theme-spacing--gutter);
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
-
-  ol li {
-    text-transform: uppercase;
+  // I'm doing this because we might have multiple ordered lists in this section
+  // it's not an access problem in particular and it's a significant chunk of template code to merge the lists
+  // https://github.com/gohugoio/hugo/issues/1778#issuecomment-313895910
+  // so instead of writing all that I'm resetting the counter and running them together that way
+  // feel free to tackle if you have spare time
+  ol > li {
+    text-transform: lowercase;
     font-family: var(--theme-font--display);
+    font-weight: 300;
+    &:before {
+      display: inline-block;
+      content: counter(item) ". ";
+      counter-increment: item;
+      min-width: 2.5ch;
+      line-height: 1.375;
+    }
 
     a,
     a:link {
@@ -33,13 +50,18 @@
   }
 
   &__top {
+    --bookmark: var(--theme-spacing--touchtarget);
     position: fixed;
-    z-index: 1;
     left: calc(
       calc(
           calc(100vw - var(--theme-spacing--container)) / 2 +
             var(--theme-spacing--container)
-        ) - 3ch
+        ) - calc(var(--bookmark) / 2)
     );
+    text-shadow: 0.5px 0.5px var(--theme-color--ink),
+      -0.5px 1px var(--theme-color--pop),
+      0px 3.25px 6px var(--theme-color--outline);
+    font-size: var(--bookmark);
+    transform: translateY(calc(-1 * calc(var(--bookmark) / 2)));
   }
 }

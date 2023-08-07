@@ -10,6 +10,7 @@
   &__link {
     display: inline-flex;
     align-items: center;
+    white-space: nowrap;
     @include on-event {
       text-decoration: overline 3px solid var(--theme-color--accent);
       outline: none;

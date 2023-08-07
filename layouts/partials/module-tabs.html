@@ -1,30 +1,25 @@
+{{.Page.Store.Set "hasTabs" true }}
 {{ $parent := .Section }}
 <tab-panels class="c-tabs c-tabs--module">
-  <ul class="c-tabs__list" id="{{ .Title | urlize }}" role="tablist">
-    <li class="c-tabs__item">
-      <a
+  <div class="c-tabs__list" id="{{ .Title | urlize }}" role="tablist">
+      <button
+        id="timeline"
         data-toggle="tab"
-        class="c-tabs__link is-active"
-        href="#timeline"
+        class="c-tabs__tab is-active e-heading__3"
         role="tab"
-        aria-controls="Timeline"
+        aria-controls="timeline-panel"
         aria-selected="true"
-        >Timeline</a
-      >
-    </li>
-    <li class="c-tabs__item">
-      <a
+        >Timeline</button>
+      <button
+        id="context"
         data-toggle="tab"
-        class="c-tabs__link "
-        href="#context"
+        class="c-tabs__tab e-heading__3"
         role="tab"
-        aria-controls="Context"
-        >Context</a
-      >
-    </li>
-  </ul>
+        aria-controls="context-panel"
+        >Context</button>
+    </div>
   <div class="c-tabs__group">
-   <div class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="#timeline" id="timeline">
+   <div class="c-tabs__panel is-active" role="tabpanel" aria-labelledby="#timeline" id="timeline-panel">
     <ol class="c-timeline">
       {{ range where .Site.Pages "Section" $parent }}
         {{ if in .Params.menu_level
@@ -39,16 +34,15 @@
       {{ end }}
     </ol>
   </div>
- <div id="context" class="c-tabs__panel" role="tabpanel" aria-labelledby="#context">
+ <div id="context-panel" class="c-tabs__panel" role="tabpanel" aria-labelledby="#context">
     <div class="c-block__list">
       <!-- Blocks will appear here in order listed in the blocks list in the front matter -->
       {{ range .Params.blocks }}
-        {{ partial "block.html" (dict "block" . "Page"
+        {{ partial "block/block.html" (dict "block" . "Page"
           $.Page)
         }}
       {{ end }}
     </div>
   </div>
 </tab-panels>
-{{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-<script src="{{ $tabs.Permalink }}" type="module" defer></script>
+

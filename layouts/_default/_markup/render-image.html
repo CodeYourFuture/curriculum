@@ -8,6 +8,11 @@
 
 {{/* Check if the source is an external link */}}
 {{ $isExternal := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
+{{/* If this image is served from GitHub, swap to jSDelivr */}}
+{{ if "github" | in $src }}
+  {{ $src = replace $src "https://github.com/" "https://cdn.jsdelivr.net/gh/" }}
+  {{ $src = replace $src "/blob/" "@" }}
+{{ end }}
 
 {{/* Define an image variable and a flag to indicate if it's a resource */}}
 {{ $image := "" }}

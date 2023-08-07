@@ -1,0 +1,11 @@
+{{ $scope := . }}
+{{ $pageContext := .pageContext }}
+{{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
+{{ if (eq $scope.blockData.type "local_module") }}
+  {{ $localBlock = $pageContext.GetPage (replace $scope.blockData.api "%!s(<nil>)" .pageContext.Section) }}
+{{ end }}
+{{ $blockTitle := $localBlock.Page.Title }}
+{{ with $localBlock.Page.Params.Objectives }}
+  <h5>{{ $blockTitle | default $scope.blockData.name }}</h5>
+  {{ partial "objectives/block.html" . }}
+{{ end }}

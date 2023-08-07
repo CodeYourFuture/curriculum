@@ -1,7 +1,15 @@
 class YouTubePlayer extends HTMLElement {
   constructor() {
     super();
-    this.videoId = this.getAttribute("data-video-id");
+    this.src = this.getAttribute("data-src");
+    // Extract video ID, playlist ID, and start index from the passed in src
+    const url = new URL(this.src);
+    this.videoId =
+      url.hostname === "youtu.be"
+        ? url.pathname.slice(1)
+        : new URLSearchParams(url.search).get("v");
+    this.playlistId = new URLSearchParams(url.search).get("list");
+    this.startAt = new URLSearchParams(url.search).get("index");
     this.attachShadow({ mode: "open" });
   }
 
@@ -70,10 +78,11 @@ class YouTubePlayer extends HTMLElement {
       .querySelector(".play-button")
       .addEventListener("click", () => {
         const iframe = document.createElement("iframe");
-        iframe.setAttribute(
-          "src",
-          `https://www.youtube.com/embed/${this.videoId}?autoplay=1`
-        );
+        const iframeSrc =
+          `https://www.youtube.com/embed/${this.videoId}?autoplay=1` +
+          (this.playlistId ? `&list=${this.playlistId}` : "") +
+          (this.startAt ? `&index=${this.startAt}` : "");
+        iframe.setAttribute("src", iframeSrc);
         iframe.setAttribute("title", "Youtube Video");
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "");

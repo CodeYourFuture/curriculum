@@ -1,0 +1,24 @@
+{{ $name := .block.name | default "warning: name is empty" }}
+{{ $src := .block.src }}
+
+{{/* Call our scratch function */}}
+{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" $name "page" .) }}
+{{/* Retrieve the blockData from Scratch */}}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+
+{{/* Depending on the type of block, call the appropriate partial */}}
+{{ if eq $blockData.type "youtube" }}
+  {{ partial "block/youtube.html" . }}
+{{ else if eq $blockData.type "readme" }}
+  {{ partial "block/readme.html" . }}
+{{ else if eq $blockData.type "issue" }}
+  {{ partial "block/issue.html" . }}
+{{ else if eq $blockData.type "pd" }}
+  {{ partial "block/pd.html" . }}
+{{ else if eq $blockData.type "local_module" }}
+  {{ partial "block/local.html" . }}
+{{ else if eq $blockData.type "local_course" }}
+  {{ partial "block/local.html" . }}
+{{ else }}
+  <p>Error: Unrecognized block type</p>
+{{ end }}

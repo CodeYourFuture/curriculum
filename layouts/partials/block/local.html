@@ -1,0 +1,20 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+
+{{ $block := .Page.Site.GetPage $blockData.api }}
+
+
+<section class="c-block">
+  <header class="c-block__header">
+    <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
+      {{ $block.Title }}
+    </h2>
+    {{ partial "time.html" (dict "blockData" $blockData "time" $block.Params.time) }}
+  </header>
+  {{ with $block.Params.Objectives }}
+    <details>
+      <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+      {{ partial "objectives/block.html" . }}
+    </details>
+  {{ end }}
+  <div class="c-block__content c-copy">{{ $block.Content }}</div>
+</section>
