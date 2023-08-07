@@ -143,8 +143,7 @@ In JavaScript a string is denoted using opening quotation marks and closing quot
 Let's consider the numbers 10 and 32. Given these 2 numbers, we can ask several questions:
 
 a) What is the **sum** of 10 and 32?  
-b) What is the **product** of 10 and 32?  
-c) What is the **remainder** when 32 is divided by 10?
+b) What is the **product** of 10 and 32?
 
 From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32` as follows:
 
