@@ -133,7 +133,7 @@ A **data type** is a grouping of data with some particular properties.
 In JavaScript, we have several different data types, like **numbers** and **strings**.
 
 `10` is an example of the number data type.
-`3.14` is also part of the number data type, as we include both integers non-integers in this data type.
+`3.14` is also part of the number data type, as we include both integers and non-integers in this data type.
 
 We also have the string data type in JavaScript. A string is a sequence of characters.
 In JavaScript a string is denoted using opening quotation marks and closing quotation marks. `"Code Your Future"` is an example of a string.
@@ -466,7 +466,7 @@ So `result` will store the value `10`.
 
 ### 🔭 Logging vs function output
 
-Some functions output values that we can use in our program.
+Some functions return values that we can use in our program.
 
 `Math.round` takes an input, does a calculation and then outputs values that we can use when our program is running.
 
@@ -478,7 +478,7 @@ const result = console.log("hello world");
 
 {{<note title="Exercise" type="exercise">}}
 
-Try predicting what `result` will evaluate to when the code above runs. Try executing this line in the Node REPL to observe what happens.
+Try predicting what `result` will evaluate to when the code above runs. Try executing this line in the Node REPL and then evaluating the value of the `result` variable to observe what happens.
 
 {{</note>}}
 
