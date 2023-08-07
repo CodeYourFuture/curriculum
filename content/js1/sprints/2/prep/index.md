@@ -18,7 +18,7 @@ backlog_filter= 'Week 2'
 - Give examples of when the `undefined` data type may occur in a JavaScript program
 - Construct simple expressions to represent a set of operations
 - Define a _parameter_
-- Identify the return value evluated at a call site given its function declaration
+- Identify the return value evaluated at a call site given its function declaration
 - Identify the value assigned to a parameter when a function is invoked
 - Identify the type of a return value given some call site
 - Given a short program, state the number of times a given function is called
