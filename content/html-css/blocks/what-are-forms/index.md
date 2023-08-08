@@ -5,9 +5,10 @@ time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Define HTML, tags, and nesting'
-    2='Explore the semantics of HTML'
-    3='Analyse the role of HTML in the browser'
+    1='Define form, field, and input'
+    2='Define form elements and attributes'
+    3='Identify the purpose of validation'
+    4='Write form validations'
 +++
 
 These questions and answers are compiled from recorded sessions on HTML forms at CYF, and are the collective contribution of several mentors and students. This time we've included a trainee answer and a mentor answer, per question.
@@ -97,6 +98,14 @@ What you need to focus on is _what you're actually doing_. We're structuring dat
 {{<note title="Now practise with">}}
 [Test Your Skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls)
 {{</note>}}
+
+</details>
+
+<details><summary>Oh and... what does input mean?</summary>
+
+🧑🏿‍💻💬 **Trainee:** Input means to put something in. In this case the data we put in the form.
+
+👩🏻‍💻💬 **Mentor:** Bang on.
 
 </details>
 
