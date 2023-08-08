@@ -19,16 +19,21 @@ Prep material is the combination of explanations and activities that trainees wi
 ### Checklist
 
 - [ ] Prep content has learning objectives
+- [ ] Prep content has been copy edited
 
 <!-- How has prep changed? -->
 
 ## Day plan & workshop content
+
+- [ ] Day plan points to the correct workshop
 
 <!-- How has the day plan changed? -->
 <!-- Link to any workshop content that has changed -->
 
 ## Backlog
 
+- [ ] Coursework projects/exercises updated in line with the curriculum prep work
+- [ ] Coursework issues updated and correctly link to the coursework for the week
 <!-- The backlog tasks and module repo may need to change in response to a change in the prep content>
 <!-- How is the backlog changing?  -->
 
