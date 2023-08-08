@@ -15,14 +15,17 @@ src="https://cyf-pd.netlify.app/blocks/critical-thinking/readme/"
 [[blocks]]
 name="morning-break"
 [[blocks]]
-name="Handling undefined"
-src="https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/new-git-cli-workshop?ref=new-git-cli-workshop"
+name="Using the Git CLI"
+src="https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/git-cli?ref=new-git-cli-workshop"
+time="90"
 [[blocks]]
 name="lunch"
 [[blocks]]
-name="coursework"
+name="study-60"
 [[blocks]]
 name="afternoon-break"
+[[blocks]]
+name="study-60"
 [[blocks]]
 name="retro"
 +++
