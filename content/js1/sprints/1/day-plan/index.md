@@ -16,7 +16,7 @@ src="https://cyf-pd.netlify.app/blocks/critical-thinking/readme/"
 name="morning-break"
 [[blocks]]
 name="Handling undefined"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/undefined"
+src="https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/new-git-cli-workshop?ref=new-git-cli-workshop"
 [[blocks]]
 name="lunch"
 [[blocks]]
