@@ -45,9 +45,9 @@ terminal, console, expression, function, call, invoke, argument, parentheses, RE
 
 Modern computers are highly complex devices: it would be too difficult and time-consuming to list all the components that make up a modern computer. To begin understanding, we can start with a simple definition of a computer:
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: computer" type="info">}}
 
-A computer is a device used to store and perform operations on data.
+A **computer** is a device used to store and perform operations on data.
 
 {{</note>}}
 
@@ -57,7 +57,7 @@ As a user, we want to interact with computers _without_ understanding how they a
 
 Instead we make use of **interfaces**.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: interface" type="info">}}
 
 An **interface** can be thought of as a boundary that allows communication between a user and a machine.
 The user asks the machine to carry out certain tasks via the interface. We can think of the interface as a gateway between the user and the machine.
@@ -105,13 +105,13 @@ Given the `ls` command, the computer knows this means **"list the files and dire
 
 During the execution of a computer program, a computer will store and modify data using operations.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: data" type="info">}}
 **Data** consists of information. The information may be in different forms: for example, some data may be in the form of text and other data may be in the form of images.
 
 The data in a executing program is sometimes referred to as the **state**.
 {{</note>}}
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: operations" type="info">}}
 **Operations** are anything that take data and modify existing data or create new data from the current data in the program.
 
 For example, adding one to a number, subtracting one number from another, or converting some text into ALL UPPER CASE are all operations.
@@ -119,7 +119,7 @@ For example, adding one to a number, subtracting one number from another, or con
 
 `ls` is a part of a programming language we can use to interact with the files and folders on our computer.
 
-{{<note title="Definition" type="definition">}}
+{{<note title="Definition: programming language" type="definition">}}
 
 A **programming language** is a particular set of rules for writing computer instructions.
 
@@ -131,7 +131,7 @@ In this course, we’re going to focus on the JavaScript programming language.
 
 A programming language will have certain ways of organising data. They split data up into different categories called **data types**.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: data types" type="info">}}
 A **data type** is a grouping of data with some particular properties.
 {{</note>}}
 
@@ -160,7 +160,7 @@ In JavaScript, `+` is an operator: an **operator** is a symbol that is used to r
 In this example, `+` is used to represent the sum operation “make the sum of the numbers”.  
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: expression" type="info">}}
 An **expression** is a value or any valid combination of values and symbols that results in a single value.
 
 We say that expressions **evaluate** to a single value.
@@ -173,8 +173,9 @@ So we say that `10 + 32` **evaluates** to the value `42`.
 ## Evaluating expressions
 
 > Recall 🗣️ : Computers work by storing and performing operations on data.
-> Computer programs will often consist of many expressions built from operations on data.
-> So we must understand how expressions are evaluated if we are to understand how computer programs are executed.
+
+Computer programs will be built from many different expressions.
+So we must understand how expressions are evaluated if we are to understand how computer programs are executed.
 
 We can take an expression like `36 * 45` and ask what it evaluates to. If we understand what the `*` operator represents (in this case multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression.
 
@@ -184,7 +185,7 @@ However, we can use computers to evaluate expressions for us.
 
 NodeJS can be used in a number of different ways; however, one particular mode is the **REPL**.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: REPL" type="info">}}
 
 REPL is a special type of program that stands for:
 
@@ -250,7 +251,7 @@ Suppose we want to reuse this string in several different places. For example, w
 
 We can use a **variable** to store this string value so that it can be used again.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: variable" type="info">}}
 
 🏷️ A **variable** is a label for a piece of data. We can assign a piece of data to a particular label and then refer back to this label.
 {{</note>}}
@@ -267,10 +268,6 @@ We can break down the different syntactic elements of this variable declaration:
 - `greeting` is the variable name - like the name of the label for our piece of data.
 - `=` this is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
 - `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
-
-{{<note>}}
-We say that "Hello there" is a **string literal** here. This means we're
-{{</note>}}
 
 We can type this variable declaration into the REPL:
 
@@ -368,9 +365,9 @@ For example, we will often want to round numbers again and again.
 
 So in this case we can use a **function**.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Definition: function" type="info">}}
 
-A function is a reusable set of instructions.
+A **function** is a reusable set of instructions.
 
 {{</note>}}
 
@@ -396,7 +393,7 @@ Once we have the name for a function, we need to get Node to read the function's
 
 Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parentheses is the **input** we're passing to the function.
 
-{{<note title="Definition" type="info">}}
+{{<note title="Calling a function" type="note">}}
 
 **Calling a function** means telling the computer to read the function's instructions and carry out its instructions. When calling a function we can also pass inputs to the function.
 
@@ -567,7 +564,7 @@ When this program is executed, it creates a variable called result and assigns t
 
 So `result` will have a value of `10`.
 
-## 🔭 Logging vs function return values
+## 🔭 Logging and returning
 
 Some functions return values that we can use in our program.
 
