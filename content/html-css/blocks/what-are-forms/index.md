@@ -7,7 +7,7 @@ emoji= '🧩'
 [objectives]
     1='Define form, field, and input'
     2='Define form elements and attributes'
-    3='Identify the purpose of validation'
+    3='Explain the purpose of validation'
     4='Write form validations'
 +++
 
