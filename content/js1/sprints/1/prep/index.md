@@ -468,6 +468,54 @@ console.log("hello there!");
 
 We should see the string `"hello there!"` logged out in the terminal.
 
+## ❌ Errors
+
+> 🗣️ Recall: A programming language is a set of rules for writing computer instructions.
+
+So we need to understand what happens when we **_break_** those rules.
+
+Let's take an example:
+
+```js {linenos=table,hl_lines=["1"],linenostart=1}
+const firstName = "Francesco;
+const age = 33;
+const nationality = "Italian";
+```
+
+On line 1, we have a variable declaration, but the string has a missing `"`.
+We're not obeying the syntactic rules for JavaScript: the rules for writing expressions, statements and other parts of the language.
+
+When we execute the code above, we get the following:
+
+```
+const firstName = "Francesco;
+                  ^^^^^^^^^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+```
+
+We get a **SyntaxError** message: this is error informs us that our code is incorrect.
+
+{{<note type="Exercise">}}
+
+In each of the examples below, an error will occur when the code is executed, try to explain and predict the kind of error that will occur when you run the code:
+
+```js
+const volunteer = "Shadi";
+const volunteer = "Abdi";
+```
+
+```js
+const volunteer = "Shadi";
+volunteer = "Hinde";
+```
+
+```js
+console.log(Math.round(10.3);
+```
+
+{{</note>}}
+
 ## Saving return values
 
 We can use variables to store the return value of a function.
