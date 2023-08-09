@@ -314,6 +314,42 @@ const greetAlicia = `${greeting}, ${name}`;
 
 The `greetAlicia` variable doesn't remember whether you used variables to make it or not - in all three cases, `greetAlicia` contains the string `"Hello there, Alicia"`. Once a value is made, it doesn't matter _how_ it was made.
 
+## Making statements
+
+A variable declaration is an example of a **statement**.
+
+{{<note title="Definition: statement" type="definition">}}
+A **statement** is an instruction that produces some effect.
+For example, a variable declaration is an example of a statement that has the _effect_ of creating a variable.
+{{</note>}}
+
+For example,
+
+```js
+const name = "Alicia"; // statement 1
+const greetAlicia = `Hello there, ${name}`; // statement 2
+```
+
+The code above consists of 2 variable declarations and therefore 2 different statements.
+
+1. The first statement is an instruction to create a variable `name` with a value of "Alicia"
+1. The second statement is an instruction to create a variable `greetAlicia` with a value of `"Hello there, Alicia"`
+
+However, some **statements** don't have useful effects.
+
+```js
+7 * 24; // <-- expression statement
+365 * 3; // <-- expression statement
+```
+
+The code above consists of 2 **expression statements**.
+
+**Expression statement** consist of an expression followed by a `;`.
+When the computer executes the code above, it will calculate the value of each expression but no other effect will take place.
+The values won't get stored anywhere as we're not using variable declaration statements.
+
+In JavaScript, all computer programs are built by combining useful statements.
+
 ## Reusing instructions
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
