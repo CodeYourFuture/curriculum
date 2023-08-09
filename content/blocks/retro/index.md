@@ -7,9 +7,7 @@ time= 25
 
 {{<tabs name="Run a retro">}}
 {{<tab name="Video">}}
-{{<youtube>}}
-https://www.youtube.com/watch?v=dY6yFsgLrBA
-{{</youtube>}}
+{{<youtube>}}https://www.youtube.com/watch?v=dY6yFsgLrBA{{</youtube>}}
 {{</tab>}}
 {{<tab name="Text">}}
 
