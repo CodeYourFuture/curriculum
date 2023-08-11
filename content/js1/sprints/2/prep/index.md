@@ -191,7 +191,7 @@ If our function behaves as intended, we expect the value of `result` to be `"30%
 
 When we log `result`'s value to the terminal we get a new data type - `undefined`.  
 `undefined` is a data type used to represent the absence of a value.  
-We need to specify the value want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
+We need to specify the value we want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
 
 ### Setting an output
 
@@ -213,7 +213,7 @@ Now that our function contains a `return` statement we can re-run our script to 
 
 ### Checking with different inputs
 
-Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the outputs we get each time.
+Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the return value we get each time.
 
 ```js {linenos=table,hl_lines=["7-8"],linenostart=1}
 function convertToPercentage() {
@@ -307,6 +307,7 @@ On line 7 we have a function call:
 function makeGreeting() {
   const greeting = "Hello there!";
 }
+
 const firstName = "German";
 const lastName = "Bencci";
 
