@@ -186,11 +186,10 @@ If our function behaves as intended, we expect the value of `result` to be `"30%
 
 ## Undefined values
 
-When we log `result`'s value to the terminal we get a new data type - `undefined`.  
-`undefined` is a data type used to represent the absence of a value.  
-We need to specify the value we want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
+When we log `result`'s value to the terminal we get `undefined`.
+We need to specify the value we want to return from our function. If we don't state what our function should return, the default return value will be `undefined`.
 
-## Setting an output
+## Setting a return value
 
 We write a return statement to specify a function's return value (what an expression calling the function will evaluate to).
 
@@ -205,7 +204,7 @@ function convertToPercentage() {
 }
 ```
 
-However, we can also keep the variable `percentage` and use refer to it in the return statement:
+However, we can also keep the variable `percentage` and refer to it in the return statement:
 
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
 function convertToPercentage() {
@@ -251,7 +250,7 @@ However, _given the function's current implementation_, we get the following log
 
 ## 💻 Playing computer
 
-To understand how `convertToPercentage` currently behaves we must start building a mental model of how the computer executes our code.
+> To understand how `convertToPercentage` currently behaves we must build a mental model of how the computer executes our code.
 
 To make sense of how the computer executes our code, we use a method called **playing computer**.
 
@@ -261,15 +260,6 @@ We have to step through the code line by line and work out what the computer doe
 
 This is difficult at first: however with practice, we develop a powerful tool for understanding how our code works.
 {{</note>}}
-
-```mermaid
-mindmap
-Root[How is a piece of code executed?]
-    B[Lines of code are executed from top to bottom]
-    C[Variable declarations mean data is stored in memory]
-    D[Function call means running the instructions inside the function]
-    E[When returning from a function we get a return value]
-```
 
 ## ➡️ Current line of code
 
