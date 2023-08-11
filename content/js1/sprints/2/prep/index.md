@@ -29,7 +29,6 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Assess and explain whether a function can reference a given variable or not
 - Explain how to reuse some code to perform a specific task
 - Propose clear and meaningful parameter names for a function
-- Given a problem, suggest clear semantic names for a function designed to solve the given problem
 - Give examples of how functionality can be generalised
 
 ## Notes
@@ -53,7 +52,7 @@ Math.round(3.141); // evaluates to 3
 
 All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS.
 
-However, there is so no such pre-built function that allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following properties:
+However, no such pre-built function allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following requirements:
 
 - takes any number input
 - converts it to a string in percentage form, and returns that string.
