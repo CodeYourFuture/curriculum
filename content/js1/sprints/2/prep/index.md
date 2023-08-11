@@ -195,11 +195,20 @@ We need to specify the value we want to output from our function. If we don't st
 
 ### Setting an output
 
-To specify a function's return value (what an expression calling the function will evaluate to), we write a `return` statement.
+We write a return statement to specify a function's return value (what an expression calling the function will evaluate to).
 
 If your function call is like a question, the return statement is the answer. It's what comes back.
 
 We can add a return statement to the function as follows:
+
+```js {linenos=table,hl_lines=["4"],linenostart=1}
+function convertToPercentage() {
+  const decimalNumber = 0.5;
+  return `${num * 100}%`;
+}
+```
+
+However, we can also keep the variable `percentage` and use refer to it in the return statement:
 
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
 function convertToPercentage() {
