@@ -394,9 +394,22 @@ when the function `convertToPercentage` is called, the variable `num` gets recre
 
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 
-🔑 A parameter is a special kind of variable that enables us to reference the input to a function.
+{{<note type="definition" title="Definition: parameter">}}
+A parameter is a special kind of variable that enables us to reference the input to a function.
+{{</note>}}
 
-We can add a parameter `num` to our function, as with the execution diagram below:
+We can add a parameter `num` to our function:
+
+```js {linenos=table,hl_lines=[1] ,linenostart=1}
+function convertToPercentage(num) {
+  // now num is a parameter of convertToPercentage
+  const percentage = `${num * 100}%`;
+  return percentage;
+}
+
+const output1 = convertToPercentage(0.5);
+const output2 = convertToPercentage(0.23);
+```
 
 We can think of a function as a "box". We pass inputs to into it, the function's code is executed and we get a return value at the end. We can visualise this as follows:
 
