@@ -79,7 +79,7 @@ In programming, we always try the simplest thing first. Let’s consider how to 
 Let’s consider the variable declaration below:
 
 ```js {linenos=table,linenostart=1}
-const num = 0.5;
+const decimalNumber = 0.5;
 ```
 
 We want to create an expression for the percentage using the value of `num`.
@@ -88,7 +88,7 @@ To convert to a percentage, we can multiply the number by 100 and then add a `"%
 So we can write:
 
 ```js {linenos=table,linenostart=1}
-const num = 0.5;
+const decimalNumber = 0.5;
 const percentage = `${num * 100}%`;
 ```
 
@@ -141,7 +141,7 @@ We can wrap the functionality we want to reuse inside the curly braces by writin
 
 ```js {linenos=table,linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
 }
 ```
@@ -161,7 +161,7 @@ We can store the return value in a variable in exactly the same way:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
 }
 const result = convertToPercentage(0.3);
@@ -171,7 +171,7 @@ Then we can print the value of the result to the terminal using `console.log`.
 
 ```js {linenos=table,hl_lines=["6"],linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
 }
 const result = convertToPercentage(0.3);
@@ -201,7 +201,7 @@ We can add a return statement to the function as follows:
 
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
   return percentage;
 }
@@ -215,7 +215,7 @@ Now we have a function declaration we can check if our function works for any nu
 
 ```js {linenos=table,hl_lines=["7-8"],linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
   return percentage;
 }
@@ -366,7 +366,7 @@ Given our code below:
 
 ```js {linenos=table,hl_lines=[7] ,linenostart=1}
 function convertToPercentage() {
-  const num = 0.5;
+  const decimalNumber = 0.5;
   const percentage = `${num * 100}%`;
   return percentage;
 }
