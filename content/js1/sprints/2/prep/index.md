@@ -153,10 +153,15 @@ Earlier we saw how to store a function's return value in a variable.
 
 ```js
 const result = Math.round(10.3);
+console.log(result); // logs 10 to the console
 ```
 
-In the example from before, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`. So `result` stores a value of `10`.
+In the previous exaample, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`.
+So we observe that `result` stores a value of `10`.
 
+`Math.round` is a function implemented by other developers but `convertToPercentage` is a function _we're_ implementing.
+
+However, calling `convertToPercentage` is just like calling `Math.round`.
 Now we want to call the function `convertToPercentage` and store the return value in a variable.
 We can store the return value in a variable in exactly the same way:
 
@@ -302,7 +307,7 @@ So far, we've seen two things:
 However, we must consider what happens when we declare and call a function in our program.
 Let's consider another example:
 
-<iframe width="850" height="375" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0Afunction%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%20%0A%7D%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=5&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="850" height="375" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%22Hello%20there!%22%3B%20%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 The first thing in the program is the function declaration for `makeGreeting`.
 
