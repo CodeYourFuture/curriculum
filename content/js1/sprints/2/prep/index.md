@@ -293,7 +293,7 @@ The _global frame_ is always the first frame that gets created when our program 
 
 ![global-frame](global-frame.png)
 
-### 🏃 Executing functions
+### 📲 Calling functions
 
 So far we've seen 2 things:
 
