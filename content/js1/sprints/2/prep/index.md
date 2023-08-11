@@ -33,10 +33,12 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 
 ## 🧩 Percentages
 
-Given a number I want to convert it into a percentage format.
+Let's start off by defining a problem.
 
-For example, given the number `0.5` we should get the string `"50%"`.
-And given the number `0.231` we should get `"23.1%"` and so forth.
+> Given a _decimal number_ I want to convert it into a _percentage format_.
+
+For example, given the decimal number `0.5` we should get the string `"50%"`.
+And given the decimal number `0.231` we should get `"23.1%"` and so forth.
 
 ## Restating the problem
 
@@ -266,19 +268,18 @@ This is difficult at first: however with practice, we develop a powerful tool fo
 We can make use of execution diagrams to step through our code.
 
 Firstly, we need a way to track the **line of code that is currently executing.**
-In the diagrams below, we use an arrow to indicate which line of code is currently being executed. Each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with a particular value".
 
-Let's consider an example:
+{{<note type="activity" title="Playing computer: current line of code">}}
+
+In the interactive widget below, we use an arrow to indicate which line of code is currently being executed.
+Each line is an instruction to the computer that will produce some effect.
+For example, a line of code with a variable declaration means "store a new variable with a particular value".
+
+Click on next to observe what happens when the computer executes the variable declaration.
 
 <iframe width="800" height="300" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20name%20%3D%20'Gayle'%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-In the example above, we have a single variable declaration:
-
-```js
-const name = "Gayle";
-```
-
-which means store a string `"Gayle"` in memory.
+{{</note>}}
 
 ## 🖼️ Storing things in memory
 
@@ -293,12 +294,12 @@ The _global frame_ is always the first frame that gets created when our program 
 
 ## 📲 Calling functions
 
-So far, we've seen 2 things:
+So far, we've seen two things:
 
 - lines of code are executed from top to bottom
 - we keep track of variables stored in memory using a global frame
 
-However, we need to consider what happens when we declare and call a function in our program.
+However, we must consider what happens when we declare and call a function in our program.
 Let's consider another example:
 
 <iframe width="850" height="375" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencii'%3B%0A%0Afunction%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%20%0A%7D%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=5&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
