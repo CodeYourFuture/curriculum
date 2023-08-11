@@ -22,7 +22,7 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Identify the value assigned to a parameter when a function is invoked
 - Given a short program, state the number of times a given function is called
 - Differentiate between parameters and arguments
-- Invoke a given function with appropriate arguments to produce some target output
+- Invoke a given function with an appropriate argument to produce some target output
 - Describe how to log the return value of a function
 - Analyse each line in a given program and state what the line does when the program executes
 - Explain the difference between returning a value and logging a value
