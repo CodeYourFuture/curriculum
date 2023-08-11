@@ -253,7 +253,16 @@ However, _given the function's current implementation_, we get the following log
 
 ### 💻 Playing computer
 
-To understand how our function currently behaves we must start building an understanding of how our code is executed. We might currently have some ideas of how code is executed in our program:
+To understand how `convertToPercentage` currently behaves we must start building a mental model of how the computer executes our code.
+
+To make sense of how the computer executes our code, we use a method called **playing computer**.
+
+{{<note title="Playing computer" type="note">}}
+**Playing computer** means simulating how the computer executes our code.
+We have to step through the code line by line and work out what the computer does when it encounters a particular instruction.
+
+This is difficult at first: however with practice, we develop a powerful tool for understanding how our code works.
+{{</note>}}
 
 ```mermaid
 mindmap
@@ -261,14 +270,15 @@ Root[How is a piece of code executed?]
     B[Lines of code are executed from top to bottom]
     C[Variable declarations mean data is stored in memory]
     D[Function call means running the instructions inside the function]
-    E[When returning from a function we get an output]
+    E[When returning from a function we get a return value]
 ```
 
 ### ➡️ Current line of code
 
-We can make use of execution diagrams to visualise how a program is executed by a computer.
+We can make use of execution diagrams to step through our code.
 
-Firstly, we need a way to track the **line of code that is currently executing.** In the diagrams below, we use an arrow to indicate which line of code is currently being executed. Each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with a particular value".
+Firstly, we need a way to track the **line of code that is currently executing.**
+In the diagrams below, we use an arrow to indicate which line of code is currently being executed. Each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with a particular value".
 
 Let's consider an example:
 
@@ -284,7 +294,7 @@ which means store a string `"Gayle"` in memory.
 
 ### 🖼️ Storing things in memory
 
-As variables are declared, we need a way to keep track of the memory that is stored as our program executes.
+As variables are declared, we need a way to track the memory stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
 
 For now, we can think of a frame as a space in our diagram that represents the variables stored in memory.
@@ -295,7 +305,7 @@ The _global frame_ is always the first frame that gets created when our program 
 
 ### 📲 Calling functions
 
-So far we've seen 2 things:
+So far, we've seen 2 things:
 
 - lines of code are executed from top to bottom
 - we keep track of variables stored in memory using a global frame
