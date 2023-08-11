@@ -31,16 +31,14 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Propose clear and meaningful parameter names for a function
 - Give examples of how functionality can be generalised
 
-## Notes
-
-### 🧩 Percentages
+## 🧩 Percentages
 
 Given a number I want to convert it into a percentage format.
 
 For example, given the number `0.5` we should get the string `"50%"`.
 And given the number `0.231` we should get `"23.1%"` and so forth.
 
-### Restating the problem
+## Restating the problem
 
 We want to implement some functionality to convert _any_ given number into a percentage.
 Previously, we saw how to perform a given task using some functions. Here are some examples:
@@ -65,7 +63,7 @@ convertToPercentage(0.5); // should return "50%"
 convertToPercentage(0.231); // should return "23.1%"
 ```
 
-### Useful expressions
+## Useful expressions
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
@@ -121,7 +119,7 @@ The price should be to 2 decimal places.
 
 {{</note>}}
 
-### ♻️ Wrapping up functionality
+## ♻️ Wrapping up functionality
 
 Now we want to wrap up the expression we’ve created and reuse it to convert any number into a percentage.
 
@@ -147,7 +145,7 @@ function convertToPercentage() {
 }
 ```
 
-### 🔎 Checking the output
+## 🔎 Checking the output
 
 Earlier we saw how to store a function's return value in a variable.
 
@@ -186,13 +184,13 @@ Given the code above, try predicting what `result` will evaluate to.
 
 If our function behaves as intended, we expect the value of `result` to be `"30%"`, and to see `30%` (without the quotes) printed in the terminal.
 
-### Undefined values
+## Undefined values
 
 When we log `result`'s value to the terminal we get a new data type - `undefined`.  
 `undefined` is a data type used to represent the absence of a value.  
 We need to specify the value we want to output from our function. If we don't state what our function should output then the default output will be `undefined`.
 
-### Setting an output
+## Setting an output
 
 We write a return statement to specify a function's return value (what an expression calling the function will evaluate to).
 
@@ -219,7 +217,7 @@ function convertToPercentage() {
 
 Now that our function contains a `return` statement we can re-run our script to check the output.
 
-### Checking with different inputs
+## Checking with different inputs
 
 Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the return value we get each time.
 
@@ -251,7 +249,7 @@ However, _given the function's current implementation_, we get the following log
 50%
 ```
 
-### 💻 Playing computer
+## 💻 Playing computer
 
 To understand how `convertToPercentage` currently behaves we must start building a mental model of how the computer executes our code.
 
@@ -273,7 +271,7 @@ Root[How is a piece of code executed?]
     E[When returning from a function we get a return value]
 ```
 
-### ➡️ Current line of code
+## ➡️ Current line of code
 
 We can make use of execution diagrams to step through our code.
 
@@ -292,7 +290,7 @@ const name = "Gayle";
 
 which means store a string `"Gayle"` in memory.
 
-### 🖼️ Storing things in memory
+## 🖼️ Storing things in memory
 
 As variables are declared, we need a way to track the memory stored as our program executes.
 In our diagrams, we keep track of memory using a _frame_.
@@ -303,7 +301,7 @@ The _global frame_ is always the first frame that gets created when our program 
 
 ![global-frame](global-frame.png)
 
-### 📲 Calling functions
+## 📲 Calling functions
 
 So far, we've seen 2 things:
 
@@ -352,7 +350,7 @@ In addition, another frame is created when we call `makeGreeting`:
 
 Like the global frame, the `makeGreeting` frame will be used to track variables that are created when `makeGreeting` is executed.
 
-### 📥 Returning from a function
+## 📥 Returning from a function
 
 Earlier we defined the value a function call evaluates to by writing a return statement with a return value.
 
@@ -365,7 +363,7 @@ Try using the visualisation diagram above to work out what happens when the comp
 
 {{</note>}}
 
-### 🧩 Putting everything together
+## 🧩 Putting everything together
 
 So now we have some idea of how the computer executes our code, we can apply these ideas to a program for our current implementation of `convertToPercentage`:
 
@@ -384,7 +382,7 @@ Given the code above, try using the visualisation diagrams to "play computer" wi
 
 {{</note>}}
 
-### Checking our code
+## Checking our code
 
 Given our code below:
 
@@ -401,7 +399,7 @@ const output2 = convertToPercentage(0.23);
 
 when the function `convertToPercentage` is called, the variable `num` gets recreated in the `convertToPercentage` frame and set to `0.5` every time we call the function. Instead of `num` being set to `0.5` every time the function is called, we want to make use of the input that is passed to the function `convertToPercentage` each time it is called.
 
-### Parametrising a function
+## Parametrising a function
 
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 
