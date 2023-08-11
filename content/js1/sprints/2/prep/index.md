@@ -401,7 +401,7 @@ when the function `convertToPercentage` is called, the variable `num` gets recre
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 
 {{<note type="definition" title="Definition: parameter">}}
-A parameter is a special kind of variable that enables us to reference the input to a function.
+A parameter is a special kind of variable that enables us to reference the input(s) to a function.
 {{</note>}}
 
 We can add a parameter `num` to our function:
@@ -414,19 +414,34 @@ function convertToPercentage(num) {
 }
 
 const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.23);
+const output2 = convertToPercentage(0.231);
 ```
 
-We can think of a function as a "box". We pass inputs to into it, the function's code is executed and we get a return value at the end. We can visualise this as follows:
+In the example above, we're calling `convertToPercentage` twice: first time with an **input** of `0.5` and the second time with an **input** of `0.231`.
+Instead of using the word **input** we can use the word **argument**, which has the same meaning.
+
+> We're calling `convertToPercentage` twice, first time with an **argument** of `0.5` and the second time with an **argument** of `0.231`.
+
+{{<note type="definition" title="Definition: argument">}}
+An **argument** means an **input**
+{{</note>}}
+
+Therefore we can rephrase our earlier definition of a **parameter**.
+
+{{<note type="definition" title="Definition: parameter">}}
+A **parameter** is a special kind of variable that enables us to reference the **arguments(s)** to a function.
+{{</note>}}
+
+We can think of a function as a "box". We pass **arguments** to it, the function's code is executed and we get a return value after the function has finished executing. We can visualise this as follows:
 
 ```mermaid
 
 flowchart LR
-    A[input] --> B{function}
+    A[argument] --> B{function}
     B --> C[return]
 ```
 
-We could visualise what happens when `makeGreeting` is passed a specific argument:
+We could visualise what happens when `makeGreeting` is passed a specific **argument**:
 
 ```mermaid
 
