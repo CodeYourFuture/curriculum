@@ -16,14 +16,10 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Label and describe the syntactic features of a function declaration
 - Identify a call site
 - Differentiate between a function declaration and a function invocation
-- Propose a function definition to satisfy some problem requirements
-- Given a short program, determine which variable names are _bad_ choices
-- Give examples of when the `undefined` data type may occur in a JavaScript program
-- Construct simple expressions to represent a set of operations
+- Construct simple expressions to represent a calculation
 - Define a _parameter_
 - Identify the return value evaluated at a call site given its function declaration
 - Identify the value assigned to a parameter when a function is invoked
-- Identify the type of a return value given some call site
 - Given a short program, state the number of times a given function is called
 - Differentiate between parameters and arguments
 - Invoke a given function with appropriate arguments to produce some target output
@@ -31,7 +27,6 @@ src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
 - Analyse each line in a given program and state what the line does when the program executes
 - Explain the difference between returning a value and logging a value
 - Assess and explain whether a function can reference a given variable or not
-- Explain what is meant by the term "implementation opacity"
 - Explain how to reuse some code to perform a specific task
 - Propose clear and meaningful parameter names for a function
 - Given a problem, suggest clear semantic names for a function designed to solve the given problem
@@ -49,7 +44,7 @@ And given the number `0.231` we should get `"23.1%"` and so forth.
 ### Restating the problem
 
 We want to implement some functionality to convert _any_ given number into a percentage.
-Previously, we saw how to use some functions to perform a given task. Here are some examples:
+Previously, we saw how to perform a given task using some functions. Here are some examples:
 
 ```js {linenos=table,linenostart=1}
 console.log("hello world"); // logs "hello world" to the console
@@ -99,13 +94,18 @@ Recalling template literals, the expression in the curly braces will be evaluate
 The following variables represent the dimensions of a rectangle:
 
 ```js
-height; // could have a value like 10
-width; // could have a value like 30
+const height = ; // could have a value like 10
+const width = ; // could have a value like 30
 ```
 
-Write expressions for the following in terms of the variables above:
-a) area of the rectangle
-b) perimeter of the rectangle
+Create variables `area` and `perimeter` for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
+
+```js
+const area = FILL_ME_IN;
+const perimeter = FILL_ME_IN;
+```
+
+Try putting in different numeric values of `height` and `width` to check the `area` and `perimeter` values are still correct.
 
 {{</note>}}
 
@@ -114,10 +114,11 @@ b) perimeter of the rectangle
 The following variable represents the cost of something in pence:
 
 ```js
-price; // could have a value like "130p"
+const price = ; // could have a value like 130
 ```
 
-Write an expression for the price in pounds. The price in pounds should start with a "£" symbol. The price should be to 2 decimal places.
+Write an expression for the price in pounds. The price in pounds should start with a "£" symbol.
+The price should be to 2 decimal places.
 
 {{</note>}}
 
@@ -128,8 +129,7 @@ Now we want to wrap up the expression we’ve created and reuse it to convert an
 We can write a function declaration to reuse some code. A function declaration looks like this:
 
 ```js {linenos=table,linenostart=1}
-function convertToPercentage() {
-}
+function convertToPercentage() {}
 ```
 
 The `function` declaration consists of the following syntactic elements:
