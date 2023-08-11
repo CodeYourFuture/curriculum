@@ -189,12 +189,17 @@ Given the code above, try predicting what `result` will evaluate to.
 
 {{</note>}}
 
-If our function behaves as intended, we expect the value of `result` to be `"30%"`, and to see `30%` (without the quotes) printed in the terminal.
-
 ## Undefined values
 
-When we log `result`'s value to the terminal we get `undefined`.
-We need to specify the value we want to return from our function. If we don't state what our function should return, the default return value will be `undefined`.
+If our function behaves as required, we expect the value of `result` to be `"30%"`, and to see `30%` (without the quotes) printed in the terminal, as below:
+
+```
+30%
+```
+
+When we log `result`'s value to the terminal we get actually get `undefined`.
+We need to specify the value we want to return from our function.
+If we don't state what our function should return, the default return value will be `undefined`.
 
 ## Setting a return value
 
@@ -401,8 +406,11 @@ when the function `convertToPercentage` is called, the variable `num` gets recre
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 
 {{<note type="definition" title="Definition: parameter">}}
-A parameter is a special kind of variable that enables us to reference the input(s) to a function.
+A parameter is a special kind of variable whose value is defined by the caller.
 {{</note>}}
+
+`num` is still a variable - but as a **parameter** we don't assign `num` a value inside the function's body.
+We pass an input to the function, and the value of that input is assigned to the `num` parameter when the function is called. This happens automatically.
 
 We can add a parameter `num` to our function:
 
@@ -424,12 +432,6 @@ Instead of using the word **input** we can use the word **argument**, which has 
 
 {{<note type="definition" title="Definition: argument">}}
 An **argument** means an **input**
-{{</note>}}
-
-Therefore we can rephrase our earlier definition of a **parameter**.
-
-{{<note type="definition" title="Definition: parameter">}}
-A **parameter** is a special kind of variable that enables us to reference the **arguments(s)** to a function.
 {{</note>}}
 
 We can think of a function as a "box". We pass **arguments** to it, the function's code is executed and we get a return value after the function has finished executing. We can visualise this as follows:
