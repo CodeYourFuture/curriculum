@@ -1,7 +1,7 @@
 +++
 title = '🖨️ Logging'
 headless = true
-time = 15
+time = 10
 facilitation = false
 emoji= '🗄️'
 [objectives]
@@ -14,7 +14,7 @@ emoji= '🗄️'
 
 To look at values when our program runs, we can use a function called `console.log`.
 
-{{<note type="note" title="console.log">}}
+{{<note type="tip" title="console.log">}}
 **console** usually means _a text interface_ like a terminal. A **log** is a written record of something that happened.
 
 So `console.log` will _record something that happens in our program_ and print it to a _text based interface_.
@@ -22,7 +22,7 @@ So `console.log` will _record something that happens in our program_ and print i
 {{</note>}}
 
 `console.log` logs the result of expressions while our program is executing.
-This is very useful for complex programs when we need to check the values expressions evaluate to in our program.
+This is very useful for complex programs when we need to check what values expressions evaluate to at _specific moments_ of our program execution.
 
 Let's see how to use `console.log` . In a file called `example.js`, write the name of the function `console.log`.
 

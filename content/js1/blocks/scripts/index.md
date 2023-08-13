@@ -5,14 +5,12 @@ time = 10
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Execute a JavaScript file with Node'
 +++
 
-So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly.
+So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is useful for evaluating expressions quickly.
 
-Usually, our programs have many instructions, and we want to keep and re-run them, so we write them to files. Instead of using the REPL mode, Node can execute instructions written in a file.
+But usually, our programs have many instructions, and we want to keep and re-run them instead of typing them out each time. So we save our instructions in files. Node can also execute instructions written in a file.
 
 We use the `node` command to run a JavaScript file in the terminal. A JavaScript file ends with `.js` - this is the "file extension".
 
@@ -40,4 +38,4 @@ So this new problem can be expressed as a question:
 
 > ❓ Problem
 >
-> "How can we check what the values evaluated to in our program when it is being executed?"
+> "How can we check what the values evaluated to in our program during execution?"

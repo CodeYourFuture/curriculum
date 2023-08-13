@@ -1,7 +1,7 @@
 +++
 title = '🕹️ Using an interface'
 headless = true
-time = 10
+time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]

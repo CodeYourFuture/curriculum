@@ -1,13 +1,13 @@
 +++
 title = '🪄 Functions'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define a function in programming'
+    2='Evaluate a function expression'
+    3='Call a function with an input in REPL'
 +++
 
 Now, instead of adding or multiplying numbers, we’ll consider `10.3`.
@@ -20,35 +20,34 @@ The process of finding the nearest whole number to a decimal number is called **
 
 ## ♻️ Reusing instructions
 
-There is no arithmetical operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a **function**.
+There is no arithmetical operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
 
-{{<note title="Definition: function" type="info">}}
+`Math.round` is an example of a function. Remember, a function is a reusable set of instructions: `Math.round` contains instructions for rounding any number.
 
-A **function** is a reusable set of instructions.
+Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
 
-{{</note>}}
+{{<tabs name="Functions in REPL">}}
+{{<tab name="Try it yourself">}}
 
-`Math.round` is an example of a function. Recalling the definition, a function is a reusable set of instructions: `Math.round` contains instructions for rounding any number.
+1. Write `Math.round` in the Node REPL
+1. Hit enter to evaluate our expression
 
-Functions will often take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
+The REPL output `[Function: round]` is telling us `Math.round` is a function.
 
-We can write `Math.round` in the Node REPL:
+{{</tab>}}
 
-![round-img](math.round-img.png)
-
-After we've hit enter to evaluate our expression, we then get the following:
-
-![round-img](math.round-evaluated.png)
-
-So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
+{{<tab name="Watch and follow along">}}
+![rounding](rounding.gif "[Function: round] indicates that Math.round is a function")
+{{</tab>}}
+{{</tabs>}}
 
 ## 📲 Calling a function
 
-Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out. So we can write the following in the REPL:
+For a function to work, we need to get Node to read the instructions and execute them. Execution means the computer reads and follows instructions. So we can write the following in the REPL:
 
 ![round-img](math.round-number-10.3.png)
 
-Notice now we have `(` and `)` brackets after the name of the function and a number inside the brackets. The brackets indicate that we are calling the function. The number inside the brackets is the **input** we're passing to the function.
+Notice now we have `(` and `)` brackets after the name of the function and a number inside the brackets. The brackets mean that we are calling the function. The number inside the brackets is the **input** we're passing to the function. Try it yourself.
 
 {{<note title="Calling a function" type="note">}}
 
@@ -65,7 +64,7 @@ So we say that `Math.round(10.3)` returns 10.
 
 A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evaluates to the value `10`.
 
-This means that if we assign that expression to a variable, or use it in a string, we'll get the value `10`. So we can write:
+If we assign that expression to a variable, or use it in a string, we'll get the value `10`. So we can write:
 
 ```js
 const roundedValue = Math.round(10.3);

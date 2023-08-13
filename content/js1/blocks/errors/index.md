@@ -22,8 +22,7 @@ const age = 33;
 const nationality = "Italian";
 ```
 
-On line 1, we have a variable declaration, but the string has a missing `"`.
-We're not obeying the syntactic rules for JavaScript: the rules for writing expressions, statements and other parts of the language.
+On line 1, we have a variable declaration, but the string has a missing `"` We're not obeying the syntactic rules for JavaScript: the rules for writing expressions, statements and other parts of the language.
 
 When we execute the code above, we get this:
 
@@ -36,9 +35,9 @@ Uncaught SyntaxError: Invalid or unexpected token
 
 We get a **SyntaxError** message. This error message is telling us that we've broken the rules of the language.
 
-{{<note type="Exercise">}}
+{{<note type="activity" title="Predict, Explain">}}
 
-In each of the examples below, an error will occur when the code is executed. Before you run the code:
+This code is broken. Before you run each block of code:
 
 1. Predict the error.
 1. Explain why the error happened.
@@ -59,7 +58,7 @@ console.log(Math.round(10.3);
 
 {{</note>}}
 
-## Saving return values
+### Saving return values
 
 We can store the return value of a function in a variable. Function calls are also expressions. This means their value can also be stored in variables, same as the [math expressions](#-creating-expressions).
 
@@ -73,7 +72,7 @@ When this program is executed, it creates a variable called `result` and assigns
 
 So `result` will have a value of `10`.
 
-## 🔭 Logging and returning
+### 🔭 Logging and returning
 
 Most functions return values we can use in our program.
 
@@ -81,11 +80,11 @@ Most functions return values we can use in our program.
 
 Some functions don't produce useful return values in our running program; but they can still cause **effects**.
 
+{{<note title="Predict, Run, Observe" type="exercise">}}
+
 ```js
 const result = console.log("hello world");
 ```
-
-{{<note title="Exercise" type="exercise">}}
 
 1. Predict what `result` will _evaluate to_ when the code above runs.
 1. Execute this line in the Node REPL.

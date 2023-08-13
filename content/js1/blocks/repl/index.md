@@ -1,22 +1,20 @@
 +++
-title = 'Evaluating expressions'
+title = '🧾 Evaluating expressions'
 headless = true
 time = 15
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define the features of the Node REPL'
+    2='Evaluate expressions using your mental model of JavaScript'
+    3='Evaluate expressions using the Node REPL'
 +++
 
-> Recall 🗣️ : Computers work by storing and performing operations on data.
-
-## 🧾 Evaluating expressions
+{{<note type="tip" title="Recall">}}Computers work by storing and performing operations on data.{{</note>}}
 
 Computer programs are built from many expressions. We must understand how expressions are evaluated to understand how computer programs are executed.
 
-We can take an expression like `36 * 45` and ask ourselves what it evaluates to. If we understand what the `*` operator represents (multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression ourselves.
+We can take an expression like `36 * 45` and ask what it evaluates to. If we know what the `*` operator represents (multiplication) and if we understand the arithmetic rules represented by the operation we can evaluate this expression ourselves.
 
 Happily, computers can evaluate expressions for us.
 
@@ -35,7 +33,7 @@ With a REPL we can run pieces of code and look at what happens.
 
 {{</note>}}
 
-We input JavaScript instructions that are then executed by NodeJS. The REPL replies, or prints out, the result of this execution.
+We input JavaScript instructions that are then executed by NodeJS. The REPL replies with, or prints out, the result of this execution.
 
 {{<tabs name="REPL 1">}}
 {{<tab name="REPL Activity Code">}}
