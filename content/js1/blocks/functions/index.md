@@ -20,9 +20,9 @@ The process of finding the nearest whole number to a decimal number is called **
 
 ## ♻️ Reusing instructions
 
-There is no arithmetical operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
+There is no operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
 
-`Math.round` is an example of a function. Remember, a function is a reusable set of instructions: `Math.round` contains instructions for rounding any number.
+`Math.round` is a function. Because a function is a _reusable_ set of instructions, `Math.round` rounds any number.
 
 Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
 
@@ -43,11 +43,13 @@ The REPL output `[Function: round]` is telling us `Math.round` is a function.
 
 ## 📲 Calling a function
 
-For a function to work, we need to get Node to read the instructions and execute them. Execution means the computer reads and follows instructions. So we can write the following in the REPL:
+For our function to work, we need Node to read the instructions and {{<tooltip title="execute">}}Execution means the computer reads and follows instructions.{{</tooltip>}} them. Write the following in the REPL:
 
-![round-img](math.round-number-10.3.png)
+```repl
+Math.round(10.3);
+```
 
-Notice now we have `(` and `)` brackets after the name of the function and a number inside the brackets. The brackets mean that we are calling the function. The number inside the brackets is the **input** we're passing to the function. Try it yourself.
+Notice the `(` and `)` brackets after the name of the function and a number inside the brackets. These brackets mean we are calling the function. The number inside the brackets is the **input** we're passing to the function.
 
 {{<note title="Calling a function" type="note">}}
 
@@ -55,12 +57,11 @@ Notice now we have `(` and `)` brackets after the name of the function and a num
 
 {{</note>}}
 
-`Math.round(10.3)` is a call expression; you can read this as:
+`Math.round(10.3)` is a call expression; read this as:
 
 "apply the set of instructions for `Math.round` to the number `10.3`."
 
-If we type `Math.round(10.3)` then we get the result 10.
-So we say that `Math.round(10.3)` returns 10.
+If we type `Math.round(10.3)` then we get the result 10. So we say that `Math.round(10.3)` returns 10.
 
 A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evaluates to the value `10`.
 

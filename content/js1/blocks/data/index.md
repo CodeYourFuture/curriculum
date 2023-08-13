@@ -10,7 +10,7 @@ emoji= '🗄️'
 
 We’re going to focus on the JavaScript programming language.
 
-A programming language organises data with rules so we understand what we can and cannot do with it. (We can't count the words in a picture, or divide yellow by zero.) Languages split data up into different categories called {{<tooltip title="data types">}}
+A programming language organises data with rules so we understand what we can and cannot do with it. Languages split data up into different categories called {{<tooltip title="data types">}}
 A **data type** is a grouping of data with some particular properties{{</tooltip>}}. In JavaScript, we have five data types. We will look first at numbers and strings.
 
 #### Number data type
