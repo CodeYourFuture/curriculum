@@ -1,7 +1,7 @@
 {{ $title := .Get "title" | default "tooltip" }}
 {{ $emoji := .Get "emoji" | default "🧶" }}
 <tool-tip-container tabindex="0">
-  <strong class="tooltip__trigger" id="trigger__{{ $title }}">
+  <strong class="tooltip__trigger" id="trigger__{{- $title -}}">
     {{ $title }}
   </strong>
   <span class="tooltip__emoji">{{ $emoji }}</span>
