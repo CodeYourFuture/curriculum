@@ -1,0 +1,16 @@
+{{ $title := .Get "title" | default "tooltip" }}
+{{ $emoji := .Get "emoji" | default "🧶" }}
+<tool-tip-container tabindex="0">
+  <strong class="tooltip__trigger" id="trigger__{{- $title -}}">
+    {{ $title }}
+  </strong>
+  <span class="tooltip__emoji">{{ $emoji }}</span>
+  <tool-tip role="tooltip" aria-labelledby="{{ $title }}">
+    <span class="tooltip__title e-heading__2"
+      ><span class="tooltip__emoji">{{ $emoji }}</span> {{ $title }}</span
+    >
+    <span class="tooltip__content">
+      {{ .Inner | markdownify }}
+    </span>
+  </tool-tip>
+</tool-tip-container>
