@@ -35,9 +35,7 @@ backlog_filter= 'Week 3'
 - Propose alternative implementations to a problem
 - Suggest several appropriate ways to refactor a given piece of code
 
-## Notes
-
-### 🕥 12 vs 24 hour clock
+## 🕥 12 vs 24 hour clock
 
 A typical time can be written in one of 2 ways: 24 hour clock or 12 hour clock.
 
@@ -58,7 +56,7 @@ We can write a short table summarising some of the times and how they are conver
 
 Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
 
-### 🧩 Stating the problem
+## 🧩 Stating the problem
 
 Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time.
 
@@ -72,7 +70,7 @@ To achieve this goal, we're going to implement a function `formatAs12HourClock`.
 >  `formatAs12HourClock("14:19")` should return `"2:19 pm"`
 > etc...
 
-### ⚖️ Comparing current and target output
+## ⚖️ Comparing current and target output
 
 Let's start with a function declaration of `formatAs12HourClock` like this:
 
@@ -140,7 +138,7 @@ This leads to the question:
 
 > What will the expression `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
-### ✅ ❌ Boolean values
+## ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
 Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
@@ -199,7 +197,7 @@ console.log(10 + 32) === 42;
 
 {{</note>}}
 
-### ✏️ Writing an assertion
+## ✏️ Writing an assertion
 
 We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
@@ -266,7 +264,7 @@ When the code above executes, we now get a log in the console:
 Assertion failed: current output: undefined, target output: 08:00 am
 ```
 
-### 🧰 Implementing the functionality
+## 🧰 Implementing the functionality
 
 On line 4, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parametrise the function and label the input as `time`:
 
@@ -300,7 +298,7 @@ console.assert(
 
 ✅ Nothing is printed to the console, so this assertion is passing 😎
 
-### 💼 Checking different cases
+## 💼 Checking different cases
 
 So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: take the current time and add `"am"` to the end.
 
@@ -330,7 +328,7 @@ console.assert(
 );
 ```
 
-### 🔄 Reusing variable names
+## 🔄 Reusing variable names
 
 When we run the file with Node, we get an error in the console:
 
@@ -386,7 +384,7 @@ Assertion failed: current output: 23:00 am, target output: 11:00 pm
 
 {{</note>}}
 
-### ↙️ ↘️ Making a choice
+## ↙️ ↘️ Making a choice
 
 Our function works for morning inputs like `"08:00"`.
 In this case, the function returns the target output of `"08:00 am"` as required.
@@ -407,7 +405,7 @@ A -- false --> C[???]
 
 We need to work out what to do in the case when the time input is later than midday.
 
-### 🧭 Describing the strategy
+## 🧭 Describing the strategy
 
 Let's describe the strategy for dealing with an input that is after midday.
 
@@ -431,7 +429,7 @@ H --> i[Step 6: return the new time]
 
 This approach involves running some code **conditionally**. In this case, we're only going to continue doing Steps 4-6 if the condition **hours are greater than 12** is `true`.
 
-### ❓ Conditionally executing code
+## ❓ Conditionally executing code
 
 > Recall: JavaScript programs are built up from sequences of **statements**.
 
@@ -486,7 +484,7 @@ Eleni is not old enough to drive
 
 {{</note>}}
 
-### 🧠 Applying new knowledge
+## 🧠 Applying new knowledge
 
 So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>`.
 `>` will check if the value on the operator's left side is less than the value on the operator's right side.
@@ -505,7 +503,7 @@ To complete the logic, we now have to achieve a sub-goal:
 
 > 🎯 Sub-goal: Find the hours value from the `time` input
 
-### 🧶 Accessing strings
+## 🧶 Accessing strings
 
 Given a `time` string we need to access the _first 2 characters_ of the string which represent the hours.
 
@@ -530,7 +528,7 @@ time[2]; // evaluates to ":"
 However square bracket access will only give a single character.
 So we must use another method to extract _multiple_ characters from the given string.
 
-### ✂️ Extracting a slice
+## ✂️ Extracting a slice
 
 We can use a function called `slice` to extract 1 or more characters from a string.
 
@@ -554,7 +552,7 @@ So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Final
 Number(time.slice(0, 2)); // evaluates to 23
 ```
 
-### 🏗️ Assembling the parts
+## 🏗️ Assembling the parts
 
 Earlier we had an `if` statement in the form:
 
@@ -605,7 +603,7 @@ E --> F[Step 6: return the new time]
 
 Now we can **re-run** our assertions from earlier to check our function behaves as target.
 
-### 🧹 Improving the code
+## 🧹 Improving the code
 
 Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions.
 
