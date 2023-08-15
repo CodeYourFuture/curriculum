@@ -305,7 +305,7 @@ console.assert(
 
 So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: take the current time and add `"am"` to the end.
 
-However, we need to assert the function behaves correctly in cases when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
+However, we need to assert that the function behaves correctly when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
 
 ```js {linenos=table,linenostart=1,hl_lines=["15-21"]}
 function formatAs12HourClock(time) {
