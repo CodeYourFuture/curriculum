@@ -121,8 +121,7 @@ Previously we learned how to log values to the console, but we can also **compar
 Comparisons are very useful whenever we want to check that a function produces some target output.
 
 We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-
-To compare 2 expressions and check if they evaluate to the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
+We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the strict equality operator `===`, a comparison operator used to check if two values are the same.
 
 We can write an expression as follows:
 
@@ -175,6 +174,7 @@ true === false;
 4 * 5 === "20";
 3 * 2 === 6;
 4 = 4;
+Math.min(3,4,5) === 4;
 let mhairiName = "Mhairi";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
@@ -186,6 +186,8 @@ isMhairOldEnoughToDrive === true;
 mhairiAge >= 18;
 mhairiAge >= 28;
 29 <= mhairiAge;
+let kilometersMhairiDrivesToWork = 9.4;
+Math.round(9.4) === 9
 ```
 
 {{</note>}}
@@ -203,7 +205,7 @@ console.log(10 + 32) === 42;
 
 ### ✏️ Writing an assertion
 
-We now have 2 new concepts: booleans and comparisons. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
+We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
 > 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either be `true` or `false`.
 
@@ -462,7 +464,7 @@ if (condition) {
 The `if` statement consists of:
 
 1. `if` keyword: this is the start of the `if` statement
-2. `(condition)`: some conditional expression that is wrapped in parentheses.
+2. `(condition)`: condition is an expression that evaluates to true or false
 3. `{}`: a block statement: any code we want to execute if the condition is true goes inside the curly braces here
 
 We can represent this with a diagram too:
