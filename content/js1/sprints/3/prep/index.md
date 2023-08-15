@@ -203,7 +203,7 @@ console.log(10 + 32) === 42;
 
 We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
-> 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either be `true` or `false`.
+> 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either succeed or fail.
 
 Up to now we've used the log function `console.log`.
 However, we can also write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert). Let's look at an example using this function:
