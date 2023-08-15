@@ -45,8 +45,10 @@ convertToPercentage(0.231); // should return "23.1%"
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
-In programming, we always try the simplest thing first. Let’s consider how to convert just one number in to a percentage.
-Let’s consider the variable declaration below:
+In programming, we always try the simplest thing first.
+Let’s consider how to convert just one number in to a percentage.
+
+Consider the variable declaration below:
 
 ```js {linenos=table,linenostart=1}
 const decimalNumber = 0.5;

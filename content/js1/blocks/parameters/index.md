@@ -5,7 +5,7 @@ time = 5
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Define a _parameter_'
+    1='Define a parameter'
     2='Identify the value assigned to a parameter when a function is invoked'
     3='Differentiate between parameters and arguments'
     4='Invoke a given function with an appropriate argument to produce some target output'
