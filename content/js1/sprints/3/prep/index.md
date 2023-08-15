@@ -217,7 +217,7 @@ The documentation for `console.assert` states that a message will be written to 
 
 {{<note type="exercise" title="Exercise 2.1">}}
 
-Predict and explain if the assertion above is true or false. Pay particular attention to the return value of `formatAs12HourClock` above.
+Predict and explain if the assertion above will succeed or fail. Pay particular attention to the return value of `formatAs12HourClock` above.
 
 {{</note>}}
 
