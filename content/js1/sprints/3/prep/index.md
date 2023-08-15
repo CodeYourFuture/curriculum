@@ -28,7 +28,6 @@ backlog_filter= 'Week 3'
 - Given a problem, suggest potential sub-goals required to reach a solution
 - Determine the output of a program that uses a conditional statement
 - Analyse a conditional statement to determine whether or not the statement will be executed
-- Predict and explain how conditional statements involving `else`, `else if` and `while` will be executed
 - Explain why _refactoring_ is necessary in the production of software
 - Propose a strategy for solving a problem
 - Write an assertion to check for some behaviour of a given function
