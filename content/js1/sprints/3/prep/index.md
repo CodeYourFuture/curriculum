@@ -347,47 +347,31 @@ const currentOutput = formatAs12HourClock("08:23");
 `currentOutput` is the **identifier**.
 
 When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user.
-However, we want to do multiple assertions whilst using the same variables.
-
-To reuse variable names, we can make use of a block declaration as follows:
-
-```js
-{
-  StatementList;
-}
-```
-
-🔑 A **block** is a region of code defined by a set of curly braces in which we write any number of statements.
-
-As with function scope, **block scope** means that variables declared inside a block are only accessible inside that block. This means we can declare a variable with the same name in 2 different blocks and we won't get a `SyntaxError`:
+However, we want to do multiple assertions.
 
 ```js title="problem.js"
 function formatAs12HourClock(time) {
   return `${time} am`;
 }
 
-{
-  const currentOutput = formatAs12HourClock("08:00");
-  const targetOutput = "08:00 am";
-  console.assert(
-    currentOutput === targetOutput,
-    "current output: %s, target output: %s",
-    currentOutput,
-    targetOutput
-  );
-}
+const currentOutput = formatAs12HourClock("08:00");
+const targetOutput = "08:00 am";
+console.assert(
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
+  currentOutput,
+  targetOutput
+);
 
-{
-  // ❌ this assertion now fails
-  const currentOutput = formatAs12HourClock("23:00");
-  const targetOutput = "11:00 pm";
-  console.assert(
-    currentOutput === targetOutput,
-    "current output: %s, target output: %s",
-    currentOutput,
-    targetOutput
-  );
-}
+// ❌ this assertion now fails
+const currentOutput2 = formatAs12HourClock("23:00");
+const targetOutput2 = "11:00 pm";
+console.assert(
+  currentOutput === targetOutput,
+  "current output: %s, target output: %s",
+  currentOutput,
+  targetOutput
+);
 ```
 
 Now the second assertion fails with the following message:
@@ -563,10 +547,10 @@ time.slice(0, 2); // will access the characters below
 | :-------: | :---: | :---: |
 | character | `"2"` | `"3"` |
 
-So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. We can use the `+` operator to convert strings to numbers by writing the following:
+So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. We can use the `Number` function to convert the string into a number.
 
 ```js
-+time.slice(0, 2); // evaluates to 23
+Number(time.slice(0, 2)); // evaluates to 23
 ```
 
 ### 🏗️ Assembling the parts
@@ -581,11 +565,11 @@ if (expressionForHours > 12) {
 So now we've found an expression for the `hours`, we can write:
 
 ```js
-if (+time.slice(0, 2) > 12) {
+if (Number(time.slice(0, 2)) > 12) {
 }
 ```
 
-If the time is `"23:00"` then the expression `+time.slice(0,2) > 12` will evaluate to `true` and the code inside the curly braces will be executed.
+If the time is `"23:00"` then the expression `Number(time.slice(0, 2)) > 12` will evaluate to `true` and the code inside the curly braces will be executed.
 
 This `if` statement is implementing the following part of the diagram from earlier:
 
@@ -624,13 +608,13 @@ Now we can **re-run** our assertions from earlier to check our function behaves 
 
 Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions.
 
-However, at the moment, we’re making use of the same expression twice: `+time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code.
+However, at the moment, we’re using the same expression twice: `Number(time.slice(0, 2))`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code.
 
 Let’s create a variable called `hours` and assign to it our expression's [evaluation] result.
 
 ```js
 function formatAs12HourClock(time) {
-  const hours = +time.slice(0, 2);
+  const hours = Number(time.slice(0, 2));
 
   if (hours > 12) {
     return `${hours - 12}:00 pm`;
