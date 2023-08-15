@@ -584,7 +584,7 @@ if (+time.slice(0, 2) > 12) {
 }
 ```
 
-If the time is `"23:00"` then the condition `+time.slice(0,2) > 12` will evaluate to `true` and the code inside the curly braces will be executed.
+If the time is `"23:00"` then the expression `+time.slice(0,2) > 12` will evaluate to `true` and the code inside the curly braces will be executed.
 
 This `if` statement is implementing the following part of the diagram from earlier:
 
