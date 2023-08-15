@@ -135,7 +135,7 @@ We can think of `formatAs12HourClock("08:00") === "8:00 am"`
 
 as being like the question:
 
-Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
+Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?
 
 This leads to the question:
 
