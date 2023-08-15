@@ -174,7 +174,7 @@ Math.min(3,4,5) === 4;
 let mhairiName = "Mhairi";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
-"hello Mhairi" === `hello ${Mhairi}`;
+"hello Mhairi" === `hello ${mhairiName}`;
 `Mhairi is 28` === `mhairi is ${mhairiAge}`;
 "${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
 isMhairOldEnoughToDrive;
