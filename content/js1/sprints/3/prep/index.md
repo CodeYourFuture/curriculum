@@ -231,7 +231,7 @@ console.assert(
   formatAs12HourClock("08:00") === "08:00 am",
   "current function output: %s, target output: %s",
   formatAs12HourClock("08:00"),
-  "20:00"
+  "08:00 am"
 );
 ```
 
