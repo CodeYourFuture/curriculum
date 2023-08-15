@@ -206,7 +206,7 @@ We now have 2 new concepts: **booleans** and **comparisons**. From these concept
 > 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either be `true` or `false`.
 
 Up to now we've used the log function `console.log`.
-However, we can also write assertions using another function: `console.assert`. Let's look at an example using this function:
+However, we can also write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert). Let's look at an example using this function:
 
 ```js
 function formatAs12HourClock() {}
