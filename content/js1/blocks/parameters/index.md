@@ -6,6 +6,12 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Define a _parameter_'
+    2='Identify the value assigned to a parameter when a function is invoked'
+    3='Differentiate between parameters and arguments'
+    4='Invoke a given function with an appropriate argument to produce some target output'
+    5='Give examples of how functionality can be generalised'
+    6='Assess and explain whether a function can reference a given variable or not'
+    7='Propose clear and meaningful parameter names for a function'
 +++
 
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.

@@ -8,6 +8,10 @@ emoji= '🗄️'
     1='Label and describe the syntactic features of a function declaration'
     2='Identify a call site'
     3='Differentiate between a function declaration and a function invocation'
+    4='Identify the return value evaluated at a call site given its function declaration'
+    5='Explain how to reuse some code to perform a specific task'
+    6='Describe how to log the return value of a function'
+    7='Given a short program, state the number of times a given function is called'
 +++
 
 Now we want to wrap up the expression we’ve created and reuse it to convert any number into a percentage.

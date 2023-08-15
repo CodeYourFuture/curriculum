@@ -6,6 +6,7 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Define a parameter'
+    2='Construct simple expressions to represent a calculation'
 +++
 
 Let's start off by defining a problem.
