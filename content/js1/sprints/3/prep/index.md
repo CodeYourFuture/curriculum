@@ -517,7 +517,7 @@ if (expressionsForHours < 12) {
 
 To complete the logic, we now have to achieve a sub-goal:
 
-> 🎯 Sub-goal: Find an expression for the hours from the `time` input
+> 🎯 Sub-goal: Find the hours value from the `time` input
 
 ### 🧶 Accessing strings
 
