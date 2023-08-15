@@ -407,7 +407,7 @@ Assertion failed: current output: 23:00 am, target output: 11:00 pm
 Our function works for morning inputs like `"08:00"`.
 In this case, the function returns the target output of `"08:00 am"` as required.
 
-However, at the moment, `formatAs12HourClock("23:00")`'s current output is `"23:00 am"`.
+However, at the moment, the output of `formatAs12HourClock("23:00")` is `"23:00 am"`.
 
 > 💡 We need to execute some different logic when the time is beyond midday
 
@@ -444,7 +444,7 @@ D --> E[Step 5: add 'pm' to the rest of the time, to get '11:00 pm']
 E --> F[Step 6: return the new time]
 ```
 
-This approach involves running some **conditionally**. In this case, we're only going to continue doing Steps 4-6 if the condition **hours are greater than 12** is `true`.
+This approach involves running some code **conditionally**. In this case, we're only going to continue doing Steps 4-6 if the condition **hours are greater than 12** is `true`.
 
 ### ❓ Conditionally executing code
 
