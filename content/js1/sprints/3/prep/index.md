@@ -275,7 +275,7 @@ function formatAs12HourClock(time) {}
 According to our assertion when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`.
 
 So we can add `"am"` to the `time` to get the target output.
-We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
+We can update our function to make use of a template literal, set the return value and then _re-run_ our code including our assertion to check the function is returning the correct value.
 
 📓 We can and should continually check our assertions to see if our function’s current output meets our target output.
 
