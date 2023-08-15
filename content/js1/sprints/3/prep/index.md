@@ -503,7 +503,8 @@ Eleni is not old enough to drive
 ### 🧠 Applying new knowledge
 
 So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>`.
-`>` will check if the value on the left of the operator is less than the value on the right of the operator.
+`>` will check if the value on the operator's left side is less than the value on the operator's right side.
+
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
 
 So provided we have an expression for the hours from the time, we can write a conditional statement as follows:
