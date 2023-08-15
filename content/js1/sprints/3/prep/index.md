@@ -239,13 +239,13 @@ Let's break down these arguments to make sense of what's going on:
 
 1. first argument - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
 
-2. second argument - `"current function output: %d, target output: %d"` - a message string that will be logged to the console if the condition is false.
+2. second argument - `"current function output: %s, target output: %s"` - a message string that will be logged to the console if the condition is false.
 
-3. third argument - `formatAs12HourClock("08:00")` - this value will get substituted into the message string at the first "%d"
+3. third argument - `formatAs12HourClock("08:00")` - this value will get substituted into the message string at the first "%s"
 
-4. 4th argument - `"20:00"` - this value will get substituted into the message string at the second "%d"
+4. 4th argument - `"20:00"` - this value will get substituted into the message string at the second "%s"
 
-We can tidy up the assertion even further. As we’re reusing the same expressions, we can store these in variables so we can reuse them and give them more meaning:
+We can tidy up the assertion even further. As we’re repeating the same expressions, we can store their result in variables with meaningful names so we can reuse them:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
@@ -268,13 +268,13 @@ Assertion failed: current output: undefined, target output: 08:00 am
 
 ### 🧰 Implementing the functionality
 
-On line 4, the function is being passed a single argument `"08:00"`. We can parametrise the function and label the input as `time`:
+On line 4, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parametrise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {}
 ```
 
-According to our assertion we get an input of `"08:00"` and need to create output of `"08:00 am"`.
+According to our assertion when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`.
 
 So we can add `"am"` to the `time` to get the target output.
 We can make use of a template literal, set the return value and then _re-run_ our assertion to check the function is returning the correct value.
