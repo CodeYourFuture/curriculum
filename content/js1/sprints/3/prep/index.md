@@ -24,7 +24,7 @@ backlog_filter= 'Week 3'
 - Implement a piece of functionality specified in an assertion
 - Define _block scope_
 - Define _zero-indexing_
-- Given a short program, determine the return value of a call to `slice` before execution
+- Given a short program, determine the return value of a call to `slice` on a string before execution
 - Given a problem, suggest potential sub-goals required to reach a solution
 - Determine the output of a program that uses a conditional statement
 - Analyse a conditional statement to determine whether or not the statement will be executed
