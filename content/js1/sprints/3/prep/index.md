@@ -65,7 +65,7 @@ Let's pose a problem: given any time in 24 hour clock, we want to format it as a
 
 To solve this goal, we're going to implement a function `formatAs12HourClock`.
 
-> `formatAs12HourClock` is a function that should take any string representing the time in 24 hour clock
+> `formatAs12HourClock` is a function that should take any string representing a time in 24 hour clock
 > and return the corresponding time in 12 hour clock.
 >
 > Examples:  
