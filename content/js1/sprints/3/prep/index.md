@@ -117,8 +117,8 @@ ii) the 🎯 target output?
 
 {{</note>}}
 
-We can call functions and log their return values to the console. However we can also **compare** 2 values.
-This is very useful whenever we want to check that a function produces some target output.
+Previously we learned how to log values to the console, but we can also **compare** two values.
+Comparisons are very useful whenever we want to check that a function produces some target output.
 
 We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
 
