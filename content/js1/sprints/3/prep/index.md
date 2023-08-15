@@ -421,11 +421,12 @@ Starting with an input like `"23:00"`:
 
 flowchart TD
 
-A[Step 1: Extract the hours from the time '23:00', to get '23'] --> B[Step 2: Convert '23' to a number, to get 23]
-B --> C{Step 3\nCheck: Are the hours greater than 12?}
-C -- true --> D[Step 4: subtract 12 from the hours, to get 11]
-D --> E[Step 5: add 'pm' to the rest of the time, to get '11:00 pm']
-E --> F[Step 6: return the new time]
+A{Is the time before midday?} -- true --> B[Add am to time string]
+A[Step 1: Extract the hours from the time '23:00', to get '23'] --> C[Step 2: Convert '23' to a number, to get 23]
+C --> D{Step 3\nCheck: Are the hours greater than 12?}
+D -- true --> E[Step 4: subtract 12 from the hours, to get 11]
+F --> G[Step 5: add 'pm' to the rest of the time, to get '11:00 pm']
+H --> i[Step 6: return the new time]
 ```
 
 This approach involves running some code **conditionally**. In this case, we're only going to continue doing Steps 4-6 if the condition **hours are greater than 12** is `true`.
@@ -585,7 +586,7 @@ Now we can format the string using our approach from earlier:
 we’ll need to append `"pm"` to the string expression and subtract 12 from the hours. So we get the following:
 
 ```js
-if (+time.slice(0, 2) > 12) {
+if (Number(time.slice(0, 2)) > 12) {
   return `${time.slice(0, 2) - 12}:00 pm`;
 }
 ```
@@ -608,9 +609,19 @@ Now we can **re-run** our assertions from earlier to check our function behaves 
 
 Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions.
 
-However, at the moment, we’re using the same expression twice: `Number(time.slice(0, 2))`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code.
+In addition to implementing functionality, we also need to continually improve the code quality.
+Other developers will continue to read our code so it's vital our code is readable by other humans.
 
-Let’s create a variable called `hours` and assign to it our expression's [evaluation] result.
+{{<note definition="Definition: refactoring">}}
+The process of updating our code quality (without changing the implementation) is called **refactoring**
+{{</note>}}
+
+Let's consider our working implementation so far:
+Currently, we’re using the same expression twice: `Number(time.slice(0, 2))`. This means we’re calling the functions `Number` and `slice` twice.
+
+Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse it wherever we need to in our code.
+
+Let’s create a variable called `hours` and assign to it our expression's result.
 
 ```js
 function formatAs12HourClock(time) {
@@ -623,4 +634,4 @@ function formatAs12HourClock(time) {
 }
 ```
 
-Note that the behaviour of the function hasn't changed: it is still returning the same outputs from the given inputs. We've just improved the implementation without changing the underlying behaviour.
+Note that the function's behavior hasn't changed: it still returns the same outputs from the given inputs. We've just improved the implementation without changing the underlying behaviour.
