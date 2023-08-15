@@ -54,7 +54,7 @@ Consider the variable declaration below:
 const decimalNumber = 0.5;
 ```
 
-We want to create an expression for the percentage using the value of `num`.
+We want to create an expression for the percentage using the value of `decimalNumber`.
 To convert to a percentage, we can multiply the number by 100 and then add a `"%"` sign on the end.
 
 So we can write:
