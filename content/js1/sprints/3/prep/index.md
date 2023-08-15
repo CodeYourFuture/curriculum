@@ -625,7 +625,7 @@ Now the assertions pass: in other words, our function’s current output matches
 
 However, at the moment, we’re making use of the same expression twice: `+time.slice(0,2)`. This means we’re calling the function `slice` twice. Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse wherever it we need to in our code.
 
-Let’s create a variable called `hours` and assign to it our expression.
+Let’s create a variable called `hours` and assign to it our expression's [evaluation] result.
 
 ```js
 function formatAs12HourClock(time) {
