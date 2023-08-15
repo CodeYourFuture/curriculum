@@ -52,9 +52,9 @@ We can write a short table summarising some of the times and how they are conver
 | --------------------- | --------------------- |
 | 09:00                 | 09:00 am              |
 | 10:00                 | 10:00 am              |
-| 11:00                 | 11:00 am              |
+| 11:30                 | 11:30 am              |
 | 12:00                 | 12:00 **pm**          |
-| 13:00                 | 1:00 **pm**           |
+| 13:43                 | 1:43 **pm**           |
 | 14:00                 | 2:00 **pm**           |
 
 Often we use the notation "HH:MM" for a time to denote the fact that the first 2 digits represent hours and then the digits after the ":" represent the minutes.
