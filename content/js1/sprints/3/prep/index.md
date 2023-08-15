@@ -145,12 +145,9 @@ This leads to the question:
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
 Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations like addition, multiplication etc.
-
-However, if we're comparing values or expressions then we have one of 2 different states: **true** or **false**.
-
-This leads us to the **boolean data type**: which only has values of `true` or `false`.
-
-Whenever we compare 2 values with a comparison operator then we end up with a boolean value: `true` or `false`.
+However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
+This leads us to the **boolean data **type, which only has true or false values.
+Whenever we compare 2 values with a comparison operator, we end up with a boolean value: `true` or `false`.
 
 For example:
 
