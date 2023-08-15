@@ -144,7 +144,7 @@ This leads to the question:
 ### ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
-Similarly, the number data type will be used to store any numerical data where we'll need to do standard numerical operations like addition, multiplication etc.
+Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
 However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
 This leads us to the **boolean data **type, which only has true or false values.
 Whenever we compare 2 values with a comparison operator, we end up with a boolean value: `true` or `false`.
