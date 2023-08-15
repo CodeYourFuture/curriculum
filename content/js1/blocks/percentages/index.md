@@ -1,4 +1,12 @@
-## 🧩 Percentages
++++
+title = '🧩 Percentages'
+headless = true
+time = 5
+facilitation = false
+emoji= '🗄️'
+[objectives]
+    1='Define a parameter'
++++
 
 Let's start off by defining a problem.
 

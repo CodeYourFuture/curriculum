@@ -1,5 +1,5 @@
 +++
-title = ' Playing computer'
+title = '💻 Playing computer'
 headless = true
 time = 5
 facilitation = false
@@ -7,8 +7,6 @@ emoji= '🗄️'
 [objectives]
     1='Analyse each line in a given program and state what the line does when the program executes'
 +++
-
-## 💻 Playing computer
 
 > To understand how `convertToPercentage` currently behaves we must build a mental model of how the computer executes our code.
 
