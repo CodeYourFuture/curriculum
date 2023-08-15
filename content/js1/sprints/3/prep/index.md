@@ -298,7 +298,7 @@ console.assert(
 );
 ```
 
-✅ Nothing is printed to the console, so this assertion is working 😎
+✅ Nothing is printed to the console, so this assertion is passing 😎
 
 ### 💼 Checking different cases
 
