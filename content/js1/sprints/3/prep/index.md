@@ -70,7 +70,7 @@ To solve this goal, we're going to implement a function `formatAs12HourClock`.
 >
 > Examples:  
 >  `formatAs12HourClock("09:00")` should return `"09:00 am"`  
->  `formatAs12HourClock("14:00")` should return `"2:00 pm"`
+>  `formatAs12HourClock("14:19")` should return `"2:19 pm"`
 > etc...
 
 ### ⚖️ Comparing current and target output
