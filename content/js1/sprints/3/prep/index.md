@@ -140,7 +140,7 @@ Does `formatAs12HourClock("08:00")` have the same value as `"8:00 am"` ?
 
 This leads to the question:
 
-> What will `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
+> What will the expression `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 ### ✅ ❌ Boolean values
 
