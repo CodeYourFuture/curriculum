@@ -120,8 +120,9 @@ ii) the 🎯 target output?
 Previously we learned how to log values to the console, but we can also **compare** two values.
 Comparisons are very useful whenever we want to check that a function produces some target output.
 
-We can compare the value `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the strict equality operator `===`, a comparison operator used to check if two values are the same.
+We can compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
+
+To compare 2 expressions and check if they evaluate to the same value, we can use a **comparison operator**. In particular we can use the strict equality operator `===`, a comparison operator used to check if 2 values are the same.
 
 We can write an expression as follows:
 
