@@ -237,7 +237,7 @@ console.assert(
 
 Let's break down these arguments to make sense of what's going on:
 
-1. first argument - `formatAs12HourClock("08:00") === "20:00"` - the condition we're checking
+1. first argument - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
 
 2. second argument - `"current function output: %d, target output: %d"` - a message string that will be logged to the console if the condition is false.
 
