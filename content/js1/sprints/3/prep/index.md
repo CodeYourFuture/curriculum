@@ -449,7 +449,9 @@ This approach involves running some **conditionally**. In this case, we're only 
 
 ### ❓ Conditionally executing code
 
-In programming, we can use an `if` statement to execute some code when a given condition is `true`.  
+> Recall: JavaScript programs are built up from sequences of **statements**.
+
+In programming, we can use an **`if` statement **to execute some code when a given condition is `true`.  
 In JavaScript, we can write an `if` statement as follows:
 
 ```js {title="main.js"}
@@ -507,10 +509,10 @@ So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"`
 
 So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
 
-So provided we have an expression for the hours from the time, we can write a conditional statement as follows:
+So provided we have an expression for hours, we can write an `if` statement as follows:
 
 ```js
-if (expressionsForHours < 12) {
+if ( /* here goes an expression that evaluates to the hours from the time */ < 12) {
   // do code to format the 12 hours
 }
 ```
