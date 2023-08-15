@@ -1,5 +1,5 @@
 +++
-title = '🗄️ Parameters'
+title = 'Parametrising a function'
 headless = true
 time = 5
 facilitation = false
@@ -7,8 +7,6 @@ emoji= '🗄️'
 [objectives]
     1='Define a _parameter_'
 +++
-
-## Parametrising a function
 
 To make this function reusable for any number, we need to handle inputs. We do this using a **parameter**.
 

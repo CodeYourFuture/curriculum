@@ -1,5 +1,5 @@
 +++
-title = '🗄️ Reusing functionality'
+title = '♻️ Reusing functionality'
 headless = true
 time = 5
 facilitation = false
@@ -9,8 +9,6 @@ emoji= '🗄️'
     2='Identify a call site'
     3='Differentiate between a function declaration and a function invocation'
 +++
-
-## ♻️ Wrapping up functionality
 
 Now we want to wrap up the expression we’ve created and reuse it to convert any number into a percentage.
 
@@ -45,7 +43,7 @@ const result = Math.round(10.3);
 console.log(result); // logs 10 to the console
 ```
 
-In the previous exaample, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`.
+In the previous example, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`.
 So we observe that `result` stores a value of `10`.
 
 `Math.round` is a function implemented by other developers but `convertToPercentage` is a function _we're_ implementing.
