@@ -1,5 +1,5 @@
 +++
-title = 'Comparison'
+title = '⚖️ Comparing current and target output'
 headless = true
 time = 30
 facilitation = false
@@ -7,10 +7,7 @@ emoji= '🧩'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the `===` operator in a program'
-
 +++
-
-## ⚖️ Comparing current and target output
 
 Let's start with a function declaration of `formatAs12HourClock` like this:
 
