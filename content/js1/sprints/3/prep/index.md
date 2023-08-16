@@ -554,21 +554,17 @@ Number(time.slice(0, 2)); // evaluates to 23
 
 ## 🏗️ Assembling the parts
 
-Earlier we had an `if` statement in the form:
+Earlier we defined a sub-goal to find a value for the hours from the `time` input.
 
-```js
-if (expressionForHours > 12) {
-}
-```
-
-So now we've found an expression for the `hours`, we can write:
+We've found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`.
+So we can write an `if` statement using this expression:
 
 ```js
 if (Number(time.slice(0, 2)) > 12) {
 }
 ```
 
-If the time is `"23:00"` then the expression `Number(time.slice(0, 2)) > 12` will evaluate to `true` and the code inside the curly braces will be executed.
+If the time is `"23:00"` then the expression `Number(time.slice(0, 2)) > 12` will evaluate to `true` and the body of the `if` statement will be executed.
 
 This `if` statement is implementing the following part of the diagram from earlier:
 
