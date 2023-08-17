@@ -1,5 +1,4 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
 {{ $block := .Page.Site.GetPage $blockData.api }}
 
 
@@ -8,7 +7,7 @@
     <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
       {{ $block.Title }}
     </h2>
-    {{ partial "time.html" (merge $blockData (dict "time" $block.Params.time)) }}
+    {{ partial "time.html" . }}
   </header>
   {{ with $block.Params.Objectives }}
     <details>
