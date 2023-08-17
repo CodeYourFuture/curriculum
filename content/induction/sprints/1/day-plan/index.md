@@ -7,7 +7,8 @@ weight = 3
 backlog= 'Module-Induction'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="energiser"
+name="Energiser"
+src="blocks/energiser"
 [[blocks]]
 name="Goals and expectations on the Software Development Course"
 src="https://cyf-pd.netlify.app/blocks/goals-and-expectations-on-the-software-development-course/readme/"
@@ -24,6 +25,7 @@ name="learning-as-community"
 src="module"
 [[blocks]]
 name="lunch"
+src="blocks/lunch"
 [[blocks]]
 name="Git workshop"
 src="https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/git-day-1"
@@ -32,5 +34,6 @@ time="120"
 name="next-steps"
 src="module"
 [[blocks]]
-name="retro"
+name="Retro"
+src="blocks/retro"
 +++

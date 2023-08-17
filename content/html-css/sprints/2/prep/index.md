@@ -10,10 +10,11 @@ backlog_filter= 'Week 2'
 name="Prepare for the Asking Questions Workshop"
 src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/46"
 [[blocks]]
-name="spaced-repetition"
+name="Spaced Repetition"
+src="blocks/spaced-repetition"
 [[blocks]]
-name="what-is-css"
-src="module"
+name="What is CSS"
+src="html-css/blocks/what-is-css"
 [[blocks]]
 name="CSS skills practice"
 src="https://www.youtube.com/playlist?list=PLozA7cloMbPgM0Cra4IhDg_HvhP727Abo"
@@ -22,4 +23,5 @@ name="Active listening prep"
 src="https://cyf-pd.netlify.app/blocks/prep-for-active-listening/readme/"
 [[blocks]]
 name="backlog"
+src="blocks/backlog"
 +++
