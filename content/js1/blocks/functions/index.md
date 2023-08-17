@@ -1,152 +1,80 @@
 +++
-title = '♻️ Reusing functionality'
+title = '🪄 Functions'
 headless = true
-time = 5
+time = 20
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Label and describe the syntactic features of a function declaration'
-    2='Identify a call site'
-    3='Differentiate between a function declaration and a function invocation'
-    4='Identify the return value evaluated at a call site given its function declaration'
-    5='Explain how to reuse some code to perform a specific task'
-    6='Describe how to log the return value of a function'
-    7='Given a short program, state the number of times a given function is called'
+    1='Define a function in programming'
+    2='Evaluate a function expression'
+    3='Call a function with an input in REPL'
 +++
 
-Now we want to wrap up the expression we’ve created and reuse it to convert any number into a percentage.
+Now, instead of adding or multiplying numbers, we’ll consider `10.3`.
 
-We can write a function declaration to reuse some code. A function declaration looks like this:
+> 🤔 "What is the nearest whole number to `10.3`?"
 
-```js {linenos=table,linenostart=1}
-function convertToPercentage() {}
+The process of finding the nearest whole number to a decimal number is called **rounding**. So we could rephrase our question as:
+
+> 🤔 "What does the number `10.3` **round** to?”
+
+## ♻️ Reusing instructions
+
+There is no operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
+
+`Math.round` is a function. Because a function is a _reusable_ set of instructions, `Math.round` rounds any number.
+
+Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
+
+{{<tabs name="Functions in REPL">}}
+{{<tab name="Try it yourself">}}
+
+1. Write `Math.round` in the Node REPL
+1. Hit enter to evaluate our expression
+
+The REPL output `[Function: round]` is telling us `Math.round` is a function.
+
+{{</tab>}}
+
+{{<tab name="Watch and follow along">}}
+![rounding](rounding.gif "[Function: round] indicates that Math.round is a function")
+{{</tab>}}
+{{</tabs>}}
+
+## 📲 Calling a function
+
+For our function to work, we need Node to read the instructions and {{<tooltip title="execute">}}Execution means the computer reads and follows instructions.{{</tooltip>}} them. Write the following in the REPL:
+
+```repl
+Math.round(10.3);
 ```
 
-The `function` declaration consists of the following syntactic elements:
+Notice the `(` and `)` brackets after the name of the function and a number inside the brackets. These brackets mean we are calling the function. The number inside the brackets is the **input** we're passing to the function.
 
-- `function` keyword, denotes the beginning of a function declaration
-- `convertToPercentage` - this is the name of the function
-- `()` - any input to the function will go between these (our function above doesn't take any input (yet), but it still needs the `()`s)
-- `{}` - the body of the function is written inside the curly braces (our function above doesn't do anything yet, but it still needs the `{}`s)
+{{<note title="Calling a function" type="note">}}
 
-We can wrap the functionality we want to reuse inside the curly braces by writing:
-
-```js {linenos=table,linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
-}
-```
-
-## 🔎 Checking the output
-
-Earlier we saw how to store a function's return value in a variable.
-
-```js
-const result = Math.round(10.3);
-console.log(result); // logs 10 to the console
-```
-
-In the previous example, we call `Math.round` which takes the input `10.3` and then returns the rounded number `10`.
-So we observe that `result` stores a value of `10`.
-
-`Math.round` is a function implemented by other developers but `convertToPercentage` is a function _we're_ implementing.
-
-However, calling `convertToPercentage` is just like calling `Math.round`.
-Now we want to call the function `convertToPercentage` and store the return value in a variable.
-We can store the return value in a variable in exactly the same way:
-
-```js {linenos=table,hl_lines=["5"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
-}
-const result = convertToPercentage(0.3);
-```
-
-Then we can print the value of the result to the terminal using `console.log`.
-
-```js {linenos=table,hl_lines=["6"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
-}
-const result = convertToPercentage(0.3);
-console.log(result);
-```
-
-{{<note type="question" title="exercise">}}
-Given the code above, try predicting what `result` will evaluate to.
+**Calling a function** means telling the computer to read the function's instructions and carry out its instructions. When calling a function we can also pass inputs to the function.
 
 {{</note>}}
 
-## Undefined values
+`Math.round(10.3)` is a call expression; read this as:
 
-If our function behaves as required, we expect the value of `result` to be `"30%"`, and to see `30%` (without the quotes) printed in the terminal, as below:
+"apply the set of instructions for `Math.round` to the number `10.3`."
 
-```
-30%
-```
+If we type `Math.round(10.3)` then we get the result 10. So we say that `Math.round(10.3)` returns 10.
 
-When we log `result`'s value to the terminal we get actually get `undefined`.
-We need to specify the value we want to return from our function.
-If we don't state what our function should return, the default return value will be `undefined`.
+A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evaluates to the value `10`.
 
-## Setting a return value
+If we assign that expression to a variable, or use it in a string, we'll get the value `10`. So we can write:
 
-We write a return statement to specify a function's return value (what an expression calling the function will evaluate to).
-
-If your function call is like a question, the return statement is the answer. It's what comes back.
-
-We can add a return statement to the function as follows:
-
-```js {linenos=table,hl_lines=["4"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  return `${num * 100}%`;
-}
+```js
+const roundedValue = Math.round(10.3);
 ```
 
-However, we can also keep the variable `percentage` and refer to it in the return statement:
+or we can write:
 
-```js {linenos=table,hl_lines=["4"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
-  return percentage;
-}
+```js
+const roundedValueInAString = `10.3 rounds to ${Math.round(10.3)}`;
 ```
 
-Now that our function contains a `return` statement we can re-run our script to check the output.
-
-## Checking with different inputs
-
-Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the return value we get each time.
-
-```js {linenos=table,hl_lines=["7-8"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
-  return percentage;
-}
-
-const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.231);
-
-console.log(output1);
-console.log(output2);
-```
-
-When we execute the code we _want_ to log the target output for each input `0.5` and `0.231`:
-
-```
-50%
-23.1%
-```
-
-However, _given the function's current implementation_, we get the following logs:
-
-```
-50%
-50%
-```
+Both of these instructions **evaluate** the call expression `Math.round(10.3)` to the returned value `10` as soon as the call expression appears. The variable `roundedValue` will have a numeric value `10` (just like if we'd written `const roundedValue = 10;`), and the variable `roundedValueInAString` will have a string value `"10.3 rounds to 10"`.

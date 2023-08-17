@@ -9,29 +9,28 @@ emoji= '🗄️'
     2='Construct simple expressions to represent a calculation'
 +++
 
-Let's start off by defining a problem.
+Let's begin with this problem.
 
 > Given a _decimal number_ I want to convert it into a _percentage format_.
 
-For example, given the decimal number `0.5` we should get the string `"50%"`.
-And given the decimal number `0.231` we should get the string `"23.1%"` and so forth.
+For example, given the decimal number `0.5` we return the string `"50%"`. Given the decimal number `0.231` we return the string `"23.1%"`.
 
 ## Restating the problem
 
-We want to implement some functionality to convert _any_ given number into a percentage.
-Previously, we saw how to perform a given task using some functions. Here are some examples:
+Our function must convert _any_ decimal to a percentage. We have used functions already. Here are some functions we've used:
 
 ```js {linenos=table,linenostart=1}
 console.log("hello world"); // logs "hello world" to the console
 Math.round(3.141); // evaluates to 3
 ```
 
-All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. In the case of `Math.round` and `console.log` these functions have been created and made available to use whenever we start running a program with NodeJS.
+All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. `Math.round` and `console.log` are functions that the JavaScript language designers have written and stored inside the language, because everyone needs them all the time.
 
-However, no such pre-built function allows us to convert any number to a percentage. So we're going to create a function called `convertToPercentage` with the following requirements:
+No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with these requirements:
 
 - takes any number input
-- converts it to a string in percentage form, and returns that string.
+- converts it to a string in percentage form
+- returns that string.
 
 ```js {linenos=table,linenostart=1}
 convertToPercentage(0.5); // should return "50%"
@@ -41,23 +40,19 @@ convertToPercentage(0.5); // should return "50%"
 convertToPercentage(0.231); // should return "23.1%"
 ```
 
-## Useful expressions
+### Useful expressions
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
-In programming, we always try the simplest thing first.
-Let’s consider how to convert just one number in to a percentage.
+In programming, we always try the simplest thing first. Let’s consider how to convert just one number to a percentage.
 
-Consider the variable declaration below:
+Look at this variable declaration:
 
 ```js {linenos=table,linenostart=1}
 const decimalNumber = 0.5;
 ```
 
-We want to create an expression for the percentage using the value of `decimalNumber`.
-To convert to a percentage, we can multiply the number by 100 and then add a `"%"` sign on the end.
-
-So we can write:
+We want to create an expression for the percentage using the value of `decimalNumber`. To convert to a percentage, we will multiply the number by 100 and then add a `"%"` sign on the end.
 
 ```js {linenos=table,linenostart=1}
 const decimalNumber = 0.5;
@@ -65,36 +60,38 @@ const percentage = `${num * 100}%`;
 ```
 
 Recalling template literals, the expression in the curly braces will be evaluated first and then inserted into the string, giving us the percentage string.
+{{<tabs name="Calculation with variables">}}
+{{<tab name="Exercise 1">}}
 
-{{<note type="exercise" title="Exercise 1.1">}}
+### Generally calculate area and perimeter
 
-The following variables represent the dimensions of a rectangle:
+These variables describe the dimensions of a rectangle:
 
 ```js
 const height = ; // could have a value like 10
 const width = ; // could have a value like 30
 ```
 
-Create variables `area` and `perimeter` for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
+Create variables [`area`](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [`perimeter`](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
 
 ```js
 const area = FILL_ME_IN;
 const perimeter = FILL_ME_IN;
 ```
 
-Try putting in different numeric values of `height` and `width` to check the `area` and `perimeter` values are still correct.
+Now give different numbers to `height` and `width`. Are the `area` and `perimeter` values still correct?
 
-{{</note>}}
+{{</tab>}}
+{{<tab name="Exercise 2">}}
 
-{{<note type="exercise" title="Exercise 1.2">}}
+### Generally convert pence to pounds
 
-The following variable represents the cost of something in pence:
+This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
 
 ```js
 const price = ; // could have a value like 130
 ```
 
-Write an expression for the price in pounds. The price in pounds should start with a "£" symbol.
-The price should be to 2 decimal places.
-
-{{</note>}}
+Write an expression for the price in pounds. The price in pounds should be to 2 decimal places and start with "£".
+{{</tab>}}
+{{</tabs>}}
