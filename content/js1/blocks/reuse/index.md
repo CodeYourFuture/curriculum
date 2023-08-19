@@ -9,7 +9,7 @@ emoji= '🗄️'
     2='Identify a call site'
     3='Differentiate between a function declaration and a function invocation'
     4='Identify the return value evaluated at a call site given its function declaration'
-    5='Explain how to reuse some code to perform a specific task'
+    5='Reuse code to perform the same calculation with different inputs'
     6='Log the return value of a function'
     7='Given a short program, state the number of times a given function is called'
 +++
@@ -32,7 +32,7 @@ Wrap the functionality we want to reuse inside the curly braces by writing:
 ```js {linenos=table,linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
+  const percentage = `${decimalNumber * 100}%`;
 }
 ```
 
@@ -47,24 +47,24 @@ console.log(result); // logs 10 to the console
 
 We call `Math.round` which takes the input `10.3` and then returns the rounded number `10`. So `result` stores a value of `10`.
 
-`Math.round` is a function implemented by other developers but `convertToPercentage` is a function _we're_ implementing. But calling `convertToPercentage` is just like calling `Math.round`.
+`Math.round` is a function implemented by other developers and `convertToPercentage` is a function _we're_ implementing, but calling `convertToPercentage` is just like calling `Math.round`.
 
 We want to call the function `convertToPercentage` and store the return value in a variable. We can store the return value in a variable in exactly the same way:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
+  const percentage = `${decimalNumber * 100}%`;
 }
 const result = convertToPercentage(0.3);
 ```
 
-Log out the value of `result` to the terminal using `console.log`.
+Log out the value of `result` to the console using `console.log`.
 
 ```js {linenos=table,hl_lines=["6"],linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
+  const percentage = `${decimalNumber * 100}%`;
 }
 const result = convertToPercentage(0.3);
 console.log(result);
@@ -87,16 +87,14 @@ When we log `result`'s value to the terminal we actually get `undefined`. We nee
 
 #### Setting a return value
 
-We write a return statement to specify a function's return value (what an expression calling the function will evaluate to).
+We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.
 
-If your function call is like a question, the return statement is the answer. It's what comes back.
+We can add a return statement to the function like this:
 
-We can add a return statement to the function as follows:
-
-```js {linenos=table,hl_lines=["4"],linenostart=1}
+```js {linenos=table,hl_lines=["3"],linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  return `${num * 100}%`;
+  return `${decimalNumber * 100}%`;
 }
 ```
 
@@ -105,7 +103,7 @@ However, we can also keep the variable `percentage` and refer to it in the retur
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
+  const percentage = `${decimalNumber * 100}%`;
   return percentage;
 }
 ```
@@ -114,12 +112,12 @@ Now the function contains a `return` statement, re-run your script to check the 
 
 #### Checking with different inputs
 
-Now we have a function declaration we can check if our function works for any number. We can call `convertToPercentage` with different arguments and check the return value we get each time.
+Now we have a function declaration, we can check if our function works for any number. Call `convertToPercentage` with different arguments and check the return value each time.
 
 ```js {linenos=table,hl_lines=["7-8"],linenostart=1}
 function convertToPercentage() {
   const decimalNumber = 0.5;
-  const percentage = `${num * 100}%`;
+  const percentage = `${decimalNumber * 100}%`;
   return percentage;
 }
 
@@ -130,7 +128,7 @@ console.log(output1);
 console.log(output2);
 ```
 
-When we execute the code we _want_ to log the target output for each input `0.5` and `0.231`:
+When we execute this code we _want_ to log the target output for each input: `0.5` and `0.231`:
 
 ```
 50%

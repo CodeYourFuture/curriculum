@@ -10,7 +10,7 @@ backlog_filter= 'Week 2'
 name="percentages"
 src="module"
 [[blocks]]
-name="functions"
+name="reuse"
 src="module"
 [[blocks]]
 name="playing-computer"

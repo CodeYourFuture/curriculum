@@ -1,7 +1,7 @@
 +++
 title = '🧩 Percentages'
 headless = true
-time = 5
+time = 20
 facilitation = false
 emoji= '🗄️'
 [objectives]
@@ -15,7 +15,7 @@ Let's begin with this problem.
 
 For example, given the decimal number `0.5` we return the string `"50%"`. Given the decimal number `0.231` we return the string `"23.1%"`.
 
-## Restating the problem
+### Restating the problem
 
 Our function must convert _any_ decimal to a percentage. We have used functions already. Here are some functions we've used:
 
@@ -44,9 +44,7 @@ convertToPercentage(0.231); // should return "23.1%"
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
-In programming, we always try the simplest thing first. Let’s consider how to convert just one number to a percentage.
-
-Look at this variable declaration:
+In programming, we always try the simplest thing first. Let’s consider how to convert just one number to a percentage. Look at this variable declaration:
 
 ```js {linenos=table,linenostart=1}
 const decimalNumber = 0.5;
@@ -56,7 +54,7 @@ We want to create an expression for the percentage using the value of `decimalNu
 
 ```js {linenos=table,linenostart=1}
 const decimalNumber = 0.5;
-const percentage = `${num * 100}%`;
+const percentage = `${decimalNumber * 100}%`;
 ```
 
 Recalling template literals, the expression in the curly braces will be evaluated first and then inserted into the string, giving us the percentage string.
@@ -92,6 +90,6 @@ This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise
 const price = ; // could have a value like 130
 ```
 
-Write an expression for the price in pounds. The price in pounds should be to 2 decimal places and start with "£".
+Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
 {{</tab>}}
 {{</tabs>}}
