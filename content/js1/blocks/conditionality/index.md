@@ -12,9 +12,9 @@ emoji= '🧩'
 5='Determine the output of a program that uses a conditional statement'
 +++
 
-> Recall: JavaScript programs are built up from sequences of **statements**.
+> Recall: JavaScript programs are built up from sequences of **declarations** and **statements**.
 
-In programming, we can use an **`if` statement **to execute some code when a given condition is `true`.  
+In programming, we can use an **`if` statement** to execute some code when a given condition is `true`.  
 In JavaScript, we can write an `if` statement as follows:
 
 ```js {title="main.js"}
