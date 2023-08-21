@@ -191,7 +191,7 @@ Now the second assertion fails with the following message:
 Assertion failed: current output: 23:00 am, target output: 11:00 pm
 ```
 
-{{<note type="exercise" title="Exercise 2.1">}}
+{{<note type="exercise" title="Exercise 2">}}
 
 ✏️ Write another assertion that checks `formatAs12HourClock` returns the target output when passed another _time input in the afternoon._
 
