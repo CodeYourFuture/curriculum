@@ -40,6 +40,10 @@ darkModeToggle.addEventListener("click", () => {
 const editableCodeBlocks = document.querySelectorAll("code[data-lang]");
 editableCodeBlocks.forEach((block) => {
   block.setAttribute("contenteditable", true);
+  block.setAttribute("spellcheck", false);
+  block.setAttribute("data-gramm", false);
+  block.setAttribute("autocorrect", "off");
+  block.setAttribute("autocapitalize", "off");
 });
 
 // Fix for GFM task lists
