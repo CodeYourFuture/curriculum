@@ -39,8 +39,8 @@ formatAs12HourClock("05:30");
 
 For the call above, what is the
 
-i) the current output?
-ii) the 🎯 target output?
+a) the current output?
+b) the 🎯 target output?
 
 {{</tab>}}
 {{<tab name="Exercise 2">}}
@@ -58,9 +58,8 @@ formatAs12HourClock("20:10");
 ```
 
 For the call above, what is the
-
-i) the current output?
-ii) the 🎯 target output?
+a) the current output?
+b) the 🎯 target output?
 
 {{</tab>}}
 {{</tabs>}}
