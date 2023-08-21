@@ -105,6 +105,7 @@ This leads to the question:
 ## ✅ ❌ Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
+
 Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
 
 However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
