@@ -42,7 +42,17 @@ flowchart LR
     IB --> EXIT
 ```
 
-{{<note type="exercise" title="Exercise 2.1">}}
+{{<tabs>}}
+
+{{<tab name="x">}}
+{{</tab>}}
+
+{{<tab name="y">}}
+{{</tab>}}
+
+{{</tabs>}}
+
+{{<note type="exercise" title="Exercise 2">}}
 Write a program that defines a variable `eleniAge`.
 
 If Eleni is less than 18, the program should print out nothing to the console.

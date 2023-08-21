@@ -57,9 +57,10 @@ function formatAs12HourClock() {}
 console.assert(formatAs12HourClock("08:00") === "08:00 am");
 ```
 
-{{<note type="exercise" title="Exercise 2">}}
+{{<note type="exercise" title="Exercise 3">}}
 
 Predict and explain if the assertion above will succeed or fail.
+
 Pay particular attention to the return value of `formatAs12HourClock` above.
 
 {{</note>}}
