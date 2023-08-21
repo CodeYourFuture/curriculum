@@ -161,7 +161,7 @@ Create a javascript file on your local machine and execute the code above. Doubl
 
 ## 💼 Checking different cases
 
-So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a clear pattern: take the current time and add `"am"` to the end.
+So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a pattern: take the current time and add `"am"` to the end.
 
 However, we need to assert that the function behaves correctly when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
 
