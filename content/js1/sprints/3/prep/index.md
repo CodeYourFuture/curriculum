@@ -33,4 +33,6 @@ name="assembly"
 [[blocks]]
 src="module"
 name="refactor"
+name="Growth Mindset Prep"
+src="https://cyf-pd.netlify.app/blocks/prep-for-growth-mindset/readme/"
 +++
