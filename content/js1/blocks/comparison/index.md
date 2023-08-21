@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
-    2='Explain when to use the `===` operator in a program'
+    2='Explain when to use the === operator in a program'
 +++
 
 Let's start with a function declaration of `formatAs12HourClock` like this:
@@ -16,12 +16,34 @@ function formatAs12HourClock() {}
 ```
 
 Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**.
+
 For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
 In this case, `"08:00 am"` is the 🎯 **target output**.
 
 However, the **current output** is what the function actually returns given its current implementation.
 
-{{<note type="exercise" title="Exercise 1.1">}}
+{{<tabs name="current vs target output">}}
+{{<tab name="Exercise 1">}}
+
+Let's start with `formatAs12HourClock` defined like this:
+
+```js {linenos=table,linenostart=1}
+function formatAs12HourClock() {}
+```
+
+Suppose we now call the function like this:
+
+```js
+formatAs12HourClock("05:30");
+```
+
+For the call above, what is the
+
+i) the current output?
+ii) the 🎯 target output?
+
+{{</tab>}}
+{{<tab name="Exercise 2">}}
 
 Let's continue with `formatAs12HourClock` defined like this:
 
@@ -29,25 +51,30 @@ Let's continue with `formatAs12HourClock` defined like this:
 function formatAs12HourClock() {}
 ```
 
-a) Suppose we call the function like this:
+Suppose we call the function like this:
 
 ```js
 formatAs12HourClock("20:10");
 ```
 
 For the call above, what is the
+
 i) the current output?
 ii) the 🎯 target output?
 
-b) Suppose we now call the function like this:
+{{</tab>}}
+{{</tabs>}}
+
+### Generally convert pence to pounds
+
+This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
 
 ```js
-formatAs12HourClock("05:30");
+const price = ; // could have a value like 130
 ```
 
-For the call above, what is the
-i) the current output?
-ii) the 🎯 target output?
+{{<note type="exercise" title="Exercise 1">}}
+Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
 
 {{</note>}}
 
