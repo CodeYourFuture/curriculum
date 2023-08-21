@@ -65,16 +65,16 @@ ii) the 🎯 target output?
 {{</tab>}}
 {{</tabs>}}
 
-### Generally convert pence to pounds
+{{<note type="exercise" title="Generally convert pence to pounds">}}
+
+###
 
 This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
+Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
 
 ```js
 const price = ; // could have a value like 130
 ```
-
-{{<note type="exercise" title="Exercise 1">}}
-Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
 
 {{</note>}}
 
@@ -106,8 +106,9 @@ This leads to the question:
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
 Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
+
 However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
-This leads us to the **boolean data **type, which only has true or false values.
+This leads us to the **boolean** datatype, which only has true or false values.
 Whenever we compare 2 values with a comparison operator, we end up with a boolean value: `true` or `false`.
 
 For example:
@@ -121,7 +122,9 @@ For example:
 // evaluates to false
 ```
 
-{{<note type="exercise" title="Exercise 1.2">}}
+{{<tabs name="booleans">}}
+
+{{<tab name="Exercise 1">}}
 
 Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check out some relevant documentation if you've not seen a particular operator before.
 
@@ -129,28 +132,28 @@ Look at the code below and then try predicting what each expression will evaluat
 true === false;
 5 == 2 + 4;
 4 * 5 == "20";
-4 * 5 === "20";
 3 * 2 === 6;
-4 = 4;
-Math.min(3,4,5) === 4;
+Math.min(3, 4, 5) === 4;
 let mhairiName = "Mhairi";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
+let kilometersMhairiDrivesToWork = 9.4;
 "hello Mhairi" === `hello ${mhairiName}`;
-`Mhairi is 28` === `mhairi is ${mhairiAge}`;
 "${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
 isMhairOldEnoughToDrive;
 isMhairOldEnoughToDrive === true;
 mhairiAge >= 18;
-mhairiAge >= 28;
 29 <= mhairiAge;
-let kilometersMhairiDrivesToWork = 9.4;
-Math.round(9.4) === 9
+Math.round(kilometersMhairiDrivesToWork) === 9;
 ```
 
-{{</note>}}
+{{</tab>}}
 
-{{<note type="exercise" title="Exercise 1.3">}}
+{{<tab name="Exercise 2">}}
+{{</tab>}}
+
+{{<tab name="Exercise 3">}}
+
 Trickier 🧩
 
 Look at the code below and then try predicting what the expression will evaluate to. Be sure to explain your answer too. Try using the Node Repl to check your answer. Does the REPL output make sense?
@@ -159,4 +162,5 @@ Look at the code below and then try predicting what the expression will evaluate
 console.log(10 + 32) === 42;
 ```
 
-{{</note>}}
+{{</tab>}}
+{{</tabs>}}
