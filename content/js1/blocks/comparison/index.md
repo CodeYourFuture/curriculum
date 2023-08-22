@@ -65,24 +65,11 @@ b) the 🎯 target output?
 {{</tab>}}
 {{</tabs>}}
 
-{{<note type="exercise" title="Generally convert pence to pounds">}}
-
-###
-
-This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
-Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
-
-```js
-const price = ; // could have a value like 130
-```
-
-{{</note>}}
-
 Previously we learned how to log values to the console, but we can also **compare** two values.
 Comparisons are essential whenever we want to check that a function produces some target output.
 
 We can compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the strict equality operator `===`, a comparison operator used to check if two values are the same.
+We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the [strict equality operator `===`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality), a comparison operator used to check if two values are the same.
 
 We can write an expression as follows:
 
@@ -151,13 +138,27 @@ Math.round(kilometersMhairiDrivesToWork) === 9;
 {{</tab>}}
 
 {{<tab name="Exercise 2">}}
+
+Some functions like [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) **return booleans**.
+
+```js
+const firstName = "Mariana";
+console.log(firstName.includes("a"));
+console.log(firstName.includes("M"));
+console.log(firstName.includes("m"));
+```
+
+Step through the code above and use documentation to explain what the `includes` function will return on each call.
+
 {{</tab>}}
 
 {{<tab name="Exercise 3">}}
 
-Trickier 🧩
+### Checking misconceptions 🤔
 
-Look at the code below and then try predicting what the expression will evaluate to. Be sure to explain your answer too. Try using the Node Repl to check your answer. Does the REPL output make sense?
+Look at the code below and then try predicting and explaining what the expression will evaluate to.
+
+Try using the Node Repl to check your answer. Does the REPL output make sense?
 
 ```js {linenos=table,linenostart=1}
 console.log(10 + 32) === 42;
