@@ -128,6 +128,7 @@ true === false;
 3 * 2 === 6;
 Math.min(3, 4, 5) === 4;
 let mhairiName = "Mhairi";
+typeof mhairiName === "string";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
 let kilometersMhairiDrivesToWork = 9.4;
