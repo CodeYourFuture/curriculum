@@ -110,16 +110,6 @@ When the code above executes, we now get a log in the console:
 Assertion failed: current output: undefined, target output: 08:00 am
 ```
 
-{{<tabs name="assertions">}}
-
-{{<tab name="x">}}
-{{</tab>}}
-
-{{<tab name="y">}}
-{{</tab>}}
-
-{{</tabs>}}
-
 ## 🧰 Implementing the functionality
 
 On line 4, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parametrise the function and label the input as `time`:
