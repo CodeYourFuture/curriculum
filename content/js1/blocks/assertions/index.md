@@ -8,7 +8,7 @@ emoji= '🧩'
 1='Describe the difference between console.log and console.assert'
 2 = 'Write an assertion to check for some behaviour of a given function'
 3='Implement a piece of functionality specified in an assertion'
-4='Given an assertion and a function declaration, identify and explain whether the assertion will pass or fail'
+4='Given an assertion and a function declaration, identify and explain whether the assertion will succeed or fail'
 5 ='Write an assertion for a function that implements a solution to a given problem'
 +++
 
