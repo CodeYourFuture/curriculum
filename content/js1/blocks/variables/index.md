@@ -53,7 +53,7 @@ Our `greeting` variable is stored in memory. We can reuse it to build more expre
 {{</tab>}}
 {{<tab name="Watch and follow along">}}
 
-[greeting](greeting.gif "Store your string in a variable and reuse it")
+![greeting](greeting.gif "Store your string in a variable and reuse it")
 {{</tab>}}
 {{</tabs>}}
 
