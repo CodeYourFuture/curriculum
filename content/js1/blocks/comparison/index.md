@@ -96,25 +96,30 @@ Some values are best represented as strings: any piece of text, a name, address,
 Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
 
 However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
-This leads us to the **boolean** datatype, which only has true or false values.
-Whenever we compare 2 values with a comparison operator, we end up with a boolean value: `true` or `false`.
+
+This leads us to the [**boolean** datatype](https://developer.mozilla.org/en-US/docs/Glossary/Boolean), which only has two different values: **true** or **false**.
+
+Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`.
 
 For example:
 
 ```js
-// comparison expression
-42 === 10 + 32;
-// evaluates to true
+// using the strict equality comparison expression
 
-10 * 5 === 60;
-// evaluates to false
+console.log(42 === 10 + 32);
+// logs true
+
+console.log(10 * 5 === 60);
+// logs false
 ```
 
 {{<tabs name="booleans">}}
 
 {{<tab name="Exercise 1">}}
+Look at the code below and then try predicting how the computer will interpret each line. Remember to think about each line and work out if it is a declaration or a statement.
+You may want to use the Node REPL to help you check your answers.
 
-Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check out some relevant documentation if you've not seen a particular operator before.
+Check out some relevant documentation if you've never seen a particular operator.
 
 ```js {linenos=table,linenostart=1}
 true === false;
