@@ -9,21 +9,22 @@ emoji= '🧩'
  2='Explain why we use sub-goals'
 +++
 
-##
+For `formatAs12HourClock` our strategy for inputs like `"23:00"` involves checking if the `hours` value is less than 12. For this purpose, we can use the [**greater than** comparison operator `>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than).
 
-So for `formatAs12HourClock` we said part of the strategy for handling `"23:00"` would involve checking that the `hours` value is less than 12. For this purpose, we can use another comparison operator: `>`.
 `>` will check if the value on the operator's left side is less than the value on the operator's right side.
 
-So `3 > 12` would evaluate to be `false`, as `3` is not greater than `12`.
+So `3 > 12` evaluates to `false`, as `3` is not greater than `12`.
 
 So provided we have an expression for hours, we can write an `if` statement as follows:
 
 ```js
-if ( /* here goes an expression that evaluates to the hours from the time */ < 12) {
+if (/* here goes an expression here that evaluates to the hours */ < 12) {
   // do code to format the 12 hours
 }
 ```
 
-To complete the logic, we now have to achieve a sub-goal:
+To complete the logic, we can form a {{<tooltip title="sub-goal">}}A sub-goal is a goal for a smaller problem that makes up some bigger problem{{</tooltip>}}. Any time we're solving a problem we have a particular goal or target in mind. We can break down a problem into smaller problems each with their own sub-goals. With complex problems, we must break up problems into more manageable parts.
+
+For the implementation of `formatAs12HourClock`, we can form a sub-goal as follows:
 
 > 🎯 Sub-goal: Find the hours value from the `time` input
