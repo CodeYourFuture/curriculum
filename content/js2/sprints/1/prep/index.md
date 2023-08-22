@@ -13,10 +13,13 @@ src="module"
 name="lists"
 src="module"
 [[blocks]]
-name="mutation"
+name="median"
 src="module"
 [[blocks]]
-name="reduction"
+name="mean"
+src="module"
+[[blocks]]
+name="summing"
 src="module"
 [[blocks]]
 name="iteration"
