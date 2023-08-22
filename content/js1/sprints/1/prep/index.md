@@ -23,6 +23,9 @@ src="module"
 name="variables"
 src="module"
 [[blocks]]
+name="declarations-statements"
+src="module"
+[[blocks]]
 name="functions"
 src="module"
 [[blocks]]
