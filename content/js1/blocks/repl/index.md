@@ -24,10 +24,10 @@ Happily, computers can evaluate expressions for us.
 
 REPL is a special type of program that stands for:
 
-**Read** - Users enter an expression that Node will **read**
-**Evaluate** - Node will then **evaluate** this expression
+**Read** - Users enter some code that Node will **read**
+**Evaluate** - Node will then **evaluate** this code
 **Print** - Node will **print** the result to the terminal
-**Loop** - Node will **loop** back to the beginning and prompt users to input another expression
+**Loop** - Node will **loop** back to the beginning and prompt users to input some more code
 
 With a REPL we can run pieces of code and look at what happens.
 
@@ -40,11 +40,11 @@ We input JavaScript instructions that are then executed by NodeJS. The REPL repl
 Type each of the following expressions [into the REPL](#repl-1-1) one at a time and then press enter to check the result.
 
 ```bash
-10 + 32;
+10 + 32
 ```
 
 ```bash
-32 / 10;
+32 / 10
 ```
 
 {{</tab>}}
