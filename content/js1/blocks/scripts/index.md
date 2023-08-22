@@ -14,12 +14,15 @@ But usually, our programs have many instructions, and we want to keep and re-run
 
 We use the `node` command to run a JavaScript file in the terminal. A JavaScript file ends with `.js` - this is the "file extension".
 
-Let’s suppose we have a file `arithmetic.js`. We issue the command `node arithmetic.js`. This terminal command is an instruction to execute the program written inside arithmetic.js. Our program has 3 lines, each line an expression. So the computer will go through the file line by line:
+Let’s suppose we have a file `age.js`. We issue the command `node age.js`. This terminal command is an instruction to execute the program written inside `age.js`. Our program has three lines.
+So the computer will go read and execute the program line by line:
 
 ```js
-10 + 3; // the computer will evaluate this expression
-10 * 3; // then this expression
-10 / 3; // then this expression
+const yearOfBirth = 1990; // declaration
+const currentYear = 2023; // declaration
+
+currentYear++; // statement
+`I am ${currentYear - yearOfBirth} years old`; // statement
 ```
 
 {{<note title="Activity" type="activity">}}
@@ -32,7 +35,9 @@ Let’s suppose we have a file `arithmetic.js`. We issue the command `node arith
 
 {{</note>}}
 
-Once the computer evaluates these expressions, the execution of the program is complete. But we’re left with a problem. With the REPL, the user inputs an expression, the computer evaluates it and then prints the result. But now the computer will go and execute each line sequentially until completion _without_ printing the values of each expression it evaluates.
+Once the computer executes these statements, the execution of the program is complete. But we’re left with a problem. With the REPL, the user inputs an expression statement or declaration; the computer reads, executes, and prints feedback to the terminal.
+
+But with a file, the computer will execute each line sequentially until completion _without_ printing the values of each expression it evaluates.
 
 So this new problem can be expressed as a question:
 
