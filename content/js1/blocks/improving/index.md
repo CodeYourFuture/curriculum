@@ -7,6 +7,7 @@ emoji= '🧩'
 [objectives]
 1='Explain why refactoring is necessary in the production of software'
 2='Suggest several appropriate ways to refactor a given piece of code'
+3='Identify and fix a bug'
 +++
 
 ### Refactoring
