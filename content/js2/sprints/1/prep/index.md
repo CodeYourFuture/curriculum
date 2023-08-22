@@ -25,13 +25,15 @@ src="module"
 name="iteration"
 src="module"
 [[blocks]]
+name="assembly"
+src="module"
+[[blocks]]
+name="reference"
+src="module"
+[[blocks]]
+name="mutation"
+src="module"
+[[blocks]]
 name="Failing Fast"
 src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"
 +++
-
-Learning threads 🧵
-Let’s build a mental model for grouping and acting upon related data
-Let’s build a mental model for managing ordered lists
-Let's build a mental model to understand how to repeat an action
-
-Provisional section headings

@@ -1,11 +1,34 @@
 +++
-title = '🖊️ mutation'
+title = ' mutation'
 headless = true
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define mutation'
 +++
+
+Let's take another look at `calculateMedian`
+
+```js
+function calculateMedian(list) {
+  const middlePosition = Math.floor(list.length / 2);
+  const median = list.splice(middlePosition, 1)[0]; // access the middle item in the list
+
+  return median;
+}
+
+calculateMedian(list);
+```
+
+`calculateMedian` calculates the middle value by making a call to `splice`.
+However, `splice` is a **mutating** array method.
+
+{{<note type="tip" title="Recall: mutation">}}
+Mutation is a change to the contents of an array.
+{{</note>}}
+
+When we call `splice` it does 2 things:
+
+- removes the specified item from the list
+- returns the removed item
