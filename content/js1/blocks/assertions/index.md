@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Describe the difference between `console.log` and `console.assert`'
+1='Describe the difference between console.log and console.assert'
 2 = 'Write an assertion to check for some behaviour of a given function'
 3='Implement a piece of functionality specified in an assertion'
 4='Given an assertion and a function declaration, identify and explain whether the assertion will pass or fail'
@@ -22,30 +22,31 @@ However, we can also write assertions using another function: [`console.assert`]
 Let's look at an example:
 
 ```js
-const sentence = "Hello there, what is your name?";
-const finalCharacter = sentence.slice(-1);
-console.assert(finalCharacter === "?");
+const calculation = 10 + 32;
+const result = 42;
+console.assert(calculation === result);
 ```
 
 The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
 
-As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
+As `calculation === result` evaluates to true, no message will be written to the console.
 
-{{<tabs name="Predict, explain, check">}}
+{{<tabs name="Experiment">}}
 
-{{<tab name="Exercise 1">}}
+{{<tab name="Activity 1">}}
+
+### Experiment with assertions
 
 ```js
-const sentence = "Hello there, what is your name?";
-const finalCharacter = sentence.slice(-1);
-console.assert(finalCharacter === "?");
+const calculation = 10 + 32;
+const result = 42;
+console.assert(calculation === result);
 ```
 
-Try updating the final character in the `sentence` variable string to make the assertiom fail.
+Try changing the `calculation` expression, `result` value and the comparison operator to create different assertions.
+Try to predict and explain whether they will succeed or fail.
 Check the output you get in the console.
-{{</tab>}}
 
-{{<tab name="Exercise 2">}}
 {{</tab>}}
 
 {{</tabs>}}
