@@ -1,15 +1,15 @@
 +++
 title = '❓ Conditionally executing code'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-1 = 'Construct a flow diagram that describes how to produce an output from a given input'
-2 = 'Explain when it is necessary to use a conditional statement'
-3 ='Identify the syntactic features of an `if` statement'
-4='Analyse a conditional statement to determine whether or not the statement will be executed'
-5='Determine the output of a program that uses a conditional statement'
+  1='Construct a flow diagram that describes how to produce an output from a given input'
+  2='Explain when it is necessary to use a conditional statement'
+  3='Identify the syntactic features of an if statement'
+  4='Analyse a conditional statement to determine whether or not the statement will be executed'
+  5='Determine the output of a program that uses a conditional statement'
 +++
 
 > Recall: JavaScript programs are built up from sequences of **declarations** and **statements**.

@@ -1,7 +1,7 @@
 +++
 title = '⚖️ Comparing current and target output'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]

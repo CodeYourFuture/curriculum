@@ -16,8 +16,9 @@ Now the assertions pass: in other words, our function’s current output matches
 In addition to implementing functionality, we also need to continually improve the code quality.
 Other developers will continue to read our code so it's vital our code is readable by other humans.
 
-{{<note definition="Definition: refactoring">}}
-The process of updating our code quality (without changing the implementation) is called **refactoring**
+{{<note type="tip" title="Definition: refactoring">}}
+The process of updating our code quality (without changing the implementation) is called **refactoring**.
+
 {{</note>}}
 
 Let's consider our working implementation so far:

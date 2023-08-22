@@ -23,7 +23,10 @@ if (/* here goes an expression here that evaluates to the hours */ < 12) {
 }
 ```
 
-To complete the logic, we can form a {{<tooltip title="sub-goal">}}A sub-goal is a goal for a smaller problem that makes up some bigger problem{{</tooltip>}}. Any time we're solving a problem we have a particular goal or target in mind. We can break down a problem into smaller problems each with their own sub-goals. With complex problems, we must break up problems into more manageable parts.
+To complete the logic, we can form a {{<tooltip title="sub-goal">}}A sub-goal is a goal for a smaller problem that makes up some bigger problem{{</tooltip>}}.
+
+Any time we're solving a problem we have a particular goal
+We can break down a problem into smaller problems each with their own sub-goals. The process of problem-solving involves continually breaking down problems into smaller manageable problems, each with their own sub-goals.
 
 For the implementation of `formatAs12HourClock`, we can form a sub-goal as follows:
 

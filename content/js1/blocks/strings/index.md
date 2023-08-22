@@ -1,12 +1,12 @@
 +++
 title = '🧶 Accessing strings'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
  1='Define zero-indexing'
- 2= 'Given a short program, determine the return value of a call to `slice` on a string before execution'
+ 2= 'Given a short program, determine the return value of a call to slice on a string before execution'
  3='Describe how to convert a string into a number in JavaScript'
 +++
 

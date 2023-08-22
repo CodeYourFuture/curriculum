@@ -1,7 +1,7 @@
 +++
 title = '🏗️ Assembling the parts'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -10,7 +10,7 @@ emoji= '🧩'
 
 Earlier we defined a sub-goal to find a value for the hours from the `time` input.
 
-We've found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`.
+We found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`.
 So we can write an `if` statement using this expression:
 
 ```js
