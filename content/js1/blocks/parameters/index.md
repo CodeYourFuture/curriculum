@@ -1,5 +1,5 @@
 +++
-title = 'Parametrising a function'
+title = 'Parameterising a function'
 headless = true
 time = 20
 facilitation = false
