@@ -10,8 +10,6 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-Limitations of objects
-
 We can store items in an array as follows:
 
 ```js

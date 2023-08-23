@@ -18,9 +18,8 @@ We’re using . notation to access the property of the savingsPot object. Inside
 
 ```js
 function addToPot(amount) {
-  console.log(amount);
-
-// logs amount to the console
+  console.log(amount); // logs the amount
+}
 ```
 
 ```js
