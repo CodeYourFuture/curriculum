@@ -10,7 +10,7 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-As with arrays, objects are **mutable**.
+We use . dot notation to access values using their key.
 
 Given an object
 
@@ -22,10 +22,14 @@ const profileData = {
 };
 ```
 
-We can access the age property using . notation
-console.log(profileData.age);
-If we try to access a property that doesn’t exist then we get undefined.
+We start by referencing the object `profileData`.
 
-console.log(profileData.address); // logs undefined
+Then we can use `.` notation followed by the key used to look up a value.
+
+```js
+console.log(profileData.firstName);
+```
+
+// logs undefined
 
 In this case, address doesn’t exist on the profileData object so we get undefined.
