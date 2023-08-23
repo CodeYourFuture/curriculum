@@ -16,8 +16,7 @@ We now have 2 new concepts: **booleans** and **comparisons**. From these concept
 
 > 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either succeed or fail.
 
-Up to now we've used the log function `console.log`.
-However, we can also write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert).
+So far we've used the log function `console.log`. We can write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert).
 
 Let's look at an example:
 
@@ -27,9 +26,7 @@ const finalCharacter = sentence.slice(-1);
 console.assert(finalCharacter === "?");
 ```
 
-The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
-
-As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
+The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
 
 {{<tabs name="Predict, explain, check">}}
 
@@ -41,8 +38,7 @@ const finalCharacter = sentence.slice(-1);
 console.assert(finalCharacter === "?");
 ```
 
-Try updating the final character in the `sentence` variable string to make the assertiom fail.
-Check the output you get in the console.
+Update the final character in the `sentence` variable string to make the assertiom fail. Check the output you get in the console.
 {{</tab>}}
 
 {{<tab name="Exercise 2">}}
@@ -87,7 +83,7 @@ Let's break down these arguments to make sense of what's going on:
 
 3. third argument - `formatAs12HourClock("08:00")` - this value will get substituted into the message string at the first "%s"
 
-4. 4th argument - `"20:00"` - this value will get substituted into the message string at the second "%s"
+4. fourth argument - `"20:00"` - this value will get substituted into the message string at the second "%s"
 
 We can tidy up the assertion even further. As we’re repeating the same expressions, we can store their result in variables with meaningful names so we can reuse them:
 
@@ -128,15 +124,11 @@ On line 4, the function is being passed a single argument `"08:00"`. But our fun
 function formatAs12HourClock(time) {}
 ```
 
-According to our assertion when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`.
+According to our assertion when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`. We can add `"am"` to the `time` to get the target output.
 
-So we can add `"am"` to the `time` to get the target output.
-
-We can update our function to make use of a template literal, set the return value and then _re-run_ our code including our assertion to check the function is returning the correct value.
+We can update our function with a template literal, set the return value and then _re-run_ our code including our assertion to check the function is returning the correct value.
 
 📓 We can and should continually check our assertions to see if our function’s current output meets our target output.
-
-So we have the following:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock(time) {

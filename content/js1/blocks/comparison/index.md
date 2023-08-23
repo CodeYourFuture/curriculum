@@ -9,7 +9,7 @@ emoji= '🧩'
     2='Explain when to use the === operator in a program'
 +++
 
-Let's start with a function declaration of `formatAs12HourClock` like this:
+Let's start with a function declaration of `formatAs12HourClock`:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
@@ -17,10 +17,7 @@ function formatAs12HourClock() {}
 
 Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**.
 
-For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
-In this case, `"08:00 am"` is the 🎯 **target output**.
-
-However, the **current output** is what the function actually returns given its current implementation.
+For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. `"08:00 am"` is the 🎯 **target output**. However, the **current output** is what the function _actually_ returns right now.
 
 {{<tabs name="current vs target output">}}
 {{<tab name="Exercise 1">}}
@@ -65,24 +62,12 @@ b) the 🎯 target output?
 {{</tab>}}
 {{</tabs>}}
 
-{{<note type="exercise" title="Generally convert pence to pounds">}}
+## 🧩 Comparing values
 
-###
+We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
 
-This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
-Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
-
-```js
-const price = ; // could have a value like 130
-```
-
-{{</note>}}
-
-Previously we learned how to log values to the console, but we can also **compare** two values.
-Comparisons are essential whenever we want to check that a function produces some target output.
-
-We can compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the strict equality operator `===`, a comparison operator used to check if two values are the same.
+We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**.
+We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
 
 We can write an expression as follows:
 
@@ -90,11 +75,9 @@ We can write an expression as follows:
 formatAs12HourClock("08:00") === "8:00 am";
 ```
 
-In the code above, `===` will check the values on the left and the right of the operator to see if they’re the same.
+`===` checks if the values on the left and right of the operator are the same. We can think of `formatAs12HourClock("08:00") === "8:00 am"`
 
-We can think of `formatAs12HourClock("08:00") === "8:00 am"`
-
-as being like the question:
+as the question:
 
 Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?
 
@@ -104,15 +87,11 @@ This leads to the question:
 
 ## ✅ ❌ Boolean values
 
-Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
+### Does 1 equal 0? Yes or No? True or False?
 
-Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
+Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. The number data type can store numbers we use in calculations.
 
-However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
-This leads us to the **boolean** datatype, which only has true or false values.
-Whenever we compare 2 values with a comparison operator, we end up with a boolean value: `true` or `false`.
-
-For example:
+If we're comparing two things, there are only two different states: **true** or **false**. This leads us to the **boolean** datatype, which only has true or false values. Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`. It's one or the other. It's boolean.
 
 ```js
 // comparison expression
@@ -127,7 +106,7 @@ For example:
 
 {{<tab name="Exercise 1">}}
 
-Look at the code below and then try predicting what each expression will evaluate to. You may want to use the Node REPL to help you check your answers. Check out some relevant documentation if you've not seen a particular operator before.
+Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
 true === false;
@@ -151,13 +130,10 @@ Math.round(kilometersMhairiDrivesToWork) === 9;
 {{</tab>}}
 
 {{<tab name="Exercise 2">}}
-{{</tab>}}
-
-{{<tab name="Exercise 3">}}
 
 Trickier 🧩
 
-Look at the code below and then try predicting what the expression will evaluate to. Be sure to explain your answer too. Try using the Node Repl to check your answer. Does the REPL output make sense?
+Look at the code below and then predict what the expression will evaluate to. Be sure to explain your answer too. Use the Node Repl to check your answer. Does the REPL output make sense?
 
 ```js {linenos=table,linenostart=1}
 console.log(10 + 32) === 42;
