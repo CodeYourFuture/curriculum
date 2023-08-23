@@ -10,8 +10,6 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-Mutation
-
 Arrays are a type of object in JavaScript, they are still mutable data structures.
 
 ```js

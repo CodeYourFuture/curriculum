@@ -1,5 +1,5 @@
 +++
-title = '🧪 Testing'
+title = '💰 Adding to pot'
 headless = true
 time = 30
 facilitation = false
@@ -9,6 +9,12 @@ emoji= '🧩'
     2='Limit the objectives to 3-5 items'
     3='Write objectives you can measure'
 +++
+
+In this case, our assertion isn’t based on the return value of `addToPot`. We're checking that `updateName` **mutates** the `name property` of the object. In other words, we're testing that `addToPot` has a **side effect**.
+
+To have a side effect, we expect it to mutate the deposits array by adding the amount into the pot.
+
+We can write a first test
 
 We can think about the different ways we could update the ` savingsPot` object. We may want to deposit some money so we can implement a method called `addToPot` which takes some amount and then updates the deposits for the savings pot.
 

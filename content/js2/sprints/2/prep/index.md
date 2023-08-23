@@ -26,11 +26,14 @@ src="module"
 name="savings"
 [[blocks]]
 src="module"
+name="update-name"
+[[blocks]]
+src="module"
 name="methods"
 [[blocks]]
 src="module"
-name="testing"
-[[blocks]]
-src="module"
 name="context"
+[[blocks]]
+src="add-to-pot"
+name="methods"
 +++

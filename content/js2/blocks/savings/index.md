@@ -21,7 +21,6 @@ We can think of this as general overview of the pot.
 
 Now we can come up with an object to represent this situation.
 
-## Nested objects
+### Nested objects
 
 **Deposits** and **withdrawals** will need to store multiple values as a user should be able to deposit money to their pot many times. Likewise they should be able to withdraw money too.
-s
