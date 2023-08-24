@@ -96,18 +96,21 @@ Some values are best represented as strings: any piece of text, a name, address,
 If we're comparing two things, there are only two different states: **true** or **false**. This leads us to the **boolean** datatype, which only has true or false values. Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`. It's one or the other. It's boolean.
 
 ```js
-// comparison expression
-42 === 10 + 32;
-// evaluates to true
+// using the strict equality comparison expression
 
-10 * 5 === 60;
-// evaluates to false
+console.log(42 === 10 + 32);
+// logs true
+
+console.log(10 * 5 === 60);
+// logs false
 ```
 
 👉🏾 [Now work through the exercises](#booleans-1)
 {{</tab>}}
 
 {{<tab name="Exercise 1">}}
+Look at the code below and then try predicting how the computer will interpret each line. Remember to think about each line and work out if it is a declaration or a statement.
+You may want to use the Node REPL to help you check your answers.
 
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
@@ -118,6 +121,7 @@ true === false;
 3 * 2 === 6;
 Math.min(3, 4, 5) === 4;
 let mhairiName = "Mhairi";
+typeof mhairiName === "string";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
 let kilometersMhairiDrivesToWork = 9.4;
@@ -144,9 +148,11 @@ Math.round(kilometersMhairiDrivesToWork) === 9;
 
 {{<tab name="Exercise 3">}}
 
-Trickier 🧩
+### Checking misconceptions 🤔
 
 Look at the code below and then predict what the expression will evaluate to. Be sure to explain your answer too. Use the Node Repl to check your answer. Does the REPL output make sense?
+
+Try using the Node Repl to check your answer. Does the REPL output make sense?
 
 ```js {linenos=table,linenostart=1}
 console.log(10 + 32) === 42;

@@ -7,23 +7,25 @@ emoji= '🧩'
 [objectives]
 1='Explain why refactoring is necessary in the production of software'
 2='Suggest several appropriate ways to refactor a given piece of code'
+3='Identify and fix a bug'
 +++
 
 ### Refactoring
 
-Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions. Now we can move on to the next step in our process: {{<tooltip title="refactoring">}}Refactoring is the process of improving the code quality without changing the underlying behaviour. We improve the code quality by making it easier for humans to read and understand.{{</tooltip>}}
+Now the assertions pass: in other words, our function’s current output matches with the target output described in the assertions.
 
-We write code for computers to execute and humans to read. The best code is simple and clear.
+In addition to implementing functionality, we also need to continually improve the code quality.
+Other developers will continue to read our code so it's vital our code is readable by other humans.
+
+{{<note type="tip" title="Definition: refactoring">}}
+The process of updating our code quality (without changing the implementation) is called **refactoring**.
+
+{{</note>}}
 
 Let's consider our working implementation so far:
-
-#### Duplication
-
 Currently, we’re using the same expression twice: `Number(time.slice(0, 2))`. This means we’re calling the functions `Number` and `slice` twice.
 
-#### Labelling
-
-Expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse it wherever we need to in our code.
+Additionally, expressions embedded inside curly braces and parentheses can often be difficult to read. In this situation it makes sense to label the recurring expression so we can reuse it wherever we need to in our code.
 
 Let’s create a variable called `hours` and assign to it our expression's result.
 

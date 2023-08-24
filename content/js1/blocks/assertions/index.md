@@ -5,10 +5,10 @@ time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Describe the difference between `console.log` and `console.assert`'
+1='Describe the difference between console.log and console.assert'
 2 = 'Write an assertion to check for some behaviour of a given function'
 3='Implement a piece of functionality specified in an assertion'
-4='Given an assertion and a function declaration, identify and explain whether the assertion will pass or fail'
+4='Given an assertion and a function declaration, identify and explain whether the assertion will succeed or fail'
 5 ='Write an assertion for a function that implements a solution to a given problem'
 +++
 
@@ -23,9 +23,9 @@ We now have 2 new concepts: **booleans** and **comparisons**. From these concept
 So far we've used the log function `console.log`. We can write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert). The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
 
 ```js
-const sentence = "Hello there, what is your name?";
-const finalCharacter = sentence.slice(-1);
-console.assert(finalCharacter === "?");
+const calculation = 10 + 32;
+const result = 42;
+console.assert(calculation === result);
 ```
 
 🎮 [Work through the exercises](#predict-explain-check-1)
@@ -34,10 +34,12 @@ console.assert(finalCharacter === "?");
 
 {{<tab name="Exercise 1">}}
 
+### Experiment with assertions
+
 ```js
-const sentence = "Hello there, what is your name?";
-const finalCharacter = sentence.slice(-1);
-console.assert(finalCharacter === "?");
+const calculation = 10 + 32;
+const result = 42;
+console.assert(calculation === result);
 ```
 
 Update the final character in the `sentence` variable string to make the assertion fail. Check the output you get in the console.
