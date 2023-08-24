@@ -1,7 +1,7 @@
 +++
 title = '⚖️ Comparing current and target output'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -9,17 +9,21 @@ emoji= '🧩'
     2='Explain when to use the === operator in a program'
 +++
 
+{{<tabs name="current">}}
+{{<tab name="Define current and target">}}
 Let's start with a function declaration of `formatAs12HourClock`:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
 ```
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**.
+Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**. For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. `"08:00 am"` is the 🎯 **target output**.
 
-For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. `"08:00 am"` is the 🎯 **target output**. However, the **current output** is what the function _actually_ returns right now.
+However, the **current output** is what the function _actually_ returns right now.
 
-{{<tabs name="current vs target output">}}
+👉🏼 [Work through the exercises](#current-1)
+
+{{</tab>}}
 {{<tab name="Exercise 1">}}
 
 Let's start with `formatAs12HourClock` defined like this:
@@ -38,6 +42,8 @@ For the call above, what is the
 
 a) the current output?
 b) the 🎯 target output?
+
+👉🏼 [Keep going](#current-2)
 
 {{</tab>}}
 {{<tab name="Exercise 2">}}
@@ -66,26 +72,22 @@ b) the 🎯 target output?
 
 We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
 
-We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**.
-We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
+We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**. We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
 
-We can write an expression as follows:
+### Left equals Right
 
 ```js
 formatAs12HourClock("08:00") === "8:00 am";
 ```
 
-`===` checks if the values on the left and right of the operator are the same. We can think of `formatAs12HourClock("08:00") === "8:00 am"`
-
-as the question:
-
-Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?
-
-This leads to the question:
+`===` checks if the values on the left and right of the operator are the same. We can think of `formatAs12HourClock("08:00") === "8:00 am"` as the question: "Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?" This leads to the question:
 
 > What will the expression `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 ## ✅ ❌ Boolean values
+
+{{<tabs name="booleans">}}
+{{<tab name="Define Boolean">}}
 
 ### Does 1 equal 0? Yes or No? True or False?
 
@@ -102,7 +104,8 @@ If we're comparing two things, there are only two different states: **true** or 
 // evaluates to false
 ```
 
-{{<tabs name="booleans">}}
+👉🏾 [Now work through the exercises](#booleans-1)
+{{</tab>}}
 
 {{<tab name="Exercise 1">}}
 
@@ -118,6 +121,15 @@ let mhairiName = "Mhairi";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
 let kilometersMhairiDrivesToWork = 9.4;
+```
+
+👉🏿 [Keep Going](#booleans-2)
+
+{{</tab>}}
+{{<tab name="Exercise 2">}}
+Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before
+
+```js {linenos=table,linenostart=1}
 "hello Mhairi" === `hello ${mhairiName}`;
 "${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
 isMhairOldEnoughToDrive;
@@ -127,9 +139,10 @@ mhairiAge >= 18;
 Math.round(kilometersMhairiDrivesToWork) === 9;
 ```
 
+👉🏿 [Keep Going](#booleans-3)
 {{</tab>}}
 
-{{<tab name="Exercise 2">}}
+{{<tab name="Exercise 3">}}
 
 Trickier 🧩
 

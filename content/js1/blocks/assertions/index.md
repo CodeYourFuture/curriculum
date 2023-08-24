@@ -1,7 +1,7 @@
 +++
 title = '✏️ Writing an assertion'
 headless = true
-time = 30
+time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -12,13 +12,15 @@ emoji= '🧩'
 5 ='Write an assertion for a function that implements a solution to a given problem'
 +++
 
+{{<tabs name="Predict, explain, check">}}
+
+{{<tab name="Define assertion">}}
+
 We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
 > 🔑 An assertion is a _check_ that our code behaves in a particular way: this check can either succeed or fail.
 
-So far we've used the log function `console.log`. We can write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert).
-
-Let's look at an example:
+So far we've used the log function `console.log`. We can write assertions using another function: [`console.assert`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert). The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
 
 ```js
 const sentence = "Hello there, what is your name?";
@@ -26,9 +28,9 @@ const finalCharacter = sentence.slice(-1);
 console.assert(finalCharacter === "?");
 ```
 
-The documentation says that `console.assert` writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. As `finalCharacter === "?"` evaluates to true, no message will be written to the console.
+🎮 [Work through the exercises](#predict-explain-check-1)
 
-{{<tabs name="Predict, explain, check">}}
+{{</tab>}}
 
 {{<tab name="Exercise 1">}}
 
@@ -38,14 +40,12 @@ const finalCharacter = sentence.slice(-1);
 console.assert(finalCharacter === "?");
 ```
 
-Update the final character in the `sentence` variable string to make the assertiom fail. Check the output you get in the console.
+Update the final character in the `sentence` variable string to make the assertion fail. Check the output you get in the console.
 {{</tab>}}
 
 {{<tab name="Exercise 2">}}
-{{</tab>}}
 
-{{</tabs>}}
-
+{{<note type="exercise" title="Exercise 2">}}
 Let's look at an example using `formatAs12HourClock`:
 
 ```js
@@ -53,16 +53,17 @@ function formatAs12HourClock() {}
 console.assert(formatAs12HourClock("08:00") === "08:00 am");
 ```
 
-{{<note type="exercise" title="Exercise 3">}}
-
-Predict and explain if the assertion above will succeed or fail.
-
-Pay particular attention to the return value of `formatAs12HourClock` above.
+Predict and explain if the assertion will succeed or fail. Pay particular attention to the return value of `formatAs12HourClock`.
 
 {{</note>}}
 
-It would be useful to have more information as to why this assertion failed.
-We can pass additional arguments to `console.assert`:
+{{</tab>}}
+
+{{</tabs>}}
+
+### Clarity with arguments
+
+It would be useful to have more information as to why this assertion failed. We can pass additional arguments to `console.assert`:
 
 ```js
 function formatAs12HourClock() {}
@@ -77,13 +78,12 @@ console.assert(
 
 Let's break down these arguments to make sense of what's going on:
 
-1. first argument - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
+1. **first argument** - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
+2. **second argument** - `"current function output: %s, target output: %s"` - a message string that will be logged to the console if the condition is false.
+3. **third argument** - `formatAs12HourClock("08:00")` - this value will be substituted into the message string at the first "%s"
+4. **fourth argument** - `"20:00"` - this value will be substituted into the message string at the second "%s"
 
-2. second argument - `"current function output: %s, target output: %s"` - a message string that will be logged to the console if the condition is false.
-
-3. third argument - `formatAs12HourClock("08:00")` - this value will get substituted into the message string at the first "%s"
-
-4. fourth argument - `"20:00"` - this value will get substituted into the message string at the second "%s"
+#### 🧹 Refactor
 
 We can tidy up the assertion even further. As we’re repeating the same expressions, we can store their result in variables with meaningful names so we can reuse them:
 
@@ -100,33 +100,21 @@ console.assert(
 );
 ```
 
-When the code above executes, we now get a log in the console:
+Execute this code; we now get a log in the console:
 
 ```bash
 Assertion failed: current output: undefined, target output: 08:00 am
 ```
 
-{{<tabs name="assertions">}}
-
-{{<tab name="x">}}
-{{</tab>}}
-
-{{<tab name="y">}}
-{{</tab>}}
-
-{{</tabs>}}
-
 ## 🧰 Implementing the functionality
 
-On line 4, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parametrise the function and label the input as `time`:
+On line 4, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parameterise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {}
 ```
 
-According to our assertion when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`. We can add `"am"` to the `time` to get the target output.
-
-We can update our function with a template literal, set the return value and then _re-run_ our code including our assertion to check the function is returning the correct value.
+According to our assertion, when we call our function with an input of `"08:00"` we need to create an output of `"08:00 am"`. We can add `"am"` to the `time` to get the target output. We can update our function with a template literal, set the return value and then _re-run_ our code including our assertion to check the function is returning the correct value.
 
 📓 We can and should continually check our assertions to see if our function’s current output meets our target output.
 
@@ -148,14 +136,14 @@ console.assert(
 ✅ Nothing is printed to the console, so this assertion is passing 😎
 
 {{<note type="activity" title="Try yourself">}}
-Create a javascript file on your local machine and execute the code above. Double check you you are seeing the same output in your terminal.
+Create a javascript file on your local machine and execute the code above. Double check you are seeing the same output in your terminal.
 {{</note>}}
 
 ## 💼 Checking different cases
 
 So far we’ve only created assertions that check the function’s behaviour for times _after midnight and before midday_. In these cases, there is a pattern: take the current time and add `"am"` to the end.
 
-However, we need to assert that the function behaves correctly when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
+Now we need to assert that the function behaves correctly when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
 
 ```js {linenos=table,linenostart=1,hl_lines=["15-21"]}
 function formatAs12HourClock(time) {
@@ -197,8 +185,7 @@ const currentOutput = formatAs12HourClock("08:23");
 
 `currentOutput` is the **identifier**.
 
-When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user.
-However, we want to do multiple assertions.
+When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user. However, we want to do multiple assertions.
 
 ```js title="problem.js"
 function formatAs12HourClock(time) {
