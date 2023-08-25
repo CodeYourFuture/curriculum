@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Describe how to compute the mean of a set of data'
+1='Describe how to calculate the median of a list in JavaScript' 
 +++
 
 In this problem, we want to computer the mean of a list of numbers. The mean is a type of average.

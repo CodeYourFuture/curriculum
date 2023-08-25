@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Describe how to compute the mean of a set of data'
+1='Identify a bug when a function gives an unexpected output'
 +++
 
 Now suppose we have a program where we use the functions we implemented earlier:

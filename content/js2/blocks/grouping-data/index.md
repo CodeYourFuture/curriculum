@@ -5,9 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Explain why we want to use a data structure'
 +++
 
 In programming, we're continually defining data in our programs. We use variable declarations to refer to pieces of data all the time.

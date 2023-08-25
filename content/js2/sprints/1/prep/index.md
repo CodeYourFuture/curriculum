@@ -34,6 +34,9 @@ src="module"
 name="mutation"
 src="module"
 [[blocks]]
+name="side-effects"
+src="module"
+[[blocks]]
 name="Failing Fast"
 src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"
 +++

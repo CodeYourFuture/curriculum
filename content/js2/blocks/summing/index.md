@@ -5,14 +5,16 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
+    1='Describe how to sum the numbers in a list'
     2='Limit the objectives to 3-5 items'
     3='Write objectives you can measure'
 +++
 
-Our sub-goal is to compute the sum of an array of numbers.
-To sum a list we need to initialse a variable with a starting value of `0`.
-We then need to **repeadtedly** increment the value of the `count` for each item in the `list`.
+> 🎯 Sub-goal is to compute the sum of an array of numbers.
+
+To sum a list we can initialise a variable with a value of `0`.
+
+We then need to **repeatedly** increment `count` for each item in the `list`.
 
 ```js
 let total = 0;
@@ -25,6 +27,5 @@ list[3] += total;
 list[4] += total;
 ```
 
-However, this method is _not_ effective. We have to continually write out a statement to update the `total` value each time. As well, if the number of items in `list` changes then we may have to change the number of statements updating the `total`.
-
-Go through the list and update
+However, this method doesn't work for any array.
+If the number of items in `list` changes then we may have to change the number of statements updating the `total`.

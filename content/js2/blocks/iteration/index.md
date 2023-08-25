@@ -5,9 +5,8 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define iteration'
+    2='Explain why iteration is relevant in a particular problem'
 +++
 
 In programming, we use **iteration** when we want to repeat a particular set of steps.

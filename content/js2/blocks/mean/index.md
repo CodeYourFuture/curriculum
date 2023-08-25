@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Describe how to compute the mean of a set of data'
+1='Describe how to compute the mean of a data set in JavaScript'
 +++
 
 Suppose we now need to calculate mean of a list of data. We can calculate the mean of a lsit of data by summing the data and then dividing by the number of items in the list.
