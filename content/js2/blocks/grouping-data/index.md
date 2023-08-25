@@ -1,7 +1,7 @@
 +++
 title = '💾 Related pieces of data'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]

@@ -20,12 +20,20 @@ We then need to **repeatedly** increment `count` for each item in the `list`.
 let total = 0;
 const list = [1, 2, 3, 4, 5];
 
-list[0] += total; // access a list element and add to total
-list[1] += total;
-list[2] += total;
-list[3] += total;
-list[4] += total;
+total += list[0]; // access a list element and add to total
+total += list[1];
+total += list[2];
+total += list[3];
+total += list[4];
 ```
 
 However, this method doesn't work for any array.
 If the number of items in `list` changes then we may have to change the number of statements updating the `total`.
+
+{{<tabs name="Playing computer">}}
+
+{{<tab name="🕹️ Playing computer">}}
+Use the [Code Visualiser](https://pythontutor.com/render.html#mode=display) to **play computer** with the code above.
+{{</tab>}}
+
+{{</tabs>}}

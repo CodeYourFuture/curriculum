@@ -8,16 +8,16 @@ emoji= '🧩'
 1='Describe how to compute the mean of a data set in JavaScript'
 +++
 
+Let's consider another problem.
+Besides the median, we can also calculate the mean of a set of numbers.
+
+We want to calculate the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
+
+_Given_ an array of numbers,
+_When_ we call `calculateMean`
+_Then_ we get the mean
+
 Suppose we now need to calculate mean of a list of data. We can calculate the mean of a lsit of data by summing the data and then dividing by the number of items in the list.
-
-```js
-const list = [10, 20, 30, 50, 60];
-const average = 10 + 20 + 30 + 50 + 60;
-```
-
-```js
-function calculateMean() {}
-```
 
 ```js
 expect(calculateMean([3, 40, 7])).toBe(25);

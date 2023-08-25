@@ -1,17 +1,18 @@
 +++
 title = '📊 Calculating the median'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Describe how to calculate the median of a list in JavaScript' 
 +++
 
-Let's consider a problem.
-We want to calculate the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from a list of numbers.
+Now we're familiar with arrays, let's define a new problem.
 
-_Given_ a list of numbers,
+We want to calculate the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
+
+_Given_ an array of numbers,
 _When_ we call `calculateMedian`
 _Then_ we get the median value
 
@@ -25,6 +26,8 @@ const targetOutput = 30;
 
 expect(currentOutput).toBe(targetOutput);
 ```
+
+### 🔨 Implementing `calculateMedian`
 
 So we can implement `calculateMedian` - find the middle position of the list and access the middle element, return the middle element.
 We can summarise our approach as follows.
