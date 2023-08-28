@@ -1,0 +1,11 @@
+[dev]
+framework = "hugo"
+targetPort = 3000
+command = "hugo server -p 3000"
+external_node_modules = ["node-fetch"]
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+[functions]
+external_node_modules = ["node-fetch"]

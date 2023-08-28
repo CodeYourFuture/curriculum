@@ -34,13 +34,20 @@
       >{{ .Page.Title }}
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
-      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__3">
+      <h2
+        class="c-page-header__subtitle c-page-header__backlog e-heading__3"
+        style="display:flex; width:max-content;">
         <a
           class="c-page-header__link"
           href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
           >{{ .Page.Params.backlog }}
           🔗</a
         >
+        <!-- <a
+          href="/api/clone?state={{ dict "module" .Page.Params.backlog "sprint" .Params.backlog_filter "prevPath" .Page.RelPermalink | jsonify }}"
+          class="e-button">
+          Clone All Issues
+        </a> -->
       </h2>
     {{ else }}
       {{ with .Page.Description }}

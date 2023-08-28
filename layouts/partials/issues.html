@@ -1,6 +1,7 @@
 {{ $repo := .Params.backlog }}
 {{ $issues := print .Site.Params.orgapi $repo "/issues?per_page=100" }}
 {{ $filter := .Params.backlog_filter }}
+{{ $currentPath := .Page.RelPermalink }}
 <!-- api call -->
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
@@ -33,6 +34,12 @@
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            <a
+              href="/api/clone?state={{ dict "issue" .number "module" $repo "sprint" $filter "prevPath" $currentPath | jsonify }}"
+              class="e-button"
+              data-props="{{ $currentPath }}">
+              Clone
+            </a>
           </summary>
           <div class="c-issue__body">{{ .body | markdownify }}</div>
         </details>
