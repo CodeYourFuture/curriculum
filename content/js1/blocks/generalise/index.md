@@ -19,7 +19,7 @@ Here are some examples of this pattern,
 All the numbers ending in 1 will continue to end in `"st"`, with the exception of 11.
 11 is slightly different and ends with a `"th"`.
 
-We can now create a test case to check that `getOrdinalNumber` works for _any_ number ending in 1.
+We can now update our test case to check that `getOrdinalNumber` works for lots of different numbers ending in 1.
 
 get-ordinal-number.test.js
 
@@ -132,7 +132,7 @@ Before coding, outline a strategy for handling the second test case.
 
 {{<note type="exercise" title="Further assertions">}}
 
-Try updating the second test case to check `getOrdinalNumber` works for any numerical input ending in 2.
+Try updating the second test case to check `getOrdinalNumber` works for other numerical inputs ending in 2.
 
 {{</note>}}
 

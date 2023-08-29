@@ -69,19 +69,19 @@ We now get the following feedback:
 Jest tells us 3 main things:
 
 1. The test case that failed
-2. The targetOutput and the currentOutput
+2. The target output and the current output
 3. The line number where error occurred
 
 Jest defines **Expected** and **Received** in the test feedback:
 
-- Received: `undefined`
 - Expected: "1st"
+- Received: `undefined`
 
 {{<note type="exercise" title="exercise">}}
 
 What are the values of **Expected** and **Received** in the test output?
 
-How do **Received** and **Expected** match up with the targetOutput and expectedOutput ?
+How do **Received** and **Expected** match up with the target output and expected output ?
 
 What line number did the test case fail on?
 

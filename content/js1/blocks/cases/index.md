@@ -13,7 +13,7 @@ emoji= '🧩'
 
 +++
 
-> 🎯 Goal: Write the a test for the case below, using Jest:
+> 🎯 Goal: Write a test for the case below, using Jest:
 
 #### Case 1 💼
 
@@ -23,7 +23,7 @@ const currentOutput = getOrdinalNumber(input);
 const targetOutput = "1st";
 ```
 
-We can create a file called `get-ordinal-number.js` and write our first test there.
+We can create a file called `get-ordinal-number.test.js` and write our first test there.
 We can use [documentation](https://jestjs.io/docs/getting-started) to work out how to write our first test using Jest.
 
 get-ordinal-number.test.js
@@ -35,11 +35,14 @@ test("converts 1 to an ordinal number", function () {});
 Let's break down this syntax.
 
 The `test` function is part of the Jest API, a function we use to perform a particular task.
-In particular, we'll use `test` to define a test case.
+In particular, we're using `test` to create a test case.
+Before, we could use `Math.round` and `console.log` because `Math` and `console` are provided for us by Node.
+
+`test` isn't provided by Node, but when we ask Jest to run our tests, it will make sure the `test` function exists and that our code can use it.
 
 Let's break down the arguments we're passing to `test`:
 
-- 1st argument: `"converts 1 to an ordinal number"`, which describes the behaviour we're testing for
+- 1st argument: `"converts 1 to an ordinal number"`, a string which describes the behaviour we're testing for
 - 2nd argument: `function () {}`, we will write some assertions in this `function () {}` to check the behaviour
 
 ### ⚖️ Creating assertions
@@ -119,4 +122,4 @@ The "scripts" section of the `package.json` is where we can write useful command
 Finally, we'll need to run our tests.
 Now we can run the command `npm test`.
 
-When we execute the command, `npm test`, the command will look inside the "scripts" section of the package.json and look up the commmand for "test" - in this case, "jest".
+When we execute the command, `npm test`, we will run `npm`, and `npm` will look inside the "scripts" section of the package.json and look up the command for "test" - in this case, "jest". `npm` will then run "jest".

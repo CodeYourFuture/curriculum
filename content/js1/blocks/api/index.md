@@ -39,7 +39,6 @@ But we can break down each word in this acronym to understand it altogether.
 
 Try and list other examples of APIs you've used since the start of the course. Start a thread in Slack to discuss with your class.
 
-{{</note>}}
 {{</tab>}}
 
 {{<tab name="🔍 Figure it out">}}

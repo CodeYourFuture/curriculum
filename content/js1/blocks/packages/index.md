@@ -25,7 +25,8 @@ In JavaScript, we can use **npm**.
 
 ### 🃏 Installing Jest
 
-Our next step will be to figure out how to install the Jest package on our machine.
+Jest is a package used to help us to write and run test cases in JavaScript.
+Our next step will be to figure out how to install the Jest package on our machine, so that we can use it in our project.
 
 We can find out more about the Jest framework from the [documentation online](https://jestjs.io/docs/getting-started).
 
@@ -42,7 +43,7 @@ npm install --save-dev jest
 
 `install` - download a package on to our machine.
 
-- `--save-dev` - this indicates that Jest is a package we only use when our application is being developed.
+- `--save-dev` - this indicates that we should write down in our `package.json` file that this project needs Jest. This means that if someone else tries to run a copy of our project on their computer, they know what packages need to be installed in order to run it.
 
 - `jest` - this is the name of the package we want to install on our machine
 
