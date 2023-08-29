@@ -88,10 +88,10 @@ test("converts 1 to an ordinal number", function () {
 
 ### 👟 Running tests
 
-We can try running the file index.test.js with node in the following way:
+We can try running the file `get-ordinal-number.test.js` with node in the following way:
 
 ```bash
-node index.test.js
+node get-ordinal-number.test.js
 ```
 
 but we get an error:
@@ -102,7 +102,7 @@ ReferenceError: test is not defined
 
 This is because `test` isn’t defined anywhere in the file.
 
-So we need to execute this file so that the Jest API is available in our file. We can do this by adding executing the test file using Jest: we do this using an npm script.
+We need to execute this file so that the Jest API is available in our file. We can do this by running the test file using Jest: we do this using an npm script.
 
 The "scripts" section of the `package.json` is where we can write useful commands we'll use in our project. We can add a "scripts" section to the `package.json` so that it reads as follows:
 

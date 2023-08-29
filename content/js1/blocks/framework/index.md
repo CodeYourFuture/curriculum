@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Use the Teach Tech Together guide to construct your objectives'
 +++
 
-To implement a function like `getOrdinalNumber` we can try specifying a single case:
+To help us think about the requirements of `getOrdinalNumber`, let's consider one case:
 
 ### Case 1 💼
 

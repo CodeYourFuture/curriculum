@@ -19,6 +19,8 @@ In the **Getting started** section of the documentation, Jest gives us the follo
 npm install --save-dev jest
 ```
 
+Let's break down the different parts of this command.
+
 - `npm` is an online database of packages, like Jest, that we can fetch and install on to our machines. It also provides us with
 - in the terminal, we can use the `npm` command to install packages locally
 
