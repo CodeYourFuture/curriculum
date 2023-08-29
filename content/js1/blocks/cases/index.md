@@ -10,7 +10,7 @@ emoji= '🧩'
     3='Describe what toBe checks in the Jest library'
     4='State the current return value of a function and the target output for a given test'
     5='Implement a test case to describe the behaviour of a function'
-    6='Determine the line an error occurred from some test output'
+
 +++
 
 > 🎯 Goal: Write the a test for the case below, using Jest:

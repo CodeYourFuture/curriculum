@@ -6,6 +6,7 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Identify current output and target output in test output'
+    2='Determine the line an error occurred from some test output'
 +++
 
 We currently have a project structure like this:

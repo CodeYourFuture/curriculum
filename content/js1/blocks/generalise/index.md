@@ -16,8 +16,8 @@ Here are some examples of this pattern,
 
 1st, 11**th**, 21st, 31st, 41st,...
 
-All the numbers ending in 1 will continue to end in ` "st"``, with the exception of 11.
-11 is slightly different and ends with a  `"th"`.
+All the numbers ending in 1 will continue to end in ` "st"`, with the exception of 11.
+11 is slightly different and ends with a `"th"`.
 
 We can now create a test case to check that `getOrdinalNumber` works for _any_ number ending in 1.
 
@@ -87,7 +87,10 @@ test("works for any number ending in 1", function () {
 
 Now, we've handled any numerical inputs ending in 1. We can try to build up functionality for _any_ number ending in 2.
 
-We can start simply by adding a test case that only asserts something about the input of 2.
+We can start by adding a test case that only asserts something about the input of 2.
+
+We cannot add this assertion to the first test case - because the first test case checks for inputs that end in a 1.
+To check this different case, we need to introduce a new test case.
 
 ```js {linenos=table,hl_lines=["14-16"],linenostart=1}
 function getOrdinalNumber(num) {
