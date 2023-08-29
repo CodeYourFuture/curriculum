@@ -8,7 +8,8 @@ emoji= '🧩'
     1='Explain why we want to use a data structure'
 +++
 
-In programming, we're continually defining data in our programs. We use variable declarations to refer to pieces of data all the time.
+In programming, we're continually defining data in our programs.
+We use variable declarations to refer to data all the time.
 
 Often we have pieces of data that are related in some way.
 

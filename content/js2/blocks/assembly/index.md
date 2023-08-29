@@ -1,7 +1,7 @@
 +++
 title = '🧱 Assembling the parts'
 headless = true
-time = 30
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -15,26 +15,32 @@ const salaries = [10, 20, 30, 40, 60, 80, 80];
 const median = calculateMedian(salaries);
 const mean = calculateMean(salaries);
 
-console.log(`The median is ${median}`);
-console.log(`The mean is ${mean}`);
+console.log(`The median salary is ${median}`);
+console.log(`The mean salary is ${mean}`);
 ```
 
-{{<note type="activity">}}
-Try execute the code above with node to check the output
+{{<note type="activity" title="Run it">}}
+Try running the code above and check the console output. What do you see?
 {{</note>}}
 
-## 🐛 Finding the bug
+### 🐛 Finding the bug
 
-At the moment, we try and calculate the `median` and the `mean`. The `median` value is correct: however, the `mean` is _incorrect_.
+With the code above, the `median` value is correct: however, the `mean` is _incorrect_.
 
 If we add a log into the program we can try and identify the origin of the bug.
 
 ```js
 const salaries = [10, 20, 30, 40, 60, 80, 80];
+console.log(salaries, "<--- salaries input before we call calculateMedian");
 const median = calculateMedian(salaries);
-console.log(salaries);
+
+console.log(salaries, "<--- salaries input before we call calculateMean");
 const mean = calculateMean(salaries);
 
-console.log(`The median is ${median}`);
-console.log(`The mean is ${mean}`);
+console.log(`The median salary is ${median}`);
+console.log(`The mean salary is ${mean}`);
 ```
+
+{{<note type="activity" title="Run it">}}
+Try re-running the code above with the additional log. What does this
+{{</note>}}

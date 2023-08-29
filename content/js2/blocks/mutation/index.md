@@ -1,7 +1,7 @@
 +++
 title = ' mutation'
 headless = true
-time = 30
+time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]

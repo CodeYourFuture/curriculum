@@ -1,7 +1,7 @@
 +++
 title = '🔁 iterating'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]

@@ -1,7 +1,7 @@
 +++
 title = '📊 Calculating the median'
 headless = true
-time = 20
+time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -13,29 +13,37 @@ Now we're familiar with arrays, let's define a new problem.
 We want to calculate the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
 
 _Given_ an array of numbers,
-_When_ we call `calculateMedian`
+_When_ we call `calculateMedian` with the array of numbers
 _Then_ we get the median value
 
 We calculate the median of a set of numbers by finding the middle value in the list.
-Let's start with a test to check what the **return value** of `calculateMedian`.
+
+Let's start with a test to check the **return value** of `calculateMedian` given an array of numbers.
 
 ```js
-const list = [10, 20, 30, 50, 60];
-const currentOutput = calculateMedian(list);
-const targetOutput = 30;
+test("calculates the median of a list of odd length", function () {
+  const list = [10, 20, 30, 50, 60];
+  const currentOutput = calculateMedian(list);
+  const targetOutput = 30;
 
-expect(currentOutput).toBe(targetOutput);
+  expect(currentOutput).toBe(targetOutput);
+});
 ```
 
 ### 🔨 Implementing `calculateMedian`
 
-So we can implement `calculateMedian` - find the middle position of the list and access the middle element, return the middle element.
+So we can implement `calculateMedian`.
+
 We can summarise our approach as follows.
 
-1. Sort the list
-2. Find the middle position
-3. Access the array at the middle position
-4. Return the middle item
+```mermaid
+flowchart TD
+    A[Step 1: Sort the array] --> B[Step 2: Find the middle index of the array]
+    B --> C[Step 3: Access the array at the middle index]
+    C --> D[Step 4: return the middle item]
+```
+
+In code we can write the following implementation, using [`sort`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) and [`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
 
 ```js
 function calculateMedian(list) {

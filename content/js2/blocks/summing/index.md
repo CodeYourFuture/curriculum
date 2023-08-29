@@ -1,16 +1,14 @@
 +++
-title = 'Summation'
+title = '➕ Summation'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how to sum the numbers in a list'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
 +++
 
-> 🎯 Sub-goal is to compute the sum of an array of numbers.
+> 🎯 Sub-goal: compute the sum of an array of numbers.
 
 To sum a list we can initialise a variable with a value of `0`.
 

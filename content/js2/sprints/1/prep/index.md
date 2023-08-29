@@ -10,7 +10,7 @@ backlog_filter= 'Week 1'
 name="grouping-data"
 src="module"
 [[blocks]]
-name="lists"
+name="arrays"
 src="module"
 [[blocks]]
 name="median"

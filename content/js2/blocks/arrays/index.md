@@ -1,7 +1,7 @@
 +++
 title = '📜 grouping data'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -12,8 +12,8 @@ emoji= '🧩'
 
 In JavaScript, we can store data inside an **array**.
 
-{{<note>}}
-An array is an ordered collection of data. In JavaScript, we can use arrays to store multiple pieces of data.
+{{<note title="Definition: array">}}
+An **array** is an ordered collection of data.
 {{</note>}}
 
 Instead of writing:
@@ -26,16 +26,17 @@ const item4 = 8.01;
 ```
 
 We can declare an **array literal** as follows:
-
-```js
-const items = [4.6, 5.03, 7.99, 8.01];
-```
-
-Notice the idenfitier for the array is **items**. The word `items` is plurable and used to convey the fact that the array stores multiple values of the number data type.
+Notice the identifier for the array is **items**. The word `items` is plurable and used to convey the fact that the array stores multiple values of the number data type.
 
 ## ordered data
 
-> Recall: zero-indexing means we start counting from 0
+{{<note type="tip" title="Recall">}}
+
+Zero-indexing means we start counting from 0
+
+{{</note>}}
+
+>
 
 We've already encountered ordered data before.
 
@@ -44,14 +45,14 @@ A string is a primitive data-type: however it is also an **ordered** collection 
 The string
 
 ```js
-const theKing = `"Moussab"`;
+const volunteer = `"Moussab"`;
 ```
 
 The characters in `"Moussab"` are ordered.
 
-As with string, arrays are also **ordered** collections of data.
+As with strings, arrays are also **ordered** collections of data.
 
-We index items in the array in a similar way
+We index items in an array in a similar way:
 
 ```js
 const items = [4.6, 5.03, 7.99, 8.01];
