@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define dependency'
-    2='Identify some benefits of using a 3rd party software library when programming'
+    2='Identify some benefits of using a third-party party software library when programming'
 +++
 
 When writing software, we need to continually make use of **packages** written by other developers.

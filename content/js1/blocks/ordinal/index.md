@@ -58,13 +58,13 @@ d) What will the ordinal number be for 13?
 {{</tab>}}
 {{<tab name="Exercise 2">}}
 
-{{<note title="📆 Using dates">}}
+{{<note title="📆 Using days of the month">}}
 
 Use ordinal numbers to write the dates of the following events:
 
 a) Tomorrow
 b) A week from now
-c) Easter sunday 2024
+c) Easter Sunday 2024
 d) When is Eid expected to occur in 2024
 
 {{</note>}}

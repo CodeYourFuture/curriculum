@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Outline the effect of running npm test'
-    2='Interpret documentation to determine how part of an 3rd API behaves'
+    2='Interpret documentation to determine how part of a third-party API behaves'
     3='Describe what toBe checks in the Jest library'
     4='State the current return value of a function and the target output for a given test'
     5='Implement a test case to describe the behaviour of a function'
