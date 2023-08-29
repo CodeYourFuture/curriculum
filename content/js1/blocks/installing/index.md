@@ -20,7 +20,7 @@ npm install --save-dev jest
 ```
 
 - `npm` is an online database of packages, like Jest, that we can fetch and install on to our machines. It also provides us with
-- in the terminal, we can use the `npm` command to install packages on the
+- in the terminal, we can use the `npm` command to install packages locally
 
 `install` - download a package on to our machine.
 
