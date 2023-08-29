@@ -1,5 +1,5 @@
 +++
-title = 'block1'
+title = 'Interactivity'
 headless = true
 time = 30
 facilitation = false
