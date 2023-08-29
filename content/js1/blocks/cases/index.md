@@ -1,13 +1,13 @@
 +++
 title = '💼 First test case'
 headless = true
-time = 30
+time = 40
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Outline the effect of running npm test'
     2='Interpret documentation to determine how part of an 3rd API behaves'
-    3='Describe what `toBe` checks in the Jest library'
+    3='Describe what toBe checks in the Jest library'
     4='State the current return value of a function and the target output for a given test'
     5='Implement a test case to describe the behaviour of a function'
     6='Determine the line an error occurred from some test output'
@@ -15,7 +15,7 @@ emoji= '🧩'
 
 > 🎯 Goal: Write the a test for the case below, using Jest:
 
-- Case 1 💼
+#### Case 1 💼
 
 ```js
 const input = 1;
@@ -35,8 +35,9 @@ test("converts 1 to an ordinal number", function () {});
 ```
 
 Let's break down this syntax.
+
 The `test` function is part of the Jest API: it is an interface we use to perform a particular task.
-In particular, we're using `test` to create a test case.
+In particular, we'll use `test` to define a test case.
 
 Let's break down the arguments we're passing to `test`:
 
@@ -45,7 +46,7 @@ Let's break down the arguments we're passing to `test`:
 
 ### ⚖️ Creating assertions
 
-Now we have
+We need to write an **assertion** inside the body of `function () {}` inside `get-ordinal-number.test.js`
 
 get-ordinal-number.test.js
 
@@ -53,9 +54,9 @@ get-ordinal-number.test.js
 test("converts 1 to an ordinal number", function () {});
 ```
 
-We need to write an **assertion** inside the body of `function () {}`
-
-> 🗣️ Recall: The assertion is the part of the test code that actually checks to see if something is true or not.
+{{<note type="tip" title="Recall">}}
+The assertion is the part of the test code that checks if a particular thing is true or not.
+{{</note>}}
 
 In this example, we want to check that the following is true:
 
@@ -68,6 +69,7 @@ expect(getOrdinalNumber(1)).toBe("1st");
 ```
 
 The function `toBe` is used to check that the current output of `getOrdinalNumber(1)` and the target output of `"1st"` are equal to each other.
+
 `toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers).
 A matcher is a function we use to compare values in Jest.
 
@@ -116,95 +118,3 @@ Finally, we'll need to run our tests.
 Now we can run the command `npm test`.
 
 When we execute the command, `npm test`, the command will look inside the "scripts" section of the package.json and look up the commmand for "test" - in this case, "jest".
-
-### Understanding test feedback
-
-We currently have a project structure like this:
-
-```raw
-week-4-test-example
-├── get-ordinal-number.test.js
-├── package.json
-├── package-lock.json
-└── node_modules
-
-1 directory, 3 files
-```
-
-And `get-ordinal-number.test.js`
-looks like this
-
-```js
-test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
-});
-```
-
-After running the test above, we should get feedback indicating whether or not the test has passed.
-
-{{<note type="exercise" title="exercise">}}
-Predict what the test feedback will say when the test above is executed.
-{{</note>}}
-
-### 🚢 Defining the function
-
-At the moment, our test feedback gives the following:
-
-![test-reference-error](test-reference-error.png)
-
-The test code is throwing a **ReferenceError**.
-
-We can define `getOrdinalNumber` in our test file.
-
-```js
-function getOrdinalNumber() {}
-
-test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
-});
-```
-
-Now we can run the tests again and check the test feedback.
-
-### Assertion errors
-
-We now get the following feedback:
-
-![test-feedback-fail](test-feedback-fail.png)
-
-Jest tells us 3 main things:
-
-1. The test case that failed
-2. The targetOutput and the currentOutput
-3. The line number where error occurred
-
-Jest defines **Expected** and **Received** in the test feedback:
-
-- Received: `undefined`
-- Expected: "1st"
-
-{{<note type="exercise" title="exercise">}}
-
-What are the values of Expected and Received in the test output?
-How do Received and Expected match up with the targetOutput and expectedOutput ?
-
-What line number did the test case fail on?
-
-{{</note>}}
-
-### Passing `getOrdinalNumber`
-
-We can now make the test pass by implementing functionality for the first test case.
-We could write the following:
-
-get-ordinal-number.test.js
-
-```js {linenos=table,hl_lines=["2"],linenostart=1}
-function getOrdinalNumber() {
-  return "1st";
-}
-
-test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
-});
-```

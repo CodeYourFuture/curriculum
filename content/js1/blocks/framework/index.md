@@ -1,7 +1,7 @@
 +++
 title = '🖼️ Testing frameworks'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -34,13 +34,9 @@ In addition, we want our tests to:
 - to give clear feedback on what the target output is
 - easily write multiple test cases
 
-We can use a **test framework** to help us build test cases like this.
+We can use a {{<tooltip title="test framework">}} A **test framework** is a set of tools we can use to build tests efficiently.{{</tooltip>}} to help us build test cases like this.
 
-{{<note type="definition" title="definition">}}
-A **test framework** is a set of tools we can use to build tests efficiently.
-{{</note>}}
-
-we can use a short dialogue to think about _why_ we want to use a testing framework:
+We can use a short dialogue to think about _why_ we want to use a testing framework:
 
 > "We need to implement a function"
 >

@@ -23,7 +23,7 @@ src="module"
 name="cases"
 [[blocks]]
 src="module"
-name="cases"
+name="feedback"
 [[blocks]]
 src="module"
 name="generalise"

@@ -1,13 +1,11 @@
 +++
 title = '🧮 Ordinal numbers'
 headless = true
-time = 30
+time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Describe how to find ordinal numbers'
 +++
 
 Let's imagine you're working in a 10 storey office building - so there are 10 different levels.
@@ -88,11 +86,8 @@ getOrdinalNumber(2); // returns "2nd";
 getOrdinalNumber(6); // returns "6th";
 ```
 
-The requirements above form a specification of how the function `getOrdinalNumber` should behave.
-
-{{<note type="definition" title="definition">}}
-A **specification** is a description of how a piece of software works.
-In other words, a specification is a set of requirements for how a piece of software should behave.
-{{</note>}}
+The requirements above form a {{<tooltip title="specification" >}}
+A **specification** is a set of requirements for how a piece of software should behave.
+{{</tooltip>}}of how the function `getOrdinalNumber` should behave.
 
 Once we have a specification for how the function should work we can create many cases showing how we expect the function `getOrdinalNumber` to behave when it is called with certain inputs.

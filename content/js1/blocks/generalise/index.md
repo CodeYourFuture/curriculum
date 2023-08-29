@@ -5,9 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Describe how to generalise a solution from a set of inputs'
 +++
 
 In English, ordinal numbers mostly follow the same pattern.
@@ -110,16 +108,27 @@ test("converts 2 to an ordinal number", function () {
 });
 ```
 
-{{<note type="exercise" title="exercise">}}
+{{<tabs name="exercises">}}
 
-Predict what the feedback will be for the test case "converts 2 to an ordinal number"? Does it pass or fail, if so why?
+{{<tab name="exercise 1">}}
+
+{{<note type="exercise" title="Predict">}}
+
+Predict what the feedback will be for the test case `"converts 2 to an ordinal number"`?
+Does it succeed or fail, if so why?
 
 Before coding, outline a strategy for handling the second test case.
 
 {{</note>}}
+{{</tab>}}
 
-{{<note type="exercise" title="exercise">}}
+{{<tab name="exercise 2">}}
 
-How can you update the test second test case to check `getOrdinalNumber` works for any numerical input ending in 2?
+{{<note type="exercise" title="Further assertions">}}
+
+Try updating the second test case to check `getOrdinalNumber` works for any numerical input ending in 2.
 
 {{</note>}}
+
+{{</tab>}}
+{{</tabs>}}
