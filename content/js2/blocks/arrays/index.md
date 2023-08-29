@@ -1,7 +1,7 @@
 +++
 title = '📜 grouping data'
 headless = true
-time = 20
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -26,6 +26,11 @@ const item4 = 8.01;
 ```
 
 We can declare an **array literal** as follows:
+
+```js
+const items = [4.6, 5.03, 7.99, 8.01];
+```
+
 Notice the identifier for the array is **items**. The word `items` is plurable and used to convey the fact that the array stores multiple values of the number data type.
 
 ## ordered data

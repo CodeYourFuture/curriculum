@@ -30,7 +30,7 @@ const item4 = 8.01;
 
 We can organise the data with identifiers `item` and then a number at the end. Then in our program we can refer back to the data in the program.
 
-However, this is clearly inefficient.
+However, this is undoubtedly the wrong approach.
 
 If the number of bill items is very large, we have to keep introducing new variables.
 
