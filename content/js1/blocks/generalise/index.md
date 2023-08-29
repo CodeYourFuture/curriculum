@@ -5,7 +5,7 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Describe how to generalise a solution from a set of inputs'
+    1='Extend an implementation based on more assertions'
 +++
 
 In English, ordinal numbers mostly follow the same pattern.
@@ -37,8 +37,8 @@ test("works for any number ending in 1", function () {
 
 We've also updated the test description because we're adding more assertions and checking slightly different functionality.
 
-{{<note type="exercise" title="Implementing functionality">}}
+{{<note type="exercise" title="🔧 Implement">}}
 
-Try implementing `getOrdinalNumber` so it passes the test case with the additional assertions.
+Try implementing `getOrdinalNumber` so it passes the test case above.
 
 {{</note>}}

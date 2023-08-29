@@ -1,7 +1,7 @@
 +++
 title = '🧮 Ordinal numbers'
 headless = true
-time = 25
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]

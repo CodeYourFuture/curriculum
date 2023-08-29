@@ -1,5 +1,5 @@
 +++
-title = '🕹️ Application Programming Interface'
+title = '🎛️ Application Programming Interface'
 headless = true
 time = 15
 facilitation = false
@@ -9,14 +9,8 @@ emoji= '🧩'
     2='Identify some commonly used APIs'
 +++
 
-With Jest installed, we need to figure out _how to use the Jest framework_ to write tests. This means we need to look at APIs again.
-
-We’ve encountered several functions like `console.log`, `Math.round` already.
-`console.log` and `Math.round` are **API**s.
-
-`console.log` is actually implemented in a different language (C++), but that doesn't matter - its functionality is exposed to us when we write JavaScript, and we don't need to care how it's actually implemented or how it works.
-
-Jest provides an {{<tooltip title="API">}}An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.{{</tooltip>}} so we can write tests.
+With Jest installed, we need to figure out _how to use the Jest framework_ to write tests.
+This means we need to look at {{<tooltip title="APIs">}}An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.{{</tooltip>}} again.
 
 API stands for
 
@@ -32,7 +26,15 @@ But we can break down each word in this acronym to understand it altogether.
 
 - **Programming** refers to the process of writing code or software.
 
-- An 🕹️**interface** is a shared boundary across which two or more systems.
+- An 🕹️**interface** is a shared boundary between two or more systems.
+
+We’ve encountered several functions like `console.log`, `Math.round` already.
+`console.log` and `Math.round` are **API**s.
+
+`console.log` is actually implemented in a different language (C++), but that doesn't matter - its functionality is exposed to us when we write JavaScript, and we don't need to care how it's actually implemented or how it works.
+
+Jest provides an **API** so we can write tests.
+So _we have to find out about the Jest API_ to start writing tests with Jest.
 
 {{<tabs name="exercises">}}
 

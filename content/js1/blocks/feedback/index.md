@@ -5,8 +5,8 @@ time = 25
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Identify current output and target output in test output'
-    2='Determine the line an error occurred from some test output'
+    1='Identify current output and target output in test feedback'
+    2='Determine the line an error occurred from some test feedback'
 +++
 
 We currently have a project structure like this:
@@ -36,8 +36,8 @@ test("converts 1 to an ordinal number", function () {
 
 After running the test above, we should get feedback indicating whether or not the test has passed.
 
-{{<note type="exercise" title="exercise">}}
-Predict what the test feedback will say when the test above is executed.
+{{<note type="exercise" title="Predict and explain">}}
+Predict and explain what the test feedback will be when the test above is executed.
 {{</note>}}
 
 ### 🚢 Defining the function
@@ -49,7 +49,8 @@ At the moment, our test feedback gives the following:
 The test code is throwing a {{<tooltip title="ReferenceError">}}A **ReferenceError** occurs when we try to reference a variable that we've not defined in our code.{{</tooltip>}}
 
 This means that we haven't defined a function named `getOrdinalNumber`, but we're trying to use it.
-To fix this, we can define `getOrdinalNumber` in our test file.
+
+To fix this, we can declare `getOrdinalNumber`.
 
 ```js
 function getOrdinalNumber() {}
