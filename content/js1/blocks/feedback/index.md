@@ -46,9 +46,10 @@ At the moment, our test feedback gives the following:
 
 ![test-reference-error](test-reference-error.png)
 
-The test code is throwing a **ReferenceError**.
+The test code is throwing a {{<tooltip title="ReferenceError">}}A **ReferenceError** occurs when we try to reference a variable that we've not defined in our code.{{</tooltip>}}
 
-We can define `getOrdinalNumber` in our test file.
+This means that we haven't defined a function named `getOrdinalNumber`, but we're trying to use it.
+To fix this, we can define `getOrdinalNumber` in our test file.
 
 ```js
 function getOrdinalNumber() {}

@@ -21,10 +21,9 @@ npm install --save-dev jest
 
 Let's break down the different parts of this command.
 
-- `npm` is an online database of packages, like Jest, that we can fetch and install on to our machines. It also provides us with
-- in the terminal, we can use the `npm` command to install packages locally
+- `npm` - in the terminal, we can use the `npm` command to install packages from the [**npm** registry](https://www.npmjs.com/)
 
-`install` - download a package on to our machine.
+- `install` - download a package on to our machine.
 
 - `--save-dev` - this indicates that we should write down in our `package.json` file that this project needs Jest. This means that if someone else tries to run a copy of our project on their computer, they know what packages need to be installed in order to run it.
 
@@ -60,7 +59,7 @@ Our project structure will now look as follows:
 
 ```raw
 week-4-example
-├── get-ordinal-number.test.js
+├── node_modules
 ├── package-lock.json
 └── package.json
 
@@ -69,7 +68,7 @@ week-4-example
 
 After running the command, we now have a directory called `node_modules` in our project too.
 
-> The `node_modules` directory contains all the code from the{{<tooltip title="dependencies">}}A **dependency** is a package that your project depends upon.{{</tooltip>}}we installed in our project. You won't need to look inside the `node_modules directory` - you just need to know it contains the code for Jest and any other libraries we install in our project.
+> The `node_modules` directory contains all the code from the{{<tooltip title="dependencies">}}A **dependency** is a package that your project depends upon.{{</tooltip>}}we installed in our project. You won't need to look inside the `node_modules directory` - you just need to know it contains the code for Jest and any other dependencies we install in our project.
 
 Running the `npm` command also updated our `package.json` file for us:
 
@@ -91,10 +90,10 @@ We've now got some additional information inside the `package.json`:
 }
 ```
 
-{{<note type="exercise" title="exercise">}}
+{{<note type="exercise" title="🕹️ Follow along">}}
 
-### 🔍 Figure it out
+###
 
-There should be one more change to your project after running the installation command. Use documentation or search on the internet to figure out what this change is for.
+Install Jest on your local machine. Double check you've got the correct files and folders written to your local machine.
 
 {{</note>}}

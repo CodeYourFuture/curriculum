@@ -1,19 +1,19 @@
 +++
 title = '🎒 Starting a project'
 headless = true
-time = 20
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Outline the effects of running an installation command, e.g. npm install'
+    1='Explain the purpose of a package.json'
 +++
 
-Let's imagine we've started a brand new project in a directory called `week-4-example`.
+Let's start a brand new project in a directory called `week-4-example`.
 
 {{<tabs>}}
 {{<tab name="🕹️ Follow along">}}
 
-Open your terminal and make sure you're inside the `cyf` directory you created earlier in the course.
+Open your terminal and ensure you're inside the `cyf` directory you created earlier in the course.
 
 Set up a new directory on your local machine called `week-4-example`.
 
@@ -29,7 +29,7 @@ $ pwd
 
 To start, we need to create a file called `package.json` in our project.
 
-> A `package.json` is used to store useful information about our current project, like the name, description, version etc. Its content is writte in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
+> A `package.json` is used to store useful information about our current project, like the name, description, version etc. Its content is written in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
 
 We can create a `package.json` file and add the following to it:
 

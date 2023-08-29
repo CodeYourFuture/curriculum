@@ -1,11 +1,11 @@
 +++
 title = '🖼️ Testing frameworks'
 headless = true
-time = 20
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
+    1='Explain why need to use testing frameworks'
 +++
 
 To help us think about the requirements of `getOrdinalNumber`, let's consider one case:
@@ -20,7 +20,9 @@ const targetOutput = "1st";
 
 Case 1 states that when `getOrdinalNumber` is called with an input of 1, it has a target output of "1st".
 
-Our aim is to check that `getOrdinalNumber` works as we described in the case above.
+Our first step is to check that `getOrdinalNumber` works as we described in the case above.
+
+Previously, we used `console.assert` to write assertions to check our code. However, `console.assert` is very limited.
 
 We can write **tests** to check our code is behaving in a particular way.
 

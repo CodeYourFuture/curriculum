@@ -6,6 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why we use APIs in programming'
+    2='Identify some commonly used APIs'
 +++
 
 With Jest installed, we need to figure out _how to use the Jest framework_ to write tests. This means we need to look at APIs again.
@@ -35,15 +36,10 @@ But we can break down each word in this acronym to understand it altogether.
 
 {{<tabs name="exercises">}}
 
-{{<tab name="Exercise 1">}}
+{{<tab name="🧐 Other APIs">}}
 
-Try and list other examples of APIs you've used since the start of the course. Start a thread in Slack to discuss with your class.
-
-{{</tab>}}
-
-{{<tab name="🔍 Figure it out">}}
-
-There should be one more change to your project after running the installation command. Use documentation or ChatGPT to figure out what this change is for.
+Try and list other examples of APIs you've used since the start of the course.
+Start a thread in Slack to discuss with your class.
 
 {{</tab>}}
 

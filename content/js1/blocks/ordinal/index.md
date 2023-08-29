@@ -45,13 +45,15 @@ Here is a list of the first 10 ordinal numbers.
 {{<tabs name="exercises">}}
 {{<tab name="Exercise 1">}}
 
-{{<note title="ordinals">}}
-Using the information from above, try to answer the following questions:
+{{<note title="ordinal numbers">}}
+Using the information from above, try to answer the following questions.
 
-a) What will the ordinal number be for 21?
-b) What will the ordinal number be for 40?
-c) What will the ordinal number be for 49?  
-d) What will the ordinal number be for 13?
+What will the ordinal number be for:
+
+a) 21?
+b) 40?
+c) 49?  
+d) 13?
 
 {{</note>}}
 
@@ -60,7 +62,7 @@ d) What will the ordinal number be for 13?
 
 {{<note title="📆 Using days of the month">}}
 
-Use ordinal numbers to write the dates of the following events:
+Use ordinal numbers to write the days of the month for the following events:
 
 a) Tomorrow
 b) A week from now

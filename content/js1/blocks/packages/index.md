@@ -5,7 +5,8 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Define dependency'
+    1='Define a dependency'
+    2='Define a package'
     2='Identify some benefits of using a third-party party software library when programming'
     3='Describe why need to use npm when we are building JavaScript applications'
 +++
