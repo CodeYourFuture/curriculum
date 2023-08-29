@@ -13,7 +13,7 @@ Let's take another look at `calculateMedian`
 ```js
 function calculateMedian(list) {
   const middlePosition = Math.floor(list.length / 2);
-  const median = list.splice(middlePosition, 1)[0]; // access the middle item in the list
+  const median = list.splice(middlePosition, 1)[0]; // access the middle item in the array
 
   return median;
 }

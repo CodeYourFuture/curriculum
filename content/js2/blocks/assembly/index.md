@@ -27,11 +27,10 @@ Try running the code above and check the console output. What do you see?
 
 With the code above, the `median` value is correct: however, the `mean` is _incorrect_.
 
-If we add a log into the program we can try and identify the origin of the bug.
+We can add a log to the program to identify the origin of the bug.
 
-```js
+```js {linenos=table,hl_lines=["4"],linenostart=1}
 const salaries = [10, 20, 30, 40, 60, 80, 80];
-console.log(salaries, "<--- salaries input before we call calculateMedian");
 const median = calculateMedian(salaries);
 
 console.log(salaries, "<--- salaries input before we call calculateMean");
@@ -42,5 +41,5 @@ console.log(`The mean salary is ${mean}`);
 ```
 
 {{<note type="activity" title="Run it">}}
-Try re-running the code above with the additional log. What does this
+Try re-running the code above with the additional log. What does this tell you?
 {{</note>}}
