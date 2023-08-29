@@ -11,21 +11,19 @@ emoji= '🧩'
 Let's imagine we've started a brand new project in a directory called `week-4-example`.
 
 {{<tabs>}}
-{{<tab name="💻 Follow along">}}
-{{<note type="exercise" title=" ">}}
+{{<tab name="🕹️ Follow along">}}
 
-###
+Open your terminal and make sure you're inside the `cyf` directory you created earlier in the course.
 
 Set up a new directory on your local machine called `week-4-example`.
-Make sure you're inside the `cyf` directory you created earlier in the course.
-Change directory into the this place and double check your current working directory.
 
-```bash
+Change directory into the this directory and double check your current working directory.
+
+```console
 $ pwd
 .../cyf/week-4-example
 ```
 
-{{</note>}}
 {{</tab>}}
 {{</tabs>}}
 
@@ -56,7 +54,20 @@ We can also add a description:
 We can continue adding more information about our project as the project grows.
 For now we can double check we only have a `package.json` in our project:
 
-```bash
+```console
 $ ls
 package.json
 ```
+
+{{<tabs>}}
+{{<tab name="🕹️ Follow along">}}
+
+Create a `package.json` in `week-4-example`. Ensure it contains a name and description like above.
+
+```bash
+$ pwd
+.../cyf/week-4-example
+```
+
+{{</tab>}}
+{{</tabs>}}

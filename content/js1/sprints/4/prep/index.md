@@ -17,6 +17,9 @@ src="module"
 name="setup"
 [[blocks]]
 src="module"
+name="packages"
+[[blocks]]
+src="module"
 name="api"
 [[blocks]]
 src="module"

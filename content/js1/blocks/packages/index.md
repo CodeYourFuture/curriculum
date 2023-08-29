@@ -11,7 +11,11 @@ emoji= '🧩'
 
 When writing software, we need to continually make use of **packages** written by other developers.
 
-A **package** is a set of programs which are grouped together to provide some functionality.
+A **package** is some code which is grouped together to provide some functionality.
+
+We use packages so that we don't have to solve every problem ourselves. Other people have often solved some things we need to do really well. Using other people's solutions to parts of a problem means we can focus our time and effort on what's special about _our_ problem.
+
+For example, imagine we wanted to work out what the time is in a user's city. Instead of writing code to work out the time for every city's time zone (and when they change!), we can use a package some experts have written, and which they keep up to date.
 
 Different programming languages give developers different ways of accessing packages for use in their code.
 
@@ -46,9 +50,9 @@ So overall we can think of this command as saying:
 _"Please go to the npm database, find the Jest package and install it on my local machine"_
 
 Let's execute this command in the same directory as the `package.json`.
-To double check this we can run `pwd`:
+To double check we're in the correct directory, we can run `pwd`:
 
-```bash
+```console
 $ pwd
 .../cyf/week-4-example
 ```
@@ -57,7 +61,7 @@ $ pwd
 
 We need to double check the `package.json` is also there too.
 
-```bash
+```console
 $ ls
 package.json
 ```
@@ -83,7 +87,7 @@ After running the command, we now have a directory called `node_modules` in our 
 
 > The `node_modules` directory contains all the code from the{{<tooltip title="dependencies">}}A **dependency** is a package that your project depends upon.{{</tooltip>}}we installed in our project. You won't need to look inside the `node_modules directory` - you just need to know it contains the code for Jest and any other libraries we install in our project.
 
-The `package.json` should also be updated:
+Running the `npm` command also updated our `package.json` file for us:
 
 ```json
 {
@@ -98,13 +102,15 @@ The `package.json` should also be updated:
 We've now got some additional information inside the `package.json`:
 
 ```json
-"devDependencies" : "^29.5.0"
+"devDependencies" : {
+    "jest":  "^29.5.0"
+}
 ```
 
 {{<note type="exercise" title="exercise">}}
 
 ### 🔍 Figure it out
 
-There should be one more change to your project after running the installation command. Use documentation or ChatGPT to figure out what this change is for.
+There should be one more change to your project after running the installation command. Use documentation or search on the internet to figure out what this change is for.
 
 {{</note>}}
