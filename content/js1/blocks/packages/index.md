@@ -9,9 +9,7 @@ emoji= '🧩'
     2='Identify some benefits of using a third-party party software library when programming'
 +++
 
-When writing software, we need to continually make use of **packages** written by other developers.
-
-A **package** is some code which is grouped together to provide some functionality.
+When writing software, we need to continually make use of {{<tooltip title="packages">}}A **package** is some code which is grouped together to provide some functionality.{{</tooltip>}} written by other developers.
 
 We use packages so that we don't have to solve every problem ourselves. Other people have often solved some things we need to do really well. Using other people's solutions to parts of a problem means we can focus our time and effort on what's special about _our_ problem.
 
