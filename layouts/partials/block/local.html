@@ -8,7 +8,7 @@
     <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
       {{ $block.Title }}
     </h2>
-    {{ partial "time.html" (dict "blockData" $blockData "time" $block.Params.time) }}
+    {{ partial "time.html" (merge $blockData (dict "time" $block.Params.time)) }}
   </header>
   {{ with $block.Params.Objectives }}
     <details>

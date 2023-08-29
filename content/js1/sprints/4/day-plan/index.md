@@ -24,5 +24,7 @@ name="coursework"
 name="afternoon-break"
 [[blocks]]
 name="retro"
-
+[[blocks]]
+name= "Asking good technical questions"
+src= "https://cyf-pd.netlify.app/blocks/asking-good-technical-questions/readme/"
 +++

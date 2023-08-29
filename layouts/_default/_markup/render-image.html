@@ -1,13 +1,17 @@
 {{ $src := .Destination }}
 {{ $alt := .PlainText | safeHTML }}
 {{ $caption := "" }}
-
 {{ with .Title }}
   {{ $caption = . | safeHTML }}
 {{ end }}
 
 {{/* Check if the source is an external link */}}
 {{ $isExternal := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
+{{/* If this image is served from GitHub, swap to jSDelivr */}}
+{{ if "github" | in $src }}
+  {{ $src = replace $src "https://github.com/" "https://cdn.jsdelivr.net/gh/" }}
+  {{ $src = replace $src "/blob/" "@" }}
+{{ end }}
 
 {{/* Define an image variable and a flag to indicate if it's a resource */}}
 {{ $image := "" }}
@@ -16,16 +20,19 @@
 
 {{/* If it's not an external link, look for the image in Page resources */}}
 {{ if not $isExternal }}
-  {{ with .Page.Resources.GetMatch (printf "%s" $src) }}
+  {{/* Check if the image is a resource */}}
+  {{ with $.Page.Resources.GetMatch (printf "%s" $src) }}
     {{ $image = . }}
     {{ $isResource = true }}
   {{ end }}
 {{ end }}
 
-{{/* If the image is still not found, use the path directly (assuming the image is in the /pictures directory) */}}
+{{/* If the image is still not found, try to get it from the assets directory */}}
 {{- if and (not $image) (not $isExternal) -}}
-  {{ $path := (path.Join "/pictures" $src) }}
-  {{ $image = (dict "RelPermalink" $path "Width" 0 "Height" 0) }}
+  {{ $path := (path.Join "pictures" $src) }}
+  {{ with resources.Get $path }}
+    {{ $image = . }}
+  {{ end }}
 {{- end -}}
 
 {{/* Handle external images directly */}}
@@ -68,5 +75,7 @@
     {{ end }}
   </figure>
 {{ else }}
-  <div style="font-size: 48px; text-align: center;">🖼️</div>
+  <div title="broken image link" style="font-size: 48px; text-align: center;">
+    🖼️
+  </div>
 {{ end }}

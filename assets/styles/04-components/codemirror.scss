@@ -5,4 +5,8 @@
   .cm-scroller {
     font: var(--theme-font--system);
   }
+
+  .hl_line:not(.cm-activeLine) {
+    background-color: var(--theme-color--accent-shade);
+  }
 }
