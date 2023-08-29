@@ -10,7 +10,7 @@ emoji= '🧩'
 
 With Jest installed, we need to figure out _how to use the Jest framework_ to write tests.
 
-Jest provides an {{<tooltip title="API">}}An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.{{</tooltip>}} so we can use its functionality.
+Jest provides an {{<tooltip title="API">}}An **API** is a boundary between a programmer and an application, enabling a programmer to use an application’s functionality without being concerned with how the application was built.{{</tooltip>}} so we can write tests.
 
 API stands for
 

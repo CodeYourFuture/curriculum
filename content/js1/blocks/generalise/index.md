@@ -16,7 +16,7 @@ Here are some examples of this pattern,
 
 1st, 11**th**, 21st, 31st, 41st,...
 
-All the numbers ending in 1 will continue to end in ` "st"`, with the exception of 11.
+All the numbers ending in 1 will continue to end in `"st"`, with the exception of 11.
 11 is slightly different and ends with a `"th"`.
 
 We can now create a test case to check that `getOrdinalNumber` works for _any_ number ending in 1.
@@ -39,7 +39,7 @@ We've also updated the test description because we're adding more assertions and
 
 {{<note type="exercise" title="exercise">}}
 
-What do you think the test output will be when the test runs? Remember to think in terms of targetOutput and currentOutput.
+What do you think the test output will be when the test runs? Remember to think in terms of `targetOutput` and `currentOutput`.
 
 How can you approach implementing the logic for this function each time?
 
@@ -62,7 +62,8 @@ A -- false --> C[return num + st]
 ```
 
 Most of the time we just need to return the number with "st" on the end.
-However, 11 is an outlier: it doesn't conform to the pattern.
+
+However, 11 is an outlier: it doesn't conform to this pattern.
 
 So our current strategy for this test case will be to check if the number is 11 first and do something differently ( return `"11th"` ): otherwise we return the default value of num with `"st"` on the end.
 
@@ -89,8 +90,8 @@ Now, we've handled any numerical inputs ending in 1. We can try to build up func
 
 We can start by adding a test case that only asserts something about the input of 2.
 
-We cannot add this assertion to the first test case - because the first test case checks for inputs that end in a 1.
-To check this different case, we need to introduce a new test case.
+We cannot add this assertion to the first test case. The first test case checks for inputs that end in a 1.
+To check the case when the input ends in 2, we need to introduce a new test case.
 
 ```js {linenos=table,hl_lines=["14-16"],linenostart=1}
 function getOrdinalNumber(num) {
@@ -115,14 +116,16 @@ test("converts 2 to an ordinal number", function () {
 
 {{<tab name="exercise 1">}}
 
-{{<note type="exercise" title="Predict">}}
+### Check the test output
 
-Predict what the feedback will be for the test case `"converts 2 to an ordinal number"`?
-Does it succeed or fail, if so why?
+Here's the test feedback for the test above:
+![second-case-fail](second-case-fail.png)
+
+**Play computer** with `getOrdinalNumber` when it is called with an input of 2
+Double check you agree with the test feedback in this case.
 
 Before coding, outline a strategy for handling the second test case.
 
-{{</note>}}
 {{</tab>}}
 
 {{<tab name="exercise 2">}}

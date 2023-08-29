@@ -26,7 +26,11 @@ looks like this
 
 ```js
 test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
+  const input = 1;
+  const currentOutput = getOrdinalNumber(input);
+  const targetOutput = "1st";
+
+  expect(currentOutput).toBe(targetOutput);
 });
 ```
 
@@ -75,8 +79,9 @@ Jest defines **Expected** and **Received** in the test feedback:
 
 {{<note type="exercise" title="exercise">}}
 
-What are the values of Expected and Received in the test output?
-How do Received and Expected match up with the targetOutput and expectedOutput ?
+What are the values of **Expected** and **Received** in the test output?
+
+How do **Received** and **Expected** match up with the targetOutput and expectedOutput ?
 
 What line number did the test case fail on?
 
@@ -84,7 +89,7 @@ What line number did the test case fail on?
 
 ### Passing `getOrdinalNumber`
 
-We can now make the test pass by implementing functionality for the first test case.
+We can now pass the test by implementing functionality for the first test case.
 We could write the following:
 
 get-ordinal-number.test.js
@@ -95,6 +100,10 @@ function getOrdinalNumber() {
 }
 
 test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
+  const input = 1;
+  const currentOutput = getOrdinalNumber(input);
+  const targetOutput = "1st";
+
+  expect(currentOutput).toBe(targetOutput);
 });
 ```

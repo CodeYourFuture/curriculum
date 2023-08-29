@@ -23,10 +23,8 @@ const currentOutput = getOrdinalNumber(input);
 const targetOutput = "1st";
 ```
 
-To work out how to write a test using Jest, we can check out the documentation.
-
-We can create a file called `get-ordinal-number.js` and in there write our first test.
-We can figure out how to write this test using the Jest documentation. We can start writing a test:
+We can create a file called `get-ordinal-number.js` and write our first test there.
+We can use [documentation](https://jestjs.io/docs/getting-started) to work out how to write our first test using Jest.
 
 get-ordinal-number.test.js
 
@@ -36,7 +34,7 @@ test("converts 1 to an ordinal number", function () {});
 
 Let's break down this syntax.
 
-The `test` function is part of the Jest API: it is an interface we use to perform a particular task.
+The `test` function is part of the Jest API, a function we use to perform a particular task.
 In particular, we'll use `test` to define a test case.
 
 Let's break down the arguments we're passing to `test`:
@@ -73,11 +71,15 @@ The function `toBe` is used to check that the current output of `getOrdinalNumbe
 `toBe` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers).
 A matcher is a function we use to compare values in Jest.
 
-So we can combine this with the test we wrote earlier, to get our first complete test case:
+So the whole test looks like this:
 
 ```js
 test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
+  const input = 1;
+  const currentOutput = getOrdinalNumber(input);
+  const targetOutput = "1st";
+
+  expect(currentOutput).toBe(targetOutput);
 });
 ```
 

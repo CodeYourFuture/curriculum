@@ -81,7 +81,7 @@ week-4-example
 
 After running the command, we now have a directory called `node_modules` in our project too.
 
-> The `node_modules` directory contains all the code from the dependencies like Jest we installed in our project. You won't need to look inside the node_modules directory - you just need to know it contains the code for Jest and any other libraries we install in our project.
+> The `node_modules` directory contains all the code from the{{<tooltip title="dependencies">}}A **dependency** is a package that your project depends upon.{{</tooltip>}}we installed in our project. You won't need to look inside the `node_modules directory` - you just need to know it contains the code for Jest and any other libraries we install in our project.
 
 The `package.json` should also be updated:
 
@@ -101,11 +101,10 @@ We've now got some additional information inside the `package.json`:
 "devDependencies" : "^29.5.0"
 ```
 
-A **dependency** is a package that your project depends upon. Now that we're using Jest in our project, we **depend** on the Jest package. In particular, a **devDependency** is a **developer dependency** - a **dependency** we use for developing and testing our application.
-
 {{<note type="exercise" title="exercise">}}
 
 ### 🔍 Figure it out
 
 There should be one more change to your project after running the installation command. Use documentation or ChatGPT to figure out what this change is for.
+
 {{</note>}}
