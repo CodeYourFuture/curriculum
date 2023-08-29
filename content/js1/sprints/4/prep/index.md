@@ -20,6 +20,9 @@ src="module"
 name="packages"
 [[blocks]]
 src="module"
+name="installing"
+[[blocks]]
+src="module"
 name="api"
 [[blocks]]
 src="module"

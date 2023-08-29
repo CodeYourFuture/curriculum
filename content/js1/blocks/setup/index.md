@@ -17,7 +17,7 @@ Open your terminal and make sure you're inside the `cyf` directory you created e
 
 Set up a new directory on your local machine called `week-4-example`.
 
-Change directory into the this directory and double check your current working directory.
+Change directory into `week-4-example`and double-check your current working directory.
 
 ```console
 $ pwd
@@ -29,7 +29,7 @@ $ pwd
 
 To start, we need to create a file called `package.json` in our project.
 
-> A `package.json` is used to store useful information about our current project, like the name, description, version etc.
+> A `package.json` is used to store useful information about our current project, like the name, description, version etc. Its content is writte in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
 
 We can create a `package.json` file and add the following to it:
 
@@ -52,7 +52,7 @@ We can also add a description:
 ```
 
 We can continue adding more information about our project as the project grows.
-For now we can double check we only have a `package.json` in our project:
+For now we can double-check we only have a `package.json` in our project:
 
 ```console
 $ ls
