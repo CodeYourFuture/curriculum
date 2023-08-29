@@ -7,6 +7,7 @@ emoji= '🧩'
 [objectives]
     1='Define dependency'
     2='Identify some benefits of using a third-party party software library when programming'
+    3='Describe why need to use npm when we are building JavaScript applications'
 +++
 
 When writing software, we need to continually make use of {{<tooltip title="packages">}}A **package** is some code which is grouped together to provide some functionality.{{</tooltip>}} written by other developers.
@@ -17,6 +18,6 @@ For example, imagine we wanted to work out what the time is in a user's city. In
 
 Different programming languages give developers different ways of accessing packages for use in their code.
 
-In JavaScript, we can use **npm**.
-
-> **npm** is a tool used for accessing packages that can be downloaded and used to help developers write applications. The **npm registry** is an online collection of packages that we can download using **npm** commands.
+In JavaScript, we can use {{<tooltip title="npm">}} **npm** is a tool used for accessing packages that can be downloaded and used to help developers write applications.
+The **npm registry** is an online collection of packages that we can download using **npm** commands.
+{{</tooltip>}}.
