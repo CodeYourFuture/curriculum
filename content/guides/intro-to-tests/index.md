@@ -36,7 +36,7 @@ Let's consider a function called `countWords` that needs to work as follows:
 
 The points above form a **specification** of how the function `countWords` should behave - in other words, the specification is a **description of how the function should work**. Once we have a specification for how the function should work we can create a number of cases showing how we expect the function `countWords` to behave when it is called with certain inputs.
 
-### Case 1 💼
+#### Case 1 💼
 
 ```js
 const input = "hello";
