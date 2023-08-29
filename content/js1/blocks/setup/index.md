@@ -64,10 +64,5 @@ package.json
 
 Create a `package.json` in `week-4-example`. Ensure it contains a name and description like above.
 
-```bash
-$ pwd
-.../cyf/week-4-example
-```
-
 {{</tab>}}
 {{</tabs>}}
