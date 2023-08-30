@@ -27,7 +27,7 @@ Using a shared formatting convention makes sure your "diffs" ( _differences_ bet
 1. In your editor, write some html and save the file. It should be formatted (indented) automatically.
    {{</note>}}
 
-Ask for help on Slack if you are having trouble with Prettier. If a group of you are blocked by this, schedule thirty minutes of your class study time to set this up together.
+Ask for help on main Slack if you are having trouble with Prettier. If a group of you are blocked by this, schedule thirty minutes of your class study time to set this up together.
 
 Your pull requests may be automatically rejected if your code is not formatted and linted.
 
