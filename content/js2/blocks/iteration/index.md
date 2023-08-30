@@ -26,7 +26,7 @@ function calculateMean(list) {
 
 {{<tabs name="Playing computer">}}
 
-{{<tab name="🕹️ Playing computer">}}
+{{<tab name="🕹️ Play computer">}}
 
 **Play computer** with the code below and explore what happens the `for...of` loop is executed.
 
