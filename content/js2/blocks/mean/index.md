@@ -23,7 +23,7 @@ expect(calculateMean([3, 50, 7])).toBe(20); // 25 is (3 + 50 + 7) / 3
 
 In this test, we're checking we get a value of `25` by adding together `3 + 40 + 7` and then dividing by the number of items (`3`).
 
-We calculate the mean of an array of numbers by:
+We calculate the mean of a list of numbers by:
 
 1. sum all the numbers in the array
 2. dividing the sum by the length of the array
