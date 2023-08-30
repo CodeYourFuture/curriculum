@@ -8,9 +8,9 @@ emoji= '🧩'
 1='Describe how to calculate the median of a list in JavaScript' 
 +++
 
-Now we're familiar with arrays, let's define a new problem.
+Let's define a problem.
 
-We want to calculate the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
+We want to _calculate_ the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
 
 _Given_ an array of numbers in _ascending order_,
 _When_ we call `calculateMedian` with this array
@@ -18,7 +18,7 @@ _Then_ we get the median value
 
 We calculate the median of a list of numbers by finding the middle value in the list.
 
-Let's start with a test to check the **return value** of `calculateMedian` given an array of numbers.
+Let's start with a test to check the **return value** of `calculateMedian` given an ordered list of numbers.
 
 ```js
 test("calculates the median of a list of odd length", function () {
