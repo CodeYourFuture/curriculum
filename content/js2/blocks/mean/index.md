@@ -18,7 +18,9 @@ _Then_ we get the mean
 Let's create a test to check its functionality:
 
 ```js
-expect(calculateMean([3, 50, 7])).toBe(20); // 20 is (3 + 50 + 7) / 3
+test("calculates the mean of a list of numbers", () => {
+  expect(calculateMean([3, 50, 7])).toBe(20); // 20 is (3 + 50 + 7) / 3
+});
 ```
 
 In this test, we're checking we get a value of `25` by adding together `3 + 50 + 7` and then dividing by the number of items (`3`).
