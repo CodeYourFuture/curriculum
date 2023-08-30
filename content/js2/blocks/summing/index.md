@@ -25,13 +25,13 @@ total += list[3];
 total += list[4];
 ```
 
-However, this method doesn't work for any array.
-If the number of items in `list` changes then we may have to change the number of statements updating the `total`.
+However, this approach is flawed.
 
-{{<tabs name="Playing computer">}}
+{{<tabs name="Explain">}}
 
-{{<tab name="🕹️ Playing computer">}}
-Use the [Code Visualiser](https://pythontutor.com/render.html#mode=display) to **play computer** with the code above.
+{{<tab name="🧠  Explain">}}
+Explain why the approach above is flawed when it comes to summing the numbers for an array of _any_ length.
+
 {{</tab>}}
 
 {{</tabs>}}
