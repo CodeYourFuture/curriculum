@@ -13,7 +13,7 @@ emoji= '🧩'
 In JavaScript, we can store data inside an **array**.
 
 {{<note title="Definition: array">}}
-An **array** is an ordered collection of data.
+An [**array**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) is an ordered collection of data.
 {{</note>}}
 
 Instead of writing:
