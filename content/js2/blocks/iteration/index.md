@@ -9,9 +9,13 @@ emoji= '🧩'
     2='Explain why iteration is relevant in a particular problem'
 +++
 
-In programming, we use **iteration** when we want to repeat a particular set of steps.
+To solve the sub-goal, we have to repeatedly increment the `total` for each number in the array. In programming, the process of repeating something is called **iteration**.
 
-Let's visualise how iteration works.
+In programming, we can **iterate** by using a {{<tooltip title="loop">}}A loop is a sequence of instructions that is continually repeated until some condition is reached.{{</tooltip>}}.
+
+In particuialar, we can use a [`for...of` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to sum the elements of the array.
+
+Let's visualise how iteration works in a `for...of` loop:
 
 ```mermaid
 
@@ -24,8 +28,6 @@ graph TD
     F --> C
 
 ```
-
-We can use a `for...of` loop to implement this sequence of steps.
 
 ```js
 function calculateMean(list) {
