@@ -1,11 +1,12 @@
 +++
-title = ' Side effects'
+title = '⚠️ Side effects'
 headless = true
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Define mutation'
+    1='Define a side effect'
+    2='Describe how side effects lead to buggy code'
 +++
 
 Currently `calculateMedian` mutates its input - the `list` of numbers.
