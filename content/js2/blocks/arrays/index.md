@@ -6,6 +6,8 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Access items in an array using an index'
+    2='Identify the benefits of using an array to store information'
+
 +++
 
 In JavaScript, we can store data inside an {{<tooltip title="array">}}An **array** is an ordered list of data{{</tooltip>}}
@@ -38,30 +40,27 @@ We've already encountered ordered data before.
 
 A string is an **ordered** collection of characters.
 
-The string
+Let's recall an example of a string.
 
 ```js
-const volunteer = `"Moussab"`;
+const volunteer = "Moussab";
 ```
 
-The characters in `"Moussab"` are ordered.
+The character `"M"` is at **index 0**, `"o"` is at **index 1**, and so on.
 
-As with strings, arrays are also **ordered** collections of data.
-`"M"` is at position `0`, `"o"` is at position 1, and so on.
-
-We index items in an array in a similar way:
+As with strings, arrays are also **zero-indexed** in a similar way:
 
 ```js
 const items = [4.6, 5.03, 7.99, 8.01];
 ```
 
-So we can refer to the **elements** of the array by an **index**.
+So we can refer to the {{<tooltip title="element">}}An **element** is another name for an item inside an array.{{</tooltip>}} of the array by an **index**.
 
-|   index   |  0  |  1   | 2    | 3    |
-| :-------: | :-: | :--: | ---- | ---- |
-| character | 4.6 | 5.03 | 7.99 | 8.01 |
+|  index  |  0  |  1   | 2    | 3    |
+| :-----: | :-: | :--: | ---- | ---- |
+| element | 4.6 | 5.03 | 7.99 | 8.01 |
 
-In JavaScript, we can use square bracket notation to access specific characters in the array using an index.
+In JavaScript, we can use square bracket notation to access specific elements in the array using an index.
 
 ```js
 items[0]; // evaluates to 4.6
