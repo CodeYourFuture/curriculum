@@ -11,9 +11,9 @@ emoji= '🧩'
 
 > 🎯 Sub-goal: compute the sum of an array of numbers.
 
-To sum a list we can initialise a variable with a value of `0`.
+To sum a list we can create a variable `total` with an initial value of `0`.
 
-We then need to **repeatedly** increment `count` for each item in the `list`.
+We then need to **repeatedly** increment `total` with the value of each item in the `list`.
 
 ```js
 let total = 0;
