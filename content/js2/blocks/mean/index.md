@@ -18,14 +18,14 @@ _Then_ we get the mean
 Let's create a test to check its functionality:
 
 ```js
-expect(calculateMean([3, 50, 7])).toBe(20); // 25 is (3 + 50 + 7) / 3
+expect(calculateMean([3, 50, 7])).toBe(20); // 20 is (3 + 50 + 7) / 3
 ```
 
-In this test, we're checking we get a value of `25` by adding together `3 + 40 + 7` and then dividing by the number of items (`3`).
+In this test, we're checking we get a value of `25` by adding together `3 + 50 + 7` and then dividing by the number of items (`3`).
 
 We calculate the mean of a list of numbers by:
 
-1. sum all the numbers in the array
+1. summing all the numbers in the array
 2. dividing the sum by the length of the array
 
-> Summing the numbers in the array is a good starting 🎯 sub-goal.
+We can define a **🎯 sub-goal** as trying to find the sum of the array of numbers.

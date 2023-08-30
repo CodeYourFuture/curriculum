@@ -77,16 +77,15 @@ Explain why `calculateMedian` and `calculateMean` both get access to the same ar
 
 {{</tabs>}}
 
-We can also check that these arrays point to the same location in memory.
+### Shared reference
+
+We can also check these variables share the same reference.
 
 ```js
 const list = [10, 20, 30];
 const copy = list;
-copy.push(60, 70);
 
-console.log(list);
-console.log(copy);
-console.log(list === copy);
+console.log(list === copy); // evaluates to true
 ```
 
-This evaluates to `true` as both arrays store the same reference.
+This evaluates to `true` as both variables hold the same reference.
