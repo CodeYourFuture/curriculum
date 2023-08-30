@@ -27,7 +27,8 @@ We can declare an **array literal** as follows:
 const items = [4.6, 5.03, 7.99, 8.01];
 ```
 
-Notice the identifier for the array is **items**. The word `items` is plural as arrays can store multiple pieces of information.
+Notice the identifier for the array is **items**.
+The word `items` is plural as arrays can store multiple pieces of information.
 
 ### ordered data
 
@@ -54,7 +55,7 @@ As with strings, arrays are also **zero-indexed** in a similar way:
 const items = [4.6, 5.03, 7.99, 8.01];
 ```
 
-So we can refer to the {{<tooltip title="element">}}An **element** is another name for an item inside an array.{{</tooltip>}} of the array by an **index**.
+So we can refer to the {{<tooltip title="elements">}}An **element** is another name for an item inside an array.{{</tooltip>}} of the array by an **index**.
 
 |  index  |  0  |  1   | 2    | 3    |
 | :-----: | :-: | :--: | ---- | ---- |
