@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Define mutation'
 +++
 
-Let's take another look at `calculateMedian`
+Let's take another look at our earlier implementation of `calculateMedian`:
 
 ```js
 function calculateMedian(list) {

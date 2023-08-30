@@ -88,4 +88,4 @@ const copy = list;
 console.log(list === copy); // evaluates to true
 ```
 
-This evaluates to `true` as both variables hold the same reference.
+If we're comparing 2 variables with `===`, then it will check to see if they have the **same reference**.
