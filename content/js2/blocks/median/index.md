@@ -38,7 +38,7 @@ We can summarise our approach as follows.
 
 ```mermaid
 flowchart TD
-    A[Step 1: Sort the array] --> B[Step 2: Find the middle index of the array]
+    A[Step 1: Find the middle index of the array] --> B[Step 2: Sort the array]
     B --> C[Step 3: Access the array at the middle index]
     C --> D[Step 4: return the middle item]
 ```
@@ -47,8 +47,9 @@ In code we can write the following implementation, using [`sort`](https://develo
 
 ```js
 function calculateMedian(list) {
-  const middlePosition = Math.floor(list.length / 2);
-  const median = list.sort().splice(middlePosition, 1)[0]; // access the middle item in the list
+  const middleIndex = Math.floor(list.length / 2);
+  const sortedList = list.sort();
+  const median = sortedList.splice(middlePosition, 1)[0];
 
   return median;
 }

@@ -5,7 +5,7 @@ time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain why we want to use a data structure'
+    1='Explain why using multiple variable declarations for related data is problematic'
 +++
 
 In programming, we're continually defining data in our programs.
@@ -36,8 +36,4 @@ If the number of bill items is very large, we have to keep introducing new varia
 
 If a particular item, doesn't appear on the list then how do we remove this piece of data from our program. In JavaScript, we cannot delete an existing variable from memory during the program runtime.
 
-Instead we have to group together the data using a **data structure**.
-
-{{<note>}}
-A **data structure** is a away of organising and manipulating data.
-{{</note>}}
+Instead we have to group together the data using a {{<tooltip title="data structure">}}A **data structure** is a collection of data and functions that can be applied to that data.{{</tooltip>}}

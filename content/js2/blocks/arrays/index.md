@@ -5,16 +5,10 @@ time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Access items in an array using an index'
 +++
 
-In JavaScript, we can store data inside an **array**.
-
-{{<note title="Definition: array">}}
-An [**array**](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays) is an ordered collection of data.
-{{</note>}}
+In JavaScript, we can store data inside an {{<tooltip title="array">}}An **array** is an ordered list of data{{</tooltip>}}
 
 Instead of writing:
 
@@ -31,21 +25,18 @@ We can declare an **array literal** as follows:
 const items = [4.6, 5.03, 7.99, 8.01];
 ```
 
-Notice the identifier for the array is **items**. The word `items` is plurable and used to convey the fact that the array stores multiple values of the number data type.
+Notice the identifier for the array is **items**. The word `items` is plural as arrays can store multiple pieces of information.
 
-## ordered data
+### ordered data
 
 {{<note type="tip" title="Recall">}}
 
 Zero-indexing means we start counting from 0
 
 {{</note>}}
-
->
-
 We've already encountered ordered data before.
 
-A string is a primitive data-type: however it is also an **ordered** collection of characters.
+A string is an **ordered** collection of characters.
 
 The string
 
@@ -56,6 +47,7 @@ const volunteer = `"Moussab"`;
 The characters in `"Moussab"` are ordered.
 
 As with strings, arrays are also **ordered** collections of data.
+`"M"` is at position `0`, `"o"` is at position 1, and so on.
 
 We index items in an array in a similar way:
 
@@ -69,7 +61,7 @@ So we can refer to the **elements** of the array by an **index**.
 | :-------: | :-: | :--: | ---- | ---- |
 | character | 4.6 | 5.03 | 7.99 | 8.01 |
 
-In JavaScript, we can use square bracket notation to access specific characters in the string using the index.
+In JavaScript, we can use square bracket notation to access specific characters in the array using an index.
 
 ```js
 items[0]; // evaluates to 4.6

@@ -25,7 +25,7 @@ Try running the code above and check the console output. What do you see?
 
 ### 🐛 Finding the bug
 
-With the code above, the `median` value is correct: however, the `mean` is _incorrect_.
+In the code above, the `median` value is correct: however, the `mean` is _incorrect_.
 
 We can add a log to the program to identify the origin of the bug.
 
@@ -43,3 +43,5 @@ console.log(`The mean salary is ${mean}`);
 {{<note type="activity" title="Run it">}}
 Try re-running the code above with the additional log. What does this tell you?
 {{</note>}}
+
+To understand why this bug occurs, we need to introduce more concepts.
