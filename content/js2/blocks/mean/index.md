@@ -19,15 +19,19 @@ Let's create a test to check its functionality:
 
 ```js
 test("calculates the mean of a list of numbers", () => {
-  expect(calculateMean([3, 50, 7])).toBe(20); // 20 is (3 + 50 + 7) / 3
+  const list = [3, 50, 7];
+  const currentOutput = calculateMean([3, 50, 7]);
+  const targetOutput = 20;
+
+  expect(currentOutput).toBe(targetOutput); // 20 is (3 + 50 + 7) / 3
 });
 ```
 
-In this test, we're checking we get a value of `25` by adding together `3 + 50 + 7` and then dividing by the number of items (`3`).
+In this test, we're checking we get a value of `20` by adding together `3 + 50 + 7` and then dividing by the number of items (`3`).
 
 We calculate the mean of a list of numbers by:
 
 1. summing all the numbers in the array
 2. dividing the sum by the length of the array
 
-We can define a **🎯 sub-goal** as trying to find the sum of the array of numbers.
+We can define a **🎯 sub-goal** of calculating the sum of all numbers in the list.
