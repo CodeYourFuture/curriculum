@@ -1,7 +1,7 @@
 +++
 title = '🏤 References'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -52,6 +52,24 @@ So as `copy` and `list` point to the same array.
 If we mutate `list` then we're mutating the same list that `copy` points to.
 
 So the console output is the same.
+
+{{</tab>}}
+
+{{<tab name=" 🧠  Explain">}}
+
+```js {linenos=table,hl_lines=["4"],linenostart=1}
+const salaries = [10, 20, 30, 40, 60, 80, 80];
+const median = calculateMedian(salaries);
+
+console.log(salaries, "<--- salaries input before we call calculateMean");
+const mean = calculateMean(salaries);
+
+console.log(`The median salary is ${median}`);
+console.log(`The mean salary is ${mean}`);
+```
+
+In the example above, `salaries` is assigned a reference on the first line.
+Explain why `calculateMedian` and `calculateMean` both get access to the same array.
 
 {{</tab>}}
 
