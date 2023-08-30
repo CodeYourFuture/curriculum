@@ -21,7 +21,7 @@ function calculateMedian(list) {
 calculateMedian([20, 30, 10, 50, 70, 5, 6]);
 ```
 
-`calculateMedian` calculates the middle value by calling `splice` and `sort`.
+`calculateMedian` gets the middle value by calling `splice`.
 
 However, `splice` is a {{<tooltip title="mutating">}}For arrays, mutation means **_changing_** the contents of an array. This could mean changing a value at some index or removing an item altogether.{{</tooltip>}} array method.
 
@@ -31,7 +31,8 @@ When we call `splice` it does 2 things:
 - returns the removed item
 
 `splice` modifies the array: however, `calculateMean` is also passed a reference to the same array too.
-In other words, `calculateMedian` modifies the same array that is passed to `calculateMean`.
+
+> In other words, `calculateMedian` modifies the same array that is passed to `calculateMean`.
 
 {{<tabs name="practice">}}
 
