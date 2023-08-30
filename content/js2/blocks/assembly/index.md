@@ -20,7 +20,7 @@ console.log(`The mean salary is ${mean}`);
 ```
 
 {{<note type="activity" title="Run it">}}
-Try running the code above and check the console output. What do you see?
+Try running the code above on your local machine. Check the console output. What do you see? _(Note: You'll have to declare the functions somewhere too)_
 {{</note>}}
 
 ### 🐛 Finding the bug
