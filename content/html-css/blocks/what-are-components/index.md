@@ -21,7 +21,7 @@ A component is a reusable, self-contained piece of code. Components are like leg
 <details>
 <summary>But... practically speaking, what are components? Name at least five.</summary>
 
-Examples of UI components: [header](https://design-system.service.gov.uk/components/header/), [nav](https://getbootstrap.com/docs/4.0/components/navs/), [hero](https://bulma.io/documentation/layout/hero/) [card](https://ant.design/components/card), [breadcrumbs](https://design-system.w3.org/components/breadcrumbs.html), [toast](https://chakra-ui.com/docs/components/toast), [chip](https://m3.material.io/components/chips/overview), [carousel](https://vuetifyjs.com/en/components/carousels/), [rating](https://shoelace.style/components/rating). There are so many more.
+Examples of UI components: [header](https://design-system.service.gov.uk/components/header/), [nav](https://getbootstrap.com/docs/4.0/components/navs/), [hero](https://bulma.io/documentation/layout/hero/), [card](https://ant.design/components/card), [breadcrumbs](https://design-system.w3.org/components/breadcrumbs.html), [toast](https://chakra-ui.com/docs/components/toast), [chip](https://m3.material.io/components/chips/overview), [carousel](https://vuetifyjs.com/en/components/carousels/), [rating](https://shoelace.style/components/rating). There are so many more.
 
 </details>
 <details>
