@@ -5,7 +5,9 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain the difference between value and reference'
+    1='Define reference'
+    2='Describe some effects of arrays being assigned the same reference'
+    3='Identify when 2 arrays will share the same reference'
 +++
 
 Arrays are stored by {{<tooltip title="reference">}}
