@@ -20,7 +20,9 @@ console.log(`The mean salary is ${mean}`);
 ```
 
 {{<note type="activity" title="Run it">}}
-Try running the code above on your local machine. Check the console output. What do you see? _(Note: You'll have to declare the functions somewhere too)_
+Try running the code above on your local machine. Check the console output. What do you see?
+
+_(Note: you'll have to declare the functions somewhere too)_
 {{</note>}}
 
 ### 🐛 Finding the bug
@@ -44,4 +46,4 @@ console.log(`The mean salary is ${mean}`);
 Try re-running the code above with the additional log. What does this tell you?
 {{</note>}}
 
-To understand why this bug occurs, we need to introduce more concepts.
+To understand why this bug occurs, we need to explore more concepts.
