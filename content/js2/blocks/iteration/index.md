@@ -13,7 +13,7 @@ To solve the sub-goal, we have to repeatedly increment the `total` for each numb
 
 In programming, we can **iterate** by using a {{<tooltip title="loop">}}A loop is a sequence of instructions that is continually repeated until some condition is reached.{{</tooltip>}}.
 
-In particuialar, we can use a [`for...of` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to sum the elements of the array.
+In particular, we can use a [`for...of` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to sum the elements of the array.
 
 Let's visualise how iteration works in a `for...of` loop:
 
