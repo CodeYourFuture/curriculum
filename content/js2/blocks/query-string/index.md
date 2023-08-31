@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the query string section of a url'
-    2='Identify key value pairs within a query string'
+    2='Identify key-value pairs within a query string'
     3='Explain why an object is a more useful structure for storing query parameters'
 +++
 
