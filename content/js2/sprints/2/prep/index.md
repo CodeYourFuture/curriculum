@@ -17,9 +17,6 @@ src="module"
 name="access"
 [[blocks]]
 src="module"
-name="keys"
-[[blocks]]
-src="module"
 name="query-params"
 [[blocks]]
 src="module"
