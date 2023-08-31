@@ -24,16 +24,17 @@ test("given a url with multiple key-value pairs, returns them in object object f
 
 Our strategy will consist of 2 sub-goals.
 
-1. Split "to=x&from=y" into an array of key-value pairs `[ "to=x", "from=y" ]` ( so we can iterate through it)
-1. Iterate through each key-value pair and add it to the `queryParams` object
+> 🎯 Sub-goal 1: split the query string into an array of key-value pairs
+>
+> 🎯 Sub-goal 2: iterate through the key-value pairs and update the query params object
 
-We can break this down using multiple calls to split and using array access.
+Let's start with the first sub-goal.
 
-### 🎯 Sub-goal 1
+> 🎯 Sub-goal 1: split the query string into an array of key-value pairs
 
 We can take the "to=x&from=y" string and split it by the "&" character.
 
-```js {linenos=table,hl_lines=[5] ,linenostart=1}
+```js {linenos=table,hl_lines=[4] ,linenostart=1}
 function parseQueryString(queryString) {
   // suppose queryString has a value of "to=x&from=y"
   const queryParams = {}; // 'to=x&from=y'
@@ -41,11 +42,11 @@ function parseQueryString(queryString) {
 }
 ```
 
-### 🎯 Sub-goal 3 -> Iteration and mutation
+> 🎯 Sub-goal 2: iterate through the key-value pairs and update the query params object
 
 Now we can iterate through the key-value pairs and update the `queryParams` object each time.
 
-```js {linenos=table,hl_lines=["6-8"] ,linenostart=1}
+```js {linenos=table,hl_lines=["6-9"] ,linenostart=1}
 function parseQueryString(queryString) {
   // assume queryString has a value of 'to=x&from=y'
   const queryParams = {};
