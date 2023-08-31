@@ -1,5 +1,5 @@
 +++
-title = '[] Bracket notation'
+title = '[ ] Bracket notation'
 headless = true
 time = 30
 facilitation = false
@@ -23,7 +23,7 @@ function parseQueryString(queryString) {
 
   const [key, value] = queryString.split("="); // will hold ['fruit', 'banana']
 
-  queryParams.key = value;
+  queryParams.key = value; // mutate the queryParams object
 
   return queryParams;
 }

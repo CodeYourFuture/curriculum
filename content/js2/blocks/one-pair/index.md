@@ -5,7 +5,8 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Describe how to implement a function from a test case'
+    1='Explain why when we have to use square bracket notation to update an object'
+    2='Destructure an array of length 2'
 +++
 
 Let's consider another test case: make the function work for a url with a single key-value pair.
