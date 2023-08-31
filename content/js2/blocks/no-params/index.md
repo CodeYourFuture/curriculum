@@ -10,14 +10,14 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-Let's look at a url with no query parameters: `https://github.com`.
+Let's look at an empty query string.
 
 In this particular case, we need to think of an output that makes sense. In a situation where there are no query parameters we can just return an _empty object_.
 
 We can write a test case as follows:
 
 ```js
-test("given a url with no query parameters, returns an empty object", function () {
+test("given a query string with no query parameters, returns an empty object", function () {
   const input = "";
   const currentOutput = parseQueryString(input);
   const targetOutput = {};
@@ -40,7 +40,7 @@ And `targetOutput` is assigned a reference to a **different object**.
 If we perform the check with the `toBe` matcher we get a message back from Jest:
 
 ```terminal
-If it should pass with deep equality, replace "toBe" with "toStrictEqual
+If it should pass with deep equality, replace "toBe" with "toStrictEqual"
 ```
 
 In other words, `toBe` checks **references** of two objects. As `currentOutput`and `targetOutput` point to different objects - this can never be true. However, we can use a different matcher that compares the **contents** of the two objects. We can use [`toStrictEqual`](https://jestjs.io/docs/expect#tostrictequalvalue) to check that both objects have exaclty the same contents.
