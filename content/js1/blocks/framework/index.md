@@ -10,7 +10,7 @@ emoji= '🧩'
 
 To help us think about the requirements of `getOrdinalNumber`, let's consider one case:
 
-### Case 1 💼
+### 💼 Case 1
 
 ```js
 const input = 1;

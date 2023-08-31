@@ -58,6 +58,8 @@ d) When is Eid expected to occur in 2024
 
 {{</tabs>}}
 
+### 📋 Specification
+
 Let's consider a function called `getOrdinalNumber` that needs to work like this:
 
 - it takes one argument - a whole number, like 1, 2, 3, etc
