@@ -26,7 +26,7 @@ src="module"
 name="one-pair"
 [[blocks]]
 src="module"
-name="square-brackets"
+name="variable-keys"
 [[blocks]]
 src="module"
 name="multiple-params"
