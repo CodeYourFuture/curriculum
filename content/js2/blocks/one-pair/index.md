@@ -1,5 +1,5 @@
 +++
-title = '❓ Urls with one pair'
+title = '❓ Single pair case'
 headless = true
 time = 30
 facilitation = false
@@ -10,10 +10,10 @@ emoji= '🧩'
 +++
 
 Let's consider another test case: make the function work for a url with a single key-value pair.
-Let's start by writing a test:
+We can write a test:
 
 ```js
-test("given a url with one pair of query params, returns them in object form", function () {
+test("given a query string with one pair of query params, returns them in object form", function () {
   const input = "user=mitch";
   const currentOutput = parseQueryString(input);
   const targetOutput = { user: "mitch" };
