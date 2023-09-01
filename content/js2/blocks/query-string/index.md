@@ -1,7 +1,7 @@
 +++
 title = '❓🪢 Query strings'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -16,7 +16,12 @@ Websites have addresses called urls like this: "https://github.com/Dedekind561"
 
 urls also make use of **query strings**:
 
-"https://github.com/Dedekind561?tab=overview"
+https://github.com/Dedekind561?tab=overview
+
+For url above the **query string** is "tab=overview"
+In this case, `tab` is a key and `overview` is a value.
+However, a stirng isn't a useful structure for the data. We cannot easily access the value from this string given a key.
+However, objects are designed to store key-value pairs in this way.
 
 Query strings go at the end of a url and are used to search for more specific content from a particular website.
 Given a query string, we'd like to access what the value of a query parameter is given a key.

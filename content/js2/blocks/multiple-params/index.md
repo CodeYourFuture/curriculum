@@ -9,6 +9,8 @@ emoji= '🧩'
 +++
 
 We can now take on another test case: when there are multiple query parameters in the url string.
+In the case where the query string has multiple parameters, then each key-value pair is separated by a `&` (ampersand)
+symbol
 
 ```js
 test("given a query string with multiple key-value pairs, returns them in object form", function () {
@@ -16,17 +18,18 @@ test("given a query string with multiple key-value pairs, returns them in object
   const currentOutput = parseQueryString(input);
   const targetOutput = { fruit: "apple", from: "y" };
 
-  expect(currentOutput).toEqual(targetOutput);
+  expect(currentOutput).toStrictEqual(targetOutput);
 });
 ```
 
 ### 🧭 Strategy
 
-Our strategy will consist of 2 sub-goals.
+We've already worked out how to update the query params object given a single key-value pair in the query string.
+So our strategy will be to break the query string part into an array of key-value pairs👍
 
-> 🎯 Sub-goal 1: split the query string into an array of key-value pairs
->
-> 🎯 Sub-goal 2: iterate through the key-value pairs and update the query params object
+> 💡 Key insight: If we can do it for **one pair**, we can try doing it for a **list of pairs** too.
+
+Our strategy will consist of breaking the query string into an array and then iterating through it to update the query object on each iteration.
 
 Let's start with the first sub-goal.
 
@@ -44,7 +47,7 @@ function parseQueryString(queryString) {
 
 > 🎯 Sub-goal 2: iterate through the key-value pairs and update the query params object
 
-Now we can iterate through the key-value pairs and update the `queryParams` object each time.
+Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time.
 
 ```js {linenos=table,hl_lines=["6-9"] ,linenostart=1}
 function parseQueryString(queryString) {

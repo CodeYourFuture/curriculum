@@ -1,7 +1,7 @@
 +++
 title = '❓ No parameters'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -42,3 +42,7 @@ If it should pass with deep equality, replace "toBe" with "toStrictEqual"
 ```
 
 In other words, `toBe` checks **references** of two objects. As `currentOutput`and `targetOutput` point to different objects - this can never be true. However, we can use a different matcher that compares the **contents** of the two objects. We can use [`toStrictEqual`](https://jestjs.io/docs/expect#tostrictequalvalue) to check that both objects have exaclty the same contents.
+
+```js
+expect(currentOutput).toStrictEqual(targetOutput);
+```

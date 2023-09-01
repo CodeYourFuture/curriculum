@@ -22,7 +22,6 @@ function parseQueryString(queryString) {
   const queryParams = {};
 
   const [key, value] = queryString.split("="); // will hold ['fruit', 'banana']
-
   queryParams.key = value; // mutate the queryParams object
 
   return queryParams;
@@ -38,7 +37,6 @@ function parseQueryString(queryString) {
   const queryParams = {};
 
   const [key, value] = queryString.split("="); // will hold ['fruit', 'banana']
-
   queryParams[key] = value; // will set the property name with the value of the key variable
 
   return queryParams;

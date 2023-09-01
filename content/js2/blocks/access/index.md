@@ -25,7 +25,7 @@ We start by referencing the object `profileData`.
 Then we can use `.` notation followed by the key used to look up a value.
 
 ```js
-console.log(profileData.firstName); // logs undefined
+console.log(profileData.firstName); // logs "mitch"
 ```
 
 In this case, address doesn’t exist on the profileData object so we get undefined.
