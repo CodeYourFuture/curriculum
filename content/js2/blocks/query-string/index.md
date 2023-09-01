@@ -14,19 +14,24 @@ Let’s define a problem.
 
 Websites have addresses called urls like this: "https://github.com/Dedekind561"
 
-urls also make use of **query strings**:
+urls also make use of **query strings**. Query strings go at the end of a url and are used to search for more specific content from a particular website
 
-https://github.com/Dedekind561?tab=overview
+https://example.com/widgets?colour=blue&sort=newest
 
-For url above the **query string** is "tab=overview"
-In this case, `tab` is a key and `overview` is a value.
-However, a stirng isn't a useful structure for the data. We cannot easily access the value from this string given a key.
+For url above the **query string** is ` "colour=blue&sort=newest"`
+In the string, each key-value pair is separated by a `&` (ampersand).
+However, a string isn't a useful structure for the data. We cannot easily access the value from this string given a key.
 However, objects are designed to store key-value pairs in this way.
 
-Query strings go at the end of a url and are used to search for more specific content from a particular website.
-Given a query string, we'd like to access what the value of a query parameter is given a key.
-For example, given the url `http://some-api.com?artist=beyonce` we'd like to ask what the value is associated with the key "artist". Accessing strings like this is tricky: it would be much easier if they key-value pairs where stored in an object.
-For example, for a string like `"http://some-api.com?artist=beyonce"` we could use an object `{ artist: "beyonce" }`.
+We're going to implement a function `parseQueryString` defined as follows:
 
-We're going to implement a function `parseQueryString` that takes a query string as an argument and
-returns an object with the key-value pairs from query string.
+_Given_ a query string and a function `parseQueryString`,
+_When_ we call `parseQueryString` with a query string,
+_Then_ it should return an object with the key-value pairs
+
+E.g.
+
+```js
+parseQueryString("colour=blue&sort=newest");
+// returns { colour: "blue, sort: "newest" }`
+```
