@@ -56,9 +56,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-Now finally, we need to put them into an object.
-
-We could define an empty object `queryParameters`
+Now finally, we need to put them into the `queryParams` object.
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function parseQueryString(queryString) {
