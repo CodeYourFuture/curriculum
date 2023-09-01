@@ -5,16 +5,10 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Identify the query parameters in a url'
+    1='Explain when square bracket notation may be necessary to access an object'
 +++
 
-We can mutate an object using `.` dot notation. However, if we look at the return value we get
-
-![literal-key](literal-key.png)
-
-We expect an object with `{ user: "mitch" }`
-but instead we get `{ key: "mitch" }`
-
+We can mutate an object using `.` dot notation. However, if we look at the return value we get `{key : "mitch"}`.
 Let's take another look at our current implementation of `parseQueryString`
 
 ```js {linenos=table,hl_lines=["6"],linenostart=1}
