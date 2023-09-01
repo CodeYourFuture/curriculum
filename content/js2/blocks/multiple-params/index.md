@@ -5,13 +5,13 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
+    1='Describe how to update a strategy for a collection of items'
 +++
 
 We can now take on another test case: when there are multiple query parameters in the url string.
 
 ```js
-test("given a url with multiple key-value pairs, returns them in object object form", function () {
+test("given a query string with multiple key-value pairs, returns them in object form", function () {
   const input = "fruit=apple&city=london";
   const currentOutput = parseQueryString(input);
   const targetOutput = { fruit: "apple", from: "y" };
