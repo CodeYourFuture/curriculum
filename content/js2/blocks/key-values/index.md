@@ -1,7 +1,7 @@
 +++
 title = '🗝️ Key value pairs'
 headless = true
-time = 30
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]

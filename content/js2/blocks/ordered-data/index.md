@@ -1,7 +1,7 @@
 +++
 title = '📏 Limitations of ordered lists'
 headless = true
-time = 20
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]

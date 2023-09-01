@@ -1,17 +1,17 @@
 +++
 title = '[ ] Variable property names'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain when square bracket notation may be necessary to access an object'
 +++
 
-We can mutate an object using `.` dot notation. However, if we look at the return value we get `{key : "mitch"}`.
+We can mutate an object using `.` dot notation. However, if we look at the return value we get `{ key : "mitch"}`.
 Let's take another look at our current implementation of `parseQueryString`
 
-```js {linenos=table,hl_lines=["6"],linenostart=1}
+```js {linenos=table,hl_lines=["5"],linenostart=1}
 function parseQueryString(queryString) {
   const queryParams = {};
 
@@ -26,7 +26,7 @@ Inside `parseQueryString`, `key` is an **identifier**. An `identifier` is used t
 When `parseQueryString` is called with `"user=mitch"` then `key` will be assigned the value of "user". So we want to update the object with a property name that is the value of the `key` variable and not the string "key".
 We can do this by using square bracket notation.
 
-```js {linenos=table,hl_lines=["6"],linenostart=1}
+```js {linenos=table,hl_lines=["5"],linenostart=1}
 function parseQueryString(queryString) {
   const queryParams = {};
 
