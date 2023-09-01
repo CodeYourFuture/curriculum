@@ -17,6 +17,9 @@ src="module"
 name="access"
 [[blocks]]
 src="module"
+name="mutating"
+[[blocks]]
+src="module"
 name="query-string"
 [[blocks]]
 src="module"
