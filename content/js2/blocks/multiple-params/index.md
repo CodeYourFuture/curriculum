@@ -24,8 +24,7 @@ test("given a query string with multiple key-value pairs, returns them in object
 
 ### 🧭 Strategy
 
-We've already worked out how to update the query params object given a single key-value pair in the query string.
-So our strategy will be to break the query string part into an array of key-value pairs👍
+We've already worked out how to update the query params object given a single key-value pair in the query string. So our strategy will be to break the query string part into an array of key-value pairs👍
 
 > 💡 Key insight: If we can do it for **one pair**, we can try doing it for a **list of pairs** too.
 
@@ -35,7 +34,7 @@ Let's start with the first sub-goal.
 
 #### 🎯 Sub-goal 1: split the query string into an array of key-value pairs
 
-Query strings with muliple key-value pairs use `&` as a separator. E.g. `sort=lowest&colour=yellow`. We want to break `sort=lowest&colour=yellow` into `["sort=yellow", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
+Query strings with muliple key-value pairs use `&` as a separator e.g. `sort=lowest&colour=yellow`. We want to break `sort=lowest&colour=yellow` into `["sort=yellow", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
 
 ```js {linenos=table,hl_lines=[4] ,linenostart=1}
 function parseQueryString(queryString) {
