@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Describe how to update a strategy for a collection of items'
+    1='Describe how to extend a strategy for one item to multiple items'
 +++
 
 We can now take on another test case: when there are multiple query parameters in the url string.
@@ -35,7 +35,7 @@ Let's start with the first sub-goal.
 
 > 🎯 Sub-goal 1: split the query string into an array of key-value pairs
 
-We can take the "to=x&from=y" string and split it by the "&" character.
+We can take the `"to=x&from=y"` string and split it by the `"&"` character.
 
 ```js {linenos=table,hl_lines=[4] ,linenostart=1}
 function parseQueryString(queryString) {
