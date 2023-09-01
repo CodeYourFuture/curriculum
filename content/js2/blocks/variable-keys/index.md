@@ -74,7 +74,6 @@ We've currently got the following test suite:
 {{<tab name="🧠 Explain">}}
 We've got a situation where the first test case (for an empty string) is no longer working.
 Explain why this test case is no longer passing for the first test case. **Playing computer** will help you to explain why!
-![parse-query-test-feedback](parse-query-test-feedback.png)
 
 {{</tab>}}
 
