@@ -24,9 +24,15 @@ test("given a query string with no query parameters, returns an empty object", f
 });
 ```
 
-We can pass this test just by returning an empty object for now.
-We can define a function `parseQueryString` as follows:
-We can rerun the tests. However, we get the following feedback:
+We can pass this test just by returning an empty object for now. We can define a function `parseQueryString` as follows:
+
+```js
+function parseQueryString() {
+  return {};
+}
+```
+
+However, after re-running the tests, we get the following feedback:
 ![to-be-check-error](to-be-check-error.png)
 
 ### Checking objects
@@ -37,7 +43,7 @@ And `targetOutput` is assigned a reference to a **different object**.
 
 If we perform the check with the `toBe` matcher we get a message back from Jest:
 
-```terminal
+```console
 If it should pass with deep equality, replace "toBe" with "toStrictEqual"
 ```
 
