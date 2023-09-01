@@ -6,9 +6,10 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain when square bracket notation may be necessary to access an object'
+    2='Explain why a previous test breaks once the implementation changes'
 +++
 
-We can mutate an object using `.` dot notation. However, if we look at the return value we get `{ key : "mitch"}`.
+We can mutate an object using `.` dot notation. However, if we look at the return value we get `{ key : "banana"}`.
 Let's take another look at our current implementation of `parseQueryString`
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
@@ -23,7 +24,7 @@ function parseQueryString(queryString) {
 ```
 
 Inside `parseQueryString`, `key` is an **identifier**. An `identifier` is used to identify a value.
-When `parseQueryString` is called with `"user=mitch"` then `key` will be assigned the value of "user". So we want to update the object with a property name that is the value of the `key` variable and not the string "key".
+When `parseQueryString` is called with `"fruit=banana"` then `key` will be assigned the value of ` "user"`. So we want to update the object with a property name that is the value of the `key` variable and not the string `"key"`.
 We can do this by using square bracket notation.
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
@@ -36,3 +37,45 @@ function parseQueryString(queryString) {
   return queryParams;
 }
 ```
+
+{{<tabs>}}
+
+{{<tab name="Tests">}}
+We've currently got the following test suite:
+
+```js
+describe("parseQueryString()", () => {
+  test("given a queryString with no query parameters, returns an empty object", function () {
+    const input = "";
+    const currentOutput = parseQueryString(input);
+    const targetOutput = {};
+
+    expect(currentOutput).toStrictEqual(targetOutput);
+  });
+  test("given a queryString with one pair of query params, returns them in object form", function () {
+    const input = "user=mitch";
+    const currentOutput = parseQueryString(input);
+    const targetOutput = { user: "mitch" };
+
+    expect(currentOutput).toStrictEqual(targetOutput);
+  });
+});
+```
+
+{{</tab>}}
+
+{{<tab name="Feedback">}}
+We've currently got the following test suite:
+
+![parse-query-test-feedback](parse-query-test-feedback.png)
+
+{{</tab>}}
+
+{{<tab name="🧠 Explain">}}
+We've got a situation where the first test case (for an empty string) is no longer working.
+Explain why this test case is no longer passing for the first test case. **Playing computer** will help you to explain why!
+![parse-query-test-feedback](parse-query-test-feedback.png)
+
+{{</tab>}}
+
+{{</tabs>}}
