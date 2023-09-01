@@ -29,3 +29,23 @@ console.log(profileData.firstName); // logs undefined
 ```
 
 In this case, address doesn’t exist on the profileData object so we get undefined.
+
+{{<tabs name="Exercises">}}
+
+{{<tab name="Predict and explain 💬 🧠">}}
+
+```js
+const profileData = {
+  firstName: "mitch",
+  lastName: "lloyd",
+  age: 32,
+};
+console.log(profileData.city);
+console.log(profileData.firstname);
+```
+
+Predict and explain what the console output be when we run the code above runs?
+
+{{</tab>}}
+
+{{</tabs>}}
