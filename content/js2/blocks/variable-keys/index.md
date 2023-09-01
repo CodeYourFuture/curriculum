@@ -53,9 +53,9 @@ describe("parseQueryString()", () => {
     expect(currentOutput).toStrictEqual(targetOutput);
   });
   test("given a queryString with one pair of query params, returns them in object form", function () {
-    const input = "user=mitch";
+    const input = "fruit=banana";
     const currentOutput = parseQueryString(input);
-    const targetOutput = { user: "mitch" };
+    const targetOutput = { fruit: "banana" };
 
     expect(currentOutput).toStrictEqual(targetOutput);
   });
