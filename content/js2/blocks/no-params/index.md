@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain when toBe cannot be used to compare 2 objects'
+    1='Explain why toBe cannot be used to compare the contents of two objects'
 +++
 
 Let's look at an empty query string.
