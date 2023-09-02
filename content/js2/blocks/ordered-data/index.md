@@ -52,7 +52,7 @@ The items in the left column are called **keys**. A **key** is a label for a pie
 The items in the right column are called **values**. A **value** is a label for a piece of data itself.
 Each row consisting of a key and a value is called a **property**.
 
-In JavaScript, we can use {{<tooltip title="object">}}An **object** is a collection of properties. Each property is a key-value pair{{</tooltip>}}[**objects**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects) to hold data in a table-like way, where we can look up data using a `key`.
+In JavaScript, we can use an {{<tooltip title="object">}}An **object** is a collection of properties. Each property is a key-value pair{{</tooltip>}}to hold data in a table-like way, where we can look up data using a `key`.
 We can declare an object in the following way:
 
 ```js
