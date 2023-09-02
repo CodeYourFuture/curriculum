@@ -1,5 +1,5 @@
 +++
-title = '[ ] Variable property names'
+title = '[ ] Access with variables'
 headless = true
 time = 20
 facilitation = false
@@ -23,8 +23,10 @@ function parseQueryString(queryString) {
 }
 ```
 
-On line 4, we're declaring an **identifier** called `key`. When `parseQueryString` is called with `"fruit=banana"` then `key` will be assigned the value of `"fruit"`. _So we want to update the object with a property name that is the value of the `key` variable and not the string `"key"`._
-We can do this by using square bracket notation.
+On line 4, we're declaring an **identifier** called `key`. When `parseQueryString` is called with `"fruit=banana"` then `key` will be assigned the value of `"fruit"`.
+
+> We want to add a property name to the object that is the value of the `key` variable and not the string `"key"`.
+> We can do this with square bracket notation:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function parseQueryString(queryString) {
