@@ -53,9 +53,9 @@ const handler: Handler = async (event: HandlerEvent, context) => {
 
   const url = new URL(prevPath || "/", config().domain);
 
-  // if issue is defined, we clone that issue
+  // if issue is defined, we clone just that issue
   if (issue) {
-    const resp = await gh.cloneIssue(module, issue).catch((err) => {
+    await gh.cloneIssue(module, issue).catch((err) => {
       console.error(err);
       url.searchParams.set("error", err.message);
       return redirect(url.toString());
