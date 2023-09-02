@@ -8,9 +8,11 @@ emoji= '🧩'
     1='Describe how to extend a strategy for one item to multiple items'
 +++
 
-We can now take on another test case: when there are multiple query parameters in the url string.
-In the case where the query string has multiple parameters, then each key-value pair is separated by a `&` (ampersand)
-symbol
+Let's consider the case when there are multiple query parameters in the query string.
+
+{{<note type="tip" title="Recall">}}
+In the case when the query string has multiple query parameters, then each key-value pair is separated by an ampersand character `&`.
+{{</note>}}
 
 ```js
 test("given a query string with multiple key-value pairs, returns them in object form", function () {
@@ -24,17 +26,17 @@ test("given a query string with multiple key-value pairs, returns them in object
 
 ### 🧭 Strategy
 
-We've already worked out how to update the query params object given a single key-value pair in the query string. So our strategy will be to break the query string part into an array of key-value pairs👍
+We've already worked out how to update the query params object given a **single key-value pair** in the query string.
 
 > 💡 Key insight: If we can do it for **one pair**, we can try doing it for a **list of pairs** too.
 
-Our strategy will consist of breaking the query string into an array and then iterating through it to update the query object on each iteration.
+Our strategy will be to break the query string apart into an array of key-value pairs. Once we've got an array we can try iterating through it and storing each key value pair inside the `queryParams` object.
 
 Let's start with the first sub-goal.
 
 #### 🎯 Sub-goal 1: split the query string into an array of key-value pairs
 
-Query strings with muliple key-value pairs use `&` as a separator e.g. `sort=lowest&colour=yellow`. We want to break `sort=lowest&colour=yellow` into `["sort=yellow", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
+Query strings with multiple key-value pairs use `&` as a separator e.g. `sort=lowest&colour=yellow`. We want to split `sort=lowest&colour=yellow` into `["sort=yellow", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
 
 ```js {linenos=table,hl_lines=[4] ,linenostart=1}
 function parseQueryString(queryString) {
@@ -44,7 +46,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-#### 🎯 Sub-goal 2: iterate through the key-value pairs and update the query params object
+#### 🎯 Sub-goal 2: add each key-value pair in the array to the query params object
 
 Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time.
 

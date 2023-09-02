@@ -5,8 +5,9 @@ time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Identify key-value pairs in an object literal'
-    2='Define an object property'
+    1='Define an object property'
+    2='Identify key-value pairs in an object literal'
+
 +++
 
 As with the table, the `profileData` object is made up of **properties**.
@@ -17,10 +18,11 @@ Each **property** is an association between a key and a value.
   firstName: "Francesco",
   lastName: "Leoni",
   age: 33,
+  cityOfResidence: "Manchester"
 };
 ```
 
 In the {{<tooltip title="object literal">}} An object literal is an object defined by writing a comma-separated list of key-value pairs inside of curly braces.{{</tooltip>}} above, there are 3 properties.
-The first property consists of `firstName: "Francesco"`.
+The first property consists of `firstName` and `"Francesco"`. `firstName` is a key and the value associated with it is `"Francesco"`.
 
-This property forms a **key-value pair**, the string on the left of the `:` is the key `firstName`. On the right of the `:` is the property value "Francesco". In objects, each **key-value pair** is separated by a comma.
+In objects, each **key-value pair** is separated by a comma.

@@ -5,11 +5,11 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain why when we have to use square bracket notation to update an object'
+    1='Explain how to split a string up into an array'
     2='Destructure an array of length 2'
 +++
 
-Let's consider another test case: make the function work for a url with a single key-value pair.
+Let's consider another test case: when the query string contains a single key-value pair.
 We can write a test:
 
 ```js
@@ -24,11 +24,7 @@ test("given a query string with one pair of query params, returns them in object
 
 ### 🧭 Strategy
 
-We first need to separate out the `"fruit=banana"` string so we can access `"fruit"` and `"banana"` separately. We can do this by splitting up the string by the `=` character.
-
-We can split the string into an array consisting of `['fruit', 'banana']`
-
-Then we can grab the array's contents and assign the elements meaningful names.
+We first need to separate out the `"fruit=banana"` string so we can access `"fruit"` and `"banana"` separately. We can do this by splitting up the string by the `=` character. We can split the string into an array consisting of `['fruit', 'banana']`. Then we can grab the array's contents and assign the elements meaningful names:
 
 ```js
 function parseQueryString(queryString) {
@@ -69,9 +65,6 @@ function parseQueryString(queryString) {
   return queryParams;
 }
 ```
-
-On line 7, we're mutating the object `queryParams` by adding a key "key" and a value.
-However, we want the key to be the value that the `key` variable holds.
 
 {{<tabs>}}
 {{<tab name="Check it">}}

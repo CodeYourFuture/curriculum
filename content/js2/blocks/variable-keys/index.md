@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Explain why a previous test breaks once the implementation changes'
 +++
 
-We can mutate an object using `.` dot notation. However, if we look at the return value we get `{ key : "banana"}`.
-Let's take another look at our current implementation of `parseQueryString`
+We can mutate an object using `.` dot notation. However, if we look at the return value in the previous implementation we get `{ key : "banana"}`.
+Let's take another look at our current implementation of `parseQueryString`:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
 function parseQueryString(queryString) {
@@ -23,8 +23,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-Inside `parseQueryString`, `key` is an **identifier**. An `identifier` is used to identify a value.
-When `parseQueryString` is called with `"fruit=banana"` then `key` will be assigned the value of ` "user"`. So we want to update the object with a property name that is the value of the `key` variable and not the string `"key"`.
+On line 4, we're declaring an **identifier** called `key`. When `parseQueryString` is called with `"fruit=banana"` then `key` will be assigned the value of `"fruit"`. _So we want to update the object with a property name that is the value of the `key` variable and not the string `"key"`._
 We can do this by using square bracket notation.
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}

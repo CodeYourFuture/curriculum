@@ -8,9 +8,9 @@ emoji= '🧩'
     1='Explain why toBe cannot be used to compare the contents of two objects'
 +++
 
-Let's look at an empty query string.
+Let's look at the case where the query string is an empty string.
 
-In this particular case, we need to think of an output that makes sense. In a situation where there are no query parameters we can just return an _empty object_.
+In this case, we need to think of an output that makes sense. As there are no query parameters, it makes sense to return an empty object.
 
 We can write a test case as follows:
 
