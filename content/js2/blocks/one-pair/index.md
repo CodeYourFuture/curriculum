@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain how to split a string up into an array'
+    1='Suggest a way of splitting a string up into an array'
     2='Destructure an array of length 2'
 +++
 
