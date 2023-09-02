@@ -1,7 +1,7 @@
 +++
 title = '❓🪢 Query strings'
 headless = true
-time = 20
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -30,5 +30,5 @@ E.g.
 
 ```js
 parseQueryString("colour=blue&sort=newest");
-// returns { colour: "blue, sort: "newest" }`
+// should return { colour: "blue, sort: "newest" }`
 ```
