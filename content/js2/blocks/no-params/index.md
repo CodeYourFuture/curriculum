@@ -37,9 +37,7 @@ However, after re-running the tests, we get the following feedback:
 
 ### Checking objects
 
-In our test, `parseQueryString` returns a reference to an empty object.
-So `currentOutput` is assigned this reference.
-And `targetOutput` is assigned a reference to a **different object**.
+In our test, `parseQueryString` returns a reference to an empty object. So `currentOutput` is assigned this reference. And `targetOutput` is assigned a reference to a **different object**.
 
 If we perform the check with the `toBe` matcher we get a message back from Jest:
 
