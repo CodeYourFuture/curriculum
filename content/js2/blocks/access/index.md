@@ -8,15 +8,15 @@ emoji= '🧩'
     1='Access object property values with dot notation'
 +++
 
-We use . dot notation to access values using their key.
+We use . dot notation to access values using their associated key.
 
 Given an object
 
 ```js
 const profileData = {
-  firstName: "mitch",
-  lastName: "lloyd",
-  age: 32,
+  firstName: "Franesco",
+  lastName: "Leoni",
+  age: 33,
 };
 ```
 
@@ -25,10 +25,22 @@ We start by referencing the object `profileData`.
 Then we can use `.` notation followed by the key used to look up a value.
 
 ```js
-console.log(profileData.firstName); // logs "mitch"
+console.log(profileData.firstName); // logs "Francesco"
 ```
 
-In this case, address doesn’t exist on the profileData object so we get undefined.
+### Mutation
+
+Objects are **mutable** data structures. We can use the assignment operator `=` to update the value associated with a particular key.
+
+```js{linenos=table,hl_lines=["6"],linenostart=1}
+const profileData = {
+  firstName: "Francesco",
+  lastName: "Leoni",
+  age: 33,
+};
+profileData.firstName = "Fraz";
+console.log(profileData.firstName); // firstName is now "Fraz"
+```
 
 {{<tabs name="Exercises">}}
 
@@ -36,15 +48,17 @@ In this case, address doesn’t exist on the profileData object so we get undefi
 
 ```js
 const profileData = {
-  firstName: "mitch",
-  lastName: "lloyd",
-  age: 32,
+  firstName: "Francesco",
+  lastName: "Leoni",
+  age: 33,
 };
-console.log(profileData.city);
-console.log(profileData.firstname);
+const twinData = profileData;
+twinData.age++;
+console.log(profileData === twinData);
+console.log(profileData.age);
 ```
 
-Predict and explain what the console output be when we run the code above runs?
+Predict and explain what the console output be when we run the code above runs.
 
 {{</tab>}}
 
