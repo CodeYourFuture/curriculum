@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Access object property values with dot notation'
 +++
 
-You've already accessed object property values. `console` is an object:
+We've already accessed object property values. `console` is an object:
 
 ```console
 Welcome to Node.js v16.19.1.
