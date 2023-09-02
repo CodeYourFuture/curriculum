@@ -8,8 +8,27 @@ emoji= '🧩'
     1='Access object property values with dot notation'
 +++
 
-We use . dot notation to access values using their associated key.
+You've already accessed object property values. `console` is an object.
 
+```console
+Welcome to Node.js v16.19.1.
+Type ".help" for more information.
+> console
+Object [console] {
+  log: [Function: log],
+  warn: [Function: warn],
+  dir: [Function: dir],
+  time: [Function: time],
+  timeEnd: [Function: timeEnd],
+  .
+  .
+  .
+}
+```
+
+We use dot notation to access the property value associated with a property key. So we can write `console.log` - think of this as saying: "go to the console object and give me the value that has a key of "log"
+
+Similarly we can use dot notation to access property values stored in object literals.
 Given an object
 
 ```js
