@@ -37,7 +37,7 @@ However, after re-running the tests, we get the following feedback:
 
 ### Checking objects
 
-In our test, `parseQueryString` returns a reference to an empty object. So `currentOutput` is assigned this reference. And `targetOutput` is assigned a reference to a **different object**.
+In our test, `parseQueryString` returns a reference to an empty object. So `currentOutput` is assigned this reference. But `targetOutput` is assigned a reference to a **different object**.
 
 If we perform the check with the `toBe` matcher we get a message back from Jest:
 
@@ -45,7 +45,7 @@ If we perform the check with the `toBe` matcher we get a message back from Jest:
 If it should pass with deep equality, replace "toBe" with "toStrictEqual"
 ```
 
-In other words, `toBe` checks **references** of two objects. As `currentOutput`and `targetOutput` point to different objects - this can never be true. However, we can use a different matcher that compares the **contents** of the two objects. We can use [`toStrictEqual`](https://jestjs.io/docs/expect#tostrictequalvalue) to check that both objects have exaclty the same contents.
+In other words, `toBe` checks the **references** of the two objects. As `currentOutput`and `targetOutput` point to different objects - this can never be true. However, we can use a different matcher that compares the **contents** of the two objects. We can use [`toStrictEqual`](https://jestjs.io/docs/expect#tostrictequalvalue) to check that both objects have exactly the same contents:
 
 ```js
 expect(currentOutput).toStrictEqual(targetOutput);
