@@ -1,7 +1,7 @@
 +++
 title = '📤 Responding to interactions'
 headless = true
-time = 30
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
