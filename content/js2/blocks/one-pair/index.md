@@ -39,7 +39,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-However, instead of accessing the array's elements like this, we can use array destructuring to access the elements.
+However, instead of accessing the array's elements like this, we can use [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to access the elements.
 
 ```js
 function parseQueryString(queryString) {
