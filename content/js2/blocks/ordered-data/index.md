@@ -24,7 +24,7 @@ At the moment, we could visualise `profileData` in a table like this:
 |   2   |      33      |
 |   3   | "Manchester" |
 
-Inside `profileData` we access items using an `index`. However, with an ordered list of items _we can't tell what each item in the list represents_. We only know the position of data in the array. We could access the item at index 3 to get `"Manchester"`: however, we don't know what `"Manchester"` tells us about the user. `"Manchester"` could be the city they currently live in, it could be their city of birth, a place where they studied in the past etc. We need to know the values but also what these pieces of data represent for the user.
+Inside `profileData` we access items using an `index`. However, with an ordered list of items _we can't tell what each item in the list represents_. We only know the position of data in the array. We could access the item at index 3 to get `"Manchester"`: however, we don't know what `"Manchester"` tells us about the user. `"Manchester"` could be the city they currently live in, it could be their city of birth, a place where they studied in the past etc. We need to know the values but also what these values represent about the user.
 
 ### Keys not indexes
 
