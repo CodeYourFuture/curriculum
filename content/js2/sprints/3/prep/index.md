@@ -11,7 +11,7 @@ src="module"
 name="browser"
 [[blocks]]
 src="module"
-name="word-limit"
+name="character-limit"
 [[blocks]]
 src="module"
 name="dom"
