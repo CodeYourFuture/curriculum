@@ -14,9 +14,9 @@ In programming we often want to _reuse_ our work. Consider the string: `"Hello t
 
 Suppose we want to create different greetings for different people, like: `"Hello there, Alicia"` `"Hello there, Barny";`
 
-We can use a **variable** to store this string and reuse it. How can we create a {{<tooltip title="variable" emoji="🏷️">}} A **variable** is a label for a piece of data. We assign a piece of data to a label and then refer back to this label, in place of the data.{{</tooltip>}}
+We can use a **variable** to store this string and reuse it. How can we create a {{<tooltip title="variable" emoji="🏷️">}}A **variable** is a label for a piece of data. We assign a piece of data to a label and then refer back to this label, in place of the data.{{</tooltip>}}
 
-We can create a variable in our program by writing a **variable declaration**, like this:
+We can create a variable in our program by writing a **variable **{{<tooltip title="declaration" type="definition">}}A _declaration_ is an instruction that binds an identifier to a value.{{</tooltip>}}, like this:
 
 ```js title="variable declaration"
 const greeting = "Hello there";
@@ -25,7 +25,7 @@ const greeting = "Hello there";
 Break down the different syntactic elements of this variable declaration:
 
 - `const` is a keyword used to indicate we're creating a variable.
-- `greeting` is the variable name - like the name of the label for our piece of data.
+- `greeting` is the **identifier** - it is used to refer to a variable.
 - `=` this is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
 - `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
 
@@ -53,7 +53,7 @@ Our `greeting` variable is stored in memory. We can reuse it to build more expre
 {{</tab>}}
 {{<tab name="Watch and follow along">}}
 
-[greeting](greeting.gif "Store your string in a variable and reuse it")
+![greeting](greeting.gif "Store your string in a variable and reuse it")
 {{</tab>}}
 {{</tabs>}}
 
@@ -90,30 +90,3 @@ const greetAlicia = `${greeting}, ${name}`;
 ```
 
 The `greetAlicia` variable doesn't remember whether you used variables to make it or not - in all three cases, `greetAlicia` contains the string `"Hello there, Alicia"`. Once a value is made, it doesn't matter _how_ it was made.
-
-### 💬 Making statements
-
-A variable declaration is an example of a{{<tooltip title="statement" type="definition">}} A **statement** is an instruction that produces some effect.{{</tooltip>}} A variable declaration is an example of a statement that has the _effect_ of creating a variable.
-
-```js
-const name = "Alicia"; // statement 1
-const greetAlicia = `Hello there, ${name}`; // statement 2
-```
-
-The code above has two variable declarations; these are two different statements.
-
-1. The first statement is an instruction to create a variable `name` with a value of "Alicia"
-1. The second statement is an instruction to create a variable `greetAlicia` with a value of `"Hello there, Alicia"`
-
-But some statements don't have useful effects.
-
-```js
-7 * 24; // <-- expression statement
-365 * 3; // <-- expression statement
-```
-
-The code above consists of two **expression statements**.
-
-**Expression statements** consist of an expression followed by a semi-colon `;`. When the computer executes the code shown, it will calculate the value of each expression but no other effect will take place. The values won't get stored anywhere as we're not using variable declaration statements.
-
-In JavaScript, programs are built by combining _useful_ statements.

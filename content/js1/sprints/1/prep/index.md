@@ -23,6 +23,9 @@ src="js1/blocks/repl"
 name="variables"
 src="js1/blocks/variables"
 [[blocks]]
+name="declarations-statements"
+src="module"
+[[blocks]]
 name="functions"
 src="js1/blocks/functions"
 [[blocks]]
