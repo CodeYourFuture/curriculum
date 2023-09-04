@@ -4,7 +4,7 @@ title: Creating a React App
 emoji: 🪄
 ---
 
-The Facebook team behind React have created a tool to help you create and set up React projects. It is called [Create React App](https://create-react-app.dev/). The official documentation is available [here](https://create-react-app.dev/docs/getting-started).
+The Facebook team behind React has created a tool to help you create and set up React projects. It is called [Create React App](https://create-react-app.dev/). The official documentation is available [here](https://create-react-app.dev/docs/getting-started).
 
 Install & set up a Create React App by following the steps below:
 
