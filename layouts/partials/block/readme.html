@@ -9,7 +9,7 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-      {{ partial "time.html" (merge $blockData (dict "time" $blockData.time)) }}
+      {{ partial "time.html" . }}
     </header>
     <div class="c-block__content c-copy">
       {{ $response.content | base64Decode | replaceRE "<!--" "" | replaceRE "-->" ""  | markdownify }}
