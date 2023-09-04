@@ -78,7 +78,7 @@ Once you have solved the problem, you should remove large sections of commented 
 
 You might be worried about "losing" some experimental code that you want to "save" by commenting it out. However, this can cause confusion about which bits of code still work.
 
-If you want to save some code, remember that you can commit it using Git. It will then be saved it forever. If you decide to remove the code later you can delete it and make another commit. And if you want it back again, you can always look at the deleted code in the git history.
+If you want to save some code, remember that you can commit it using Git. It will then be saved forever. If you decide to remove the code later you can delete it and make another commit. And if you want it back again, you can always look at the deleted code in the git history.
 
 ### Don't leave unused variables
 
@@ -121,7 +121,7 @@ By doing this it makes it easier to read variable name that have multiple "words
 
 ### Avoid short names
 
-Very short variable names can be difficult to understand since the purpose of the variable can be unclear. They are also difficult remember, especially if there are many similarly named variables. Try to avoid short names or abbreviations.
+Very short variable names can be difficult to understand since the purpose of the variable can be unclear. They are also difficult to remember, especially if there are many similarly named variables. Try to avoid short names or abbreviations.
 
 Here are some examples of **bad** names that you should avoid:
 
@@ -212,7 +212,7 @@ This will
 
 1. Make your code easier to read
 2. Make your code easier to maintain
-3. Make your code easier to review by out volunteers
+3. Make your code easier to review by our volunteers
 
 When you writing code you should also try to keep in mind that you will only ever write the code once, but you will read the code many times. Always aim to write code that is readable.
 
@@ -222,7 +222,7 @@ For more details you can read these useful articles
 
 ## Advanced
 
-These additional rules may be harder for you to understand at the start of your programming journey however they are important concepts as your develop.
+These additional rules may be harder for you to understand at the start of your programming journey however they are important concepts as you develop.
 
 ### Remember your audience
 
