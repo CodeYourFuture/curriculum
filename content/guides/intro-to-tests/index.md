@@ -6,7 +6,7 @@ emoji="🧪"
 
 ## What does this cover
 
-This introduction is designed to give you a high-level overview on the basics of testing, which you'll need when you're tackling the problems in your coursework at Code Your Future.
+This introduction is designed to give you a high-level overview of the basics of testing, which you'll need when you're tackling the problems in your coursework at Code Your Future.
 In this introduction to testing we'll cover the following things:
 
 - Why test ?
@@ -134,7 +134,7 @@ Write a test similar to the one above that checks the following behaviour: "numb
 
 ### Additional setup
 
-We can write tests in lots of different ways. Sometimes developers may write additional variabes in order to label some of the values in the test code more clearly. We could re-write the test above in the following way:
+We can write tests in lots of different ways. Sometimes developers may write additional variables in order to label some of the values in the test code more clearly. We could re-write the test above in the following way:
 
 ```js
 test("one word string gives a count of 1", function () {
@@ -173,7 +173,7 @@ We often need to use packages of code written by other developers in our project
 
 ### Installing dependencies
 
-`npm` is a tool that is used to download and install dependecies in a project. We can use `npm` to install Jest with the following command:
+`npm` is a tool that is used to download and install dependencies in a project. We can use `npm` to install Jest with the following command:
 
 ```bash
 npm install --save-dev jest
@@ -201,7 +201,7 @@ Once the installation has completed successfully we should now have a directory 
 
 ### `package.json`
 
-A `package.json` is a file that contains important details about the project your're working on. It could contain information about the author of the project and other important details too. In order to test our code, we'll need to update the `package.json` so we can run our tests with Jest.
+A `package.json` is a file that contains important details about the project you're working on. It could contain information about the author of the project and other important details too. In order to test our code, we'll need to update the `package.json` so we can run our tests with Jest.
 
 ### Running the tests
 
