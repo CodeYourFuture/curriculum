@@ -9,13 +9,19 @@ emoji= '🧩'
 +++
 
 We can start by inspecting the DOM - short for **D**ocument **O**bject **M**odel. The DOM is an API.
-When the browser renders a page it also generates a representation of the document that enables it to be updated. We can use JavaScript to interact with the DOM. This is what enables us to write programs that update the web page.
+When the browser renders a web page it creates the DOM - a representation of the web page. We can use JavaScript to interact with the DOM. This is what enables us to write programs that update the web page.
 
 {{<note type="tip" title="recall">}}
 JavaScript is a programming language. It is a set of rules for writing instructions that are understood by computers.
 {{</note>}}
 
+### 🌳 DOM tree
+
+The DOM is a tree-like structure.
+
 {{<tabs name="dom-html">}}
+We can start solving the character limit problem by defining some HTML.
+You can also view the DOM tree
 {{<tab name="html">}}
 
 ```html
@@ -28,7 +34,7 @@ JavaScript is a programming language. It is a set of rules for writing instructi
   </head>
   <body>
     <input />
-    <label >
+    <label>120 words remaining</label>
   </body>
 </html>
 ```
