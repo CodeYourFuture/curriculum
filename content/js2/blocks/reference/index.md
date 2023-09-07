@@ -46,7 +46,7 @@ Play computer with the code above to step through the code and find out what hap
 
 At this stage in the program, `list` and `copy` point to the same location in memory.
 
-- `push` function mutates the array that `copy` points to.
+- `push` function mutates (changes) the array that `copy` points to.
 - prints out `list`: `[10, 20, 30, 60, 70]`
 - prints out `copy`: `[10, 20, 30, 60, 70]`
 
