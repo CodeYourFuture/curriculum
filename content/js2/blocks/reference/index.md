@@ -88,4 +88,4 @@ const copy = list;
 console.log(list === copy); // evaluates to true
 ```
 
-If we're comparing 2 variables with `===`, then it will check to see if they have the **same reference**.
+If we're comparing 2 array variables with `===`, then it will evaluate to `true` only  if they have the **same reference**.  `===` is comparing the references to the arrays, not the arrays themselves.
