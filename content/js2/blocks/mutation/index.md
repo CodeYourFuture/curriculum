@@ -10,6 +10,9 @@ emoji= '🧩'
 
 Let's take another look at our earlier implementation of `calculateMedian`:
 
+{{<tabs name="implementation">}}
+{{<tab name="calculate median">}}
+
 ```js
 function calculateMedian(list) {
   const middleIndex = Math.floor(list.length / 2);
@@ -17,9 +20,25 @@ function calculateMedian(list) {
 
   return median;
 }
-
-calculateMedian([20, 30, 10, 50, 70, 5, 6]);
 ```
+
+{{</tab>}}
+
+{{<tab name="calculating median and mean">}}
+
+```js
+const salaries = [10, 20, 30, 40, 60, 80, 80];
+
+const median = calculateMedian(salaries);
+// At this point, the array referenced by salaries has been mutated after calculateMedian(salaries), and the same reference is given to calculateMean
+const mean = calculateMean(salaries);
+
+console.log(`The median salary is ${median}`);
+console.log(`The mean salary is ${mean}`);
+```
+
+{{</tab>}}
+{{</tabs>}}
 
 `calculateMedian` gets the middle value by calling `splice`.
 

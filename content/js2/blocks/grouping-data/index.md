@@ -25,9 +25,7 @@ const price2 = 7.99;
 const price4 = 8.01;
 ```
 
-Each identifier is the word `price` with a numerical suffix to indicate its position in the list.
-
-However, this is _undoubtedly_ the wrong approach.
+Each identifier is the word `price` with a numerical suffix to indicate its position in the list. However, this is _undoubtedly_ the wrong approach.
 
 - If the number of items in the bill is huge, we must keep declaring new variables.
 - If the number of items changes, we must reassign the values of variables so they're in the correct order.

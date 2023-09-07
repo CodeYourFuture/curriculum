@@ -37,11 +37,7 @@ The word `items` is plural as arrays can store multiple pieces of information.
 Zero-indexing means we start counting from 0
 
 {{</note>}}
-We've already encountered ordered data before.
-
-A string is an **ordered** collection of characters.
-
-Let's recall an example of a string.
+We've already encountered ordered data before. A string is an **ordered** collection of characters. Let's recall an example of a string:
 
 ```js
 const volunteer = "Moussab";

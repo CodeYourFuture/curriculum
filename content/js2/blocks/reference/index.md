@@ -11,7 +11,7 @@ emoji= '🧩'
 +++
 
 Arrays are stored by {{<tooltip title="reference">}}
-A reference is an address to a location in memory.
+A reference points to a location in memory.
 {{</tooltip>}}
 
 Consider the following example,
@@ -88,4 +88,4 @@ const copy = list;
 console.log(list === copy); // evaluates to true
 ```
 
-If we're comparing 2 array variables with `===`, then it will evaluate to `true` only  if they have the **same reference**.  `===` is comparing the references to the arrays, not the arrays themselves.
+If we're comparing 2 array variables with `===`, then it will evaluate to `true` only if they have the **same reference**. `===` is comparing the references to the arrays, not the arrays themselves.
