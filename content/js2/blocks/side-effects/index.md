@@ -15,7 +15,7 @@ This mutation is called a **side effect**.
 
 A function has a side effect if it modifies something outside its local scope.
 
-In this case, the **side effect** has unintended consequences. Both `calculateMean` and `calculateMedian` need access to the original `salaries` array.
+In this case, the **side effect** has unintended consequences. We have introduced a bug [bug term definition here] which makes `calculateMean` return the wrong value. Both `calculateMean` and `calculateMedian` need access to the original `salaries` array.
 Therefore, we should take make sure we don't mutate the array unless we really mean to.
 
 ### Testing no mutation
