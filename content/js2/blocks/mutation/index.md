@@ -40,9 +40,7 @@ console.log(`The mean salary is ${mean}`);
 {{</tab>}}
 {{</tabs>}}
 
-`calculateMedian` gets the middle value by calling `splice`.
-
-However, `splice` is a {{<tooltip title="mutating">}}For arrays, mutation means **_changing_** the contents of an array. This could mean changing a value at some index or removing an item altogether.{{</tooltip>}} array method.
+`calculateMedian` gets the middle value by calling `splice`. However, `splice` is a {{<tooltip title="mutating">}}For arrays, mutation means **_changing_** the contents of an array. This could mean changing a value at some index or removing an item altogether.{{</tooltip>}} array method.
 
 When we call `splice` it does 2 things:
 
