@@ -11,6 +11,7 @@ name="Prepare Your CYF Blocks Presentation"
 src="https://cyf-pd.netlify.app/blocks/prepare-your-blocky-presentation/readme/"
 [[blocks]]
 name="backlog"
+src="blocks/backlog"
 +++
 
 If you have not done so already, complete all of the exercises and at least the first project in CYF Blocks.

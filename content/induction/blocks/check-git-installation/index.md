@@ -3,7 +3,7 @@ title = '📋 Check Git installation'
 headless = true
 time = 15
 facilitation = false
-vocabulary=[""]
+vocabulary=[]
 emoji= '🧩'
 [objectives]
 1='Double check Git is installed on your local machine'

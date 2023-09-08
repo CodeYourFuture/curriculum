@@ -14,10 +14,11 @@ src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/53"
 name="Identify components"
 src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/52"
 [[blocks]]
-name="spaced-repetition"
+name="Spaced Repetition"
+src="blocks/spaced-repetition"
 [[blocks]]
-name="what-are-components"
-src="module"
+name="What are Components?"
+src="html-css/blocks/what-are-components"
 [[blocks]]
 name="Understand SMART goals"
 src="https://cyf-pd.netlify.app/blocks/prep-for-smart-goals/readme/"
@@ -25,5 +26,6 @@ src="https://cyf-pd.netlify.app/blocks/prep-for-smart-goals/readme/"
 name="Review your CYF journey"
 src="https://cyf-pd.netlify.app/blocks/prep-for-introspection/readme/"
 [[blocks]]
-name="backlog"
+name="Backlog"
+src="blocks/backlog"
 +++

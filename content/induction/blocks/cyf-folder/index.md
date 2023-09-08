@@ -3,7 +3,7 @@ title = '🧰 Create a CYF folder'
 headless = true
 time = 20
 facilitation = false
-vocabulary=[""]
+vocabulary=[]
 emoji= '🧩'
 [objectives]
 1='Navigate and manipulate the file system using a terminal'

@@ -9,22 +9,26 @@ backlog= 'Course-Fundamentals'
 backlog_filter= 'Week 3'
 [[blocks]]
 name="telephone"
+src="blocks/telephone"
 [[blocks]]
 name="blockers"
-src="module"
+src="fundamentals/blocks/blockers"
 [[blocks]]
-name="morning-break"
+name="Morning break"
+src="blocks/morning-break"
 [[blocks]]
-name="Presenting your Blockly project"
+name="Presenting your project"
 src="https://cyf-pd.netlify.app/blocks/presenting-your-blockly-project/readme/"
 [[blocks]]
 name="lunch"
+src="blocks/lunch"
 [[blocks]]
-name="ship-it-delivery"
-src="module"
+name="Ship it"
+src="fundamentals/blocks/ship-it-delivery"
 [[blocks]]
-name="wrap-up"
-src="module"
+name="Wrap up"
+src="fundamentals/blocks/wrap-up"
 [[blocks]]
-name="retro"
+name="Retro"
+src="blocks/retro"
 +++

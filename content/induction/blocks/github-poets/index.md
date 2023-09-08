@@ -3,7 +3,7 @@ title = '📖 Git and Github for poets'
 headless = true
 time = 15
 facilitation = false
-vocabulary=[""]
+vocabulary=[]
 emoji= '🧩'
 [objectives]
 1='Double check Github account is setup'

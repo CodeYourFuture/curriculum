@@ -1,7 +1,14 @@
-{{ $blockData := . }}
-{{ $time := $blockData.time }}
-{{ if $blockData.showTime }}
-  <time class="c-block__time" datetime="P{{ $time | default 60 }}M"
-    >{{ $time | default 60 }} minutes</time
-  >
-{{ end }}
+{{/* We fall back through these opinions about time:
+
+  1. set in the [[blocks]] array in the frontmatter of prep or day plan ??
+  2. set in the front matter of a block ??
+  3. set in any external api that is accessed ??
+  4. default 60
+
+  The point of setting time is to help trainees and volunteers understand
+  how long to spend on activities.
+*/}}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $block := .Page.Site.GetPage $blockData.api }}
+{{ $time := $blockData.time | default $block.Params.time | default 60 }}
+<time class="c-block__time" datetime="P{{ $time }}M">{{ $time }} minutes</time>
