@@ -15,8 +15,8 @@ We can find out more about the Jest framework from the [documentation online](ht
 
 In the **Getting started** section of the documentation, Jest gives us the following command:
 
-```bash
-npm install --save-dev jest
+```console
+npm install jest --save-dev
 ```
 
 Let's break down the different parts of this command.
@@ -25,9 +25,9 @@ Let's break down the different parts of this command.
 
 - `install` - download a package on to our machine.
 
-- `--save-dev` - this indicates that we should write down in our `package.json` file that this project needs Jest. This means that if someone else tries to run a copy of our project on their computer, they know what packages need to be installed in order to run it.
-
 - `jest` - this is the name of the package we want to install on our machine
+
+- `--save-dev` - this means the package is needed for development but _not_ needed in production
 
 So overall we can think of this command as saying:
 _"Please go to the npm database, find the Jest package and install it on my local machine"_
