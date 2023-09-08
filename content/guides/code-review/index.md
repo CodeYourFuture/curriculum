@@ -142,7 +142,7 @@ Commenting out code is a great way to debug your code but when you use it to kee
 
 Instead of commenting out code you want to keep but not use, consider moving it to separate file. This will make it easier to keep track of the code you're currently working on.
 
-Having lots of commented out code make your code harder to read and make it easier for you to get overwhelmed and lost in your code.
+Having lots of commented out code makes your code harder to read and makes it easier for you to get overwhelmed and lost in your code.
 
 Since we use Git to record all of the changes to our code you can always use the Git History to see everything that has changed.
 
@@ -234,7 +234,7 @@ The name given to each variable is up to the programmer, but ideally a variable 
 
 The most important thing when writing code is to make it easy to read and understand, and as simple as possible.
 
-An example of write more readable code might be using a `filter` instead of a complicated `for` loop. This is better, because it is immediately obvious what you're trying to do - filter an array - and you're less likely to make a mistake using it.
+An example of writing more readable code might be using a `filter` instead of a complicated `for` loop. This is better, because it is immediately obvious what you're trying to do - filter an array - and you're less likely to make a mistake using it.
 
 For example,
 

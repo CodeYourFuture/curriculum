@@ -58,8 +58,10 @@ const percentage = `${decimalNumber * 100}%`;
 ```
 
 Recalling template literals, the expression in the curly braces will be evaluated first and then inserted into the string, giving us the percentage string.
+
 {{<tabs name="Calculation with variables">}}
-{{<tab name="Exercise 1">}}
+
+{{<tab name="Calculate area">}}
 
 ### Generally calculate area and perimeter
 
@@ -80,7 +82,8 @@ const perimeter = FILL_ME_IN;
 Now give different numbers to `height` and `width`. Are the `area` and `perimeter` values still correct?
 
 {{</tab>}}
-{{<tab name="Exercise 2">}}
+
+{{<tab name="Convert pence">}}
 
 ### Generally convert pence to pounds
 

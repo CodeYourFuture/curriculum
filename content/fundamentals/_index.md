@@ -6,6 +6,6 @@ emoji= '🧱'
 menu = ['syllabus']
 weight='1'
 [[blocks]]
-name="goals"
-src="module"
+name="Goals"
+src="fundamentals/blocks/goals"
 +++

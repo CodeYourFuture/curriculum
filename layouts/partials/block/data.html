@@ -1,49 +1,45 @@
-{{/* This scratch block takes a url and converts it to a map containing:
-  1. type of block to call, and the options are:
-  - gh readme
-  - gh issue
-  - pd (for the PD platform)
-  - youtube
-  - local module content
-  - local course content
-  2. api, converted from the url based on the type of block
-  3. block name
-  4. source of truth (sot)
-  5. headers and auth for the api call
-  6. showTime, a boolean to show the time in the block
-  7. isShortcode, a boolean to indicate if the block is being called from a shortcode
+{{/* ==================
+  This scratch block basically takes a url and converts it to a map containing:
+  * TYPE type of block to call, and the options are:
+  - gh readme, gh issue, pd (for the PD platform), youtube, local block
+  * NAME block display name
+  * SOT source of truth
+  * API converted from the src url based on the type of block
+  * TIME time the block takes to complete, if it's overridden in the front matter
+  * ISSHORTCODE isShortcode, a boolean to indicate if the block is being called from a shortcode
+  * HEADERS headers and auth for any api call
+  ==================
 */}}
-{{ $name := .name | default "warning: name is empty" }}
+{{/* REQUIRED INPUT in [[blocks]] block display name */}}
+{{ $displayName := .name | default "warning: name is empty" }}
+{{/* REQUIRED INPUT in [[blocks]] src */}}
 {{ $src := .src | default "warning: src is empty" }}
-{{/* We need to know what page this block is on */}}
-{{ $p := .page }}
+{{ $pageRef := .page }}
 
 {{/* Initialize the blockData map */}}
 {{ .Scratch.Set "blockData" (dict) }}
-
-{{/* Set the block name */}}
-{{ .Scratch.SetInMap "blockData" "name" $name }}
-
-{{/* Set the source of truth */}}
+{{/* Stuff blockData with default keys and vals */}}
+{{/* Unless we say otherwise, it's a local block */}}
+{{ .Scratch.SetInMap "blockData" "type" "local" }}
+{{ .Scratch.SetInMap "blockData" "name" $displayName }}
+{{/* Set the source of truth and api defaults to src */}}
 {{ .Scratch.SetInMap "blockData" "sot" $src }}
-
-{{/* Prep and Day Plan want times */}}
-{{ .Scratch.SetInMap "blockData" "showTime" false }}
-{{ if or (eq $p.Page.Layout "day-plan") (eq $p.Page.Layout "prep") }}
-  {{ .Scratch.SetInMap "blockData" "showTime" true }}
-{{ end }}
-
-{{/* It's only the Youtube partial that cares about being a shortcode */}}
+{{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ .Scratch.SetInMap "blockData" "isShortcode" false }}
+{{/* Override any block time */}}
+{{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 
-{{/* Default block */}}
-{{ .Scratch.SetInMap "blockData" "type" "local_course" }}
-{{ .Scratch.SetInMap "blockData" "api" (printf "blocks/%s" $name) }}
-
-{{ if eq $src "module" }}
-  {{ .Scratch.SetInMap "blockData" "type" "local_module" }}
-  {{ .Scratch.SetInMap "blockData" "api" (printf "%s/blocks/%s" $p.Page.Section $name) }}
+{{/* Now let's do our headers */}}
+{{ $headers := (dict) }}
+{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
+{{ .Scratch.SetInMap "blockData" "headers" $headers }}
+
+{{/* ==================
+  OKAY LET'S OVERRIDE DEFAULTS AND UPDATE THE TYPE
+  ======================
+*/}}
 
 {{ if "github" | in $src }}
   {{/* Change base URL to api.github.com */}}
@@ -61,8 +57,7 @@
   {{ end }}
 
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
-
-  {{/* set a default time of 120 minutes for workshops */}}
+  {{/* set a default time of 120 minutes for workshops TODO pull this from commented out front matter in Github readmes */}}
   {{ .Scratch.SetInMap "blockData" "time" 120 }}
 {{ end }}
 
@@ -78,10 +73,3 @@
   {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
   {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ end }}
-
-{{/* Now let's do our headers */}}
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
-{{ end }}
-{{ .Scratch.SetInMap "blockData" "headers" $headers }}

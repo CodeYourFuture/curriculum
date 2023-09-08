@@ -1,16 +1,15 @@
 +++
-title = '📋 Setting up Coursework planner'
+title = 'Check your Planner'
 headless = true
-time = 15
+time = 5
 facilitation = false
 vocabulary=[]
 emoji= '🧩'
 [objectives]
-1='Double check Github account is set up'
-2='Double check planner is set up'
+1='Double check Git is installed on your local machine'
 +++
 
-### GitHub
+### Planner on GitHub
 
 In Fundamentals, you should have set up your Coursework planner.
 

@@ -7,7 +7,7 @@ emoji= '🧩'
 [objectives]
     1='Figure out what we need to do next in the course'
     2='Locate the prep view on the curriculum'
-    3='Practice asking for guidance/help when were stuck'
+    3='Practice asking for guidance/help when we are stuck'
 +++
 
 ## For trainees
@@ -28,6 +28,6 @@ Get into pairs with somebody you've not paired up with today and try figuring ou
 ## For volunteers
 
 1. Locate the classroom planning board for your region ( if one exists )
-1. Locate the the day-plan for the next week/module
+1. Locate the day-plan for the next week/module
 1. Check the instructions and links on the **Priority 🔑 issues** for the upcoming week ( both Tech Ed and PD )
 1. In the day-plan for the upcoming week identify the instructions for any workshops and visit the repository containing that readme. Check the instructions make sense.

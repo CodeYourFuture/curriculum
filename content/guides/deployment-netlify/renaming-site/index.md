@@ -7,7 +7,7 @@ emoji: ♻️
 
 Once you have a site deployed, you may notice that Netlify has created a randomised `.netlify.app` URL to access it.
 
-You may want to change this to a "friendlier" URL so that it is easier to remember and share. We also ask you to change the URL of sites you create for coursework, so that it is easier to for volunteers to find your site and give feedback. See [website naming conventions](../site-naming-conventions) for rules to name your site.
+You may want to change this to a "friendlier" URL so that it is easier to remember and share. We also ask you to change the URL of sites you create for coursework, so that it is easier for volunteers to find your site and give feedback. See [website naming conventions](../site-naming-conventions) for rules to name your site.
 
 ## First: log into [Netlify](https://www.netlify.com/) using GitHub
 
