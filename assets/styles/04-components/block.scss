@@ -34,8 +34,10 @@
 
   &--pullreq {
     background-image: linear-gradient(
-      -45deg,
+      -90deg,
       var(--theme-color--accent-shade),
+      var(--theme-color--paper),
+      var(--theme-color--paper),
       var(--theme-color--paper)
     );
   }
