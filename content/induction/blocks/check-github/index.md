@@ -3,11 +3,11 @@ title = '📋 Setting up Coursework planner'
 headless = true
 time = 15
 facilitation = false
-vocabulary=[""]
+vocabulary=[]
 emoji= '🧩'
 [objectives]
-1='Double check Github account is setup'
-2='Double check Course planner is setup'
+1='Double check Github account is set up'
+2='Double check planner is set up'
 +++
 
 ### GitHub
