@@ -8,10 +8,7 @@ emoji= '🧩'
     1='Explain how different concepts are combined to solve a goal'
 +++
 
-Earlier we defined a sub-goal to find a value for the hours from the `time` input.
-
-We found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`.
-So we can write an `if` statement using this expression:
+Earlier we defined a sub-goal to find a value for the hours from the `time` input. We've found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`. So we can write an `if` statement using this expression:
 
 ```js
 if (Number(time.slice(0, 2)) > 12) {
@@ -43,7 +40,7 @@ The `return` statement above implements the following steps we set out earlier:
 
 ```mermaid
 
-flowchart TD
+flowchart LR
 
 D[Step 4: subtract 12 from the hours]
 D --> E[Step 5: add 'pm' to the rest of the time]

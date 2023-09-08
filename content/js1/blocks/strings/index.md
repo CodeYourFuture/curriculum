@@ -30,14 +30,11 @@ time[2]; // evaluates to ":"
 // etc
 ```
 
-However square bracket access will only give a single character.
-So we must use another method to extract _multiple_ characters from the given string.
+Square bracket access will only give a single character. We must use another method to extract _multiple_ characters from the given string.
 
 ## ✂️ Extracting a slice
 
-We can use a function called `slice` to extract 1 or more characters from a string.
-
-[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the end index.
+To extract 1 or more characters from a string, we can use a function called {{<tooltip title="slice ">}}[`slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) is a function that can take 2 arguments: a start index and an end index. `slice` will return a section of the string from the start index up to but not including the end index.{{</tooltip>}}
 
 ```js
 time; // holds the value "23:00"

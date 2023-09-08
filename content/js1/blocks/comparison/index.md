@@ -1,7 +1,7 @@
 +++
 title = '⚖️ Comparing current and target output'
 headless = true
-time = 15
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -9,20 +9,21 @@ emoji= '🧩'
     2='Explain when to use the === operator in a program'
 +++
 
-Let's start with a function declaration of `formatAs12HourClock` like this:
+{{<tabs name="current">}}
+{{<tab name="Define current and target">}}
+Let's start with a function declaration of `formatAs12HourClock`:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
 ```
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**.
+Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**. For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. `"08:00 am"` is the 🎯 **target output**.
 
-For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`.
-In this case, `"08:00 am"` is the 🎯 **target output**.
+However, the **current output** is what the function _actually_ returns right now.
 
-However, the **current output** is what the function actually returns given its current implementation.
+👉🏼 [Work through the exercises](#current-1)
 
-{{<tabs name="current vs target output">}}
+{{</tab>}}
 {{<tab name="Exercise 1">}}
 
 Let's start with `formatAs12HourClock` defined like this:
@@ -41,6 +42,8 @@ For the call above, what is the
 
 a) the current output?
 b) the 🎯 target output?
+
+👉🏼 [Keep going](#current-2)
 
 {{</tab>}}
 {{<tab name="Exercise 2">}}
@@ -65,43 +68,32 @@ b) the 🎯 target output?
 {{</tab>}}
 {{</tabs>}}
 
-Previously we learned how to log values to the console, but we can also **compare** two values.
-Comparisons are essential whenever we want to check that a function produces some target output.
+## 🧩 Comparing values
 
-We can compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these 2 values the same?**.
-We can use a comparison operator to compare 2 expressions and check if they evaluate to the same value. In particular, we can use the [strict equality operator `===`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality), a comparison operator used to check if two values are the same.
+We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
 
-We can write an expression as follows:
+We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**. We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
+
+### Left equals Right
 
 ```js
 formatAs12HourClock("08:00") === "8:00 am";
 ```
 
-In the code above, `===` will check the values on the left and the right of the operator to see if they’re the same.
-
-We can think of `formatAs12HourClock("08:00") === "8:00 am"`
-
-as being like the question:
-
-Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?
-
-This leads to the question:
+`===` checks if the values on the left and right of the operator are the same. We can think of `formatAs12HourClock("08:00") === "8:00 am"` as the question: "Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?" This leads to the question:
 
 > What will the expression `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
 
 ## ✅ ❌ Boolean values
 
-Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type.
+{{<tabs name="booleans">}}
+{{<tab name="Define Boolean">}}
 
-Similarly, we can use the number data type to store any numerical data where we'll need to use standard numerical operations like addition, multiplication etc.
+### Does 1 equal 0? Yes or No? True or False?
 
-However, if we're comparing values or expressions, we have one of 2 different states: **true** or **false**.
+Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. The number data type can store numbers we use in calculations.
 
-This leads us to the [**boolean** datatype](https://developer.mozilla.org/en-US/docs/Glossary/Boolean), which only has two different values: **true** or **false**.
-
-Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`.
-
-For example:
+If we're comparing two things, there are only two different states: **true** or **false**. This leads us to the **boolean** datatype, which only has true or false values. Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`. It's one or the other. It's boolean.
 
 ```js
 // using the strict equality comparison expression
@@ -113,13 +105,14 @@ console.log(10 * 5 === 60);
 // logs false
 ```
 
-{{<tabs name="booleans">}}
+👉🏾 [Now work through the exercises](#booleans-1)
+{{</tab>}}
 
 {{<tab name="Exercise 1">}}
 Look at the code below and then try predicting how the computer will interpret each line. Remember to think about each line and work out if it is a declaration or a statement.
 You may want to use the Node REPL to help you check your answers.
 
-Check out some relevant documentation if you've never seen a particular operator.
+Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
 true === false;
@@ -132,6 +125,15 @@ typeof mhairiName === "string";
 let mhairiAge = 28;
 let isMhairOldEnoughToDrive = true;
 let kilometersMhairiDrivesToWork = 9.4;
+```
+
+👉🏿 [Keep Going](#booleans-2)
+
+{{</tab>}}
+{{<tab name="Exercise 2">}}
+Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before
+
+```js {linenos=table,linenostart=1}
 "hello Mhairi" === `hello ${mhairiName}`;
 "${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
 isMhairOldEnoughToDrive;
@@ -141,28 +143,14 @@ mhairiAge >= 18;
 Math.round(kilometersMhairiDrivesToWork) === 9;
 ```
 
-{{</tab>}}
-
-{{<tab name="Exercise 2">}}
-
-Some functions like [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) **return booleans**.
-
-```js
-const firstName = "Mariana";
-console.log(firstName.includes("a"));
-console.log(firstName.includes("M"));
-console.log(firstName.includes("m"));
-```
-
-Step through the code above and use documentation to explain what the `includes` function will return on each call.
-
+👉🏿 [Keep Going](#booleans-3)
 {{</tab>}}
 
 {{<tab name="Exercise 3">}}
 
 ### Checking misconceptions 🤔
 
-Look at the code below and then try predicting and explaining what the expression will evaluate to.
+Look at the code below and then predict what the expression will evaluate to. Be sure to explain your answer too. Use the Node Repl to check your answer. Does the REPL output make sense?
 
 Try using the Node Repl to check your answer. Does the REPL output make sense?
 
