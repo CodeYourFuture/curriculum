@@ -29,10 +29,24 @@
     text-align: center;
     padding: var(--theme-spacing--4) 0;
     border: 0;
+    box-shadow: none;
   }
+
+  &--pullreq {
+    background-image: linear-gradient(
+      -45deg,
+      var(--theme-color--accent-shade),
+      var(--theme-color--paper)
+    );
+  }
+  // on a day plan we have a load of blocks and the shadow is too much
 
   .c-block__series--timeline & {
     box-shadow: var(--theme-box-shadow--slim);
+
+    .c-block {
+      box-shadow: none;
+    }
 
     &__lastmod {
       display: none;
