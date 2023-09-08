@@ -1,0 +1,35 @@
+{{/* This block expects the github pulls api */}}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $response := getJSON $blockData.api $blockData.headers }}
+
+{{ if $response }}
+  <section class="c-block c-block--pullreq c-block__series ">
+    {{ if ne $response nil }}
+      <h3 class="e-heading__2">
+        🛎️ Code waiting for review
+        <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
+        <time class="c-block__time is-invisible" datetime="P10M"></time>
+      </h3>
+      {{/* <!-- range over PRs list and pull out useful data --> */}}
+      {{ range $response }}
+        <details class="c-issue c-issue--pr">
+          <summary class="c-issue__title e-heading__3">
+            {{ .title }}
+            <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+          </summary>
+          <div class="c-issue__body">
+            {{ .body | markdownify }}
+            <a class="e-button c-issue__button" href="{{ .html_url }}/files"
+              >Start a review</a
+            >
+          </div>
+        </details>
+      {{ end }}
+    {{ end }}
+    <a href="{{ $blockData.sot }}" class="e-button c-issue__button"
+      >See more pull requests</a
+    >
+  </section>
+{{ else }}
+  {{ errorf "Error, fetch of %s failed: %v" $response }}
+{{ end }}
