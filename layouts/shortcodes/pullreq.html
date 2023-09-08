@@ -1,0 +1,11 @@
+{{ $src := .Inner | default "https://github.com/CodeYourFuture/Module-HTML-CSS/pulls" }}
+{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" "" "page" .) }}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{/* This shortcode intercedes in the block pipeline to dynamically route to whatever module this shortcode is called open */}}
+{{/*  {{ if (in $blockData.api "HTML-CSS") }}
+  {{ $newApi := replace $blockData.api "HTML-CSS" .Scratch.Get "context"}}
+  {{ .Page.Scratch.SetInMap "blockData" "api" $newApi }}
+{{ end }}  */}}
+{{ $yo := .Get "context"}} {{$yo}}
+{{ .Page.Scratch.SetInMap "blockData" "isShortcode" true }}
+{{ partial "block/pullreq.html" . }}
