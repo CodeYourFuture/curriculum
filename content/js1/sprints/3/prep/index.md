@@ -7,32 +7,29 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 3'
 [[blocks]]
-src="module"
+src="js1/blocks/clocks"
 name="clocks"
 [[blocks]]
-src="module"
+src="js1/blocks/comparison"
 name="comparison"
 [[blocks]]
-src="module"
+src="js1/blocks/assertions"
 name="assertions"
 [[blocks]]
-src="module"
+src="js1/blocks/strategy"
 name="strategy"
 [[blocks]]
-src="module"
+src="js1/blocks/conditionality"
 name="conditionality"
 [[blocks]]
-src="module"
+src="js1/blocks/sub-goal"
 name="sub-goal"
 [[blocks]]
-src="module"
+src="js1/blocks/strings"
 name="strings"
 [[blocks]]
-src="module"
+src="js1/blocks/assembly"
 name="assembly"
-[[blocks]]
-src="module"
-name="improving"
 [[blocks]]
 name="Growth Mindset Prep"
 src="https://cyf-pd.netlify.app/blocks/prep-for-growth-mindset/readme/"
