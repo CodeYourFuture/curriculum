@@ -39,27 +39,13 @@ function parseQueryString(queryString) {
 }
 ```
 
-However, instead of accessing the array's elements like this, we can use [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to access the elements.
+However, instead of accessing the array's elements like this, we can use [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to create new variables and assign them values, based on values in an array.
 
 ```js
 function parseQueryString(queryString) {
   const queryParams = {};
 
   const [key, value] = queryString.split("="); // key will hold 'fruit', value will hold 'banana
-  queryParams.key = value;
-
-  return queryParams;
-}
-```
-
-Now finally, we need to put them into the `queryParams` object.
-
-```js {linenos=table,hl_lines=["5"],linenostart=1}
-function parseQueryString(queryString) {
-  // suppose queryString has a value of "fruit=banana" when it is called
-  const queryParams = {};
-
-  const [key, value] = queryString.split("="); // key will hold 'fruit', value will hold 'banana'
   queryParams.key = value;
 
   return queryParams;
