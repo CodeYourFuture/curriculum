@@ -41,8 +41,9 @@ Play computer with the code above to step through the code and find out what hap
 
 ![point-to-array](point-to-array.png)
 
+- We make an array `[10, 20, 30]` and store it somewhere in memory.
 - `list` is assigned a **reference** to `[10, 20, 30]`
-- `copy` is assigned the same **reference** as `list`
+- `copy` is assigned a **reference** pointing at the same memory as `list`
 
 At this stage in the program, `list` and `copy` point to the same location in memory.
 
