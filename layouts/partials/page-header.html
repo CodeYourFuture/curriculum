@@ -43,11 +43,6 @@
           >{{ .Page.Params.backlog }}
           🔗</a
         >
-        <!-- <a
-          href="/api/clone?state={{ dict "module" .Page.Params.backlog "sprint" .Params.backlog_filter "prevPath" .Page.RelPermalink | jsonify }}"
-          class="e-button">
-          Clone All Issues
-        </a> -->
       </h2>
     {{ else }}
       {{ with .Page.Description }}

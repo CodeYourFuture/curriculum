@@ -244,27 +244,7 @@ class GithubService {
         });
     });
 
-    for (const milestone of uniques) {
-      if (!milestone || !milestone.title) {
-        continue;
-      }
-      const { data } = await this.octokit.rest.issues
-        .createMilestone({
-          owner: this.login,
-          repo: config().defaultRepo,
-          title: milestone.title as string,
-          description: milestone.description as string,
-          state: "open",
-          due_on: milestone.due_on || undefined,
-        })
-        .catch((error) => {
-          throw new Error(
-            `Could not create milestone ${milestone.title}, error: ${error.message}`
-          );
-        });
-
-      this.milestoneMap[milestone.title] = data.number;
-    }
+    await Promise.all(promises);
     return true;
   }
 
@@ -287,7 +267,7 @@ class GithubService {
 
     if (!project?.id) {
       throw new Error(
-        "No project found that matches 'coursework planner' query, please clone the project template provided."
+        "No project found that matches 'coursework planner' query, please clone the project template provided. See <a href='https://curriculum.codeyourfuture.io/fundamentals/prep/' target='_blank'>here</a> for more information."
       );
     }
 

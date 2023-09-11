@@ -31,6 +31,12 @@
         {{ if strings.Contains .body "_No response_" }}
           {{ errorf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
         {{ end }}
+        <div class="c-alert" role="alert" hidden>
+          <span class="alert__message"></span>
+          <button aria-label="Close" class="clean-btn close" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>

@@ -13,8 +13,6 @@ import config from "../helpers/config";
 import { CloneResponse } from "../helpers/types";
 
 const handler: Handler = async (event: HandlerEvent, context) => {
-  let token = "";
-
   const response: HandlerResponse = {
     statusCode: 200,
   };
@@ -27,7 +25,7 @@ const handler: Handler = async (event: HandlerEvent, context) => {
   }
 
   // check for auth token in cookies
-  token = getTokenFromCookies(event.headers);
+  let token = getTokenFromCookies(event.headers);
 
   if (!token) {
     // check for code in query params
