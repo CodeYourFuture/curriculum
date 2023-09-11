@@ -7,17 +7,17 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="percentages"
-src="module"
+name="Percentages"
+src="js1/blocks/percentages"
 [[blocks]]
-name="reuse"
-src="module"
+name="Reuse"
+src="js1/blocks/reuse"
 [[blocks]]
-name="playing-computer"
-src="module"
+name="Playing computer"
+src="js1/blocks/playing-computer"
 [[blocks]]
-name="parameters"
-src="module"
+name="Parameters"
+src="js1/blocks/parameters"
 [[blocks]]
 name="Roles in Tech"
 src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"
