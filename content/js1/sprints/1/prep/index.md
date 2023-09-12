@@ -8,37 +8,37 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="interface"
+name="Interface"
 src="js1/blocks/interface"
 [[blocks]]
-name="terminal"
+name="Terminal"
 src="js1/blocks/terminal"
 [[blocks]]
-name="data"
+name="Data"
 src="js1/blocks/data"
 [[blocks]]
-name="repl"
+name="REPL"
 src="js1/blocks/repl"
 [[blocks]]
-name="variables"
+name="Variables"
 src="js1/blocks/variables"
 [[blocks]]
-name="declarations-statements"
-src="module"
+name="Declarations and Statements"
+src="js1/blocks/declarations-statements"
 [[blocks]]
-name="functions"
+name="Functions"
 src="js1/blocks/functions"
 [[blocks]]
-name="scripts"
+name="Scripts"
 src="js1/blocks/scripts"
 [[blocks]]
-name="logging"
+name="Logging"
 src="js1/blocks/logging"
 [[blocks]]
-name="errors"
+name="Errors"
 src="js1/blocks/errors"
 [[blocks]]
-name="wrapping-up"
+name="Wrapping up"
 src="blocks/wrapping-up"
 [[blocks]]
 name= "Critical Thinking"

@@ -7,21 +7,27 @@ weight = 3
 backlog= 'Module-JS1'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="energiser"
+name="Energiser"
+src="blocks/energiser"
 [[blocks]]
 name="Roles in the tech industry"
 src="https://cyf-pd.netlify.app/blocks/roles-in-the-tech-industry/readme/"
 [[blocks]]
-name="morning-break"
+src="blocks/morning-break"
+name="Morning break"
 [[blocks]]
 name="Standup"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
 [[blocks]]
-name="lunch"
+name="Lunch"
+src="blocks/lunch"
 [[blocks]]
-name="coursework" 
+name="Study Group"
+src="blocks/study-group"
 [[blocks]]
-name="afternoon-break"
+src="blocks/afternoon-break"
+name="Afternoon break"
 [[blocks]]
-name="retro"
+src="blocks/retro"
+name="Retro"
 +++
