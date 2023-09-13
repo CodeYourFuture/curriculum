@@ -1,8 +1,8 @@
 +++
 title = 'Databases'
-description = 'The plan for Databases is coming soon'
+description = 'The plan for Databases is in progress'
 layout = 'module'
-emoji= '📚'
+emoji= '💾'
 menu = ['syllabus']
 weight='8'
 +++
