@@ -159,7 +159,7 @@ class GithubService {
   async createOrGetDefaultRepo(
     repoName: string = config().defaultRepo
   ): Promise<string> {
-    const getRepo = await this.octokit.rest.repos
+    const foundRepo = await this.octokit.rest.repos
       .get({
         owner: this.login,
         repo: repoName,
@@ -170,13 +170,13 @@ class GithubService {
         }
       });
 
-    if (!getRepo) {
+    if (!foundRepo) {
       const res = await this.createDefaultRepo(repoName);
       return res;
     }
 
-    this.repositoryId = getRepo.data.node_id;
-    return getRepo.data.node_id;
+    this.repositoryId = foundRepo.data.node_id;
+    return foundRepo.data.node_id;
   }
 
   async upsertMilestones(sourceRepoName: string): Promise<boolean> {
@@ -333,7 +333,7 @@ class GithubService {
       });
 
     if (createIssueRes && this.projectId) {
-      const res = await this.octokit
+      await this.octokit
         .graphql<GraphQlQueryResponseData>(addProjectV2ItemByIdMutation, {
           projectId: this.projectId,
           contentId: createIssueRes.data.node_id,
@@ -420,7 +420,6 @@ class GithubService {
   async cloneIssue(
     sourceRepoName: string,
     issueNumber: number,
-    allowDuplicates = false
   ): Promise<CloneResponse> {
     const { data } = await this.octokit.rest.issues
       .get({
