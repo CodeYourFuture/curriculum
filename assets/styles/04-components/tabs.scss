@@ -2,7 +2,7 @@
   display: block;
   --outset: calc(-1 * var(--theme-spacing--gutter));
   --tabline: 1px;
-  margin: 0 var(--outset) var(--theme-spacing--6);
+  margin: 0 var(--outset) calc(2.5 * var(--outset));
   &__list {
     display: flex;
   }

@@ -1,10 +1,9 @@
 .e-button {
   // reset
   appearance: none;
-  font: 900 100% var(--theme-font--display);
+  font: 600 var(--theme-type-size--6) system-ui;
   text-decoration: none;
   text-align: center;
-  line-height: 0.875;
   white-space: nowrap;
   display: inline-flex;
   place-items: center;
@@ -16,10 +15,10 @@
 
   // vars to override in other places
   --button-color: var(--theme-color--ink);
-  --button-background-color: var(--theme-color--block);
-  --button-border-color: var(--theme-color--accent);
-  --button-border: 2px solid var(--button-border-color);
-  --button-border-radius: var(--theme-border-radius);
+  --button-background-color: transparent;
+  --button-border-color: var(--button-color);
+  --button-border: 1px solid var(--button-border-color);
+  --button-border-radius: 1em;
   --button-box-shadow: 2px 5px var(--theme-color--accent);
   --button-padding: 3px var(--theme-spacing--1);
 
@@ -34,14 +33,12 @@
     border-color 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
   @include on-event {
-    color: var(--theme-color--accent);
-    background-color: var(--theme-color--paper);
     box-shadow: 0px 0px var(--theme-color--accent);
     border-color: currentColor;
     text-decoration: none;
   }
   &:focus {
-    outline: 3px dotted;
+    outline: 3px dotted var(--theme-color--accent);
   }
 
   // sometimes buttons have an icon or are only visibly an icon
