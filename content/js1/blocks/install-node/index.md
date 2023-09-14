@@ -1,7 +1,7 @@
 +++
 title = '🧰 Install Node'
 headless = true
-time = 15
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
