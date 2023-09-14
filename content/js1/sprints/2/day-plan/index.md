@@ -16,7 +16,7 @@ src="https://cyf-pd.netlify.app/blocks/roles-in-the-tech-industry/readme/"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Standup"
+name="Playing computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
 [[blocks]]
 name="Lunch"
