@@ -60,8 +60,7 @@
   {{ end }}
 
   {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
-  {{/* set a default time of 120 minutes for workshops TODO pull this from commented out front matter in Github readmes */}}
-  {{ .Scratch.SetInMap "blockData" "time" 120 }}
+  {{/* TODO pull time from commented out front matter in Github readmes */}}
 {{ end }}
 
 {{ if "cyf-pd.netlify.app" | in $src }}

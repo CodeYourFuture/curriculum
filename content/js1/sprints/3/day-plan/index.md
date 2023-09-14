@@ -16,17 +16,27 @@ src="https://cyf-pd.netlify.app/blocks/growth-mindset/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Question and review"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+name="Triangles"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/triangles"
+time="85"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
+time="80"
+[[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
+time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time=50
 [[blocks]]
 name="Retro"
 src="blocks/retro"
