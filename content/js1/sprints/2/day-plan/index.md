@@ -16,18 +16,32 @@ src="https://cyf-pd.netlify.app/blocks/roles-in-the-tech-industry/readme/"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Standup"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
+name="Playing computer"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
+time=85
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
+time=80
 [[blocks]]
-src="blocks/afternoon-break"
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
+time="0"
+[[blocks]]
 name="Afternoon break"
+src="blocks/afternoon-break"
 [[blocks]]
-src="blocks/retro"
+name="Study Group"
+src="blocks/study-group"
+time=50
+[[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
+time="0"
+[[blocks]]
 name="Retro"
+src="blocks/retro"
 +++
