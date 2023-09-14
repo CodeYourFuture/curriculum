@@ -18,6 +18,7 @@ name="Morning break"
 [[blocks]]
 name="Playing computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
+time=85
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
