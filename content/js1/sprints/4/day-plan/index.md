@@ -15,7 +15,7 @@ src= "https://cyf-pd.netlify.app/blocks/asking-good-technical-questions/readme/"
 name="morning-break"
 [[blocks]]
 name="⌚ Time string"
-src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/time-string/readme.md"
+src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/time-string"
 time=85
 [[blocks]]
 name="lunch"
