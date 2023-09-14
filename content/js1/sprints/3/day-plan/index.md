@@ -18,7 +18,7 @@ src="blocks/morning-break"
 [[blocks]]
 name="Triangles"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/triangles"
-time=85
+time="85"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
