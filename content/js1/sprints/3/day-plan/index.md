@@ -18,16 +18,21 @@ src="blocks/morning-break"
 [[blocks]]
 name="Triangles"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/triangles"
-time=90
+time=85
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
+time=80
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time=60
 [[blocks]]
 name="Retro"
 src="blocks/retro"
