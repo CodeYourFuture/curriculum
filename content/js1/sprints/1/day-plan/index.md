@@ -16,8 +16,8 @@ src="https://cyf-pd.netlify.app/blocks/critical-thinking/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Question and review"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+name="Git CLI workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
