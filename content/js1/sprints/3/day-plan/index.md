@@ -36,7 +36,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=60
+time=50
 [[blocks]]
 name="Retro"
 src="blocks/retro"
