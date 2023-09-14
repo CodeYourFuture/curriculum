@@ -23,8 +23,13 @@ time="85"
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Coursework"
-src="blocks/coursework"
+name="Study Group"
+src="blocks/study-group"
+time="80"
+[[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
+time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
