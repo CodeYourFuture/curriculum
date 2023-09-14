@@ -38,6 +38,10 @@ name="Study Group"
 src="blocks/study-group"
 time="50"
 [[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
+time="0"
+[[blocks]]
 name="retro"
 src="blocks/retro"
 +++
