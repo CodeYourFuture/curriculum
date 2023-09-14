@@ -16,8 +16,9 @@ src="https://cyf-pd.netlify.app/blocks/growth-mindset/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Question and review"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+name="Triangles"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/triangles"
+time=90
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
