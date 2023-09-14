@@ -34,6 +34,10 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time="50"
+[[blocks]]
 name="retro"
 src="blocks/retro"
 +++
