@@ -18,6 +18,7 @@ src="blocks/morning-break"
 [[blocks]]
 name="Git CLI workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
+time="85"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
