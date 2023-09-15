@@ -10,7 +10,7 @@ function toggleMenu() {
   if (menu.getAttribute("hidden") == null) {
     menu.focus();
   } else {
-    skipLink.focus();
+    skipLink.focus({preventScroll: true});
   }
 }
 // listeners - we allow anything to toggle Menu if nominated with the class
