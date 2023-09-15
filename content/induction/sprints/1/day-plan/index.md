@@ -10,6 +10,9 @@ backlog_filter= 'Week 1'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Welcome to Code Your Future"
+src="https://youtu.be/QBfhPkBW9Pk"
+[[blocks]]
 name="Goals and expectations"
 src="https://cyf-pd.netlify.app/blocks/goals-and-expectations-on-the-software-development-course/readme/"
 time="60"
