@@ -30,6 +30,7 @@
       >See more pull requests</a
     >
   </section>
+{{ else if eq ($response | len) 0 }}
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $response }}
+  {{ errorf "Error, fetch of %s failed: %v" $blockData.api $response }}
 {{ end }}
