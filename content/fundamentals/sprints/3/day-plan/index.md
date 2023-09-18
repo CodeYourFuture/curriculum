@@ -29,6 +29,9 @@ src="fundamentals/blocks/ship-it-delivery"
 name="Wrap up"
 src="fundamentals/blocks/wrap-up"
 [[blocks]]
+name="Next steps"
+src="fundamentals/blocks/next-steps"
+[[blocks]]
 name="Retro"
 src="blocks/retro"
 +++
