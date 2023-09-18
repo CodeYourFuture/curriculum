@@ -14,7 +14,7 @@ emoji= '🧩'
 
 In this section, you have a set of questions/tasks to orient you towards what is coming next in the course.
 
-Get into pairs with somebody you've not paired up with today and try figuring out the answers/solutions to the following questions/tasks.
+Pair up with a new person. In pairs, complete the following tasks:
 
 {{<note type="warning">}}
 If you're unsure about the answer to any of the questions below, start a thread in Slack to clarify the answer (unless there is already a thread discussing this matter)
