@@ -9,8 +9,12 @@ emoji= '🧩'
     2='Double check any key information is preserved in the transition from Fundamentals to SDC'
 +++
 
-A **handshake** is a check to ensure a smoother transition from one (channel, workshop, Slack workspace, etc) is carried over to another location. In other words, a **handshake** is a check for continuity between two different parts of the course. In this handshake, we're going to check any important work done in the Induction module is carried over to the Software Development Course.
+A **handshake** is a check for continuity between two different parts of the course. In this handshake, we're going to check any important work done in the Fundamentals module is carried over to the Software Development Course.
 
-It is no-one person's responsibility to check these things are carried over: it is your collective responsibility as a cohort to check that you've got all the information you need.
+A handshake isn't the responsibility of a single individual: it is your collective responsibility as a cohort to check that you transition smoothly between two different sections of the course.
 
-1. Double-check that the "XX X Rota" spreadsheet from your cohort is bookmarked in your new cohort Slack channel
+## 📝 Checks
+
+Here are some checks:
+
+1. Double-check that the "XX X Rota" spreadsheet you created in Fundamentals is bookmarked in your new cohort Slack channel
