@@ -17,7 +17,7 @@ name="Goals and expectations"
 src="https://cyf-pd.netlify.app/blocks/goals-and-expectations-on-the-software-development-course/readme/"
 time="60"
 [[blocks]]
-name="Learning as Community"
+name="Learning as Community"        
 src="induction/blocks/learning-as-community"
 time="70"
 [[blocks]]
