@@ -6,6 +6,9 @@ emoji= "🧰"
 menu_level = ["module"]
 weight = 1
 [[blocks]]
+name="Handshake"
+src="induction/blocks/handshake"
+[[blocks]]
 name="Check Git"
 src="induction/blocks/check-git-installation"
 [[blocks]]
