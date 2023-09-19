@@ -32,7 +32,7 @@ To work out our strategy, let's consider what we already know how to do. We alre
 
 > 💡 Key insight: If we can do it for **one pair**, we can try doing it for a **list of pairs** too.
 
-So we're missing a step - breaking up the string of lot sof key-value pairs into an array where each element is a single key-value pair. If we do this, then we can iterate over the array, and do what we already know how to do on each key-value pair.
+So we're missing a step - breaking up the string of multiple key-value pairs into an array where each element is a single key-value pair. If we do this, then we can iterate over the array, and do what we already know how to do on each key-value pair.
 
 Our strategy will be to break the query string apart into an array of key-value pairs. Once we've got an array we can try iterating through it and storing each key value pair inside the `queryParams` object.
 
