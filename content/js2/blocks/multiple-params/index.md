@@ -52,7 +52,7 @@ function parseQueryString(queryString) {
 
 #### 🎯 Sub-goal 2: add each key-value pair in the array to the query params object
 
-Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time (just like we did when we just had one key-value pair).
+Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time (like we did when we just had one key-value pair).
 
 ```js {linenos=table,hl_lines=["6-9"] ,linenostart=1}
 function parseQueryString(queryString) {
