@@ -9,7 +9,7 @@ emoji= '🧩'
     2='Explain why iteration is relevant in a particular problem'
 +++
 
-To solve the sub-goal, we have to repeatedly increment the `total` for each number in the array. In programming, the process of repeating something is called **iteration**.
+To solve the sub-goal, we have to repeatedly add each number in the array to the `total`, one at a time. In programming, the process of repeating something is called **iteration**.
 
 In programming, we can **iterate** by using a {{<tooltip title="loop">}}A loop is a sequence of instructions that is continually repeated until some condition is reached.{{</tooltip>}}.
 
