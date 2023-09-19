@@ -39,7 +39,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-We can't use dot syntax if we don't know when we're writing the code what the name of the key is going to be. Square bracket notation is more powerful than dot notation, because it lets us use variables as keys.
+We can't use dot syntax if we don't know what the name of the key is going to be. Square bracket notation is more powerful than dot notation, because it lets us use variables as keys.
 
 {{<tabs>}}
 
