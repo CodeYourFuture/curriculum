@@ -19,11 +19,19 @@ console.log(`The median salary is ${median}`);
 console.log(`The mean salary is ${mean}`);
 ```
 
-{{<note type="activity" title="Run it">}}
-Try running the code above on your local machine. Check the console output. What do you see?
+{{<tabs>}}
+
+{{<tab name="🧠 💬 Predict and explain">}}
+
+Predict and explain what will get printed to the console when the code above runs.
+
+Then run the code above on your local machine to check your prediction. Does your initial explanation now make sense?
 
 _(Note: you'll have to declare the functions somewhere too)_
-{{</note>}}
+
+{{</tab >}}
+
+{{</tabs>}}
 
 ### 🐛 Finding the bug
 
