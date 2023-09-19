@@ -42,7 +42,7 @@ const profileData = {
 console.log(profileData.firstName); // logs "Francesco"
 ```
 
-Objects also allow looking up property values using square brackets, similar to arrays. Instead of an index, we use a string of the key of the property inside the square brackets:
+Objects also allow looking up property values using square brackets, similar to arrays. Instead of an index, we use a string of the key inside the square brackets:
 
 ```js
 const profileData = {
