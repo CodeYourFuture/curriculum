@@ -27,3 +27,29 @@ test("doesn't modify the input", () => {
 ```
 
 In this test, we don't check the **return value** of `calculateMedian`. We assert that the input has the same contents as the original input. We can use the `toEqual` matcher to check the contents of the array referenced by the variable `list`.
+
+{{<tabs name="">}}
+
+{{<tab name="🔧 Fix it">}}
+
+Recall the current buggy implementation of `calculateMedian`:
+
+```js
+function calculateMedian(list) {
+  const middleIndex = Math.floor(list.length / 2);
+  const median = list.splice(middleIndex, 1)[0];
+
+  return median;
+}
+```
+
+We've established that we shouldn't use `splice` to retrieve the median from the input array.
+Fix the implementation of `calculateMedian` above so it no longer calls `splice` and mutates the input.
+
+{{</tab>}}
+
+{{</tab>}}
+
+```
+
+```
