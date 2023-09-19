@@ -39,7 +39,7 @@ We can summarise our approach as follows.
 ```mermaid
 flowchart TD
     A[Step 1: Find the middle index of the array] --> B[Step 2: Get the middle item]
-    B --> C[Step 3: return the middle item]
+    B --> C[Step 3: Return the middle item]
 ```
 
 In code we can we can use [`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) to to get the middle item.
@@ -63,7 +63,7 @@ Use [documentation](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) to
 {{</tab>}}
 
 {{<tab name="🔧 Implement">}}
-Once you've written your test case for `calculateMedian` try implementing the functionality for this case.
+Once you've written your test case for `calculateMedian`, hopefully you see this implementation isn't doing the right thing. Try implementing the functionality for this case.
 
 {{</tab>}}
 
