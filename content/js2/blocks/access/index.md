@@ -110,7 +110,7 @@ profileData.cityOfResidence = "Manchester";
 console.log(profileData.cityOfResidence);
 ```
 
-Predict and explain what the console output be when we run the code above runs.
+Predict and explain what the console output will be when the code above runs.
 
 {{</tab>}}
 
