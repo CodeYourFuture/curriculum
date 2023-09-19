@@ -8,8 +8,7 @@ emoji= '🧩'
 1='Describe how to compute the mean of a data set in JavaScript'
 +++
 
-Let's consider another problem.
-Besides the median, we can also calculate the mean of a set of numbers.
+Let's consider a problem where we calculate the [mean of a list of numbers](https://www.mathsisfun.com/mean.html).
 
 _Given_ an array of numbers,
 _When_ we call `calculateMean` with the array of numbers

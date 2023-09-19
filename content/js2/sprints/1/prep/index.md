@@ -13,9 +13,6 @@ src="module"
 name="arrays"
 src="module"
 [[blocks]]
-name="median"
-src="module"
-[[blocks]]
 name="mean"
 src="module"
 [[blocks]]
@@ -23,6 +20,9 @@ name="summing"
 src="module"
 [[blocks]]
 name="iteration"
+src="module"
+[[blocks]]
+name="median"
 src="module"
 [[blocks]]
 name="assembly"

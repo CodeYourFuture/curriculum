@@ -8,7 +8,7 @@ emoji= '🧩'
 1='Describe how to calculate the median of a list in JavaScript' 
 +++
 
-Let's define a problem.
+Let's define another problem.
 
 We want to _calculate_ the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
 
