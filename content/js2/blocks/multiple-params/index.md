@@ -81,7 +81,7 @@ function parseQueryString(queryString) {
 
 Now that we've worked out how to solve this problem in the case of multiple query parameters, let's integrate that solution into our previous implementation, to make sure it works for all cases.
 
-We can keep our `if (queryString.length === 0) {` check from before. We don't need to do anything special for the one-value case, as an array containing one element gets iterated the same as an array multiple elements:
+We can keep our `if (queryString.length === 0) {` check from before. We don't need to do anything special for the one-value case, as an array containing one element gets iterated the same as an array of multiple elements:
 
 ```js
 function parseQueryString(queryString) {
