@@ -1,5 +1,5 @@
 +++
-title = '💻 Playing computer'
+title = '🎮 Playing computer'
 headless = true
 time = 10
 facilitation = false
@@ -20,8 +20,14 @@ In the interactive widget, an arrow shows which line of code is being executed. 
 
 Choose _next_ to see what happens when the computer executes the variable declaration.
 
-```js
-function convertToPercentage(decimalNumber) {}
+```js {linenos=table,linenostart=1}
+const decimalNumber = 0.5;
+
+function convertToPercentage() {
+  const percentage = `${decimalNumber * 100}%`;
+}
+
+convertToPercentage(0.5);
 ```
 
 {{</note>}}
