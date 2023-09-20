@@ -8,11 +8,12 @@ emoji= '❌'
 1='Define scope'
 +++
 
-Given our implementation of `convertToPercentage`, someone asks if we can call the function and then access the `percentage` variable:
+Given the program below, someone asks if we can call the function and then access the `percentage` variable:
 
 ```js
+const decimalNumber = 0.5;
+
 function convertToPercentage() {
-  const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
 }
 
