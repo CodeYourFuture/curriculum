@@ -10,6 +10,12 @@ backlog_filter= 'Week 2'
 name="Percentages"
 src="js1/blocks/percentages"
 [[blocks]]
+name="Defining functions"
+src="js1/blocks/defining-functions"
+[[blocks]]
+name="Scope"
+src="js1/blocks/scope"
+[[blocks]]
 name="Reuse"
 src="js1/blocks/reuse"
 [[blocks]]

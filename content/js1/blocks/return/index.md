@@ -1,5 +1,5 @@
 +++
-title = '♻️ Reusing functionality'
+title = ': Returning'
 headless = true
 time = 5
 facilitation = false
