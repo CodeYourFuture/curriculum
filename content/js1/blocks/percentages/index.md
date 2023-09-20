@@ -25,11 +25,13 @@ Math.round(3.141); // evaluates to 3
 
 All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. `Math.round` and `console.log` are functions that the JavaScript language designers have written and stored inside the language, because everyone needs them all the time.
 
-No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with these requirements:
+No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with the following requirements:
 
-- takes any number input
-- converts it to a string in percentage form
-- returns that string.
+_Given_ a number input
+_When_ we call `convertToPercentage` with the number input
+_Then_ we get back a string representing the percentage for that
+
+Here are some examples:
 
 ```js {linenos=table,linenostart=1}
 convertToPercentage(0.5); // should return "50%"
