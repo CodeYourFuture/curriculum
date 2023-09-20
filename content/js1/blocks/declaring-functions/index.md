@@ -7,7 +7,8 @@ emoji= '🗄️'
 [objectives]
     1='Define a function in programming'
     2='Evaluate a function expression'
-    3='Call a function with an input in REPL'
+    3='Label and describe the syntactic features of a function declaration'
+    4='Call a function with an input in REPL'
 +++
 
 Now we need to wrap up the expression to convert any number into a percentage. Write a function declaration to reuse your code. A function declaration looks like this:
