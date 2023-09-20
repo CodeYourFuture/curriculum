@@ -14,7 +14,7 @@ emoji= '🗄️'
 
 Now we have a function declaration, we can check if our function works for any number. Call `convertToPercentage` with different arguments and check the return value each time.
 
-```js {linenos=table,hl_lines=["7-8"],linenostart=1}
+```js {linenos=table,hl_lines=["8-9"],linenostart=1}
 const decimalNumber = 0.5;
 
 function convertToPercentage() {
@@ -42,3 +42,20 @@ However, _given the function's current implementation_, we get the following log
 50%
 50%
 ```
+
+{{<tabs name="activities">}}
+
+{{<tab name="🎮 Play computer">}}
+
+Play computer and step through the code to check why we get the output below:
+
+```console
+50%
+50%
+```
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20decimalNumber%20%3D%200.5%3B%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B%0A%0Aconsole.log%28output1%29%3B%0Aconsole.log%28output2%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=11&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+{{</tab>}}
+
+{{</tabs>}}
