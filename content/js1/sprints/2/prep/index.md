@@ -11,7 +11,7 @@ name="Percentages"
 src="js1/blocks/percentages"
 [[blocks]]
 name="Defining functions"
-src="js1/blocks/defining-functions"
+src="js1/blocks/declaring-functions"
 [[blocks]]
 name="Playing computer"
 src="js1/blocks/playing-computer"
@@ -22,7 +22,7 @@ src="js1/blocks/scope"
 name="Return"
 src="js1/blocks/reuse"
 [[blocks]]
-name="Return"
+name="Global"
 src="js1/blocks/global"
 [[blocks]]
 name="Parameters"
