@@ -14,8 +14,6 @@ emoji= '🗄️'
     7='Given a short program, state the number of times a given function is called'
 +++
 
-### Setting a return value
-
 We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.
 
 We can add a return statement to `convertToPercentage` like this:
