@@ -1,7 +1,7 @@
 +++
 title = '🎮 Playing computer'
 headless = true
-time = 10
+time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
@@ -38,4 +38,4 @@ As variables are declared, we need a way to track the memory stored as our progr
 
 For now, we can think of a frame as a space where we execute some code in a function.
 
-The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as the place we start executing code. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame.
+The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as the place we start executing code. When we run the code above, `decimalNumber` and `convertToPercentage` are stored in the _global frame_. We then call the function `convertToPercentage`. Then a frame is created for `convertToPercentage` where we create the percentage string using an expression.
