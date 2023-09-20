@@ -68,7 +68,7 @@ Given the code above, play computer and predict what `result` will evaluate to. 
 
 {{</note>}}
 
-#### Undefined values
+### Undefined values
 
 If our function works, the value of `result` will be `"30%"`. We expect to see `30%` printed in the terminal:
 
@@ -78,7 +78,9 @@ If our function works, the value of `result` will be `"30%"`. We expect to see `
 
 When we log `result`'s value to the terminal we actually get `undefined`. We need to specify the value we want to return from our function. If we don't state what our function should return, the default return value will be `undefined`.
 
-#### Setting a return value
+Now the function contains a `return` statement, re-run your script to check the output.
+
+### Setting a return value
 
 We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.
 
@@ -100,8 +102,6 @@ function convertToPercentage() {
   return percentage;
 }
 ```
-
-Now the function contains a `return` statement, re-run your script to check the output.
 
 #### Checking with different inputs
 

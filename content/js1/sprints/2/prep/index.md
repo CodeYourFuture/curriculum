@@ -13,14 +13,14 @@ src="js1/blocks/percentages"
 name="Defining functions"
 src="js1/blocks/defining-functions"
 [[blocks]]
+name="Playing computer"
+src="js1/blocks/playing-computer"
+[[blocks]]
 name="Scope"
 src="js1/blocks/scope"
 [[blocks]]
-name="Reuse"
+name="Return"
 src="js1/blocks/reuse"
-[[blocks]]
-name="Playing computer"
-src="js1/blocks/playing-computer"
 [[blocks]]
 name="Parameters"
 src="js1/blocks/parameters"
