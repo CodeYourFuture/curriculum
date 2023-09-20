@@ -15,7 +15,7 @@ emoji= '🗄️'
 To make a function work for any number, we need to handle inputs. We do this using a {{<tooltip title="parameter">}} A parameter is a special kind of variable: its value is defined by the caller.
 {{</tooltip>}}.
 
-`decimalNumber` is still a variable - but as a **parameter** we don't assign `decimalNumber` a value inside the function's body. We pass an input to the function, and the value of that input is assigned to the `decimalNumber` parameter when the function is called. This happens automatically.
+`decimalNumber` is still a variable - but as a **parameter** we don't assign `decimalNumber` a value inside the function's body. It is a placeholder. When we call the function, we pass an input to the function, and the value of that input is assigned to the `decimalNumber` parameter when the function is called. This happens automatically.
 
 We can add a parameter `decimalNumber` to our function:
 
@@ -31,7 +31,7 @@ const output2 = convertToPercentage(0.231);
 ```
 
 In the example above, we're calling `convertToPercentage` twice: first with an **input** of `0.5` and second with an **input** of `0.231`.
-In JavaScript instead of **input** we use the word {{<tooltip title="argument">}}Arguments are inputs given to a function inside `()`. An argument means an input. The parameter is `decimalNumber`. The **argument** is `0.231`.{{</tooltip>}}
+In JavaScript instead of the word **input** we use the word {{<tooltip title="argument">}}Arguments are inputs given to a function inside `()`. An argument means an input. The parameter is `decimalNumber`. The **argument** is `0.231`.{{</tooltip>}}
 
 We're calling `convertToPercentage` twice: first with an **argument** of `0.5` and next with an **argument** of `0.231`.
 
@@ -44,7 +44,7 @@ flowchart LR
     B --> C[return]
 ```
 
-Here's a diagram of what happens when `makeGreeting` is passed a specific **argument**:
+Here's a diagram of what happens when `convertToPercentage` is passed a specific **argument**:
 
 ```mermaid
 
