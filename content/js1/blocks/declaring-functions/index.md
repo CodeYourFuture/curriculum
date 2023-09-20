@@ -23,11 +23,14 @@ The `function` declaration consists of the following syntactic elements:
 - `()` - any input to the function will go between these round braces (our function above doesn't take any input (yet), but it still needs the `()`s)
 - `{}` - the body of the function is written inside the curly braces (our function above doesn't do anything yet, but it still needs the `{}`s)
 
-Wrap the functionality we want to reuse inside the curly braces by writing:
+We can create a function declaration by wrapping up the `percentage` variable and the expression for the percentage inside the function.
 
 ```js {linenos=table,linenostart=1}
+const decimalNumber = 0.5;
+
 function convertToPercentage() {
-  const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
 }
 ```
+
+We've left `decimalNumber` out of the function body. We're going to explore if this will work.
