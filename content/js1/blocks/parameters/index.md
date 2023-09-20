@@ -12,6 +12,24 @@ emoji= '🗄️'
 
 +++
 
+At the moment, `decimalNumber` is a variable in the global scope of our program:
+
+```js
+const decimalNumber = 0.5; // defined in the global scope of our program
+
+function convertToPercentage() {
+  const percentage = `${decimalNumber * 100}%`;
+  return percentage;
+}
+
+const output1 = convertToPercentage(0.5);
+const output2 = convertToPercentage(0.231);
+```
+
+Whilst `decimalNumber` is always in the global scope, `convertToPercentage` will always look to the global scope to resolve the value of `decimalNumber`.
+
+> However, we want `convertToPercentage` to work for _any_ input we pass to it.
+
 To make a function work for any number, we need to handle inputs. We do this using a {{<tooltip title="parameter">}} A parameter is a special kind of variable: its value is defined by the caller.
 {{</tooltip>}}.
 
@@ -19,7 +37,7 @@ To make a function work for any number, we need to handle inputs. We do this usi
 
 We can add a parameter `decimalNumber` to our function:
 
-```js {linenos=table,hl_lines=[1] ,linenostart=1}
+```js {linenos=table,hl_lines=["1"] ,linenostart=1}
 function convertToPercentage(decimalNumber) {
   // now decimalNumber is a parameter of convertToPercentage
   const percentage = `${decimalNumber * 100}%`;
