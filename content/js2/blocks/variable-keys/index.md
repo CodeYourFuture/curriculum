@@ -39,6 +39,8 @@ function parseQueryString(queryString) {
 }
 ```
 
+We can't use dot syntax if we don't know what the name of the key is going to be. Square bracket notation is more powerful than dot notation, because it lets us use variables as keys.
+
 {{<tabs>}}
 
 {{<tab name="Tests">}}
@@ -79,3 +81,23 @@ Explain why this test case is no longer passing for the first test case. **Playi
 {{</tab>}}
 
 {{</tabs>}}
+
+Sometimes when we're solving a problem, it can be useful to work out different cases (like empty query strings, or non-empty query strings) and work out how to solve them separately, then come back when we think we understand the cases and work out how to put the solutions together into one function. This often is useful when there are really different cases to consider.
+
+Most of the time, though, it's useful to try to keep all of our existing tests passing as we cover more cases. If we wanted to do that here, we could make our function be something like:
+
+```js
+function parseQueryString(queryString) {
+  const queryParams = {};
+  if (queryString.length === 0) {
+    return queryParams;
+  }
+
+  const [key, value] = queryString.split("="); // will hold ['fruit', 'banana']
+  queryParams[key] = value; // will set the property name with the value of the key variable
+
+  return queryParams;
+}
+```
+
+Here, we only add a key to the object if there was actually something to add - we return early if there's no extra work to do.

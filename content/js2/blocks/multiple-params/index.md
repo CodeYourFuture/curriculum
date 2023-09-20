@@ -28,7 +28,11 @@ test("given a query string with multiple key-value pairs, returns them in object
 
 We've already worked out how to update the query params object given a **single key-value pair** in the query string.
 
+To work out our strategy, let's consider what we already know how to do. We already know how to take a key-value pair as a string, and add it to our object.
+
 > 💡 Key insight: If we can do it for **one pair**, we can try doing it for a **list of pairs** too.
+
+So we're missing a step - breaking up the string of multiple key-value pairs into an array where each element is a single key-value pair. If we do this, then we can iterate over the array, and do what we already know how to do on each key-value pair.
 
 Our strategy will be to break the query string apart into an array of key-value pairs. Once we've got an array we can try iterating through it and storing each key value pair inside the `queryParams` object.
 
@@ -42,19 +46,19 @@ Query strings with multiple key-value pairs use `&` as a separator e.g. `sort=lo
 function parseQueryString(queryString) {
   // suppose queryString has a value of "sort=lowest&colour=yellow"
   const queryParams = {};
-  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to [ "sort=yellow", "colour=yellow"]
+  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=yellow", "colour=yellow"]
 }
 ```
 
 #### 🎯 Sub-goal 2: add each key-value pair in the array to the query params object
 
-Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time.
+Once we've got an array we can iterate through the key-value pairs and update the `queryParams` object each time (like we did when we just had one key-value pair).
 
 ```js {linenos=table,hl_lines=["6-9"] ,linenostart=1}
 function parseQueryString(queryString) {
   // assume queryString has a value of "sort=lowest&colour=yellow"
   const queryParams = {};
-  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to [ "sort=yellow", "colour=yellow"]
+  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=yellow", "colour=yellow"]
 
   for (const pair of keyValuePairs) {
     const [key, value] = pair.split("=");
@@ -74,3 +78,28 @@ function parseQueryString(queryString) {
 {{</tab>}}
 
 {{</tabs>}}
+
+Now that we've worked out how to solve this problem in the case of multiple query parameters, let's integrate that solution into our previous implementation, to make sure it works for all cases.
+
+We can keep our `if (queryString.length === 0) {` check from before. We don't need to do anything special for the one-value case, as an array containing one element gets iterated the same as an array of multiple elements:
+
+```js
+function parseQueryString(queryString) {
+  const queryParams = {};
+  if (queryString.length === 0) {
+    return queryParams;
+  }
+  const keyValuePairs = queryString.split("&");
+
+  for (const pair of keyValuePairs) {
+    const [key, value] = pair.split("=");
+    queryParams[key] = value;
+  }
+
+  return queryParams;
+}
+```
+
+When we're solving problems involving several values, often we need slightly differently handling for the cases when there are 0, 1, or more than 1 values. In our example here, we need to treat 0 values specially (if the query string is empty, we return early), but we can handle 1 and more than 1 the same way.
+
+When you're breaking down problems, think to yourself: What are special cases we may need to handle differently?
