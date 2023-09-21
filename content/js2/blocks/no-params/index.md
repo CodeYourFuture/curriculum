@@ -43,9 +43,9 @@ However, after re-running the tests, we get the following feedback:
 
 {{<note title="🔎 📜 research and interpret" type="activity">}}
 
-The error message contains the word **serialize**.
+The error message contains the phrase **"serializes to the same string"**.
 
-Research the definition of the word serialize and then interpret what this error message is telling you in your own words. Start a thread in Slack to discuss your interpretation of the error message.
+Research the meaning of this phrase and then interpret what this error message is telling you in your own words. Start a thread in Slack to discuss your interpretation of the error message.
 
 {{</note>}}
 
