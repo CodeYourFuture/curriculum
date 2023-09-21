@@ -5,13 +5,12 @@ time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Label and describe the syntactic features of a function declaration'
-    2='Identify a call site'
-    3='Differentiate between a function declaration and a function invocation'
-    4='Identify the return value evaluated at a call site given its function declaration'
-    5='Reuse code to perform the same calculation with different inputs'
-    6='Log the return value of a function'
-    7='Given a short program, state the number of times a given function is called'
+    1='Identify a call site'
+    2='Differentiate between a function declaration and a function invocation'
+    3='Identify the return value evaluated at a call site given its function declaration'
+    4='Reuse code to perform the same calculation with different inputs'
+    5='Log the return value of a function'
+    6='Given a short program, state the number of times a given function is called'
 +++
 
 We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.

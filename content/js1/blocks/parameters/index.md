@@ -1,7 +1,7 @@
 +++
 title = 'Parameterising a function'
 headless = true
-time = 20
+time = 40
 facilitation = false
 emoji= '🗄️'
 [objectives]
