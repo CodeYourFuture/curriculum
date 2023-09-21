@@ -17,6 +17,6 @@ emoji: 🚀
 1. ![Choosing the GitHub repo to create your site from](08-choose-repo.png "Select the GitHub repo to create a site from")
 1. ![Choosing the branch to create your site from](09-choose-branch.png "Under 'Branch to deploy' choose the 'main' branch of your repo, which is usually called `main`. You do not need to change anything under 'Customize build settings', Netlify will do this for you")
 1. Click the 'Deploy site' button
-1. It make take a few minutes before the deploy is complete. Try refreshing your browser, when a `.netlify.app` URL appears then the site is live
+1. It may take a few minutes before the deploy is complete. Try refreshing your browser, when a `.netlify.app` URL appears then the site is live
 
 ![The site is live](10-site-is-live.png)

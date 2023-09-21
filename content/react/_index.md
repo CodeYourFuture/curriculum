@@ -1,6 +1,6 @@
 +++
 title = 'React'
-description = 'The plan for React'
+description = 'The plan for React is coming soon'
 layout = 'module'
 emoji= '📚'
 menu = ['syllabus']

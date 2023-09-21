@@ -1,5 +1,5 @@
 .c-issue {
-  ~ .c-issue {
+  ~ .c-issue:not(.c-issue--pr) {
     padding-top: var(--theme-spacing--6);
   }
   &__title {
@@ -22,7 +22,8 @@
     flex-flow: row wrap;
     gap: var(--theme-spacing--1);
   }
-  &__label {
+  &__label,
+  &__button {
     background: var(--github);
     font: 600 var(--theme-type-size--6) system-ui;
     border: 1px solid;
@@ -31,5 +32,10 @@
       display: inline-block;
       padding: 0.125em 0.5em;
     }
+  }
+  &__button {
+    display: block;
+    margin: 0 0 auto auto;
+    width: max-content;
   }
 }

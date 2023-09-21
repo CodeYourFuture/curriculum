@@ -7,23 +7,30 @@ weight = 3
 backlog= 'Module-HTML-CSS'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="energiser"
+name="Energiser"
+src="blocks/energiser"
 [[blocks]]
 name="Active listening"
 src="https://cyf-pd.netlify.app/blocks/active-listening/readme/"
 [[blocks]]
-name="morning-break"
+name="Morning break"
+src="blocks/morning-break"
 [[blocks]]
 name="Asking questions"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
 [[blocks]]
 name="lunch"
+src="blocks/lunch"
 [[blocks]]
-name="study-60"
+name="Study Group 1"
+src="blocks/study-group"
 [[blocks]]
-name="afternoon-break"
+name="Afternoon break"
+src="blocks/afternoon-break"
 [[blocks]]
-name="study-60"
+name="Study Group 2"
+src="blocks/study-group"
 [[blocks]]
-name="retro"
+name="Retro"
+src="blocks/retro"
 +++

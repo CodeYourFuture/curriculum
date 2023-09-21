@@ -15,4 +15,5 @@ name="Learn about Slack"
 src="https://cyf-pd.netlify.app/blocks/learn-about-slack/readme/"
 [[blocks]]
 name="backlog"
+src="blocks/backlog"
 +++

@@ -2,6 +2,7 @@ tool-tip-container {
   position: relative;
   display: inline-block;
   cursor: help;
+  text-decoration: 1px var(--theme-color--brand) wavy underline;
 }
 
 .tooltip {

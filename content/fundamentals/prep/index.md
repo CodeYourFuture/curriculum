@@ -22,11 +22,12 @@ src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
 name="Make your Planning Board"
 src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
 [[blocks]]
-name="Backlog"
+name="backlog"
+src="blocks/backlog"
 +++
 
 {{<tabs name="prep">}}
-{{< tab name="Getting Started" >}}
+{{<tab name="Getting Started">}}
 
 ## Getting Started
 
