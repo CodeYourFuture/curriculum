@@ -41,17 +41,19 @@ function parseQueryString() {
 However, after re-running the tests, we get the following feedback:
 ![to-be-check-error](to-be-check-error.png)
 
+{{<note title="🔎 📜 research and interpret" type="activity">}}
+
+The error message contains the word **serialize**.
+
+Research the definition of the word serialize and then interpret what this error message is telling you in your own words. Start a thread in Slack to discuss your interpretation of the error message.
+
+{{</note>}}
+
 ### Checking objects
 
-We saw earlier that objects, like arrays, are reference types. That means that comparing two objects with `===` will only evalute to `true` if they are references to the same objects in memory. Two objects which happen to have the same properties, but are not in the same location in memory, will compare `false` using `===`.
+We saw earlier that objects, like arrays, are reference types. That means that comparing two objects with `===` will only evaluate to `true` if they are references to the same objects in memory. Two objects which happen to have the same properties, but are not in the same location in memory, will compare `false` using `===`.
 
 In our test, `parseQueryString` returns a reference to an empty object. So `currentOutput` is assigned this reference. But `targetOutput` is assigned a reference to a **different object**.
-
-If we perform the check with the `toBe` matcher we get a message back from Jest:
-
-```console
-If it should pass with deep equality, replace "toBe" with "toStrictEqual"
-```
 
 In other words, `toBe` checks whether the two objects are **references** to the same object in memory.
 

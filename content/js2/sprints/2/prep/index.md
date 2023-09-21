@@ -7,27 +7,27 @@ weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 2'
 [[blocks]]
-src="module"
-name="ordered-data"
+src="js2/blocks/ordered-data"
+name="Ordered data"
 [[blocks]]
-src="module"
-name="key-values"
+src="js2/blocks/key-values"
+name="Key values"
 [[blocks]]
-src="module"
-name="access"
+src="js2/blocks/access"
+name="Access"
 [[blocks]]
-src="module"
-name="query-string"
+src="js2/blocks/query-string"
+name="Query string"
 [[blocks]]
-src="module"
-name="no-params"
+src="js2/blocks/no-params"
+name="No params"
 [[blocks]]
-src="module"
-name="one-pair"
+src="js2/blocks/one-pair"
+name="One pair"
 [[blocks]]
-src="module"
-name="variable-keys"
+src="js2/blocks/variable-keys"
+name="Variable keys"
 [[blocks]]
-src="module"
-name="multiple-params"
+src="js2/blocks/multiple-params"
+name="Multiple params"
 +++
