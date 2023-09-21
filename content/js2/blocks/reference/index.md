@@ -113,7 +113,7 @@ Here `pluralise` is **passed an array by reference**.
 
 Step through the code to observe this behaviour:
 
-<iframe title="pluralise-string" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28arr%29%20%7B%0A%20%20arr.push%28%22s%22%29%3B%0A%7D%0Aconst%20lettersInAnArray%20%3D%20%5B%22c%22,%22a%22,%22t%22%5D%3B%0Apluralise%28lettersInAnArray%29%3B%0A%0Aconsole.assert%28lettersInAnArray.length%20%3D%3D%3D%204%29%3B%0Aconsole.assert%28lettersInAnArray%5B3%5D%20%3D%3D%3D%20%22s%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe title="pluralise-array" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28arr%29%20%7B%0A%20%20arr.push%28%22s%22%29%3B%0A%7D%0Aconst%20lettersInAnArray%20%3D%20%5B%22c%22,%22a%22,%22t%22%5D%3B%0Apluralise%28lettersInAnArray%29%3B%0A%0Aconsole.assert%28lettersInAnArray.length%20%3D%3D%3D%204%29%3B%0Aconsole.assert%28lettersInAnArray%5B3%5D%20%3D%3D%3D%20%22s%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 {{</tab>}}
 
 {{<tab name="pluralise: string">}}
@@ -124,7 +124,7 @@ This means a copy of `string`'s value is passed to `pluralise` in the second tab
 
 Step through the code to observe this behaviour:
 
-<iframe title="pluralise-string" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28str%29%20%7B%0A%20%20str%20%2B%3D%20%22s%22%3B%0A%7D%0Aconst%20string%20%3D%20%22cat%22%3B%0Apluralise%28string%29%3B%0A%0Aconsole.assert%28string.length%20%3D%3D%3D%201%29%3B%0Aconsole.assert%28string%20%3D%3D%3D%20%22a%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe title="pluralise-string" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28str%29%20%7B%0A%20%20str%20%2B%3D%20%22s%22%3B%0A%7D%0Aconst%20string%20%3D%20%22cat%22%3B%0Apluralise%28string%29%3B%0A%0Aconsole.assert%28string.length%20%3D%3D%3D%203%29%3B%0Aconsole.assert%28string%20%3D%3D%3D%20%22cat%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 {{</tab>}}
 {{</tabs>}}
