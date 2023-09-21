@@ -1,10 +1,11 @@
 {{ $repo := .Params.backlog }}
-{{ $issues := print .Site.Params.orgapi $repo "/issues" }}
+{{ $issues := print .Site.Params.orgapi $repo "/issues?per_page=100" }}
 {{ $filter := .Params.backlog_filter }}
+{{ $currentPath := .Page.RelPermalink }}
 <!-- api call -->
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-{{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
 {{ $commitObject := getJSON $issues $headers }}
 <!-- if no object show error -->
@@ -30,9 +31,21 @@
         {{ if strings.Contains .body "_No response_" }}
           {{ errorf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
         {{ end }}
+        <div class="c-alert" role="alert" hidden>
+          <span class="alert__message"></span>
+          <button aria-label="Close" class="clean-btn close" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            <a
+              href="/api/clone?state={{ dict "issue" .number "module" $repo "sprint" $filter "prevPath" $currentPath | jsonify }}"
+              class="e-button"
+              data-props="{{ $currentPath }}">
+              Clone
+            </a>
           </summary>
           <div class="c-issue__body">{{ .body | markdownify }}</div>
         </details>

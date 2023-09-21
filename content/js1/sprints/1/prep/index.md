@@ -8,37 +8,38 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="interface"
-src="module"
+name="Interface"
+src="js1/blocks/interface"
 [[blocks]]
-name="terminal"
-src="module"
+name="Terminal"
+src="js1/blocks/terminal"
 [[blocks]]
-name="data"
-src="module"
+name="Data"
+src="js1/blocks/data"
 [[blocks]]
-name="repl"
-src="module"
+name="REPL"
+src="js1/blocks/repl"
 [[blocks]]
-name="variables"
-src="module"
+name="Variables"
+src="js1/blocks/variables"
 [[blocks]]
-name="declarations-statements"
-src="module"
+name="Declarations and Statements"
+src="js1/blocks/declarations-statements"
 [[blocks]]
-name="functions"
-src="module"
+name="Functions"
+src="js1/blocks/functions"
 [[blocks]]
-name="scripts"
-src="module"
+name="Scripts"
+src="js1/blocks/scripts"
 [[blocks]]
-name="logging"
-src="module"
+name="Logging"
+src="js1/blocks/logging"
 [[blocks]]
-name="errors"
-src="module"
+name="Errors"
+src="js1/blocks/errors"
 [[blocks]]
-name="wrapping-up"
+name="Wrapping up"
+src="blocks/wrapping-up"
 [[blocks]]
 name= "Critical Thinking"
 src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"

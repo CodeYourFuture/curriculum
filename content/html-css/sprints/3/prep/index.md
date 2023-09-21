@@ -10,13 +10,15 @@ backlog_filter= 'Week 3'
 name="Forms in 25 minutes"
 src="https://www.youtube.com/watch?v=fNcJuPIZ2WE"
 [[blocks]]
-name="spaced-repetition"
+name="Spaced Repetition"
+src="blocks/spaced-repetition"
 [[blocks]]
-name="what-are-forms"
-src="module"
+name="What are Forms"
+src="html-css/blocks/what-are-forms"
 [[blocks]]
 name="Developer Communication"
 src="https://cyf-pd.netlify.app/blocks/prep-developer-communication/readme/"
 [[blocks]]
 name="backlog"
+src="blocks/backlog"
 +++

@@ -1,0 +1,15 @@
+.c-alert {
+    background-color: var(--theme-color--paper-fade);
+    z-index: 2;
+    position: relative;
+    padding: var(--theme-spacing--2) var(--theme-spacing--gutter) var(--theme-spacing--3);
+    width: 100%;
+
+    &__info {
+        background-color: var(--theme-color--ink-fade);
+    }
+
+    &__warning {
+        background-color: var(--theme-color--contrast-max);
+    }
+}

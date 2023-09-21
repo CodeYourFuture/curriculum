@@ -8,9 +8,7 @@ emoji= '🗄️'
     1='Analyse each line in a given program and state what the line does when the program executes'
 +++
 
-To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To make sense of how the computer executes our code, we use a method called {{<tooltip title="playing computer">}}
-**Playing computer** means simulating how the computer executes our code.
-We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
+To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To make sense of how the computer executes our code, we use a method called {{<tooltip title="playing computer">}}**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
 
 ### ➡️ Current line of code
 
@@ -36,7 +34,7 @@ For now, we can think of a frame as a space in our diagram that represents the v
 
 The _global frame_ is always the first frame that gets created when our program starts executing. We can think of the _global frame_ as a location for variables created outside of any function. When we run the variable declaration above, we get a string `"Gayle"` stored in the Global frame.
 
-Point to the global frame in the visualiser, and then [compare to the image in the tab](#global-frame) to check your answer.
+Point to the global frame in the visualiser, and then [compare to the image in the tab](#memory-frames-1) to check your answer.
 {{</tab>}}
 {{<tab name="Global frame">}}
 ![global-frame](global-frame.png)
@@ -65,12 +63,11 @@ makeGreeting();
 {{<tabs name="Hello there German">}}
 {{<tab name="Diagram">}}
 
-🤔 In our diagram we need a way to show what happens to the current executing line when a {{<tooltip title="function is called">}}A **function call** means "carry out the instructions in the body of this function".{{</tooltip>}}.
-
-<iframe width="850" height="375" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%22Hello%20there!%22%3B%20%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencci'%3B%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe title="interactive widget" width="850" height="375" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%22Hello%20there!%22%3B%20%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencci'%3B%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 {{<note type="activity" title="Predict and Explain">}}
-Use the diagrams to work out what happens when `makeGreeting` is called on line 7.
+
+🤔 Our diagram shows what happens to the current executing line when a {{<tooltip title="function is called.">}}A **function call** means "carry out the instructions in the body of this function".{{</tooltip>}} Use the diagrams to work out what happens when `makeGreeting` is called on line 7.
 
 1. What happens to the arrow?
 1. What else do you notice when `makeGreeting` is called?
@@ -93,7 +90,7 @@ Like the global frame, the `makeGreeting` frame will track variables that are cr
 
 To get our answers out of our function, we need to write a return statement with a return value. Our return statement defines the value a function call evaluates to.
 
-<iframe width="800" height="450" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%0A%20%20%20%20return%20greeting%3B%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencci'%3B%0A%0A%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe title="interactive widget" width="800" height="450" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20makeGreeting%28%29%20%7B%0A%20%20%20%20const%20greeting%20%3D%20%60Hello%20there%60%3B%0A%20%20%20%20return%20greeting%3B%0A%7D%0A%0Aconst%20firstName%20%3D%20'German'%3B%0Aconst%20lastName%20%3D%20'Bencci'%3B%0A%0A%0A%0AmakeGreeting%28%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 The visualiser shows us that the `return` keyword makes other things happen too. It also tells us to "return" to the place in our code where the function was called. Use the interactive diagram to work out what happens when the computer executes the return statement.
 
@@ -101,7 +98,7 @@ The visualiser shows us that the `return` keyword makes other things happen too.
 
 So now we have a better model of how the computer executes our code, we can apply these ideas to our current implementation of `convertToPercentage`:
 
-<iframe width="800" height="450" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20decimalNumber%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe title="interactive widget" width="800" height="450" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28%29%20%7B%0A%20%20const%20decimalNumber%20%3D%200.5%3B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 {{<note type="activity" title="exercise">}}
 

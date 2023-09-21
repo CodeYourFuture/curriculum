@@ -7,13 +7,17 @@ weight = 1
 backlog= 'Module-HTML-CSS'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="spaced-repetition"
+name="Spaced Repetition"
+src="blocks/spaced-repetition"
+time="30"
 [[blocks]]
-name="what-is-html"
-src="module"
+name="What is HTML"
+src="html-css/blocks/what-is-html"
+time="55"
 [[blocks]]
-name="Transferable skills"
+name="Transferable skills prep"
 src="https://cyf-pd.netlify.app/blocks/prep-transferable-skills/readme/"
+time="51"
 [[blocks]]
 name="Feedback"
 src="https://cyf-pd.netlify.app/blocks/prep-for-feedback/readme/"
@@ -28,6 +32,7 @@ name="Prepare for the Devtools workshop"
 src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/41"
 [[blocks]]
 name="backlog"
+src="blocks/backlog"
 +++
 
 {{<tabs name="HTML and CSS basics">}}
