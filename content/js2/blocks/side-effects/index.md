@@ -44,7 +44,7 @@ function calculateMedian(list) {
 ```
 
 We've established that we shouldn't use `splice` to retrieve the median from the input array.
-Fix the implementation of `calculateMedian` above so it no longer calls `splice` and mutates the input.
+Fix the implementation of `calculateMedian` above so it no longer calls `splice` (which mutates the input), and instead gives the right answer _without_ mutating the input.
 
 {{</tab>}}
 
