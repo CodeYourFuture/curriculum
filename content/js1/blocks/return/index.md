@@ -34,9 +34,11 @@ We want to call the function `convertToPercentage` and store the return value in
 We can store the return value in a variable in exactly the same way:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
+const decimalNumber = 0.5;
+
 function convertToPercentage() {
-  const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 const result = convertToPercentage(0.3);
 ```
@@ -48,9 +50,11 @@ const result = convertToPercentage(0.3);
 Log out the value of `result` to the console using `console.log`.
 
 ```js {linenos=table,hl_lines=["6"],linenostart=1}
+const decimalNumber = 0.5;
+
 function convertToPercentage() {
-  const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 const result = convertToPercentage(0.3);
 console.log(result);
