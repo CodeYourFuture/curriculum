@@ -7,27 +7,40 @@
     {{ if ne $response nil }}
       <h3 class="e-heading__2">
         🛎️ Code waiting for review
-        <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
+        <a class="c-issue__link" target="_blank" href="{{ $blockData.sot }}"
+          >🔗</a
+        >
         <time class="c-block__time is-invisible" datetime="P10M"></time>
       </h3>
-      <p>Below are trainee coursework Pull Requests that need to be reviewed by volunteers.</p>
+      <p>
+        Below are trainee coursework Pull Requests that need to be reviewed by
+        volunteers.
+      </p>
       {{/* <!-- range over PRs list and pull out useful data --> */}}
       {{ range $response }}
         <details class="c-issue c-issue--pr">
           <summary class="c-issue__title e-heading__3">
             {{ .title }}
-            <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            <a class="c-issue__link" target="_blank" href="{{ .html_url }}"
+              >🔗</a
+            >
           </summary>
           <div class="c-issue__body">
             {{ .body | markdownify }}
-            <a class="e-button c-issue__button" href="{{ .html_url }}/files"
+            <a
+              class="e-button c-issue__button"
+              target="_blank"
+              href="{{ .html_url }}/files"
               >Start a review</a
             >
           </div>
         </details>
       {{ end }}
     {{ end }}
-    <a href="{{ $blockData.sot }}" class="e-button c-issue__button"
+    <a
+      href="{{ $blockData.sot }}"
+      target="_blank"
+      class="e-button c-issue__button"
       >See more pull requests</a
     >
   </section>
