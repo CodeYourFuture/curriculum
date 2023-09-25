@@ -6,6 +6,10 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Analyse each line in a given program and state what the line does when the program executes'
+    2='Differentiate between a function declaration and a function invocation'
+    3='Define a frame'
+    4='Describe what happens when a function is called'
+    5='Differentiate between a local frame and a global frame'
 +++
 
 To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To make sense of how the computer executes our code, we use a method called {{<tooltip title="playing computer">}}**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
