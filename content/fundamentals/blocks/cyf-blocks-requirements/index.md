@@ -18,6 +18,6 @@ For the majority of this course, we will use a custom CYF application called [CY
 
 - Inspect the interface
 - Read the introduction
-- Complete all steps of the first exercise
+- Complete all steps in the first exercise
 
 {{</note>}}
