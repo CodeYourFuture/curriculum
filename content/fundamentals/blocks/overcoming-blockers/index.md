@@ -6,8 +6,9 @@ facilitation=false
 
 {{<note type="narrative" title="Reading">}}
 
-> [Overcoming Coding Blockers](https://www.linkedin.com/pulse/how-overcome-coding-blockers-kingsley-ibe/)
-> {{</note>}}
+[Overcoming Coding Blockers](https://www.linkedin.com/pulse/how-overcome-coding-blockers-kingsley-ibe/)
+
+{{</note>}}
 
 ## Why are we doing this?
 
