@@ -23,7 +23,7 @@ name="Return"
 src="js1/blocks/reuse"
 [[blocks]]
 name="Global"
-src="js1/blocks/global"
+src="js1/blocks/different-inputs"
 [[blocks]]
 name="Parameters"
 src="js1/blocks/parameters"
