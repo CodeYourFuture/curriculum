@@ -24,11 +24,9 @@ Click _next_ to see what happens when the computer executes the following progra
 
 ### 🖼️ Global frame
 
-As the program runs, we keep track of two things: memory and the line that is being currently executed. We keep track of this information using a {{<tooltip title="frame">}} Think of a frame as an environment where we execute some code.{{</tooltip>}}
+As we step through the program, we keep track of two things: _memory_ and the _line that is being currently executed_. We keep track of this information using a {{<tooltip title="frame">}} Think of a frame as the context in which some code gets executed. We use frames to keep track of memory and the line of code that is being currently executed.{{</tooltip>}}
 
-Frames are the environment where code is executed.
-
-The _global frame_ is always the first frame that gets created when our program starts executing. The global frame is like the starting point for our program, the place where code gets executed first. When we run the code above, `decimalNumber` and `convertToPercentage` are stored in the _global frame_.
+The _global frame_ is always the first frame that gets created when our program starts executing. The global frame is like the starting point for our program, the place where code gets executed first. When we run the code above, `decimalNumber` and `convertToPercentage` are both stored in the _global frame_.
 
 ### 🖼️  Local frame
 
@@ -36,5 +34,4 @@ The _global frame_ is always the first frame that gets created when our program 
 A **function call** is an instruction to run the code inside a function
 {{</note>}}
 
-Whenever we call a function a new frame is created for executing the code inside that function. Im the example above,
-we call the function `convertToPercentage` on line 7 adn then a new frame is created for . The `convertToPercentage`. Then the computer runs the code inside the body of the `convertToPercentage`
+Whenever we call a function a new frame is created for executing the code inside that function. In the example above, we call the function `convertToPercentage` on line 7 and then a new frame is created for `convertToPercentage`. Inside the `convertToPercentage` frame, the computer executes the instructions inside `convertToPercentage`, storing new variables in memory and keeping track of the current line that is being executed.
