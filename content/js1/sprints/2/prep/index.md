@@ -20,10 +20,10 @@ name="Scope"
 src="js1/blocks/scope"
 [[blocks]]
 name="Return"
-src="js1/blocks/reuse"
+src="js1/blocks/return"
 [[blocks]]
 name="Global"
-src="js1/blocks/different-inputs"
+src="js1/blocks/reuse"
 [[blocks]]
 name="Parameters"
 src="js1/blocks/parameters"
