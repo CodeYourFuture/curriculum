@@ -20,7 +20,7 @@ Today we will spend most of our time working together on our projects in timed b
 - Choose a way to improve upon the project to make it better suited to your website. Modify your CYF Blocks implementation then ship it!
 - Get feedback from one of your peers: what new requirement would they like to add? Can you implement this in CYF Blocks? Ship it again!
 
-![A skateboard to a bike to a car](https://images.ctfassets.net/gw5wr8vzz44g/29ExmDybOIAqEuGMMAcs0w/a1d28f10aa9bbc18279eb7466f47acd4/ustwo_Thinks_crop.gif?w=1400 "Every iteration is an improvement on a working MVP")
+![A skateboard to a bike to a car](https://images.ctfassets.net/gw5wr8vzz44g/29ExmDybOIAqEuGMMAcs0w/a1d28f10aa9bbc18279eb7466f47acd4/ustwo_Thinks_crop.gif?w=1400 "Every iteration is an improvement on a working MVP (minimum viable product)")
 
 How will you work together? Using the collaborative tools you have learned during this course:
 
