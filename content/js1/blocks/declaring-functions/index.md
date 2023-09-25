@@ -6,13 +6,13 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
-    2='Define a function in programming'
-    3='Evaluate a function expression'
-    4='Label and describe the syntactic features of a function declaration'
-    5='Call a function with an input in REPL'
 +++
 
-Now we need to wrap up the expression to convert any number into a percentage. Write a function declaration to reuse your code. A function declaration looks like this:
+{{<note type="tip" title="Recall">}}
+Functions are reusable blocks of code.
+{{</note>}}
+
+To create a function, we can use a function declaration. A function declaration looks like this:
 
 ```js {linenos=table,linenostart=1}
 function convertToPercentage() {}
@@ -27,7 +27,7 @@ The `function` declaration consists of the following syntactic elements:
 
 We can create a function declaration by wrapping up the `percentage` variable and the expression for the percentage inside the function.
 
-```js {linenos=table,linenostart=1}
+```js {linenos=table,linenostart=1 }
 const decimalNumber = 0.5;
 
 function convertToPercentage() {
@@ -35,4 +35,4 @@ function convertToPercentage() {
 }
 ```
 
-We've left `decimalNumber` out of the function body. We're going to explore if this will work.
+At the moment `decimalNumber` is not wrapped up inside the body of the function. In the following sections, we will explore what happens when this is the case.

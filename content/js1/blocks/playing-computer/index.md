@@ -18,7 +18,7 @@ We will use an interactive code visualiser to play computer. First, we need to t
 
 In the interactive widget, an arrow shows which line of code is being executed. Each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with this value".
 
-Click _next_ to see what happens when the computer executes the variable declaration.
+Click _next_ to see what happens when the computer executes the variable declaration. Pay attention to what happens when the function `convertToPercentage` is called.
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20decimalNumber%20%3D%200.5%3B%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%7D%0A%0AconvertToPercentage%280.5%29%3B&codeDivHeight=400&codeDivWidth=300&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -26,7 +26,7 @@ Click _next_ to see what happens when the computer executes the variable declara
 
 ### 🖼️ Global frame
 
-As the program runs, we need to keep track of two things: memory and the line that is being currently executed. We keep track of this information using a {{<tooltip title="frame">}} we can think of a frame as a environment where we execute some code.{{</tooltip>}}
+As the program runs, we keep track of two things: memory and the line that is being currently executed. We keep track of this information using a {{<tooltip title="frame">}} we can think of a frame as a environment where we execute some code.{{</tooltip>}}
 
 Frames are the environment where code is executed.
 
@@ -34,6 +34,9 @@ The _global frame_ is always the first frame that gets created when our program 
 
 ### 🖼️  Local frame
 
-On line 7, we call the function `convertToPercentage`. Whenever we call a `convertToPercentage` frame is created. The `convertToPercentage` frame is an environment for executing the code declared inside the body of `convertToPercentage`.
+{{<note type="tip" title="recall">}}
+A **function call** is an instruction to run the code inside a function
+{{</note>}}
 
-> Whenever we call a function, a brand new frame is created for executing the code inside that function
+Whenever we call a function a new frame is created for executing the code inside that function. Im the example above,
+we call the function `convertToPercentage` on line 7 adn then a new frame is created for . The `convertToPercentage`. Then the computer runs the code inside the body of the `convertToPercentage`

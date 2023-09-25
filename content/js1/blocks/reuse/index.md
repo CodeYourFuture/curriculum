@@ -13,7 +13,7 @@ emoji= '🗄️'
     6='Given a short program, state the number of times a given function is called'
 +++
 
-We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.
+We need a way to access the percentage string that is created inside `convertToPercentage`. To access values created inside functions, we write {{<tooltip title="return statements">}}We write a return statement to specify a function's return value. If your function call is like a question, the return value is the answer. It's what comes back.{{</tooltip>}}.
 
 We can add a return statement to `convertToPercentage` like this:
 
@@ -25,7 +25,7 @@ function convertToPercentage() {
 }
 ```
 
-However, we can also keep the variable `percentage` and refer to it in the return statement:
+We can also keep the variable `percentage` and refer to it in the return statement:
 
 ```js {linenos=table,hl_lines=["4-5"],linenostart=1}
 const decimalNumber = 0.5;
@@ -87,9 +87,3 @@ console.log(result);
 {{</tab>}}
 
 {{</tabs>}}
-
-{{<note type="question" title="Predict">}}
-
-Given the code above, play computer and predict what `result` will evaluate to. Write your prediction down.
-
-{{</note>}}
