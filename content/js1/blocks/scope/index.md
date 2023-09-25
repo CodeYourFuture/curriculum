@@ -27,4 +27,4 @@ However if we run the code above, we get an error:
 ReferenceError: percentage is not defined
 ```
 
-We get an error because of {{<tooltip title="scope">}}Scope is a region of our code where certain variables are accessible.{{</tooltip>}}. When `convertToPercentage` is declared we also define a **function scope** - the region of code enclosed inside the `{}` of `convertToPercentage`'s function body. Any variables declared inside the body of the function
+We get an error because of {{<tooltip title="scope">}}Scope is a region of our code where certain variables are accessible.{{</tooltip>}}. When we define `convertToPercentage` we also define a **function scope** - the region of code enclosed inside the `{}` of `convertToPercentage`'s function body. Any variables that we define inside the body of `convertToPercentage` are `convertToPercentage`'s scope. In other words, variables declared inside `convertToPercentage` body's are only available inside that region of code.
