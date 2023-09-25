@@ -1,5 +1,5 @@
 +++
-title = '🗳️ Checking with different inputs'
+title = '♻️ Reusing the function'
 headless = true
 time = 30
 facilitation = false

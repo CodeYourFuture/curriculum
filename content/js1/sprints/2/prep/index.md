@@ -22,7 +22,7 @@ src="js1/blocks/scope"
 name="Return"
 src="js1/blocks/return"
 [[blocks]]
-name="Global"
+name="Reuse"
 src="js1/blocks/reuse"
 [[blocks]]
 name="Parameters"
