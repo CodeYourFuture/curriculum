@@ -1,16 +1,14 @@
 +++
-title = '🌍 Generalising'
+title = '🗳️ Checking with different inputs'
 headless = true
 time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Define a function in programming'
+    1='Reuse code to perform the same calculation with different inputs'
     2='Evaluate a function expression'
     3='Call a function with an input in REPL'
 +++
-
-### Checking with different inputs
 
 Now we have a function declaration, we can check if our function works for any number. Call `convertToPercentage` with different arguments and check the return value each time.
 
@@ -43,7 +41,9 @@ However, _given the function's current implementation_, we get the following log
 50%
 ```
 
-`decimalNumber` is in the **global scope**. Scope is a region of code where variables are accessible. The global scope is a region of code where variables are accessible to all other parts of the program. So any function declarations can reference variables declared in the global scope.
+### 🌍 Global scope
+
+`decimalNumber` is in the **global scope**. The global scope is a region of code where variables are accessible in all parts of the program. So any function declarations can reference variables declared in the global scope. If a variable is in the global scope, we say that `decimalNumber` is a global variable.
 
 {{<tabs name="activities">}}
 
