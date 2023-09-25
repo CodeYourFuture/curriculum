@@ -16,9 +16,9 @@ To understand how `convertToPercentage` works we must build a mental model of ho
 
 We will use an interactive code visualiser to play computer.
 
-{{<note type="activity" title="Playing computer">}}
+{{<note type="activity" title="👣 Step through">}}
 
-In a JavaScript program, each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with this value". In the interactive widget, arrows are used to show which line just executed and which line is next to be executed.
+In a JavaScript program, each line is an instruction that will have some effect. For example, a line of code with a variable declaration means "store a new variable with this value in memory". In the interactive widget, arrows are used to show which _line just executed_ and which _line is next to be executed_.
 
 Click _next_ to see what happens when the computer executes the following program. Pay particular attention to what happens when the function `convertToPercentage` is called.
 
