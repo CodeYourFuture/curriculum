@@ -33,7 +33,7 @@ So long as `decimalNumber` is always in the global scope, `convertToPercentage` 
 To make a function work for any number, we need to handle inputs. We do this using a {{<tooltip title="parameter">}} A parameter is a special kind of variable: its value is defined by the caller.
 {{</tooltip>}}.
 
-`decimalNumber` is still a variable - but as a **parameter** we don't assign `decimalNumber` a value inside the function's body. We pass an input to the function, and the value of that input is assigned to the `decimalNumber` parameter when the function is called. This happens automatically.
+`decimalNumber` is still a variable - but as a **parameter** we don't assign `decimalNumber` a value inside the function's body. It is a placeholder. When we call the function, we pass an input to the function, and the value of that input is assigned to the `decimalNumber` parameter when the function is called. This happens automatically.
 
 We can add a parameter `decimalNumber` to our function:
 

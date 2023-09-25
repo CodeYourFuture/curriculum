@@ -69,8 +69,8 @@ Recalling template literals, the expression in the curly braces will be evaluate
 These variables describe the dimensions of a rectangle:
 
 ```js
-const height = ; // could have a value like 10
-const width = ; // could have a value like 30
+const height = 10; // 10 is just an example of a value here - your code should still work if you change this to another value.
+const width = 30; // Also just an example - your code should still work if this changes.
 ```
 
 Create variables [`area`](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [`perimeter`](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
@@ -91,7 +91,7 @@ Now give different numbers to `height` and `width`. Are the `area` and `perimete
 This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
 
 ```js
-const price = ; // could have a value like 130
+const price = 130; // Just an example value. Try changing this value to 0, 10, or 1521, and make sure you still get the right answer from your code.
 ```
 
 Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
