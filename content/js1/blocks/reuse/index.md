@@ -43,7 +43,7 @@ However, _given the function's current implementation_, we get the following log
 
 ### 🌍 Global scope
 
-`decimalNumber` is in the {{<tooltip title="global scope">}}The global scope is a region of code where variables are accessible in all parts of the program{{</tooltip>}}. Any function declarations can reference variables declared in the global scope. If a variable is in the global scope, we say that variable is a **global variable**.
+At the moment, `decimalNumber` is in the {{<tooltip title="global scope">}}The global scope is the region of code where variables are accessible in all parts of the program{{</tooltip>}}. Any functions we declare can reference variables in the global scope. If a variable is in the global scope, we say that variable is a **global variable**.
 
 {{<tabs name="activities">}}
 
