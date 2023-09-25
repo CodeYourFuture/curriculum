@@ -26,7 +26,7 @@ const output1 = convertToPercentage(0.5);
 const output2 = convertToPercentage(0.231);
 ```
 
-So long as `decimalNumber` is always in the global scope, `convertToPercentage` will always look to the global scope to resolve the value of `decimalNumber`.
+So long as `decimalNumber` is always in the global scope, `convertToPercentage` will always go to the global scope to get the value of `decimalNumber`.
 
 > However, we want `convertToPercentage` to work for _any_ input we pass to it.
 
