@@ -6,10 +6,9 @@ facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Identify a call site'
-    3='Identify the return value evaluated at a call site given its function declaration'
-    4='Reuse code to perform the same calculation with different inputs'
-    5='Log the return value of a function'
-    6='Given a short program, state the number of times a given function is called'
+    2='Identify the return value evaluated at a call site given its function declaration'
+    3='Log the return value of a function'
+    4='Given a short program, state the number of times a given function is called'
 +++
 
 ### 🔎 Checking the output
