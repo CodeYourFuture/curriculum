@@ -6,6 +6,7 @@ facilitation = false
 emoji= '❌'
 [objectives]
 1='Define scope'
+2='Explain what happens when a variable is referenced out of scope'
 +++
 
 The function `convertToPercentage` will only be useful if we can access the `percentage` string that it creates. Otherwise, we won't be able to use the result of `convertToPercentage` in other parts of our code. We can play computer to check that the `percentage` variable is being created. Somebody suggests trying to log the `percentage` variable outside
