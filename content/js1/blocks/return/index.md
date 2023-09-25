@@ -5,11 +5,9 @@ time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Identify a call site'
-    2='Differentiate between a function declaration and a function invocation'
-    3='Identify the return value evaluated at a call site given its function declaration'
-    4='Log the return value of a function'
-    5='Given a short program, state the number of times a given function is called'
+    1='Identify the return value at a call site given its function declaration'
+    2='Log the return value of a function'
+    3='Given a short program, state the number of times a given function is called'
 +++
 
 We need a way to access the percentage string that is created inside `convertToPercentage`. To access values created inside functions, we write {{<tooltip title="return statements">}}We write a return statement to specify a function's return value. If your function call is like a question, the return value is the answer. It's what comes back.{{</tooltip>}}.
