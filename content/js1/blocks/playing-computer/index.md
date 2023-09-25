@@ -12,13 +12,13 @@ To understand how `convertToPercentage` works we must build a mental model of ho
 
 ### ➡️ Current line of code
 
-We will use an interactive code visualiser to play computer. First, we need to track the line of code that is **currently executing**.
+We will use an interactive code visualiser to play computer.
 
 {{<note type="activity" title="Playing computer">}}
 
-In the interactive widget, an arrow shows which line of code is being executed. Each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with this value".
+In a JavaScript program, each line is an instruction to the computer that will produce some effect. For example, a line of code with a variable declaration means "store a new variable with this value". In the interactive widget, arrows are used to show which line just executed and which line is next to be executed.
 
-Click _next_ to see what happens when the computer executes the variable declaration. Pay attention to what happens when the function `convertToPercentage` is called.
+Click _next_ to see what happens when the computer executes the following program. Pay particular attention to what happens when the function `convertToPercentage` is called.
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20decimalNumber%20%3D%200.5%3B%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%7D%0A%0AconvertToPercentage%280.5%29%3B&codeDivHeight=400&codeDivWidth=300&cumulative=false&curInstr=4&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
@@ -26,7 +26,7 @@ Click _next_ to see what happens when the computer executes the variable declara
 
 ### 🖼️ Global frame
 
-As the program runs, we keep track of two things: memory and the line that is being currently executed. We keep track of this information using a {{<tooltip title="frame">}} we can think of a frame as a environment where we execute some code.{{</tooltip>}}
+As the program runs, we keep track of two things: memory and the line that is being currently executed. We keep track of this information using a {{<tooltip title="frame">}} Think of a frame as an environment where we execute some code.{{</tooltip>}}
 
 Frames are the environment where code is executed.
 
