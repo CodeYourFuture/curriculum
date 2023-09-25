@@ -12,7 +12,7 @@ emoji= '🗄️'
     5='Differentiate between a local frame and a global frame'
 +++
 
-To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To make sense of how the computer executes our code, we use a method called {{<tooltip title="playing computer">}}**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
+To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To build this model, we use a method called {{<tooltip title="playing computer">}}.**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
 
 We will use an interactive code visualiser to play computer.
 
@@ -28,9 +28,9 @@ Click _next_ to see what happens when the computer executes the following progra
 
 ### 🖼️ Global frame
 
-As we step through the program, we keep track of two things: _memory_ and the _line that is being currently executed_. We keep track of this information using a {{<tooltip title="frame">}} Think of a frame as the context in which some code gets executed. We use frames to keep track of memory and the line of code that is being currently executed.{{</tooltip>}}
+As we step through the program, we keep track of two things: _memory_ and the _line that is being currently executed_. We keep track of this information using a {{<tooltip title="frame">}} Think of a frame as the context in which some code gets executed. We use frames to keep track of memory and the line of code that is being currently executed.{{</tooltip>}}.
 
-The _global frame_ is always the first frame that gets created when our program starts executing. The global frame is like the starting point for our program, the place where code gets executed first. When we run the code above, `decimalNumber` and `convertToPercentage` are both stored in the _global frame_.
+The _global frame_ is always the first frame that gets created when our program starts executing. It is like the starting point for our program, the place where code gets executed first. When we run the code above, `decimalNumber` and `convertToPercentage` are both stored in the _global frame_.
 
 ### 🖼️  Local frame
 
