@@ -10,8 +10,6 @@ emoji= '🗄️'
 
 To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To make sense of how the computer executes our code, we use a method called {{<tooltip title="playing computer">}}**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}
 
-### ➡️ Current line of code
-
 We will use an interactive code visualiser to play computer.
 
 {{<note type="activity" title="Playing computer">}}
