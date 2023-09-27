@@ -33,12 +33,15 @@ time="60"
 [[blocks]]
 name="Transferable skills"
 src="https://cyf-pd.netlify.app/blocks/transferable-skills/readme/"
+time="45"
 [[blocks]]
 name="Feedback"
 src="https://cyf-pd.netlify.app/blocks/feedback/readme/"
+time="30"
 [[blocks]]
 name="Pairs for next week"
 src="https://cyf-pd.netlify.app/blocks/pairs-for-next-week/readme/"
+time="10"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
