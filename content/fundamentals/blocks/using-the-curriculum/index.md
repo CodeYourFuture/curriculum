@@ -12,7 +12,7 @@ emoji= '🧩'
    5='Explain the sequencing of work in a typical week at CYF'
 +++
 
-At Code Your Future, the curriculum is maps out the content you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on Saturdays. Use this time to go through the activities and learn how to navigate the curriculum interface.
+At Code Your Future, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on Saturdays. Use this time to go through the activities and learn how to navigate the curriculum interface.
 
 ### Resources
 
