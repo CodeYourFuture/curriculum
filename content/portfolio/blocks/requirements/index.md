@@ -1,5 +1,5 @@
 +++
-title = 'block2'
+title = 'Gathering requirements'
 headless = true
 time = 30
 facilitation = false
@@ -10,4 +10,4 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-
+{{< snippet "snippets/requirements.md" >}}
