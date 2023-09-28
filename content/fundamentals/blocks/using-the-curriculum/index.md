@@ -30,4 +30,4 @@ The facilitator will make a copy of this template presentation 👉
 
 ### Introduction
 
-The facilitator will use the Miro board presentation to guide trainees and volunteers on a discussion about how we use the curriculum.
+The facilitator will use the Miro board presentation to guide trainees and volunteers through a discussion about how we use the curriculum.
