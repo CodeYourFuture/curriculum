@@ -19,9 +19,7 @@ Sufficient means _enough for a given purpose_.mYour user interface should provid
 
 ### Simplicity
 
-Simple means _easy to understand_. Think of the number of times you've used a website and it's been impossible to find the things you need. Your user interface should be simple and intuitive.
-
-Users should be able to figure how to navigate and make sense of your user interface with minimal effort.
+Simple means _easy to understand_. Think of the number of times you've used a website and it's been impossible to find the things you need. Your user interface should be simple and intuitive. Users should be able to figure how to navigate and use the user interface with minimal effort.
 
 {{<note type="activity" title="discussion" >}}
 
@@ -44,7 +42,7 @@ Work on the following tasks, remember to focus on **sufficiency** and **simplici
 
 🕰️ Time: 20 minutes
 
-Create some wireframes] for the pages you described in the previous section
+Create some wireframes for the pages you described in the previous section
 If you've not made wireframes before, check out this guide to help you come up with some ideas: https://balsamiq.com/learn/articles/what-are-wireframes/
 
 {{</note>}}
