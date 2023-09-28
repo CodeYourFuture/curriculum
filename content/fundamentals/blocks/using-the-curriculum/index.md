@@ -16,7 +16,7 @@ At Code Your Future, the curriculum maps out what you will learn together over t
 
 ### Resources
 
-The facilitator will need to make a copy of this template presentation 👉
+The facilitator will make a copy of this template presentation 👉
 
 <iframe title="using-the-curriculum" width="768" height="432" src="https://miro.com/app/live-embed/uXjVMh2y3Ds=/?moveToViewport=-7348,-6186,14736,7636&embedId=173973063452" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
