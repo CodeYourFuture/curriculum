@@ -1,5 +1,5 @@
 +++
-title = 'Design 1'
+title = '🕹️ User Interface'
 headless = true
 time = 30
 facilitation = false
@@ -10,50 +10,55 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
-## 🕹️ The Interface
+As a team, you need to start thinking about and designing the user interface.
+To focus your discussion, keep these two things in mind for your UI:
 
-As a team, you need to start designing your user interface.
-You should aim for
+### Sufficiency
 
-- sufficiency
-- simplicity
-- style
+Sufficient means _enough for a given purpose_.mYour user interface should provide _enough functionality or data_ for users to achieve their goals.
 
-## Simplicity
+### Simplicity
 
-Your user interface should be simple and intuitive. Users should be able to figure how to navigate and find all the key features of your application without having to look stuff up.
+Simple means _easy to understand_. Think of the number of times you've used a website and it's been impossible to find the things you need. Your user interface should be simple and intuitive.
 
-## Sufficiency
+Users should be able to figure how to navigate and make sense of your user interface with minimal effort.
 
-Your application is providing functionality to users so they can achieve some goal. You need to think: does this user interface give the user all the functionality they need. Are they given enough data to achieve their goal
+{{<note type="activity" title="discussion" >}}
 
-what should it look like to your end users, starting building up an idea of the main views,
-
-- devise some basic wireframes, get a shell of the lookout for the application
-- what sort of mock data will this view need to be realised?
-
-## Style
-
-Your user interface should
-
-## Discussion 🗣️ 20 minutes
+🕰️ Time: 20 minutes
 
 Split into pairs.
-Work on the following questions:
+Each pair, choose a different user story.
+Work on the following tasks, remember to focus on **sufficiency** and **simplicity**.
 
-Focus on **sufficiency** and **simplicity**
-Think about the following questions👍
+1. What kind of pages will you need?
+2. What are the key components of this page ( inputs, forms, buttons, cards, etc)
+3. Ensure you can clearly define the purpose of each page and its components
+4. What kind of data will you need to expose in this view?
 
-- How many pages will you need?
-- What pages are intended are specific users?
-- Ensure you can clearly define the purpose of each page and how it is related to one ( or more) of your user stories
--
+{{</note>}}
 
-Based on the three qualities described above, sketch out on a piece of paper some ideas of how you think the user interface might look. Use this time to research other designs online too and come up with ideas. Decide if you need
+### 🖼️ Wireframe
 
-## 🪞 Reflect 10 minutes
+{{<note type="activity" title="discussion" >}}
 
-Reflect on the different ideas your pairs have come up with
-Decide which designs you think are
+🕰️ Time: 20 minutes
 
-## Discussion 🗣️ 20 minutes
+Create some wireframes] for the pages you described in the previous section
+If you've not made wireframes before, check out this guide to help you come up with some ideas: https://balsamiq.com/learn/articles/what-are-wireframes/
+
+{{</note>}}
+
+### 🪞 Reflect and check
+
+{{<note type="activity" title="discussion" >}}
+
+🕰️ Time: 10 minutes
+
+Now swap wireframes between each pair.
+Check the following:
+Does the proposed interface meet the requirements for the user story?
+Is it sufficient?
+Is it simple?
+
+{{</note>}}

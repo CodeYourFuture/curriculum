@@ -8,7 +8,6 @@
 {{- end }}
 {{- /* Get resource. */}}
 {{- $r := "" }}
-{{ print  $asset }}
 {{- with .Site.GetPage $asset }}
   {{- $r = . }}
 {{- else }}

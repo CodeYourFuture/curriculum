@@ -6,6 +6,9 @@ menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Portfolio'
 backlog_filter= 'Week 2'
+[[objectives]]
+name="Stand up"
+src="portfolio/blocks/stand-up"
 +++
 
 ## Retrospective

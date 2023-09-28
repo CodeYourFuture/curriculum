@@ -10,5 +10,3 @@ emoji= '🧩'
     3='Write up clear user story issues'
     4='Create sub-issues based off acceptance criteria'
 +++
-
-Now you've started to gain a sense of how the app looks, how it is structured you can start to organise your backlog.
