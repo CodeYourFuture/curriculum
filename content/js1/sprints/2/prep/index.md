@@ -10,11 +10,20 @@ backlog_filter= 'Week 2'
 name="Percentages"
 src="js1/blocks/percentages"
 [[blocks]]
-name="Reuse"
-src="js1/blocks/reuse"
+name="Defining functions"
+src="js1/blocks/declaring-functions"
 [[blocks]]
 name="Playing computer"
 src="js1/blocks/playing-computer"
+[[blocks]]
+name="Scope"
+src="js1/blocks/scope"
+[[blocks]]
+name="Return"
+src="js1/blocks/return"
+[[blocks]]
+name="Reuse"
+src="js1/blocks/reuse"
 [[blocks]]
 name="Parameters"
 src="js1/blocks/parameters"
