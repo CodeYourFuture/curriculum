@@ -12,11 +12,12 @@ src="blocks/energiser"
 [[blocks]]
 name="Devtools Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
+time="120"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group 1"
+name="Study Group"
 src="blocks/study-group"
 time="90"
 [[blocks]]
@@ -26,10 +27,6 @@ time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group 2"
-src="blocks/study-group"
-time="60"
 [[blocks]]
 name="Transferable skills"
 src="https://cyf-pd.netlify.app/blocks/transferable-skills/readme/"
