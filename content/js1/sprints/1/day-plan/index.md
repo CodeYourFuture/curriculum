@@ -17,7 +17,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Git CLI workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk-eval"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
 time=85
 [[blocks]]
 name="Lunch"
