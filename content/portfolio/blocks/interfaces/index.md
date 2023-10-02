@@ -15,7 +15,7 @@ To focus your discussion, keep these two things in mind for your UI:
 
 ### Sufficiency
 
-Sufficient means _enough for a given purpose_.mYour user interface should provide _enough functionality or data_ for users to achieve their goals.
+Sufficient means _enough for a given purpose_. Your user interface should provide _enough functionality or data_ for users to achieve their goals.
 
 ### Simplicity
 
