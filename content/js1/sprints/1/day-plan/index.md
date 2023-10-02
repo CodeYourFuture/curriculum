@@ -16,7 +16,7 @@ src="https://cyf-pd.netlify.app/blocks/critical-thinking/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Git CLI workshop"
+name="Evaluate Module JS1"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
 time=85
 [[blocks]]
