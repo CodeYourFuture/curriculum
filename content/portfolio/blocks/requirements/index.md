@@ -70,18 +70,3 @@ Explain why you think you should do this project.
 As a team, decide on which project you're going to implement.
 
 {{</note>}}
-
-### Conversation
-
-{{<note type="activity" title="Decision" >}}
-
-🕥 Time: 20 minutes
-
-Again split up into pairs and choose one user story each.
-For each user story and try and break down the user story into measurable acceptance criteria.
-You will need to ensure you can:
-
-- define exactly the [what] of the user story? Can you clearly define what the user wants to achieve?
--
-
-{{</note>}}
