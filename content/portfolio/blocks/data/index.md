@@ -27,5 +27,6 @@ A means of **persisting changes**. Users will need to create or update existing 
 - What sort of data does the client application need - what kind of data is it fetching?
 
 - What is the purpose of each component in your application, how will it communicate with other components in the architecture?
+- How do your different pieces of data relate to each other? If you're storing things in a database, what tables will you need, and what relationships will there between the tables?
 
   {{</note>}}
