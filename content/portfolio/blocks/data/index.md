@@ -5,12 +5,12 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Identify core components required to provide data and functionality to the user interface'
+    1='Identify core components required to supply data and functionality to the user interface'
 +++
 
-For your user interface to work, you will need to interact with other services.
+For your application to work, your user interface will need to interact with other services. These services can provide data and the means of updating this data to the user interface.
 
-Here are the kinds of functionality you may need to provide via your user interface:
+Here are the kinds of functionality these service may provide:
 
 ### 📖 Reading
 
@@ -18,12 +18,14 @@ A means of **reading data** - the user interface may need to fetch data from som
 
 ### 💾 Persisting
 
-A means of **persisting changes**. Users will need to make changes to data or create new data. For example, a user might need to **create** a comment on an article. And then they may need to **update** the like on an existing comment. In each of these cases, the data is stored or **persisted** somewhere in a database. Your user interface will need a way to create/update data in the database.
+A means of **persisting changes**. Users will need to create or update existing data. For example, a user might need to **create** a comment on an article. Another user may need to **update** the like/dislike on an existing comment. In each of these cases, any changes are **persisted** in a database. The user interface enables users to read and persist data without worrying about the
 
 {{<note type="activity" title="Discuss">}}
 
 - What are the key components of the application, how are they connected, is it a static or a dynamic application, what kind of data are you storing?
+
 - What sort of data does the client application need - what kind of data is it fetching?
+
 - What is the purpose of each component in your application, how will it communicate with other components in the architecture?
 
   {{</note>}}
