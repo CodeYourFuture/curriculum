@@ -30,7 +30,7 @@ Each pair, choose a different user story.
 Work on the following tasks, remember to focus on **sufficiency** and **simplicity**.
 
 1. What kind of pages will you need?
-2. What are the key components of this page ( inputs, forms, buttons, cards, etc)
+2. What are the key components of this page (inputs, forms, buttons, cards, etc)
 3. Ensure you can clearly define the purpose of each page and its components
 4. What kind of data will you need to expose in this view?
 
