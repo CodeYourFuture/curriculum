@@ -7,7 +7,6 @@ emoji= '🧩'
 [objectives]
     1='Choose a project brief'
     2='Identify and explain the key user stories for your project'
-    3='Propose some acceptance criteria for at least one user story'
 +++
 
 {{< snippet "snippets/requirements.md" >}}
@@ -57,7 +56,7 @@ Answer the following questions:
 
 🕥 Time: 10 minutes
 
-Get back togther as a team.
+Get back together as a team.
 Get one person from each pair to explain in their own words what the project brief is about.
 Explain why you think you should do this project.
 
