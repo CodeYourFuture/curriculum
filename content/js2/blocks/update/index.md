@@ -1,13 +1,38 @@
 +++
-title = '📈 Updating progress'
+title = '🏷️ Updating label'
 headless = true
-time = 30
+time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
+    1='Describe an event in the browser environment'
 +++
 
-We have a progress element on the page that indicates the number of characters we've got left.
-We can write a function `updateProgress` that takes as an input the number of words left and then **updates** the DOM.
-IN particuilar this function will updat
+We can calculate the remaining characters every time a user's key is released from the keyboard. Finally, we must update the label element in the user interface with the number of characters remaining.
+
+> Step 5: Update the interface with the number of characters left
+
+To achieve this goal, we'll need to access the `label` element and then update the label text. As before, we can use `document.querySelector` to access an element in the DOM:
+
+```js {linenos=table,linenostart=1, hl_lines=["8-9"] }
+const characterLimit = 120;
+const input = document.querySelector("input");
+
+function handleKeyup() {
+  const charactersLeft = characterLimit - input.value;
+  console.log(`${charactersLeft} characters remaining`);
+
+  const label = document.querySelector("label");
+  label.innerText = `${charactersLeft} characters remaining`;
+}
+
+input.addEventListener("keyup", handleKeyup);
+```
+
+{{<tabs name="activity">}
+
+{{<tab name="explain">}}
+
+{{</tab>}}
+
+{{</tabs>}}}
