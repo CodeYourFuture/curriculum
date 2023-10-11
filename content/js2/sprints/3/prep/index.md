@@ -13,6 +13,9 @@ name="browser"
 src="js2/blocks/character-limit"
 name="character-limit"
 [[blocks]]
+src="js2/blocks/plan"
+name="strategy"
+[[blocks]]
 src="js2/blocks/dom"
 name="dom"
 [[blocks]]
@@ -22,9 +25,12 @@ name="querying"
 src="js2/blocks/events"
 name="events"
 [[blocks]]
-src="js2/events/response"
+src="js2/blocks/response"
 name="response"
 [[blocks]]
-src="js2/events/update"
-name="update"
+src="js2/blocks/check-progress"
+name="check progress"
+[[blocks]]
+src="js2/blocks/update"
+name="update element"
 +++
