@@ -7,24 +7,24 @@ weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 3'
 [[blocks]]
-src="module"
+src="js2/blocks/browser"
 name="browser"
 [[blocks]]
-src="module"
+src="js2/blocks/character-limit"
 name="character-limit"
 [[blocks]]
-src="module"
+src="js2/blocks/dom"
 name="dom"
 [[blocks]]
-src="module"
+src="js2/blocks/querying"
 name="querying"
 [[blocks]]
-src="module"
+src="js2/blocks/events"
 name="events"
 [[blocks]]
-src="module"
+src="js2/events/response"
 name="response"
 [[blocks]]
-src="module"
+src="js2/events/update"
 name="update"
 +++
