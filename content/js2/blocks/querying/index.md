@@ -14,27 +14,33 @@ We start with a web page with the following elements:
 
 HTML page here.
 
+{{<note type="activity" title="Inspect with Dev Tools">}}
+
 We can use the Dev Tools tab to look through the DOM and look at the elements on the page.
 We can also start using the console tab to access the DOM too. If we click on the console tab, we can access the DOM by typing document directly into the console.
 
+{{</note>}}
+
 ### Query selector
 
-Let’s start by accessing the input element on the page and see if we can access the input text.
+Recall: step 2: Step 2: Access the input element
 
-To access DOM elements, we can use a method on the DOM API - document.querySelector(‘input’);
+The DOM is an interface. We can use methods from the DOM API to interact with the web page and access elements.
 
-We can call this method directly in the console in Dev Tools.
+Let’s start by accessing the input element and its value.
 
--- add a screenshot here of calling document.qu
+To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-However, we can also link this web page to a JS script and write JavaScript there.
+We can create a javascript file, `script.js`, to call DOM methods to interact with the web page.
 
 ```js
 const input = document.querySelector("input");
 console.log(input);
 ```
 
-Input is of type NodeElement - which is a JavaScript object with special properties. The key thing is that this NodeElement corresponds to the element on the page. We can log some proprieties of the input - such as the valu attribute.
-console.log(input.value);
+`document.querySelector` returns an element object, which represents the element in the document. We can access various properties of the `input` object. In particular we want to access the value a user types into the input box. We can do this by accessing the value property:
 
-The return value of this function is now the value that the user has inputted into the input box. We can call getUserInput a number of times and also update the input element to observe the difference in the function’s return value.
+```js
+const input = document.querySelector("input");
+console.log(input.value); // evaluates to the value typed by the user
+```
