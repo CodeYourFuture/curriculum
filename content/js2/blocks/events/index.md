@@ -1,7 +1,7 @@
 +++
 title = '🎬 Events'
 headless = true
-time = 30
+time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -24,7 +24,3 @@ However, there is a missing step in our plan. We need to find a way of running s
 An event is something that occurs in a programming environment. In a browser context, events could be a user clicking on a button, a user typing something into an input box, a page loading etc.
 
 In the case of the input box, there are lots of events occurring. The input box value is changing, a keyboard button is released every time the user types and so on.
-
-### Reacting to events
-
-To react to an event, we can define a
