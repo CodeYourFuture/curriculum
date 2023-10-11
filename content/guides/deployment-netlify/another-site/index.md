@@ -25,7 +25,7 @@ emoji: 🚀
 
 ## Done!
 
-It make take a few minutes before the deploy is complete. Try refreshing your browser.
+It may take a few minutes before the deploy is complete. Try refreshing your browser.
 
 <!-- 06-site-is-live.png -->
 

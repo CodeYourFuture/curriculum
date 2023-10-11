@@ -1,11 +1,10 @@
 +++
 title = '🧩 Percentages'
 headless = true
-time = 20
+time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Define a parameter'
     2='Construct simple expressions to represent a calculation'
 +++
 
@@ -26,11 +25,13 @@ Math.round(3.141); // evaluates to 3
 
 All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. `Math.round` and `console.log` are functions that the JavaScript language designers have written and stored inside the language, because everyone needs them all the time.
 
-No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with these requirements:
+No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with the following requirements:
 
-- takes any number input
-- converts it to a string in percentage form
-- returns that string.
+_Given_ a number input
+_When_ we call `convertToPercentage` with the number input
+_Then_ we get back a string representing the percentage for that
+
+Here are some examples:
 
 ```js {linenos=table,linenostart=1}
 convertToPercentage(0.5); // should return "50%"
@@ -68,8 +69,8 @@ Recalling template literals, the expression in the curly braces will be evaluate
 These variables describe the dimensions of a rectangle:
 
 ```js
-const height = ; // could have a value like 10
-const width = ; // could have a value like 30
+const height = 10; // 10 is just an example of a value here - your code should still work if you change this to another value.
+const width = 30; // Also just an example - your code should still work if this changes.
 ```
 
 Create variables [`area`](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [`perimeter`](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
@@ -90,7 +91,7 @@ Now give different numbers to `height` and `width`. Are the `area` and `perimete
 This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
 
 ```js
-const price = ; // could have a value like 130
+const price = 130; // Just an example value. Try changing this value to 0, 10, or 1521, and make sure you still get the right answer from your code.
 ```
 
 Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".

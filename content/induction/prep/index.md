@@ -5,17 +5,16 @@ layout = "prep"
 emoji= "🧰"
 menu_level = ["module"]
 weight = 1
-
 [[blocks]]
-name="check-github"
-src="module"
+name="Handshake"
+src="induction/blocks/handshake"
 [[blocks]]
-name="check-git-installation"
-src="module"
+name="Check Git"
+src="induction/blocks/check-git-installation"
 [[blocks]]
-name="install-vscode"
-src="module"
+name="Install VS Code"
+src="induction/blocks/install-vscode"
 [[blocks]]
-name="cyf-folder"
-src="module"
+name="Create CYF Folder"
+src="induction/blocks/cyf-folder"
 +++

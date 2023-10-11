@@ -1,7 +1,7 @@
 +++
 title = 'Ship It'
 headless = true
-time = 180
+time = 170
 facilitation = false
 emoji= '🧩'
 [objectives]

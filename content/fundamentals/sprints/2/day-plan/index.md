@@ -8,35 +8,39 @@ weight = 3
 backlog= 'Module-Fundamentals'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="blockers"
+name="Discovering blockers"
+src="blocks/blockers"
 [[blocks]]
 name="blockers"
-src="module"
+src="fundamentals/blocks/blockers"
 [[blocks]]
-name="morning-break"
+name="Morning break"
+src="blocks/morning-break"
 [[blocks]]
-name="mvp"
-src="module"
+name="MVP"
+src="fundamentals/blocks/mvp"
 [[blocks]]
-name="lunch"
+name="Lunch"
+src="blocks/lunch"
 [[blocks]]
 name="Using the Slack app"
 src="https://cyf-pd.netlify.app/blocks/using-the-slack-app/readme/"
 [[blocks]]
-name="Organising the Slack Rota for our daily posts"
+name="Slack Rota"
 src="https://cyf-pd.netlify.app/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota/readme/"
 [[blocks]]
 name="pairing"
-src="module"
+src="fundamentals/blocks/pairing"
 [[blocks]]
-name="afternoon-break"
+name="Afternoon break"
+src="blocks/afternoon-break"
 [[blocks]]
-name="cyf-blocks-iteration"
-src="module"
+name="CYF Blocks"
+src="fundamentals/blocks/cyf-blocks-iteration"
 [[blocks]]
-name="ship-it-iteration"
-src="module"
+name="Ship It"
+src="fundamentals/blocks/ship-it-iteration"
 [[blocks]]
-name="retro"
-
+name="Retro"
+src="blocks/retro"
 +++

@@ -8,33 +8,36 @@ weight = 3
 backlog= 'Course-Fundamentals'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="energiser"
+name="Energiser"
+src="blocks/energiser"
 [[blocks]]
-name="Importance of Professional Development"
+name="Importance of PD"
 src="https://cyf-pd.netlify.app/blocks/fundamentals-test/readme/"
 [[blocks]]
-name="Let's talk about our Code of Conduct"
+name="Code of Conduct"
 src="https://cyf-pd.netlify.app/blocks/lets-talk-about-our-code-of-conduct/readme/"
 [[blocks]]
-name="morning-break"
+name="Morning break"
+src="blocks/morning-break"
 [[blocks]]
-name="code-dot-org"
-src="module"
-[[blocks]]
-name="cyf-blocks-requirements"
-src="module"
+name="Using the curriculum"
+src="fundamentals/blocks/using-the-curriculum"
 [[blocks]]
 name="lunch"
+src="blocks/lunch"
 [[blocks]]
 name="telephone"
+src="blocks/telephone"
 [[blocks]]
-name="user-stories"
-src="module"
+name="User Stories"
+src="fundamentals/blocks/user-stories"
 [[blocks]]
-name="afternoon-break"
+name="Afternoon break"
+src="blocks/afternoon-break"
 [[blocks]]
-name="ship-it-requirements"
-src="module"
+name="Ship It"
+src="fundamentals/blocks/ship-it-requirements"
 [[blocks]]
-name="retro"
+name="Retro"
+src="blocks/retro"
 +++

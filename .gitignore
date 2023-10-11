@@ -27,3 +27,7 @@ yarn-error.log*
 
 # CI uses package-lock.json, don't allow yarn.lock
 yarn.lock
+
+# Local Netlify folder
+.netlify
+.env

@@ -34,7 +34,6 @@ The following topics are largely unnecessary for writing code in the style we te
 - JS classes and constructors
   - The `this` keyword is famously unintuitive. React changed its API to avoid using this. Since JS classes tend not to be useful without the this keyword, we avoid them altogether.
 - Mutability/immutability
-- Passing by value vs reference
 
 In general: while we cover basic language features like for loops, we quickly move on to higher order functions and encourage these over imperative strategies. We downplay strategies that mutate arrays, like push, and pop.
 
