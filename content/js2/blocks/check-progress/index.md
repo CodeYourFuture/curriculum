@@ -25,7 +25,7 @@ function handleKeyup() {}
 input.addEventListener("keyup", handleKeyup);
 ```
 
-We've done the following⚓
+We've done the following:
 
 - [x] defined a `characterLimit`
 - [x] accessed the input element
@@ -60,9 +60,12 @@ input.addEventListener("keyup", handleKeyup);
 
 ```html
 <section>
-  <h4>Character limit</h4>
-  <input id="word-limit-input" type="text" />
-  <label id="word-limit-label" for="input">120 characters remaining</label>
+  <h1>Character limit</h1>
+  <textarea id="comment-input" name="withHint" rows="5"></textarea>
+  <label for="comment-input"
+    >Please enter a comment in fewer than 200 characters
+  </label>
+  <p id="character-limit-info">You have 200 characters remaining</p>
 </section>
 ```
 

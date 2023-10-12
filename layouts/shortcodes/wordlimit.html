@@ -1,25 +1,28 @@
 <section>
-  <h4>Character limit</h4>
-  <input id="word-limit-input" type="text" />
-  <label id="word-limit-label" for="input">120 characters remaining</label>
+  <h1>Character limit</h1>
+  <textarea id="comment-input" name="withHint" rows="5"></textarea>
+  <label for="comment-input"
+    >Please enter a comment in fewer than 200 characters
+  </label>
+  <p id="character-limit-info">You have 200 characters remaining</p>
 </section>
 <script>
   const characterLimit = 120;
 
   function getCharacterCount() {
-    const input = document.querySelector("#word-limit-input");
+    const input = document.querySelector("textarea");
     return input.value.length;
   }
 
-  function updateLabel() {
+  function updateCharacterLimitInfo() {
     const characterCount = getCharacterCount();
     const charactersLeft = characterLimit - characterCount;
-    const inputLabel = document.querySelector("#word-limit-label");
-    inputLabel.innerText = `${charactersLeft} characters remaining`;
+    const p = document.querySelector("#character-limit-info");
+    p.innerText = `You have ${charactersLeft} characters remaining`;
   }
 
-  const input = document.querySelector("#word-limit-input");
+  const input = document.querySelector("textarea");
   input.addEventListener("keyup", function handleKeyUp() {
-    updateLabel();
+    updateCharacterLimitInfo();
   });
 </script>

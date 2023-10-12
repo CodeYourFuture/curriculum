@@ -1,11 +1,11 @@
 +++
-title = '🏷️ Updating label'
+title = '🏷️ Updating the interface'
 headless = true
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Describe an event in the browser environment'
+    1='Access and modify the innerText of a html element'
 +++
 
 We can calculate the remaining characters every time a user's key is released from the keyboard. Finally, we must update the label element in the user interface with the number of characters remaining.
@@ -29,10 +29,12 @@ function handleKeyup() {
 input.addEventListener("keyup", handleKeyup);
 ```
 
-{{<tabs name="activity">}
+{{<tabs name="activity">}}
 
 {{<tab name="explain">}}
 
+Explain why the code to access the `label` element is written _inside_ `handleKeyup`
+
 {{</tab>}}
 
-{{</tabs>}}}
+{{</tabs>}}

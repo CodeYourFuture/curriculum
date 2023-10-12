@@ -22,7 +22,7 @@ We can define the problem more clearly:
 
 ### 🏁 Starting point
 
-In the user interface, we wil start off with some static html:
+In the user interface, we will start off with some static html:
 
 ```html
 <!DOCTYPE html>
@@ -33,8 +33,14 @@ In the user interface, we wil start off with some static html:
     <title>Document</title>
   </head>
   <body>
-    <input />
-    <label>120 words remaining</label>
+    <section>
+      <h1>Character limit</h1>
+      <textarea id="comment-input" name="withHint" rows="5"></textarea>
+      <label for="comment-input"
+        >Please enter a comment in fewer than 200 characters
+      </label>
+      <p id="character-limit-info">You have 200 characters remaining</p>
+    </section>
   </body>
 </html>
 ```
