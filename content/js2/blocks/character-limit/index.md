@@ -19,3 +19,24 @@ We can define the problem more clearly:
 > _Given_ an input box and a character limit of 120,
 > _When_ I type characters into the input box
 > _Then_ I should be told how many characters I’ve got left
+
+### 🏁 Starting point
+
+In the user interface, we wil start off with some static html:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input />
+    <label>120 words remaining</label>
+  </body>
+</html>
+```
+
+To implement the functionality, we'll need to interact with the elements on the page. We'll need a way to **access** and **update** elements based off **user interactions**.
