@@ -39,6 +39,12 @@ In the user interface, we will start off with some static html:
       <label for="comment-input"
         >Please enter a comment in fewer than 200 characters
       </label>
+      <textarea
+        id="comment-input"
+        name="comment-input"
+        rows="5"
+        maxlength="200"
+      ></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
