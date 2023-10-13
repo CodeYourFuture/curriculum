@@ -9,14 +9,16 @@ emoji= '🧩'
     2='Explain when an event listener is called'
 +++
 
-As a user, we interact with elements in a user interface. We click on things, we input text and we complete forms etc.
+As a user, we interact with elements in a user interface. We _click_ on buttons, _input_ text, _submit_ forms etc.
 
-To react to an event, we need to specify a function that must run when a certain event occurs. We can do this using `.addEventListener`
+To react to an event, we can register a function that must run when a certain event occurs. We can do this using `.addEventListener`
 
 ```js
 const input = document.querySelector("input");
 
-input.addEventListener("keyup", function handleKeyup() {});
+function handleKeyup() {}
+
+input.addEventListener("keyup", handleKeyup);
 ```
 
 Let's break down the arguments that are passed to `addEventListener`.
