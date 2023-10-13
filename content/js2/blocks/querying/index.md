@@ -1,35 +1,48 @@
 +++
-title = ' Querying the DOM'
+title = 'Querying the DOM'
 headless = true
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Access elements in the DOM using the selector methods'
 +++
 
-We start with a web page with the following elements:
+Inside the body of the html document, we start with the following html:
 
-HTML page here.
+```html
+<section>
+  <h3>Character limit</h3>
+  <label for="comment-input"
+    >Please enter your comment in the text area below
+  </label>
+  <textarea
+    id="comment-input"
+    name="comment-input"
+    rows="5"
+    maxlength="200"
+  ></textarea>
+  <p id="character-limit-info">You have 200 characters remaining</p>
+</section>
+```
 
 {{<note type="activity" title="Inspect with Dev Tools">}}
 
-We can use the Dev Tools tab to look through the DOM and look at the elements on the page.
-We can also start using the console tab to access the DOM too. If we click on the console tab, we can access the DOM by typing document directly into the console.
+We can use Dev Tools to inspect the DOM and look at the elements on the page.
+Use Dev Tools to inspect the character limit component from earlier. Which html elements make up the character limit component.
 
 {{</note>}}
 
-### Query selector
+### `querySelector()`
 
-Recall: step 2: Step 2: Access the input element
+{{<note title="recall" type="tip">}}
 
-The DOM is an interface. We can use methods from the DOM API to interact with the web page and access elements.
+In the plan defined earlier:
+Step 2: Access the `textarea` element
 
-Let’s start by accessing the input element and its value.
+{{</note>}}
 
-To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+The DOM is an interface. It represents html elements as objects and provides functions to access these objects. Let’s start by accessing the `textarea` element and its value. To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 We can create a javascript file, `script.js`, to call DOM methods to interact with the web page.
 
@@ -38,7 +51,31 @@ const input = document.querySelector("input");
 console.log(input);
 ```
 
-`document.querySelector` returns an element object, which represents the element in the document. We can access various properties of the `input` object. In particular we want to access the value a user types into the input box. We can do this by accessing the value property:
+To link this JavaScript file with the html, we can update the `html`👍
+
+```html {linenos=table,hl_lines=["7"],linenostart=1}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <h3>Character limit</h3>
+      <label for="comment-input"
+        >Please enter your comment in the text area below
+      </label>
+      <textarea id="comment-input" name="comment-input" rows="5"></textarea>
+      <p id="character-limit-info">You have 200 characters remaining</p>
+    </section>
+  </body>
+</html>
+```
+
+`document.querySelector` **returns** an element object, which represents the `textarea` in the web page. Once we can access the `textarea` object, we can access its properties. In particular we want to access the value a user types into the input box. We can do this by accessing the value property:
 
 ```js
 const input = document.querySelector("input");
