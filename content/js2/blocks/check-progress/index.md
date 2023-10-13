@@ -61,7 +61,7 @@ input.addEventListener("keyup", handleKeyup);
 ```html
 <section>
   <h1>Character limit</h1>
-  <textarea id="comment-input" name="withHint" rows="5"></textarea>
+  <textarea id="comment-input" rows="5" maxlength="200"></textarea>
   <label for="comment-input"
     >Please enter a comment in fewer than 200 characters
   </label>

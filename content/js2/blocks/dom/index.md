@@ -30,11 +30,11 @@ You can also view the DOM tree
   </head>
   <body>
     <section>
-      <h1>Character limit</h1>
-      <textarea id="comment-input" name="withHint" rows="5"></textarea>
+      <h3>Character limit</h3>
       <label for="comment-input"
-        >Please enter a comment in fewer than 200 characters
+        >Please enter your comment in the text area below
       </label>
+      <textarea id="comment-input" name="comment-input" rows="5"></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
@@ -57,5 +57,3 @@ graph TB
 
 {{</tab>}}
 {{</tabs>}}
-
-Node is a runtime environment: it is an application that runs JavaScript code. Using Node, we can develop applications inside JavaScript. However, Node wasn’t the first runtime environment for JavaScript.
