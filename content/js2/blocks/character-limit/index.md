@@ -10,7 +10,7 @@ emoji= '🧩'
 
 Let’s define a problem.
 
-Suppose we're working on a website where users will need to comment on articles. In the user interface, they'll be provided with an `textarea` element where they can type their comment. However, there is a _character limit_ of `200` characters on their comment. As users type in to the box they should get feedback on how many characters they've got left for their comment.
+Suppose we're working on a website where users will need to **comment** on articles. In the user interface, they'll be provided with an `textarea` element where they can type their comment. However, there is a _character limit_ of `200` characters on their comment. As users type in to the box they should get feedback on how many characters they've got left for their comment. An example character limit component is rendered below, try typing in it:
 
 {{<wordlimit>}}
 
