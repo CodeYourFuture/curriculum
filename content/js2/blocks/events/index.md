@@ -12,7 +12,7 @@ In the case of the input box, we want to update the label text **every time the 
 
 ```mermaid
 flowchart TD
-A[Step 1: Define the character limit] --> B[Step 2: Access the input element] --> C[Step 3: calculate the number of characters left] --> D[Step 4: Update the interface with the number of characters left]
+A[Step 1: Define the character limit] --> B[Step 2: Access the input element] --> C[Step 3: Calculate the number of characters left] --> D[Step 4: Update the interface with the number of characters left]
 ```
 
 However, there is a missing step in our plan. We need to find a way of running some code in response to an **event**.
