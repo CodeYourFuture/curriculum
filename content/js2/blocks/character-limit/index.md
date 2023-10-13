@@ -34,10 +34,9 @@ In the user interface, we will start off with some static html:
   </head>
   <body>
     <section>
-      <h1>Character limit</h1>
-      <textarea id="comment-input" name="withHint" rows="5"></textarea>
+      <h3>Example character limit comment component</h3>
       <label for="comment-input"
-        >Please enter a comment in fewer than 200 characters
+        >Please enter your comment in the text area below
       </label>
       <textarea
         id="comment-input"
@@ -51,4 +50,4 @@ In the user interface, we will start off with some static html:
 </html>
 ```
 
-To implement the functionality, we'll need to interact with the elements on the page. We'll need a way to **access** and **update** elements based off **user interactions**.
+> To implement the acceptance criterion, we'll need to interact with the elements on the page. We'll need a way to **access** and **update** elements based off **user interactions**.

@@ -8,12 +8,8 @@ emoji= '🧩'
     1='Define the Document Object Model'
 +++
 
-We can start by inspecting the DOM - short for **D**ocument **O**bject **M**odel. The DOM is an API.
-When the browser renders a web page it creates the DOM - a representation of the web page. We can use JavaScript to interact with the DOM. This is what enables us to write programs that update the web page.
-
-{{<note type="tip" title="recall">}}
-JavaScript is a programming language. It is a set of rules for writing instructions that are understood by computers.
-{{</note>}}
+We can start by inspecting the **DOM** - short for {{<tooltip title="document object model">}} The Document Object Model is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}.
+When the browser first renders a web page it creates the DOM. We can then write JavaScript programs programs with the DOM API to interact with the elements in the web page.
 
 ### 🌳 DOM tree
 
