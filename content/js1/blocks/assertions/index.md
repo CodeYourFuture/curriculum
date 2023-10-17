@@ -65,25 +65,21 @@ Predict and explain if the assertion will succeed or fail. Pay particular attent
 
 ### Clarity with arguments
 
-It would be useful to have more information as to why this assertion failed. We can pass additional arguments to `console.assert`:
+It would be useful to have more information as to why this assertion failed. We can pass an additional argument to `console.assert`:
 
 ```js
 function formatAs12HourClock() {}
 
 console.assert(
-  formatAs12HourClock("08:00") === "08:00 am",
-  "current function output: %s, target output: %s",
-  formatAs12HourClock("08:00"),
-  "08:00 am"
+  currentOutput === targetOutput,
+  `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 ```
 
 Let's break down these arguments to make sense of what's going on:
 
 1. **first argument** - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
-2. **second argument** - `"current function output: %s, target output: %s"` - a message string that will be logged to the console if the condition is false.
-3. **third argument** - `formatAs12HourClock("08:00")` - this value will be substituted into the message string at the first "%s"
-4. **fourth argument** - `"20:00"` - this value will be substituted into the message string at the second "%s"
+2. **second argument** - `current output: ${currentOutput}, target output: ${targetOutput}` - a message string that will be logged to the console if the condition is false.
 
 #### 🧹 Refactor
 
@@ -96,9 +92,7 @@ const currentOutput = formatAs12HourClock("08:00");
 const targetOutput = "08:00 am";
 console.assert(
   currentOutput === targetOutput,
-  "current output: %s, target output: %s",
-  currentOutput,
-  targetOutput
+  `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 ```
 
@@ -129,9 +123,7 @@ const currentOutput = formatAs12HourClock("08:00");
 const targetOutput = "08:00 am";
 console.assert(
   currentOutput === targetOutput,
-  "current output: %s, target output: %s",
-  currentOutput,
-  targetOutput
+  `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 ```
 
@@ -156,18 +148,14 @@ const currentOutput = formatAs12HourClock("08:00");
 const targetOutput = "08:00 am";
 console.assert(
   currentOutput === targetOutput,
-  "current output: %s, target output: %s",
-  currentOutput,
-  targetOutput
+  `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 
 const currentOutput = formatAs12HourClock("23:00");
 const targetOutput = "11:00 pm";
 console.assert(
   currentOutput === targetOutput,
-  "current output: %s, target output: %s",
-  currentOutput,
-  targetOutput
+  `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 ```
 
@@ -208,9 +196,7 @@ const currentOutput2 = formatAs12HourClock("23:00");
 const targetOutput2 = "11:00 pm";
 console.assert(
   currentOutput2 === targetOutput2,
-  "current output: %s, target output: %s",
-  currentOutput2,
-  targetOutput2
+  `current output: ${currentOutput2}, target output: ${targetOutput2}`
 );
 ```
 
