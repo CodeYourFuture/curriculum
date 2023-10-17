@@ -10,6 +10,6 @@ emoji= '🧩'
 +++
 
 User interfaces provide the gateway between a user and a complex application.
-When navigating the internet, we continually interacting with web pages to make use of a particular application's functionality.
+When navigating the internet, we continually interact with web pages to use a particular application's functionality.
 
-A {{<tooltip title="web browser">}} provides a user interface to interact with web pages.{{</tooltip>}} is capable of fetching and then rendering HTML documents to create a user interface. If a user visits a website and then gets a plain HTML document back, we say this content is static. By static, we mean that once the page is rendered in the browser the content cannot be updated. However, when we interact with the elements on the page, we often expect the page to update. For example, we might click on a button and expect to get some kind of response.
+A {{<tooltip title="web browser">}} provides a user interface to interact with web pages.{{</tooltip>}} is capable of fetching and then rendering HTML documents to create a user interface. If a user visits a website and gets a plain HTML document back, we say this content is static. By static, we mean that once the page renders in the browser, it will only change if it is programmed to do so. However, when we interact with the elements on the page, we often expect the page to update.
