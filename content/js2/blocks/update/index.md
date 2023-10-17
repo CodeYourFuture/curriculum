@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Access and modify the innerText of a html element'
 +++
 
-We can calculate the remaining characters available every time a user's key is released from the keyboard. Finally, we must update the `p` element in the user interface with the number of characters remaining.
+We can calculate the remaining characters available every time a user's key is released from the keyboard in the `textarea`. Finally, we must update the `p` element in the user interface with the number of characters remaining.
 
 > Step 5: Update the interface with the number of characters left
 
