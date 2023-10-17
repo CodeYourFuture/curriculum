@@ -8,15 +8,15 @@ emoji= '🧩'
     1='Access and modify the innerText of a html element'
 +++
 
-We can calculate the remaining characters every time a user's key is released from the keyboard. Finally, we must update the label element in the user interface with the number of characters remaining.
+We can calculate the remaining characters available every time a user's key is released from the keyboard. Finally, we must update the `p` element in the user interface with the number of characters remaining.
 
 > Step 5: Update the interface with the number of characters left
 
-To achieve this goal, we'll need to access the `p` element with id `"character-limit-info"` and then update the label text. As before, we can use `document.querySelector` to access an element in the DOM:
+To achieve this goal, we'll need to access the `p` element with id `"character-limit-info"` and then update the inner text. As before, we can use `document.querySelector` to access an element in the DOM using an appropriate CSS selector:
 
 ```js {linenos=table,linenostart=1, hl_lines=["8-9"] }
 const characterLimit = 200;
-const input = document.querySelector("input");
+const textarea = document.querySelector("textarea");
 
 function handleKeyup() {
   const charactersLeft = characterLimit - input.value;
@@ -26,12 +26,12 @@ function handleKeyup() {
   charactersLeftP.innerText = `You have ${charactersLeft} characters remaining`;
 }
 
-input.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", handleKeyup);
 ```
 
 {{<tabs name="activity">}}
 
-{{<tab name="explain">}}
+{{<tab name="🗣️ explain">}}
 
 Explain why the code to access the `p` element is written _inside_ the scope of `handleKeyup`.
 

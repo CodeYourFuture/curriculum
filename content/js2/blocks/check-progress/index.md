@@ -5,8 +5,10 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
+    1='Use a plan to check progress in solving a problem'
 +++
+
+Let's use the plan from earlier to check our progress.
 
 ```mermaid
 flowchart TD
@@ -28,11 +30,11 @@ textarea.addEventListener("keyup", handleKeyup);
 
 We've done the following:
 
-- [x] Step 1: defined a `characterLimit`
-- [x] Step 2: accessed the `textarea` element
-- [x] Step 3: registered an event handler `handleKeyup`
+- [x] Step 1: Defined a `characterLimit`
+- [x] Step 2: Dccessed the `textarea` element
+- [x] Step 3: Registered an event handler `handleKeyup`
 
-We must still work out the following:
+We must still complete the following steps:
 
 - [ ] Step 3: Calculate the number of characters left
 - [ ] Step 4: Update the user interface with the number of characters left
