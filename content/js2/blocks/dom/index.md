@@ -39,7 +39,7 @@ HTML documents form a [tree-like structure](https://en.wikipedia.org/wiki/Tree_s
 
 ### Document Object Model
 
-When the browser first renders a web page it also creates the DOM - short for {{<tooltip title="Document Object Model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}. We can write JavaScript programs to interact with the Document Object Model so we can update the web page programmatically.
+When the browser first renders a web page it also creates the DOM - short for {{<tooltip title="Document Object Model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}. We can write JavaScript programs to interact with the Document Object Model so we can make the page interactive.
 
 {{<tabs name="activity">}}
 
