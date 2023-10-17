@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Access elements in the DOM using selector methods'
 +++
 
-Inside the body of the html document, we start with the following html:
+Inside the `body` of the html document, we start with the following html:
 
 ```html
 <section>
@@ -37,15 +37,7 @@ Step 2: Access the `textarea` element
 
 The DOM is an interface. It represents html elements as objects and provides functions to access these objects. Let’s start by accessing the `textarea` element and its value. To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-We can create a javascript file, `script.js`, to call DOM methods to interact with the web page. Inside `script.js`, we can call `document.querySelector`:
-
-```js
-const textarea = document.querySelector("textarea");
-```
-
-`document.querySelector` takes a single argument - the string `"textarea"`, which is the CSS selector used to look up the element.
-
-To link this JavaScript file with the html, we can update the `html`👍
+We can create a javascript file, `script.js`, and link it to the html document:
 
 ```html {linenos=table,hl_lines=["7"],linenostart=1}
 <!DOCTYPE html>
@@ -69,7 +61,15 @@ To link this JavaScript file with the html, we can update the `html`👍
 </html>
 ```
 
-`document.querySelector` **returns** an element object, which represents the `textarea` in the web page. Once we can access the `textarea` object, we can access its properties. In particular we want to access the value a user types into the input box. We can do this by accessing the value property:
+Inside `script.js`, we can call `document.querySelector`:
+
+```js
+const textarea = document.querySelector("textarea");
+```
+
+`document.querySelector` takes a single argument - the string `"textarea"`, which is the CSS selector used to look up the element.
+
+`document.querySelector` **returns** an element object, which represents the `textarea` in the web page. Once we can access the `textarea` object, we can access its properties. In particular we want to access the value a user types into the `textarea` box. We can do this by accessing the value property:
 
 ```js
 const textarea = document.querySelector("textarea");
