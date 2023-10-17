@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe an event in the browser environment'
-    2='Outline a strategy for implementing a character limit component'
+    2='Update the strategy for implementing a character limit component'
 +++
 
 In the case of the ` textarea` element, we want to update the `p` element text **every time the user types inside the textarea**. In other words, we want our application to **_react_** to the **_user typing on the keyboard_**. Currently our plan looks like this:
@@ -24,7 +24,7 @@ An [event](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_bl
 
 Events are things that happen in the browser, which the browser tells you about so your code can react to them. In a browser context, events could be a user clicking on a button, a user typing something into a textarea box, submitting a form etc. You can find a [complete reference all the different event types](https://developer.mozilla.org/en-US/docs/Web/Events) on MDN.
 
-In the case of the `textarea` element, there are lots of events occurring. The input box value is changing, a keyboard button is released every time the user types and so on. We can update our plan as follows:
+In the case of the `textarea` element, there are lots of events occurring. The `textarea` value is changing, a keyboard button is released every time the user types and so on. We can update our plan as follows:
 
 ```mermaid
 flowchart TD

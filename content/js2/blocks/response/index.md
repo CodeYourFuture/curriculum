@@ -11,7 +11,7 @@ emoji= '🧩'
 
 As a user, we interact with the elements on a web page. We _click_ on buttons, _input_ text, _submit_ forms etc.
 
-To react to an event, we can declare a function that we want to run whenever a certain event occurs. We call this function an **event handler**. In the example below, we call this function `handleKeyup`:
+To react to an event, we can declare a function that we want to run whenever a certain event occurs. We call this function an **event handler**. In the example below, we _name_ this function `handleKeyup`:
 
 ```js {linenos=table, hl_lines=["3"] linenostart=1}
 const input = document.querySelector("input");
@@ -32,7 +32,7 @@ document.addEventListener("keyup", handleKeyup);
 Let's break down the arguments that are passed to `addEventListener`.
 
 - [`"keyup"`](https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event) - this is the type of event
-- `handleKeyup` - the second argument is a function. It is a function that is called when an event occurs. We call this function an **event handler**.
+- `handleKeyup` - the second argument is a function. It is a function that is called when an event occurs.
 
 In JavaScript, we can pass functions as arguments to other functions. In this case, we're passing a function `handleKeyup` to `addEventListener` as an input. We can think of this as saying: whenever a key is released on the `input` element, then the function `handleKeyup` will get called. Any code we want to run in response to the `keyup` event will need to be executed inside `handleKeyup`.
 

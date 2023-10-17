@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Define the Document Object Model'
 +++
 
-Let's consider the starting html. We need a way of interacting with the elements of a web page once it is rendered on our screens.
+Let's consider the starting html. We need a way of interacting with the elements of this page once it is rendered.
 
 ```html
 <!DOCTYPE html>
@@ -39,14 +39,14 @@ HTML documents form a [tree-like structure](https://en.wikipedia.org/wiki/Tree_s
 
 ### Document Object Model
 
-When the browser first renders a web page it creates the DOM - short for {{<tooltip title="document object model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}. We can then write JavaScript programs with the DOM API to interact with the elements in the web page.
+When the browser first renders a web page it also creates the DOM - short for {{<tooltip title="Document Object Model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}. We can write JavaScript programs to interact with the Document Object Model so we can update the web page programmatically.
 
 {{<tabs name="activity">}}
 
 {{<tab name="🔎 inspect with dev tools">}}
 
 We can use Dev Tools to inspect the DOM and look at the elements on the page.
-Use Dev Tools to inspect the character limit component from earlier. Which html elements make up the character limit component.
+Use Dev Tools to inspect the character limit component from earlier.
 
 {{</tab>}}
 
