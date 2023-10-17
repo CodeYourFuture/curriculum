@@ -1,5 +1,5 @@
 +++
-title = '🌲 Document Object Model'
+title = '🌲 Interacting with the page'
 headless = true
 time = 20
 facilitation = false
@@ -8,17 +8,7 @@ emoji= '🧩'
     1='Define the Document Object Model'
 +++
 
-We can start by inspecting the **DOM** - short for {{<tooltip title="document object model">}} The Document Object Model is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}.
-When the browser first renders a web page it creates the DOM. We can then write JavaScript programs programs with the DOM API to interact with the elements in the web page.
-
-### 🌳 DOM tree
-
-The DOM is a tree-like structure.
-
-{{<tabs name="dom-html">}}
-We can start solving the character limit problem by defining some HTML.
-You can also view the DOM tree
-{{<tab name="html">}}
+Let's consider the starting html. We need a way of interacting with the elements of a web page once it is rendered on our screens.
 
 ```html
 <!DOCTYPE html>
@@ -41,21 +31,17 @@ You can also view the DOM tree
 </html>
 ```
 
-{{</tab>}}
-{{<tab name="🌴 dom tree">}}
+### 🌳 HTML tree
 
-```mermaid
-graph TB
-    A((html))-->B((head))
-    A-->C((body))
-    C-->D((input))
-    C-->E((label))
-    B-->H((meta))
-    B-->K((meta))
-    B-->L((title))
-```
+HTML documents form a [tree-like structure](https://en.wikipedia.org/wiki/Tree_structure). We start at the top `html` element and from there other html elements are nested inside.
 
-{{</tab>}}
+![html tree](html-tree.png)
+
+### Document Object Model
+
+When the browser first renders a web page it creates the DOM - short for {{<tooltip title="document object model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}. We can then write JavaScript programs with the DOM API to interact with the elements in the web page.
+
+{{<tabs name="activity">}}
 
 {{<tab name="🔎 inspect with dev tools">}}
 
