@@ -26,13 +26,6 @@ Inside the body of the html document, we start with the following html:
 </section>
 ```
 
-{{<note type="activity" title="Inspect with Dev Tools">}}
-
-We can use Dev Tools to inspect the DOM and look at the elements on the page.
-Use Dev Tools to inspect the character limit component from earlier. Which html elements make up the character limit component.
-
-{{</note>}}
-
 ### `querySelector()`
 
 {{<note title="recall" type="tip">}}

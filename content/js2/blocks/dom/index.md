@@ -56,4 +56,12 @@ graph TB
 ```
 
 {{</tab>}}
+
+{{<tab name="🔎 inspect with dev tools">}}
+
+We can use Dev Tools to inspect the DOM and look at the elements on the page.
+Use Dev Tools to inspect the character limit component from earlier. Which html elements make up the character limit component.
+
+{{</tab>}}
+
 {{</tabs>}}
