@@ -30,4 +30,7 @@ name="Variable keys"
 [[blocks]]
 src="js2/blocks/multiple-params"
 name="Multiple params"
+[[blocks]]
+src="https://cyf-pd.netlify.app/blocks/prep-conflict-resolution/readme/"
+name="Conflict Resolution"
 +++
