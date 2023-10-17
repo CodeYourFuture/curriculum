@@ -79,6 +79,7 @@ input.addEventListener("keyup", handleKeyup);
 
 In your local project, define your own event handler and then call event listener to register that event handler for a `keyup` event.
 Add a `console.log` to the event handler and **check** the event handler is being called when the event fires.
+Check the console tab in dev tools to see the log appear in the console.
 
 {{</tab>}}
 
