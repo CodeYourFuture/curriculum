@@ -15,7 +15,7 @@ We can calculate the remaining characters every time a user's key is released fr
 To achieve this goal, we'll need to access the `p` element with id `"character-limit-info"` and then update the label text. As before, we can use `document.querySelector` to access an element in the DOM:
 
 ```js {linenos=table,linenostart=1, hl_lines=["8-9"] }
-const characterLimit = 120;
+const characterLimit = 200;
 const input = document.querySelector("input");
 
 function handleKeyup() {

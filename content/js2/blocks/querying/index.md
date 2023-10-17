@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Access elements in the DOM using the selector methods'
+    1='Access elements in the DOM using selector methods'
 +++
 
 Inside the body of the html document, we start with the following html:
@@ -30,7 +30,7 @@ Inside the body of the html document, we start with the following html:
 
 {{<note title="recall" type="tip">}}
 
-In the plan defined earlier:
+In the plan defined earlier, we had the following step:
 Step 2: Access the `textarea` element
 
 {{</note>}}
@@ -43,7 +43,7 @@ We can create a javascript file, `script.js`, to call DOM methods to interact wi
 const textarea = document.querySelector("textarea");
 ```
 
-`document.querySelector` takes a single argument - the string `"textarea"`, which is the CSS selector used to look up the element
+`document.querySelector` takes a single argument - the string `"textarea"`, which is the CSS selector used to look up the element.
 
 To link this JavaScript file with the html, we can update the `html`👍
 
@@ -75,3 +75,16 @@ To link this JavaScript file with the html, we can update the `html`👍
 const textarea = document.querySelector("textarea");
 console.log(textarea.value); // evaluates to the value typed by the user
 ```
+
+{{<tabs>}}
+
+{{<tab name="🖲️ Follow along">}}
+
+1. On your local machine, set up a new directory with an `index.html` and `script.js`.
+2. Make sure you start with the same static html as the example above.
+3. Double check your script file is linked to your html file.
+4. Try querying the DOM and accessing various elements like the `textarea` element.
+
+{{</tab>}}
+
+{{</tabs>}}
