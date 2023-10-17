@@ -6,7 +6,7 @@ facilitation = false
 emoji= '🧩'
 [objectives]
 1='Describe the difference between console.log and console.assert'
-2 = 'Write an assertion to check for some behaviour of a given function'
+2='Write an assertion to check for some behaviour of a given function'
 3='Implement a piece of functionality specified in an assertion'
 4='Given an assertion and a function declaration, identify and explain whether the assertion will succeed or fail'
 5 ='Write an assertion for a function that implements a solution to a given problem'
@@ -71,7 +71,7 @@ It would be useful to have more information as to why this assertion failed. We 
 function formatAs12HourClock() {}
 
 console.assert(
-  currentOutput === targetOutput,
+  formatAs12HourClock("08:00") === "08:00 am",
   `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 ```
