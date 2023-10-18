@@ -72,18 +72,18 @@ function formatAs12HourClock() {}
 
 console.assert(
   formatAs12HourClock("08:00") === "08:00 am",
-  `current output: ${currentOutput}, target output: ${targetOutput}`
+  `current output: ${formatAs12HourClock("08:00")}, target output: 08:00 am`
 );
 ```
 
 Let's break down these arguments to make sense of what's going on:
 
 1. **first argument** - `formatAs12HourClock("08:00") === "08:00 am"` - the condition we're checking
-2. **second argument** - `current output: ${currentOutput}, target output: ${targetOutput}` - a message string that will be logged to the console if the condition is false.
+2. **second argument** - `current output: ${formatAs12HourClock("08:00")}, target output: 08:00 am` - a message string that will be logged to the console if the condition is false.
 
 #### 🧹 Refactor
 
-We can tidy up the assertion even further. As we’re repeating the same expressions, we can store their result in variables with meaningful names so we can reuse them:
+We can tidy up the assertion even further. As we’re reusing the same expressions, we can store their result in variables with meaningful names so we can reuse them:
 
 ```js {linenos=table,linenostart=1}
 function formatAs12HourClock() {}
