@@ -13,6 +13,9 @@ src="blocks/energiser"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
+name="Importance of helping each other"
+src="https://cyf-pd.netlify.app/blocks/importance-of-helping-each-other/readme/"
+[[blocks]]
 src="js2/blocks/pick-an-app"
 [[blocks]]
 name="Lunch"
