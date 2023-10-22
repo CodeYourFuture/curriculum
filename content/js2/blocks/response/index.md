@@ -11,46 +11,46 @@ emoji= '🧩'
 
 As a user, we interact with the elements on a web page. We _click_ on buttons, _input_ text, _submit_ forms etc.
 
-To react to an event, we can declare a function that we want to run whenever a certain event occurs. We call this function an **event handler**. In the example below, we _name_ this function `handleKeyup`:
+To react to an event, we can declare a function that we want to run whenever a certain event occurs. We call this function an **event handler**. In the example below, we _name_ this function `updateCharacterLimit`:
 
 ```js {linenos=table, hl_lines=["3"] linenostart=1}
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {}
+function updateCharacterLimit() {}
 ```
 
-We need to tell the browser to call `handleKeyup` whenever a **keyup** event {{<tooltip title="fires">}}"fires" means "an event is triggered"{{</tooltip>}}. We do this using `addEventListener`:
+We need to tell the browser to call `updateCharacterLimit` whenever a **keyup** event {{<tooltip title="fires">}}"fires" means "an event is triggered"{{</tooltip>}}. We do this using `addEventListener`:
 
 ```js {linenos=table,linenostart=1 hl_lines=["5"]}
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {}
+function updateCharacterLimit() {}
 
-textarea.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
 Let's break down the arguments that are passed to `addEventListener`.
 
-- [`"keyup"`](https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event) - this is the type of event
-- `handleKeyup` - the second argument is a function. It is a function that is called when an event occurs.
+- [`"keyup"`](https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event) - this is the type of event we want to be notified about
+- `updateCharacterLimit` - the second argument is a function. It is a function that is called when an event occurs.
 
-In JavaScript, we can pass functions as arguments to other functions. In this case, we're passing a function `handleKeyup` to `addEventListener` as an input. We can think of this as saying: whenever a key is released on the `textarea` element, then the function `handleKeyup` will get called. Any code we want to run in response to the `keyup` event will need to be executed inside `handleKeyup`.
+In JavaScript, we can pass functions as arguments to other functions. In this case, we're passing a function `updateCharacterLimit` to `addEventListener` as an input. We can think of this as saying: whenever a key is released on the `textarea` element, then the browser will call the function `updateCharacterLimit`. Any code we want to run in response to the `keyup` event will need to be inside the `updateCharacterLimit` function.
 
 {{<tabs>}}
 
 {{<tab name="javascript">}}
 
-We can add a log to `handleKeyup` to check it is called every time the `"keyup"` event fires.
+We can add a log to `updateCharacterLimit` to check it is called every time the `"keyup"` event fires.
 
 ```js
 const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {
-  console.log("keyup event has fired... calling handleKeyup...");
+function updateCharacterLimit() {
+  console.log("keyup event has fired... The browser called updateCharacterLimit...");
 }
 
-textarea.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
 {{</tab>}}

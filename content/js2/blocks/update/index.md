@@ -18,7 +18,7 @@ To achieve this goal, we'll need to access the `p` element with id `"character-l
 const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {
+function updateCharacterLimit() {
   const charactersLeft = characterLimit - input.value;
   console.log(`${charactersLeft} characters remaining`);
 
@@ -26,14 +26,14 @@ function handleKeyup() {
   charactersLeftP.innerText = `You have ${charactersLeft} characters remaining`;
 }
 
-textarea.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
 {{<tabs name="activity">}}
 
 {{<tab name="🗣️ explain">}}
 
-Explain why the code to access the `p` element is written _inside_ the scope of `handleKeyup`.
+Explain why the code to access the `p` element is written _inside_ the scope of `updateCharacterLimit`.
 
 {{</tab>}}
 
