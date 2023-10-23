@@ -33,7 +33,7 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group"
+name="🫱🏿‍🫲🏾 Pair up"
 src="js2/blocks/pair-up"
 time=50
 [[blocks]]
