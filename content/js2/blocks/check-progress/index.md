@@ -12,7 +12,9 @@ Let's use the plan from earlier to check our progress.
 
 ```mermaid
 flowchart TD
-A[Step 1: Define the character limit] --> B[Step 2: Access the textarea element] --> C["`**Step 3: In response to the user typing**`"] --> D[Step 4: Calculate the number of characters left] --> E[Step 5: Update the interface with the number of characters left]
+A[Step 1: Define the character limit] --> B[Step 2: Access the textarea element] --> C["`**Step 3: Ask to be notified when a user presses a key**`"]
+
+D["`**Step 4: When the browser tells us a user has pressed a key**`"] --> E[Step 5: Calculate the number of characters left] --> F[Step 6: Update the interface with the number of characters left]
 ```
 
 Let's consider our code at the moment:
@@ -21,23 +23,27 @@ Let's consider our code at the moment:
 const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {
-  console.log("keyup event has fired... calling handleKeyup...");
+function updateCharacterLimit() {
+  console.log("keyup event has fired... The browser called updateCharacterLimit...");
 }
 
-textarea.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
 We've done the following:
 
 - [x] Step 1: Defined a `characterLimit`
-- [x] Step 2: Dccessed the `textarea` element
-- [x] Step 3: Registered an event handler `handleKeyup`
+- [x] Step 2: Accessed the `textarea` element
+- [x] Step 3: Registered an event handler `updateCharacterLimit`
+
+The browser will do the following for us:
+
+- [x] Step 4: The browser will tell us when a user has pressed a key
 
 We must still complete the following steps:
 
-- [ ] Step 3: Calculate the number of characters left
-- [ ] Step 4: Update the user interface with the number of characters left
+- [ ] Step 5: Calculate the number of characters left
+- [ ] Step 6: Update the user interface with the number of characters left
 
 To obtain the characters left, we can calculate the difference between `characterLimit` and the number of characters in the `textarea` element:
 
@@ -49,12 +55,12 @@ To obtain the characters left, we can calculate the difference between `characte
 const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
-function handleKeyup() {
+function updateCharacterLimit() {
   const charactersLeft = characterLimit - input.value;
   console.log(`You have ${charactersLeft} characters remaining`);
 }
 
-textarea.addEventListener("keyup", handleKeyup);
+textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
 {{</tab>}}

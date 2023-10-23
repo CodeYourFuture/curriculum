@@ -67,9 +67,11 @@ Inside `script.js`, we can call `document.querySelector`:
 const textarea = document.querySelector("textarea");
 ```
 
-`document.querySelector` takes a single argument - the string `"textarea"`, which is the CSS selector used to look up the element.
+`document.querySelector` takes a single argument a string containing a CSS selector (just like we use when defining what elements a CSS rule should apply to).
 
-`document.querySelector` **returns** an element object, which represents the `textarea` in the web page. Once we can access the `textarea` object, we can access its properties. In particular we want to access the value a user types into the `textarea` box. We can do this by accessing the value property:
+`document.querySelector` **returns** an element object representing the first element in the page which matches that CSS selector. This element object lets us _inspect_ and _modify_ the element in the page.
+
+Here we have given it the string `"textarea"`, which is the CSS selector used to look up the elements with tag name `textarea`. The function **returns** an element object, which represents the first `textarea` in the web page. Once we can access the `textarea` object, we can access its properties. In particular we want to access the value a user types into the `textarea` box. We can do this by accessing the value property:
 
 ```js
 const textarea = document.querySelector("textarea");
