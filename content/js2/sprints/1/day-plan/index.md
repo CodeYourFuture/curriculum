@@ -16,7 +16,7 @@ src="https://cyf-pd.netlify.app/blocks/failing-fast/readme/"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Arrays review"
+name="🔍 Explore arrays"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
 time=85
 [[blocks]]

@@ -16,8 +16,8 @@ src="https://cyf-pd.netlify.app/blocks/conflict-resolution/readme/"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Playing computer"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
+name="🔍 Explore objects"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
 time=85
 [[blocks]]
 name="Lunch"
