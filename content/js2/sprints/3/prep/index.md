@@ -33,4 +33,7 @@ name="check progress"
 [[blocks]]
 src="js2/blocks/update"
 name="update element"
+[[blocks]]
+name="Importance of helping each other"
+src="https://cyf-pd.netlify.app/blocks/importance-of-helping-each-other-prep/readme/"
 +++
