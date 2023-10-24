@@ -28,6 +28,9 @@ src="blocks/lunch"
 src="js2/blocks/check-in"
 name="Check in"
 [[blocks]]
+src="blocks/study-60"
+name="Study group"
+[[blocks]]
 src="blocks/afternoon-break"
 name="Afternoon break"
 [[blocks]]
