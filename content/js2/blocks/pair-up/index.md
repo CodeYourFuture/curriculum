@@ -29,7 +29,7 @@ and
 
 1. Read the project brief carefully
 
-2. Create a user story for the chosen project brief and sketch out one acceptance criterion based on the description in the project brief
+2. Create a user story for the chosen project brief and sketch out one acceptance criterion based on the description in the project brief. [This workshop](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/breakdown) will guide you on coming up with user stories and acceptance criteria.
 
 ## ⏲️ Availability
 
