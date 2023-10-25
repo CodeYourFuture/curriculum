@@ -20,7 +20,25 @@ brew install hugo
 
 ### To run locally
 
+#### Generate a token
+
 You'll need to get a fine-grained GitHub API token which allows read-only access to all public CYF repos from [this page](https://github.com/settings/tokens?type=beta).
+
+Click "Generate new token", enter a token name (can be anything), and how long you want the token to last (if you're doing a one-off contribution, pick a short value; if you're going to be a regular contributor, maybe a longer value).
+
+Make sure the Resource owner is _your_ account if you have a choice.
+
+The "Repository access" you need is "Public repositories (read-only)", and you don't need any account permissions:
+
+<details>
+<summary>Open to view screenshot of the required permissions</summary>
+
+![screenshot of required permissions](./readme_repository_access.png)
+</details>
+
+#### Run this command
+
+Run this command in a terminal, substituting in the github API token you generated above:
 
 ```bash
 npm i
