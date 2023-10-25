@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Identify core components required to supply data and functionality to the user interface'
 +++
 
-For your application to work, your user interface will need to interact with other services. These services can provide data and the means of updating this data to the user interface.
+For your application to work, your user interface will interact with other services. These services provide data and ways to update this data via the user interface.
 
 Here are the kinds of functionality these service may provide:
 
