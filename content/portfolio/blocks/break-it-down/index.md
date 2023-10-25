@@ -35,7 +35,7 @@ If you're working on something, then you need a definition of "done". In other w
 - Scenario-oriented (the Given/When/Then template)
 - Rule-oriented (the checklist template) and
 
-For more detailed information on writing up acceptance critera: check out this post 🫱 https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/
+🫱 [More detailed information on writing up acceptance criteria.](https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/)
 
 {{<note type="activity">}}
 
