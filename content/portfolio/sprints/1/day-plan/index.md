@@ -5,39 +5,26 @@ emoji= '📝'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Portfolio'
-backlog_filter= 'Week 1'
+backlog_filter= 'Week 2'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name= "PD Placeholder"
-src="blocks/pd-placeholder"
-time="45"
+name="Ground rules"
+src="portfolio/blocks/ground-rules"
 [[blocks]]
-name="Morning break"
-src="blocks/morning-break"
+name="Gathering requirements"
+src="portfolio/blocks/requirements"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
-time="60"
+name="🕹️ Interfaces"
+src="portfolio/blocks/interfaces"
+[[blocks]]
+name="Data"
+src="portfolio/blocks/data"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Portfolio/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group 2"
-src="blocks/study-group"
-time="60"
-[[blocks]]
-name="Retro"
-src="blocks/retro"
+name="Break it down"
+src="portfolio/blocks/break-it-down"
 +++

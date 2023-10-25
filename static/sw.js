@@ -22,6 +22,7 @@ self.addEventListener("fetch", function (event) {
       .then(function (networkResponse) {
         // If request is successful, clone and cache the response
         let cacheName = requestUrl.pathname;
+        console.log({ cacheName });
 
         // Choose the cache depending on the file type
         if (/\.woff2?$|\.ttf$/.test(requestUrl.pathname)) {
