@@ -14,7 +14,7 @@ Here are the kinds of things these services may do:
 
 ### 📖 Reading
 
-A means of **reading data** - the user interface may need to fetch data from some external source so it can be rendered in the interface.
+A means of **reading data**. The user interface might fetch data from some external source and render it in the interface.
 
 ### 💾 Persisting
 
