@@ -10,7 +10,7 @@ emoji= '🧩'
 
 For your application to work, your user interface will interact with other services. These services provide data and ways to update this data via the user interface.
 
-Here are the kinds of functionality these service may provide:
+Here are the kinds of things these services may do:
 
 ### 📖 Reading
 
