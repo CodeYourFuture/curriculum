@@ -42,6 +42,6 @@ If you're working on something, then you need a definition of "done". In other w
 ⏰ Time 20 mins
 
 1. Choose one user story
-1. In pairs or otherwise, start to come up with acceptance criteria. Decide on scenario-oriented or rule-oriented acceptance criteria.
+1. In pairs, come up with acceptance criteria. Decide on scenario-oriented or rule-oriented acceptance criteria.
 
 {{</note>}}
