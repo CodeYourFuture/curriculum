@@ -1,7 +1,13 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $response := getJSON $blockData.api $blockData.headers }}
-
+{{ $block := $blockData }}
+{{ $tab_set_id := $blockData.name | anchorize}}
 {{ if $response }}
+{{/*  Here we are decoding the content from the base64 readme API
+  and turning it back into a Hugo doc with front matter
+An improvement on this would likely be to 
+find out how to make Hugo recognise this as a valid Hugo doc directly 
+Have a crack!  */}}
   {{ $decodedContent := $response.content | base64Decode }}
   {{ $placeholder := "UNIQUE_PLACEHOLDER" }}
   {{ $decodedContentWithPlaceholder :=
@@ -15,15 +21,14 @@
   }}
   {{ $markdownContent := index $contentParts 1 }}
   {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
-  {{ $block := $parsedFrontMatter | default $blockData }}
-
+  {{ $block = $parsedFrontMatter }}
 
   <section class="c-block c-block--pd">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"
         id="{{ $blockData.name |urlize }}">
-        <a href="{{ $response.html_url }}">{{ $parsedFrontMatter.title }} 🔗</a>
+        <a href="{{ $response.html_url }}">{{ $block.title }} 🔗</a>
       </h2>
       {{ partial "time.html" . }}
 
@@ -31,42 +36,59 @@
 
     <section class="c-copy">{{ $markdownContent | markdownify }}</section>
 
-    {{ with $parsedFrontMatter.objectives }}
-      <details class="c-objectives">
-        <summary>
-          <h3 class="c-objectives__title e-heading__5">Learning Objectives</h3>
-        </summary>
-        {{ partial "objectives/block.html" . }}
-      </details>
-    {{ end }}
-    {{ with $parsedFrontMatter.prep }}
-      <section class="c-copy">
-        <h3>Preparation</h3>
-        <div class="c-copy__node">{{ . | markdownify }}</div>
-      </section>
-    {{ end }}
-    {{ with $parsedFrontMatter.introduction }}
-      <section class="c-copy">
-        <h3>Introduction</h3>
-        <div class="c-copy__node">{{ . | markdownify }}</div>
-      </section>
-    {{ end }}
-    {{ with $parsedFrontMatter.exercises }}
-      <section class="c-copy">
-        <h3>Exercises</h3>
-        {{ range . }}
-          <section class="c-note c-note--exercise">
-            <h4 class="c-note__title e-heading e-heading__4">{{ .name }}</h4>
-            <div class="c-note__text">
-              <p>
-                <strong>Goal: </strong>{{ .goal | markdownify }}
-                {{ with .time }}({{ . }} minutes){{ end }}
-              </p>
-              {{ .content | markdownify }}
+
+{{/*  These tabs are based on tabs.html and provision the same web component */}}
+
+  <tab-panels class="c-tabs c-tabs--pd">
+    <div class="c-tabs__list" id="{{$tab_set_id }}" role="tablist">
+      <button data-toggle="tab" id="tab-label-intro" class="c-tabs__tab is-active e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-intro" aria-selected="true">👉🏽 PD Session</button>
+      {{ range $block.exercises}}
+      <button data-toggle="tab" id="tab-label-{{.name | anchorize}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-{{ .name | anchorize }}" aria-selected="false">🧩 {{ trim .name " "  | truncate 20 }}</button>
+        {{- end -}}
+      {{- end -}}
+    </div>
+    <div class="c-tabs__group" id="{{ $tab_set_id }}">
+      {{/*  First tab is all the setup  */}}
+    <div id="{{$tab_set_id }}-intro" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='tab-label-intro'>
+      {{ with $block.objectives }}
+        <details class="c-objectives">
+          <summary>
+            <h3 class="c-objectives__title e-heading__5">Learning Objectives</h3>
+          </summary>
+          {{ partial "objectives/block.html" . }}
+        </details>
+      {{ end }}
+      {{ with $block.prep }}
+        <section class="c-copy">
+          <h3>Preparation</h3>
+          <div class="c-copy__node">{{ . | markdownify }}</div>
+        </section>
+      {{ end }}
+      {{ with $block.introduction }}
+        <section class="c-copy">
+          <h3>Introduction</h3>
+          <div class="c-copy__node">{{ . | markdownify }}</div>
+        </section>
+      {{ end }}
+    </div>
+
+
+    {{/*  Now we go to range over exercises  */}}
+      {{ with $block.exercises }}
+          {{ range . }}
+          {{ $tab_set_id := $tab_set_id }}
+            <div id="{{$tab_set_id }}-{{ .name | anchorize }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{.name | anchorize}}'>
+            
+                <h4 class="e-heading e-heading__4">{{ .name }}</h4>
+                  <p>
+                    <strong>Goal: </strong>{{ .goal | markdownify }}
+                    {{ with .time }}({{ . }} minutes){{ end }}
+                  </p>
+                  {{ .content | markdownify }}
+        
             </div>
-          </section>
-        {{ end }}
-      </section>
-    {{ end }}
-  </section>
+          {{ end }}
+      </div>
+  </tab-panels>
+</section>
 {{ end }}
