@@ -1,0 +1,22 @@
+{{ $filter := slice (.Get 0) }}
+
+{{ with and $filter $.Site.Data.funding }}
+  <ul class="c-logos">
+    {{ range . }}
+      {{ if intersect .support_type $filter }}
+        <li class="c-logos__item">
+          <a class="c-logos__link" href="{{ .website }}" target="_blank">
+            {{ if .logo }}
+              <img
+                class="c-logos__logo"
+                src="{{ .logo | absURL }}"
+                alt="{{ .name }}" />
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
