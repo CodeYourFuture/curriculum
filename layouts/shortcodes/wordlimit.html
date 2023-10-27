@@ -1,3 +1,5 @@
-<word-limit />
-{{ $wordlimit := resources.Get "scripts/wordlimit.js" | resources.Minify }}
-<script src="{{ $wordlimit.Permalink }}" type="module" defer></script>
+<section>
+  <word-limit />
+  {{ $wordlimit := resources.Get "scripts/wordlimit.js" | resources.Minify }}
+  <script src="{{ $wordlimit.Permalink }}" type="module" defer></script>
+</section>
