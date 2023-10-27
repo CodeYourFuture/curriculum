@@ -1,0 +1,14 @@
+{{ $repo := .Get 0 }}
+{{ $contributors := getJSON (printf "https://api.github.com/repos/CodeYourFuture/%s/contributors" $repo) }}
+
+
+<ol class="c-contributors">
+  {{ range sort $contributors ".contributions" "desc" }}
+    <li class="c-contributor">
+      <h3 class="c-contributor__name">
+        <a class="c-contributor__link" href="{{ .html_url }}">{{ .login }}</a>
+      </h3>
+      <img class="c-contributor__avatar" src="{{ .avatar_url }}" alt="" />
+    </li>
+  {{ end }}
+</ol>
