@@ -1,5 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-<section class="c-block c-block--youtube">
+<section class="c-block c-block--{{ $blockData.type }}">
   {{ if not $blockData.isShortcode }}
     <h2
       class="c-block__title e-heading__2 is-invisible"
