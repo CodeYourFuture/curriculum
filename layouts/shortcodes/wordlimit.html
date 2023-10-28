@@ -1,32 +1,5 @@
 <section>
-  <h3>Example character limit comment component</h3>
-  <label for="comment-input"
-    >Please enter your comment in the text area below
-  </label>
-  <textarea
-    id="comment-input"
-    name="comment-input"
-    rows="5"
-    maxlength="200"></textarea>
-  <p id="character-limit-info">You have 200 characters remaining</p>
+  <word-limit />
+  {{ $wordLimit := resources.Get "scripts/word-limit.js" | resources.Minify }}
+  <script src="{{ $wordLimit.Permalink }}" type="module" defer></script>
 </section>
-<script>
-  const characterLimit = 200;
-
-  function getCharacterCount() {
-    const input = document.querySelector("textarea");
-    return input.value.length;
-  }
-
-  function updateCharacterLimitInfo() {
-    const characterCount = getCharacterCount();
-    const charactersLeft = characterLimit - characterCount;
-    const p = document.querySelector("#character-limit-info");
-    p.innerText = `You have ${charactersLeft} characters remaining`;
-  }
-
-  const input = document.querySelector("textarea");
-  input.addEventListener("keyup", function handleKeyUp() {
-    updateCharacterLimitInfo();
-  });
-</script>
