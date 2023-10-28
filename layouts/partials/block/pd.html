@@ -23,7 +23,7 @@ Have a crack!  */}}
   {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
   {{ $block = $parsedFrontMatter }}
 
-  <section class="c-block c-block--pd">
+  <section class="c-block c-block--{{$blockData.type}}">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"
@@ -34,7 +34,7 @@ Have a crack!  */}}
 
     </header>
 
-    <section class="c-copy">{{ $markdownContent | markdownify }}</section>
+    {{ with $markdownContent }}<section class="c-copy">{{ . | markdownify }}</section>{{ end}}
 
 
 {{/*  These tabs are based on tabs.html and provision the same web component */}}
@@ -42,14 +42,14 @@ Have a crack!  */}}
   <tab-panels class="c-tabs c-tabs--pd">
     <div class="c-tabs__list" id="{{$tab_set_id }}" role="tablist">
       <button data-toggle="tab" id="tab-label-intro" class="c-tabs__tab is-active e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-intro" aria-selected="true">👉🏽 PD Session</button>
-      {{ range $block.exercises}}
-      <button data-toggle="tab" id="tab-label-{{.name | anchorize}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-{{ .name | anchorize }}" aria-selected="false">🧩 {{ trim .name " "  | truncate 20 }}</button>
+      {{ range $index, $item := $block.exercises}}
+      <button data-toggle="tab" id="tab-label-{{$item.name | anchorize}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-{{ $item.name | anchorize }}" aria-selected="false">🧩 {{add 1 $index}}) {{ trim $item.name " "  | truncate 20 }}</button>
         {{- end -}}
       {{- end -}}
     </div>
     <div class="c-tabs__group" id="{{ $tab_set_id }}">
       {{/*  First tab is all the setup  */}}
-    <div id="{{$tab_set_id }}-intro" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='tab-label-intro'>
+    <div id="{{$tab_set_id }}-intro" class="c-tabs__panel c-tabs__panel--pd is-active" role="tabpanel" aria-labelledby='tab-label-intro'>
       {{ with $block.objectives }}
         <details class="c-objectives">
           <summary>
@@ -77,10 +77,10 @@ Have a crack!  */}}
       {{ with $block.exercises }}
           {{ range . }}
           {{ $tab_set_id := $tab_set_id }}
-            <div id="{{$tab_set_id }}-{{ .name | anchorize }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{.name | anchorize}}'>
+            <div id="{{$tab_set_id }}-{{ .name | anchorize }}" class="c-tabs__panel c-tabs__panel--pd" role="tabpanel" aria-labelledby='tab-label-{{.name | anchorize}}'>
             
                 <h4 class="e-heading e-heading__4">{{ .name }}</h4>
-                  <p>
+                  <p>🎯 
                     <strong>Goal: </strong>{{ .goal | markdownify }}
                     {{ with .time }}({{ . }} minutes){{ end }}
                   </p>

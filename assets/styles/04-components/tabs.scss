@@ -2,7 +2,7 @@
   display: block;
   --outset: calc(-1 * var(--theme-spacing--gutter));
   --tabline: 1px;
-  margin: 0 var(--outset) var(--theme-spacing--6);
+  margin: 0 var(--outset) var(--theme-spacing--gutter);
 
   &__list {
     display: flex;
@@ -49,10 +49,15 @@
       opacity: 1;
       z-index: 1;
     }
-    //not keen on this
+    //not keen on this, might be time to start breaking out these components
     .c-block__series--timeline & {
+      margin-bottom: var(--outset);
       box-shadow: var(--theme-box-shadow--top);
-      margin: 0;
+    }
+    &--pd {
+      .c-block__series--timeline & {
+        box-shadow: var(--theme-box-shadow--slim);
+      }
     }
   }
 }
