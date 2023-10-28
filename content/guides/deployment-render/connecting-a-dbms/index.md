@@ -50,3 +50,32 @@ This guide uses a database client called [DBeaver](https://dbeaver.io/), but the
 - After a few tries, if you don’t succeed, ask for help in the relevant communication channels
 
 ![A connection error message](connection-error.png)
+
+# Connecting via node.js
+We learnt in the Databases module to use the `pg` library to connect to a local Postgres database.
+To connect via render we require an extra flag `ssl: { rejectUnauthorized: false }`, like so:
+```javascript
+const db = new Pool({
+  user: "jz",
+  host: "dpg-ck107k7dorps738bnga0-a.frankfurt-postgres.render.com",
+  database: "fullstack_3qby",
+  password: "NLNXAWPsYPzOn3kKzExavV08DugCC0rx",
+  ssl: {
+    rejectUnauthorized: false,
+  },
+});
+```
+
+Note that the `host` does not exactly match what is shown on the render.com dashboard - you should use the information in `External Database URL` to connect from your own computer:
+![render.com dashboard connections](render-dashboard.png)
+However, if you are running your client on render alongside your server, then you will be able to use the `Internal Database URL` instead. In this case, the `host` will indeed match.
+
+You can also directly copy the url into a `connectionString` and it should work in the same way:
+```javascript
+const db = new Pool({
+  connectionString: "postgres://jz:NLNXAWPsYPzOn3kKzExavV08DugCC0rx@dpg-ck107k7dorps738bnga0-a.frankfurt-postgres.render.com/fullstack_3qby",
+  ssl: {
+    rejectUnauthorized: false,
+  },
+});
+```

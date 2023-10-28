@@ -1,6 +1,7 @@
 @mixin light-palette {
   // these brand colours are set and then everything else is derived from the key
   --theme-color--brand: hsla(0, 100%, 67%, 1);
+  --theme-color--brand-shade: hsla(0, 100%, 67%, 0.375);
   --theme-color--accent: hsl(146, 100%, 46%);
   --theme-color--accent-shade: hsla(146, 100%, 46%, 0.5);
   --theme-color--pop: hsla(262, 100%, 62%, 1);

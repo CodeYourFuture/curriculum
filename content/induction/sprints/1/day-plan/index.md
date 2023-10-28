@@ -10,12 +10,16 @@ backlog_filter= 'Week 1'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Welcome to Code Your Future"
+src="https://youtu.be/QBfhPkBW9Pk"
+[[blocks]]
 name="Goals and expectations"
 src="https://cyf-pd.netlify.app/blocks/goals-and-expectations-on-the-software-development-course/readme/"
 time="60"
 [[blocks]]
-name="Learning as Community"
+name="Learning as Community"        
 src="induction/blocks/learning-as-community"
+time="70"
 [[blocks]]
 name="Availability"
 src="https://cyf-pd.netlify.app/blocks/general-weekly-availability/readme/"
@@ -30,7 +34,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Git workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
-time="240"
+time="120"
 [[blocks]]
 name="Next steps"
 src="induction/blocks/next-steps"

@@ -1,122 +1,21 @@
 +++
-title = '♻️ Reusing functionality'
+title = '♻️ Reusing the function'
 headless = true
-time = 5
+time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Label and describe the syntactic features of a function declaration'
-    2='Identify a call site'
-    3='Differentiate between a function declaration and a function invocation'
-    4='Identify the return value evaluated at a call site given its function declaration'
-    5='Reuse code to perform the same calculation with different inputs'
-    6='Log the return value of a function'
-    7='Given a short program, state the number of times a given function is called'
+    1='Reuse code to perform the same calculation with different inputs'
+    2='Evaluate a function expression'
+    3='Call a function with an input in REPL'
 +++
 
-Now we need to wrap up the expression to convert any number into a percentage. Write a function declaration to reuse your code. A function declaration looks like this:
+Our goal is for `convertToPercentage` to be _reusable_ for any number. To check this goal, let's call `convertToPercentage` with different arguments and check the return value each time:
 
-```js {linenos=table,linenostart=1}
-function convertToPercentage() {}
-```
+```js {linenos=table,hl_lines=["8-9"],linenostart=1}
+const decimalNumber = 0.5;
 
-The `function` declaration consists of the following syntactic elements:
-
-- `function` keyword, begins the function declaration
-- `convertToPercentage` - names the function
-- `()` - any input to the function will go between these round braces (our function above doesn't take any input (yet), but it still needs the `()`s)
-- `{}` - the body of the function is written inside the curly braces (our function above doesn't do anything yet, but it still needs the `{}`s)
-
-Wrap the functionality we want to reuse inside the curly braces by writing:
-
-```js {linenos=table,linenostart=1}
 function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
-}
-```
-
-### 🔎 Checking the output
-
-We know how to store a function's return value in a variable.
-
-```js
-const result = Math.round(10.3);
-console.log(result); // logs 10 to the console
-```
-
-We call `Math.round` which takes the input `10.3` and then returns the rounded number `10`. So `result` stores a value of `10`.
-
-`Math.round` is a function implemented by other developers and `convertToPercentage` is a function _we're_ implementing, but calling `convertToPercentage` is just like calling `Math.round`.
-
-We want to call the function `convertToPercentage` and store the return value in a variable. We can store the return value in a variable in exactly the same way:
-
-```js {linenos=table,hl_lines=["5"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
-}
-const result = convertToPercentage(0.3);
-```
-
-Log out the value of `result` to the console using `console.log`.
-
-```js {linenos=table,hl_lines=["6"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
-}
-const result = convertToPercentage(0.3);
-console.log(result);
-```
-
-{{<note type="question" title="Predict">}}
-Given the code above, play computer and predict what `result` will evaluate to. Write your prediction down.
-
-{{</note>}}
-
-#### Undefined values
-
-If our function works, the value of `result` will be `"30%"`. We expect to see `30%` printed in the terminal:
-
-```
-30%
-```
-
-When we log `result`'s value to the terminal we actually get `undefined`. We need to specify the value we want to return from our function. If we don't state what our function should return, the default return value will be `undefined`.
-
-#### Setting a return value
-
-We write a return statement to specify a function's return value. If your function call is like a question, the return statement is the answer. It's what comes back.
-
-We can add a return statement to the function like this:
-
-```js {linenos=table,hl_lines=["3"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  return `${decimalNumber * 100}%`;
-}
-```
-
-However, we can also keep the variable `percentage` and refer to it in the return statement:
-
-```js {linenos=table,hl_lines=["4"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
-  return percentage;
-}
-```
-
-Now the function contains a `return` statement, re-run your script to check the output.
-
-#### Checking with different inputs
-
-Now we have a function declaration, we can check if our function works for any number. Call `convertToPercentage` with different arguments and check the return value each time.
-
-```js {linenos=table,hl_lines=["7-8"],linenostart=1}
-function convertToPercentage() {
-  const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
   return percentage;
 }
@@ -141,3 +40,24 @@ However, _given the function's current implementation_, we get the following log
 50%
 50%
 ```
+
+### 🌍 Global scope
+
+At the moment, `decimalNumber` is in the {{<tooltip title="global scope">}} Variables declared in the global scope are available everywhere in your program. Variables declared in a { block scope } are only available within that block. Any block within your program can access variables that are defined within the global scope. {{</tooltip>}}. Any functions we declare can reference variables in the global scope. If a variable is in the global scope, we say that variable is a **global variable**.
+
+{{<tabs name="activities">}}
+
+{{<tab name="🎮 Play computer">}}
+
+Play computer and step through the code to check why we get the output below:
+
+```console
+50%
+50%
+```
+
+<iframe title="interactive widget" width="1200" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20decimalNumber%20%3D%200.5%3B%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B%0A%0Aconsole.log%28output1%29%3B%0Aconsole.log%28output2%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=11&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+{{</tab>}}
+
+{{</tabs>}}

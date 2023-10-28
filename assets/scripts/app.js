@@ -10,7 +10,7 @@ function toggleMenu() {
   if (menu.getAttribute("hidden") == null) {
     menu.focus();
   } else {
-    skipLink.focus();
+    skipLink.focus({preventScroll: true});
   }
 }
 // listeners - we allow anything to toggle Menu if nominated with the class
@@ -45,6 +45,10 @@ editableCodeBlocks.forEach((block) => {
   block.setAttribute("autocapitalize", "off");
 });
 
+// alerts for issue cloning (error/success message)
+const alert = document.querySelector(".c-alert");
+const alertClose = alert.querySelector(".close");
+
 // Fix for GFM task lists
 // https://github.com/github/cmark-gfm/issues/299
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -55,5 +59,28 @@ window.addEventListener("DOMContentLoaded", (event) => {
     item.removeAttribute("disabled");
     const parent = item.parentNode;
     parent.innerHTML = `<label>${parent.innerHTML}</label>`;
+  });
+
+  // get query param for clone issue message/error
+  const urlParams = new URLSearchParams(window.location.search);
+  const message = urlParams.get("message");
+  const error = urlParams.get("error");
+
+  if (message) {
+    alert.removeAttribute("hidden");
+    alert.classList.remove("c-alert--warning");
+    alert.classList.add("c-alert--info");
+    alert.querySelector(".alert__message").innerHTML = message;
+  }
+
+  if (error) {
+    alert.removeAttribute("hidden");
+    alert.classList.remove("c-alert--info");
+    alert.classList.add("c-alert--warning");
+    alert.querySelector(".alert__message").innerHTML = error;
+  }
+
+  alertClose.addEventListener("click", (event) => {
+    alert.setAttribute("hidden", true);
   });
 });

@@ -20,6 +20,10 @@ name="Study Group 1"
 src="blocks/study-group"
 time="90"
 [[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-HTML-CSS/pulls"
+time="0"
+[[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]

@@ -29,7 +29,11 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="90"
+time="60"
+[[blocks]]
+name="success-criteria"
+src="blocks/success-criteria"
+time=10
 [[blocks]]
 name="Retro"
 src="blocks/retro"

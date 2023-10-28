@@ -20,11 +20,8 @@ src="https://cyf-pd.netlify.app/blocks/lets-talk-about-our-code-of-conduct/readm
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="code.org"
-src="fundamentals/blocks/code-dot-org"
-[[blocks]]
-name="CYF Blocks"
-src="fundamentals/blocks/cyf-blocks-requirements"
+name="Using the curriculum"
+src="fundamentals/blocks/using-the-curriculum"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -33,7 +30,10 @@ name="telephone"
 src="blocks/telephone"
 [[blocks]]
 name="User Stories"
-src="fundamentals/blocks/user-stories"
+src="blocks/user-stories"
+[[blocks]]
+name="Requirements"
+src="blocks/requirements"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"

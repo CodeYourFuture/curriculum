@@ -21,7 +21,10 @@ Have a crack!  */}}
   }}
   {{ $markdownContent := index $contentParts 1 }}
   {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
-  {{ $block = $parsedFrontMatter }}
+
+  {{/* We get PD times from the font-matter in the PD CMS, not the block's own front-matter */}}
+  {{ .Page.Scratch.SetInMap "blockData" "time" $parsedFrontMatter.time }}
+  {{ $block := $parsedFrontMatter | default $blockData }}
 
   <section class="c-block c-block--{{$blockData.type}}">
     <header class="c-block__header">
