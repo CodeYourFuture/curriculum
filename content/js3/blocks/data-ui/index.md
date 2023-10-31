@@ -12,9 +12,7 @@ When we're building user interfaces we're often taking data and {{<tooltip title
 
 ### ℹ️ Show listings
 
-Suppose you're building a user interface to display information about local shows in a city.
-
-Let's consider the following problem:
+Suppose you're building a user interface to display information about local shows in a city. We need to render some show listings in the user interface. Let's consider the following problem:
 
 > _Given_ a list of shows data
 > _When_ the page first loads
@@ -25,7 +23,7 @@ A typical event can be modelled as a JavaScript object with the following proper
 ```js
 // js object with event data
 {
-  name: "Little Simz",
+  event: "Little Simz",
   date: "5th November",
   location: "02 Victoria Warehouse",
   city: "Manchester"
@@ -37,15 +35,15 @@ So our list of event data can be modelled as an array of objects, each with a si
 ```js
 const events = [
   {
-    name: "Little Simz",
+    event: "Little Simz",
     date: "5th November",
     location: "02 Victoria Warehouse",
     city: "Manchester",
   },
   {
-    name: "Little Simz",
-    date: "5th November",
-    location: "02 Victoria Warehouse",
+    event: "Elton John",
+    date: "13th November",
+    location: "AO Arena",
     city: "Manchester",
   },
 ];
