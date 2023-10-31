@@ -10,13 +10,13 @@ emoji= '🧩'
 
 To break down this problem, let's define a sub-goal:
 
-> 🎯 Sub-goal: Render a single datum in the user interface
+> 🎯 Sub-goal: Render _any_ single datum in the user interface
 
 We'll consider how to render a single datum before doing this for the whole list. We will start with an object like the one below:
 
 ```js
 const show = {
-  name: "Little Simz",
+  event: "Little Simz concert",
   date: "5th November",
   location: "02 Victoria Warehouse",
   city: "Manchester",
