@@ -8,8 +8,14 @@ emoji= '🧩'
     1='Define a one to one mapping'
 +++
 
-At the moment, we have a one to one mapping between the array of data and the UI elements. We can take a group of UI elements and
+There is a {{<tooltip title="one to one association">}}A **one-to-one mapping** associates every element in a set to exactly one element in another set{{</tooltip>}}between the data array and the UI components. We can represent this diagrammatically by pairing up the data elements with their corresponding UI components:
 
-datum1 -> DOM element 1
-datum2 -> DOM element 2
-...
+```mermaid
+---
+title: One to one mapping between data and the UI components
+---
+flowchart LR
+   A[datum1] == createShowCard(datum1) ==> B[UI component 1]
+   C[datum2] == createShowCard(datum2) ==> D[UI component 2]
+
+```
