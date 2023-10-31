@@ -1,0 +1,20 @@
+.c-logos,
+ul.c-logos {
+  padding: var(--theme-spacing--4) 0 var(--theme-spacing--6);
+  display: flex;
+  flex-flow: row wrap;
+  place-items: center;
+  justify-content: center;
+  gap: var(--theme-spacing--5) var(--theme-spacing--4);
+  max-width: none;
+
+  &__item {
+    max-width: 200px;
+    flex: 1 1 auto;
+  }
+
+  &__logo {
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+}
