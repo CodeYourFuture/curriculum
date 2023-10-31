@@ -15,7 +15,7 @@ There is a {{<tooltip title="one to one association">}}A **one-to-one mapping** 
 title: One to one mapping between data and the UI components
 ---
 flowchart LR
-   A[datum1] == createShowCard(datum1) ==> B[UI component 1]
-   C[datum2] == createShowCard(datum2) ==> D[UI component 2]
+   A[datum1] == createFilmCard(datum1) ==> B[UI component 1]
+   C[datum2] == createFilmCard(datum2) ==> D[UI component 2]
 
 ```

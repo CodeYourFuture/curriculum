@@ -14,7 +14,7 @@ emoji= '🧩'
 For every item in the starting array we want to apply a function to all the elements in the array to create a new array.
 Earlier, we used a `for...of` statement to apply the function `createShowCard` to each element in the array. However, we can also use `map` to do this.
 
-`map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array. Let's consider an example with a list of numbers and a function `Math.round` that returns the rounded number. Our goal is to create a new array of rounded numbers from the starting array of numbers:
+`map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array. Let's consider an example with a list of numbers and a function `Math.round` that returns the rounded number. Our goal is to create a new array of rounded numbers from the starting array of numbers:
 
 ```js
 function round(num) {

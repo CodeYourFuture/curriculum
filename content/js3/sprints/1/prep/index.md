@@ -10,6 +10,9 @@ backlog_filter= 'Week 1'
 name="data to ui"
 src="js3/blocks/data-ui"
 [[blocks]]
+name="now-showing"
+src="js3/blocks/now-showing"
+[[blocks]]
 name="single-datum"
 src="js3/blocks/single-datum"
 [[blocks]]

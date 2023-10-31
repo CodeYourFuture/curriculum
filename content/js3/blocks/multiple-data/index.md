@@ -13,24 +13,26 @@ We can take a single datum and render it in the UI. However,the goal is to rende
 Let's consider an array of data like this:
 
 ```js
-const shows = [
+const films = [
   {
-    name: "Little Simz",
-    date: "5th November",
-    location: "02 Victoria Warehouse",
-    city: "Manchester",
+    title: "Killing of Flower Moon",
+    director: "Martin Scoresee"
+    times: ["15:35"],
+    certificate: "15",
+    duration: 112
   },
   {
-    name: "Little Simz",
-    date: "5th November",
-    location: "02 Victoria Warehouse",
-    city: "Manchester",
+    title: "Typist Artist Pirate King",
+    directory: "Carol Morley"
+    times: ["15:00", "20:00"],
+    certificate: "12A",
+    duration: 108
   },
 ];
 
-const cards = [];
-for (const item of shows) {
-  cards.push(createShowCard(item));
+const filmCards = [];
+for (const item of films) {
+  filmCards.push(createFilmCard(item));
 }
 
 document.querySelector("ul").append(...elements);
@@ -40,28 +42,30 @@ document.querySelector("ul").append(...elements);
 We want to map over this data and render it in the user interface.
 
 ```js
-const shows = [
+const films = [
   {
-    name: "Little Simz",
-    date: "5th November",
-    location: "02 Victoria Warehouse",
-    city: "Manchester",
+    title: "Killing of Flower Moon",
+    director: "Martin Scoresee"
+    times: ["15:35"],
+    certificate: "15",
+    duration: 112
   },
   {
-    name: "Little Simz",
-    date: "5th November",
-    location: "02 Victoria Warehouse",
-    city: "Manchester",
+    title: "Typist Artist Pirate King",
+    directory: "Carol Morley"
+    times: ["15:00", "20:00"],
+    certificate: "12A",
+    duration: 108
   },
 ];
 
-const elements = [];
-for (const item of items) {
-  const userCard = createUserCard(item);
-  elements.push(userCard);
+const filmCards = [];
+for (const item of filmCards) {
+  const filmCard = createFilmCard(item);
+  filmCards.push(filmCard);
 }
 
-document.querySelector("#main-content").append(...elements);
+document.querySelector("#main-content").append(...filmCards);
 ```
 
 Now we have a situation where we want to map elements from the DOM to a user interface.

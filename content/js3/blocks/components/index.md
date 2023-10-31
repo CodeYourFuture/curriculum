@@ -13,58 +13,65 @@ To build user interfaces, we break down the interface into smaller {{<tooltip ti
 Let's consider our code thus far:
 
 ```js
-const show = {
-  event: "Little Simz concert",
-  date: "5th November",
-  location: "02 Victoria Warehouse",
-  city: "Manchester",
+const film = {
+    title: "Killing of Flower Moon",
+    director: "Martin Scoresese"
+    times: ["15:35"],
+    certificate: "15",
+    duration: 112
 };
 
-const section = document.createElement("section");
-section.innerHTML = `
-<p>${show.name}</p>
-<p>${show.date}</p>
-<p>${show.location}</p>
+const filmCard = document.createElement("section");
+filmCard.innerHTML = `
+<p>${film.name}</p>
+<p>${film.date}</p>
+<p>${film.location}</p>
 `;
-console.log(section);
+console.log(filmCard);
 ```
 
 Our sub-goal is to be able to render _any_ show object in the DOM. To do this, we can wrap up create a show card component using a function.
 
 ```js
-const show1 = {
-  name: "Little Simz",
-  date: "5th November",
-  location: "02 Victoria Warehouse",
-  city: "Manchester",
-};
-const show2 = {
-  name: "Slowdive",
-  date: "13th November",
-  location: "02 Victoria Warehouse",
-  city: "Manchester",
-};
-
-function createShowCard(show) {
+function createFilmCard(film) {
   const card = document.createElement("section");
   card.innerHTML = `
-    <p>${show.name}</p>
-    <p>${show.date}</p>
-    <p>${show.location}</p>
+    <p>${film.title}</p>
+    <p>${film.director}</p>
 `;
   return card;
 }
 
+const film1 = {
+    title: "Killing of Flower Moon",
+    director: "Martin Scoresese"
+    times: ["15:35"],
+    certificate: "15",
+    duration: 112
+};
+
 document
   .querySelector("ul")
-  .append(createShowCard(show1), createShowCard(show2)); // append the show cards to the DOM
+  .append(createShowCard(film1)); // append the film cards to the DOM
+
+const film2 = {
+    title: "Typist Artist Pirate King",
+    directory: "Carol Morley"
+    times: ["15:00", "20:00"],
+    certificate: "12A",
+    duration: 108
+};
+
+document
+  .querySelector("ul")
+  .append(createShowCard(film2)); // append the film cards to the DOM
 ```
 
 {{<tabs>}}
 
 {{<tab name="🧹 Refactor">}}
 
-Try refactoring the `createShowCard` function to use object destructuring in the parameters.
+Try refactoring the `createFilmCard` function to use object destructuring in the parameters.
 
 {{</tab>}}
 
