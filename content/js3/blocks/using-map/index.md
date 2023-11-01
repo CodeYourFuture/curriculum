@@ -14,26 +14,26 @@ emoji= '🧩'
 For every item in the starting array we want to apply a function to all the elements in the array to create a new array.
 Earlier, we used a `for...of` statement to apply the function `createShowCard` to each element in the array. However, we can also use `map` to do this.
 
-`map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array. Let's consider an example with a list of numbers and a function `Math.round` that returns the rounded number. Our goal is to create a new array of rounded numbers from the starting array of numbers:
+`map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array. Let's consider an example with a list of numbers and a function `double` that returns double its input. Our goal is to create a new array of doubled numbers from the starting array of numbers:
 
 ```js
-function round(num) {
-  return Math.round(num);
+function double(num) {
+  return num * 2;
 }
 
-const items = [1.4, 5.6, 10.2, 30.9];
-const roundedItems = [round(1.4), round(5.6), round(10.2), round(30.9)];
+const arr = [5, 20, 30];
+const doubledNums = [double(5), double(20), double(30)];
 ```
 
 We can build an array like this using `map`
 
 ```js
-function round(num) {
-  return Math.round(num);
+function double(num) {
+  return num * 2;
 }
 
-const items = [1.4, 5.6, 10.2, 30.9];
-const roundedNums = items.map(Math.round);
+const arr = [5, 20, 30];
+const doubledNums = arr.map(double);
 ```
 
 {{<tabs name="Explore map">}}
