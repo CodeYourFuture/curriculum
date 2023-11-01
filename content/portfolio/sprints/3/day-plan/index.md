@@ -4,40 +4,36 @@ layout = 'day-plan'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-Portfolio'
+backlog= 'Portfolio'
 backlog_filter= 'Week 3'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name= "PD Placeholder"
-src="blocks/pd-placeholder"
-time="45"
+name="Employability Skills"
+src="portfolio/blocks/employability"
 [[blocks]]
-name="Morning break"
+name="Morning Break"
 src="blocks/morning-break"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
-time="60"
+name="Stand up"
+src="portfolio/blocks/stand-up"
+[[blocks]]
+name="Guest Speaker"
+src="portfolio/blocks/guest"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Project Work"
+src="portfolio/blocks/project"
 [[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Portfolio/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
+name="Afternoon Break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group 2"
-src="blocks/study-group"
-time="60"
+name="Project Work"
+src="portfolio/blocks/project"
 [[blocks]]
-name="Retro"
+name="Retrospective"
 src="blocks/retro"
 +++

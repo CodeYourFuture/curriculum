@@ -6,5 +6,8 @@ emoji= '📝'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="You have started your new job in tech."
+1="Each person has a complete project good enough to show to an employer"
+2="This project is featured on your portfolio"
+3="You have started your new job in tech."
+
 +++
