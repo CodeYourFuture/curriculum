@@ -4,6 +4,6 @@ layout = 'backlog'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 2
-backlog= 'Module-Template'
+backlog= 'Portfolio'
 backlog_filter= 'Week 2'
 +++
