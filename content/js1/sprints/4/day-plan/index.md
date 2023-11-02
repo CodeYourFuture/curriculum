@@ -13,6 +13,10 @@ src="blocks/energiser"
 name= "Asking good technical questions"
 src= "https://cyf-pd.netlify.app/blocks/asking-good-technical-questions/readme/"
 [[blocks]]
+name="Progress check-in"
+src="https://github.com/CodeYourFuture/Module-JS1/issues/124"
+time="15"
+[[blocks]]
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]

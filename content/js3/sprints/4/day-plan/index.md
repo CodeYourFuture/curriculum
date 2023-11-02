@@ -10,8 +10,10 @@ backlog_filter= 'Week 4'
 name="Teamwork Project Presentation"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s4/readme/"
 [[blocks]]
+name="Progress check-in"
+src="https://github.com/CodeYourFuture/Module-JS3/issues/245"
+time="15"
+[[blocks]]
 name="Create groups"
 src="https://cyf-pd.netlify.app/blocks/create-groups-for-react/readme/"
 +++
-
-
