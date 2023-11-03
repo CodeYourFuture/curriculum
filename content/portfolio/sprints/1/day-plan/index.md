@@ -39,4 +39,8 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Project Work"
 src="portfolio/blocks/break-it-down"
+[[blocks]]
+name="Prep for the week"
+src="https://cyf-pd.netlify.app/blocks/prep-the-work-for-the-week/readme/"
+
 +++
