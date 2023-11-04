@@ -14,22 +14,22 @@ We need a way to access the percentage string that is created inside `convertToP
 
 We can add a return statement to `convertToPercentage` like this:
 
-```js {linenos=table,hl_lines=["4"],linenostart=1}
-const decimalNumber = 0.5;
-
-function convertToPercentage() {
-  return `${decimalNumber * 100}%`;
-}
-```
-
-We can also keep the variable `percentage` and refer to it in the return statement:
-
 ```js {linenos=table,hl_lines=["4-5"],linenostart=1}
 const decimalNumber = 0.5;
 
 function convertToPercentage() {
   const percentage = `${decimalNumber * 100}%`;
   return percentage;
+}
+```
+
+If we want, we could also remove the variable `percentage`, since we can return the value of the expression directly:
+
+```js {linenos=table,hl_lines=["4"],linenostart=1}
+const decimalNumber = 0.5;
+
+function convertToPercentage() {
+  return `${decimalNumber * 100}%`;
 }
 ```
 
@@ -59,6 +59,7 @@ const decimalNumber = 0.5;
 
 function convertToPercentage() {
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 
 const result = convertToPercentage(0.5);
@@ -75,10 +76,17 @@ const decimalNumber = 0.5;
 
 function convertToPercentage() {
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 
 const result = convertToPercentage(0.5);
 console.log(result);
+```
+
+This will now print the following when run:
+
+```
+50%
 ```
 
 {{</tab>}}
