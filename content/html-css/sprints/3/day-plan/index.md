@@ -23,6 +23,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Get Forms Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"
+time="120"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
