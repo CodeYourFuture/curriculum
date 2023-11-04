@@ -8,7 +8,7 @@ emoji= '🗄️'
     2='Construct simple expressions to represent a calculation'
 +++
 
-Let's begin with this problem.
+Let's begin with this problem:
 
 > Given a _decimal number_ I want to convert it into a _percentage format_.
 
@@ -64,36 +64,49 @@ Recalling template literals, the expression in the curly braces will be evaluate
 
 {{<tab name="Calculate area">}}
 
-### Generally calculate area and perimeter
+Now that we've solved the problem of converting a single decimal number to a percentage, let's practice solving other similar problems using expressions.
 
-These variables describe the dimensions of a rectangle:
+Create a new JavaScript file so that you can try running the code for yourself.
+
+### Calculating the area and perimeter of a rectangle
+
+In one of these new files, let's make two variables that describe the dimensions of a rectangle:
 
 ```js
 const height = 10; // 10 is just an example of a value here - your code should still work if you change this to another value.
 const width = 30; // Also just an example - your code should still work if this changes.
 ```
 
-Create variables [`area`](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [`perimeter`](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) for the area and perimeter of the rectangle, by creating expressions from the `height` and `width` variables.
+Using these variables, let's calculate the [area](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [perimeter](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) of the rectangle.
+
+We can calculate the area and perimeter by creating expressions that use the `height` and `width` variables we just created. Hint: read the links above if you don't remember how to calculate area and perimeter of a rectangle.
+
+Finally, we'll create two more variables: `area` and `perimeter` to store the result of the calculations.
 
 ```js
 const area = FILL_ME_IN;
 const perimeter = FILL_ME_IN;
 ```
 
-Now give different numbers to `height` and `width`. Are the `area` and `perimeter` values still correct?
+Now, if we change the numbers assigned to `height` and `width`, are the `area` and `perimeter` values still correct? Try using `console.log` to print out the value of the variables and then run the script using Node to view the output.
 
 {{</tab>}}
 
 {{<tab name="Convert pence">}}
 
-### Generally convert pence to pounds
+Remember to create a new JavaScript file to run the code for yourself.
 
-This variable stores a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
+### Converting pence to pounds
+
+Like the rectangle example, we'll start by creating a variable to store a [price in pence](http://teach.files.bbci.co.uk/skillswise/ma26mone-e3-f-money-pounds-and-pence.pdf):
 
 ```js
 const price = 130; // Just an example value. Try changing this value to 0, 10, or 1521, and make sure you still get the right answer from your code.
 ```
 
-Write an expression for the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
+Now, you should write an expression that calculates the price in pounds. The price in pounds should be shown with 2 decimal places and start with "£".
+
+Try using `console.log` to print out the value of price in pounds and then run the script using Node to view the output.
+
 {{</tab>}}
 {{</tabs>}}
