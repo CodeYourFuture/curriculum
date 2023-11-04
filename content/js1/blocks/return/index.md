@@ -59,6 +59,7 @@ const decimalNumber = 0.5;
 
 function convertToPercentage() {
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 
 const result = convertToPercentage(0.5);
@@ -75,10 +76,17 @@ const decimalNumber = 0.5;
 
 function convertToPercentage() {
   const percentage = `${decimalNumber * 100}%`;
+  return percentage;
 }
 
 const result = convertToPercentage(0.5);
 console.log(result);
+```
+
+This will now print the following when run:
+
+```
+50%
 ```
 
 {{</tab>}}
