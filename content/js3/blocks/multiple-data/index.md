@@ -1,5 +1,5 @@
 +++
-title = 'Rendering a list'
+title = 'One to one'
 headless = true
 time = 30
 facilitation = false
