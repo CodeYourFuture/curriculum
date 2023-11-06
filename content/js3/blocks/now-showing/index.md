@@ -1,5 +1,5 @@
 +++
-title = '🍿 Now showing'
+title = '📽️ Cinema listings'
 headless = true
 time = 30
 facilitation = false
