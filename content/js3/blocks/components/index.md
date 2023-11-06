@@ -23,9 +23,7 @@ const film = {
 
 const filmCard = document.createElement("section");
 filmCard.innerHTML = `
-<p>${film.name}</p>
-<p>${film.date}</p>
-<p>${film.location}</p>
+<p>${film.title}</p>
 `;
 console.log(filmCard);
 ```
@@ -37,7 +35,6 @@ function createFilmCard(film) {
   const card = document.createElement("section");
   card.innerHTML = `
     <p>${film.title}</p>
-    <p>${film.director}</p>
 `;
   return card;
 }
@@ -72,6 +69,12 @@ document
 {{<tab name="🧹 Refactor">}}
 
 Refactor the `createFilmCard` function to use object destructuring in the parameters.
+
+{{</tab>}}
+
+{{<tab name="🔧 Implement">}}
+
+Update the implementation of `createFilmCard` so it renders the other film properties like `times` and `certificate` etc.
 
 {{</tab>}}
 
