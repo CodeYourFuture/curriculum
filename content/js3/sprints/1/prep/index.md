@@ -16,8 +16,8 @@ src="js3/blocks/now-showing"
 name="single-datum"
 src="js3/blocks/single-datum"
 [[blocks]]
-name="dom-elements"
-src="js3/blocks/dom-elements"
+name="composing elements"
+src="js3/blocks/composing-elements"
 [[blocks]]
 name="components"
 src="js3/blocks/components"
