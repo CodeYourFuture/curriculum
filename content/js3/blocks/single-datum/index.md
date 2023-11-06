@@ -12,7 +12,7 @@ To break down this problem, let's define a sub-goal:
 
 > 🎯 Sub-goal: Render _any_ single film datum in the user interface
 
-We'll consider how to render a single datum before doing this for the whole list. We will start with an object like the one below:
+We'll consider how to render any single datum before doing this for the whole list. Let's start with an object like the one below:
 
 ```js
 const film = {
@@ -24,4 +24,6 @@ const film = {
 };
 ```
 
-How can we **render** this data in the user interface?
+We'll focus _only_ on building this section of the user interface:
+
+![single-film-display](single-film-display.png)
