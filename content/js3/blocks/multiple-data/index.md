@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Describe how to render a list of data'
 +++
 
-We can take a single datum and render it in the UI. However,the goal is to render a list of data in the user interface:
+We can take any single film datum and render it in the UI. However, the main goal is to render a list of data in the user interface:
 
 Let's consider an array of data like this:
 
