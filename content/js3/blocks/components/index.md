@@ -1,5 +1,5 @@
 +++
-title = '🧩 Components'
+title = '🃏 Components'
 headless = true
 time = 30
 facilitation = false
@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Explain how data is rendered into a user interface'
 +++
 
-To build user interfaces, we break down the interface into smaller {{<tooltip title="components">}}A component is a reusable, self-contained piece of code. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. Functions too are reusable blocks of code. In a similar way, we build a complex user interface from **components** - resuable blocks of the user interface. As functions allow us to reuse code again and again, we can write components in JavaScript using functions.
+To build user interfaces, we decompose the interface into smaller {{<tooltip title="components">}}A **component** is a reusable, self-contained piece of code. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. Functions too are reusable blocks of code. Similarly, we build a complex user interface from **components** - reusable blocks of the user interface. As functions allow us to reuse code again and again, we can write components in JavaScript using functions.
 
 Let's consider our code thus far:
 
@@ -30,7 +30,7 @@ filmCard.innerHTML = `
 console.log(filmCard);
 ```
 
-Our sub-goal is to be able to render _any_ show object in the DOM. To do this, we can wrap up create a show card component using a function.
+Our sub-goal is to be able to render _any_ film object in the user interface. To do this, we can wrap up this code to create a function.
 
 ```js
 function createFilmCard(film) {
@@ -71,7 +71,7 @@ document
 
 {{<tab name="🧹 Refactor">}}
 
-Try refactoring the `createFilmCard` function to use object destructuring in the parameters.
+Refactor the `createFilmCard` function to use object destructuring in the parameters.
 
 {{</tab>}}
 
