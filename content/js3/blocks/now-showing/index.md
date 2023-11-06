@@ -8,26 +8,17 @@ emoji= '🧩'
     1='Explain how data is rendered into a user interface'
 +++
 
-### 📽️ Cinema listings
-
 Suppose you're building a user interface to display the films that are now showing on a film website. We need to render some cinema listings in the user interface. Let's define an acceptance criterion:
 
 > _Given_ a list of film data
 > _When_ the page first loads
 > _Then_ it should display the list of films now showing, including the film title, times and film certificate
 
-A typical film can be modelled as a JavaScript object with the following properties:
+We can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a web page used for design purposes{{</tooltip>}}to visualise how the user interface should look:
 
-```js
-// js object with event data
-{
-  title: "Killing of Flower Moon",
-  times: ['15:35'],
-  certificate: "15"
-}
-```
+![film-cards](film-cards.png)
 
-So our list of film showing data can be modelled as an array of objects, each with a similar shape:
+To build this user interface, we will work with some data in the form of an array of objects, each with similar properties. Here are some example film data:
 
 ```js
 const films = [
@@ -47,3 +38,5 @@ const films = [
   },
 ];
 ```
+
+So our task will be to take this data and build the film listings view.
