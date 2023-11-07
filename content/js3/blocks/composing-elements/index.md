@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Compose UI elements to some specification'
 +++
 
-To render an element in the DOM, we can use `createElement` to create a DOM element and set its `innerHTMl` property using data from the `film` object. For now, we'll only consider rendering the `title` property.
+To render elements in the DOM, we can use `createElement` to create a DOM element and set its `innerHTMl` property using data from the `film` object. For now, we'll only consider rendering the `title` property. After we've rendered the film title we can then render more data from the film object.
 
 ```js
 const film = {
@@ -28,9 +28,9 @@ console.log(filmCard);
 
 If we open up the console tab, we should be able to see this element logged in the console. However, it won't yet appear in on the page in the browser.
 
-### Displaying elements
+### Appending elements
 
-To display this UI element, we need to append it to another DOM element that is already in the DOM tree.
+To display this element, we need to append it to another element that is already in the DOM tree.
 
 ```js {linenos=table,hl_lines=["15"],linenostart=1}
 const film = {
@@ -46,5 +46,5 @@ filmCard.innerHTML = `
 <p>${film.title}</p>
 `;
 
-document.querySelector("body").append(section);
+document.querySelector("ul").append(section);
 ```
