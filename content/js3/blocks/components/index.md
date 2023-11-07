@@ -5,10 +5,10 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain how data is rendered into a user interface'
+    1='Implement components for a user interface'
 +++
 
-To build user interfaces, we decompose the interface into smaller {{<tooltip title="components">}}A **component** is a reusable, self-contained piece of code. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. Functions too are reusable blocks of code. Similarly, we build a complex user interface from **components** - reusable blocks of the user interface. As functions allow us to reuse code again and again, we can write components in JavaScript using functions.
+To build user interfaces, we decompose the interface into smaller {{<tooltip title="components">}}A **component** is a reusable, self-contained piece of code. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. Just like components, functions too are reusable blocks of code. As functions allow us to reuse code again and again, we can write components in JavaScript using functions.
 
 Let's consider our code thus far:
 
@@ -66,15 +66,15 @@ document
 
 {{<tabs>}}
 
-{{<tab name="🧹 Refactor">}}
+{{<tab name="🔧 Implement">}}
 
-Refactor the `createFilmCard` function to use object destructuring in the parameters.
+Update the implementation of `createFilmCard` so it renders other film properties like `times` and `certificate` etc.
 
 {{</tab>}}
 
-{{<tab name="🔧 Implement">}}
+{{<tab name="🧹 Refactor">}}
 
-Update the implementation of `createFilmCard` so it renders the other film properties like `times` and `certificate` etc.
+Refactor the `createFilmCard` function to use object destructuring in the parameters.
 
 {{</tab>}}
 
