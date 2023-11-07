@@ -22,9 +22,6 @@ src="js3/blocks/composing-elements"
 name="components"
 src="js3/blocks/components"
 [[blocks]]
-name="multiple-data"
-src="js3/blocks/multiple-data"
-[[blocks]]
 name="one-to-one"
 src="js3/blocks/one-to-one"
 [[blocks]]
