@@ -16,6 +16,8 @@ Suppose you're building a user interface to display the films that are now showi
 
 We can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a web page used for design purposes{{</tooltip>}}to visualise how the user interface should look:
 
+### Cinema listings wireframe 🖼️
+
 ![film-cards](film-cards.png)
 
 The wireframe is composed of a series of {{<tooltip title="card components">}}A card component is a UI component that creates a visually distinct group of logically related information{{</tooltip>}}card components. To build this user interface, we will start with data in the form of an array of objects, each with similar properties. Here are some example film data:
