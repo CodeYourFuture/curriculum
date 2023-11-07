@@ -8,9 +8,19 @@ emoji= '🧩'
     1='Describe how map works'
 +++
 
-For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createShowCard` to each element in the array. However, we can also use `map` to do this. `map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, we pass a function to `map`, and use its return value to create a new array.
+For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array like this using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}} In this case, we pass a function as an argument to `map`.
 
-We can demonstrate how `map` works with the following example. We'll start with an array of numbers `[5, 20, 30]` and a function `double` that returns double its input. Our goal is to create a new array of doubled numbers given this array and function. In other words, we want to create the array `[10, 40, 60]`. Firstly, we can observe a one-to-one mapping:
+We can demonstrate how `map` works with the following example. We'll start with the following:
+
+```js
+const arr = [5, 20, 30];
+
+function double(num) {
+  return num * 2;
+}
+```
+
+Our goal is to create a new array of doubled numbers given this array and function. In other words, we want to create the array `[10, 40, 60]`. Firstly, we can observe a one-to-one mapping:
 
 ```mermaid
 ---
@@ -22,7 +32,7 @@ flowchart LR
    E[30] == double(30) ==> F[60]
 ```
 
-In JavaScript code, we can think of this as calling the function `double` for every item in the original array and using `double`'s return value to populate the new array.
+We are building a new array by applying each item to `double`. Each time we call `double` we store its return value in a new array:
 
 ```js
 function double(num) {
@@ -33,7 +43,8 @@ const arr = [5, 20, 30];
 const doubledNums = [double(5), double(20), double(30)];
 ```
 
-To build an array like this we can call `map`:
+However, we want to build an array like this more generally.
+We can do this by calling `map`:
 
 ```js {linenos=table,hl_lines=["6"], linenostart=1}
 function double(num) {
