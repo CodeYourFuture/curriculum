@@ -1,5 +1,5 @@
 +++
-title = '🧱 Composing UI elements'
+title = '🧱 Composing elements'
 headless = true
 time = 30
 facilitation = false
@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Compose UI elements to some specification'
 +++
 
-To build a component, we can start by calling `createElement` to create and {{<tooltip title="compose DOM elements">}}To **compose DOM elements** means to **combine DOM elements** to form some part of the user interface.{{</tooltip>}}. and set its `innerHTMl` property using data from the `film` object. For now, we'll only consider rendering the `title` property. After we've rendered the film title we can then render more data from the film object.
+We can start by calling `createElement` to create and {{<tooltip title="compose DOM elements">}}To **compose DOM elements** means to **combine DOM elements** to form some part of the user interface.{{</tooltip>}}. For now, we'll only consider rendering the `title` property from the `film` object:
 
 ```js
 const film = {
