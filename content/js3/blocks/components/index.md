@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Implement components for a user interface'
 +++
 
-To build user interfaces, we decompose the interface into smaller {{<tooltip title="components">}}A **component** is a reusable, self-contained piece of code. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. Just like components, functions too are reusable blocks of code. As functions allow us to reuse code again and again, we can write components in JavaScript using functions.
+To build user interfaces, we decompose the interface into smaller {{<tooltip title="UI components">}}A **component** is a reusable, self-contained piece of the UI. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. JavaScript functions enable us to reuse code: therefore we can implement UI components using JavaScript functions.
 
 Let's consider our code thus far:
 
@@ -68,7 +68,7 @@ document
 
 {{<tab name="🔧 Implement">}}
 
-Update the implementation of `createFilmCard` so it renders other film properties like `times` and `certificate` etc.
+Update the implementation of `createFilmCard` so it renders other film properties like `times` etc.
 
 {{</tab>}}
 
