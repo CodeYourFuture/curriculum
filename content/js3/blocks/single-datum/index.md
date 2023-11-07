@@ -24,6 +24,6 @@ const film = {
 };
 ```
 
-We'll focus _only_ on building this section of the user interface:
+We'll focus _only_ on building this section of the user interface with the object:
 
 ![single-film-display](single-film-display.png)
