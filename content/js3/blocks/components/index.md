@@ -1,5 +1,5 @@
 +++
-title = '🃏 Components'
+title = '🃏 Building a component'
 headless = true
 time = 30
 facilitation = false
@@ -8,7 +8,11 @@ emoji= '🧩'
     1='Implement components for a user interface'
 +++
 
-To build user interfaces, we decompose the interface into smaller {{<tooltip title="UI components">}}A **component** is a reusable, self-contained piece of the UI. Components are like lego blocks you can build websites with. Most websites are made by "composing" components in this way.{{</tooltip>}}. JavaScript functions enable us to reuse code: therefore we can implement UI components using JavaScript functions.
+Recall our sub-goal:
+
+> 🎯 Sub-goal: Build a film card component
+
+A film card component will enable us to render _any_ film object in the user interface. At the moment, we've composed DOM elements but we've not built a **reusable component**. To do this, we can wrap up our code inside a JavaScript function. JavaScript functions enable us to reuse code: therefore we can implement UI components using JavaScript functions.
 
 Let's consider our code thus far:
 
@@ -27,8 +31,6 @@ filmCard.innerHTML = `
 `;
 console.log(filmCard);
 ```
-
-Our sub-goal is to be able to render _any_ film object in the user interface. To do this, we can wrap up this code to create a function.
 
 ```js
 function createFilmCard(film) {
