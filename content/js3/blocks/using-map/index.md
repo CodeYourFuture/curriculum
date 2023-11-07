@@ -1,5 +1,5 @@
 +++
-title = '🗺️ map'
+title = '🗺️ Using map'
 headless = true
 time = 30
 facilitation = false
@@ -9,12 +9,21 @@ emoji= '🧩'
     2='Describe why we use map instead of other iteration techniques'
 +++
 
-### Using `map`
+For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createShowCard` to each element in the array. However, we can also use `map` to do this. `map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, we pass a function to `map`, and use its return value to create a new array.
 
-For every item in the starting array we want to apply a function to all the elements in the array to create a new array.
-Earlier, we used a `for...of` statement to apply the function `createShowCard` to each element in the array. However, we can also use `map` to do this.
+Let's consider an example with an array of numbers `[5, 20, 30]` and a function `double` that returns double its input. Our goal is to create a new array of doubled numbers given this array and function. Firstly, we can observe a one-to-one mapping:
 
-`map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array. Let's consider an example with a list of numbers and a function `double` that returns double its input. Our goal is to create a new array of doubled numbers from the starting array of numbers:
+```mermaid
+---
+title: One to one mapping - doubling each number in an array
+---
+flowchart LR
+   A[5] == double(5) ==> B[10]
+   C[20] == double(20) ==> D[40]
+   E[30] == double(30) ==> F[60]
+```
+
+In JavaScript code, we can think of this like calling the function `double` for every single item in the original array and using the return value each time as elements in the new array.
 
 ```js
 function double(num) {
@@ -25,9 +34,9 @@ const arr = [5, 20, 30];
 const doubledNums = [double(5), double(20), double(30)];
 ```
 
-We can build an array like this using `map`
+To build an array like this we can call `map`:
 
-```js
+```js {linenos=table,hl_lines=["6"], linenostart=1}
 function double(num) {
   return num * 2;
 }
@@ -42,7 +51,7 @@ const doubledNums = arr.map(double);
 
 <iframe title="array-visualiser" width="768" height="432" src="https://array-visualizer.codeyourfuture.io/" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
-Use the array visualiser to visualise what happens when `map` is used on the `arr`. Try changing the elements of `arr` and the function that is passed to `map`. Also answer the following questions in the visualiser:
+Use the array visualiser to observe what happens when `map` is used on the `arr`. Try changing the elements of `arr` and the function that is passed to `map`. Answer the following questions in the visualiser:
 
 - What does `map` do?
 - What does `map` return?
