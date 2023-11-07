@@ -18,7 +18,7 @@ We can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a 
 
 ![film-cards](film-cards.png)
 
-To build this user interface, we will work with some data in the form of an array of objects, each with similar properties. Here are some example film data:
+The wireframe is composed of a series of {{<tooltip title="card components">}}A card component is a UI component that creates a visually distinct group of logically related information{{</tooltip>}}card components. To build this user interface, we will start with data in the form of an array of objects, each with similar properties. Here are some example film data:
 
 ```js
 const films = [
