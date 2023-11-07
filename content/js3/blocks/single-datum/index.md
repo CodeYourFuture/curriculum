@@ -5,14 +5,14 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Describe how to render a datum in the browser'
+    1='Define a sub-goal for rendering data in the user interface'
 +++
 
 To break down this problem, let's define a sub-goal:
 
-> 🎯 Sub-goal: Render _any_ single film datum in the user interface
+> 🎯 Sub-goal: Build a film card component
 
-We'll consider how to render any single datum before doing this for the whole list. Let's start with an object like the one below:
+We'll consider how to render _any_ single datum using a film card. We'll start with an object like the one below:
 
 ```js
 const film = {
@@ -24,6 +24,6 @@ const film = {
 };
 ```
 
-We'll focus _only_ on building this section of the user interface with the object:
+Starting with this object, we'll focus _only_ on building this section of the user interface:
 
 ![single-film-display](single-film-display.png)
