@@ -12,7 +12,7 @@ Recall our sub-goal:
 
 > 🎯 Sub-goal: Build a film card component
 
-A film card component will enable us to render _any_ film object in the user interface. At the moment, we've composed DOM elements but we've not built a **reusable component**. To do this, we can wrap up our code inside a JavaScript function. JavaScript functions **enable us to reuse code**: therefore we can implement **reusable UI components** using functions.
+A film card component will enable us to render _any_ film object in the user interface. At the moment, we've composed DOM elements to create a card, but we've not built a **reusable component**. To do this, we can wrap up our code inside a JavaScript function. JavaScript functions **enable us to reuse code**: therefore we can implement **reusable UI components** using functions.
 
 Let's consider our code thus far:
 
@@ -51,10 +51,6 @@ const film1 = {
     duration: 112
 };
 
-document
-  .querySelector("ul")
-  .append(createShowCard(film1)); // append the film cards to the DOM
-
 const film2 = {
     title: "Typist Artist Pirate King",
     directory: "Carol Morley"
@@ -65,7 +61,7 @@ const film2 = {
 
 document
   .querySelector("ul")
-  .append(createShowCard(film2)); // append the film cards to the DOM
+  .append(createFilmCard(film1),createFilmCard(film2)); // append the film cards to the DOM
 ```
 
 {{<tabs>}}
