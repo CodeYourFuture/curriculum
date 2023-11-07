@@ -2,7 +2,7 @@
 {{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
-  <section class="c-block">
+  <section class="c-block c-block--{{ $blockData.type }}">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"

@@ -5,7 +5,7 @@ emoji= '📝'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Portfolio'
-backlog_filter= 'Week 3'
+backlog_filter= 'Week 5'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
@@ -19,8 +19,8 @@ src="blocks/morning-break"
 name="Stand up"
 src="portfolio/blocks/stand-up"
 [[blocks]]
-name="Guest Speaker"
-src="portfolio/blocks/guest"
+name="Project Work"
+src="portfolio/blocks/project"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

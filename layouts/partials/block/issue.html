@@ -3,7 +3,7 @@
 {{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
-  <section class="c-block">
+  <section class="c-block c-block--{{ $blockData.type }}">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"
@@ -11,9 +11,13 @@
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
       {{/* TODO - lookup time from label dictionary */}}
-      {{ range $response.labels }}
-        {{ if in .name "Size" }}
-          <time class="c-block__time" datetime="P60M">{{ .name }}</time>
+      {{ if $blockData.time }}
+        {{ partial "time.html" . }}
+      {{ else }}
+        {{ range $response.labels }}
+          {{ if in .name "Size" }}
+            <time class="c-block__time" datetime="P60M">{{ .name }}</time>
+          {{ end }}
         {{ end }}
       {{ end }}
     </header>

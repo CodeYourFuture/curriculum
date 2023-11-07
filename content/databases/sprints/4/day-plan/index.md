@@ -17,6 +17,10 @@ time="45"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
+name="Progress check-in"
+src="https://github.com/CodeYourFuture/Module-Databases/issues/141"
+time="15"
+[[blocks]]
 name="Placeholder Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="60"

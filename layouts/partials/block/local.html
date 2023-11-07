@@ -2,7 +2,7 @@
 {{ $block := .Page.Site.GetPage $blockData.api }}
 
 
-<section class="c-block">
+<section class="c-block c-block--{{ $blockData.type }}">
   <header class="c-block__header">
     <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
       {{ $block.Title }}
