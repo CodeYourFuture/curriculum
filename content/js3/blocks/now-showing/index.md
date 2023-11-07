@@ -5,7 +5,8 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain how data is rendered into a user interface'
+    1='Define an acceptance criterion for building a web page'
+    2='Use a wireframe to make a basic design for the web page'
 +++
 
 Suppose you're building a user interface to display the films that are now showing on a film website. We need to render some cinema listings in the user interface. Let's define an acceptance criterion:
@@ -20,7 +21,7 @@ We can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a 
 
 ![film-cards](film-cards.png)
 
-The wireframe is composed of a series of {{<tooltip title="card components">}}A card component is a UI component that creates a visually distinct group of logically related information{{</tooltip>}}card components. To build this user interface, we will start with data in the form of an array of objects, each with similar properties. Here are some example film data:
+The wireframe is built by reusing the same{{<tooltip title="UI component">}}A **UI component** is a reusable, self-contained piece of the UI. UI components are like lego blocks you can use to build websites. Most websites are made by "composing" components in this way.{{</tooltip>}}. In particular, each film object is rendered as a card component. To build this user interface, we will start with data in the form of an array of objects, each with similar properties. Here are some example film data:
 
 ```js
 const films = [
@@ -38,7 +39,10 @@ const films = [
     certificate: "12A",
     duration: 108
   },
+  .
+  .
+  .
 ];
 ```
 
-So our task will be to take this data and build the film listings view.
+Our task will be to build the film listings view from this list of data.
