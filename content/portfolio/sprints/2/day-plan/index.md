@@ -8,10 +8,10 @@ backlog= 'Module-Portfolio'
 backlog_filter= 'Week 2'
 [[blocks]]
 name="Energiser"
-src="blocks/energiser"
+src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"
 [[blocks]]
 name="Employability Skills"
-src="portfolio/blocks/employability"
+src="https://cyf-pd.netlify.app/blocks/lets-get-jobs/readme/"
 [[blocks]]
 name="Morning Break"
 src="blocks/morning-break"
@@ -19,8 +19,8 @@ src="blocks/morning-break"
 name="Stand up"
 src="portfolio/blocks/stand-up"
 [[blocks]]
-name="Guest Speaker"
-src="portfolio/blocks/guest"
+name="Backlog Refinement and Planning"
+src="https://cyf-pd.netlify.app/blocks/backlog-refinement-and-planning/readme/"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
@@ -33,7 +33,4 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Project Work"
 src="portfolio/blocks/project"
-[[blocks]]
-name="Retrospective"
-src="blocks/retro"
 +++
