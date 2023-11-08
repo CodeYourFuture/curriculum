@@ -8,11 +8,9 @@ emoji= '🧩'
     1='Define a sub-goal for rendering data in the user interface'
 +++
 
-To break down this problem, let's define a sub-goal:
-
 > 🎯 Sub-goal: Build a film card component
 
-We'll consider how to render _any_ single datum using a film card. We'll start with an object like the one below:
+To break down this problem, we'll render a single datum, before doing this for the whole list. Here's one film:
 
 ```js
 const film = {

@@ -14,7 +14,7 @@ Recall our sub-goal:
 
 A film card component will enable us to render _any_ film object in the user interface. At the moment, we've composed DOM elements to create a card, but we've not built a **reusable component**. To do this, we can wrap up our code inside a JavaScript function. JavaScript functions **enable us to reuse code**: therefore we can implement **reusable UI components** using functions.
 
-Let's consider our code thus far:
+Look at our code so far:
 
 ```js
 const film = {

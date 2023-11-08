@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Describe how to render a list of data'
 +++
 
-We can now render _any_ film data object in the UI. However, to fully solve this problem we must render a list of data. For each film object, we need to render a corresponding film object in the UI. In this case, there is a {{<tooltip title="one-to-one mapping">}}A **one-to-one mapping** associates every element in a set to exactly one element in another set{{</tooltip>}}between the data array and the UI components on the web page. We can represent this diagrammatically by pairing up the data elements with their corresponding UI components:
+We can now render _any_ film data object in the UI. However, to fully solve this problem we must render a list of data. For each film object, we need to render a corresponding film object in the UI. In this case, there is a {{<tooltip title="one-to-one mapping">}}A **one-to-one mapping** associates every element in a set to exactly one element in another set{{</tooltip>}}between the data array and the UI components on the web page. Each item in the array matches a node in the UI. We can represent this diagrammatically by pairing up the data elements with their corresponding UI components:
 
 ```mermaid
 ---
@@ -19,7 +19,7 @@ flowchart LR
    C[datum2] == createFilmCard(datum2) ==> D[UI component 2]
 ```
 
-To create an array of card components, we can iterate through the film data using the `for...of` loop:
+To create an array of card components, we can iterate through the film data using a `for...of` loop:
 
 ```js
 const films = [
