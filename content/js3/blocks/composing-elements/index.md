@@ -1,11 +1,12 @@
 +++
 title = '🧱 Composing elements'
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Compose UI elements to some specification'
+    2='Append DOM elements to other nodes in the DOM tree'
 +++
 
 We can start by calling `createElement` to create and {{<tooltip title="compose DOM elements">}}To **compose DOM elements** means to **combine DOM elements** to form some part of the user interface.{{</tooltip>}}. For now, we'll only consider rendering the `title` property from the `film` object:
