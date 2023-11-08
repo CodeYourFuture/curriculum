@@ -28,9 +28,6 @@ src="js3/blocks/one-to-one"
 name="using-map"
 src="js3/blocks/using-map"
 [[blocks]]
-name="call-stack"
-src="js3/blocks/call-stack"
-[[blocks]]
 name= "Prep Teamwork Project"
 src= "https://cyf-pd.netlify.app/blocks/prep-teamwork-project/readme/"
 +++
