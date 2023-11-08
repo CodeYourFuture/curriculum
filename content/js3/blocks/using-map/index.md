@@ -1,14 +1,14 @@
 +++
 title = '🗺️ Using map'
 headless = true
-time = 30
+time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how map works'
 +++
 
-For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array like this using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher order function** is a function that takes another function as an argument or returns a new function.{{</tooltip>}} In this case, we pass a function as an argument to `map`.
+For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array like this using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher-order function** is a function that takes another function as an argument or returns a new function{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array.
 
 We can demonstrate how `map` works with the following example. We'll start with the following:
 
@@ -20,7 +20,7 @@ function double(num) {
 }
 ```
 
-Our goal is to create a new array of doubled numbers given this array and function. In other words, we want to create the array `[10, 40, 60]`. Firstly, we can observe a one-to-one mapping:
+In this example, our goal is to create a new array of doubled numbers given this array and function. In other words, we want to create the array `[10, 40, 60]`. Firstly, we can observe a one-to-one mapping:
 
 ```mermaid
 ---
