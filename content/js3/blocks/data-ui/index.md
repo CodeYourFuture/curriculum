@@ -1,7 +1,7 @@
 +++
 title = '💾 ➡️ 💻 Data to UI '
 headless = true
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
