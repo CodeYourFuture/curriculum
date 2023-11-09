@@ -43,7 +43,7 @@ const arr = [5, 20, 30];
 const doubledNums = [double(5), double(20), double(30)];
 ```
 
-However, we want to build an array like this more generally.
+But we want to generalise this. Whenever we are writing out the same thing repeatedly in code, we probably want to make a general rule instead.
 We can do this by calling `map`:
 
 ```js {linenos=table,hl_lines=["6"], linenostart=1}
