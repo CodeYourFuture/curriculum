@@ -86,7 +86,7 @@ Given the list of film data:
 const films = [
   {
     title: "Killing of Flower Moon",
-    director: "Martin Scoresee"
+    director: "Martin Scorsese"
     times: ["15:35"],
     certificate: "15",
     duration: 112
