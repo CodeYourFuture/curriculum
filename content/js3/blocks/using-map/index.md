@@ -93,7 +93,7 @@ const films = [
   },
   {
     title: "Typist Artist Pirate King",
-    directory: "Carol Morley"
+    director: "Carol Morley"
     times: ["15:00", "20:00"],
     certificate: "12A",
     duration: 108
