@@ -18,11 +18,11 @@ Look at our code so far:
 
 ```js
 const film = {
-    title: "Killing of Flower Moon",
-    director: "Martin Scoresese"
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112
+  title: "Killing of Flower Moon",
+  director: "Martin Scorsese",
+  times: ["15:35"],
+  certificate: "15",
+  duration: 112,
 };
 
 const filmCard = document.createElement("section");
@@ -44,24 +44,24 @@ function createFilmCard(film) {
 }
 
 const film1 = {
-    title: "Killing of Flower Moon",
-    director: "Martin Scorsese"
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112
+  title: "Killing of Flower Moon",
+  director: "Martin Scorsese",
+  times: ["15:35"],
+  certificate: "15",
+  duration: 112,
 };
 
 const film2 = {
-    title: "Typist Artist Pirate King",
-    director: "Carol Morley"
-    times: ["15:00", "20:00"],
-    certificate: "12A",
-    duration: 108
+  title: "Typist Artist Pirate King",
+  director: "Carol Morley",
+  times: ["15:00", "20:00"],
+  certificate: "12A",
+  duration: 108,
 };
 
 document
   .querySelector("ul")
-  .append(createFilmCard(film1),createFilmCard(film2)); // append the film cards to the DOM
+  .append(createFilmCard(film1), createFilmCard(film2)); // append the film cards to the DOM
 ```
 
 {{<tabs>}}
