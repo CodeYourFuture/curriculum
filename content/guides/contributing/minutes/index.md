@@ -17,6 +17,54 @@ Attendees:
 
 ---
 
+## 2023-11-09
+
+Attendees: Ali, Sally
+
+### ❗Actions from last time
+
+- [ ] Mitch: Make sure to share out the JS3 rewrite tickets, and get people assigned.
+- [ ] Daniel: Try to write up some general ideas for the portfolio track into the curriculum.
+- [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
+- [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
+- [x] Ali: (Carry-over) read the JS3 threads discussion
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+We didn't have much of an agenda this time, mostly a chat! 🙂
+
+#### Curriculum rewrite
+
+- Ali read the JS3 discussion thread & commented - basically in agreement with the plan (to pull the threads of state/rendering earlier into JS3)
+- Mitch has already started on writing up the content
+- Should we go further and reframe the React module to something like a "Frontend Frameworks" module?
+  - We think it's important to have React as a skill for employability
+  - But are there more general principles that we could teach?
+  - Ali is hesitant that it would turn into SQL vs Mongo situation, which overly focuses on a specific API - going against the idea of general frontend principles
+- Agreed last week to just merge rewrite stuff with the expectation that we can make further PRs to tweak/fix
+  - Ali is aiming to work through the JS1 & 2 content to review
+
+#### Developing a community of practice
+
+- Came up out of the discussion of a general frontend framework module - how could we communicate the principles of the module to other volunteers?
+- Ali never really thought about it like this, but we can use our experience with teaching trainees to teach the volunteers
+- Ali: maybe a goal for Syllabus Team next year would be to focus on improving this
+  - Makes sense for us to finish the curriculum rewrite first
+  - A good first start might be to better understand & map out the volunteer onboarding process
+- As usual we think the best approach is to as much as possible go along in person to talk to other volunteers
+
+### ❗Actions
+
+- [ ] Ali: Review Sally's JS3 PRs on components and JS1 & 2 content
+- [ ] Mitch (Carry-over): Make sure to share out the JS3 rewrite tickets, and get people assigned.
+- [ ] Daniel (Carry-over): Try to write up some general ideas for the portfolio track into the curriculum.
+- [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
+- [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
 ## 2023-10-26
 
 Attendees: Daniel, Sally
