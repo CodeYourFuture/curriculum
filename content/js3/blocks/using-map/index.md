@@ -20,7 +20,7 @@ function double(num) {
 }
 ```
 
-In this example, our goal is to create a new array of doubled numbers given this array and function. In other words, we want to create the array `[10, 40, 60]`. Firstly, we can observe a one-to-one mapping:
+Our goal is to create a new array of doubled numbers given this array and function. We want to create the array `[10, 40, 60]`.  Look, it's another "one to one mapping"
 
 ```mermaid
 ---
