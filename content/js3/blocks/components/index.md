@@ -68,7 +68,7 @@ document
 
 {{<tab name="🔧 Implement">}}
 
-Update the implementation of `createFilmCard` so it renders other film properties like `times` etc.
+Update the implementation of `createFilmCard` so it renders other film properties. Other film properties on this object are `director`, `times`, `certificate` and `duration`.
 
 {{</tab>}}
 
