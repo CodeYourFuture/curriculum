@@ -20,7 +20,7 @@ function double(num) {
 }
 ```
 
-Our goal is to create a new array of doubled numbers given this array and function. We want to create the array `[10, 40, 60]`.  Look, it's another "one to one mapping"
+Our goal is to create a new array of doubled numbers given this array and function. We want to create the array `[10, 40, 60]`. Look, it's another "one to one mapping"
 
 ```mermaid
 ---
@@ -86,17 +86,17 @@ Given the list of film data:
 const films = [
   {
     title: "Killing of Flower Moon",
-    director: "Martin Scorsese"
+    director: "Martin Scorsese",
     times: ["15:35"],
     certificate: "15",
-    duration: 112
+    duration: 112,
   },
   {
     title: "Typist Artist Pirate King",
-    director: "Carol Morley"
+    director: "Carol Morley",
     times: ["15:00", "20:00"],
     certificate: "12A",
-    duration: 108
+    duration: 108,
   },
 ];
 ```

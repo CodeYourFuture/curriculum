@@ -27,14 +27,14 @@ The wireframe is built by reusing the same{{<tooltip title="UI component">}}A **
 const films = [
   {
     title: "Killing of Flower Moon",
-    director: "Martin Scoresee"
+    director: "Martin Scorsese",
     times: ["15:35"],
     certificate: "15",
     duration: 112
   },
   {
     title: "Typist Artist Pirate King",
-    directory: "Carol Morley"
+    directory: "Carol Morley",
     times: ["15:00", "20:00"],
     certificate: "12A",
     duration: 108

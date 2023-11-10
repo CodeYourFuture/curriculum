@@ -13,11 +13,11 @@ We can start by calling `createElement` to create and {{<tooltip title="compose 
 
 ```js
 const film = {
-    title: "Killing of Flower Moon",
-    director: "Martin Scoresese"
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112
+  title: "Killing of Flower Moon",
+  director: "Martin Scorsese",
+  times: ["15:35"],
+  certificate: "15",
+  duration: 112,
 };
 
 const filmCard = document.createElement("section");
@@ -35,11 +35,11 @@ To display the film card, we need to append it to another element that is alread
 
 ```js {linenos=table,hl_lines=["14"],linenostart=1}
 const film = {
-    title: "Killing of Flower Moon",
-    director: "Martin Scoresese"
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112
+  title: "Killing of Flower Moon",
+  director: "Martin Scorsese",
+  times: ["15:35"],
+  certificate: "15",
+  duration: 112,
 };
 
 const filmCard = document.createElement("section");

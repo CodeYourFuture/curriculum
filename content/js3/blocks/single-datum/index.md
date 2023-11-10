@@ -14,11 +14,11 @@ To break down this problem, we'll render a single datum, before doing this for t
 
 ```js
 const film = {
-    title: "Killing of Flower Moon",
-    director: "Martin Scoresese"
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112
+  title: "Killing of Flower Moon",
+  director: "Martin Scorsese",
+  times: ["15:35"],
+  certificate: "15",
+  duration: 112,
 };
 ```
 
