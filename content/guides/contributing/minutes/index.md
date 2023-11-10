@@ -60,7 +60,6 @@ We didn't have much of an agenda this time, mostly a chat! 🙂
 - [ ] Mitch (Carry-over): Make sure to share out the JS3 rewrite tickets, and get people assigned.
 - [ ] Daniel (Carry-over): Try to write up some general ideas for the portfolio track into the curriculum.
 - [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
-- [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
 - [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
 
 ---
