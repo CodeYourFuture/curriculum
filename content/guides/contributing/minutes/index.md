@@ -23,7 +23,7 @@ Attendees: Ali, Sally
 
 ### ❗Actions from last time
 
-- [ ] Mitch: Make sure to share out the JS3 rewrite tickets, and get people assigned.
+- [x] Mitch: Make sure to share out the JS3 rewrite tickets, and get people assigned.
 - [ ] Daniel: Try to write up some general ideas for the portfolio track into the curriculum.
 - [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
 - [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
