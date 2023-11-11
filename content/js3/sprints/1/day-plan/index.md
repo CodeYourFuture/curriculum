@@ -39,6 +39,6 @@ src="blocks/study-group"
 time=50
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-JS2/pulls"
+src="https://github.com/CodeYourFuture/Module-JS3/pulls"
 time="0"
 +++
