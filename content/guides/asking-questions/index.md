@@ -40,7 +40,9 @@ To be able to fully understand your mental model, volunteers need to have **cont
 - What actually happened
 - The exact code that you are running. **Don't include a screenshot of your code**, see [code formatting tips below](#code-formatting-tips)
 
-### Use this template:
+### Question template
+
+Use this template:
 
 {{<note type="question" title=" Request for help">}}
 **Coursework:**
@@ -68,6 +70,14 @@ To be able to fully understand your mental model, volunteers need to have **cont
 ## Code formatting tips
 
 TODO
+
+#### Tips for posting questions on Slack
+
+Your question will be **much** more likely to be answered if other people can read it properly! Here's some tips on formatting your questions on Slack:
+
+1. **Never** take a screenshot of your code and share this - it forces people to zoom into a tiny image of your code! Pasting your code as text is much easier to read
+1. Use a [code snippet](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack) to paste bits of code. This will make your code look like code, and not just a "normal" message
+1. Try making a [Minimal Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example). It's easier to provide help if other people can run your code!
 
 - A link to your pull request or [Gist](https://gist.github.com/) or [Replit](https://replit.com/) (not a screenshot)
 
