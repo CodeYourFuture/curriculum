@@ -4,9 +4,17 @@ description: Asking Questions systematically
 emoji: 💬
 ---
 
-# Asking Questions
+Often trainees at Code Your Future find it difficult to get help. This is because we are dealing with complicated questions that people need lots of details about to be able to answer.
 
-Often trainees at Code Your Future find it difficult to get help. This is because we are dealing with complicated questions that people need lots of details about to be able to answer. To debug code, mentors need to be able to see and work with the exact code you are running. To help solve problems, mentors need to understand the exact problem you are working on. So when you ask questions, to get proper help quickly, put as much **context** into your question as you can.
+<!--{{<note type="activity" title="Asking Questions workshop" >}}-->
+
+If you have not completed the [Asking Questions workshop](../../html-css/sprints/2/day-plan/index.md#asking-questions) during the HTML-CSS module, find a small group of people to do that together before reading further.
+
+It is important to understand how your current mental model helps you to ask a good question.
+
+<!--{{</note>}}-->
+
+To debug code, mentors need to be able to see and work with the exact code you are running. To help solve problems, mentors need to understand the exact problem you are working on. So when you ask questions, to get proper help quickly, put as much **context** into your question as you can.
 
 In order to make it possible for people to answer your questions when asking for help, it's important that you give, at minimum, the following information:
 
