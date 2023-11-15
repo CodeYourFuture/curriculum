@@ -14,6 +14,22 @@ It is important to understand how your current mental model helps you to ask a g
 
 <!--{{</note>}}-->
 
+## Building your mental model
+
+As we learned in the Asking Questions workshop, it is important to share your current mental model to help you ask an {{<tooltip title="effective question">}}Questions are _effective_ when they are more likely to receive an answer.{{</tooltip>}}.
+
+Before asking a question, make sure that you have:
+
+1. Made a prediction and explain why you think that will happen
+1. Run the code
+1. Compared your prediction against what actually happened
+
+Now, write up your mental model using this format:
+
+1. What I _did_
+1. What I _expected_. Make sure you include your prediction here
+1. What actually _happened_
+
 To debug code, mentors need to be able to see and work with the exact code you are running. To help solve problems, mentors need to understand the exact problem you are working on. So when you ask questions, to get proper help quickly, put as much **context** into your question as you can.
 
 In order to make it possible for people to answer your questions when asking for help, it's important that you give, at minimum, the following information:
