@@ -39,7 +39,7 @@ To be able to fully understand your mental model, volunteers need to have **cont
 - What you have done so far
 - What you predicted would happen before you ran the code
 - What actually happened
-- The exact code that you are running. **Don't include a screenshot of your code**, see [code formatting tips below](#code-formatting-tips)
+- The exact code that you are running. **Don't include a screenshot of your code**, see [sharing code below](#sharing-code)
 
 ### Question template
 
@@ -65,7 +65,7 @@ Use this template:
 
 **Code:**
 
-// Include snippet(s) of code that you are running here. See the code formatting tips below
+// Include snippet(s) of code that you are running here. See sharing code below
 
 <!--{{</note>}}-->
 
@@ -95,19 +95,44 @@ https://github.com/CodeYourFuture/Module-HTML-CSS/pull/1234
 
 <!--{{</note>}}-->
 
-## Code formatting tips
+## Sharing code
 
-TODO
+Your question will be **much** more likely to be answered if other people can _quickly_ read and understand the code, so your code should be formatted nicely.
 
-#### Tips for posting questions on Slack
+### Never use a screenshot
 
-Your question will be **much** more likely to be answered if other people can read it properly! Here's some tips on formatting your questions on Slack:
+A screenshot is the **worst** way to share your code!
 
-1. **Never** take a screenshot of your code and share this - it forces people to zoom into a tiny image of your code! Pasting your code as text is much easier to read
-1. Use a [code snippet](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack) to paste bits of code. This will make your code look like code, and not just a "normal" message
-1. Try making a [Minimal Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example). It's easier to provide help if other people can run your code!
+- A screenshot is very small so the people trying to help you have to zoom into and pan around to read it
+- If you have more than 1 page of code then the people trying to help have to switch between multiple screenshots
+- Screenshots aren't accessible, so some people can't read them
 
-- A link to your pull request or [Gist](https://gist.github.com/) or [Replit](https://replit.com/) (not a screenshot)
+It is always better to share your code as text.
+
+### GitHub PRs are best!
+
+The best way to share your code is using a GitHub pull request. This is because:
+
+- They contain all of the code that you are running
+- The code is shared as text so that it is easy to be read by other developers
+- The code _should_ be {{<tooltip title="formatted">}}Formatting is the spacing around the code itself, which makes it easier to read.{{</tooltip>}} nicely, if you have the [CYF VS Code extension pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack) installed. (If you don't, please install it now!)
+- Other people can leave comments on specific lines of your code to ask questions or point out problems
+
+**Before** you ask a question, make sure you commit and push all of your changes so that the PR contains the same code as what is on your computer.
+
+<!--{{<note type="remember" title="Remember:" >}}-->
+
+You do **not** need to complete a coursework exercise before making a pull request. You can always push more commits after you have solved the problem.
+
+<!--{{</note>}}-->
+
+### Slack
+
+Sometimes it's not convenient to share a GitHub PR, so code can be shared on Slack directly. Here's some rules for sharing code on Slack:
+
+1. **Never** share a screenshot of your code (we really mean it!)
+1. Copy/paste your code into a [code snippet](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack). This will make your code look like code, not just a "normal" message
+1. Alternatively, if you need to share a larger chunk of code try copy/pasting your code into a [Gist](https://gist.github.com/) and sharing the link
 
 ### Question Check List
 
