@@ -134,28 +134,34 @@ Sometimes it's not convenient to share a GitHub PR, so code can be shared on Sla
 1. Copy/paste your code into a [code snippet](https://slack.com/intl/en-gb/help/articles/204145658-Create-or-paste-code-snippets-in-Slack). This will make your code look like code, not just a "normal" message
 1. Alternatively, if you need to share a larger chunk of code try copy/pasting your code into a [Gist](https://gist.github.com/) and sharing the link
 
-### Question Check List
+## Checklist
 
 Before asking a question check in with yourself and make sure you have done the following:
 
-### I have...
+<!--{{<note type="exercise" title="I have..." >}}-->
 
-- [ ] **done** some _research_ myself
-- [ ] **explained** what I’ve already _tried_ to solve my problem
-- [ ] **specified** which language and platform I'm using, including version number where relevant
-- [ ] **written** my code as a short but complete program
-- [ ] **formatted** my code
-- [ ] **checked** my spelling and grammar
-- [ ] **pasted** the exact error message, if there is one
-- [ ] **stated** what I expected, why I expected it, and the actual results
-- [ ] **read** the whole question carefully, to make sure it makes sense and contains enough information for someone coming to it without any of the **context that I already know**?
+- [ ] **Done** some _research_ myself
+- [ ] **Explained** what I’ve already _tried_ to solve my problem
+- [ ] **Stated** what I expected, why I expected it, and the actual results
+- [ ] **Formatted** my code
+- [ ] **Checked** my spelling and grammar
+- [ ] **Pasted** the exact error message, if there is one
+- [ ] **Read** my whole question carefully to make sure it makes sense and contains enough information for someone coming to it without any of the **context that I already know**?
 
-### After you've asked your question you should check:
+<!--{{</note>}}-->
 
-- Are you monitoring your questions and replying to people giving their time to help you?
-- Have you been asked for a [Minimum Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example)?
-- Have you posted an easy to understand answer to your questions that includes everything you learnt
+### After you've asked your question
 
-By completing all of these steps you make it really easy for other students to learn from your question and for you to get help quickly. Together, you and your colleagues will build up a shared knowledge base you can search and share.
+<!--{{<note type="exercise" title="I have checked..." >}}-->
+
+- [ ] Are you monitoring your questions and replying to people giving their time to help you?
+- [ ] Have you been asked for a [Minimum Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example)?
+- [ ] Have you posted an easy to understand answer to your questions that includes everything you learnt
+
+<!--{{</note>}}-->
+
+## Conclusions
+
+By completing all of these steps you make it really easy for you to **get help quickly** and for **other students to learn from your question**. Together, you and your colleagues will build up a shared knowledge base you can search and share.
 
 You also make yourself a better developer. Describing problems clearly and systematically is an important skill for a developer.
