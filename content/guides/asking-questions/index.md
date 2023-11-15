@@ -34,7 +34,8 @@ Now, write up your mental model using this format:
 
 To be able to fully understand your mental model, volunteers need to have **context**. So it's important that you share at least the following information:
 
-- The problem that you're working on. If it's a coursework task, include a link to the task
+- The coursework task that you're working on. It's helpful to include a link to the task
+- What isn’t working in your code, or what you don’t understand
 - What you have done so far
 - What you predicted would happen before you ran the code
 - What actually happened
@@ -44,28 +45,55 @@ To be able to fully understand your mental model, volunteers need to have **cont
 
 Use this template:
 
-{{<note type="question" title=" Request for help">}}
+<!--{{<note type="tip" title="Request for help" >}}-->
+
 **Coursework:**
+
+// Write which coursework you're working on here
 
 **Problem:**
 
-**Expected:**
+// Describe the problem you have
+
+**What I did:**
+
+// Describe what you've done so far here
+
+**What I expected:**
+
+// Describe what you predicted would happen here
 
 **Code:**
-{{</note>}}
+
+// Include snippet(s) of code that you are running here. See the code formatting tips below
+
+<!--{{</note>}}-->
 
 #### For example
 
-{{<note type="question" title=" Request for help">}}
-**Coursework:** [HTML-CSS Module Project](https://github.com/CodeYourFuture/Module-HTML-CSS/tree/main/Form-Controls) (Form Controls)
+<!--{{<note type="question" title=" Request for help">}}-->
 
-**Problem:** The headings on my website don't look right.
+**Coursework:**
 
-**Expected:** The heading should be much bigger than the other text on the page. I've tried to use a H1 tag but it doesn't seem to do anything.
+[HTML-CSS Module: Form Controls](https://github.com/CodeYourFuture/Module-HTML-CSS/issues/6)
 
-**Code:** https://github.com/CodeYourFuture/Module-HTML-CSS/pull/1234
+**Problem:**
 
-{{</note>}}
+The headings on my website don't look right.
+
+**What I did:**
+
+I've tried to use a H1 tag but it doesn't seem to do anything.
+
+**What I expected:**
+
+The heading should be much bigger than the other text on the page.
+
+**Code:**
+
+https://github.com/CodeYourFuture/Module-HTML-CSS/pull/1234
+
+<!--{{</note>}}-->
 
 ## Code formatting tips
 
