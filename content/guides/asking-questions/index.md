@@ -27,17 +27,18 @@ Before asking a question, make sure that you have:
 Now, write up your mental model using this format:
 
 1. What I _did_
-1. What I _expected_. Make sure you include your prediction here
+1. What I _expected_
 1. What actually _happened_
 
-To debug code, mentors need to be able to see and work with the exact code you are running. To help solve problems, mentors need to understand the exact problem you are working on. So when you ask questions, to get proper help quickly, put as much **context** into your question as you can.
+## Sharing your mental model
 
-In order to make it possible for people to answer your questions when asking for help, it's important that you give, at minimum, the following information:
+To be able to fully understand your mental model, volunteers need to have **context**. So it's important that you share at least the following information:
 
-- The homework that you're working on
-- What isn't working in your code, or what you don't understand
-- What you expect to happen
-- A link to your pull request or [Gist](https://gist.github.com/) or [Replit](https://replit.com/) (not a screenshot)
+- The problem that you're working on. If it's a coursework task, include a link to the task
+- What you have done so far
+- What you predicted would happen before you ran the code
+- What actually happened
+- The exact code that you are running. **Don't include a screenshot of your code**, see [code formatting tips below](#code-formatting-tips)
 
 ### Use this template:
 
@@ -63,6 +64,12 @@ In order to make it possible for people to answer your questions when asking for
 **Code:** https://github.com/CodeYourFuture/Module-HTML-CSS/pull/1234
 
 {{</note>}}
+
+## Code formatting tips
+
+TODO
+
+- A link to your pull request or [Gist](https://gist.github.com/) or [Replit](https://replit.com/) (not a screenshot)
 
 ### Question Check List
 
