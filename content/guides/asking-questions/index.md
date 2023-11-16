@@ -6,13 +6,13 @@ emoji: 💬
 
 Often trainees at Code Your Future find it difficult to get help. This is because we are dealing with complicated questions that people need lots of details about to be able to answer.
 
-<!--{{<note type="activity" title="Asking Questions workshop" >}}-->
+{{<note type="activity" title="Asking Questions workshop" >}}
 
 If you have not completed the [Asking Questions workshop](../../html-css/sprints/2/day-plan/index.md#asking-questions) during the HTML-CSS module, find a small group of people to do that together before reading further.
 
 It is important to understand how your current mental model helps you to ask a good question.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Building your mental model
 
@@ -45,7 +45,7 @@ To be able to fully understand your mental model, volunteers need to have **cont
 
 Use this template:
 
-<!--{{<note type="tip" title="Request for help" >}}-->
+{{<note type="tip" title="Request for help" >}}
 
 **Coursework:**
 
@@ -67,11 +67,11 @@ Use this template:
 
 // Include snippet(s) of code that you are running here. See sharing code below
 
-<!--{{</note>}}-->
+{{</note>}}
 
 #### For example
 
-<!--{{<note type="question" title=" Request for help">}}-->
+{{<note type="question" title=" Request for help">}}
 
 **Coursework:**
 
@@ -93,7 +93,7 @@ The heading should be much bigger than the other text on the page.
 
 https://github.com/CodeYourFuture/Module-HTML-CSS/pull/1234
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Sharing code
 
@@ -120,11 +120,11 @@ The best way to share your code is using a GitHub pull request. This is because:
 
 **Before** you ask a question, make sure you commit and push all of your changes so that the PR contains the same code as what is on your computer.
 
-<!--{{<note type="remember" title="Remember:" >}}-->
+{{<note type="remember" title="Remember:" >}}
 
 You do **not** need to complete a coursework exercise before making a pull request. You can always push more commits after you have solved the problem.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### Slack
 
@@ -138,7 +138,7 @@ Sometimes it's not convenient to share a GitHub PR, so code can be shared on Sla
 
 Before asking a question check in with yourself and make sure you have done the following:
 
-<!--{{<note type="exercise" title="I have..." >}}-->
+{{<note type="exercise" title="I have..." >}}
 
 - [ ] **Done** some _research_ myself
 - [ ] **Explained** what I’ve already _tried_ to solve my problem
@@ -148,17 +148,17 @@ Before asking a question check in with yourself and make sure you have done the 
 - [ ] **Pasted** the exact error message, if there is one
 - [ ] **Read** my whole question carefully to make sure it makes sense and contains enough information for someone coming to it without any of the **context that I already know**?
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### After you've asked your question
 
-<!--{{<note type="exercise" title="I have checked..." >}}-->
+{{<note type="exercise" title="I have checked..." >}}
 
 - [ ] Are you monitoring your questions and replying to people giving their time to help you?
 - [ ] Have you been asked for a [Minimum Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example)?
 - [ ] Have you posted an easy to understand answer to your questions that includes everything you learnt
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Conclusions
 
