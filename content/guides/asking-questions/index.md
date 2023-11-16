@@ -45,7 +45,7 @@ To be able to fully understand your mental model, volunteers need to have **cont
 
 Use this template:
 
-{{<note type="tip" title="Request for help" >}}
+{{<note type="question" title="Request for help" >}}
 
 **Coursework:**
 
