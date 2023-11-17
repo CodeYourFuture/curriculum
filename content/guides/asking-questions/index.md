@@ -145,7 +145,7 @@ Before asking a question check in with yourself and make sure you have done the 
 - [ ] **Stated** what I expected, why I expected it, and the actual results
 - [ ] **Formatted** my code
 - [ ] **Checked** my spelling and grammar
-- [ ] **Pasted** the exact error message, if there is one
+- [ ] **Pasted** the exact, complete error message, if there is one
 - [ ] **Read** my whole question carefully to make sure it makes sense and contains enough information for someone coming to it without any of the **context that I already know**?
 
 {{</note>}}
