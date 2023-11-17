@@ -139,7 +139,7 @@ So far we’ve only created assertions that check the function’s behaviour for
 
 Now we need to assert that the function behaves correctly when the time is later than midday. Let’s create an assertion for our function when passed an input of `"23:00"`:
 
-```js {linenos=table,linenostart=1,hl_lines=["15-21"]}
+```js {linenos=table,linenostart=1}
 function formatAs12HourClock(time) {
   return `${time} am`;
 }
