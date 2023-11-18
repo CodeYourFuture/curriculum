@@ -19,7 +19,7 @@ const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
 function updateCharacterLimit() {
-  const charactersLeft = characterLimit - input.value;
+  const charactersLeft = characterLimit - textarea.value.length;
   console.log(`${charactersLeft} characters remaining`);
 
   const charactersLeftP = document.querySelector("#character-limit-info");
