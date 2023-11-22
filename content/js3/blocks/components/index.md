@@ -12,7 +12,7 @@ Recall our sub-goal:
 
 > 🎯 Sub-goal: Build a film card component
 
-We can render _any_ film object in the user interface with a general component. We've composed DOM elements to create a card; now we will build a **reusable component**. To do this, we wrap up our code inside a JavaScript function. JavaScript functions **reuse code**: so we can implement **reusable UI components** using functions.
+We can render _any_ film object in the user interface with a general component. We've composed DOM elements to create a card; now we will build a **reusable component**. To do this, we wrap up our code inside a JavaScript function. JavaScript functions allow us to **reuse code**: so we can implement **reusable UI components** using functions.
 
 Look at our code so far:
 

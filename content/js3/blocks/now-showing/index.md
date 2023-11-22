@@ -9,7 +9,7 @@ emoji= '🧩'
     2='Use a wireframe to make a basic design for the web page'
 +++
 
-Suppose you're building a user interface to display the films that are now showing on a film website. We need to render some cinema listings in the user interface. Let's define an acceptance criterion:
+Suppose you're building a user interface for a cinema's website to display the films that are now showing. We need to render some cinema listings in the user interface. Let's define an acceptance criterion:
 
 > _Given_ a list of film data
 > _When_ the page first loads

@@ -47,5 +47,5 @@ filmCard.innerHTML = `
 <p>${film.title}</p>
 `;
 
-document.querySelector("ul").append(section);
+document.querySelector("ul").append(filmCard);
 ```
