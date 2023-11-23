@@ -17,6 +17,104 @@ Attendees:
 
 ---
 
+## 2023-11-23
+
+Attendees: Ali, Daniel, Ellie Tahmasebi, Isar, Sally
+
+### ❗Actions from last time
+
+- [ ] Ali: Review Sally's JS3 PRs on components and JS1 & 2 content
+- [x] Daniel (Carry-over): Try to write up some general ideas for the portfolio track into the curriculum.
+- [x] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
+- [x] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+#### Meeting timings
+
+* HYF Belgium would like to join us - let's make our meeting earlier so it's easier for them to.
+* Proposal: Tuesday: 18:30 or 19:00, start with planning then move into discussion.
+* Decision: Tuesdays at 18:30.
+
+#### Planning
+
+#### Portfolio module
+
+* We'd like a curriculum module for the portfolio module.
+  * Right now in London 9 things are very ad-hoc.
+  * More formal plans would help both graduates and volunteers know what to do.
+* https://curriculum.codeyourfuture.io/portfolio/ already exists - new to flesh out the content.
+* Created https://github.com/CodeYourFuture/curriculum/discussions/386 to capture insights from currently running modules.
+* London 9 Portfolios feels a bit like a final project because of the build-up to a particular demo.
+  * Ali would rather frame this as "We want you to portfolio-build" not "We want you to complete this project".
+  * Motivation for this was that many attendees weren't taking the project very seriously, weren't committing very much, so this was a way to try to drive motivation.
+    * Maybe this isn't as much of a problem outside of London? But we have post-graduation engagement problems everywhere.
+  * Sally would like shorter, pithier demos - right now demos are really long and drawn out.
+    * We probably need to give workshops about how to give a good demo.
+      * Need to be aware of the goals of different kinds of demos (e.g. "Show off a thing I've done" vs "Show something I've learnt" vs "Show what's useful to a user")
+      * Sally shared a [pitch camp template](https://docs.google.com/document/d/1gfkKPAHNKCdrS3A7nai51iK4gkJcna4B1tOk98ZKCUw/edit).
+  * [Folder of project ideas](https://drive.google.com/drive/folders/1UocnK_dRUkMCuwI6aytZ0Z9a12322EOx)
+
+* What do MigraCode Barcelona do "after" the course?
+  * Historically: Not much, and not enough
+  * Now have a two-month module
+    * Assign each graduate a buddy to have weekly meetings with - work on their linkedin, do practice interviews, etc
+    * Also have events for hackathons, job speed dating, etc.
+
+#### Barcelona trip
+
+* Do we have an agenda? Do we have goals?
+* Dinner on Friday - Isar will share link
+* Class in English on Saturday 10:30 - 14:30 - JS1W3
+  * We're very welcome to TA!
+  * We have a very large office we can use until 17:30
+    * Want to draft a plan for how to merge
+      * Have energy from volunteers to actually merge
+      * Study feasibility of moving to the new curriculum system
+      * Work out how to overcome the language barrier - half of MigraCode trainees don't speak English
+      * Enumerate dependencies on outside tools, e.g. integration with student database, homework setting, etc.
+* Sunday - we'll make a plan.
+* Making sure everyone is in the WhatsApp group - expecting Isar, Carlos, Hugo.
+* Next cohort starts April 2024 - good timing for starting a major change.
+  * Biggest change to plan for is how to make sure class time is well facilitated to make flipped classroom really work well.
+  * Really want the curriculum to be a shared community curriculum - everyone needs to help evolve it forwards together!
+
+#### JS3: Should groups be pairs?
+
+* Yes from the tech-ed side we want pairs
+* Need to check with PD to make sure they don't have plans that rely on larger groups
+
+#### Database module timings
+
+* Daniel proposes moving it to very close to the start of the class
+  * Partially it's a really good framing for problem-solving (e.g. "I need to join before I can select")
+  * Partially because it's a useful skill for people who leave the course early (much more useful than intro to programming)
+  * Partially because SQL has no dependencies on having learnt other things.
+* Sally: Want to have HTML+CSS first because there's a lot of non-technical faffing that goes on (getting people into planners, getting used to a new operating system, etc).
+* We'd still need a "Node + SQL" integration module (but may be a shorter module).
+* Would need to break into:
+  * A SQL module without programming
+  * How to do the Node+SQL integration
+* Does it need to be SQL? Could we do this with spreadsheets?
+  * We could mix different formats, but should definitely culminate in actual SQL.
+
+#### Nonprofit ready training courses
+
+* Ali would like to actually organise this.
+* So he will.
+
+### ❗Actions
+
+- [ ] Put together a "giving demos" workshop
+  - Which maybe involves giving different presentations about the same project with different audiences in mind.
+- [ ] Ellie to capture lessons learnt from the London 10 Portfolio module.
+- [ ] Daniel to put together a discussion thread about moving/splitting SQL module.
+- [ ] Ali to put together a proposed ordering of training videos to watch, and arrange a time for discussion.
+- [ ] Ali to file a ticket about not setting innerHTML
+- [ ] Ali (Carry-over): Review Sally's JS3 PRs on components and JS1 & 2 content
+
+---
+
 ## 2023-11-09
 
 Attendees: Ali, Sally
