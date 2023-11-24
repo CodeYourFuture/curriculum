@@ -43,7 +43,7 @@ Attendees: Ali, Daniel, Ellie Tahmasebi, Isar, Sally
 * We'd like a curriculum module for the portfolio module.
   * Right now in London 9 things are very ad-hoc.
   * More formal plans would help both graduates and volunteers know what to do.
-* https://curriculum.codeyourfuture.io/portfolio/ already exists - new to flesh out the content.
+* https://curriculum.codeyourfuture.io/portfolio/ already exists - need to flesh out the content.
 * Created https://github.com/CodeYourFuture/curriculum/discussions/386 to capture insights from currently running modules.
 * London 9 Portfolios feels a bit like a final project because of the build-up to a particular demo.
   * Ali would rather frame this as "We want you to portfolio-build" not "We want you to complete this project".
