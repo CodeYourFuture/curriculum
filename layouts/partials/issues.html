@@ -1,5 +1,5 @@
 {{ $repo := .Params.backlog }}
-{{ $issues := print .Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&type=issue" }}
+{{ $issuesUrl := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&type=issue" }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
 <!-- api call -->
