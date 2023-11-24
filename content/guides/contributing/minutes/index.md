@@ -111,7 +111,7 @@ Attendees: Ali, Daniel, Ellie Tahmasebi, Isar, Sally
 - [ ] Daniel to put together a discussion thread about moving/splitting SQL module.
 - [ ] Ali to put together a proposed ordering of training videos to watch, and arrange a time for discussion.
 - [ ] Ali to file a ticket about not setting innerHTML
-- [ ] Ali (Carry-over): Review Sally's JS3 PRs on components and JS1 & 2 content
+- [ ] Ali (Carry-over): Review JS1 & 2 content
 
 ---
 
