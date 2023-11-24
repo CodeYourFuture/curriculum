@@ -7,11 +7,11 @@
 {{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
   {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
-{{ $commitObject := getJSON $issues $headers }}
+{{ $issues := getJSON $issuesUrl $headers }}
 <!-- if no object show error -->
-{{ if ne $commitObject nil }}
+{{ if ne $issues nil }}
   <!-- range over issues list and pull out useful data -->
-  {{ range $commitObject }}
+  {{ range $issues }}
 
     {{ $showIssue := true }}
     <!-- if a filter exists, only show issues with the right label -->
@@ -62,5 +62,5 @@
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $issues $commitObject }}
+  {{ errorf "Error, fetch of %s failed: %v" $issuesUrl $issues }}
 {{ end }}
