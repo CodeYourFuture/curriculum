@@ -46,6 +46,7 @@ Recalling our card function, let's see how we can update the UI with the latest 
 
 ```js
 const renderFilms = (container, films) => {
+  container.textContent = "";
   films.forEach((film) => {
     const card = createCard(filmCardTemplate, film);
     container.appendChild(card);

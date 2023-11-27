@@ -84,7 +84,7 @@
       };
       // Render the component
       const render = (container, list) => {
-        container.innerHTML = "";
+        container.textContent = "";
         list.forEach((film) => {
           const card = createCard(template, film);
           container.appendChild(card);
