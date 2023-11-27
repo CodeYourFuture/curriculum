@@ -5,5 +5,106 @@ time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1=''
+    1='Trace the flow of data from user input to updated UI'
 +++
+
+# Re-rendering UI
+
+With state updated from user input, we can re-render:
+
+```js
+function renderFilms(films) {
+  // Clear existing DOM elements
+  // Map films to DOM elements
+}
+
+function handleInput(event) {
+  // capture search term
+  const { searchTerm } = event.target;
+  // Filter films on search term
+  filteredFilms = films.filter((film) => film.title.includes(searchTerm));
+  // Set new state
+  state.films = filteredFilms;
+  // Re-render UI with updated films
+  renderFilms(state.films);
+}
+```
+
+To re-render the UI, we need to update the DOM elements to match the latest state. We can do this by:
+
+1. Clearing existing DOM elements
+2. Mapping updated films data to new DOM elements
+3. Appending new elements to DOM
+
+This is how we update the user interface in response to updated application state!
+
+Recalling our card function, let's see how we can update the UI with the latest films data.
+
+{{<tabs name="Updating the DOM">}}
+
+{{<tab name="Render">}}
+
+```js
+const renderFilms = (container, films) => {
+  films.forEach((film) => {
+    const card = createCard(filmCardTemplate, film);
+    container.appendChild(card);
+  });
+};
+```
+
+{{</tab>}}
+
+{{<tab name="Card">}}
+
+```js
+const createCard = (template, { title, director }) => {
+  const card = template.content.cloneNode(true);
+
+  card.querySelector("h3").textContent = title;
+  card.querySelector("dd").textContent = director;
+
+  return card;
+};
+```
+
+{{</tab>}}
+{{<tab name="Template">}}
+
+```html
+<template id="filmCardTemplate">
+  <section class="film-card">
+    <h3></h3>
+    <dl>
+      <dt>Director</dt>
+      <dd></dd>
+    </dl>
+  </section>
+</template>
+```
+
+{{</tab>}}
+
+{{<tab name="Data">}}
+
+```js
+const films = [
+  {
+    title: "The Matrix",
+    director: "Lana Wachowski",
+    certificate: "15",
+  },
+  {
+    title: "Inception",
+    director: "Christopher Nolan",
+    certificate: "12A",
+  },
+];
+```
+
+{{</tab>}}
+
+{{</tabs>}}
+
+<iframe src="../../../../filterFilms.html" width="100%" height="480px">
+<iframe>
