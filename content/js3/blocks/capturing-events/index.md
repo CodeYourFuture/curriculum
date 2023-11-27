@@ -8,8 +8,6 @@ emoji= '🧩'
     1='Add an event listener to a user input'
 +++
 
-# Capturing User Input
-
 To listen for the search input event, we can add an {{<tooltip title="event listener">}} An event listener waits for a specific **event** to occur. It runs in response to things like clicks, and key presses. We register listeners with <code>addEventListener</code> by passing the event name and a handling function. {{</tooltip>}}
 
 ```js

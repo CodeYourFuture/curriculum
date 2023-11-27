@@ -18,14 +18,14 @@ let state = {
 };
 ```
 
-Now we need a way to change the state of our data:
+Now we need a way to change the state of our data.
+
+### 📥 Input action output 📤
 
 ```mermaid
 graph LR
-A[Initial array] --> B[filter()] --> C[Filtered array]
+A[Initial array] --> B[filter] --> C[Filtered array]
 ```
-
-### Input and output
 
 We will also need a list of all our films and a filtered list of films based on search term:
 

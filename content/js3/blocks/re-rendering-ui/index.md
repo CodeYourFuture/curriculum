@@ -106,5 +106,4 @@ const films = [
 
 {{</tabs>}}
 
-<iframe src="../../../../filterFilms.html" width="100%" height="480px">
-<iframe>
+<iframe src="../../../../filterFilms.html" width="100%" height="480px"></iframe>

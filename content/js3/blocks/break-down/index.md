@@ -31,16 +31,16 @@ E --> A
 1. 🎬 Filter films list based on search text
 1. 📺 Update UI with filtered list
 
-   {{</tab>}}
-   {{</tabs>}}
+{{</tab>}}
+{{</tabs>}}
 
-The key aspects we need to handle are:
+The key aspects we need to handle are capturing input and updating UI.
 
-### Capturing Input
+### 👂🏿 Capturing Input
 
 We need to listen for the `input` event on the search box to react as the user types. When the event fires, we can read the updated string value from the search box input element.
 
-### Filtering Data
+### 🎬 Filtering Data
 
 Once we have the latest search text, we can filter the list of films to only those whose titles contain the current search string. We can use JavaScript array methods like .filter() to return the matching films.
 
