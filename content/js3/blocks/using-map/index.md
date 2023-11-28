@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Describe how map works'
 +++
 
-For every item in a starting array, we want to apply a function to each element in the starting array to create a new array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array like this using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher-order function** is a function that takes another function as an argument or returns a new function{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array.
+We want to create a new array by applying a function to each element in the starting array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher-order function** is a function that takes another function as an argument or returns a new function{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array.
 
 Let's work through an example:
 
@@ -32,27 +32,30 @@ flowchart LR
    E[30] == double(30) ==> F[60]
 ```
 
-We are building a new array by applying each item to `double`. Each time we call `double` we store its return value in a new array:
+We are building a new array by applying `double` to each item. Each time we call `double` we store its return value in a new array:
 
 ```js
 function double(num) {
   return num * 2;
 }
 
-const arr = [5, 20, 30];
-const doubledNums = [double(5), double(20), double(30)];
+const numbers = [5, 20, 30];
+const doubledNums = [
+  double(numbers[0]),
+  double(numbers[1]),
+  double(numbers[2]),
+];
 ```
 
-But we want to generalise this. Whenever we are writing out the same thing repeatedly in code, we probably want to make a general rule instead.
-We can do this by calling `map`:
+But we want to generalise this. Whenever we are writing out the same thing repeatedly in code, we probably want to make a general rule instead. We can do this by calling `map`:
 
 ```js {linenos=table,hl_lines=["6"], linenostart=1}
 function double(num) {
   return num * 2;
 }
 
-const arr = [5, 20, 30];
-const doubledNums = arr.map(double);
+const numbers = [5, 20, 30];
+const doubledNums = numbers.map(double);
 ```
 
 {{<tabs name="Explore map">}}
