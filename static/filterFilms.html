@@ -66,13 +66,13 @@
       // Capture input
       search.addEventListener("input", handleInput);
       // Handle input
-      function handleInput(event) {
-        const searchTerm = event.target.value.toLowerCase();
+      const handleInput = (event) => {
+        const { searchTerm } = event.target;
         const filteredFilms = state.films.filter((film) =>
           film.title.toLowerCase().includes(searchTerm)
         );
         render(filmContainer, filteredFilms);
-      }
+      };
 
       // Make a piece of UI
 
@@ -82,13 +82,12 @@
         card.querySelector("dd").textContent = director;
         return card;
       };
+
       // Render the component
       const render = (container, list) => {
         container.textContent = "";
-        list.forEach((film) => {
-          const card = createCard(template, film);
-          container.appendChild(card);
-        });
+        const cards = list.map((film) => createCard(template, film));
+        cards.forEach((card) => container.appendChild(card));
       };
 
       // Initial render
