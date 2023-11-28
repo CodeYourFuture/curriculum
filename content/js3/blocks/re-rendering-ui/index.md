@@ -1,5 +1,5 @@
 +++
-title = 'Re-rendering the UI'
+title = '🪞 Re-rendering the UI'
 headless = true
 time = 45
 facilitation = false
@@ -7,8 +7,6 @@ emoji= '🧩'
 [objectives]
     1='Trace the flow of data from user input to updated UI'
 +++
-
-# Re-rendering UI
 
 With state updated from user input, we can re-render:
 
@@ -108,7 +106,9 @@ const films = [
 ```
 
 {{</tab>}}
-
-{{</tabs>}}
+{{<tab name="Compiled">}}
 
 <iframe src="../../../../filterFilms.html" width="100%" height="480px"></iframe>
+{{</tab>}}
+
+{{</tabs>}}

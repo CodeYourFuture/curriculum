@@ -1,5 +1,5 @@
 +++
-title = 'Updating the state'
+title = '🚦 Updating the state'
 headless = true
 time = 30
 facilitation = false
@@ -8,7 +8,9 @@ emoji= '🧩'
     1=''
 +++
 
-How can we filter our film data and update the state? First we need a {{<tooltip title="state">}} State means the state of the data that drives an application's logic and UI. State changes over time in response to interactions with our data. Our UI reacts to changes in state. {{</tooltip>}} . We need to keep track of the current state of our application, so our we can tell our UI just to show "whatever is in the state". In this way, we simplify our UI code by making it a function of the state.
+How can we filter our film data and update the state? First we need a {{<tooltip title="state">}} State means the state of the data that drives an application's logic and UI. State changes over time in response to interactions with our data. Our UI reacts to changes in state. {{</tooltip>}} . We need to keep track of the current state of our application, so we can tell our UI just to show "whatever is in the state". In this way, we simplify our UI code by making it a function of the state.
+
+> 🪞 When the state changes, the UI changes.
 
 So let's create a state object to hold our film data:
 
