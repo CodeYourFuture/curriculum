@@ -66,7 +66,7 @@ If we open up the console tab, we should be able to see this element logged in t
 
 To display the film card, we need to append it to another element that is already in the DOM tree. For now let's append it to the body, because that always exists.
 
-```js {linenos=table,hl_lines=["11"],linenostart=1}
+```js {linenos=table,hl_lines=["12"],linenostart=1}
 const film = {
   title: "Killing of Flower Moon",
   director: "Martin Scorsese",
