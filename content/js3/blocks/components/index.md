@@ -57,8 +57,6 @@ const film = {
 };
 
 const createFilmCard = (template, film) => {
-  // get the template from the main document
-  const template = document.getElementById(template);
   const card = template.content.cloneNode(true);
   // now we are querying our cloned fragment, not the entire page
   const title = card.querySelector("h3");
@@ -66,8 +64,11 @@ const createFilmCard = (template, film) => {
   title.textContent = film.title;
   return card;
 };
+const template = document.getElementById("filmCard");
+const filmCard = createFilmCard(template, film);
 
-createFilmCard("film-card", film);
+// remember we need to append the card to the DOM for it to appear
+document.body.append(filmCard);
 ```
 
 {{<tabs>}}

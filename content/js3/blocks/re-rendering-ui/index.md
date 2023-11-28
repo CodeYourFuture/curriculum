@@ -13,12 +13,12 @@ emoji= '🧩'
 With state updated from user input, we can re-render:
 
 ```js
-function renderFilms(films) {
+const render = (films) => {
   // Clear existing DOM elements
   // Map films to DOM elements
-}
+};
 
-function handleInput(event) {
+const handleInput = (event) => {
   // capture search term
   const { searchTerm } = event.target;
   // Filter films on search term
@@ -26,9 +26,13 @@ function handleInput(event) {
   // Set new state
   state.films = filteredFilms;
   // Re-render UI with updated films
-  renderFilms(state.films);
-}
+  render(state.films);
+};
 ```
+
+{{<note type="tip" title="Things to consider">}}
+Users don't always type perfectly. How will you match their typing to the film titles? What if they type in all caps? What is the simplest thing that could possibly work?
+{{</note>}}
 
 To re-render the UI, we need to update the DOM elements to match the latest state. We can do this by:
 
@@ -36,7 +40,9 @@ To re-render the UI, we need to update the DOM elements to match the latest stat
 2. Mapping updated films data to new DOM elements
 3. Appending new elements to DOM
 
-This is how we update the user interface in response to updated application state!
+This is how we update the user interface in response to updated application state! We declare that our UI is a function of the state.
+
+> 🧠 Our UI is a function of the state
 
 Recalling our card function, let's see how we can update the UI with the latest films data.
 
@@ -45,12 +51,10 @@ Recalling our card function, let's see how we can update the UI with the latest 
 {{<tab name="Render">}}
 
 ```js
-const renderFilms = (container, films) => {
-  container.textContent = "";
-  films.forEach((film) => {
-    const card = createCard(filmCardTemplate, film);
-    container.appendChild(card);
-  });
+const render = (container, list) => {
+  container.textContent = ""; // clear the view
+  const cards = list.map((film) => createCard(template, film));
+  cards.forEach((card) => container.appendChild(card));
 };
 ```
 
