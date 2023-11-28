@@ -18,7 +18,7 @@ const render = (films) => {
   // Map films to DOM elements
 };
 
-const handleInput = (event) => {
+function handleInput(event) {
   // capture search term
   const { searchTerm } = event.target;
   // Filter films on search term
@@ -27,7 +27,7 @@ const handleInput = (event) => {
   state.films = filteredFilms;
   // Re-render UI with updated films
   render(state.films);
-};
+}
 ```
 
 {{<note type="tip" title="Things to consider">}}
