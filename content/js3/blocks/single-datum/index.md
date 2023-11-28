@@ -10,6 +10,8 @@ emoji= '🧩'
 
 > 🎯 Sub-goal: Build a film card component
 
+{{<tabs name="single datum">}}
+{{<tab name="Data">}}
 To break down this problem, we'll render a single datum, before doing this for the whole list. Here's one film:
 
 ```js
@@ -22,6 +24,10 @@ const film = {
 };
 ```
 
-Starting with this object, we'll focus _only_ on building this section of the user interface:
+{{</tab>}}
 
-![single-film-display](single-film-display.png)
+{{<tab name="Wireframe">}}
+Starting with this object, we'll focus _only_ on building this section of the user interface:
+![single-film-display](single-film-display.png "A single film card")
+{{</tab>}}
+{{</tabs>}}
