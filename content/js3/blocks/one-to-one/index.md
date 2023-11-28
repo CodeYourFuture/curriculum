@@ -22,29 +22,12 @@ flowchart LR
 To create an array of card components, we can iterate through the film data using a `for...of` loop:
 
 ```js
-const films = [
-  {
-    title: "Killing of Flower Moon",
-    director: "Martin Scorsese",
-    times: ["15:35"],
-    certificate: "15",
-    duration: 112,
-  },
-  {
-    title: "Typist Artist Pirate King",
-    directory: "Carol Morley",
-    times: ["15:00", "20:00"],
-    certificate: "12A",
-    duration: 108,
-  },
-];
-
 const filmCards = [];
 for (const item of films) {
   filmCards.push(createFilmCard(item));
 }
 
-document.querySelector("ul").append(...elements);
+document.body.append(...filmCards);
 // invoke append using the spread operator
 ```
 
