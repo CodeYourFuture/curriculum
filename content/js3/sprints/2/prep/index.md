@@ -1,24 +1,28 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
+description= 'Take a template and populate it with data; then update the data in response to user interaction'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS3'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="Fetching data"
-src="js3/blocks/fetching-data"
+name="Reacting"
+src="js3/blocks/reacting"
 [[blocks]]
-name="How the internet works"
-src="js3/blocks/internet"
+name="Decomposition"
+src="js3/blocks/break-down"
 [[blocks]]
-name="Using fetch"
-src="js3/blocks/using-fetch"
+name="Capturing events"
+src="js3/blocks/capturing-events"
 [[blocks]]
-name="Asynchronicity"
-src="js3/blocks/asynchronicity"
+name="Updating state"
+src="js3/blocks/updating-state"
 [[blocks]]
-name= "Gathering requirements Prep"
+name="Rendering"
+src="js3/blocks/re-rendering-ui"
+[[blocks]]
+name= "Gathering requirements"
 src="https://cyf-pd.netlify.app/blocks/gathering-requirements-prep/readme/"
 +++

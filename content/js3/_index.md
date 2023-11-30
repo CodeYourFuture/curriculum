@@ -1,8 +1,8 @@
 +++
 title = 'JS3'
-description = 'The plan for JS3 is coming soon'
+description = 'Collaborate with code; Update state with user interaction; React to state changes; Architect a web application; Recognise patterns'
 layout = 'module'
-emoji= '📚'
+emoji= '🐥'
 menu = ['syllabus']
 weight='5'
 +++

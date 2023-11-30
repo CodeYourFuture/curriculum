@@ -24,4 +24,9 @@ const film = {
 
 Starting with this object, we'll focus _only_ on building this section of the user interface:
 
-![single-film-display](single-film-display.png)
+<details>
+<summary> 🖼️ Open this wireframe of single film card</summary>
+
+![single-film-display](single-film-display.png "A single film card")
+
+</details>
