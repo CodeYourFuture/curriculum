@@ -10,7 +10,7 @@ emoji= '🧩'
   3='Define a GET request in the HTTP protocol'
 +++
 
-Now we'll need to make use of the internet in order t
+We've been using the internet for years, but how does it actually work? What happens when you type a URL into a browser? How does the browser know where to go? How does it know what to show? How does it know how to show it?
 
 {{<tabs name="How the internet works playlist">}}
 {{<tab name="What is the internet">}}

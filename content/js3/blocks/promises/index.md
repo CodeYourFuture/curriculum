@@ -1,8 +1,9 @@
 +++
-title = 'Chaining Promises'
+title = 'What is a Promise?'
 headless = true
-time = 20
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
+    1=''
 +++

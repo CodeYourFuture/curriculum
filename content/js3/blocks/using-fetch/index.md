@@ -1,26 +1,52 @@
 +++
-title = 'Requesting from a remote API'
+title = '🌐 Requesting from a server side API'
 headless = true
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
+1="Fetch data from a server side API"
+
 +++
 
-Let's suppose we have a remote API hosted at the following url: "https://api-film-data.com".
+So now we have these pieces of our giant concept map
 
-As we're trying to access film data this API will make film data available on a particular endpoint. IN reality, we would check the documentation to discover information about such an endpoint but we can assume we're working with a **`/films` endpoint**. This means if we make a HTTP GET request to this endpoint then we can get access some film data.
+🗓️ we know that sending 📤 requests over a network takes time
+🧵 we know that we should not stop our program to wait for data
+📤 we know that we can send a request using `fetch()`
+🐕 we know that `fetch` is a 💻 client side 🧰 Web API
+🫱🏿‍🫲🏽 we know that `fetch` returns a `Promise`? (...this last one is pending)
 
-We can make a request to a remote API in several different ways. First off, we can make a request to an API using an application like Postman. Postman is a rest client: it is an application that enables users to make a request.
+But we still don't know how to use `fetch` to get data from a server side API. Let's find out. Run this code in the console in your browser.
 
-{{<tabs name="Call an API">}}
-{{<tab name="📲 Call an API">}}
+```js
+const endpoint = "//curriculum.codeyourfuture.io/dummy-apis/films.json";
+const fetchPromise = fetch(endpoint);
+fetchPromise.then((response) => {
+  console.log(response.json());
+});
+```
 
-1. Download the [Postman application](https://www.postman.com/downloads/) if you've not done so already
+So that's how we use `fetch` to get data from a server side API. In [our filterFilms code](https://curriculum.codeyourfuture.io/filterfilms), we can replace the films array with the data fetched from the server.
 
-2. Identify a web API from this [list of public APIs](https://github.com/public-apis/public-apis). In most cases, you'll also need to obtain an API key to make use of their API.
+```js
+// Begin with an empty state
+const state = {
+  films: [],
+};
+// Data
+const endpoint = "//curriculum.codeyourfuture.io/dummy-apis/films.json";
 
-3. Make a GET request to one of the endpoints and check you can see a valid response.
+const fetchFilms = async () => {
+  const response = await fetch(endpoint);
+  return await response.json();
+}; // our async function returns a Promise
 
-{{</tab>}}
-{{</tabs>}}
+fetchFilms().then((films) => {
+  render(filmContainer, films); // when
+});
+```
+
+🐕 `fetch` returns a 🫱🏿‍🫲🏽 ‍`Promise`; the 🫱🏿‍🫲🏽 `Promise` fulfils itself with a 📥 response; the response contains our 💾 data.
+
+We will dig into this syntax: `Promises`, `async`, `await`, and `then` in our next sprint and complete our concept map.
