@@ -12,6 +12,7 @@ src="blocks/energiser"
 [[blocks]]
 name="Devtools Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
+time="120"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
