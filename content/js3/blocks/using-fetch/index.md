@@ -5,8 +5,9 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-1="Fetch data from a server side API"
-
+1="List 4 preceding concepts of asynchronous programming in JavaScript"
+2="Identify unknown concepts still to be learned"
+3="Fetch data from a server side API"
 +++
 
 So now we have these pieces of our giant concept map

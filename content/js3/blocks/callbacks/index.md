@@ -5,6 +5,9 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
+1='Define a callback'
+2="Sketch the event loop"
+3="Predict the order of logged numbers using the event loop model"
 +++
 
 Consider this visualisation of an asynchronous program:
