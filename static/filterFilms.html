@@ -86,7 +86,7 @@
       const render = (container, list) => {
         container.textContent = "";
         const cards = list.map((film) => createCard(template, film));
-        cards.forEach((card) => container.appendChild(card));
+        container.append(...cards);
       };
 
       // Initial render
