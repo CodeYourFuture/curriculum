@@ -52,7 +52,7 @@ Recalling our card function, let's see how we can update the UI with the latest 
 const render = (container, list) => {
   container.textContent = ""; // clear the view
   const cards = list.map((film) => createCard(template, film));
-  cards.forEach((card) => container.appendChild(card));
+  container.append(...cards);
 };
 ```
 
