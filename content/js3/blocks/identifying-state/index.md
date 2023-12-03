@@ -8,19 +8,29 @@ emoji= '🧩'
     1='Identify the state in a given problem'
 +++
 
-We've been talking about state as being some data which may change, based on which we may render something in the UI.
+> 🕞 State: data which may change over time.
 
-We typically store each piece of state in a variable. When we render in the UI, our code will look at the state in those variables.
+We can render something in the UI based on this change. We store each piece of state in a variable. When we render in the UI, our code will look at the state in those variables.
 
-Ideally we want to have as few pieces of state as possible, and we want them to be as fundamental as they can.
+We want to have as few pieces of state as possible. We want them to be fundamental.
 
-Some guidlines for identifying the state for a problem:
-1. Anything which can change probably needs some state representing that it can change. In our film example, the search term is something that can change, so it needs some state associated with it.
-2. Anything which can be worked out ("derived") from other state should _not_ itself be state. In our film example, we would not sure "is the search term empty" and "what is the search term" as separate pieces of state, because we can answer the question "is the search term empty" by looking at the search term. We don't need two variables, we can use one.
-3. If two things always change together, they should probably be one piece of state. For example, if our website had light mode and dark mode, we would not have one state for "is dark mode enabled" and one state for "is light mode enabled" - we would have one piece of state (maybe a boolean).
+Some guidelines for identifying the state for a problem:
 
-In our film example, we currently need two pieces of state:
-1. Our list of all films.
-2. The search term.
+#### ✔️ If something can change it should be state.
 
-When we introduce filtering films based on the search term **we will not introduce new state** - our filtered list of films can be _derived_ from our existing state.
+In our film example, the search term can change, so it needs some state associated with it.
+
+#### ❌ But if something can be _derived_ it should _not_ be state.
+
+In our film example, we would not store "is the search term empty" and "what is the search term" as separate pieces of state. We can work this answer out ourselves. This answer can be **derived**. We can answer the question "is the search term empty" by looking at the search term. We don't need two variables: we can use one.
+
+#### 🖇️ If two things always change together, they can be one piece of state.
+
+If our website had light mode and dark mode, we would not have one state for "is dark mode enabled" and one state for "is light mode enabled". We would have one piece of state: a {{<tooltip title="boolean">}}true or false. On or off.{{</tooltip>}}
+
+In our film example, we need two pieces of state:
+
+1. Our list of all films
+2. The search term
+
+When we introduce filtering films based on the search term **we will not introduce new state**. Our filtered list of films can be _derived_ from our existing state.
