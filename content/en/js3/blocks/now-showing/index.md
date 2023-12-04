@@ -45,6 +45,6 @@ const films = [
 {{</tab>}}
 {{</tabs>}}
 
-To visualise the user interface, we can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a web page used for design purposes{{</tooltip>}}. The wireframe is built by reusing the same{{<tooltip title="UI component">}}A **UI component** is a reusable, self-contained piece of the UI. UI components are like lego blocks you can use to build websites. Most websites are made by "composing" components in this way.{{</tooltip>}}. Each film object is rendered as a card component. To build this user interface, we will start with data in the form of an array of objects, each with similar properties.
+To visualise the user interface, we can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a web page used for design purposes{{</tooltip>}}. This wireframe is built by reusing the same{{<tooltip title="UI component">}}A **UI component** is a reusable, self-contained piece of the UI. UI components are like lego blocks you can use to build websites. Most websites are made by "composing" components in this way.{{</tooltip>}}. Each film object is rendered as a card component. To build this user interface, we will start with data in the form of an array of objects, each with similar properties.
 
 Our task will be to build the film listings view from this list of data. Create an index.html file and follow along.
