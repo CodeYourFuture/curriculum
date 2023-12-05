@@ -17,4 +17,5 @@ As users interact with web applications, they trigger events like clicking butto
 ```
 
 When a user types text into a search box, we want to capture their input and use it to filter and redisplay search results. This means the **state** of the application changes as the user types. We need to **react** to this change by updating the UI.
-TODO: Have we introduced the concept of state before? Is it clear that "what a user is searching for" is state?
+
+We'll explore these ideas today. Code along with the examples in this lesson.

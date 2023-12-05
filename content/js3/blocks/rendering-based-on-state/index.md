@@ -1,47 +1,56 @@
 +++
-title = 'Rendering based on state'
+title = '🎱 Rendering based on state'
 headless = true
-time = 45
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Filter films based on search terms'
-    2='Render just the filtered films'
+    2='Render a filtered list'
 +++
 
-For now, we have set the initial value of the `searchTerm` state to "Pirate".
+For now, we have set the initial value of the `searchTerm` state to "Pirate". This means that our render function should only create cards for films which contain the word "Pirate" in their title. But right now, our render function creates cards for _all_ of the films.
 
-This means that our render function should only create cards for films which contain the word "Pirate" in their title.
-
-But right now, our render function creates cards for _all_ of the films.
-
-In our render function, we will need to take our list of all films, and filter it down to just a list of films that match our search term.
-
-This does not require us to introduce new state - we can derive this filtered list from our existing state.
+In our render function, we must filter our list down to the films that match our search term. This does not require us to introduce new state. We can derive a filtered list from our existing state.
 
 ### Filter function
 
-To filter we can use the higher order array function [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) to return a new array of films that include the search term:
+We can use the higher order array function [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) to return a new array of films that include the search term:
 
 ```js
-const filteredFilms = state.films.filter((film) => film.title.includes(state.searchTerm));
+const filteredFilms = state.films.filter((film) =>
+  film.title.includes(state.searchTerm)
+);
 ```
 
-We can change our render function to _always_ do this, because if `searchTerm` is empty, this filter function will return all of the films:
+We can change our render function to _always_ do this. If `searchTerm` is empty, our filter function will return all the films:
 
 ```js
 function render() {
-  const filteredFilms = state.films.filter((film) => film.title.includes(state.searchTerm));
+  const filteredFilms = state.films.filter((film) =>
+    film.title.includes(state.searchTerm)
+  );
   const filmCards = filteredFilms.map(createFilmCard);
   document.body.append(...filmCards);
 }
 ```
 
+{{<tabs name="Predict and Explain State">}}
+{{<tab name="Predict the state">}}
+
+1. At this point in our codealong, when we open our page, what will we see?
+2. If we change the initial value of `state.searchTerm` back to the empty string and open the page again, what will we see?
+
+{{</tab>}}
+{{<tab name="Check understanding ">}}
 If we open our page, we should now only see cards for films containing "Pirate" in their title.
 
 If we change the initial value of `state.searchTerm` back to the empty string and open the page again, we should see cards for all of the films.
+{{</tab>}}
+{{</tabs>}}
 
 We have now solved two of our three problems:
+
 - [x] Identify what state we have.
 - [x] Define how to render the page based on that state.
 - [ ] Change state (perhaps in response to some user action).
