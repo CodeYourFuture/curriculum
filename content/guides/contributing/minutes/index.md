@@ -17,6 +17,70 @@ Attendees:
 
 ---
 
+## 2023-12-05
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Put together a "giving demos" workshop
+  - Which maybe involves giving different presentations about the same project with different audiences in mind.
+- [x] Ellie to capture lessons learnt from the London 10 Portfolio module.
+- [x] Daniel to put together a discussion thread about moving/splitting SQL module.
+- [ ] Ali to put together a proposed ordering of training videos to watch, and arrange a time for discussion.
+- [x] Ali to file a ticket about not setting innerHTML
+- [ ] Ali (Carry-over): Review JS1 & 2 content
+
+### 📝 Agenda points
+
+#### Barcelona debrief
+
+* We met with Isar, Hugo, Simon
+* We attended class for a few hours
+  * Felt very CYF-before-flipped-classroom
+    * A range of understandings and confidences
+  * Ordinarily class has 1-2 teachers and few TAs, but this session we had a load of volunteers so did some interview practice style pairing
+  * Did a lot of pairing with people
+    * Similarly a range of understandings and confidences
+  * They have a regular (well-equipped) space
+  * Currently have two classes - one in English, one in Spanish
+    * Considering the next cohort only offering English - there are other similar bootcamps offering Spanish but none offer English
+* General agreements to:
+  * Identify all the work we need to do for MigraCode's class in April 2024 to run with the new CYF curriculum
+    * Being collected in [a GitHub Milestone](https://github.com/CodeYourFuture/curriculum/milestone/12)
+    * Need to make a parent theme in Hugo, then two child themes which are siblings
+      * Split content into modules, also move around files with Hugo's internationalisation support (which we will not actually be using in the foreseeable future)
+    * We may end up changing some timings things - MigraCode is currently a shorter course, MigraCode currently do two shorter sessions in a week rather than one longer one - not sure how all of these things are going to change, but they're differences we identified.
+    * Audit some content:
+      * Mentions of CYF - remove any that aren't necessary, split any that need re-implementing
+      * Remove mentions of "last week", "next" week, etc - weeks may change
+  * Points of uncertainty for MigraCode to resolve internally:
+    * Goal alignment - right now CYF's goals are around employment and MigraCode's are around graduation - we need to explore how we can align these with MigraCode's parent organisation and funders.
+    * Timings - MigraCode run a shorter course, and more shorter sessions in a week. Need to work out how things will be arranged.
+  * Netlify: It would be useful for MigraCode to get their own Netlify, but they're welcome to share ours until then.
+* Description of CYF Products
+* Need to decide what to do about Fundamentals
+  * What would we lose if we removed it?
+    * Some amount of cohort building
+    * It's a filter in the application process
+    * Trying to instill a culture of shipping things early
+* Blockly doesn't seem to be directly transferring to JS1/2 - something to muse on
+
+### ❗Actions
+
+- [ ] Ali (Carry-over): to put together a proposed ordering of training videos to watch, and arrange a time for discussion.
+- [ ] Ali (Carry-over): Review JS1 & 2 content
+- [ ] Ali: Update meeting reminder bot to happen on Tuesdays not Thursdays
+- [ ] Ali: Find/Make ticket about reworking React
+- [ ] Daniel: Read up on Zsolt's discussion about backend hosting platforms and engage (and also see if he's interested in reworking the full-stack assessment to be more feature-based)
+- [ ] Sally: Share application process details with MigraCode folks
+- [ ] Isar: Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Isar: Get all the relevant MigraCode people to fill in [this form](https://docs.google.com/forms/d/1sp2MTsU0eEAr4HCKXfDPxUXXZROWN8UyHIrDk7dRSJk/edit) to join CYF GitHub teams.
+- [ ] Sally: Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [ ] Ali: Write up a ticket for Sally to document the architecture of the curriculum website
+
+---
+
 ## 2023-11-23
 
 Attendees: Ali, Daniel, Ellie Tahmasebi, Isar, Sally
