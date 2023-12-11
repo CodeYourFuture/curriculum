@@ -48,7 +48,6 @@ class SoloView extends HTMLElement {
     // TOC Links Navigation
     this.tocLinks.forEach((link, index) => {
       link.addEventListener("click", (event) => {
-        event.preventDefault();
         this.currentBlockIndex = index;
         this.updateBlockVisibility();
         this.updateTOCActive();
@@ -62,7 +61,6 @@ class SoloView extends HTMLElement {
   };
 
   navigateBack = (event) => {
-    event.preventDefault();
     if (this.currentBlockIndex > 0) {
       this.currentBlockIndex--;
       this.updateBlockVisibility();
@@ -71,7 +69,6 @@ class SoloView extends HTMLElement {
   };
 
   navigateNext = (event) => {
-    event.preventDefault();
     if (this.currentBlockIndex < this.blocks.length - 1) {
       this.currentBlockIndex++;
       this.updateBlockVisibility();
