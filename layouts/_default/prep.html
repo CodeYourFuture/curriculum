@@ -1,20 +1,31 @@
 {{ define "main" }}
-  <article>
+  <solo-view>
     {{ .Scratch.Set "emoji" "🧑🏾‍💻" }}
     {{ .Scratch.Set "headerClass"
-      "c-page-header--toc"
+      "c-page-header--solo"
     }}
-    {{ partial "page-header.html" . }}
-    {{ with .Content }}
-      <section class="l-page__main c-block c-copy">{{ . }}</section>
-    {{ end }}
-    <div class="c-block__list">
-      <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
-      {{ range .Params.blocks }}
-        {{ partial "block/block.html" (dict "block" . "Page"
-          $.Page)
-        }}
+    <div slot="header">{{ partial "page-header.html" . }}</div>
+    <div slot="blocks">
+      {{ with .Content }}
+        <section class="l-page__main c-block c-copy">{{ . }}</section>
       {{ end }}
+      <div class="c-block__list">
+        <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
+        {{ range .Params.blocks }}
+          {{ partial "block/block.html" (dict "block" . "Page"
+            $.Page)
+          }}
+        {{ end }}
+      </div>
     </div>
-  </article>
+    {{ if gt .Params.blocks 1 }}
+      <nav slot="nav">
+        <a href="#" class="e-button">Back</a>
+        <a href="#" class="e-button">Next</a>
+      </nav>
+    {{ end }}
+  </solo-view>
+
+  {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
+  <script src="{{ $soloView.Permalink }}" defer></script>
 {{ end }}
