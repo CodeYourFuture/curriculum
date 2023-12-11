@@ -6,7 +6,6 @@
   max-width: var(--theme-spacing--container);
   border-image: var(--theme-border-image);
   box-shadow: var(--theme-box-shadow);
-  max-height: 25vh;
   padding: var(--theme-spacing--1) var(--theme-spacing--2)
     var(--theme-spacing--4);
   overflow-y: auto;
@@ -38,6 +37,10 @@
     a,
     a:link {
       text-decoration: none;
+      &.is-active {
+        color: var(--theme-color--pop);
+        border-bottom: 1px solid var(--theme-color--pop);
+      }
     }
 
     li {

@@ -45,6 +45,19 @@
       }
     }
 
+    .c-page-header--solo & {
+      grid-template:
+        ".          " var(--gap)
+        "breadcrumbs" min-content
+        "title      " min-content
+        ".          " var(--gap)
+        "subtitle   " min-content
+        " toc       " min-content
+        "description" 1fr
+        ".          " var(--gap)
+        / 1fr;
+    }
+
     .c-page-header--splash & {
       grid-template:
         ".           " var(--gap)
@@ -81,5 +94,12 @@
 
   &__toc {
     scroll-margin-top: calc(2 * var(--header-height));
+
+    .c-toc {
+      max-height: 25vh;
+    }
+    .c-page-header--solo & .c-toc {
+      max-height: none;
+    }
   }
 }
