@@ -2,104 +2,115 @@ class SoloView extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.currentBlockIndex = 0;
-    this.tocLinks = [];
-    this.blocks = [];
+
+    // State object
+    this.state = {
+      currentBlockIndex: 0,
+      blocks: [],
+      tocLinks: [],
+      navButtons: { back: null, next: null },
+    };
   }
 
   connectedCallback() {
-    this.render();
-    this.cacheTOCLinks();
-    this.cacheBlocks();
-    this.initializeBlocksFromTOC();
-    this.addNavigationListeners();
+    this.render(); // Render the component
+    this.cacheDOM(); // Cache necessary DOM elements
+    this.addEventListeners(); // Setup event listeners
+    this.updateView(); // Initial view update
   }
 
-  cacheTOCLinks = () => {
-    this.tocLinks = Array.from(
+  // Cache DOM elements
+  cacheDOM() {
+    this.state.blocks = Array.from(
+      this.querySelectorAll('[slot="blocks"] .c-block')
+    );
+    this.state.tocLinks = Array.from(
       this.querySelectorAll('[slot="header"] .c-toc li a')
     );
-  };
+    this.state.navButtons.back = this.querySelector(
+      '[slot="nav"] .c-solo-view__back'
+    );
+    this.state.navButtons.next = this.querySelector(
+      '[slot="nav"] .c-solo-view__next'
+    );
+  }
 
-  cacheBlocks = () => {
-    this.blocks = Array.from(this.querySelectorAll('[slot="blocks"] .c-block'));
-  };
-
-  initializeBlocksFromTOC = () => {
-    // Assuming the first TOC link corresponds to the first block
-    this.currentBlockIndex = 0;
-    this.updateBlockVisibility();
-    this.updateTOCActive();
-  };
-
-  updateBlockVisibility = () => {
-    this.blocks.forEach((block, index) => {
-      block.style.display = index === this.currentBlockIndex ? "block" : "none";
+  // Add event listeners
+  addEventListeners() {
+    this.state.tocLinks.forEach((link, index) => {
+      link.addEventListener("click", () => this.updateCurrentBlockIndex(index));
     });
-  };
 
-  updateTOCActive = () => {
-    this.tocLinks.forEach((link, index) => {
-      link.classList.toggle("is-active", index === this.currentBlockIndex);
-    });
-  };
+    this.state.navButtons.back.addEventListener("click", this.navigateBack);
+    this.state.navButtons.next.addEventListener("click", this.navigateNext);
+  }
 
-  addNavigationListeners = () => {
-    // TOC Links Navigation
-    this.tocLinks.forEach((link, index) => {
-      link.addEventListener("click", (event) => {
-        this.currentBlockIndex = index;
-        this.updateBlockVisibility();
-        this.updateTOCActive();
-      });
-    });
-    const backButton = this.shadowRoot.querySelector(".c-nav__link--back");
-    const nextButton = this.shadowRoot.querySelector(".c-nav__link--next");
+  // Update current block index
+  updateCurrentBlockIndex(index) {
+    this.state.currentBlockIndex = index;
+    this.updateView();
+  }
 
-    backButton.addEventListener("click", this.navigateBack);
-    nextButton.addEventListener("click", this.navigateNext);
-  };
-
+  // Navigation logic
   navigateBack = (event) => {
-    if (this.currentBlockIndex > 0) {
-      this.currentBlockIndex--;
-      this.updateBlockVisibility();
-      this.updateTOCActive();
+    event.preventDefault();
+    const backIndex = this.state.currentBlockIndex - 1;
+    if (backIndex > 0) {
+      this.state.tocLinks[backIndex].click();
     }
   };
 
   navigateNext = (event) => {
-    if (this.currentBlockIndex < this.blocks.length - 1) {
-      this.currentBlockIndex++;
-      this.updateBlockVisibility();
-      this.updateTOCActive();
+    event.preventDefault();
+    const nextIndex = this.state.currentBlockIndex + 1;
+    if (nextIndex < this.state.blocks.length) {
+      this.state.tocLinks[nextIndex].click();
     }
   };
 
-  styles = `
-    :host {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      gap: var(--theme-spacing--gutter);
-    }
-    ::slotted([slot="blocks"]){
-      max-height: 100vh;
-      overflow-y: scroll;
-      padding-top: var(--theme-spacing--6)
-    }
-    ::slotted([slot="nav"]) {
-        grid-column: 2/3;
-    }
-  `;
+  // Update view
+  updateView() {
+    this.state.blocks.forEach((block, index) => {
+      block.style.display =
+        index === this.state.currentBlockIndex ? "block" : "none";
+    });
 
-  render = () => {
+    this.state.tocLinks.forEach((link, index) => {
+      link.classList.toggle(
+        "is-active",
+        index === this.state.currentBlockIndex
+      );
+    });
+  }
+
+  // Lifecycle methods and utilities...
+
+  // Render method with slots and CSS
+  render() {
     this.shadowRoot.innerHTML = `
-      <style>${this.styles}</style>
+      <style>
+        :host {
+          display: grid;
+          grid-template-columns: 1fr 4fr;
+          gap: var(--theme-spacing--gutter);
+        }
+        ::slotted([slot="header"]) {
+          position: sticky;
+          height: 100vh;
+          top: 0;
+        }
+        ::slotted([slot="blocks"]) {
+          padding-top: var(--theme-spacing--6);
+        }
+        ::slotted([slot="nav"]) {
+          grid-column: 2/3;
+        }
+      </style>
       <slot name="header"></slot>
       <slot name="blocks"></slot>
       <slot name="nav"></slot>
     `;
-  };
+  }
 }
 
 customElements.define("solo-view", SoloView);
