@@ -9,6 +9,9 @@ class SoloView extends HTMLElement {
       blocks: [],
       tocLinks: [],
       navButtons: { back: null, next: null },
+      fragment: null,
+      touchStartX: 0,
+      touchEndX: 0,
     };
   }
 
@@ -16,6 +19,7 @@ class SoloView extends HTMLElement {
     this.render(); // Render the component
     this.cacheDOM(); // Cache necessary DOM elements
     this.addEventListeners(); // Setup event listeners
+    this.handleInitialFragment();
     this.updateView(); // Initial view update
   }
 
@@ -43,6 +47,16 @@ class SoloView extends HTMLElement {
 
     this.state.navButtons.back.addEventListener("click", this.navigateBack);
     this.state.navButtons.next.addEventListener("click", this.navigateNext);
+
+    // Add swipe event listeners
+    this.addEventListener("touchstart", (e) => {
+      this.state.touchStartX = e.changedTouches[0].clientX;
+    });
+
+    this.addEventListener("touchend", (e) => {
+      this.state.touchEndX = e.changedTouches[0].clientX;
+      this.handleSwipeGesture();
+    });
   }
 
   // Update current block index
@@ -68,6 +82,33 @@ class SoloView extends HTMLElement {
     }
   };
 
+  handleSwipeGesture() {
+    const deltaX = this.state.touchEndX - this.state.touchStartX;
+    const swipeThreshold = 30;
+    if (deltaX > swipeThreshold) {
+      // Swipe right (previous)
+      this.navigateBack(new Event("swipe"));
+    } else if (deltaX < -swipeThreshold) {
+      // Swipe left (next)
+      this.navigateNext(new Event("swipe"));
+    }
+  }
+
+  // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
+  handleInitialFragment() {
+    const fragment = window.location.hash.substring(1);
+    if (fragment) {
+      const matchingLinkIndex = this.state.tocLinks.findIndex(
+        (link) => link.getAttribute("href").substring(1) === fragment
+      );
+      console.log(matchingLinkIndex);
+
+      if (matchingLinkIndex !== -1) {
+        this.state.currentBlockIndex = matchingLinkIndex;
+      }
+    }
+  }
+
   // Update view
   updateView() {
     this.state.blocks.forEach((block, index) => {
@@ -82,8 +123,6 @@ class SoloView extends HTMLElement {
       );
     });
   }
-
-  // Lifecycle methods and utilities...
 
   // Render method with slots and CSS
   render() {
@@ -101,10 +140,12 @@ class SoloView extends HTMLElement {
         }
         ::slotted([slot="blocks"]) {
           padding-top: var(--theme-spacing--6);
+          scroll-margin-top: 500px;
         }
         ::slotted([slot="nav"]) {
           grid-column: 2/3;
         }
+        
       </style>
       <slot name="header"></slot>
       <slot name="blocks"></slot>
