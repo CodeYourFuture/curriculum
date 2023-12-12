@@ -19,7 +19,7 @@ class SoloView extends HTMLElement {
     this.render(); // Render the component
     this.cacheDOM(); // Cache necessary DOM elements
     this.addEventListeners(); // Setup event listeners
-    this.handleInitialFragment();
+    this.handleFragment();
     this.updateView(); // Initial view update
   }
 
@@ -41,6 +41,7 @@ class SoloView extends HTMLElement {
 
   // Add event listeners
   addEventListeners() {
+    window.addEventListener("hashchange", this.handleFragment);
     this.state.tocLinks.forEach((link, index) => {
       link.addEventListener("click", () => this.updateCurrentBlockIndex(index));
     });
@@ -95,25 +96,27 @@ class SoloView extends HTMLElement {
   }
 
   // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
-  handleInitialFragment() {
+  handleFragment = () => {
     const fragment = window.location.hash.substring(1);
-    if (fragment) {
+
+    if (fragment === "toc") {
+      this.state.currentBlockIndex = 0;
+      this.updateView();
+    } else if (fragment) {
       const matchingLinkIndex = this.state.tocLinks.findIndex(
         (link) => link.getAttribute("href").substring(1) === fragment
       );
-      console.log(matchingLinkIndex);
-
       if (matchingLinkIndex !== -1) {
         this.state.currentBlockIndex = matchingLinkIndex;
+        this.updateView();
       }
     }
-  }
+  };
 
   // Update view
   updateView() {
     this.state.blocks.forEach((block, index) => {
-      block.style.display =
-        index === this.state.currentBlockIndex ? "block" : "none";
+      block.hidden = index !== this.state.currentBlockIndex;
     });
 
     this.state.tocLinks.forEach((link, index) => {
@@ -140,11 +143,12 @@ class SoloView extends HTMLElement {
         }
         ::slotted([slot="blocks"]) {
           padding-top: var(--theme-spacing--6);
-          scroll-margin-top: 500px;
+          --theme-spacing--scrollmargin: 100vh !important;
         }
         ::slotted([slot="nav"]) {
           grid-column: 2/3;
         }
+        
         
       </style>
       <slot name="header"></slot>
