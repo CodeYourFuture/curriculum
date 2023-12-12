@@ -20,7 +20,6 @@ class SoloView extends HTMLElement {
     this.cacheDOM(); // Cache necessary DOM elements
     this.addEventListeners(); // Setup event listeners
     this.handleFragment(); // Check for a fragment in the URL and set to this view if present
-    this.wrapTOCLinks(); // Wrap the TOC links in a span so we can style them
     this.updateView(); // Initial view update
   }
 
@@ -56,18 +55,6 @@ class SoloView extends HTMLElement {
     this.addEventListener("touchend", (e) => {
       this.state.touchEndX = e.changedTouches[0].clientX;
       this.handleSwipeGesture();
-    });
-  }
-  // this is a mobile style for the toc to make it smaller
-  // hugo generates these links so it's easier to do this here
-  // but if someone wanted to tear into the hugo templates and do it there that would be preferable
-  wrapTOCLinks() {
-    this.querySelectorAll(".c-toc a").forEach((link) => {
-      const textSpan = document.createElement("span");
-      textSpan.classList.add("c-toc__text");
-      textSpan.textContent = link.textContent;
-      link.textContent = "";
-      link.appendChild(textSpan);
     });
   }
 
@@ -142,6 +129,8 @@ class SoloView extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
       <style>
+        @media (min-width: var(--theme-spacing--container-med)) {
+
         :host {
           display: grid;
           grid-template-columns: 1fr 4fr;
@@ -159,7 +148,7 @@ class SoloView extends HTMLElement {
         ::slotted([slot="nav"]) {
           grid-column: 2/3;
         }
-        
+      }
         
       </style>
       <slot name="header"></slot>
