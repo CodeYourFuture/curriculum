@@ -129,7 +129,7 @@ class SoloView extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
       <style>
-        @media (min-width: var(--theme-spacing--container-med)) {
+        @media (min-width: 768px) {
 
         :host {
           display: grid;

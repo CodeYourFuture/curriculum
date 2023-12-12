@@ -10,6 +10,7 @@
 {{ end }}
 {{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
   {{ $hasTOC = true }}
+  {{ $mdTOC = true }}
   {{ $blockTOC = true }}
 {{ end }}
 <header
