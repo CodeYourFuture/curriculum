@@ -31,6 +31,19 @@
       / 1fr var(--gap) minmax(0, 1fr);
 
     .c-page-header--toc & {
+      grid-template:
+        ".          " var(--gap)
+        "breadcrumbs" min-content
+        "title      " min-content
+        ".          " var(--gap)
+        "subtitle   " min-content
+        "toc        " min-content
+        ".          " var(--gap)
+        "description" 1fr
+        ".          " var(--gap)
+        / 1fr;
+    }
+    .c-page-header--toc:not(.c-page-header--solo) & {
       @media (min-width: $c-max) {
         grid-template:
           ".              .   .        " var(--gap)
@@ -43,19 +56,6 @@
           ".              .   .        " var(--gap)
           / 1fr var(--gap) minmax(0, 1fr);
       }
-    }
-
-    .c-page-header--solo & {
-      grid-template:
-        ".          " var(--gap)
-        "breadcrumbs" min-content
-        "title      " min-content
-        ".          " var(--gap)
-        "subtitle   " min-content
-        " toc       " min-content
-        "description" 1fr
-        ".          " var(--gap)
-        / 1fr;
     }
 
     .c-page-header--splash & {
