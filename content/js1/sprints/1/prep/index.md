@@ -45,7 +45,7 @@ name= "Critical Thinking"
 src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 +++
 
-# Interacting with computers.
+## Interacting with computers.
 
 Modern computers are complicated: it would be too difficult and time-consuming to list all the components that make up a modern computer. So to build our mental model, we will use this simple definition of a computer:
 
