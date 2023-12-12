@@ -19,18 +19,17 @@ class SoloView extends HTMLElement {
     this.render(); // Render the component
     this.cacheDOM(); // Cache necessary DOM elements
     this.addEventListeners(); // Setup event listeners
-    this.handleFragment();
+    this.handleFragment(); // Check for a fragment in the URL and set to this view if present
+    this.wrapTOCLinks(); // Wrap the TOC links in a span so we can style them
     this.updateView(); // Initial view update
   }
 
   // Cache DOM elements
   cacheDOM() {
-    this.state.blocks = Array.from(
-      this.querySelectorAll('[slot="blocks"] .c-block')
-    );
-    this.state.tocLinks = Array.from(
-      this.querySelectorAll('[slot="header"] .c-toc li a')
-    );
+    this.state.blocks = [...this.querySelectorAll('[slot="blocks"] .c-block')];
+    this.state.tocLinks = [
+      ...this.querySelectorAll('[slot="header"] .c-toc li a'),
+    ];
     this.state.navButtons.back = this.querySelector(
       '[slot="nav"] .c-solo-view__back'
     );
@@ -57,6 +56,18 @@ class SoloView extends HTMLElement {
     this.addEventListener("touchend", (e) => {
       this.state.touchEndX = e.changedTouches[0].clientX;
       this.handleSwipeGesture();
+    });
+  }
+  // this is a mobile style for the toc to make it smaller
+  // hugo generates these links so it's easier to do this here
+  // but if someone wanted to tear into the hugo templates and do it there that would be preferable
+  wrapTOCLinks() {
+    this.querySelectorAll(".c-toc a").forEach((link) => {
+      const textSpan = document.createElement("span");
+      textSpan.classList.add("c-toc__text");
+      textSpan.textContent = link.textContent;
+      link.textContent = "";
+      link.appendChild(textSpan);
     });
   }
 

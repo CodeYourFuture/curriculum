@@ -37,9 +37,16 @@
     a,
     a:link {
       text-decoration: none;
+      position: relative;
       &.is-active {
         color: var(--theme-color--pop);
         border-bottom: 1px solid var(--theme-color--pop);
+      }
+
+      &:has(.c-toc__text) {
+        &::before {
+          content: "🔖   ";
+        }
       }
     }
 
@@ -66,5 +73,14 @@
       0px 3.25px 6px var(--theme-color--outline);
     font-size: var(--bookmark);
     transform: translateY(calc(-1 * calc(var(--bookmark) / 2)));
+  }
+
+  // mobile style in solo view
+
+  &__text {
+    @media (max-width: $c-max) {
+      opacity: 0;
+      font-size: 0;
+    }
   }
 }
