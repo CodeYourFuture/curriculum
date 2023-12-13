@@ -7,28 +7,28 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 3'
 [[blocks]]
-src="js1/blocks/clocks"
+src="blocks/modules/js1/clocks"
 name="Clocks"
 [[blocks]]
-src="js1/blocks/comparison"
+src="blocks/modules/js1/comparison"
 name="Comparison"
 [[blocks]]
-src="js1/blocks/assertions"
+src="blocks/modules/js1/assertions"
 name="Assertions"
 [[blocks]]
-src="js1/blocks/strategy"
+src="blocks/modules/js1/strategy"
 name="Strategy"
 [[blocks]]
-src="js1/blocks/conditionality"
+src="blocks/modules/js1/conditionality"
 name="Conditionality"
 [[blocks]]
-src="js1/blocks/sub-goal"
+src="blocks/modules/js1/sub-goal"
 name="Sub-goal"
 [[blocks]]
-src="js1/blocks/strings"
+src="blocks/modules/js1/strings"
 name="Strings"
 [[blocks]]
-src="js1/blocks/assembly"
+src="blocks/modules/js1/assembly"
 name="Assembly"
 [[blocks]]
 name="Growth Mindset Prep"

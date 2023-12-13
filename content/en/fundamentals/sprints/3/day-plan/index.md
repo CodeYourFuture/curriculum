@@ -12,7 +12,7 @@ name="telephone"
 src="blocks/telephone"
 [[blocks]]
 name="blockers"
-src="fundamentals/blocks/blockers"
+src="blocks/modules/fundamentals/blockers"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
@@ -24,13 +24,13 @@ name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Ship it"
-src="fundamentals/blocks/ship-it-delivery"
+src="blocks/modules/fundamentals/ship-it-delivery"
 [[blocks]]
 name="Wrap up"
-src="fundamentals/blocks/wrap-up"
+src="blocks/modules/fundamentals/wrap-up"
 [[blocks]]
 name="Next steps"
-src="fundamentals/blocks/next-steps"
+src="blocks/modules/fundamentals/next-steps"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

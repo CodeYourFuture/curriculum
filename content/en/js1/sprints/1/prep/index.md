@@ -9,34 +9,34 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 1'
 [[blocks]]
 name="Interface"
-src="js1/blocks/interface"
+src="blocks/modules/js1/interface"
 [[blocks]]
 name="Terminal"
-src="js1/blocks/terminal"
+src="blocks/modules/js1/terminal"
 [[blocks]]
 name="Data"
-src="js1/blocks/data"
+src="blocks/modules/js1/data"
 [[blocks]]
 name="REPL"
-src="js1/blocks/repl"
+src="blocks/modules/js1/repl"
 [[blocks]]
 name="Variables"
-src="js1/blocks/variables"
+src="blocks/modules/js1/variables"
 [[blocks]]
 name="Declarations and Statements"
-src="js1/blocks/declarations-statements"
+src="blocks/modules/js1/declarations-statements"
 [[blocks]]
 name="Functions"
-src="js1/blocks/functions"
+src="blocks/modules/js1/functions"
 [[blocks]]
 name="Scripts"
-src="js1/blocks/scripts"
+src="blocks/modules/js1/scripts"
 [[blocks]]
 name="Logging"
-src="js1/blocks/logging"
+src="blocks/modules/js1/logging"
 [[blocks]]
 name="Errors"
-src="js1/blocks/errors"
+src="blocks/modules/js1/errors"
 [[blocks]]
 name="Wrapping up"
 src="blocks/wrapping-up"

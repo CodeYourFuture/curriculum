@@ -8,25 +8,25 @@ backlog= 'Module-JS1'
 backlog_filter= 'Week 2'
 [[blocks]]
 name="Percentages"
-src="js1/blocks/percentages"
+src="blocks/modules/js1/percentages"
 [[blocks]]
 name="Defining functions"
-src="js1/blocks/declaring-functions"
+src="blocks/modules/js1/declaring-functions"
 [[blocks]]
 name="Playing computer"
-src="js1/blocks/playing-computer"
+src="blocks/modules/js1/playing-computer"
 [[blocks]]
 name="Scope"
-src="js1/blocks/scope"
+src="blocks/modules/js1/scope"
 [[blocks]]
 name="Return"
-src="js1/blocks/return"
+src="blocks/modules/js1/return"
 [[blocks]]
 name="Reuse"
-src="js1/blocks/reuse"
+src="blocks/modules/js1/reuse"
 [[blocks]]
 name="Parameters"
-src="js1/blocks/parameters"
+src="blocks/modules/js1/parameters"
 [[blocks]]
 name="Roles in Tech"
 src="https://cyf-pd.netlify.app/blocks/prep-roles-in-tech/readme/"

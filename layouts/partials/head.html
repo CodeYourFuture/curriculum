@@ -32,11 +32,11 @@
   {{ $style := $sass | toCSS | minify | fingerprint "md5" }}
   <link
     rel="stylesheet"
-    href="{{ $style.RelPermalink }}"
+    href="{{ $style.Permalink }}"
     media="print"
     onload="this.media='all'" />
   <noscript>
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
   </noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,23 +48,5 @@
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" />
   <meta name="theme-color" content="#e3ddeef2" />
-  <link rel="manifest" href="manifest.json" />
-  <script src="{{ .Site.BaseURL }}sw.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("/sw.js").then(
-          function (registration) {
-            console.log(
-              "ServiceWorker registration successful with scope: ",
-              registration.scope
-            );
-          },
-          function (err) {
-            console.log("ServiceWorker registration failed: ", err);
-          }
-        );
-      });
-    }
-  </script>
+  <link rel="manifest" href="{{ .Site.BaseURL }}manifest.json" />
 </head>

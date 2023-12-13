@@ -7,31 +7,31 @@ weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 4'
 [[blocks]]
-src="js1/blocks/ordinal"
+src="blocks/modules/js1/ordinal"
 name="ordinal"
 [[blocks]]
-src="js1/blocks/framework"
+src="blocks/modules/js1/framework"
 name="framework"
 [[blocks]]
-src="js1/blocks/setup"
+src="blocks/modules/js1/setup"
 name="setup"
 [[blocks]]
-src="js1/blocks/packages"
+src="blocks/modules/js1/packages"
 name="packages"
 [[blocks]]
-src="js1/blocks/installing"
+src="blocks/modules/js1/installing"
 name="installing"
 [[blocks]]
-src="js1/blocks/api"
+src="blocks/modules/js1/api"
 name="api"
 [[blocks]]
-src="js1/blocks/cases"
+src="blocks/modules/js1/cases"
 name="cases"
 [[blocks]]
-src="js1/blocks/feedback"
+src="blocks/modules/js1/feedback"
 name="feedback"
 [[blocks]]
-src="js1/blocks/generalise"
+src="blocks/modules/js1/generalise"
 name="generalise"
 [[blocks]]
 name= "Asking good questions"

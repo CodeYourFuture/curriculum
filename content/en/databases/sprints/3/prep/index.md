@@ -8,11 +8,11 @@ backlog= 'Module-Databases'
 backlog_filter= 'Week 3'
 [[blocks]]
 name="Recap Node and Postman"
-src="databases/blocks/recap-node"
+src="blocks/modules/databases/recap-node"
 [[blocks]]
 name="Being More Selective"
-src="databases/blocks/more-selective"
+src="blocks/modules/databases/more-selective"
 [[blocks]]
 name="CRUD"
-src="databases/blocks/crud"
+src="blocks/modules/databases/crud"
 +++

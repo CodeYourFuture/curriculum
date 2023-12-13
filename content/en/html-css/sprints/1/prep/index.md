@@ -12,7 +12,7 @@ src="blocks/spaced-repetition"
 time="30"
 [[blocks]]
 name="What is HTML"
-src="html-css/blocks/what-is-html"
+src="blocks/modules/html-css/what-is-html"
 time="55"
 [[blocks]]
 name="Transferable skills prep"

@@ -12,13 +12,13 @@ name="Discovering blockers"
 src="blocks/blockers"
 [[blocks]]
 name="blockers"
-src="fundamentals/blocks/blockers"
+src="blocks/modules/fundamentals/blockers"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="MVP"
-src="fundamentals/blocks/mvp"
+src="blocks/modules/fundamentals/mvp"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
@@ -30,16 +30,16 @@ name="Slack Rota"
 src="https://cyf-pd.netlify.app/blocks/set-up-a-google-sheet-so-we-can-organise-a-slack-posting-rota/readme/"
 [[blocks]]
 name="pairing"
-src="fundamentals/blocks/pairing"
+src="blocks/modules/fundamentals/pairing"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="CYF Blocks"
-src="fundamentals/blocks/cyf-blocks-iteration"
+src="blocks/modules/fundamentals/cyf-blocks-iteration"
 [[blocks]]
 name="Ship It"
-src="fundamentals/blocks/ship-it-iteration"
+src="blocks/modules/fundamentals/ship-it-iteration"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

@@ -16,7 +16,7 @@ name="Morning break"
 name="Importance of helping each other"
 src="https://cyf-pd.netlify.app/blocks/importance-of-helping-each-other/readme/"
 [[blocks]]
-src="js2/blocks/pick-an-app"
+src="blocks/modules/js2/pick-an-app"
 name="Pick an app"
 [[blocks]]
 name="Lunch"
@@ -34,7 +34,7 @@ name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="🫱🏿‍🫲🏾 Pair up"
-src="js2/blocks/pair-up"
+src="blocks/modules/js2/pair-up"
 time=50
 [[blocks]]
 name="Retro"

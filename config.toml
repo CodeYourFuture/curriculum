@@ -3,6 +3,7 @@ title = "CodeYourFuture Curriculum"
 sectionPagesMenu = "main"
 enableEmoji = true
 
+## I18n settings
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
@@ -13,6 +14,7 @@ defaultContentLanguageInSubdir = false
     languageCode = 'en-GB'
     languageName = 'English'
 
+## Menus
 [menus]
     [[menus.secondary]]
         name = "Guides 👈🏾"

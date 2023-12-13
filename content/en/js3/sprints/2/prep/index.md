@@ -9,19 +9,19 @@ backlog= 'Module-JS3'
 backlog_filter= 'Week 2'
 [[blocks]]
 name="Reacting"
-src="js3/blocks/reacting"
+src="blocks/modules/js3/reacting"
 [[blocks]]
 name="Decomposition"
-src="js3/blocks/break-down"
+src="blocks/modules/js3/break-down"
 [[blocks]]
 name="Capturing events"
-src="js3/blocks/capturing-events"
+src="blocks/modules/js3/capturing-events"
 [[blocks]]
 name="Updating state"
-src="js3/blocks/updating-state"
+src="blocks/modules/js3/updating-state"
 [[blocks]]
 name="Rendering"
-src="js3/blocks/re-rendering-ui"
+src="blocks/modules/js3/re-rendering-ui"
 [[blocks]]
 name= "Gathering requirements"
 src="https://cyf-pd.netlify.app/blocks/gathering-requirements-prep/readme/"

@@ -14,7 +14,7 @@ name="Spaced Repetition"
 src="blocks/spaced-repetition"
 [[blocks]]
 name="What is CSS"
-src="html-css/blocks/what-is-css"
+src="blocks/modules/html-css/what-is-css"
 [[blocks]]
 name="CSS skills practice"
 src="https://www.youtube.com/playlist?list=PLozA7cloMbPgM0Cra4IhDg_HvhP727Abo"

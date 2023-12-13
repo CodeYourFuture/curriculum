@@ -12,8 +12,6 @@ emoji= '🧩'
     4='Translate requirements into high-level design outlines'
 +++
 
-{{< snippet "snippets/requirements.md" >}}
-
 #### Imagine a coursework tracker
 
 As trainees, you have coursework to do. Imagine a website which tracks how coursework is going for you all. Thinking about that website, some user stories could be:

@@ -14,7 +14,7 @@ name="Spaced Repetition"
 src="blocks/spaced-repetition"
 [[blocks]]
 name="What are Forms"
-src="html-css/blocks/what-are-forms"
+src="blocks/modules/html-css/what-are-forms"
 [[blocks]]
 name="Developer Communication"
 src="https://cyf-pd.netlify.app/blocks/prep-developer-communication/readme/"

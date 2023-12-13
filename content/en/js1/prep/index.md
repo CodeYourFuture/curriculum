@@ -7,8 +7,8 @@ menu_level = ["module"]
 weight = 1
 [[blocks]]
 name="Install a unix based os"
-src="js1/blocks/check-unix-os"
+src="blocks/modules/js1/check-unix-os"
 [[blocks]]
 name="Install Node"
-src="js1/blocks/install-node"
+src="blocks/modules/js1/install-node"
 +++

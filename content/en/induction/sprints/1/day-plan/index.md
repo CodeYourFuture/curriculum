@@ -18,7 +18,7 @@ src="https://cyf-pd.netlify.app/blocks/goals-and-expectations-on-the-software-de
 time="60"
 [[blocks]]
 name="Learning as Community"        
-src="induction/blocks/learning-as-community"
+src="blocks/modules/induction/learning-as-community"
 time="70"
 [[blocks]]
 name="Availability"
@@ -37,7 +37,7 @@ src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
 time="120"
 [[blocks]]
 name="Next steps"
-src="induction/blocks/next-steps"
+src="blocks/modules/induction/next-steps"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

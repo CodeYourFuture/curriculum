@@ -20,7 +20,7 @@ name="Demo"
 src="https://cyf-pd.netlify.app/blocks/demo-your-product/readme/"
 [[blocks]]
 name="Guest Speaker"
-src="portfolio/blocks/guest"
+src="blocks/modules/portfolio/guest"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
@@ -29,11 +29,11 @@ name="Retrospective"
 src="blocks/retro"
 [[blocks]]
 name="Project Work"
-src="portfolio/blocks/project"
+src="blocks/modules/portfolio/project"
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="Project Work"
-src="portfolio/blocks/project"
+src="blocks/modules/portfolio/project"
 +++

@@ -18,7 +18,7 @@ name="Spaced Repetition"
 src="blocks/spaced-repetition"
 [[blocks]]
 name="What are Components?"
-src="html-css/blocks/what-are-components"
+src="blocks/modules/html-css/what-are-components"
 [[blocks]]
 name="Understand SMART goals"
 src="https://cyf-pd.netlify.app/blocks/prep-for-smart-goals/readme/"

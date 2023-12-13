@@ -29,7 +29,7 @@ src="https://cyf-pd.netlify.app/blocks/create-groups-for-js3/readme/"
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-src="js2/blocks/check-in"
+src="blocks/modules/js2/check-in"
 name="Check in"
 [[blocks]]
 src="blocks/study-60"
@@ -39,7 +39,7 @@ time="70"
 src="blocks/afternoon-break"
 name="Afternoon break"
 [[blocks]]
-src="js2/blocks/demo"
+src="blocks/modules/js2/demo"
 name="Demo"
 [[blocks]]
 src="blocks/retro"

@@ -14,7 +14,7 @@ name="Goal of this module"
 src="https://cyf-pd.netlify.app/blocks/goal-of-the-portfolio-module/readme/"
 [[blocks]]
 name="Ground rules"
-src="portfolio/blocks/ground-rules"
+src="blocks/modules/portfolio/ground-rules"
 [[blocks]]
 name="Reviewing and improving your goals"
 src="https://cyf-pd.netlify.app/blocks/reviewing-and-improving-goals/readme/"
@@ -23,22 +23,22 @@ name="Morning Break"
 src="blocks/morning-break"
 [[blocks]]
 name="Gathering requirements"
-src="portfolio/blocks/requirements"
+src="blocks/modules/portfolio/requirements"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="User Interface"
-src="portfolio/blocks/interfaces"
+src="blocks/modules/portfolio/interfaces"
 [[blocks]]
 name="Data"
-src="portfolio/blocks/data"
+src="blocks/modules/portfolio/data"
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="Project Work"
-src="portfolio/blocks/break-it-down"
+src="blocks/modules/portfolio/break-it-down"
 [[blocks]]
 name="Prep for the week"
 src="https://cyf-pd.netlify.app/blocks/prep-the-work-for-the-week/readme/"

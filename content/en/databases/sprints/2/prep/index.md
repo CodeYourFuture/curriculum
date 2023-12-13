@@ -9,20 +9,20 @@ backlog= 'Module-Databases'
 backlog_filter= 'Week 2'
 [[blocks]]
 name="Using Aggregate Functions"
-src="databases/blocks/using-aggregate-functions"
+src="blocks/modules/databases/using-aggregate-functions"
 [[blocks]]
 name="Inserting, Updating and Deleting Rows"
-src="databases/blocks/updating-rows"
+src="blocks/modules/databases/updating-rows"
 [[blocks]]
 name="Joining Tables"
-src="databases/blocks/joining-tables"
+src="blocks/modules/databases/joining-tables"
 [[blocks]]
 name="Creating Tables"
-src="databases/blocks/creating-a-table"
+src="blocks/modules/databases/creating-a-table"
 [[blocks]]
 name="Defining Primary and Foreign Keys"
-src="databases/blocks/defining-keys"
+src="blocks/modules/databases/defining-keys"
 [[blocks]]
 name="Integration with Node"
-src="databases/blocks/integration-with-node"
+src="blocks/modules/databases/integration-with-node"
 +++

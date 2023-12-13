@@ -7,14 +7,14 @@ menu_level = ["module"]
 weight = 1
 [[blocks]]
 name="Handshake"
-src="induction/blocks/handshake"
+src="blocks/modules/induction/handshake"
 [[blocks]]
 name="Check Git"
-src="induction/blocks/check-git-installation"
+src="blocks/modules/induction/check-git-installation"
 [[blocks]]
 name="Install VS Code"
-src="induction/blocks/install-vscode"
+src="blocks/modules/induction/install-vscode"
 [[blocks]]
 name="Create CYF Folder"
-src="induction/blocks/cyf-folder"
+src="blocks/modules/induction/cyf-folder"
 +++

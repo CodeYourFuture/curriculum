@@ -21,7 +21,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Using the curriculum"
-src="fundamentals/blocks/using-the-curriculum"
+src="blocks/modules/fundamentals/using-the-curriculum"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -39,7 +39,7 @@ name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="Ship It"
-src="fundamentals/blocks/ship-it-requirements"
+src="blocks/modules/fundamentals/ship-it-requirements"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
