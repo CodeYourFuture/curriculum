@@ -38,6 +38,9 @@ name="Study Group 2"
 src="blocks/study-group"
 time="60"
 [[blocks]]
+name="Working Software and Done"
+src="https://cyf-pd.netlify.app/blocks/working-software-and-done/readme/"
+[[blocks]]
 name="Retro"
 src="blocks/retro"
 +++
