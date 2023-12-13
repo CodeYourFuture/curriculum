@@ -9,12 +9,10 @@ fi
 MODULE_NAME=$1
 MODULE_DIR="content/$MODULE_NAME"
 SPRINT_DIR="$MODULE_DIR/sprints"
-BLOCKS_DIR="$MODULE_DIR/blocks"
 PRODUCT_DIR="$MODULE_DIR/product"
 
 mkdir -p $MODULE_DIR
 mkdir -p $SPRINT_DIR
-mkdir -p $BLOCKS_DIR
 mkdir -p $PRODUCT_DIR
 
 echo "+++
@@ -81,24 +79,6 @@ MENU_ORDER=$((MENU_ORDER + 1))
   done
 done
 
-BLOCKS=("block1" "block2" "block3")
-
-for block in "${BLOCKS[@]}"; do
-  mkdir -p $BLOCKS_DIR/$block
-  echo "+++
-title = '$block'
-headless = true
-time = 30
-facilitation = false
-emoji= '🧩'
-[objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
-+++
-
-" > $BLOCKS_DIR/$block/index.md
-done
 
 PRODUCT_FILES=("plan" "build" "test" "ship")
 echo "+++
