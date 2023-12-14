@@ -9,7 +9,6 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.en]
-    baseURL = "/"
     contentDir = 'content/en'
     languageCode = 'en-GB'
     languageName = 'English'
