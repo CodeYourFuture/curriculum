@@ -29,7 +29,7 @@ name="Writing user story"
 src="https://cyf-pd.netlify.app/blocks/writing-user-stories/readme/"
 [[blocks]]
 name="Writing user story"
-src="https://cyf-pd.netlify.app/admin/#/collections/blocks/entries/sprint-planning/readme"
+src="https://cyf-pd.netlify.app/blocks/entries/sprint-planning/readme/"
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
