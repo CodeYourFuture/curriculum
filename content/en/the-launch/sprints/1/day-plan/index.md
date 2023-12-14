@@ -12,7 +12,7 @@ src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"
 [[blocks]]
 name="What is the Launch Module?"
 src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"
-[blocks]]
+[[blocks]]
 name="Prep and plan your product"
 src="https://cyf-pd.netlify.app/blocks/prep-and-plan-your-product/readme/"
 [[blocks]]
@@ -21,7 +21,7 @@ src="blocks/morning-break"
 [[blocks]]
 name="Design your product"
 src="https://cyf-pd.netlify.app/blocks/design-your-product/readme/"
-[blocks]]
+[[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
