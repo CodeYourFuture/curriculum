@@ -38,6 +38,9 @@ name="Study Group 2"
 src="blocks/study-group"
 time="60"
 [[blocks]]
+name="JD Hunting and Mock Interview"
+src="https://cyf-pd.netlify.app/blocks/jd-hunting-and-mock-interview/readme/"
+[[blocks]]
 name="Retro"
 src="blocks/retro"
 +++
