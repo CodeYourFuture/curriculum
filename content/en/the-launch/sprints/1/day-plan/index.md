@@ -14,7 +14,7 @@ name="What is the Launch Module?"
 src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"
 [blocks]]
 name="Prep and plan your product"
-src"https://cyf-pd.netlify.app/blocks/prep-and-plan-your-product/readme/"
+src="https://cyf-pd.netlify.app/blocks/prep-and-plan-your-product/readme/"
 [[blocks]]
 name="Morning Break"
 src="blocks/morning-break"
