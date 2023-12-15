@@ -1,9 +1,17 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "CodeYourFuture Curriculum"
-languageLang = "en"
 sectionPagesMenu = "main"
 enableEmoji = true
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    baseURL = "/"
+    contentDir = 'content/en'
+    languageCode = 'en-GB'
+    languageName = 'English'
 
 [menus]
     [[menus.secondary]]
@@ -27,6 +35,9 @@ tree = "https://github.com/CodeYourFuture/curriculum/tree/main/"
 edit = "https://github.com/CodeYourFuture/curriculum/edit/main/"
 root = "curriculum"
 orgapi = "https://api.github.com/repos/CodeYourFuture/"
+# We use a proxy which concatenates paginated responses, otherwise we miss results.
+# Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
+issuesorgapi = "https://github-issue-proxy.illicitonion.com/repos/CodeYourFuture/"
 
 [markup]
 [markup.tableOfContents]

@@ -2,7 +2,8 @@
   display: block;
   --outset: calc(-1 * var(--theme-spacing--gutter));
   --tabline: 1px;
-  margin: 0 var(--outset) calc(2.5 * var(--outset));
+  margin: 0 var(--outset) var(--theme-spacing--gutter);
+
   &__list {
     display: flex;
   }
@@ -24,7 +25,9 @@
     &:hover,
     &:focus {
       z-index: 2;
-      transform: translateY(3px);
+      transform: translateY(3px) scale(1.01);
+      box-shadow: 0 -2px 0 var(--theme-color--accent);
+      font-weight: 600;
     }
   }
   &__group {
@@ -46,9 +49,15 @@
       opacity: 1;
       z-index: 1;
     }
-  }
-  // a much subtler tab style for module indices so info can be loaded in without overwhelming
-  &--module {
-    margin: 0 0 var(--theme-spacing--6);
+    //not keen on this, might be time to start breaking out these components
+    .c-block__series--timeline & {
+      margin-bottom: var(--outset);
+      box-shadow: var(--theme-box-shadow--top);
+    }
+    &--pd {
+      .c-block__series--timeline & {
+        box-shadow: var(--theme-box-shadow--slim);
+      }
+    }
   }
 }

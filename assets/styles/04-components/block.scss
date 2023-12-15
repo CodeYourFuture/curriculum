@@ -23,6 +23,7 @@
     > a:not([class]) {
       text-decoration: none;
     }
+    scroll-margin-top: var(--theme-spacing--scrollmargin);
   }
 
   &--youtube {
@@ -45,17 +46,14 @@
 
   .c-block__series--timeline & {
     box-shadow: var(--theme-box-shadow--slim);
-
-    .c-block {
-      box-shadow: none;
-    }
-
-    &__lastmod {
-      display: none;
-    }
-
     &__time {
       font-size: var(--theme-type-size--6);
     }
+  }
+
+  &--pd.c-block {
+    box-shadow: none;
+    border: none;
+    padding-bottom: 0;
   }
 }

@@ -21,6 +21,10 @@ blockquote {
   border-image: var(--theme-border-image);
 }
 
+iframe {
+  max-width: 100%; //never break out right even if rogue devs add giant iframes
+}
+
 code,
 .code,
 pre code .highlight pre,

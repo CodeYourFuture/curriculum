@@ -8,6 +8,9 @@
     max-width: var(--theme-spacing--linelength);
   }
   margin-bottom: var(--theme-spacing--gutter);
+  li {
+    margin-bottom: reset;
+  }
   h1 {
     font-size: var(--theme-type-size--2);
   }
