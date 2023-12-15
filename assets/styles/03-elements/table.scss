@@ -8,6 +8,10 @@ table {
   border-image: var(--theme-border-image);
 }
 
+.highlight table {
+  width: 100%;
+}
+
 thead th {
   font: var(--theme-font--system);
   background-color: var(--theme-color--block);
