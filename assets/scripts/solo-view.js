@@ -149,8 +149,6 @@ class SoloView extends HTMLElement {
       );
     });
 
-    console.log(this.state.currentBlockIndex);
-
     // Hide unusable buttons
     this.state.navButtons.back.style.display =
       this.state.currentBlockIndex === 0 ? "none" : "inline-flex";
