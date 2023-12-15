@@ -10,11 +10,11 @@ emoji= '🧩'
 
 We have already learned about the **[Node.js](https://nodejs.org/en/)** runtime environment and how it allows us to run JavaScript code outside of the browser. We have also learned about the **[Node Package Manager (npm)](https://www.npmjs.com/)** and how it allows us to download and use other people's code in our own projects.
 
-Today we will learn about **[Express](https://expressjs.com/)**, a Node.js framework that helps us to build web servers and APIs.
+Now we will learn about **[Express](https://expressjs.com/)**, a Node.js framework that helps us to build web servers and APIs.
 
 ## 💁🏼‍♂️ What is a web server?
 
-A web server is a computer program that serves content to other programs (called clients). The term can refer to the entire system, or specifically to the software that accepts and supervises the HTTP requests.
+A web server is software that accepts requests for web pages, assets, APIs, and other network resources from client programs like web browsers. When a browser requests a web page, the server finds the desired content and returns the appropriate response.
 
 ### 🗺️ Explore the web server
 
@@ -27,13 +27,13 @@ const express = require("express");
 const app = express();
 
 //Register some handlers for different routes.
-app.get("/", function (request, response) {
+app.get("/", (request, response) => {
     response.send("Hello CYF");
 });
-app.get("/two", function (request, response) {
+app.get("/two", (request, response) => {
     response.send("Another route");
 });
-app.get("/numbers", function(request, response) {
+app.get("/numbers", (request, response) => {
   const someData = [1, 2, 3];
   response.json(someData);
 });
@@ -56,6 +56,9 @@ Can you work out what each those lines are doing? Write down your predictions.
 
 {{</note>}}
 
+<details>
+<summary>📚 Stretch Goals: make and run a local copy</summary>
+
 ### 🏘️ Run the Simple Server locally
 
 {{<note type="activity" title="Set up your copy 5m">}}
@@ -77,8 +80,10 @@ Now try to modify the `server.js` code to do something different.
 
 #### Examples:
 
-1. Say "Hello Miles", instead of "Hello Kash"
+1. Say "Hello Margarita", instead of "Hello CYF"
 2. Make it return an array of strings as json.
 3. Make it return the current time
 4. Advanced: make it return whatever you want!
    {{</note>}}
+
+</details>
