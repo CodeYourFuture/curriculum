@@ -14,6 +14,10 @@ The first thing we need to do is build our server. You will often need to build 
 
 Let's build our server! In your project, create a new file called `server.js`. This is where all our server code is going to live.
 
+```zsh
+touch server.js
+```
+
 #### 2. `require` the `express` library
 
 We just installed Express, but we need to make sure it is included in this file specifically so we can use its methods. In Node.js, when you want to use Express in another file, you must `require` it.
