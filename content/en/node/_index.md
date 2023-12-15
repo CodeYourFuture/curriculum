@@ -1,8 +1,8 @@
 +++
 title = 'Node'
-description = 'The plan for Node is coming soon'
+description = 'Write server-side JavaScript with Node.js; develop CRUD applications with Express.js '
 layout = 'module'
-emoji= '📚'
+emoji= '🔌'
 menu = ['syllabus']
 weight='7'
 +++
