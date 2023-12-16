@@ -21,4 +21,10 @@ src="node/blocks/crud-challenges"
 [[blocks]]
 name="Reading from the filesystem"
 src="https://www.youtube.com/watch?v=GOWPQ3cGHbE"
+[[blocks]]
+name="Writing tests in Postman"
+src="https://www.youtube.com/watch?v=oXW-C2bM0wE"
+[[blocks]]
+name="Interactive Postman workspace"
+src="node/blocks/test-examples-in-postman"
 +++
