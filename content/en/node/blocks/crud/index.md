@@ -20,8 +20,7 @@ We will build a CRUD API. CRUD stands for **C**reate, **R**etrieve, **U**pdate, 
 Our API will manage movie data. It will:
 
 ✨ **C**reate a new movie,
-🐕 **R**etrieve a list of movies or a single movie,
-📨 **U**pdate a list of movies
+🐕 **R**etrieve a list of movies or a single movie
 
 We will build these endpoints:
 
