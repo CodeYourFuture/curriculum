@@ -5,7 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Require the Express package in a file'
+    1='Import the Express package in a file'
 +++
 
 The first thing we need to do is build our server. You will often need to build a server when writing back-end code. You can write a server in plain JavaScript, but Express is simpler to work with.
@@ -18,15 +18,22 @@ Let's build our server! In your project, create a new file called `server.js`. T
 touch server.js
 ```
 
-#### 2. `require` the `express` library
+#### 2. `import` the `express` library
 
-We just installed Express, but we need to make sure it is included in this file specifically so we can use its methods. In Node.js, when you want to use Express in another file, you must `require` it.
+We just installed Express, but we need to make sure it is included in this file specifically so we can use its methods. In Node.js, when you want to use Express in another file, you must `import` it.
 
 To require Express, write the following inside `server.js`:
 
 ```js
-const express = require("express");
+import express from "express";
 ```
+
+{{<note type="warning" title="CJS legacy">}}
+Sometimes you will see `require` instead of `import`. This is because `require` is the old (CJS) way of importing packages in Node.js and not all environments (like runkit) are updated yet. If you see `require` in the curriculum, probably use `import` instead.
+
+CJS syntax: `const express = require("express");`
+MJS syntax: `import express from "express";`
+{{</note>}}
 
 #### 3. Initialise the server
 

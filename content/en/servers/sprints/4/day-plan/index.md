@@ -5,12 +5,12 @@ emoji= '📝'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Node'
-backlog_filter= 'Week 3'
+backlog_filter= 'Week 4'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name="Placeholder Workshop"
+name="Wordle Hackathon"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="120"
 [[blocks]]
@@ -32,6 +32,7 @@ name="PD Placeholder"
 src="blocks/pd-placeholder"
 time=90
 [[blocks]]
-name="Retro"
-src="blocks/retro"
+name="Progress check-in"
+src="https://github.com/CodeYourFuture/Module-Node/issues/128"
+time="15"
 +++

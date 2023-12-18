@@ -5,14 +5,17 @@ emoji= '📝'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Node'
-backlog_filter= 'Week 4'
+backlog_filter= 'Week 1'
 [[blocks]]
-name="Energiser"
-src="blocks/energiser"
+name="Non-Verbal Communication Energiser"
+src="https://cyf-pd.netlify.app/blocks/non-verbal-communication/readme/"
 [[blocks]]
-name="Placeholder Workshop"
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Express Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
-time="120"
+time="90"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
@@ -28,11 +31,10 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="PD Placeholder"
-src="blocks/pd-placeholder"
-time=90
+name="Study Group 2"
+src="blocks/study-group"
+time="90"
 [[blocks]]
-name="Progress check-in"
-src="https://github.com/CodeYourFuture/Module-Node/issues/128"
-time="15"
+name="Retro"
+src="blocks/retro"
 +++
