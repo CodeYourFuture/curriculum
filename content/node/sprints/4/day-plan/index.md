@@ -7,10 +7,10 @@ weight = 3
 backlog= 'Module-Node'
 backlog_filter= 'Week 4'
 [[blocks]]
+name="Sell Yourself"
+src="https://cyf-pd.netlify.app/blocks/sell-yourself/readme/"
+[[blocks]]
 name="Progress check-in"
 src="https://github.com/CodeYourFuture/Module-Node/issues/128"
 time="15"
-[[blocks]]
-name="Sell Yourself"
-src="https://cyf-pd.netlify.app/blocks/sell-yourself/readme/"
 +++
