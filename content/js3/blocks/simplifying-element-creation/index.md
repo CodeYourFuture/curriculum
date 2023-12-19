@@ -15,12 +15,12 @@ The code we have is quite repetitive and verbose. It does similar things lots of
 
 Let's look at two ways we could simplify this code.
 
-### Refactoring: Extraction a function
+### Refactoring: Extracting a function
 
 One way we can simplify this code is to refactor it.
 
 {{<note type="tip" title="Definition: refactoring">}}
-The process of updating our code quality (without changing the implementation) is called **refactoring**.
+To refactor means to update our code _quality_ without changing the _implementation_.
 {{</note>}}
 
 We can identify things we're doing several times, and extract a function to do that thing for us.
@@ -82,8 +82,8 @@ document.body.append(card);
 
 This code does exactly the same thing as the code we had before. By introducing a function we have introduced some advantages:
 1. Our code is smaller, which can make it easier to read and understand what it's doing.
-2. If we want to change how we create elements (e.g. if we wanted to also add a class attribute for each element), we only need to write the new code one time, not for every element.
-3. We can see that each of the elements is being created the same way. Before, if we wanted to make sure the director element and duration element were created the same, we would have to compare several lines of code. Because we can see they're calling the same function, we know they're made the same way.
+2. If we want to change how we create elements we only need to write the new code one time, not for every element. We could add a class attribute for each element easily.
+3. We can see that each element is being created the same way. Before, we would have to compare several lines of code to see this. Because we can see they're calling the same function, we know they're made the same way.
 
 There are also some drawbacks to our refactoring:
 1. If we want to change how we create some elements (e.g. we want to include an image of the director, replace the certificate text with a symbol, etc), we may have made it _harder_ to make these changes.
@@ -91,7 +91,7 @@ There are also some drawbacks to our refactoring:
 
 ### Using `<template>` tags
 
-A different way we could simplify this code is to use a different technique for creating elements.
+We could simplify this code with a different technique for creating elements.
 
 Until now, we have only seen one way to create elements: `document.createElement`.
 
