@@ -17,6 +17,120 @@ Attendees:
 
 ---
 
+## 2023-12-19
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Mitchell Lloyd, Sally McGrath, Zsolt Sztupak
+
+### Sprint planning
+
+Sprint is basically "review all the things".
+* Ali will make sure Node gets merged.
+* Daniel will make sure JS3 gets merged.
+* Sally will port React
+
+### ❗Actions from last time
+
+- [x] Ali (Carry-over): to put together a proposed ordering of training videos to watch, and arrange a time for discussion.
+- [ ] Ali (Carry-over): Review JS1 & 2 content
+- [x] Ali: Update meeting reminder bot to happen on Tuesdays not Thursdays
+- [ ] Ali: Find/Make ticket about reworking React
+- [x] Daniel: Read up on Zsolt's discussion about backend hosting platforms and engage (and also see if he's interested in reworking the full-stack assessment to be more feature-based)
+- [x] Sally: Share application process details with MigraCode folks
+- [ ] Isar: Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Isar: Get all the relevant MigraCode people to fill in [this form](https://docs.google.com/forms/d/1sp2MTsU0eEAr4HCKXfDPxUXXZROWN8UyHIrDk7dRSJk/edit) to join CYF GitHub teams.
+- [ ] Sally: Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [ ] Ali: Write up a ticket for Sally to document the architecture of the curriculum website
+
+### 📝 Agenda points
+
+#### Curriculum repo layout
+
+* Monorepos make it simpler to do things atomically (e.g. for wide-scale change, for unified previews, etc), and to not need to build tooling around stitching things together.
+  * Each time we need to build tooling to bridge gaps, either we need to spend time on that tooling, or we need to be sad because we have to live with the limitations of not having that tooling.
+* Our core model is composibility - separating things around can make it easier for people to focus on just their corner of the world.
+* Each place we have an extra repo adds complexity - we should be careful to justify why this it's worth adding this complexity for each exception we make.
+* Not super clear what value we get from seprate _repos_ over separate _directories_ (which may have their own permissions)?
+  * But Hugo's module system strongly assumes each module has _releases_ of some kind, and we may need to invent some cunning scheme to make this work.
+* Git submodules could potentially help, but also could add complexity.
+* Sally is going to try to build some kind of release system within Hugo and send it out for high-bar review, outside of the curriculum repo so we can experiment and iterate.
+* After prototyping, will need to have branding discussions about exactly where the curriculum lives, if it's hosting multiple organisations' curricula.
+
+#### CYF+
+
+* Refresher on CYF+:
+  * Partnership with Slack - they're paying us to run the course, and are paying the trainees for a year to take the course and then guaranteeing them employment for the rest of the year.
+
+* Slack asked for March, we're pushing for late April because there's lots to do.
+* Has been approved by the CTO so we can talk about it happening, but timelines are a little in the air.
+* One graduate will end up in demand engineering, one in data stores, but both will do a data-focused course.
+* Have to put together some data-focused work and projects.
+* Would like to have a pre-work booklet in January so people (particularly trainees) can start looking at it.
+* Important that folks are aware it's not a London-only programme.
+* Salim is on board to revise the raft project with Laura.
+  * Project is very impressive, but also was a bit ambitious - don't want to break our trainees!
+
+#### Deployment platforms for our trainees
+
+* How much should we balance "what we teach" with "how later things will be deployed"?
+  * A lot of the higher-level frameworks around React (next, remix, ...) abstract away a lot of the things that are useful to understand.
+    * Sally has been migrating React Hotel to Vite - could happily put together a few other examples implementations with frameworks (e.g. Preact) we can compare/contrast.
+  * As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encoutered.
+* A few really different concerns for our trainees:
+  * Can you understand what's going on with a deployment platform?
+  * Can you completely ignore the deployment platform details because we're actually focusing on something else?
+  * Are we giving you a platform you can build more on (e.g. for final projects)
+  * Where can we host portfolios that will show off our trainees at their best?
+
+* Zsolt's recent research:
+  * **tl;dr: Netlify + Supabase seems like a winner.**
+  * Currently we have Netlify/Render for frontend, Render for backend, Render for DB.
+  * JS seems to be migrating to more of a serverless backend style - Netlify, AWS Lambda, ... support something along these lines
+    * Netlify and AWS support "Express as Lambda"
+      * Latency appears to be ~200ms per request - free lambdas are only in US
+        * We have an unlimited plan, so could maybe move them to EU and maybe host trainee projects - we should experiment, but we can't on-board the trainees themselves onto the team.
+        * We should sign Zsolt up to our netlify team.
+    * Could be interesting to migrate from Express to something else, but not going to happen in time for WM5!
+  * Full-stack assessment seems to make the most sense on Render because everything fits there.
+    * Probably shouldn't live in people's portfolios, but some people currently do!
+  * ElephantSQL have just removed their free tier for databases.
+  * Supabase still offer free databases, and seems pretty good.
+    * Has a time limit for inactive projects - need at least one request per week, and they email on inactivity.
+    * Supabase have some kind of auth support we may want to investigate.
+  * If we settle on supabase, we should probably build our own cron-curler that our trainees can register for.
+    * There's also a GitHub action that could help here: https://github.com/marketplace/actions/scheduled-ping
+  * fly.io is really fast and high-quality, but more complicated to set up
+    * Spin down/up seems really good, faster than Netlify serverless functions at all!
+    * But you only get two "boxes" you can deploy - two backends, or one backend and one database.
+  * CloudFlare:
+    * Lambda doesn't have Express wrapper - needs to write some custom Lambda API. DB is SQLite.
+  * Experience hiring people with Heroku sites:
+    * Everyone knew Heroku put things to sleep and so would maybe cut folks some slack (but maybe that's just friendly hiring managers).
+  * If we could get everything unlimited for free, Render would probably be our choice.
+  * We need to think about how we're going to evolve our curriculum technology-wise.
+    * If we end up migrating more towards serverless and are less tied to Postgres specifically, maybe CloudFlare.
+      * CloudFlare runs their own JS interpreter which isn't quite Node - could run into some tricky debugging issues if people end up getting deep into Node.
+    * Deno ecosystem support seems a bit early for us to be teaching now, but may be more relevant for us in the future.
+      * There is an HTTP server library that works with both Node and Deno
+  * Migrating to serverless backends will force us to stop people using global state variables in their backends which they assume persist across requests.
+    * We will need to update the curriculum a bit to handle this, as well as the full-stack assessment.
+    * Part of this is the same concern as the full-stack assessment being framed as "do a frontend" then "do a backend" then "add a database" rather than end-to-end feature-driven.
+
+### ❗Actions
+
+- [ ] Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Isar (Carry-over): Get all the relevant MigraCode people to fill in [this form](https://docs.google.com/forms/d/1sp2MTsU0eEAr4HCKXfDPxUXXZROWN8UyHIrDk7dRSJk/edit) to join CYF GitHub teams.
+- [ ] Sally (Carry-over): Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [ ] Ali (Carry-over): Write up a ticket for Sally to document the architecture of the curriculum website
+- [ ] Sally: Create a MRE of a monorepo module system and send it out for review.
+- [ ] Sally: Get Zsolt a CYF email and on-boarded into our Netlify team plan.
+- [ ] Zsolt: Experiment with the CYF Netlify team.
+- [ ] Zsolt: Migrate everything in the curriculum to be Netlify + Supabase based.
+- [ ] Zsolt: Reframe the full-stack assessment to be end-to-end feature slices rather than frontend - backend - DB.
+- [ ] Sally: Cancel the syllabus team meeting on 2024-01-02.
+
+---
+
 ## 2023-12-05
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
