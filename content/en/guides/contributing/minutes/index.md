@@ -58,7 +58,7 @@ Sprint is basically "review all the things".
 #### CYF+
 
 * Refresher on CYF+:
-  * Partnership with Slack - they're paying us to run the course, and are paying the trainees for a year to take the course and then guaranteeing them employment for the rest of the year.
+  * Partnership with Slack - they're paying the trainees to take the course and on successful completion, a fixed term contract. This will be our second run. First run they hired both trainees in permanent roles -- this partnership is not a job guarantee.
 
 * Slack asked for March, we're pushing for late April because there's lots to do.
 * Has been approved by the CTO so we can talk about it happening, but timelines are a little in the air.
