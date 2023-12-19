@@ -99,7 +99,7 @@ The DOM has another way of creating elements - we can _copy_ existing elements a
 
 HTML has a useful tag designed to help make this easy, [the `<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). When you add a `<template>` element to a page, it doesn't get displayed when the page loads.
 
-We can copy any DOM element, not just `<template>` tags. For this problem, we will uus a `<template>` tag.
+We can copy any DOM element, not just `<template>` tags. For this problem, we will use a `<template>` tag because it isn't displayed, but can be used to make elements which are.
 
 When we copy an element, its children also get copied.
 
