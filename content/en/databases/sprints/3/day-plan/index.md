@@ -10,9 +10,9 @@ backlog_filter= 'Week 3'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name= "PD Placeholder"
-src="blocks/pd-placeholder"
-time="45"
+name="JD Hunting and Mock Interview"
+src="https://cyf-pd.netlify.app/blocks/jd-hunting-and-mock-interview/readme/"
+time="60"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
@@ -37,9 +37,6 @@ src="blocks/afternoon-break"
 name="Study Group 2"
 src="blocks/study-group"
 time="60"
-[[blocks]]
-name="JD Hunting and Mock Interview"
-src="https://cyf-pd.netlify.app/blocks/jd-hunting-and-mock-interview/readme/"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
