@@ -23,6 +23,7 @@
     > a:not([class]) {
       text-decoration: none;
     }
+    scroll-margin-top: var(--theme-spacing--scrollmargin);
   }
 
   &--youtube {

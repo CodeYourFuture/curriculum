@@ -1,9 +1,17 @@
 baseURL = "/"
-languageCode = "en-us"
 title = "CodeYourFuture Curriculum"
-languageLang = "en"
 sectionPagesMenu = "main"
 enableEmoji = true
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    baseURL = "/"
+    contentDir = 'content/en'
+    languageCode = 'en-GB'
+    languageName = 'English'
 
 [menus]
     [[menus.secondary]]
