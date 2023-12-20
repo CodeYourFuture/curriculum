@@ -22,4 +22,7 @@ src="https://www.youtube.com/watch?v=cZyYyXltHa0"
 [[blocks]]
 name="Communicating with db"
 src="databases/blocks/communicating-with-db"
+[[blocks]]
+name="Prep Working Software and Done"
+src="https://cyf-pd.netlify.app/blocks/prep-working-software-and-done/readme/"
 +++

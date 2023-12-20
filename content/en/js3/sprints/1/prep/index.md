@@ -19,6 +19,9 @@ src="js3/blocks/single-datum"
 name="composing elements"
 src="js3/blocks/composing-elements"
 [[blocks]]
+name="Simplifying element creation"
+src="js3/blocks/simplifying-element-creation"
+[[blocks]]
 name="components"
 src="js3/blocks/components"
 [[blocks]]

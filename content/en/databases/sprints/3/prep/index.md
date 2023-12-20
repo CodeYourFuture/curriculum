@@ -15,4 +15,7 @@ src="databases/blocks/more-selective"
 [[blocks]]
 name="CRUD"
 src="databases/blocks/crud"
+[[blocks]]
+name="JD Hunting And Mock Interview"
+src="https://cyf-pd.netlify.app/blocks/prep-competency-based-interviews/readme/"
 +++
