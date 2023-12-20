@@ -8,16 +8,16 @@ backlog= 'Module-Node'
 backlog_filter= 'Week 3'
 [[blocks]]
 name="CRUD"
-src="node/blocks/crud-2"
+src="servers/blocks/crud-2"
 [[blocks]]
 name="PUT"
-src="node/blocks/put"
+src="servers/blocks/put"
 [[blocks]]
 name="PUT Codealong with Mitch"
 src="https://www.youtube.com/watch?v=zQHM8S74FJE"
 [[blocks]]
 name="CRUD Challenges"
-src="node/blocks/crud-challenges"
+src="servers/blocks/crud-challenges"
 [[blocks]]
 name="Reading from the filesystem"
 src="https://www.youtube.com/watch?v=GOWPQ3cGHbE"
@@ -26,5 +26,5 @@ name="Writing tests in Postman"
 src="https://www.youtube.com/watch?v=oXW-C2bM0wE"
 [[blocks]]
 name="Interactive Postman workspace"
-src="node/blocks/test-examples-in-postman"
+src="servers/blocks/test-examples-in-postman"
 +++

@@ -33,7 +33,7 @@ src="blocks/pd-placeholder"
 time=60
 [[blocks]]
 name="Set up Render"
-src="node/blocks/render"
+src="servers/blocks/render"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
