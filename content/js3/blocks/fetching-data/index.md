@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Update a problem statement using web APIs to fetch data'
 +++
 
-So far we have displayed films data stored in our JavaScript code. But real applications fetch data from servers over the internet. We can restate our problem as follows:
+So far we have displayed film data stored in our JavaScript code. But real applications fetch data from servers over the internet. We can restate our problem as follows:
 
 > _Given_ a **web API that serves** film data
 > _When_ the page first loads
@@ -18,10 +18,14 @@ We will use [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_A
 A client side Web API lives in the browser. They provide programmatic access _to_ built-in browser functions _from_ JavaScript. {{</tooltip>}}. Fetch will fetch our data from the {{<tooltip title="server side Web API">}}
 A server side Web API lives on a server. They provide programmatic access _to_ data or functions stored on the server _from_ JavaScript. {{</tooltip>}}.
 
+Web APIs are useful because they let us get information which we don't ourselves know. The information may change over time, and we don't need to update our application. When we ask for the information, the web API will tell us the latest version.
+
+We also don't need to know how the web API works in order to use it. It may be written in a different programming language. It may talk to other web APIs we don't know about. All we need to know is how to talk to it.
+
 _Using_ fetch is simple. But we want to understand what is happening more completely. So let's take ourselves on a journey through time.
 
 <details> 
-<summary>👉🏾 Unfurl to see the journey</summary>
+<summary>👉🏾 Unfurl to see the journey (we will explain this all below!)</summary>
 
 ```mermaid
 graph TD

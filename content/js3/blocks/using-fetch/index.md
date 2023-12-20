@@ -23,10 +23,12 @@ But we still don't know how to use `fetch` to get data from a server side API. L
 ```js
 const endpoint = "//curriculum.codeyourfuture.io/dummy-apis/films.json";
 const fetchPromise = fetch(endpoint);
-fetchPromise.then((response) => {
+const _ = fetchPromise.then((response) => {
   console.log(response.json());
 });
 ```
+
+In the console, you can see a `Promise` was logged. A `Promise` is a placeholder which contains some data, but where the data may not be known yet. If you expand the `PromiseResult`, you should see some data which was returned from a server.
 
 So that's how we use `fetch` to get data from a server side API. In [our filterFilms code](https://curriculum.codeyourfuture.io/filterfilms), we can replace the films array with the data fetched from the server.
 

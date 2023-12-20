@@ -16,10 +16,10 @@ Consider this visualisation of an asynchronous program:
 
 When we call [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) we send **a function call** to a client side Web API. The code isn't executing in our single thread any more, so we can run the next line. The countdown _is_ happening, but it's not happening _in our thread_.
 
-When the time runs out, our Web API sends a message to our program to let us know. This is called an {{<tooltip title="event">}}An event is a signal that something has happened.{{</tooltip>}}. Our API sends its message to our {{<tooltip title="event loop">}}The event loop is a JavaScript mechanism that handles asynchronous callbacks.{{</tooltip>}}. And what message does the event loop send? It sends a **callback**. It sends _our_ call _back_.
+When the time runs out, our Web API sends a message to our program to let us know. This is called an {{<tooltip title="event">}}An event is a signal that something has happened.{{</tooltip>}}. Our API sends its message to our {{<tooltip title="event loop">}}The event loop is a JavaScript mechanism that handles asynchronous callbacks.{{</tooltip>}}. And what message does the event loop send? It sends a **callback**. It sends _our_ call _back_. It tells our thread to run the code in that function.
 
 {{<note type="tip" title="Our call is back">}}
-A callback is our function call, sent back to us through the event loop.
+A callback is our function call, sent back to us through the event loop, for us to run.
 {{</note>}}
 
 {{<tabs name="Event Loop">}}

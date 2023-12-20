@@ -42,16 +42,18 @@ When we call a function, the function will run to completion before the next lin
 
 {{<tabs name="Event Loop">}}
 {{<tab name="Event Listener">}}
-We have already used asynchronous execution. We have defined eventListeners that _listen_ for events to happen, _then_ execute a callback function. But here's a new idea: eventListeners are part of the [Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event). They are not part of JavaScript! 🤯
+We have already used asynchronous execution. We have defined eventListeners that _listen_ for events to happen, _then_ execute a callback function. But here's a new idea: eventListeners are part of the [Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event). They are not part of JavaScript! 🤯 This means you can't use them in a Node REPL, but they are implemented in web browsers. The core of JavaScript is the same everywhere, but different contexts may add extra APIs.
 
 When you set an eventListener you are really sending a call to a Web API and asking it do something for you.
 
 ```js
 const search = document.getElementById("search");
-const waitForEvent = search.addEventListener("input", handleInput);
+search.addEventListener("input", handleInput);
 ```
 
 The callback `handleInput` cannot run until the user types. With `fetch`, the callback function cannot run until the data arrives. In both cases, we are waiting for something to happen before we can run our code.
+
+We use a function as a way of wrapping up the code that needs to be run later on. This means we can tell the browser _what_ to do when we're done waiting.
 {{</tab>}}
 {{<tab name="Visualise the Event Loop">}}
 
