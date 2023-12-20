@@ -10,6 +10,7 @@
 {{ end }}
 {{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
   {{ $hasTOC = true }}
+  {{ $mdTOC = true }}
   {{ $blockTOC = true }}
 {{ end }}
 <header
@@ -53,7 +54,7 @@
     {{ end }}
     <!--TOC-->
     {{ if $hasTOC }}
-      <div class="c-page-header__toc is-none--lt-container" id="toc">
+      <div class="c-page-header__toc " id="toc">
         <section class="c-toc">
           <a id="top" class="c-toc__top e-button e-button--icon" href="#toc"
             >🔖</a

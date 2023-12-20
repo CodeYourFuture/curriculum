@@ -1,5 +1,6 @@
 $c-min: 300px;
-$c-max: 1200px; // this is here so you can reference in media queries if you want
+$c-med: 768px;
+$c-max: 1280px; // this is here so you can reference in media queries if you want
 
 $spacing__levels: 1, 2, 3, 4, 5, 6;
 :root {
@@ -19,11 +20,10 @@ $spacing__levels: 1, 2, 3, 4, 5, 6;
 
   --theme-spacing--container-min: #{$c-min};
   --theme-spacing--container-max: #{$c-max};
+  --theme-spacing--container-med: #{$c-med};
   --theme-spacing--gutter: var(--theme-spacing--2);
   --theme-spacing--offset: var(--theme-spacing--1); //set by eye is fine
   --theme-spacing--linelength: 80ch; // readability maximum
   --theme-spacing--touchtarget: 48px; // access minimum
-  --theme-spacing--menu: calc(
-    var(--theme-spacing--gutter) * 2
-  ); // the big long menu trigger
+  --theme-spacing--scrollmargin: var(--theme-spacing--6);
 }
