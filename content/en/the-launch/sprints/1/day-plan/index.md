@@ -4,8 +4,6 @@ layout = 'day-plan'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-Final-Projects'
+backlog= 'Module-The-Launch'
 backlog_filter= 'Week 1'
 +++
-
-
