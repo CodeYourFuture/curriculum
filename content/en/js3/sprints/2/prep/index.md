@@ -14,14 +14,20 @@ src="js3/blocks/reacting"
 name="Decomposition"
 src="js3/blocks/break-down"
 [[blocks]]
+name="Identifying state"
+src="js3/blocks/identifying-state"
+[[blocks]]
+name="Refactoring to state+render"
+src="js3/blocks/refactoring-to-state-and-render"
+[[blocks]]
+name="Introducing new state"
+src="js3/blocks/introducing-new-state"
+[[blocks]]
+name="Rendering based on state"
+src="js3/blocks/rendering-based-on-state"
+[[blocks]]
 name="Capturing events"
 src="js3/blocks/capturing-events"
-[[blocks]]
-name="Updating state"
-src="js3/blocks/updating-state"
-[[blocks]]
-name="Rendering"
-src="js3/blocks/re-rendering-ui"
 [[blocks]]
 name= "Gathering requirements"
 src="https://cyf-pd.netlify.app/blocks/gathering-requirements-prep/readme/"

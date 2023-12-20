@@ -1,7 +1,7 @@
 +++
 title = '🧩 Break down the problem'
 headless = true
-time = "15"
+time = "30"
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -46,10 +46,36 @@ We need to listen for the `input` event on the search box to react as the user t
 
 ### 🎬 Filtering Data
 
-Once we have the latest search text, we can filter the list of films to only those whose titles contain the current search string. We can use JavaScript array methods like .filter() to return the matching films.
+Once we have the latest search text, we can filter the list of films. We can use JavaScript array methods like [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) to return films that match our search string.
 
-## Updating UI
+### 🆕 Updating UI
 
 With the latest filtered list of films in hand, we re-render these films to display the updated search results. We can clear the current film list and map over the filtered films to add updated DOM elements.
 
-Thinking through these aspects separately helps frame the overall task. Next we can focus on each piece - listening for input, filtering data, and re-rendering UI with the films example.
+Thinking through these aspects separately helps frame the overall task. Next we can focus on each piece:
+
+1. 👂🏿 Listening for input
+2. 🎬 Filtering data
+3. 🆕 Re-rendering UI with the films example.
+
+{{<note type="tip" title="Tip">}}
+We clear the current film list and then add elements based on our new list.
+{{</note>}}
+
+### 💭 Why clear out the list and make new elements?
+
+We could go through the existing elements, and _change_ them. We could add a `hidden` CSS class to ones we want to hide, and remove a `hidden` CSS class from those we want to show.
+
+But we prefer to clear out the list and make _new_ elements. We do not want to change existing ones.
+
+#### 🧘🏽‍♂️ Do the simplest thing
+
+It is **simpler** because we have fewer things to think about. With either approach, we need to solve the problem "which films do we want to show". By clearing out elements, we then only have to solve the problem "how do I display a film?". We don't also need to think about "how do I hide a film?" or "how do I show a film that was hidden?".
+
+#### 🍱 A place for everything
+
+In our pattern we only deal with how we turn data into a card in one place. If we need to worry about _changing_ how a card is displayed, that would have to happen somewhere else.
+
+By making new cards, we avoid thinking about how cards change.
+
+We can focus.
