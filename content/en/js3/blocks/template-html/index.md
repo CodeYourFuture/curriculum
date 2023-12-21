@@ -24,9 +24,9 @@ When we copy an element, its children get copied. This means we can write our te
 <template id="film-card">
   <section>
     <h3>Film title</h3>
-    <p>Director</p>
+    <p data-director>Director</p>
     <time>Duration</time>
-    <data>Certificate</data>
+    <p data-certificate>Certificate</p>
   </section>
 </template>
 ```
@@ -45,9 +45,11 @@ const film = {
 const card = document.getElementById("film-card").content.cloneNode(true);
 // Now we are querying our cloned fragment, not the entire page.
 card.querySelector("h3").textContent = film.title;
-card.querySelector("p").textContent = `Director: ${film.director}`;
+card.querySelector(
+  "[data-director]"
+).textContent = `Director: ${film.director}`;
 card.querySelector("time").textContent = `${film.duration} minutes`;
-card.querySelector("data").textContent = film.certificate;
+card.querySelector("[data-certificate]").textContent = film.certificate;
 
 document.body.append(card);
 ```
