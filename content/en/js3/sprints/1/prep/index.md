@@ -23,7 +23,7 @@ name="Simplifying element creation"
 src="js3/blocks/simplifying-element-creation"
 [[blocks]]
 name="<template>"
-src="js3/blocks/template"
+src="js3/blocks/template-html"
 [[blocks]]
 name="components"
 src="js3/blocks/components"
