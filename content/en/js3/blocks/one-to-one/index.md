@@ -1,5 +1,5 @@
 +++
-title = 'One to one'
+title = '👭🏾 One to one'
 headless = true
 time = 30
 facilitation = false

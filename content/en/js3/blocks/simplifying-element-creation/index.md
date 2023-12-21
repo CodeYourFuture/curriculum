@@ -1,5 +1,5 @@
 +++
-title = 'Simplifying element creation'
+title = '🧼 Simplifying element creation'
 headless = true
 time = 25
 facilitation = false
