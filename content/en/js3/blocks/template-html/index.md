@@ -1,7 +1,7 @@
 +++
 title = 'Simplifying element creation'
 headless = true
-time = 45
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -16,7 +16,7 @@ Until now, we have only seen one way to create elements: `document.createElement
 
 HTML has a useful tag designed to help make this easy, [the `<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). When you add a `<template>` element to a page, it doesn't get displayed when the page loads. It is an inert fragment of future HTML.
 
-We can copy any DOM node, not just `<template>` tags. For this problem, we will use a `<template>` tag.
+We can copy any DOM node, not just `<template>` tags. For this problem, we will use a `<template>` tag because it is designed for this purpose.
 
 When we copy an element, its children get copied. This means we can write our template card as HTML:
 
@@ -45,7 +45,7 @@ const film = {
 const card = document.getElementById("film-card").content.cloneNode(true);
 // Now we are querying our cloned fragment, not the entire page.
 card.querySelector("h3").textContent = film.title;
-card.querySelector("h4").textContent = `Director: ${film.director}`;
+card.querySelector("p").textContent = `Director: ${film.director}`;
 card.querySelector("time").textContent = `${film.duration} minutes`;
 card.querySelector("data").textContent = film.certificate;
 

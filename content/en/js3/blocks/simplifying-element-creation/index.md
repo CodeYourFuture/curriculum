@@ -1,18 +1,16 @@
 +++
 title = 'Simplifying element creation'
 headless = true
-time = 45
+time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Extract functions for common tasks'
 +++
 
-We now have a card showing all of the information for one film.
+We now have a card showing all of the information for one film. The code we have is quite repetitive and verbose. It does similar things lots of times.
 
-The code we have is quite repetitive and verbose. It does similar things lots of times.
-
-Let's look at two ways we could simplify this code.
+Let's look at two ways we could simplify this code. First we will explore extracting a function. Then we'll look at using `<template>` tags.
 
 ### Refactoring: Extracting a function
 
@@ -84,3 +82,13 @@ There are also some drawbacks to our refactoring:
 
 1. If we want to change how we create some, but not all, elements, we may have made it _harder_ to make these changes. When we want to include an image of the director, or replace the certificate text with a symbol, we will have to introduce branching logic.
 2. To follow how something is rendered, we need to look in a few places. This is something you will need to get used to, so it's good to start practising now.
+
+{{<note type="exercise" title="Deep dive: datetime">}}
+
+### Stretch goal: Add the datetime
+
+A `<time>` element needs a `datetime` attribute. Add this to the `createChildElement` function to express the duration on the time element only.
+
+`PT1H52M` is the `ISO 8601` format for `112` minutes.
+
+{{</note>}}
