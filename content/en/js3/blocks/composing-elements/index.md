@@ -108,7 +108,7 @@ card.append(duration);
 
 const certificate = document.createElement("data");
 duration.textContent = `Certificate: ${film.certificate}`;
-card.append(duration);
+card.append(certificate);
 
 document.body.append(card);
 ```
