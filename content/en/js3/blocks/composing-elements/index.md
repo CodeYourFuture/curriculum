@@ -81,7 +81,7 @@ filmTitle.textContent = film.title;
 document.body.append(filmTitle);
 ```
 
-We can extend this card to include all of the information about the film by creating more elements:
+We can extend this card to include more information about the film by creating more elements:
 
 ```js
 const film = {
@@ -102,23 +102,15 @@ const director = document.createElement("p");
 director.textContent = `Director: ${film.director}`;
 card.append(director);
 
-const times = document.createElement("ul");
-for (const time of film.times) {
-  const timeElement = document.createElement("li");
-  timeElement.textContent = time;
-  times.append(timeElement);
-}
-card.append(times);
-
-const duration = document.createElement("p");
+const duration = document.createElement("time");
 duration.textContent = `${film.duration} minutes`;
 card.append(duration);
 
-const certificate = document.createElement("p");
+const certificate = document.createElement("data");
 duration.textContent = `Certificate: ${film.certificate}`;
 card.append(duration);
 
 document.body.append(card);
 ```
 
-This is a bit tedious, as we had to write lots of similar lines of code several times, but it works.
+Eventually, we will include all the information, to match the wireframe. This is a bit tedious, as we had to write lots of similar lines of code several times, but it works.
