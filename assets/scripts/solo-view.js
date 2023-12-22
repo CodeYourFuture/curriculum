@@ -34,7 +34,9 @@ class SoloView extends HTMLElement {
 
   // Cache DOM elements
   cacheDOM() {
-    this.state.blocks = [...this.querySelectorAll('[slot="blocks"] .c-block')];
+    this.state.blocks = [
+      ...this.querySelectorAll('[slot="blocks"] > .c-block'),
+    ];
     this.state.tocLinks = [
       ...this.querySelectorAll('[slot="header"] .c-toc li a'),
     ];
@@ -75,9 +77,18 @@ class SoloView extends HTMLElement {
     this.addEventListener("keydown", this.handleKeydown);
   }
 
+  // Get derived tocItemIds
+  getTocItemIds() {
+    return this.state.tocLinks.map((link) =>
+      link.getAttribute("href").substring(1)
+    );
+  }
+
   // Update current block index
   updateCurrentBlockIndex(index) {
+    console.log(`Updating current block index to: ${index}`);
     this.state.currentBlockIndex = index;
+    console.log(`currenBlockIndex is: ${this.state.currentBlockIndex}`);
     this.updateView();
   }
 
@@ -121,11 +132,10 @@ class SoloView extends HTMLElement {
   // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
   handleFragment = () => {
     const fragment = window.location.hash.substring(1);
+    const tocItemIds = this.getTocItemIds(); // Get derived tocItemIds
 
-    if (fragment === "toc") {
-      this.state.currentBlockIndex = 0;
-      this.updateView();
-    } else if (fragment) {
+    // Check if the hash matches any TOC item
+    if (tocItemIds.includes(fragment)) {
       const matchingLinkIndex = this.state.tocLinks.findIndex(
         (link) => link.getAttribute("href").substring(1) === fragment
       );
@@ -138,7 +148,12 @@ class SoloView extends HTMLElement {
 
   // Update view
   updateView() {
+    console.log(this.state.blocks);
     this.state.blocks.forEach((block, index) => {
+      console.log(`Updating view: ${index}`);
+      console.log(
+        `Current block index in updateView is: ${this.state.currentBlockIndex}`
+      );
       block.hidden = index !== this.state.currentBlockIndex;
     });
 
