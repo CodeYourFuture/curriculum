@@ -1,7 +1,7 @@
 +++
 title = '⏳ Asynchrony : outside time'
 headless = true
-time = 30
+time = 40
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -38,11 +38,11 @@ Each line of code is run in order. This is synchronous execution. We do this bec
 A single thread can do one thing at a time. JavaScript is a single threaded language.
 {{</tooltip>}}.
 
-When we call a function, the function will run to completion before the next line of code is executed. But what if we need to wait for something to happen? What if we need to wait for our data to arrive before we can show it? In this case, we can use asynchronous execution.
+When we call a function, the function will run to completion before the next line of code is executed. But what if we need to wait for something to happen? What if we need to wait for our data to arrive before we can show it? In this case, we can use **asynchronous execution**.
 
 {{<tabs name="Event Loop">}}
 {{<tab name="Event Listener">}}
-We have already used asynchronous execution. We have defined eventListeners that _listen_ for events to happen, _then_ execute a callback function. But here's a new idea: eventListeners are part of the [Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event). They are not part of JavaScript! 🤯 This means you can't use them in a Node REPL, but they are implemented in web browsers. The core of JavaScript is the same everywhere, but different contexts may add extra APIs.
+We have already used asynchronous execution. We have defined `eventListener`s that _listen_ for events to happen, _then_ execute a callback function. But here's a new idea: eventListeners are part of the [Event API](https://developer.mozilla.org/en-US/docs/Web/API/Event). They are not part of JavaScript! 🤯 This means you can't use them in a Node REPL, but they are implemented in web browsers. The core of JavaScript is the same everywhere, but different contexts may add extra APIs.
 
 When you set an eventListener you are really sending a call to a Web API and asking it do something for you.
 

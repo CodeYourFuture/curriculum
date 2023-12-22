@@ -10,15 +10,14 @@ emoji= '🧩'
 3="Fetch data from a server side API"
 +++
 
-So now we have these pieces of our giant concept map
+So now we have these four pieces of our giant concept map
 
-🗓️ we know that sending 📤 requests over a network takes time
-🧵 we know that we should not stop our program to wait for data
-📤 we know that we can send a request using `fetch()`
-🐕 we know that `fetch` is a 💻 client side 🧰 Web API
-🫱🏿‍🫲🏽 we know that `fetch` returns a `Promise`? (...this last one is pending)
+1. 🗓️ we know that sending 📤 requests over a network takes time
+2. 🧵 we know that we should not stop our program to wait for data
+3. 📤 we know that we can send a request using `fetch()`
+4. 🐕 we know that `fetch` is a 💻 client side 🧰 Web API
 
-But we still don't know how to use `fetch` to get data from a server side API. Let's find out. Run this code in the console in your browser.
+We _don't_ yet know that `fetch` returns a `Promise` and we will explore this next time. And we still don't know how to use `fetch` to get data from a server side API. Let's find this out now. Run this code in the console in your browser.
 
 ```js
 const endpoint = "//curriculum.codeyourfuture.io/dummy-apis/films.json";
