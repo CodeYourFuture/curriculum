@@ -1,4 +1,3 @@
-{{- .Page.Store.Set "hasMermaid" true -}}
 <style>
   .mermaid svg {
     height: initial;
@@ -8,3 +7,29 @@
   }
 </style>
 <div class="mermaid">{{- .Inner | safeHTML }}</div>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  document.addEventListener("DOMContentLoaded", () => {
+    mermaid.initialize({ startOnLoad: false, theme: "neutral" });
+
+    // Initialize Mermaid diagrams that are initially visible
+    document.querySelectorAll(".mermaid:not([hidden])").forEach((diagram) => {
+      mermaid.init(undefined, diagram);
+    });
+
+    // MutationObserver to reinitialize diagrams on visibility change
+    new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "hidden" &&
+          !mutation.target.hidden
+        ) {
+          mutation.target.querySelectorAll(".mermaid").forEach((diagram) => {
+            mermaid.init(undefined, diagram);
+          });
+        }
+      });
+    }).observe(document.body, { attributes: true, subtree: true });
+  });
+</script>

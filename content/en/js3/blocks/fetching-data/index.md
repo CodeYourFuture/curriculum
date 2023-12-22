@@ -26,7 +26,7 @@ We also don't need to know how the API works in order to use it. It may be writt
 _Using_ fetch is simple. But we want to understand what is happening more completely. So let's take ourselves on a journey through time.
 
 <details> 
-<summary>👉🏾 Unfurl to see the journey (we will explain this all below!)</summary>
+<summary>👉🏾 Unfurl to see the journey (we will explain this in little pieces)</summary>
 
 ```mermaid
 graph TD
