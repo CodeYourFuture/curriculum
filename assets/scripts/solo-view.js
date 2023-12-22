@@ -86,9 +86,7 @@ class SoloView extends HTMLElement {
 
   // Update current block index
   updateCurrentBlockIndex(index) {
-    console.log(`Updating current block index to: ${index}`);
     this.state.currentBlockIndex = index;
-    console.log(`currenBlockIndex is: ${this.state.currentBlockIndex}`);
     this.updateView();
   }
 
@@ -148,12 +146,7 @@ class SoloView extends HTMLElement {
 
   // Update view
   updateView() {
-    console.log(this.state.blocks);
     this.state.blocks.forEach((block, index) => {
-      console.log(`Updating view: ${index}`);
-      console.log(
-        `Current block index in updateView is: ${this.state.currentBlockIndex}`
-      );
       block.hidden = index !== this.state.currentBlockIndex;
     });
 
