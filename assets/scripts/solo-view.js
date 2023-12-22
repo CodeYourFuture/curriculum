@@ -77,13 +77,6 @@ class SoloView extends HTMLElement {
     this.addEventListener("keydown", this.handleKeydown);
   }
 
-  // Get derived tocItemIds
-  getTocItemIds() {
-    return this.state.tocLinks.map((link) =>
-      link.getAttribute("href").substring(1)
-    );
-  }
-
   // Update current block index
   updateCurrentBlockIndex(index) {
     this.state.currentBlockIndex = index;
@@ -130,10 +123,7 @@ class SoloView extends HTMLElement {
   // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
   handleFragment = () => {
     const fragment = window.location.hash.substring(1);
-    const tocItemIds = this.getTocItemIds(); // Get derived tocItemIds
-
-    // Check if the hash matches any TOC item
-    if (tocItemIds.includes(fragment)) {
+    if (fragment) {
       const matchingLinkIndex = this.state.tocLinks.findIndex(
         (link) => link.getAttribute("href").substring(1) === fragment
       );
