@@ -34,7 +34,9 @@ class SoloView extends HTMLElement {
 
   // Cache DOM elements
   cacheDOM() {
-    this.state.blocks = [...this.querySelectorAll('[slot="blocks"] .c-block')];
+    this.state.blocks = [
+      ...this.querySelectorAll('[slot="blocks"] > .c-block'),
+    ];
     this.state.tocLinks = [
       ...this.querySelectorAll('[slot="header"] .c-toc li a'),
     ];
@@ -121,11 +123,7 @@ class SoloView extends HTMLElement {
   // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
   handleFragment = () => {
     const fragment = window.location.hash.substring(1);
-
-    if (fragment === "toc") {
-      this.state.currentBlockIndex = 0;
-      this.updateView();
-    } else if (fragment) {
+    if (fragment) {
       const matchingLinkIndex = this.state.tocLinks.findIndex(
         (link) => link.getAttribute("href").substring(1) === fragment
       );
