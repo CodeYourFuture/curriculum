@@ -15,6 +15,8 @@ So far we have displayed film data stored in our JavaScript code. But real appli
 > _When_ the page first loads
 > _Then_ the page should `fetch` and display the list of film data, including the film title, times and film certificate
 
+### 💻 Client side and 🌐 Server side APIs
+
 We will use [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), a {{<tooltip title="client side Web API">}}
 A client side [Web API](https://developer.mozilla.org/en-US/docs/Web/API) lives in the browser. They provide programmatic access _to_ built-in browser functions _from_ JavaScript. {{</tooltip>}}. Fetch will fetch our data from the {{<tooltip title="server side API">}}
 A server side API lives on a server. They provide programmatic access _to_ data or functions stored on the server _from_ JavaScript. {{</tooltip>}}.

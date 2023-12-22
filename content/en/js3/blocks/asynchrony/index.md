@@ -61,6 +61,8 @@ We use a function as a way of wrapping up the code that needs to be run later on
 {{</tab>}}
 {{</tabs>}}
 
+### 🧠 Recap our concept map
+
 ```mermaid
 graph LR
     TimeProblem[🗓️ Time Problem] --> |caused by| SingleThread[🧵 Single thread]

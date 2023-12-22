@@ -5,31 +5,20 @@ time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
-1="List 4 preceding concepts of asynchronous programming in JavaScript"
-2="Identify unknown concepts still to be learned"
-3="Fetch data from a server side API"
+1="List 5 preceding concepts of asynchronous programming in JavaScript"
+2="Identify 2 unknown concepts still to be learned"
+3="Fetch data from a server side API using a client side Web API"
 +++
 
-So now we have these four pieces of our giant concept map
+So now we have these pieces of our giant concept map
 
-1. 🗓️ we know that sending 📤 requests over a network takes time
-2. 🧵 we know that we should not stop our program to wait for data
-3. 📤 we know that we can send a request using `fetch()`
-4. 🐕 we know that `fetch` is a 💻 client side 🧰 Web API
+1. 📤 we know that we can [send a request](#fetching-data) using `fetch()`
+1. 🐕 we know that `fetch` is a [💻 client side 🧰 Web API](#fetching-data)
+1. 🗓️ we know that sending 📤 requests over a network takes [time](#latency)
+1. 🧵 we know that we should [not stop our program](#asynchrony) to wait for data
+1. 🪃 we know that we can [use callbacks](#callbacks) to manage events
 
-We _don't_ yet know that `fetch` returns a `Promise` and we will explore this next time. And we still don't know how to use `fetch` to get data from a server side API. Let's find this out now. Run this code in the console in your browser.
-
-```js
-const endpoint = "//curriculum.codeyourfuture.io/dummy-apis/films.json";
-const fetchPromise = fetch(endpoint);
-const _ = fetchPromise.then((response) => {
-  console.log(response.json());
-});
-```
-
-In the console, you can see a `Promise` was logged. A `Promise` is a placeholder which contains some data, but where the data may not be known yet. If you expand the `PromiseResult`, you should see some data which was returned from a server.
-
-So that's how we use `fetch` to get data from a server side API. In [our filterFilms code](https://curriculum.codeyourfuture.io/filterfilms), we can replace the films array with the data fetched from the server.
+But we still don’t know how to use `fetch` to get data from a server side API. Let’s find this out now. In [our filterFilms code](https://curriculum.codeyourfuture.io/filterfilms), replace the films array with data fetched from a server.
 
 ```js
 // Begin with an empty state
