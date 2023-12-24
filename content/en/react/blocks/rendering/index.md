@@ -1,5 +1,5 @@
 +++
-title = 'block3'
+title = "👨🏼‍🎨 Rendering"
 headless = true
 time = 30
 facilitation = false

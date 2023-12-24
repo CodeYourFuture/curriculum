@@ -1,7 +1,7 @@
 +++
-title = 'block1'
+title = '🧩 Components'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
