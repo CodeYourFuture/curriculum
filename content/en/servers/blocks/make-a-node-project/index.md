@@ -12,7 +12,7 @@ emoji= '🧩'
 ### 🆕 Create a [new repo](https://github.com/new)
 
 <details>
-   <summary>1. Go to github.com/new and choose these settings:</summary>
+   <summary>1. Go to github.com/new and choose these settings (click to expand):</summary>
 
 | Question                         | Answer                               |
 | -------------------------------- | ------------------------------------ |
