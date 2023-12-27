@@ -10,7 +10,7 @@ emoji= '🧩'
 
 > Install [Postman](https://www.getpostman.com/downloads/)
 
-### Issues
+### Troubleshooting
 
 If you get:
 
