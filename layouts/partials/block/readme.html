@@ -12,7 +12,7 @@
       {{ partial "time.html" . }}
     </header>
     <div class="c-block__content c-copy">
-      {{ $response.content | base64Decode | replaceRE "<!--" "" | replaceRE "-->" ""  | markdownify }}
+      {{ $response.content | base64Decode | replaceRE "<!--(.*?)-->" "$1" | markdownify }}
     </div>
   </section>
 {{ else }}

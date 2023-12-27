@@ -6,11 +6,7 @@
     margin-bottom: var(--theme-spacing--gutter);
   }
 </style>
-<div class="mermaid">{{- .Inner | safeHTML }}</div>
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-  document.addEventListener("DOMContentLoaded", () => {
-    mermaid.initialize({ startOnLoad: false });
+<pre class="mermaid">{{- .Inner | safeHTML }}</pre>
 
     // Initialize Mermaid diagrams that are initially visible
     document.querySelectorAll(".mermaid:not([hidden])").forEach((diagram) => {

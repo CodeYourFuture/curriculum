@@ -9,14 +9,12 @@
       {{ with .Content }}
         <section class="l-page__main c-block c-copy">{{ . }}</section>
       {{ end }}
-      <div class="c-block__list">
-        <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
-        {{ range .Params.blocks }}
-          {{ partial "block/block.html" (dict "block" . "Page"
-            $.Page)
-          }}
-        {{ end }}
-      </div>
+      <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
+      {{ range .Params.blocks }}
+        {{ partial "block/block.html" (dict "block" . "Page"
+          $.Page)
+        }}
+      {{ end }}
     </div>
     {{ if gt .Params.blocks 1 }}
       <nav slot="nav">
