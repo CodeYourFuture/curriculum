@@ -20,9 +20,7 @@ The handler function is always called with a `request` and `response` object. Th
 
 #### What does a handler function look like in Express?
 
-The `get()` [method](http://expressjs.com/en/api.html#app.get.method) is one of the methods used to
-define a handler function in Express. It takes two parameters: the **endpoint** at which to trigger an action,
-and the handler function that tells it exactly what to do.
+The `get()` [method](http://expressjs.com/en/api.html#app.get.method) is one of the methods used to define a handler function in Express. It takes two parameters: the **endpoint** at which to trigger an action, and the handler function that tells it exactly what to do.
 
 Here's an example:
 
@@ -38,8 +36,7 @@ Here, we are telling our server to respond with "Hello World!" when someone trie
 
 #### 1. Create your own handler function
 
-Add a handler handler function to send back a message to the client. To do that, use the Express `send()`
-[method](http://expressjs.com/en/api.html#res.send). This will update the response object with the message.
+Add a handler handler function to send back a message to the client. To do that, use the Express `send()` [method](http://expressjs.com/en/api.html#res.send). This will update the response object with the message.
 
 Update your handler function:
 
@@ -75,8 +72,7 @@ node server.js
 1. Open Postman
 1. Send a `GET` request to `http://localhost:3000`.
 
-If you see your message in Postman,
-congratulations! You just sent your first response from the server.
+If you see your message in Postman, congratulations! You just sent your first response from the server.
 
 #### Checkpoint
 
