@@ -28,7 +28,7 @@ To require Express, write the following inside `server.js`:
 import express from "express";
 ```
 
-{{<note type="warning" title="CJS legacy">}}
+{{<note type="warning" title="CommonJS legacy">}}
 Sometimes you will see `require` instead of `import`. This is because `require` is the old (CJS) way of importing packages in Node.js and not all environments (like runkit) are updated yet. If you see `require` in the curriculum, probably use `import` instead.
 
 CJS syntax: `const express = require("express");`
