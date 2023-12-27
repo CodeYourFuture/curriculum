@@ -10,19 +10,13 @@ emoji= '🧩'
 
 > `GET /movies should return all the movies`
 
-In `server.js`, create a `GET /movies` endpoint that returns all the movies.
+In `server.js`, create a `GET /movies` endpoint that returns all the movies (see below for some sample data).
 
 ```js
 app.get("/movies", (req, res) => {
   res.send(moviesData);
 });
 ```
-
-#### 🧪 Run and test
-
-1. `npm run dev`
-1. Open Postman
-1. Make a GET request to `http://localhost:3000/movies`
 
 <details>
 <summary>Copy sample movie data</summary>
@@ -54,3 +48,9 @@ const movies = [
 ```
 
 </details>
+
+#### 🧪 Run and test
+
+1. `npm run dev`
+1. Open Postman
+1. Make a GET request to `http://localhost:3000/movies`
