@@ -12,7 +12,7 @@ emoji= '🧩'
 
 Consider this visualisation of an asynchronous program:
 
-<iframe title="code running out of order and off the thread" src="http://latentflip.com/loupe/?code=c2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIjEiKTsKfSwgMjAwMCk7CnNldFRpbWVvdXQoZnVuY3Rpb24gdGltZW91dCgpIHsKICAgIGNvbnNvbGUubG9nKCIyIik7Cn0sIDUwMCk7CnNldFRpbWVvdXQoZnVuY3Rpb24gdGltZW91dCgpIHsKICAgIGNvbnNvbGUubG9nKCIzIik7Cn0sIDApOwo%3D!!!" width="100%" height="480px"></iframe>
+**👉🏽 [Code running out of order and off the thread](http://latentflip.com/loupe/?code=c2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIjEiKTsKfSwgMjAwMCk7CnNldFRpbWVvdXQoZnVuY3Rpb24gdGltZW91dCgpIHsKICAgIGNvbnNvbGUubG9nKCIyIik7Cn0sIDUwMCk7CnNldFRpbWVvdXQoZnVuY3Rpb24gdGltZW91dCgpIHsKICAgIGNvbnNvbGUubG9nKCIzIik7Cn0sIDApOwo%3D!!!)**
 
 When we call [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) we send **a function call** to a client side Web API. The code isn't executing in our single thread any more, so we can run the next line. The countdown _is_ happening, but it's not happening _in our thread_.
 
