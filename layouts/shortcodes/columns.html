@@ -1,0 +1,8 @@
+<div class="c-columns">
+  {{ $cols := split .Inner "<--->" }}
+  {{ range $cols }}
+    <div class="c-columns__column">
+      {{ . | safeHTML | markdownify }}
+    </div>
+  {{ end }}
+</div>
