@@ -5,7 +5,7 @@ layout = "success"
 emoji= "📝"
 menu_level = [ "module" ]
 weight = 11
-backlog= "Module-Node"
+backlog= "Module-Servers"
 [[objectives]]
 1= "Every trainee has received and responded to at least one code review"
 2= "Every trainee has opened at least 3 PRs to the module repo"

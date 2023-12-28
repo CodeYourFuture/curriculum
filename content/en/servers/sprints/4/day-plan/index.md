@@ -4,7 +4,7 @@ layout = 'day-plan'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-Node'
+backlog= 'Module-Servers'
 backlog_filter= 'Week 4'
 [[blocks]]
 name="Energiser"
@@ -22,7 +22,7 @@ src="blocks/study-group"
 time="60"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Node/pulls"
+src="https://github.com/CodeYourFuture/Module-Servers/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"
@@ -33,6 +33,6 @@ src="blocks/pd-placeholder"
 time=90
 [[blocks]]
 name="Progress check-in"
-src="https://github.com/CodeYourFuture/Module-Node/issues/128"
+src="https://github.com/CodeYourFuture/Module-Servers/issues/128"
 time="15"
 +++

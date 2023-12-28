@@ -4,7 +4,7 @@ layout = 'day-plan'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-Node'
+backlog= 'Module-Servers'
 backlog_filter= 'Week 1'
 [[blocks]]
 name="Non-Verbal Communication Energiser"
@@ -25,7 +25,7 @@ src="blocks/study-group"
 time="60"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Node/pulls"
+src="https://github.com/CodeYourFuture/Module-Servers/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"

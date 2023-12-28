@@ -4,7 +4,7 @@ layout = 'prep'
 emoji= '📝'
 menu_level = ['sprint']
 weight = 1
-backlog= 'Module-Node'
+backlog= 'Module-Servers'
 backlog_filter= 'Week 1'
 [[blocks]]
 name="Intro to Express"
