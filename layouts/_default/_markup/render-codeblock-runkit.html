@@ -1,3 +1,7 @@
 {{ $id := print "runkit-" (substr (md5 .Inner) 0 16) }}
 <script src="https://embed.runkit.com" data-element-id="{{ $id }}"></script>
-<div id="{{ $id }}">{{ .Inner | safeHTML }}</div>
+<div class="highlight">
+  <div style="background:var(--theme-color--paper);">
+    <div id="{{ $id }}" style="font-size:0;">{{ .Inner | safeHTML }}</div>
+  </div>
+</div>
