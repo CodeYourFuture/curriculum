@@ -5,20 +5,19 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Define a Promise'
+    2='Log a Promise to the console'
 +++
 
-To get data from a server, we make a request with fetch. We act on what comes back. But what happens in the middle? We know that JavaScript is single-threaded; it can only do one thing at a time. So do we just stop and wait? Run this code in your terminal:
+To get data from a server, we make a request with `fetch`. We act on what comes back: the response. But what happens in the middle? We already know that JavaScript is single-threaded: it can only do one thing at a time.
+
+So do we just stop and wait? No! We have a special object to handle this time problem. Run this code in your terminal:
 
 ```js
 const url = "https://api.github.com/users/SallyMcGrath"; // try your own username
 const response = fetch(url);
 console.log(response);
 ```
-
-The response is not [the data](https://api.github.com/users/SallyMcGrath). It's a `Promise`.
 
 <details>
 <summary>Your Promise should look like this:</summary>
@@ -53,3 +52,9 @@ Promise {
 ```
 
 </details>
+
+The `response` in this code is not labelling [the data](https://api.github.com/users/SallyMcGrath). It's labelling a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+
+A promise is exactly what it sounds like: a promise to do something. You can use this promise object to _sequence_ your code. You can say, "When the data comes back, `then` do this."
+
+You will explore Promises in more detail as you build more complex applications. For now, let's move on to `.then()`.
