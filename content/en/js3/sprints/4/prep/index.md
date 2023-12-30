@@ -19,8 +19,8 @@ src="js3/blocks/async-await"
 name="Catch"
 src="js3/blocks/catch"
 [[blocks]]
-name="Finally"
-src="js3/blocks/finally"
+name="Fetch Films"
+src="js3/blocks/fetch-films"
 [[blocks]]
 name="Prep Presentation"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-presentation/readme/"
