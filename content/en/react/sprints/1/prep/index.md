@@ -13,26 +13,23 @@ src="react/blocks/what-is-react"
 name="Components"
 src="react/blocks/components"
 [[blocks]]
-name="Rendering"
-src="react/blocks/rendering"
+name="Importing and exporting"
+src="react/blocks/import-export"
 [[blocks]]
 name="JSX"
 src="react/blocks/jsx"
 [[blocks]]
-name="Pokedex"
-src="react/blocks/pokedex"
-[[blocks]]
 name="Embedding JavaScript"
 src="react/blocks/embedding-javascript"
 [[blocks]]
-name="Keys"
-src="react/blocks/keys"
-[[blocks]]
-name="Importing and exporting"
-src="react/blocks/import-export"
-[[blocks]]
 name="Props"
 src="react/blocks/props"
+[[blocks]]
+name="Rendering"
+src="react/blocks/rendering"
+[[blocks]]
+name="Keys"
+src="react/blocks/keys"
 [[blocks]]
 name="Codealong Playlist"
 src="https://www.youtube.com/playlist?list=PLozA7cloMbPjMU_cUsWI-AhwZekJTFDdR"
