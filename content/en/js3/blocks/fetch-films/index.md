@@ -57,7 +57,7 @@ const getFilms = async () => {
 
 We've added a `try...catch` block to handle any errors that might occur. We've also added `await` to the `fetch` and `response.json()` calls. This means that the function will sensibly wait for the `fetch` to complete before trying to get the json data from the response.
 
-In our last implementation, we called the render function straight away. This time, we need to wait for the films to be fetched before we can render them, so let's write a new async function to initialise our app. Try it yourself first, then check your understanding below.
+In our last implementation, we called the render function straight away. This time, we need to wait for the films to be fetched before we can render them. Write a new async function to initialise our app. Try to write it yourself first, then check your understanding below.
 
 <details>
 <summary>Your `init` function should look something like this:</summary>
