@@ -1,13 +1,20 @@
 +++
-title = 'Promises'
+title = '🫱🏿‍🫲🏽 Promises'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a Promise'
     2='Log a Promise to the console'
 +++
+
+```mermaid
+graph LR
+    Asynchrony --> |delivered with| Promise{{🤝 Promises}}
+    Promise --> |resolve to a| Response{📤 Response}
+    Promise --> |join the| EventLoop{{Event Loop 🔁}}
+```
 
 To get data from a server, we make a request with `fetch`. We act on what comes back: the response. But what happens in the middle? We already know that JavaScript is single-threaded: it can only do one thing at a time.
 
