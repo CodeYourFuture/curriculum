@@ -58,6 +58,7 @@ summary {
 summary > * {
   display: inline-block;
   vertical-align: text-bottom;
+  margin: 0;
 }
 summary::marker {
   color: var(--theme-color--accent);
