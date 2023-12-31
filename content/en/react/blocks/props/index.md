@@ -1,7 +1,7 @@
 +++
 title = '📦 Props'
 headless = true
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -17,3 +17,15 @@ Complete 🧑🏾‍🎓 [Passing props to a component](https://react.dev/learn/
 
 We used {{<tooltip title="destructuring ">}}Destructuring unpacks values from arrays or objects into individual variables.
 {{</tooltip>}} to pull out the properties of an object and pass it to our `createCard()` function. React uses a similar idea.
+
+{{<note type="question" title="Check your understanding">}}
+
+<details><summary>Q: What are props in React?
+</summary>
+A: Props are values passed from a parent component to a child component.
+</details>
+<details><summary>Q: How do you pass a prop to a component?
+</summary>
+A: Add the prop to the JSX tag of the child component.
+</details>
+{{</note>}}

@@ -1,7 +1,7 @@
 +++
 title = '🚢 Importing and Exporting'
 headless = true
-time = 30
+time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -16,3 +16,17 @@ Complete 🧑🏾‍🎓 [Importing and exporting components](https://react.dev/
 ### 🧠 Think back to your [Components workshop](https://cyf-workshops.netlify.app/components-2/).
 
 We exported functions to use in other files using modules. You can export your React components in the same way. A React component is a function, so you can export it like any other function.
+
+{{<note type="question" title="Check your understanding">}}
+
+<details><summary>Q: What are default and named exports in React?
+</summary>
+A: They are ways to export components from a file for use in other files.
+
+</details>
+<details><summary>Q: Why split components into different files?
+</summary>
+A: For better organization and to reuse components easily.
+
+</details>
+{{</note>}}
