@@ -16,8 +16,6 @@ tool-tip-container {
 }
 
 tool-tip {
-  pointer-events: none;
-  user-select: none;
   opacity: 0;
   transition: opacity 0.2s ease;
   position: absolute;
