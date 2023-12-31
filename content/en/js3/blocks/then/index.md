@@ -26,25 +26,31 @@ For example:
 
 ```js
 const url = "https://api.github.com/users/SallyMcGrath";
-fetch(url).then((response) => {
-  return response.json(); // <== .json() is the callback (a static method of the response interface)
-});
+const callback = (response) => response.json(); // .json() is an instance method that exists for all Response objects.
+fetch(url).then(callback);
 ```
 
-It's a similar idea as the event loop we have already investigated, but this time we can control it clearly. The .then() method _queues_ up callback functions to execute in sequence once the asynchronous operation completes successfully. This allows us to write code as if it was happening in time order.
+We can also inline the `callback` variable here - this code does exactly the same as the code above:
+
+```js
+const url = "https://api.github.com/users/SallyMcGrath";
+fetch(url).then((response) => response.json());
+```
+
+It's a similar idea as the event loop we have already investigated, but this time we can control it clearly. The `.then()` method _queues_ up callback functions to execute in sequence once the asynchronous operation completes successfully. This allows us to write code as if it was happening in time order.
 
 {{<note type="tip">}}
-A `Promise` always returns a new `Promise`.
+The `then()` method of a `Promise` always returns a new `Promise`.
 {{</note>}}
 
-We can chain multiple .then() calls to run more logic, passing the resolved value to the next callback in the chain. This allows us to handle the asynchronous response in distinct steps. Let's create a getProfile function so your Node REPL will execute this chain correctly:
+We can chain multiple `.then()` calls to run more logic, passing the resolved value to the next callback in the chain. This allows us to handle the asynchronous response in distinct steps. Let's create a getProfile function which we can try out in our Node REPL:
 
 ```js
 const getProfile = (url) => {
   return fetch(url)
-    .then((response) => response.json())
-    .then((data) => data.html_url)
-    .then((htmlUrl) => console.log(htmlUrl));
+    .then((response) => response.json()) // This callback consumes the response and parses it as JSON into an object.
+    .then((data) => data.html_url) // This callback takes the object and gets one property of it.
+    .then((htmlUrl) => console.log(htmlUrl)); // This callback logs that property.
 };
 getProfile("https://api.github.com/users/SallyMcGrath");
 ```
