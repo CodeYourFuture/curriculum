@@ -26,6 +26,7 @@
 {{ .Scratch.SetInMap "blockData" "sot" $src }}
 {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ .Scratch.SetInMap "blockData" "isShortcode" false }}
+{{ .Scratch.SetInMap "blockData" "caption" .caption | default "" }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 
@@ -41,37 +42,44 @@
   ======================
 */}}
 
-{{ if "github" | in $src }}
-  {{/* Change base URL to api.github.com */}}
-  {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+{{ if or "png" "webp" "jpg" "jpeg" "gif" | in $src }}
+  {{ .Scratch.SetInMap "blockData" "type" "slide" }}
+  {{ .Scratch.SetInMap "blockData" "api" $src }}
+{{ else }}
 
-  {{ if (in $src "issues") }}
-    {{ .Scratch.SetInMap "blockData" "type" "issue" }}
-  {{ else if (in $src "pulls") }}
-    {{ $newSrc = print $newSrc "?per_page=5&state=open" }}
-    {{ .Scratch.SetInMap "blockData" "type" "pullreq" }}
-  {{ else }}
-    {{/* For repositories and individual README files, use readme API endpoint
-      https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory
-    */}}
-    {{ $newSrc = replace $newSrc "/tree/main" "/readme" }}
-    {{ $newSrc = replace $newSrc "/blob/main/README.md" "/readme" }}
-    {{ .Scratch.SetInMap "blockData" "type" "readme" }}
+  {{ if "github" | in $src }}
+    {{/* Change base URL to api.github.com */}}
+    {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+
+    {{ if (in $src "issues") }}
+      {{ .Scratch.SetInMap "blockData" "type" "issue" }}
+    {{ else if (in $src "pulls") }}
+      {{ $newSrc = print $newSrc "?per_page=5&state=open" }}
+      {{ .Scratch.SetInMap "blockData" "type" "pullreq" }}
+    {{ else }}
+      {{/* For repositories and individual README files, use readme API endpoint
+        https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory
+      */}}
+      {{ $newSrc = replace $newSrc "/tree/main" "/readme" }}
+      {{ $newSrc = replace $newSrc "/blob/main/README.md" "/readme" }}
+      {{ .Scratch.SetInMap "blockData" "type" "readme" }}
+    {{ end }}
+
+    {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+    {{/* TODO pull time from commented out front matter in Github readmes */}}
   {{ end }}
 
-  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
-  {{/* TODO pull time from commented out front matter in Github readmes */}}
-{{ end }}
+  {{ if "cyf-pd.netlify.app" | in $src }}
+    {{ .Scratch.SetInMap "blockData" "type" "pd" }}
+    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+    {{ $blockPath := replace $blockPath "/readme/" "" }}
+    {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
+    {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+  {{ end }}
 
-{{ if "cyf-pd.netlify.app" | in $src }}
-  {{ .Scratch.SetInMap "blockData" "type" "pd" }}
-  {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
-  {{ $blockPath := replace $blockPath "/readme/" "" }}
-  {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
-  {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
-{{ end }}
+  {{ if "youtu" | in $src }}
+    {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
+    {{ .Scratch.SetInMap "blockData" "api" $src }}
+  {{ end }}
 
-{{ if "youtu" | in $src }}
-  {{ .Scratch.SetInMap "blockData" "type" "youtube" }}
-  {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ end }}

@@ -18,6 +18,7 @@ picture {
 figure {
   width: fit-content;
   box-shadow: var(--theme-box-shadow);
+  margin: 0 auto var(--theme-spacing--gutter) 0;
 }
 
 figure img {
