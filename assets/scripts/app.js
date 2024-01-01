@@ -27,36 +27,6 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-// dark mode
-function setDarkMode() {
-  const isDarkModeOn = localStorage.getItem("isDarkMode");
-  const documentBody = document.body;
-
-  if (isDarkModeOn === "1") {
-    documentBody.classList.remove("is-light-mode");
-    documentBody.classList.add("is-dark-mode");
-  } else {
-    documentBody.classList.remove("is-dark-mode");
-    documentBody.classList.add("is-light-mode");
-  }
-}
-setDarkMode();
-
-function toggleDarkMode() {
-  const isDarkModeOn = localStorage.getItem("isDarkMode");
-
-  if (isDarkModeOn === "1") {
-    localStorage.removeItem("isDarkMode");
-  } else {
-    localStorage.setItem("isDarkMode", "1");
-  }
-
-  setDarkMode();
-}
-
-const darkModeToggle = document.getElementById("mode-toggle");
-darkModeToggle.addEventListener("click", toggleDarkMode);
-
 // I think this should probably be a custom render hook, will read up
 // probably actually want to render all code blocks as code mirrors
 // query all code blocks with a data-lang attribute
