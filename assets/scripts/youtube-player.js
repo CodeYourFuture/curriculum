@@ -80,6 +80,7 @@ class YouTubePlayer extends HTMLElement {
         const iframe = document.createElement("iframe");
         const iframeSrc =
           `https://www.youtube.com/embed/${this.videoId}?autoplay=1` +
+          `&cc_load_policy=1` +
           (this.playlistId ? `&list=${this.playlistId}` : "") +
           (this.startAt ? `&index=${this.startAt}` : "");
         iframe.setAttribute("src", iframeSrc);
