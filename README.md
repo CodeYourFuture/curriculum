@@ -46,7 +46,13 @@ Run this command in a terminal, substituting in the github API token you generat
 
 ```bash
 npm i
-dotenv hugo server
+npm run start:dev
+```
+
+If you find the build is very slow, and don't care about the issues being pulled into backlogs being precise, you can run:
+
+```bash
+npm run start:dev -- --environment issues-are-cached-and-incomplete
 ```
 
 ### To create a new module
