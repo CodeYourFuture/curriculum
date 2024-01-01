@@ -36,13 +36,17 @@ The "Repository access" you need is "Public repositories (read-only)", and you d
 ![screenshot of required permissions](./readme_repository_access.png)
 </details>
 
+#### Set up `.env`
+
+Copy the `.env.example` file over and name it `.env`. Edit the file and then change the line that says `CYF_CURRICULUM_GITHUB_BEARER_TOKEN` to contain the token that you have generated earlier.
+
 #### Run this command
 
 Run this command in a terminal, substituting in the github API token you generated above:
 
 ```bash
 npm i
-CYF_CURRICULUM_GITHUB_BEARER_TOKEN=your_github_api_token hugo server
+dotenv hugo server
 ```
 
 ### To create a new module
