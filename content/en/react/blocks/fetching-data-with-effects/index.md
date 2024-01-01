@@ -18,7 +18,3 @@ Complete 🧑🏾‍🎓 [Fetching data with Effects](https://react.dev/referenc
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
-
-{{<note type="tip" title="Use Effects Sparingly">}}
-As you build and review your React Hotel apps, use [You Probably Don't Need an Effect](https://react.dev/learn/you-might-not-need-an-effect) to help you critique the code you read.
-{{</note>}}

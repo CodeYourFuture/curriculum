@@ -24,3 +24,6 @@ A: It's used for handling side effects in components, like synchronising with ex
 </summary>
 A: Effects handle side effects after a component renders, while events handle user interactions within a component.</details>
 {{</note>}}
+{{<note type="tip" title="Use Effects Sparingly">}}
+As you build and review your React Hotel apps, use [You Probably Don't Need an Effect](https://react.dev/learn/you-might-not-need-an-effect) to help you critique the code you read.
+{{</note>}}
