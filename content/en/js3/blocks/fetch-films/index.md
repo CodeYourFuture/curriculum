@@ -30,9 +30,9 @@ const state = {
 
 4. Use:
 
-- fetch to get the data
-- async/await to make sure the function waits for the fetch to complete before trying to get the json data from the response
-- response.json() to get the data from the response
+- `fetch` to get the data
+- `async`/`await` to make sure the function waits for the fetch to complete before trying to get the json data from the response
+- `response.json()` to get the data from the response
 - a `try...catch` block to handle any errors that might occur
 
   {{</tab>}}
@@ -63,7 +63,8 @@ In our last implementation, we called the render function straight away. This ti
 <summary>Your `init` function should look something like this:</summary>
 
 ```js
-// Initial render, which is distinct from the render function as it loads our films into memory
+// Initial render, which is distinct from the render function as it loads our films into memory from the API.
+// Subsequent render calls do not need to call the API to get the films - we already know the films and can remember them.
 async function init() {
   try {
     const films = await getFilms();
@@ -75,7 +76,7 @@ async function init() {
 }
 ```
 
-_`init` is a convention. It has no special meaning in the JavaScript language._
+The name _`init` is a convention. It has no special meaning in the JavaScript language._
 
 </details>
 

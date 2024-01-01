@@ -20,6 +20,20 @@ Async/await is {{<tooltip title="syntactic sugar">}}A simpler, or "sweeter" way 
 
 We use the [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) [keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords) to define a function that returns a Promise. An async function always returns a Promise.
 
+We can see this with a simple function which doesn't need to await anything:
+
+```js
+const getProfile = async (url) => url;
+
+console.log(getProfile("hello")); // Logs a Promise.
+
+getProfile("hello").then((value) => console.log(value)); // Logs a value
+```
+
+Even though the function above doesn't _have_ a time problem, the fact that we define the function as an `async` function means it returns a `Promise`.
+
+But let's do something more interesting - let's actually solve a time problem.
+
 ```js
 const getProfile = async (url) => {
   // the async keyword tells us this function handles a time problem
@@ -35,7 +49,7 @@ const getProfile = async (url) => {
 };
 ```
 
-Go ahead and call this in your Node REPL in your terminal: `getProfile("https://api.github.com/users/SallyMcGrath")`. It works the same as before.
+Go ahead and call this in your Node REPL in your terminal: `getProfile("https://api.github.com/users/SallyMcGrath").then(console.log)`. It works the same as before.
 
 ### 🫠 Handling errors
 
