@@ -18,7 +18,7 @@ graph LR
 
 To get data from a server, we make a request with `fetch`. We act on what comes back: the response. But what happens in the middle? We already know that JavaScript is single-threaded: it can only do one thing at a time.
 
-So do we just stop and wait? No! We have a special object to handle this time problem. Run this code in your terminal:
+So do we just stop and wait? No! We have a special object to handle this time problem. Run this code in your Node REPL:
 
 ```js
 const url = "https://api.github.com/users/SallyMcGrath"; // try your own username

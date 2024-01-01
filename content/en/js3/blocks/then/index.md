@@ -58,5 +58,3 @@ getProfile("https://api.github.com/users/SallyMcGrath");
 So `then` returns a _new_ `Promise`, and you can call `then` again on the new object. You can chain Promises in ever more complex dependent steps. This is called [Promise chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining).
 
 It's important to understand some of what is happening with Promises and `then`. But for the most part, you will not be writing code in this style.
-
-You will be writing ([declaring](/guides/paradigm/)) a description of what you want to happen and a [loosely-coupled](https://en.wikipedia.org/wiki/Loose_coupling) set of stateless, single-purpose functions to make it so. To help you stay thinking in this way, let's explore async/await.

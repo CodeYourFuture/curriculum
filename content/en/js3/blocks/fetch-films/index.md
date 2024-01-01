@@ -60,7 +60,9 @@ We've added a `try...catch` block to handle any errors that might occur. We've a
 In our last implementation, we called the render function straight away. This time, we need to wait for the films to be fetched before we can render them. Write a new async function to initialise our app. Try to write it yourself first, then check your understanding below.
 
 <details>
-<summary>Your `init` function should look something like this:</summary>
+<summary>
+
+Your `init` function should look something like this:</summary>
 
 ```js
 // Initial render, which is distinct from the render function as it loads our films into memory from the API.
