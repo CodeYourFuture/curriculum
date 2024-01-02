@@ -35,6 +35,8 @@ name="backlog"
 src="blocks/backlog"
 +++
 
+## Recap HTML and CSS
+
 {{<tabs name="HTML and CSS basics">}}
 {{<tab name="1. Intro to HTML">}}
 {{<youtube>}}https://www.youtube.com/watch?v=PqYud9dGW5s{{</youtube>}}

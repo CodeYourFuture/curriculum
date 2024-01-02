@@ -8,6 +8,3 @@
 <script src="{{ $player.Permalink }}" defer></script>
 {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
 <script src="{{ $tabs.Permalink }}" type="module" defer></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
