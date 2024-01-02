@@ -1,6 +1,6 @@
 +++
 title = 'JS3'
-description = 'Collaborate with code; Update state with user interaction; React to state changes; Architect a web application; Recognise patterns'
+description = 'Collaborate in code; Define and manage state; Use asynchronous programming to handle events and data; '
 layout = 'module'
 emoji= '🐥'
 menu = ['syllabus']

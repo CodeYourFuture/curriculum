@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "hugo server -p 3000 -D"
+    "start:dev": "dotenv -- hugo server -p 3000 -D"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@types/cookie": "^0.5.1",
-    "@types/lodash": "^4.14.196"
+    "@types/lodash": "^4.14.196",
+    "dotenv-cli": "^7.3.0"
   }
 }
