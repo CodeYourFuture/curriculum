@@ -27,13 +27,6 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-// dark mode toggle
-const darkModeToggle = document.getElementById("mode-toggle");
-darkModeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("is-dark-mode");
-  document.body.classList.toggle("is-light-mode");
-});
-
 // I think this should probably be a custom render hook, will read up
 // probably actually want to render all code blocks as code mirrors
 // query all code blocks with a data-lang attribute

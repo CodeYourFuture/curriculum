@@ -8,3 +8,5 @@
 <script src="{{ $player.Permalink }}" defer></script>
 {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
 <script src="{{ $tabs.Permalink }}" type="module" defer></script>
+{{ $darkmode := resources.Get "scripts/dark-mode.js" | resources.Minify }}
+<script src="{{ $darkmode.Permalink }}"></script>
