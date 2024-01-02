@@ -12,4 +12,5 @@ src="https://cyf-pd.netlify.app/blocks/goal-setting-and-planning/readme/"
 [[blocks]]
 name="Ground rules"
 src="portfolio/blocks/ground-rules"
+hide_from_overview=true
 +++

@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 4'
+theme = "Using packages including Jest"
 [[blocks]]
 src="js1/blocks/ordinal"
 name="ordinal"

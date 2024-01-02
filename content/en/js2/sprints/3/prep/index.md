@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 3'
+theme = "Event handlers and the DOM"
 [[blocks]]
 src="js2/blocks/browser"
 name="browser"

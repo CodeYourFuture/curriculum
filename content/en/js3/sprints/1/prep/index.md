@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS3'
 backlog_filter= 'Week 1'
+theme = "Rendering components"
 [[blocks]]
 name="data to ui"
 src="js3/blocks/data-ui"

@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 1'
+theme = "Arrays, iteration, and side-effects"
 [[blocks]]
 name="grouping-data"
 src="js2/blocks/grouping-data"

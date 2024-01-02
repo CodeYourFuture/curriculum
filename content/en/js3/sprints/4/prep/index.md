@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS3'
 backlog_filter= 'Week 4'
+theme = "Promises, async/await"
 [[blocks]]
 name="Promises"
 src="js3/blocks/promises"

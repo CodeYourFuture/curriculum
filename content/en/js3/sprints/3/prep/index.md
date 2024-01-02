@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS3'
 backlog_filter= 'Week 3'
+theme = "Fetch"
 [[blocks]]
 name="Fetching data"
 src="js3/blocks/fetching-data"

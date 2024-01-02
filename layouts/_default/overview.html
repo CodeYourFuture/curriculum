@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+  {{ $site := .Site }}
+  {{ $lang := .Site.Language.Lang }}
+  {{ $scratch := .Page.Scratch }}
+
+  {{ partial "page-header.html" . }}
+
+  {{- range site.Menus.syllabus }}
+  {{ $moduleURL := .URL }}
+  {{ $moduleTitle := .Title }}
+  <!-- We use hasShown variables to avoid printing headings for things which have no contents -->
+  {{ $scratch.Set "hasShownModuleTitle" false }}
+    {{ range sort (where .Page.Site.Pages "Section" .Page.Section) "Path" }}
+      {{ if not (and (eq .Layout "prep") (strings.Contains .Path "/sprints/")) }}
+        {{ continue }}
+      {{ end }}
+
+      <!-- This is a pretty sketchy way to make this link - I'm not sure why .URL doesn't work here... -->
+      {{ $weekURL := printf "/%s" (path.Dir .Path) }}
+      {{ $weekTheme := .Params.theme }}
+      {{ $allBlocks := .Params.blocks }}
+      {{ $scratch.Set "hasShownBlockTitle" false }}
+      {{ range $allBlocks }}
+
+        {{ if or .hide_from_overview (strings.Contains .src "https:") }}
+          {{ continue }}
+        {{ end }}
+
+        {{ $page := $site.GetPage .src }}
+        {{ if $page.Param "hide_from_overview" }}
+          {{ continue }}
+        {{ end }}
+
+        {{ if not ($scratch.Get "hasShownBlockTitle") }}
+          {{ if not ($scratch.Get "hasShownModuleTitle") }}
+            <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
+            {{ $scratch.Set "hasShownModuleTitle" true }}
+          {{ end }}
+          <h5><a href="{{ $weekURL }}">{{ $weekTheme }}</a></h5>
+          <ol style="list-style-type: none;">
+          {{ $scratch.Set "hasShownBlockTitle" true }}
+        {{ end }}
+            <li>{{ $page.Title }}</li>
+        {{ end }}
+        {{ if $scratch.Get "hasShownBlockTitle" }}
+        </ol>
+      {{ end }}
+    {{ end }}
+  {{- end }}
+{{ end }}

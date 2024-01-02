@@ -7,6 +7,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 1'
+theme = 'Programming fundamentals'
 [[blocks]]
 name="Interface"
 src="js1/blocks/interface"

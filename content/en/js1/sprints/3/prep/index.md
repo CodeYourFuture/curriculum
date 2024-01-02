@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS1'
 backlog_filter= 'Week 3'
+theme = "Breaking down problems and testing"
 [[blocks]]
 src="js1/blocks/clocks"
 name="Clocks"

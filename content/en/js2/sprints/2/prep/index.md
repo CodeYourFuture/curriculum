@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 2'
+theme = "Objects, and generalising problems"
 [[blocks]]
 src="js2/blocks/ordered-data"
 name="Ordered data"

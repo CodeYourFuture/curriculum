@@ -7,6 +7,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-JS3'
 backlog_filter= 'Week 2'
+theme = "State"
 [[blocks]]
 name="Reacting"
 src="js3/blocks/reacting"

@@ -1,5 +1,5 @@
 +++
-title = '🔁 iterating'
+title = '🔁 Iterating'
 headless = true
 time = 20
 facilitation = false
