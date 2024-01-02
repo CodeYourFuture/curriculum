@@ -38,9 +38,6 @@ src="js1/blocks/logging"
 name="Errors"
 src="js1/blocks/errors"
 [[blocks]]
-name="Wrapping up"
-src="blocks/wrapping-up"
-[[blocks]]
 name= "Critical Thinking"
 src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 +++
