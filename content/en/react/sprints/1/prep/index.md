@@ -10,11 +10,31 @@ backlog_filter= 'Week 1'
 name="What is React"
 src="react/blocks/what-is-react"
 [[blocks]]
+name="React is an interface"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.012.png"
+caption="React is a user interface library. Picture by Maggie Appleton"
+time="0"
+[[blocks]]
 name="Components"
 src="react/blocks/components"
 [[blocks]]
+name="Components are collections"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.023.png"
+caption="Components are reusable collections of elements. ~ Maggie Appleton"
+time="0"
+[[blocks]]
 name="Importing and exporting"
 src="react/blocks/import-export"
+[[blocks]]
+name="Import everything at the top"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.013.png"
+time="0"
+caption="Get everything you need at the top of the file. Picture by Maggie Appleton"
+[[blocks]]
+name="Syntactic sugar"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.017.png"
+time="0"
+caption="React is mostly vanilla JavaScript. Picture by Maggie Appleton"
 [[blocks]]
 name="JSX"
 src="react/blocks/jsx"
@@ -22,8 +42,18 @@ src="react/blocks/jsx"
 name="Embedding JavaScript"
 src="react/blocks/embedding-javascript"
 [[blocks]]
+name="JSX eXtends JavaScript"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.018.png"
+caption="Templating languages make dynamic HTML. Picture by Maggie Appleton"
+time="0"
+[[blocks]]
 name="Props"
 src="react/blocks/props"
+[[blocks]]
+name="Props are like arguments"
+src="https://github.com/MaggieAppleton/react-metaphors-slides/blob/master/PNGs/MetaphorsofReact_2.0.024.png"
+time="0"
+caption="Props carry data into components. Picture by Maggie Appleton"
 [[blocks]]
 name="Rendering"
 src="react/blocks/rendering"

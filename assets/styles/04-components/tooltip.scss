@@ -17,6 +17,7 @@ tool-tip-container {
 
 tool-tip {
   opacity: 0;
+  pointer-events: none;
   transition: opacity 0.2s ease;
   position: absolute;
   z-index: 1;
@@ -43,4 +44,5 @@ tool-tip {
 :has(> tool-tip):active > tool-tip {
   opacity: 1;
   transition-delay: 200ms;
+  pointer-events: all;
 }
