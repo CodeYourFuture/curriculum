@@ -1,0 +1,12 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+<section class="c-block c-block--{{ $blockData.type }}">
+  {{ if not $blockData.isShortcode }}
+    <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
+      <a href="{{ $blockData.sot }}">{{ $blockData.name }} 🔗</a>
+    </h2>
+  {{ end }}
+  <div class="c-block__content">
+    {{ $image := $blockData.caption | printf "![%s](%s '%s')" $blockData.name $blockData.api }}
+    {{ $image |markdownify }}
+  </div>
+</section>
