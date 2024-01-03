@@ -17,5 +17,5 @@ name="Sprint Planning"
 src="https://cyf-pd.netlify.app/blocks/sprint-planning/readme/"
 [[blocks]]
 name="Project work"
-src="https://cyf-curriculum.netlify.app/portfolio/sprints/2/day-plan/#project-work"
+src="portfolio/blocks/project"
 +++
