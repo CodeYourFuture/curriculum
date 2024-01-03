@@ -17,6 +17,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="study-60"
+src="blocks/study-60"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"

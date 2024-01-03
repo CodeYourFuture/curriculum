@@ -1,6 +1,9 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $block := .Page.Site.GetPage $blockData.api }}
 
+{{ if eq $block.Content "" }}
+{{ errorf "Page %s block %s had no content" .Page.Path $blockData.api }}
+{{ end }}
 
 <section class="c-block c-block--{{ $blockData.type }}">
   <header class="c-block__header">
