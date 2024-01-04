@@ -65,7 +65,10 @@
           {{ if $blockTOC }}
             <ol>
               {{ range .Params.blocks }}
-                <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
+                <li>
+                  <a href="#{{ .name | urlize }}">{{ .name }}</a>
+                  {{ if "youtu" | in .src }}📼{{ end }}
+                </li>
               {{ end }}
             </ol>
           {{ end }}
