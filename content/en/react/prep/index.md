@@ -1,9 +1,17 @@
 +++
 title = 'prep'
-description = 'prep description'
+description = 'Codealong to explore the basic principles of React'
 layout = 'prep'
 emoji= '📝'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-React'
+[[blocks]]
+name="Learn React with WebDev Simplified"
+src="https://www.youtube.com/watch?v=Rh3tobg7hEo"
+time=45
+[[blocks]]
+name="Check you can create a React app with Vite"
+src="react/blocks/vite"
+time=5
 +++

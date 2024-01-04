@@ -1,5 +1,5 @@
 +++
-title = 'block1'
+title = '📇 Pokedex'
 headless = true
 time = 30
 facilitation = false
