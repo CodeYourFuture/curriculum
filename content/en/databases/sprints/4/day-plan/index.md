@@ -15,7 +15,7 @@ src="https://cyf-pd.netlify.app/blocks/collective-job-hunt/readme/"
 time="30"
 [[blocks]]
 name="Understanding Employers’ Needs"
-src="https://cyf-pd.netlify.app/blocks/understanding-employers-needs/readme/"
+src="https://cyf-pd.netlify.app/blocks/discuss-employers-needs/readme/"
 time="30"
 [[blocks]]
 name="Morning break"
