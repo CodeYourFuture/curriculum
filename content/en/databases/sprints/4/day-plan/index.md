@@ -15,7 +15,7 @@ src="https://cyf-pd.netlify.app/blocks/collective-job-hunt/readme/"
 time="30"
 [[blocks]]
 name= "Discuss the needs of employers"
-src="https://cyf-pd.netlify.app/blocks/discuss-employers-needs/readme/"
+src="https://cyf-pd.netlify.app/blocks/discuss-the-needs-of-employers/readme/"
 time="30"
 [[blocks]]
 name="Morning break"
