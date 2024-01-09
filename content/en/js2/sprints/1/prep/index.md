@@ -10,6 +10,9 @@ backlog_filter= 'Week 1'
 name="grouping-data"
 src="js2/blocks/grouping-data"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=Hds02_3fQ58"
+[[blocks]]
 name="arrays"
 src="js2/blocks/arrays"
 [[blocks]]
