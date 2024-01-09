@@ -4,6 +4,7 @@ title: Deploying to Netlify
 sidebar_label: Overview
 description: Learn how to deploy your website to Netlify.
 emoji: ⛵
+weight: 6
 ---
 
 In this guide, we'll learn how to set up automatic website _deployment_.

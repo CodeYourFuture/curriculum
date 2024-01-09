@@ -2,6 +2,7 @@
 title: client > database
 description: Connecting a client to a database on Render
 emoji: 🔌
+weight: 4
 ---
 
 {{<note type="tip" title="Tip">}}
@@ -54,28 +55,41 @@ This guide uses a database client called [DBeaver](https://dbeaver.io/), but the
 # Connecting via node.js
 We learnt in the Databases module to use the `pg` library to connect to a local Postgres database.
 To connect via render we require an extra flag `ssl: { rejectUnauthorized: false }`, like so:
+
 ```javascript
+const connectionString = "postgres://jz:someverysecretpassword@dpg-ck107k7dorps738bnga0-a.frankfurt-postgres.render.com/fullstack_3qby";
+
 const db = new Pool({
-  user: "jz",
-  host: "dpg-ck107k7dorps738bnga0-a.frankfurt-postgres.render.com",
-  database: "fullstack_3qby",
-  password: "NLNXAWPsYPzOn3kKzExavV08DugCC0rx",
+  connectionString: connectionString,
   ssl: {
     rejectUnauthorized: false,
   },
 });
 ```
 
-Note that the `host` does not exactly match what is shown on the render.com dashboard - you should use the information in `External Database URL` to connect from your own computer:
+When connecting to Render's database from your local machine you should use the information in `External Database URL`:
 ![render.com dashboard connections](render-dashboard.png)
-However, if you are running your client on render alongside your server, then you will be able to use the `Internal Database URL` instead. In this case, the `host` will indeed match.
 
-You can also directly copy the url into a `connectionString` and it should work in the same way:
-```javascript
-const db = new Pool({
-  connectionString: "postgres://jz:NLNXAWPsYPzOn3kKzExavV08DugCC0rx@dpg-ck107k7dorps738bnga0-a.frankfurt-postgres.render.com/fullstack_3qby",
-  ssl: {
-    rejectUnauthorized: false,
-  },
-});
+However, if you are running your client on render alongside your server, then you will be able to use the `Internal Database URL` instead.
+
+Note that when committing code to GitHub you should avoid adding any kind of secrets. The `connectionString` above for example contains your database password, and anyone knowing that information will be able to access your database directly.
+
+To avoid this you should set up these values using environment variables. First in your code change the following:
+
+```js
+const connectionString = process.env.DATABASE_URL;
 ```
+
+Then go to your project's configuration in Render, and set up the `DATABASE_URL` environment variable:
+
+![render.com environment settings](changing-environment-variables.png)
+
+Make sure you use the `Internal Database URL` setting. This will let Render know what the database's location is.
+
+To set this value locally you can use the following code:
+
+```bash
+export DATABASE_URL=<The external database URL>
+```
+
+Note this will only set up this value for the current session. Every time you reload your terminal you will need to re-do this call. To avoid needing to do this all the time, you can opt in using a project called [Dotenv](https://github.com/motdotla/dotenv)

@@ -2,6 +2,7 @@
 title: Deploy a server
 description: How to deploy a server on Render
 emoji: 🍦
+weight: 2
 ---
 
 1. Make sure you have connected your GitHub account to Render (see [How to connect your GitHub to Render](connecting-github.md))
