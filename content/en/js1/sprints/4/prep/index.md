@@ -10,6 +10,9 @@ backlog_filter= 'Week 4'
 src="js1/blocks/ordinal"
 name="ordinal"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=2k_EtdVbb4c"
+[[blocks]]
 src="js1/blocks/framework"
 name="framework"
 [[blocks]]
