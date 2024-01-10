@@ -10,6 +10,9 @@ backlog_filter= 'Week 1'
 name="data to ui"
 src="js3/blocks/data-ui"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=HgbzMhJgdbU"
+[[blocks]]
 name="now-showing"
 src="js3/blocks/now-showing"
 [[blocks]]

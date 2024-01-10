@@ -11,6 +11,9 @@ backlog_filter= 'Week 2'
 name="Reacting"
 src="js3/blocks/reacting"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=j2Iz8ZNm3n8"
+[[blocks]]
 name="Decomposition"
 src="js3/blocks/break-down"
 [[blocks]]
