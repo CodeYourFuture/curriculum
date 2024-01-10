@@ -10,5 +10,3 @@
 <script src="{{ $tabs.Permalink }}" type="module" defer></script>
 {{ $darkmode := resources.Get "scripts/dark-mode.js" | resources.Minify }}
 <script src="{{ $darkmode.Permalink }}"></script>
-{{ $alertmessage := resources.Get "scripts/alert-message.js" | resources.Minify }}
-<script src="{{ $alertmessage.Permalink }}" defer></script>
