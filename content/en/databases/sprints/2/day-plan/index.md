@@ -10,9 +10,9 @@ backlog_filter= 'Week 2'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name= "PD Placeholder"
-src="blocks/pd-placeholder"
-time="45"
+name= "Job Descriptions and Questions"
+src="https://cyf-pd.netlify.app/blocks/job-descriptions-and-questions-for-employers/readme/"
+time="60"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
