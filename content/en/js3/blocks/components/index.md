@@ -23,8 +23,8 @@ const film = {
   duration: 112,
 };
 
-const createFilmCard = (film) => {
-  const card = document.getElementById("film-card").content.cloneNode(true);
+const createFilmCard = (template, film) => {
+  const card = template.content.cloneNode(true);
   // Now we are querying our cloned fragment, not the entire page.
   card.querySelector("h3").textContent = film.title;
   card.querySelector("p").textContent = `Director: ${film.director}`;
@@ -33,7 +33,7 @@ const createFilmCard = (film) => {
   // Return the card, rather than directly appending it to the page
   return card;
 };
-const template = document.getElementById("filmCard");
+const template = document.getElementById("film-card");
 const filmCard = createFilmCard(template, film);
 
 // Remember we need to append the card to the DOM for it to appear.
