@@ -15,4 +15,6 @@ backlog= "Module-JS3"
 
 Every module, you must review your progress to understand if your cohort can progress to the next stage. The conditions for success are listed below. If your cohort has met all of these conditions, you can progress to the next module. If you have not met them yet, what actions will you take to meet them?
 
+You can find the requirements for each level of the Module JS3 project at the following link 👉 https://github.com/CodeYourFuture/JS3-Module-Project/tree/main/levels
+
 Discuss your plan in your class channel.
