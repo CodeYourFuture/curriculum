@@ -1,7 +1,8 @@
 .l-menu {
   --gap: var(--theme-spacing--gutter);
   @include grid-assign(heading, action, primary, secondary, container);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: fixed;
   top: 0;
   left: -100%;
@@ -65,6 +66,8 @@
 
   &__secondary {
     display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background: var(--theme-color--block);
     color: var(--theme-color--pop);
