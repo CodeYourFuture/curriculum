@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <title>{{.Section }} | {{ .Title }} | {{ .Site.Title }}</title>
   {{ if .Page.Params.description }}
     <meta name="description" content="{{ .Page.Params.description }}" />
   {{ else }}
@@ -35,13 +35,25 @@
     href="{{ $style.RelPermalink }}"
     media="print"
     onload="this.media='all'" />
+
+  {{ $customCSS := resources.Match "custom-theme/**.scss" | resources.Concat
+    "custom.css"}}
+  {{ with $customCSS }}
+    {{ $customCSS := $customCSS | toCSS | minify | fingerprint "md5" }}
+    <link
+      rel="stylesheet"
+      href="{{ $customCSS.RelPermalink }}"
+      media="print"
+      onload="this.media='all'" />
+  {{ end }}
+
   <noscript>
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
   </noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
+    href="{{.Site.Params.googleFonts}}"
     rel="stylesheet"
     media="print"
     onload="this.media='all'" />

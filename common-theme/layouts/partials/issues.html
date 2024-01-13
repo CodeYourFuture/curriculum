@@ -4,8 +4,8 @@
 {{ $currentPath := .Page.RelPermalink }}
 <!-- api call -->
 {{ $headers := (dict) }}
-{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
 {{ $issues := getJSON $issuesUrl $headers }}
 <!-- if no object show error -->

@@ -32,8 +32,8 @@
 
 {{/* Now let's do our headers */}}
 {{ $headers := (dict) }}
-{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
 {{ .Scratch.SetInMap "blockData" "headers" $headers }}
 

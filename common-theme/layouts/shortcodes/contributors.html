@@ -1,9 +1,9 @@
 {{ $repo := .Get 0 }}
 {{ $headers := (dict) }}
-{{ if ne (os.Getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "CYF_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
+  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
-{{ $contributors := getJSON (printf "https://api.github.com/repos/CodeYourFuture/%s/contributors" $repo) $headers }}
+{{ $contributors := getJSON (printf "%s%s/contributors" $.Site.Params.orgapi $repo) $headers }}
 
 
 <ol class="c-contributors">
