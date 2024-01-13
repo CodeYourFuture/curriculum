@@ -1,8 +1,6 @@
 {{ define "main" }}
   {{ $pageContext := . }}
   <article>
-    {{/* reset emoji from page matter to checkbox emoji */}}
-    {{ .Scratch.Set "emoji" "✅" }}
     {{ partial "page-header.html" . }}
     {{ with .Content }}
       <section class="l-page__main c-copy">{{ . }}</section>
