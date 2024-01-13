@@ -1,0 +1,12 @@
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102184954-8942693de68b h1:UcRnAyM4SbLjpo1nfwuapeOkMxLioZP2LvvZNTtegLk=
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102184954-8942693de68b/go.mod h1:w5rIm9hJlHD+CYpQEVMWE/6WaE/EiLmYVs18Kw/iH0s=
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102185815-e8774f734214 h1:3P2MMpelKDzifx/sWLY3k1ih9w18XQOjpS+j0bASsNU=
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102185815-e8774f734214/go.mod h1:w5rIm9hJlHD+CYpQEVMWE/6WaE/EiLmYVs18Kw/iH0s=
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102213636-261031fd0d53 h1:XJLH7QrkS/4bBiw+NACZpMSHzczjnDQJEqlCuieMhQ4=
+github.com/CodeYourFuture/curriculum-labs/common-content v0.0.0-20240102213636-261031fd0d53/go.mod h1:w5rIm9hJlHD+CYpQEVMWE/6WaE/EiLmYVs18Kw/iH0s=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102184954-8942693de68b h1:nU9yQi0+kZAHPSuPUpcqYL7e5M02lgfaxNauqIikWzw=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102184954-8942693de68b/go.mod h1:lWiQfXWr0Uc517tksx7D5p5ZoXo9bxRoJ0or+z9mRyk=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102185815-e8774f734214 h1:Ja6xj2asNFMS06JFQOMxeeVysGeDx9z/s2eaBNw69eE=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102185815-e8774f734214/go.mod h1:lWiQfXWr0Uc517tksx7D5p5ZoXo9bxRoJ0or+z9mRyk=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102213636-261031fd0d53 h1:pCU4INMhC/aR6lETxWFwEurmpBfK6d3MukZiKrR1tgs=
+github.com/CodeYourFuture/curriculum-labs/common-theme v0.0.0-20240102213636-261031fd0d53/go.mod h1:lWiQfXWr0Uc517tksx7D5p5ZoXo9bxRoJ0or+z9mRyk=
