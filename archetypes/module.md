@@ -8,7 +8,7 @@ menu = ['syllabus']
 
 ### Quickstart
 
-Generate a template module by running` module_create.sh <module-name>` in the root of your website. This script produces a complete module structure with all the necessary files and folders from the Hugo archetypes stored in the `archetypes` folder. Create any single archetype by running `hugo new --kind $ARCHETYPE_NAME $PATH_TO_NEW_FILE`.
+Generate a template module by running `./module_create.sh <module-name>` in the root of your website. This script produces a complete module structure with all the necessary files and folders from the Hugo archetypes stored in the `archetypes` folder. Create any single archetype by running `hugo new --kind $ARCHETYPE_NAME $PATH_TO_NEW_FILE`.
 
 The template module contains a prep view to express all your entry criteria and setup instructions for the module, 4 template sprints to plan the weekly work, a product folder to organise the module project, and a success view to express the exit criteria and handoff details.
 
