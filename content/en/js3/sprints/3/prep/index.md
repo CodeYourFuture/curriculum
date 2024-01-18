@@ -10,6 +10,9 @@ backlog_filter= 'Week 3'
 name="Fetching data"
 src="js3/blocks/fetching-data"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=J-0XkB54yp8"
+[[blocks]]
 name="Latency"
 src="js3/blocks/latency"
 [[blocks]]
