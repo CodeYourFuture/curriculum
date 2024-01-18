@@ -8,7 +8,7 @@ weight = 11
 backlog= "Module-JS3"
 [[objectives]]
 1="Every trainee has received and responded to at least one code review"
-2="Every trainee has a deployed version of their JS3 Module Project with the features defined in levels up to and including level 500"
+2="Every trainee has deployed their pair-coded JS3 Module Project, having completed levels 100 to 500"
 3="Every trainee has swapped with another member of their class whilst implementing the levels in the JS3 Module Project as per the project brief"
 4="70% of cohort is at or beyond milestones"
 +++
