@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CodeYourFuture/curriculum-labs/tooling/go/internal/local-overrides-enforcer/checker"
+	"github.com/CodeYourFuture/curriculum/tooling/go/internal/local-overrides-enforcer/checker"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 	flag.StringVar(&rootDirectory, "root-dir", ".", "Root directory to search for go.mod files in")
 	excludeDirectoriesFlag := flag.String("exclude", filepath.Join("tooling", "go"), "Directories to exclude from searches (comma-delimited)")
 	var parentModule string
-	flag.StringVar(&parentModule, "parent-module", "github.com/CodeYourFuture/curriculum-labs", "Parent module to search for missing overrides within")
+	flag.StringVar(&parentModule, "parent-module", "github.com/CodeYourFuture/curriculum", "Parent module to search for missing overrides within")
 
 	flag.Parse()
 
@@ -31,7 +31,7 @@ func main() {
 	for _, excludeDirectory := range strings.Split(*excludeDirectoriesFlag, ",") {
 		excludeDirectory, err = filepath.Abs(excludeDirectory)
 		if err != nil {
-			log.Fatalf("Failed to get absolute path of exclude direectory: %v", err)
+			log.Fatalf("Failed to get absolute path of exclude directory: %v", err)
 		}
 		excludeDirectories = append(excludeDirectories, excludeDirectory)
 	}

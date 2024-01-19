@@ -1,4 +1,4 @@
-module github.com/CodeYourFuture/curriculum-labs/tooling/go
+module github.com/CodeYourFuture/curriculum/tooling/go
 
 go 1.21.5
 
