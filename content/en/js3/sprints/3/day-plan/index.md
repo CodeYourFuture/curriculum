@@ -11,15 +11,22 @@ name="Energiser"
 src="blocks/energiser"
 time=10
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name= "Teamwork Project"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s3"
 [[blocks]]
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Diagnose"
+src="blocks/diagnose"
 time=60
+[[blocks]]
+name="Check-in ➡️ Coordinate"
+src="blocks/check-in-coordinate"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
@@ -41,7 +48,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="TV Show Project"
 src="blocks/study-group"
-time=60
+time=15
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
