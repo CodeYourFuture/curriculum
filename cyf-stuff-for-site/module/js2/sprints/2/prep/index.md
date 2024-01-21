@@ -19,6 +19,9 @@ name="Access"
 src="js2/blocks/query-string"
 name="Query string"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=GeKL1Mer4x8"
+[[blocks]]
 src="js2/blocks/no-params"
 name="No params"
 [[blocks]]
