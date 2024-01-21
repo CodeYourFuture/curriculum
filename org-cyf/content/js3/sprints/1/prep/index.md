@@ -35,5 +35,5 @@ name="using-map"
 src="module/js3/using-map"
 [[blocks]]
 name= "Prep Teamwork Project"
-src= "TEMPURL-/blocks/prep-teamwork-project/readme/"
+src= "https://cyf-pd.netlify.app/blocks/prep-teamwork-project/readme/"
 +++

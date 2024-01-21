@@ -35,5 +35,5 @@ src="module/js1/generalise"
 name="generalise"
 [[blocks]]
 name= "Asking good questions"
-src= "TEMPURL-/blocks/prep-asking-good-questions/readme/"
+src= "https://cyf-pd.netlify.app/blocks/prep-asking-good-questions/readme/"
 +++
