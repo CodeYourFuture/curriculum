@@ -9,8 +9,6 @@ emoji= '🧩'
     2='Identify and explain the key user stories for your project'
 +++
 
-{{< snippet "snippets/requirements.md" >}}
-
 In addition to [who] and [what], good user stories also include [why]
 
 > As a [who], I can [what] so that **[why]**
