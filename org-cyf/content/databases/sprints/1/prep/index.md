@@ -9,7 +9,7 @@ backlog= 'Module-Databases'
 backlog_filter= 'Week 1'
 [[blocks]]
 name="Introduction to Databases"
-src="module/databases/introduction-to-databases"
+src="module/databases/introduction-to-db"
 [[blocks]]
 name="What is a relational database?"
 src="https://www.youtube.com/watch?v=OqjJjpjDRLc"

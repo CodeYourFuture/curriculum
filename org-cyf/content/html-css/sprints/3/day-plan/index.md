@@ -16,7 +16,9 @@ src="https://cyf-pd.netlify.app/blocks/developer-communication/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="study-60"
+name="Study Group"
+src="blocks/study-group"
+time="60"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
