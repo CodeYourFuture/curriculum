@@ -25,6 +25,9 @@ src="blocks/morning-break"
 name="Gathering requirements"
 src="blocks/requirements"
 [[blocks]]
+name="User stories"
+src="blocks/user-stories"
+[[blocks]]
 name="Choosing a project"
 src="module/portfolio/requirements"
 [[blocks]]
