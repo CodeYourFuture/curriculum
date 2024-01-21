@@ -42,7 +42,7 @@ name="Wrapping up"
 src="blocks/wrapping-up"
 [[blocks]]
 name= "Critical Thinking"
-src= "TEMPURL-/blocks/prep-critical-thinking/readme/"
+src= "https://cyf-pd.netlify.app/blocks/prep-critical-thinking/readme/"
 +++
 
 ## Interacting with computers.

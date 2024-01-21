@@ -11,7 +11,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name= "Asking good technical questions"
-src= "TEMPURL-/blocks/asking-good-technical-questions/readme/"
+src= "https://cyf-pd.netlify.app/blocks/asking-good-technical-questions/readme/"
 [[blocks]]
 name="Progress check-in"
 src="https://github.com/CodeYourFuture/Module-JS1/issues/124"
