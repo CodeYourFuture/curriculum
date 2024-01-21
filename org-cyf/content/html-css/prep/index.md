@@ -2,7 +2,7 @@
 title = 'prep'
 description = 'There is just so much to do!'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-HTML-CSS'

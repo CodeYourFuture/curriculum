@@ -2,7 +2,7 @@
 title = 'prep'
 description = 'You can use these notes and activities to prepare for the first in-person session of the software development course'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Induction'

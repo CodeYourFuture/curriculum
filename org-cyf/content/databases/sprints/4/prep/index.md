@@ -1,7 +1,7 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Databases'

@@ -2,7 +2,7 @@
 title = 'prep'
 description = 'What to do before the module starts'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-JS3'

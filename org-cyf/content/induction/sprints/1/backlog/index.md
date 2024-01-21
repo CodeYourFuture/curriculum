@@ -2,7 +2,7 @@
 title = 'backlog'
 description = 'backlog description'
 layout = 'backlog'
-emoji= '📝'
+emoji= '🏷️'
 menu_level = ['sprint']
 weight = 2
 backlog= 'Induction'

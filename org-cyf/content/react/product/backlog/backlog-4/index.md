@@ -1,7 +1,7 @@
 +++
 title = 'backlog for sprint 4'
 layout = 'backlog'
-emoji= '📝'
+emoji= '🏷️'
 menu_level = ['subdir']
 weight = 4
 backlog= 'React-Module-Project'

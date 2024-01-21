@@ -2,7 +2,7 @@
 title = 'prep'
 description='At CYF trainees prepare before class.'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Course-Fundamentals'

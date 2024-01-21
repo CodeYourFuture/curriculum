@@ -1,7 +1,7 @@
 +++
 title = 'backlog'
 layout = 'backlog'
-emoji= '📝'
+emoji= '🏷️'
 menu_level = ['sprint']
 weight = 2
 backlog= 'Module-JS1'

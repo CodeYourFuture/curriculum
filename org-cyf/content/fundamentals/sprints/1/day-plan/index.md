@@ -2,7 +2,7 @@
 title = 'day-plan'
 description = 'What are requirements, and how do we use the idea of requirements to help us develop complex systems in small, approachable steps? We’ll find out today.'
 layout = 'day-plan'
-emoji= '📝'
+emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Course-Fundamentals'

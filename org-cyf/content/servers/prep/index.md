@@ -2,7 +2,7 @@
 title = 'prep'
 description = 'Set up Postman'
 layout = 'prep'
-emoji= '📝'
+emoji= '🧑🏿‍'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-Servers'

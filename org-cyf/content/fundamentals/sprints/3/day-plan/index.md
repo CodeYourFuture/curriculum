@@ -2,7 +2,7 @@
 title = 'day-plan'
 description = 'Delivery is the catch-all term for shipping your code, or putting it in online, in a public place where real people can use it.'
 layout = 'day-plan'
-emoji= '📝'
+emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Course-Fundamentals'

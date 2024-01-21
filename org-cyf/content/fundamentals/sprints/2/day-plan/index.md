@@ -2,7 +2,7 @@
 title = 'day-plan'
 description = 'Iteration means to repeat. Developers do many small iterations to build software, each time adding or changing some small thing.'
 layout = 'day-plan'
-emoji= '📝'
+emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Fundamentals'

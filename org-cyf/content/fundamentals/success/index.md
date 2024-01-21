@@ -2,7 +2,7 @@
 title = 'success'
 description = 'How do you know if you have successfully completed this course?'
 layout = 'success'
-emoji= '📝'
+emoji= '✅'
 menu_level = ['module']
 weight = 11
 backlog= 'Module-Fundamentals'
