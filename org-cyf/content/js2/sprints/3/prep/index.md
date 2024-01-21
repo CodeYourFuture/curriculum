@@ -13,6 +13,9 @@ name="browser"
 src="module/js2/character-limit"
 name="character-limit"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=0tI34jHLpkY"
+[[blocks]]
 src="module/js2/plan"
 name="strategy"
 [[blocks]]
