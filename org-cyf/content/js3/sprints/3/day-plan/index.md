@@ -12,7 +12,7 @@ src="blocks/energiser"
 time=10
 [[blocks]]
 name="Morning orientation"
-src="module/js3/morning-orientation"
+src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name= "Teamwork Project"
@@ -22,7 +22,7 @@ src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
 name="Diagnose"
-src="blocks/diagnose"
+src="module/js3/diagnose"
 time=60
 [[blocks]]
 name="Check-in ➡️ Coordinate"
