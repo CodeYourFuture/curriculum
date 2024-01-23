@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <article>
+    {{ partial "page-header.html" . }}
+    {{ with .Content }}
+      <section class="c-copy">{{ . }}</section>
+    {{ end }}
+    {{ partial "issues.html" . }}
+  </article>
+{{ end }}

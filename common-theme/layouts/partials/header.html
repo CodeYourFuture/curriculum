@@ -1,0 +1,25 @@
+<header class="l-layout__header l-header">
+  <div class="l-header__container">
+    <h1 class="l-header__heading e-heading__6">
+      <a class="l-header__home" href="/"
+        ><span class="is-invisible">{{ .Section }} {{.Title}} {{$.Site.Title }}</span
+        > 
+        {{ $logos := resources.Match "custom-images/site-logo/*.svg" }}
+        {{ range $logos }}{{ .Content | safeHTML }}{{ end}}
+      </a>
+    </h1>
+    {{ partial "search.html" }}
+    <button
+      class="l-header__action e-button e-button--icon js-menu-toggle e-heading__3">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <path
+          stroke="var(--theme-color--ink)"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M13 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm0 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm0 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z" />
+      </svg>
+      <span class="is-invisible">Open Menu.</span>
+    </button>
+  </div>
+</header>
