@@ -16,16 +16,15 @@ time=15
 
 > 💬 "Morning everyone, Welcome to CYF {REGION}, this week we are working on {MODULE HERE} {SPRINT NUMBER HERE} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
 
-4. Ask if there are any new volunteers,
-   Or if there are some new members who haven't met before
-   Ask those newcomers to introduce themselves to the group/relevant people
+4. Ask if there are any new volunteers or if there are some new members who haven't met before. Ask any newcomers to introduce themselves to the group/relevant people
 
 5. Go through the morning day plan only (typically on the curriculum website) - check the following things:
 
 - Check the number of Tech-Ed / PD volunteers you have for the morning
 - Double-check check someone is leading a given session
-- For any new activities ( like workshops or anything unfamiliar) - read out the block to the group
-- Decide how best to allocate trainees and volunteers - this might be obvious according to the block or it may be
+- For any new activities ( like workshops or anything unfamiliar) - describe how this block works for the group.
+  If there are any new volunteers, then briefly describe how that block works
+- Decide how best to allocate trainees and volunteers for a given block - some blocks will make this clear
 
 5. Nominate a timekeeper from the group - aim for someone who hasn't done it before.
 
