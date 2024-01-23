@@ -12,7 +12,7 @@ src="blocks/energiser"
 time=10
 [[blocks]]
 name="Morning orientation"
-src="blocks/morning-orientation"
+src="module/js3/morning-orientation"
 time=15
 [[blocks]]
 name= "Teamwork Project"
@@ -22,11 +22,11 @@ src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
 name="Diagnose"
-src="blocks/diagnose"
+src="module/js3/diagnose"
 time=60
 [[blocks]]
 name="Check-in ➡️ Coordinate"
-src="blocks/check-in-coordinate"
+src="module/js3/check-in-coordinate"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
