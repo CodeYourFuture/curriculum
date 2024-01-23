@@ -22,7 +22,7 @@ src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
 name="Diagnose"
-src="module/js3/diagnose"
+src="blocks/diagnose"
 time=60
 [[blocks]]
 name="Check-in ➡️ Coordinate"
