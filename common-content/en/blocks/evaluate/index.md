@@ -19,7 +19,7 @@ One of the best ways of checking your progress against your past self is to go b
 1. Go back to JS1 Week 4 prep and familiarise yourself with the problem/function in that week
 1. Using the prep as a guide and reference, test and implement the function defined in JS1 Week 4
 
-## Pay attention ❗🔍
+### Pay attention ❗🔍
 
 - Ensure you write tests first and frequently run your tests your feedback
 - Swap driver and navigator roles often - perhaps after every test
