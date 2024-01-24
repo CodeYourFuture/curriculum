@@ -11,19 +11,18 @@ time=15
 # 👣 Steps
 
 0. Assemble the entire group (all volunteers & all trainees) in a circle
-1. Choose someone (volunteer or trainee) to facilitate this morning orientation block
-2. Briefly welcome everyone with an announcement. Here is an example announcement to read aloud:
+1. Choose someone (volunteer or trainee) to be a **facilitator** for this morning orientation block
+2. The **facilitator** should briefly welcome everyone with an announcement. Here is an example announcement to read aloud:
 
 > 💬 "Morning everyone, Welcome to CYF {REGION}, this week we are working on {MODULE HERE} {SPRINT NUMBER HERE} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
 
-4. Ask if there are any new volunteers or if there are some new members who haven't met before. Ask any newcomers to introduce themselves to the group/relevant people
+4. Check if there are any new volunteers or if there are some attendees who haven't met before. Ask any newcomers to introduce themselves to the group/relevant people
 
-5. Go through the morning day plan only (typically on the curriculum website) - check the following things:
+5. Go through the _morning day plan only_ (typically on the curriculum website) - check the following things:
 
 - Check the number of Tech-Ed / PD volunteers you have for the morning
 - Double-check check someone is leading a given session
-- For any new activities ( like workshops or anything unfamiliar) - describe how this block works for the group.
-  If there are any new volunteers, then briefly describe how that block works
+- For any new activities ( like workshops or anything unfamiliar) - describe how this block works for the group. If there are any new volunteers, then briefly describe how that block works
 - Decide how best to allocate trainees and volunteers for a given block - some blocks will make this clear
 
 5. Nominate a timekeeper from the group - aim for someone who hasn't done it before.
