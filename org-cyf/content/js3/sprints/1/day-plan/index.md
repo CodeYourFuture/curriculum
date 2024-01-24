@@ -17,7 +17,7 @@ src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
 name="Study Group"
-src="blocks/study-group"
+src="blocks/evaluate"
 time=60
 [[blocks]]
 name="Code Review"
