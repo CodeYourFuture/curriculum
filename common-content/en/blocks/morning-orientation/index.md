@@ -4,9 +4,13 @@ headless="true"
 time=15
 [objectives]
     1="Introduce and welcome new volunteers"
-    2="Nominate a time keeper"
+    2="Nominate a timekeeper"
     3="Check the morning day plan and group structures"
 +++
+
+{{<note title="Planning during the week">}}
+🧭 Step 1 and step 6 can be done earlier in the week. Create a post on Slack and get some people to take on the roles of **timekeeper** and **facilitator**. Nominate people who've not done it before.
+{{<n/ote>}}
 
 # 👣 Steps
 
@@ -27,7 +31,7 @@ time=15
 - For any new activities ( like workshops or anything unfamiliar) - describe how this block works for the group. If there are any new volunteers, then briefly describe how that block works
 - Decide how best to allocate trainees and volunteers for a given block - some blocks will make this clear
 
-6. Nominate a timekeeper from the group - aim for someone who hasn't done it before.
+6. Nominate a timekeeper (volunteer or trainee) from the group - aim for someone who hasn't done it before.
 
 ⏱️ Timekeepers will need to:
 
