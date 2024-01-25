@@ -16,7 +16,9 @@ time=15
 
 > 💬 "Morning everyone, Welcome to CYF {REGION}, this week we are working on {MODULE HERE} {SPRINT NUMBER HERE} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
 
-4. Check if there are any new volunteers or if there are some attendees who haven't met before. Ask any newcomers to introduce themselves to the group/relevant people
+3. Check if there are any new volunteers or if there are some attendees who haven't met before. Ask any newcomers to introduce themselves to the group/relevant people
+
+4. Check if it is the _start of a new module_. In other words, are you working on sprint 1? If so then ask someone to read out the success criteria for the new module you have started.
 
 5. Go through the _morning day plan only_ (typically on the curriculum website) - check the following things:
 
@@ -25,7 +27,7 @@ time=15
 - For any new activities ( like workshops or anything unfamiliar) - describe how this block works for the group. If there are any new volunteers, then briefly describe how that block works
 - Decide how best to allocate trainees and volunteers for a given block - some blocks will make this clear
 
-5. Nominate a timekeeper from the group - aim for someone who hasn't done it before.
+6. Nominate a timekeeper from the group - aim for someone who hasn't done it before.
 
 ⏱️ Timekeepers will need to:
 
