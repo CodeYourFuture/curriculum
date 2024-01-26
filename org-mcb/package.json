@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "dotenv -- hugo server --environment issues-are-cached-and-incomplete",
-    "build:dev": "dotenv -- hugo --environment issues-are-cached-and-incomplete"
+    "start:dev": "dotenv -e ../.env -- hugo server --environment issues-are-cached-and-incomplete",
+    "build:dev": "dotenv -e ../.env  -- hugo --environment issues-are-cached-and-incomplete"
   },
   "keywords": [],
   "author": "",
