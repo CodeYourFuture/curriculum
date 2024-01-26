@@ -1,0 +1,84 @@
+{
+    "colors": [
+        {
+            "id": "color001",
+            "name": "Red",
+            "hex": "#FF0000",
+            "rgb": {
+                "red": 255,
+                "green": 0,
+                "blue": 0
+            },
+            "cmyk": {
+                "cyan": 0,
+                "magenta": 100,
+                "yellow": 100,
+                "black": 0
+            }
+        },
+        {
+            "id": "color002",
+            "name": "Blue",
+            "hex": "#0000FF",
+            "rgb": {
+                "red": 0,
+                "green": 0,
+                "blue": 255
+            },
+            "cmyk": {
+                "cyan": 100,
+                "magenta": 100,
+                "yellow": 0,
+                "black": 0
+            }
+        },
+        {
+            "id": "color003",
+            "name": "Green",
+            "hex": "#00FF00",
+            "rgb": {
+                "red": 0,
+                "green": 255,
+                "blue": 0
+            },
+            "cmyk": {
+                "cyan": 100,
+                "magenta": 0,
+                "yellow": 100,
+                "black": 0
+            }
+        },
+        {
+            "id": "color004",
+            "name": "Yellow",
+            "hex": "#FFFF00",
+            "rgb": {
+                "red": 255,
+                "green": 255,
+                "blue": 0
+            },
+            "cmyk": {
+                "cyan": 0,
+                "magenta": 0,
+                "yellow": 100,
+                "black": 0
+            }
+        },
+        {
+            "id": "color005",
+            "name": "Purple",
+            "hex": "#800080",
+            "rgb": {
+                "red": 128,
+                "green": 0,
+                "blue": 128
+            },
+            "cmyk": {
+                "cyan": 0,
+                "magenta": 100,
+                "yellow": 0,
+                "black": 50
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "post": {
+        "id": "128",
+        "title": "Amazing Sunset Photo",
+        "author": "John Doe",
+        "score": 1200,
+        "subreddit": "pics",
+        "comments_count": 50,
+        "comments": [
+            {
+                "id": "comment1",
+                "author": "commenter1",
+                "text": "This is breathtaking!",
+                "upvotes": 25
+            },
+            {
+                "id": "comment2",
+                "author": "commenter2",
+                "text": "Where was this taken?",
+                "upvotes": 15
+            },
+            {
+                "id": "comment3",
+                "author": "commenter3",
+                "text": "I wish I could capture moments like this.",
+                "upvotes": 18
+            }
+        ]
+    }
+}

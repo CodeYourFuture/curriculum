@@ -1,0 +1,20 @@
+{
+    "property": {
+        "id": "54",
+        "name": "Cozy Cottage",
+        "type": "Entire Home",
+        "location": {
+            "city": "New York",
+            "neighborhood": "Brooklyn",
+            "latitude": 41.6382,
+            "longitude": -73.9442
+        },
+        "price_per_night": 150,
+        "guests_capacity": 4,
+        "amenities": [
+            "WiFi",
+            "Kitchen",
+            "Parking"
+        ]
+    }
+}
