@@ -6,7 +6,7 @@ time= 60
     1="Evaluate your current progress against previous modules"
 +++
 
-It is essential to continually check in with yourself and evaluate your progress as you move through the course.
+You must check in with yourself and evaluate your progress as you move through the course.
 
 One of the best ways of checking your progress against your past self is to go back to and tackle a problem from a previous part of the course.
 
