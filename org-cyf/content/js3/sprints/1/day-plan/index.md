@@ -20,8 +20,8 @@ src="https://cyf-pd.netlify.app/blocks/teamwork-project-s1/readme/"
 src="blocks/morning-break"
 name="Morning break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Evaluate"
+src="blocks/evaluate"
 time=60
 [[blocks]]
 name="Code Review"
