@@ -8,9 +8,9 @@ time=15
     3="Check the morning day plan and group structures"
 +++
 
-{{<note title="Planning during the week">}}
+{{<note title="Planning during the week" type="info">}}
 🧭 Step 1 and step 6 can be done earlier in the week. Create a post on Slack and get some people to take on the roles of **timekeeper** and **facilitator**. Nominate people who've not done it before.
-{{<n/ote>}}
+{{</note>}}
 
 # 👣 Steps
 
