@@ -13,6 +13,9 @@ src="module/js3/data-ui"
 name="now-showing"
 src="module/js3/now-showing"
 [[blocks]]
+name="Step-through-prep workshop"
+src="https://www.youtube.com/watch?v=HgbzMhJgdbU"
+[[blocks]]
 name="single-datum"
 src="module/js3/single-datum"
 [[blocks]]

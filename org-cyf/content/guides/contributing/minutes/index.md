@@ -17,6 +17,109 @@ Attendees:
 
 ---
 
+## 2024-01-16
+
+Attendees: Ali Smith, Chris Owen, Daniel Wagner-Hall, Isar Fridrikkson, Leila Farsani, Mitch Lloyd, Sally McGrath, Yun Ji, Zsolt Sztupak
+
+### ❗Actions from last time
+
+- [ ] Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Isar (Carry-over): Get all the relevant MigraCode people to fill in [this form](https://docs.google.com/forms/d/1sp2MTsU0eEAr4HCKXfDPxUXXZROWN8UyHIrDk7dRSJk/edit) to join CYF GitHub teams.
+- [ ] Sally (Carry-over): Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [x] Ali (Carry-over): Write up a ticket for Sally to document the architecture of the curriculum website
+- [x] Sally: Create a MRE of a monorepo module system and send it out for review.
+- [x] Sally: Get Zsolt a CYF email and on-boarded into our Netlify team plan.
+- [x] Zsolt: Experiment with the CYF Netlify team.
+- [/] Zsolt: Migrate everything in the curriculum to be Netlify + Supabase based. - In progress, draft PR Up
+- [/] Zsolt: Reframe the full-stack assessment to be end-to-end feature slices rather than frontend - backend - DB. - In progress
+- [x] Sally: Cancel the syllabus team meeting on 2024-01-02.
+
+### 📝 Agenda points
+
+#### Introductions
+
+* Isar Fridriksson: MigraCode Barcelona - recently joined the syllabus team.
+* Yun Ji: Studied with MigraCode Barcelona last year. Has PR'd some React fixes to the existing syllabus, taught some modules, and is excited to collaborate more!
+* Chris Owen: Ex Director of Education for CYF. Now working at Sigma Labs (an educator provider). Interested in getting involved with the nascent Cloud module.
+* Leila Farsani: Graduate from London Class 9, volunteering since. Looking for ways to help trainees to thrive more. Has some proposals around improving code review at CYF.
+* Mitch Lloyd: CYF TechEd employee and former volunteer. Has been developing and teaching the curriculum.
+* Sally McGrath: Director of Programme at CYF (and volunteer before).
+* Zsolt Sztupak: Engineering Manager by day, CYF volunteer in Scotland.
+* Daniel Wagner-Hall: Software Engineer, CYF volunteer in London, interested in breaking down problems and giving feedback.
+
+#### Rebuild of the curriculum platform
+
+* Sally has created https://github.com/CodeYourFuture/curriculum-labs
+* Split out modules
+  * One of common stuff ("common-content", "common-theme") - stuff that everyone may want to pull from.
+  * CYF and MCB have their own modules which mount these common modules, and may also contain their own unique content (but please contribute to common!)
+* Also already have "sources", e.g. YouTube, Slides, Runkit, etc.
+* Deployments Just Work.
+* Currently MCB has no modules, but copying them in should be pretty easy.
+* MCB has 3-4 people eager to get contributing.
+* Sally is proposing merging curriculum-labs into curriculum.
+* We're currently going to keep the MCB site in one repo, but can fork it out if needed (or move the curriculum repo into a shared org).
+
+#### Code Review
+
+* [Design doc](https://docs.google.com/document/d/10iBJTUoUR40wD_Y-j8mfCb9OlCQz_XnNd9mjCgiS2hc/edit).
+* Primary goal: We'd like to make sure trainees getting more and better feedback on their code.
+* Let's slim it down to focus on one goal: Getting trainees more code review.
+* Also, we have very variable amounts of code review across the organisation. Some people get good code review already, let's understand what people's experiences are.
+* We probably need to make this trainee-driven - get trainees _expecting_ code review, and asking for it.
+* Maybe pull the idea of assessment out of scope - just focus on getting as many useful comments on PRs as possible.
+* Idea that we're "promoting technical conversation".
+* Also, reducing class size will help us to be able to scale code review better.
+
+Possible first deliverable:
+* Describing good code review (possibly via examples of good code review Leila has received).
+* Find existing code reviewers and understand their experience.
+
+Next steps:
+* Find some volunteer code reviewers, put them through the "good code reviewer" filter.
+* Set expectations with one cohort (probably NW6)'s trainees that they should expect code review, and get the volunteers to serve that need.
+
+#### DevOps/Cloud Module
+
+* What has come before, and who should Chris speak to?
+* Pedro had previously done small-group ad-hoc cloud teaching which was very successful, but doesn't scale.
+* Pedro, Alvaro, Lorenzo have put together assorted iterations which have had mixed success.
+  * Biggest failure was when the module was too hard and trainees weren't supported enough. The content wasn't tangible enough - probably needs to be project-driven.
+  * Trainees need to have something to be able to show an employer.
+  * CYF need something tangible we can demonstrate to potential employers.
+* Existing content: https://main--cyf-cloud-track.netlify.app/cloud/ and https://module-cloud.codeyourfuture.io/overview/welcome-to-devops
+* Sally has agreed Learning Objectives with Alvaro and Lorenzo - Chris will try to collect them.
+* We're hoping there are a lot of potential Capgemini roles opening up this year - run ideas past Sally to understand how they mesh with CG's needs.
+* Is there an example of best content? Generally avoid lectures, be very project-focused, JS2 prep is pretty solid.
+
+#### MigraCode curriculum move
+
+* Discussion has been ongoing with MCB's parent organisation - there's agreement about the changes.
+* Yun Ji is a graduate from ~7 months ago - eager to contribute to open source, great problem solver, and has worn all the hats (student, instructor, etc).
+* More team members being on-boarded (Ali - graduate and head of education - will be joining meetings from February, Isha - graduate/staff)
+* Yun Ji is eager to get started - interested in code review - also found it very valuable in her time on the course!
+
+#### Training club
+
+* We're going to start doing a volunteer management course in a book-club style.
+* It starts next week - see https://docs.google.com/document/d/1r8H3kaKs5at6C7a41lOP7FLUaZ0bFyCvCwC9e83lM5g/edit
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Sally (Carry-over): Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [ ] Ali: Review all of Sally's React and Node workshop migrations
+- [ ] Chris: Merge all the Cloud curricula into the curriculum website.
+- [ ] Leila + Yun: Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila: Find existing code reviewers and understand their experience.
+- [ ] Mitch: Get MCB volunteers on-boarded onto Slack
+- [ ] Daniel: Get MCB volunteers on-boarded onto GitHub
+- [ ] Ali: Set up training club
+
+---
+
 ## 2023-12-19
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Mitchell Lloyd, Sally McGrath, Zsolt Sztupak
