@@ -19,8 +19,8 @@ One of the best ways of checking your progress against your past self is to go b
 
 ## Activity
 
-1. Go back to JS1 Week 4 prep and familiarise yourself with the problem/function in that week
-1. Using the prep as a guide and reference, test and implement the function defined in JS1 Week 4
+1. Find a problem from 2 modules ago and familiarise yourself with it
+1. Test and implement a solution to the chosen problem
 
 ### Pay attention ❗🔍
 
