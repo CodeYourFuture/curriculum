@@ -2,6 +2,7 @@
 title: PostgreSQL > Render
 description: How to create a PostgreSQL Database on Render
 emoji: 🐘
+weight: 3
 ---
 
 1. Click on the New + button, then click on PostgreSQL
@@ -28,6 +29,8 @@ emoji: 🐘
 
 ![Environment variables in the Connections tab](environment-variables.png)
 
-7. The Connect button could be useful for quick Environment Variable reference
+7. If you are using a Render database outside of Render, you'll need to use the External Database URL. If you are using the database inside of Render, you should use the Internal Database URL.
+
+8. The Connect button could be useful for quick Environment Variable reference
 
 ![Connect button showing quick reference to environment variables](connect-button.png)

@@ -2,6 +2,7 @@
 title: GitHub > Render
 description: How to connect your GitHub to Render
 emoji: 🔌
+weight: 1
 ---
 
 1. Click SIGN IN button
