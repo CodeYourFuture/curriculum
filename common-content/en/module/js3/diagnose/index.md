@@ -23,7 +23,7 @@ Given a program or piece of code, you’ll have to explain what the code current
 
 ### 🔍🐛 Find the bug
 
-Given a target output/behaviour - trainees can identify a bug in the source
+Given a target output/behaviour - trainees can identify a bug in the source code
 code
 
 ### 🪜🧭 Propose a strategy
