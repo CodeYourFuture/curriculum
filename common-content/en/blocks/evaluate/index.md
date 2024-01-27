@@ -24,7 +24,7 @@ Check your progress against your past self: go back to and tackle a problem from
 
 ### Pay attention ❗🔍
 
-- Ensure you write tests first and frequently run your tests your feedback
+- Write tests first and run your tests frequently to get feedback
 - Swap driver and navigator roles often - perhaps after every test
 - Use the tests to break the problem - don't try implementing everything all at once
 - Outline/discuss your strategy together before writing any code
