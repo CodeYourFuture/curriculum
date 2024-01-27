@@ -27,7 +27,7 @@ Check your progress against your past self: go back to and tackle a problem from
 - Write tests first and run your tests frequently to get feedback
 - Swap driver and navigator roles often - perhaps after every test
 - Use your unit tests to break down the problem - don't try implementing everything all at once
-- Outline/discuss your strategy together before writing any code
+- Discuss your strategy together before writing any code
 - Check the learning objectives in each block. Do they make sense? Discuss them together as a pair
 
 {{</note>}}
