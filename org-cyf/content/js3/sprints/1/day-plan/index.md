@@ -37,10 +37,11 @@ time=120
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
+time="10"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=50
+time=30
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
