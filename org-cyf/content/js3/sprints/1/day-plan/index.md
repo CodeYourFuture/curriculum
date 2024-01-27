@@ -41,9 +41,13 @@ time="10"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=30
+time=20
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
 time="0"
+[[blocks]]
+name="Retrospective"
+src="blocks/retro"
+time="20"
 +++
