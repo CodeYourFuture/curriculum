@@ -28,6 +28,6 @@ code
 
 ### 🪜🧭 Propose a strategy
 
-Given some problem, you’ll have to think about a strategy for solving the given problem. This doesn’t involve coding but stepping back to think about how you could solve the problem. You might want to talk aloud, draw a flow diagram or write out the steps you’d take to solve the given problem
+Given a problem, you’ll have to think about a strategy for solving it. This doesn’t involve coding but stepping back to think about how you could solve the problem. You might want to talk aloud, draw a flow diagram or write out the steps you’d take in your solution.
 
 For the specific task, check with the facilitator on Saturday.
