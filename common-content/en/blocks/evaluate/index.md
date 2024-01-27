@@ -8,7 +8,7 @@ time= 60
 
 You must check in with yourself and evaluate your progress as you move through the course.
 
-One of the best ways of checking your progress against your past self is to go back to and tackle a problem from a previous part of the course.
+Check your progress against your past self: go back to and tackle a problem from a previous part of the course.
 
 {{<note title="Pair up and check progress" type="activity">}}
 
