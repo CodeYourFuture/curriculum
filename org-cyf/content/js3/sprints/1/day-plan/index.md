@@ -10,6 +10,10 @@ backlog_filter= 'Week 1'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name="Teamwork Project Sprint 1"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s1/readme/"
 [[blocks]]
@@ -33,12 +37,17 @@ time=120
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
+time="10"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=50
+time=20
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS3/pulls"
 time="0"
+[[blocks]]
+name="Retrospective"
+src="blocks/retro"
+time="20"
 +++
