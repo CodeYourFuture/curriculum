@@ -25,6 +25,9 @@ src="module/js3/callbacks"
 name="Using .fetch()"
 src="module/js3/using-fetch"
 [[blocks]]
+name="API usage"
+src="module/js3/api"
+[[blocks]]
 name="Product MVP and features"
 src="https://cyf-pd.netlify.app/blocks/define-your-products-mvp/readme/"
 +++
