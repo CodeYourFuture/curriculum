@@ -11,7 +11,7 @@ emoji= '🧩'
 
 Let's try more API interactions
 
-To learn the release date of Adele's "Rolling in the Deep," we can make a GET request to the songs page
+To get song details of all songs we can make a GET request to the songs page
 
 ```
 const url = 'https://curriculum.codeyourfuture.io/js3/api/songs'
@@ -30,6 +30,5 @@ const url = 'https://curriculum.codeyourfuture.io/js3/api/song/5'
 fetch(url).then(response => response.json())
     .then(data => console.log('Song No 5:', data));
 ```
-
 
 //@TODO: add post request to update song information
