@@ -1,0 +1,108 @@
+.c-page-header {
+  --gap: var(--theme-spacing--gutter);
+
+  @include grid-assign(
+    container,
+    title,
+    subtitle,
+    description,
+    breadcrumbs,
+    backlog,
+    lastmod,
+    toc,
+    edit
+  );
+  grid-template:
+    "." var(--gap)
+    "container" 1fr
+    "." var(--gap);
+
+  &__container {
+    pointer-events: all;
+    display: grid;
+    grid-template:
+      ".              .            .        " var(--gap)
+      "breadcrumbs    .            .        " min-content
+      "title          title        title    " min-content
+      ".              .            .        " var(--gap)
+      "description    description  description" min-content
+      "backlog        .   .        " 1fr
+      ".              .   .        " var(--gap)
+      / 1fr var(--gap) minmax(0, 1fr);
+
+    .c-page-header--toc & {
+      grid-template:
+        ".          " var(--gap)
+        "breadcrumbs" min-content
+        "title      " min-content
+        ".          " var(--gap)
+        "subtitle   " min-content
+        "toc        " min-content
+        ".          " var(--gap)
+        "description" 1fr
+        ".          " var(--gap)
+        / 1fr;
+    }
+    .c-page-header--toc:not(.c-page-header--solo) & {
+      @media (min-width: $c-max) {
+        grid-template:
+          ".              .   .        " var(--gap)
+          "breadcrumbs    .   edit     " min-content
+          "title          .   toc      " min-content
+          "subtitle       .   toc      " min-content
+          "description    .   toc      " min-content
+          ".              .   toc      " auto
+          ".              .   lastmod  " min-content
+          ".              .   .        " var(--gap)
+          / 1fr var(--gap) minmax(0, 1fr);
+      }
+    }
+
+    .c-page-header--splash & {
+      grid-template:
+        ".           " var(--gap)
+        "title       " min-content
+        ".           " var(--gap)
+        "description " 1fr
+        ".           " var(--gap)
+        / 1fr;
+    }
+  }
+  &__title {
+    display: flex;
+    line-height: 0.75;
+    text-shadow: -2px 1px 0 var(--theme-color--pop);
+    background-color: var(--theme-color--block);
+    margin-bottom: var(--theme-spacing--1);
+    .c-page-header--splash & {
+      color: var(--theme-color--brand);
+      text-shadow: none;
+    }
+  }
+
+  &__description {
+    font-weight: 300;
+  }
+
+  &__breadcrumbs {
+    padding: 0 0 0 var(--theme-type-size--1);
+    z-index: 1;
+    .c-page-header--splash & {
+      display: none;
+    }
+  }
+
+  &__toc {
+    scroll-margin-top: calc(2 * var(--header-height));
+
+    .c-toc {
+      max-height: 25vh;
+    }
+    .c-page-header--solo & .c-toc {
+      max-height: none;
+      @media (max-width: $c-med) {
+        max-height: 10vh;
+      }
+    }
+  }
+}

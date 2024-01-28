@@ -1,0 +1,80 @@
+{{ $hasTOC := false }}
+{{ $mdTOC := false }}
+{{ $blockTOC := false }}
+{{ $headerClass := .Scratch.Get "headerClass" }}
+{{ if and
+  (gt .Page.WordCount 400) (.Page.TableOfContents)
+}}
+  {{ $hasTOC = true }}
+  {{ $mdTOC = true }}
+{{ end }}
+{{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
+  {{ $hasTOC = true }}
+  {{ $mdTOC = true }}
+  {{ $blockTOC = true }}
+{{ end }}
+<header
+  class="c-page-header {{ if $headerClass }}
+    {{ $headerClass }}
+  {{ end }} {{ if $hasTOC }}c-page-header--toc{{ end }}">
+  <!-- content -->
+  <div class="c-page-header__container">
+    <div class="c-page-header__breadcrumbs">
+      {{ partial "breadcrumbs.html" . }}
+    </div>
+    <h1 class="c-page-header__title e-heading__1">
+      <span class="c-emoji">
+        {{ $override := .Scratch.Get "emoji" }}
+        {{ if $override }}
+          {{ $override }}
+        {{ else }}
+          {{ with .Page.Params.emoji }}
+            {{ . }}
+          {{ end }}
+        {{ end }} </span
+      >{{ .Page.Title }}
+    </h1>
+    {{ if eq .Page.Params.layout "backlog" }}
+      <h2
+        class="c-page-header__subtitle c-page-header__backlog e-heading__3"
+        style="display:flex; width:max-content;">
+        <a
+          class="c-page-header__link"
+          href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
+          >{{ .Page.Params.backlog }}
+          🔗</a
+        >
+      </h2>
+    {{ else }}
+      {{ with .Page.Description }}
+        <h2 class="c-page-header__description e-heading__3">
+          {{ . | markdownify }}
+        </h2>
+      {{ end }}
+    {{ end }}
+    <!--TOC-->
+    {{ if $hasTOC }}
+      <div class="c-page-header__toc " id="toc">
+        <section class="c-toc">
+          <a id="top" class="c-toc__top e-button e-button--icon" href="#toc"
+            >🔖</a
+          >
+          {{ if $mdTOC }}
+            {{ .Page.TableOfContents }}
+          {{ end }}
+          {{ if $blockTOC }}
+            <ol>
+              {{ range .Params.blocks }}
+                <li>
+                  <a href="#{{ .name | urlize }}">{{ .name }}</a>
+                  {{ if "youtu" | in .src }}📼{{ end }}
+                </li>
+              {{ end }}
+            </ol>
+          {{ end }}
+        </section>
+      </div>
+    {{ end }}
+
+  </div>
+</header>

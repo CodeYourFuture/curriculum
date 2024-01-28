@@ -1,0 +1,70 @@
+baseURL = "/"
+title = "Our Platform"
+sectionPagesMenu = "main"
+enableEmoji = true
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageCode = 'en-GB'
+    languageName = 'English'
+
+[menus]
+    [[menus.secondary]]
+        name = "Menu 1 👈🏾"
+        weight = 1
+        url = ""
+     [[menus.secondary]]
+        name = "Menu 2 👋🏿"
+        weight = 2
+        url = ""
+    [[menus.secondary]]
+        name = "Menu 3 🫶🏼"
+        weight = 3
+        url = ""
+
+[params]
+googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
+description = "A free and open source software development programme."
+main_website = ""
+main_org_name = "eg Code Your Future"
+org = "https://github.com/YOUR_ORG_HERE"
+repo = "https://github.com/YOUR_ORG_HERE/YOUR_REPO/"
+root = "YOUR_REPO_I_THINK"
+orgapi = "https://api.github.com/repos/YOUR_ORG_HERE/"
+# We use a proxy which concatenates paginated responses, otherwise we miss results.
+# Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
+issuesorgapi = "https://github-issue-proxy.illicitonion.com/repos/CodeYourFuture/"
+
+[markup]
+[markup.tableOfContents]
+endLevel = 2
+ordered = true
+startLevel = 2
+[markup.highlight]
+lineNos = false
+codeFences = true
+guessSyntax = true
+[markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+unsafe = true
+hardWraps = true
+disableKinds = ["taxonomy", "term"]
+footnote= true
+
+[caches.getjson]
+# Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
+maxAge = 0
+
+[security.funcs]
+# Allow accessing a GitHub bearer token to avoid rate limits when doing HTTP fetches to the GitHub API.
+# This can be generated at https://github.com/settings/tokens?type=beta and needs read-only access to all public CYF GitHub repos.
+getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
+
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

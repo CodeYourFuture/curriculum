@@ -1,0 +1,63 @@
+.c-tabs {
+  display: block;
+  --outset: calc(-1 * var(--theme-spacing--gutter));
+  --tabline: 1px;
+  margin: 0 var(--outset) var(--theme-spacing--gutter);
+
+  &__list {
+    display: flex;
+  }
+  &__tab {
+    cursor: pointer;
+    font-family: var(--theme-font--display);
+    transform: translateY(2px);
+    padding: var(--theme-spacing--1) var(--theme-spacing--2);
+    border-top: var(--tabline) solid var(--theme-color--outline);
+    border-right: var(--tabline) solid var(--theme-color--outline);
+    border-bottom: none;
+    border-left: var(--tabline) solid var(--theme-color--outline);
+    background: var(--theme-color--paper);
+    box-shadow: var(--theme-box-shadow--top);
+    color: currentColor;
+    place-content: center;
+    transform: translateY(5px);
+    &.is-active,
+    &:hover,
+    &:focus {
+      z-index: 2;
+      transform: translateY(3px) scale(1.01);
+      box-shadow: 0 -2px 0 var(--theme-color--accent);
+      font-weight: 600;
+    }
+  }
+  &__group {
+    display: grid;
+    grid-template: "tab";
+    padding: var(--tabline);
+  }
+
+  &__panel {
+    grid-area: tab;
+    padding: var(--theme-spacing--4) var(--theme-spacing--gutter);
+    background: var(--theme-color--paper);
+    box-shadow: var(--theme-box-shadow--slim);
+    border-radius: var(--theme-border-radius);
+    border-top-left-radius: 0;
+    opacity: 0;
+
+    &.is-active {
+      opacity: 1;
+      z-index: 1;
+    }
+    //not keen on this, might be time to start breaking out these components
+    .c-block__series--timeline & {
+      margin-bottom: var(--outset);
+      box-shadow: var(--theme-box-shadow--top);
+    }
+    &--pd {
+      .c-block__series--timeline & {
+        box-shadow: var(--theme-box-shadow--slim);
+      }
+    }
+  }
+}

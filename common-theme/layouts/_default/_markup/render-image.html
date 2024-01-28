@@ -1,0 +1,85 @@
+{{ if eq .Destination "" }}
+  {{ warnf "Image source is empty: %s" .PlainText }}
+{{ else }}
+  {{ $src := .Destination }}
+  {{ $alt := .PlainText | safeHTML }}
+  {{ $caption := "" }}
+  {{ with .Title }}
+    {{ $caption = . | safeHTML }}
+  {{ end }}
+
+  {{/* Check if the source is an external link */}}
+  {{ $isExternal := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
+  {{/* If this image is served from GitHub, swap to jSDelivr */}}
+  {{ if "github" | in $src }}
+    {{ $src = replace $src "https://github.com/" "https://cdn.jsdelivr.net/gh/" }}
+    {{ $src = replace $src "/blob/" "@" }}
+  {{ end }}
+
+  {{/* Define an image variable and a flag to indicate if it's a resource */}}
+  {{ $image := "" }}
+  {{ $isResource := false }}
+  {{ $srcset := "" }}
+
+  {{/* If it's not an external link, look for the image in Page resources */}}
+  {{ if not $isExternal }}
+    {{/* Check if the image is a resource */}}
+    {{ with $.Page.Resources.GetMatch (printf "%s" $src) }}
+      {{ $image = . }}
+      {{ $isResource = true }}
+    {{ end }}
+  {{ end }}
+
+  {{/* If the image is still not found, try to get it from the assets directory */}}
+  {{- if and (not $image) (not $isExternal) -}}
+    {{ $path := (path.Join "pictures" $src) }}
+    {{ with resources.Get $path }}
+      {{ $image = . }}
+    {{ end }}
+  {{- end -}}
+
+  {{/* Handle external images directly */}}
+  {{- if $isExternal -}}
+    {{ $image = (dict "RelPermalink" $src "Width" 0 "Height" 0) }}
+  {{- end -}}
+
+  {{/* If the image is found, resize it based on the screen width and display it in the figure */}}
+  {{ if $image }}
+    {{/* Extract the file extension from the image URL */}}
+    {{ $ext := path.Ext $src }}
+
+    {{/* Perform resizing operations only if $image is a real image resource and not a GIF */}}
+    {{ if and $isResource (ne $ext ".gif") }}
+      {{ $small := (cond (gt $image.Width 480) ($image.Resize "480x webp q75") $image) }}
+      {{ $medium := (cond (gt $image.Width 768) ($image.Resize "768x webp q75") $image) }}
+      {{ $big := (cond (gt $image.Width 1024) ($image.Resize "1024x webp q75") $image) }}
+      {{ $srcset := printf "%s 480w, %s 768w, %s 1024w" $small.RelPermalink $medium.RelPermalink $big.RelPermalink }}
+    {{ else }}
+      {{/* If $image isn't a real resource or is a GIF, don't try to generate srcset */}}
+      {{ $srcset := $image.RelPermalink }}
+    {{ end }}
+
+
+    <figure>
+      <img
+        loading="lazy"
+        src="{{ $image.RelPermalink }}"
+        srcset="{{ $srcset }}"
+        sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1024px"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+        alt="{{ if $alt }}
+          {{ $alt }}
+        {{ else }}
+          &nbsp;
+        {{ end }}" />
+      {{ with $caption }}
+        <figcaption>{{ . | markdownify }}</figcaption>
+      {{ end }}
+    </figure>
+  {{ else }}
+    <div title="broken image link" style="font-size: 48px; text-align: center;">
+      🖼️
+    </div>
+  {{ end }}
+{{ end }}

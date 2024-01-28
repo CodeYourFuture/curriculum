@@ -1,3 +1,7 @@
+# WARNING MAJOR STRUCTURAL CHANGE IN PROGRESS 12 JAN 2024
+
+Hello contributor! In between you opening this PR and you merging it, you may find a large conflict appears. This is because this site will be broken down into Hugo modules in the same way CodeYourFuture/curriculum-labs is currently structured. The platform (features) will move into the common-theme module and the content (text) will move into the common-content module. The pages will move into the organisation directory. (org-cyf for CYF and org-mcb for MigraCode) You will need to find the new location of your content and move it there. If you are unsure, please ask in the comment thread of this ticket.
+
 ## What does this change?
 
 Module:
@@ -18,7 +22,3 @@ Week(s):
 ## Who needs to know about this?
 
 <!-- Tag anyone who might want to be notified about this PR -->
-
-## Rendered Pages
-
-<!-- Leave this area and below blank. A github bot will render your changed github files for you here. -->
