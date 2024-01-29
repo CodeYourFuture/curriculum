@@ -8,20 +8,21 @@ weight = 3
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name="PD Placeholder to be replaced with PD link"
-src="blocks/pd-placeholder"
+name="Group Discussion"
+src="blocks/group-discussion"
+time="75"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="Demos"
+src="blocks/demo"
 time="60"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group 2"
+name="Study Group"
 src="blocks/study-group"
 time="90"
 [[blocks]]
@@ -32,8 +33,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group 2"
-src="blocks/study-group"
+name="AMA"
+src="blocks/ama"
 time="60"
 [[blocks]]
 name="Retro"
