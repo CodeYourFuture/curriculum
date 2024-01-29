@@ -7,9 +7,6 @@ weight = 1
 backlog= 'Module-JS2'
 backlog_filter= 'Week 2'
 [[blocks]]
-name="Find and Analyse Job Description"
-src="https://cyf-pd.netlify.app/blocks/find-and-analyse-a-job-description/readme/"
-[[blocks]]
 src="js2/blocks/ordered-data"
 name="Ordered data"
 [[blocks]]
