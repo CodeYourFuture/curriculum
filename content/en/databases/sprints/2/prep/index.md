@@ -8,6 +8,9 @@ weight = 1
 backlog= 'Module-Databases'
 backlog_filter= 'Week 2'
 [[blocks]]
+name="Find and Analyse Job Description"
+src="https://cyf-pd.netlify.app/blocks/find-and-analyse-a-job-description/readme/"
+[[blocks]]
 name="Using Aggregate Functions"
 src="databases/blocks/using-aggregate-functions"
 [[blocks]]
