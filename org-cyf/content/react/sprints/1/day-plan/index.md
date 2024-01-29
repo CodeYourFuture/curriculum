@@ -7,8 +7,13 @@ weight = 3
 backlog= 'Module-React'
 backlog_filter= 'Week 1'
 [[blocks]]
+name="Orientation"
+src="morning-orientation"
+time=15
+[[blocks]]
 name="Energiser"
 src="blocks/energiser"
+time=10
 [[blocks]]
 name="Resilience"
 src="https://cyf-pd.netlify.app/blocks/resilience/readme/"
@@ -16,16 +21,16 @@ src="https://cyf-pd.netlify.app/blocks/resilience/readme/"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
-time="60"
+name="Pokedex Workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/react-pokedex/pokedex-1"
+time="90"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="React Hotel: Working in teams"
 src="module/react/team-project"
-time="90"
+time="60"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-React/pulls"
@@ -34,9 +39,9 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group 2"
+name="Study Group"
 src="blocks/study-group"
-time="60"
+time="70"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/React-Module-Project/pulls"

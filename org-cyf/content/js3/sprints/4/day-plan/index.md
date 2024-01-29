@@ -11,6 +11,10 @@ name="Energiser"
 src="blocks/energiser"
 time=10
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name="Progress check-in"
 src="https://github.com/CodeYourFuture/Module-JS3/issues/245"
 time="15"
