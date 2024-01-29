@@ -9,6 +9,7 @@ backlog_filter= 'Week 4'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
+[[blocks]]
 name= "Collective Job Hunt"
 src="https://cyf-pd.netlify.app/blocks/collective-job-hunt/readme/"
 time="30"
