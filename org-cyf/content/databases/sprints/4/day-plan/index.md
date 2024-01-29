@@ -9,10 +9,13 @@ backlog_filter= 'Week 4'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
+name= "Collective Job Hunt"
+src="https://cyf-pd.netlify.app/blocks/collective-job-hunt/readme/"
+time="30"
 [[blocks]]
-name= "PD Placeholder"
-src="blocks/pd-placeholder"
-time="45"
+name= "Discuss the needs of employers"
+src="https://cyf-pd.netlify.app/blocks/discuss-the-needs-of-employers/readme/"
+time="30"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
