@@ -40,7 +40,3 @@ time="60"
 name="Retro"
 src="blocks/retro"
 +++
-
-This example day plan is a template for you to use. It is a good idea to have a consistent structure for your day plans so that everyone knows _what_ to do _when_. The day plan will create a schedule from the time (in minutes) stored on each block using the `time-stamper` web component. You can override this time by adding a `time` parameter in the front matter as shown above.
-
-This view doesn't expect any content in the `.Content` section; delete these instructions. If you want to add a description of the day, add it to a `.Description` parameter in the front matter.

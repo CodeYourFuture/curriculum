@@ -5,6 +5,9 @@ emoji= '📅'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
+name="Orientation"
+src="blocks/morning-orientation"
+[[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
@@ -14,6 +17,10 @@ time="75"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time="60"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
