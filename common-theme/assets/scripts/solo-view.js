@@ -174,6 +174,7 @@ class SoloView extends HTMLElement {
           position: sticky;
           top: 0;
           grid-area: sidebar;
+          max-width: var(--theme-spacing--container-min);
 
         }
         ::slotted([slot="blocks"]) {
