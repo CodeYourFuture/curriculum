@@ -10,7 +10,7 @@ backlog_filter= 'portfolio'
 +++
 
 ## 🎯 1. Meet the criteria
-
+<!-- CYF-ONLY -->
 - [ ] People
       We need at least two trainees to start a module
       A minimum ratio of 1:4 volunteers to trainees
@@ -22,7 +22,7 @@ backlog_filter= 'portfolio'
       CYF will pay for trainee expenses like food, bus tickets, equipment and childcare
 - [x] A Plan
       Here's the plan: it's this module!
-
+<!-- END-CYF-ONLY -->
 When you have all these things, you can start a Portfolio module.
 
 ## 📅 2. Set the date!
