@@ -1,6 +1,6 @@
 +++
-title = 'Sprint 3'
-description = 'The plan for the week'
+title = 'Sprint 3: containers'
+description = 'containers'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']

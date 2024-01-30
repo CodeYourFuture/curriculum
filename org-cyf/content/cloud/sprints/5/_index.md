@@ -1,6 +1,6 @@
 +++
-title = 'Sprint 5'
-description = 'The plan for the week'
+title = 'Sprint 5: scalability and monitoring'
+description = 'scalability and monitoring'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
