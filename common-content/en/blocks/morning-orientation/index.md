@@ -25,7 +25,7 @@ If you haven't done so already, choose someone (volunteer or trainee) to be the 
 
 1. Assemble the entire group (all volunteers & all trainees) in a circle
 1. Briefly welcome everyone with an announcement, like this:
-   > 💬 "Morning everyone, Welcome to CYF {REGION}, this week we are working on {MODULE} {SPRINT} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
+   > 💬 "Morning everyone, Welcome to <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY --> {REGION}, this week we are working on {MODULE} {SPRINT} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
 1. Ask any newcomers to introduce themselves to the group, and welcome them.
 1. Now check: is it the _start of a new module_? Is it sprint 1? If so, read out the success criteria for the new module.
 1. Next go through the _morning day plan only_ (typically on the curriculum website) - and check the following things:

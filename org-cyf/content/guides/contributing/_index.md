@@ -1,17 +1,19 @@
 ---
 id: contributing
 title: Contributing to CYF
+#CYF-ONLY
 weight: 2
 emoji: 🎁
 ---
 
+<!-- CYF-ONLY -->
 ## 💯 Free and open
 
 Code Your Future is a free training programme for refugees, asylum seekers, and other people excluded from education. All our classes are free and our teachers are volunteers. Since 2016, we have supported hundreds of people into great jobs in tech.
 
 We do our work in public. Our [free and open source curriculum](https://github.com/CodeYourFuture/curriculum) is collaboratively developed [on GitHub](https://github.com/CodeYourFuture/) by industry professionals around the world. We are a [registered charity](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5102561/what-who-how-where) in the UK and a [Digital Public Good](https://digitalpublicgoods.net/standard/).
 
-[Join our community](https://codeyourfuture.io/volunteers/). You are wanted and you are needed.
+[Join our community](https://codeyourfuture.io/volunteers/). You are wanted and you are needed.<!-- END-CYF-ONLY -->
 
 ## 🤝🏽 Making Contributions
 
@@ -40,6 +42,7 @@ Thanks for your interest! We're excited to work with you to provide life-changin
 
 Lots and lots of volunteers worldwide contribute to the curriculum. You don't have to join the Syllabus team to contribute, or even our our org.
 
+<!-- CYF-ONLY -->
 But if you'd like to meet us and get more involved, [join our organisation](https://codeyourfuture.io/volunteers/) as a volunteer. Once onboarded, introduce yourself in the #cyf-syllabus-tech channel on Slack. Let us know you'd like to attend a meeting and add your agenda points to the meeting link posted in that channel.
 
-The [Global Syllabus volunteer team](contributors) meets every two weeks online to talk strategy, take issues and plan the next sprint. We'd love to meet you!
+The [Global Syllabus volunteer team](contributors) meets every two weeks online to talk strategy, take issues and plan the next sprint. We'd love to meet you!<!-- END-CYF-ONLY -->

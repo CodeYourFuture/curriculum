@@ -17,9 +17,9 @@ facilitation=false
 
 The key outcome of Fundamentals is that trainees and mentors start getting to know each other and build the sense of togetherness and mutual support that will carry us through the programme.
 
-### Start as we mean to go on 🧰
+<!-- CYF-ONLY -->### Start as we mean to go on 🧰
 
-Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no missing coursework**, **100% attendance**, **no slides**, **no lectures**. This applies to everybody and we should all hold each other to these standards.
+Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no missing coursework**, **100% attendance**, **no slides**, **no lectures**. This applies to everybody and we should all hold each other to these standards.<!-- END-CYF-ONLY -->
 
 This is our opportunity to coach ourselves into the "right" behaviours from the start.
 
@@ -37,7 +37,7 @@ Fundamentals is the right place to begin (start as we mean to go on).
 
 The major satisfaction of software development is to bring an idea to reality. We should experience that satisfaction and develop that habit. By shipping early, we can share with our peers and can iterate and improve.
 
-CYF is not a great fit for everyone, and not everyone who graduates Fundamentals will join our Software Development Course. But everyone who participates in Fundamentals should come out with a tangible product: a real website deployed online.
+<!-- CYF-ONLY -->CYF is not a great fit for everyone, and not everyone who graduates Fundamentals will join our Software Development Course. But everyone who participates in Fundamentals should come out with a tangible product: a real website deployed online.<!-- END-CYF-ONLY -->
 
 ## How Goals Help
 

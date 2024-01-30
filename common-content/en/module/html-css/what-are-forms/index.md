@@ -11,7 +11,7 @@ emoji= '🧩'
     4='Write form validations'
 +++
 
-These questions and answers are compiled from recorded sessions on HTML forms at CYF, and are the collective contribution of several mentors and students. This time we've included a trainee answer and a mentor answer, per question.
+These questions and answers are compiled from recorded sessions on HTML forms at <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY -->, and are the collective contribution of several mentors and students. This time we've included a trainee answer and a mentor answer, per question.
 
 {{<note type="question" title="10 Things About Forms">}}
 
