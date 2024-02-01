@@ -10,3 +10,10 @@ issuesorgapi = "https://api.github.com/repos/CodeYourFuture/"
 # Cache JSON responses because making fetches is slow when iterating.
 # This means updates to issues (or newly created ones) won't be picked up when rebuilding.
 maxAge = "4h"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = true
+  path = "/api/songs/"

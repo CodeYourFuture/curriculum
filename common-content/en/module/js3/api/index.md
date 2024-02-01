@@ -14,7 +14,7 @@ Let's try more API interactions
 To get song details of all songs we can make a `GET` request to the songs page
 
 ```
-const url = 'https://curriculum.codeyourfuture.io/js3/api/songs';
+const url = 'https://curriculum.codeyourfuture.io/api/songs';
 
 fetch(url).then(response => response.json())
     .then(data => console.log('All songs:', data));
@@ -25,7 +25,7 @@ Next, to retrieve details only for Adele's "Rolling in the Deep" we can send a `
 This time, the URL can include the ID of the song we are interested in
 
 ```
-const url = 'https://curriculum.codeyourfuture.io/js3/api/song/5';
+const url = 'https://curriculum.codeyourfuture.io/api/song/5';
 
 fetch(url).then(response => response.json())
     .then(data => console.log('Song No 5:', data));
@@ -35,7 +35,7 @@ To update the popularity of a song, API's might use a `POST` method to the song'
 
 As a response, it will display the newly updated details
 ```
-const url = 'https://curriculum.codeyourfuture.io/js3/api/song/3';
+const url = 'https://curriculum.codeyourfuture.io/api/song/3';
 
 const updateRequest = {
     method: 'POST',
