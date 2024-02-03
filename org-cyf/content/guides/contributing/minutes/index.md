@@ -17,6 +17,48 @@ Attendees:
 
 ---
 
+## 2024-01-30
+
+Attendees: Ali Raza Ashraf, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Sally (Carry-over): Provide a repro case for https://github.com/CodeYourFuture/curriculum/issues/222
+- [ ] Ali Smith: Review all of Sally's React and Node workshop migrations
+- [~] Chris: Merge all the Cloud curricula into the curriculum website.
+- [ ] Leila + Yun: Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila: Find existing code reviewers and understand their experience.
+- [ ] Mitch: Get MCB volunteers on-boarded onto Slack
+- [ ] Daniel: Get MCB volunteers on-boarded onto GitHub
+- [ ] Ali: Set up training club
+
+### 📝 Agenda points
+
+#### Cloud port
+
+* Discussion on https://github.com/CodeYourFuture/curriculum/issues/531#issuecomment-1916880318
+  * Generally need to focus on having deliverables trainees can show employers
+  * MCB are experimenting with certifications at the moment - we're not sure how effective that will be, will be interesting to see how it goes!
+  * Writing up blog posts could be interesting, as well as helping drive PD, and and helping improve technical writing skills.
+
+#### Sally will be busy for a bit
+
+But reach out if there are time-critical blockers!
+
+### ❗Actions
+
+- [ ] Sally: Update https://github.com/CodeYourFuture/curriculum/issues/352 to say what needs to be reviewed
+- [ ] Daniel (Carry-over): Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Ali Smith (Carry-over): Review all of Sally's React and Node workshop migrations
+- [ ] Leila + Yun: Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila: Find existing code reviewers and understand their experience.
+- [ ] Mitch: Get MCB volunteers on-boarded onto Slack
+
+---
+
 ## 2024-01-16
 
 Attendees: Ali Smith, Chris Owen, Daniel Wagner-Hall, Isar Fridrikkson, Leila Farsani, Mitch Lloyd, Sally McGrath, Yun Ji, Zsolt Sztupak
