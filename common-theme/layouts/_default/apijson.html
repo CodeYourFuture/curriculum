@@ -1,0 +1,6 @@
+{{- $jsonFile := readFile "data/songs.json" -}}
+{{- $jsonData := (jsonify $jsonFile) -}}
+{{- if $jsonData -}}
+  {{- $.Scratch.Add "json" $jsonData -}}
+{{- end -}}
+{{- printf "%s" ($.Scratch.Get "json") -}}

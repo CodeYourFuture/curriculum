@@ -1,8 +1,4 @@
-+++
-outputs = ["JSON"]
-+++
-
-{
-  "key": "key1",
-  "name": "name1"
-}
+---
+title: "Example Json"
+layout: "apijson"
+---
