@@ -1,4 +1,5 @@
 ---
-title: "Example Json"
 layout: "apijson"
+outputs:
+- json
 ---
