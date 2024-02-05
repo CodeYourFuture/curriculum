@@ -29,6 +29,7 @@ Make a new Google account if you do not have a professional one already. Use you
 
 > JDoe@gmail.com
 > JohnDoe@gmail.com
+> JaneDoe@gmail.com
 
 This is your public professional email address. Use it to sign up for all your professional accounts unless you can use your GitHub.
 
