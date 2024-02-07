@@ -30,4 +30,7 @@ src="module/servers/post"
 [[blocks]]
 name="POST Code-along with Mitch"
 src="https://www.youtube.com/watch?v=GJkEynYUMR8"
+[[blocks]]
+name="Difficult workplace conversations"
+src="https://cyf-pd.netlify.app/blocks/prep-difficult-workplace-conversations/readme/"
 +++
