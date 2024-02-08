@@ -11,7 +11,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="City Guide Pair Programming"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
 time="120"
 [[blocks]]
 name="Lunch"
