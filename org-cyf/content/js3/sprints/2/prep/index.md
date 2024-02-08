@@ -12,7 +12,7 @@ name="Reacting"
 src="module/js3/reacting"
 [[blocks]]
 name="Step-through-prep workshop"
-src="https://www.youtube.com/watch?v=j2Iz8ZNm3n8"
+src="https://www.youtube.com/watch?v=7kYwo6W89j4"
 [[blocks]]
 name="Decomposition"
 src="module/js3/break-down"
