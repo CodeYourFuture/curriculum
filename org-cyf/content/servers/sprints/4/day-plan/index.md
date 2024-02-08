@@ -28,8 +28,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="PD Placeholder"
-src="blocks/pd-placeholder"
+name="Sell Yourself"
+src="https://cyf-pd.netlify.app/blocks/sell-yourself/readme/"
 time=90
 [[blocks]]
 name="Progress check-in"
