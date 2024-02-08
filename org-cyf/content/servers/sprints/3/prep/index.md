@@ -27,4 +27,7 @@ src="https://www.youtube.com/watch?v=oXW-C2bM0wE"
 [[blocks]]
 name="Interactive Postman workspace"
 src="module/servers/test-examples-in-postman"
+[[blocks]]
+name="Value and Work Not Done"
+src="https://cyf-pd.netlify.app/blocks/prep-value-and-work-not-done/readme/"
 +++
