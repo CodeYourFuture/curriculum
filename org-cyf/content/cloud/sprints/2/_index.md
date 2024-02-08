@@ -1,5 +1,5 @@
 +++
-title = 'Sprint 2: automated testing & deployments'
+title = 'Sprint 2'
 description = 'automated testing & deployments'
 layout = 'sprint'
 emoji= '⏱️'

@@ -1,5 +1,6 @@
 +++
 title = 'day-plan'
+description="Storage, servers, and databases group work"
 layout = 'day-plan'
 emoji= '📅'
 menu_level = ['sprint']

@@ -1,5 +1,5 @@
 +++
-title = 'Sprint 5: scalability and monitoring'
+title = 'Sprint 5'
 description = 'scalability and monitoring'
 layout = 'sprint'
 emoji= '⏱️'

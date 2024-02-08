@@ -1,6 +1,6 @@
 +++
 title = 'prep'
-description = 'Note the general topic'
+description = 'Deployment automation'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']

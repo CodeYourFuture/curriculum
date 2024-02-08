@@ -8,9 +8,13 @@ weight = 3
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Progress Check-in"
+src="https://github.com/CodeYourFuture/Module-Cloud/issues/26"
+time="25"
+[[blocks]]
 name="Group Discussion"
 src="blocks/group-discussion"
-time="75"
+time="60"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"

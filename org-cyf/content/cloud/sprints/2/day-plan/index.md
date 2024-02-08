@@ -1,5 +1,6 @@
 +++
 title = 'day-plan'
+description = 'Automated testing and deployments group work'
 layout = 'day-plan'
 emoji= '📅'
 menu_level = ['sprint']

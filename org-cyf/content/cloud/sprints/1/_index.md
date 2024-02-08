@@ -1,5 +1,5 @@
 +++
-title = 'Sprint 1: storage, servers and databases'
+title = 'Sprint 1'
 description = 'intro to cloud - storage, servers and databases'
 layout = 'sprint'
 emoji= '⏱️'

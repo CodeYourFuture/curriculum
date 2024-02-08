@@ -1,5 +1,5 @@
 +++
-title = 'Sprint 4: infrastructure as code'
+title = 'Sprint 4'
 description = 'infrastructure as code'
 layout = 'sprint'
 emoji= '⏱️'
