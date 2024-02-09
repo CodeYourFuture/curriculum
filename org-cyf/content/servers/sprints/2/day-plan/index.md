@@ -10,8 +10,8 @@ backlog_filter= 'Week 2'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="CRUD Workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/crud"
 time="120"
 [[blocks]]
 name="Lunch"
