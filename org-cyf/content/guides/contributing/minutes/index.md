@@ -17,6 +17,93 @@ Attendees:
 
 ---
 
+## 2024-02-13
+
+Attendees: Sally, Daniel, Ali, Zsolt
+
+### ❗Actions from last time
+
+- [ ] Sally: Update https://github.com/CodeYourFuture/curriculum/issues/352 to say what needs to be reviewed
+- [ ] Daniel (Carry-over): Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [x] Ali Smith (Carry-over): Review all of Sally's React and Node workshop migrations
+	- Not going to get to this, so will drop it
+- [ ] Leila + Yun: Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila: Find existing code reviewers and understand their experience.
+- [ ] Mitch: Get MCB volunteers on-boarded onto Slack
+
+### 📝 Agenda points
+
+#### Cloud module
+
+- Currently being taught in London
+- Hopeful that once the module in London is complete then we can get the teachers in a room to pull together into a curriculum
+
+#### Reviewing PRs
+
+- The Node workshop PRs have landed, we can review after the fact
+- Have quite a lot of stuff to review - let's prioritise!
+- Zsolt's PRs
+	- Priority on merging the Netlify guide(s) - as these are more likely to be used first by trainees
+	- Proposed priority order: Netlify, Supabase, Render, Full stack assessment
+- Zsolt to try to figure out what deadlines we have - what will be picked up by trainees first
+
+#### Greg Wilson's SQL tutorial
+
+- Ali: This is more of an FYI, but I noticed that Greg Wilson (of TTT fame) has been working on a SQL tutorial/lesson: https://gvwilson.github.io/sql-tutorial/
+- Do we want to use this/take inspiration from it? (No one had read it yet, so still an open question 🙂)
+- Daniel: Observation that it's very long! In contrast to the decision we made with the curriculum to split up into multiple "pages"
+	- Ali: I suspect this is a bit of a quick and dirty experiment so perhaps not much thought put into that
+- Brief discussion of putting adding a problem solving-focused SQL module at the start of the course
+	- Sally: Can we schedule in a curriculum design to discuss this for the future
+
+#### Outreachy
+
+- Ali: again a bit of an FYI that Outreachy (https://www.outreachy.org/) is a non-profit(?) that arranges "internships" in open source software (OSS) projects
+- Sally: Have already done a collaboration in the past, but didn't seem to lead to much for the people involved
+- Sally: Could we include contributing to OSS as part of the curriculum?
+	- The curriculum itself is OSS so an obvious "safe" project to contribute to
+	- Sally has set up stuff around this https://github.com/CodeYourFuture/First-Timers-Project
+	- Generally we think OSS funding isn't great so unlikely to be able to support trainees properly
+		- We think there may also be potential minefields around rights to work
+	- We think that trainees will need support with contributing to OSS
+		- Trainees don't understand how OSS uses Github, and OSS has a reputation for being unfriendly for new comers
+- Would we ever consider "out-sourcing" our Launch projects to a third party?
+	- Sally: What are the goals of Launch projects?
+		- Represent a goal for trainees, with clear expectations
+		- Useful for recruiting volunteers
+		- Gates graduation
+			- Useful feedback vector for trainees
+			- Maintains a quality perception of a CYF graduation cert
+		- Daniel: Are a "comfortable" place to fail, especially compared with OSS projects
+		- Because of these reasons, it doesn't seem like a good thing to "out-source"
+	- Sally: There's lots of resources spent on Launch projects, so it is worth considering this periodically
+- Daniel: Seems like contributing to OSS would fit well with the Portfolio module
+	- The goals are different (more about showing off skills) and so better aligned with OSS projects
+
+#### CYF+
+
+- Sally: Applications for second round have closed
+	- 35 applications, from a range of recent grads through to folks who have been around a bit longer
+- Have had some meetings about improving the CYF+ curriculum
+	- All minor things
+	- Based on a retro for the previous cohort a bunch of things were identified that trainees need to know but shouldn't be in the CYF+ curriculum (i.e. should be in the main course)
+		- E.g. Tests, building confidence in the CLI
+		- This was a driver for including in the main course (have included more tests and Bandit)
+
+### ❗Actions
+
+- [ ] Sally (Carry-over): Update https://github.com/CodeYourFuture/curriculum/issues/352 to say what needs to be reviewed
+- [ ] Daniel (Carry-over): Update reminder message around new meeting format
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience.
+- [ ] Mitch (Carry-over): Get MCB volunteers on-boarded onto Slack
+- [ ] Anyone: Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone: Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Zsolt: Figure out what deadlines for landing deployment guide PRs
+- [ ] Ali: Add to discussion thread about contributing to OSS projects as part of Portfolio module
+
 ## 2024-01-30
 
 Attendees: Ali Raza Ashraf, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
