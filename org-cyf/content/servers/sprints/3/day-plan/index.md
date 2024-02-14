@@ -28,8 +28,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="PD Placeholder"
-src="blocks/pd-placeholder"
+name="Value And Work Not Done"
+src="https://cyf-pd.netlify.app/blocks/value-and-work-not-done/readme/"
 time=60
 [[blocks]]
 name="Set up Render"
