@@ -85,7 +85,6 @@ Attendees: Sally, Daniel, Ali, Zsolt
 #### CYF+
 
 - Sally: Applications for second round have closed
-	- 35 applications, from a range of recent grads through to folks who have been around a bit longer
 - Have had some meetings about improving the CYF+ curriculum
 	- All minor things
 	- Based on a retro for the previous cohort a bunch of things were identified that trainees need to know but shouldn't be in the CYF+ curriculum (i.e. should be in the main course)
