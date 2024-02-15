@@ -37,7 +37,8 @@ Attendees: Sally, Daniel, Ali, Zsolt
 #### Cloud module
 
 - Currently being taught in London
-- Hopeful that once the module in London is complete then we can get the teachers in a room to pull together into a curriculum
+- Hopeful that once the module in London is complete then we can get the teachers in a room to pull together into the curriculum
+- The module is currently[ hanging out in a PR](https://github.com/CodeYourFuture/curriculum/pull/565) waiting for them to respond
 
 #### Reviewing PRs
 
