@@ -26,6 +26,10 @@
     scroll-margin-top: var(--theme-spacing--scrollmargin);
   }
 
+  &__feedback {
+    margin: auto 0 auto auto;
+  }
+
   &--youtube {
     text-align: center;
     padding: var(--theme-spacing--4) 0;
