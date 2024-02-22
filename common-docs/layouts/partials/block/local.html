@@ -14,7 +14,7 @@
       {{ partial "objectives/block.html" . }}
     </details>
   {{ end }}
-  {{ if $block.Params.Partial }}
+  {{ if $block.Params.Path }}
   {{ partial "story.html" $block}}
   {{ end}}
 </section>

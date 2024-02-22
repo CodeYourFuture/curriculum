@@ -56,13 +56,15 @@ https://api.github.com/repos/CodeYourFuture/curriculum/commits?path=layouts/part
       role="tab"
       aria-controls="{{ .Title | urlize }}_code-panel"
       >Code</button>
-    <button
+     {{ if .Params.partial }}
+      <button
       id="{{ .Title | urlize }}_render"
       data-toggle="tab"
       class="c-tabs__tab e-heading__3"
       role="tab"
       aria-controls="{{ .Title | urlize }}_render-panel"
       >Render</button>
+      {{ end}}
   </div>
 
   <!-- Tab Content -->
@@ -76,6 +78,7 @@ https://api.github.com/repos/CodeYourFuture/curriculum/commits?path=layouts/part
       {{else}}
       <p>There's no documentation for this block yet! <a href="{{$docsFile}}">Add documentation</a></p>
       {{end}}
+      <hr> 
       <div class="c-note c-note--tip">
         <h5 class="c-note__title">Something missing? Something wrong?</h5>
         <p class="c-note__text">Help us improve this page by <a href="{{$docsFile}}">contributing</a> or <a href="{{$.Site.Params.repo}}issues/new">raising an issue</a></p>
@@ -110,7 +113,6 @@ https://api.github.com/repos/CodeYourFuture/curriculum/commits?path=layouts/part
           <dt>No PRs reference this! It was likely built in the first commit</dt>
           <dd><a href="{{$firstCommit.html_url}}">SHA {{$firstCommit.sha}}</a></dd>
         {{ end}}
-
         </dl>
         {{ end }}
         
@@ -125,16 +127,11 @@ https://api.github.com/repos/CodeYourFuture/curriculum/commits?path=layouts/part
         {{ $fencedCode | markdownify }}
         </section>
 
-    <!-- Render Panel -->
-    <div class="c-tabs__panel" role="tabpanel" aria-labelledby="#{{ .Title | urlize }}_render" id="{{ .Title | urlize }}_render-panel">
       {{ if .Params.partial }}
+    <div class="c-tabs__panel" role="tabpanel" aria-labelledby="#{{ .Title | urlize }}_render" id="{{ .Title | urlize }}_render-panel">                   
         {{ partial .Params.partial $mockPage }}
-        {{ else}}
-        No render available
-      {{ end }}
     </div>
+       {{ end}}
   </div>
 </tab-panels>
 {{ end }}
-
-
