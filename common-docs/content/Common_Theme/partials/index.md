@@ -16,9 +16,6 @@ src="content/blocks/partials/card"
 name="foot"
 src="content/blocks/partials/foot"
 [[blocks]]
-name="github-icon"
-src="content/blocks/partials/github-icon"
-[[blocks]]
 name="head"
 src="content/blocks/partials/head"
 [[blocks]]
