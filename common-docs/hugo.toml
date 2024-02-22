@@ -15,9 +15,9 @@ title = 'Platform Docs'
         url = ""
 
 
-# [module]
-#   [[module.imports]]
-#     path = "github.com/CodeYourFuture/curriculum/common-theme" 
+[module]
+  [[module.imports]]
+    path = "github.com/CodeYourFuture/curriculum/common-theme" 
 #   [[module.imports]]
 #     path = "github.com/CodeYourFuture/curriculum/common-content" 
 #     [[module.imports.mounts]]
