@@ -9,7 +9,7 @@
       <div class="c-block__series c-block__series--timeline">
         {{ range $index, $block := .Params.blocks }}
 
-          {{ partial "block/block.html" (dict "block" $block "Page" $.Page) }}
+          {{ partial "block/block.html" (dict "block" $block "Page" $.Page "Site" $.Site) }}
 
         {{ end }}
       </div>
