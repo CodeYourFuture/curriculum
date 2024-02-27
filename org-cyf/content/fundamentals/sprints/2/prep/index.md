@@ -2,7 +2,7 @@
 title = 'prep'
 description='Check your backlog and come to class with questions.'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Course-Fundamentals'

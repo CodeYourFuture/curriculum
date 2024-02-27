@@ -2,7 +2,7 @@
 title = 'prep'
 description = '🐘 More SQL! SQL 4eva!'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Databases'
