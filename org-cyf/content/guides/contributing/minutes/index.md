@@ -17,6 +17,96 @@ Attendees:
 
 ---
 
+## 2024-02-27
+
+Attendees: Mitch, Sally, Daniel, Issar, Lorenzo (for cloud updates)
+
+### ❗Actions from last time
+
+- [x] Sally (Carry-over): Update https://github.com/CodeYourFuture/curriculum/issues/352 to say what needs to be reviewed
+- [x] Daniel (Carry-over): Update reminder message around new meeting format
+- [x] Mitch (Carry-over): Get MCB volunteers on-boarded onto Slack
+
+### 📝 Agenda points
+
+#### 🌩️ Cloud course materials updates
+
+- One current goal is to capture work in the existing cloud moduke fork and get it into the new curriculum
+- Sally has translated the cloud module into the new CYF curriculum here: https://deploy-preview-565--cyf-curriculum.netlify.app/cloud/
+- Sally has also translated the coursework into tickets available on a Github project board: https://github.com/orgs/CodeYourFuture/projects/151/views/1
+- Lorenzo: Keen to merge the cloud module - most likely a good starting point
+- Let's do a cursory review of this module and get it merged - then we can iterate!
+- Lorenzo wanted to know more about the tone of the cloud module
+- Prep material is similar to the current curriculum
+- Need to think more about what the day plans look like. Currently day plans contain activities like structured group discussion, here is an example: [group discussion](https://deploy-preview-565--cyf-curriculum.netlify.app/cloud/sprints/1/day-plan/#group-discussion).
+
+#### 📝 Flipped classroom: problems and insights
+
+- Mitch to organise a panel of experts style in-depth discussion to explore and learn more about flipped classroom. Particularly relevant for Migracode and the new Sheffield volunteers
+
+#### 📊 NW6 progress report
+
+- Here is an example of trainees in NW6 self-organising to check their progress 🫱 https://codeyourfuture.slack.com/archives/C05RPC3T4JH/p1708168895887499. Great stuff! 🎉
+- Altom is a cohort founder in NW6 - a grad with a huge amount of context and someone the trainees look up to.
+- There is a [progress check-in issue](https://github.com/CodeYourFuture/Module-JS3/issues/245) on the week 3 board of JS3. A similar action is also included in the day plan for week 3.
+- Here's an example of module JS3 tv show project code from trainees in NW6 🫱 https://github.com/areebsattar/JS3-Module-Project_Rabia/blob/main/script.js Looks cool 😎
+
+#### 🎯 Issues, problems and goals
+
+- Let's talk about issues, problems and goals
+- Daniel: Curious to learn more about how different cities are using the day plan
+- How are people using it? How do we frame its use?
+- Desired: Group projects earlier - learning about merge conflicts earlier
+- Daniel: Missing thread: Why do we have a frontend, a backend and a database. Servers module doesn't address this question.
+- Regions where we're about to launch: MCR - different organisation and Sheffield where there is no staff!
+- Need to reality test everything we've built in different regions (and countries!)
+- Need to also think about the HTML module
+- Sally: Can we cut the course in half from JS3 onwards?
+- Sally: Move SQL to the front of the course?
+- Sally: Can we collaborate with PD to improve both the curriculum?
+- Daniel: (🧩 problem) - Some trainees aren't learning an underlying approach to solve a problem and then applying it to similar problems - evidence arising in JS2 modules 3 & 4
+- There is now a feedback button the curriculum website: https://curriculum.codeyourfuture.io/databases/sprints/1/prep/#prep-working-software-and-done
+- Would be desirable to team up with PD to address the pressing questions and improve the curriculum further!
+- Here is some prior feedback from Sally on some PD-related issues 🫱 https://docs.google.com/document/d/1bSOo4WI0EsgPF7lvjkv5Vrn-J4uraHKEWQHw2dK6hGA/edit
+
+#### 📝 New modules for Migracode
+
+- Issar: Migracode are creating new modules!
+- Migracode SDC has been postponed to May/June as they've got more funding for 2 standalone courses
+- One course is **PHP** and the other is **developing mult-lingual websites**. Courses are specified by the Spanish government (3 hour written content, 7 hour practical content)
+- Issar and Ali + 2 more volunteers will be translating the Spanish government's resources into the CYF curriculum format
+- Who is accepted on these 2 modules? Graduates and some folks from an employment platform used in Spain
+- Don't need to add a module into the timeline view. Can still create the module
+- With the proliferation of modules, there's a need to consider a visual break at the end of JS3 - to signal there are lots of different paths from that point onwards
+
+#### 😄 Emoji feedback
+
+- Sally: We're collecting emoji feedback on the coursework 🫱 https://github.com/CodeYourFuture/Module-Cloud/issues/28
+- Recent feedback identified certain tasks where there was nowhere near enough time to complete the task
+- But some pieces of work are clearly feasible within the time limit
+- Emojis will be a useful way of collecting data
+- We can also do grad polling in the future too
+
+### ❗Actions
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Zsolt (Carry-over): Figure out what deadlines for landing deployment guide PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+
+#### Actions from 27/02/2024
+
+- [ ] Mitch: Review the cloud module
+- [ ] Mitch: Capture problems on the curriculum project board
+- [ ] Sally: Fix the archetypes in the curriculum
+- [ ] Sally: Write a ticket to explore alternative frontend views
+- [ ] Issar: Book a call with Sally to discuss module translation for PHP/multi-lingual websites
+
+---
+
 ## 2024-02-13
 
 Attendees: Sally, Daniel, Ali, Zsolt
@@ -27,7 +117,7 @@ Attendees: Sally, Daniel, Ali, Zsolt
 - [ ] Daniel (Carry-over): Update reminder message around new meeting format
 - [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
 - [x] Ali Smith (Carry-over): Review all of Sally's React and Node workshop migrations
-	- Not going to get to this, so will drop it
+  - Not going to get to this, so will drop it
 - [ ] Leila + Yun: Describe good code review (possibly via examples of good code review Leila has received).
 - [ ] Leila: Find existing code reviewers and understand their experience.
 - [ ] Mitch: Get MCB volunteers on-boarded onto Slack
@@ -45,8 +135,8 @@ Attendees: Sally, Daniel, Ali, Zsolt
 - The Node workshop PRs have landed, we can review after the fact
 - Have quite a lot of stuff to review - let's prioritise!
 - Zsolt's PRs
-	- Priority on merging the Netlify guide(s) - as these are more likely to be used first by trainees
-	- Proposed priority order: Netlify, Supabase, Render, Full stack assessment
+  - Priority on merging the Netlify guide(s) - as these are more likely to be used first by trainees
+  - Proposed priority order: Netlify, Supabase, Render, Full stack assessment
 - Zsolt to try to figure out what deadlines we have - what will be picked up by trainees first
 
 #### Greg Wilson's SQL tutorial
@@ -54,42 +144,42 @@ Attendees: Sally, Daniel, Ali, Zsolt
 - Ali: This is more of an FYI, but I noticed that Greg Wilson (of TTT fame) has been working on a SQL tutorial/lesson: https://gvwilson.github.io/sql-tutorial/
 - Do we want to use this/take inspiration from it? (No one had read it yet, so still an open question 🙂)
 - Daniel: Observation that it's very long! In contrast to the decision we made with the curriculum to split up into multiple "pages"
-	- Ali: I suspect this is a bit of a quick and dirty experiment so perhaps not much thought put into that
+  - Ali: I suspect this is a bit of a quick and dirty experiment so perhaps not much thought put into that
 - Brief discussion of putting adding a problem solving-focused SQL module at the start of the course
-	- Sally: Can we schedule in a curriculum design to discuss this for the future
+  - Sally: Can we schedule in a curriculum design to discuss this for the future
 
 #### Outreachy
 
 - Ali: again a bit of an FYI that Outreachy (https://www.outreachy.org/) is a non-profit(?) that arranges "internships" in open source software (OSS) projects
 - Sally: Have already done a collaboration in the past, but didn't seem to lead to much for the people involved
 - Sally: Could we include contributing to OSS as part of the curriculum?
-	- The curriculum itself is OSS so an obvious "safe" project to contribute to
-	- Sally has set up stuff around this https://github.com/CodeYourFuture/First-Timers-Project
-	- Generally we think OSS funding isn't great so unlikely to be able to support trainees properly
-		- We think there may also be potential minefields around rights to work
-	- We think that trainees will need support with contributing to OSS
-		- Trainees don't understand how OSS uses Github, and OSS has a reputation for being unfriendly for new comers
+  - The curriculum itself is OSS so an obvious "safe" project to contribute to
+  - Sally has set up stuff around this https://github.com/CodeYourFuture/First-Timers-Project
+  - Generally we think OSS funding isn't great so unlikely to be able to support trainees properly
+    - We think there may also be potential minefields around rights to work
+  - We think that trainees will need support with contributing to OSS
+    - Trainees don't understand how OSS uses Github, and OSS has a reputation for being unfriendly for new comers
 - Would we ever consider "out-sourcing" our Launch projects to a third party?
-	- Sally: What are the goals of Launch projects?
-		- Represent a goal for trainees, with clear expectations
-		- Useful for recruiting volunteers
-		- Gates graduation
-			- Useful feedback vector for trainees
-			- Maintains a quality perception of a CYF graduation cert
-		- Daniel: Are a "comfortable" place to fail, especially compared with OSS projects
-		- Because of these reasons, it doesn't seem like a good thing to "out-source"
-	- Sally: There's lots of resources spent on Launch projects, so it is worth considering this periodically
+  - Sally: What are the goals of Launch projects?
+    - Represent a goal for trainees, with clear expectations
+    - Useful for recruiting volunteers
+    - Gates graduation
+      - Useful feedback vector for trainees
+      - Maintains a quality perception of a CYF graduation cert
+    - Daniel: Are a "comfortable" place to fail, especially compared with OSS projects
+    - Because of these reasons, it doesn't seem like a good thing to "out-source"
+  - Sally: There's lots of resources spent on Launch projects, so it is worth considering this periodically
 - Daniel: Seems like contributing to OSS would fit well with the Portfolio module
-	- The goals are different (more about showing off skills) and so better aligned with OSS projects
+  - The goals are different (more about showing off skills) and so better aligned with OSS projects
 
 #### CYF+
 
 - Sally: Applications for second round have closed
 - Have had some meetings about improving the CYF+ curriculum
-	- All minor things
-	- Based on a retro for the previous cohort a bunch of things were identified that trainees need to know but shouldn't be in the CYF+ curriculum (i.e. should be in the main course)
-		- E.g. Tests, building confidence in the CLI
-		- This was a driver for including in the main course (have included more tests and Bandit)
+  - All minor things
+  - Based on a retro for the previous cohort a bunch of things were identified that trainees need to know but shouldn't be in the CYF+ curriculum (i.e. should be in the main course)
+    - E.g. Tests, building confidence in the CLI
+    - This was a driver for including in the main course (have included more tests and Bandit)
 
 ### ❗Actions
 
@@ -125,10 +215,10 @@ Attendees: Ali Raza Ashraf, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
 
 #### Cloud port
 
-* Discussion on https://github.com/CodeYourFuture/curriculum/issues/531#issuecomment-1916880318
-  * Generally need to focus on having deliverables trainees can show employers
-  * MCB are experimenting with certifications at the moment - we're not sure how effective that will be, will be interesting to see how it goes!
-  * Writing up blog posts could be interesting, as well as helping drive PD, and and helping improve technical writing skills.
+- Discussion on https://github.com/CodeYourFuture/curriculum/issues/531#issuecomment-1916880318
+  - Generally need to focus on having deliverables trainees can show employers
+  - MCB are experimenting with certifications at the moment - we're not sure how effective that will be, will be interesting to see how it goes!
+  - Writing up blog posts could be interesting, as well as helping drive PD, and and helping improve technical writing skills.
 
 #### Sally will be busy for a bit
 
@@ -168,71 +258,73 @@ Attendees: Ali Smith, Chris Owen, Daniel Wagner-Hall, Isar Fridrikkson, Leila Fa
 
 #### Introductions
 
-* Isar Fridriksson: MigraCode Barcelona - recently joined the syllabus team.
-* Yun Ji: Studied with MigraCode Barcelona last year. Has PR'd some React fixes to the existing syllabus, taught some modules, and is excited to collaborate more!
-* Chris Owen: Ex Director of Education for CYF. Now working at Sigma Labs (an educator provider). Interested in getting involved with the nascent Cloud module.
-* Leila Farsani: Graduate from London Class 9, volunteering since. Looking for ways to help trainees to thrive more. Has some proposals around improving code review at CYF.
-* Mitch Lloyd: CYF TechEd employee and former volunteer. Has been developing and teaching the curriculum.
-* Sally McGrath: Director of Programme at CYF (and volunteer before).
-* Zsolt Sztupak: Engineering Manager by day, CYF volunteer in Scotland.
-* Daniel Wagner-Hall: Software Engineer, CYF volunteer in London, interested in breaking down problems and giving feedback.
+- Isar Fridriksson: MigraCode Barcelona - recently joined the syllabus team.
+- Yun Ji: Studied with MigraCode Barcelona last year. Has PR'd some React fixes to the existing syllabus, taught some modules, and is excited to collaborate more!
+- Chris Owen: Ex Director of Education for CYF. Now working at Sigma Labs (an educator provider). Interested in getting involved with the nascent Cloud module.
+- Leila Farsani: Graduate from London Class 9, volunteering since. Looking for ways to help trainees to thrive more. Has some proposals around improving code review at CYF.
+- Mitch Lloyd: CYF TechEd employee and former volunteer. Has been developing and teaching the curriculum.
+- Sally McGrath: Director of Programme at CYF (and volunteer before).
+- Zsolt Sztupak: Engineering Manager by day, CYF volunteer in Scotland.
+- Daniel Wagner-Hall: Software Engineer, CYF volunteer in London, interested in breaking down problems and giving feedback.
 
 #### Rebuild of the curriculum platform
 
-* Sally has created https://github.com/CodeYourFuture/curriculum-labs
-* Split out modules
-  * One of common stuff ("common-content", "common-theme") - stuff that everyone may want to pull from.
-  * CYF and MCB have their own modules which mount these common modules, and may also contain their own unique content (but please contribute to common!)
-* Also already have "sources", e.g. YouTube, Slides, Runkit, etc.
-* Deployments Just Work.
-* Currently MCB has no modules, but copying them in should be pretty easy.
-* MCB has 3-4 people eager to get contributing.
-* Sally is proposing merging curriculum-labs into curriculum.
-* We're currently going to keep the MCB site in one repo, but can fork it out if needed (or move the curriculum repo into a shared org).
+- Sally has created https://github.com/CodeYourFuture/curriculum-labs
+- Split out modules
+  - One of common stuff ("common-content", "common-theme") - stuff that everyone may want to pull from.
+  - CYF and MCB have their own modules which mount these common modules, and may also contain their own unique content (but please contribute to common!)
+- Also already have "sources", e.g. YouTube, Slides, Runkit, etc.
+- Deployments Just Work.
+- Currently MCB has no modules, but copying them in should be pretty easy.
+- MCB has 3-4 people eager to get contributing.
+- Sally is proposing merging curriculum-labs into curriculum.
+- We're currently going to keep the MCB site in one repo, but can fork it out if needed (or move the curriculum repo into a shared org).
 
 #### Code Review
 
-* [Design doc](https://docs.google.com/document/d/10iBJTUoUR40wD_Y-j8mfCb9OlCQz_XnNd9mjCgiS2hc/edit).
-* Primary goal: We'd like to make sure trainees getting more and better feedback on their code.
-* Let's slim it down to focus on one goal: Getting trainees more code review.
-* Also, we have very variable amounts of code review across the organisation. Some people get good code review already, let's understand what people's experiences are.
-* We probably need to make this trainee-driven - get trainees _expecting_ code review, and asking for it.
-* Maybe pull the idea of assessment out of scope - just focus on getting as many useful comments on PRs as possible.
-* Idea that we're "promoting technical conversation".
-* Also, reducing class size will help us to be able to scale code review better.
+- [Design doc](https://docs.google.com/document/d/10iBJTUoUR40wD_Y-j8mfCb9OlCQz_XnNd9mjCgiS2hc/edit).
+- Primary goal: We'd like to make sure trainees getting more and better feedback on their code.
+- Let's slim it down to focus on one goal: Getting trainees more code review.
+- Also, we have very variable amounts of code review across the organisation. Some people get good code review already, let's understand what people's experiences are.
+- We probably need to make this trainee-driven - get trainees _expecting_ code review, and asking for it.
+- Maybe pull the idea of assessment out of scope - just focus on getting as many useful comments on PRs as possible.
+- Idea that we're "promoting technical conversation".
+- Also, reducing class size will help us to be able to scale code review better.
 
 Possible first deliverable:
-* Describing good code review (possibly via examples of good code review Leila has received).
-* Find existing code reviewers and understand their experience.
+
+- Describing good code review (possibly via examples of good code review Leila has received).
+- Find existing code reviewers and understand their experience.
 
 Next steps:
-* Find some volunteer code reviewers, put them through the "good code reviewer" filter.
-* Set expectations with one cohort (probably NW6)'s trainees that they should expect code review, and get the volunteers to serve that need.
+
+- Find some volunteer code reviewers, put them through the "good code reviewer" filter.
+- Set expectations with one cohort (probably NW6)'s trainees that they should expect code review, and get the volunteers to serve that need.
 
 #### DevOps/Cloud Module
 
-* What has come before, and who should Chris speak to?
-* Pedro had previously done small-group ad-hoc cloud teaching which was very successful, but doesn't scale.
-* Pedro, Alvaro, Lorenzo have put together assorted iterations which have had mixed success.
-  * Biggest failure was when the module was too hard and trainees weren't supported enough. The content wasn't tangible enough - probably needs to be project-driven.
-  * Trainees need to have something to be able to show an employer.
-  * CYF need something tangible we can demonstrate to potential employers.
-* Existing content: https://main--cyf-cloud-track.netlify.app/cloud/ and https://module-cloud.codeyourfuture.io/overview/welcome-to-devops
-* Sally has agreed Learning Objectives with Alvaro and Lorenzo - Chris will try to collect them.
-* We're hoping there are a lot of potential Capgemini roles opening up this year - run ideas past Sally to understand how they mesh with CG's needs.
-* Is there an example of best content? Generally avoid lectures, be very project-focused, JS2 prep is pretty solid.
+- What has come before, and who should Chris speak to?
+- Pedro had previously done small-group ad-hoc cloud teaching which was very successful, but doesn't scale.
+- Pedro, Alvaro, Lorenzo have put together assorted iterations which have had mixed success.
+  - Biggest failure was when the module was too hard and trainees weren't supported enough. The content wasn't tangible enough - probably needs to be project-driven.
+  - Trainees need to have something to be able to show an employer.
+  - CYF need something tangible we can demonstrate to potential employers.
+- Existing content: https://main--cyf-cloud-track.netlify.app/cloud/ and https://module-cloud.codeyourfuture.io/overview/welcome-to-devops
+- Sally has agreed Learning Objectives with Alvaro and Lorenzo - Chris will try to collect them.
+- We're hoping there are a lot of potential Capgemini roles opening up this year - run ideas past Sally to understand how they mesh with CG's needs.
+- Is there an example of best content? Generally avoid lectures, be very project-focused, JS2 prep is pretty solid.
 
 #### MigraCode curriculum move
 
-* Discussion has been ongoing with MCB's parent organisation - there's agreement about the changes.
-* Yun Ji is a graduate from ~7 months ago - eager to contribute to open source, great problem solver, and has worn all the hats (student, instructor, etc).
-* More team members being on-boarded (Ali - graduate and head of education - will be joining meetings from February, Isha - graduate/staff)
-* Yun Ji is eager to get started - interested in code review - also found it very valuable in her time on the course!
+- Discussion has been ongoing with MCB's parent organisation - there's agreement about the changes.
+- Yun Ji is a graduate from ~7 months ago - eager to contribute to open source, great problem solver, and has worn all the hats (student, instructor, etc).
+- More team members being on-boarded (Ali - graduate and head of education - will be joining meetings from February, Isha - graduate/staff)
+- Yun Ji is eager to get started - interested in code review - also found it very valuable in her time on the course!
 
 #### Training club
 
-* We're going to start doing a volunteer management course in a book-club style.
-* It starts next week - see https://docs.google.com/document/d/1r8H3kaKs5at6C7a41lOP7FLUaZ0bFyCvCwC9e83lM5g/edit
+- We're going to start doing a volunteer management course in a book-club style.
+- It starts next week - see https://docs.google.com/document/d/1r8H3kaKs5at6C7a41lOP7FLUaZ0bFyCvCwC9e83lM5g/edit
 
 ### ❗Actions
 
@@ -256,9 +348,10 @@ Attendees: Ali Smith, Daniel Wagner-Hall, Mitchell Lloyd, Sally McGrath, Zsolt S
 ### Sprint planning
 
 Sprint is basically "review all the things".
-* Ali will make sure Node gets merged.
-* Daniel will make sure JS3 gets merged.
-* Sally will port React
+
+- Ali will make sure Node gets merged.
+- Daniel will make sure JS3 gets merged.
+- Sally will port React
 
 ### ❗Actions from last time
 
@@ -277,75 +370,77 @@ Sprint is basically "review all the things".
 
 #### Curriculum repo layout
 
-* Monorepos make it simpler to do things atomically (e.g. for wide-scale change, for unified previews, etc), and to not need to build tooling around stitching things together.
-  * Each time we need to build tooling to bridge gaps, either we need to spend time on that tooling, or we need to be sad because we have to live with the limitations of not having that tooling.
-* Our core model is composibility - separating things around can make it easier for people to focus on just their corner of the world.
-* Each place we have an extra repo adds complexity - we should be careful to justify why this it's worth adding this complexity for each exception we make.
-* Not super clear what value we get from seprate _repos_ over separate _directories_ (which may have their own permissions)?
-  * But Hugo's module system strongly assumes each module has _releases_ of some kind, and we may need to invent some cunning scheme to make this work.
-* Git submodules could potentially help, but also could add complexity.
-* Sally is going to try to build some kind of release system within Hugo and send it out for high-bar review, outside of the curriculum repo so we can experiment and iterate.
-* After prototyping, will need to have branding discussions about exactly where the curriculum lives, if it's hosting multiple organisations' curricula.
+- Monorepos make it simpler to do things atomically (e.g. for wide-scale change, for unified previews, etc), and to not need to build tooling around stitching things together.
+  - Each time we need to build tooling to bridge gaps, either we need to spend time on that tooling, or we need to be sad because we have to live with the limitations of not having that tooling.
+- Our core model is composibility - separating things around can make it easier for people to focus on just their corner of the world.
+- Each place we have an extra repo adds complexity - we should be careful to justify why this it's worth adding this complexity for each exception we make.
+- Not super clear what value we get from seprate _repos_ over separate _directories_ (which may have their own permissions)?
+  - But Hugo's module system strongly assumes each module has _releases_ of some kind, and we may need to invent some cunning scheme to make this work.
+- Git submodules could potentially help, but also could add complexity.
+- Sally is going to try to build some kind of release system within Hugo and send it out for high-bar review, outside of the curriculum repo so we can experiment and iterate.
+- After prototyping, will need to have branding discussions about exactly where the curriculum lives, if it's hosting multiple organisations' curricula.
 
 #### CYF+
 
-* Refresher on CYF+:
-  * Partnership with Slack - they're paying the trainees to take the course and on successful completion, a fixed term contract. This will be our second run. First run they hired both trainees in permanent roles -- this partnership is not a job guarantee.
+- Refresher on CYF+:
 
-* Slack asked for March, we're pushing for late April because there's lots to do.
-* Has been approved by the CTO so we can talk about it happening, but timelines are a little in the air.
-* One graduate will end up in demand engineering, one in data stores, but both will do a data-focused course.
-* Have to put together some data-focused work and projects.
-* Would like to have a pre-work booklet in January so people (particularly trainees) can start looking at it.
-* Important that folks are aware it's not a London-only programme.
-* Salim is on board to revise the raft project with Laura.
-  * Project is very impressive, but also was a bit ambitious - don't want to break our trainees!
+  - Partnership with Slack - they're paying the trainees to take the course and on successful completion, a fixed term contract. This will be our second run. First run they hired both trainees in permanent roles -- this partnership is not a job guarantee.
+
+- Slack asked for March, we're pushing for late April because there's lots to do.
+- Has been approved by the CTO so we can talk about it happening, but timelines are a little in the air.
+- One graduate will end up in demand engineering, one in data stores, but both will do a data-focused course.
+- Have to put together some data-focused work and projects.
+- Would like to have a pre-work booklet in January so people (particularly trainees) can start looking at it.
+- Important that folks are aware it's not a London-only programme.
+- Salim is on board to revise the raft project with Laura.
+  - Project is very impressive, but also was a bit ambitious - don't want to break our trainees!
 
 #### Deployment platforms for our trainees
 
-* How much should we balance "what we teach" with "how later things will be deployed"?
-  * A lot of the higher-level frameworks around React (next, remix, ...) abstract away a lot of the things that are useful to understand.
-    * Sally has been migrating React Hotel to Vite - could happily put together a few other examples implementations with frameworks (e.g. Preact) we can compare/contrast.
-  * As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encoutered.
-* A few really different concerns for our trainees:
-  * Can you understand what's going on with a deployment platform?
-  * Can you completely ignore the deployment platform details because we're actually focusing on something else?
-  * Are we giving you a platform you can build more on (e.g. for final projects)
-  * Where can we host portfolios that will show off our trainees at their best?
+- How much should we balance "what we teach" with "how later things will be deployed"?
+  - A lot of the higher-level frameworks around React (next, remix, ...) abstract away a lot of the things that are useful to understand.
+    - Sally has been migrating React Hotel to Vite - could happily put together a few other examples implementations with frameworks (e.g. Preact) we can compare/contrast.
+  - As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encoutered.
+- A few really different concerns for our trainees:
 
-* Zsolt's recent research:
-  * **tl;dr: Netlify + Supabase seems like a winner.**
-  * Currently we have Netlify/Render for frontend, Render for backend, Render for DB.
-  * JS seems to be migrating to more of a serverless backend style - Netlify, AWS Lambda, ... support something along these lines
-    * Netlify and AWS support "Express as Lambda"
-      * Latency appears to be ~200ms per request - free lambdas are only in US
-        * We have an unlimited plan, so could maybe move them to EU and maybe host trainee projects - we should experiment, but we can't on-board the trainees themselves onto the team.
-        * We should sign Zsolt up to our netlify team.
-    * Could be interesting to migrate from Express to something else, but not going to happen in time for WM5!
-  * Full-stack assessment seems to make the most sense on Render because everything fits there.
-    * Probably shouldn't live in people's portfolios, but some people currently do!
-  * ElephantSQL have just removed their free tier for databases.
-  * Supabase still offer free databases, and seems pretty good.
-    * Has a time limit for inactive projects - need at least one request per week, and they email on inactivity.
-    * Supabase have some kind of auth support we may want to investigate.
-  * If we settle on supabase, we should probably build our own cron-curler that our trainees can register for.
-    * There's also a GitHub action that could help here: https://github.com/marketplace/actions/scheduled-ping
-  * fly.io is really fast and high-quality, but more complicated to set up
-    * Spin down/up seems really good, faster than Netlify serverless functions at all!
-    * But you only get two "boxes" you can deploy - two backends, or one backend and one database.
-  * CloudFlare:
-    * Lambda doesn't have Express wrapper - needs to write some custom Lambda API. DB is SQLite.
-  * Experience hiring people with Heroku sites:
-    * Everyone knew Heroku put things to sleep and so would maybe cut folks some slack (but maybe that's just friendly hiring managers).
-  * If we could get everything unlimited for free, Render would probably be our choice.
-  * We need to think about how we're going to evolve our curriculum technology-wise.
-    * If we end up migrating more towards serverless and are less tied to Postgres specifically, maybe CloudFlare.
-      * CloudFlare runs their own JS interpreter which isn't quite Node - could run into some tricky debugging issues if people end up getting deep into Node.
-    * Deno ecosystem support seems a bit early for us to be teaching now, but may be more relevant for us in the future.
-      * There is an HTTP server library that works with both Node and Deno
-  * Migrating to serverless backends will force us to stop people using global state variables in their backends which they assume persist across requests.
-    * We will need to update the curriculum a bit to handle this, as well as the full-stack assessment.
-    * Part of this is the same concern as the full-stack assessment being framed as "do a frontend" then "do a backend" then "add a database" rather than end-to-end feature-driven.
+  - Can you understand what's going on with a deployment platform?
+  - Can you completely ignore the deployment platform details because we're actually focusing on something else?
+  - Are we giving you a platform you can build more on (e.g. for final projects)
+  - Where can we host portfolios that will show off our trainees at their best?
+
+- Zsolt's recent research:
+  - **tl;dr: Netlify + Supabase seems like a winner.**
+  - Currently we have Netlify/Render for frontend, Render for backend, Render for DB.
+  - JS seems to be migrating to more of a serverless backend style - Netlify, AWS Lambda, ... support something along these lines
+    - Netlify and AWS support "Express as Lambda"
+      - Latency appears to be ~200ms per request - free lambdas are only in US
+        - We have an unlimited plan, so could maybe move them to EU and maybe host trainee projects - we should experiment, but we can't on-board the trainees themselves onto the team.
+        - We should sign Zsolt up to our netlify team.
+    - Could be interesting to migrate from Express to something else, but not going to happen in time for WM5!
+  - Full-stack assessment seems to make the most sense on Render because everything fits there.
+    - Probably shouldn't live in people's portfolios, but some people currently do!
+  - ElephantSQL have just removed their free tier for databases.
+  - Supabase still offer free databases, and seems pretty good.
+    - Has a time limit for inactive projects - need at least one request per week, and they email on inactivity.
+    - Supabase have some kind of auth support we may want to investigate.
+  - If we settle on supabase, we should probably build our own cron-curler that our trainees can register for.
+    - There's also a GitHub action that could help here: https://github.com/marketplace/actions/scheduled-ping
+  - fly.io is really fast and high-quality, but more complicated to set up
+    - Spin down/up seems really good, faster than Netlify serverless functions at all!
+    - But you only get two "boxes" you can deploy - two backends, or one backend and one database.
+  - CloudFlare:
+    - Lambda doesn't have Express wrapper - needs to write some custom Lambda API. DB is SQLite.
+  - Experience hiring people with Heroku sites:
+    - Everyone knew Heroku put things to sleep and so would maybe cut folks some slack (but maybe that's just friendly hiring managers).
+  - If we could get everything unlimited for free, Render would probably be our choice.
+  - We need to think about how we're going to evolve our curriculum technology-wise.
+    - If we end up migrating more towards serverless and are less tied to Postgres specifically, maybe CloudFlare.
+      - CloudFlare runs their own JS interpreter which isn't quite Node - could run into some tricky debugging issues if people end up getting deep into Node.
+    - Deno ecosystem support seems a bit early for us to be teaching now, but may be more relevant for us in the future.
+      - There is an HTTP server library that works with both Node and Deno
+  - Migrating to serverless backends will force us to stop people using global state variables in their backends which they assume persist across requests.
+    - We will need to update the curriculum a bit to handle this, as well as the full-stack assessment.
+    - Part of this is the same concern as the full-stack assessment being framed as "do a frontend" then "do a backend" then "add a database" rather than end-to-end feature-driven.
 
 ### ❗Actions
 
@@ -381,36 +476,36 @@ Attendees: Ali Smith, Daniel Wagner-Hall, Isar Fridriksson, Sally McGrath
 
 #### Barcelona debrief
 
-* We met with Isar, Hugo, Simon
-* We attended class for a few hours
-  * Felt very CYF-before-flipped-classroom
-    * A range of understandings and confidences
-  * Ordinarily class has 1-2 teachers and few TAs, but this session we had a load of volunteers so did some interview practice style pairing
-  * Did a lot of pairing with people
-    * Similarly a range of understandings and confidences
-  * They have a regular (well-equipped) space
-  * Currently have two classes - one in English, one in Spanish
-    * Considering the next cohort only offering English - there are other similar bootcamps offering Spanish but none offer English
-* General agreements to:
-  * Identify all the work we need to do for MigraCode's class in April 2024 to run with the new CYF curriculum
-    * Being collected in [a GitHub Milestone](https://github.com/CodeYourFuture/curriculum/milestone/12)
-    * Need to make a parent theme in Hugo, then two child themes which are siblings
-      * Split content into modules, also move around files with Hugo's internationalisation support (which we will not actually be using in the foreseeable future)
-    * We may end up changing some timings things - MigraCode is currently a shorter course, MigraCode currently do two shorter sessions in a week rather than one longer one - not sure how all of these things are going to change, but they're differences we identified.
-    * Audit some content:
-      * Mentions of CYF - remove any that aren't necessary, split any that need re-implementing
-      * Remove mentions of "last week", "next" week, etc - weeks may change
-  * Points of uncertainty for MigraCode to resolve internally:
-    * Goal alignment - right now CYF's goals are around employment and MigraCode's are around graduation - we need to explore how we can align these with MigraCode's parent organisation and funders.
-    * Timings - MigraCode run a shorter course, and more shorter sessions in a week. Need to work out how things will be arranged.
-  * Netlify: It would be useful for MigraCode to get their own Netlify, but they're welcome to share ours until then.
-* Description of CYF Products
-* Need to decide what to do about Fundamentals
-  * What would we lose if we removed it?
-    * Some amount of cohort building
-    * It's a filter in the application process
-    * Trying to instill a culture of shipping things early
-* Blockly doesn't seem to be directly transferring to JS1/2 - something to muse on
+- We met with Isar, Hugo, Simon
+- We attended class for a few hours
+  - Felt very CYF-before-flipped-classroom
+    - A range of understandings and confidences
+  - Ordinarily class has 1-2 teachers and few TAs, but this session we had a load of volunteers so did some interview practice style pairing
+  - Did a lot of pairing with people
+    - Similarly a range of understandings and confidences
+  - They have a regular (well-equipped) space
+  - Currently have two classes - one in English, one in Spanish
+    - Considering the next cohort only offering English - there are other similar bootcamps offering Spanish but none offer English
+- General agreements to:
+  - Identify all the work we need to do for MigraCode's class in April 2024 to run with the new CYF curriculum
+    - Being collected in [a GitHub Milestone](https://github.com/CodeYourFuture/curriculum/milestone/12)
+    - Need to make a parent theme in Hugo, then two child themes which are siblings
+      - Split content into modules, also move around files with Hugo's internationalisation support (which we will not actually be using in the foreseeable future)
+    - We may end up changing some timings things - MigraCode is currently a shorter course, MigraCode currently do two shorter sessions in a week rather than one longer one - not sure how all of these things are going to change, but they're differences we identified.
+    - Audit some content:
+      - Mentions of CYF - remove any that aren't necessary, split any that need re-implementing
+      - Remove mentions of "last week", "next" week, etc - weeks may change
+  - Points of uncertainty for MigraCode to resolve internally:
+    - Goal alignment - right now CYF's goals are around employment and MigraCode's are around graduation - we need to explore how we can align these with MigraCode's parent organisation and funders.
+    - Timings - MigraCode run a shorter course, and more shorter sessions in a week. Need to work out how things will be arranged.
+  - Netlify: It would be useful for MigraCode to get their own Netlify, but they're welcome to share ours until then.
+- Description of CYF Products
+- Need to decide what to do about Fundamentals
+  - What would we lose if we removed it?
+    - Some amount of cohort building
+    - It's a filter in the application process
+    - Trying to instill a culture of shipping things early
+- Blockly doesn't seem to be directly transferring to JS1/2 - something to muse on
 
 ### ❗Actions
 
@@ -442,76 +537,77 @@ Attendees: Ali, Daniel, Ellie Tahmasebi, Isar, Sally
 
 #### Meeting timings
 
-* HYF Belgium would like to join us - let's make our meeting earlier so it's easier for them to.
-* Proposal: Tuesday: 18:30 or 19:00, start with planning then move into discussion.
-* Decision: Tuesdays at 18:30.
+- HYF Belgium would like to join us - let's make our meeting earlier so it's easier for them to.
+- Proposal: Tuesday: 18:30 or 19:00, start with planning then move into discussion.
+- Decision: Tuesdays at 18:30.
 
 #### Planning
 
 #### Portfolio module
 
-* We'd like a curriculum module for the portfolio module.
-  * Right now in London 9 things are very ad-hoc.
-  * More formal plans would help both graduates and volunteers know what to do.
-* https://curriculum.codeyourfuture.io/portfolio/ already exists - need to flesh out the content.
-* Created https://github.com/CodeYourFuture/curriculum/discussions/386 to capture insights from currently running modules.
-* London 9 Portfolios feels a bit like a final project because of the build-up to a particular demo.
-  * Ali would rather frame this as "We want you to portfolio-build" not "We want you to complete this project".
-  * Motivation for this was that many attendees weren't taking the project very seriously, weren't committing very much, so this was a way to try to drive motivation.
-    * Maybe this isn't as much of a problem outside of London? But we have post-graduation engagement problems everywhere.
-  * Sally would like shorter, pithier demos - right now demos are really long and drawn out.
-    * We probably need to give workshops about how to give a good demo.
-      * Need to be aware of the goals of different kinds of demos (e.g. "Show off a thing I've done" vs "Show something I've learnt" vs "Show what's useful to a user")
-      * Sally shared a [pitch camp template](https://docs.google.com/document/d/1gfkKPAHNKCdrS3A7nai51iK4gkJcna4B1tOk98ZKCUw/edit).
-  * [Folder of project ideas](https://drive.google.com/drive/folders/1UocnK_dRUkMCuwI6aytZ0Z9a12322EOx)
+- We'd like a curriculum module for the portfolio module.
+  - Right now in London 9 things are very ad-hoc.
+  - More formal plans would help both graduates and volunteers know what to do.
+- https://curriculum.codeyourfuture.io/portfolio/ already exists - need to flesh out the content.
+- Created https://github.com/CodeYourFuture/curriculum/discussions/386 to capture insights from currently running modules.
+- London 9 Portfolios feels a bit like a final project because of the build-up to a particular demo.
 
-* What do MigraCode Barcelona do "after" the course?
-  * Historically: Not much, and not enough
-  * Now have a two-month module
-    * Assign each graduate a buddy to have weekly meetings with - work on their linkedin, do practice interviews, etc
-    * Also have events for hackathons, job speed dating, etc.
+  - Ali would rather frame this as "We want you to portfolio-build" not "We want you to complete this project".
+  - Motivation for this was that many attendees weren't taking the project very seriously, weren't committing very much, so this was a way to try to drive motivation.
+    - Maybe this isn't as much of a problem outside of London? But we have post-graduation engagement problems everywhere.
+  - Sally would like shorter, pithier demos - right now demos are really long and drawn out.
+    - We probably need to give workshops about how to give a good demo.
+      - Need to be aware of the goals of different kinds of demos (e.g. "Show off a thing I've done" vs "Show something I've learnt" vs "Show what's useful to a user")
+      - Sally shared a [pitch camp template](https://docs.google.com/document/d/1gfkKPAHNKCdrS3A7nai51iK4gkJcna4B1tOk98ZKCUw/edit).
+  - [Folder of project ideas](https://drive.google.com/drive/folders/1UocnK_dRUkMCuwI6aytZ0Z9a12322EOx)
+
+- What do MigraCode Barcelona do "after" the course?
+  - Historically: Not much, and not enough
+  - Now have a two-month module
+    - Assign each graduate a buddy to have weekly meetings with - work on their linkedin, do practice interviews, etc
+    - Also have events for hackathons, job speed dating, etc.
 
 #### Barcelona trip
 
-* Do we have an agenda? Do we have goals?
-* Dinner on Friday - Isar will share link
-* Class in English on Saturday 10:30 - 14:30 - JS1W3
-  * We're very welcome to TA!
-  * We have a very large office we can use until 17:30
-    * Want to draft a plan for how to merge
-      * Have energy from volunteers to actually merge
-      * Study feasibility of moving to the new curriculum system
-      * Work out how to overcome the language barrier - half of MigraCode trainees don't speak English
-      * Enumerate dependencies on outside tools, e.g. integration with student database, homework setting, etc.
-* Sunday - we'll make a plan.
-* Making sure everyone is in the WhatsApp group - expecting Isar, Carlos, Hugo.
-* Next cohort starts April 2024 - good timing for starting a major change.
-  * Biggest change to plan for is how to make sure class time is well facilitated to make flipped classroom really work well.
-  * Really want the curriculum to be a shared community curriculum - everyone needs to help evolve it forwards together!
+- Do we have an agenda? Do we have goals?
+- Dinner on Friday - Isar will share link
+- Class in English on Saturday 10:30 - 14:30 - JS1W3
+  - We're very welcome to TA!
+  - We have a very large office we can use until 17:30
+    - Want to draft a plan for how to merge
+      - Have energy from volunteers to actually merge
+      - Study feasibility of moving to the new curriculum system
+      - Work out how to overcome the language barrier - half of MigraCode trainees don't speak English
+      - Enumerate dependencies on outside tools, e.g. integration with student database, homework setting, etc.
+- Sunday - we'll make a plan.
+- Making sure everyone is in the WhatsApp group - expecting Isar, Carlos, Hugo.
+- Next cohort starts April 2024 - good timing for starting a major change.
+  - Biggest change to plan for is how to make sure class time is well facilitated to make flipped classroom really work well.
+  - Really want the curriculum to be a shared community curriculum - everyone needs to help evolve it forwards together!
 
 #### JS3: Should groups be pairs?
 
-* Yes from the tech-ed side we want pairs
-* Need to check with PD to make sure they don't have plans that rely on larger groups
+- Yes from the tech-ed side we want pairs
+- Need to check with PD to make sure they don't have plans that rely on larger groups
 
 #### Database module timings
 
-* Daniel proposes moving it to very close to the start of the class
-  * Partially it's a really good framing for problem-solving (e.g. "I need to join before I can select")
-  * Partially because it's a useful skill for people who leave the course early (much more useful than intro to programming)
-  * Partially because SQL has no dependencies on having learnt other things.
-* Sally: Want to have HTML+CSS first because there's a lot of non-technical faffing that goes on (getting people into planners, getting used to a new operating system, etc).
-* We'd still need a "Node + SQL" integration module (but may be a shorter module).
-* Would need to break into:
-  * A SQL module without programming
-  * How to do the Node+SQL integration
-* Does it need to be SQL? Could we do this with spreadsheets?
-  * We could mix different formats, but should definitely culminate in actual SQL.
+- Daniel proposes moving it to very close to the start of the class
+  - Partially it's a really good framing for problem-solving (e.g. "I need to join before I can select")
+  - Partially because it's a useful skill for people who leave the course early (much more useful than intro to programming)
+  - Partially because SQL has no dependencies on having learnt other things.
+- Sally: Want to have HTML+CSS first because there's a lot of non-technical faffing that goes on (getting people into planners, getting used to a new operating system, etc).
+- We'd still need a "Node + SQL" integration module (but may be a shorter module).
+- Would need to break into:
+  - A SQL module without programming
+  - How to do the Node+SQL integration
+- Does it need to be SQL? Could we do this with spreadsheets?
+  - We could mix different formats, but should definitely culminate in actual SQL.
 
 #### Nonprofit ready training courses
 
-* Ali would like to actually organise this.
-* So he will.
+- Ali would like to actually organise this.
+- So he will.
 
 ### ❗Actions
 
