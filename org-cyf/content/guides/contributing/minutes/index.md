@@ -57,14 +57,14 @@ Attendees: Mitch, Sally, Daniel, Issar, Lorenzo (for cloud updates)
 - Daniel: Curious to learn more about how different cities are using the day plan
 - How are people using it? How do we frame its use?
 - Desired: Group projects earlier - learning about merge conflicts earlier
-- Daniel: ❓ Missing thread: Why do we have a frontend, a backend and a database. Servers module doesn't address this question.
+- Daniel: Missing thread: Why do we have a frontend, a backend and a database. Servers module doesn't address this question.
 - Regions where we're about to launch: MCR - different organisation and Sheffield where there is no staff!
 - Need to reality test everything we've built in different regions (and countries!)
 - Need to also think about the HTML module
-- Sally: ❓ Can we cut the course in half from JS3 onwards?
-- Sally: ❓ Move SQL to the front of the course
-- Sally: ❓ Can we collaborate with PD to improve both the curriculum?
-- Daniel: (🧩 problem) - Some trainees aren't learning an underlying approach to solve a problem and then applying it - evidence arising in JS2 modules 3 & 4
+- Sally: Can we cut the course in half from JS3 onwards?
+- Sally: Move SQL to the front of the course?
+- Sally: Can we collaborate with PD to improve both the curriculum?
+- Daniel: (🧩 problem) - Some trainees aren't learning an underlying approach to solve a problem and then applying it to similar problems - evidence arising in JS2 modules 3 & 4
 - There is now a feedback button the curriculum website: https://curriculum.codeyourfuture.io/databases/sprints/1/prep/#prep-working-software-and-done
 - Would be desirable to team up with PD to address the pressing questions and improve the curriculum further!
 - Here is some prior feedback from Sally on some PD-related issues 🫱 https://docs.google.com/document/d/1bSOo4WI0EsgPF7lvjkv5Vrn-J4uraHKEWQHw2dK6hGA/edit
@@ -101,7 +101,7 @@ Attendees: Mitch, Sally, Daniel, Issar, Lorenzo (for cloud updates)
 
 - [ ] Mitch: Review the cloud module
 - [ ] Mitch: Capture problems on the curriculum project board
-- [ ] Sally: Fix the archetypes
+- [ ] Sally: Fix the archetypes in the curriculum
 - [ ] Sally: Write a ticket to explore alternative frontend views
 - [ ] Issar: Book a call with Sally to discuss module translation for PHP/multi-lingual websites
 
