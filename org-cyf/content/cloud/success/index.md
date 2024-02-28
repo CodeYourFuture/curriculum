@@ -6,6 +6,5 @@ menu_level = ['module']
 weight = 10
 +++
 
-This view compiles learning objectives from the day plan and prep view into a checkbox list to help trainees check in on their progress.
+Define exit criteria for this module
 
-You can initiate a module level success view as well and write in some overall outcomes or success criteria.
