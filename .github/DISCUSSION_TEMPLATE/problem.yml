@@ -1,0 +1,29 @@
+title: "🧩 Problem: "
+labels: []
+body:
+  - type: textarea
+    id: definition
+    attributes:
+      label: Define it
+      description: Can you describe this problem?
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Exemplify it?
+      description: Can you provide examples of where you've observed this problem?
+    validations:
+      required: true
+  - type: textarea
+    id: potential-causes
+    attributes:
+      label: Explain it
+      description: Can you explain why this problem is happening?
+    validations:
+      required: true
+  - type: textarea
+    id: possible-strategies
+    attributes:
+      label: 🧭 Suggest strategies
+      description: Can you identify any potential strategies for approaching this problem?
