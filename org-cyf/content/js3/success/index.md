@@ -2,7 +2,7 @@
 title = "Success"
 description = "How do we know if we have completed this module?"
 layout = "success"
-emoji= "📝"
+emoji= "✅"
 menu_level = [ "module" ]
 weight = 11
 backlog= "Module-JS3"
