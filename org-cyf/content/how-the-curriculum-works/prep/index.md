@@ -1,6 +1,6 @@
 +++
 title = 'overview'
-description = 'here is a description of the overview'
+description = "Get an overview of how our curriculum works"
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
