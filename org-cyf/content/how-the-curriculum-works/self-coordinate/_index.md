@@ -1,10 +1,8 @@
 +++
 title = 'Self organise'
-description = 'The plan for the week'
+description = '🚧 In construction. Coming soon...'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2  
 +++
-
-🚧 In construction. Coming soon...
