@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GitHub",
+    "website": "https://github.com/",
+    "logo": "logos/github.png",
+    "support_type": ["Product"]
+  },
+  {
+    "name": "Netlify",
+    "website": "https://www.netlify.com/",
+    "logo": "logos/netlify.svg",
+    "support_type": ["Product"]
+  },
+  {
+    "name": "Slack",
+    "website": "https://slack.com/",
+    "logo": "logos/slack.png",
+    "support_type": ["Product"]
+  }
+]
