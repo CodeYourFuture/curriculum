@@ -5,8 +5,7 @@ time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Define syntactic sugar'
-    2='Write a function using the async keyword'
+    1='Setup a basic terraform example using null_resource'
 +++
 
 Now that you understand the basics of Terraform and the need for Infrastructure as Code, let's try an exercise that doesn't interact with any cloud providers. We'll use the `null_resource` for demonstration and learning purposes.
