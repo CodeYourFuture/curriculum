@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/org-cyf
 
-go 1.19
+go 1.21.3
 
 require (
 	github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240121151641-e52b73ad527d // indirect
