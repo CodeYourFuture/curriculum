@@ -1,5 +1,5 @@
 +++
-title = 'Self organise'
+title = 'Self coordinate'
 description = '🚧 In construction. Coming soon...'
 layout = 'sprint'
 emoji= '⏱️'
