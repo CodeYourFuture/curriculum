@@ -12,7 +12,7 @@ To achieve our missions, we must think how to answer the questions below:
 
 ### [how do we build a community that can self-educate](https://curriculum.codeyourfuture.io/how-the-curriculum-works/self-educate)?
 
-### [how do we build a community that can self-facilitate?](https://curriculum.codeyourfuture.io/how-the-curriculum-works/self-facilitate)
+### [how do we build a community that can self-coordinate?](https://curriculum.codeyourfuture.io/how-the-curriculum-works/self-coordinate)
 
 ### [how do we build a community that can self-evaluate?](https://curriculum.codeyourfuture.io/how-the-curriculum-works/self-evaluate)
 
