@@ -6,4 +6,4 @@ time= 1
     1='Describe some problems that emerge with an active learning approach'
 +++
 
-More info here...
+Let's cover some of the problems with active learning.
