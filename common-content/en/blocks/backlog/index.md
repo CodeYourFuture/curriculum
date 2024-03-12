@@ -3,6 +3,7 @@ title="Backlog"
 headless="true"
 time= 30
 vocabulary="Backlog"
+hide_from_overview=true
 [objectives]
     1="Find the backlog"
     2="Copy your tickets to your own backlog"

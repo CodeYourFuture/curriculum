@@ -5,6 +5,8 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
+theme = "Requirements"
+blocks_page_for_overview = "day-plan"
 +++
 
 

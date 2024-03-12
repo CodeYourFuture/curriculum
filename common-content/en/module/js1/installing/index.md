@@ -1,5 +1,5 @@
 +++
-title = '🃏 Installing Jest' 
+title = '🃏 Installing Jest'
 headless = true
 time = 20
 facilitation = false

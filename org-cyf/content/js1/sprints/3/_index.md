@@ -5,6 +5,7 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 4
+theme = "Event handlers and the DOM"
 +++
 
 
