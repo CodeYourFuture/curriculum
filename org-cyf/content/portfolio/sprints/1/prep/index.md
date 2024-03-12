@@ -11,6 +11,6 @@ name="Goal setting and planning"
 src="https://cyf-pd.netlify.app/blocks/goal-setting-and-planning/readme/"
 [[blocks]]
 name="Ground rules"
-src="portfolio/blocks/ground-rules"
+src="module/portfolio/ground-rules"
 hide_from_overview=true
 +++
