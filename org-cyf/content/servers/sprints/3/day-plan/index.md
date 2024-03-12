@@ -11,7 +11,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="City Guide Pair Programming"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/node-challenge-london-mini-guide"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="120"
 [[blocks]]
 name="Lunch"
@@ -28,8 +28,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Value And Work Not Done"
-src="https://cyf-pd.netlify.app/blocks/value-and-work-not-done/readme/"
+name="PD Placeholder"
+src="blocks/pd-placeholder"
 time=60
 [[blocks]]
 name="Set up Render"

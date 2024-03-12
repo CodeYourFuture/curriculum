@@ -12,7 +12,6 @@
     justify-content: space-between;
     align-items: center;
     margin: var(--theme-spacing--1) 0 var(--theme-spacing--gutter) 0;
-    gap: var(--theme-spacing--gutter);
   }
 
   &__series {
@@ -25,10 +24,6 @@
       text-decoration: none;
     }
     scroll-margin-top: var(--theme-spacing--scrollmargin);
-  }
-
-  &__feedback {
-    margin: auto 0 auto auto;
   }
 
   &--youtube {

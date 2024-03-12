@@ -11,7 +11,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="Wordle Hackathon"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/wordle"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="120"
 [[blocks]]
 name="Lunch"

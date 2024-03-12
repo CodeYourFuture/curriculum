@@ -1,6 +1,6 @@
 +++
 title = 'The Launch'
-description = 'Work together in a cross functional Agile team to design, develop, and deliver a unique full stack web application'
+description = 'The Launch is in development.'
 layout = 'module'
 emoji= '🚀'
 menu = ['syllabus']
