@@ -7,6 +7,6 @@ menu_level = ['sprint']
 weight = 1
 [[blocks]]
 name="Pokedex Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/react-pokedex/pokedex-3"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="90"
 +++
