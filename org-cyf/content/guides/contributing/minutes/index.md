@@ -17,7 +17,6 @@ Attendees:
 
 ---
 
-
 ## 2024-02-27
 
 Attendees: Mitch, Sally, Daniel, Issar, Lorenzo (for cloud updates)
