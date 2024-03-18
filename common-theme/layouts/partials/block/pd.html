@@ -3,6 +3,7 @@
 {{ $block := $blockData }}
 {{ $tab_set_id := $blockData.name | anchorize}}
 {{ if $response }}
+{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
 {{/*  Here we are decoding the content from the base64 readme API
   and turning it back into a Hugo doc with front matter
 An improvement on this would likely be to 
@@ -33,6 +34,7 @@ Have a crack!  */}}
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $block.title }} 🔗</a>
       </h2>
+      <a href="{{$issueForm}}" class="c-block__feedback e-button">🤙🏽 Feedback</a>
       {{ partial "time.html" . }}
 
     </header>

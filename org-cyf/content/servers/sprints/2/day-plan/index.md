@@ -10,8 +10,8 @@ backlog_filter= 'Week 2'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="CRUD Workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/crud"
 time="120"
 [[blocks]]
 name="Lunch"
@@ -28,8 +28,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="PD Placeholder"
-src="blocks/pd-placeholder"
+name="Difficult Workplace Conversations"
+src="https://cyf-pd.netlify.app/blocks/difficult-workplace-conversations/readme/"
 time=90
 [[blocks]]
 name="Retro"
