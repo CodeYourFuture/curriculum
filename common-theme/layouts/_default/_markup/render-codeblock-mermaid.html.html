@@ -4,9 +4,14 @@
   }
   .mermaid {
     margin-bottom: var(--theme-spacing--gutter);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .mermaid[data-processed] {
+    opacity: 1;
   }
 </style>
-<pre class="mermaid">{{- .Inner | safeHTML }}</pre>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs"></script>
+<!-- Placeholder for Mermaid diagrams -->
+<div class="mermaid">{{- .Inner | safeHTML }}</div>
+{{ $mermaid := resources.Get "scripts/mermaid-observer.js" | resources.Minify }}
+<script type="module" src="{{ $mermaid.Permalink }}" defer></script>
