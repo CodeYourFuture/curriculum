@@ -11,7 +11,6 @@
     opacity: 1;
   }
 </style>
-<!-- Placeholder for Mermaid diagrams -->
 <div class="mermaid">{{- .Inner | safeHTML }}</div>
 {{ $mermaid := resources.Get "scripts/mermaid-observer.js" | resources.Minify }}
 <script type="module" src="{{ $mermaid.Permalink }}" defer></script>
