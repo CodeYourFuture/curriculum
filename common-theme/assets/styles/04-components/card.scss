@@ -3,6 +3,7 @@
   @include grid-assign(image, description, title);
   background-color: var(--theme-color--block);
   border-radius: var(--theme-border-radius);
+  position: relative;
   grid-template:
     ". .           . .     ." var(--theme-spacing--gutter)
     ". title       . image ." auto
@@ -13,10 +14,8 @@
       calc(var(--theme-spacing--container-min) * 2)
     )
     var(--theme-spacing--2) 1fr var(--theme-spacing--gutter);
-  transition: box-shadow 0.3s cubic-bezier(0.34, 1.8, 0.64, 1);
 
   @include on-event {
-    transform: translate(0);
     box-shadow: var(--theme-box-shadow--slim);
     outline: none;
   }

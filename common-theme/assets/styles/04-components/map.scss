@@ -1,7 +1,7 @@
 .c-map,
 [class="c-map"] {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   gap: var(--theme-spacing--6) var(--theme-spacing--gutter);
   padding: var(--theme-spacing--6) 0;
   @media (min-width: $c-med) {
@@ -34,10 +34,6 @@
         calc(var(--theme-spacing--container) / 3) - var(--theme-spacing--gutter)
       );
     }
-  }
-
-  &__end {
-    margin-top: 0.5em;
   }
 
   &__title {
