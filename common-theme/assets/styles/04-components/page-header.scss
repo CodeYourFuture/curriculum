@@ -76,6 +76,7 @@
     margin-bottom: var(--theme-spacing--1);
     .c-page-header--splash & {
       color: var(--theme-color--brand);
+      background-color: transparent;
       text-shadow: none;
     }
   }
