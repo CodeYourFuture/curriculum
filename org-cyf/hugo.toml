@@ -1,5 +1,7 @@
 title = "CYF Curriculum"
 
+[outputs]
+page = ["HTML"]
 
 [taxonomies]
   category = 'categories' # Content types are blocks, definitions, guides
