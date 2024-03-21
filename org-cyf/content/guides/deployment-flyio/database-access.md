@@ -5,7 +5,7 @@ description: Learn how you can access the fly.io PostgreSQL database
 weight: 3
 ---
 
-## Accessing database
+## 🗝️ Accessing database
 
 If you have been following the setup guides you would have both a backend and a database system running under fly.io.
 
