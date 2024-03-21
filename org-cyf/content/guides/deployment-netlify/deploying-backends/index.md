@@ -15,11 +15,12 @@ To deploy an Express.JS backend to Netlify you need to make sure that your backe
 
 ### ✅ Checklist
 
-All of your backend paths start with `/api`. For example `/api/videos`, `/api/bookings/1`, etc. Every other URL will be considered as part of the frontend.
-Your backend code is organised like this:
-a. `/server/api.js` contains your actual backend functionality. You can include other modules from this file if you wish to split the file into multiple modules. This file is used by Netlify.
-a. `/server/server.js` starts up your express.js server and contain settings to load up `api.js` to serve everything under `/api`. This file is used for local development.
-Your backend does not use global variables to save data between requests. All persistence is done through the database or by using cookies.
+- [ ] All of your backend paths start with `/api`. For example `/api/videos`, `/api/bookings/1`, etc. Every other URL will be considered part of the frontend.
+- [ ] Your backend code is organised like this:
+      a. `/server/api.js` contains your actual backend functionality. You can include other modules from this file if you wish to split the file into multiple modules. This file is used by Netlify.
+      a. `/server/server.js` starts up your express.js server and contain settings to load up `api.js` to serve everything under `/api`. This file is used for local development.
+- [ ] Your backend does not use global variables to save data between requests. All persistence is done through the database or by using cookies.
+
 Once you have checked your backend meets the requirements, you are ready to add support for Netlify.
 
 ## ⚙️ Define Netlify config
@@ -40,7 +41,7 @@ to = "/.netlify/functions/app/:splat"
 
 ## 🧰 Add Serverless HTTP
 
-Create a file called app.mjs inside /server/functions. Make sure it has the following content:
+Create a file called `app.js` inside `/server/functions`. Ensure it has the following content:
 
 ```js
 // Netlify wrapper for express.js
@@ -71,10 +72,8 @@ npm i --save serverless-http
 If your backend uses a database, set up a DATABASE_URL environment variable inside Netlify. This environment variable should point to your database.
 
 {{<note>}}
-Check the guides on your chosen database provider to see how to obtain the value of DATABASE_URL.
+Check the guides on your chosen database provider to see how to access the value of DATABASE_URL inside your application.
 {{</note>}}
-
-Netlify environment variables
 
 ## 🚀 Deploy!
 

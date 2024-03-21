@@ -7,4 +7,4 @@ emoji= '🎁'
 weight = 4
 +++
 
-In Fundamentals, we will ship our product to Netlify. [Read the Netlify guide]({{< ref "/guides/deployment/netlify" >}}).
+In Fundamentals, we will ship our product to Netlify. [Read the Netlify guide]({{< ref "/guides/deployment-netlify" >}}).
