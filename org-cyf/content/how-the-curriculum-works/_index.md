@@ -1,6 +1,6 @@
 +++
 title = 'How our curriculum works'
-description = 'The plan for how our curriculum works'
+description = '🚧 Coming soon...'
 layout = 'module'
 emoji= '🗺️'
 menu = ['start here']
