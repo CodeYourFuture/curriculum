@@ -3,7 +3,7 @@ title = 'Fundamentals'
 description = 'The plan for Fundamentals'
 layout = 'module'
 emoji= '🧱'
-menu = ['syllabus']
+menu = ['syllabus', 'core', 'start here']
 weight='1'
 [[blocks]]
 name="Goals"

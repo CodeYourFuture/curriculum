@@ -17,6 +17,94 @@ Attendees:
 
 ---
 
+## 2024-03-12
+
+Attendees: Ali, Isar, Mitch, Sally
+
+### ❗Actions from last time
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Zsolt (Carry-over): Figure out what deadlines for landing deployment guide PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+
+Actions from 27/02/2024:
+
+- [x] Mitch: Review the cloud module
+- [x] Mitch: Capture problems on the curriculum project board
+- [ ] Sally: Fix the archetypes in the curriculum
+- [ ] Sally: Write a ticket to explore alternative frontend views
+- [x] Isar: Book a call with Sally to discuss module translation for PHP/multi-lingual websites
+
+### 📝 Agenda points
+
+#### Planning
+
+- We're low on capacity at the moment
+- We should focus onreviewing
+
+#### How the curriculum works
+
+- Come out of the PD(?) team, long standing
+- New volunteers don't know how to use the curriculum effectively
+  - Includes new volunteers and older
+- Curriculum has lots of stuff, so it's hard to interpret how to read and use it
+  - Planning sessions
+  - Provide learning materials
+  - etc
+- Mitch's 3 challenges - useful framing
+  - Self education
+  - Self coordination
+  - Self evaluation
+- Mitch's idea
+  - Module built on top of the curriculum
+  - Goal is to be like teaching trainees - self-taught, at home "study"
+  - Module split into 3 sections - based on the 3 challenges above (self-education, -coordination, -evaluation)
+  - Sally's feedback: it should have the same "sub-structure" as the trainee modules
+    - Prep/backlog/day plan/success
+    - Day plan - do we intend for volunteers to do something in class?
+      - Yes, we want volunteers to come to class whenever possible
+        - Most engaged when interacting with classes
+        - One of the main problems we have currently is that volunteers who've just onboarded just hang out on Slack, and don't have signposts towards more engaging work (e.g. coming to class). Giving them something specific to follow will help
+      - What would they do? (While a class is running)
+        - Talking with volunteers/trainees
+        - Participating in teaching
+        - Lunch!
+      - Can't be dependent on CYF staff - already have too many people to talk to, so have to find a way
+        - Can be it dependent on specific "roles" of volunteers? Maybe eventually but we don't really have this
+      - We want to have different things happening in parallel
+- Ties really well into the training club discussions
+  - [Discussion Notes](https://docs.google.com/document/d/1r8H3kaKs5at6C7a41lOP7FLUaZ0bFyCvCwC9e83lM5g/edit#heading=h.sx2jwtioam79)
+  - One of main takeaways from this is that we should use our experience of teaching trainees to "teach" volunteers too
+- Do we plan to point trainees at this module too?
+  - Tl;dr: yes
+  - Can reuse some of the materials in Fundamentals
+    - Should be easy to share using the new curriculum system
+    - But maybe not all materials - some won't much sense to trainees
+  - It's important to get both trainees and volunteers into the "CYF way" (flipped classroom, Mitch's 3 challenges above)
+
+#### MigraCode Netlify
+
+- Sally: gave some instructions on getting MigraCode deployed via Netlify:
+  - make a new site, add the curriculum repo, copy the deployment config from cyf
+  - change the folder from cyf to mcb
+  - add your custom domain
+
+### ❗Actions
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Zsolt (Carry-over): Figure out what deadlines for landing deployment guide PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally: Fix the archetypes in the curriculum
+- [ ] Sally: Write a ticket to explore alternative frontend views
+- [ ] Isar: Try to get MigraCode deployed on Netlify
 
 ## 2024-02-27
 
