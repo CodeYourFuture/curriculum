@@ -12,14 +12,8 @@ src="module/how-our-curriculum-works/the-problem"
 name="mission"
 src="module/how-our-curriculum-works/our-mission"
 [[blocks]]
-name="top-level-objectives"
-src="module/how-our-curriculum-works/strategic-objectives"
-[[blocks]]
-name="strategies"
-src="module/how-our-curriculum-works/strategies"
-[[blocks]]
-name="key-strategic-questions"
-src="module/how-our-curriculum-works/key-strategic-questions"
+name="🧭 core-objectives"
+src="module/how-our-curriculum-works/core-objectives"
 [[blocks]]
 name="🗺️ curriculum"
 src="module/how-our-curriculum-works/curriculum"
