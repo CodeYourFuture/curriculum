@@ -17,7 +17,7 @@ time="120"
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group 1"
+name="Study Group"
 src="blocks/study-group"
 time="90"
 [[blocks]]
@@ -28,18 +28,17 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group 2"
-src="blocks/study-group"
-time="60"
-[[blocks]]
 name="Transferable skills"
 src="https://cyf-pd.netlify.app/blocks/transferable-skills/readme/"
+time="45"
 [[blocks]]
 name="Feedback"
 src="https://cyf-pd.netlify.app/blocks/feedback/readme/"
+time="30"
 [[blocks]]
 name="Pairs for next week"
 src="https://cyf-pd.netlify.app/blocks/pairs-for-next-week/readme/"
+time="10"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

@@ -1,11 +1,12 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Servers'
 backlog_filter= 'Week 2'
+theme = "GET and POST"
 [[blocks]]
 name="CRUD"
 src="module/servers/crud"
@@ -30,4 +31,7 @@ src="module/servers/post"
 [[blocks]]
 name="POST Code-along with Mitch"
 src="https://www.youtube.com/watch?v=GJkEynYUMR8"
+[[blocks]]
+name="Difficult workplace conversations"
+src="https://cyf-pd.netlify.app/blocks/prep-difficult-workplace-conversations/readme/"
 +++

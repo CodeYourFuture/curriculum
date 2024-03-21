@@ -1,0 +1,50 @@
+.c-map,
+[class="c-map"] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--theme-spacing--6) var(--theme-spacing--gutter);
+  padding: var(--theme-spacing--6) 0;
+  @media (min-width: $c-med) {
+    background: url('data:image/svg+xml;utf8,<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path d="M0 100 Q50 50, 100 100 T200 100 Q150 150, 100 100 T0 100" fill="none" stroke="hsla(146, 100%, 46%, 0.2)" stroke-width="5" stroke-dasharray="15,25"/></svg>')
+      0 -12vh / 50vh repeat;
+  }
+
+  @media (min-width: $c-med) {
+    &__block {
+      outline: 4px dashed var(--theme-color--outline);
+      outline-offset: var(--theme-spacing--gutter);
+      border-radius: var(--theme-spacing--gutter);
+    }
+  }
+
+  &__timeline {
+    display: grid;
+    gap: var(--theme-spacing--gutter);
+  }
+  &__start {
+    position: absolute;
+    left: 0;
+  }
+
+  &__stop {
+    position: relative;
+    z-index: var(--layer);
+    @media (min-width: $c-max) {
+      max-width: calc(
+        calc(var(--theme-spacing--container) / 3) - var(--theme-spacing--gutter)
+      );
+    }
+  }
+
+  &__title {
+    color: var(--theme-color--brand);
+    position: absolute;
+    z-index: 20;
+    transform: translate3d(
+        calc(-1 * var(--theme-spacing--3)),
+        calc(-1 * var(--theme-spacing--5)),
+        0
+      )
+      rotate(-3.5deg);
+  }
+}

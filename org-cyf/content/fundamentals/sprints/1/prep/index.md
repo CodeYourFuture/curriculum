@@ -2,7 +2,7 @@
 title = 'prep'
 description='At CYF trainees prepare before class.'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Course-Fundamentals'
@@ -27,7 +27,9 @@ CYF recognises you may need to keep your birth name private. When we say real na
 
 Make a new Google account if you do not have a professional one already. Use your real name. Don’t use any numbers or words that are not your name. Never put the year of your birth in your professional email address. Your email address should look something like this:
 
-> GBencci@gmail.com
+> JDoe@gmail.com
+> JohnDoe@gmail.com
+> JaneDoe@gmail.com
 
 This is your public professional email address. Use it to sign up for all your professional accounts unless you can use your GitHub.
 

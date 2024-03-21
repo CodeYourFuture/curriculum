@@ -2,7 +2,7 @@
 title = 'prep'
 description='Decompose interfaces into components; recognise patterns'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-HTML-CSS'

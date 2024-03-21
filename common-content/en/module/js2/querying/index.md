@@ -1,5 +1,5 @@
 +++
-title = 'Querying the DOM'
+title = '🔎 Querying the DOM'
 headless = true
 time = 30
 facilitation = false

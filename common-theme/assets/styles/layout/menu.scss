@@ -8,7 +8,7 @@
   left: -100%;
   visibility: hidden;
   height: 100vh;
-  z-index: 3;
+  z-index: 40;
   @include backdrop(true, true, 1);
   box-shadow: var(--theme-box-shadow);
 

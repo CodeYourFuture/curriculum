@@ -1,0 +1,28 @@
+{{ with .Params.map }}
+  <div class="c-map">
+    <h1 class="e-heading c-map__start is-none--lt-container">👉🏾</h1>
+    {{ range $i, $currentMapSection := . }}
+      <section class="c-map__block">
+        <h2 class="e-heading c-map__title">
+          📍{{ $i }}:
+          {{ $currentMapSection }}
+        </h2>
+        <ol class="c-map__timeline">
+          {{/* Check if a menu for the current map section exists */}}
+          {{ with index site.Menus $currentMapSection }}
+            {{/* Range over the items in the menu */}}
+            {{ range $iterator, $module := . }}
+              <li
+                class="c-map__stop"
+                style="--layer:{{ sub (len $currentMapSection) (add $iterator 1) }}">
+                {{ partial "card.html" $module }}
+              </li>
+            {{ end }}
+          {{ else }}
+            <li>No items found for {{ $currentMapSection }}</li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+  </div>
+{{ end }}
