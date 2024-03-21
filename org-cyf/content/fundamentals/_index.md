@@ -4,7 +4,7 @@ description = 'The plan for Fundamentals'
 layout = 'module'
 emoji= '🧱'
 menu = ['syllabus', 'core', 'start here']
-weight='1'
+weight='2'
 [[blocks]]
 name="Goals"
 src="module/fundamentals/goals"
