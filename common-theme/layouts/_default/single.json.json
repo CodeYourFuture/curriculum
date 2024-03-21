@@ -1,0 +1,2 @@
+{{- $jsonData := index .Site.Data .Params.jsonFile | jsonify -}}
+{{- print $jsonData -}}
