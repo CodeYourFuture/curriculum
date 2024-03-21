@@ -4,8 +4,10 @@ layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 10
+[[objectives]]
+    1 = "Automate deployment with GitHub Actions"
+    2="Build a CI/CD pipeline"
+    3="Deploy a containerised application to a cloud provider"
+    4="Use Terraform to define infrastructure as code"
+    5="Deliver the module project"
 +++
-
-This view compiles learning objectives from the day plan and prep view into a checkbox list to help trainees check in on their progress.
-
-You can initiate a module level success view as well and write in some overall outcomes or success criteria.

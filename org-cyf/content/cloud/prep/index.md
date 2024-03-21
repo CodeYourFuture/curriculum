@@ -5,7 +5,11 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
-
+prerequisites = ['fundamentals', 'js1', 'js2', 'js3', 'servers']
+[[blocks]]
+src='module/cloud/entry-criteria'
+name="Entry Criteria"
+[[blocks]]
+src='https://github.com/CodeYourFuture/Module-Cloud/issues/29'
+name="Module Entry Challenge"
 +++
-## Anything written in .Content needs an h2
-This example prep view has an example of each type of block so you can see how the blocks work. 
