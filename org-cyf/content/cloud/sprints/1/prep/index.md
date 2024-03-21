@@ -26,5 +26,8 @@ src="module/cloud/environment-variables"
 [[blocks]]
 name="Secrets"
 src="module/cloud/secrets"
+[[blocks]]
+name="🏷️ Backlog"
+src="blocks/backlog"
 +++
 
