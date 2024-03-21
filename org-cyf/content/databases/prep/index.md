@@ -2,7 +2,7 @@
 title = 'prep'
 description = 'Setting up PostGreSQL on Mac or Linux'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-Databases'
