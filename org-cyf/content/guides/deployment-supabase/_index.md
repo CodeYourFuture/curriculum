@@ -25,13 +25,15 @@ To set up your database do the following:
 
 Once your project is ready go to the project's dashboard. Then on the left-hand side click Settings (it's the icon with a cogwheel) and then go to the **Database** tab.
 
-Scroll down to the **Connection Pooling** part, make sure to select **Session** as the **Pool Mode** and finally copy the **Connection String**. It will look like this:
+1. Scroll down to the **Connection Pooling** part
+1. Select **Session** as the **Pool Mode**
+1. Copy the **Connection String**. It will look like this:
 
 ```
 postgres://postgres.fjdshfkjsfhkuse:[YOUR-PASSWORD]@aws-0-eu-west-2.pooler.supabase.com:6543/postgres
 ```
 
-You need to replace the `[YOUR-PASSWORD]` part with the one you set up during registration. IF you have forgotten that, there will be a "Reset database password" button on this website to set it up again.
+Replace the `[YOUR-PASSWORD]` part with the one you set up during registration. IF you have forgotten that, there will be a "Reset database password" button on this website to set it up again.
 
 Make sure to click **Save** as well, if you need to change the **Pool Mode** setting.
 
@@ -46,7 +48,7 @@ Gather the following details:
 3. The database name. This will be `postgres`.
 4. Your password. This is what you have entered when creating the database.
 
-Now you have all the login details to connect to your database server from the command line:
+Now connect to your database server from the command line like this:
 
 ```bash
 psql -h server_from_above -U username_from_above database_name_from_above
