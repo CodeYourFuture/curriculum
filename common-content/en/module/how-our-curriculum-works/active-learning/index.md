@@ -6,4 +6,6 @@ time= 30
     1="Define active learning"
 +++
 
+Active learning is at the heart of Code Your Future's educational philosophy. It is about encouraging learners to build, explore and discuss new concepts instead of being passive recipients of knowledge.
+
 {{<youtube>}}https://www.youtube.com/watch?v=-GydYPMc74g{{</youtube>}}
