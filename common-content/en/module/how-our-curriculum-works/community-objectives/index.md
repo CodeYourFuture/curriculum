@@ -1,5 +1,5 @@
 +++
-title = '🧭 Strategic objectives'
+title = '🧭 Community objectives'
 headless = true
 time = 45
 facilitation = false
@@ -7,9 +7,9 @@ emoji= '🧩'
 [objectives]
 +++
 
-To achieve our mission at Code Your Future, we have the following objectives
+At Code Your Future, we believe in the power of communities. We bring people together - trainees and volunteers - with the common purpose of achieving our mission.
 
-### Core objectives
+To this end, we have 3 community objectives we have for achieving our mission:
 
 #### - [We build communities that can self-educate](../sprints/self-educate)
 

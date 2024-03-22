@@ -3,7 +3,6 @@ title = 'Our mission'
 headless = true
 time = 45
 facilitation = false
-vocabulary=["Blockers"]
 emoji= '🧩'
 [objectives]
 +++
