@@ -81,9 +81,6 @@
     }
   }
   &__footer {
-    // this part moves it offscreen
-    transform: translate(0%, 100%);
-    position: absolute;
     // the rest is visual
     @include pattern(dots, var(--theme-color--pop), b, false, 0.2);
     border-top: var(--theme-border--thick);
@@ -97,5 +94,9 @@
     padding: var(--theme-spacing--gutter);
     margin: var(--theme-spacing--gutter) 0 0
       calc(-1 * var(--theme-spacing--gutter));
+
+    // this part moves it offscreen
+    transform: translate(0%, 100%);
+    position: absolute;
   }
 }
