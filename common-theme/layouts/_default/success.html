@@ -63,6 +63,5 @@
   </article>
 
   {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" | resources.Minify }}
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti" defer></script>
   <script src="{{ $confetti.Permalink }}" type="module" defer></script>
 {{ end }}

@@ -1,3 +1,7 @@
+import confetti, {
+  create,
+} from "https://cdn.jsdelivr.net/npm/canvas-confetti@0.2.0-beta0/dist/confetti.module.mjs";
+
 class ConfettiCheckboxes extends HTMLElement {
   constructor() {
     super();

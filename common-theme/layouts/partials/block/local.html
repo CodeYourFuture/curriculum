@@ -25,13 +25,17 @@
     <div class="c-block__content c-copy">{{ $block.Content }}</div>
   </div>
   <footer class="c-block__footer">
-    <h3 class="e-heading__2">Notes</h3>
+    <h3>Notes</h3>
     {{ with $block.Params.Objectives }}
-      <h3 class="e-heading__5">Learning Objectives</h3>
-      {{ partial "objectives/block.html" . }}
+      <confetti-checkboxes
+        ><h5>Learning Objectives</h5>
+        {{ partial "objectives/block.html" . }}
+      </confetti-checkboxes>
+      {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" | resources.Minify }}
+      <script src="{{ $confetti.Permalink }}" type="module" defer></script>
     {{ end }}
     {{ if $block.Params.activities }}
-      <h3 class="e-heading__5 is-invisible">Activities</h3>
+      <h5 class="e-heading__5 is-invisible">Activities</h5>
       <ul class="c-term__list c-label__list">
         {{ range $key, $value := $block.Params.activities }}
           {{ with site.GetPage (printf "/activities/%s" $value) }}
