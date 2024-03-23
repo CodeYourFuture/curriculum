@@ -3,10 +3,11 @@
 
   {{ partial "page-header.html" . }}
     <article class="c-copy">
+      <h3>📛 This is a term definition page</h3>
       {{ .Content }}
       <footer class="c-page__footer">
-        <h3 class="e-heading__4">Citations</h3>
-        <ol class="c-label__list">
+        <h4>Citations</h4>
+        <ul class="c-label__list">
         {{ range sort .Pages "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
         {{ with .Permalink }}<a href="{{ .}}">{{end}}
@@ -14,9 +15,7 @@
         {{ with .Permalink }}</a>{{end}}
       </li>    
         {{ end }}
-        </ol>
-        <hr>
-        <mark>📛 This is a term definition page</mark>
+        </ul>
       </footer>
     </article>
   
