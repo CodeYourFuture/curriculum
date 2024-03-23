@@ -8,6 +8,15 @@
     display: inline-block;
     padding: 0.125em 0.5em;
   }
+  &__text {
+    font-size: 0;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.25, 1.375, 0.25, 1);
+    @include on-event(false, ".c-label") {
+      font-size: var(--theme-type-size--6);
+      opacity: 1;
+    }
+  }
   &__list {
     display: flex;
     flex-flow: row wrap;

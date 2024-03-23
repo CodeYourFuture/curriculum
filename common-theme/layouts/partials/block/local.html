@@ -2,21 +2,52 @@
 {{ $block := .Page.Site.GetPage $blockData.api }}
 
 {{ if eq $block.Content "" }}
-{{ errorf "Page %s block %s had no content" .Page.Path $blockData.api }}
+  {{ errorf "Page %s block %s had no content" .Page.Path $blockData.api }}
 {{ end }}
 
-<section class="c-block c-block--{{ $blockData.type }}">
-  <header class="c-block__header">
-    <h2 class="c-block__title e-heading__2" id="{{ $blockData.name |urlize }}">
-      {{ $block.Title }}
-    </h2>
-    {{ partial "time.html" . }}
-  </header>
-  {{ with $block.Params.Objectives }}
-    <details>
-      <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+
+<section class="c-block c-block--{{ $blockData.type }}" data-card>
+  <div class="c-block__body" tabindex="0">
+    <header class="c-block__header">
+      <h2
+        class="c-block__title e-heading__2"
+        id="{{ $blockData.name |urlize }}">
+        {{ $block.Title }}
+      </h2>
+      {{ partial "time.html" . }}
+    </header>
+    {{ with $block.Params.Objectives }}
+      <details>
+        <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+        {{ partial "objectives/block.html" . }}
+      </details>
+    {{ end }}
+    <div class="c-block__content c-copy">{{ $block.Content }}</div>
+  </div>
+  <footer class="c-block__footer">
+    <h3 class="e-heading__2">Notes</h3>
+    {{ with $block.Params.Objectives }}
+      <h3 class="e-heading__5">Learning Objectives</h3>
       {{ partial "objectives/block.html" . }}
-    </details>
-  {{ end }}
-  <div class="c-block__content c-copy">{{ $block.Content }}</div>
+    {{ end }}
+    {{ if $block.Params.activities }}
+      <h3 class="e-heading__5 is-invisible">Activities</h3>
+      <ul class="c-term__list c-label__list">
+        {{ range $key, $value := $block.Params.activities }}
+          {{ with site.GetPage (printf "/activities/%s" $value) }}
+            <li
+              class="c-term c-label"
+              style="--color:var(--theme-color--block);">
+              <a class="c-term__link c-label__name" href="{{ .Permalink }}">
+                <span class="c-term__emoji c-label__emoji"
+                  >{{ .Params.emoji | default "📛" }}</span
+                >
+                <span class="c-term__text c-label__text">{{ .Title }}</span></a
+              >
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </footer>
 </section>
