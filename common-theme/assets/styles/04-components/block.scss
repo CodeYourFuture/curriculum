@@ -86,8 +86,8 @@
     border-top: var(--theme-border--thick);
     border-image: linear-gradient(
         to right,
-        var(--theme-color--pop) 96px,
-        var(--theme-color--accent) 96px
+        var(--theme-color--pop) var(--theme-type-size--1),
+        var(--theme-color--accent) var(--theme-type-size--1)
       )
       1 stretch;
     background-color: var(--theme-color--paper-fade);
