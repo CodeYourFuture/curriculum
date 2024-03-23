@@ -1,6 +1,5 @@
 .c-chip {
   @include grid-assign(icon, title, description);
-  display: grid;
 
   grid-template:
     ".... . ..... ." var(--theme-spacing--1) "icon . title ."
@@ -15,5 +14,11 @@
   }
   &__icon {
     font-size: var(--theme-type-size--2);
+  }
+  @include on-event() {
+    .c-chip__title {
+      text-decoration: underline;
+      color: var(--theme-color--ink);
+    }
   }
 }
