@@ -3,12 +3,12 @@
 {{/* temporarily load scripts until we track down this page store problem
   https://discourse.gohugo.io/t/page-store-is-sometimes-empty-for-unclear-reasons/44950
 */}}
-<script src="{{ $scripts.Permalink }}" defer></script>
+<script src="{{ $scripts.RelPermalink }}" defer></script>
 {{ $player := resources.Get "scripts/youtube-player.js" | resources.Minify }}
-<script src="{{ $player.Permalink }}" defer></script>
+<script src="{{ $player.RelPermalink }}" defer></script>
 {{ $tabs := resources.Get "scripts/tab-panels.js" | resources.Minify }}
-<script src="{{ $tabs.Permalink }}" type="module" defer></script>
+<script src="{{ $tabs.RelPermalink }}" type="module" defer></script>
 {{ $darkmode := resources.Get "scripts/dark-mode.js" | resources.Minify }}
-<script src="{{ $darkmode.Permalink }}"></script>
+<script src="{{ $darkmode.RelPermalink }}"></script>
 {{ $alertmessage := resources.Get "scripts/alert-message.js" | resources.Minify }}
-<script src="{{ $alertmessage.Permalink }}" defer></script>
+<script src="{{ $alertmessage.RelPermalink }}" defer></script>

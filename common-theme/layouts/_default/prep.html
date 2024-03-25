@@ -24,7 +24,7 @@
   </solo-view>
 
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
-  <script src="{{ $soloView.Permalink }}" defer></script>
+  <script src="{{ $soloView.RelPermalink }}" defer></script>
   {{ with or .Params.prerequisites .Parent.Params.prerequisites }}
     <footer class="c-page-footer">
       <h3 class=" e-heading__4">🎟️ Prerequisites</h3>

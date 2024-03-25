@@ -16,5 +16,5 @@
     </time-stamper>
   </article>
   {{ $timestamper := resources.Get "scripts/time-stamper.js" | resources.Minify }}
-  <script src="{{ $timestamper.Permalink }}" type="module" defer></script>
+  <script src="{{ $timestamper.RelPermalink }}" type="module" defer></script>
 {{ end }}
