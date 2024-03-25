@@ -25,3 +25,4 @@
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
   <script src="{{ $soloView.RelPermalink }}" defer></script>
 {{ end }}
+{{ end }}
