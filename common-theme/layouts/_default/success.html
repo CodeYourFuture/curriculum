@@ -63,5 +63,5 @@
   </article>
 
   {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" | resources.Minify }}
-  <script src="{{ $confetti.Permalink }}" type="module" defer></script>
+  <script src="{{ $confetti.RelPermalink }}" type="module" defer></script>
 {{ end }}

@@ -13,4 +13,4 @@
 </style>
 <div class="mermaid">{{- .Inner | safeHTML }}</div>
 {{ $mermaid := resources.Get "scripts/mermaid-observer.js" | resources.Minify }}
-<script type="module" src="{{ $mermaid.Permalink }}" defer></script>
+<script type="module" src="{{ $mermaid.RelPermalink }}" defer></script>

@@ -148,5 +148,65 @@
     "website": "https://www.workday.com/en-gb/company/corporate-responsibility/workday-foundation.html",
     "logo": "logos/workday.svg",
     "support_type": ["Financial"]
+  },
+  {
+    "name": "Barclays Eagle Labs Glasgow",
+    "website": "https://labs.uk.barclays/locations/glasgow/",
+    "logo": "logos/barclayseaglelabs.png",
+    "support_type": ["Host"]
+  },
+  {
+    "name": "MBN Solutions",
+    "website": "https://www.mbnsolutions.com",
+    "logo": "logos/mbn.jpeg",
+    "support_type": ["Host"]
+  },
+  {
+    "name": "Avaloq",
+    "website": "https://www.avaloq.com/",
+    "logo": "logos/avaloq.png",
+    "support_type": ["Equipment"]
+  },
+  {
+    "name": "The Clutha Trust",
+    "website": "https://www.cluthatrust.org/",
+    "logo": "logos/clutha.png",
+    "support_type": ["Host"]
+  },
+  {
+    "name": "Glasgow City Innovation District (Glasgow Tech Week)",
+    "website": "https://www.glasgowcityinnovationdistrict.com/",
+    "logo": "logos/gcid.png",
+    "support_type": ["Conference"]
+  },
+  {
+    "name": "Google Developers Group (Google DevFest Glasgow)",
+    "website": "https://www.avaloq.com/",
+    "logo": "logos/gdf.pgn",
+    "support_type": ["Conference"]
+  },
+  {
+    "name": "London Tech Week",
+    "website": "https://londontechweek.com/",
+    "logo": "logos/ltw.png",
+    "support_type": ["Conference"]
+  },
+  {
+    "name": "The Data Lab (Data Talent, Data Summit)",
+    "website": "https://thedatalab.com/",
+    "logo": "logos/thedatalab.png",
+    "support_type": ["Conference"]
+  },
+  {
+    "name": "Turing Fest",
+    "website": "https://turingfest.com/",
+    "logo": "logos/turingfest.png",
+    "support_type": ["Conference"]
+  },
+  {
+    "name": "Women Techmakers Glasgow (Google)",
+    "website": "https://developers.google.com/womentechmakers",
+    "logo": "logos/wtfg.png",
+    "support_type": ["Conference"]
   }
 ]
