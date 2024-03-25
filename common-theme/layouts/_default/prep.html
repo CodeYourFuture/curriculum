@@ -11,7 +11,8 @@
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
         {{ partial "block/block.html" (dict "block" . "Page"
-          $.Page "Site" $.Site ) }}
+          $.Page "Site" $.Site )
+        }}
       {{ end }}
     </div>
     {{ if gt .Params.blocks 1 }}
@@ -23,5 +24,5 @@
   </solo-view>
 
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
-  <script src="{{ $soloView.Permalink }}" defer></script>
+  <script src="{{ $soloView.RelPermalink }}" defer></script>
 {{ end }}
