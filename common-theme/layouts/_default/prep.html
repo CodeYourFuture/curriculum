@@ -11,7 +11,8 @@
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
         {{ partial "block/block.html" (dict "block" . "Page"
-          $.Page "Site" $.Site ) }}
+          $.Page "Site" $.Site )
+        }}
       {{ end }}
     </div>
     {{ if gt .Params.blocks 1 }}
@@ -24,4 +25,16 @@
 
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
   <script src="{{ $soloView.Permalink }}" defer></script>
+  {{ with or .Params.prerequisites .Parent.Params.prerequisites }}
+    <footer class="c-page-footer">
+      <h3 class=" e-heading__4">🎟️ Prerequisites</h3>
+      <ul class="c-label__list">
+        {{ range . }}
+          <li class="c-label" style="--color:var(--theme-color--brand-shade);">
+            <span class="c-label__name">{{ . }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    </footer>
+  {{ end }}
 {{ end }}
