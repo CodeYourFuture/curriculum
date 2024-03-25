@@ -4,5 +4,6 @@ description = 'Organise and structure data; Build interactive user interfaces; B
 layout = 'module'
 emoji= '🐣'
 menu = ['syllabus', 'core', 'programming']
+prerequisites = ['itd', 'fundamentals', 'induction', 'html-css', 'js1']
 weight='4'
 +++

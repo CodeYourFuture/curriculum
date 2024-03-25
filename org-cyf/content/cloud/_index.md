@@ -4,4 +4,5 @@ description = 'Deploy and manage cloud infrastructure; explore containers, pipel
 layout = 'module'
 emoji= '☁️'
 menu = ['syllabus', 'tracks']
+prerequisites = ['itd', 'fundamentals', 'programming']
 +++

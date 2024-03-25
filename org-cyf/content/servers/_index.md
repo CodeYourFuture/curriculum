@@ -4,5 +4,6 @@ description = 'Write server-side JavaScript with Node.js; develop CRUD applicati
 layout = 'module'
 emoji= '🔌'
 menu = ['syllabus', 'tracks']
+prerequisites = ['itd', 'fundamentals', 'programming']
 weight='7'
 +++

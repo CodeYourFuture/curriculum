@@ -4,5 +4,6 @@ description = 'Explore frameworks, libraries, and declarative programming with R
 layout = 'module'
 emoji= '🪄'
 menu = ['syllabus', 'core', 'tracks']
+prerequisites = ['itd', 'fundamentals', 'programming']
 weight='6'
 +++

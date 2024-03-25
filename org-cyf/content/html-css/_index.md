@@ -4,5 +4,6 @@ description = 'Build up robust interfaces by structuring data and interactions; 
 layout = 'module'
 emoji= '📇'
 menu = ['syllabus', 'core', 'interfaces']
+prerequisites = ['itd', 'fundamentals']
 weight='2'
 +++
