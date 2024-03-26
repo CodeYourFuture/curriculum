@@ -1,5 +1,5 @@
 +++
-title = 'Understanding Requirements'
+title = 'User stories'
 headless = true
 time = 50
 facilitation = false

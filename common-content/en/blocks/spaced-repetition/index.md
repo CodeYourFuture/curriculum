@@ -2,6 +2,7 @@
 title="Spaced Repetition"
 headless="true"
 time= 10
+hide_from_overview=true
 +++
 
 {{<tabs name="Scheduled check-ins">}}

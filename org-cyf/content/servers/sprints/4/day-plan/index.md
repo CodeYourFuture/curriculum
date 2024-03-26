@@ -11,7 +11,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="Wordle Hackathon"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/wordle"
 time="120"
 [[blocks]]
 name="Lunch"
@@ -28,8 +28,8 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="PD Placeholder"
-src="blocks/pd-placeholder"
+name="Sell Yourself"
+src="https://cyf-pd.netlify.app/blocks/sell-yourself/readme/"
 time=90
 [[blocks]]
 name="Progress check-in"
