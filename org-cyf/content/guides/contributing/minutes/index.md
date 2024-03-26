@@ -17,6 +17,96 @@ Attendees:
 
 ---
 
+## 2024-03-26
+
+Attendees: Ali, Sally, Mitch, Isar
+
+### ❗Actions from last time
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally: Fix the archetypes in the curriculum
+- [x] Sally: Write a ticket to explore alternative frontend views
+- [x] Isar: Try to get MigraCode deployed on Netlify
+
+### 📝 Agenda points
+
+#### Activity taxonomy
+
+- Came up via Sprint Planning, see [Sally's PR to add activity taxonomies](https://github.com/CodeYourFuture/curriculum/pull/647)
+- Adds metadata to blocks
+  - Revealed through double click
+  - Shows learning objectives and new activity taxonomies
+  - Activities can be effectively applied to a block like labels/tags
+- Activities were based on a [Google Doc](https://docs.google.com/document/d/1QjqQCxS2IFBj-SlKkpLbSa59uJoEdatnyiB00X_glQk/edit)
+- Discussion of how activity taxonomies can be used
+  - Ali: could these be used a guide for people looking to write new content? I.e. here are a bunch of activities that you should be following (with a free text fallback activity)
+  - Discussed how they're also useful
+
+#### Renaming the "How our curriculum works" module
+
+- Ali: it's a quite long and unwieldy name, can we come up with an alternative?
+- Some suggestions from the call: Teaching, Learning
+- Let's brainstorm to come up with alternative suggestions
+
+#### Curriculum PR description template
+
+- Ali: there's some things on the PR template that are a bit confusing (for old timers and newcomers), can we clean it up a bit and add descriptive comments?
+- Sally made [a PR](https://github.com/CodeYourFuture/curriculum/pull/651) 🙂
+
+#### MigraCode theme copy missing content
+
+- Isar: last week was the first week using the new content at MigraCode
+  - Deployed the new iteration to MC Netlify first time
+- Noticed that there was some content missing on a day plan page
+  - Suspects some issue with configuration
+  - No build logs
+- Isar to write up a ticket to investigate
+- How did the first week go?
+  - A bit rocky at the start but noticed that trainees had more time spent with their hands on the keyboards
+
+#### Build failures
+
+- There seem to have been quite a few build failures recently (all PRs currently seem to be failing)
+- Sally: think it's because of the docs failing our tests
+  - Thought the docs were disconnected because we're not really using them right now - but apparently not
+
+#### New homepage
+
+- Sally demoed the new [curriculum homepage](https://curriculum.codeyourfuture.io/)
+  - Summary: split into various columns (where there are either checkpoints currently or we are considering adding them in the future)
+- We like that it recognises the "hidden" structure that generally Syllabus Team know about, but probably not many other people know about
+- Also have a [PR to add prerequisites metadata](https://github.com/CodeYourFuture/curriculum/pull/648) to modules
+  - Looking at tying this into micro-credentials possibly in the future - arranging the code ahead of this
+- Also had an aside about making the page more editable (as exercises) for trainees - showed an example of modifying colours programmatically
+- Ali: Can we add better "descriptions" (shown on hover) for the modules?
+
+#### UN prize
+
+- We've been nominated for a prize from the UN!
+  - [WSIS Prizes 2024](http://www.wsis.org/prizes), in the "C7: ICT applications: benefits in all aspects of life — E-employment" category
+- You can [vote for us](https://www.itu.int/net4/wsis/stocktaking/Prizes/2024)!
+
+### ❗Actions
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally: Fix the archetypes in the curriculum
+- [ ] Isar: Try to get MigraCode deployed on Netlify
+- [ ] Ali: Create Slack thread to brainstorm ideas for "How our curriculum works" module name
+- [ ] Isar: Write up a ticket to investigate why the MC deploy hasn't fully worked
+- [ ] Ali: Write up ticket for improving module descriptions
+
+---
+
 ## 2024-03-12
 
 Attendees: Ali, Isar, Mitch, Sally
