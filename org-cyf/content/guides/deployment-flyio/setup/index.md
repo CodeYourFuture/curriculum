@@ -113,9 +113,9 @@ For the first one you need to run the following command:
 flyctl tokens create deploy -x 999999h
 ```
 
-This will create a token that can be used by flyctl to run deployments. Make sure you save the result as you will need it later. It looks like a very-very long string starting with something like `FlyV1 fm2_lJPECAAAAAAAA...`.
+This will create a token that can be used by flyctl to run deployments. Make sure you save the result as you will need it later. It looks like a very long string starting with something like `FlyV1 fm2_lJPECAAAAAAAA...`.
 
-Next go to your GitHub repository on GitHub, and click Settings. On the left hand side scroll down to "Secrets and variables" and select "Actions". One the page that shows up scroll down to "Repository secrets", and click "New repository secret"
+Next go to your GitHub repository on GitHub, and click Settings. On the left-hand side scroll down to "Secrets and variables" and select "Actions". One the page that shows up scroll down to "Repository secrets", and click "New repository secret"
 
 Set the Name to `FLY_API_TOKEN` and the value to the full results of the previous call.
 
@@ -139,6 +139,5 @@ jobs:
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 ```
-
 
 Once you commit this file and push it to your `main` branch, GitHub will automatically run `flyctl deploy` against whatever is in the `main` branch.

@@ -20,7 +20,7 @@ Then anything under the `/static` directory will be served as-is.
 Express.JS will not compile these files for you. If you have Javascript files that need compilation, like React JSX files you need to do that separately.
 {{</note>}}
 
-If you have a React application and you wish it to support React Routes you also need to make sure that every request that doesn't correspond to a real file gets routed to your main website. You can do that by adding a code like the following:
+If you have a React application and you wish it to support React Routes you also need to make sure that every request that doesn't correspond to a real file gets routed to your main website. You can do that by adding the following code:
 
 ```js
 app.use((req, res, next) => {

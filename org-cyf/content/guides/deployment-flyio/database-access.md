@@ -29,11 +29,11 @@ To connect to the database you will need to use `flyctl`:
 flyctl postgres connect -a YOURNAME-PROJECTNAME-db -d YOURNAME_PROJECTNAME
 ```
 
-Where the first value is the name of the database you set up in level 150, and the second value if the datastore name you obtained in the last section.
+Where the first value is the name of the database you set up in level 150, and the second value is the datastore name you obtained in the last section.
 
 The command above will start you up with a proper `psql` console where you can run commands.
 
-You can also pipe in SQL files. For example if you have an `initdb.sql` file containing SQL commands to initiate a database you can do:
+You can also pipe in SQL files. For example, if you have an `initdb.sql` file containing SQL commands to initiate a database you can do:
 
 ```bash
 flyctl postgres connect -a YOURNAME-PROJECTNAME-db -d YOURNAME_PROJECTNAME < initdb.sql
