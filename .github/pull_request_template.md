@@ -10,8 +10,11 @@
 
 ### Common Theme?
 
-<!-- This PR adds a feature or bugfix to the common-theme module.
-Please reference the ticket you are addressing .-->
+<!-- Does this PR add a feature or bugfix to the common-theme module? -->
+
+- [ ] Yes
+
+<!--Please reference the ticket you are addressing -->
 
 Issue number: #issue-number
 
