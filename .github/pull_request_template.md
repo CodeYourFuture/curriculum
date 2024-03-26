@@ -4,7 +4,7 @@
 
 ### Common Content?
 
-<!-- This PR adds content to the common-content module -->
+<!-- Does this PR adds content to the common-content module? -->
 
 Block/s
 
