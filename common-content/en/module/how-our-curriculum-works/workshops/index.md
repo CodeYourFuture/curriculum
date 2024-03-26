@@ -4,7 +4,7 @@ headless="true"
 time= 30
 [objectives]
 1="Locate the CYF Workshops repo"
-2="Explain how we use workshops at CYF"
+2="Describe how we use workshops during Saturday sessions at CYF"
 3="Relate the use of workshops to active learning"
 +++
 
