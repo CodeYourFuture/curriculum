@@ -6,4 +6,4 @@ time= 30
     1="Explain why we don't lecture at CYF"
 +++
 
-At CYF, we don’t lecture trainees during live sessions.
+We don’t lecture trainees during live sessions.
