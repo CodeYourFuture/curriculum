@@ -23,7 +23,4 @@ src="module/how-our-curriculum-works/workshops"
 [[blocks]]
 name="builder mindset"
 src="module/how-our-curriculum-works/builder-mindset"
-[[blocks]]
-name="getting involved"
-src="module/how-our-curriculum-works/getting-involved"
 +++
