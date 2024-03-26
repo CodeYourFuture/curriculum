@@ -31,7 +31,7 @@ Attendees: Ali, Sally, Mitch, Isar
 - [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
 - [ ] Sally: Fix the archetypes in the curriculum
 - [x] Sally: Write a ticket to explore alternative frontend views
-- [ ] Isar: Try to get MigraCode deployed on Netlify
+- [x] Isar: Try to get MigraCode deployed on Netlify
 
 ### 📝 Agenda points
 
