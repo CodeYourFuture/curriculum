@@ -6,7 +6,7 @@
 
 <!-- Does this PR adds content to the common-content module? -->
 
-Block/s
+- [ ] Block/s
 
 ### Common Theme?
 
