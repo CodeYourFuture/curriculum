@@ -9,8 +9,7 @@ emoji= '🧩'
 We can view the different commits of a project on Github. This means we can see what the website looked like before, in previous versions.
 
 {{<note type="exercise" title="exercise 4.1">}}
-<!-- CYF-ONLY -->
-Here are some different versions of the same CYF educational backlog.<!-- END-CYF-ONLY -->
+Here are some different versions of the same educational backlog.
 
 [Deployed version A educational blog](https://64b6f9a2b9c00a00082bbeeb--git-demo-week1.netlify.app/)
 

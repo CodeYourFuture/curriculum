@@ -5,14 +5,14 @@ time="50"
 facilitation = true
 emoji= '🧩'
 [objectives]
-   1="Describe CYF's mission"
-   2="Identify the key elements of CYF's educational philosophy"
+   1="Describe our mission"
+   2="Identify the key elements of our educational philosophy"
    3='Describe how a flipped classroom works'
    4='Identify the key pages of the curriculum interface'
-   5='Explain the sequencing of work in a typical week at CYF'#CYF-ONLY
+   5='Explain the sequencing of work in a typical week'
 +++
 
-At Code Your Future, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on Saturdays. Use this time to go through the activities and learn how to navigate the curriculum interface.
+At {{<our-name>}}, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on class days. Use this time to go through the activities and learn how to navigate the curriculum interface.
 
 ### Resources
 

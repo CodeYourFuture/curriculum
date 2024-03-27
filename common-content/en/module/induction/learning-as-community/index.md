@@ -5,11 +5,11 @@ time="55"
 facilitation = true
 emoji= '🧩'
 [objectives]
-    1='Describe how we learn as a community at CYF'
-    2='Describe a typical week at Code Your Future'
+    1='Describe how we learn as a community'
+    2='Describe a typical week in our community'
 +++
-<!-- CYF-ONLY -->
-At Code Your Future, we learn as a **community.**
+
+At {{<our-name>}}, we learn as a **community.**
 
 In this session, we're going to describe how we harness our community to learn together.
 
@@ -28,4 +28,5 @@ The facilitator will use this presentation 👉 [Learning as a community present
 ### Introduction
 
 The facilitator will use the Miro board presentation to guide trainees and volunteers on a discussion about how we learn together as a community.
+
 <!-- END-CYF-ONLY -->

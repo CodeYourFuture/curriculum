@@ -13,12 +13,12 @@ emoji= '🧩'
 {{<tab name="🕹️ Follow along">}}
 Let's start a brand new project in a directory called `week-4-example` and create a file called `package.json` in our project.
 
-1. Open your terminal and ensure you're inside the `cyf` directory you created earlier in the course.
+1. Open your terminal and ensure you're inside the `{{<our-name>}}` directory you created earlier in the course.
 1. [Make](https://man7.org/linux/man-pages/man1/mkdir.1.html) a new directory on your local machine called `week-4-example`.
 1. Change directory into `week-4-example` and double-check your current working directory.
 
 ```console
-pwd .../cyf/week-4-example
+pwd .../{{<our-name>}}/week-4-example
 ```
 
 👉🏽 [Now create a `package.json` file](#start-project-1)
