@@ -9,9 +9,9 @@ emoji= '🧩'
     2='Get query results from the database with Postman'
 +++
 
-Use the tables and data from your `cyf_hotel` database. If you need to start from a clean state for your database, run `psql -d cyf_hotel -f build_hotel.sql`.
+Use the tables and data from your `{{<our-name>}}_hotel` database. If you need to start from a clean state for your database, run `psql -d {{<our-name>}}_hotel -f build_hotel.sql`.
 
-Earlier, we created a new NodeJS project called `cyf-hotels-api` with a single API endpoint `/customers` to get the list of all customers. Now, we will add other endpoints with more functionalities to interact with the `cyf_hotel` database.
+Earlier, we created a new NodeJS project called `{{<our-name>}}-hotels-api` with a single API endpoint `/customers` to get the list of all customers. Now, we will add other endpoints with more functionalities to interact with the `{{<our-name>}}_hotel` database.
 
 You should have a `server.js` file that looks something like this:
 
@@ -23,7 +23,7 @@ const { Pool } = require("pg");
 const db = new Pool({
   user: "keith",
   host: "localhost",
-  database: "cyf_hotel",
+  database: "{{<our-name>}}_hotel",
   password: "",
   port: 5432,
 });

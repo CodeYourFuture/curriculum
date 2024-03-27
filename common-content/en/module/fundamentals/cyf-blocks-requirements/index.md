@@ -12,9 +12,9 @@ emoji= '🧩'
 5="Respond to user actions (text input and clicks)"
 +++
 
-For the majority of this course, we will use a custom CYF application called [CYF Blocks](https://blocks.codeyourfuture.io/#introduction). It uses the same visual programming editor, Block.ly, as Code.org, but you will use it to create JavaScript for real websites you can show others.
+For the majority of this course, we will use a custom application called [CYF Blocks](https://blocks.codeyourfuture.io/#introduction). It uses the same visual programming editor, Block.ly, as Code.org, but you will use it to create JavaScript for real websites you can show others.
 
-{{<note title="CYF Blocks" type="activity">}}
+{{<note title="{{<our-name>}} Blocks" type="activity">}}
 
 - Inspect the interface
 - Read the introduction

@@ -7,20 +7,20 @@ menu_level = ["module"]
 weight = 1
 backlog= "Course-Fundamentals"
 [[blocks]]
-name="Read and sign CYF agreements"
-src="https://cyf-pd.netlify.app/blocks/agreements/readme/"
+name="Read and sign our agreements"
+src="https://cyf-pd.netlify.app/blocks/agreements/readme/"#CYF-ONLY
 [[blocks]]
 name="Childcare expenses"
-src="https://cyf-pd.netlify.app/blocks/childcare-expenses/readme/"
+src="https://cyf-pd.netlify.app/blocks/childcare-expenses/readme/"#CYF-ONLY
 [[blocks]]
 name="Fork your Planner"
-src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
+src="https://www.youtube.com/watch?v=cnx0RuAu2tc"#CYF-ONLY
 [[blocks]]
 name="Set up Planner"
-src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
+src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"#CYF-ONLY
 [[blocks]]
 name="Make your Planning Board"
-src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
+src="https://www.youtube.com/watch?v=Hbtfil-G0h0"#CYF-ONLY
 [[blocks]]
 name="backlog"
 src="blocks/backlog"
@@ -46,7 +46,7 @@ Your GitHub account name should look something like this: https://github.com/Sal
 {{</note>}}
 
 {{<note type="info" title="Real Name" >}}
-CYF recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
+We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 {{</note>}}
 
 When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.

@@ -37,7 +37,7 @@ emoji= '🧩'
 
 ### 🌱 Creating data
 
-In the following, we will add a new API endpoint to create a new customer in the table `customers` of the `cyf_hotel` database. As a reminder, here is an example of a SQL insert statement to add a new customer:
+In the following, we will add a new API endpoint to create a new customer in the table `customers` of the `{{<our-name>}}_hotel` database. As a reminder, here is an example of a SQL insert statement to add a new customer:
 
 ```sql
 INSERT INTO customers (name, email, phone, address, city, postcode, country)
@@ -49,7 +49,7 @@ INSERT INTO customers (name, email, phone, address, city, postcode, country)
 
 When an endpoint can reasonably expect a large number of data values, for example, when we need to insert a new row into the `customers` table, then using parameters in the URL is not practical. Instead we can use a 'middleware' package such as `body-parser`, which can extract data from the body of the request.
 
-As we create a new record in the database, we will add a new POST endpoint in the `cyf-hotels-api` project from last class. Moreover, we need to be able to pass data to this API endpoint such as the name, address, postcode, etcetera, so we can use this API to create different customers. The data can be sent in the body of the request. To access the parameters in the body of the request with Express.JS, we need to add the module `body-parser` to the `cyf-hotels-api` project:
+As we create a new record in the database, we will add a new POST endpoint in the `{{<our-name>}}-hotels-api` project from last class. Moreover, we need to be able to pass data to this API endpoint such as the name, address, postcode, etcetera, so we can use this API to create different customers. The data can be sent in the body of the request. To access the parameters in the body of the request with Express.JS, we need to add the module `body-parser` to the `{{<our-name>}}-hotels-api` project:
 
 At the terminal command line:
 

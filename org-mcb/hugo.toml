@@ -15,6 +15,7 @@ googleFonts="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&disp
 description = "A free and open source software development programme."
 main_website = "https://migracode.org/"
 main_org_name = "MigraCode Barcelona"
+our_name="MCB"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 root = "curriculum"

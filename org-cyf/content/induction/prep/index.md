@@ -15,6 +15,6 @@ src="module/induction/check-git-installation"
 name="Install VS Code"
 src="module/induction/install-vscode"
 [[blocks]]
-name="Create CYF Folder"
+name="Create CYF Folder"#CYF-ONLY
 src="module/induction/cyf-folder"
 +++
