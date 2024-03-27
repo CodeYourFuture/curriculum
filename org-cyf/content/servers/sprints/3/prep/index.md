@@ -1,11 +1,12 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Servers'
 backlog_filter= 'Week 3'
+theme = "PUT, and testing APIs"
 [[blocks]]
 name="CRUD"
 src="module/servers/crud-2"
@@ -27,4 +28,7 @@ src="https://www.youtube.com/watch?v=oXW-C2bM0wE"
 [[blocks]]
 name="Interactive Postman workspace"
 src="module/servers/test-examples-in-postman"
+[[blocks]]
+name="Value and Work Not Done"
+src="https://cyf-pd.netlify.app/blocks/prep-value-and-work-not-done/readme/"
 +++

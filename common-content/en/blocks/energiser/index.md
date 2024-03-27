@@ -2,6 +2,7 @@
 title="Energiser"
 headless="true"
 time=20
+hide_from_overview=true
 +++
 
 Every session begins with an energiser. Usually there's a rota showing who will lead the energiser. We have some favourite games you can play if you are stuck.

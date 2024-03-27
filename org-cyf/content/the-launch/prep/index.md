@@ -1,8 +1,8 @@
 +++
 title = 'prep'
-description = 'prep description'
+description = 'Getting ready to launch'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 backlog= 'Module-The-Launch'

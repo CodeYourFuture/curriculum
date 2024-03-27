@@ -1,17 +1,22 @@
 {{ define "main" }}
   <article>
-    
     {{- .Scratch.Set "headerClass"
       "c-page-header--splash"
     }}
     {{- partial "page-header.html" . }}
-    <section class="">
-      {{ .Content }}
+    {{ with .Content }}
+      <section class="c-copy">
+        {{ . }}
+      </section>
+    {{ end }}
+    {{ if .Params.map }}
+      {{ partial "map.html" . }}
+    {{ else }}
       <ol class="c-timeline c-timeline--card">
         {{- range site.Menus.syllabus }}
           <li class="c-timeline__entry">{{ partial "card.html" . }}</li>
         {{- end }}
       </ol>
-    </section>
+    {{ end }}
   </article>
 {{ end }}

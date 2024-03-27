@@ -1,5 +1,5 @@
 +++
-title = 'code dot org'
+title = 'Code.org'
 headless = true
 time = 20
 facilitation = false

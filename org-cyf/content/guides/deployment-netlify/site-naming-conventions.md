@@ -18,12 +18,11 @@ All CYF coursework projects should be hosted with the following naming scheme:
 
 Examples for the project called `cakes`
 
-- `cyf-nbogie-cakes`.netlify.com
-- `cyf-40thieves-cakes`.netlify.com
-- `cyf-kkarimi-cakes`.netlify.com
+- `cyf-nbogie-cakes`.netlify.app
+- `cyf-40thieves-cakes`.netlify.app
+- `cyf-kkarimi-cakes`.netlify.app
 
 Examples for the project called `photo-gallery`
 
-- `cyf-lucymac-photo-gallery`.netlify.com
-- `cyf-textbook-photo-gallery`.netlify.com
-<!-- END-CYF-ONLY -->
+- `cyf-lucymac-photo-gallery`.netlify.app
+- `cyf-textbook-photo-gallery`.netlify.app

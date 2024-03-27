@@ -2,6 +2,7 @@
 title="Community Lunch"
 headless="true"
 time=60
+hide_from_overview=true
 +++
 
 Every Saturday we cook and eat together. We share our food and our stories. We learn about each other and the world. We build community.  

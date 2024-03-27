@@ -1,7 +1,7 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏿‍'
+emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-portfolio'
@@ -12,4 +12,5 @@ src="https://cyf-pd.netlify.app/blocks/goal-setting-and-planning/readme/"
 [[blocks]]
 name="Ground rules"
 src="module/portfolio/ground-rules"
+hide_from_overview=true
 +++
