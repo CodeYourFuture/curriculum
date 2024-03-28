@@ -12,7 +12,7 @@ To achieve our mission, we bring people together to build self-empowered communi
 
 ### We build communities that can **self-educate**
 
-**Self educate** means the ability to draw on surrounding resources to learn new skills and concepts. In an rapidly evolving tech landscape the ability to self-educate is essential.
+**Self educate** means the ability to draw on surrounding resources to learn new skills and concepts. Tech changes all the time. We must develop independent learners who can teach themselves new skills and technologies. 
 
 ### We build communities that can self-coordinate
 
