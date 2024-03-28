@@ -37,7 +37,7 @@ name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="AMA"
-src="blocks/ama"
+src="blocks/ask-me-anything"
 time="60"
 [[blocks]]
 name="Retro"

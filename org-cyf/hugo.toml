@@ -1,5 +1,5 @@
 title = "CYF Curriculum"
-
+baseURL = "https://curriculum.codeyourfuture.io/"
 
 [taxonomies]
   category = 'categories' # Content types are blocks, definitions, guides
@@ -36,6 +36,7 @@ main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
+pdrepo = "CYF-PD"
 root = "curriculum"
 orgapi = "https://api.github.com/repos/CodeYourFuture/"
 # We use a proxy which concatenates paginated responses, otherwise we miss results.

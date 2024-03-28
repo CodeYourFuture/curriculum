@@ -40,6 +40,8 @@ Keep the discussion moving and help the group to stay on track. Your job is to p
 
 Keep the discussion on track by keeping an eye on the time. Use a stopwatch and give the group a 30 second warning before the end of the session.
 
+<details><summary>Agenda</summary>
+
 - [ ] `00:00 - 02:00`: Nominate a facilitator and timekeeper
 - [ ] `02:00 - 07:00`: Write down key ideas and blockers
 - [ ] `07:00 - 10:00`: Vote on the focus
@@ -48,3 +50,4 @@ Keep the discussion on track by keeping an eye on the time. Use a stopwatch and 
 - [ ] `30:00 - 40:00`: Topic 3
 - [ ] `40:00 - 50:00`: Topic 4
 - [ ] `50:00 - 60:00`: Topic 5
+</details>

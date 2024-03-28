@@ -1,6 +1,6 @@
 +++
 title = 'prep'
-description = 'Scalbility and monitoring'
+description = 'Note the general topic'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
