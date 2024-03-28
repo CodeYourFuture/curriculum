@@ -2,3 +2,7 @@
 
 /contributing.md /about/contributing.md 302
 /prep/README.md /prep/readme 302
+/guides/deployment-netlify /guides/deployment/netlify 302
+/guides/deployment-render /guides/deployment/render 302
+/guides/deployment-supabase /guides/deployment/supabase 302
+/guides/deployment-flyio /guides/deployment/flyio 302
