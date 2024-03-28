@@ -10,8 +10,10 @@ emoji= '🧩'
 
 To achieve our mission, we bring people together to build self-empowered communities of learners. To this end, we have 3 community goals for achieving our mission:
 
-- ### We build communities that can self-educate
+### We build communities that can **self-educate**
 
-- ### We build communities that can self-coordinate
+**Self educate** means the ability to draw on surrounding resources to learn new skills and concepts. In an rapidly evolving tech landscape the ability to self-educate is essential.
 
-- ### We build communities that can self-evaluate
+### We build communities that can self-coordinate
+
+### We build communities that can self-evaluate
