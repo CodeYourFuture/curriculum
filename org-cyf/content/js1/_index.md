@@ -4,6 +4,7 @@ description = 'Find meaning behind syntax; Step through functions like a compute
 layout = 'module'
 emoji= '🥚'
 menu = ['syllabus', 'core', 'programming']
+prerequisites = ['itd', 'fundamentals']
 weight='3'
 length=4
 +++

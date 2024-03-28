@@ -10,7 +10,7 @@ backlog_filter= 'Week 3'
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name= "Developer Communication"
+name="Developer Communication"
 src="https://cyf-pd.netlify.app/blocks/developer-communication/readme/"
 [[blocks]]
 name="Morning break"
