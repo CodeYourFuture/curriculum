@@ -1,6 +1,6 @@
 ---
 id: contributing
-title: Contributing to CYF
+title: Contributing
 weight: 2
 emoji: 🎁
 ---

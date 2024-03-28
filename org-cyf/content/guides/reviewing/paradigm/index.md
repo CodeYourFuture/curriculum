@@ -1,9 +1,8 @@
----
-id: paradigm
-title: What we teach and why
-description: Our Approach
-emoji: 👩🏿‍🏫
----
++++
+title="What we teach and why"
+description="Our Approach"
+emoji=" 👩🏿‍🏫"
++++
 
 # What are we actually teaching?
 

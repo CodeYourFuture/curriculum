@@ -1,5 +1,4 @@
 ---
-id: free_deployments
 title: Free deployment offerings
 weight: 5
 emoji: 🖥️

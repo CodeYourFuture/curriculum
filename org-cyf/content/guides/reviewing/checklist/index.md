@@ -1,8 +1,6 @@
----
-id: marking-guide
-title: Reviewing
-sidebar_label: Reviewing Guide
----
++++
+title="Things to look for in a code review"
++++
 
 ## Overview
 
