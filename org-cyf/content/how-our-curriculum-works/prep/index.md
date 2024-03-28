@@ -20,4 +20,7 @@ src="module/how-our-curriculum-works/community-goals"
 [[blocks]]
 name="🗺️ curriculum"
 src="module/how-our-curriculum-works/curriculum"
+[[blocks]]
+name="🛣️ using this module"
+src="module/how-our-curriculum-works/using-this-module"
 +++
