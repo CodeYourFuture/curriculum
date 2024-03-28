@@ -1,18 +1,11 @@
 +++
-title = 'Our mission'
+title = '🚀 Our mission'
 headless = true
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
+1='Define the mission of our organisation'
 +++
 
-Support some of the most deprived members of society to start careers in the tech industry.
-
-For trainees to start a tech career, they need to develop into:
-
-- ### flexible problem-solvers
-
-- ### fluent technical communicators
-
-- ### team players
+Our mission is to support some of the most disadvantaged members of society to launch careers in the tech industry. We are a grassroots movement that empowers communities with the resources they need to educate themselves and prepare for a career in the 21st-century tech industry.

@@ -6,17 +6,17 @@ emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
-name="welcome"
+name="🎉 welcome"
 src="module/how-our-curriculum-works/welcome"
 [[blocks]]
-name="problem"
-src="module/how-our-curriculum-works/the-problem"
+name="background"
+src="module/how-our-curriculum-works/background"
 [[blocks]]
 name="mission"
 src="module/how-our-curriculum-works/our-mission"
 [[blocks]]
-name="🧭 community-objectives"
-src="module/how-our-curriculum-works/community-objectives"
+name="🧭 community-goals"
+src="module/how-our-curriculum-works/community-goals"
 [[blocks]]
 name="🗺️ curriculum"
 src="module/how-our-curriculum-works/curriculum"
