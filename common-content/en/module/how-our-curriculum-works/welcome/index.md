@@ -1,7 +1,7 @@
 +++
 title = '🎉 Welcome'
 headless = true
-time = 45
+time = 5
 facilitation = false
 emoji= '🎉'
 [objectives]

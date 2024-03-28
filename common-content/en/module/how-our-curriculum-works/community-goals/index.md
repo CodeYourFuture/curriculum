@@ -1,7 +1,7 @@
 +++
 title = '🧭 Community goals'
 headless = true
-time = 45
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]

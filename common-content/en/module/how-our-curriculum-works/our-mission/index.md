@@ -1,7 +1,7 @@
 +++
 title = '🚀 Our mission'
 headless = true
-time = 45
+time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]

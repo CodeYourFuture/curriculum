@@ -1,7 +1,7 @@
 +++
 title = '🗺️ Curriculum'
 headless = true
-time = 45
+time = 15
 facilitation = false
 vocabulary=["Blockers"]
 emoji= '🗺️'

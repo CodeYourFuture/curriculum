@@ -1,7 +1,7 @@
 +++
 title = '🛣️ Using this module'
 headless = true
-time = 45
+time = 20
 facilitation = false
 vocabulary=["Blockers"]
 emoji= '🛣️'
