@@ -26,10 +26,10 @@ src="module/induction/checkout-a-commit"
 name="previous versions"
 src="module/induction/previous-versions"
 [[blocks]]
-name="previous versions"
+name="forking a repository"
 src="module/induction/forking-a-repository"
 [[blocks]]
-name="previous versions"
+name="working locally"
 src="module/induction/working-locally"
 [[blocks]]
 name="viewing files"

@@ -30,7 +30,7 @@ Version B should have nothing on the index page
 Version C should be same as production deployment but with some rogue characters on the page
 -->
 
-#### Questions:
+#### Questions
 
 1. What is the difference between Version A and Version B on the index page (the page you first land on after clicking on the link)
 1. What is the difference between Version C and the main version of the site.

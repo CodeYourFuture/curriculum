@@ -23,7 +23,7 @@ By storing projects on GitHub, multiple users can gain access to the history of 
 On GitHub we call our project and its history a **repository**.
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 2.1">}}
+{{<note type="exercise" title="Exercise">}}
 
 ### Explore 🔍
 
@@ -50,7 +50,7 @@ You'll learn more about these type of files throughout the course.
 
 > We can use the Github interface to explore the different **commits** (versions) of a project too.
 
-{{<note type="exercise" title="exercise 2.2">}}
+{{<note type="exercise" title="exercise">}}
 
 ### Explore 🔍
 
@@ -68,17 +68,13 @@ Go to the commit that says "add test p element to index page"
 
 {{</note>}}
 
-{{<note type="exercise" title="exercise 2.3">}}
+{{<note type="exercise" title="exercise">}}
 
 ### Explore 🔍
 
-Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main
+Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main and locate commit that says "remove \ and # from start of paragraph"
 
-#### Questions:
-
-Go to the commit that says "remove \ and # from start of paragraph"
-
-#### Questions:
+#### Questions
 
 - How many files were changed in this commit?
 - What change was made in this commit?

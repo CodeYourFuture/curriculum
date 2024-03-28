@@ -115,7 +115,7 @@ Double check you can see the **Open a pull request** view.
 
 ![open-pull-request-page](open-pull-request-page.png)
 
-#### Questions:
+#### Questions
 
 a) Double check the base repository ( it should be set to `CodeYourFuture/GitHomeworkTest` )
 b) Double check the head repository ( this should be the forked repository `YOUR_GITHUB_USERNAME/GitHomeworkTest` )
