@@ -7,6 +7,10 @@ weight = 1
 backlog= 'Module-HTML-CSS'
 backlog_filter= 'Week 1'
 [[blocks]]
+name="Recap HTML and CSS"
+src="module/html-css/recap-html-css"
+time="40"
+[[blocks]]
 name="Spaced Repetition"
 src="blocks/spaced-repetition"
 time="30"
@@ -34,20 +38,3 @@ src="https://github.com/CodeYourFuture/Module-HTML-CSS/issues/41"
 name="backlog"
 src="blocks/backlog"
 +++
-
-## Recap HTML and CSS
-
-{{<tabs name="HTML and CSS basics">}}
-{{<tab name="1. Intro to HTML">}}
-{{<youtube>}}https://www.youtube.com/watch?v=PqYud9dGW5s{{</youtube>}}
-{{</tab>}}
-{{<tab name="2. What is Semantic HTML">}}
-{{<youtube>}}https://youtu.be/9ZHOhKbNFsI{{</youtube>}}
-{{</tab>}}
-{{<tab name="3. Intro to CSS">}}
-{{<youtube>}}https://www.youtube.com/watch?v=pwMQcKFPOlo{{</youtube>}}
-{{</tab>}}
-{{<tab name="4. CSS Selectors">}}
-{{<youtube>}}https://www.youtube.com/watch?v=mBmX7944vd0{{</youtube>}}
-{{</tab>}}
-{{</tabs>}}
