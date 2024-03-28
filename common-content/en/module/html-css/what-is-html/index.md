@@ -3,7 +3,8 @@ title = 'What is HTML?'
 headless = true
 time = 45
 facilitation = false
-emoji= '🧩'
+activities = ['defining-key-terms']
+emoji= '😶‍🌫️'
 [objectives]
     1='Define HTML, tags, and nesting'
     2='Explore the semantics of HTML'

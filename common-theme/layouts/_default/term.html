@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ .Scratch.Set "emoji" (.Page.Params.emoji | default "🗃️") }}
+
+  {{ partial "page-header.html" . }}
+    <article class="c-copy">
+      <h3>📛 This is a term definition page</h3>
+      {{ .Content }}
+      <footer class="c-page__footer">
+        <h4>Citations</h4>
+        <ul class="c-label__list">
+        {{ range sort .Pages "Title"}}
+          <li class="c-label" style="--color:var(--theme-color--block)">
+        {{ with .Permalink }}<a href="{{ .}}">{{end}}
+            <span class="c-label__name">{{ .Params.emoji |default "🧩"}} {{ .Title }}</span>
+        {{ with .Permalink }}</a>{{end}}
+      </li>    
+        {{ end }}
+        </ul>
+      </footer>
+    </article>
+  
+{{ end }}

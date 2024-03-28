@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ if .Page.Params.emoji }}
+    {{ .Scratch.Set "emoji" .Page.Params.emoji }}
+  {{ else }}
+    {{ .Scratch.Set "emoji" "🗃️" }}
+  {{ end }}
+
+  {{ partial "page-header.html" . }}
+  {{ with .Content }}<article class="c-copy">{{ . }}</article>{{ end }}
+  <ol class="c-chip__list">
+    {{ range .Pages }}
+      <li class="c-list__item">
+        <a class="c-chip" href="{{ .RelPermalink }}">
+          <h3 class="c-chip__title e-heading__4">{{ .Title }}</h3>
+          {{ with .Description }}
+            <p class="c-chip__description">{{ . }}</p>
+          {{ end }}
+          <span class="c-chip__icon">
+            {{ .Params.emoji | default "📛" }}
+          </span>
+        </a>
+      </li>
+    {{ end }}
+  </ol>
+{{ end }}
