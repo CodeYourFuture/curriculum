@@ -8,7 +8,7 @@ emoji= '🧩'
 
 We can view the different commits of a project on Github. This means we can see what the website looked like before, in previous versions.
 
-{{<note type="exercise" title="exercise 4.1">}}
+{{<note type="exercise" title="exercise">}}
 
 Here are some different versions of the same CYF educational backlog.
 
@@ -30,7 +30,7 @@ Version B should have nothing on the index page
 Version C should be same as production deployment but with some rogue characters on the page
 -->
 
-#### Questions:
+#### Questions
 
 1. What is the difference between Version A and Version B on the index page (the page you first land on after clicking on the link)
 1. What is the difference between Version C and the main version of the site.

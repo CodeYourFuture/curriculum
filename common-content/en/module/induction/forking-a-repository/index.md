@@ -20,7 +20,7 @@ So we can create a {{<tooltip title="fork">}}A **fork** is a copy of a repositor
 When we create a fork on Github, the new forked repository gets a new url:
 ![lesson1-forked-url-anatomy](lesson1-forked-url-anatomy.png)
 
-{{<note type="exercise" title="Exercise 5.1">}}
+{{<note type="exercise" title="Exercise">}}
 
 ### 🍴 Forking a repo
 
