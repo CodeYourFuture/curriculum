@@ -1,6 +1,5 @@
----
-id: deployment
-title: Deployment
-emoji: 🚀
-description: A collection of all the deployment guides you'll need at CYF
----
++++
+title="Deploying"
+description="Deploying your applications to the web using free services like Netlify and Vercel."
+emoji="🚀"
++++
