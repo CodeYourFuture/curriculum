@@ -7,5 +7,5 @@ emoji= '📝'
 weight = 1
 [[blocks]]
 name="Full Stack Project Assessment"
-src="https://github.com/CodeYourFuture/Full-Stack-Project-Assessment"
+src="https://github.com/CodeYourFuture/Full-Stack-Project-Assessment/readme"
 +++
