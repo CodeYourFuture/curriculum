@@ -1,8 +1,12 @@
 # https://docs.netlify.com/routing/redirects/
 
-/contributing.md /about/contributing.md 302
-/prep/README.md /prep/readme 302
-/guides/deployment-netlify /guides/deployment/netlify 302
-/guides/deployment-render /guides/deployment/render 302
-/guides/deployment-supabase /guides/deployment/supabase 302
-/guides/deployment-flyio /guides/deployment/flyio 302
+/contributing.md /guides/contributing 302
+/guides/asking-question /guides/getting-help/asking-questions 302
+/guides/code-review /guides/reviewing/checklist 302
+/guides/code-style-guide /guides/reviewing/style-guide 302
+/guides/paradigm /guides/reviewing/paradigm 302
+
+/guides/intro-to-tests /guides/testing/intro 302
+
+/guides/deployment-netlify /guides/deploying/netlify 302
+/guides/deployment-render /guides/deploying/render 302
