@@ -10,7 +10,7 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 VSCode is an application that enables developers to view and edit files on their local machine.
 
-{{<note type="exercise" title="Exercise 7.1">}}
+{{<note type="exercise" title="Exercise">}}
 
 ### Explore VSCode
 

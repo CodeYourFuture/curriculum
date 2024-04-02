@@ -4,6 +4,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 [taxonomies]
   category = 'categories' # Content types are blocks, definitions, guides
   tag = 'themes'
+  activity = 'activities'
 
 
 [module]
