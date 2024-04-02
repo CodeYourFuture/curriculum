@@ -17,8 +17,8 @@ time="60"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="Merge Conflicts"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
 time="60"
 [[blocks]]
 name="Lunch"
