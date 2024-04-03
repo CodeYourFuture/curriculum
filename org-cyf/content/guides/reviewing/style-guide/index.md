@@ -1,8 +1,8 @@
----
-title: Code Style Guide
-description: A guide to writing code that is easy to read and understand
-emoji: 💡
----
++++
+title="Code Style Guide"
+description="A guide to writing code that is easy to read and understand"
+emoji="💡"
++++
 
 ## Why should I read this?
 
