@@ -17,8 +17,8 @@ time="60"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Merge Conflicts"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
+name="Quiz Time!"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/sql-quiz"
 time="60"
 [[blocks]]
 name="Lunch"
