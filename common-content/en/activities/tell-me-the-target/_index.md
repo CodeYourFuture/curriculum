@@ -1,6 +1,6 @@
 +++
 title="Tell me the target"
-description="You’ll have to state what the target outcome/output is when we run the code"
+description="State what the target outcome/output is when we run the code"
 activities=["nature"]
 term=true
 emoji="🎯🧑‍💻"
