@@ -1,6 +1,6 @@
 +++
 title="Which line is it?"
-description="You’ll have to specify the line in the source code where something is happening."
+description="Specify the line in the source code where something is happening."
 activities=["nature"]
 term=true
 emoji="▶️"
