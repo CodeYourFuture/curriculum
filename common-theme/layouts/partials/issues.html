@@ -1,5 +1,5 @@
 {{ $repo := .Params.backlog }}
-{{ $issuesUrl := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&type=issue" }}
+{{ $issuesUrl := print .Site.Params.searchapi (printf "/issues?q=repo:CodeYourFuture/%s+type:issue+state:open&per_page=100" $repo) }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
 <!-- api call -->
@@ -11,7 +11,7 @@
 <!-- if no object show error -->
 {{ if ne $issues nil }}
   <!-- range over issues list and pull out useful data -->
-  {{ range $issues }}
+  {{ range $issues.items }}
 
     {{ $showIssue := true }}
     <!-- if a filter exists, only show issues with the right label -->
