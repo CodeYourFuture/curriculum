@@ -6,8 +6,8 @@ menu_level = ['product']
 emoji= '📝'
 weight = 1
 [[blocks]]
-name="Planning and organising your team"
-src="https://github.com/CodeYourFuture/React-Module-Project/tree/main/docs/plan/"
+name="🫱🏽‍🫲🏾 Setup project teams"
+src="blocks/setup-project-teams"
 [[blocks]]
 name="Building your product"
 src="https://github.com/CodeYourFuture/React-Module-Project/tree/main/docs/build/"
