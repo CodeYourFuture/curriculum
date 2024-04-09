@@ -20,7 +20,7 @@ Issue number: #issue-number
 
 ### Org Content?
 
-<!-- Does this PR change a whole module, a sprint, a page, or a block on a single organisation's module? -->
+<!-- Does this PR change a whole module, a sprint, a page, or a block on a single organisation's module? Please delete as appropriate. -->
 
 Module | Sprint | Page Type | Block Type
 
