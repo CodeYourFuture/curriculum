@@ -1,0 +1,5 @@
+---
+layout: "apijson"
+outputs:
+- json
+---
