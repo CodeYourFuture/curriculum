@@ -17,6 +17,57 @@ Attendees:
 
 ---
 
+Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Anyone (Carry-over): Write up a ticket to check [servers PR](https://github.com/CodeYourFuture/Module-Servers/pull/143) after merging
+- [ ] Anyone (Carry-over): Write up a ticket for review the Node module in general now that we've landed the PRs
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally: Fix the archetypes in the curriculum
+- [x] Sally: Write a ticket to explore alternative frontend views
+- [x] Isar: Try to get MigraCode deployed on Netlify
+
+### 📝 Agenda points
+
+#### Full-Stack Assessment and Databases
+
+The Launch is becoming something that's applied to (see [WIP application form](https://docs.google.com/forms/d/1Y6cgoDCZ6yB0vOUf5blHLKpgNnPuBEcta3zs_z_hMdE/edit)) - full-stack assessment will be the last gate before this, so will be increasingly important (and we need to instill this in volunteers' minds).
+
+Development/improvements seem to be going well (thanks Zsolt!). Excited to see how it goes with trainees soon.
+
+#### How Our Curriculum Works
+
+https://curriculum.codeyourfuture.io/how-our-curriculum-works/ is getting exciting! We should all review it, work on it and add some tasks.
+
+https://curriculum.codeyourfuture.io/how-our-curriculum-works/sprints/self-educate/backlog/ is a list of self-driven tasks for new volunteers to get to understand the community and curriculum.
+
+Several people have ideas about tasks to add - we should add them.
+
+The success page is currently missing its content - think Mitch has found a bug - see https://github.com/CodeYourFuture/curriculum/pull/679#issuecomment-2045644323 (which hopefully Mitch will fix).
+
+Daniel wants to use this as a convenient way to inject a few "Go find an experienced volunteer and get some teaching/community advice" exercises. Most volunteers when they first start are aware they have gaps in knowledge and experience, and are very open to advice!
+
+Some discussion of volunteer roles:
+* Ideally we don't want to introduce "roles with responsibilities" because we've seen this tends to discourage other people from also fulfilling those responsibilities.
+* But there _is_ a difference in the experience across volunteers, and we want to make the most of our most experienced people. Guiding people to do things like "Find a volunteer who has volunteered with two cohorts and ask them about X" or "Talk to one of (list of named people) about Y" are very reasonable.
+* Instilling in some experienced people "It would be great if you could look after volunteers as well as trainees", as well as setting new volunteers tasks of meeting and talking to experienced volunteers, can help to approach the problem from both ends.
+
+### ❗Actions
+
+- [ ] Daniel: Check in with Leila and Yun about code review
+- [ ] Everyone: Review https://curriculum.codeyourfuture.io/how-our-curriculum-works/ and add stuff
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [ ] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [ ] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally (Carry-over): Fix the archetypes in the curriculum
+
+---
+
 ## 2024-03-26
 
 Attendees: Ali, Sally, Mitch, Isar
