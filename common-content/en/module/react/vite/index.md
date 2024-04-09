@@ -32,6 +32,7 @@ Change into the new directory and start the development server:
 
 ```zsh
 cd react-vite
+npm install
 npm run dev
 ```
 
