@@ -20,11 +20,11 @@ npm create vite@latest
 And choose these options:
 
 ```zsh
-# Project name:
+# Project name (you will need to type this):
 react-vite
-# Select a framework:
+# Select a framework (use the Up/Down arrow keys to navigate):
 React
-# Select a variant:
+# Select a variant (use the Up/Down arrow keys to navigate):
 JavaScript + SWC
 ```
 
