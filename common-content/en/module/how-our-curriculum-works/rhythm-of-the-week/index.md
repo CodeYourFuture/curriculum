@@ -3,14 +3,14 @@ title="🥁 Rhythm of the week"
 headless="true"
 time= 30
 [objectives]
-    1="Identify when prep takes place within the rhythm of the week"
-    2="Identify when backlog takes place within the rhythm of the week"
-    3="Identify when the in-person session takes place within rhythm of the week"
+    1="Identify when we prep during a typical sprint week"
+    2="Identify when we work on the backlog during a typical sprint week"
+    3="Identify when the in-person session takes place on a typical sprint week"
 +++
 
-Self-coordinating as a community poses several challenges. One of these challenges involves working out not just what to do but _when_ to do it. This becomes even more challenging with members of the community working at different times during the week. To further complicate matters we use a flipped classroom model - much different to a typical timetable.
+Self-coordinating as a community poses several challenges. One of these challenges involves working out not just what to do but _when_ to do it. This becomes even more challenging with members of the community working on different schedules. To further complicate matters we use a flipped classroom model - much different to a typical timetable.
 
-To solve this problem, we introduce the **rhythm of the week**. This rhythm gives communities the rhythm they need to schedule various curriculum activities throughout the week. In this rhythm, think of **a week as starting on a Tuesday** with the **in-person session on Saturdays** serving as the mid-point in the week. Sundays and Mondays are used for
+To solve this problem, we use the **rhythm of the week**. This rhythm gives communities the rhythm they need to schedule their work throughout the week. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**. Sundays and Mondays are used for trainees to reflect on their learning and finish off any backlog tasks.
 
 ```mermaid
 gantt
