@@ -10,7 +10,7 @@ time= 30
 
 Self-coordinating as a community poses several challenges. One of these challenges involves working out not just what to do but _when_ to do it. This becomes even more challenging with members of the community working on different schedules. To further complicate matters we use a flipped classroom model - much different to a typical timetable.
 
-To solve this problem, we use the **rhythm of the week**. This rhythm gives communities the rhythm they need to schedule their work throughout the week. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**. Sundays and Mondays are used for trainees to reflect on their learning and finish off any backlog tasks.
+To solve this problem, we use the **rhythm of the week**.
 
 ```mermaid
 gantt
@@ -22,7 +22,9 @@ gantt
 
    section Trainees
    Prep     :2024-01-09, 2d
-   Community meetup     :2024-01-13, 1d
+   In-person session   :2024-01-13, 1d
    Backlog :2024-01-11, 5d
    Demo :2024-01-12, 1d
 ```
+
+This rhythm enables trainees to plan their work during the week whilst still allowing flexibility in people's different schedules. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**. Sundays and Mondays are used for trainees to reflect on their learning and finish off any backlog tasks.
