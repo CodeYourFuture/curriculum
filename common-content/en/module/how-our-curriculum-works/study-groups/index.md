@@ -11,7 +11,7 @@ In a flipped classroom, time in class is spent focused on active learning. As su
 
 ### Steps 👣
 
-1. Go to the day plan for HTML-CSS sprint 1
+1. Go to the [🗓️ day plan for Module-HTML-CSS sprint 1](https://curriculum.codeyourfuture.io/Module-HTML-CSS/sprints/1/day-plan/)
 1. Locate a study groups block
 1. Read the instructions on the block
 1. Check the learning objectives for the study group block
