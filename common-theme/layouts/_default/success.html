@@ -52,7 +52,7 @@
             {{ if or (eq $blockData.type "readme") (eq $blockData.type "pd") }}
               {{ partial "objectives/parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
             {{ end }}
-            {{ if or (eq $blockData.type "local_module") (eq $blockData.type "local_course") }}
+            {{ if or (eq $blockData.type "local") (eq $blockData.type "local_course") }}
               {{ partial "objectives/lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
             {{ end }}
 
