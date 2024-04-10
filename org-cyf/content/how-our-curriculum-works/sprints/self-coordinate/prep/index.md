@@ -8,4 +8,13 @@ weight = 1
 [[blocks]]
 name="rhythm of the week"
 src="module/how-our-curriculum-works/rhythm-of-the-week"
+[[blocks]]
+name="day plan"
+src="module/how-our-curriculum-works/day-plan"
+[[blocks]]
+name="morning orientation"
+src="module/how-our-curriculum-works/morning-orientation"
+[[blocks]]
+name="study groups"
+src="module/how-our-curriculum-works/study-groups"
 +++
