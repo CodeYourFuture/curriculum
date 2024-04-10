@@ -13,7 +13,7 @@ name="day plan"
 src="module/how-our-curriculum-works/day-plan"
 [[blocks]]
 name="morning orientation"
-src="module/how-our-curriculum-works/morning-orientation"
+src="module/how-our-curriculum-works/morning-orientation-block"
 [[blocks]]
 name="study groups"
 src="module/how-our-curriculum-works/study-groups"

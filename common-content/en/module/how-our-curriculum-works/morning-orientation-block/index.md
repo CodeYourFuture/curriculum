@@ -11,7 +11,7 @@ The morning orientation block is used to gather the community together and nomin
 
 ### Steps 👣
 
-1. Go to the day plan for JS3 sprint 1: [🗓️ JS3 sprint 1 day plan](https://curriculum.codeyourfuture.io/js3/sprints/1/day-plan/)
+1. Go to the [🗓️ day plan for JS3 sprint 1](https://curriculum.codeyourfuture.io/js3/sprints/1/day-plan/)
 1. Locate the morning orientation block in the day plan
 1. Read the instructions for the morning orientation block
 1. Check the learning objectives on the morning orientation block
