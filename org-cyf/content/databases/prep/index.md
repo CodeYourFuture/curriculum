@@ -8,10 +8,10 @@ weight = 1
 backlog= 'Module-Databases'
 [[blocks]]
 name="ubuntu setup"
-src="blocks/databases/ubuntu-setup"
+src="module/databases/ubuntu-setup"
 [[blocks]]
 name="macos setup"
-src="blocks/databases/macos-setup"
+src="module/databases/macos-setup"
 +++
 
 ## Let's Get Started
