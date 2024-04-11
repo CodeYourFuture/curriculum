@@ -17,9 +17,9 @@ time="60"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Writing bug reports"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
-time=60
+name="Full Stack: setting up, backing up, and restoring a database"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/db-backup"
+time="60"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
