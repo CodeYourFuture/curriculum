@@ -141,7 +141,7 @@ sudo mkdir /etc/paths.d
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
 ```
 
-From the terminal you can now type the simple command:
+Restart your terminal to refresh your path. From the terminal you can now type the simple command:
 
 ```
 psql
