@@ -3,6 +3,7 @@ title="Retro: Start / Stop / Continue"
 description="Retro on the class day and the sprint"
 headless="true"
 time= 25
+hide_from_overview=true
 +++
 
 {{<tabs name="Run a retro">}}

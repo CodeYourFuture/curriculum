@@ -7,7 +7,7 @@ emoji= '🎁'
 weight = 4
 [[blocks]]
 name="Ship it to Netlify"
-src="guides/deployment-netlify/another-site"
+src="guides/deploying/netlify/another-site"
 +++
 
 You need to respond to your reviews and make changes to your code. Then you need to get your project live.

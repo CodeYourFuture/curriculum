@@ -35,9 +35,7 @@
       >{{ .Page.Title }}
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
-      <h2
-        class="c-page-header__subtitle c-page-header__backlog e-heading__3"
-        style="display:flex; width:max-content;">
+      <h2 class="c-page-header__subtitle c-page-header__backlog e-heading__3">
         <a
           class="c-page-header__link"
           href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"

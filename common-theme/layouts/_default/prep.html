@@ -1,8 +1,9 @@
 {{ define "main" }}
+{{ $soloview := gt .Params.blocks 1}}
+  {{ if $soloview}}
   <solo-view tabindex="0">
-    {{ .Scratch.Set "headerClass"
-      "c-page-header--solo"
-    }}
+    {{ .Scratch.Set "headerClass" "c-page-header--solo"}}
+  {{ end }}
     <div slot="header">{{ partial "page-header.html" . }}</div>
     <div slot="blocks">
       {{ with .Content }}
@@ -11,18 +12,17 @@
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
         {{ partial "block/block.html" (dict "block" . "Page"
-          $.Page)
+          $.Page "Site" $.Site )
         }}
       {{ end }}
     </div>
-    {{ if gt .Params.blocks 1 }}
-      <nav slot="nav">
+     {{ if $soloview }}
+    <nav slot="nav">
         <a href="#" class="e-button c-solo-view__back">&larr; Back</a>
         <a href="#" class="e-button c-solo-view__next">Next &rarr;</a>
       </nav>
-    {{ end }}
   </solo-view>
-
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
-  <script src="{{ $soloView.Permalink }}" defer></script>
+  <script src="{{ $soloView.RelPermalink }}" defer></script>
+{{ end }}
 {{ end }}

@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     margin: var(--theme-spacing--1) 0 var(--theme-spacing--gutter) 0;
+    gap: var(--theme-spacing--gutter);
   }
 
   &__series {
@@ -26,9 +27,17 @@
     scroll-margin-top: var(--theme-spacing--scrollmargin);
   }
 
+  &__feedback {
+    margin: auto 0 auto auto;
+  }
+
+  &--local {
+    overflow: hidden;
+  }
+
   &--youtube {
     text-align: center;
-    padding: var(--theme-spacing--4) 0;
+    padding: 0;
     border: 0;
     box-shadow: none;
   }
@@ -55,5 +64,39 @@
     box-shadow: none;
     border: none;
     padding-bottom: 0;
+  }
+  // this is a card slide up on local block
+  // I had it as a flip but it was too busy at full screen
+  // feel free to redesign this
+  &__body,
+  &__footer {
+    min-width: 100%;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  &__body {
+    .is-active & {
+      & ~ .c-block__footer {
+        transform: translate(0%, -100%);
+      }
+    }
+  }
+  &__footer {
+    // the rest is visual
+    @include pattern(dots, var(--theme-color--pop), b, false, 0.2);
+    border-top: var(--theme-border--thick);
+    border-image: linear-gradient(
+        to right,
+        var(--theme-color--pop) var(--theme-type-size--1),
+        var(--theme-color--accent) var(--theme-type-size--1)
+      )
+      1 stretch;
+    background-color: var(--theme-color--paper-fade);
+    padding: var(--theme-spacing--gutter);
+    margin: var(--theme-spacing--gutter) 0 0
+      calc(-1 * var(--theme-spacing--gutter));
+
+    // this part moves it offscreen
+    transform: translate(0%, 100%);
+    position: absolute;
   }
 }

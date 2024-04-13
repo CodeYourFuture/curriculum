@@ -1,5 +1,5 @@
 <section>
   <word-limit />
   {{ $wordLimit := resources.Get "scripts/word-limit.js" | resources.Minify }}
-  <script src="{{ $wordLimit.Permalink }}" type="module" defer></script>
+  <script src="{{ $wordLimit.RelPermalink }}" type="module" defer></script>
 </section>

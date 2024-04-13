@@ -25,8 +25,8 @@ name="Progress check-in"
 src="https://github.com/CodeYourFuture/Module-Databases/issues/141"
 time="15"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="Merge Conflict Workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
 time="60"
 [[blocks]]
 name="Lunch"

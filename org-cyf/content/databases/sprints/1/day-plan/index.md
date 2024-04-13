@@ -17,8 +17,8 @@ time="60"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="Full Stack: setting up, backing up, and restoring a database"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/db-backup"
 time="60"
 [[blocks]]
 name="Lunch"

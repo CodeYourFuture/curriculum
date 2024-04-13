@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Servers'
 backlog_filter= 'Week 3'
+theme = "PUT, and testing APIs"
 [[blocks]]
 name="CRUD"
 src="module/servers/crud-2"

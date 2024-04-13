@@ -32,7 +32,7 @@ A repository on our own computer is said to be **local**.
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 6.1 - 👣 Follow the steps">}}
+{{<note type="exercise" title="👣 Follow the steps">}}
 
 ###
 

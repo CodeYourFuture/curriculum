@@ -14,7 +14,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Express Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/express-setup"
 time="90"
 [[blocks]]
 name="Lunch"

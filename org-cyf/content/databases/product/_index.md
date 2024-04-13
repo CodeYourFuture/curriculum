@@ -1,9 +1,7 @@
 +++
 title = 'Product'
-description = 'Product description'
+description = 'Full Stack TV Show'
 layout = 'product'
 emoji= '🎁'
 menu_level = ['module']
 +++
-
-
