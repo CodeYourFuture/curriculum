@@ -7,6 +7,9 @@ weight = 3
 backlog= 'Module-Databases'
 backlog_filter= 'Week 1'
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+[[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
