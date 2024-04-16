@@ -1,7 +1,7 @@
 # https://docs.netlify.com/routing/redirects/
 
 /contributing.md /guides/contributing 302
-/guides/create-a-pull-request /guides/contributing/pull-request 302
+/guides/create-a-pull-request /guides/contributing/create-a-pull-request 302
 /guides/asking-questions /guides/getting-help/asking-questions 302
 /guides/asking-question /guides/getting-help/asking-questions 302
 /guides/code-review /guides/reviewing/checklist 302
