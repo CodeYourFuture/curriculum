@@ -7,7 +7,7 @@ time= 20
     2="Explain the importance of study groups"
 +++
 
-In a flipped classroom, time in class is spent focused on active learning: we need to prioritise time and space for trainees to work on their backlog independently in small groups.
+In a flipped classroom, we spend our time in class focused on active learning: we need to prioritise time and space for trainees to work on their backlog independently in small groups.
 
 ### Steps 👣
 
