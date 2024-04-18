@@ -27,4 +27,4 @@ gantt
    Demo :2024-01-12, 1d
 ```
 
-This rhythm enables trainees to plan their work during the week whilst still allowing flexibility in people's different schedules. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**. Sundays and Mondays are used for trainees to reflect on their learning and finish off any backlog tasks.
+This rhythm supports trainees to plan their work during the week while still allowing flexibility in people's different schedules. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**.  We use Sundays and Mondays to reflect on our learning and finish off any backlog tasks.
