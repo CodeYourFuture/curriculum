@@ -5,7 +5,6 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 4
-theme = "Using SQL from Node"
 +++
 
 
