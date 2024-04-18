@@ -7,7 +7,9 @@ time= 30
     2="Identify some frequently used blocks in a module"
 +++
 
-Cohorts meet every Saturday in person to develop their understanding of the current week's topics. We use a **day plan** to organise workshops, study sessions and activities to make the most of our time together on Saturdays. You can find day plans on a particular sprint view: each day plan consists of blocks with instructions for an activity together with a time.
+Cohorts meet once a week in person.  Together, we develop our understanding of the topics we are working on this week. We use a **day plan** to organise this day. A day plan is an agenda with workshops, study sessions and activities to make the most of our time together. 
+
+There's a day plan for every sprint of every module. Each day plan lists a series of activities, with timings, instructions, and links to resources.
 
 ### Steps 👣
 
