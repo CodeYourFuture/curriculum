@@ -13,5 +13,3 @@ src="https://cyf-pd.netlify.app/blocks/prep-collaborative-job-hunt/readme/"
 name="Understanding Employers Needs"
 src="https://cyf-pd.netlify.app/blocks/understanding-employers-needs/readme/"
 +++
-
-
