@@ -8,7 +8,7 @@ time= 30
     3="Identify when the in-person session takes place on a typical sprint week"
 +++
 
-Self-coordinating as a community poses several challenges. One of these challenges involves working out not just what to do but _when_ to do it. This becomes even more challenging with members of the community working on different schedules. To further complicate matters we use a flipped classroom model - much different from a conventional educational setting.
+Self-coordinating as a community poses challenges. One challenge is working out not just _what_ to do but _when_ to do it. This gets harder when we are working on different schedules. To make things even harder, we use a flipped classroom model: very different from a regular school.
 
 To solve this problem, we use the **rhythm of the week**.
 
