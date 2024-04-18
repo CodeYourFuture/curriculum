@@ -7,7 +7,7 @@ time=30
     2="Check learning objectives for morning orientation block"
 +++
 
-The morning orientation block is used to gather the community together and nominate a time-keeper and a facilitator (if they weren't already nominated during the week). The objectives of the morning orientation block are clear:
+We use the morning orientation block to gather the community together. We nominate a time-keeper and a facilitator (if they weren't already nominated during the week). The objectives of the morning orientation block are clear:
 
 ### Steps 👣
 
