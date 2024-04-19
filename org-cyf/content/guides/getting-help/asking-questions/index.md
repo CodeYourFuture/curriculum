@@ -8,7 +8,7 @@ Often trainees at Code Your Future find it difficult to get help. This is becaus
 
 {{<note type="activity" title="Asking Questions workshop" >}}
 
-If you have not completed the [Asking Questions workshop](../../html-css/sprints/2/day-plan/index.md#asking-questions) during the HTML-CSS module, find a small group of people to do that together before reading further.
+If you have not completed the [Asking Questions workshop](https://workshops.codeyourfuture.io/#asking-questions), find a small group of people to do that together before reading further.
 
 It is important to understand how your current mental model helps you to ask a good question.
 
