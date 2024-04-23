@@ -17,6 +17,85 @@ Attendees:
 
 ---
 
+## 2024-04-23
+
+Attendees: Ali, Daniel, Sally, Leila
+
+### ❗Actions from last time
+
+- [x] Daniel: Check in with Leila and Yun about code review
+- [ ] Everyone: Review [https://curriculum.codeyourfuture.io/how-our-curriculum-works/](https://curriculum.codeyourfuture.io/how-our-curriculum-works/) and add stuff
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [x] Leila + Yun (Carry-over): Describe good code review (possibly via examples of good code review Leila has received).
+- [x] Leila (Carry-over): Find existing code reviewers and understand their experience
+- [x] Ali (Carry-over): Add to discussion thread about contributing to OSS projects as part of Portfolio module
+- [ ] Sally (Carry-over): Fix the archetypes in the curriculum
+
+### 📝 Agenda points
+
+#### Sprint planning
+
+- Sally's proposed Portfolio project
+  - People didn't feel that they have a driver to diversify their portfolio (e.g. try picking up a new library/language)
+  - Based around the TV Show Project
+    - Which is built around user stories/acceptance criteria
+  - Suggested steps:
+    - Rewrite the TV Show Project in TypeScript
+    - Identify the gap between previous iteration (i.e. in JS) and TS
+    - Reflect on what did trainees need to learn to achieve this
+    - Rebuild in Python
+    - Reflect again on what did trainees need to learn to learn this
+    - Etc
+  - Ali: I really like this model, it feels like a healthy "push out the door"
+    - Historically, a Redux module has been requested but we deliberately never implemented it specifically for this reason
+  - Ali: small risk of keen-on-Python volunteers turning this into a "learn Python from the ground up" module
+    - Daniel: suggest delivering a project within a short timebox to make it clear that we want to focus on the simple outcome rather than the specifics in depth
+- Cloud module budget limit
+  - This is important as trainees may end up accidentally spending money through AWS without realising
+  - There's a bit of a time crunch as we'd like to get this done before WM get to it (roughly about a month)
+  - None of us really feel qualified to write this ourselves, so we want to go in person in London to bug Pedro or Lorenzo to write this
+
+#### Code review
+
+- Leila has been looking into how do we approach code review
+- Created a survey
+  - Had 9 responses, shared with the Tech Ed syllabus team
+- Need to determine active people who are interested in this problem, then could create a channel to discuss
+- Prepare some code review guidelines and examples of good / bad code reviews
+  - Can we reuse some old bits of content that we've written about this before?
+    - Might be coupled to the old syllabus - so potentially difficult to reuse
+- General advice: try to simplify and put it all in a single source of truth
+  - We have https://curriculum.codeyourfuture.io/guides/reviewing/ - recommended as a good place to put these materials
+
+#### Presentation of tracks in the curriculum site
+
+- Daniel: Previously we had a strictly ordered curriculum, now there's perhaps a bit less clarity on ordering
+  - Restyled the homepage of the curriculum to include "Tracks", covering previous content such as React (Frameworks) and Node (Servers), but now also includes historically "out-of-band" modules such as Cloud
+  - We also CYF+ which may be merged into the curriculum
+- Sally: Let's wait and see how this works itself out
+
+#### Kay Lack's essay
+
+- Sally: Recommended reading [What's up with the job market for bootcamp grads in the UK?](https://klog.substack.com/p/34-whats-up-with-the-job-market-for) by Kay Lack (previously Chief Education Officer at Makers)
+  - Also includes a video, which is also recommended, particularly for trainees
+- The number of web developer / JavaScript jobs is down significantly compared to the last 2 years, according to [ITJobsWatch](https://www.itjobswatch.co.uk/jobs/uk/junior%20developer.do)
+  - There's been a crash in the market
+- Hardest hit markets: Juniors, React, DEI in general - which is our main brand positioning
+- We've tried to do Town Halls/Portfolio module to boost applications for current trainees but the realistic position is that we're vulnerable
+- The positive side: CYF doesn't have large overheads, we can turn off signups for a while - unlike paid code schools
+- Sally: We need to be realistic with trainees/volunteers when it's brought up
+  - Volunteers aren't necessarily feeling the bite of the current market conditions so may be carrying on with previous mindset
+- Sally: have some ideas about future direction, will be looking to share this over the next while
+
+### ❗Actions
+
+- [ ] Leila: Prepare some code review guidelines and examples of good / bad code reviews and gather into a single source of truth
+- [ ] Everyone: Review [https://curriculum.codeyourfuture.io/how-our-curriculum-works/](https://curriculum.codeyourfuture.io/how-our-curriculum-works/) and add stuff
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Sally (Carry-over): Fix the archetypes in the curriculum
+
+---
+
 ## 2024-04-09
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
