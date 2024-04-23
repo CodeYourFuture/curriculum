@@ -17,6 +17,8 @@ Attendees:
 
 ---
 
+## 2024-04-09
+
 Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
 
 ### ❗Actions from last time
@@ -52,9 +54,10 @@ The success page is currently missing its content - think Mitch has found a bug 
 Daniel wants to use this as a convenient way to inject a few "Go find an experienced volunteer and get some teaching/community advice" exercises. Most volunteers when they first start are aware they have gaps in knowledge and experience, and are very open to advice!
 
 Some discussion of volunteer roles:
-* Ideally we don't want to introduce "roles with responsibilities" because we've seen this tends to discourage other people from also fulfilling those responsibilities.
-* But there _is_ a difference in the experience across volunteers, and we want to make the most of our most experienced people. Guiding people to do things like "Find a volunteer who has volunteered with two cohorts and ask them about X" or "Talk to one of (list of named people) about Y" are very reasonable.
-* Instilling in some experienced people "It would be great if you could look after volunteers as well as trainees", as well as setting new volunteers tasks of meeting and talking to experienced volunteers, can help to approach the problem from both ends.
+
+- Ideally we don't want to introduce "roles with responsibilities" because we've seen this tends to discourage other people from also fulfilling those responsibilities.
+- But there _is_ a difference in the experience across volunteers, and we want to make the most of our most experienced people. Guiding people to do things like "Find a volunteer who has volunteered with two cohorts and ask them about X" or "Talk to one of (list of named people) about Y" are very reasonable.
+- Instilling in some experienced people "It would be great if you could look after volunteers as well as trainees", as well as setting new volunteers tasks of meeting and talking to experienced volunteers, can help to approach the problem from both ends.
 
 ### ❗Actions
 
