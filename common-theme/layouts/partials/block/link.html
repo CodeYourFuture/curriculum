@@ -1,0 +1,20 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $randomImage := (index (resources.Match "custom-images/backgrounds/**.**" | shuffle | first 1) 0) }}
+{{ $randomImage = $randomImage.Resize "480x" }}
+
+
+<section class="c-block c-block--{{ $blockData.type }}">
+  <a
+    id="{{ $blockData.name |urlize }}"
+    href="{{ $blockData.sot }}"
+    class="c-chip">
+    <img
+      src="{{ $randomImage.RelPermalink }}"
+      alt="{{ $blockData.name }}"
+      class="c-chip__icon" />
+    <h4 class="c-chip__title e-heading__2">{{ $blockData.name }}</h4>
+    {{ with $blockData.caption }}
+      <p class="c-chip__description">🔗 {{ . | markdownify }}</p>
+    {{ end }}
+  </a>
+</section>
