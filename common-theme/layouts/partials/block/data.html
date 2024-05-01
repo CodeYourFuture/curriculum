@@ -15,7 +15,6 @@
 {{/* REQUIRED INPUT in [[blocks]] src */}}
 {{ $src := .src | default "warning: src is empty" }}
 {{ $pageRef := .page }}
-
 {{/* Initialize the blockData map */}}
 {{ .Scratch.Set "blockData" (dict) }}
 {{/* Stuff blockData with default keys and vals */}}
@@ -42,11 +41,13 @@
   ======================
 */}}
 
+{{ if "htt" | in $src }}
+  {{ .Scratch.SetInMap "blockData" "type" "link" }}
+{{ end }}
+
 {{ if or "png" "webp" "jpg" "jpeg" "gif" | in $src }}
   {{ .Scratch.SetInMap "blockData" "type" "slide" }}
-  {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ else }}
-
   {{ if "github" | in $src }}
     {{/* Change base URL to api.github.com */}}
     {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
@@ -83,3 +84,5 @@
   {{ end }}
 
 {{ end }}
+{{/* {{ printf "DEBUG: Scratch contents %v" (.Page.Scratch.Get "blockData") }}
+*/}}
