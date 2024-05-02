@@ -32,7 +32,7 @@
 
   {{/* If the image is still not found, try to get it from the assets directory */}}
   {{- if and (not $image) (not $isExternal) -}}
-    {{ $path := (path.Join "pictures" $src) }}
+    {{ $path := (path.Join "custom-images" $src) }}
     {{ with resources.Get $path }}
       {{ $image = . }}
     {{ end }}
