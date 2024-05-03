@@ -40,8 +40,12 @@
 
   {{/* Handle external images directly */}}
   {{- if $isExternal -}}
-    {{ $image = (dict "RelPermalink" $src "Width" 0 "Height" 0) }}
-  {{- end -}}
+    {{ with resources.GetRemote $src }}
+      {{ $image = . }}
+    {{ else }}
+      {{ errorf "Unable to get remote resource %q" $src }}
+    {{ end }}
+  {{ end }}
 
   {{/* If the image is found, resize it based on the screen width and display it in the figure */}}
   {{ if $image }}
