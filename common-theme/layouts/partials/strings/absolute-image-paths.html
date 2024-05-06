@@ -6,5 +6,5 @@
 
 {{ $processedContent := $markdownContent | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
 
-{{/* Output the processed content, remove the './' from the URL in the replacement */}}
+{{/* Output the processed content to be markdownified */}}
 {{ $processedContent }}
