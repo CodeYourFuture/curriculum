@@ -5,7 +5,7 @@
   {{ $src := .Destination }}
   {{ $alt := .PlainText | safeHTML }}
   {{ $caption := "" }}
-  {{ $image := "" }}
+  {{ $image := false }}
   {{ $srcset := "" }}
   {{ with .Title }}
     {{ $caption = . | safeHTML }}
@@ -25,7 +25,7 @@
     {{ with resources.GetRemote $src }}
       {{ $image = . }}
     {{ else }}
-      {{ errorf "Unable to get remote resource %q" $src }}
+      {{ warnf "Unable to get remote resource %q" $src }}
     {{ end }}
   {{ end }}
 
