@@ -2,9 +2,8 @@
 {{ $externalPath := .externalPath }}
 {{ $markdownContent := .markdownContent }}
 
-{{/* Replace Markdown image links, assuming they are not already absolute */}}
-
-{{ $processedContent := $markdownContent | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
+{{/* Replace Markdown image links, targeting anything without a : */}}
+{{ $processedContent := $markdownContent | replaceRE `!\[[^\]]*]\([^:)]*\)` (printf "![$1](%s$2)" $externalPath) }}
 
 {{/* Output the processed content to be markdownified */}}
 {{ $processedContent }}
