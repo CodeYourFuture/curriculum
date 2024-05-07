@@ -11,7 +11,7 @@ When making a personal website approach it as if it were a final project - pract
 
 {{<note type="tip" title="Remember">}}**Check** the [portfolio coursework]() to get started{{</note>}}
 
-- **Don't** use stock websites or templates - this is a demonstration of your skills not someone else's!
+- **Don't** use stock websites or templates - this is a demonstration of your skills, not someone else's!
 - **Remember** that you should be demonstrating the skills you'll be using in your job. Focus on adding the most in-demand features and stacks first.
 
 Here are some links that give examples:
