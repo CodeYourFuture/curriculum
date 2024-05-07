@@ -40,7 +40,12 @@ A suitable, tailored CV is an essential part of applying for jobs - make sure yo
 - [ ] The closing paragraph includes a call to action. (e.g. reinforces any shared values, passion for the role (with research), and/or suitability for the role, then prompts the reader to get back in touch)
 - [ ] It should be signed with a professional closing.
 
-References:
-​
-​​
-​​
+### References
+
+- https://recruitee.com/articles/reviewing-cover-letters
+- https://www.linkedin.com/pulse/ive-read-1000-cover-letters-what-get-you-interview-mann-/
+- https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-end-a-cover-letter
+- https://uk.indeed.com/career-advice/cvs-cover-letters/powerful-ways-to-start-a-cover-letter
+- https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-sell-yourself-in-cover-letter
+- ​​​https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-write-a-cover-letter
+  ​​
