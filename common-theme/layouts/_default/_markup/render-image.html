@@ -1,65 +1,72 @@
-{{/* https://gohugo.io/methods/page/resources/#get */}}
+{{/* https://gohugo.io/methods/page/resources/#get
+  https://gohugo.io/functions/urls/parse/
+*/}}
 {{ if eq .Destination "" }}
   {{ warnf "Image source is empty: %s" .PlainText }}
 {{ else }}
-  {{ $src := .Destination }}
+  {{ $url := urls.Parse .Destination }}
+  {{ $src :=.Destination }}
   {{ $alt := .PlainText | safeHTML }}
-  {{ $caption := "" }}
   {{ $image := false }}
   {{ $srcset := "" }}
-  {{ with .Title }}
-    {{ $caption = . | safeHTML }}
-  {{ end }}
+
   {{/* Check if the source is external to this repo */}}
-  {{ $isRemote := or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") }}
 
   {{/* Case 1: where an image is remote, get it please */}}
-  {{- if $isRemote -}}
+  {{- if $url.IsAbs -}}
     {{/* Most images will be github, and we were previously using jsdelivr, but now let's use github raw */}}
-    {{ if in $src "github.com" }}
+    {{ if eq $url.Hostname "github.com" }}
       {{/* Replace 'blob' or 'tree' with a direct path for raw content */}}
       {{ $src = replace $src "github.com" "raw.githubusercontent.com" }}
       {{ $src = replaceRE "/(blob|tree)/" "/" $src }}
     {{ end }}
 
     {{ with resources.GetRemote $src }}
-      {{ $image = . }}
-    {{ else }}
-      {{ warnf "Unable to get remote resource %q" $src }}
+      {{ with .Err }}
+        {{ warnf "Unable to get remote resource %q" $src }}
+      {{ else }}
+        {{ $image = . }}
+      {{ end }}
     {{ end }}
   {{ end }}
 
-  {{/* Case 2: if it's not an external link, look for the image in Page resources */}}
-  {{ if not $isRemote }}
+  {{/* Case 2: if it's not an absolute link, look for the image in Page resources */}}
+  {{ if not $url.IsAbs }}
     {{/* Check if the image is a resource */}}
-    {{ with $.Page.Resources.GetMatch (printf "%s" $src) }}
+    {{ with $.Page.Resources.GetMatch $src }}
       {{ $image = . }}
     {{ end }}
   {{ end }}
 
   {{/* Case 3: If the image is still not found, try to get it from the assets directory */}}
-  {{- if and (not $image) (not $isRemote) -}}
-    {{ $path := (path.Join "custom-images" $src) }}
-    {{ with resources.Get $path }}
-      {{ $image = . }}
-    {{ end }}
+  {{- if not $image -}}
+    {{ with resources.Get (path.Join "custom-images" $src) }}
+      {{ with .Err }}
+        {{ warnf "Unable to get local resource %q" $src }}
+      {{ else }}
+        {{ $image = . }}
+      {{ end }}
+    {{- end -}}
   {{- end -}}
 
   {{/* If the image is found, resize it based on the screen width and display it in the figure */}}
   {{ if $image }}
-
-    {{/* Perform resizing operations only if $image is a rasterisable resource */}}
-    {{ if and (ne $image.MediaType.SubType "svg")  (ne $image.MediaType.SubType ".gif") }}
+    {{ if in (slice "image/png" "image/jpeg" "image/webp" "image/tiff") $image.MediaType.Type }}
+      {{/* Perform resizing operations only if $image is a rasterisable resource */}}
       {{ $small := (cond (gt $image.Width 480) ($image.Resize "480x webp q75") $image) }}
       {{ $medium := (cond (gt $image.Width 768) ($image.Resize "768x webp q75") $image) }}
       {{ $big := (cond (gt $image.Width 1024) ($image.Resize "1024x webp q75") $image) }}
       {{ $srcset := printf "%s 480w, %s 768w, %s 1024w" $small.RelPermalink $medium.RelPermalink $big.RelPermalink }}
-    {{ else }}
-      {{/* If $image isn't rasterisable, don't try to generate srcset */}}
+    {{ else if in (slice "image/svg+xml" "image/gif") $image.MediaType.Type }}
+      {{/* If $image isn't rasterisable, don't try to generate srcset but do generate permalink */}}
       {{ $srcset := $image.RelPermalink }}
+    {{ else }}
+      {{ $image = false }}
+      {{ warnf "Unsupported media type %q for image %q" $image.MediaType.Type $src }}
     {{ end }}
+  {{ end }}
 
-
+  {{ if $image }}
     <figure>
       <img
         loading="lazy"
@@ -73,7 +80,7 @@
         {{ else }}
           &nbsp;
         {{ end }}" />
-      {{ with $caption }}
+      {{ with .Title }}
         <figcaption>{{ . | markdownify }}</figcaption>
       {{ end }}
     </figure>
