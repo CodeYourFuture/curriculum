@@ -17,6 +17,39 @@ Attendees:
 
 ---
 
+## 2024-05-07
+
+Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+- [ ] Leila: Prepare some code review guidelines and examples of good / bad code reviews and gather into a single source of truth
+- [ ] Everyone: Review [https://curriculum.codeyourfuture.io/how-our-curriculum-works/](https://curriculum.codeyourfuture.io/how-our-curriculum-works/) and add stuff
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Sally (Carry-over): Fix the archetypes in the curriculum
+
+### 📝 Agenda points
+
+#### HackYourFuture Denmark
+
+... will probably join us in a meeting or two
+
+They're thinking of re-working their curriculum and want to talk.
+
+#### Breaking up and goal-setting for new module groupings
+
+In https://docs.google.com/document/d/1a-27M-O8gxE8F-FGAtGhLlkahkrYgnUxnURaJ8oSoow/edit
+
+### ❗Actions
+
+- [ ] Sally/Lili: Find a volunteer to own ITD
+- [ ] Leila (Carry-over): Prepare some code review guidelines and examples of good / bad code reviews and gather into a single source of truth
+- [ ] Everyone (Carry-over): Review [https://curriculum.codeyourfuture.io/how-our-curriculum-works/](https://curriculum.codeyourfuture.io/how-our-curriculum-works/) and add stuff
+- [ ] Isar (Carry-over): Triage JS1+JS2 Iteration and Snagging issues - add any needed to the MigraCode milestone
+- [ ] Sally (Carry-over): Fix the archetypes in the curriculum
+
+---
+
 ## 2024-04-23
 
 Attendees: Ali, Daniel, Sally, Leila
