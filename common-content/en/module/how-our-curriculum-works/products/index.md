@@ -7,4 +7,4 @@ time= 30
     2="Explain why products are a vital part of summative assessment"
 +++
 
-At the end of most modules, you'll be expected to build a **product**. You'll have to draw on the skills and concepts you've developed throughout the module to build a working deployed product that you can use on your portfolio. As products require you to use all the skills you've developed in a module, they are an excellent way of evaluating your progress on a module. Your final project must be deployed and easily accessible for employers and others to see the work you've produced on the course.
+Building working products is our job as software engineers: we need to check we can build stuff! At the end of every module, you will draw on the skills and concepts you've developed to build a working product for your portfolio. Your product must be deployed and easily accessible to other non-technical users, along with a clear description of its purpose and functionality.
