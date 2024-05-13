@@ -2,7 +2,7 @@
 emoji: 🏢
 title: Linkedin
 description: Show employers your true potential by improving your Linkedin profile
-weight: 7
+weight: 5
 ---
 
 LinkedIn is a key platform for finding job opportunities. Make sure yours is up to scratch before you start job hunting.

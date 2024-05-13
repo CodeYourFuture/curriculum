@@ -1,7 +1,7 @@
 ---
-title: Learning
-description: A readme on your GitHub profile is your opportunity to demonstrate your skills and grab the attention of an employer -  make the most of it!
-emoji: 🎒
+title: Continuous learning
+description: Continue developing your skills to remain relevant
+emoji: 📚
 weight: 7
 ---
 

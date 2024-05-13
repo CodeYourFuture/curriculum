@@ -2,7 +2,7 @@
 title: Technical interviews
 description: Develop your technical skills before the interview
 emoji: 🖥️
-weight: 7
+weight: 6
 ---
 
 ## Mock interviews
