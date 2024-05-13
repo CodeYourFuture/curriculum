@@ -20,7 +20,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
     [[menus.secondary]]
         name = "Guides 👈🏾"
         weight = 1
-        url = "/guides"
+        url = "https://curriculum.codeyourfuture.io/guides"
      [[menus.secondary]]
         name = "Join Us 👋🏿"
         weight = 2

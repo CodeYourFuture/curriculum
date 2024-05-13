@@ -1,35 +1,34 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏽‍🤝‍🧑🏽'
+emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-HTML-CSS'
-backlog_filter= 'Week 2'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
-name="Active listening"
-src="https://cyf-pd.netlify.app/blocks/active-listening/readme/"
-[[blocks]]
-name="Morning break"
-src="blocks/morning-break"
-[[blocks]]
-name="Asking questions"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
+name="Workshop"
+src="blocks/workshop"
+time="120"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group 1"
+name="Study Group"
 src="blocks/study-group"
+time="90"
+[[blocks]]
+name="Code Review"
+src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
+time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group 2"
+name="Study Group"
 src="blocks/study-group"
+time="90"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
