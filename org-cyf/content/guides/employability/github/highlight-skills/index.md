@@ -1,5 +1,5 @@
 ---
-title: 📑 Pinned projects
+title: Highlight your skills
 description: What do you want to be found for?
 emoji: 📑
 weight: 4
