@@ -5,7 +5,7 @@ description: Show employers your true potential by optimising your Linkedin prof
 weight: 5
 ---
 
-LinkedIn is a key platform for finding job opportunities. Make sure yours is up to scratch before you start job hunting.
+LinkedIn is a key platform for finding job opportunities. Make sure yours is up to scratch before you start job hunting. Here is a list of things to check:
 
 - [ ] Your profile scores 100% on Linkedin
 - [ ] You have a professional profile picture

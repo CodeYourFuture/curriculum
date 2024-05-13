@@ -1,6 +1,6 @@
 ---
 title: Cover letters
-description:
+description: Check your cover letter is job search ready
 emoji: 📔
 weight: 4
 ---
@@ -42,10 +42,15 @@ A suitable, tailored cover letter is an essential part of applying for jobs. Set
 
 ### References 📚
 
-- https://recruitee.com/articles/reviewing-cover-letters
-- https://www.linkedin.com/pulse/ive-read-1000-cover-letters-what-get-you-interview-mann-/
-- https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-end-a-cover-letter
-- https://uk.indeed.com/career-advice/cvs-cover-letters/powerful-ways-to-start-a-cover-letter
-- https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-sell-yourself-in-cover-letter
-- ​​​https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-write-a-cover-letter
+- [6 things to look for when reviewing cover letters](https://recruitee.com/articles/reviewing-cover-letters)
+
+- [I've read 1000 cover letters what gets you an interview](https://www.linkedin.com/pulse/ive-read-1000-cover-letters-what-get-you-interview-mann-/)
+
+- [How to end a cover letter](https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-end-a-cover-letter)
+
+- [Powerful ways to start a cover letter](https://uk.indeed.com/career-advice/cvs-cover-letters/powerful-ways-to-start-a-cover-letter)
+
+- [How to sell yourself in a cover letter](https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-sell-yourself-in-cover-letter)
+
+- [How to write a cover letter in 5 steps](https://uk.indeed.com/career-advice/cvs-cover-letters/how-to-write-a-cover-letter)
   ​​
