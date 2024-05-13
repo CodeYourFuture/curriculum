@@ -2,12 +2,12 @@
   // these brand colours are set and then everything else is derived from the key
   --theme-color--brand: hsla(0, 100%, 67%, 1);
   --theme-color--brand-shade: hsla(0, 100%, 67%, 0.375);
-  --theme-color--accent: hsl(262, 100%, 62%);
+  --theme-color--accent: hsla(220, 100%, 62%, 1);
   --theme-color--accent-shade: hsla(220, 100%, 62%, 0.15);
-  --theme-color--pop: rgb(235, 0, 172);
+  --theme-color--pop: rgb(255, 53, 140);
   // key
-  --hue: 244;
-  --sat: 35%;
+  --hue: 220;
+  --sat: 30%;
   --lum: 90%;
   --alpha: 0.95;
   --hsl: var(--hue), var(--sat), var(--lum);
