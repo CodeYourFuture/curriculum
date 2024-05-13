@@ -1,7 +1,7 @@
 ---
 emoji: 🏢
 title: Linkedin
-description: Show employers your true potential by improving your Linkedin profile
+description: Show employers your true potential by optimising your Linkedin profile
 weight: 5
 ---
 
