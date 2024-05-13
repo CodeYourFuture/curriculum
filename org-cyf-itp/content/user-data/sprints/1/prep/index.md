@@ -5,22 +5,6 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Recap HTML and CSS"
-src="module/html-css/recap-html-css"
-time="40"
-[[blocks]]
-name="Spaced Repetition"
-src="blocks/spaced-repetition"
-time="30"
-[[blocks]]
-name="What is HTML"
-src="module/html-css/what-is-html"
-time="55"
-[[blocks]]
-name="Transferable skills prep"
-src="https://cyf-pd.netlify.app/blocks/prep-transferable-skills/readme/"
-time="50"
-[[blocks]]
 name="cyf blog"
 src="module/induction/cyf-blog"
 [[blocks]]
@@ -53,6 +37,25 @@ src="module/induction/branching"
 [[blocks]]
 name="wrapping up"
 src="module/induction/wrapping-up"
+[[blocks]]
+name="Recap HTML and CSS"
+src="module/html-css/recap-html-css"
+time="40"
+[[blocks]]
+name="Spaced Repetition"
+src="blocks/spaced-repetition"
+time="30"
+[[blocks]]
+name="What is HTML"
+src="module/html-css/what-is-html"
+time="30"
+[[blocks]]
+name="CSS skills practice"
+src="https://www.youtube.com/playlist?list=PLozA7cloMbPgM0Cra4IhDg_HvhP727Abo"
+[[blocks]]
+name="What is CSS"
+src="module/html-css/what-is-css"
+time=30
 [[blocks]]
 name="backlog"
 src="blocks/backlog"
