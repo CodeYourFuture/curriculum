@@ -6,6 +6,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
+name="Install a unix based os"
+src="module/js1/check-unix-os"
+[[blocks]]
 name="Check Git"
 src="module/induction/check-git-installation"
 [[blocks]]

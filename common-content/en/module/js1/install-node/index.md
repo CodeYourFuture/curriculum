@@ -1,41 +1,92 @@
 +++
-title = '🧰 Install Node'
-headless = true
-time = 20
+title = "🧰 Install Node with nvm"
+headless = true 
+time = 20 
 facilitation = false
-emoji= '🧩'
-[objectives]
-    1='Download and install Node'
+[objectives] 
+1="Download and install Node using nvm"
 +++
 
 If you get stuck on any of the below or above instructions, please post in your class channel on Slack.
 
-## On Ubuntu
+{{<note type="tip">}}
 
-1. Check whether you already have NodeJS installed by running `node -v` in a terminal. The command should return a version number. If it does, you can skip the next steps.
+Check if you already have NodeJS installed by running `node -v` in a terminal. The command should return a version number. If it does, you can skip the next steps.
 
-2. Install NodeJS and npm by copying and pasting the following into the terminal:
+{{</note>}}
 
-```terminal
-sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install -y nodejs
-```
+## 🐧 On Ubuntu
 
-3. Check that you have successfully installed NodeJS by ensuring that the command `node -v` returns returns a version number e.g. "v18.12.1"
-
-4. Check that you have successfully installed npm by ensuring that the command `npm -v` returns a version number e.g. "8.19.2"
-
-## On Mac
-
-1. Install Homebrew, which is a package manager for MacOS. Copy and paste the following command into your terminal:
+1. Install nvm by running the following commands in your terminal:
 
 ```terminal
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 
-2. Ensure that you have successfully installed Homebrew by entering ` brew -v` in your terminal - you should get an output that says something like `"Homebrew <version number>"`
+2. After the installation is complete, you'll need to source the nvm script by running:
 
-3. Install NodeJS and npm by typing `brew install node@18`
+```terminal
+source ~/.bashrc
+```
 
-4. Check that you have successfully installed NodeJS by ensuring that the command `node -v` returns a version number e.g. "v18.12.1"
+3. Install the latest LTS version of Node.js by running:
 
-5. Check that you have successfully installed npm by ensuring that the command `npm -v` returns a version number e.g. "8.19.2"
+```terminal
+nvm install --lts
+```
+
+4. Check that you have successfully installed Node.js by running:
+
+```terminal
+node -v
+```
+
+You should see a version number like `v20.16.0`.
+
+5. Check that you have successfully installed npm by running:
+
+```terminal
+npm -v
+```
+
+You should see a version number like `10.5.0`.
+
+##  On Mac
+
+1. Install nvm by running the following command in your terminal:
+
+```terminal
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+2. After the installation is complete, you'll need to source the nvm script by running:
+
+```terminal
+source ~/.zshrc
+```
+
+3. Install the latest LTS version of Node.js by running:
+
+```terminal
+nvm install --lts
+```
+
+4. Check that you have successfully installed Node.js by running:
+
+```terminal
+node -v
+```
+
+You should see a version number like `v20.16.0`.
+
+5. Check that you have successfully installed npm by running:
+
+```terminal
+npm -v
+```
+
+You should see a version number like `10.5.0`.
+
+{{<note type="tip" title="Protip">}}
+Using nvm allows you to easily install and manage multiple versions of Node.js on your system. This will help you access projects that use older versions of Node.js.
+{{</note>}}

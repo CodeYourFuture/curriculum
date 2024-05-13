@@ -10,5 +10,5 @@ name="How the internet works"
 src="module/js3/internet"
 [[blocks]]
 name="Technical Writing 101"
-src="https://github.com/CodeYourFuture/Module-JS3/issues/243"
+src="https://github.com/CodeYourFuture/Module-Data-Groups/issues/1"
 +++

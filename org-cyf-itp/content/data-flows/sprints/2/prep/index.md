@@ -29,7 +29,4 @@ src="module/js3/rendering-based-on-state"
 [[blocks]]
 name="Capturing events"
 src="module/js3/capturing-events"
-[[blocks]]
-name= "Gathering requirements"
-src="https://cyf-pd.netlify.app/blocks/gathering-requirements-prep/readme/"
 +++
