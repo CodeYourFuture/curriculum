@@ -6,15 +6,15 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="success"
+name="✅ success"
 src="module/how-our-curriculum-works/success"
 [[blocks]]
-name="code review"
+name="📝 code review"
 src="module/how-our-curriculum-works/code-review"
 [[blocks]]
-name="products"
+name="☎️ products"
 src="module/how-our-curriculum-works/products"
 [[blocks]]
-name="codewars"
+name="👾 codewars"
 src="module/how-our-curriculum-works/codewars"
 +++
