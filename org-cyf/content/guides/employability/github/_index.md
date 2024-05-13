@@ -5,7 +5,9 @@ emoji: 🖥️
 weight: 4
 ---
 
-A good GitHub profile/README must have:
+## Github profile criteria
+
+A good GitHub profile/README must have the following:
 
 - [ ] Your name
 - [ ] A professional profile picture
@@ -15,15 +17,15 @@ A good GitHub profile/README must have:
 - [ ] An introduction to who you are
 - [ ] An introduction to your projects
 - [ ] Avoid using awards and auto-generated stats
-- [ ] Create a Readme
+- [ ] A Readme
 - [ ] Create a Github personal Readme and put your links in there.
-- [ ] Creating a personalised involves highlighting the skills you want to be found for and demonstrating the experience you claim to have in your CV. Make sure you include the following sections
+- [ ] Personalisation - it highlights the skills you want to be found for and demonstrates the experience you claim to have in your CV. Make sure you include the following sections
 - [ ] An attractive banner
 - [ ] An about me section:
-- [ ] Your role "Full Stack Developer"
+- [ ] Your role e.g. "Full Stack Developer"
 - [ ] What you know (3-5 Key skills)
 - [ ] What you're working on
-- [ ] How to reach me
+- [ ] How to reach you
 - [ ] Something interesting about you
 - [ ] Links to the rest of your profile
 - [ ] Introduction to your projects
