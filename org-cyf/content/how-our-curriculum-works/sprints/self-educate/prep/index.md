@@ -15,6 +15,9 @@ src="module/how-our-curriculum-works/flipped-classroom"
 name="no lectures"
 src="module/how-our-curriculum-works/no-lectures"
 [[blocks]]
+name="dialogue"
+src="module/how-our-curriculum-works/dialogue"
+[[blocks]]
 name="importance of prep"
 src="module/how-our-curriculum-works/importance-of-prep"
 [[blocks]]
