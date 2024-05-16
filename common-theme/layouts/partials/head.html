@@ -2,9 +2,10 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title data-pagefind-meta="title">
-    {{ range after 1 .Ancestors.Reverse }}{{ .Title }}{{ end }}
-    {{ print " " }}
-    {{ .Title }}
+    {{ range after 1 .Ancestors.Reverse }}
+      {{ print (title .Title|default "CYF") " " }}
+    {{ end }}
+    {{ title .Title }}
   </title>
   {{ if .Page.Params.description }}
     <meta
