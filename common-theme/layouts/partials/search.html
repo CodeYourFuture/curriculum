@@ -1,5 +1,5 @@
 <link
-  href="/_pagefind/pagefind-ui.css"
+  href="/pagefind/pagefind-ui.css"
   rel="stylesheet"
   media="print"
   onload="this.media='all'" />
@@ -28,25 +28,31 @@
     background-color: var(--theme-color--paper);
     box-shadow: var(--theme-box-shadow--slim);
     transform: translateY(-1.5px);
-    {{/*  !mn no justification TODO refactor */}}
+    padding: 0 var(--theme-spacing--2);
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
   }
-  #search .pagefind-ui__message {
-    padding-left: min(calc(40px * var(--pagefind-ui-scale)), 3%);
+  #search .pagefind-ui__result {
+    padding: var(--theme-spacing--1) 0 var(--theme-spacing--2) 0;
   }
-  #search .pagefind-ui__result:focus-within, #search .pagefind-ui__button:focus {
-  background-color: var(--theme-color--block)
-}
-  #search .pagefind-ui__result-thumb {
-    width: min-content;
+  #search .pagefind-ui__result:focus-within,
+  #search .pagefind-ui__button:focus {
+    background-color: var(--theme-color--block);
   }
   #search .pagefind-ui__button {
-  border:none;
-}
+    border: none;
+  }
 </style>
-<script src="/_pagefind/pagefind-ui.js" type="text/javascript" defer></script>
+<script src="/pagefind/pagefind-ui.js" type="text/javascript" defer></script>
 <div id="search" class="l-header__search"></div>
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
-    new PagefindUI({ element: "#search" });
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      pageSize: 3,
+      showImages: false,
+      showTags: true,
+    });
   });
 </script>

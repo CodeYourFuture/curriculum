@@ -34,6 +34,7 @@ The "Repository access" you need is "Public repositories (read-only)", and you d
 <summary>Open to view screenshot of the required permissions</summary>
 
 ![screenshot of required permissions](./readme_repository_access.png)
+
 </details>
 
 #### Set up `.env`
@@ -73,7 +74,7 @@ If you need to develop on this locally, run:
 
 ```zsh
 rm -rf public &&
-hugo && npx pagefind --source "public" --serve
+hugo && npx pagefind --site "public" --serve
 ```
 
 And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
