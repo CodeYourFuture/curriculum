@@ -2,10 +2,14 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title data-pagefind-meta="title">
-    {{ .Section }} | {{ .Title }} | {{ .Site.Title }}
+    {{ range after 1 .Ancestors.Reverse }}{{ .Title }}{{ end }}
+    {{ print " " }}
+    {{ .Title }}
   </title>
   {{ if .Page.Params.description }}
-    <meta name="description" content="{{ .Page.Params.description }}" />
+    <meta
+      name="description"
+      content=" {{ .Site.Title }}: {{ .Page.Params.description }}" />
   {{ else }}
     <meta name="description" content="{{ .Site.Params.description }}" />
   {{ end }}
