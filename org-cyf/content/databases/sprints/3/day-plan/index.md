@@ -7,8 +7,8 @@ weight = 3
 backlog= 'Module-Databases'
 backlog_filter= 'Week 3'
 [[blocks]]
-name="Energiser"
-src="blocks/energiser"
+name="Morning Orientation"
+src="blocks/morning-orientation"
 [[blocks]]
 name="JD Hunting and Mock Interview"
 src="https://cyf-pd.netlify.app/blocks/jd-hunting-and-mock-interview/readme/"
@@ -26,6 +26,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
+time="70"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-Databases/pulls"
@@ -36,7 +37,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group 2"
 src="blocks/study-group"
-time="60"
+time="75"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

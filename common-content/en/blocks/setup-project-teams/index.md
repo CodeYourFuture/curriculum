@@ -18,14 +18,14 @@ This is a project you will build in a team. First form your team, then start the
 - [ ] Create a Slack channel for your team. Use this channel and your class time for communication about the project management and the product development.
 - [ ] Each team member must understand the requirements of a ticket before moving it from the Backlog to Ready. Make use of your class time to discuss the tickets as a team.
 - [ ] Decide whether you are going to work on tickets individually or as a pair. You may work faster on your own but may learn more as a pair.
-- [ ] Each feature must be reviewed by another member of your team . Set a [branch protection rule on your main branch](https://github.com/CodeYourFuture/React-Module-Project/settings/branches) to enforce this.
+- [ ] Each feature must be reviewed by another member of your team . Set a branch protection rule on your main branch to enforce this.
 - [ ] Each team member can pick up a new ticket only when their old ticket is in review. Work on one thing at a time.
 
 ### 3. Set up the repo
 
-1. One person should [fork this repo](https://github.com/CodeYourFuture/React-Module-Project/fork) to their own GitHub account.
+1. One person should fork the project repo to their own GitHub account.
 2. That person should add the other team members as collaborators to the repo.
-3. Now someone else should make a copy of [the example planner](https://github.com/orgs/CodeYourFuture/projects/152) and link it to your project repo.
+3. Now someone else should make a copy of the example planner and link it to your project repo.
 4. All the tickets for your project are created as issues in this repo. Batch clone the tickets into your project planner.
 
 #### On your [branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule#creating-a-branch-protection-rule):

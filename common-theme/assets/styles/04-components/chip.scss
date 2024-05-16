@@ -14,6 +14,7 @@
   }
   &__icon {
     font-size: var(--theme-type-size--2);
+    clip-path: circle();
   }
   @include on-event() {
     .c-chip__title {
