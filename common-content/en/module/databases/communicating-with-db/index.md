@@ -45,7 +45,7 @@ psql <dbname> <username>
 The command prompt from psql is the database name currently connected:
 
 ```
-{{<our-name>}}_hotel=>
+my_hotel=>
 ```
 
 In psql, you can use the command `help` to show the help menu. Within the command prompt, you can enter SQL statements and run them against PostgreSQL. To quit psql, enter the command `\q`.

@@ -58,7 +58,7 @@ keith=#
 
 The final line is the psql command prompt, waiting for you to enter a command. It comprises your database name (created with the same name as your username, in the example this is 'keith') followed by '=#'.
 
-You are going to rename the database to `cyf_hotels` for the purposes of this course, so from the psql prompt (as above) first disconnect from your database by connecting to database `postgres`:
+You are going to rename the database to `my_hotels` for the purposes of this course, so from the psql prompt (as above) first disconnect from your database by connecting to database `postgres`:
 
 ```
 keith=# \connect postgres
@@ -67,7 +67,7 @@ keith=# \connect postgres
 Now, still at the psql prompt, rename the database:
 
 ```
-keith=# alter database keith rename to cyf_hotels;
+keith=# alter database keith rename to my_hotels;
 ```
 
 Clearly, you'll use your own name as the name of the database to be renamed.

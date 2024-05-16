@@ -10,7 +10,8 @@ emoji= '🧩'
 +++
 
 If you get stuck on any of the below or above instructions, please post in your class channel on Slack.
-You probably already have this if you have done Fundamentals and HTML/CSS.
+
+You probably already have this if you have done previous modules.
 
 <!-- CYF-ONLY -->
 
