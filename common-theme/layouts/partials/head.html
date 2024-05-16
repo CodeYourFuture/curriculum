@@ -1,7 +1,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>{{.Section }} | {{ .Title }} | {{ .Site.Title }}</title>
+  <title data-pagefind-meta="title">
+    {{ .Section }} | {{ .Title }} | {{ .Site.Title }}
+  </title>
   {{ if .Page.Params.description }}
     <meta name="description" content="{{ .Page.Params.description }}" />
   {{ else }}
@@ -37,7 +39,8 @@
     onload="this.media='all'" />
 
   {{ $customCSS := resources.Match "custom-theme/**.scss" | resources.Concat
-    "custom.css"}}
+    "custom.css"
+  }}
   {{ with $customCSS }}
     {{ $customCSS := $customCSS | toCSS | minify | fingerprint "md5" }}
     <link
@@ -47,13 +50,14 @@
       onload="this.media='all'" />
   {{ end }}
 
+
   <noscript>
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
   </noscript>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="{{.Site.Params.googleFonts}}"
+    href="{{ .Site.Params.googleFonts }}"
     rel="stylesheet"
     media="print"
     onload="this.media='all'" />

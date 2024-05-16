@@ -1,5 +1,5 @@
 <link
-  href="/_pagefind/pagefind-ui.css"
+  href="/pagefind/pagefind-ui.css"
   rel="stylesheet"
   media="print"
   onload="this.media='all'" />
@@ -43,10 +43,15 @@
   border:none;
 }
 </style>
-<script src="/_pagefind/pagefind-ui.js" type="text/javascript" defer></script>
+<script src="/pagefind/pagefind-ui.js" type="text/javascript" defer></script>
 <div id="search" class="l-header__search"></div>
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
-    new PagefindUI({ element: "#search" });
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      pageSize: 3,
+      showImages: false,
+    });
   });
 </script>
