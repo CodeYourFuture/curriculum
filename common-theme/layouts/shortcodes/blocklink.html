@@ -1,0 +1,11 @@
+{{/* shortcode: blocklink.html */}}
+{{ $src := .Get "src" }}
+{{ $name := .Get "name" | default "" }}
+{{ $caption := .Get "caption" | default "exist" }}
+{{ $time := .Get "time" | default false }}
+
+{{/* Preparing a dictionary to pass to the partials */}}
+{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" $name "time" $time "caption" $caption  "page" .) }}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+
+{{ partial "block/link.html" . }}

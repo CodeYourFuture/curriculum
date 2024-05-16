@@ -25,10 +25,12 @@
       {{ $response.body | markdownify }}
     </div>
     {{ with $response.labels }}
-      <ul class="c-issue__labels">
+      <ul class="c-issue__labels c-label__list">
         {{ range . }}
-          <li class="c-issue__label" style="--github:#{{ .color }}4d">
-            <span class="c-issue__label-name" title="{{ .description }}">
+          <li class="c-issue__label c-label" style="--color:#{{ .color }}4d">
+            <span
+              class="c-issue__label-name c-label__name"
+              title="{{ .description }}">
               {{ .name }}
             </span>
           </li>

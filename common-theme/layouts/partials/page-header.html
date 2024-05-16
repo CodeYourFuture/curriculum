@@ -22,7 +22,7 @@
     <div class="c-page-header__breadcrumbs">
       {{ partial "breadcrumbs.html" . }}
     </div>
-    <h1 class="c-page-header__title e-heading__1">
+    <h1 class="c-page-header__title e-heading__1" data-pagefind-weight="10">
       <span class="c-emoji">
         {{ $override := .Scratch.Get "emoji" }}
         {{ if $override }}
@@ -37,7 +37,7 @@
     {{ if eq .Page.Params.layout "backlog" }}
       <h2
         class="c-page-header__subtitle c-page-header__backlog e-heading__3"
-        style="display:flex; width:max-content;">
+        data-pagefind-weight="0.5">
         <a
           class="c-page-header__link"
           href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
@@ -66,7 +66,9 @@
             <ol>
               {{ range .Params.blocks }}
                 <li>
-                  <a href="#{{ .name | urlize }}">{{ .name }}</a>
+                  <a href="#{{ .name | urlize }}" data-pagefind-weight="5"
+                    >{{ .name }}</a
+                  >
                   {{ if "youtu" | in .src }}📼{{ end }}
                 </li>
               {{ end }}

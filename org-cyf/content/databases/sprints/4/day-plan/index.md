@@ -7,8 +7,8 @@ weight = 3
 backlog= 'Module-Databases'
 backlog_filter= 'Week 4'
 [[blocks]]
-name="Energiser"
-src="blocks/energiser"
+name="Morning Orientation"
+src="blocks/morning-orientation"
 [[blocks]]
 name= "Collective Job Hunt"
 src="https://cyf-pd.netlify.app/blocks/collective-job-hunt/readme/"
@@ -25,8 +25,8 @@ name="Progress check-in"
 src="https://github.com/CodeYourFuture/Module-Databases/issues/141"
 time="15"
 [[blocks]]
-name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+name="Merge Conflict Workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
 time="60"
 [[blocks]]
 name="Lunch"
@@ -34,6 +34,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
+time="73"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-Databases/pulls"
@@ -44,7 +45,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group 2"
 src="blocks/study-group"
-time="60"
+time="70"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

@@ -1,0 +1,25 @@
+.c-chip {
+  @include grid-assign(icon, title, description);
+
+  grid-template:
+    ".... . ..... ." var(--theme-spacing--1) "icon . title ."
+    min-content "icon . description ." 1fr ".... . ..... ." var(
+      --theme-spacing--1
+    )
+    /
+    var(--theme-type-size--1) var(--theme-spacing--1) 1fr var(--theme-spacing--1);
+
+  &__description {
+    margin: 0 auto auto 0; // pin top left
+  }
+  &__icon {
+    font-size: var(--theme-type-size--2);
+    clip-path: circle();
+  }
+  @include on-event() {
+    .c-chip__title {
+      text-decoration: underline;
+      color: var(--theme-color--ink);
+    }
+  }
+}

@@ -80,6 +80,10 @@
       text-shadow: none;
     }
   }
+  &__subtitle {
+    display: flex;
+    width: max-content;
+  }
 
   &__description {
     font-weight: 300;
