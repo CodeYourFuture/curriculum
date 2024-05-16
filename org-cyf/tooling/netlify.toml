@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm install --legacy-peer-deps && hugo --minify && npx pagefind --source=public"
+command = "npm install --legacy-peer-deps && hugo --minify && npx pagefind --site=public"
 [dev]
 framework = "hugo"
 targetPort = 3000

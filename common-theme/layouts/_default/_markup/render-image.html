@@ -70,16 +70,19 @@
       <img
         loading="lazy"
         src="{{ $image.RelPermalink }}"
+
         {{ if $srcset }}
           srcset="{{ $srcset }}" sizes="(max-width: 480px) 480px, (max-width:
           768px) 768px, 1024px" width="{{ $image.Width }}"
           height="{{ $image.Height }}"
         {{ end }}
+
         {{ if $alt }}
           alt="{{ $alt }}" data-pagefind-index-attrs="{{ $alt }}"
         {{ else }}
           alt=""
         {{ end }} />
+
       {{ with .Title }}
         <figcaption>{{ . | markdownify }}</figcaption>
       {{ end }}
