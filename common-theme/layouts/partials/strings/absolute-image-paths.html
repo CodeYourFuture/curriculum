@@ -1,0 +1,8 @@
+{{/* absoluteImagePaths.html - Converts relative image paths to absolute GitHub URLs in Markdown content */}}
+{{ $externalPath := .externalPath }}
+{{ $markdownContent := .markdownContent }}
+
+{{/* Replace Markdown image links, targeting anything without a : */}}
+{{ $processedContent := $markdownContent | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
+{{/* Output the processed content to be markdownified */}}
+{{ $processedContent }}

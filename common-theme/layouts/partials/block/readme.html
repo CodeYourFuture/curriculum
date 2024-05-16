@@ -12,7 +12,10 @@
       {{ partial "time.html" . }}
     </header>
     <div class="c-block__content c-copy">
-      {{ $response.content | base64Decode | replaceRE "<!--(.*?)-->" "$1" | markdownify }}
+      {{ $decodedContent := $response.content | base64Decode }}
+      {{ $strippedComments := $decodedContent | replaceRE "<!--(.*?)-->" "$1" }}
+      {{ $externalPath := replace $response.download_url $response.name "" }}
+      {{ partial "strings/absolute-image-paths.html" (dict "markdownContent" $strippedComments "externalPath" $externalPath) | markdownify }}
     </div>
   </section>
 {{ else }}

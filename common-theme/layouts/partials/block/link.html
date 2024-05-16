@@ -1,6 +1,8 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $randomImage := (index (resources.Match "custom-images/backgrounds/**.**" | shuffle | first 1) 0) }}
-{{ $randomImage = $randomImage.Resize "480x" }}
+{{ if $randomImage }}
+  {{ $randomImage = $randomImage.Resize "480x" }}
+{{ end }}
 
 
 <section class="c-block c-block--{{ $blockData.type }}">
