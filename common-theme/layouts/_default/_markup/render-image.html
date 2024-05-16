@@ -68,11 +68,11 @@
         sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1024px"
         width="{{ $image.Width }}"
         height="{{ $image.Height }}"
-        alt="{{ if $alt }}
-          {{ $alt }}
+        {{ if $alt }}
+          alt="{{ $alt }}" data-pagefind-index-attrs="{{ $alt }}"
         {{ else }}
-          &nbsp;
-        {{ end }}" />
+          alt=""
+        {{ end }} />
       {{ with $caption }}
         <figcaption>{{ . | markdownify }}</figcaption>
       {{ end }}
