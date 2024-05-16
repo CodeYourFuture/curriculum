@@ -61,7 +61,6 @@
       {{/* If $image isn't rasterisable, don't try to generate srcset but do generate permalink */}}
       {{ $srcset := $image.RelPermalink }}
     {{ else }}
-      {{ $image = false }}
       {{ warnf "Unsupported media type %q for image %q" $image.MediaType.Type $src }}
     {{ end }}
   {{ end }}
@@ -71,10 +70,11 @@
       <img
         loading="lazy"
         src="{{ $image.RelPermalink }}"
-        srcset="{{ $srcset }}"
-        sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1024px"
-        width="{{ $image.Width }}"
-        height="{{ $image.Height }}"
+        {{ if $srcset }}
+          srcset="{{ $srcset }}" sizes="(max-width: 480px) 480px, (max-width:
+          768px) 768px, 1024px" width="{{ $image.Width }}"
+          height="{{ $image.Height }}"
+        {{ end }}
         alt="{{ if $alt }}
           {{ $alt }}
         {{ else }}
