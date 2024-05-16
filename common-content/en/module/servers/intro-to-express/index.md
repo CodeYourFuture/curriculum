@@ -28,7 +28,7 @@ const app = express();
 
 //Register some handlers for different routes.
 app.get("/", (request, response) => {
-    response.send("Hello CYF");
+    response.send("Hello thar!");
 });
 app.get("/two", (request, response) => {
     response.send("Another route");
@@ -80,7 +80,7 @@ Now try to modify the `server.js` code to do something different.
 
 #### Examples:
 
-1. Say "Hello Margarita", instead of "Hello CYF"
+1. Say "Hello Margarita", instead of "Hello thar!"
 2. Make it return an array of strings as json.
 3. Make it return the current time
 4. Advanced: make it return whatever you want!

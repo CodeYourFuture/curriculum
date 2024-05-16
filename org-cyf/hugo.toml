@@ -24,17 +24,18 @@ baseURL = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
         name = "Join Us 👋🏿"
         weight = 2
-        url = "https://codeyourfuture.io/volunteers/"
+        url = "https://codeyourfuture.io/volunteers/"#CYF-ONLY
     [[menus.secondary]]
         name = "Support 🫶🏼"
         weight = 3
-        url = "https://codeyourfuture.io/donate/"
+        url = "https://codeyourfuture.io/donate/"#CYF-ONLY
 
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
 description = "A free and open source software development programme."
 main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
+our_name="CYF"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"

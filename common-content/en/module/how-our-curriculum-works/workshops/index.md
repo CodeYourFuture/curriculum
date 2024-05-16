@@ -3,8 +3,8 @@ title="Workshops"
 headless="true"
 time= 30
 [objectives]
-1="Locate the CYF Workshops repo"
-2="Describe how we use workshops during Saturday sessions at CYF"
+1="Locate the Workshops repo"
+2="Describe how we use workshops during Saturday sessions"
 3="Relate the use of workshops to active learning"
 +++
 

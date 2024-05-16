@@ -51,22 +51,22 @@ Remember the new username and password details - you will need them later.
 
 ### Creating a new database
 
-In a terminal, create a new database named `cyf_hotels` with the following command:
+In a terminal, create a new database named `my_hotels` with the following command:
 
 ```
-createdb cyf_hotels
+createdb my_hotels
 ```
 
 Then connect to your database with:
 
 ```
-psql cyf_hotels
+psql my_hotels
 ```
 
 Note that if you chose to use your Ubuntu username for the database you don't need it (or the password) to log in to `psql`. If you used a different username then you'll need to log in with:
 
 ```
-psql -U <username> cyf_hotels
+psql -U <username> my_hotels
 ```
 
 and you'll be prompted for the password.
@@ -77,9 +77,9 @@ The output from this command should look something like this:
 psql (12.2 (Ubuntu 12.2.4))
 Type "help" for help.
 
-cyf_hotels=>
+my_hotels=>
 ```
 
-The last line (`cyf_hotels=>`) is the `psql` command prompt, made up of your database name plus '=>'.
+The last line (`my_hotels=>`) is the `psql` command prompt, made up of your database name plus '=>'.
 
 Note that to exit psql back to the terminal prompt use the command `\q`.

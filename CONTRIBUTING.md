@@ -1,6 +1,6 @@
 # Contribution Guide
 
-## Welcome to the CYF Curriculum
+## Welcome to the <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY --> Curriculum
 
 We are a volunteer-led community of tech professionals, and we teach people to code for free. We are majority-minority, we welcome everyone, and we welcome _you_.
 
@@ -10,9 +10,9 @@ https://codeyourfuture.io/
 
 ## Who runs this?
 
-The Global Syllabus Team is a group of long term CYF volunteers who are responsible for the overall direction of the curriculum. All Tech Ed volunteers can, and do, develop content for the curriculum, but the Global Syllabus Team decide the strategy and accept new content into the core.
+The Global Syllabus Team is a group of long term <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY --> volunteers who are responsible for the overall direction of the curriculum. All Tech Ed volunteers can, and do, develop content for the curriculum, but the Global Syllabus Team decide the strategy and accept new content into the core.
 
-This team is led by the Director of Education, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the CYF Slack channel #cyf-syllabus-tech and the minutes are posted on this website. If you'd like to come and talk to us, please do!
+This team is led by the Director of Education, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY --> Slack channel <!-- CYF-ONLY -->#cyf-syllabus-tech<!-- END-CYF-ONLY --> and the minutes are posted on this website. If you'd like to come and talk to us, please do!
 
 ## What content?
 
@@ -34,7 +34,7 @@ This team is led by the Director of Education, currently [Sally McGrath](https:/
 
 We adopt _tested_ content into the main curriculum, so develop and try out your material first! Come to class, try it, and get feedback from the community. Come talk in #cyf-syllabus-tech on Slack and iterate on your session.
 
-1. Develop your narrative or activity in a CYF repo.
+1. Develop your narrative or activity in a <!-- CYF-ONLY -->CYF<!-- END-CYF-ONLY --> repo.
 2. If you're recording a video, upload it to YouTube and make it public.
 3. Use your material and iterate on it with trainees.
 4. When you're ready to propose adoption, open a PR to this repo, and choose the adoption PR template.

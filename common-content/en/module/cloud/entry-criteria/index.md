@@ -30,7 +30,7 @@ emoji= '🧩'
 
 ### Money
 
-- [ ] CYF will pay for trainee expenses like food, bus tickets, equipment and childcare
+- [ ] {{<our-name>}} will pay for trainee expenses like food, bus tickets, equipment and childcare
 
 ### A Plan
 
