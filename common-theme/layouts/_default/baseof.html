@@ -10,7 +10,11 @@
     <div class="l-layout">
       {{ partialCached "header.html" . }}
       {{ partialCached "menu.html" . }}
-      <main id="main" class="l-layout__main l-main" tabindex="0">
+      <main
+        id="main"
+        class="l-layout__main l-main"
+        tabindex="0"
+        data-pagefind-body>
         {{ block "main" . }}{{ end }}
       </main>
       {{- partialCached "foot.html" . -}}

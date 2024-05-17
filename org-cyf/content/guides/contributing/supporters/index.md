@@ -5,7 +5,7 @@ description: Partners and supporters donate time, money, space, and tools so we 
 weight: 2
 emoji: 💷
 ---
-
+<!-- CYF-ONLY -->
 ## 🪙 Supporting us with grants and donations
 
 Code Your Future is a crazy dream, started in a basement by volunteers. Since 2016, it has grown into an international voluntary organisation funded by donations, grants, and hiring/recruitment fees. We can not do this without you. We are so grateful for your support.
@@ -45,3 +45,4 @@ Thank you to the following companies for donating pro-bono professional services
 ## Sponsor this curriculum on GitHub
 
 <iframe src="https://github.com/sponsors/CodeYourFuture/card" title="Sponsor CodeYourFuture" height="225" width="600" style="border: 0;"></iframe>
+<!-- END-CYF-ONLY -->

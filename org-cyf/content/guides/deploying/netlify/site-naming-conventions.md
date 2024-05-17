@@ -6,7 +6,7 @@ emoji: 🔩
 ---
 
 To make it easier for teachers and volunteers to find and review your homework,
-
+<!-- CYF-ONLY -->
 All CYF coursework projects should be hosted with the following naming scheme:
 
 `cyf-USERNAME-PROJECT_NAME`

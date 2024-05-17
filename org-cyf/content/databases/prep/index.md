@@ -23,7 +23,7 @@ We shall be using PostgreSQL - a widely used relational database. It's open-sour
 
 {{<note title="Windows" type="warning">}}
 Windows is not supported at CYF. You are not allowed to use Windows.
-
+<!-- END-CYF-ONLY -->
 {{</note>}}
 
 If you get stuck post a message asking for help on your class channel.

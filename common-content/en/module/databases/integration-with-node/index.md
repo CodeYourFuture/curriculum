@@ -20,13 +20,13 @@ In the following, we will use _node-postgres_ to...
 
 ### Loading data from a database with a GET endpoint
 
-Let's build a brand new NodeJS application with a single GET endpoint to load the list of customers that you already have in the `customers` table of the `cyf_hotels` database.
+Let's build a brand new NodeJS application with a single GET endpoint to load the list of customers that you already have in the `customers` table of the `{{<our-name>}}_hotels` database.
 
-First, create a new NodeJS application that we will call **cyf-hotels-api** (enter `server.js` when asked for the entry point):
+First, create a new NodeJS application that we will call **{{<our-name>}}-hotels-api** (enter `server.js` when asked for the entry point):
 
 ```bash
-mkdir cyf-hotels-api
-cd cyf-hotels-api
+mkdir {{<our-name>}}-hotels-api
+cd {{<our-name>}}-hotels-api
 npm init
 ```
 
@@ -56,7 +56,7 @@ const { Pool } = require("pg");
 const db = new Pool({
   user: "keith", // replace with you username
   host: "localhost",
-  database: "cyf_hotels",
+  database: "{{<our-name>}}_hotels",
   password: "",
   port: 5432,
 });
@@ -75,9 +75,9 @@ app.get("/customers", function (req, res) {
 In the code above:
 
 - We first import the `Pool` class from the pg library, which is used to connect to a database
-- We create a new connection (`db`) where we specify the credentials to connect to the cyf_hotel database
+- We create a new connection (`db`) where we specify the credentials to connect to the {{<our-name>}}\_hotel database
 - We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. The `query` method returns a Promise: so we can access the returned rows using a `.then` block. You can write any valid SQL query that you learned in the `query()` method!
 
 **_Note:_** There is no semicolon to end the SQL statement.
 
-Start your server with `node server.js` and try to reach the `/customers` endpoint to see the list of customers currently available in your `cyf_hotels` database. You can try to create/update/delete customers using psql to verify that your API always returns what is stored in your database.
+Start your server with `node server.js` and try to reach the `/customers` endpoint to see the list of customers currently available in your `{{<our-name>}}_hotels` database. You can try to create/update/delete customers using psql to verify that your API always returns what is stored in your database.
