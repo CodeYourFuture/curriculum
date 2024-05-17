@@ -20,7 +20,7 @@ src="blocks/study-group"
 time="90"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
+src="https://github.com/CodeYourFuture/Module-Piscine/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"
