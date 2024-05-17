@@ -1,5 +1,5 @@
 +++
-title = '🎁 Wrapping up'
+title = '🎁 Wrapping up Git'
 headless = true
 time ="20"
 facilitation = false
@@ -17,7 +17,7 @@ Now you'll need to **create a commit**.
 
 You can use this video 👉 https://www.youtube.com/watch?v=B8RSMBSzFuA to figure out how to create a commit.
 
-We'll cover this topic in class on Saturday too.
+We'll cover this topic often in workshops. Come to a CYF center to work on this with a mentor.
 
 1. Try opening your clone of education-blog in VSCode
 2. Try fixing a typo in the `README.md` file
