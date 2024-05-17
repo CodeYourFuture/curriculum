@@ -30,5 +30,20 @@ issuesorgapi = "https://github-issue-proxy.illicitonion.com/repos/CodeYourFuture
 # This can be generated at https://github.com/settings/tokens?type=beta and needs read-only access to all public CYF GitHub repos.
 getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
 
+[markup]
+[markup.tableOfContents]
+endLevel = 2
+ordered = true
+startLevel = 2
+[markup.highlight]
+lineNos = false
+codeFences = true
+guessSyntax = true
+[markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+unsafe = true
+hardWraps = true
+disableKinds = ["taxonomy", "term"]
+footnote= true
 
 theme = "common-theme"
