@@ -11,7 +11,7 @@ A good GitHub profile/README must have the following:
 
 - [ ] Your name
 - [ ] A professional profile picture
-- [ ] Contact details (As a minimum, connect to your Linkedin and Portfolio sire)
+- [ ] Contact details (As a minimum, connect to your Linkedin and portfolio)
 - [ ] Your profession (i.e. 'Front-End Developer')
 - [ ] A list of your Key skills (3 to 5, no more)
 - [ ] An introduction to who you are
