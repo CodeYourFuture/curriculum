@@ -11,7 +11,7 @@ A suitable, tailored cover letter is an essential part of applying for jobs. Set
 ​
 
 - [ ] It is 3 – 4 paragraphs long and does not exceed 1 page in length.
-- [ ] It has a structure that builds on itself (the less repeats, the better).
+- [ ] It has a structure that builds on itself (the fewer repeats, the better).
 - [ ] The tone is confident but not extremely so.
 - [ ] For example, it avoids extreme assertions such as “best” unless it can be validated (e.g. through an award) - Such a claim must always be easy to reference
 - [ ] It includes contact details if the applicant did not provide them earlier.
