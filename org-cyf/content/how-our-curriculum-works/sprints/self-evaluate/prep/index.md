@@ -1,6 +1,6 @@
 +++
 title = 'prep'
-description = 'Note the general topic'
+description = 'How do we build a community of self evaluators?'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
