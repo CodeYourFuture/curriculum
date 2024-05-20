@@ -1,6 +1,6 @@
 ---
-emoji: 🔌
+emoji: 🥅
 title: Networking
-description:
+description: Show employers your true potential by optimising your Linkedin profile
 weight: 5
 ---

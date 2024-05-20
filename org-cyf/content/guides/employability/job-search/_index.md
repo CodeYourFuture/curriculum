@@ -1,6 +1,6 @@
 ---
 emoji: 💼
-title: Getting a job
+title: Job search
 description:
 weight: 5
 ---

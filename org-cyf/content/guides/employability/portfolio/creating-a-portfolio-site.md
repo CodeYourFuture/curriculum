@@ -24,3 +24,13 @@ Here are some links that give examples:
 If you're looking for some hints on how to get started there's help on FreeCodeCamp but remember to make it your project and don't just do a version of theirs!
 
 https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/
+
+## Portfolio criteria
+
+- [ ] My portfolio introduces me and my work
+- [ ] The design and code is my own, not a template or tutorial
+- [ ] Each project is linked to my code on GitHub and the deployed project
+- [ ] I have published my professional contact information on my portfolio
+- [ ] My Accessibility and SEO scores are 100 on Lighthouse
+- [ ] My portfolio is deployed
+- [ ] I have replaced this README with one that describes my own portfolio
