@@ -10,7 +10,7 @@ name="Local"
 src="blocks/local"
 [[blocks]]
 name="Readme"
-src="https://github.com/CodeYourFuture/Module-Template"
+src="https://github.com/CodeYourFuture/Module-Template/readme"
 [[blocks]]
 name="Youtube video or playlist"
 src="https://www.youtube.com/watch?v=P1ww1IXRfTA"
@@ -18,6 +18,10 @@ src="https://www.youtube.com/watch?v=P1ww1IXRfTA"
 name="Slide - an image with caption"
 caption="With caption please!"
 src="https://github.com/MaggieAppleton/maggieappleton.com-V2/blob/main/public/images/posts/programming-pictures/PicturesProgramming-26_vnlzye-1100.jpg"
+[[blocks]]
+name="Block link"
+src="https://codeyourfuture.io/"
+caption="This block is a single link to an external site."
 [[blocks]]
 name="PD syllabus website"
 src="https://cyf-pd.netlify.app/blocks/agreements/readme/"
