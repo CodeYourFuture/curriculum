@@ -5,12 +5,15 @@
 {{ if $response }}
   <section class="c-block c-block--pullreq c-block__series ">
     {{ if ne $response nil }}
-      <h3 class="e-heading__2">
+      <h2 class="e-heading__2">
         🛎️ Code waiting for review
         <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
         <time class="c-block__time is-invisible" datetime="P10M"></time>
-      </h3>
-      <p>Below are trainee coursework Pull Requests that need to be reviewed by volunteers.</p>
+      </h2>
+      <p>
+        Below are trainee coursework Pull Requests that need to be reviewed by
+        volunteers.
+      </p>
       {{/* <!-- range over PRs list and pull out useful data --> */}}
       {{ range $response }}
         <details class="c-issue c-issue--pr">
