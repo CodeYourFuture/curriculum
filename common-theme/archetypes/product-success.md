@@ -3,7 +3,7 @@ title = 'success'
 layout = 'success'
 emoji= '✅'
 menu_level = ['product']
-weight = 4
+weight = 3
 +++
 
 What is a good [learning objective](https://teachtogether.tech/en/#s:process-objectives)? How do we revise learning objectives to fit the CYF approach? There are two key methods:
