@@ -12,3 +12,11 @@
 <script src="{{ $darkmode.RelPermalink }}"></script>
 {{ $alertmessage := resources.Get "scripts/alert-message.js" | resources.Minify }}
 <script src="{{ $alertmessage.RelPermalink }}" defer></script>
+
+{{/*  if there is custom js to, load here, but if it's a component please contribute it back to the commons  */}}
+
+ {{ $customJs := resources.Match "custom-scripts/**.js" | resources.Concat "custom.js"}}
+  {{ with $customJs }}
+    {{ $customJs := $customJs | minify | fingerprint "md5" }}
+    <script src="{{ $customJs.RelPermalink }}" defer></script>
+  {{ end }}
