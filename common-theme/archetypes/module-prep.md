@@ -7,7 +7,7 @@ menu_level = ['module']
 weight = 1
 [[blocks]]
 name="Local"
-src="blocks/types/local"
+src="blocks/local"
 [[blocks]]
 name="Readme"
 src="https://github.com/CodeYourFuture/Module-Template"
@@ -26,7 +26,9 @@ name="Issue, just one"
 src="https://github.com/CodeYourFuture/Module-JS1/issues/8"
 [[blocks]]
 name="Pullreqs, list"
-src="https://github.com/CodeYourFuture/Module-JS1"
+src="https://github.com/CodeYourFuture/Module-JS1/pulls"
 +++
+
 ## Anything written in .Content needs an h2
-This example prep view has an example of each type of block so you can see how the blocks work. 
+
+This example prep view has an example of each type of block so you can see how the blocks work.

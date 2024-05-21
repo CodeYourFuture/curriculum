@@ -21,7 +21,7 @@ time="60"
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group 2"
+name="Study Group"
 src="blocks/study-group"
 time="90"
 [[blocks]]

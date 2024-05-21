@@ -1,9 +1,11 @@
 +++
 title = '{{ replace .Name "-" " " | title }}'
-headless = true
 time = 30
+headless = true
 facilitation = false
-threads = ['to-be-assigned']
+hide_from_overview=false
+threads = ['unassigned']
+activities=["define a term"]
 emoji= '🧩'
 [objectives]
     1='Use the Teach Tech Together guide to construct your objectives'
@@ -11,3 +13,4 @@ emoji= '🧩'
     3='Write objectives you can measure'
 +++
 
+This is a local block example. You can write anything in here using markdown and use shortcodes to access extra formatting. Store these in the common-content module to share them across many sites. Store them in your local content folder to keep them site-specific. These blocks are headless and do not create pages.
