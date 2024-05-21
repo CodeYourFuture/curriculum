@@ -1,19 +1,24 @@
 +++
 title="📝 Code review"
 headless="true"
-time= 30
+time= 15
 [objectives]
-    1="Explain the value of code review in our community"
+    1="Explain the value of code review"
+    2="Locate unreviewed pull requests"
 +++
 
-Code review is how we evaluate our work. Code review isn't about grading; a code review initiates a [**dialogue**](../../../how-our-curriculum-works/sprints/self-educate/prep/#dialogue) with constructive feedback. Learners benefit enormously from such code reviews and identify them as one of the most important ways of developing their skills.
+Often learners try to rush through the curriculum by completing the coursework without evaluating their work. However, our ultimate goal is to build understanding and learn new skills. Our coursework is the means of achieving this goal but not the ultimate goal itself. Learning without evaluation will lead to weak or absent comprehension.
 
-It's also how we develop professional technical communication ability, which is one of the most valuable skills we can give people on this course.
+Therefore, code reviews are essential for evaluating our work. They aren’t about grading; they initiate a **[dialogue](../../../how-our-curriculum-works/sprints/self-educate/prep/#dialogue)** starting with constructive feedback about a piece of work. This means you _reply_ to the comments and _make changes_ based on this feedback. This is how you develop your skills. The learning comes from reading and responding, from participating in this dialogue.
 
-Often learners try to rush through the curriculum by completing all the coursework and moving on to the next thing without a backwards glance. This leads to weak or absent comprehension.
+Code review is also one way we develop professional technical communication, which is one of the most valuable skills we can give people on this course.
 
-It is not valuable to rush through work, without ever checking we _understand_ it. The learning is in the review process. This means _you reply_ to the comments and make changes based on feedback. This is how you develop your skills.
+### 👣 Next steps
 
-Throughout the course, trainees regularly raise pull requests for their backlog issues. We recommend you begin to review code pull requests as soon as you begin volunteering: ask on Slack to discover unreviewed pull requests.
+- Join the **#cyf-code-review** channel on Slack
+- Check the time of the next code review session
+- Locate any unreviewed pull requests for a particular cohort
 
-Check out our [guides on reviewing](../../../guides/reviewing/)
+### 📝 Check
+
+- Check out our [guides on reviewing](../../../guides/reviewing/)
