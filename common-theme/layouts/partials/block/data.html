@@ -41,11 +41,11 @@
   ======================
 */}}
 
-{{ if "htt" | in $src }}
+{{ if ":" | in $src }}
   {{ .Scratch.SetInMap "blockData" "type" "link" }}
 {{ end }}
 
-{{ if or "png" "webp" "jpg" "jpeg" "gif" | in $src }}
+{{ if or (in $src "png") (in $src "webp") (in $src "jpg") (in $src "jpeg") (in $src "gif") }}
   {{ .Scratch.SetInMap "blockData" "type" "slide" }}
 {{ else }}
   {{ if "github" | in $src }}
