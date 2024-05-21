@@ -3,7 +3,7 @@
 {{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
-  <section class="c-block c-block--pullreq c-block__series ">
+  <section class="c-block c-block--pullreq ">
     {{ if ne $response nil }}
       <h2 class="e-heading__2">
         🛎️ Code waiting for review
@@ -18,7 +18,7 @@
       {{ range $response }}
         <details class="c-issue c-issue--pr">
           <summary class="c-issue__title e-heading__3">
-            {{ .title }}
+            <span class="c-issue__title">{{ .title }}</span>
             <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
           </summary>
           <div class="c-issue__body">
