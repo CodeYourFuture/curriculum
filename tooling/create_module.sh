@@ -47,7 +47,7 @@ done
 for i in {1..4}; do
     SPRINT_NAME="$i"
     SPRINT_PATH="$SPRINT_DIR/$SPRINT_NAME"
-
+    hugo new --kind sprint "$SPRINT_PATH/_index.md"
     SPRINT_FILES=("prep" "backlog" "day-plan" "success")
     for file in "${SPRINT_FILES[@]}"; do
         FILE_PATH="$SPRINT_PATH/$file/index.md"
