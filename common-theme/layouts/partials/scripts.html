@@ -15,8 +15,11 @@
 
 {{/*  if there is custom js to, load here, but if it's a component please contribute it back to the commons  */}}
 
- {{ $customJs := resources.Match "custom-scripts/**.js" | resources.Concat "custom.js"}}
-  {{ with $customJs }}
-    {{ $customJs := $customJs | minify | fingerprint "md5" }}
-    <script src="{{ $customJs.RelPermalink }}" defer></script>
-  {{ end }}
+{{ $customJs := resources.Match "custom-scripts/**.js" }}
+{{ with $customJs }}
+  {{ $concatenated := $customJs | resources.Concat "custom.js" }}
+  {{ $minified := $concatenated | minify | fingerprint "md5" }}
+  <script src="{{ $minified.RelPermalink }}" defer></script>
+{{ end }}
+
+
