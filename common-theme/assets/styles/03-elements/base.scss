@@ -16,6 +16,13 @@ html {
 html {
   overflow-x: hidden;
 }
+@media (max-width: $c-med) {
+  body {
+    overflow-x: hidden;
+    max-width: 100svw;
+    height: max-content;
+  }
+}
 
 @keyframes fade-in {
   0% {
