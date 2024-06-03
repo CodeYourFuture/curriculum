@@ -12,6 +12,8 @@
 <script src="{{ $darkmode.RelPermalink }}"></script>
 {{ $alertmessage := resources.Get "scripts/alert-message.js" | resources.Minify }}
 <script src="{{ $alertmessage.RelPermalink }}" defer></script>
+{{ $stopwatch := resources.GetMatch "scripts/stop-watch.js" | resources.Minify }}
+<script src="{{ $stopwatch.RelPermalink }}" defer></script>
 
 {{/*  if there is custom js to, load here, but if it's a component please contribute it back to the commons  */}}
 
