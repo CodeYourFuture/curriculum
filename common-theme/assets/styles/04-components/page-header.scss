@@ -106,7 +106,7 @@
     .c-page-header--solo & .c-toc {
       max-height: none;
       @media (max-width: $c-med) {
-        max-height: 10vh;
+        max-height: 12ch;
       }
     }
   }
