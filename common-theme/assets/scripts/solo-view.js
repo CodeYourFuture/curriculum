@@ -101,7 +101,7 @@ class SoloView extends HTMLElement {
   // Handle swipe gesture
   handleSwipeGesture = (startX, endX) => {
     const deltaX = endX - startX;
-    const swipeThreshold = 30;
+    const swipeThreshold = 96;
     if (deltaX > swipeThreshold) {
       // Swipe right (previous)
       this.navigateBack(new Event("swipe"));
