@@ -17,6 +17,83 @@ Attendees:
 
 ---
 
+## 2024-06-04
+
+### Attendees
+
+* **Sally McGrath** - Director of Programme at CYF - Who we teach, what we teach, how we teach, how we test that. Ex-volunteer (NW), and formerly a full-time developer.
+* **Kirill Kovzel** - Quite recent volunteer, full-time frontend developer.
+* **Ali Smith** - Syllabus team, volunteer since London Class 2, full-time Engineering Manager at Overleaf, wrote the React course.
+* **Sherif Eid** - Volunteer since 2023-04 mostly with London 10 - been teaching and mentoring, excited to contribute to the syllabus particularly around programming fundamentals. Day-to-day a software engineer working on backend systems.
+* **Jack Rogers** - Volunteer for a few months, day job is full-stack engineer at ?Iris in trading.
+* **Mark Wainwright** - Volunteer on PD syllabus team for the last ~year helping build a lot of the syllabus. 23 years at IBM working on middleware (Java, architecture, tests, project management, ...), 12 years as an agile coach, and now retired, but doesn't want to stop coding. Interested in the interplay between tech and PD.
+* **Gary Lei** - Volunteer for a few months in NW, excited to help out ideally remotely, but about to start a new job. Experience with C#, electronic engineering degree, and experience playing around with hardware.
+* **Jay Mayer** - Volunteering since summer 2023 with NW6 - NW6 is wrapping up, so looking for next opporunities to get involved. Day-to-day a full-stack developer mostly Java in a bank.
+* **Folasayo Agunbiade** - Joined a few weeks ago. Masters in data science, and working as a data analyst. Also work as an assistant instructor teaching data science with Code First Girls, and looking for space to get involved.
+* **Mitch Lloyd** - Works on the tech ed team, working on curriculum material and teaching. Previously a volunteer in the NW, and a software engineer.
+* **Zachee Niyokwizera** - Full-stack developer, lead instructor teaching Python at Code First Girls, last year led the cohort in South Africa.
+* **Caroline Scherf** - Joined London last month, working in tech for 4 years (project manager -> software engineer, just started at Neo4J) - mostly cloud + Go.
+* **Zsolt Sztupak** - Joined CYF last January as part of in-person coach for GLA6 and joined with the Syllabus team end of last year to help with upgrading the Full Stack Assessment based on feedback from GLA6/LON10.
+* **Fuad Sohly** - In Edinburgh, joined Glasgow about a month ago, excited to volunteer in Glasgow and to contribute to the syllabus. Working as a tutor for frontend development.
+* **Daniel Wagner-Hall** - CYF volunteer for 4-5 years, gone through many roles (teacher, TA, buddy, curriculum). Day-to-day a software engineer (who likes Rust a lot)
+* **Barath Vignarajah** - Volunteer for ~3 years - worked with the old syllabus and new. Background in Java backend development.
+
+### Splitting the course/group up
+
+General approach: Each course needs 2 leaders (at least one with CYF experience). We don't have much structure of project management - people need to drive things themselves. See [course plans doc](https://docs.google.com/document/d/1a-27M-O8gxE8F-FGAtGhLlkahkrYgnUxnURaJ8oSoow/edit) for goals and team sign-ups.
+
+**ITD** exists and needs a bit of revision. Leaders: Zachee + Fuad. We stopped running new classes last year because of the tech employment crisis, but we need to get the funnel started again soon.
+
+[**ITP**](https://cyf-programming.netlify.app/) Leaders: Barath + Caroline. Has a longer time-line, but the course needs always work/improvement.
+
+CYF does not have a need for content - we don't need people to just write content for other people to deliver. There's a lot of content (both at CYF and around - MIT, Stanford, Harvard, FreeCodeCamp, Udemy, ...). What we need is delivery of programmes to actual people, and evaluation (and improvement) of that delivery. We're not here to develop a plan and let other people implement it - we're here to design + deliver + iterate.
+
+#### CYF Pedagogy
+
+* **Flipped classroom** - trainees are expected to prepare before coming to class - promotes independence, self-education. See also [How Our Curriculum Works](https://curriculum.codeyourfuture.io/how-our-curriculum-works/).
+* As developers, we are problem solvers - but to develop new problem solvers it's important we don't solve problems _for_ people - they need to tackle things themselves.
+* **Be honest** about what you think about people's abilities - sometimes that's hard in the moment, but it's the most fair thing. It's more fair and kind for people to realise software isn't for them as early as they can if that's the case, rather than wasting their time.
+* **Focus** - we set up the syllabus team specifically to be able to step back from class and focus a bit. Make sure to set things up so that there are people who can focus on day-to-day issues, and people who can step back and think about what we're teaching and how, because otherwise there will always be too many distractions to focus on either.
+* **Value** - everything we ask people to do needs to be of value to themselves.
+
+#### Expectations of the courses
+
+The goals of ITP are for people to work out, in a quick and low-commitment way, whether programming is for them, and whether they want to enroll on a higher-commitment course afterwards.
+
+We probably need:
+
+ITD: about 1000-2000 people in a year. Probably about 6x per year, so about 200 per run, expecting a 90% drop-off based on previous runs.
+
+ITP: about 200-400 people in a year. Probably 3-4x per year. Could be running in cohorts or self-paced. Probably self-paced but to be decided by the ITP team.
+
+Piscine (a month of testing abilities and motivations in software - from https://42.fr/en/admissions/42-piscine/): 100-300 people in a year. Probably 4x per year.
+
+SDC: 80-100. Hopefully 3-4x per year.
+
+There's a change of expectation here - previously "the course" was expected to end in a job, but now the earlier courses are explicitly not expected to end in a job. We need to think carefully about what skills we're giving people and whether/how they're useful - writing a CV may be generally useful to people getting jobs (good to do!) but may not help you decide whether software is for you (bad!) - there are trade-offs there. Similarly, we should think about what order we teach things (e.g. learning about databases early may be useful because it may be a transferrable skill into spreadsheets in many jobs other than software).
+
+Want to avoid gluts of trainees all looking for the same jobs at the same time - ideally smaller batches of people at a time.
+
+Ideally we want lots of opportunities for people to take more time and join a future cohort if needed. "Come back next year" is a lot of pressure if someone is behind for whatever reason or needs to take some time. "Come back next month" is a lot easier.
+
+What's the future of regions? That's a great question for us to work out together!
+
+In the SDC we will be teaching for roles we are confident people can get hired into. This probably isn't just general entry-level full-stack web development, and may cover many different roles.
+
+As an example, we put together material for CYF+ to prepare people for jobs as Site Reliability Engineers at Slack - putting together https://systems.codeyourfuture.io/ mostly by collecting existing material (and writing projects, introductions, and extra material as needed) and it was successful.
+
+#### Entry/exit criteria
+
+How will we gate who goes from each stage to the next? Following courses (e.g. ITP) will give learning objectives and requirements to the earlier courses (e.g. ITD). Evaluation of people finishing one course is the responsibility of the people running the next course. It's a contract model. 
+
+##### How should teams run?
+
+Set up a slack channel, decide on a schedule for meetings (maybe weekly or fortnightly), aim for everyone to come to every meeting, and agree how your team is going to work.
+
+Note that all of the syllabus team are Slack and GitHub admins - reach out if you need support.
+
+---
+
 ## 2024-05-07
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
