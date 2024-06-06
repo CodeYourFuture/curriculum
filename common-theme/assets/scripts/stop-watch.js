@@ -1,4 +1,5 @@
-class StopWatch {
+/** Runs countdown for the <time> element */
+class StopWatchForTimeElement {
     constructor() {
         this.attachListener();
     }
@@ -63,4 +64,4 @@ class StopWatch {
     }
 }
 
-new StopWatch();
+new StopWatchForTimeElement();
