@@ -1,4 +1,5 @@
 [build]
+ignore = "exit 1" #always build on PR even if you can't detect changes in this folder
 publish = "public"
 command = "npm install --legacy-peer-deps && hugo --minify && npx pagefind --site=public"
 [dev]
