@@ -59,7 +59,7 @@ class StopWatch {
         };
 
         const playNextRepetition = async (repetitionIndex) => {
-            if (repetitionIndex < repetitions) {
+            if (repetitionIndex <= repetitions) {
                 await playSound();
                 await new Promise(resolve => setTimeout(resolve, delayBetweenRepetitions));
                 await playNextRepetition(repetitionIndex + 1);
