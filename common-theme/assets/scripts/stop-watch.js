@@ -1,120 +1,66 @@
-class StopWatch extends HTMLElement {
+class StopWatch {
     constructor() {
-        super();
-        this.attachShadow({ mode: "open" });
-        this.stopWatchButton = null;
-        this.interval = null;
-        this.endTime = null;
-        this.toggleStopwatch = this.toggleStopwatch.bind(this);
-        this.updateTimer = this.updateTimer.bind(this);
+        this.attachListener();
     }
 
-    connectedCallback() {
-        this.render();
-        this.attachListeners();
+    attachListener() {
+        const timeElements = document.querySelectorAll('.c-block__time');
+
+        timeElements.forEach(timeElement => {
+            timeElement.addEventListener('click', () => {
+                if (!timeElement.classList.contains('timer-active')) {
+                    this.startTimer(timeElement);
+                }
+            });
+        });
     }
 
-    attachListeners() {
-        this.stopWatchButton = this.shadowRoot.querySelector(".stopwatch");
-        if (this.stopWatchButton instanceof Element) {
-            this.stopWatchButton.addEventListener("click", this.toggleStopwatch);
-            this.attachListenerToStopwatch();
-        }
-    }
-
-    resetStopWatch() {
-        clearInterval(this.interval);
-        this.interval = null;
-        this.removeTimerElement();
-        this.stopWatchButton.classList.remove("stopwatch-active");
-    }
-
-    attachListenerToStopwatch() {
-        let initialURL = window.location.href;
-
-        const popstateHandler = () => {
-            if (window.location.href !== initialURL) {
-                this.resetStopWatch();
-                window.removeEventListener("popstate", popstateHandler);
-                this.attachListenerToStopwatch();
-            }
-        };
-
-        window.addEventListener("popstate", popstateHandler);
-    }
-
-    toggleStopwatch() {
-        this.stopWatchButton.classList.toggle("stopwatch-active");
-
-        if (this.interval) {
-            this.resetStopWatch();
-        } else {
-            this.createTimerElement();
-            const countdownMinutes = document.querySelector('.c-block__time').getAttribute("datetime").slice(1, -1);
-            const now = new Date();
-            this.endTime = new Date(now.getTime() + countdownMinutes * 60000);
-            this.interval = setInterval(this.updateTimer, 1000);
-        }
-    }
-
-    createTimerElement() {
-        const isTimer = document.getElementById("stopwatch-countdown");
-
-        if (!isTimer) {
-            const timerElement = document.createElement("div");
-            timerElement.id = "stopwatch-countdown";
-            timerElement.innerHTML = `
-                <p id="timer">
-                    <span id="minutes"></span>
-                    <span class="timer-unit">Minutes</span>
-                    <span id="seconds"></span>
-                    <span class="timer-unit">Seconds</span>
-                </p>
-            `;
-            document.querySelector("[slot='header']").appendChild(timerElement);
-        }
-    }
-
-    removeTimerElement() {
-        const isTimer = document.getElementById("stopwatch-countdown");
-        if (isTimer) {
-            isTimer.remove();
-        }
-    }
-
-    updateTimer() {
-        const now = new Date().getTime();
-        const distance = this.endTime - now;
-
-        if (distance < 0) {
-            clearInterval(this.interval);
-            document.getElementById("stopwatch-countdown").innerHTML = "Countdown Finished";
+    startTimer(timeElement) {
+        const datetime = timeElement.getAttribute('datetime');
+        const duration = this.parseDuration(datetime); // Convert format PXM to milliseconds
+        if (isNaN(duration) || duration <= 0) {
+            console.error("Invalid duration specified in datetime attribute.");
             return;
         }
+        let startTime = Date.now();
 
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        timeElement.classList.add('timer-active');
 
-        document.getElementById("minutes").innerText = minutes;
-        document.getElementById("seconds").innerText = seconds;
+        const timerInterval = setInterval(() => {
+            const remainingTime = this.updateTime(timeElement, startTime, duration);
+
+            if (remainingTime <= 0) {
+                clearInterval(timerInterval);
+                timeElement.classList.remove('timer-active');
+            }
+        }, 1000);
     }
 
-    render() {
-        this.shadowRoot.innerHTML = `
-            <style>
-               .stopwatch {
-                    font-size: 1.6rem;
-                    cursor: pointer;
-                }
-               .stopwatch:hover,.stopwatch-active {
-                    color: var(--theme-color--pop);
-                }
-            </style>
-            <span class="stopwatch">
-                <slot>⏱</slot>
-            </span>
-        `;
+    parseDuration(datetime) {
+        const match = datetime.match(/P(\d+)M/);
+        if (!match) {
+            return NaN;
+        }
+        const minutes = parseInt(match[1]);
+        return minutes * 60 * 1000; // Convert minutes to milliseconds
+    }
+
+    updateTime(element, startTime, duration) {
+        const currentTime = Date.now();
+        const elapsedTime = currentTime - startTime;
+        const remainingTime = duration - elapsedTime;
+
+        if (remainingTime <= 0) {
+            element.textContent = "0 minutes 00 seconds ⏱";
+            return 0;
+        }
+
+        const minutes = Math.floor(remainingTime / 60000);
+        const seconds = Math.floor((remainingTime % 60000) / 1000);
+
+        element.textContent = `${minutes} minutes ${seconds < 10 ? '0' : ''}${seconds} seconds ⏱`;
+        return remainingTime;
     }
 }
 
-customElements.define("stop-watch", StopWatch);
+new StopWatch();

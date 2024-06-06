@@ -99,4 +99,12 @@
     transform: translate(0%, 100%);
     position: absolute;
   }
+  
+  &__time {
+      cursor: pointer;
+  }
+
+  &__time:hover,.timer-active {
+      color: var(--theme-color--pop)
+  }
 }
