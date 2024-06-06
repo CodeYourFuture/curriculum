@@ -1,7 +1,7 @@
 +++
 title = '🧩 Percentages'
 headless = true
-time = 1
+time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
