@@ -8,7 +8,7 @@ class StopWatch {
 
         timeElements.forEach(timeElement => {
             timeElement.addEventListener('click', () => {
-                if (!timeElement.classList.contains('timer-active')) {
+                if (!timeElement.classList.contains('is-active')) {
                     this.startTimer(timeElement);
                 }
             });
@@ -24,14 +24,14 @@ class StopWatch {
         }
         let startTime = Date.now();
 
-        timeElement.classList.add('timer-active');
+        timeElement.classList.add('is-active');
 
         const timerInterval = setInterval(() => {
             const remainingTime = this.updateTime(timeElement, startTime, duration);
 
             if (remainingTime <= 0) {
                 clearInterval(timerInterval);
-                timeElement.classList.remove('timer-active');
+                timeElement.classList.remove('is-active');
             }
         }, 1000);
     }

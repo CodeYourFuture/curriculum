@@ -102,9 +102,9 @@
   
   &__time {
       cursor: pointer;
-  }
-
-  &__time:hover,.timer-active {
-      color: var(--theme-color--pop)
+      color: var(--theme-color--ink);
+      @include on-event(false) {
+          color: var(--theme-color--pop);
+      }
   }
 }
