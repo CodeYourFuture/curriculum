@@ -31,7 +31,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
         url = "https://codeyourfuture.io/donate/"
 
 [params]
-googleFonts="https://fonts.googleapis.com/css2?family=Fira+Sans&Fira+Mono&display=swap"
+
 description = "A free and open source software development programme."
 main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
