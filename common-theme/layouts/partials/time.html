@@ -12,5 +12,7 @@
 {{ $block := .Page.Site.GetPage $blockData.api }}
 {{ $time := $blockData.time | default $block.Params.time | default 60 }}
 <time class="c-block__time" datetime="P{{ $time }}M">{{ $time }} minutes ⏱</time>
-{{ $stopwatch := resources.GetMatch "scripts/stop-watch.js" | resources.Minify }}
-<script src="{{ $stopwatch.RelPermalink }}" defer></script>
+{{ $stopwatch := resources.GetMatch "/scripts/stop-watch.js" | resources.Minify }}
+<script type="module" defer>
+    import StopWatch from "{{ $stopwatch.RelPermalink }}";
+</script>

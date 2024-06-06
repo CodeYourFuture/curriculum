@@ -1,6 +1,10 @@
 class StopWatch {
     constructor() {
+        if (StopWatch.instance) {
+            return StopWatch.instance;
+        }
         this.attachListener();
+        StopWatch.instance = this;
     }
 
     attachListener() {
@@ -63,4 +67,5 @@ class StopWatch {
     }
 }
 
-new StopWatch();
+const stopwatchInstance = new StopWatch();
+export default stopwatchInstance;
