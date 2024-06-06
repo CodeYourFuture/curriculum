@@ -1,4 +1,4 @@
-module github.com/CodeYourFuture/curriculum/org-cyf-piscine
+module github.com/CodeYourFuture/curriculum/org-cyf-guides
 
 go 1.21.3
 
