@@ -2,8 +2,9 @@
 id: contributing
 title: Contributing
 weight: 2
-emoji: 🎁
+emoji: 
 ---
+
 
 <!-- CYF-ONLY -->
 ## 💯 Free and open
