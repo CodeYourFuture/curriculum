@@ -1,7 +1,6 @@
 ---
-id: useful-links
 title: Useful Links
-sidebar_label: Useful Links
+headless: true
 ---
 
 This page aims to give you the best links for working as a developer
