@@ -1,4 +1,4 @@
 +++
 headless="true"
-hide_from_overview=true
+hide_from_overview="true"
 +++
