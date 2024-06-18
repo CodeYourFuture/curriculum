@@ -20,7 +20,6 @@ baseURL = "https://curriculum.codeyourfuture.io/"
     [[module.imports.mounts]]
       source = "content"
       target = "content/guides"
-
 [menus]
     [[menus.secondary]]
         name = "Guides 👈🏾"
