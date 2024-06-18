@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: "employability"
+    identifier_field: toml
+    label: "Employability"
+    folder: "content/employability"
+    create: true
+    path: "{{slug}}/index.md"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+       - { label: "Emoji", name: "emoji", widget: "string", required: true }
+  - name: "contributing"
+  identifier_field: toml
+    label: "Contributing"
+    folder: "content/contributing"
+    create: true
+    path: "{{slug}}/index.md"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+      - { label: "Emoji", name: "emoji", widget: "string", required: true }
+  - name: "deploying"
+    identifier_field: toml
+    label: "deploying"
+    folder: "content/deploying"
+    create: true
+    path: "{{slug}}/index.md"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+      - { label: "Emoji", name: "emoji", widget: "string", required: true }
+  - name: "contributing"
+  identifier_field: toml
+    label: "Reviewing"
+    folder: "content/reviewing"
+    create: true
+    path: "{{slug}}/index.md"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+      - { label: "Emoji", name: "emoji", widget: "string", required: true }
+  
