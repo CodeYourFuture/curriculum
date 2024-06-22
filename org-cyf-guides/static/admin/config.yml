@@ -14,7 +14,13 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string", const pattern = ['^.{1,55}$', 'Must have between 1 and 55 characters'], required: true }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,55}$", "Must have between 1 and 55 characters"],
+          required: true,
+        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Description",
@@ -29,4 +35,4 @@ collections:
           pattern: ['/\p{Emoji_Presentation}/gu', "Must be an emoji"],
           required: true,
         }
-      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Content", name: "body", widget: "markdown", required: true }
