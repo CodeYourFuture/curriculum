@@ -8,15 +8,19 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/@staticcms/app@^4.0.0/dist/main.css"
-    />
+      href="https://unpkg.com/@staticcms/app@^4.0.0/dist/main.css" />
     <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml" />
   </head>
   <body>
     <!-- Include the script that builds the page-->
     <script src="https://unpkg.com/@staticcms/app@^4.0.0/dist/static-cms-app.js"></script>
+    <script src="/admin/cms-preview.js"></script>
     <script>
-      CMS.init();
+      window.addEventListener("DOMContentLoaded", () => {
+        if (window.CMS) {
+          window.CMS.init();
+        }
+      });
     </script>
   </body>
 </html>
