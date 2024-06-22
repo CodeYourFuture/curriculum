@@ -28,11 +28,20 @@ class ConfettiCheckboxes extends HTMLElement {
     this.allChecked = false;
 
     this.addCheckboxListeners();
+    this.initialiseCheckboxValues();
+  }
+
+  initialiseCheckboxValues() {
+    this.checkboxes.forEach((checkbox, index) => {
+      const savedValue = localStorage.getItem(`confetti-checks-${window.location.pathname}-${index}`)
+      checkbox.checked = savedValue === 'true';
+    });
   }
 
   addCheckboxListeners() {
-    this.checkboxes.forEach((checkbox) => {
+    this.checkboxes.forEach((checkbox, index) => {
       checkbox.addEventListener("change", () => {
+        localStorage.setItem(`confetti-checks-${window.location.pathname}-${index}`, checkbox.checked)
         this.allChecked = Array.from(this.checkboxes).every(
           (checkbox) => checkbox.checked
         );
