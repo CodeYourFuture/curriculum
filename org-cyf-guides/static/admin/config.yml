@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/cms
+  branch: main
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
@@ -32,7 +32,7 @@ collections:
           label: "Emoji",
           name: "emoji",
           widget: "string",
-          pattern: ['/\p{Emoji_Presentation}/gu', "Must be an emoji"],
+          pattern: ["^.{1,2}$", "No more than 2 characters allowed"],
           required: true,
         }
       - { label: "Content", name: "body", widget: "markdown", required: true }
