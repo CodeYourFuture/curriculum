@@ -38,7 +38,10 @@ const GuidePreview = async ({ entry }) => {
   ]);
   template.querySelector("#body").innerHTML = entry.getIn(["data", "body"]);
 
-  return template;
+  // Create a container and append the template
+  const container = document.createElement("div");
+  container.appendChild(template);
+  return container;
 };
 
 CMS.registerPreviewTemplate("guide", GuidePreview);
