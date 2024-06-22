@@ -4,4 +4,5 @@ description = 'Build great projects; work in teams; polish our profiles; get gre
 layout = 'module'
 emoji= '🧑🏾‍🚀'
 menu = ['syllabus', 'graduation']
+prequisites = ['itd', 'fundamentals', 'the-launch']
 +++

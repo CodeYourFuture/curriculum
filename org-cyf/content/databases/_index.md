@@ -4,5 +4,6 @@ description = 'Structured data storage and retrieval; relational databases, quer
 layout = 'module'
 emoji= '💾'
 menu = ['syllabus', 'tracks']
+prerequisites = ['itd', 'fundamentals', 'programming']
 weight='8'
 +++
