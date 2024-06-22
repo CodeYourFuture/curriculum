@@ -1,3 +1,5 @@
+const { h, useState, useEffect } = window.React; // Aliases for Static CMS's React components
+
 // Fetch the versioned CSS URL from the home page
 const fetchCssUrl = async () => {
   try {
@@ -15,35 +17,86 @@ const fetchCssUrl = async () => {
   }
 };
 
-const GuidePreview = async ({ entry }) => {
-  const cssUrl = await fetchCssUrl();
-  const template = document
-    .getElementById("guide-preview")
-    .content.cloneNode(true);
+// Define the GuidePreview component using React
+const GuidePreview = ({ entry, widgetFor }) => {
+  const [cssUrl, setCssUrl] = useState("");
 
-  if (cssUrl) {
-    template.querySelector("#site-css").href = cssUrl;
-  }
+  useEffect(() => {
+    const loadCssUrl = async () => {
+      const url = await fetchCssUrl();
+      setCssUrl(url);
+    };
+    loadCssUrl();
+  }, []);
 
-  template.querySelector(".c-page-header__title").innerText = entry.getIn([
-    "data",
-    "title",
-  ]);
-  template.querySelector("#emoji").innerText = entry.getIn(["data", "emoji"]);
-  template.querySelector("#description").innerText = entry.getIn([
-    "data",
-    "description",
-  ]);
-  template.querySelector("#body").innerHTML = entry.getIn(["data", "body"]);
-
-  // Create a container and append the template
-  const container = document.createElement("div");
-  container.appendChild(template);
-  return container;
+  return h(
+    "div",
+    {},
+    h("link", { id: "site-css", rel: "stylesheet", href: cssUrl }),
+    h(
+      "article",
+      {},
+      h(
+        "header",
+        { className: "c-page-header" },
+        h(
+          "div",
+          { className: "c-page-header__container" },
+          h(
+            "div",
+            { className: "c-page-header__breadcrumbs" },
+            h(
+              "nav",
+              { className: "c-breadcrumbs" },
+              h(
+                "ol",
+                { className: "c-breadcrumbs__list" },
+                h(
+                  "li",
+                  { className: "c-breadcrumbs__item" },
+                  h(
+                    "a",
+                    { className: "c-breadcrumbs__link", href: "#" },
+                    "Dummy Preview"
+                  )
+                )
+              )
+            )
+          ),
+          h(
+            "h1",
+            { className: "c-page-header__title e-heading__1" },
+            h(
+              "span",
+              { className: "c-emoji", id: "emoji" },
+              entry.getIn(["data", "emoji"])
+            ),
+            entry.getIn(["data", "title"])
+          ),
+          h(
+            "h2",
+            {
+              className: "c-page-header__description e-heading__3",
+              id: "description",
+            },
+            entry.getIn(["data", "description"])
+          )
+        )
+      ),
+      h(
+        "section",
+        { className: "l-page__main c-copy", id: "body" },
+        widgetFor("body")
+      )
+    )
+  );
 };
 
-window.addEventListener("load", () => {
+// Register the GuidePreview template
+window.addEventListener("DOMContentLoaded", () => {
   if (window.CMS) {
     window.CMS.registerPreviewTemplate("guide", GuidePreview);
+  } else {
+    console.error("CMS not found");
   }
 });
