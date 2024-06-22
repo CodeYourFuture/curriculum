@@ -1,5 +1,3 @@
-import CMS from "https://unpkg.com/@staticcms/app@^4.0.0/dist/static-cms-app.js";
-
 // Fetch the versioned CSS URL from the home page
 const fetchCssUrl = async () => {
   try {
@@ -44,4 +42,8 @@ const GuidePreview = async ({ entry }) => {
   return container;
 };
 
-CMS.registerPreviewTemplate("guide", GuidePreview);
+window.addEventListener("load", () => {
+  if (window.CMS) {
+    window.CMS.registerPreviewTemplate("guide", GuidePreview);
+  }
+});
