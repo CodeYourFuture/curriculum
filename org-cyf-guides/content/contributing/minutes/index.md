@@ -17,6 +17,36 @@ Attendees:
 
 ---
 
+## 2024-06-18
+
+Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### ITP Progress
+
+Seems to be going well so far
+
+Barath has invited us all as optional to the team meetings - would appreciate drive-by context where possible.
+
+Barath will be at the summit, and wants to hold a curriculum development and content evaluation session.
+
+Suggestion: Separate specification from curriculum.
+
+Mitch: Want to restructure courses doc to centre around contract between courses, and numbers (target: intake, % retention, frequency).
+
+#### Piscine Projects
+
+AI for Daniel: Add a "tl;dr: Explain what you're looking for" at the top
+
+See discussions from https://github.com/CodeYourFuture/curriculum/pull/748#issuecomment-2176688182
+
+### ❗Actions
+
+---
+
 ## 2024-06-04
 
 ### Attendees
