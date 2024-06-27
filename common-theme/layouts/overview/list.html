@@ -4,8 +4,11 @@
   {{ partial "page-header.html" . }}
 
   {{ .Page.Content }}
-
-  {{ range .Site.Menus.syllabus }}
+  {{ $overviewMenu := .Page.Params.overview_menu }}
+  {{ if not $overviewMenu }}
+    {{ errorf "You must define a menu in your overview_menu front matter param" }}
+  {{ end }}
+  {{ range index .Site.Menus $overviewMenu }}
     {{ $moduleURL := .URL }}
     {{ $moduleTitle := .Page.Params.Title }}
     <!-- We lazily show the module title only if there's actual content under it.-->
