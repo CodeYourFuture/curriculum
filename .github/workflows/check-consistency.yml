@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  check_consistency:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,6 +14,8 @@ jobs:
         with:
           go-version: 1.21
       - name: Build tooling
-        run: (cd tooling/go && go build ./cmd/local-overrides-enforcer)
-      - name: Check consistency
+        run: (cd tooling/go && go build ./cmd/local-overrides-enforcer && go build ./cmd/sprint-consistency)
+      - name: Check override consistency
         run: ./tooling/go/local-overrides-enforcer
+      - name: Check sprint consistency
+        run: ./tooling/go/sprint-consistency
