@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  check_consistency:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
