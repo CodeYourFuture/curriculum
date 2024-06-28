@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Playing computer"
+theme = "Understanding, testing, debugging, and fixing existing code"
 +++
