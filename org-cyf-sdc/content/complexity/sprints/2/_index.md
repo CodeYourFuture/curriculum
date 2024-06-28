@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Playing computer"
+theme = "Caches and trade-offs"
 +++
