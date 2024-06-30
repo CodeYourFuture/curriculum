@@ -3,9 +3,16 @@
 {{ $response := getJSON $blockData.api $blockData.headers }}
 
 {{ if $response }}
-  <section class="c-block c-block--pullreq ">
+  {{ $id := "" }}
+  {{ range $response | first 1 }}
+    {{ $id = .id }}
+  {{ end }}
+  <section
+    class="c-block c-block--pullreq "
+    aria-labelledby="{{ $id }}"
+    id="{{ $blockData.name | urlize }}">
     {{ if ne $response nil }}
-      <h2 class="e-heading__2">
+      <h2 class="e-heading__2" id="{{ $id }}">
         🛎️ Code waiting for review
         <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
         <time class="c-block__time is-invisible" datetime="P10M"></time>

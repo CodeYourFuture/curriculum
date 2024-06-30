@@ -55,9 +55,9 @@
     <!--TOC-->
     {{ if $hasTOC }}
       <div class="c-page-header__toc " id="toc">
-        <section class="c-toc">
+        <section class="c-toc" aria-label="Table of contents.">
           <a id="top" class="c-toc__top e-button e-button--icon" href="#toc"
-            >🔖</a
+            >🔖 <span class="is-invisible">back to top</span></a
           >
           {{ if $mdTOC }}
             {{ .Page.TableOfContents }}
