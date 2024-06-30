@@ -47,6 +47,9 @@ class ConfettiCheckboxes extends HTMLElement {
         );
         if (this.allChecked) {
           this.triggerConfetti();
+          this.updateAnnouncer("Well done! You've completed all the objectives!");
+        } else {
+          this.updateAnnouncer("");
         }
       });
     });
@@ -57,6 +60,10 @@ class ConfettiCheckboxes extends HTMLElement {
       resize: true,
       useWorker: true,
     })({ particleCount: 200, spread: 170 });
+  }
+
+  updateAnnouncer(text) {
+    this.querySelector("#announcer").textContent = text;
   }
 }
 
