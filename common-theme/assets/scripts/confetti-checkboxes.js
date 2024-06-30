@@ -28,16 +28,28 @@ class ConfettiCheckboxes extends HTMLElement {
     this.allChecked = false;
 
     this.addCheckboxListeners();
+    this.initialiseCheckboxValues();
+  }
+
+  initialiseCheckboxValues() {
+    this.checkboxes.forEach((checkbox, index) => {
+      const savedValue = localStorage.getItem(`confetti-checks-${window.location.pathname}-${index}`)
+      checkbox.checked = savedValue === 'true';
+    });
   }
 
   addCheckboxListeners() {
-    this.checkboxes.forEach((checkbox) => {
+    this.checkboxes.forEach((checkbox, index) => {
       checkbox.addEventListener("change", () => {
+        localStorage.setItem(`confetti-checks-${window.location.pathname}-${index}`, checkbox.checked)
         this.allChecked = Array.from(this.checkboxes).every(
           (checkbox) => checkbox.checked
         );
         if (this.allChecked) {
           this.triggerConfetti();
+          this.updateAnnouncer("Well done! You've completed all the objectives!");
+        } else {
+          this.updateAnnouncer("");
         }
       });
     });
@@ -48,6 +60,10 @@ class ConfettiCheckboxes extends HTMLElement {
       resize: true,
       useWorker: true,
     })({ particleCount: 200, spread: 170 });
+  }
+
+  updateAnnouncer(text) {
+    this.querySelector("#announcer").textContent = text;
   }
 }
 
