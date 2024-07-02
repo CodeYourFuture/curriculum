@@ -4,7 +4,12 @@
       "c-page-header--toc"
     }}
     {{ partial "page-header.html" . }}
-    <section class="l-page__main c-copy">{{ .Content }}</section>
+    {{ with .Content }}
+      <section class="l-page__main c-copy">{{ . }}</section>
+    {{ end }}
+    {{ if not .Params.blocks }}
+      {{ errorf "There are no blocks on the %s page. Make sure this day plan has blocks." $.Page.RelPermalink }}
+    {{ end }}
     <time-stamper>
       <div class="c-block__series c-block__series--timeline">
         {{ range $index, $block := .Params.blocks }}
