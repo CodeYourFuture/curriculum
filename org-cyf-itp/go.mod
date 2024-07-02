@@ -1,4 +1,4 @@
-module github.com/CodeYourFuture/curriculum/org-cyf
+module github.com/CodeYourFuture/curriculum/org-cyf-itp
 
 go 1.21.3
 
