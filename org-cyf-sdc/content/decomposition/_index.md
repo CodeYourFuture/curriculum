@@ -3,6 +3,6 @@ title = 'Decomposition'
 description = 'Breaking down problems into manageable chunks'
 layout = 'module'
 emoji= '🧩'
-menu = ['syllabus', 'core', 'SDC']
+menu = ['main', 'SDC']
 weight='4'
 +++
