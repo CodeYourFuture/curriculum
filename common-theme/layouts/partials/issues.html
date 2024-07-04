@@ -1,20 +1,24 @@
 {{ $repo := .Params.backlog }}
-{{ $issuesUrl := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&type=issue" }}
+{{ $issuesUrlBase := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
-<!-- api call -->
+{{/* <!-- api call --> */}}
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
   {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
 {{ end }}
-{{ $issues := getJSON $issuesUrl $headers }}
-<!-- if no object show error -->
+{{/* <!-- walk through paginated issues --> */}}
+{{ .Page.Scratch.Set "issues" slice }}
+{{ partial "fetch-paginated-issues.html" (dict "Scratch" .Page.Scratch "issuesUrlBase" $issuesUrlBase "currentPath" $currentPath "page" 1 "headers" $headers) }}
+{{ $issues := .Page.Scratch.Get "issues" }}
+
+{{/* <!-- if no object show error --> */}}
 {{ if ne $issues nil }}
-  <!-- range over issues list and pull out useful data -->
+  {{/* <!-- range over issues list and pull out useful data --> */}}
   {{ range $issues }}
 
     {{ $showIssue := true }}
-    <!-- if a filter exists, only show issues with the right label -->
+    {{/* <!-- if a filter exists, only show issues with the right label --> */}}
     {{ if $filter }}
       {{ $showIssue = false }}
       {{ range .labels }}
@@ -25,7 +29,7 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    <!-- now show the issue -->
+    {{/* <!-- now show the issue --> */}}
     {{ if $showIssue }}
       {{ if strings.Contains .body "_No response_" }}
         {{ errorf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
@@ -64,5 +68,5 @@
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $issuesUrl $issues }}
+  {{ errorf "Error, fetch of %s failed: %v" $issuesUrlBase $issues }}
 {{ end }}

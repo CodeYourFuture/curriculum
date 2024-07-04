@@ -1,0 +1,22 @@
+{{/* # This is a recursive partial
+  # The point is to walk the paginated issues
+  # So we don't lose coursework tasks pushed off page 1 as pull requests start piling up
+*/}}
+{{/* set the current page we are getting */}}
+{{ $issuesUrl := print .issuesUrlBase .page }}
+{{/* fetch the issues */}}
+{{ $pageOfIssues := getJSON $issuesUrl .headers }}
+{{/* get the issues we have so far in our Scratch */}}
+{{ $fetchedIssues := .Scratch.Get "issues" }}
+
+{{ if and $pageOfIssues (gt (len $pageOfIssues) 0) }}
+  {{ range $pageOfIssues }}
+    {{ $fetchedIssues = $fetchedIssues | append . }}
+  {{ end }}
+  {{ .Scratch.Set "issues" $fetchedIssues }}
+  {{/* If we got 100 issues, there might be more. Let's fetch the next page */}}
+  {{ if gt (len $pageOfIssues) 99 }}
+    {{ $nextPage := add .page 1 }}
+    {{ partial "fetch-paginated-issues.html" (dict "Scratch" .Page.Scratch "issuesUrlBase" .issuesUrlBase  "page" $nextPage "headers" .headers ) }}
+  {{ end }}
+{{ end }}
