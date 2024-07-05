@@ -10,7 +10,7 @@
 {{ if $pageOfIssues.Err }}
   {{ errorf "🏷️ Issues not fetched: %s" $pageOfIssues.Err }}
 {{ else }}
-  {{ $pageOfIssues = transform.Unmarshal $pageOfIssues.Content }}
+  {{ $pageOfIssues = $pageOfIssues.Content | transform.Unmarshal }}
 {{ end }}
 
 {{/* get the issues we have so far in our Scratch.
@@ -18,7 +18,6 @@
 */}}
 {{ $fetchedIssues := .Scratch.Get "issues" }}
 {{ .Scratch.Set "issues" (append $fetchedIssues $pageOfIssues) }}
-
 {{/* If we got 100 issues, there might be more. Let's fetch the next page */}}
 {{ if eq (len $pageOfIssues) 99 }}
   {{ $nextPage := add .page 1 }}
