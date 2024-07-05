@@ -1,11 +1,12 @@
 {{ $repo := .Params.backlog }}
-{{ $issuesUrlBase := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
+{{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
 {{/* <!-- api call --> */}}
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
+{{ $headers := dict }}
+{{ $token := os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN" }}
+{{ if ne $token "" }}
+  {{ $headers = dict "headers" (dict "Authorization" (print "Bearer " $token)) }}
 {{ end }}
 {{/* <!-- walk through paginated issues --> */}}
 {{ .Page.Scratch.Set "issues" slice }}
