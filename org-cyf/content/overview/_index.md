@@ -1,5 +1,6 @@
 +++
 title="Course overview"
+emoji="🦉"
 layout="overview"
 overview_menu="syllabus"
 +++
