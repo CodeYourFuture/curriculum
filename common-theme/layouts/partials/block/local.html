@@ -6,7 +6,9 @@
 {{ end }}
 
 
-<section class="c-block c-block--{{ $blockData.type }}" data-card>
+<section
+  class="c-block c-block--{{ $blockData.type }}"
+  aria-labelledby="{{ $blockData.name |urlize }}">
   <div class="c-block__body" tabindex="0">
     <header class="c-block__header">
       <h2
