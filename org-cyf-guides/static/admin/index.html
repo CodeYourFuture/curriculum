@@ -6,21 +6,28 @@
     <title>Content Manager</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- 1. Decap CMS bugfix, see https://github.com/decaporg/decap-cms/issues/5092 -->
+    <!-- 2. Decap CMS customisation, see https://github.com/CodeYourFuture/CYF-PD/issues/18 -->
+    <style>
+      [data-slate-editor] {
+        -webkit-user-modify: read-write !important;
+      }
+      #nc-root [class*="WorkflowContainer"] [style]:first-of-type {
+        display: none;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Space&Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
-      href="https://unpkg.com/@staticcms/app@^4.0.0/dist/main.css" />
-    <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml" />
+      media="print" />
   </head>
   <body>
-    <!-- Include the script that builds the page-->
-    <script src="https://unpkg.com/@staticcms/app@^4.0.0/dist/static-cms-app.js"></script>
-    <script src="/admin/cms-preview.js"></script>
+    <!-- Include the script that builds the page and powers Decap CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>
-      window.addEventListener("DOMContentLoaded", () => {
-        if (window.CMS) {
-          window.CMS.init();
-        }
-      });
+      CMS.registerPreviewStyle("./bundled.min.css");
     </script>
   </body>
 </html>

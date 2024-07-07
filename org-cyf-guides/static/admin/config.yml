@@ -21,7 +21,6 @@ collections:
           pattern: ["^.{1,55}$", "Must have between 1 and 55 characters"],
           required: true,
         }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Description",
           name: "description",
@@ -35,4 +34,5 @@ collections:
           pattern: ["^.{1,2}$", "No more than 2 characters allowed"],
           required: true,
         }
+      - { label: "Weight", name: "weight", widget: "number" }
       - { label: "Content", name: "body", widget: "markdown", required: true }
