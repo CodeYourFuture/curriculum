@@ -1,0 +1,17 @@
+{{/* this converts a fenced code block to a gradio lite playground
+  it's pretty slow, so use it wisely
+  it's looking for ```gradio
+*/}}
+<script
+  type="module"
+  crossorigin
+  src="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@gradio/lite/dist/lite.css" />
+{{/* TODO, slice files, create requirements delimiter
+  https://www.gradio.app/guides/gradio-lite#more-examples-adding-additional-files-and-requirements
+*/}}
+<gradio-lite playground>
+  <gradio-file name="app.py" entrypoint>{{ .Inner |safeHTML }}</gradio-file>
+</gradio-lite>
