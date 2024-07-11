@@ -26,10 +26,10 @@
   {{ end }}
 
   {{/* let's call our web component */}}
-  <multiple-choice data-correct="{{$correct}}">
-    <form class="c-quiz" slot="quiz">
+  <multiple-choice data-correct="{{$correct}}" class="c-quiz">
+    <form slot="quiz">
       <fieldset class="c-quiz__fieldset" tabindex="0">
-        <legend class="c-quiz__legend">{{ $question }}</legend>
+        <legend class="c-quiz__legend">🤔 {{ $question }}</legend>
         <ol class="c-quiz__list">
            {{range $index, $answer := $answers }}
           <li class="c-quiz__answer">
@@ -48,14 +48,14 @@
         {{ end }}
         </ol>
       </fieldset>
-      <dialog class="c-quiz__feedback" slot="feedback">
-        {{ range $index, $fb := $feedback }}
-          <p class="c-quiz__feedback-text" hidden data-index="{{$index}}">{{ $fb }}</p>
-        {{ end }}
-      </dialog>
     </form>
+    <section class="c-quiz__feedback" slot="feedback" aria-live="polite">
+        {{ range $index, $fb := $feedback }}
+          <p class="c-quiz__remark" data-index="{{$index}}" >💬 {{ $fb }}</p>
+        {{ end }}
+      </section>
   </multiple-choice>
  
-  {{ $multipleChoice := resources.Get "scripts/multiple-choice.js" | resources.Minify }}
+  {{ $multipleChoice := resources.Get "scripts/multiple-choice.js" | resources.Minify | resources.Fingerprint}}
   <script src="{{ $multipleChoice.Permalink }}" defer></script>
 
