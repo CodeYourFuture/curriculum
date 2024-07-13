@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ partial "page-header.html" . }}
-  <article class="{{ with .Content }}c-copy{{ end }}">{{ .Content }}</article>
+  {{ with .Content }}<article class="c-copy">{{ . }}</article>{{ end }}
   {{ $parent := .Section }}
   <ol class="c-timeline">
     {{ range where .Site.Pages "Section" $parent }}

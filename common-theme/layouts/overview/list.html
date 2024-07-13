@@ -1,34 +1,40 @@
 {{ define "main" }}
-
   {{ $site := .Site }}
 
   {{ partial "page-header.html" . }}
 
   {{ .Page.Content }}
-
-  {{ range .Site.Menus.syllabus }}
+  {{ $overviewMenu := .Page.Params.overview_menu }}
+  {{ if not $overviewMenu }}
+    {{ errorf "You must define a menu in your overview_menu front matter param" }}
+  {{ end }}
+  {{ range index .Site.Menus $overviewMenu }}
     {{ $moduleURL := .URL }}
     {{ $moduleTitle := .Page.Params.Title }}
     <!-- We lazily show the module title only if there's actual content under it.-->
     {{ $hasShownModuleTitle := false }}
 
     {{ range where $site.Pages "Section" .Page.Section }}
+      {{ $thisSection := .Section }}
+
       {{ if or (not .Params.Theme) (not (in .Params.menu_level "module")) }}
         {{ continue }}
       {{ end }}
       {{ $themePage := . }}
       {{ $relevantBlocksPage := or .Params.blocks_page_for_overview "prep" }}
-      {{ range where $site.Pages "Section" $themePage.Section }}
-        {{ if not (strings.HasPrefix .Path (printf "%s/%s/" (path.Dir $themePage.Path) $relevantBlocksPage)) }}
-          {{ continue }}
-        {{ end }}
+      {{/* this is the same strategy used on success page. Look there for how to add extra pages */}}
+      {{ $prep := .Site.GetPage (printf "%sprep/index.md"
+        .CurrentSection.RelPermalink)
+      }}
+      {{ with $prep }}
         {{ if not $hasShownModuleTitle }}
           <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
           {{ $hasShownModuleTitle = true }}
         {{ end }}
-        <!-- This is a pretty sketchy way to make this link URL, but there doesn't seem to be an obvious way to get this link otherwise.-->
-        <h5><a href="/{{ path.Dir .Path }}">{{ $themePage.Params.Theme }}</a></h5>
-        <ol style="list-style: none;">
+        <h5>
+          <a href="{{ $prep.Permalink }}">{{ $themePage.Params.Theme }}</a>
+        </h5>
+        <ol>
           {{ range .Params.blocks }}
             {{ $block := ($site.GetPage .src) }}
             {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
@@ -36,9 +42,8 @@
             {{ end }}
             <li>{{ $block.Title }}</li>
           {{ end }}
-        {{ end }}
-      </ol>
+        </ol>
+      {{ end }}
     {{ end }}
-
   {{ end }}
 {{ end }}

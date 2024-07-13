@@ -36,11 +36,16 @@
           {{ range $dayplan.Params.blocks }}
             {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
           {{ end }}
+          {{/* If you don't have any blocks but you do have places to get them from */}}
+          {{ if and (not $blocks) $dayplan $prep }}
+            {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." $.Page.RelPermalink }}
+          {{ end }}
           {{/* Deduplicate blocks */}}
           {{ $blocks = $blocks | uniq }}
           {{/* now we need to extract objectives from blocks, some not stored in this repo,
             so we will use the block-data scratch function to get the block data
           */}}
+
           {{ range $blocks }}
             {{ $name := .name }}
             {{ $src := .src }}

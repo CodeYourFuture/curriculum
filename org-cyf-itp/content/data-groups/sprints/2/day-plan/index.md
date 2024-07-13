@@ -8,6 +8,10 @@ weight = 3
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name="Workshop"
 src="blocks/workshop"
 time="120"

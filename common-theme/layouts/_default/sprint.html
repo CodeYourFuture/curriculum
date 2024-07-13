@@ -1,15 +1,17 @@
 {{ define "main" }}
   {{ partial "page-header.html" . }}
-  <article class="{{ with .Content }}c-copy{{ end }}">{{ .Content }}</article>
-  <ol class="c-timeline">
-    {{ range sort .Pages "Params.weight" }}
-      {{ if in .Params.menu_level "sprint" }}
-        <li class="c-timeline__entry">
-          <a class="c-timeline__post" href="{{ .RelPermalink }}">
-            <h3 class="c-timeline__title">{{ .Title }}</h3>
-          </a>
-        </li>
+  <article class="{{ with .Content }}c-copy{{ end }}">
+    {{ .Content }}
+    <ol class="c-timeline">
+      {{ range sort .Pages "Params.weight" }}
+        {{ if in .Params.menu_level "sprint" }}
+          <li class="c-timeline__entry">
+            <a class="c-timeline__post" href="{{ .RelPermalink }}">
+              <h3 class="c-timeline__title">{{ .Title }}</h3>
+            </a>
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </ol>
+    </ol>
+  </article>
 {{ end }}

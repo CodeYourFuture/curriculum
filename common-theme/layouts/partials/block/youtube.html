@@ -1,9 +1,12 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-<section class="c-block c-block--{{ $blockData.type }}">
+<section
+  class="c-block c-block--{{ $blockData.type }}"
+  aria-labelledby="{{ $blockData.name |urlize }}">
   {{ if not $blockData.isShortcode }}
     <h2
       class="c-block__title e-heading__2 is-invisible"
       id="{{ $blockData.name |urlize }}">
+      Youtube:
       <a href="{{ $blockData.sot }}">{{ $blockData.name }} 🔗</a>
     </h2>
   {{ end }}
