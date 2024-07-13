@@ -7,6 +7,10 @@
 
   The point of setting time is to help trainees and volunteers understand
   how long to spend on activities.
+
+  At the moment this is always a countdown timer web component.
+  You can double click to set it going.
+  TODO: make this opt in for a simple time block if that comes up.
 */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $localBlock := .Page.Site.GetPage $blockData.api }}
