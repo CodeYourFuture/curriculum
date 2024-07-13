@@ -40,6 +40,10 @@ A repository on our own computer is said to be **local**.
 
 You'll need to clone **your fork** of the education blog repo.
 
-Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs (Remember to use the url for your fork of the education-blog repo when you are cloning)
+Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs
+
+##### 🎗️ Reminder:
+- use the url for your fork of the `education-blog` repo when you are cloning
+- when selecting the location to clone your files, choose the `CYF` folder you created in the [module prep](/user-data/prep/#create-cyf-folder)
 
 {{</note>}}
