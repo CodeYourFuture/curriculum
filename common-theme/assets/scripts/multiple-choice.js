@@ -27,7 +27,7 @@ class MultipleChoice extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
             <style>
-            ::slotted([slot=feedback]) {
+            ::slotted([slot="feedback"]) {
                 background: var(--theme-color--outline);
                 padding: var(--theme-spacing--1) var(--theme-spacing--gutter);
                 margin: calc(-1 * var(--theme-spacing--6)) var(--theme-spacing--gutter) var(--theme-spacing--4);
@@ -59,18 +59,17 @@ class MultipleChoice extends HTMLElement {
     );
   }
   updateFeedback(selectedAnswer) {
+    // rm classes from the slot
+    this.feedback[0].closest("section").classList.remove("is-good");
     // unhide the feedback that matches the selected radio
-    this.feedback.forEach((item, index) => {
-      item.hidden = index !== selectedAnswer;
+    this.feedback.forEach((remark, index) => {
+      remark.hidden = index !== selectedAnswer;
     });
 
-    // Update classes on radios
-    this.radios.forEach((radio) => {
-      radio.classList.remove("is-right", "is-wrong");
-      radio.classList.add(
-        selectedAnswer === this.correctAnswer ? "is-right" : "is-wrong"
-      );
-    });
+    //if it's right, add a signal class
+    if (selectedAnswer === this.correctAnswer) {
+      this.feedback[0].closest("section").classList.add("is-good");
+    }
   }
 }
 
