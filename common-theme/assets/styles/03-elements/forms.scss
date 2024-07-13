@@ -1,0 +1,21 @@
+form {
+  padding: var(--theme-spacing--2);
+  width: 100%;
+  margin: 0 auto var(--theme-spacing--4);
+  border: none;
+}
+
+fieldset {
+  border: var(--theme-border);
+  border-color: var(--theme-color--block);
+  box-shadow: var(--theme-box-shadow--slim);
+}
+
+legend {
+  font: var(--theme-type-size--4) var(--theme-font--display);
+}
+
+[type="submit"] {
+  display: flex;
+  margin: 0 0 auto auto; //pin right
+}
