@@ -6,7 +6,9 @@ The goals of the piscine are:
 1. Filter out graduates from ITP who are unlikely to get and thrive in a job in software.
    - This may be for reasons of knowledge, understanding, commitment, or team-work.
    - This may be because _the trainee decides_ that this isn't for them, or because _CYF assesses_ that this isn't for them.
-   - We _want_ anyone who will realistically get a job and thrive to succeed in the piscine. But we _also_ want as many people as possible who _won't_ to drop out now, rather than waste more of their (and volunteers') time.
+   - We _want_ anyone who is ready to do the SDC and will realistically get a job after it and thrive to succeed in the piscine. But we _also_ want to sign-post those who _aren't_ realistically ready to get a job.
+      - As much as possible, we would like to be able to give suggestions to those who aren't ready about what action if any would help them to be ready (e.g. practice functions, practice breaking down problems, practice English language, etc).
+      - If a trainee is unlikely to get a job in a practical time scale, it's better for them to realise this early and decide to drop out, rather than waste more of their (and volunteers') time.
 
 The goals of the projects in the piscine are:
 1. To **test understanding** of the concepts they were meant to learn in ITD and ITP.
@@ -24,7 +26,15 @@ Some projects will be done in groups, and others as individuals. If your project
 
 Your project should at least list an introduction and a list of requirements. Additional sections are up to you.
 
-Make sure to include a rubric. TODO: Work out how much we want rubrics to be exposed to trainees vs kept for assessors.
+Make sure to include a rubric. The rubric will be shared with trainees as part of the project.
+
+State whether the project is intended for an individual trainee, a group of trainees, or either.
+
+Your project should be able to be completed by a trainee (or team of trainees, for group projects) of ITP in no more than a week. This means roughly 20 hours of work, end-to-end, per person.
+
+It's ok to include stretch goals in your project, but these must not be part of what's assessed. Some trainees quickly get through projects, and giving them more things to do with their time is useful. But many trainees get distracted by stretch goals when they haven't completed the main project. Make it **unambiguously clear** that stretch goals are not assessed, and they should only ever be attempted after the core project is completed.
+
+We do not expect sample solutions alongside project specifications.
 
 ### Make clear what the focus areas are and aren't
 
@@ -56,20 +66,34 @@ When trainees fail, we need to tell them _why_ they failed a project. Don't crea
 
 The outcomes of these projects will determine who we support to continue learning and get jobs. This affects people's lives. We need to be fair in our decisions.
 
-Rubrics should be as objective as we can make them. Ideally they contain a series of boolean statements that can be easily tested.
+Rubrics should be as objective as we can make them. Ideally they contain a series of boolean statements that can be easily tested without significant time with individual trainees.
 
 By clear in the rubric what the threshold for success is. Probably it is yes answers to all questions, but if there are valid alternatives, or things that can be skipped, say so.
 
+### Assessment
+
+We assess projects in two ways:
+1. Manually comparing the submitted project against its rubric. This can be done as soon as the project as submitted (which must be by a deadline).
+2. Asking the trainee two high-level questions in an interview (which may yield lower-level questions):
+   1. How does (feature x) work? (e.g. "How did the number 7 appear on screen here?" or "What caused this pop-up to appear when my mouse moved?")
+   2. Explain (play computer for) this block of code.
+
+The interview happens at the end of the Piscine, and the assessors may pick any of the projects to assess this way.
+
 ### Be explicit about what should be submitted
 
-Probably the answer is "A GitHub repo and a link to a deployed website". Say so.
+Probably the answer is "A GitHub repo, a git commit hash, and a link to a deployed website". Say so.
 
-### TODO: Open questions
+Make sure that whatever is submitted is sufficient to evaluate the rubric.
 
-Do we want to include time suggestions/limits?
+We include a git commit hash in here to help enforce that the project must be completed by a deadline.
 
-Do we want some kind of stretch goals / bonus credit?
+### Group project expectations
 
-Do we want to require sample solutions?
+Some projects are intended to be completed in a group. Group sizes are expected to be 3-4 trainees, and do not include non-trainees (i.e. there is no external PM or Tech Lead).
 
-What requirements do we have around group work? e.g. do we require a certain split of lines of code / commits / features / ...?
+In group projects, we require an equal split of features between the trainees.
+
+When specifying a group project, make sure four people can reasonably be working on their own feature in parallel.
+
+At assessment time, we expect every trainee to be able to talk about every line of code in their project, even the ones they didn't write. It is up to the trainees how they ensure this.
