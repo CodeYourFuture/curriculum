@@ -8,11 +8,11 @@ emoji: 🧑🏿‍🤝‍🧑🏿
 
 ## ⏳ 2023 Curriculum
 
-{{< contributors "curriculum">}}
+{{< contributors "https://api.github.com/repos/CodeYourFuture/curriculum" >}}
 
 ## ⌛ [2020 Syllabus](https://syllabus.codeyourfuture.io/)
 
-{{< contributors "syllabus">}}
+{{< contributors "https://api.github.com/repos/CodeYourFuture/syllabus" >}}
 
 ➕➕ Plus hundreds of volunteers who have contributed to the curriculum and classes since 2016.
 
