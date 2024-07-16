@@ -14,11 +14,13 @@ VSCode is an application that enables developers to view and edit files on their
 
 ### Explore VSCode
 
-Figure out how to open the cloned repository on your local machine in VSCode.
+1. Figure out how to open the cloned repository on your local machine in VSCode.
 
-Explore the repository in VSCode and use the code editor to look at the various files and folders.
+2. Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
-Try opening the Integrated Terminal in your VSCode window
+3. Try opening the Integrated Terminal in your VSCode window
+
+🤔 If you get stuck on any of these exercises, it's a good idea to search online. For example, you could Google "opening terminal in vscode"
 
 {{</note>}}
 
