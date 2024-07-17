@@ -50,7 +50,7 @@
 {{ else }}
   {{ if "github" | in $src }}
     {{/* Change base URL to api.github.com */}}
-    {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+    {{ $newSrc := replace $src "https://github.com/" "https://api.github.com/repos/" }}
 
     {{ if (in $src "issues") }}
       {{ .Scratch.SetInMap "blockData" "type" "issue" }}
