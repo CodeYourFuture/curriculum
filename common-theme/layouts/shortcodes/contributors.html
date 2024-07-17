@@ -1,4 +1,4 @@
-{{ $repo := .Get 0 }}
+{{ $repo := .Get 0 |default $.Site.Params.orgapi }}
 {{ $headers := (dict) }}
 {{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
   {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}

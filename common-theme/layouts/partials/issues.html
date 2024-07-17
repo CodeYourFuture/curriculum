@@ -1,6 +1,6 @@
 {{ $repo := .Params.backlog }}
-{{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $filter := .Params.backlog_filter }}
+{{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $currentPath := .Page.RelPermalink }}
 {{/* <!-- api call --> */}}
 {{ $headers := dict }}
