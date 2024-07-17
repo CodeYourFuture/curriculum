@@ -5,7 +5,7 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Grouping data: Arrays and loops"
+theme = "Rendering components"
 +++
 
 
