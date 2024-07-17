@@ -1,5 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 
 {{ if $response }}
   <section

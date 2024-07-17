@@ -1,6 +1,7 @@
+{{/* This is a page, basically, not a block, so we don't go via blockData for now */}}
 {{ $repo := .Params.backlog }}
-{{ $filter := .Params.backlog_filter }}
 {{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
+{{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
 {{/* <!-- api call --> */}}
 {{ $headers := dict }}

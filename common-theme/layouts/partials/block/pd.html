@@ -1,5 +1,5 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 {{ $block := $blockData }}
 {{ $tab_set_id := $blockData.name | anchorize}}
 {{ if $response }}

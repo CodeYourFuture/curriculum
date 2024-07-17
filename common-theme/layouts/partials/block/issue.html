@@ -1,6 +1,6 @@
 {{/* This block expects the github issue api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 
 {{ if $response }}
   <section class="c-block c-block--{{ $blockData.type }}">

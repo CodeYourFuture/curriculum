@@ -1,8 +1,12 @@
 {{/* This block expects the github pulls api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
-
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 {{ if $response }}
+  {{ if $response.Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title $response.Err }}
+  {{ end }}
+  {{ $response = $response.Content | transform.Unmarshal }}
+
   {{ $id := "" }}
   {{ range $response | first 1 }}
     {{ $id = .id }}
@@ -42,5 +46,5 @@
     >
   </section>
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $blockData.api $response }}
+  {{ warnf "No pull requests at %s" $blockData.api $response }}
 {{ end }}
