@@ -46,5 +46,6 @@
     >
   </section>
 {{ else }}
+  <mark>⚠️ {{ "No pull requests at %s" $blockData.api $response }}</mark>
   {{ warnf "No pull requests at %s" $blockData.api $response }}
 {{ end }}

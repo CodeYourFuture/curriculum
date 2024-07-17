@@ -3,13 +3,20 @@
 {{ $block := $blockData }}
 {{ $tab_set_id := $blockData.name | anchorize}}
 {{ if $response }}
+  {{ if $response.Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title $response.Err }}
+  {{ end }}
+  {{ $response = $response.Content | transform.Unmarshal }}
+
+{{/*  Here we are setting up the feedback form for the block */}}
 {{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
 {{/*  Here we are decoding the content from the base64 readme API
   and turning it back into a Hugo doc with front matter
 An improvement on this would likely be to 
 find out how to make Hugo recognise this as a valid Hugo doc directly 
-Have a crack!  */}}
-  {{ $decodedContent := $response.content | base64Decode }}
+Note: actually this would be done by registering the PD repo as a module and then mounting it in here
+TODO Have a crack!  */}}
+  {{ $decodedContent := $response | base64Decode }}
   {{ $placeholder := "UNIQUE_PLACEHOLDER" }}
   {{ $decodedContentWithPlaceholder :=
     replaceRE "((?:.*---.*){1})---" "${1}" $decodedContent

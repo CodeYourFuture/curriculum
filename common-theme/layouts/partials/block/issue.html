@@ -3,6 +3,7 @@
 {{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 
 {{ if $response }}
+  {{ $response = $response.Content | transform.Unmarshal }}
   <section class="c-block c-block--{{ $blockData.type }}">
     <header class="c-block__header">
       <h2
