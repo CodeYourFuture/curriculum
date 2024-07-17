@@ -33,7 +33,7 @@
 {{ $headers := dict }}
 {{ $token := os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN" }}
 {{ if ne $token "" }}
-  {{ $headers := dict "headers" (dict "Authorization" (print "Bearer " $token )) }}
+  {{ $headers = dict "headers" (dict "Authorization" (print "Bearer " $token)) }}
 {{ else }}
   {{ errorf "🏷️ Site needs a GITHUB_BEARER_TOKEN. Check the README" }}
 {{ end }}
