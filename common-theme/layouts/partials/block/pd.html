@@ -1,12 +1,17 @@
+
+
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 {{ $block := $blockData }}
 {{ $tab_set_id := $blockData.name | anchorize}}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
+
 {{ if $response }}
   {{ if $response.Err }}
     {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title $response.Err }}
   {{ end }}
-  {{ $response = $response.Content | transform.Unmarshal }}
+
+  {{ $response = $response| transform.Unmarshal }}
+  
 
 {{/*  Here we are setting up the feedback form for the block */}}
 {{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
@@ -16,7 +21,7 @@ An improvement on this would likely be to
 find out how to make Hugo recognise this as a valid Hugo doc directly 
 Note: actually this would be done by registering the PD repo as a module and then mounting it in here
 TODO Have a crack!  */}}
-  {{ $decodedContent := $response | base64Decode }}
+  {{ $decodedContent := $response.content | base64Decode }}
   {{ $placeholder := "UNIQUE_PLACEHOLDER" }}
   {{ $decodedContentWithPlaceholder :=
     replaceRE "((?:.*---.*){1})---" "${1}" $decodedContent
