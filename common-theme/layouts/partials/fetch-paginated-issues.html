@@ -7,23 +7,19 @@
 {{/* fetch the issues using the new style in v0.127 */}}
 {{ $pageOfIssues := resources.GetRemote $issuesUrl .headers }}
 
-{{ if eq nil $pageOfIssues }}
-  {{ errorf "🏷️ Issues not fetched: API at %s returned nil" $issuesUrl }}
-{{ else if $pageOfIssues.Err }}
-  {{ errorf "🏷️ Issues not fetched: %s" $pageOfIssues.Err }}
+{{ if $pageOfIssues.Err }}
+  {{ errorf "🏷️ Issues not fetched: %s on $s" $pageOfIssues.Err  .Page.Title }}
 {{ else }}
-  {{ if ne $pageOfIssues nil }}
-    {{ $pageOfIssues = $pageOfIssues.Content | transform.Unmarshal }}
+  {{ $pageOfIssues = $pageOfIssues.Content | transform.Unmarshal }}
 
-    {{/* get the issues we have so far in our Scratch.
-      This how we make these issues available to our parent partial issues.html
-    */}}
-    {{ $fetchedIssues := .Scratch.Get "issues" }}
-    {{ .Scratch.Set "issues" (append $fetchedIssues $pageOfIssues) }}
-    {{/* If we got 100 issues, there might be more. Let's fetch the next page */}}
-    {{ if eq (len $pageOfIssues) 99 }}
-      {{ $nextPage := add .page 1 }}
-      {{ partial "fetch-paginated-issues.html" (dict "Scratch" .Scratch "issuesUrlBase" .issuesUrlBase  "page" $nextPage "headers" .headers ) }}
-    {{ end }}
+  {{/* get the issues we have so far in our Scratch.
+    This how we make these issues available to our parent partial issues.html
+  */}}
+  {{ $fetchedIssues := .Scratch.Get "issues" }}
+  {{ .Scratch.Set "issues" (append $fetchedIssues $pageOfIssues) }}
+  {{/* If we got 100 issues, there might be more. Let's fetch the next page */}}
+  {{ if eq (len $pageOfIssues) 99 }}
+    {{ $nextPage := add .page 1 }}
+    {{ partial "fetch-paginated-issues.html" (dict "Scratch" .Scratch "issuesUrlBase" .issuesUrlBase  "page" $nextPage "headers" .headers ) }}
   {{ end }}
 {{ end }}
