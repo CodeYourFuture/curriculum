@@ -30,18 +30,18 @@ time=80
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-JS2/pulls"
 time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time=50
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-JS2/pulls"
-time="0"
-[[blocks]]
-name="Retro"
-src="blocks/retro"
+# [[blocks]]
+# name="Afternoon break"
+# src="blocks/afternoon-break"
+# [[blocks]]
+# name="Study Group"
+# src="blocks/study-group"
+# time=50
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-JS2/pulls"
+# time="0"
+# [[blocks]]
+# name="Retro"
+# src="blocks/retro"
 +++

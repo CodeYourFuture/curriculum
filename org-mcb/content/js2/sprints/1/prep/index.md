@@ -36,7 +36,7 @@ src="module/js2/mutation"
 [[blocks]]
 name="side-effects"
 src="module/js2/side-effects"
-[[blocks]]
-name="Failing Fast"
-src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"
+# [[blocks]]
+# name="Failing Fast"
+# src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"
 +++
