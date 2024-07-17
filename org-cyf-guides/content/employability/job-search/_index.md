@@ -42,10 +42,9 @@ There are many job boards advertising tech jobs online. Becoming efficient at se
 Job boards come in various formats the main two being:
 
 - **General Job Boards** e.g. Indeed, LinkedIn, Monster, and Glass Door. These advertise across industries and are often good for junior-level positions.
-- **Niche Jobs/Industry specificboards** e.g. Otta, GitHub, devitjobs.uk. These sites focus on specific skills or interests and can sometimes advertise roles not found on larger sites
+- **Niche Jobs/Industry specificboards** e.g. Otta, GitHub, [devitjobs.uk.](devitjobs.uk.) These sites focus on specific skills or interests and can sometimes advertise roles not found on larger sites
 
 Finding the right boards can make your job search easier. This involves identifying which sites advertise jobs that you are interested in, here is a link to sites highlighted by grads as useful for their searches: [[LIVE] Collective Job Research Form (Responses)](https://docs.google.com/spreadsheets/d/1q62uWPJJ2HGc_f6RzFY5MRzfbSP17jHlhxImMlrfo2k/edit?resourcekey=&gid=841715262#gid=841715262)
-
 
 ### Networking
 
@@ -101,8 +100,8 @@ Each site has different ways of setting up alerts (see LinkedIn’s [here](https
 **Exercise:**
 
 - Using the filters and search terms you found in the previous exercises set up alerts on different job sites.
-- review these alerts as they update you over the next few weeks. 
-  - Are they finding good job openings? 
+- review these alerts as they update you over the next few weeks.
+  - Are they finding good job openings?
   - How can you refine your search terms and filters to be more useful?
 
 ## Creating a profile
@@ -111,12 +110,7 @@ Some job boards allow you to create a profile. This can help match you to job op
 
 It is worth setting up profiles that reflect your skills and experiences on your most used job sites. 
 
-
 Hint: Remember to keep these profiles up to date as you work on projects, gain expertise and learn new skills. Keep a spreadsheet or document in which you know which websites you have signed up for and update them all when something changes.
-
-
-
-
 
 ## Collectively finding job opportunities
 
