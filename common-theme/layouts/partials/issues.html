@@ -3,12 +3,7 @@
 {{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
-{{/* <!-- api call --> */}}
-{{ $headers := dict }}
-{{ $token := os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN" }}
-{{ if ne $token "" }}
-  {{ $headers = dict "headers" (dict "Authorization" (print "Bearer " $token)) }}
-{{ end }}
+{{ $headers := partial "github-auth.html" }}
 {{/* <!-- walk through paginated issues --> */}}
 {{ .Page.Scratch.Set "issues" slice }}
 {{ partial "fetch-paginated-issues.html" (dict "Scratch" .Page.Scratch "issuesUrlBase" $issuesUrlBase "currentPath" $currentPath "page" 1 "headers" $headers) }}

@@ -1,11 +1,10 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
 
-{{ if $response }}
-  {{ if $response.Err }}
-    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title $response.Err }}
+{{ with resources.GetRemote $blockData.api $blockData.headers }}
+  {{ with .Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title .Err }}
   {{ end }}
-  {{ $response = $response.Content | transform.Unmarshal }}
+  {{ $response := .Content | transform.Unmarshal }}
   <section
     class="c-block c-block--{{ $blockData.type }}"
     aria-labelledby="{{ $blockData.name |urlize }}">

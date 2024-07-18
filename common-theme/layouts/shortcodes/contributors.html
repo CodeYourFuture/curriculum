@@ -6,34 +6,23 @@
 {{ $api := printf "%s/contributors" $repo }}
 
 {{/* Set up the auth header */}}
-{{ $headers := dict }}
-{{ $token := os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN" }}
-{{ if ne $token "" }}
-  {{ $headers := dict "headers" (dict "Authorization" (print "Bearer " $token )) }}
-{{ else }}
-  {{ errorf "🏷️ Contributors needs a GITHUB_BEARER_TOKEN. Check the README" }}
-{{ end }}
+{{ $headers := partial "github-auth.html" }}
 
 {{/* Let's go get our contributors list */}}
-{{ $contributors := resources.GetRemote $api $headers }}
-{{ if $contributors }}
-  {{ if $contributors.Err }}
-    {{ warnf "🏷️ No contributors: %s . Error: %s. Page: %s" $api $contributors.Err .Page.Title }}
-  {{ else }}
-    {{ $contributors = $contributors.Content | transform.Unmarshal }}
-
-
-    <ol class="c-contributors">
-      {{ range sort $contributors ".contributions" "desc" }}
-        <li class="c-contributor">
-          <h3 class="c-contributor__name">
-            <a class="c-contributor__link" href="{{ .html_url }}"
-              >{{ .login }}</a
-            >
-          </h3>
-          <img class="c-contributor__avatar" src="{{ .avatar_url }}" alt="" />
-        </li>
-      {{ end }}
-    </ol>
+{{ with resources.GetRemote $api $headers }}
+  {{ with .Err }}
+    {{ warnf "🏷️ No contributors: %s . Error: %s. Page: %s" $api .Err .Page.Title }}
   {{ end }}
+
+  {{ $contributors := .Content | unmarshal }}
+  <ol class="c-contributors">
+    {{ range sort $contributors ".contributions" "desc" }}
+      <li class="c-contributor">
+        <h3 class="c-contributor__name">
+          <a class="c-contributor__link" href="{{ .html_url }}">{{ .login }}</a>
+        </h3>
+        <img class="c-contributor__avatar" src="{{ .avatar_url }}" alt="" />
+      </li>
+    {{ end }}
+  </ol>
 {{ end }}
