@@ -3,18 +3,16 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $block := $blockData }}
 {{ $tab_set_id := $blockData.name | anchorize}}
-{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
+{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
 
-{{ if $response }}
-  {{ if $response.Err }}
-    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title $response.Err }}
+{{ with resources.GetRemote $blockData.api $blockData.headers}}
+  
+  {{ with .Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api $.Page.Title . }}
   {{ end }}
 
-  {{ $response = $response| transform.Unmarshal }}
-  
+  {{ $response := . | unmarshal }}
 
-{{/*  Here we are setting up the feedback form for the block */}}
-{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
 {{/*  Here we are decoding the content from the base64 readme API
   and turning it back into a Hugo doc with front matter
 An improvement on this would likely be to 
@@ -109,3 +107,4 @@ TODO Have a crack!  */}}
   </tab-panels>
 </section>
 {{ end }}
+{{ end}}

@@ -1,6 +1,6 @@
 {{/* We need to get the api */}}
 {{ $repo := .Get 0 }}
-{{ if eq $repo "" }}
+{{ if or (eq $repo "") (eq (findRE "^https://api.github.com/repos/" $repo) 0) }}
   {{ errorf "🏷️ This shortcode needs a repo link, like this: https://api.github.com/repos/CodeYourFuture/syllabus" }}
 {{ end }}
 {{ $api := printf "%s/contributors" $repo }}
@@ -11,7 +11,7 @@
 {{/* Let's go get our contributors list */}}
 {{ with resources.GetRemote $api $headers }}
   {{ with .Err }}
-    {{ warnf "🏷️ No contributors: %s . Error: %s. Page: %s" $api .Err .Page.Title }}
+    {{ warnf "🏷️ No contributors: %s . Error: %s ." $api . }}
   {{ end }}
 
   {{ $contributors := .Content | unmarshal }}
