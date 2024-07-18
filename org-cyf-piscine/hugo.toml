@@ -35,6 +35,7 @@ googleFonts="https://fonts.googleapis.com/css2?family=Fira+Sans&Fira+Mono&displa
 description = "A free and open source software development programme."
 main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
+our_name="CYF"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"

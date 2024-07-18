@@ -11,11 +11,11 @@
 
 {{/* <!-- if no object show error --> */}}
 {{ if ne $issues nil }}
-  {{/* <!-- range over issues list and pull out useful data --> */}}
+  <!-- range over issues list and pull out useful data -->
   {{ range $issues }}
 
     {{ $showIssue := true }}
-    {{/* <!-- if a filter exists, only show issues with the right label --> */}}
+    <!-- if a filter exists, only show issues with the right label -->
     {{ if $filter }}
       {{ $showIssue = false }}
       {{ range .labels }}
@@ -26,7 +26,7 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    {{/* <!-- now show the issue --> */}}
+    <!-- now show the issue -->
     {{ if $showIssue }}
       {{ if strings.Contains .body "_No response_" }}
         {{ errorf "Issue %s contains _No response_ - please edit the issue to remove it." .html_url }}
@@ -65,5 +65,5 @@
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $issuesUrlBase $issues }}
+  {{ errorf "Error, fetch of %s failed: %v" $issuesUrl $issues }}
 {{ end }}
