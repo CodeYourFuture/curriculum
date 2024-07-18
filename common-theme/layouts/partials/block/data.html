@@ -30,10 +30,7 @@
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 
 {{/* Now let's do our headers */}}
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
-{{ end }}
+{{ $headers := partial "github-auth.html" }}
 {{ .Scratch.SetInMap "blockData" "headers" $headers }}
 
 {{/* ==================

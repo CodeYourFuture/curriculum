@@ -1,0 +1,11 @@
+# This config is optimised for speed of local interation of general Hugo set-up without worrying about issue freshness or completeness.
+# To build with this config, run `hugo server --environment development`.
+# Uncomment the following line to run when rate limited or unable to fetch
+#ignoreLogs = ['error-remote-getjson']
+[params]
+
+[caches.getjson]
+# Cache JSON responses because making fetches is slow when iterating.
+# This means updates to issues (or newly created ones) won't be picked up when rebuilding.
+maxAge = "6h"
+

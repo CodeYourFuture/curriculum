@@ -1,14 +1,15 @@
+{{/* This is a page, basically, not a block, so we don't go via blockData for now */}}
 {{ $repo := .Params.backlog }}
-{{ $issuesUrl := print .Site.Params.issuesorgapi $repo "/issues?per_page=100&state=open&direction=asc&type=issue" }}
+{{ $issuesUrlBase := print $.Site.Params.orgapi $repo "/issues?per_page=100&state=open&direction=asc&page=" }}
 {{ $filter := .Params.backlog_filter }}
 {{ $currentPath := .Page.RelPermalink }}
-<!-- api call -->
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
-{{ end }}
-{{ $issues := getJSON $issuesUrl $headers }}
-<!-- if no object show error -->
+{{ $headers := partial "github-auth.html" }}
+{{/* <!-- walk through paginated issues --> */}}
+{{ .Page.Scratch.Set "issues" slice }}
+{{ partial "fetch-paginated-issues.html" (dict "Scratch" .Page.Scratch "issuesUrlBase" $issuesUrlBase "currentPath" $currentPath "page" 1 "headers" $headers) }}
+{{ $issues := .Page.Scratch.Get "issues" }}
+
+{{/* <!-- if no object show error --> */}}
 {{ if ne $issues nil }}
   <!-- range over issues list and pull out useful data -->
   {{ range $issues }}
@@ -64,5 +65,5 @@
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $issuesUrl $issues }}
+  {{ errorf "Error, fetch of %s failed: %v" $issuesUrlBase $issues }}
 {{ end }}
