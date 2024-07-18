@@ -71,8 +71,7 @@
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
     {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
     {{ $blockPath := replace $blockPath "/readme/" "" }}
-    {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
-    {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+    {{ .Scratch.SetInMap "blockData" "api" $blockPath }}
   {{ end }}
 
   {{ if "youtu" | in $src }}
