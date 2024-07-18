@@ -1,10 +1,11 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-
+{{ $pageContext := . }}
 {{ with resources.GetRemote $blockData.api $blockData.headers }}
   {{ with .Err }}
     {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title .Err }}
   {{ end }}
-  {{ $response := .Content | transform.Unmarshal }}
+
+  {{ $response := .Content | unmarshal }}
   <section
     class="c-block c-block--{{ $blockData.type }}"
     aria-labelledby="{{ $blockData.name |urlize }}">
@@ -14,7 +15,7 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-      {{ partial "time.html" . }}
+      {{ partial "time.html" $pageContext }}
     </header>
     <div class="c-block__content c-copy">
       {{ $decodedContent := $response.content | base64Decode }}
@@ -23,6 +24,4 @@
       {{ partial "strings/absolute-image-paths.html" (dict "markdownContent" $strippedComments "externalPath" $externalPath) | markdownify }}
     </div>
   </section>
-{{ else }}
-  <h3>Cannot get a response</h3>
 {{ end }}
