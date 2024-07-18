@@ -12,7 +12,7 @@
 {{ end }}
 
 {{ if ne $pageOfIssues "[]" }}
-  {{ $pageOfIssues = $pageOfIssues.Content | unmarshal }}
+  {{ $pageOfIssues = $pageOfIssues | transform.Unmarshal }}
 
   {{/* get the issues we have so far in our Scratch.
     This how we make these issues available to our parent partial issues.html
