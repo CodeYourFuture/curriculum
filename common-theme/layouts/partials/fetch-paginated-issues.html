@@ -8,9 +8,11 @@
 {{ $pageOfIssues := resources.GetRemote $issuesUrl .headers }}
 
 {{ if $pageOfIssues.Err }}
-  {{ errorf "🏷️ Issues not fetched: %s on $s" $pageOfIssues.Err  .Page.Title }}
-{{ else }}
-  {{ $pageOfIssues = $pageOfIssues.Content | transform.Unmarshal }}
+  {{ errorf "🏷️ Issues not fetched: %s on $s" $pageOfIssues.Err }}
+{{ end }}
+
+{{ if ne $pageOfIssues "[]" }}
+  {{ $pageOfIssues = $pageOfIssues.Content | unmarshal }}
 
   {{/* get the issues we have so far in our Scratch.
     This how we make these issues available to our parent partial issues.html
@@ -22,4 +24,7 @@
     {{ $nextPage := add .page 1 }}
     {{ partial "fetch-paginated-issues.html" (dict "Scratch" .Scratch "issuesUrlBase" .issuesUrlBase  "page" $nextPage "headers" .headers ) }}
   {{ end }}
+
+{{ else }}
+  {{ warnf "No open issues at %s" $issuesUrl }}
 {{ end }}
