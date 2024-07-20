@@ -1,10 +1,10 @@
 +++
-title="🫱🏽‍🫲🏾 Setup project teams"
+title="Setup your solo project"
 headless="true"
 time=60
 +++
 
-This is a project you will build in a team. First form your team, then start the project by forking the repo.
+This is a project you will build by yourself. Start the project by forking the repo.
 
 ### 1. Form your team
 
