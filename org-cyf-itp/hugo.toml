@@ -47,7 +47,7 @@ org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"
 root = "curriculum"
-orgapi = "https://api.github.com/repos/CodeYourFuture/"
+orgapi = "https://github-issue-proxy.illicitonion.com/repos/CodeYourFuture/" 
 
 
 [caches.getjson]
