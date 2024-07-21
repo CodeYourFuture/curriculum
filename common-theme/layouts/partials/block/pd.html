@@ -1,43 +1,17 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $pageContext := . }}
-{{ $block := $blockData }}
-{{ $tab_set_id := $blockData.name | anchorize }}
-{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize) }}
+{{ $block := .Page.Site.GetPage $blockData.api }}
 
-{{ with resources.GetRemote $blockData.api $blockData.headers }}
-  {{ with .Err }}
-    {{ errorf "Failed %s on %s. Error: %s" $blockData.api $pageContext.Title . }}
-  {{ end }}
+{{ if eq $block.Content "" }}
+  {{ errorf "Page %s block %s had no content" .Page.Path $blockData.api }}
+{{ end }}
+{{ $tab_set_id := $blockData.name | anchorize}}
+{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize)}}
 
-  {{ $response := .Content | unmarshal }}
-
-  {{/* Here we are decoding the content from the base64 readme API
-    and turning it back into a Hugo doc with front matter
-    TODO: move this to a regular mounted module and dump all this
-  */}}
-  {{ $decodedContent := $response.content | base64Decode }}
-  {{ $placeholder := "UNIQUE_PLACEHOLDER" }}
-  {{ $decodedContentWithPlaceholder :=
-    replaceRE "((?:.*---.*){1})---" "${1}" $decodedContent
-  }}
-  {{ $contentParts := split $decodedContentWithPlaceholder $placeholder }}
-  {{ $frontMatter := index $contentParts 0 }}
-  {{ $markdownContent := index $contentParts 1 }}
-  {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
-
-  {{/* We get PD times from the font-matter in the PD CMS, not the block's own front-matter */}}
-  {{ $.Page.Scratch.SetInMap "blockData" "time" $parsedFrontMatter.time }}
-  {{ $block = $parsedFrontMatter | default $blockData }}
-
-
-  <section
-    class="c-block c-block--{{ $blockData.type }}"
-    aria-labelledby="{{ $blockData.name |urlize }}">
+<section class="c-block c-block--{{$blockData.type}}" aria-labelledby="{{ $blockData.name |urlize }}">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"
         id="{{ $blockData.name |urlize }}">
-        <a href="{{ $response.html_url }}">{{ $block.title }} 🔗</a>
       </h2>
       <a href="{{ $issueForm }}" class="c-block__feedback e-button"
         >🤙🏽 Feedback</a
@@ -46,70 +20,47 @@
 
     </header>
 
-    {{ with $markdownContent }}
-      <section class="c-copy">{{ . | markdownify }}</section>
-    {{ end }}
+    {{ with $block.Content }}<section class="c-copy">{{ . | markdownify }}</section>{{ end}}
 
     {{/* These tabs are based on tabs.html and provision the same web component */}}
 
 
-    <tab-panels class="c-tabs c-tabs--pd">
-      <div class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
-        <button
-          data-toggle="tab"
-          id="tab-label-intro"
-          class="c-tabs__tab is-active e-heading__5"
-          role="tab"
-          aria-controls="{{ $tab_set_id }}-intro"
-          aria-selected="true">
-          👉🏽 PD Session
-        </button>
-        {{ range $index, $item := $block.exercises }}
-          <button
-            data-toggle="tab"
-            id="tab-label-{{ $item.name | anchorize }}"
-            class="c-tabs__tab e-heading__5"
-            role="tab"
-            aria-controls="{{ $tab_set_id }}-{{ $item.name | anchorize }}"
-            aria-selected="false">
-            🧩 {{ add 1 $index }})
-            {{ trim $item.name " "  | truncate 20 }}
-          </button>
+  <tab-panels class="c-tabs c-tabs--pd">
+    <div class="c-tabs__list" id="{{$tab_set_id }}" role="tablist">
+      <button data-toggle="tab" id="tab-label-intro" class="c-tabs__tab is-active e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-intro" aria-selected="true">👉🏽 PD Session</button>
+      {{ range $index, $item := $block.Params.Exercises}}
+      <button data-toggle="tab" id="tab-label-{{$item.name | anchorize}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{$tab_set_id }}-{{ $item.name | anchorize }}" aria-selected="false">🧩 {{add 1 $index}}) {{ trim $item.name " "  | truncate 20 }}</button>
         {{- end -}}
-      </div>
-      <div class="c-tabs__group" id="{{ $tab_set_id }}">
-        {{/* First tab is all the setup */}}
-        <div
-          id="{{ $tab_set_id }}-intro"
-          class="c-tabs__panel c-tabs__panel--pd is-active"
-          role="tabpanel"
-          aria-labelledby="tab-label-intro">
-          {{ with $block.objectives }}
-            <details class="c-objectives">
-              <summary>
-                <h3 class="c-objectives__title e-heading__5">
-                  Learning Objectives
-                </h3>
-              </summary>
-              {{ partial "objectives/block.html" . }}
-            </details>
-          {{ end }}
-          {{ with $block.prep }}
-            <section class="c-copy">
-              <h3>Preparation</h3>
-              <div class="c-copy__node">{{ . | markdownify }}</div>
-            </section>
-          {{ end }}
-          {{ with $block.introduction }}
-            <section class="c-copy">
-              <h3>Introduction</h3>
-              <div class="c-copy__node">{{ . | markdownify }}</div>
-            </section>
-          {{ end }}
-        </div>
+      {{- end -}}
+    </div>
+    <div class="c-tabs__group" id="{{ $tab_set_id }}">
+      {{/*  First tab is all the setup  */}}
+    <div id="{{$tab_set_id }}-intro" class="c-tabs__panel c-tabs__panel--pd is-active" role="tabpanel" aria-labelledby='tab-label-intro'>
+      {{ with $block.Params.Objectives }}
+        <details class="c-objectives">
+          <summary>
+            <h3 class="c-objectives__title e-heading__5">Learning Objectives</h3>
+          </summary>
+          {{ partial "objectives/block.html" . }}
+        </details>
+      {{ end }}
+      {{ with $block.Params.Prep }}
+        <section class="c-copy">
+          <h3>Preparation</h3>
+          <div class="c-copy__node">{{ . | markdownify }}</div>
+        </section>
+      {{ end }}
+      {{ with $block.Params.Introduction }}
+        <section class="c-copy">
+          <h3>Introduction</h3>
+          <div class="c-copy__node">{{ . | markdownify }}</div>
+        </section>
+      {{ end }}
+    </div>
 
-        {{/* Now we go to range over exercises */}}
-        {{ with $block.exercises }}
+
+    {{/*  Now we go to range over exercises  */}}
+      {{ with $block.Params.Exercises }}
           {{ range . }}
             {{ $tab_set_id := $tab_set_id }}
             <div
