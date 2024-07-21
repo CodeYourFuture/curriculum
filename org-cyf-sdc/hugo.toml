@@ -44,10 +44,10 @@ org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"
 root = "curriculum"
-orgapi = "https://api.github.com/repos/CodeYourFuture/"
 # We use a proxy which concatenates paginated responses, otherwise we miss results.
 # Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
-issuesorgapi = "https://github-issue-proxy.illicitonion.com/repos/CodeYourFuture/"
+# The /cached/120 path prefix here caches results for 2 hours to avoid rate limits. Drop the /cached/120 if you need fresh results.
+orgapi = "https://github-issue-proxy.illicitonion.com/cached/120/repos/CodeYourFuture/"
 
 
 [caches.getjson]
