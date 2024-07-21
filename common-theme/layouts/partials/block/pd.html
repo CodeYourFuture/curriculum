@@ -1,10 +1,9 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $block := .Page.Site.GetPage $blockData.api }}
 {{ $pageContext := . }}
 {{ $tab_set_id := $blockData.name | anchorize }}
 {{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize) }}
 
-{{ with $block }}
+{{ with .Page.Site.GetPage $blockData.api }}
   <section
     class="c-block c-block--{{ $blockData.type }}"
     aria-labelledby="{{ $blockData.name |urlize }}">
