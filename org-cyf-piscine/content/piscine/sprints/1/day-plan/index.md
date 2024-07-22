@@ -6,30 +6,35 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="blocks/energiser"
+src="energisers/blockers"
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
-time="120"
+name="Induction"
+src="module/piscine/induction"
+time="30"
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Kickoff"
+src="module/piscine/kickoff"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Development"
+src="module/piscine/development"
 time="90"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Piscine/pulls"
-time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Development"
+src="module/piscine/development"
 time="90"
 [[blocks]]
-name="Retro"
-src="blocks/retro"
+name="Demo"
+src="module/piscine/demo"
+[[blocks]]
+name="Wrap"
+src="module/piscine/wrap"
 +++
