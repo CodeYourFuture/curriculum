@@ -69,7 +69,7 @@
 
   {{ if "cyf-pd.netlify.app" | in $src }}
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
-    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "pd/blocks/" }}
     {{ $blockPath := replace $blockPath "/readme/" "" }}
     {{ .Scratch.SetInMap "blockData" "api" $blockPath }}
   {{ end }}
