@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "dotenv -e ../.env -- hugo server --environment development",
-    "build:dev": "dotenv -e ../.env  -- hugo --environment development"
+    "build:dev": "hugo mod vendor && dotenv -e ../.env  -- hugo --environment development"
   },
   "keywords": [],
   "author": "",

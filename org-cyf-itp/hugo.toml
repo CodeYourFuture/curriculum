@@ -26,7 +26,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
     path = "github.com/CodeYourFuture/CYF-PD" 
     [[module.imports.mounts]]
       source = "content/blocks"
-      target = "content/pd"
+      target = "content/pd/blocks"
       
 [menus]
     [[menus.secondary]]
@@ -58,7 +58,7 @@ root = "curriculum"
 orgapi = "https://github-issue-proxy.illicitonion.com/cached/120/repos/CodeYourFuture/"
 
 
-[caches.getjson]
+[caches.getresource]
 # Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
 maxAge = 0
 
