@@ -93,6 +93,7 @@ Maybe a game would be a nice third pillar beyond "data" and "app logic".
 
 * Sally: Think of a rubric for demo assessment.
 * Sally: Try to chat to someone at GitHub about rate limits.
+* Ali: Write up requirements "spectrum" into a doc for discussion
 * Ali: Write up projects in the Piscine repo
 * Daniel: Finish off Piscine project
 
