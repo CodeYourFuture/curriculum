@@ -17,6 +17,10 @@ Each org builds its own Hugo site that uses the common theme and content modules
 - [CodeYourFuture](/org-cyf/) => [https://org-cyf-theme.netlify.app/](https://org-cyf-theme.netlify.app/)
 - [MigraCode](/org-mcb/) => [https://org-mcb-theme.netlify.app/](https://org-mcb-theme.netlify.app/) (couldn't find an svg logo)
 
+## Developing a site
+
+To develop a specific site, `cd` into the relevant sub-directory and follow the instructions in the `README.md` file.
+
 ## To build a new site
 
 1. In the root of this repo, run:
