@@ -15,7 +15,7 @@
 ### To install
 
 ```bash
-brew install hugo
+brew install go hugo
 ```
 
 ### To run locally
@@ -34,6 +34,7 @@ The "Repository access" you need is "Public repositories (read-only)", and you d
 <summary>Open to view screenshot of the required permissions</summary>
 
 ![screenshot of required permissions](./readme_repository_access.png)
+
 </details>
 
 #### Set up `.env`
