@@ -1,6 +1,6 @@
 +++
 title="Blockers!"
-headless="true"
+headless=true
 time=25
 [objectives]
     1="Use the driver and navigator pattern"
@@ -11,7 +11,7 @@ time=25
 
 [Online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html)
 
-## Gameplay {{<timer>25</timer>}}
+## 🚗 Traffic Jam Gameplay
 
 In groups or breakout rooms of 4 trainees maximum.
 
@@ -19,7 +19,7 @@ One person will share their screen and be the **driver**. The driver can only mo
 
 The others will be the **navigators**. Together, the navigators must figure out a strategy to unblock the car, and tell the driver how to do it!
 
-**Each person must drive,** so set a timer for {{<timer>5</timer>}} and then swap.
+**Each person must drive** so set a timer for {{<timer>}}5{{</timer>}} and then swap.
 
 You can do this energiser in person, online, or a mix of both. You can play this completely offline using this kit: [Rush Hour](https://www.thinkfun.com/products/rush-hour/).
 
@@ -51,5 +51,5 @@ Start on **Level 6** or above and get everyone to load the page before you go in
 
 #### More resources
 
-- Backup alternative online game: https://www.crazygames.com/game/rush-hour-online
-- Physical version of this game: https://www.thinkfun.com/products/rush-hour/
+- [Backup alternative online game](https://www.crazygames.com/game/rush-hour-online)
+- [Physical version](https://www.thinkfun.com/products/rush-hour/) of this game

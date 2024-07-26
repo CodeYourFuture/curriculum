@@ -14,11 +14,11 @@ Split randomly into groups of no more than 5 people. Each person will have 2 min
 
 ## 🧑🏼‍🎓 Trainees
 
-### 1. Demo {{<timer>2</timer>}}
+### 1. Demo {{<timer>}}2{{</timer>}}
 
 You will demo your work to the group. You will have 2 minutes to explain what you did and why. It's ok to show broken code or code that doesn't work yet. Just make sure your demo is interesting.
 
-### 2. Feedback {{<timer>10</timer>}}
+### 2. Feedback {{<timer>}}10{{</timer>}}
 
 After the demo, the group will give you feedback for up to 10 minutes. It's smart to suggest what kind of feedback you want by asking some "generative" questions. For example:
 

@@ -26,7 +26,6 @@ This is a project you will build in a team. First form your team, then start the
 1. One person should fork the project repo to their own GitHub account.
 2. That person should add the other team members as collaborators to the repo.
 3. Now someone else should make a copy of the example planner and link it to your project repo.
-4. All the tickets for your project are created as issues in this repo. Batch clone the tickets into your project planner.
 
 #### On your [branch protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule#creating-a-branch-protection-rule):
 
