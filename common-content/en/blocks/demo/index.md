@@ -10,7 +10,7 @@ At {{<our-name>}} we expect you to demo your work to the class. You must have ma
 
 The timekeeper will keep the groups on track.
 
-Split into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 10 minutes. Then the next person will demo their work.
+Split randomly into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 10 minutes. Then the next person will demo their work.
 
 ## 🧑🏼‍🎓 Trainees
 

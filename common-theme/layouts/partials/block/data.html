@@ -47,7 +47,7 @@
 {{ else }}
   {{ if "github" | in $src }}
     {{/* Change base URL to api.github.com */}}
-    {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+    {{ $newSrc := replace $src "https://github.com/" "https://api.github.com/repos/" }}
 
     {{ if (in $src "issues") }}
       {{ .Scratch.SetInMap "blockData" "type" "issue" }}
@@ -69,10 +69,9 @@
 
   {{ if "cyf-pd.netlify.app" | in $src }}
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
-    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "pd/blocks/" }}
     {{ $blockPath := replace $blockPath "/readme/" "" }}
-    {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
-    {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+    {{ .Scratch.SetInMap "blockData" "api" $blockPath }}
   {{ end }}
 
   {{ if "youtu" | in $src }}
