@@ -17,6 +17,88 @@ Attendees:
 
 ---
 
+## 2024-07-23
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Lizhen Xu, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### Introducing Lizhen
+
+Lizhen runs HYF Belgium - welcome to the call!
+
+(Round of intros)
+
+(Description of the Piscine)
+
+There will be a meet-up of folks in Barcelona in October, and hopefully in Brussels some time thereafter too.
+
+[Migracode have a curriculum now](https://curriculum.migracode.org/).
+
+Was expecting more HYF folks to join the call, but they didn't - will try to arrange again for the future!
+
+#### Review dashboard requirements for Piscine
+
+[Proposed user stories](https://docs.google.com/document/d/1KOl4eWF0XWS34esrkWvCE5d4ESgMrjeFWQFao404UPY/edit).
+
+Most things in the dashboard are configurable via UI (rather than requiring custom code).
+
+Building blocks of the dashboard are basically "Submit link / upload file", which covers most of what we need.
+
+Would be good to split things into "hard requirements" vs "nice to have - we can work around manually for a while if needed".
+
+#### Review draft application form for Piscine
+
+[Draft application form](https://docs.google.com/forms/d/1qQQmMoB6oHtPnMtAymHJIaIUP-RziCrL-xko0Rg221k/viewform?edit_requested=true).
+
+A lot of our trainees who struggle in general struggle with filling in an application form - this is a useful filter. We want people to apply to the Piscine, and then we will automatically invite successful candidates to SDC.
+
+Probably want questions for each of the criteria of the Piscine which isn't covered in the Piscine (e.g. B2 English, Functional Maths).
+
+Long-term we want to fold the application process into the dashboard rather than having a separate Google Form, but that's not going to happen in our timeline so we're doing a separate form for now.
+
+ITP -> Piscine is the only place we currently want to enforce a "you can't just automatically progress" gate.
+
+#### Review draft Piscine day plans, backlog, etc
+
+[Tracking issue](https://github.com/CodeYourFuture/curriculum/issues/828)
+
+[Project board](https://github.com/orgs/CodeYourFuture/projects/192/views/1)
+
+#### Sally's week of handling rate limits
+
+We added caching to the issue fetching proxy.
+
+We reworked how API calls are made from the curriculum in general.
+
+PD is now mounted as a remote module rather than a in-line API calls.
+
+Everything works now.
+
+Next is probably to pre-build a module that builds a static cache of all our API calls that can be mounted. But not now.
+
+(Also, FYI, fine-grained access tokens, even though they can be "owned" by users other than the user who generated it, are still rate-limit billed to the creating user).
+
+#### Piscine projects
+
+Should live in a projects folder in https://github.com/CodeYourFuture/The-Piscine
+
+Let's ban CSS, rather than trying to prosaically describe "don't make it pretty".
+
+Maybe a game would be a nice third pillar beyond "data" and "app logic".
+
+### ❗Actions
+
+* Sally: Think of a rubric for demo assessment.
+* Sally: Try to chat to someone at GitHub about rate limits.
+* Ali: Write up requirements "spectrum" into a doc for discussion
+* Ali: Write up projects in the Piscine repo
+* Daniel: Finish off Piscine project
+
+---
+
 ## 2024-06-18
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath

@@ -32,7 +32,7 @@ src="blocks/lunch"
 src="module/js2/check-in"
 name="Check in"
 [[blocks]]
-src="blocks/study-60"
+src="blocks/study-group"
 name="Study group"
 time="70"
 [[blocks]]
