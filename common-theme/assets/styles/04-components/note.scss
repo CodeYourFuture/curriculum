@@ -2,6 +2,7 @@
   --gap: var(--theme-spacing--gutter);
 
   @include block(false, true, true, false);
+  max-width: var(--theme-spacing--linelength);
   width: fit-content;
   margin-bottom: var(--gap);
   box-shadow: var(--theme-box-shadow--slim);

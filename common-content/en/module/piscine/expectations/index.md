@@ -6,6 +6,7 @@ time=5
 objectives = [
   "List the expectations of the Piscine."
 ]
+hide_from_overview="true"
 +++
 
 ## Trainees, we expect you to:
