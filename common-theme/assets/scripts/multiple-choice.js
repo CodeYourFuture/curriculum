@@ -54,7 +54,7 @@ class MultipleChoice extends HTMLElement {
   addListeners() {
     this.radios.forEach((radio) =>
       radio.addEventListener("change", (event) =>
-        this.updateFeedback(Number(event.target.value))
+        this.updateFeedback(Number(event.target.value), { passive: true })
       )
     );
   }
