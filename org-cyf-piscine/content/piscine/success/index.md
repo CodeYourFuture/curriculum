@@ -6,6 +6,22 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
+
++++
+
+This module is an application process for the {{<our-name>}} Software Development Course. To apply for the program, you must be able to:
+
+[[objectives]]
+1='You have attended every session.'
+3='You have completed one solo and two group projects.'
+4='You have given three demos of your projects.'
+5='You have asked for help on Slack and in class.'
+6='You have passed a Mathematics Functional Skills 2 exam.'
+7='You have passed a CEFR B2 English exam.'
+8='You have passed a technical interview.'
+2='You have applied to join the Software Development Course.'
+9="You want a good job in tech."
+
 1="Predict and explain the execution of a computer program"
 2="Reason about where and when software is executed"
 3="Refactor and iterate code based on new requirements"
@@ -16,6 +32,3 @@ weight = 11
 8="Verify the accessibility of a web application"
 9="Describe how processes and file descriptors really work"
 10="Open a pull request and iterate on it in response to feedback"
-+++
-
-This module is an application process for the CYF Jobs In Tech Program. To apply for the program, you must be able to:
