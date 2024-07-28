@@ -1,23 +1,20 @@
 +++
 title = 'prep'
-description = 'Get ready to apply to CYF'
+description = 'Get ready for the Piscine'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
-name="Setup Professional Accounts"
-src="module/induction/accounts"
+name="Goals"
+src="module/piscine/goals"
 [[blocks]]
-name="Install a unix based os"
-src="module/js1/check-unix-os"
+name="Expectations"
+src="module/piscine/expectations"
 [[blocks]]
-name="Check Git"
-src="module/induction/check-git-installation"
+name="Help"
+src="module/piscine/help"
 [[blocks]]
-name="Install VS Code"
-src="module/induction/install-vscode"
-[[blocks]]
-name="Create CYF Folder"
-src="module/induction/cyf-folder"
+name="Preparation"
+src="module/piscine/preparation"
 +++
