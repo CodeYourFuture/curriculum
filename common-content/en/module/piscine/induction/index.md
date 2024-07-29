@@ -1,51 +1,30 @@
 +++
 title="🫱🏽‍🫲🏾 Induction"
 headless="true"
-time=30
+time=15
 +++
 
 Welcome to the Piscine.
 
-## 🎯 Goals
+Before you came to class today, you should have completed the prep and signed the Trainee Agreement and the Code of Conduct. If you haven't done the prep, it's time to leave. Thanks, and try again next time.
 
-Your goal is to build two group projects and one solo project over the next 21 days.
+If you have done the prep, you're in the right place. Please make sure you have signed the register. Sign it as soon as you come in. The register isn't just for attendance rules; we need to know who is in the building if there's a fire, so please don't sign in for anyone else.
 
-## 🧰 Expectations
+Next up, we need to choose a timekeeper. The timekeeper is responsible for keeping us on track and making sure we finish on time. Who would like to volunteer?
 
-- You are expected to work in groups and individually, in class and during the week.
-- You are expected to show up on time and participate in all activities.
-- You are expected to complete the projects in the way they are specified.
-- You can expect your team to work _with_ you to complete the projects.
-- You can expect the {{<our-name>}} volunteers to help you with your code and blockers.
-- You can expect your assessment to be explained clearly.
-- We expect everyone to follow the Code of Conduct.
+<details>
+<summary>
 
-## 💡 Help
+#### ⏰ The Timekeeper will:
 
-You are not competing against each other for limited number of places. We will accept everyone who meets the criteria.
+</summary>
 
-- You should ask for help
-- You should help others
-- Volunteers and other candidates will help you with your code and blockers, _but_ you must make sure you understand the code in your projects, because you will be asked to explain it.
+- [ ] Announce the start of an activity and how long it will take (check everyone is listening)
+- [ ] Manage any whole class timers that are used in an activity
+- [ ] Give people a 10-minute wrap-up warning before the end of an activity
+- [ ] Announce the end of an activity and what happens next
+</details>
 
-{{<note type="tip">}}
-Everyone at {{<our-name>}} has barriers to education, and we can help with some things.
+Today you will kick off your first team project. At the end of the day, each person will give a two minute demo of something they have built, learned, or discovered today. Then we will wrap and go for a cup of tea together.
 
-If you cannot come to class because you can't afford:
-🧒 Childcare 👉[signposts/childcare](https://signposts.codeyourfuture.io/topics/childcare/)
-💻 A computer or broadband 👉[signposts/equipment](https://signposts.codeyourfuture.io/topics/equipment)
-🚌 Bus or train tickets 👉[signpost/transport](https://signposts.codeyourfuture.io/topics/transport)
-🥪 Food will be provided
-{{</note>}}
-
-## 🧑🏿‍🎓 Activities
-
-- Read through the day plans so you know what to expect.
-- Each class day will have time set aside for development and review where you can ask questions and get help.
-- Everyone will demo on every class day, and a random demo will be assessed.
-
-## 🧪 Assessment
-
-- The fourth class day will be interview day. A panel will ask you questions about your code and your projects. You can be asked about any part of your project, so make sure you understand it all, including the parts your teammates wrote.
-
-The success criteria is listed on the success page. Read it carefully so you know what you need to do to succeed.
+But first, let's get to know each other. Stand up and find someone you don't know. Introduce yourself and tell them one thing you are looking forward to learning in the Piscine.

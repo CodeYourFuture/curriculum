@@ -6,6 +6,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
+name="Application"
+src="module/piscine/application"
+[[blocks]]
 name="Goals"
 src="module/piscine/goals"
 [[blocks]]

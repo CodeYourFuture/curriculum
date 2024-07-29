@@ -13,4 +13,4 @@ Stand in a circle and share:
 - 👷🏾 the ticket you are going to work on next
 - 🛟 one thing you need help with
 
-Give yourselves a round of applause. Now go home and rest. You will need your energy for the project ahead.
+Give yourselves a round of applause. Now you have earned your rest. Usually people go for a drink (or a coffee) after class. You are welcome to join and wind down together.
