@@ -4,9 +4,8 @@ description = 'How do we know if we have completed this module?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
+menu=['assessment']
 weight = 11
-[[objectives]]
-
 +++
 
 This module is an application process for the {{<our-name>}} Software Development Course. To apply for the program, you must be able to:

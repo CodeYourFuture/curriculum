@@ -1,9 +1,10 @@
 +++
-title = 'prep'
+title = 'Prep'
 description = 'Get ready for the Piscine'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
+menu=['entry']
 weight = 1
 [[blocks]]
 name="Application"
