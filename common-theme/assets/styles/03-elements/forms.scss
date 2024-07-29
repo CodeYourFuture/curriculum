@@ -6,26 +6,30 @@ form {
 }
 
 .c-form--inline {
-  display: flex;
+  padding: 0;
+  display: inline-flex;
   flex-flow: row wrap;
-  gap: var(--theme-spacing--2);
+  gap: var(--theme-spacing--1);
   align-items: center;
 }
 
-fieldset,
-input {
-  appearance: none;
+fieldset {
   border: var(--theme-border);
   border-color: var(--theme-color--block);
   box-shadow: var(--theme-box-shadow--slim);
   border-radius: var(--theme-border-radius);
 }
 
-input:not([type="radio"]),
-input:not([type="checkbox"]) {
+input:not([type="radio"]):not([type="checkbox"]) {
+  appearance: none;
   padding: calc(var(--theme-spacing--2) / 2);
+  min-width: 36ch;
   width: 100%;
   max-width: var(--theme-spacing--linelength);
+  border: var(--theme-border);
+  border-color: var(--theme-color--block);
+  box-shadow: var(--theme-box-shadow--slim);
+  border-radius: var(--theme-border-radius);
 }
 
 legend {

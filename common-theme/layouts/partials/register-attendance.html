@@ -29,18 +29,21 @@
   datetime="P5M"
   >5 minutes ⏱</time>
 </header>
-<form class="is-inline" id="{{ $course }}"  method="POST" netlify-honeypot="nectar" data-netlify="true">
+<form class="c-form c-form--inline" id="{{ $course }}"  method="POST" netlify-honeypot="nectar" data-netlify="true">
   <label class="is-invisible">Nectar<input name="nectar" /></label>
   <input type="hidden" name="course" value="{{ $course }}">
   <input type="hidden" name="module" value="{{ $module }}">
   <input type="hidden" name="day" value="{{ $day }}">
   <input type="hidden" name="buildTime" value="{{ now.Format "2006-01-02T15:04:05" }}">
-  <label for="givenName" class="is-invisible">Given Name</label>
+  <div><label for="givenName" class="is-invisible">Given Name</label>
   <input type="text" name="name" id="givenName" autocomplete="given-name" placeholder="Given Name" required>
-  <label for="familyName" class="is-invisible">Family Name</label>
+  </div>
+  <div><label for="familyName" class="is-invisible">Family Name</label>
   <input type="text" name="familyName" id="familyName" autocomplete="family-name" placeholder="Family Name" required>
-  <label for="email" class="is-invisible">Email</label>
+  </div>
+  <div><label for="email" class="is-invisible">Email</label>
   <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
+  </div>
   <button class="e-button">Register</button>
 </form>
 </section>
