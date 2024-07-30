@@ -16,6 +16,9 @@ src="module/piscine/goals"
 name="Expectations"
 src="module/piscine/expectations"
 [[blocks]]
+name="Programming Pre-requisites"
+src="module/piscine/programming-prereqs"
+[[blocks]]
 name="Help"
 src="module/piscine/help"
 [[blocks]]

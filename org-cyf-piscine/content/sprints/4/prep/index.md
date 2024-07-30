@@ -5,6 +5,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Backlog"
-src="module/piscine/backlog"
+name="Prepare for your technical interview"
+src="module/piscine/assessment"
+[[blocks]]
+name="Programming Pre-requisites"
+src="module/piscine/programming-prereqs"
 +++
