@@ -5,7 +5,7 @@ headless="true"
 time=45
 +++
 
-We use an interview platform called Evidenced. The questions are drawn from a pre-set list.
+You will be asked to join a video call for your technical interview. We use an interview platform called Evidenced.
 
 ## What to expect
 
@@ -18,10 +18,10 @@ We use an interview platform called Evidenced. The questions are drawn from a pr
 - You will be asked to explain the code. You may be asked to:
 
 1. Play computer and run the code in your head
-1. Explain what the state of the application is at different points
+1. Explain what the state of the application is at different points in the code
 1. Define the function and meaning of different parts of the code
 1. Refactor the code to meet new requirements given by the interviewer
 
-Your interview will be recorded and scored against a rubric you can read before the interview.
+Your interview will be recorded and scored against a rubric you can read before the interview. You will get the transcript of your interview with the decision about your application.
 
-Once your interview is done, you are done. Join the wrap party and celebrate your hard work!
+Once your interview is done, you are done. Join the wrap party and celebrate your hard work! What a journey! 🎉

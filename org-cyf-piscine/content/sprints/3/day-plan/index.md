@@ -6,7 +6,7 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/blockers"
+src="energisers/wemoji"
 [[blocks]]
 name="Demo"
 src="module/piscine/demo"

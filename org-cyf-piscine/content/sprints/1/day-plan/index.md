@@ -10,7 +10,7 @@ src="module/piscine/induction"
 time=15
 [[blocks]]
 name="Energiser"
-src="energisers/blockers"
+src="energisers/zip-zap-boing"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
