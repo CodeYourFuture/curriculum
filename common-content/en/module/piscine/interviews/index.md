@@ -3,6 +3,12 @@ title="Interviews"
 emoji="🎤🏾"
 headless="true"
 time=45
+objectives = [
+  "Predict and explain the execution of a computer program",
+  "Reason about where and when software is executed",
+  "Refactor and iterate code based on new requirements",
+  "Extract simple composable functions for common use cases"
+]
 +++
 
 You will be asked to join a video call for your technical interview. We use an interview platform called Evidenced.

@@ -1,7 +1,14 @@
 +++
-title="🧑🏿‍🔧Team Development"
+title="Team Development"
+emoji="🧑🏿‍🔧"
 headless="true"
 time=120
+objectives = [
+    "Create a strategy for implementing an application based on a set of user stories.",
+    "Interpret business requirements and express them as test cases.",
+    "Design interactions with a provided data set.",
+    "Open a pull request and iterate on it in response to feedback"]
+  
 +++
 
 This time is set aside for you to work together as a team to make progress on your project. Here are some strategies to help you work effectively together:
