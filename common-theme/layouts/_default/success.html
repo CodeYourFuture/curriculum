@@ -41,10 +41,17 @@
             {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." $.Page.RelPermalink }}
           {{ end }}
           {{/* Deduplicate blocks */}}
-          {{ $blocks = $blocks | uniq }}
-          {{/* now we need to extract objectives from blocks, some not stored in this repo,
-            so we will use the block-data scratch function to get the block data
-          */}}
+          {{ $uniqueSrcs := slice }}
+          {{ $dedupedBlocks := slice }}
+
+          {{ range $blocks }}
+            {{ if not (in $uniqueSrcs .src) }}
+              {{ $uniqueSrcs = $uniqueSrcs | append .src }}
+              {{ $dedupedBlocks = $dedupedBlocks | append . }}
+            {{ end }}
+          {{ end }}
+
+          {{ $blocks = $dedupedBlocks }}
 
           {{ range $blocks }}
             {{ $name := .name }}
