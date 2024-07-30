@@ -1,5 +1,7 @@
 +++
-title="Fizz Buzz Challenge!"
+title="Fizz Buzz"
+emoji="🔢"
+hide_from_overview=true
 headless=true
 time=20
 [objectives]
@@ -9,7 +11,7 @@ time=20
 
 ## 🔢 Fizz Buzz Gameplay
 
-Arrange participants in a circle (either in-person or virtually). The game can be played with any number of people, but 8-20 is ideal.
+Arrange participants in a circle (either in-person or virtually). The game can be played with any number of people, but 5 or more is ideal.
 
 Starting with 1, players count upwards in turn. However:
 
@@ -21,7 +23,7 @@ For example: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz
 
 If a player makes a mistake, they're out. Continue counting until only one player remains.
 
-Set a timer for {{<timer>}}5{{</timer>}} minutes per round. Play multiple rounds to allow players to improve their skills.
+Set a timer for {{<timer>}}5{{</timer>}} minutes per round. If you have time, play multiple rounds.
 
 #### Facilitator Check in questions
 
