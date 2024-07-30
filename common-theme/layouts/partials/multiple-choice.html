@@ -33,16 +33,16 @@
         <ol class="c-quiz__list">
            {{range $index, $answer := $answers }}
           <li class="c-quiz__answer">
-            <input
+            <label
+              class="c-quiz__label"
+              for="answer-{{ $index }}"
+              ><input
               class="c-quiz__input"
               type="radio"
               id="answer-{{ $index }}"
               name="answer"
               value="{{ $index }}" />
-            <label
-              class="c-quiz__label"
-              for="answer-{{ $index }}"
-              >{{ $answer }}</label
+            {{ $answer }}</label
             >
           </li>
         {{ end }}

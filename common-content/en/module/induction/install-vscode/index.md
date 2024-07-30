@@ -13,3 +13,6 @@ We use VS Code to write all of our code in the course. It is known as an Integra
 
 
 [🔗 Download and install VSCode now](https://code.visualstudio.com/)
+
+Watch this video if you'd like a quick introduction to VSCode:
+{{<youtube>}}https://www.youtube.com/watch?v=B-s71n0dHUk{{</youtube>}}
