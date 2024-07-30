@@ -26,14 +26,14 @@ name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Development"
-src="module/piscine/development"
+src="module/piscine/solo-development"
 time="75"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="Development"
-src="module/piscine/development"
+src="module/piscine/solo-development"
 time="75"
 [[blocks]]
 name="Wrap"

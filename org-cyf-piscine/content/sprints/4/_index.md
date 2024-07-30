@@ -1,6 +1,6 @@
 +++
 title = 'Interview Day'
-description = 'Demo your solo project; attend a technical interview; wrap party'
+description = 'Demo your solo project; attend a technical interview; enjoy the wrap party'
 layout = 'sprint'
 emoji= '🧪'
 menu_level = ['module']
