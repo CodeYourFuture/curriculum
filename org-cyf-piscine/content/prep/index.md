@@ -1,6 +1,6 @@
 +++
 title = 'Prep'
-description = 'Get ready for the Piscine'
+description = 'Check your eligibility and apply for the Piscine'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
