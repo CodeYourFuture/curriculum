@@ -32,7 +32,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Fira+Sans&Fira+Mono&display=swap"
-description = "A free and open source software development programme."
+description = "A free and open source assessment program"
 main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
 our_name="CYF"

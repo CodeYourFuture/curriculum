@@ -1,32 +1,15 @@
 +++
-title="Prep"
+title="Backlog"
 headless="true"
-time=10
+time=60
 hide_from_overview="true"
+objectives = [
+    "Create a strategy for implementing an application based on a set of user stories.",
+    "Interpret business requirements and express them as test cases.",
+    "Design interactions with a provided data set.",
+    "Open a pull request and iterate on it in response to feedback."]
 +++
 
-Double-check you have everything you need to start the Piscine.
+You will work with your team during the week. You will need to plan your work and track your progress. You will use a kanban planning board to do this.
 
-- [ ] You have applied to the Piscine and received an enrollment email
-- [ ] You have a suitable laptop and internet access
-- [ ] You have organised childcare if you need it
-- [ ] You have signed the Code of Conduct
-- [ ] You have signed the trainee agreement
-- [ ] You know how to get to class
-- [ ] You have read and understood the success criteria
-
-If you need help with any of these, ask in Slack or go to the [Signposts website](https://signposts.codeyourfuture.io/).
-
-Now go read over the day plans, backlogs, success criteria and complete the quiz. You can do it! 🚀
-
-{{<multiple-choice
-  question="What time does class start?"
-  answers="Any time in the morning | 10am sharp | It's on-demand"
-  feedback="No, it's a mistake to be late for class. | Yes, you should be ready to begin at 10am. | No, you must come to class in person and on time."
-  correct="1" >}}
-
-{{<multiple-choice
-  question="What is the first thing you should do when you come into class?"
-  answers="Sign the register | Find a seat | Get a coffee"
-    feedback="Yes, sign the register as soon as you come in. | No, you should sign the register first. | No, you should sign the register first."
-    correct="0" >}}
+In the backlog view there are some assigned tasks. Most of your tasks, however, will be created by your team as you work through the project. You will need to define user stories, test cases, and interactions as you go. You will also need to refine tickets as you develop your software. We've added some reminders and tips to help you work effectively in the ways you learned during Intro to Programming.
