@@ -5,9 +5,9 @@ emoji: 💻
 weight: 4
 date: 2024-07-24T09:48:59
 ---
-## Why worry about your GitHub profile? 
+## Why worry about your GitHub profile?
 
-Your Github profile allows you to demonstrate your technical skills and passion for tech through your projects and technical work. Making your profile an interesting landing page will help grab the attention of recruiters and hiring managers. 
+Your Github profile allows you to demonstrate your technical skills and passion for tech through your projects and technical work. Making your profile an interesting landing page will help grab the attention of recruiters and hiring managers.
 
 ## Essential Criteria
 
@@ -29,7 +29,7 @@ Contains basic information about you and your interests, it should contain:
 - [ ] A list of your key skills (3 to 5, no more)
 - [ ] An introduction to who you are
 
-### ReadMe 
+### ReadMe
 
 A space where you can craft a landing page for visitors. [Create a Github personal Readme](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme), it should contain:
 
@@ -38,23 +38,19 @@ A space where you can craft a landing page for visitors. [Create a Github person
   - [ ] The projects you've been working on
   - [ ] What you're looking for
   - [ ] How to contact you
-- [ ] The languages and tools you're familiar with
+- [ ] The programming languages and tools you're familiar with
 - [ ] Your stand-out projects
   - [ ] Use this as a space to show off the projects you've built!
 - [ ] Avoid using awards and auto-generated stats
 
 ### Pinned Projects
 
-Your pinned project are the projects that a potential employer will look at make sure they are:
+Your pinned projects are the projects that a potential employer will look at make sure they are:
 
 - [ ] Your best work
 - [ ] Recent
 - [ ] Relevant
 - [ ] Working - You should link the repo and the demo
 - [ ] Have a ReadMe describing what they are and how they were built
-
-
-
-
 
 Check this graduate's GitHub profile and compare it to your own - [https://github.com/Zobeir-Rigi](https://github.com/Zobeir-Rigi)
