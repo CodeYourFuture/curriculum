@@ -1,0 +1,71 @@
+{{/* this partial expects the following params:
+// course: the course name
+// module: the module name
+// day: the sprint day number
+// the form just asks for email address and name
+// the form will capture the date and time of submission and know what course, module, and day-plan it's loaded on
+// the form will submit to Netlify forms automatically via the data-netlify attribute
+// https://docs.netlify.com/forms/setup/
+// later on, you could extend this with Netlify identity to allow login and registration
+*/}}
+
+{{ $course := .course | anchorize }}
+{{ $module := .module }}
+{{ $day := .day | urlize}}
+
+{{/* if any of these params are null, error */}}
+{{ if or (not $course) (not $module) (not $day) }}
+  {{ errorf "register must go on a day plan and capture course, module, and day correctly" }}
+{{ end }}
+
+<section class="c-block">
+<header class="c-block__header">
+<h2 class="c-block__title e-heading__2" id="register">
+  ✍🏽 Register
+</h2>
+<time
+  class="c-block__time"
+  tabindex="0"
+  role="timer"
+  aria-label="{{ 5 }} minutes countdown"
+  datetime="P5M"
+  >5 minutes ⏱</time>
+</header>
+<form class="c-form c-form--inline" id="{{ $course }}"  method="POST" netlify-honeypot="nectar" data-netlify="true">
+  <label class="is-invisible">Nectar<input name="nectar" /></label>
+  <input type="hidden" name="course" value="{{ $course }}">
+  <input type="hidden" name="module" value="{{ $module }}">
+  <input type="hidden" name="day" value="{{ $day }}">
+  <input type="hidden" name="buildTime" value="{{ now.Format "2006-01-02T15:04:05" }}">
+  <div><label for="givenName" class="is-invisible">Given Name</label>
+  <input type="text" name="name" id="givenName" autocomplete="given-name" placeholder="Given Name" required>
+  </div>
+  <div><label for="familyName" class="is-invisible">Family Name</label>
+  <input type="text" name="familyName" id="familyName" autocomplete="family-name" placeholder="Family Name" required>
+  </div>
+  <div><label for="email" class="is-invisible">Email</label>
+  <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
+  </div>
+  <button class="e-button">Register</button>
+</form>
+</section>
+
+<script>
+//https://docs.netlify.com/forms/setup/#submit-html-forms-with-ajax
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const registration = event.target;
+    const formData = new FormData(registration);
+  
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+    .then(() => register.innerHTML = "<h3>✅ You signed in</h3>")
+    .catch((error) => alert(error));
+};
+const register = document.getElementById("{{ $course }}")
+register.addEventListener("submit", handleSubmit);
+</script>
+
