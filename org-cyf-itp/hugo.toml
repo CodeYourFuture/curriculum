@@ -1,5 +1,5 @@
 title = "CYF Curriculum"
-baseURL = "https://curriculum.codeyourfuture.io/"
+baseURL = "https://cyf-programming.netlify.app/"
 
 [taxonomies]
   category = 'categories' # Content types are blocks, definitions, guides
