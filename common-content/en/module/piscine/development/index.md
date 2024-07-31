@@ -11,7 +11,11 @@ objectives = [
   
 +++
 
-This time is set aside for you to work together as a team to make progress on your project. Here are some strategies to help you work effectively together:
+This time is set aside for you to work together as a team to make progress on your project.
+
+Remember: At your interview, you may be asked about _any_ code in your project, not just the code you wrote. You need to understand and be able to explain the code your team mates wrote. Make sure you read their code, review it, and talk to them about it.
+
+Here are some strategies to help you work effectively together:
 
 <details>
 <summary>

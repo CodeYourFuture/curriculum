@@ -5,7 +5,7 @@ headless="true"
 time=15
 +++
 
-The fourth class day will be interview day. Your interview will take place in a hiring platform, [Evidenced](https://www.evidenced.app/). An assessor will ask you questions about your code and your projects. You can be asked about any part of your project, so make sure you understand it all, including the parts your teammates wrote.
+The fourth class day will be interview day. Your interview will take place in a hiring platform, [Evidenced](https://www.evidenced.app/). An assessor will ask you questions about your code and your projects. You can be asked about any part of any of your projects, so make sure you understand it all, including the parts your teammates wrote.
 
 The success criteria is listed on the success page. Read it carefully so you know what you need to do to succeed.
 
@@ -13,7 +13,7 @@ The success criteria is listed on the success page. Read it carefully so you kno
 
 Your interviewer will expect you to have a secure understanding of:
 
-- The projects you have worked on during the Piscine
+- All of the projects you have worked on during the Piscine, including the code other people wrote
 - Professional English at a B2 level
 - A limited subset of JavaScript concepts at a junior level
 

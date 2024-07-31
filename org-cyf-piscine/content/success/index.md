@@ -9,7 +9,7 @@ weight = 11
 [[objectives]]
 1="Attend every session"
 2="Complete one solo and two group projects"
-3="Give three demos of your projects"
+3="Give at least four demos of your projects"
 4="Ask for help on Slack and in class"
 5="Pass a technical interview"
 +++
