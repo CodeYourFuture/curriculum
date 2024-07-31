@@ -19,22 +19,25 @@ _Before_ you join the Piscine, you should have a secure understanding of a _limi
 - [ ] Variables: `let`, `const`
 - [ ] Primitive data types: `String`, `Number`, `Boolean`, `undefined`, `null`
 - [ ] Data structures: `Array`, `Object`
-- [ ] Operators: `=`, `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `!`, `...`
+- [ ] Navigating Objects: `Object.entries`, `Object.fromEntries`, `Object.keys`, `Object.values`
+- [ ] Navigating Arrays: `Array.includes`, `Array.slice`
+- [ ] Operators: `=`, `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `!`, `%`, `+`, `-`, `*`, `/`
 - [ ] Control structures: `if`, `else`, `else if`, `switch`, `case`, `break`, `continue`, `return`
 - [ ] Functions: `function`, `=>`, scope, callbacks, and extracting a function
 - [ ] Loops: `for`, `for of`
-- [ ] Higher order functions: `map`, `filter`, `reduce`
+- [ ] Higher order functions that take callbacks: `Array.map`, `Array.filter`, `Array.find`, `Array.findIndex`
 
 ### JavaScript in the browser
 
 - [ ] Asynchronous programming: `Promise`, `async/await`
 - [ ] Web APIs: `fetch`, `addEventListener`, `setTimeout`, `document`
+- [ ] Manipulating the DOM with Web APIs: Finding elements, Creating elements, Adding elements to the DOM, Removing elements from the DOM, Changing elements currently in the DOM
 
 ### JavaScript Testing
 
-- [ ] Assertions: `describe`, `it`, `expect`, `to`, `toEqual`, `toBe`, `not`
+- [ ] Assertions in Jest: `describe`, `it`, `expect`, `to`, `toEqual`, `toBe`, `not`
 - [ ] Error handling: `try`, `catch`, `throw`
 
 ### Git
 
-- [ ] Git commands: `clone`, `add`, `commit`, `push`, `pull`, `merge`, `branch`, `checkout`
+- [ ] Git commands: `status`, `clone`, `add`, `commit`, `push`, `pull`, `merge`, `branch`, `checkout`

@@ -19,7 +19,7 @@ src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-3"
 time=45
 [[blocks]]
 name="Development"
-src="module/piscine/development"
+src="module/piscine/solo-development"
 time="45"
 [[blocks]]
 name="lunch"
