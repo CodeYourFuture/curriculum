@@ -14,16 +14,16 @@
 */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{/* Sometimes we're not using blocks, but local pages, and we might want time then too */}}
-{{ $localBlock := "" }}
-{{ if and $blockData (eq $blockData.type "local") }}
-  {{ $localBlock = .Page.Site.GetPage $blockData.api }}
-  {{ $localBlock = $localBlock.Params.time }}
-{{ else }}
-  {{ $localBlock := .Params.time }}
+{{ $localBlock := "0" }}
+{{ if not $blockData }}
+  {{ $localBlock = .Site.GetPage .File.Path }}
+  {{ $localBlock = $localBlock.Params.Time }}
+{{ end }}
+{{ if eq $blockData.type "local" }}
+  {{ $localBlock = .Site.GetPage $blockData.api }}
+  {{ $localBlock = $localBlock.Params.Time }}
 {{ end }}
 {{ $time := $blockData.time | default $localBlock | default 60 }}
-
-
 <time
   class="c-block__time"
   tabindex="0"
