@@ -23,6 +23,11 @@ title = "The longed for documentation"
     [[module.imports.mounts]]
       source = "content/"
       target = "content/more-sources/mounted/workshops"
+  #[[module.imports]]
+    # path = "github.com/CodeYourFuture/CYF-Projects/micro-front-end" 
+    #[[module.imports.mounts]]
+      #source = "content/"
+      #target = "content/more-sources/mounted/projects"
 
 [menus]
     [[menus.secondary]]
@@ -58,7 +63,7 @@ getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
 
 [markup]
 [markup.tableOfContents]
-endLevel = 2
+endLevel = 3
 ordered = true
 startLevel = 2
 [markup.highlight]
