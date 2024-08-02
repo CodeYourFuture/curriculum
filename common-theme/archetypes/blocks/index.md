@@ -1,7 +1,11 @@
 +++
 title = '{{ replace .Name "-" " " | title }}'
 time = 30
-headless = true
+[[cascade]]
+  [cascade.build]
+    list = 'local'
+    publishResources = true
+    render = 'never'
 facilitation = false
 hide_from_overview=false
 threads = ['unassigned']
