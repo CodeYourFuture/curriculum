@@ -2,6 +2,7 @@
 title="Custom Front Matter"
 description="Custom metadata that has special powers in the common theme."
 emoji="🧙"
+menu=["theme"]
 +++
 
 ## Blocks

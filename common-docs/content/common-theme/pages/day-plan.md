@@ -8,17 +8,17 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="common/blocks/energiser"
+src="common-content/blocks/energiser"
 [[blocks]]
 name="Placeholder Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="120"
 [[blocks]]
 name="Lunch"
-src="common/blocks/lunch"
+src="common-content/blocks/lunch"
 [[blocks]]
 name="Study Group 2"
-src="common/blocks/study-group"
+src="common-content/blocks/study-group"
 time="90"
 [[blocks]]
 name="Code Review"
@@ -26,14 +26,14 @@ src="https://github.com/CodeYourFuture/curriculum/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"
-src="common/blocks/afternoon-break"
+src="common-content/blocks/afternoon-break"
 [[blocks]]
 name="Study Group 2"
-src="common/blocks/study-group"
+src="common-content/blocks/study-group"
 time="60"
 [[blocks]]
 name="Retro"
-src="common/blocks/retro"
+src="common-content/blocks/retro"
 +++
 
 This view builds an agenda for class days. We built this because we spent a _lot_ of time making spreadsheets every single week and class days could get chaotic and disruptive to learning. Now everyone knows _what_ to do _when_. Learners can plan things like prayers or medication. Volunteers can see when they're needed. Everyone can see when they can take a break.

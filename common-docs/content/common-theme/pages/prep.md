@@ -7,7 +7,7 @@ menu_level = ['sprint']
 weight = 1
 [[blocks]]
 name="Local"
-src="common/blocks/energiser"
+src="common-content/blocks/energiser"
 [[blocks]]
 name="Readme"
 src="https://github.com/CodeYourFuture/Module-Template/"
