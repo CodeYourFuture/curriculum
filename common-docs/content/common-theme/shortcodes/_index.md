@@ -1,7 +1,7 @@
 +++
-title="Markdown extensions"
+title="Shortcodes"
 layout="slimdex"
-description="Hugo shortcodes and render hooks to use in markdown content"
+description="Markdown extensions to render custom components"
 menu=["theme"]
 emoji= '🪢'
 +++

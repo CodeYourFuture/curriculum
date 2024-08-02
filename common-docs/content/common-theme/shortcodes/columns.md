@@ -8,13 +8,13 @@ menu=["shortcodes"]
 ### Invoke
 
 ```go
-{{/< columns >}}
+{{</* columns >}}
 Split the columns with
 <--->
 This is the second column.
 <--->
 As many as you like.
-{{ </ columns >}}
+{{ </ columns */>}}
 ```
 
 {{< columns >}}

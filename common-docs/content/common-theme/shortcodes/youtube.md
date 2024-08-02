@@ -10,7 +10,7 @@ This simply calls the existing youtube partial. Any existing partial can be invo
 ### Invoke
 
 ```html
-<youtube>https://www.youtube.com/watch?v=QBfhPkBW9Pk</youtube>
+{{</*youtube*/>}}https://www.youtube.com/watch?v=QBfhPkBW9Pk{{</*/youtube*/>}}
 ```
 
 {{< youtube >}}https://www.youtube.com/watch?v=QBfhPkBW9Pk{{< /youtube >}}

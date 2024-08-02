@@ -7,8 +7,8 @@ menu=["shortcodes"]
 
 ### Invoke
 
-```html
-<tooltip name="This is a tooltip"> Hover over me. </tooltip>
+```go
+{{</* tooltip name="This is a tooltip" */>}} Hover over me. {{</* /tooltip */>}}
 ```
 
 {{< tooltip name="This is a tooltip">}} Hover over me. {{< /tooltip >}}

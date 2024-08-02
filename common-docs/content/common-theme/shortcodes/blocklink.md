@@ -5,12 +5,12 @@ emoji="🔗"
 menu=["shortcodes"]
 +++
 
-```go
-  {{&gt; blocklink
+```hugo
+{{</*blocklink
   src="https://emojipedia.org/bellhop-bell"
   name="Example usage"
   caption="Must exist"
-  time="25">}}
+  time="25" */>}}
 ```
 
 {{< blocklink

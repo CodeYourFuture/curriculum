@@ -6,7 +6,7 @@ menu=["shortcodes"]
 +++
 
 ```go
-{{< logos "Financial" >}}
+{{</* logos "Financial" */>}}
 ```
 
 {{< logos "Financial" >}}

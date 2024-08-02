@@ -10,7 +10,7 @@ It's sometimes rhetorically useful to say things like <cite>here at CodeYourFutu
 ### Invoke
 
 ```go
-< our-name >
+{{</*our-name */>}}
 ```
 
 {{< our-name >}}

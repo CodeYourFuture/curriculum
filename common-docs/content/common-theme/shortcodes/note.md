@@ -8,9 +8,9 @@ menu=["shortcodes"]
 ### Invoke
 
 ```go
-<note title="This is a note" type="tip">
+{{</*note title="This is a note" type="tip"*/>}}
 This is the body of the note.
-< /note >
+{{</* /note */>}}
 ```
 
 {{< note title="This is a note" type="tip">}}
