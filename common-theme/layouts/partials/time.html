@@ -3,7 +3,7 @@
   1. set in the [[blocks]] array in the frontmatter of prep or day plan ??
   2. set in the front matter of a block ??
   3. set in any external api that is accessed ??
-  4. default 60
+  4. default 60 TODO we want this to be 0 really - can we update the front matter?
 
   The point of setting time is to help trainees and volunteers understand
   how long to spend on activities.
@@ -13,7 +13,17 @@
   TODO: make this opt in for a simple time block if that comes up.
 */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $time := $blockData.time | default .Page.Params.time | default 0 }}
+{{/* Sometimes we're not using blocks, but local pages, and we might want time then too */}}
+{{ $localBlock := "" }}
+{{ if and $blockData (eq $blockData.type "local") }}
+  {{ $localBlock = .Page.Site.GetPage $blockData.api }}
+  {{ $localBlock = $localBlock.Params.time }}
+{{ else }}
+  {{ $localBlock := .Params.time }}
+{{ end }}
+{{ $time := $blockData.time | default $localBlock | default 60 }}
+
+
 <time
   class="c-block__time"
   tabindex="0"
