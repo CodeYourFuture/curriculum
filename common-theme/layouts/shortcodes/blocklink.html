@@ -1,4 +1,12 @@
-{{/* shortcode: blocklink.html */}}
+{{/* shortcode: blocklink.html
+
+  {{<blocklink
+  src="https://emojipedia.org/bellhop-bell"
+  name="Example usage"
+  caption="Must exist"
+  time="25"/
+>}}
+*/}}
 {{ $src := .Get "src" }}
 {{ $name := .Get "name" | default "" }}
 {{ $caption := .Get "caption" | default "exist" }}
