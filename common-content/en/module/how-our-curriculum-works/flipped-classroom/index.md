@@ -1,6 +1,9 @@
 +++
 title="🐬 Flipped classroom"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Explain how a flipped classroom works"

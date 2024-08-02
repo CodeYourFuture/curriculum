@@ -1,6 +1,9 @@
 +++
 title="📝 Code review"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 15
 [objectives]
     1="Explain the value of code review"

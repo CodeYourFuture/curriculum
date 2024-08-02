@@ -1,6 +1,9 @@
 +++
 title = '🎱 Rendering based on state'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 15
 facilitation = false
 emoji= '🧩'

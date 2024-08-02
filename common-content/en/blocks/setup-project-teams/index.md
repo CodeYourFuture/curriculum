@@ -1,6 +1,9 @@
 +++
 title="🫱🏽‍🫲🏾 Setup project teams"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=60
 +++
 

@@ -1,6 +1,9 @@
 +++
 title="▶️ Demo"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 60
 vocabulary="Backlog"
 [objectives]

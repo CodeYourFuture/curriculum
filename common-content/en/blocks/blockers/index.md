@@ -1,6 +1,9 @@
 +++
 title="Blockers!"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=50
 [objectives]
     1="Use the driver and navigator pattern"

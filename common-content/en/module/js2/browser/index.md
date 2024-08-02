@@ -1,6 +1,9 @@
 +++
 title = '💻 User interfaces'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 10
 facilitation = false
 emoji= '🧩'

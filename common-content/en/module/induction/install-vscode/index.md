@@ -1,6 +1,9 @@
 +++
 title = '🧰 Install VSCode'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 15
 facilitation = false
 emoji= '🧩'
@@ -10,7 +13,6 @@ emoji= '🧩'
 +++
 
 We use VS Code to write all of our code in the course. It is known as an Integrated Development Environment (IDE) and really helps you write great code!
-
 
 [🔗 Download and install VSCode now](https://code.visualstudio.com/)
 

@@ -1,6 +1,9 @@
 +++
 title = 'Monitoring Tools'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 20
 facilitation = false
 emoji= '🧩'

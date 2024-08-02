@@ -1,6 +1,9 @@
 +++
 title="🎯 Have we met our goals?"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 10
 [objectives]
     1="Explain the importance of checking learning objectives"

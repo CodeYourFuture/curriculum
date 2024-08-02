@@ -1,6 +1,9 @@
 +++
 title="Kata"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Write a failing test"

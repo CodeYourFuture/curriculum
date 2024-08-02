@@ -1,6 +1,9 @@
 +++
 title = "🧰 Install Node with nvm"
-headless = true 
+[build]
+    render = false
+    list = 'local'
+    publishResources = false 
 time = 20 
 facilitation = false
 [objectives] 

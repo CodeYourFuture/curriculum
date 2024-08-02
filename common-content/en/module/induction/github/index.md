@@ -1,6 +1,9 @@
 +++
 title = 'Check your Planner'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 5
 facilitation = false
 vocabulary=[]

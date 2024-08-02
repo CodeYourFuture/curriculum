@@ -1,6 +1,9 @@
 +++
 title = '🧭 Community goals'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 10
 facilitation = false
 emoji= '🧩'
@@ -12,7 +15,7 @@ To achieve our mission, we bring people together to build self-empowered communi
 
 ### We build communities that can **self-educate**
 
-**Self educate** means the ability to draw on surrounding resources to learn new skills and concepts. Tech changes all the time. We must develop independent learners who can teach themselves new skills and technologies. 
+**Self educate** means the ability to draw on surrounding resources to learn new skills and concepts. Tech changes all the time. We must develop independent learners who can teach themselves new skills and technologies.
 
 ### We build communities that can self-coordinate
 

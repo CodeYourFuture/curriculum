@@ -1,6 +1,9 @@
 +++
 title = '➕ Summation'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -17,17 +20,16 @@ We then need to **repeatedly** add each value in the list to our `total`.
 
 ```js
 function sumValues(list) {
-    let total = 0;
-    total += list[0]; // access a list element and add to total
-    total += list[1];
-    total += list[2];
-    total += list[3];
-    total += list[4];
-    return total;
+  let total = 0;
+  total += list[0]; // access a list element and add to total
+  total += list[1];
+  total += list[2];
+  total += list[3];
+  total += list[4];
+  return total;
 }
 
 sumValues([1, 2, 3, 4, 5]);
-
 ```
 
 However, this approach is flawed.

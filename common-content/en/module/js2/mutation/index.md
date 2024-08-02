@@ -1,6 +1,9 @@
 +++
 title = '🔀 Mutation'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 25
 facilitation = false
 emoji= '🧩'

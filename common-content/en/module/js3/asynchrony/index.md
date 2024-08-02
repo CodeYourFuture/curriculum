@@ -1,6 +1,9 @@
 +++
 title = '⏳ Asynchrony : outside time'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 40
 facilitation = false
 emoji= '🧩'

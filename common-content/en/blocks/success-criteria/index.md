@@ -1,6 +1,9 @@
 +++
 title="✅ Check module success criteria"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 10
 +++
 

@@ -1,6 +1,9 @@
 +++
 title = 'What are forms?'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 60
 facilitation = false
 emoji= '🧩'

@@ -1,6 +1,9 @@
 +++
 title="🫱🏾‍🫲🏿 Study groups"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 20
 [objectives]
     1="Locate a study group block"

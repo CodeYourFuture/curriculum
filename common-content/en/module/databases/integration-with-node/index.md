@@ -1,6 +1,9 @@
 +++
 title = 'Integration with NodeJS'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 45
 facilitation = false
 emoji= '🧩'

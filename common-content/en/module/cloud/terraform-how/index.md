@@ -1,6 +1,9 @@
 +++
 title = 'How does terraform work?'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 5
 facilitation = false
 emoji= '🧩'

@@ -1,6 +1,9 @@
 +++
 title = 'Creating Alerts and Understanding Metrics'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 20
 facilitation = false
 emoji= '🧩'

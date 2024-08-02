@@ -1,6 +1,9 @@
 +++
 title = '🧰 Workshop Activity'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 120
 emoji= '🧰'
 [objectives]

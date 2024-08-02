@@ -1,6 +1,9 @@
 +++
 title="✏️ Check your progress"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=30
 vocabulary="Backlog"
 [objectives]

@@ -1,6 +1,9 @@
 +++
 title="Energiser"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=20
 hide_from_overview=true
 +++

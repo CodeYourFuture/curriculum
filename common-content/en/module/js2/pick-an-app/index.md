@@ -1,6 +1,9 @@
 +++
 title = '🪀 Discuss an app'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 85
 facilitation = false
 emoji= '🧩'

@@ -1,6 +1,9 @@
 +++
 title="🎡 Morning orientation"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=30
 [objectives]
     1="Locate a morning orientation block"

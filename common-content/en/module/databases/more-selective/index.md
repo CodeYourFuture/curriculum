@@ -1,6 +1,9 @@
 +++
 title = 'Being More Selective'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 30
 facilitation = false
 emoji= '🧩'

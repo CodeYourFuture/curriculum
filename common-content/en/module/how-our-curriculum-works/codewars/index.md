@@ -1,6 +1,9 @@
 +++
 title="👾 Codewars"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 10
 [objectives]
     1="Define Codewars"

@@ -1,6 +1,9 @@
 +++
 title = 'User stories'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 50
 facilitation = false
 vocabulary=["Requirements", "User Stories"]

@@ -1,6 +1,9 @@
 +++
 title = '📋 Check Git installation'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 15
 facilitation = false
 vocabulary=[]

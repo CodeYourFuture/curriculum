@@ -1,6 +1,9 @@
 +++
 title = '🗺️ Using the curriculum'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time="50"
 facilitation = true
 emoji= '🧩'

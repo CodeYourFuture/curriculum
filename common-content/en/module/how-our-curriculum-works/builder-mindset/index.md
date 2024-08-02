@@ -1,6 +1,9 @@
 +++
 title="🧱 Builder mindset"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
   1="Define a builder mindset"

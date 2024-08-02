@@ -1,6 +1,9 @@
 +++
 title = '📁 Running scripts'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 10
 facilitation = false
 emoji= '🗄️'
@@ -36,7 +39,6 @@ currentYear++; // statement
 {{</note>}}
 
 Once the computer executes these statements, the execution of the program is complete. But we’re left with a problem. With the REPL, the user inputs an expression statement or declaration; the computer reads and executes the line and _immediately_ prints feedback to the terminal. With a file, the computer will execute each line sequentially until completion _without_ printing the values of each expression it evaluates.
-
 
 So this new problem can be expressed as a question:
 

@@ -1,6 +1,9 @@
 +++
 title="Evaluate ✏️"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 60
 [objectives]
     1="Evaluate your current progress against previous modules"

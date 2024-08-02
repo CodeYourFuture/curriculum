@@ -1,6 +1,9 @@
 +++
 title = 'Recap HTML and CSS'
-headless = true
+[build]
+render = false
+list = 'local'
+publishResources = false
 time = 40
 facilitation = false
 emoji= '🧩'

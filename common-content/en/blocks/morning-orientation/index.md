@@ -1,6 +1,9 @@
 +++
 title="🎡 Morning orientation"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=15
 [objectives]
     1="Introduce and welcome new volunteers"

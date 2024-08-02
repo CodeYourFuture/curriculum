@@ -1,6 +1,9 @@
 +++
 title="Spaced Repetition"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 10
 hide_from_overview=true
 +++

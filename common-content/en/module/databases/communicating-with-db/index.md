@@ -1,6 +1,9 @@
 +++
 title = 'Communicating with the database using SQL'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 120
 facilitation = false
 emoji= '🧩'

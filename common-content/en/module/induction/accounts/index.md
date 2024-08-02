@@ -1,6 +1,9 @@
 +++
 title="Professional Accounts"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=120
 hide_from_overview=true
 +++

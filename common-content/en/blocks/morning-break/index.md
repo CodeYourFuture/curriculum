@@ -1,6 +1,9 @@
 +++
 title="Morning Break"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=15
 hide_from_overview=true
 +++

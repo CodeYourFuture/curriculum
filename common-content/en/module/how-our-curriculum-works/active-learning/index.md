@@ -1,6 +1,9 @@
 +++
 title="🎬 Active learning"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Define active learning"

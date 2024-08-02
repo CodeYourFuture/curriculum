@@ -1,6 +1,9 @@
 +++
 title="🧑🏾‍💻 Importance of prep"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Explain the importance of prep"

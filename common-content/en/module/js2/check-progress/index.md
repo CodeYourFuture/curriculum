@@ -1,6 +1,9 @@
 +++
 title = '📈 Check progress'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -24,7 +27,9 @@ const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
 function updateCharacterLimit() {
-  console.log("keyup event has fired... The browser called updateCharacterLimit...");
+  console.log(
+    "keyup event has fired... The browser called updateCharacterLimit..."
+  );
 }
 
 textarea.addEventListener("keyup", updateCharacterLimit);

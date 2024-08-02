@@ -1,6 +1,9 @@
 +++
 title = '🧩 Break it down'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 60
 facilitation = false
 emoji= '🧩'

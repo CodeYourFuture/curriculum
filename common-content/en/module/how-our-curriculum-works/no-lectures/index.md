@@ -1,6 +1,9 @@
 +++
 title="No lectures"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Explain why we don't lecture during live sessions"

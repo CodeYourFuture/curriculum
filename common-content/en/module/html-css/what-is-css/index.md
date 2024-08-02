@@ -1,6 +1,9 @@
 +++
 title = 'What Is CSS'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time = 60
 facilitation = false
 vocabulary=['property', 'value', 'cascade', 'specificity', 'declarative', 'render', 'block', 'inline']

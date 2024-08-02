@@ -1,6 +1,9 @@
 +++
 title="📅 Day plan"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time= 30
 [objectives]
     1="Describe how the day plan works"

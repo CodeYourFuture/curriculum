@@ -1,6 +1,9 @@
 +++
 title="Games, rules, logic, and strategy 🎲"
-headless="true"
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time=25
 hide_from_overview=true
 +++

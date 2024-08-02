@@ -1,6 +1,9 @@
 +++
 title = 'Learning as a community 🏫'
-headless = true
+[build]
+    render = false
+    list = 'local'
+    publishResources = false
 time="55"
 facilitation = true
 emoji= '🧩'
