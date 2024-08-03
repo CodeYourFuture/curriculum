@@ -6,7 +6,7 @@
   position: relative;
   grid-template:
     ". .           . .     ." var(--theme-spacing--gutter)
-    ". title       . image ." auto
+    ". title       . image ." minmax(7ch, auto)
     ". meta . image ." minmax(0, 1fr)
     ". description . image ." minmax(0, 1fr)
     ". .           . .     ." var(--theme-spacing--gutter)
@@ -23,6 +23,9 @@
   &__title {
     line-height: 1.875;
     font-weight: 500;
+    .c-map & {
+      line-height: 1;
+    }
   }
   &__description {
     margin: 0 auto auto 0; // pin top left
