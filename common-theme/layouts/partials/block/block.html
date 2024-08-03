@@ -1,5 +1,5 @@
 {{/* Call our scratch function */}}
-{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" .block.src  "name" .block.name "time" .block.time "caption" .block.caption "picture" .block.picture "page" .) }}
+{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" .block.src  "name" .block.name "time" .block.time "caption" .block.caption "picture" .block.picture "page" . "ideas" .block.ideas) }}
 {{/* Retrieve the blockData from Scratch */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 
@@ -20,6 +20,8 @@
   {{ partial "block/slide.html" . }}
 {{ else if eq $blockData.type "link" }}
   {{ partial "block/link.html" . }}
+{{ else if eq $blockData.type "workshop" }}
+  {{ partial "block/workshop.html" . }}
 {{ else }}
   <p>Error: {{ $blockData.type }} Unrecognized block type</p>
 {{ end }}

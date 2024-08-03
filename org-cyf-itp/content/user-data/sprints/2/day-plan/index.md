@@ -15,6 +15,7 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="120"
+ideas=["asking-questions"]
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
