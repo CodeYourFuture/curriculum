@@ -26,9 +26,10 @@
     {{ end }}
     {{ with $blockData.hasBlocks }}
       {{ range . }}
-        {{ $innerArray := index . 0 }}
-        {{ $blockDict := dict "block" $innerArray "Page" $.Page "Site" $.Site }}
-        {{ partial "block/nested.html"  $blockDict }}
+        {{ range $block := . }}
+          {{ $blockDict := dict "block" $block "Page" $.Page "Site" $.Site }}
+          {{ partial "block/nested.html"  $blockDict }}
+        {{ end }}
       {{ end }}
     {{ end }}
     <div class="c-block__content c-copy">{{ $block.Content }}</div>
