@@ -24,36 +24,13 @@
         {{ partial "objectives/block.html" . }}
       </details>
     {{ end }}
+    {{ with $blockData.hasBlocks }}
+      {{ range . }}
+        {{ $innerArray := index . 0 }}
+        {{ $blockDict := dict "block" $innerArray "Page" $.Page "Site" $.Site }}
+        {{ partial "block/nested.html"  $blockDict }}
+      {{ end }}
+    {{ end }}
     <div class="c-block__content c-copy">{{ $block.Content }}</div>
   </div>
-  <footer class="c-block__footer">
-    <h3>Notes</h3>
-    {{ with $block.Params.Objectives }}
-      <confetti-checkboxes
-        ><h5>Learning Objectives</h5>
-        {{ partial "objectives/block.html" . }}
-      </confetti-checkboxes>
-      {{ $confetti := resources.Get "scripts/confetti-checkboxes.js" | resources.Minify }}
-      <script src="{{ $confetti.Permalink }}" type="module" defer></script>
-    {{ end }}
-    {{ if $block.Params.activities }}
-      <h5 class="e-heading__5 is-invisible">Activities</h5>
-      <ul class="c-term__list c-label__list">
-        {{ range $key, $value := $block.Params.activities }}
-          {{ with site.GetPage (printf "/activities/%s" $value) }}
-            <li
-              class="c-term c-label"
-              style="--color:var(--theme-color--block);">
-              <a class="c-term__link c-label__name" href="{{ .Permalink }}">
-                <span class="c-term__emoji c-label__emoji"
-                  >{{ .Params.emoji | default "📛" }}</span
-                >
-                <span class="c-term__text c-label__text">{{ .Title }}</span></a
-              >
-            </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    {{ end }}
-  </footer>
 </section>
