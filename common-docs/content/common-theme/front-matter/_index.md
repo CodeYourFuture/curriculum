@@ -96,7 +96,7 @@ This will hide the register form from the top of the day plan if you don't want 
 ## Theme
 
 ```toml
-theme = ["Asynchronous programming"]
+theme = "Asynchronous programming"
 ```
 
 These are assigned on prep views to build an overview page /overview. This isn't currently a Hugo taxonomy, but it could be. We might change this to a Hugo taxonomy at some point.
