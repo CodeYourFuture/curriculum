@@ -1,4 +1,5 @@
 name="Intro to Programming"
+code="itp"
 weight=2
 menu="start here"
 url="https://programming.codeyourfuture.io"
@@ -6,3 +7,4 @@ description="Programming with JavaScript, Python, and SQL; collaborating in team
 emoji="🐣"
 days=84
 commitment="part time"
+frequency=4

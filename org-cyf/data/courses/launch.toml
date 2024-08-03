@@ -1,4 +1,5 @@
 name="The Launch"
+code="launch"
 menu="trainees"
 weight=5
 url="https://launch.codeyourfuture.io/"
@@ -6,3 +7,4 @@ description="In a cross functional Agile team, develop and deliver a real produc
 emoji="🚀"
 commitment="part time"
 days=35
+frequency=4
