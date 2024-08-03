@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: org-cyf-guides/static/img
+public_folder: /img
+collections:
+  - name: "employability"
+    identifier_field: toml
+    label: "Employability"
+    folder: "org-cyf-guides/content/employability"
+    create: true
+    path: "{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,55}$", "Must have between 1 and 55 characters"],
+          required: true,
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+      - {
+          label: "Emoji",
+          name: "emoji",
+          widget: "string",
+          pattern: ["^.{1,2}$", "No more than 2 characters allowed"],
+          required: true,
+        }
+      - { label: "Content", name: "body", widget: "markdown", required: true }

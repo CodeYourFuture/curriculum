@@ -1,0 +1,10 @@
+github.com/CodeYourFuture/CYF-PD v1.0.0 h1:/zivfP1G3bwv/+R+wog151/we3BfNlMHhlsVA1u/XW0=
+github.com/CodeYourFuture/CYF-PD v1.0.0/go.mod h1:DHl0hTj4HVlLaNcIfwLx3ZkO8R0B08CpvVj2KCJgzpg=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240114132825-493a89648721 h1:txnduLXqSKf3XHb/g74uhpGltb9FgyrdrMeC/Ce3vr0=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240114132825-493a89648721/go.mod h1:w5rIm9hJlHD+CYpQEVMWE/6WaE/EiLmYVs18Kw/iH0s=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240121151641-e52b73ad527d h1:WfPdLoNvxOrNx3GB+DpYlpEH57v98h0KWXpidN+xdOo=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240121151641-e52b73ad527d/go.mod h1:e3J+XphCBJJ8kf6S9ykVxNY1VKPWJoYuDFXEizlDpCI=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240114132825-493a89648721 h1:GSd+9AsvXJEjy2AvsP79YBpmMRhxydDhVvlbD5x5DKg=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240114132825-493a89648721/go.mod h1:lWiQfXWr0Uc517tksx7D5p5ZoXo9bxRoJ0or+z9mRyk=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240121151641-e52b73ad527d h1:ILE8f9gXLEPEyrJVBdFRVa0Uszf9OVdK4LjXZjCLUag=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240121151641-e52b73ad527d/go.mod h1:kzt+J4JYp5C3GD1dX0rf7vY5fsTUc6Drrn+7p7pjmLg=
