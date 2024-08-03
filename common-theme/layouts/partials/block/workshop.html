@@ -25,7 +25,7 @@
       </details>
     {{ end }}
     {{ if $blockData.ideas }}
-      <h3>💡 Workshop Ideas</h3>
+      <h3>{{ $block.Params.IdeasSubtitle }}</h3>
       <ul>
       {{ range $blockData.ideas }}  
         <li><a href="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/{{ . }}" target="_blank">{{ . }}</a></li>

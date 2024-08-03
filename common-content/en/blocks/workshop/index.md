@@ -3,6 +3,7 @@ title = '🧰 Workshop Activity'
 headless = true
 time = 120
 emoji= '🧰'
+ideasSubtitle = '💡 Workshop Ideas'
 [objectives]
     1='Apply concepts from study to a practical example'
     2='Work together on exercises and activities to find gaps in understanding'
