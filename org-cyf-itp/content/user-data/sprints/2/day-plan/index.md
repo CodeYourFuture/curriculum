@@ -15,7 +15,10 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="120"
-ideas=["asking-questions"]
+  [[blocks.nested.blocks]]
+    name="Asking questions"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
+    time=120
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
