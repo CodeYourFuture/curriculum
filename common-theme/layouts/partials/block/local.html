@@ -24,6 +24,7 @@
         {{ partial "objectives/block.html" . }}
       </details>
     {{ end }}
+    <div class="c-block__content c-copy">{{ $block.Content }}</div>
     {{ with $blockData.hasBlocks }}
       {{ range . }}
         {{ range $block := . }}
@@ -32,6 +33,5 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    <div class="c-block__content c-copy">{{ $block.Content }}</div>
   </div>
 </section>
