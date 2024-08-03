@@ -4,7 +4,7 @@
     {{ range $index, $menu := . }}
       <section class="c-map__block">
         <h2 class="e-heading c-map__title">
-          📍{{ $index }}:
+          📍{{ add $index 1 }}:
           {{ $menu }}
         </h2>
         <ol class="c-map__timeline">
