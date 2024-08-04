@@ -1,12 +1,17 @@
 +++
 title = '🪀 Discuss an app'
-headless = true
+
 time = 85
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Discuss problem solving strategies in groups'
 2='Check required functionality against acceptance criteria'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 This week you're building small UI components/apps using DOM manipulation. The aim of this session is to get together in groups and discuss strategy and implementation for the week's backlog issues.

@@ -1,11 +1,16 @@
 +++
 title = '🗄️ Generalising further'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Extend an implementation based on more assertions'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In English, ordinal numbers mostly follow the same pattern.

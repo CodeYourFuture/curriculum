@@ -1,11 +1,16 @@
 +++
 title = '🛬 What is CI/CD?'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🛬'
 [objectives]
     1='Define CI and CD'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 **CI**, or Continuous Integration, is a development practice where developers integrate code into a shared repository frequently. This usually happens multiple times a day and is complemented by automated tests.

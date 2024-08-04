@@ -1,11 +1,16 @@
 +++
 title = '↙️ ↘️ Making a choice'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Propose a strategy for solving a problem'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Our function works for morning inputs like `"08:00"`. In this case, the function returns the target output of `"08:00 am"` as required. However, at the moment, the output of `formatAs12HourClock("23:00")` is `"23:00 am"`.

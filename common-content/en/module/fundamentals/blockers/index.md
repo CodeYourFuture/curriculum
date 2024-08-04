@@ -1,6 +1,5 @@
 +++
 title = 'Sharing Our Blockers'
-headless = true
 time = 45
 facilitation = false
 vocabulary=["Blockers"]
@@ -8,6 +7,11 @@ emoji= '🧩'
 [objectives]
 1='Identify blockers'
 2='Share blockers on a Jamboard or sticky notes'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We call problems that stop our progress "blockers". We talk through our blockers regularly and help each other get "unblocked" or "unstuck".

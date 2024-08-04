@@ -1,12 +1,17 @@
 +++
 title = '🥎 try/catch'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a try/catch block'
     2='Handle an error'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can handle errors with a try/catch block. We can use the `try` keyword to _try_ to do something, and if it fails, `catch` the {{<tooltip title="error">}}An [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) is a global object produced when something goes wrong. We can throw an [Error](https://www.w3schools.com/js/js_errors.asp) manually with the `throw` keyword.{{</tooltip>}} We can use try/catch in both synchronous and asynchronous code.

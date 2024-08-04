@@ -1,6 +1,6 @@
 +++
 title = '⏳ Asynchrony : outside time'
-headless = true
+
 time = 40
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
 1="Define asynchrony"
 2="Explain why we need asynchrony"
 3="Identify an asynchronous method we have already used"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can handle latency using {{<tooltip title="asynchronous execution">}}run code in a different order.{{</tooltip>}} To understand asynchrony we first need to be clear about {{<tooltip title="synchronous execution">}}run code in the order it is written.{{</tooltip>}}.

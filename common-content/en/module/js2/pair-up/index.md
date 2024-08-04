@@ -1,11 +1,16 @@
 +++
 title = '🫱🏿‍🫲🏾 Pair up'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
 1="Prepare for next week's project"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 For the final week of this module, you will need to **work in pairs** to **build an application from scratch**.

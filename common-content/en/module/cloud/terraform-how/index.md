@@ -1,11 +1,16 @@
 +++
 title = 'How does terraform work?'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='List the workflow steps of Terraform'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Terraform has a structured workflow:

@@ -1,12 +1,17 @@
 +++
 title = "🤹🏼 Synchronising with effects"
-headless = true
+
 time = 40
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define the purpose of the useEffect hook in React'
     2='Describe the difference between effects and events in React'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

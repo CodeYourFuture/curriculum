@@ -1,10 +1,15 @@
 +++
 title="🫱🏾‍🫲🏿 Study groups"
-headless="true"
+
 time= 20
 [objectives]
     1="Locate a study group block"
     2="Explain the importance of study groups"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In a flipped classroom, we spend our time in class focused on active learning: we need to prioritise time and space for trainees to work on their backlog independently in small groups.

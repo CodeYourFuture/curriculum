@@ -1,7 +1,11 @@
 +++
 title="Understanding Fundamentals"
-headless=true
 facilitation=false
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## To understand this course, we must understand these goals:

@@ -1,10 +1,15 @@
 +++
 title="🎡 Morning orientation"
-headless="true"
+
 time=30
 [objectives]
     1="Locate a morning orientation block"
     2="Check learning objectives for morning orientation block"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We use the morning orientation block to gather the community together. We nominate a time-keeper and a facilitator (if they weren't already nominated during the week). The objectives of the morning orientation block are clear:

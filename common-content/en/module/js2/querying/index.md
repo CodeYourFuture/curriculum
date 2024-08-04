@@ -1,11 +1,16 @@
 +++
 title = '🔎 Querying the DOM'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Access elements in the DOM using selector methods'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Inside the `body` of the html document, we start with the following html:

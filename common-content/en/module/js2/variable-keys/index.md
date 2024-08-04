@@ -1,12 +1,17 @@
 +++
 title = '[ ] Access with variables'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain when square bracket notation may be necessary to access an object'
     2='Explain why a previous test breaks once the implementation changes'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can mutate an object using `.` dot notation. However, if we look at the return value in the previous implementation we get `{ key : "banana"}`.

@@ -1,12 +1,17 @@
 +++
 title = 'What are components?'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify 5 UI components'
     2='Describe the benefits of building with components'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="question" title="5 Things About Components">}}

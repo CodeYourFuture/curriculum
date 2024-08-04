@@ -1,6 +1,6 @@
 +++
 title = 'Communicating with the database using SQL'
-headless = true
+
 time = 120
 facilitation = false
 emoji= '🧩'
@@ -10,6 +10,11 @@ emoji= '🧩'
     3='Use expressions to manipulate the results of queries'
     4='Retrieve data from a table using conditionals in PostgreSQL'
     5='Insert new data into existing tables'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## 👩🏽‍✈️👨🏾‍✈️Code along with video mentors

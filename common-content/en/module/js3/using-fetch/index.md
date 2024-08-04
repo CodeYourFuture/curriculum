@@ -1,6 +1,6 @@
 +++
 title = '🌐 Requesting from a server side API'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
 1="List 5 preceding concepts of asynchronous programming in JavaScript"
 2="Identify 2 unknown concepts still to be learned"
 3="Fetch data from a server side API using a client side Web API"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 So now we have these pieces of our giant concept map

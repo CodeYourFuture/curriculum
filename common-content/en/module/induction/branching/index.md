@@ -1,6 +1,6 @@
 +++
 title = '🌳 Branching'
-headless = true
+
 time ="60"
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Figure out what we need to do next in the course'
     2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when we are stuck'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can check the commits on the remote repository as before:

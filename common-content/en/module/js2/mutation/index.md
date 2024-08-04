@@ -1,11 +1,16 @@
 +++
 title = '🔀 Mutation'
-headless = true
+
 time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define mutation'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's take another look at our earlier implementation of `calculateMedian`:

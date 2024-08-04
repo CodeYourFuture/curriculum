@@ -1,12 +1,17 @@
 +++
 title = 'Learning as a community 🏫'
-headless = true
+
 time="55"
 facilitation = true
 emoji= '🧩'
 [objectives]
     1='Describe how we learn as a community'
     2='Describe a typical week in our community'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 At {{<our-name>}}, we learn as a **community.**

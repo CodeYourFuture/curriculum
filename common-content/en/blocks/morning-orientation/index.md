@@ -1,11 +1,16 @@
 +++
 title="🎡 Morning orientation"
-headless="true"
+
 time=15
 [objectives]
     1="Introduce and welcome new volunteers"
     2="Nominate a timekeeper"
     3="Check the morning day plan and group structures"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note title="Planning during the week" type="info">}}

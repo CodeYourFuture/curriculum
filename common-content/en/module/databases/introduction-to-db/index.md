@@ -1,11 +1,16 @@
 +++
 title = 'Introduction to databases'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why databases are needed in Web Development'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 A database is a structured set of data held in a computer. It provides ways to store, retrieve and organize information.

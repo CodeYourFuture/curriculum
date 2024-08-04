@@ -1,6 +1,6 @@
 +++
 title = 'Understanding Requirements'
-headless = true
+
 time = 20
 facilitation = false
 vocabulary=["Requirements", "User Stories"]
@@ -10,6 +10,11 @@ emoji= '🧩'
     2='Identify extra requirements from your own experience'
     3='Resolve trade-offs in conflicting requirements'
     4='Translate requirements into high-level design outlines'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Communication is _hard_. Today, let’s explore some ways we communicate with each other in software development. It’s not enough to draw a picture of a website and assume the other person will build what you imagine. It’s never a good idea to assume shared context or shared interpretations.

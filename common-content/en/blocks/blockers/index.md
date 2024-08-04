@@ -1,12 +1,16 @@
 +++
 title="Blockers!"
-headless="true"
+
 time=50
 [objectives]
     1="Use the driver and navigator pattern"
     2="Break down a problem into steps"
     3="Negotiate a strategy with your team"
     4="Follow directions"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
 +++
 
 [Online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html)

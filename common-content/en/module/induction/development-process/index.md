@@ -1,9 +1,14 @@
 +++
 title = '🧰 Development process'
-headless = true
+
 time ="10"
 facilitation = false
 emoji= '🧩'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Ahmed and Naima are using the following **development process** for writing their blog:

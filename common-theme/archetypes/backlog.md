@@ -6,6 +6,11 @@ menu_level = ['sprint']
 weight = 2
 backlog= 'Module-Template'
 backlog_filter= 'Sprint 1'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 This view lists all the issues for the current sprint. It is looking for a repo in your org named `Module-<module-name>` where it expects issues to live. You can edit this of course.

@@ -1,11 +1,16 @@
 +++
 title = '📨 POST'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Process a POST request using Express and Node and store data in memory'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 `POST /movies should save a new movie`

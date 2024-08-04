@@ -1,11 +1,16 @@
 +++
 title = '🦻🏼 Handling events'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Add event handlers to your JSX'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

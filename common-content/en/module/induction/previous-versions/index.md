@@ -1,9 +1,14 @@
 +++
 title = '📝 Previous versions'
-headless = true
+
 time ="20"
 facilitation = false
 emoji= '🧩'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can view the different commits of a project on Github. This means we can see what the website looked like before, in previous versions.

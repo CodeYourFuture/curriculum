@@ -1,8 +1,13 @@
 +++
 title = 'Chaining Promises'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++

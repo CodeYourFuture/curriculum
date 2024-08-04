@@ -1,12 +1,17 @@
 +++
 title = 'Creating a Workflow with Multiple Jobs'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Implement a multi-job workflow where jobs run sequentially, based on dependencies and requirements'
     2='Use the needs keyword to specify job dependencies'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In a real-world scenario, you often need multiple jobs to run different tasks in parallel or sequentially to speed up the process or manage dependencies. In this section, you'll learn how to set up a workflow with multiple jobs.

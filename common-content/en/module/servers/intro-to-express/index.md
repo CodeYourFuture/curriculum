@@ -1,11 +1,16 @@
 +++
 title = 'Introduction to Express'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Create an Express server'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We have already learned about the **[Node.js](https://nodejs.org/en/)** runtime environment and how it allows us to run JavaScript code outside of the browser. We have also learned about the **[Node Package Manager (npm)](https://www.npmjs.com/)** and how it allows us to download and use other people's code in our own projects.
