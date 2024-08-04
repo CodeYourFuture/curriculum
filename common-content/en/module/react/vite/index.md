@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Create a new React app with Vite'
     2='Run the app in development mode'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

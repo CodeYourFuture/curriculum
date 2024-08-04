@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

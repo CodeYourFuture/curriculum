@@ -7,8 +7,8 @@ emoji= '🗄️'
 [objectives]
     1='Execute a JavaScript file with Node'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

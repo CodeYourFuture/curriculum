@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Extend an implementation based on more assertions'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

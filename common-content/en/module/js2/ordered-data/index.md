@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain the limitations of arrays when storing data'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

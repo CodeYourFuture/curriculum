@@ -6,8 +6,8 @@ time= 10
     1="Define Codewars"
     2="Explain why katas are useful for quick feedback"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ time=50
     3="Negotiate a strategy with your team"
     4="Follow directions"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 +++
 

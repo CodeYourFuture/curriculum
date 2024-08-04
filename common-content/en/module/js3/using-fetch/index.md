@@ -9,8 +9,8 @@ emoji= '🧩'
 2="Identify 2 unknown concepts still to be learned"
 3="Fetch data from a server side API using a client side Web API"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

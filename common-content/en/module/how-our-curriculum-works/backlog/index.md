@@ -9,8 +9,8 @@ emoji= '🧩'
 1='Define the backlog'
 2='Explain how to use the sprint backlog'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

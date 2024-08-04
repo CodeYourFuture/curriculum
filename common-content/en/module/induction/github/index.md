@@ -8,8 +8,8 @@ emoji= '🧩'
 [objectives]
 1='Double check Git is installed on your local machine'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

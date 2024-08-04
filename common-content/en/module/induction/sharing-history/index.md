@@ -8,8 +8,8 @@ emoji= '🧩'
 1='Given a remote or local repository, identify the number of commits'
 2='Given a remote or local repository, identify the author, time and message of a given commit'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

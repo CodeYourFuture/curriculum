@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Integrate deployment scripts into the GitHub Actions workflow'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

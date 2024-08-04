@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Define multiple routes in a React application'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

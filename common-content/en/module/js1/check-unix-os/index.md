@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Check you have a Unix based operating system'
     2='If required, setup a Unix based operating system'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

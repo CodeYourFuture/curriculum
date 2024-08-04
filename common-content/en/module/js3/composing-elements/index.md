@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Compose UI elements to some specification'
     2='Append DOM elements to other nodes in the DOM tree'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

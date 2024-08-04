@@ -1,12 +1,11 @@
 +++
-title="How our curriculum works"
-description="Training ourselves how to use our own curriculum"
+title="HOCW"
+description="How our curriculum works"
 layout="block-viewer"
 hide_from_overview="true"
 noindex="true"
 [build]
-  render = false
-  list = 'never'
+  list = 'local'
   publishResources = false
 
 +++

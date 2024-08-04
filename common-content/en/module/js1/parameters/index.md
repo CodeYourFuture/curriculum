@@ -11,8 +11,8 @@ emoji= '🗄️'
     4='Invoke a given function with an appropriate argument to produce some target output'
 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -9,8 +9,8 @@ emoji= '🗄️'
     2='Define a statement'
     3='Describe the difference between a declaration and a statement'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

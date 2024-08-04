@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Process a PUT request using Express and Node and update an array held in memory'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

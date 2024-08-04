@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Describe an event in the browser environment'
     2='Update the strategy for implementing a character limit component'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

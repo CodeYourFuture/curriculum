@@ -6,8 +6,8 @@ emoji= '🚢'
 [objectives]
     1='Install Docker'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

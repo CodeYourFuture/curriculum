@@ -10,8 +10,8 @@ hide_from_overview=true
     3="Manage your tickets on your board"
 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

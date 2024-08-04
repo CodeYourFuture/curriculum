@@ -3,8 +3,8 @@ title="Experts AMA"
 
 time=45
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

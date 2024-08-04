@@ -7,8 +7,8 @@ time= 30
 2="Describe how we use workshops during Saturday sessions"
 3="Relate the use of workshops to active learning"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

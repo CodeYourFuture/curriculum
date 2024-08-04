@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define a client side Web API'
     2='Define a server side API'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

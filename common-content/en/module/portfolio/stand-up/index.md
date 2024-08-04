@@ -9,8 +9,8 @@ emoji= '😉'
     2='Communicate your progress'
     3='Set a goal for the day'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -79,11 +79,6 @@
       background-color: transparent;
       text-shadow: none;
     }
-    &-text {
-      .c-page-header--solo & {
-        clip-path: rect(-1em 6em 6em 0);
-      }
-    }
   }
   &__subtitle {
     display: flex;

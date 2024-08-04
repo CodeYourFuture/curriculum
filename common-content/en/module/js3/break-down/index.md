@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Identify and sequence sub tasks'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

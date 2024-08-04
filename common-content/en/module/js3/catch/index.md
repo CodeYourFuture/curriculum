@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define a try/catch block'
     2='Handle an error'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

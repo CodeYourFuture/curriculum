@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Access elements in the DOM using selector methods'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

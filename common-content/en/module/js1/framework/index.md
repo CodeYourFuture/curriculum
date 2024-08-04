@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain why we need to use testing frameworks'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

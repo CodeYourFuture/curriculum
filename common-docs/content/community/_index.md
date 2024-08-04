@@ -1,7 +1,7 @@
 +++
 title="If not you, who?"
 description="Is something missing? Can you make it better?"
-menu=["community"]
+menu=["community", "syllabus"]
 emoji="🫱🏽‍🫲🏿"
 [[blocks]]
 name="Contributing"

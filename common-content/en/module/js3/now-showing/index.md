@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define an acceptance criterion for building a web page'
     2='Use a wireframe to make a basic design for the web page'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

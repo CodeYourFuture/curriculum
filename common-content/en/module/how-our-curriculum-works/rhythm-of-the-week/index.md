@@ -7,8 +7,8 @@ time= 30
     2="Identify when we work on the backlog during a typical sprint week"
     3="Identify when the in-person session takes place on a typical sprint week"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

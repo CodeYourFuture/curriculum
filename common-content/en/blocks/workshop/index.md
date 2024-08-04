@@ -8,8 +8,8 @@ emoji= '🧰'
     2='Work together on exercises and activities to find gaps in understanding'
     3='Describe and resolve mental model errors'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

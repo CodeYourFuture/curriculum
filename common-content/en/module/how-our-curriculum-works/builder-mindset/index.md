@@ -5,8 +5,8 @@ time= 30
 [objectives]
   1="Define a builder mindset"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
 1='Identify blockers'
 2='Share blockers on a Jamboard or sticky notes'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

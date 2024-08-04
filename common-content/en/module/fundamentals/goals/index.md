@@ -2,8 +2,8 @@
 title="Understanding Fundamentals"
 facilitation=false
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

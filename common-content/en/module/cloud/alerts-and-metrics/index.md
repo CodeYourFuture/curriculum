@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Create an alert in Cloudwatch'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

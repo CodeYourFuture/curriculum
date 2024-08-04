@@ -32,7 +32,7 @@ All local blocks are headless. This is so they don't create pages in sites that 
 
 ```
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 ```

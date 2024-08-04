@@ -10,8 +10,8 @@ emoji= '🧩'
     3='Identify a risk of SQL injection attacks, and define one defence'
     4='Create an API endpoint that retrieves data from a database with multiple parameters'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

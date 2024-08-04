@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when we are stuck'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

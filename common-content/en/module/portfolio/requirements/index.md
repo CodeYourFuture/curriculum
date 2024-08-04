@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Choose a project brief'
     2='Identify and explain the key user stories for your project'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

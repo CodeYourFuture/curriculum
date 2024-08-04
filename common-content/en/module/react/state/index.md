@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Add a state variable with the useState Hook'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🗄️'
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

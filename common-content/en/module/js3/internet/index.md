@@ -9,8 +9,8 @@ emoji= '🧩'
   2='Explain the purpose of the HTTP protocol'
   3='Define a GET request in the HTTP protocol'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

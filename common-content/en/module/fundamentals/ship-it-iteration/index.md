@@ -8,8 +8,8 @@ emoji= '🧩'
 1='Export JavaScript written in CYF Blocks into a website'
 2='Update an already-deployed website with new features'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

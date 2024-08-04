@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain why toBe cannot be used to compare the contents of two objects'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

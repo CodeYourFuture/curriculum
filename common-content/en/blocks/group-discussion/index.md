@@ -3,8 +3,8 @@ title="Group Discussion"
 
 time=75
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

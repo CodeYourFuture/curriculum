@@ -9,8 +9,8 @@ emoji= '🗄️'
     2='Evaluate expressions using your mental model of JavaScript'
     3='Evaluate expressions using the Node REPL'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
 [objectives]
     1='Define all key terms of CSS'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

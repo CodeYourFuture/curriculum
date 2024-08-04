@@ -7,8 +7,8 @@ time=15
     2="Nominate a timekeeper"
     3="Check the morning day plan and group structures"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

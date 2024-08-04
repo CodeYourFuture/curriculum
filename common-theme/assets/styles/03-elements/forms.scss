@@ -20,7 +20,7 @@ fieldset {
   border-radius: var(--theme-border-radius);
 }
 
-input:not([type="radio"]):not([type="checkbox"]) {
+main input:not([type="radio"]):not([type="checkbox"]) {
   appearance: none;
   padding: calc(var(--theme-spacing--2) / 2);
   min-width: 36ch;

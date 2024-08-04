@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Run a request in Postman'
     4='Test a request in Postman'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

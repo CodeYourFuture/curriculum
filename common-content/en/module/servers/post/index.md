@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Process a POST request using Express and Node and store data in memory'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

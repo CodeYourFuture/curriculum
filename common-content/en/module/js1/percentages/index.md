@@ -7,8 +7,8 @@ emoji= '🗄️'
 [objectives]
     2='Construct simple expressions to represent a calculation'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

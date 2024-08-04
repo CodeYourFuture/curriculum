@@ -9,8 +9,8 @@ emoji= '🧩'
 1='Navigate and manipulate the file system using a terminal'
 2='Create a named directory to store your work over the course'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

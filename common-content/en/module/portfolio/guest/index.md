@@ -7,8 +7,8 @@ emoji= '🎤'
 [objectives]
     1='Interact with a guest speaker from the tech industry'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

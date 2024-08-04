@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='List the entry criteria for the Cloud module'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

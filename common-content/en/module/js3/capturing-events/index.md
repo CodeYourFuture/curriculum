@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Add an event listener to a user input'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

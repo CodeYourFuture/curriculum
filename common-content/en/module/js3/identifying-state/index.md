@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Identify the state in a given problem'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -11,8 +11,8 @@ emoji= '🧩'
     3='Resolve trade-offs in conflicting requirements'
     4='Translate requirements into high-level design outlines'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

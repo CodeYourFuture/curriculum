@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Establish the rules for getting a new project off the ground'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

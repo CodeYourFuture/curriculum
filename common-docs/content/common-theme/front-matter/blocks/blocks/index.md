@@ -5,8 +5,8 @@ facilitation = false
 hide_from_overview=false
 emoji= '🧩'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 +++
 

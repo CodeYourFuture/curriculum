@@ -10,8 +10,8 @@ emoji= '🧩'
 3="Iterate on requirements"
 4="Pair programme"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

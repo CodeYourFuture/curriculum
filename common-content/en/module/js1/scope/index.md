@@ -8,8 +8,8 @@ emoji= '❌'
 1='Define scope'
 2='Explain what happens when a variable is referenced out of scope'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

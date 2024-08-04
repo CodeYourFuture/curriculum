@@ -4,8 +4,8 @@ title="Community Lunch"
 time=60
 hide_from_overview=true
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

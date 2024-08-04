@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Define refactoring'
     3='Refactor code'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

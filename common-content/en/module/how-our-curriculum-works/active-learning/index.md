@@ -6,8 +6,8 @@ time= 30
     1="Define active learning"
     2="Explain why active learning is critical to the our educational philosophy"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

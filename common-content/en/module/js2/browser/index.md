@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define static html'
     2='Explain why we interact with user interfaces'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

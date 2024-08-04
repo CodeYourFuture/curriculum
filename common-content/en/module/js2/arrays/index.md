@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Identify the benefits of using an array to store information'
 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

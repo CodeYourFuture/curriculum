@@ -6,8 +6,8 @@ time= 15
     1="Explain the value of code review"
     2="Locate unreviewed pull requests"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

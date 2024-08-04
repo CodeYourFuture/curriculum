@@ -11,8 +11,8 @@ emoji= '🧩'
 4="Insert new html (DOM) dynamically"
 5="Respond to user actions (text input and clicks)"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

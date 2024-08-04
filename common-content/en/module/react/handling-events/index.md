@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Add event handlers to your JSX'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

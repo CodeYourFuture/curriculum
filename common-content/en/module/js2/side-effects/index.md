@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define a side effect'
     2='Describe how side effects lead to buggy code'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

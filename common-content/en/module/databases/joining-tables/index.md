@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Combine tables together using `INNER JOIN`'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

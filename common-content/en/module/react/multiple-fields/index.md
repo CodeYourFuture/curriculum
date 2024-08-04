@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Use a single event handler for multiple inputs'
     3='Use a single state variable for multiple inputs'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

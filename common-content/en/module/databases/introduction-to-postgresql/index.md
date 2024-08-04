@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Define an RDBMS'
     3='Validate a PostgreSQL installation'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

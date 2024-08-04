@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
 1='Identify a bug when a function gives an unexpected output'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

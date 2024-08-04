@@ -8,8 +8,8 @@ time= 30
     3="Refactor the code"   
     4="Navigate and drive"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Figure out what we need to work on in class'
     2='Practice asking for guidance/help when we are stuck'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

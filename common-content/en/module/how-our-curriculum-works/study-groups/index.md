@@ -6,8 +6,8 @@ time= 20
     1="Locate a study group block"
     2="Explain the importance of study groups"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Export a React component'
     2='Import a React component'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

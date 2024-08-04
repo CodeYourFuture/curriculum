@@ -3,8 +3,8 @@ title="Play Wordle"
 
 time= 5
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

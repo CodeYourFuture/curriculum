@@ -9,8 +9,8 @@ emoji= '🧩'
 1='Summarise the background in which CodeYourFuture was founded'
 2='Describe some of the challenges facing displaced people during the refugee crisis of 2015'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

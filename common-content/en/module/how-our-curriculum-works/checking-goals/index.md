@@ -6,8 +6,8 @@ time= 10
     1="Explain the importance of checking learning objectives"
     2="Check the success criteria for a sprint week"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

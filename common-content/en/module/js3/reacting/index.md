@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain how Javascript can react to user input from a search input'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

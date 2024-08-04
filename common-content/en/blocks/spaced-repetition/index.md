@@ -4,8 +4,8 @@ title="Spaced Repetition"
 time= 10
 hide_from_overview=true
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

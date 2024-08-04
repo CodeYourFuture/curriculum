@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Use template tags to simplify element initialisation'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

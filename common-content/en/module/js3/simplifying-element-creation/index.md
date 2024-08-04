@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Extract functions for common tasks'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

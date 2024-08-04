@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Identify the difference between vertical and horizontal scaling'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -11,8 +11,8 @@ emoji= '🧩'
     4='Retrieve data from a table using conditionals in PostgreSQL'
     5='Insert new data into existing tables'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

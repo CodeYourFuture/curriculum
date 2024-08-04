@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Propose a strategy for solving a problem'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -10,8 +10,8 @@ emoji= '🧩'
     3='Identify some benefits of using a third-party party software library when programming'
     4='Describe why need to use npm when we are building JavaScript applications'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

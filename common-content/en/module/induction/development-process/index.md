@@ -5,8 +5,8 @@ time ="10"
 facilitation = false
 emoji= '🧩'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

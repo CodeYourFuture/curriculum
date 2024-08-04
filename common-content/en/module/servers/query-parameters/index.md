@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Identify a query parameter in a URL'
     2='Write code that responds to a query parameter'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

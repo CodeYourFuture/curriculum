@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='List the workflow steps of Terraform'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

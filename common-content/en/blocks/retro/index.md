@@ -5,8 +5,8 @@ description="Retro on the class day and the sprint"
 time= 25
 hide_from_overview=true
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

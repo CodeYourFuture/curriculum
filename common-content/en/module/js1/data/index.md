@@ -7,8 +7,8 @@ emoji= '🗄️'
 [objectives]
     1='Define data type, expression, and operator'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

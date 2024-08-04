@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain why using multiple variable declarations for related data is problematic'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

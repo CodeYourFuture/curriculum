@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Limit the objectives to 3-5 items'
     3='Write objectives you can measure'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

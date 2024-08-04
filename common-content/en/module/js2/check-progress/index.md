@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Use a plan to check progress in solving a problem'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

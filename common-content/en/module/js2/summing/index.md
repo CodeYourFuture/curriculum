@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Describe how to sum the numbers in a list'
     2='Explain why repeated statements are hard to maintain'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++
