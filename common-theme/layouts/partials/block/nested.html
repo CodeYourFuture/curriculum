@@ -9,7 +9,7 @@
   [[blocks.nested.blocks]]
   name="Asking questions"
   src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
-  time=120
+  time=0
   [[blocks.nested.blocks]]
   name="Devtools"
   src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
@@ -18,7 +18,7 @@
   */}}
 {{ $blockDict := . }}
 <details>
-  <summary class="e-button">{{ $blockDict.block.name }}</summary>
+  <summary>{{ $blockDict.block.name }}</summary>
   <div class="is-nested">
     {{ partial "block/block.html" $blockDict }}
   </div>
