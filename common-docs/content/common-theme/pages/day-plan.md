@@ -36,7 +36,7 @@ name="Retro"
 src="common-content/blocks/retro"
 +++
 
-This view builds an agenda for class days. We built this because we spent a _lot_ of time making spreadsheets every single week and class days could get chaotic and disruptive to learning. Now everyone knows _what_ to do _when_. Learners can plan things like prayers or medication. Volunteers can see when they're needed. Everyone can see when they can take a break.
+This view builds an agenda for class days. We built this because we used to spend a _lot_ of time making spreadsheets every single week and class days could get chaotic and disruptive to learning. Now everyone knows _what_ to do _when_. Learners can plan things like prayers or medication. Volunteers can see when they're needed. Everyone can see when they can take a break.
 
 The day plan will create a schedule from the time (in minutes) stored on each block using the `time-stamper` web component. You can override this time on your day plan by adding a `time` parameter as shown in the front matter.
 
