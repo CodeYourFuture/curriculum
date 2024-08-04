@@ -9,9 +9,24 @@ This is a [codefence render hook](https://gohugo.io/render-hooks/code-blocks/) t
 
 ### Invoke
 
+{{<columns>}}
+
+````
+```objectives
+- [ ] Use the objectives render hook
+- [ ] Three backticks ```
+- [ ] The word objectives
+- [ ] A list of objectives in a checklist
+```
+````
+
+<--->
+
 ````objectives
 - [ ] Use the objectives render hook
 - [ ] Three backticks ```
 - [ ] The word objectives
 - [ ] A list of objectives in a checklist
 ````
+
+{{</columns>}}

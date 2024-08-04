@@ -24,5 +24,15 @@ Theme-specific front matter params:
 - `emoji` - `String` an emoji to represent the block
 - `objectives` - `Slice` a list of learning objectives for the block
 - `activity` - `Slice` a list of activities for the block
+- `hide_from_overview` - `Boolean` whether the block should be hidden from the overview page
 
-Currently all local blocks are headless. This is so they don't create pages. In the future, we want to update the block settings to use a new [build cascade](https://gohugo.io/content-management/build-options/#example----headless-section) instead of headless=true, which will give curriculum users more flexibility in how they build views of blocks. If you have time to spare for this, please join the [planning board on GitHub.](https://github.com/CodeYourFuture/curriculum/projects?query=is%3Aopen)
+All local blocks are headless. This is so they don't create pages in sites that mount the module. Individual site owners control page creation explicitly in their [own /content dir](https://gohugo.io/content-management/organization/).
+
+### Mandatory[ build settings](https://gohugo.io/content-management/build-options)
+
+```
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+```
