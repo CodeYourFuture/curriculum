@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Create an Express server'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

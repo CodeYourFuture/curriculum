@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1="Create a fork of a repository"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

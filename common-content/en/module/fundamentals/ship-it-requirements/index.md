@@ -9,8 +9,8 @@ emoji= '🧩'
 2='Upload your folder to GitHub'
 3='Deploy your folder to Netlify'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

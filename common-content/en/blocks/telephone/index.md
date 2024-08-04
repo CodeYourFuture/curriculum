@@ -3,8 +3,8 @@ title="Telephone"
 
 time=15
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

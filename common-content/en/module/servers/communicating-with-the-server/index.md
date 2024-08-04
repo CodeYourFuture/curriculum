@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Inspect the request and response objects in console'
     3='Inspect the request and response objects in Postman'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

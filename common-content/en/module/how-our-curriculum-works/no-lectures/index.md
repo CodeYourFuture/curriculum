@@ -5,8 +5,8 @@ time= 30
 [objectives]
     1="Explain why we don't lecture during live sessions"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

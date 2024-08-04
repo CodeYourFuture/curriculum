@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Filter films based on search terms'
     2='Render a filtered list'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

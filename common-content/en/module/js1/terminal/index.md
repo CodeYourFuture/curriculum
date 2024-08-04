@@ -8,8 +8,8 @@ emoji= '🧩'
 1='Identify the terminal and its purpose'
 2='Execute commands in the terminal'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

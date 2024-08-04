@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

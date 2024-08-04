@@ -9,8 +9,8 @@ emoji= '🗺️'
 1='Define the curriculum'
 2='Explain the purpose of the curriculum'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

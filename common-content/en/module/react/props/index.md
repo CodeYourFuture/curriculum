@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Pass props to a component'
     2='Read props from a component'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

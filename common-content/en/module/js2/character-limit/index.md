@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Define acceptance criteria for the character limit component'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Define a sub-goal for rendering data in the user interface'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

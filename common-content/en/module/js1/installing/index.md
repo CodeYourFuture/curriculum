@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Outline the effects of running an installation command, e.g. npm install'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

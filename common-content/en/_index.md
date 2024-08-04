@@ -5,8 +5,4 @@ emoji="🫕"
 menu=["content"]
 [[cascade]]
   noindex = true  
-  [cascade.build]
-    list = 'never'
-    publishResources = false
-    render = 'never'
 +++

@@ -6,8 +6,8 @@ vocabulary="Backlog"
 [objectives]
     1="Identify outstanding pieces of work"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

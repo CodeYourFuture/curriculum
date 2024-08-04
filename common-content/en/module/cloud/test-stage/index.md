@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Add a test stage to a GitHub action'
     2='Integrate existing test scripts to run automatically'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

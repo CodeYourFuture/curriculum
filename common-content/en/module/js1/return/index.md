@@ -9,8 +9,8 @@ emoji= '🗄️'
     2='Log the return value of a function'
     3='Given a short program, state the number of times a given function is called'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

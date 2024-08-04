@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Find the docs'
     2='Describe the key principles of React'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

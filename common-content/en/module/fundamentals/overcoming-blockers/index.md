@@ -3,8 +3,8 @@ title="Overcoming Blockers"
 time=20
 facilitation=false
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

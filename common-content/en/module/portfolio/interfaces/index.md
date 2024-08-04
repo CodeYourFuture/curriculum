@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Propose basic designs for key parts of the user interface'
     3='Write objectives you can measure'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

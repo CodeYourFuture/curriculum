@@ -3,8 +3,8 @@ title = 'Register'
 time = 1
 emoji= '📝' 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 +++
 

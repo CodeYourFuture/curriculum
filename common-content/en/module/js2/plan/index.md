@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Break down a problem into a series of steps'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Define an outlier'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

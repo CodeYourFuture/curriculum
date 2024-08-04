@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Dynamically specify values in JSX'
     3='Call a JavaScript function inside JSX with curly braces'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

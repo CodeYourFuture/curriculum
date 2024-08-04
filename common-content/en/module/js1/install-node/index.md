@@ -6,8 +6,8 @@ facilitation = false
 [objectives] 
 1="Download and install Node using nvm"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

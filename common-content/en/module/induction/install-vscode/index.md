@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Download and install VSCode'
     2='Identify the key parts of the VSCode interface'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

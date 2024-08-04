@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Describe how map works'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Check the database connection'
     2='Get query results from the database with Postman'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

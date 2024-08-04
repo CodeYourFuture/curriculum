@@ -1,8 +1,8 @@
 +++
 title="Useful Links"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 +++
 

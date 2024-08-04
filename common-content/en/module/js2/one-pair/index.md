@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Suggest a way of splitting a string into an array'
     2='Destructure an array of length 2'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

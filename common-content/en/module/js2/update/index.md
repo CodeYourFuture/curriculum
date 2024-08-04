@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Access and modify the innerText of a html element'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Explain when square bracket notation may be necessary to access an object'
     2='Explain why a previous test breaks once the implementation changes'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

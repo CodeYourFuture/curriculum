@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define syntactic sugar'
     2='Write a function using the async keyword'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

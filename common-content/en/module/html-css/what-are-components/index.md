@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Identify 5 UI components'
     2='Describe the benefits of building with components'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

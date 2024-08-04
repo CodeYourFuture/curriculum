@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Write your first React component'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

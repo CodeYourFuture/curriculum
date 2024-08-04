@@ -8,8 +8,8 @@ emoji= '🛣️'
 [objectives]
 1='Explain how to use the rest of this module'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

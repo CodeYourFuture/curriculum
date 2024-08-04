@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Describe some effects of variables being assigned the same array reference'
     3='Identify when 2 variables will share the same array reference'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

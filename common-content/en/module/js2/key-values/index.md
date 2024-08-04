@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Identify key-value pairs in an object literal'
 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

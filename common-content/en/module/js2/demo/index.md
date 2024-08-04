@@ -6,8 +6,8 @@ vocabulary="Backlog"
 [objectives]
     1="Demonstrate your application in front of the group"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

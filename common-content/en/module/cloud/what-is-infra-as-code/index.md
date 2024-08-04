@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define infrastructure as code'
     2='Explain the need for infrastructure as code'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

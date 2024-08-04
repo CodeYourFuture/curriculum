@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Identify the endpoint in a URL'
     2='Define two endpoints in Express'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

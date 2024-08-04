@@ -9,8 +9,8 @@ emoji= '🧩'
 2='Suggest several appropriate ways to refactor a given piece of code'
 3='Identify and fix a bug'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

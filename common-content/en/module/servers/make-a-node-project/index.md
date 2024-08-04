@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Create a new repo from scratch'
     2='Initialize a Node project'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

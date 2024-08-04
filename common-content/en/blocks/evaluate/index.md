@@ -5,8 +5,8 @@ time= 60
 [objectives]
     1="Evaluate your current progress against previous modules"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🎉'
 [objectives]
 1='Welcome new members of our community to the module'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

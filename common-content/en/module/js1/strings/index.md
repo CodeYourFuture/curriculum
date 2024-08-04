@@ -9,8 +9,8 @@ emoji= '🧩'
  2= 'Given a short program, determine the return value of a call to slice on a string before execution'
  3='Describe how to convert a string into a number in JavaScript'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

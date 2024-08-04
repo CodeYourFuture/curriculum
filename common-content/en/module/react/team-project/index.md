@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Work in a team to build a React app'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

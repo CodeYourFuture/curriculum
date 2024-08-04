@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Process a GET request using Express and Node to retrieve data from memory'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

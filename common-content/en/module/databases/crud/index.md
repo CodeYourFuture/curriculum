@@ -10,8 +10,8 @@ emoji= '🧩'
     3="Create tables with a variety of column types and primary and foreign keys"
     4="Define CRUD operations"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

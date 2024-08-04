@@ -11,8 +11,8 @@ emoji= '🧩'
   4='Analyse a conditional statement to determine whether or not the statement will be executed'
   5='Determine the output of a program that uses a conditional statement'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

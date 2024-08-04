@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Explain why we use APIs in programming'
     2='Identify some commonly used APIs'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

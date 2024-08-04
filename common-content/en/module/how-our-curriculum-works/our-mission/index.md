@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
 1='Define the mission of our organisation'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

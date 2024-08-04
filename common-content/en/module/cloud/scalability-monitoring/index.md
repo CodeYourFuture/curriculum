@@ -8,8 +8,8 @@ emoji= '🧩'
     1='List the benefits of monitoring'
     2='Define observability'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

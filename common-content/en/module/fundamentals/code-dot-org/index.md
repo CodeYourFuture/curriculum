@@ -9,8 +9,8 @@ emoji= '🧩'
  3="Control flow with if statements"
  4="Control flow with while statements"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

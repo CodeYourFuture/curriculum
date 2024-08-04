@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
  1='Identify a pattern between a set of inputs and outputs produced by a given function'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

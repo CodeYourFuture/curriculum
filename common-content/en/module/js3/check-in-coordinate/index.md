@@ -8,8 +8,8 @@ emoji= '🧩'
 1="Perform quick temperature check on the current concepts"
 2="Devise strategies for dealing with misconceptions during the week"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -9,8 +9,8 @@ emoji= '🧩'
 2="Explain why we need asynchrony"
 3="Identify an asynchronous method we have already used"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

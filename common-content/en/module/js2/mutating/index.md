@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Describe how to mutate an object property value'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

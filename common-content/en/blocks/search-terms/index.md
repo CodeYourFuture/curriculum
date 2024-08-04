@@ -3,8 +3,8 @@ title="Search terms"
 
 time= 1
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

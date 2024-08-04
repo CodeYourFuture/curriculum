@@ -8,8 +8,8 @@ emoji= '🧩'
  1='Define a sub-goal'
  2='Explain why we use sub-goals'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

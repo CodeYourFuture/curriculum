@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain how data is rendered into a user interface'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

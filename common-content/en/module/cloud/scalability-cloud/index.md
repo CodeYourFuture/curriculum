@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Identify a strategy for achieving vertical scaling with AWS RDS'
     2='Explain how to use horizontal autoscaling with AWS EC2'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

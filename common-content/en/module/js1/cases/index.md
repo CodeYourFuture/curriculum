@@ -12,8 +12,8 @@ emoji= '🧩'
     5='Implement a test case to describe the behaviour of a function'
 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

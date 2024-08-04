@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Apply fetch to get data from an API'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

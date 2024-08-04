@@ -11,8 +11,8 @@ emoji= '🧩'
    4='Identify the key pages of the curriculum interface'
    5='Explain the sequencing of work in a typical week'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

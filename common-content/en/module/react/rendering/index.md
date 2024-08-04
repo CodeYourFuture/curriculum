@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Use map() with React to transform an array of data into an array of components.'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

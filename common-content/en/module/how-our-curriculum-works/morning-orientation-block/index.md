@@ -6,8 +6,8 @@ time=30
     1="Locate a morning orientation block"
     2="Check learning objectives for morning orientation block"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

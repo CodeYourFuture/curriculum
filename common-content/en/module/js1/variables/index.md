@@ -9,8 +9,8 @@ emoji= '🗄️'
 2='Explain why we use variable declarations'
 3='Create strings using variables and template literals'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

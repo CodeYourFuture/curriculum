@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Describe how we learn as a community'
     2='Describe a typical week in our community'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

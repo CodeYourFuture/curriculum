@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Fetch data from an API using the useEffect hook'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

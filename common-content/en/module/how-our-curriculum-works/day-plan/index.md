@@ -6,8 +6,8 @@ time= 30
     1="Describe how the day plan works"
     2="Identify some frequently used blocks in a module"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Trace the flow of data from user input to updated UI'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

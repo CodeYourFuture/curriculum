@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
 1='Describe how to compute the mean of a data set in JavaScript'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

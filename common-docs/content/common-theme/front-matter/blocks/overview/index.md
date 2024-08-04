@@ -3,8 +3,8 @@ title = 'Overview: theme, hide_from_overview'
 time = 2
 emoji= '🦉'
 [build]
-  render = false
-  list = 'local'
+  render = 'never'
+    list = 'local'
   publishResources = false
 +++
 

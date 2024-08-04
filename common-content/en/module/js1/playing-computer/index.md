@@ -11,8 +11,8 @@ emoji= '🗄️'
     4='Describe what happens when a function is called'
     5='Differentiate between a local frame and a global frame'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

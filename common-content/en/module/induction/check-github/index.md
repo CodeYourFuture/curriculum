@@ -9,8 +9,8 @@ emoji= '🧩'
 1='Double check Github account is set up'
 2='Double check planner is set up'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

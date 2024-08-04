@@ -8,8 +8,8 @@ emoji= '🧩'
 1='Discuss problem solving strategies in groups'
 2='Check required functionality against acceptance criteria'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

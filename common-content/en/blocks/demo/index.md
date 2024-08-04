@@ -3,8 +3,8 @@ title="Demo"
 
 time=60
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

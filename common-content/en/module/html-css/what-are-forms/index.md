@@ -10,8 +10,8 @@ emoji= '🧩'
     3='Explain the purpose of validation'
     4='Write form validations'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

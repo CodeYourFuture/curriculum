@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Access object property values with dot notation'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

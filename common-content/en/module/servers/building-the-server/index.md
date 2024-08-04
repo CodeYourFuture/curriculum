@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Import the Express package in a file'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

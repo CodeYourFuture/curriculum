@@ -10,8 +10,8 @@ emoji= '🧩'
 3='Explain why we use Git'
 4='Explain why we use Github'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

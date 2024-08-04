@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define iteration'
     2='Explain why iteration is relevant in a particular problem'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

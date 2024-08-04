@@ -9,8 +9,8 @@ emoji= '🗄️'
     2='Evaluate a function expression'
     3='Call a function with an input in REPL'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

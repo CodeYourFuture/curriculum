@@ -10,8 +10,8 @@ emoji= '🧩'
     3='Write up user story as issues'
     4='Generate acceptance criteria for user issues'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

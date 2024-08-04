@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Define a Promise'
     2='Log a Promise to the console'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

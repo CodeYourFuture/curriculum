@@ -5,8 +5,8 @@ time= 30
 [objectives]
     1="Explain the importance of prep"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

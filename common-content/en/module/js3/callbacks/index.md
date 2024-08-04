@@ -9,8 +9,8 @@ emoji= '🧩'
 2="Sketch the event loop"
 3="Predict the order of logged numbers using the event loop model"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

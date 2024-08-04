@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1="Explain why fetch doesn't work in React"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

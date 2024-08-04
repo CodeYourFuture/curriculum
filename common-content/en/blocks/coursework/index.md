@@ -3,8 +3,8 @@ title="Coursework"
 time= 120
 vocabulary="Coursework"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 +++
 

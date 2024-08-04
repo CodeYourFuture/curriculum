@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Set up a basic CI/CD pipeline using GitHub Actions in a GitHub repository'
     3='Write a YAML file that specifies the actions to be taken when code is pushed to the repository'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

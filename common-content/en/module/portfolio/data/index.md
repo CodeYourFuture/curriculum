@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Identify core components required to supply data and functionality to the user interface'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

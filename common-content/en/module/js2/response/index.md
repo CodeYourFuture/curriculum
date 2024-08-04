@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Identify the syntactic features of a call to addEventListener'
     2='Explain when an event listener is called'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

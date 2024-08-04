@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Explain why React needs keys'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

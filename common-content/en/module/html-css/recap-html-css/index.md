@@ -9,8 +9,8 @@ emoji= '🧩'
     2='Define semantic HTML'
     3='Identify selectors, properties and values of CSS'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

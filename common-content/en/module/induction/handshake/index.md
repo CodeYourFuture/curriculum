@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Transfer and bookmark any key google sheets from Fundamentals cohort channel in the SDC cohort channel'
     2='Double check any key information is preserved in the transition from Fundamentals to SDC'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

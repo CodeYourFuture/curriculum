@@ -10,8 +10,8 @@ emoji= '🪞'
     3='Review and improve your profiles'
     4='Analyse job descriptions'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

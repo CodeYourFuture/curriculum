@@ -10,8 +10,8 @@ emoji= '😶‍🌫️'
     2='Explore the semantics of HTML'
     3='Analyse the role of HTML in the browser'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

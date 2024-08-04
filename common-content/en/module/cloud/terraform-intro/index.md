@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Explain the purpose of Terraform'
     2='List the core concepts in Terraform'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

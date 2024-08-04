@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Explain what Terraform modules are'
     2='Write a Terraform module that creates an S3 bucket'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

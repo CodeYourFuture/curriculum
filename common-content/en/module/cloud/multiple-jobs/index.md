@@ -8,8 +8,8 @@ emoji= '🧩'
     1='Implement a multi-job workflow where jobs run sequentially, based on dependencies and requirements'
     2='Use the needs keyword to specify job dependencies'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

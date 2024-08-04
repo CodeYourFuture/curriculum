@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
      1='Set up PostgresQL on Mac-OS'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

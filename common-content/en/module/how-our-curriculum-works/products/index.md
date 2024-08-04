@@ -6,8 +6,8 @@ time= 30
     1="Identify where products are located for a sprint"
     2="Explain why products are a vital part of summative assessment"
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

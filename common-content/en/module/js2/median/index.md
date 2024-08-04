@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
 1='Describe how to calculate the median of a list in JavaScript' 
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

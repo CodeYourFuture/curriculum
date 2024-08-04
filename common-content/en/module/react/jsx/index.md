@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Display information with JSX'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

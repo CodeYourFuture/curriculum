@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Automate the deployment process to a specified environment.'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++

@@ -7,8 +7,8 @@ emoji= '🧩'
 [objectives]
     1='Chain then() on to a Promise'
 [build]
-  render = false
-  list = 'never'
+  render = 'never'
+  list = 'local'
   publishResources = false
 
 +++
