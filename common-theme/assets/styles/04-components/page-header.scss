@@ -79,11 +79,10 @@
       background-color: transparent;
       text-shadow: none;
     }
-    .c-page-header--solo & {
-      max-width: 8ch;
-      overflow-x: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
+    &-text {
+      .c-page-header--solo & {
+        clip-path: rect(-1em 6em 6em 0);
+      }
     }
   }
   &__subtitle {
