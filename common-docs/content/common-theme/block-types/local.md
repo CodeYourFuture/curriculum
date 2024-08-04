@@ -28,7 +28,7 @@ Theme-specific front matter params:
 
 All local blocks are headless. This is so they don't create pages in sites that mount the module. Individual site owners control page creation explicitly in their [own /content dir](https://gohugo.io/content-management/organization/).
 
-### Mandatory[ build settings](https://gohugo.io/content-management/build-options)
+### Mandatory [build settings](https://gohugo.io/content-management/build-options)
 
 ```
 [build]
