@@ -1,7 +1,6 @@
 +++
 title = '{{ replace .Name "-" " " | title }}'
 time = 30
-
 facilitation = false
 hide_from_overview=false
 threads = ['unassigned']
@@ -15,7 +14,6 @@ emoji= '🧩'
   render = false
   list = 'never'
   publishResources = false
-
 +++
 
 This is a local block example. You can write anything in here using markdown and use shortcodes to access extra formatting. Store these in the common-content module to share them across many sites. Store them in your local content folder to keep them site-specific. These blocks are headless and do not create pages.

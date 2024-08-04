@@ -1,3 +1,12 @@
+{{/* Puts anything into columns and distributes them evenly across a page.
+  Example:
+  {{< columns
+>}}Column
+1 <---> Column 2 <---> Column
+3{{< /columns >}}
+
+*/}}
+
 <div class="c-columns">
   {{ $cols := split .Inner "<--->" }}
   {{ range $cols }}
