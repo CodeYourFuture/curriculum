@@ -1,6 +1,5 @@
 +++
 title="Understanding Fundamentals"
-headless=true
 facilitation=false
 [build]
   render = false

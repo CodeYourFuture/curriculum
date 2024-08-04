@@ -2,7 +2,6 @@
 title="Local Block"
 emoji="🏠"
 activities=["define a term"]
-headless=true
 hide_from_overview=true
 time=30
 [objectives]
