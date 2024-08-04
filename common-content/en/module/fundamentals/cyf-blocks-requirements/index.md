@@ -1,9 +1,6 @@
 +++
 title = 'CYF Blocks'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'

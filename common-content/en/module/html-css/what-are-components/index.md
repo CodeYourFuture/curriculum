@@ -1,9 +1,6 @@
 +++
 title = 'What are components?'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'

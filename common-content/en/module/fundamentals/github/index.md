@@ -1,9 +1,6 @@
 +++
 title = 'What is GitHub'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 25
 facilitation = false
 emoji= '🧩'

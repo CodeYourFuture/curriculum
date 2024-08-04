@@ -1,9 +1,5 @@
 +++
 title = 'Sharing Our Blockers'
-[build]
-render = false
-list = 'local'
-publishResources = false
 time = 45
 facilitation = false
 vocabulary=["Blockers"]

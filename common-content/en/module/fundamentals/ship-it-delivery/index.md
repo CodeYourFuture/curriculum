@@ -1,9 +1,6 @@
 +++
 title = 'Ship It'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 170
 facilitation = false
 emoji= '🧩'

@@ -1,9 +1,6 @@
 +++
 title = 'Pairing'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 30
 facilitation = true
 vocabulary=["Pair Programming"]

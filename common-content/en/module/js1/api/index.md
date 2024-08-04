@@ -1,9 +1,6 @@
 +++
 title = '🎛️ Application Programming Interface'
-[build]
-render = false
-list = 'local'
-publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
