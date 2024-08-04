@@ -1,11 +1,16 @@
 +++
 title = "🪤 Controlled Components"
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='React to user input with state'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

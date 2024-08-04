@@ -1,11 +1,16 @@
 +++
 title = 'Terraform State Management and Backends'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define state locking in Terraform'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### What is Terraform State?

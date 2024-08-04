@@ -1,11 +1,16 @@
 +++
 title = '🧩 Break down the problem'
-headless = true
+
 time = "30"
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify and sequence sub tasks'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's think through building this film search interface step-by-step. Write down your sequence of steps to build this interface.

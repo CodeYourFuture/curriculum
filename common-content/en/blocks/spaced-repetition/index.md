@@ -1,8 +1,13 @@
 +++
 title="Spaced Repetition"
-headless="true"
+
 time= 10
 hide_from_overview=true
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<tabs name="Scheduled check-ins">}}

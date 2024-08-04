@@ -1,11 +1,16 @@
 +++
 title = '🍴 Forking a repository'
-headless = true
+
 time ="15"
 facilitation = false
 emoji= '🧩'
 [objectives]
     1="Create a fork of a repository"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Often we want to take an existing project and start working on it independently. In other words: we start making our own versions of the project separate from the original project.

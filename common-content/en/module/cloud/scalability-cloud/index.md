@@ -1,12 +1,17 @@
 +++
 title = 'Implementing Scalability in the Cloud'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify a strategy for achieving vertical scaling with AWS RDS'
     2='Explain how to use horizontal autoscaling with AWS EC2'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Implementing scalability in the cloud involves various strategies and technologies that help you adapt to the demands of your user base and workloads. Below are some popular methods for achieving scalability in the cloud using AWS services.

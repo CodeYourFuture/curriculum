@@ -1,11 +1,16 @@
 +++
 title = '🦻🏻 Capturing the user event'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Add an event listener to a user input'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We've introduced our state, and our render works for different values of that state. But users of our website can't change the `searchTerm` state themselves. We need to introduce a way for them to change the `searchTerm` state via the UI.

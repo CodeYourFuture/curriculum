@@ -1,6 +1,6 @@
 +++
 title = '🧼 Refactoring to state+render'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Structure code to use state and render'
     2='Define refactoring'
     3='Refactor code'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We are going to introduce a common pattern in writing UIs, which is to use a function called `render`.

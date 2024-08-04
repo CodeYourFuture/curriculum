@@ -1,11 +1,16 @@
 +++
 title = '🗄️ Generalising further'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define an outlier'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### 🧰 Handling outliers

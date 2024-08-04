@@ -1,12 +1,17 @@
 +++
 title = 'Ship It'
-headless = true
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Export JavaScript written in CYF Blocks into a website'
 2='Update an already-deployed website with new features'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Websites don't just stay the same forever - we make changes to them, and we want our users to be able to see and use our changes.

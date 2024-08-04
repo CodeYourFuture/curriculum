@@ -1,7 +1,12 @@
 +++
 title="Experts AMA"
-headless="true"
+
 time=45
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## 🧑🏼‍🎓 Trainees

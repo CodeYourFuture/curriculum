@@ -1,6 +1,6 @@
 +++
 title = 'Recap HTML and CSS'
-headless = true
+
 time = 40
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Name 3 HTML tags'
     2='Define semantic HTML'
     3='Identify selectors, properties and values of CSS'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<tabs name="HTML and CSS basics">}}

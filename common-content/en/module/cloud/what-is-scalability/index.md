@@ -1,11 +1,16 @@
 +++
 title = 'What is scalability?'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define scalability'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Scalability is the capability of a system to handle a growing amount of work or its potential to be enlarged to accommodate that growth. In the context of cloud computing and web applications, scalability often refers to adding more resources or modifying the system architecture to manage increased load.

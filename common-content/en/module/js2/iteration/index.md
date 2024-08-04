@@ -1,12 +1,17 @@
 +++
 title = '🔁 Iterating'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define iteration'
     2='Explain why iteration is relevant in a particular problem'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 To solve the sub-goal, we have to repeatedly add each number in the array to the `total`, one at a time. In programming, the process of repeating something is called **iteration**.

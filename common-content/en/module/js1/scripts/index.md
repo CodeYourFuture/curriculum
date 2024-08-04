@@ -1,11 +1,16 @@
 +++
 title = '📁 Running scripts'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Execute a JavaScript file with Node'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is useful for evaluating expressions quickly.
@@ -36,7 +41,6 @@ currentYear++; // statement
 {{</note>}}
 
 Once the computer executes these statements, the execution of the program is complete. But we’re left with a problem. With the REPL, the user inputs an expression statement or declaration; the computer reads and executes the line and _immediately_ prints feedback to the terminal. With a file, the computer will execute each line sequentially until completion _without_ printing the values of each expression it evaluates.
-
 
 So this new problem can be expressed as a question:
 

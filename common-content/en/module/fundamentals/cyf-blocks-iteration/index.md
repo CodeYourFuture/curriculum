@@ -1,6 +1,6 @@
 +++
 title = 'CYF Blocks'
-headless = true
+
 time = 40
 facilitation = false
 emoji= '🧩'
@@ -9,6 +9,11 @@ emoji= '🧩'
 2="Prioritise a list of user stories"
 3="Iterate on requirements"
 4="Pair programme"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Now we have started to think about the idea of MVP, how can we use this to help us build _working_ software?

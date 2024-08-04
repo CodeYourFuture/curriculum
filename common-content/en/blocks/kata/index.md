@@ -1,12 +1,17 @@
 +++
 title="Kata"
-headless="true"
+
 time= 30
 [objectives]
     1="Write a failing test"
     2="Write the simplest code that passes the test"
     3="Refactor the code"   
     4="Navigate and drive"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 The goal of a kata is to practice a specific skill, such as refactoring, or to learn a new language or framework.

@@ -1,6 +1,6 @@
 +++
 title = '🧰 Create a work folder'
-headless = true
+
 time = 20
 facilitation = false
 vocabulary=[]
@@ -8,6 +8,11 @@ emoji= '🧩'
 [objectives]
 1='Navigate and manipulate the file system using a terminal'
 2='Create a named directory to store your work over the course'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 You'll need to create a {{<our-name>}} folder to store your projects on the course.

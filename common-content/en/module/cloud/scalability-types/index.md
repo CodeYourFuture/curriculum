@@ -1,11 +1,16 @@
 +++
 title = 'Types of scalability'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the difference between vertical and horizontal scaling'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 #### Vertical Scaling

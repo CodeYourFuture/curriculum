@@ -1,11 +1,16 @@
 +++
 title = '❓ No parameters'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why toBe cannot be used to compare the contents of two objects'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's look at the case where the query string is an empty string.

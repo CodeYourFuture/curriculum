@@ -1,11 +1,16 @@
 +++
 title = "🚏 React Router"
-headless = true
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define multiple routes in a React application'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 You've learned how to build applications with React. The different applications and examples were all built on a single page. What if you wanted to have different pages? with each page having its own URL? You will need to introduce a router in your application.

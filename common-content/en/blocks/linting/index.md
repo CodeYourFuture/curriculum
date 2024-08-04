@@ -1,9 +1,14 @@
 +++
 title="Linting and formatting"
 emoji="🧹"
-headless="true"
+
 time=30
 hide_from_overview=true
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### 🧰 Check your setup

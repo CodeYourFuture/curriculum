@@ -1,11 +1,16 @@
 +++
 title = '🃏 Installing Jest'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Outline the effects of running an installation command, e.g. npm install'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Jest is a package used to help us to write and run test cases in JavaScript.

@@ -1,12 +1,17 @@
 +++
 title = 'Make a Node Project'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Create a new repo from scratch'
     2='Initialize a Node project'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### 🆕 Create a [new repo](https://github.com/new)

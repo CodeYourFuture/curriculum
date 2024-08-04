@@ -1,12 +1,17 @@
 +++
 title = 'Routing'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the endpoint in a URL'
     2='Define two endpoints in Express'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 At the moment our server only does one thing. When it receives a request from the `/` endpoint, it sends back the same response: "Yay Node!".

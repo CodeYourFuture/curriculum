@@ -1,12 +1,17 @@
 +++
 title = 'Query Parameters'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify a query parameter in a URL'
     2='Write code that responds to a query parameter'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 So, what is a **query parameter?**

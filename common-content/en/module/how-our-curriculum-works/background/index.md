@@ -1,6 +1,6 @@
 +++
 title = 'Background'
-headless = true
+
 time = 20
 facilitation = false
 vocabulary=["Blockers"]
@@ -8,6 +8,11 @@ emoji= '🧩'
 [objectives]
 1='Summarise the background in which CodeYourFuture was founded'
 2='Describe some of the challenges facing displaced people during the refugee crisis of 2015'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 The idea behind CodeYourFuture started brewing in the summer of 2016. Working in the tech industry, CEO and co-founder Germán wanted to find a way to make a positive impact on people's lives through technology. He had observed the invaluable contributions of developers to organizations of various sizes and saw the potential for empowering individuals with coding skills.

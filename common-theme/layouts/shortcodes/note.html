@@ -1,3 +1,11 @@
+{{/* Example usage:
+
+  {{<note title="Yo" type="tip"
+>}}
+This is a note.
+{{< /note >}}
+*/}}
+
 <section class="c-note c-note--{{ .Get "type" | default "exercise" }}">
   <h4 class="c-note__title e-heading__4">
     <span class="c-note__title-text">{{ .Get "title" | default "Note" }}</span>

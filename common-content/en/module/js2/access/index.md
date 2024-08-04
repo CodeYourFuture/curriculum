@@ -1,11 +1,16 @@
 +++
 title = '🚪 Property access'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Access object property values with dot notation'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We've already accessed object property values. `console` is an object:

@@ -1,11 +1,16 @@
 +++
 title = '🔍 Check out a commit'
-headless = true
+
 time ="20"
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Recall that a commit is a snapshot of our project at some point in time.

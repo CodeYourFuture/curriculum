@@ -1,12 +1,17 @@
 +++
 title = '🗄️ 🌐 Sharing history'
-headless = true
+
 time ="20"
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Given a remote or local repository, identify the number of commits'
 2='Given a remote or local repository, identify the author, time and message of a given commit'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Earlier on, Ahmed and Naima realised they also need the following:

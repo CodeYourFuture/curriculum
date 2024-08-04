@@ -1,7 +1,10 @@
----
-title: Useful Links
-headless: true
----
++++
+title="Useful Links"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
++++
 
 This page aims to give you the best links for working as a developer
 and improving your skills.
