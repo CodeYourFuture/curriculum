@@ -1,0 +1,25 @@
+{{/* Nest some blocks as options inside another block
+  This recursive madness is actually... fine
+  expected usage
+  +++
+  [[blocks]]
+  name="Workshop"
+  src="blocks/workshop"
+  time="120"
+  [[blocks.nested.blocks]]
+  name="Asking questions"
+  src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
+  time=0
+  [[blocks.nested.blocks]]
+  name="Devtools"
+  src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
+  time=0
+  +++
+  */}}
+{{ $blockDict := . }}
+<details>
+  <summary>{{ $blockDict.block.name }}</summary>
+  <div class="is-nested">
+    {{ partial "block/block.html" $blockDict }}
+  </div>
+</details>
