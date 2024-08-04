@@ -1,10 +1,12 @@
 +++
 title="Search terms"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 1
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="tip" title="Search the curriculum">}}

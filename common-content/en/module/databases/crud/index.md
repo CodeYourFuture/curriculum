@@ -1,9 +1,6 @@
 +++
 title = 'CRUD operations with NodeJS and PostgreSQL'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 120
 facilitation = false
 emoji= '🧩'
@@ -12,6 +9,11 @@ emoji= '🧩'
     2="Create an API endpoint that can delete data from a database"
     3="Create tables with a variety of column types and primary and foreign keys"
     4="Define CRUD operations"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<tabs name="CRUD Operations">}}

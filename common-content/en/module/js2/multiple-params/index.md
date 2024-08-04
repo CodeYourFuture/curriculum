@@ -1,14 +1,16 @@
 +++
 title = '❓❓❓ Multiple parameters'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how to extend a strategy for one item to multiple items'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's consider the case when there are multiple query parameters in the query string.

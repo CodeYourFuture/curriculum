@@ -1,10 +1,12 @@
 +++
 title="Group Discussion"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=75
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 1. 🎙️ Nominate a **facilitator** (trainee or volunteer)

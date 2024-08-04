@@ -1,13 +1,15 @@
 +++
 title="✏️ Check your progress"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=30
 vocabulary="Backlog"
 [objectives]
     1="Identify outstanding pieces of work"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 This week you should have been **building an app in pairs**.

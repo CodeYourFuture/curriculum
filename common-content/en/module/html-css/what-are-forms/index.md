@@ -1,9 +1,6 @@
 +++
 title = 'What are forms?'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
@@ -12,6 +9,11 @@ emoji= '🧩'
     2='Define form elements and attributes'
     3='Explain the purpose of validation'
     4='Write form validations'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 These questions and answers are compiled from recorded sessions on HTML forms, and are the collective contribution of several mentors and students. This time we've included a trainee answer and a mentor answer, per question.

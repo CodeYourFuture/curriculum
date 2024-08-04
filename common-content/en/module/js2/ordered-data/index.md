@@ -1,14 +1,16 @@
 +++
 title = '📏 Ordered data'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain the limitations of arrays when storing data'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's imagine we're writing a program that involves information about a user's profile.

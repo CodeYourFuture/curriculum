@@ -1,14 +1,16 @@
 +++
 title = 'Adding Deployment Stages'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Integrate deployment scripts into the GitHub Actions workflow'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Once your code has been built and tested, you can deploy it automatically using GitHub Actions.

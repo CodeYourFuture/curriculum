@@ -1,15 +1,17 @@
 +++
 title = '🎒 Starting a project'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify a package.json'
     2='Explain the purpose of a package.json'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<tabs name="Start Project">}}

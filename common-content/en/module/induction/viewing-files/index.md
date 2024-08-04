@@ -1,12 +1,14 @@
 +++
 title = '📘 Viewing the files'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time ="20"
 facilitation = false
 emoji= '🧩'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.

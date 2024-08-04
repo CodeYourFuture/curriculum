@@ -1,9 +1,6 @@
 +++
 title = '🗺️ Using the curriculum'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time="50"
 facilitation = true
 emoji= '🧩'
@@ -13,6 +10,11 @@ emoji= '🧩'
    3='Describe how a flipped classroom works'
    4='Identify the key pages of the curriculum interface'
    5='Explain the sequencing of work in a typical week'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 At {{<our-name>}}, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on class days. Use this time to go through the activities and learn how to navigate the curriculum interface.

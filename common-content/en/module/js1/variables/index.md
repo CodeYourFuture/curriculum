@@ -1,9 +1,6 @@
 +++
 title = '🏷️ Saving expressions'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
 1='Identify the syntactic features of a variable declaration'
 2='Explain why we use variable declarations'
 3='Create strings using variables and template literals'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In programming we often want to _reuse_ our work. Consider the string: `"Hello there";`

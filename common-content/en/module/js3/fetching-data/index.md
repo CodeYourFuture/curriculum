@@ -1,15 +1,17 @@
 +++
 title = '🐕 Fetching data'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a client side Web API'
     2='Define a server side API'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 So far we have displayed film data stored in our JavaScript code. But real applications fetch data from servers over the internet. We can restate our problem as follows:

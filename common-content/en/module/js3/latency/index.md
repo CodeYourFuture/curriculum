@@ -1,14 +1,16 @@
 +++
 title = '🗓️ Latency'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
   1='Define latency'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ```mermaid

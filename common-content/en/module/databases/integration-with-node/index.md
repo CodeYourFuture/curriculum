@@ -1,15 +1,17 @@
 +++
 title = 'Integration with NodeJS'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Connect a PostgreSQL database to a NodeJS application'
     2='Retrieve data from a PostgreSQL database in a NodeJS application'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Introduction to node-postgres

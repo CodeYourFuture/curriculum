@@ -1,14 +1,16 @@
 +++
 title="🥁 Rhythm of the week"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 30
 [objectives]
     1="Identify when we prep during a typical sprint week"
     2="Identify when we work on the backlog during a typical sprint week"
     3="Identify when the in-person session takes place on a typical sprint week"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Self-coordinating as a community poses challenges. One challenge is working out not just _what_ to do but _when_ to do it. This gets harder when we are working on different schedules. To make things even harder, we use a flipped classroom model: very different from a regular school.

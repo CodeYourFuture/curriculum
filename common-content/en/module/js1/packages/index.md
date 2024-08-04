@@ -1,9 +1,6 @@
 +++
 title = '📦 Using packages'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
@@ -12,6 +9,11 @@ emoji= '🧩'
     2='Define a package'
     3='Identify some benefits of using a third-party party software library when programming'
     4='Describe why need to use npm when we are building JavaScript applications'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 When writing software, we continually make use of software written by other developers. We can call these {{<tooltip title="packages">}}A **package** is some code which is grouped together to provide some functionality.{{</tooltip>}}

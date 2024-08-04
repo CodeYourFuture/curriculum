@@ -1,9 +1,6 @@
 +++
 title = '📮 🧪 Test Examples in Postman'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
     1='Fork a Postman workspace'
     2='Run a request in Postman'
     4='Test a request in Postman'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 You will need to create an account with Postman to complete this task. Follow along with the video [Writing Tests in Postman with Examples](https://www.youtube.com/watch?v=oXW-C2bM0wE).

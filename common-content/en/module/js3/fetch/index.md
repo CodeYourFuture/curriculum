@@ -1,13 +1,15 @@
 +++
 title = 'fetch API'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's suppose we have a remote API hosted at the following url: "https://api-film-data.com".

@@ -1,9 +1,6 @@
 +++
 title = '🪄 Functions'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
     1='Define a function in programming'
     2='Evaluate a function expression'
     3='Call a function with an input in REPL'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Now, instead of adding or multiplying numbers, we’ll consider `10.3`.

@@ -1,12 +1,14 @@
 +++
 title = '💪🏾 CRUD Challenges'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### CHALLENGE 1:

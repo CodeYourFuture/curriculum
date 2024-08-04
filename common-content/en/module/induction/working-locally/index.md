@@ -1,9 +1,6 @@
 +++
 title = '💻 Working locally'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time ="20"
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
     1='Figure out what we need to do next in the course'
     2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when we are stuck'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We can also use Git on our local machine to perform similar tasks as we do on GitHub. So we need to address the following question:

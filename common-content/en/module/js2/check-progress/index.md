@@ -1,14 +1,16 @@
 +++
 title = '📈 Check progress'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use a plan to check progress in solving a problem'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's use the plan from earlier to check our progress.

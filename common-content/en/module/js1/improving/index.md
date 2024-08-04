@@ -1,9 +1,6 @@
 +++
 title = '🧹 Improving the code'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
 1='Explain why refactoring is necessary in the production of software'
 2='Suggest several appropriate ways to refactor a given piece of code'
 3='Identify and fix a bug'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Refactoring

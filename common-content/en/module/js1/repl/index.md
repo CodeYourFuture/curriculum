@@ -1,9 +1,6 @@
 +++
 title = '🧾 Evaluating expressions'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
     1='Define the features of the Node REPL'
     2='Evaluate expressions using your mental model of JavaScript'
     3='Evaluate expressions using the Node REPL'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="tip" title="Recall">}}Computers work by storing and performing operations on data.{{</note>}}

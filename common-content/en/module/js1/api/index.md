@@ -10,6 +10,11 @@ emoji= '🧩'
 [objectives]
     1='Explain why we use APIs in programming'
     2='Identify some commonly used APIs'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 With Jest installed, we need to figure out _how to use the Jest framework_ to write tests.

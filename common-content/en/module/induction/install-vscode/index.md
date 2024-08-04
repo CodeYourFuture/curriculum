@@ -1,15 +1,17 @@
 +++
 title = '🧰 Install VSCode'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Download and install VSCode'
     2='Identify the key parts of the VSCode interface'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We use VS Code to write all of our code in the course. It is known as an Integrated Development Environment (IDE) and really helps you write great code!

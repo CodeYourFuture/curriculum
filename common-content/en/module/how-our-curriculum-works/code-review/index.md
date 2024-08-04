@@ -1,13 +1,15 @@
 +++
 title="📝 Code review"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 15
 [objectives]
     1="Explain the value of code review"
     2="Locate unreviewed pull requests"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Often learners try to rush through the curriculum by completing the coursework without evaluating their work. However, our ultimate goal is to build understanding and learn new skills. Our coursework is the means of achieving this goal but not the ultimate goal itself. Learning without evaluation will lead to weak or absent comprehension.

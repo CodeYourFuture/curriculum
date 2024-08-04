@@ -1,15 +1,17 @@
 +++
 title = 'Vite'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Create a new React app with Vite'
     2='Run the app in development mode'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Vite is a build tool. It is the _default_ build tool for [Vue](https://vuejs.org/guide/quick-start), [SvelteKit](https://kit.svelte.dev/), [Preact](https://preactjs.com/guide/v10/getting-started/) and [Solid](https://www.solidjs.com/guides/getting-started). It is a _common_ build tool for [React](https://react.dev/learn/start-a-new-react-project) and we will use it in this course.

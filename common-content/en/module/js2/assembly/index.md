@@ -1,14 +1,16 @@
 +++
 title = '🧱 Assembling the parts'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Identify a bug when a function gives an unexpected output'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Now suppose we have a program where we use the functions we implemented earlier:

@@ -1,9 +1,6 @@
 +++
 title = '❓🪢 Query strings'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
 1='Identify the query string section of a url'
 2='Identify query parameters within a query string'
 3='Explain why an object is a more useful structure for storing query parameters than a string' 
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let’s define a problem.

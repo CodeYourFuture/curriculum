@@ -1,15 +1,17 @@
 +++
 title = '📋 Check Git installation'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 vocabulary=[]
 emoji= '🧩'
 [objectives]
 1='Double check Git is installed on your local machine'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Git

@@ -1,14 +1,16 @@
 +++
 title = '📨 PUT'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Process a PUT request using Express and Node and update an array held in memory'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 > `PUT /movies/:movieId should update a movie (that matches the passed movieId)`

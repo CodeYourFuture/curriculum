@@ -1,14 +1,16 @@
 +++
 title = '🆕 Introducing new state'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1=''
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We are introducing a new feature: being able to search for films. We have identified that this introduces one new element of state: the search term someone has asked for.

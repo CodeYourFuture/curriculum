@@ -1,15 +1,17 @@
 +++
 title = 'Introduction to Terraform'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain the purpose of Terraform'
     2='List the core concepts in Terraform'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 [Terraform](https://developer.hashicorp.com/terraform) is an open-source tool created by HashiCorp that allows you to define and provide infrastructure as code (IaC). It uses its own domain-specific language known as HashiCorp Configuration Language (HCL) and can manage infrastructure across multiple cloud service providers.

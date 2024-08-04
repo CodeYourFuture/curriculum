@@ -1,14 +1,16 @@
 +++
 title = '📁 Running scripts'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Execute a JavaScript file with Node'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is useful for evaluating expressions quickly.

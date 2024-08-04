@@ -1,9 +1,6 @@
 +++
 title = '📤 Returning from a function'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
     1='Identify the return value at a call site given its function declaration'
     2='Log the return value of a function'
     3='Given a short program, state the number of times a given function is called'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We need a way to access the percentage string that is created inside `convertToPercentage`. To access values created inside functions, we write {{<tooltip title="return statements">}}We write a return statement to specify a function's return value. If your function call is like a question, the return value is the answer. It's what comes back.{{</tooltip>}}.

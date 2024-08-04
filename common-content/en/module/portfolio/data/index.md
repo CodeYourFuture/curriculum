@@ -1,14 +1,16 @@
 +++
 title = '🗃️ Data'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify core components required to supply data and functionality to the user interface'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 For your application to work, your user interface will interact with other services. These services provide data and ways to update this data via the user interface.

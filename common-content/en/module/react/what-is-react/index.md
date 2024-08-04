@@ -1,15 +1,17 @@
 +++
 title = '🪄 What is React'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Find the docs'
     2='Describe the key principles of React'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 [React](https://github.com/facebook/react) is a widely used JavaScript library for building user interfaces.

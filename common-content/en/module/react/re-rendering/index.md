@@ -1,14 +1,16 @@
 +++
 title = '🪞 Re-Rendering'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Write your first React component'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

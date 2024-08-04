@@ -1,9 +1,6 @@
 +++
 title = '📋 Setting up Coursework planner'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 vocabulary=[]
@@ -11,6 +8,11 @@ emoji= '🧩'
 [objectives]
 1='Double check Github account is set up'
 2='Double check planner is set up'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### GitHub

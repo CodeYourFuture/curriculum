@@ -1,14 +1,16 @@
 +++
 title = '🐕 GET single movie'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use GET to match a specific query parameter'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 > `GET /movies/:movieId should return a single movie (that matches the passed movieId)`

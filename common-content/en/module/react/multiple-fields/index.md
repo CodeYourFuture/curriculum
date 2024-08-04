@@ -1,9 +1,6 @@
 +++
 title = "🗂️ Forms with multiple fields"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
     1='Handle multiple user inputs in a form'
     2='Use a single event handler for multiple inputs'
     3='Use a single state variable for multiple inputs'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's have a look at a more complex example. Here we will build a form for users to create a personal account. Make sure to select `CreateAccountForm.js` in the menu to you're looking at the right part of the code.

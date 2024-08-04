@@ -1,9 +1,6 @@
 +++
 title = '💬 Declarations and statements'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
     1='Define a declaration'
     2='Define a statement'
     3='Describe the difference between a declaration and a statement'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 A variable declaration is an example of a{{<tooltip title="declaration" type="definition">}}A _declaration_ is an instruction that binds an identifier to a value{{</tooltip>}}.

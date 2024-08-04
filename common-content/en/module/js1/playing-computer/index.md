@@ -1,9 +1,6 @@
 +++
 title = '🎮 Playing computer'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🗄️'
@@ -13,6 +10,11 @@ emoji= '🗄️'
     3='Define a frame'
     4='Describe what happens when a function is called'
     5='Differentiate between a local frame and a global frame'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 To understand how `convertToPercentage` works we must build a mental model of how the computer executes our code. To build this model, we use a method called {{<tooltip title="playing computer">}}.**Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction.{{</tooltip>}}

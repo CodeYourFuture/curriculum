@@ -1,10 +1,12 @@
 +++
 title="✅ Check module success criteria"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 10
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Use this time to check over the success page this module.

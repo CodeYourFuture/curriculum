@@ -1,14 +1,16 @@
 +++
 title = 'Entry Criteria'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='List the entry criteria for the Cloud module'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## 🎯 1. Meet the criteria

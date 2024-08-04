@@ -1,10 +1,12 @@
 +++
 title="Telephone"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=15
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<tabs name="telephone">}}

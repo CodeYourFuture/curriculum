@@ -1,10 +1,12 @@
 +++
 title="Study Group"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=60
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## What are we doing now?

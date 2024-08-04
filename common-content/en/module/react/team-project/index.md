@@ -1,14 +1,16 @@
 +++
 title = 'Team Project'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Work in a team to build a React app'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In this module you are working in a team to [build a React app](/react/product). (You should have created your group already.)

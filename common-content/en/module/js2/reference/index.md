@@ -1,9 +1,6 @@
 +++
 title = '🏤 References'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
     1='Define reference'
     2='Describe some effects of variables being assigned the same array reference'
     3='Identify when 2 variables will share the same array reference'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Arrays are stored by {{<tooltip title="reference">}}

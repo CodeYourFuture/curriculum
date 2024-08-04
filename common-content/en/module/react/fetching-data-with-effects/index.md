@@ -1,14 +1,16 @@
 +++
 title = "🐕 🎳 Fetching data with Effects"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Fetch data from an API using the useEffect hook'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

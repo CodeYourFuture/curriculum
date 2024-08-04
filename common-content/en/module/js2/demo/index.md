@@ -1,13 +1,15 @@
 +++
 title="▶️ Demo"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 60
 vocabulary="Backlog"
 [objectives]
     1="Demonstrate your application in front of the group"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Take this time to demo the application you've been building this week to the rest of the group (your application doesn't need to be finished!)

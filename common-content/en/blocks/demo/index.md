@@ -1,10 +1,12 @@
 +++
 title="Demo"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=60
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 At {{<our-name>}} we expect you to demo your work to the class. You must have many opportunities to practice how to clearly and simply **explain your work to others**. This is really important both for interviews and for getting promoted later on.

@@ -1,14 +1,16 @@
 +++
 title = 'Interacting with computers'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
  1='Define a computer'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Modern computers are **complicated**: it would be too difficult and time-consuming to list all the components that make up a modern computer. So to build our mental model, we will use this simple definition of a computer:

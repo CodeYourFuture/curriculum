@@ -1,13 +1,15 @@
 +++
 title="🎯 Have we met our goals?"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 10
 [objectives]
     1="Explain the importance of checking learning objectives"
     2="Check the success criteria for a sprint week"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Learning something as a complete beginner can be daunting: it is often difficult to know where to start. To learn effectively, we must set clear and measurable learning objectives to direct our education. Objectives should allow us to answer questions like this:

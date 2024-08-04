@@ -1,14 +1,16 @@
 +++
 title = 'Inserting, Updating and Deleting Rows'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1="Insert, Update and Delete rows in a pre-existing table using INSERT, UPDATE and DELETE"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## Inserting data

@@ -1,9 +1,6 @@
 +++
 title = 'MVP'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 vocabulary=["MVP"]
@@ -13,6 +10,11 @@ emoji= '🧩'
 2='Identify extra requirements from your own experience'
 3='Resolve trade-offs in conflicting requirements'
 4='Translate requirements into high-level design outlines' 
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Recap - user stories

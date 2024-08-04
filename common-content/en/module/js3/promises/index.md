@@ -1,15 +1,17 @@
 +++
 title = '🫱🏿‍🫲🏽 Promises'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a Promise'
     2='Log a Promise to the console'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ```mermaid

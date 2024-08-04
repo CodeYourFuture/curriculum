@@ -1,14 +1,16 @@
 +++
 title = '🐕 🎞️ fetch films'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Apply fetch to get data from an API'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Now that we have a basic understanding of Web APIs and Promises, let's use our knowledge to get some data from an API. There's [a list of films](/js3/blocks/fetch-films/data.json) stored in a JSON file in this directory. We'll use `fetch` to get the data from this API and then render it to the page.

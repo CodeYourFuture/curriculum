@@ -1,14 +1,16 @@
 +++
 title = '🐕 GET'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Process a GET request using Express and Node to retrieve data from memory'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 > `GET /movies should return all the movies`

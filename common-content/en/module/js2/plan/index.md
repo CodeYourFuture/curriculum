@@ -1,14 +1,16 @@
 +++
 title = '🧭 Strategy'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Break down a problem into a series of steps'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 To implement the character limit component, we need to update the interface as the user types in the text area. We can outline a strategy as follows:

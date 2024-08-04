@@ -1,9 +1,10 @@
----
-id: coding-101
-title: Coding 101
-sidebar_label: Coding 101
-headless: true
----
++++
+title="Coding 101"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
++++
 
 **What we will learn today?**
 

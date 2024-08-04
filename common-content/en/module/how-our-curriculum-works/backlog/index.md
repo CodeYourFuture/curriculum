@@ -1,9 +1,6 @@
 +++
 title = 'Backlog'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 vocabulary=["Blockers"]
@@ -11,6 +8,11 @@ emoji= '🧩'
 [objectives]
 1='Define the backlog'
 2='Explain how to use the sprint backlog'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In software development, we break down complex projects into smaller, manageable parts, which we work on for a week or two. These periods are called "sprints."

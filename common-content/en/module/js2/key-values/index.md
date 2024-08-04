@@ -1,15 +1,17 @@
 +++
 title = '🗝️ Key value pairs'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define an object property'
     2='Identify key-value pairs in an object literal'
+
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
 
 +++
 

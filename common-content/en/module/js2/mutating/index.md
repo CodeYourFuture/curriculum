@@ -1,14 +1,16 @@
 +++
 title = '🖊️ Mutating'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how to mutate an object property value'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Arrays are a type of object in JavaScript, they are still mutable data structures.

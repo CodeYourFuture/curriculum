@@ -1,14 +1,16 @@
 +++
 title = '🪞 Re-rendering the UI'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Trace the flow of data from user input to updated UI'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 With state updated from user input, we can re-render:

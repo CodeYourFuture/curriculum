@@ -1,15 +1,17 @@
 +++
 title = 'Check your Planner'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 vocabulary=[]
 emoji= '🧩'
 [objectives]
 1='Double check Git is installed on your local machine'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Planner on GitHub

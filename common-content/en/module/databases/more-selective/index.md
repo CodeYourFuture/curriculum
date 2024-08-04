@@ -1,9 +1,6 @@
 +++
 title = 'Being More Selective'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -12,6 +9,11 @@ emoji= '🧩'
     2='Validate data before adding it to a database'
     3='Identify a risk of SQL injection attacks, and define one defence'
     4='Create an API endpoint that retrieves data from a database with multiple parameters'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<youtube>}}https://www.youtube.com/watch?v=iFnBgGIpuJQ&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=2{{</youtube>}}

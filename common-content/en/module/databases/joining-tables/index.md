@@ -1,14 +1,16 @@
 +++
 title = 'Joining Tables'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Combine tables together using `INNER JOIN`'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Introduction

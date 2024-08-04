@@ -1,9 +1,6 @@
 +++
 title="Backlog"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 30
 vocabulary="Backlog"
 hide_from_overview=true
@@ -11,6 +8,11 @@ hide_from_overview=true
     1="Find the backlog"
     2="Copy your tickets to your own backlog"
     3="Manage your tickets on your board"
+
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
 
 +++
 

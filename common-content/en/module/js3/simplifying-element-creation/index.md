@@ -1,14 +1,16 @@
 +++
 title = '🧼 Simplifying element creation'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Extract functions for common tasks'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We now have a card showing all of the information for one film. The code we have is quite repetitive and verbose. It does similar things lots of times.

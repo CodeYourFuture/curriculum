@@ -13,6 +13,11 @@ emoji= '🧩'
     2='Identify extra requirements from your own experience'
     3='Resolve trade-offs in conflicting requirements'
     4='Translate requirements into high-level design outlines' 
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 It's good to code with a friend. You learn SO much. Programmers call this pair programming and many professional teams program in pairs for a part of each day. Mentors will demonstrate pairing now.

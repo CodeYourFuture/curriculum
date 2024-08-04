@@ -1,14 +1,16 @@
 +++
 title = '🧩 Percentages'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
     2='Construct simple expressions to represent a calculation'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Let's begin with this problem:

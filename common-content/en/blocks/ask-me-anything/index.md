@@ -1,10 +1,12 @@
 +++
 title="Experts AMA"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=45
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ## 🧑🏼‍🎓 Trainees

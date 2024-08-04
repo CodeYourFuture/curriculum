@@ -1,15 +1,17 @@
 +++
 title = '🎁 Wrapping up Git'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time ="20"
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Figure out what we need to work on in class'
     2='Practice asking for guidance/help when we are stuck'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="activity" title="Creating a commit - Figure it out 🔍">}}

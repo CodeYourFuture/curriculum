@@ -1,14 +1,16 @@
 +++
 title = "👨🏼‍🎨 Rendering"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use map() with React to transform an array of data into an array of components.'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

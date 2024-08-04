@@ -9,6 +9,11 @@ facilitation = false
 emoji= '🧩'
 [objectives]
 1='Set up a GitHub account'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 GitHub is for developers. It's how you will work on code with other developers and where you will build a portfolio of work to show employers. You should already have a GitHub account from the application process. If you don’t, make one now.

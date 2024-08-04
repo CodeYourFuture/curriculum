@@ -1,15 +1,17 @@
 +++
 title = '🖥️ Terminal interface'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Identify the terminal and its purpose'
 2='Execute commands in the terminal'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Programmers need interfaces to ask computers to do things. A computer terminal is an **interface** where programmers can issue commands to a computer. Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.

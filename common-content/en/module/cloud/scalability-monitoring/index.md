@@ -1,15 +1,17 @@
 +++
 title = 'Monitoring Tools'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='List the benefits of monitoring'
     2='Define observability'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Monitoring is crucial for understanding the behavior of your applications and infrastructure, particularly in cloud environments where many components work together to deliver an application. Monitoring not only helps you to diagnose and fix issues faster, but it also plays a pivotal role in optimizing performance and planning for scalability.

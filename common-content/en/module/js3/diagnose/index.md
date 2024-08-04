@@ -1,15 +1,17 @@
 +++
 title = '🌡️ Diagnose'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Identify areas of weakness'
 2='Address misconceptions from prep work'
 3='Step through some code and check how it runs'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 This is a pairing activity!

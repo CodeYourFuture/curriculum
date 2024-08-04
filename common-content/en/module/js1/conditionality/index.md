@@ -1,9 +1,6 @@
 +++
 title = '❓ Conditionally executing code'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -13,6 +10,11 @@ emoji= '🧩'
   3='Identify the syntactic features of an if statement'
   4='Analyse a conditional statement to determine whether or not the statement will be executed'
   5='Determine the output of a program that uses a conditional statement'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 > Recall: JavaScript programs are built up from sequences of **declarations** and **statements**.

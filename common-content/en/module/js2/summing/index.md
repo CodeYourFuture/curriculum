@@ -1,15 +1,17 @@
 +++
 title = '➕ Summation'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how to sum the numbers in a list'
     2='Explain why repeated statements are hard to maintain'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 > 🎯 Sub-goal: compute the sum of an array of numbers.

@@ -1,15 +1,17 @@
 +++
 title = '🧠 Forming sub-goals'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
  1='Define a sub-goal'
  2='Explain why we use sub-goals'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 For `formatAs12HourClock` our strategy for inputs like `"23:00"` involves checking if the `hours` value is less than 12. For this purpose, we can use the [**greater than** comparison operator `>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than).

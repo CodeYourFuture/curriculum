@@ -1,15 +1,17 @@
 +++
 title = '🎬 Events'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe an event in the browser environment'
     2='Update the strategy for implementing a character limit component'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 In the case of the ` textarea` element, we want to update the `p` element text **every time the user types inside the textarea**. In other words, we want our application to **_react_** to the **_user typing on the keyboard_**. Currently our plan looks like this:

@@ -1,14 +1,16 @@
 +++
 title = "📋 Working with forms"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define controlled components'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Modern web applications often involve interacting with forms such as creating an account, adding a blog post or posting a comment. We need to declare form inputs and get the values entered by users to do something with it (like display them on a page or send them in a POST request). So, how do we do this in React?

@@ -1,14 +1,16 @@
 +++
 title = '🧭 Community goals'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Define our community goals'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 To achieve our mission, we bring people together to build self-empowered communities of learners. To this end, we have 3 community goals for achieving our mission:

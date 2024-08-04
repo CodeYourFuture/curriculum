@@ -1,15 +1,17 @@
 +++
 title = '🧰 Install a UNIX based operating system'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Check you have a Unix based operating system'
     2='If required, setup a Unix based operating system'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 If you get stuck on any of the below or above instructions, please post in your class channel on Slack.

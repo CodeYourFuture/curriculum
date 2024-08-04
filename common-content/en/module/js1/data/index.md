@@ -1,14 +1,16 @@
 +++
 title = '🗄️ Classifying data'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Define data type, expression, and operator'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We’re going to focus on the JavaScript programming language.

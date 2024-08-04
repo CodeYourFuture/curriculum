@@ -1,14 +1,16 @@
 +++
 title = '🍱 Simplifying element creation'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use template tags to simplify element initialisation'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Using `<template>` tags

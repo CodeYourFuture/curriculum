@@ -1,15 +1,17 @@
 +++
 title = 'What Are Terraform Modules'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain what Terraform modules are'
     2='Write a Terraform module that creates an S3 bucket'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### What Are Terraform Modules?

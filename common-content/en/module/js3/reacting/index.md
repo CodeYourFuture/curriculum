@@ -1,14 +1,16 @@
 +++
 title = '🪄 Reacting to user input'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain how Javascript can react to user input from a search input'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 As users interact with web applications, they trigger events like clicking buttons, submitting forms, or typing text that we need to respond to. Let's explore a common example: searching.

@@ -1,15 +1,17 @@
 +++
 title = '📤 Reacting to events'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the syntactic features of a call to addEventListener'
     2='Explain when an event listener is called'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 As a user, we interact with the elements on a web page. We _click_ on buttons, _input_ text, _submit_ forms etc.

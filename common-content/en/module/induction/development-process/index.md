@@ -1,12 +1,14 @@
 +++
 title = '🧰 Development process'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time ="10"
 facilitation = false
 emoji= '🧩'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Ahmed and Naima are using the following **development process** for writing their blog:

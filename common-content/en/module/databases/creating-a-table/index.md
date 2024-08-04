@@ -1,14 +1,16 @@
 +++
 title = 'Creating a table'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Aggregate data over multiple rows and use aggregate values to restrict the results'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Use the CREATE TABLE command, which in the simplest case has the general form:

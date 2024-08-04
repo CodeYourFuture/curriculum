@@ -1,15 +1,17 @@
 +++
 title = 'Adding Testing Stages'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Add a test stage to a GitHub action'
     2='Integrate existing test scripts to run automatically'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Testing is crucial in CI/CD pipelines. GitHub Actions can automatically run your tests every time someone pushes to your repository.

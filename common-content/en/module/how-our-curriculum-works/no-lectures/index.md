@@ -1,12 +1,14 @@
 +++
 title="No lectures"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 30
 [objectives]
     1="Explain why we don't lecture during live sessions"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We don’t lecture trainees during live sessions. We are not against lectures; if you want to deliver a lecture, that’s great! Put it on Youtube and send us the link. Trainees can then watch lectures at their own pace, with captions, pause, and rewind enabled. Trainees also have free accounts kindly donated by Udemy and you can assign any Udemy for Business course.

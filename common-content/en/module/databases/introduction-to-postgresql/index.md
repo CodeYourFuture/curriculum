@@ -1,9 +1,6 @@
 +++
 title = 'Introduction to PostgreSQL'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -11,6 +8,11 @@ emoji= '🧩'
     1='Define what SQL is and what it is used for'
     2='Define an RDBMS'
     3='Validate a PostgreSQL installation'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 _"PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. The origins of PostgreSQL date back to 1986 as part of the POSTGRES project at the University of California at Berkeley and has more than 30 years of active development on the core platform."_ (source: [postgresql.org](https://www.postgresql.org/about/))

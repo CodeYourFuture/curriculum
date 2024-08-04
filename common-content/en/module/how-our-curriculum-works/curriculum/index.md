@@ -1,9 +1,6 @@
 +++
 title = '🗺️ Curriculum'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 15
 facilitation = false
 vocabulary=["Blockers"]
@@ -11,6 +8,11 @@ emoji= '🗺️'
 [objectives]
 1='Define the curriculum'
 2='Explain the purpose of the curriculum'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Our {{<tooltip title="curriculum" >}}

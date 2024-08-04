@@ -1,9 +1,6 @@
 +++
 title = 'What is HTML?'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 45
 facilitation = false
 activities = ['defining-key-terms']
@@ -12,6 +9,11 @@ emoji= '😶‍🌫️'
     1='Define HTML, tags, and nesting'
     2='Explore the semantics of HTML'
     3='Analyse the role of HTML in the browser'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 {{<note type="question" title="10 Things About HTML">}}

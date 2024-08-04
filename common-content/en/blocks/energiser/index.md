@@ -1,11 +1,13 @@
 +++
 title="Energiser"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=20
 hide_from_overview=true
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Every session begins with an energiser. Usually there's a rota showing who will lead the energiser. We have some favourite games you can play if you are stuck.

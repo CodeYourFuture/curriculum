@@ -1,12 +1,14 @@
 +++
 title="Evaluate ✏️"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time= 60
 [objectives]
     1="Evaluate your current progress against previous modules"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 You must check in with yourself and evaluate your progress as you move through the course.

@@ -1,10 +1,12 @@
 +++
 title="🫱🏽‍🫲🏾 Setup project teams"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=60
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 This is a project you will build in a team. First form your team, then start the project by forking the repo.

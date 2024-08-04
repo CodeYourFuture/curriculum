@@ -1,9 +1,6 @@
 +++
 title = 'Wrap Up'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 60
 facilitation = false
 vocabulary=["Requirements", "User Stories"]
@@ -13,6 +10,11 @@ emoji= '🧩'
     2='Identify extra requirements from your own experience'
     3='Resolve trade-offs in conflicting requirements'
     4='Translate requirements into high-level design outlines' 
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 ### Reflection on Fundamentals

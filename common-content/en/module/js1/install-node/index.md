@@ -1,13 +1,15 @@
 +++
 title = "🧰 Install Node with nvm"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false 
+ 
 time = 20 
 facilitation = false
 [objectives] 
 1="Download and install Node using nvm"
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 If you get stuck on any of the below or above instructions, please post in your class channel on Slack.

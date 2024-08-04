@@ -1,9 +1,6 @@
 +++
 title = '♻️ Reusing the function'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 30
 facilitation = false
 emoji= '🗄️'
@@ -11,6 +8,11 @@ emoji= '🗄️'
     1='Reuse code to perform the same calculation with different inputs'
     2='Evaluate a function expression'
     3='Call a function with an input in REPL'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Our goal is for `convertToPercentage` to be _reusable_ for any number. To check this goal, let's call `convertToPercentage` with different arguments and check the return value each time:

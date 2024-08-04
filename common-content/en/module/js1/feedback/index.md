@@ -1,15 +1,17 @@
 +++
 title = '✅ ❌ Interpreting feedback'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 25
 facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Identify current output and target output in test feedback'
     2='Determine the line an error occurred from some test feedback'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 We currently have a project structure like this:

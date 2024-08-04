@@ -1,11 +1,13 @@
 +++
 title="Community Lunch"
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time=60
 hide_from_overview=true
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Every Saturday we cook and eat together. We share our food and our stories. We learn about each other and the world. We build community.

@@ -1,14 +1,16 @@
 +++
 title = '🏗️ Assembling the parts'
-[build]
-    render = false
-    list = 'local'
-    publishResources = false
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain how different concepts are combined to solve a goal'
+[build]
+  render = false
+  list = 'never'
+  publishResources = false
+
 +++
 
 Earlier we defined a sub-goal to find a value for the hours from the `time` input. We've found that `Number(time.slice(0,2))` is an expression that evaluates to the hours from `time`. So we can write an `if` statement using this expression:
