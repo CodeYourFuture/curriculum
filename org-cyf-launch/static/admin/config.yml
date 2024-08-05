@@ -6,10 +6,10 @@ media_folder: org-cyf-guides/static/cms
 public_folder: /cms
 
 collections:
-  - name: "day_plans"
-    label: "Day Plans"
-    folder: "content/day-plans"
-    create: true
+  - name: "Page"
+    label: "Prep and Day Plans"
+    folder: "content/"
+    create: false
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -23,7 +23,7 @@ collections:
       - {
           label: "Menu Level",
           name: "menu_level",
-          widget: "list",
+          widget: "hidden",
           default: ["sprint"],
         }
       - { label: "Weight", name: "weight", widget: "number" }
@@ -33,37 +33,6 @@ collections:
           widget: "boolean",
           default: false,
         }
-      - label: "Blocks"
-        name: "blocks"
-        widget: "list"
-        fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Source", name: "src", widget: "string" }
-          - { label: "Time", name: "time", widget: "number", required: false }
-          - {
-              label: "Caption",
-              name: "caption",
-              widget: "string",
-              required: false,
-            }
-
-  - name: "prep"
-    label: "Prep"
-    folder: "content/prep"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "prep" }
-      - { label: "Emoji", name: "emoji", widget: "string" }
-      - {
-          label: "Menu Level",
-          name: "menu_level",
-          widget: "list",
-          default: ["sprint"],
-        }
-      - { label: "Weight", name: "weight", widget: "number" }
       - label: "Blocks"
         name: "blocks"
         widget: "list"
