@@ -31,13 +31,10 @@ A good cover letter should be:
 - It is 3 – 4 paragraphs long and does not exceed 1 page in length.
 - It has a structure that builds on itself (the fewer repeats, the better).
 - The closing paragraph includes a call to action. (e.g. reinforces any shared values, passion for the role (with research), and/or suitability for the role, then prompts the reader to get back in touch)
-- It should be ended professionally, such as:
-
-`Thank you for you consideration.`
-
-`Yours kindly,`
-
-`(Your name)`
+- It should be  be ended professionally, for example:
+  - Thank you for your consideration.
+  - Yours kindly,
+  - (Your name)
 
 #### Tone
 
