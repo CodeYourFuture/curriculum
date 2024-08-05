@@ -4,7 +4,7 @@ description="The solo study and setup work for a sprint"
 time=1
 [build]
   render= 'never'
-  list='local'
+  list='never'
 +++
 
 ### Block composition
