@@ -7,19 +7,11 @@ date: 2024-07-22T16:36:11
 ---
 ## Cover Letter Criteria
 
-A well-written cover letter can help you stand out and allows you to explain how you're the best fit for the role. It should demonstrate that you understand the job description, celebrate your accomplishments and highlight your motivation for the job. 
-
-
-
-
+A well-written cover letter can help you stand out and allows you to explain how you're the best fit for the role. It should demonstrate that you understand the job description, celebrate your accomplishments and highlight your motivation for the job.
 
 ### **Structure**
 
-A cover letter should first focus on the job requirements. You should demonstrate that you understand the requirements. Next, write about how your past experiences and skills make you suitable for the role. Finally, you should use the opportunity to highlight why you are motivated to apply for this role. 
-
-
-
-
+A cover letter should first focus on the job requirements. You should demonstrate that you understand the requirements. Next, write about how your past experiences and skills make you suitable for the role. Finally, you should use the opportunity to highlight why you are motivated to apply for this role.
 
 ### **Essential Criteria**
 
@@ -31,19 +23,21 @@ A good cover letter should be:
 - Have no Spelling or Grammar mistakes
 - Be directly related to the job description
 
-
-
-
-
 ### **General Criteria**
 
 #### Structure
 
 - The initial paragraph makes it clear that the applicant knows about the role they are applying to.
--  It is 3 – 4 paragraphs long and does not exceed 1 page in length.
+- It is 3 – 4 paragraphs long and does not exceed 1 page in length.
 - It has a structure that builds on itself (the fewer repeats, the better).
 - The closing paragraph includes a call to action. (e.g. reinforces any shared values, passion for the role (with research), and/or suitability for the role, then prompts the reader to get back in touch)
-- It should be signed with a professional closing.
+- It should be ended professionally, such as:
+
+`Thank you for you consideration.`
+
+`Yours kindly,`
+
+`(Your name)`
 
 #### Tone
 
@@ -72,10 +66,6 @@ A good cover letter should be:
 - [ ] It must show that they hold values that are found on the company website, or in the job description.
   - [ ] For example, if a company values self-growth, examples of personal development could be accepted. Meanwhile, if a company values sustainability, examples of sustainability in previous projects or roles could be accepted.
 - [ ] It references their CV
-
-
-
-
 
 ### References 📚
 
