@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: org-cyf-guides/static/img
-public_folder: /img
+media_folder: org-cyf-guides/static/cms
+public_folder: /cms
 
 collections:
   - name: "day_plans"
