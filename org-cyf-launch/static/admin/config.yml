@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Sprint 1 Day Plan"
         name: "sprint1DayPlan"
-        file: "content/sprint/1/day-plan/index.md"
+        file: "content/sprints/1/day-plan/index.md"
         create: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -55,7 +55,7 @@ collections:
                 }
       - label: "Sprint 2 Day Plan"
         name: "sprint2DayPlan"
-        file: "content/sprint/2/day-plan/index.md"
+        file: "content/sprints/2/day-plan/index.md"
         create: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
