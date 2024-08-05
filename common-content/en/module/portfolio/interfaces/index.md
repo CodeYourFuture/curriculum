@@ -1,6 +1,6 @@
 +++
 title = '🕹️ User Interface'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Identify key features for the user interface'
     2='Propose basic designs for key parts of the user interface'
     3='Write objectives you can measure'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 As a team, you need to start thinking about and designing the user interface.

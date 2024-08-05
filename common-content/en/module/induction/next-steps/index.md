@@ -1,6 +1,6 @@
 +++
 title = 'Next steps 👣'
-headless = true
+
 time ="20"
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Figure out what we need to do next in the course'
     2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when we are stuck'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 ## For trainees

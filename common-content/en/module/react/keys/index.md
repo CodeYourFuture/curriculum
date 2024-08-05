@@ -1,11 +1,16 @@
 +++
 title = '🔑 Keys'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why React needs keys'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

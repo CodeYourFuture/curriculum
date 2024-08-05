@@ -1,12 +1,17 @@
 +++
 title = '🎱 Rendering based on state'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Filter films based on search terms'
     2='Render a filtered list'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 For now, we have set the initial value of the `searchTerm` state to "Pirate". This means that our render function should only create cards for films which contain the word "Pirate" in their title. But right now, our render function creates cards for _all_ of the films.

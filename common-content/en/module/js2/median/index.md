@@ -1,11 +1,16 @@
 +++
 title = '📊 Calculating the median'
-headless = true
+
 time = 25
 facilitation = false
 emoji= '🧩'
 [objectives]
 1='Describe how to calculate the median of a list in JavaScript' 
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let's define another problem.

@@ -1,12 +1,17 @@
 +++
 title = '📜 Grouping data'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Access items in an array using an index'
     2='Identify the benefits of using an array to store information'
+
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 
 +++
 

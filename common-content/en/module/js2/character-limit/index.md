@@ -1,11 +1,16 @@
 +++
 title = '🛑 Character limit'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define acceptance criteria for the character limit component'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let’s define a problem.

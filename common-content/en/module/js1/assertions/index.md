@@ -1,6 +1,6 @@
 +++
 title = '✏️ Writing an assertion'
-headless = true
+
 time = 45
 facilitation = false
 emoji= '🧩'
@@ -10,6 +10,11 @@ emoji= '🧩'
 3='Implement a piece of functionality specified in an assertion'
 4='Given an assertion and a function declaration, identify and explain whether the assertion will succeed or fail'
 5 ='Write an assertion for a function that implements a solution to a given problem'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<tabs name="Predict, explain, check">}}

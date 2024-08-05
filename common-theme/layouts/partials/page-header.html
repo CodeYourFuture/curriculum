@@ -37,8 +37,9 @@ then go ahead and make a TOC */}}
           {{ with .Page.Params.emoji }}
             {{ . }}
           {{ end }}
-        {{ end }} </span
-      >{{ .Page.Title }}
+        {{ end }} 
+        </span>
+        <span class="c-page-header__title-text">{{ .Page.Title }}</span>
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
       <h2

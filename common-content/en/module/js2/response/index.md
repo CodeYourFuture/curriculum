@@ -1,12 +1,17 @@
 +++
 title = '📤 Reacting to events'
-headless = true
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the syntactic features of a call to addEventListener'
     2='Explain when an event listener is called'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 As a user, we interact with the elements on a web page. We _click_ on buttons, _input_ text, _submit_ forms etc.
@@ -47,7 +52,9 @@ const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
 function updateCharacterLimit() {
-  console.log("keyup event has fired... The browser called updateCharacterLimit...");
+  console.log(
+    "keyup event has fired... The browser called updateCharacterLimit..."
+  );
 }
 
 textarea.addEventListener("keyup", updateCharacterLimit);

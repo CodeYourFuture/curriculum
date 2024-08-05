@@ -1,6 +1,6 @@
 +++
 title = '🧶 Accessing strings'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
  1='Define zero-indexing'
  2= 'Given a short program, determine the return value of a call to slice on a string before execution'
  3='Describe how to convert a string into a number in JavaScript'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Given a `time` string we need to access the _first 2 characters_ of the string which represent the hours.

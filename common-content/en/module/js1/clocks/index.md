@@ -1,11 +1,16 @@
 +++
 title = '🕛 12 vs 24 hour clock'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
  1='Identify a pattern between a set of inputs and outputs produced by a given function'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We usually write [the time](https://www.bbc.co.uk/bitesize/topics/zkfycdm/articles/z44mqfr) in one of two ways: the analogue 12 hour clock or the digital 24 hour clock. The 12 hour clock counts up to 12: it resets at midday. The 24 hour clock counts up to 24: it resets at midnight.

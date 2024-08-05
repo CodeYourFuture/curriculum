@@ -1,11 +1,16 @@
 +++
 title = '🃏 Building a component'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Implement components for a user interface'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Recall our sub-goal:

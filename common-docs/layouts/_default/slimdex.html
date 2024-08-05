@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article>
+    {{- partial "page-header.html" . }}
+    <ol class="c-columns">
+      {{- range .Pages }}
+        <li class="c-block c-block--link">
+          <a href="{{ .RelPermalink }}" class="c-chip">
+            <div class="c-chip__icon" style="padding:.5ch">
+              {{ .Params.emoji | default "🪪" }}
+            </div>
+            <h4 class="c-chip__title">{{ .Title }}</h4>
+            {{ with .Description }}
+              <p class="c-chip__description">🔗 {{ . | markdownify }}</p>
+            {{ end }}
+          </a>
+        </li>
+      {{- end }}
+    </ol>
+    {{ with .Content }}
+      <section class="c-copy">
+        {{ . }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}

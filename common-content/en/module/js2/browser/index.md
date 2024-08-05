@@ -1,12 +1,17 @@
 +++
 title = '💻 User interfaces'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define static html'
     2='Explain why we interact with user interfaces'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 User interfaces provide the gateway between a user and a complex application.

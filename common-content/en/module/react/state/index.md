@@ -1,11 +1,16 @@
 +++
 title = '🚦 State'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Add a state variable with the useState Hook'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

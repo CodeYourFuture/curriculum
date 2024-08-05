@@ -1,12 +1,17 @@
 +++
 title = '❓ Single pair case'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Suggest a way of splitting a string into an array'
     2='Destructure an array of length 2'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let's consider another test case: when the query string contains a single key-value pair.

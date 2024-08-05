@@ -1,11 +1,16 @@
 +++
 title = '🧩 Project time'
-headless = true
+
 time = 60
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Work on your project'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 This time is set aside to work as a team on your project.

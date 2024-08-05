@@ -1,11 +1,16 @@
 +++
 title = '🪄 Declaring functions'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="tip" title="Recall">}}
