@@ -47,6 +47,11 @@
   --theme-color--outline: hsl(var(--hsl), 1);
   --theme-color--backdrop-from: hsl(var(--hsl) / 0.25);
   --theme-color--backdrop-to: hsl(var(--hsl) / 0.2);
+
+  // signals
+
+  --theme-color--good: var(--theme-color--accent-shade);
+  --theme-color--bad: var(--theme-color--brand-shade);
 }
 
 @mixin dark-palette {

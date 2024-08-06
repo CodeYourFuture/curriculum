@@ -1,6 +1,6 @@
 +++
 title = '🐇 Embedding JavaScript'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Embed JavaScript in JSX'
     2='Dynamically specify values in JSX'
     3='Call a JavaScript function inside JSX with curly braces'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

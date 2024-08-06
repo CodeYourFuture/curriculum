@@ -1,6 +1,6 @@
 +++
 title = '💼 First test case'
-headless = true
+
 time = 40
 facilitation = false
 emoji= '🧩'
@@ -10,6 +10,11 @@ emoji= '🧩'
     3='Describe what toBe checks in the Jest library'
     4='State the current return value of a function and the target output for a given test'
     5='Implement a test case to describe the behaviour of a function'
+
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 
 +++
 

@@ -8,9 +8,21 @@ weight = 3
 name="Energiser"
 src="blocks/energiser"
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name="Workshop"
 src="blocks/workshop"
 time="120"
+  [[blocks.nested.blocks]]
+    name="Asking questions"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
+    time=0
+  [[blocks.nested.blocks]]
+    name="Devtools"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
+    time=0
 [[blocks]]
 name="lunch"
 src="blocks/lunch"

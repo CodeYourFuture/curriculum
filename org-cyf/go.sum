@@ -6,3 +6,5 @@ github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240114132825-493a8964
 github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240114132825-493a89648721/go.mod h1:lWiQfXWr0Uc517tksx7D5p5ZoXo9bxRoJ0or+z9mRyk=
 github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240121151641-e52b73ad527d h1:ILE8f9gXLEPEyrJVBdFRVa0Uszf9OVdK4LjXZjCLUag=
 github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240121151641-e52b73ad527d/go.mod h1:kzt+J4JYp5C3GD1dX0rf7vY5fsTUc6Drrn+7p7pjmLg=
+github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240606160122-fc5c72085f6b h1:GHzTJJAonmevEAYcLIz8E9D8t0GuvfU9Ke+98cDQnws=
+github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240606160122-fc5c72085f6b/go.mod h1:Suv+qMxRbE8arUU9j3BLg05NLyitSpwgdKacTuSvdu0=

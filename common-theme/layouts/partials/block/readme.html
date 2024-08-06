@@ -1,15 +1,21 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
+{{ $pageContext := . }}
+{{ with resources.GetRemote $blockData.api $blockData.headers }}
+  {{ with .Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title .Err }}
+  {{ end }}
 
-{{ if $response }}
-  <section class="c-block c-block--{{ $blockData.type }}">
+  {{ $response := .Content | unmarshal }}
+  <section
+    class="c-block c-block--{{ $blockData.type }}"
+    aria-labelledby="{{ $blockData.name |urlize }}">
     <header class="c-block__header">
       <h2
         class="c-block__title e-heading__2"
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
       </h2>
-      {{ partial "time.html" . }}
+      {{ partial "time.html" $pageContext }}
     </header>
     <div class="c-block__content c-copy">
       {{ $decodedContent := $response.content | base64Decode }}
@@ -17,7 +23,20 @@
       {{ $externalPath := replace $response.download_url $response.name "" }}
       {{ partial "strings/absolute-image-paths.html" (dict "markdownContent" $strippedComments "externalPath" $externalPath) | markdownify }}
     </div>
+
+    {{/* You can attach a range of nested blocks as options
+      It can be quite a lot of content so it comes in accordions
+    */}}
+    {{ with $blockData.hasBlocks }}
+      <section class="c-block__nested">
+        <h3>🗂️ Related</h3>
+        {{ range . }}
+          {{ range $block := . }}
+            {{ $blockDict := dict "block" $block "Page" $.Page "Site" $.Site }}
+            {{ partial "block/nested.html"  $blockDict }}
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ end }}
   </section>
-{{ else }}
-  <h3>Cannot get a response</h3>
 {{ end }}

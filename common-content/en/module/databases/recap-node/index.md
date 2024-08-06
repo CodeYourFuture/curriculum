@@ -1,12 +1,17 @@
 +++
 title = 'Communicating with the database using SQL'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Check the database connection'
     2='Get query results from the database with Postman'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Use the tables and data from your `{{<our-name>}}_hotel` database. If you need to start from a clean state for your database, run `psql -d {{<our-name>}}_hotel -f build_hotel.sql`.

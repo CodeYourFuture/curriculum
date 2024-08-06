@@ -26,14 +26,12 @@
 {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ .Scratch.SetInMap "blockData" "isShortcode" false }}
 {{ .Scratch.SetInMap "blockData" "caption" .caption | default "" }}
+{{ .Scratch.SetInMap "blockData" "hasBlocks" .hasBlocks| default "" }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 
 {{/* Now let's do our headers */}}
-{{ $headers := (dict) }}
-{{ if ne (os.Getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN") "" }}
-  {{ $headers = merge $headers (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CURRICULUM_GITHUB_BEARER_TOKEN"))) }}
-{{ end }}
+{{ $headers := partial "github-auth.html" }}
 {{ .Scratch.SetInMap "blockData" "headers" $headers }}
 
 {{/* ==================
@@ -50,7 +48,7 @@
 {{ else }}
   {{ if "github" | in $src }}
     {{/* Change base URL to api.github.com */}}
-    {{ $newSrc := replace $src "https://github.com/CodeYourFuture/" "https://api.github.com/repos/CodeYourFuture/" }}
+    {{ $newSrc := replace $src "https://github.com/" "https://api.github.com/repos/" }}
 
     {{ if (in $src "issues") }}
       {{ .Scratch.SetInMap "blockData" "type" "issue" }}
@@ -70,12 +68,11 @@
     {{/* TODO pull time from commented out front matter in Github readmes */}}
   {{ end }}
 
-  {{ if "cyf-pd.netlify.app" | in $src }}
+  {{ if or ("cyf-pd.netlify.app" | in $src) ("/pd/"| in $src) }}
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
-    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "" }}
+    {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "pd/blocks/" }}
     {{ $blockPath := replace $blockPath "/readme/" "" }}
-    {{ $newSrc := printf "https://api.github.com/repos/CodeYourFuture/CYF-PD/readme/content/blocks/%s/" $blockPath }}
-    {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
+    {{ .Scratch.SetInMap "blockData" "api" $blockPath }}
   {{ end }}
 
   {{ if "youtu" | in $src }}

@@ -1,14 +1,20 @@
+{{/* This giant chunk of logic is all about whether to produce a table of contents */}}
 {{ $hasTOC := false }}
 {{ $mdTOC := false }}
 {{ $blockTOC := false }}
 {{ $headerClass := .Scratch.Get "headerClass" }}
-{{ if and
-  (gt .Page.WordCount 400) (.Page.TableOfContents)
+{{ $forcedHeadings := .Page.Scratch.Get "tocList"}}
+{{/*  if we have a long page and table of contents is turned on in hugo.toml, 
+or is we have made a forced list of headings,
+then go ahead and make a TOC */}}
+{{ if or $forcedHeadings (and
+  (gt .Page.WordCount 400) (.Page.TableOfContents))
 }}
   {{ $hasTOC = true }}
   {{ $mdTOC = true }}
 {{ end }}
-{{ if (and (or (eq .Layout "prep") (eq .Layout "day-plan")) (gt .Params.blocks 1)) }}
+{{/*  if we have a prep or dayplan layout AND more than one block, then TOC  */}}
+{{ if and (or (eq .Layout "prep") (eq .Layout "day-plan") ) (gt .Params.blocks 1) }}
   {{ $hasTOC = true }}
   {{ $mdTOC = true }}
   {{ $blockTOC = true }}
@@ -31,8 +37,9 @@
           {{ with .Page.Params.emoji }}
             {{ . }}
           {{ end }}
-        {{ end }} </span
-      >{{ .Page.Title }}
+        {{ end }} 
+        </span>
+        <span class="c-page-header__title-text">{{ .Page.Title }}</span>
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
       <h2
@@ -53,11 +60,15 @@
       {{ end }}
     {{ end }}
     <!--TOC-->
+    {{/*  We do all that logic up top because here
+    we need to merge in the TOC from the markdown 
+    and the TOC created from blocks set in front matter, 
+    that Hugo can't see by default.  */}}
     {{ if $hasTOC }}
       <div class="c-page-header__toc " id="toc">
-        <section class="c-toc">
+        <section class="c-toc" aria-label="Table of contents.">
           <a id="top" class="c-toc__top e-button e-button--icon" href="#toc"
-            >🔖</a
+            >🔖 <span class="is-invisible">back to top</span></a
           >
           {{ if $mdTOC }}
             {{ .Page.TableOfContents }}
@@ -71,6 +82,13 @@
                   >
                   {{ if "youtu" | in .src }}📼{{ end }}
                 </li>
+              {{ end }}
+            </ol>
+          {{ end }}
+          {{ with $forcedHeadings }}
+            <ol>
+            {{ range . }}
+                <li><a href="#{{ . | urlize }}" data-pagefind-weight="5">{{ . }}</a></li>
               {{ end }}
             </ol>
           {{ end }}

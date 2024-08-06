@@ -1,11 +1,16 @@
 +++
 title = 'Creating Alerts and Understanding Metrics'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Create an alert in Cloudwatch'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Alerting is a key aspect of monitoring; it allows you to know in real-time if something goes wrong or if a certain performance threshold has been met or exceeded. By creating alerts, you make your system more resilient and reduce the time needed to respond to incidents.

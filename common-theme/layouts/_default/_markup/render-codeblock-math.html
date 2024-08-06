@@ -1,0 +1,13 @@
+<script
+  id="MathJax-script"
+  defer
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<div class="math" style="width:fit-content">$${{- .Inner | safeHTML }}$$</div>
+
+{{/* GitHub supports math with MathJax so I've bunged it in here too. I've skipped
+  the inline options and just put in the code fence . As my guess is it will
+  constantly break on the GetRemote blocks otherwise.
+  https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
+*/}}

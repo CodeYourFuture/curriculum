@@ -1,0 +1,61 @@
+{{/* this partial expects
+  1. one question
+  2. a slice of possible answers
+  3. a matched slice of feedback for each answer
+  4. the index of the correct answer
+
+  example usage:
+  {{ partial "understanding-check.html" (dict
+    "question" "What is the capital of France?"
+    "answers" (slice "Paris" "London" "Berlin" "Madrid")
+    "feedback" (slice "Correct! Paris is the capital of France." "No, London is the capital of the UK." "No, Berlin is the capital of Germany." "No, Madrid is the capital of Spain.")
+    "correct" 0
+  ) }}
+*/}}
+
+{{ $question := .question }}
+{{ $answers := .answers }}
+{{ $feedback := .feedback }}
+{{ $correct := .correct }}
+  {{ if ne (len $answers) (len $feedback) }}
+    {{ warnf "❌ Answers and feedback lists don't match! Add feedback for each option in your quiz, delimited by pipe |" }}
+  {{ end }}
+{{/* if any of these params are null, error */}}
+  {{ if or (not $question) (not $answers) (not $correct) (not $feedback)}}
+    {{ errorf "multiple-choice partial requires question, answers, feedback, and correct params" }}
+  {{ end }}
+
+  {{/* let's call our web component */}}
+  <multiple-choice data-correct="{{$correct}}" class="c-quiz">
+    <form slot="quiz">
+      <fieldset class="c-quiz__fieldset" tabindex="0">
+        <legend class="c-quiz__legend">🤔 {{ $question }}</legend>
+        <ol class="c-quiz__list">
+           {{range $index, $answer := $answers }}
+          <li class="c-quiz__answer">
+            <label
+              class="c-quiz__label"
+              for="answer-{{ $index }}"
+              ><input
+              class="c-quiz__input"
+              type="radio"
+              id="answer-{{ $index }}"
+              name="answer"
+              value="{{ $index }}" />
+            {{ $answer }}</label
+            >
+          </li>
+        {{ end }}
+        </ol>
+      </fieldset>
+    </form>
+    <section class="c-quiz__feedback" slot="feedback" aria-live="polite">
+        {{ range $index, $fb := $feedback }}
+          <p class="c-quiz__remark" data-index="{{$index}}" >💬 {{ $fb }}</p>
+        {{ end }}
+      </section>
+  </multiple-choice>
+ 
+  {{ $multipleChoice := resources.Get "scripts/multiple-choice.js" | resources.Minify | resources.Fingerprint}}
+  <script src="{{ $multipleChoice.Permalink }}" defer></script>
+

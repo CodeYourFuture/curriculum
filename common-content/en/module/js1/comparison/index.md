@@ -1,12 +1,17 @@
 +++
 title = '⚖️ Comparing current and target output'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<tabs name="current">}}

@@ -1,6 +1,6 @@
 +++
 title = '🧩 Break it down'
-headless = true
+
 time = 60
 facilitation = false
 emoji= '🧩'
@@ -9,6 +9,11 @@ emoji= '🧩'
     2='Set up a project board'
     3='Write up user story as issues'
     4='Generate acceptance criteria for user issues'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 You'll need to break up your user stories into manageable units of work.

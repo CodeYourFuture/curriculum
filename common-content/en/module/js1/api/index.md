@@ -1,12 +1,17 @@
 +++
 title = '🎛️ Application Programming Interface'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why we use APIs in programming'
     2='Identify some commonly used APIs'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 With Jest installed, we need to figure out _how to use the Jest framework_ to write tests.

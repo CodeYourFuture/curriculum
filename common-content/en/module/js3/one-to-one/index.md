@@ -1,11 +1,16 @@
 +++
 title = '👭🏾 One to one'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how to render a list of data'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We can now render _any one_ film data object in the UI. However, to fully solve this problem we must render a list of all of the film objects. For each film object, we need to render a corresponding film card in the UI. In this case, there is a {{<tooltip title="one-to-one mapping">}}A **one-to-one mapping** associates every element in a set to exactly one element in another set{{</tooltip>}}between the data array and the UI components on the web page. Each item in the array matches a node in the UI. We can represent this diagrammatically by pairing up the data elements with their corresponding UI components:

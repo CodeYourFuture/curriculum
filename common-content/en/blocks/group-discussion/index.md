@@ -1,7 +1,12 @@
 +++
 title="Group Discussion"
-headless="true"
+
 time=75
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 1. 🎙️ Nominate a **facilitator** (trainee or volunteer)

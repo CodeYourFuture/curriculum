@@ -1,11 +1,16 @@
 +++
 title = '🔎 Identifying state'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify the state in a given problem'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 > 🕞 State: data which may change over time.

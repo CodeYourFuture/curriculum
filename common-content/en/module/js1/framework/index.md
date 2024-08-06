@@ -1,11 +1,16 @@
 +++
 title = '🖼️ Testing frameworks'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why we need to use testing frameworks'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 To help us think about the requirements of `getOrdinalNumber`, let's consider one case:

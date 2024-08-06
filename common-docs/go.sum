@@ -1,0 +1,12 @@
+github.com/CodeYourFuture/CYF-PD v1.0.1-0.20240721130916-d70fc853a278 h1:QkyzRerSZyumZ4gxoE7gehj86zWdDY7O4K9pqW8OLtg=
+github.com/CodeYourFuture/CYF-PD v1.0.1-0.20240721130916-d70fc853a278/go.mod h1:DJj2pdPceTBoHErILtnZMEYPZZuC8W9Fmt/faaW2tcw=
+github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240802103347-3eb0ebf8ad9b h1:iQyvh1DWWbx55Qvs923X2liMosQmQNlFumOrEmgq7c8=
+github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240802103347-3eb0ebf8ad9b/go.mod h1:MutmCRXM0wOmDQrZGMmn6jSWHHst5j1AUuf7hwrbILI=
+github.com/CodeYourFuture/CYF-Workshops v0.0.0-20240730222326-e91ae6d11f47 h1:mDxz8UhJ5HUgOfKQSXgAxQ3VRYPe3MrKgj24awTFsqY=
+github.com/CodeYourFuture/CYF-Workshops v0.0.0-20240730222326-e91ae6d11f47/go.mod h1:boAUC/K1YXRsqYHTgJwP7REMXh+p7jzEwj5FHAlKyBs=
+github.com/CodeYourFuture/CYF-Workshops/micro-front-end v0.0.0-20240802103453-e77217be1596 h1:Vc2ngGyiLYK9mKVk+HQokU5YVuSvcuOKV/VdxGb2MOE=
+github.com/CodeYourFuture/CYF-Workshops/micro-front-end v0.0.0-20240802103453-e77217be1596/go.mod h1:KL+gB+sD1SdzQ8Z7fMA74gluqKpsw9rGWNDnJKM07P8=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240730234110-686ee61f166f h1:vZubdDqpQ2Pr/DYx7Aa2akWakIODFKy5+v9nwx/ZO9s=
+github.com/CodeYourFuture/curriculum/common-content v0.0.0-20240730234110-686ee61f166f/go.mod h1:e3J+XphCBJJ8kf6S9ykVxNY1VKPWJoYuDFXEizlDpCI=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240730234110-686ee61f166f h1:SmxmBC8zpU1cUuHWlb1Gk254V5olSzhjYB9g75GJIyk=
+github.com/CodeYourFuture/curriculum/common-theme v0.0.0-20240730234110-686ee61f166f/go.mod h1:kzt+J4JYp5C3GD1dX0rf7vY5fsTUc6Drrn+7p7pjmLg=

@@ -1,11 +1,16 @@
 +++
 title = 'Creating a table'
-headless = true
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Aggregate data over multiple rows and use aggregate values to restrict the results'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Use the CREATE TABLE command, which in the simplest case has the general form:

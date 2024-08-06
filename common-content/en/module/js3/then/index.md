@@ -1,11 +1,16 @@
 +++
 title = '🪆 .then()'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Chain then() on to a Promise'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 ```mermaid

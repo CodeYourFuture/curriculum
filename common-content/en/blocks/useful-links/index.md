@@ -1,8 +1,10 @@
----
-id: useful-links
-title: Useful Links
-sidebar_label: Useful Links
----
++++
+title="Useful Links"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
++++
 
 This page aims to give you the best links for working as a developer
 and improving your skills.

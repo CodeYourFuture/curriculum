@@ -1,6 +1,6 @@
 +++
 title = '⌛ Version control software'
-headless = true
+
 time ="5"
 facilitation = false
 emoji= '🧩'
@@ -9,6 +9,11 @@ emoji= '🧩'
 2='Define a commit'
 3='Explain why we use Git'
 4='Explain why we use Github'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 To improve their way of working, Ahmed and Naima realise they need the following:

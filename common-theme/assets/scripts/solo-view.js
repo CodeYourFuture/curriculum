@@ -14,7 +14,11 @@ class SoloView extends HTMLElement {
       touchEndX: 0,
     };
     // Adding window and doc event listeners
-    window.addEventListener("hashchange", this.handleFragment.bind(this));
+    window.addEventListener(
+      "hashchange",
+      { passive: true },
+      this.handleFragment.bind(this)
+    );
     document.addEventListener("keydown", this.handleKeydown.bind(this));
   }
 
@@ -74,7 +78,7 @@ class SoloView extends HTMLElement {
       { passive: true }
     );
 
-    this.addEventListener("keydown", this.handleKeydown);
+    this.addEventListener("keydown", this.handleKeydown, { passive: true });
   }
 
   // Update current block index

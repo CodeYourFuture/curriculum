@@ -1,40 +1,64 @@
 {{/* This block expects the github pulls api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := getJSON $blockData.api $blockData.headers }}
 
-{{ if $response }}
-  <section class="c-block c-block--pullreq ">
-    {{ if ne $response nil }}
-      <h2 class="e-heading__2">
-        🛎️ Code waiting for review
+{{ with resources.GetRemote $blockData.api $blockData.headers }}
+  {{ with .Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title . }}
+  {{ end }}
+
+  {{ with .Content }}
+
+    {{ if eq . "[]" }}
+      {{ warnf "No pull requests found for %s" $blockData.api }}
+      <h2
+        class="c-block c-block--pullreq e-heading__2"
+        id="{{ $blockData.name | urlize }}">
+        🛎️ 0 PRs available. Open some pull requests!
         <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
-        <time class="c-block__time is-invisible" datetime="P10M"></time>
       </h2>
-      <p>
-        Below are trainee coursework Pull Requests that need to be reviewed by
-        volunteers.
-      </p>
-      {{/* <!-- range over PRs list and pull out useful data --> */}}
-      {{ range $response }}
-        <details class="c-issue c-issue--pr">
-          <summary class="c-issue__title e-heading__3">
-            <span class="c-issue__title">{{ .title }}</span>
-            <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
-          </summary>
-          <div class="c-issue__body">
-            {{ .body | markdownify }}
-            <a class="e-button c-issue__button" href="{{ .html_url }}/files"
-              >Start a review</a
-            >
-          </div>
-        </details>
+    {{ else }}
+      {{ $response := . | unmarshal }}
+
+      {{ $id := "" }}
+      {{ range $response | first 1 }}
+        {{ $id = .id }}
       {{ end }}
+
+
+      <section
+        class="c-block c-block--pullreq "
+        aria-labelledby="{{ $id }}"
+        id="{{ $blockData.name | urlize }}">
+        <h2 class="e-heading__2" id="{{ $id }}">
+          🛎️ Code waiting for review
+          <a class="c-issue__link" href="{{ $blockData.sot }}">🔗</a>
+          <time class="c-block__time is-invisible" datetime="P10M"></time>
+        </h2>
+        <p>
+          Below are trainee coursework Pull Requests that need to be reviewed by
+          volunteers.
+        </p>
+        {{/* <!-- range over PRs list and pull out useful data --> */}}
+        {{ range $response }}
+          <details class="c-issue c-issue--pr">
+            <summary class="c-issue__title e-heading__3">
+              <span class="c-issue__title">{{ .title }}</span>
+              <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            </summary>
+            <div class="c-issue__body">
+              {{ .body | markdownify }}
+              <a class="e-button c-issue__button" href="{{ .html_url }}/files"
+                >Start a review</a
+              >
+            </div>
+          </details>
+        {{ end }}
+
+
+        <a href="{{ $blockData.sot }}" class="e-button c-issue__button"
+          >See more pull requests</a
+        >
+      </section>
     {{ end }}
-    <a href="{{ $blockData.sot }}" class="e-button c-issue__button"
-      >See more pull requests</a
-    >
-  </section>
-{{ else if eq ($response | len) 0 }}
-{{ else }}
-  {{ errorf "Error, fetch of %s failed: %v" $blockData.api $response }}
+  {{ end }}
 {{ end }}

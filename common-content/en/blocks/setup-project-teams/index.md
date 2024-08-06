@@ -1,7 +1,12 @@
 +++
 title="🫱🏽‍🫲🏾 Setup project teams"
-headless="true"
+
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 This is a project you will build in a team. First form your team, then start the project by forking the repo.
@@ -15,7 +20,7 @@ This is a project you will build in a team. First form your team, then start the
 
 #### We recommend:
 
-- [ ] Create a Slack channel for your team. Use this channel and your class time for communication about the project management and the product development.
+- [ ] Create a temporary Slack channel for your team. Use this channel and your class time for communication about the project management and the product development.
 - [ ] Each team member must understand the requirements of a ticket before moving it from the Backlog to Ready. Make use of your class time to discuss the tickets as a team.
 - [ ] Decide whether you are going to work on tickets individually or as a pair. You may work faster on your own but may learn more as a pair.
 - [ ] Each feature must be reviewed by another member of your team . Set a branch protection rule on your main branch to enforce this.
