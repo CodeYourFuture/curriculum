@@ -39,7 +39,7 @@
   &__title {
     color: var(--theme-color--brand);
     position: absolute;
-    z-index: 20;
+    z-index: 2;
     transform: translate3d(
         calc(-1 * var(--theme-spacing--3)),
         calc(-1 * var(--theme-spacing--5)),
