@@ -1,11 +1,16 @@
 +++
 title = '🗺️ Using map'
-headless = true
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Describe how map works'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We want to create a new array by applying a function to each element in the starting array. Earlier, we used a `for...of` statement to apply the function `createFilmCard` to each element in the array. However, we can also build an array using [the `map` array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map). `map` is a {{<tooltip title="higher order function">}} A **higher-order function** is a function that takes another function as an argument or returns a new function{{</tooltip>}}. In this case, it means we pass a function as an argument to `map`. Then `map` will use this function to create a new array.

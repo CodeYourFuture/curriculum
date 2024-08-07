@@ -1,11 +1,16 @@
 +++
 title = 'Environment Variables'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Automate the deployment process to a specified environment.'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 In any development workflow, especially one that involves deployments, it's common to have configuration settings that should not be hard-coded in the codebase. This includes API keys, database URLs, and other sensitive information. GitHub Actions allows the use of environment variables and secrets to manage these configurations securely.

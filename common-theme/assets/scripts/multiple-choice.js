@@ -27,10 +27,14 @@ class MultipleChoice extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = `
             <style>
+            :host {
+            display:block;
+            max-width: var(--theme-spacing--linelength);
+            }
             ::slotted([slot="feedback"]) {
                 background: var(--theme-color--outline);
                 padding: var(--theme-spacing--1) var(--theme-spacing--gutter);
-                margin: calc(-1 * var(--theme-spacing--6)) var(--theme-spacing--gutter) var(--theme-spacing--4);
+                margin: calc(-1 * var(--theme-spacing--6)) 0 var(--theme-spacing--gutter) 0;
             }
             </style>
             <slot name="quiz"></slot>
@@ -54,7 +58,7 @@ class MultipleChoice extends HTMLElement {
   addListeners() {
     this.radios.forEach((radio) =>
       radio.addEventListener("change", (event) =>
-        this.updateFeedback(Number(event.target.value))
+        this.updateFeedback(Number(event.target.value), { passive: true })
       )
     );
   }

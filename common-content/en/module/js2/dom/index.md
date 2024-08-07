@@ -1,11 +1,16 @@
 +++
 title = '🌲 Interacting with the page'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define the Document Object Model'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let's consider the starting html. We need a way of interacting with the elements of this page once it is rendered.

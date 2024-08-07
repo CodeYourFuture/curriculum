@@ -1,9 +1,14 @@
 +++
 title="⛗ Dialogue"
-headless="true"
+
 time= 30
 [objectives]
   1="Explain the importance of dialogue in education and evaluation"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We learn best when we ask questions and explore possible answers. Dialogue is a conversation that facilitates this playful exploration: participants **listen to each other**, **share ideas**, **build on each other's ideas**, and **respectfully challenge and evaluate these ideas**.

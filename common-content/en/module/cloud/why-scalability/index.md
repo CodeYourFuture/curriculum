@@ -1,11 +1,16 @@
 +++
 title = 'Why is scalability important?'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='List the benefits and challenges of scalability'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 - **Performance:** As your application grows, you'll need to ensure it remains responsive.

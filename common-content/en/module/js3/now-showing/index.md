@@ -1,12 +1,17 @@
 +++
 title = '📽️ Cinema listings'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define an acceptance criterion for building a web page'
     2='Use a wireframe to make a basic design for the web page'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Suppose you're building a user interface to display the films that are now showing on a film website. We need to render some cinema listings in the user interface. Let's define an acceptance criterion:

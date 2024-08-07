@@ -1,12 +1,17 @@
 +++
 title = '🔎 Gathering requirements'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Choose a project brief'
     2='Identify and explain the key user stories for your project'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 In addition to [who] and [what], good user stories also include [why]

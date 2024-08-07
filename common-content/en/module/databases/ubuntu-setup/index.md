@@ -1,11 +1,16 @@
 +++
 title = 'Ubuntu setup ⚙️'
-headless = true
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Set up PostgresQL on an Ubuntu OS'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 ### Install

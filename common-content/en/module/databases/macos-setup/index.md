@@ -1,11 +1,16 @@
 +++
 title = 'Mac-OS setup ⚙️'
-headless = true
+
 time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
      1='Set up PostgresQL on Mac-OS'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 With the Apple Mac you can choose either a graphical installation or a command line method. The graphical method mostly involves dragging and dropping icons with a little bit of command line to configure the tools we need. The command line method uses only command line but is fairly simple.

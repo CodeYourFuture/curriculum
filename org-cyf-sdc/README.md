@@ -15,7 +15,7 @@
 ### To install
 
 ```bash
-brew install hugo
+brew install go hugo
 ```
 
 ### To run locally

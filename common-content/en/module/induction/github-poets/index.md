@@ -1,6 +1,6 @@
 +++
 title = '📖 Git and Github for poets'
-headless = true
+
 time = 15
 facilitation = false
 vocabulary=[]
@@ -8,6 +8,11 @@ emoji= '🧩'
 [objectives]
 1='Double check Github account is setup'
 2='Double check Course planner is setup'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 This playlist introduces Git & Github: tools we'll be using from now on.

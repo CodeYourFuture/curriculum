@@ -1,12 +1,17 @@
 +++
 title = 'What is infrastructure as code?'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define infrastructure as code'
     2='Explain the need for infrastructure as code'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Infrastructure as Code (IaC) is the practice of managing and provisioning your cloud resources through code, rather than manual operations or one-off scripts. Essentially, it lets you script your infrastructure, the same way you script your application code. In doing so, IaC allows you to apply the principles of software development, such as version control and continuous integration, to your infrastructure.

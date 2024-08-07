@@ -1,11 +1,16 @@
 +++
 title = 'Building the server'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Import the Express package in a file'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 The first thing we need to do is build our server. You will often need to build a server when writing back-end code. You can write a server in plain JavaScript, but Express is simpler to work with.

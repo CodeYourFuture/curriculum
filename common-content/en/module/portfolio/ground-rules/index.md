@@ -1,11 +1,16 @@
 +++
 title = '📏 Ground rules'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Establish the rules for getting a new project off the ground'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We're going to start off by defining rules and expectations for working on projects during this module.

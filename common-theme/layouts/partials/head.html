@@ -1,6 +1,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  {{ with .Params.noindex }}
+    <meta name="robots" content="noindex" />
+  {{ end }}
   <title data-pagefind-meta="title">
     {{ range after 1 .Ancestors.Reverse }}
       {{ print (title .Title|default "CYF") " " }}

@@ -1,11 +1,16 @@
 +++
 title = '💽 Single datum'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a sub-goal for rendering data in the user interface'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 > 🎯 Sub-goal: Build a film card component

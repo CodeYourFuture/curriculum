@@ -1,12 +1,17 @@
 +++
 title = 'What Is CSS'
-headless = true
+
 time = 60
 facilitation = false
 vocabulary=['property', 'value', 'cascade', 'specificity', 'declarative', 'render', 'block', 'inline']
 emoji= '🧩'
 [objectives]
     1='Define all key terms of CSS'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="question" title="10 Things About CSS">}}

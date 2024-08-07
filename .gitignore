@@ -1,6 +1,7 @@
 # Dependencies
 /node_modules
 **/node_modules
+**/_vendor
 # Production
 /build
 **/public

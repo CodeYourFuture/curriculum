@@ -1,11 +1,16 @@
 +++
 title = 'Install Postman'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Install Postman'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 > Install [Postman](https://www.getpostman.com/downloads/)

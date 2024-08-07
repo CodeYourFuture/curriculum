@@ -1,6 +1,6 @@
 +++
 title = '🌳 Branching'
-headless = true
+
 time ="60"
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Figure out what we need to do next in the course'
     2='Locate the prep view on the curriculum'
     3='Practice asking for guidance/help when we are stuck'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We can check the commits on the remote repository as before:
@@ -79,11 +84,7 @@ In the diagram above, we can continue to commit on the "week-1-coursework" branc
 
 1. Open the `education-blog` repository in VSCode.
 
-2. [Open the terminal](https://code.visualstudio.com/docs/terminal/basics) in VSCode
-
-3. Use the command line to check your current working directory and list the contents of the current directory. Double check you're in the right place.
-
-4. Using this clip, create a new branch called `update-blog-1` in your local repository 👉 https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw
+2. Using this clip, create a new branch called `update-blog-1` in your local repository 👉 https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw
 
 📋 How can you check that you've successfully created a branch?
 

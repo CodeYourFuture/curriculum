@@ -1,6 +1,5 @@
 +++
 title = 'Code.org'
-headless = true
 time = 20
 facilitation = false
 emoji= '🧩'
@@ -9,6 +8,11 @@ emoji= '🧩'
  2="Sequence logical solutions with blocks"
  3="Control flow with if statements"
  4="Control flow with while statements"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Code.org is a block based programming tool. We will use something similar to build our course project. Go to the Code.org website and work through the first two exercises

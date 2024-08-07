@@ -2,6 +2,11 @@
 title="Overcoming Blockers"
 time=20
 facilitation=false
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="Reading">}}

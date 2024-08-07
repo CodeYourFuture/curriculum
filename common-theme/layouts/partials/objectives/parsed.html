@@ -1,43 +1,37 @@
-{{ $response := getJSON .blockData.api .blockData.headers }}
-{{ $type := .blockData.type }}
 {{ $sot := .blockData.sot }}
 {{ $name := .blockData.name }}
-{{ $decodedContent := $response.content | base64Decode }}
-{{/* Find fenced objectives in text */}}
-{{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
-{{ $rawBlocks := findRE $regexFence $decodedContent }}
 
-{{ $blocks := slice }}
-{{ range $rawBlocks }}
-  {{ $blockContent := . | replaceRE "^```objectives\\s*|\\s*```$" "" }}
-  {{ $objectives := split $blockContent "\n" }}
-  {{ range $objectives }}
-    {{ $objective := replace . "- [ ] " "" }}
-    {{ if ne (trim $objective " ") "" }}
-      {{ $blocks = $blocks | append $objective }}
-    {{ end }}
+{{ with  resources.GetRemote .blockData.api .blockData.headers }}
+  {{ with .Err }}
+    {{ errorf "Failed %s on %s. Error: %s" $sot .Page.Title .Err }}
   {{ end }}
-{{ end }}
+  {{ $response := .Content | unmarshal }}
 
-{{/* Parse front matter if blockData type is pd */}}
-{{ if eq $type "pd" }}
-  {{ $contentParts := split $decodedContent "---" }}
-  {{ if gt (len $contentParts) 2 }}
-    {{ $frontMatter := index $contentParts 1 }}
-    {{ $parsedFrontMatter := $frontMatter | transform.Unmarshal }}
-    {{ if isset $parsedFrontMatter "objectives" }}
-      {{ $blocks = $blocks | append $parsedFrontMatter.objectives }}
+  {{ $decodedContent := $response.content | base64Decode }}
+  {{/* Find fenced objectives in text */}}
+  {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
+  {{ $rawBlocks := findRE $regexFence $decodedContent }}
+
+  {{ $blocks := slice }}
+  {{ range $rawBlocks }}
+    {{ $blockContent := . | replaceRE "^```objectives\\s*|\\s*```$" "" }}
+    {{ $objectives := split $blockContent "\n" }}
+    {{ range $objectives }}
+      {{ $objective := replace . "- [ ] " "" }}
+      {{ if ne (trim $objective " ") "" }}
+        {{ $blocks = $blocks | append $objective }}
+      {{ end }}
     {{ end }}
   {{ end }}
 
-{{ end }}
-
-{{/* Output list */}}
-{{ if gt (len $blocks) 0 }}
-  <h5>
-    <a href="{{ $sot }}" class="c-objectives__link"> {{ $name }} 🔗 </a>
-  </h5>
-  {{ with $blocks }}
-    {{ partial "objectives/block.html" . }}
+  {{/* Output list */}}
+  {{ if gt (len $blocks) 0 }}
+    <h5>
+      <a href="{{ $sot }}" class="c-objectives__link"> {{ $name }} 🔗 </a>
+    </h5>
+    {{ with $blocks }}
+      {{ partial "objectives/block.html" . }}
+    {{ end }}
   {{ end }}
+
 {{ end }}

@@ -1,9 +1,14 @@
 +++
 title = '📝 Blog'
-headless = true
+
 time ="5"
 facilitation = false
 emoji= '🧩'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Imagine that two people are writing a blog.

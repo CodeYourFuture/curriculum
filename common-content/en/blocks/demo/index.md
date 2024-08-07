@@ -1,7 +1,12 @@
 +++
 title="Demo"
-headless="true"
+
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 At {{<our-name>}} we expect you to demo your work to the class. You must have many opportunities to practice how to clearly and simply **explain your work to others**. This is really important both for interviews and for getting promoted later on.
@@ -10,7 +15,7 @@ At {{<our-name>}} we expect you to demo your work to the class. You must have ma
 
 The timekeeper will keep the groups on track.
 
-Split into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 10 minutes. Then the next person will demo their work.
+Split randomly into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 10 minutes. Then the next person will demo their work.
 
 ## 🧑🏼‍🎓 Trainees
 

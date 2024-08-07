@@ -1,11 +1,16 @@
 +++
 title = 'Secrets'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='TODO'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Secrets are similar to environment variables. The difference is that secrets are encrypted and only exposed to selected actions, adding an extra layer of security. Use secrets for storing sensitive data like passwords and API keys.

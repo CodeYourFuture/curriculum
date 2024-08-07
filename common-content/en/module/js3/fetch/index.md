@@ -1,10 +1,15 @@
 +++
 title = 'fetch API'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let's suppose we have a remote API hosted at the following url: "https://api-film-data.com".
