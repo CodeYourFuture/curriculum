@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "dotenv -e ../.env -- hugo server --environment development",
+    "start:dev": "dotenv -e ../.env -- hugo server --port 3000 --environment development",
     "build:dev": "hugo mod vendor && dotenv -e ../.env  -- hugo --environment development"
   },
   "keywords": [],
@@ -29,6 +29,8 @@
     "prettier-plugin-go-template": "^0.0.13"
   },
   "devDependencies": {
+    "@stackbit/cms-git": "^1.0.5",
+    "@stackbit/types": "^2.0.4",
     "@types/cookie": "^0.5.1",
     "@types/lodash": "^4.14.196",
     "dotenv-cli": "^7.3.0"

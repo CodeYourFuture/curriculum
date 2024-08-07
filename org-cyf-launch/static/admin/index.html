@@ -6,21 +6,22 @@
     <title>Content Manager</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@staticcms/app@^4.0.0/dist/main.css" />
-    <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml" />
+    <!-- 1. Decap CMS bugfix, see https://github.com/decaporg/decap-cms/issues/5092 -->
+    <!-- 2. Decap CMS customisation, see https://github.com/CodeYourFuture/CYF-PD/issues/18 -->
+    <style>
+      [data-slate-editor] {
+        -webkit-user-modify: read-write !important;
+      }
+      #nc-root [class*="WorkflowContainer"] [style]:first-of-type {
+        display: none;
+      }
+    </style>
   </head>
   <body>
-    <!-- Include the script that builds the page-->
-    <script src="https://unpkg.com/@staticcms/app@^4.0.0/dist/static-cms-app.js"></script>
-    <script src="/admin/cms-preview.js"></script>
+    <!-- Include the script that builds the page and powers Decap CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
     <script>
-      window.addEventListener("DOMContentLoaded", () => {
-        if (window.CMS) {
-          window.CMS.init();
-        }
-      });
+      CMS.registerPreviewStyle("../styles.min.css");
     </script>
   </body>
 </html>
