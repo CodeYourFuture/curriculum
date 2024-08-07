@@ -11,7 +11,7 @@ emoji= '🧩'
 
 ### Git
 
-You will use Git continually as a developer. We will cover Git more in depth later in the course, right now, we will just check that you have it installed.
+You will use Git continually as a developer. We will cover Git in more depth later in the course. Right now, we will just check that you have it installed.
 
 Open up a terminal and run the command `git --version` to double check you have Git installed.
 If it is installed successfully, you should get a version number (which may not be exactly the same as this example, but should look similar):
