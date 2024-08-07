@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Building backends and frontends"
+theme = "Building and deploying backends and frontends"
 +++
