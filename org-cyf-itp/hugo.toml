@@ -17,6 +17,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
       target = "content"
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-piscine"
+    [[module.imports.mounts]]
+      source = "content"
+      target="content/piscine"
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
     [[module.imports.mounts]]
