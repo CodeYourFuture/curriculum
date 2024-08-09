@@ -1,6 +1,6 @@
 +++
 title = 'Ship It'
-headless = true
+
 time = 90
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
 1='Export your Codepen to zip'
 2='Upload your folder to GitHub'
 3='Deploy your folder to Netlify'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Now we will ship some code, because we expect you to ship very often at {{<our-name>}}

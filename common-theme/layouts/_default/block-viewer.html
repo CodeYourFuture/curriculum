@@ -6,7 +6,9 @@
     {{ end }}
     {{ .Scratch.Set "tocList" $blockTitles }}
     {{ .Scratch.Set "headerClass" "c-page-header--solo" }}
-    <div slot="header">{{ partial "page-header.html" . }}</div>
+    <div slot="header">
+      {{ partial "page-header.html" . }}
+    </div>
     <div slot="blocks">
       {{ with .Content }}
         <section class="l-page__main c-block c-copy">{{ . }}</section>
@@ -44,7 +46,10 @@
                   {{ partial "objectives/block.html" . }}
                 </details>
               {{ end }}
-              <div class="c-block__content c-copy">{{ .Content }}</div>
+              <div class="c-block__content c-copy">
+                {{ with .Description }}<h4>{{ . }}</h4>{{ end }}
+                {{ .Content }}
+              </div>
             </div>
           </section>
         {{ end }}

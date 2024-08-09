@@ -1,11 +1,16 @@
 +++
 title = '💾 Related pieces of data'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain why using multiple variable declarations for related data is problematic'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 In programming, we often have **related** pieces of data.

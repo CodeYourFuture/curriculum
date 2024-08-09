@@ -1,12 +1,17 @@
 +++
 title = '⚠️ Side effects'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define a side effect'
     2='Describe how side effects lead to buggy code'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Currently `calculateMedian` mutates its input - the `list` of numbers. This mutation is called a {{<tooltip title="side effect">}} A function has a side effect if it does something which can be observed from outside of the function (aside from returning a value). Removing an element from an array is a side effect. Logging something to the console is also a side effect.{{</tooltip>}}.

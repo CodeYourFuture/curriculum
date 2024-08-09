@@ -1,12 +1,17 @@
 +++
 title = '📦 Props'
-headless = true
+
 time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Pass props to a component'
     2='Read props from a component'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

@@ -1,7 +1,12 @@
 +++
 title="Search terms"
-headless="true"
+
 time= 1
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="tip" title="Search the curriculum">}}

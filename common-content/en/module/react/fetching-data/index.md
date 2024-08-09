@@ -1,11 +1,16 @@
 +++
 title = "🐕 Fetching data"
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1="Explain why fetch doesn't work in React"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Often when you create a React app, you will want to fetch data from an API and display it inside your components. How do we do this in React?

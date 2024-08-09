@@ -1,12 +1,17 @@
 +++
 title = '🔭 Scope'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '❌'
 [objectives]
 1='Define scope'
 2='Explain what happens when a variable is referenced out of scope'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 The function `convertToPercentage` will only be useful if we can access the `percentage` string that it creates. Otherwise, we won't be able to use the result of `convertToPercentage` in other parts of our code. We can try accessing the `percentage` variable outside the function body like this:

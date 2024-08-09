@@ -1,11 +1,15 @@
 +++
 title = 'Setup Docker'
-headless = true
 time = 45
 facilitation = false
 emoji= '🚢'
 [objectives]
     1='Install Docker'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 ### Install Docker on your computer

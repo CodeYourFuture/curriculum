@@ -1,11 +1,16 @@
 +++
 title = '🐕 GET'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Process a GET request using Express and Node to retrieve data from memory'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 > `GET /movies should return all the movies`
