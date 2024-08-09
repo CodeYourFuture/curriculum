@@ -1,0 +1,75 @@
+@mixin light-palette {
+  // these brand colours are set and then everything else is derived from the key
+  --theme-color--brand: hsla(0, 100%, 67%, 1);
+  --theme-color--brand-shade: hsla(0, 100%, 67%, 0.375);
+  --theme-color--accent: hsl(146, 100%, 46%);
+  --theme-color--accent-shade: hsla(146, 100%, 46%, 0.5);
+  --theme-color--pop: hsla(262, 100%, 62%, 1);
+  // key
+  --hue: 260;
+  --sat: 35%;
+  --lum: 90%;
+  --alpha: 0.95;
+  --hsl: var(--hue), var(--sat), var(--lum);
+  // now build all the shades
+  --theme-color--paper: hsla(
+    var(--hue),
+    calc(var(--sat) * 1.2),
+    calc(var(--lum) * 1.06),
+    var(--alpha)
+  );
+  --theme-color--ink: hsla(
+    var(--hue),
+    calc(var(--sat) * 2.2),
+    calc(var(--lum) * 0.3),
+    var(--alpha)
+  );
+  --theme-color--ink-fade: hsla(
+    var(--hue),
+    calc(var(--sat) * 2.2),
+    calc(var(--lum) * 0.3),
+    calc(var(--alpha) * 0.3)
+  );
+  --theme-color--paper-fade: hsla(
+    var(--hue),
+    calc(var(--sat) * 1.2),
+    calc(var(--lum) * 1.06),
+    0.9
+  );
+  --theme-color--contrast-max: hsl(
+    var(--hue),
+    calc(var(--sat) / 100),
+    calc(var(--lum) * 2) var(--alpha)
+  );
+
+  // backdrop
+  --theme-color--block: hsla(var(--hsl), var(--alpha));
+  --theme-color--outline: hsl(var(--hsl), 1);
+  --theme-color--backdrop-from: hsl(var(--hsl) / 0.25);
+  --theme-color--backdrop-to: hsl(var(--hsl) / 0.2);
+}
+
+@mixin dark-palette {
+  --hue: 270;
+  --sat: 8%;
+  --lum: 20%;
+  --alpha: 0.99;
+  --theme-color--ink: hsla(
+    calc(var(--hue) * 1.1),
+    calc(var(--sat) + 60%),
+    calc(var(--lum) * 4.4),
+    var(--alpha)
+  );
+  --theme-color--accent: hsla(262, 100%, 67%, 1);
+  --theme-color--pop: hsl(146, 100%, 46%);
+}
+
+:root {
+  @include light-palette();
+  @media (prefers-color-scheme: dark) {
+    @include dark-palette();
+  }
+}
+
+// see states for classes that toggle these
+// no classes in the variables folder
