@@ -20,4 +20,4 @@ objectives = ['Create a repository and Kanban board for your team using GitHub']
 
 - Agree on which [columns](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board) you need (Backlog, Ready for Dev, Code Review, etc).
 
-- [Link your repo](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board) to your project board so you can do easily create user stories.
+- [Link your repo](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board) to your project board so you can easily create user stories.

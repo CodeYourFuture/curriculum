@@ -12,7 +12,7 @@ name="Welcome to Launch Prep"
 src="blocks/launch-prep/welcome"
 [[blocks]]
 name="Your team"
-src="blocks/launch-prep/your-team"
+src="blocks/launch-prep/team"
 [[blocks]]
 name="Weekly plan"
 src="blocks/launch-prep/plan"

@@ -8,10 +8,10 @@ backlog= 'Module-The-Launch'
 backlog_filter= 'Week 1'
 [[blocks]]
 name="Energiser"
-src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"
+src="energisers/bad-interview-answers"
 [[blocks]]
 name="Launch overview"
-src="https://cyf-pd.netlify.app/blocks/what-is-the-launch-module/readme/"
+src="blocks/what-is-the-launch-module"
 [[blocks]]
 name="Morning Break"
 src="blocks/morning-break"
