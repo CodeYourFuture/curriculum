@@ -6,7 +6,7 @@ time=15
 
 Welcome to the Piscine.
 
-Before you came to class today, you should have completed the prep and signed the Trainee Agreement and the Code of Conduct. If you haven't done the prep, it's time to leave. Thanks, and try again next time.
+Before you came to class today, you should have completed the prep and signed the Trainee Agreement and the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/). If you haven't done the prep, it's time to leave. Thanks, and try again next time.
 
 If you have done the prep, you're in the right place. Please make sure you have signed the register. Sign it as soon as you come in. The register isn't just for attendance rules; we need to know who is in the building if there's a fire, so please don't sign in for anyone else.
 
