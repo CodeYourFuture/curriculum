@@ -1,12 +1,13 @@
 .c-card {
   --smallest-width-with-timeline: 240px;
-  @include grid-assign(image, description, title);
+  @include grid-assign(image, description, title, meta);
   background-color: var(--theme-color--block);
   border-radius: var(--theme-border-radius);
   position: relative;
   grid-template:
     ". .           . .     ." var(--theme-spacing--gutter)
-    ". title       . image ." auto
+    ". title       . image ." minmax(7ch, auto)
+    ". meta . image ." minmax(0, 1fr)
     ". description . image ." minmax(0, 1fr)
     ". .           . .     ." var(--theme-spacing--gutter)
     / var(--theme-spacing--gutter) minmax(
@@ -22,6 +23,9 @@
   &__title {
     line-height: 1.875;
     font-weight: 500;
+    .c-map & {
+      line-height: 1;
+    }
   }
   &__description {
     margin: 0 auto auto 0; // pin top left
@@ -37,6 +41,10 @@
     @include on-event(false, ".c-map .c-card") {
       animation: text-appear cubic-bezier(0.25, 1.375, 0.25, 1) 0.5s forwards;
     }
+  }
+  &__cta {
+    display: flex;
+    margin: var(--theme-spacing--1) auto;
   }
   &__image {
     // it's an emoji actually - we dumped images

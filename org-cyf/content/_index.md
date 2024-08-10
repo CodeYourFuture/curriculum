@@ -1,6 +1,6 @@
 +++
-title="Our Curriculum"
-map=["start here", "interfaces", "programming", "tracks", "graduation"]
-description="Here's how you find out _what_ to do _when_"
+title="Our Courses"
+map=["start here", "selection", "trainees", "fellowships"]
+description="Free training for good jobs in tech"
 emoji= "🧑🏿‍🏫👨🏽‍🎓"
 +++
