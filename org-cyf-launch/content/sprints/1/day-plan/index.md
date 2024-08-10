@@ -22,21 +22,24 @@ src="blocks/scope-and-limits"
 name="Lean UX Canvas"
 src="blocks/lean-ux"
 [[blocks]]
-name="Design your product"
-src="blocks/design-your-product"
+name="Deploy early, deploy often"
+src="blocks/deploy-early-deploy-often"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Writing user stories"
-src="https://cyf-pd.netlify.app/blocks/writing-user-stories/readme/"
+name="Design your product"
+src="blocks/design-your-product"
 [[blocks]]
-name="Sprint planning"
-src="https://cyf-pd.netlify.app/blocks/sprint-planning/readme/"
+name="Implementation details"
+src="blocks/implementation-details"
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Project Work"
-src="module/portfolio/project"
+name="Writing user stories"
+src="blocks/writing-user-stories"
+[[blocks]]
+name="Sprint planning"
+src="blocks/sprint-planning"
 +++

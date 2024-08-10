@@ -3,7 +3,7 @@ title ="Lean UX Canvas"
 week=1
 skills= ['Teamwork','Time/Project Management']
 objectives= ['Define an MVP on a Lean UX Canvas', 'Define a user story mapping,', 'Define features for your MVP']
-time= 60
+time= 30
 [build]
   render = 'never'
   list = 'local'
