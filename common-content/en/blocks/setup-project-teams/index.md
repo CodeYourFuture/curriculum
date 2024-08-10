@@ -1,7 +1,12 @@
 +++
 title="🫱🏽‍🫲🏾 Setup project teams"
-headless="true"
+
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 This is a project you will build in a team. First form your team, then start the project by forking the repo.
@@ -13,18 +18,18 @@ This is a project you will build in a team. First form your team, then start the
 
 ### 2. Agree your [Way of working](https://www.atlassian.com/practices)
 
-#### We recommend:
+#### This is the most successful strategy
 
 - [ ] Create a temporary Slack channel for your team. Use this channel and your class time for communication about the project management and the product development.
 - [ ] Each team member must understand the requirements of a ticket before moving it from the Backlog to Ready. Make use of your class time to discuss the tickets as a team.
 - [ ] Decide whether you are going to work on tickets individually or as a pair. You may work faster on your own but may learn more as a pair.
 - [ ] Each feature must be reviewed by another member of your team . Set a branch protection rule on your main branch to enforce this.
-- [ ] Each team member can pick up a new ticket only when their old ticket is in review. Work on one thing at a time.
+- [ ] Each team member can pick up a new ticket only when their old ticket is in review. **Work on one thing at a time.**
 
 ### 3. Set up the repo
 
 1. One person should fork the project repo to their own GitHub account.
-2. That person should add the other team members as collaborators to the repo.
+2. Add the other team members as collaborators to the repo.
 3. Now someone else should make a copy of the example planner and link it to your project repo.
 4. All the tickets for your project are created as issues in this repo. Batch clone the tickets into your project planner.
 

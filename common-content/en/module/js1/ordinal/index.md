@@ -1,11 +1,16 @@
 +++
 title = '🧮 Ordinal numbers'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Convert positions to ordinal numbers'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 🏢 Let's imagine you're working in a 10 storey office building. There are 10 different levels. We need a way to describe each level of the building. We start on the **ground floor** of the building - level with the ground. We use an **ordinal number** to describe the other levels in the building.

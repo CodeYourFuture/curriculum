@@ -1,11 +1,16 @@
 +++
 title = 'CRUD'
-headless = true
+
 time = 10
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Define CRUD'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 We will build a CRUD API. CRUD stands for **C**reate, **R**etrieve, **U**pdate, **D**elete. If you think about it, this is what most applications do:

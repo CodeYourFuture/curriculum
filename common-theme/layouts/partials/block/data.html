@@ -26,6 +26,7 @@
 {{ .Scratch.SetInMap "blockData" "api" $src }}
 {{ .Scratch.SetInMap "blockData" "isShortcode" false }}
 {{ .Scratch.SetInMap "blockData" "caption" .caption | default "" }}
+{{ .Scratch.SetInMap "blockData" "hasBlocks" .hasBlocks| default "" }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 
@@ -67,7 +68,7 @@
     {{/* TODO pull time from commented out front matter in Github readmes */}}
   {{ end }}
 
-  {{ if "cyf-pd.netlify.app" | in $src }}
+  {{ if or ("cyf-pd.netlify.app" | in $src) ("/pd/"| in $src) }}
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
     {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "pd/blocks/" }}
     {{ $blockPath := replace $blockPath "/readme/" "" }}

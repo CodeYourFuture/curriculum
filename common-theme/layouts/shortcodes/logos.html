@@ -1,3 +1,7 @@
+{{/* Shows a load of logos in a grid. Common piece of UI.
+  Usage:  {{< logos "Financial"
+>}}
+*/}}
 {{ $filter := slice (.Get 0) }}
 
 {{ with and $filter $.Site.Data.funding }}

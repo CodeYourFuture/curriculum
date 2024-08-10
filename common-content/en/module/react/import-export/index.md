@@ -1,12 +1,17 @@
 +++
 title = '🚢 Importing and Exporting'
-headless = true
+
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Export a React component'
     2='Import a React component'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<note type="narrative" title="React Learn">}}

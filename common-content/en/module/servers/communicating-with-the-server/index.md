@@ -1,6 +1,6 @@
 +++
 title = 'Communicating with the server'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
@@ -8,6 +8,11 @@ emoji= '🧩'
     1='Define a handler function'
     2='Inspect the request and response objects in console'
     3='Inspect the request and response objects in Postman'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Now that we've built the server, we need to communicate with it. We are going to control the server with **handler functions**.

@@ -67,7 +67,7 @@
   }
   // this is a card slide up on local block
   // I had it as a flip but it was too busy at full screen
-  // feel free to redesign this
+  // in fact it's really just not good enough -- TODO take it out and we should go again
   &__body,
   &__footer {
     min-width: 100%;
@@ -99,12 +99,12 @@
     transform: translate(0%, 100%);
     position: absolute;
   }
-  
+
   &__time {
-      cursor: pointer;
-      color: var(--theme-color--ink);
-      @include on-event(false) {
-          color: var(--theme-color--pop);
-      }
+    cursor: pointer;
+    color: var(--theme-color--ink);
+    @include on-event(false) {
+      color: var(--theme-color--pop);
+    }
   }
 }

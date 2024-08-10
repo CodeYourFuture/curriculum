@@ -1,6 +1,6 @@
 +++
 title = '❌ Errors'
-headless = true
+
 time = 20
 facilitation = false
 emoji= '❌'
@@ -8,6 +8,11 @@ emoji= '❌'
     1='Use the Teach Tech Together guide to construct your objectives'
     2='Limit the objectives to 3-5 items'
     3='Write objectives you can measure'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 > 🗣️ Recall: A programming language is a set of rules for writing computer instructions.

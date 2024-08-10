@@ -1,8 +1,13 @@
 +++
 title="Professional Accounts"
-headless="true"
+
 time=120
 hide_from_overview=true
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Download and install the following software or register for the apps.

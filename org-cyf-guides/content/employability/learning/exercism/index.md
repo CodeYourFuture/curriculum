@@ -15,4 +15,4 @@ If your development plan involves learning a new language, you can join an [Exer
 
 [Typescript track](https://exercism.org/tracks/typescript)
 
-[Python track](https://exercism.io/my/tracks/python)
+[Python track](https://exercism.io/tracks/python)

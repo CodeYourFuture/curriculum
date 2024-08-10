@@ -1,5 +1,5 @@
 {{/* Call our scratch function */}}
-{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" .block.src  "name" .block.name "time" .block.time "caption" .block.caption "picture" .block.picture "page" .) }}
+{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" .block.src  "name" .block.name "time" .block.time "caption" .block.caption "picture" .block.picture "hasBlocks" .block.nested "page" .) }}
 {{/* Retrieve the blockData from Scratch */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 

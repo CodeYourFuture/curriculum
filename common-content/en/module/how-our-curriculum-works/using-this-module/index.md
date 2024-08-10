@@ -1,15 +1,20 @@
 +++
 title = '🛣️ Using this module'
-headless = true
+
 time = 20
 facilitation = false
 vocabulary=["Blockers"]
 emoji= '🛣️'
 [objectives]
 1='Explain how to use the rest of this module'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
-The rest of this module is split into three sprints, which you can complete in your own time: **self educate**, **self coordinate** and **self evaluate**. Each sprint is about how to use the curriculum to achieve each of these community goals. For each sprint, you'll need to start with the **prep** sprint to introduce yourself to new concepts before using the **backlog** to understand how you can start engaging with the community. At the end of each sprint, there is a **success** page. Check off the objectives in the list. 
+The rest of this module is split into three sprints, which you can complete in your own time: **self educate**, **self coordinate** and **self evaluate**. Each sprint is about how to use the curriculum to achieve each of these community goals. For each sprint, you'll need to start with the **prep** sprint to introduce yourself to new concepts before using the **backlog** to understand how you can start engaging with the community. At the end of each sprint, there is a **success** page. Check off the objectives in the list.
 
 ```mermaid
 flowchart TB

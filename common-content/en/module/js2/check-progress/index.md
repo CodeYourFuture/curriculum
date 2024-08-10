@@ -1,11 +1,16 @@
 +++
 title = '📈 Check progress'
-headless = true
+
 time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use a plan to check progress in solving a problem'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 Let's use the plan from earlier to check our progress.
@@ -24,7 +29,9 @@ const characterLimit = 200;
 const textarea = document.querySelector("textarea");
 
 function updateCharacterLimit() {
-  console.log("keyup event has fired... The browser called updateCharacterLimit...");
+  console.log(
+    "keyup event has fired... The browser called updateCharacterLimit..."
+  );
 }
 
 textarea.addEventListener("keyup", updateCharacterLimit);

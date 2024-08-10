@@ -1,7 +1,12 @@
 +++
 title="Telephone"
-headless="true"
+
 time=15
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 {{<tabs name="telephone">}}

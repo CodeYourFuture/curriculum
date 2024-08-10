@@ -1,7 +1,12 @@
 +++
 title="Study Group"
-headless="true"
+
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
 +++
 
 ## What are we doing now?
