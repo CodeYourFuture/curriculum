@@ -17,10 +17,13 @@ name="Morning Break"
 src="blocks/morning-break"
 [[blocks]]
 name="Prep your product"
-src="https://cyf-pd.netlify.app/blocks/prep-and-plan-your-product/readme/"
+src="blocks/scope-and-limits"
+[[blocks]]
+name="Lean UX Canvas"
+src="blocks/lean-ux"
 [[blocks]]
 name="Design your product"
-src="https://cyf-pd.netlify.app/blocks/design-your-product/readme/"
+src="blocks/design-your-product"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
