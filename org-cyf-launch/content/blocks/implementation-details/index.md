@@ -4,7 +4,7 @@ description="Identifying constraints and opportunities in the implementation of 
 modules="The Launch"
 week="1"
 skills=["Teamwork","Time/Project Management"]
-objectives=["Define a user story","Write a user story"]
+objectives=["Identify identities, resources, and data in your proposed system", "Clarify technical jargon"]
 time=30
 +++
 
@@ -25,6 +25,6 @@ Define the implementation details for your product. Discuss your implementation 
 5. 1. Are you going to have an endpoint for a resource?
    2. Do you need calculation or aggregation between the database and the frontend?
    3. What will the REST API look like?
-6. We sketched out the page previously. Do we need to review it? How could we decompose them into separate [components](https://syllabus.codeyourfuture.io/react/week-1/lesson) to work on?
+6. We sketched out the page previously. Do we need to review it? How could we decompose them into separate components to work on?
 
 7. Identify the "edges" between different tasks (e.g. you have to agree on an API so that the backend and frontend match up or on the props passed between a parent component and a child component)
