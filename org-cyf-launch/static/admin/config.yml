@@ -1,59 +1,76 @@
+local_backend: true
 backend:
   name: git-gateway
   repo: CodeYourFuture/curriculum/org-cyf-launch
   squash_merges: true
-  open_authoring: true
-
-local_backend: true
 
 site_url: https://launch.codeyourfuture.io
-
+display_url: https://launch.codeyourfuture.io
+logo_url: https://launch.codeyourfuture.io/android-chrome-512x512.png
+locale: en
 publish_mode: editorial_workflow
-
 media_folder: website/static/img
 public_folder: img
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
 
-page_collection: &page
-  create: false
-  fields:
-    - { label: "Title", name: "title", widget: "string", required: true }
-    - { label: "Emoji", name: "emoji", widget: "string" }
-    - {
-        label: "Menu Level",
-        name: "menu_level",
-        widget: "hidden",
-        default: "sprint",
-      } # Fixed option for menu_level
-    - { label: "Weight", name: "weight", widget: "hidden" }
-    - { label: "Layout", name: "layout", widget: "hidden" }
-    - {
-        label: "No Register",
-        name: "noRegister",
-        widget: "hidden",
-        default: false,
-      }
-    - {
-        label: "Blocks",
-        name: "blocks",
-        widget: "list",
+collections:
+  - name: "Sprint 1"
+    label: "Sprint 1"
+    description: "Prep and day plan for sprint 1"
+    files:
+      - label: "Sprint 1 Day Plan"
+        name: "sprint1DayPlan"
+        file: "content/sprints/1/day-plan/index.md"
+        create: false
         fields:
-          [
-            { label: "Name", name: "name", widget: "string", required: true },
-            { label: "Source", name: "src", widget: "string", required: true },
-            { label: "Time", name: "time", widget: "number", required: false },
-            {
-              label: "Caption",
-              name: "caption",
-              widget: "string",
-              required: false,
-            },
-          ],
-      }
-
-name: "Day Plans"
-label: "Day Plans"
-files:
-  - label: "Sprint 1 Day Plan"
-    name: "sprint1DayPlan"
-    file: "content/sprints/1/day-plan/index.md"
-  - <<: *page
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Emoji", name: "emoji", widget: "string" }
+          - {
+              label: "Menu Level",
+              name: "menu_level",
+              widget: "hidden",
+              default: "sprint",
+            } # Fixed option for menu_level
+          - { label: "Weight", name: "weight", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden" }
+          - {
+              label: "No Register",
+              name: "noRegister",
+              widget: "hidden",
+              default: false,
+            }
+          - {
+              label: "Blocks",
+              name: "blocks",
+              widget: "list",
+              fields:
+                [
+                  {
+                    label: "Name",
+                    name: "name",
+                    widget: "string",
+                    required: true,
+                  },
+                  {
+                    label: "Source",
+                    name: "src",
+                    widget: "string",
+                    required: true,
+                  },
+                  {
+                    label: "Time",
+                    name: "time",
+                    widget: "number",
+                    required: false,
+                  },
+                  {
+                    label: "Caption",
+                    name: "caption",
+                    widget: "string",
+                    required: false,
+                  },
+                ],
+            }
