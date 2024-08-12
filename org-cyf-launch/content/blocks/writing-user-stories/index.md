@@ -6,6 +6,10 @@ week="1"
 skills=["Teamwork","Time/Project Management"]
 objectives=["Define a user story","Write a user story", "Write a technical ticket"]
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 > AS A \[role], I WANT \[action], SO THAT \[outcome]

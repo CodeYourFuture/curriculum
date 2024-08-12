@@ -1,18 +1,16 @@
----
-title: What is the Launch module
-description: An exercise to understand the Launch module and its benefits, outcome and challenges.
-modules: The Launch
-week: "1"
-skills:
-  - Teamwork
-objectives:
-  - Explain the Launch module
-time: 30
-prep: Everyone must have done the prep work
-introduction: We have a lot of first-time volunteers helping at the Launch
-  module, so it is always good to ensure they and the current volunteers and
-  trainees understand what the module is about.
----
++++
+title="What is the Launch module"
+description="An exercise to understand the Launch module and its benefits, outcome and challenges."
+modules="The Launch"
+week="1"
+skills=["Teamwork"]
+objectives=["Identify the goals of the Launch module", "Explore the challenges of the Launch module", "Propose solutions to the challenges of the Launch module"]
+time=30
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
++++
 
 ### Motivation
 

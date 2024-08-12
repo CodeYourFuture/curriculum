@@ -6,6 +6,10 @@ week = 1
 skills = ['Time/Project Management','Teamwork']
 objectives = ['Plan 1 sprint','Prioritise user stories']
 time = 30
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 Agile software teams often work in ‘sprints’: specific chunks of time where we commit to a development goal.

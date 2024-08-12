@@ -6,6 +6,10 @@ week="2"
 skills=["Communication","Time/Project Management"]
 objectives=["Develop a presentation about your team's achievements","Collaborate with your team to have content that any non-developer can understand"]
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFOEHXgT4r6KciGKgmClkOPaEyU1c7cbmf4Su9YAv7ODY10NjO3Re569iY2tGl1U-4tC9DjzHQ30wr/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

@@ -6,6 +6,10 @@ week="2"
 skills=["Communication"]
 objectives=["Incorporate user feedback into your next project"]
 time=60
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 When we build products, we build them for someone to use. The best way to test that the features, design or functionality makes sense is by asking the user’s opinion.

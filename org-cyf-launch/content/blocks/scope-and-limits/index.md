@@ -4,6 +4,10 @@ week=1
 skills= ['Teamwork','Time/Project Management']
 objectives= ['Collaborate on defining and limiting scope', 'Agree strategies to handle complexity']
 time= 15
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 The goal of this first meeting is to define what you will deliver as a team. When product teams work together, planning and preparation gets everyone on the same page. It means you might not be coding very much today, but will help you code more effectively over the weeks ahead.

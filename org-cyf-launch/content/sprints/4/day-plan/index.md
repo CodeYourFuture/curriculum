@@ -7,7 +7,7 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/telephone"
+src="energisers/wemoji"
 [[blocks]]
 name="Demo Time"
 src="blocks/demo-time/"

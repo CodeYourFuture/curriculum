@@ -6,6 +6,10 @@ week="1"
 skills=["Teamwork","Time/Project Management"]
 objectives=["Identify identities, resources, and data in your proposed system", "Clarify technical jargon"]
 time=30
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false 
 +++
 
 When planning your work, you have two important aspects: 1) understanding the implementation **constraints** and opportunities and 2) writing your user stories.
