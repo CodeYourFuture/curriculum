@@ -1,122 +1,59 @@
 backend:
   name: git-gateway
-  branch: main
+  repo: CodeYourFuture/curriculum/org-cyf-launch
+  squash_merges: true
+  open_authoring: true
+
+local_backend: true
+
+site_url: https://launch.codeyourfuture.io
+
 publish_mode: editorial_workflow
-media_folder: org-cyf-guides/static/img
-public_folder: /img
 
-collections:
-  - name: blocks
-    label: Local Blocks
-    folder: content/blocks
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Time", name: "time", widget: "number", required: true }
-      - {
-          label: "Hide from Overview",
-          name: "hide_from_overview",
-          widget: "boolean",
-          default: true,
-        }
-      - { label: "Emoji", name: "emoji", widget: "string", default: "" }
-      - {
-          label: "Objectives",
-          name: "objectives",
-          widget: "list",
-          field_type: "string",
-        }
-      - {
-          label: "Threads",
-          name: "threads",
-          widget: "list",
-          field_type: "string",
-        }
-      - {
-          label: "Activities",
-          name: "activities",
-          widget: "list",
-          field_type: "string",
-        }
-      - {
-          label: "Facilitation",
-          name: "facilitation",
-          widget: "boolean",
-          default: true,
-        }
-      - {
-          label: "Build Render",
-          name: "build_render",
-          widget: "hidden",
-          default: "never",
-        }
-      - {
-          label: "Build List",
-          name: "build_list",
-          widget: "hidden",
-          default: "local",
-        }
-      - {
-          label: "Build Publish Resources",
-          name: "build_publish_resources",
-          widget: "hidden",
-          default: false,
-        }
+media_folder: website/static/img
+public_folder: img
 
-  - name: Day Plans
-    label: Day Plans
-    files:
-      - label: "Sprint 1 Day Plan"
-        name: "sprint1DayPlan"
-        file: "content/sprints/1/day-plan/index.md"
-        create: false
+page_collection: &page
+  create: false
+  fields:
+    - { label: "Title", name: "title", widget: "string", required: true }
+    - { label: "Emoji", name: "emoji", widget: "string" }
+    - {
+        label: "Menu Level",
+        name: "menu_level",
+        widget: "hidden",
+        default: "sprint",
+      } # Fixed option for menu_level
+    - { label: "Weight", name: "weight", widget: "hidden" }
+    - { label: "Layout", name: "layout", widget: "hidden" }
+    - {
+        label: "No Register",
+        name: "noRegister",
+        widget: "hidden",
+        default: false,
+      }
+    - {
+        label: "Blocks",
+        name: "blocks",
+        widget: "list",
         fields:
-          - { label: "Title", name: "title", widget: "string", required: true }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "day-plan",
-            }
-          - { label: "Emoji", name: "emoji", widget: "string", default: "🧑🏽‍🤝‍🧑🏻" }
-          - {
-              label: "Menu Level",
-              name: "menu_level",
-              widget: "hidden",
-              default: "sprint",
-            } # Fixed option for menu_level
-          - { label: "Weight", name: "weight", widget: "hidden", default: 1 }
-          - {
-              label: "No Register",
-              name: "noRegister",
-              widget: "boolean",
-              default: false,
-            }
-          - label: "Blocks"
-            name: "blocks"
-            widget: "list"
-            fields:
-              - {
-                  label: "Name",
-                  name: "name",
-                  widget: "string",
-                  required: true,
-                }
-              - {
-                  label: "Source",
-                  name: "src",
-                  widget: "string",
-                  required: true,
-                }
-              - {
-                  label: "Time",
-                  name: "time",
-                  widget: "number",
-                  required: false,
-                }
-              - {
-                  label: "Caption",
-                  name: "caption",
-                  widget: "string",
-                  required: false,
-                }
+          [
+            { label: "Name", name: "name", widget: "string", required: true },
+            { label: "Source", name: "src", widget: "string", required: true },
+            { label: "Time", name: "time", widget: "number", required: false },
+            {
+              label: "Caption",
+              name: "caption",
+              widget: "string",
+              required: false,
+            },
+          ],
+      }
+
+name: "Day Plans"
+label: "Day Plans"
+files:
+  - label: "Sprint 1 Day Plan"
+    name: "sprint1DayPlan"
+    file: "content/sprints/1/day-plan/index.md"
+  - <<: *page
