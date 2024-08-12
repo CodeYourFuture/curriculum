@@ -8,6 +8,21 @@ weight = 1
 backlog= 'Module-The-Launch'
 backlog_filter= 'Week 1'
 [[blocks]]
-name="Prep for Launch"
-src="https://cyf-pd.netlify.app/blocks/launch-prep/readme/"
+name="Welcome to Launch Prep"
+src="blocks/launch-prep/welcome"
+[[blocks]]
+name="Your team"
+src="blocks/launch-prep/team"
+[[blocks]]
+name="Weekly plan"
+src="blocks/launch-prep/plan"
+[[blocks]]
+name="Contributions"
+src="blocks/launch-prep/contributions"
+[[blocks]]
+name="Your brief"
+src="blocks/launch-prep/briefing"
+[[blocks]]
+name="Setting up your repo"
+src="blocks/launch-prep/setup"
 +++
