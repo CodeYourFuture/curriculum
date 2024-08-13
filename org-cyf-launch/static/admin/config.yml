@@ -23,7 +23,7 @@ collections:
     files:
       - label: "Sprint 1 Day Plan"
         name: "sprint1DayPlan"
-        file: "content/sprints/1/day-plan/index.md"
+        file: "org-cyf-launch/content/sprints/1/day-plan/index.md"
         create: false
         fields:
           - { label: "Title", name: "title", widget: "string", required: true }
