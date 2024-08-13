@@ -17,7 +17,7 @@ slug:
   sanitize_replacement: "-"
 
 collections:
-  - name: "Sprint 1"
+  - name: "Sprint1"
     label: "Sprint 1"
     description: "Prep and day plan for sprint 1"
     files:
