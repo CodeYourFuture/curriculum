@@ -56,6 +56,6 @@
       </section>
   </multiple-choice>
  
-  {{ $multipleChoice := resources.Get "scripts/multiple-choice.js" | resources.Minify | resources.Fingerprint}}
-  <script src="{{ $multipleChoice.Permalink }}" defer></script>
+  {{ $multipleChoice := resources.Get "scripts/multiple-choice.js" | resources.Minify }}
+  <script src="{{ $multipleChoice.RelPermalink }}" defer></script>
 
