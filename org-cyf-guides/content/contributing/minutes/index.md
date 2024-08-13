@@ -17,6 +17,80 @@ Attendees:
 
 ---
 
+## 2024-08-13
+
+Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+* [ ] Sally: Think of a rubric for demo assessment.
+* [ ] Sally: Try to chat to someone at GitHub about rate limits.
+* [ ] Ali: Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali: Write up projects in the Piscine repo
+* [ ] Daniel: Finish off Piscine project
+
+### 📝 Agenda points
+
+#### Introducing reading to SDC
+
+Some books we're considering adding (parts of) to SDC:
+
+* How Computers Really Work (Matthew Justice)
+* What If? (Randall Munro)
+* Algorithms to Live By (Brian Christian and Tom Griffiths)
+* The Phoenix Project
+
+On Algorithms to Live By:
+
+Daniel: Really like the idea, the language is a little overly complicated, like that each chapter is roughly standalone, the chapters are 2-3x as long as I'd like but maybe we can allocate partial chapters.
+
+Recommendations to explore from Mitch:
+
+* [Strategy Games File](https://www.amazon.co.uk/dp/0906212707)
+* [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
+
+#### Curriculum revamp
+
+* Generally all coming together nicely
+* Still need to finish off the Piscine but we have all the details lined up
+* Talked through [proposed draft SDC topics](https://deploy-preview-774--cyf-sdc.netlify.app/overview/) - just learning objectives no content!
+  * Sally talked through thoughts for Logic sprint:
+    * Detecting poisoned bottle live exercise
+    * Playing some Hanabi
+* Reminder: We have [this useful list of amazing resources and courses](https://github.com/prakhar1989/awesome-courses)
+* Things we're maybe missing (which people should add to https://github.com/CodeYourFuture/curriculum/pull/774):
+  * Runtime vs build time
+* We need to start thinking about collecting and writing content here
+  * We really want to focus on collecting reading, and producing projects.
+
+ITD is starting in September (Hopefully in: London, NW, Sheffield). See also [schedule planning spreadsheet](https://docs.google.com/spreadsheets/d/1qNxf44_vbNKU1KeFozGX7Kt1QxmTtU6Bf9tOh1sTUuc/edit)
+
+#### Curriculum platform documentation
+
+https://common.codeyourfuture.io/ exists!
+
+Also it now has [a math/LaTeX hook](https://common.codeyourfuture.io/common-theme/render-hooks/math/), and a Jupyter notebook block somewhere.
+
+Bug: Render hooks don't appear on the front page menu.
+
+#### Launch Module
+
+The launch module completed! Seems to have gone well, and people are writing meaningful feedback for our trainees. The volunteers had no previous relationship with the trainees they were reviewing.
+
+Plan is to run another in October.
+
+### ❗Actions
+
+* [ ] Sally (Carry-over): Think of a rubric for demo assessment.
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Daniel (Carry-over): Finish off Piscine project
+* [ ] Sally: Make render hooks don't appear on the front page menu of the curriculum platform development.
+* [ ] Daniel: Agree a date with ITP for when Global Syllabus should do a "roughly complete" content review
+* [ ] Everyone: Think about SDC topics and resources.
+
+---
+
 ## 2024-07-23
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Lizhen Xu, Mitch Lloyd, Sally McGrath
