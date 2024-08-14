@@ -23,9 +23,7 @@
       {{ $themePage := . }}
       {{ $relevantBlocksPage := or .Params.blocks_page_for_overview "prep" }}
       {{/* this is the same strategy used on success page. Look there for how to add extra pages */}}
-      {{ $prep := .Site.GetPage (printf "%sprep/index.md"
-        .CurrentSection.RelPermalink)
-      }}
+      {{ $prep := .Site.GetPage (printf "%sprep/index.md" .CurrentSection.RelPermalink) }}
       {{ with $prep }}
         {{ if not $hasShownModuleTitle }}
           <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
