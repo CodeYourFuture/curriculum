@@ -33,7 +33,7 @@
           <a href="{{ $prep.Permalink }}">{{ $themePage.Params.Theme }}</a>
         </h5>
         <ol>
-          {{ range .Params.blocks }}
+          {{ range $prep.Params.blocks }}
             {{ $block := ($site.GetPage .src) }}
             {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
               {{ continue }}
