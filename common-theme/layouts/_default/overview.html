@@ -24,24 +24,22 @@
       {{ $relevantBlocksPage := or .Params.blocks_page_for_overview "prep" }}
       {{/* this is the same strategy used on success page. Look there for how to add extra pages */}}
       {{ $prep := .Site.GetPage (printf "%sprep/index.md" .CurrentSection.RelPermalink) }}
-      {{ with $prep }}
-        {{ if not $hasShownModuleTitle }}
-          <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
-          {{ $hasShownModuleTitle = true }}
-        {{ end }}
-        <h5>
-          <a href="{{ $prep.Permalink }}">{{ $themePage.Params.Theme }}</a>
-        </h5>
-        <ol>
-          {{ range $prep.Params.blocks }}
-            {{ $block := ($site.GetPage .src) }}
-            {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
-              {{ continue }}
-            {{ end }}
-            <li>{{ $block.Title }}</li>
-          {{ end }}
-        </ol>
+      {{ if not $hasShownModuleTitle }}
+        <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
+        {{ $hasShownModuleTitle = true }}
       {{ end }}
+      <h5>
+        <a href="{{ $prep.Permalink }}">{{ $themePage.Params.Theme }}</a>
+      </h5>
+      <ol>
+        {{ range $prep.Params.blocks }}
+          {{ $block := ($site.GetPage .src) }}
+          {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
+            {{ continue }}
+          {{ end }}
+          <li>{{ $block.Title }}</li>
+        {{ end }}
+      </ol>
     {{ end }}
   {{ end }}
 {{ end }}
