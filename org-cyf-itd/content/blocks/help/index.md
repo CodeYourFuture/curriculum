@@ -1,0 +1,14 @@
++++
+title="How to get help"
+description="How to get help with the Intro to Digital programme"
++++
+
+First, visit our [frequently asked questions page](https://codeyourfuture.zendesk.com/hc/en-us)
+
+When you have questions about coursework, ask in a {{<tooltip title="CodeYourFuture workshop">}} Workshops are meetings where you can get technical help.{{</tooltip>}} or in {{<tooltip title="Slack">}} Slack is messaging software - once you have downloaded Slack you can visit our [Slack workspace](https://cyf-introtodigital.slack.com/signup#/domain-signup) to ask your questions.{{</tooltip>}}
+
+{{<note type="tip" title="Code Your Future is a Community">}}
+Remember, Code Your Future is a community of adults sharing skills. We are all here to help each other, and _learn_. When you have a question, ask it. You are meant to ask questions at Code Your Future.
+
+When you see someone else has a question, help them if you can.
+{{</note>}}
