@@ -67,3 +67,4 @@ getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
