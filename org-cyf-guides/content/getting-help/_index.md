@@ -1,5 +1,6 @@
 +++
 title = 'Getting Help'
-description = ''
+description = 'Asking questions; getting help; finding resources'
 emoji= '🛟'
+menu="learners"
 +++

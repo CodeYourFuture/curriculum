@@ -1,12 +1,14 @@
 ---
 id: contributing
 title: Contributing
+description: How to contribute to the CodeYourFuture curriculum
 weight: 2
-emoji: 
+emoji: 🎁
+menu: volunteers
 ---
 
-
 <!-- CYF-ONLY -->
+
 ## 💯 Free and open
 
 Code Your Future is a free training programme for refugees, asylum seekers, and other people excluded from education. All our classes are free and our teachers are volunteers. Since 2016, we have supported hundreds of people into great jobs in tech.
@@ -43,6 +45,7 @@ Thanks for your interest! We're excited to work with you to provide life-changin
 Lots and lots of volunteers worldwide contribute to the curriculum. You don't have to join the Syllabus team to contribute, or even our our org.
 
 <!-- CYF-ONLY -->
+
 But if you'd like to meet us and get more involved, [join our organisation](https://codeyourfuture.io/volunteers/) as a volunteer. Once onboarded, introduce yourself in the #cyf-syllabus-tech channel on Slack. Let us know you'd like to attend a meeting and add your agenda points to the meeting link posted in that channel.
 
 The [Global Syllabus volunteer team](contributors) meets every two weeks online to talk strategy, take issues and plan the next sprint. We'd love to meet you!<!-- END-CYF-ONLY -->

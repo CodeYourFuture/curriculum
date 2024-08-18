@@ -4,4 +4,5 @@ description = 'Here is a collection of educational activities that our community
 emoji= '🧰'
 weight='1'
 activities=['nature']
+menu="volunteers"
 +++
