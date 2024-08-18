@@ -1,15 +1,7 @@
 title = "CYF Guides"
-baseURL = "https://curriculum.codeyourfuture.io/"
+baseURL = "https://guides.codeyourfuture.io/"
 
 [module]
   [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-theme" 
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-content" 
-    [[module.imports.mounts]]
-      source = "en"
-      target = "content"
-  [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
   
-theme = "common-theme"
