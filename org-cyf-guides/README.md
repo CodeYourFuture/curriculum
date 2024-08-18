@@ -10,4 +10,4 @@ This is a Hugo Module. You can mount this module in your Hugo site by adding it 
 path = "github.com/CodeYourFuture/curriculum/org-cyf-guides"
 ```
 
-For detailed set up instructions, please read the org README.md file [org-cyf](./org-cyf/README.md).
+For detailed set up instructions, please read the org README.md file [org-cyf](../org-cyf/README.md).

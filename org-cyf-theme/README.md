@@ -14,7 +14,7 @@ The settings in this theme will be inherited once you've mounted it. You can ove
 
 https://gohugo.io/hugo-modules/configuration/#module-configuration-mounts
 
-For detailed set up instructions for your own website, please read the org README.md file [org-cyf](./org-cyf/README.md).
+For detailed set up instructions for your own website, please read the org README.md file [org-cyf](../org-cyf/README.md).
 
 ## Modules have a cascading inheritance
 
