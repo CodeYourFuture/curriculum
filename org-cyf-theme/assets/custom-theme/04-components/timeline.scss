@@ -1,0 +1,15 @@
+.c-timeline,
+[class="c-timeline"] {
+  &__entry,
+  [class="c-timeline__entry"] {
+    &:before {
+      background-color: var(--theme-color--brand);
+      color: var(--theme-color--ink);
+      font: var(--theme-font--system);
+    }
+    &:hover:before {
+      background-color: var(--theme-color--accent);
+      color: var(--theme-color--paper);
+    }
+  }
+}
