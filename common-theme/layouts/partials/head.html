@@ -46,10 +46,9 @@
     media="print"
     onload="this.media='all'" />
 
-  {{ $customCSS := resources.Match "custom-theme/**.scss" | resources.Concat
-    "custom.css"
-  }}
+  {{ $customCSS := resources.Match "custom-theme/**.scss" }}
   {{ with $customCSS }}
+    {{ $customCSS := $customCSS | resources.Concat "custom.css" }}
     {{ $customCSS := $customCSS | toCSS | minify | fingerprint "md5" }}
     <link
       rel="stylesheet"
