@@ -3,13 +3,6 @@ description="Meet the world of tech in 30 days"
 
 [module]
   [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-theme" 
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-content" 
-    [[module.imports.mounts]]
-      source = "en"
-      target = "content"
-  [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
       
 [menus]
@@ -25,5 +18,3 @@ description="Meet the world of tech in 30 days"
         name = "Support 🫶🏼"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
-
-theme = "common-theme"
