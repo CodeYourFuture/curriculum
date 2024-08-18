@@ -32,7 +32,5 @@ baseURL = "https://curriculum.codeyourfuture.io/"
       source = "content/blocks"
       target = "content/pd/blocks"
       
-[params]
-googleFonts="https://fonts.googleapis.com/css2?family=Fira+Sans&Fira+Mono&display=swap"
 
 theme = "common-theme"
