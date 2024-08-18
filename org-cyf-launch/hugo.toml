@@ -3,14 +3,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 
 [module]
   [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-theme" 
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-content" 
-    [[module.imports.mounts]]
-      source = "en"
-      target = "content"
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-theme" 
   [[module.imports]]
     path = "github.com/CodeYourFuture/CYF-Projects/micro-front-end" 
     [[module.imports.mounts]]
