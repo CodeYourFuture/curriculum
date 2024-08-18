@@ -2,12 +2,15 @@
 title="Telephone!"
 emoji="📞"
 hide_from_overview=true
-headless=true
 time=15
 [objectives]
     1="Transmit a message accurately through multiple people"
     2="Identify points of miscommunication in the final message"
     4="Demonstrate active listening by repeating a message verbatim"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 📞 Telephone Gameplay

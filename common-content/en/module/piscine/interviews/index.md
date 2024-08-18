@@ -1,7 +1,6 @@
 +++
 title="Interviews"
 emoji="🎤🏾"
-headless="true"
 time=45
 objectives = [
   "Predict and explain the execution of a computer program",
@@ -9,6 +8,10 @@ objectives = [
   "Refactor and iterate code based on new requirements",
   "Extract simple composable functions for common use cases"
 ]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 You will be asked to join a video call for your technical interview. We use an interview platform called Evidenced.

@@ -1,12 +1,15 @@
 +++
 title="🎯 Goals"
-headless="true"
 time=2
 emoji="🎯"
 hide_from_overview=true
 objectives = [
   "List the core goals of the Piscine."
 ]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## Welcome to the Piscine.

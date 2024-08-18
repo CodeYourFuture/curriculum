@@ -1,7 +1,10 @@
 +++
 title="Wrap"
-headless="true"
 time=20
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 You are done for the day. Take a moment to reflect on what you have learned and achieved.

@@ -1,7 +1,10 @@
 +++
 title="Wrap Party"
-headless="true"
 time=180
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 You made it! 🎉

@@ -1,7 +1,10 @@
 +++
 title="🫱🏽‍🫲🏾 Induction"
-headless="true"
 time=15
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 Welcome to the Piscine.
