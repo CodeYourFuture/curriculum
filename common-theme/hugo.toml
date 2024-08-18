@@ -28,14 +28,14 @@ defaultContentLanguageInSubdir = false
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
 description = "A free and open source software development programme."
-main_website = ""
-main_org_name = "eg Code Your Future"
-our_name = "alias for in text replacement"
-org = "https://github.com/YOUR_ORG_HERE"
-repo = "https://github.com/YOUR_ORG_HERE/YOUR_REPO/"
-root = "YOUR_REPO_I_THINK"
-orgapi = "https://api.github.com/repos/YOUR_ORG_HERE/"
-pdrepo = "PD-curriculum-repo"
+# main_website = ""
+# main_org_name = "eg Code Your Future"
+# our_name = "alias for in text replacement"
+# org = "https://github.com/YOUR_ORG_HERE"
+# repo = "https://github.com/YOUR_ORG_HERE/YOUR_REPO/"
+# root = "YOUR_REPO_I_THINK"
+# orgapi = "https://api.github.com/repos/YOUR_ORG_HERE/"
+# pdrepo = "PD-curriculum-repo"
 
 [markup]
 [markup.tableOfContents]
