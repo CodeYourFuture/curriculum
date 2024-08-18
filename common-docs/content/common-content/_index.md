@@ -4,7 +4,11 @@ description="Shared content and how that all works"
 emoji="🫕"
 menu=["content", "syllabus"]
 layout="slimdex"
-
+[[cascade]]
+  [cascade.build]
+    list = 'always'
+    publishResources = true
+    render = 'always'
 +++
 
 This is a Hugo module called common-content. It's filled with [headless](https://gohugo.io/content-management/build-options/) content blocks. You can mount it into your site by adding it to your site's config.toml file:
