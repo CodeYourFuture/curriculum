@@ -1,8 +1,5 @@
 title = "CYF Piscine"
 
-[taxonomies]
-  activity = 'activities'
-
 [module]
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
