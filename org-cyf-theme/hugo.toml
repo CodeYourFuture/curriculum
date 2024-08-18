@@ -1,6 +1,7 @@
 title = "CYF Courses"
 baseURL = "https://curriculum.codeyourfuture.io/"
-
+[taxonomies]
+  activity = 'activities'
 [module]
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/common-theme" 
@@ -60,10 +61,5 @@ guessSyntax = true
 unsafe = true
 hardWraps = true
 footnote= true
-
-[taxonomies]
-  category = 'categories' # Content types are blocks, definitions, guides
-  tag = 'themes'
-  activity = 'activities'
 
 theme = "common-theme"
