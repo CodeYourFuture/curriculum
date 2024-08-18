@@ -1,8 +1,11 @@
+# this config inherits from common-theme/hugo.toml
+# if you mount org-cyf-theme you inherit both configs in cascade
+
 title = "CYF Courses"
 baseURL = "https://curriculum.codeyourfuture.io/"
-[taxonomies]
-  activity = 'activities'
+
 [module]
+# MODULE MOUNTS this is how we inherit the layout code and shared content
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/common-theme" 
   [[module.imports]]
@@ -10,7 +13,12 @@ baseURL = "https://curriculum.codeyourfuture.io/"
     [[module.imports.mounts]]
       source = "en"
       target = "content"
-      
+
+[taxonomies]
+# Taxonomies common to CYF sites
+  activity = 'activities'
+
+# Default menus     
 [menus]
     [[menus.secondary]]
         name = "Guides 👈🏾"
@@ -25,7 +33,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
+
 [params]
+# Our default custom params eg where our stuff is and what it is called
 description = "A free and open source software development programme."
 main_website = "https://codeyourfuture.io/"
 main_org_name = "Code Your Future"
@@ -48,6 +58,7 @@ maxAge = 0
 getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
 
 [markup]
+# I've configured markdown so you don't have to
 [markup.tableOfContents]
 endLevel = 2
 ordered = true
@@ -62,4 +73,5 @@ unsafe = true
 hardWraps = true
 footnote= true
 
+# You can only load one theme and this is it
 theme = "common-theme"
