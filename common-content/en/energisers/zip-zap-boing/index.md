@@ -2,11 +2,14 @@
 title="Zip Zap Boing!"
 emoji="⚡"
 hide_from_overview=true
-headless=true
 time=15
 [objectives]
 1="Coordinate group movement and attention"
 3="Energise the group and create a fun atmosphere"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 👉 Zip Zap Boing Gameplay

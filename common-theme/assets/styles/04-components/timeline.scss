@@ -22,7 +22,7 @@
       clip-path: circle();
       display: inline-grid;
       place-content: center;
-      background-color: var(--theme-color--accent);
+      background-color: var(--theme-color--pop);
       color: var(--theme-color--ink);
       transform: translateX(calc(var(--box) * -1.5));
       transition: background-color 0.3s;
@@ -30,6 +30,7 @@
     }
     &:hover:before {
       background-color: var(--theme-color--pop);
+      color: var(--theme-color--paper);
     }
 
     &:last-of-type {

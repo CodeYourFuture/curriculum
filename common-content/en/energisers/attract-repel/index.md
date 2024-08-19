@@ -1,10 +1,13 @@
 +++
 title="🧲 Attract Repel Chaos!"
-headless=true
 time=10
 [objectives]
     1="Select two colleagues as 'attract' and 'repel' targets"
     2="Maintain proximity to the 'attract' target while distancing from the 'repel' target"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 🧲 Attract Repel Chaos Gameplay

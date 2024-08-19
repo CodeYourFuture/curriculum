@@ -1,13 +1,16 @@
 +++
 title="🧭 Help"
 description="Make sure you have everything you need to come to class and do your work"
-headless="true"
 hide_from_overview="true"
 time=30
 objectives = [
   "Find the Signposts website",
   "List the financial learner support available to you"
 ]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 🧭 Make sure you have everything you need to come to class and do your work. _Everyone_ at {{<our-name>}} has barriers to education, and we can [help with some things](https://signposts.codeyourfuture.io/). If you cannot come to class because you can't afford:

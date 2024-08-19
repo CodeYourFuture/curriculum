@@ -1,21 +1,9 @@
 title = "Intro to Digital"
 description="Meet the world of tech in 30 days"
-baseURL = "https://curriculum.codeyourfuture.io/"
-
-[taxonomies]
-  category = 'categories' # Content types are blocks, definitions, guides
-  tag = 'themes'
-  activity = 'activities'
-
 
 [module]
   [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-theme" 
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-content" 
-    [[module.imports.mounts]]
-      source = "en"
-      target = "content"
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
       
 [menus]
     [[menus.secondary]]
@@ -25,50 +13,8 @@ baseURL = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
         name = "Join Us 👋🏿"
         weight = 2
-        url = "https://codeyourfuture.io/volunteers/"#CYF-ONLY
+        url = "https://codeyourfuture.io/volunteers/"
     [[menus.secondary]]
         name = "Support 🫶🏼"
         weight = 3
-        url = "https://codeyourfuture.io/donate/"#CYF-ONLY
-
-[params]
-googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Lato:wght@400;900&display=swap"
-description = "A free and open source software development programme."
-main_website = "https://codeyourfuture.io/"
-main_org_name = "Code Your Future"
-our_name="CYF"
-org = "https://github.com/CodeYourFuture"
-repo = "https://github.com/CodeYourFuture/curriculum/"
-root = "curriculum"
-# We use a proxy which concatenates paginated responses, otherwise we miss results.
-# Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
-# The /cached/120 path prefix here caches results for 2 hours to avoid rate limits. Drop the /cached/120 if you need fresh results.
-orgapi = "https://github-issue-proxy.illicitonion.com/cached/120/repos/CodeYourFuture/"
-
-
-[caches.getresource]
-# Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
-maxAge = 0
-
-[security.funcs]
-# Allow accessing a GitHub bearer token to avoid rate limits when doing HTTP fetches to the GitHub API.
-# This can be generated at https://github.com/settings/tokens?type=beta and needs read-only access to all public CYF GitHub repos.
-getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
-
-[markup]
-[markup.tableOfContents]
-endLevel = 2
-ordered = true
-startLevel = 2
-[markup.highlight]
-lineNos = false
-codeFences = true
-guessSyntax = true
-[markup.goldmark.renderer]
-# Enable HTML codeblocks, e.g. for <details> blocks
-unsafe = true
-hardWraps = true
-footnote= true
-
-
-theme = "common-theme"
+        url = "https://codeyourfuture.io/donate/"

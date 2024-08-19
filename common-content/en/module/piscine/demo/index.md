@@ -1,6 +1,5 @@
 +++
 title="Demo"
-headless="true"
 time=45
 objectives = [
     "Explain your work to others at CEFR B2 level or higher.",
@@ -8,6 +7,10 @@ objectives = [
     "Participate in meetings in your area of expertise, if you have help understanding some points.",
     "Ask clarifying questions and revise your response based on new information.",
 ]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 At {{<our-name>}} we expect you to demo your work to the class. You must have many opportunities to practice how to clearly and simply **explain your work to others**. This is really important for interviews and career success.

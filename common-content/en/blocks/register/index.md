@@ -1,8 +1,11 @@
 +++
 title="✍🏽 Register"
-headless="true"
 time=5
 hide_from_overview=true
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 At {{<our-name>}} we expect you to register your attendance at the start of each day. If you don't sign in, you will be marked as absent.

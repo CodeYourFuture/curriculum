@@ -2,11 +2,14 @@
 title="Fizz Buzz"
 emoji="🔢"
 hide_from_overview=true
-headless=true
 time=20
 [objectives]
 1="Execute mental arithmetic and divisibility rules"
 3="Listen actively and coordinate with others"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 🔢 Fizz Buzz Gameplay

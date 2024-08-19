@@ -1,7 +1,7 @@
 .e-button {
   // reset
   appearance: none;
-  font: 600 var(--theme-type-size--6) system-ui;
+  font: 600 var(--theme-type-size--6) var(--theme-font--display), system-ui;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
