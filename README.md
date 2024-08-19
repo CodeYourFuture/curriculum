@@ -33,7 +33,7 @@ To develop a specific site, `cd` into the relevant sub-directory and follow the 
 
 ## To build a new site
 
-1. In the root of this repo, run:
+1. In the root of this repo, or in your own repo, run:
 
 ```bash
 hugo new site org-<your-org-name>
