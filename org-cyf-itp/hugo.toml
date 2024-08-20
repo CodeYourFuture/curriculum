@@ -34,4 +34,12 @@ baseURL = "https://programming.codeyourfuture.io/"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
-theme = "common-theme"
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true
