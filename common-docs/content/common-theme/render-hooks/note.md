@@ -1,9 +1,15 @@
 +++
 title="Note"
-description="A note with a title and a body"
+description="Github style notes"
 emoji="📝"
-menu=["shortcodes"]
+menu=["hooks"]
 +++
+
+This is a [blockquote render hook](https://gohugo.io/render-hooks/blockquotes/#alerts) to render [Github style notes](https://github.blog/changelog/2023-12-14-new-markdown-extension-alerts-provide-distinctive-styling-for-significant-content/). If you mark up a note on GitHub, it will also render in Common.
+
+It actually doesn't produce a blockquote when you invoke it because that is shonky semantics. It produces a section.
+
+The markdown operation of normal blockquotes is unhindered and unchanged.
 
 {{<columns>}}
 
@@ -44,15 +50,3 @@ menu=["shortcodes"]
 > Negative potential consequences of an action.
 
 {{</columns>}}
-
-### Invoke
-
-```go
-{{</*note title="This is a note" type="tip"*/>}}
-This is the body of the note.
-{{</* /note */>}}
-```
-
-{{< note title="This is a note" type="tip">}}
-This is the body of the note. This is probably the most used and oldest shortcode on the site. It was brought over from the old Docusaurus syllabus. Since 20 August 2024, we moved to use GitHub notes in a render hook as Hugo began supporting them. So this shortcode will probably be deprecated soon.
-{{< /note >}}
