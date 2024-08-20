@@ -15,8 +15,9 @@ so look in render-blockquote.html for the new syntax.
   "warning" ":warning:"
 }}
 {{$title := .Get "title" | default "Note"}}
+{{$noteType := .Get "type" | default "note"}}
 
-<section class="c-note c-note--{{ .Get 'type' | default 'note' }}">
+<section class="c-note c-note--{{$noteType}}">
   <h4 class="c-note__title e-heading__4">
     {{ transform.Emojify (index $emojis .AlertType) }}
       {{ or (i18n .AlertType) ($title .AlertType) }}</span>
