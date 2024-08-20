@@ -1,0 +1,30 @@
+{{/* These are here so that if you use Github notes
+  They will be parsed and show up on here too
+  Following our rules of always using the most common syntax where possible
+  So content renders correctly on Github and here
+  Use this instead of the note shortcode from now on
+  https://github.blog/changelog/2023-12-14-new-markdown-extension-alerts-provide-distinctive-styling-for-significant-content/
+  https://gohugo.io/render-hooks/blockquotes/#alerts
+*/}}
+
+{{ $emojis := dict
+  "caution" ":exclamation:"
+  "important" ":information_source:"
+  "note" ":memo:"
+  "tip" ":bulb:"
+  "warning" ":warning:"
+}}
+
+{{ if eq .Type "alert" }}
+  <section class="c-note c-note--{{ .AlertType }}">
+    <h4 class="c-note__title">
+      {{ transform.Emojify (index $emojis .AlertType) }}
+      {{ or (i18n .AlertType) (title .AlertType) }}
+    </h4>
+    <div class="c-note__text">{{ .Text | safeHTML }}</div>
+  </section>
+{{ else }}
+  <blockquote>
+    {{ .Text | safeHTML }}
+  </blockquote>
+{{ end }}
