@@ -62,4 +62,14 @@ maxAge="6h"
 getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
 
 
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true
+
 theme = "common-theme"
