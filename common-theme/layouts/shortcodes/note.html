@@ -19,8 +19,8 @@ so look in render-blockquote.html for the new syntax.
 
 <section class="c-note c-note--{{$noteType}}">
   <h4 class="c-note__title e-heading__4">
-    {{ transform.Emojify (index $emojis .AlertType) }}
-      {{ or (i18n .AlertType) ($title .AlertType) }}</span>
+    {{ transform.Emojify (index $emojis $noteType) }}
+      {{ or (i18n $noteType) ($noteType) }}</span>
   </h4>
   <div class="c-note__text ">{{ printf "%s" .Inner | markdownify }}</div>
 </section>
