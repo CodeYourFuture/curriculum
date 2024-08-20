@@ -37,32 +37,7 @@ description = "A free and open source software development programme."
 # orgapi = "https://api.github.com/repos/YOUR_ORG_HERE/"
 # pdrepo = "PD-curriculum-repo"
 
-[markup]
-# I've configured markdown so you don't have to
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = true
-    startLevel = 2
-  [markup.highlight]
-    lineNos = false
-    codeFences = true
-    guessSyntax = true
-  [markup.goldmark]
-    strikethrough=false
-    [markup.goldmark.extensions.extras.delete]
-        enable = true
-    [markup.goldmark.extensions.extras.insert]
-        enable = true
-    [markup.goldmark.extensions.extras.mark]
-        enable = true
-    [markup.goldmark.extensions.extras.subscript]
-        enable = true
-    [markup.goldmark.extensions.extras.superscript]
-        enable = true
-    [markup.goldmark.renderer]
-# Enable HTML codeblocks, e.g. for <details> blocks
-      unsafe = true
-      hardWraps = true
+#markdown configs cannot be inherited so are not set
 
 [caches.getjson]
 # Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
