@@ -6,6 +6,11 @@ baseURL = "https://tracks.codeyourfuture.io/"
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
   [[module.imports]]
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
+    [[module.imports.mounts]]
+      source = "content"
+      target = "content/guides"
+  [[module.imports]]
     path = "github.com/CodeYourFuture/CYF-PD" 
     [[module.imports.mounts]]
       source = "content/blocks"

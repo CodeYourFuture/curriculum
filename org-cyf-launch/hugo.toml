@@ -10,6 +10,11 @@ baseURL = "https://curriculum.codeyourfuture.io/"
       source = "content"
       target = "content/briefings"
   [[module.imports]]
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
+    [[module.imports.mounts]]
+      source = "content"
+      target = "content/guides"
+  [[module.imports]]
     path = "github.com/CodeYourFuture/CYF-PD" 
     [[module.imports.mounts]]
       source = "content/blocks"
