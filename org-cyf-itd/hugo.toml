@@ -28,3 +28,7 @@ description="Meet the world of tech in 30 days"
     [markup.goldmark.renderer]
 # Enable HTML codeblocks, e.g. for <details> blocks
       unsafe = true
+
+[page]
+  nextPrevInSectionSortOrder = 'asc'
+  nextPrevSortOrder = 'asc'

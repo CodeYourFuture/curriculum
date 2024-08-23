@@ -34,6 +34,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
+[page]
+  nextPrevInSectionSortOrder = 'asc'
+  nextPrevSortOrder = 'asc'
 
 [params]
 # Our default custom params eg where our stuff is and what it is called

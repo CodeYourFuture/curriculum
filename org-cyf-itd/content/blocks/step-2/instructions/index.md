@@ -1,8 +1,8 @@
 +++
 title ="Step 1: What to do"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
+description= "Learn about data analytics, review required skills, then build a project that exemplifies a typical task for a data analyst."
 emoji= "🤖"
-time= 60
+time= 90
 [build]
   render = 'never'
   list = 'local'

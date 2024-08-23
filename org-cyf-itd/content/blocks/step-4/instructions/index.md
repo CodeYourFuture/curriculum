@@ -2,7 +2,7 @@
 title ="Step 4: What to do"
 description= "Complete the final project in Scrimba: Solo Project: Hometown Homepage"
 emoji= "🤖"
-time= 120
+time= 240
 [build]
   render = 'never'
   list = 'local'
@@ -31,3 +31,8 @@ Link to my project on Netlify : URL
 #### Rules
 
 This is all about you, so be as creative as you like! We know that people who do well on our courses show creativity, curiosity, persistence, and rigour. That’s what we’re looking for from you in this project.
+
+{{<blocklink
+  src="https://v2.scrimba.com/learn-html-and-css-c0p"
+  name="Learn HTML and CSS"
+  caption="Scrimba">}}
