@@ -22,9 +22,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 # Default menus     
 [menus]
     [[menus.secondary]]
-        name = "Guides 👈🏾"
+        name = "Main Curriculum 👈🏾"
         weight = 1
-        url = "https://curriculum.codeyourfuture.io/guides"
+        url = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
         name = "Join Us 👋🏿"
         weight = 2

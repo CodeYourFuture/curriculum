@@ -12,9 +12,9 @@ target = "content/guides"
       
 [menus]
   [[menus.secondary]]
-    name = "Guides 👈🏾"
+    name = "CYF 👈🏾"
     weight = 1
-    url = "/guides"
+    url = "https://codeyourfuture.io"
   [[menus.secondary]]
     name = "Join Us 👋🏿"
     weight = 2

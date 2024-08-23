@@ -15,21 +15,7 @@ baseURL = "https://sdc.codeyourfuture.io/"
       source = "content/blocks"
       target = "content/pd/blocks"
 
-[menus]
-    [[menus.secondary]]
-        name = "Guides 👈🏾"
-        weight = 1
-        url = "/guides"
-     [[menus.secondary]]
-        name = "Join Us 👋🏿"
-        weight = 2
-        url = "https://codeyourfuture.io/volunteers/"
-    [[menus.secondary]]
-        name = "Support 🫶🏼"
-        weight = 3
-        url = "https://codeyourfuture.io/donate/"
 
-      
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
 

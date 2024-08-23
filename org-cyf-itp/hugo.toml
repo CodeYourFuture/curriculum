@@ -20,19 +20,6 @@ baseURL = "https://programming.codeyourfuture.io/"
       source = "content/blocks"
       target = "content/pd/blocks"
       
-[menus]
-    [[menus.secondary]]
-        name = "Guides 👈🏾"
-        weight = 1
-        url = "/guides"
-     [[menus.secondary]]
-        name = "Join Us 👋🏿"
-        weight = 2
-        url = "https://codeyourfuture.io/volunteers/"
-    [[menus.secondary]]
-        name = "Support 🫶🏼"
-        weight = 3
-        url = "https://codeyourfuture.io/donate/"
 
 [markup]
 # I've configured markdown so you don't have to
