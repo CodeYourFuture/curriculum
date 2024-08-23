@@ -16,4 +16,3 @@ baseURL = "https://tracks.codeyourfuture.io/"
       source = "content/blocks"
       target = "content/pd/blocks"
       
-theme = "common-theme"
