@@ -1,5 +1,6 @@
 +++
 title = 'Four'
+description="Build, iterate, and deploy your capstone project"
 layout = 'prep'
 emoji= '🧑🏾‍🚀'
 menu_level = ['module']
