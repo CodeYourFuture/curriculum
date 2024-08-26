@@ -1,0 +1,13 @@
+.c-page-footer {
+  padding-top: var(--theme-spacing--6);
+  &__nav {
+    gap: var(--theme-spacing--1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__this {
+    color: var(--theme-color--accent-shade);
+  }
+}

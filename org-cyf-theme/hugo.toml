@@ -14,6 +14,7 @@ baseURL = "https://curriculum.codeyourfuture.io/"
       source = "en"
       target = "content"
 
+
 [taxonomies]
 # Taxonomies common to CYF sites
   activity = 'activities'
@@ -21,9 +22,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 # Default menus     
 [menus]
     [[menus.secondary]]
-        name = "Guides 👈🏾"
+        name = "Main Curriculum 👈🏾"
         weight = 1
-        url = "https://curriculum.codeyourfuture.io/guides"
+        url = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
         name = "Join Us 👋🏿"
         weight = 2
@@ -33,6 +34,9 @@ baseURL = "https://curriculum.codeyourfuture.io/"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
+[page]
+  nextPrevInSectionSortOrder = 'asc'
+  nextPrevSortOrder = 'asc'
 
 [params]
 # Our default custom params eg where our stuff is and what it is called
@@ -59,22 +63,3 @@ maxAge = 0
 # Allow accessing a GitHub bearer token to avoid rate limits when doing HTTP fetches to the GitHub API.
 # This can be generated at https://github.com/settings/tokens?type=beta and needs read-only access to all public CYF GitHub repos.
 getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
-
-[markup]
-# I've configured markdown so you don't have to
-[markup.tableOfContents]
-endLevel = 2
-ordered = true
-startLevel = 2
-[markup.highlight]
-lineNos = false
-codeFences = true
-guessSyntax = true
-[markup.goldmark.renderer]
-# Enable HTML codeblocks, e.g. for <details> blocks
-unsafe = true
-hardWraps = true
-footnote= true
-
-# You can only load one theme and this is it
-theme = "common-theme"

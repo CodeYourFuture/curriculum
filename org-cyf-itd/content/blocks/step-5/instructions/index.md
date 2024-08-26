@@ -2,7 +2,7 @@
 title ="Step 1: What to do"
 description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
 emoji= "🤖"
-time= 60
+time= 360
 [build]
   render = 'never'
   list = 'local'
@@ -14,3 +14,8 @@ time= 60
 1. Complete lessons 1 through 16
 1. Build at least one project
 1. Use what you learned to improve your Hometown Homepage
+
+{{<blocklink
+  src="https://blocks.codeyourfuture.io/#introduction"
+  name="CYF Blocks"
+  caption="Code Your Future">}}

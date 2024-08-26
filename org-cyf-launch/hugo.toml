@@ -1,5 +1,5 @@
 title = "The Launch"
-baseURL = "https://curriculum.codeyourfuture.io/"
+baseURL = "https://launch.codeyourfuture.io/"
 
 [module]
   [[module.imports]]
@@ -10,12 +10,23 @@ baseURL = "https://curriculum.codeyourfuture.io/"
       source = "content"
       target = "content/briefings"
   [[module.imports]]
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
+    [[module.imports.mounts]]
+      source = "content"
+      target = "content/guides"
+  [[module.imports]]
     path = "github.com/CodeYourFuture/CYF-PD" 
     [[module.imports.mounts]]
       source = "content/blocks"
       target = "content/pd/blocks"
-  [module.hugoVersion]
-    extended = true
-    min = "0.116.0"
 
-theme = "common-theme"
+
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true

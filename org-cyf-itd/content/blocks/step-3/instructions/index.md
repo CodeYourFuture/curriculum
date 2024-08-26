@@ -23,3 +23,8 @@ This course teaches you HTML and CSS by helping you make five great projects. Yo
 1. _Build a Digital Business_ card: share your link, and move on to...
 1. _Build a Space Exploration site_: share your link, and move on to...
 1. _Build a Birthday GIFt site_: share your link, and unlock the next step
+
+{{<blocklink
+  src="https://v2.scrimba.com/learn-html-and-css-c0p"
+  name="Learn HTML and CSS"
+  caption="Scrimba">}}

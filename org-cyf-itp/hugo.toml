@@ -20,18 +20,13 @@ baseURL = "https://programming.codeyourfuture.io/"
       source = "content/blocks"
       target = "content/pd/blocks"
       
-[menus]
-    [[menus.secondary]]
-        name = "Guides 👈🏾"
-        weight = 1
-        url = "/guides"
-     [[menus.secondary]]
-        name = "Join Us 👋🏿"
-        weight = 2
-        url = "https://codeyourfuture.io/volunteers/"
-    [[menus.secondary]]
-        name = "Support 🫶🏼"
-        weight = 3
-        url = "https://codeyourfuture.io/donate/"
 
-theme = "common-theme"
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true

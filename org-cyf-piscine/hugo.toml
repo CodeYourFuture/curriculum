@@ -7,4 +7,12 @@ title = "CYF Piscine"
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
 
-theme = "common-theme"
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true

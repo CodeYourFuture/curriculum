@@ -2,7 +2,7 @@
   @include grid-assign(github, impressum, mode);
 
   grid-template:
-    "...... . ......... ." calc(2 * var(--theme-spacing--6))
+    "...... . ......... ." var(--theme-spacing--6)
     "github . impressum mode" minmax(0, 1fr)
     "github . ......... mode" var(--theme-spacing--touchtarget)
     "...... . ......... ." var(--theme-spacing--gutter) /

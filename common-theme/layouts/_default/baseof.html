@@ -16,6 +16,8 @@
         tabindex="0"
         data-pagefind-body>
         {{ block "main" . }}{{ end }}
+
+        {{ partial "page-footer.html" . }}
       </main>
       {{- partialCached "foot.html" . -}}
       {{- partial "scripts.html" . -}}

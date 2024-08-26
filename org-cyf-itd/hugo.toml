@@ -18,3 +18,17 @@ description="Meet the world of tech in 30 days"
         name = "Support 🫶🏼"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
+
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+    [markup.goldmark.renderer]
+# Enable HTML codeblocks, e.g. for <details> blocks
+      unsafe = true
+
+[page]
+  nextPrevInSectionSortOrder = 'asc'
+  nextPrevSortOrder = 'asc'
