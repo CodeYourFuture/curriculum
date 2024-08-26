@@ -41,7 +41,7 @@ The "Repository access" you need is "Public repositories (read-only)", and you d
 
 #### Set up `.env`
 
-Copy the `.env.example` file over and name it `.env`. Edit the file and then change the line that says `HUGO_CURRICULUM_GITHUB_BEARER_TOKEN` to contain the token that you have generated earlier.
+Copy the `.env.example` file over to the parent directory of this one (the root of curriculum) and name it `.env`. Edit the file and then change the line that says `HUGO_CURRICULUM_GITHUB_BEARER_TOKEN` to contain the token that you have generated earlier.
 
 #### Run this command
 
