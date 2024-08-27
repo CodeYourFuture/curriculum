@@ -17,6 +17,87 @@ Attendees:
 
 ---
 
+## 2024-08-27
+
+Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+* [x] Sally (Carry-over): Think of a rubric for demo assessment.
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Daniel (Carry-over): Finish off Piscine project
+* [x] Sally: Make render hooks don't appear on the front page menu of the curriculum platform development.
+* [x] Daniel: Agree a date with ITP for when Global Syllabus should do a "roughly complete" content review
+* [ ] Everyone: Think about SDC topics and resources.
+
+### 📝 Agenda points
+
+#### ITD is starting soon, ITP will follow!
+
+##### Do we want to encourage/guide trainee tracking into ITP?
+
+> Is 12 weeks a good period of time for people to invest before getting their first meaningful feedback?
+
+Ideally we would give meaningful feedback sooner, but we've acknowledged we don't have the volunteer bandwidth to meaningfully provide faster feedback.
+
+> Do we want an assessment of some kind to show someone has completed ITP?
+
+The function extraction Codility is a signal about progressing to Piscine, not about having completed ITP.
+
+Some people may blitz through the course - ideally we would have a somewhat objective way of testing this that doesn't require e.g. someone manually reviewing 3 months of coursework.
+
+We should muse on this...
+
+#### Piscine wrap-up
+
+Discussed [proposed demo rubric](https://docs.google.com/spreadsheets/d/1pHnc-OD0kB9TEJrTPdW-prUS_cKKMEuF5zaPE-wAbtg/edit) - generally looks good.
+
+##### What will we do if either Piscine gives poor signal, or ITP doesn't produce enough people who can get through the Piscine?
+
+We should aim to keep our intended standards high, and not lower the bar just to make progress. But acknowledge our tests may not provide good signal about our intended standards.
+
+We may need to prepare to set up a global SDC, in case we end up with too small numbers in each region to set up full SDC classes in each region.
+
+Regular ITPs and Piscines should help to recover in case people need extra time/support, rather than needing to wait a year to make more progress.
+
+#### Plan for [syncing ITD into a curriculum site](https://github.com/CodeYourFuture/curriculum/pull/878#issuecomment-2310623470)
+
+Syncing JSON into Hugo should be easy, but auth is hard.
+
+Whenever we can get auth taken off of the relevant API endpoints, we will just have the Hugo pull in the data as JSON.
+
+#### Trying to get our trainees having more low-stakes conversations with potential employers
+
+Daniel has a friend who went to a bootcamp who found it really useful to have regular (~monthly) low-stakes conversations with potential employers, mostly in a social context. This was useful to:
+1. Have low-stakes conversations with employers before a high-stakes interview.
+1. Get used to talking to employers.
+1. Give an opportunity to make some awkward social errors in a low-stakes contexts rather than in interviews.
+
+Mariana may have a monthly meet-up thing going on that could be relevant here.
+
+#### De-duplicating config across our many sites
+
+Things which are duplicated (in the `tooling` folder of each site):
+* Clone button functions.
+* Even though there's a `netlify.toml`, many of the settings (e.g. the Go version, the Hugo version) still need setting independently on each site.
+
+Symlinks should rescue us. Daniel will try to do so.
+
+We're aiming to have deploy previews for "just the thing that you actually affected", but this may not be set up right - feel free to tweak as convenient.
+
+### ❗Actions
+
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Daniel (Carry-over): Finish off Piscine project
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [ ] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [ ] Sally: Put up a banner on the SDC website saying it's under construction.
+
+---
+
 ## 2024-08-13
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
