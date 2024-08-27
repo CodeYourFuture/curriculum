@@ -11,6 +11,7 @@
   {{ range index .Site.Menus $overviewMenu }}
     {{ $moduleURL := .URL }}
     {{ $moduleTitle := .Page.Params.Title }}
+    {{ $moduleEmoji := .Page.Params.Emoji }}
     <!-- We lazily show the module title only if there's actual content under it.-->
     {{ $hasShownModuleTitle := false }}
 
@@ -26,13 +27,21 @@
       {{ $prep := .Site.GetPage (printf "%sprep/index.md" .CurrentSection.RelPermalink) }}
       {{ $success := .Site.GetPage (printf "%ssuccess/index.md" .CurrentSection.RelPermalink) }}
       {{ if not $hasShownModuleTitle }}
-        <h4><a href="{{ $moduleURL }}">{{ $moduleTitle }}</a></h4>
+        <h3>
+          {{ $moduleEmoji }} <a href="{{ $moduleURL }}">{{ $moduleTitle }}</a>
+        </h3>
         {{ $hasShownModuleTitle = true }}
       {{ end }}
-      <h5>
-        <a href="{{ $success.Permalink }}">{{ $themePage.Params.Theme }}</a> (<a href="{{ $prep.Permalink }}">Prep</a>)
-      </h5>
-      <ol>
+      <h4>
+        <a href="{{ .CurrentSection.RelPermalink }}"
+          >{{ $themePage.Params.Theme }}</a
+        >
+      </h4>
+      <nav>
+        <a class="e-button" href="{{ $success.Permalink }}">✅ Objectives</a>
+        <a class="e-button" href="{{ $prep.Permalink }}">🧑🏾‍💻 Prep</a>
+      </nav>
+      <ol class="e-list">
         {{ range $prep.Params.blocks }}
           {{ $block := ($site.GetPage .src) }}
           {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
@@ -42,5 +51,6 @@
         {{ end }}
       </ol>
     {{ end }}
+    <hr />
   {{ end }}
 {{ end }}
