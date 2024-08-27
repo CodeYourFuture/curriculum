@@ -3,7 +3,7 @@ title="Render Hooks"
 layout="slimdex"
 description="Render hooks override existing markdown rendering in Hugo"
 emoji="🪝"
-menu=["hooks"]
+menu=["theme"]
 +++
 
 https://gohugo.io/render-hooks/introduction/
