@@ -1,11 +1,14 @@
 +++
 title="Wemoji"
 emoji="😀😢😲"
-headless=true
 time=10
 [objectives]
     1="Express emojis using only facial expressions and body language"
     2="Identify emojis from facial expressions and body language"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 😀😢😲

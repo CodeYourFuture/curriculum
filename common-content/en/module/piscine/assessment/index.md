@@ -1,8 +1,11 @@
 +++
 title="Assessment"
 emoji="🧪"
-headless="true"
 time=15
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 The fourth class day will be interview day. Your interview will take place in a hiring platform, [Evidenced](https://www.evidenced.app/). An assessor will ask you questions about your code and your projects. You can be asked about any part of any of your projects, so make sure you understand it all, including the parts your teammates wrote.

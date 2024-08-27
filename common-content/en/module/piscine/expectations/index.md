@@ -1,12 +1,15 @@
 +++
 title="⚖️ Expectations"
 emoji="⚖️"
-headless="true"
 time=5
 objectives = [
   "List the expectations of the Piscine."
 ]
 hide_from_overview="true"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## Trainees, we expect you to:

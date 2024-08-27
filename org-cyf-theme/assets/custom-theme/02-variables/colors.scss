@@ -1,0 +1,17 @@
+@mixin light-palette {
+  // these brand colours are set and then everything else is derived from the key
+  --theme-color--brand: hsla(360, 83%, 60%, 0.95);
+  --theme-color--brand-shade: hsla(360, 83%, 60%, 0.25);
+  // this is picked from CYF Canva brand palette and we will take the hue from this
+  --theme-color--accent: hsl(247, 35%, 19%);
+  --theme-color--accent-shade: hsla(247, 35%, 35%, 0.15);
+  // this is the nearest accessible shade to brand red
+  --theme-color--pop: hsla(360, 83%, 45%, 0.95);
+
+  // key
+  --hue: 247;
+}
+
+@mixin dark-palette {
+  --hue: 247;
+}

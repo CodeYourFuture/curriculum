@@ -2,12 +2,15 @@
 title="Rhythm Master"
 emoji="🎵"
 hide_from_overview=true
-headless=true
 time=15
 [objectives]
 1="Replicate rhythmic patterns accurately"
 2="Identify the leader in a group activity"
 4="Synchronize with a group"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## 🎵 Rhythm Master Gameplay

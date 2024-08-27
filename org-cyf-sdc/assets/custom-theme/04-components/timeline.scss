@@ -1,0 +1,13 @@
+.c-timeline,
+[class="c-timeline"] {
+  &__entry,
+  [class="c-timeline__entry"] {
+    &:before {
+      background-color: var(--theme-color--pop);
+      color: var(--theme-color--paper);
+    }
+    &:hover:before {
+      background-color: var(--theme-color--accent);
+    }
+  }
+}

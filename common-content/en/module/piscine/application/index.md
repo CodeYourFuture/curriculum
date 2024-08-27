@@ -1,6 +1,5 @@
 +++
 title="Entry Criteria"
-headless="true"
 time=2
 emoji="🎯"
 hide_from_overview=true
@@ -8,6 +7,10 @@ objectives = [
   "List the mandatory requirements for the Piscine.",
   "Apply to join the Piscine."
 ]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 ## Welcome to the Piscine.

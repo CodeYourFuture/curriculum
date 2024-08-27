@@ -1,8 +1,11 @@
 +++
 title="Prep"
-headless="true"
 time=10
 hide_from_overview="true"
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 Double-check you have everything you need to start the Piscine.

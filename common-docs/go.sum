@@ -2,6 +2,8 @@ github.com/CodeYourFuture/CYF-PD v1.0.1-0.20240721130916-d70fc853a278 h1:QkyzRer
 github.com/CodeYourFuture/CYF-PD v1.0.1-0.20240721130916-d70fc853a278/go.mod h1:DJj2pdPceTBoHErILtnZMEYPZZuC8W9Fmt/faaW2tcw=
 github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240802103347-3eb0ebf8ad9b h1:iQyvh1DWWbx55Qvs923X2liMosQmQNlFumOrEmgq7c8=
 github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240802103347-3eb0ebf8ad9b/go.mod h1:MutmCRXM0wOmDQrZGMmn6jSWHHst5j1AUuf7hwrbILI=
+github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240817190624-149d97c26abe h1:3Kjzzk+6UCspKrEv4eTwhlGRisGsRoBR4P03UtC2Yic=
+github.com/CodeYourFuture/CYF-Projects/micro-front-end v0.0.0-20240817190624-149d97c26abe/go.mod h1:MutmCRXM0wOmDQrZGMmn6jSWHHst5j1AUuf7hwrbILI=
 github.com/CodeYourFuture/CYF-Workshops v0.0.0-20240730222326-e91ae6d11f47 h1:mDxz8UhJ5HUgOfKQSXgAxQ3VRYPe3MrKgj24awTFsqY=
 github.com/CodeYourFuture/CYF-Workshops v0.0.0-20240730222326-e91ae6d11f47/go.mod h1:boAUC/K1YXRsqYHTgJwP7REMXh+p7jzEwj5FHAlKyBs=
 github.com/CodeYourFuture/CYF-Workshops/micro-front-end v0.0.0-20240802103453-e77217be1596 h1:Vc2ngGyiLYK9mKVk+HQokU5YVuSvcuOKV/VdxGb2MOE=

@@ -1,6 +1,5 @@
 +++
 title="Backlog"
-headless="true"
 time=60
 hide_from_overview="true"
 objectives = [
@@ -8,6 +7,10 @@ objectives = [
     "Interpret business requirements and express them as test cases.",
     "Design interactions with a provided data set.",
     "Open a pull request and iterate on it in response to feedback."]
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 You will work with your team during the week. You will need to plan your work and track your progress. You will use a kanban planning board to do this.

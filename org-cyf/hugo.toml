@@ -2,24 +2,19 @@ title = "CYF Courses"
 baseURL = "https://curriculum.codeyourfuture.io/"
 
 [module]
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-theme" 
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/common-content" 
-    [[module.imports.mounts]]
-      source = "en"
-      target = "content"
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
-    [[module.imports.mounts]]
-      source = "content"
-      target = "content/guides"  
+[[module.imports]]
+path = "github.com/CodeYourFuture/curriculum/org-cyf-theme" 
+[[module.imports]]
+path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
+[[module.imports.mounts]]
+source = "content"
+target = "content/guides"  
       
 [menus]
   [[menus.secondary]]
-    name = "Guides 👈🏾"
+    name = "CYF 👈🏾"
     weight = 1
-    url = "/guides"
+    url = "https://codeyourfuture.io"
   [[menus.secondary]]
     name = "Join Us 👋🏿"
     weight = 2
@@ -64,16 +59,3 @@ baseURL = "https://curriculum.codeyourfuture.io/"
   url="https://systems.codeyourfuture.io/"
   weight = 7
 
-
-[params]
-googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
-description = "A free and open source software development programme."
-main_website = "https://codeyourfuture.io/"
-main_org_name = "Code Your Future"
-our_name="CYF"
-org = "https://github.com/CodeYourFuture"
-repo = "https://github.com/CodeYourFuture/curriculum/"
-root = "curriculum"
-
-
-theme = "common-theme"

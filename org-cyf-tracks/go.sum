@@ -12,3 +12,5 @@ github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240606160122-fc5c72
 github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240606160122-fc5c72085f6b/go.mod h1:Suv+qMxRbE8arUU9j3BLg05NLyitSpwgdKacTuSvdu0=
 github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240721115017-ac0d39b0bbe3 h1:jfodoahEtp2SLp76Bg4s+PQ/PLI37THOJWDLzfTYV1Q=
 github.com/CodeYourFuture/curriculum/org-cyf-guides v0.0.0-20240721115017-ac0d39b0bbe3/go.mod h1:ZfIZCi2lHOJ6o3fBKIydXIdtfgJcDrfE0PNLErJNFMs=
+github.com/CodeYourFuture/curriculum/org-cyf-theme v0.0.0-20240818070728-e8702788f7cb h1:P0mRDAC+Sh+7D+8Mlcyb6Sqid3w0asdincQMS9QLvpI=
+github.com/CodeYourFuture/curriculum/org-cyf-theme v0.0.0-20240818070728-e8702788f7cb/go.mod h1:Wv6VAMOIp5v0eZiHWSGzanDAIfK+prnnPK0hUPeFvwk=

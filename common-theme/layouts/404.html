@@ -1,4 +1,21 @@
 {{ define "main" }}
-  {{ partial "page-header.html" . }}
-  {{with .Content}}<article class="c-copy">{{ .}}</article>{{end}}
+  <h1>404</h1>
+
+  <article class="c-copy">
+    <h2>🔍 Page not found</h2>
+    <p>Sorry, we couldn't find the page you were looking for.</p>
+    <p>
+      It may have been moved or deleted, or you may have typed the address
+      incorrectly.
+    </p>
+    <p>You can try</p>
+    <ul>
+      <li>going back to the <a href="{{ .Site.BaseURL }}">home page</a></li>
+      <li>using the search box in the header</li>
+      <li>opening the main menu in the header</li>
+      <li>
+        looking at the <a href="{{ .Site.BaseURL }}/sitemap.xml">sitemap</a>
+      </li>
+    </ul>
+  </article>
 {{ end }}
