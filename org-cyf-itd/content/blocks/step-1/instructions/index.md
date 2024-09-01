@@ -14,7 +14,7 @@ time= 60
 1. Create an [account on Code Academy](https://www.codecademy.com/login).
 1. Once you are logged in, go to the case study [Streamline Resume Creation with Generative AI](https://www.codecademy.com/courses/streamline-resume-creation-with-generative-ai-case-study)
 1. Follow the instructions to create a customised CV
-1. Create a doc with the CV you generated, with your name in the file name
+1. Create a doc with the CV you generated
 
 {{<blocklink
   src="https://www.codecademy.com/courses/streamline-resume-creation-with-generative-ai-case-study"
