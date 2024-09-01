@@ -16,6 +16,5 @@ Here is the criteria you need to meet:
 ```objectives
 - You have completed the Code Academy case study
 - You have generated a customised resume and saved it in a doc
-- You added your name to the document file name
-- You have shared a doc with your generated resume and your name in the filename
+- You have shared a doc with your generated resume
 ```
