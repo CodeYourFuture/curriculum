@@ -3,54 +3,72 @@
 
   {{ partial "page-header.html" . }}
 
-  {{ .Page.Content }}
+  {{ with .Page.Content }}<section class="c-copy">{{ . }}</section>{{ end }}
   {{ $overviewMenu := .Page.Params.overview_menu }}
   {{ if not $overviewMenu }}
     {{ errorf "You must define a menu in your overview_menu front matter param" }}
   {{ end }}
+ 
   {{ range index .Site.Menus $overviewMenu }}
-    {{ $moduleURL := .URL }}
-    {{ $moduleTitle := .Page.Params.Title }}
-    {{ $moduleEmoji := .Page.Params.Emoji }}
-    <!-- We lazily show the module title only if there's actual content under it.-->
-    {{ $hasShownModuleTitle := false }}
-
-    {{ range where $site.Pages "Section" .Page.Section }}
-      {{ $thisSection := .Section }}
-
-      {{ if or (not .Params.Theme) (not (in .Params.menu_level "module")) }}
-        {{ continue }}
-      {{ end }}
-      {{ $themePage := . }}
-      {{ $relevantBlocksPage := or .Params.blocks_page_for_overview "prep" }}
-      {{/* this is the same strategy used on success page. Look there for how to add extra pages */}}
-      {{ $prep := .Site.GetPage (printf "%sprep/index.md" .CurrentSection.RelPermalink) }}
-      {{ $success := .Site.GetPage (printf "%ssuccess/index.md" .CurrentSection.RelPermalink) }}
-      {{ if not $hasShownModuleTitle }}
-        <h3>
-          {{ $moduleEmoji }} <a href="{{ $moduleURL }}">{{ $moduleTitle }}</a>
-        </h3>
-        {{ $hasShownModuleTitle = true }}
-      {{ end }}
-      <h4>
-        <a href="{{ .CurrentSection.RelPermalink }}"
-          >{{ $themePage.Params.Theme }}</a
-        >
-      </h4>
-      <nav>
-        <a class="e-button" href="{{ $success.Permalink }}">✅ Objectives</a>
-        <a class="e-button" href="{{ $prep.Permalink }}">🧑🏾‍💻 Prep</a>
-      </nav>
-      <ol class="e-list">
-        {{ range $prep.Params.blocks }}
-          {{ $block := ($site.GetPage .src) }}
-          {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
+    <section class="c-overview">
+      {{/* ===========================
+        for each module in the menu
+        ==============================
+      */}}
+      {{ $moduleURL := .URL }}
+      {{ $moduleTitle := .Page.Params.Title }}
+      {{ $moduleEmoji := .Page.Params.Emoji }}
+      {{/*  <!-- We lazily show the module title only if there's actual content under it.-->  */}}
+      {{ $hasShownModuleTitle := false }}
+      {{ range where $site.Pages "Section" .Page.Section }}
+        {{/* ==========================================
+          for each page in each sprint in the module <= this isn't looping over the sprints, it's a level higher
+          =============================================
+        */}}
+          {{ $thisSection := .Section }}
+          {{ if or (not .Params.Theme) (not (in .Params.menu_level "module")) }}
             {{ continue }}
           {{ end }}
-          <li>{{ $block.Title }}</li>
-        {{ end }}
-      </ol>
-    {{ end }}
-    <hr />
+          {{ $themePage := . }}
+          {{ $relevantBlocksPage := or .Params.blocks_page_for_overview "prep" }}
+          {{/* this is the same strategy used on success page. Look there for how to add extra pages */}}
+          {{ $prep := .Site.GetPage (printf "%sprep/index.md" .CurrentSection.RelPermalink) }}
+          {{ $success := .Site.GetPage (printf "%ssuccess/index.md" .CurrentSection.RelPermalink) }}
+          {{ if not $hasShownModuleTitle }}
+            <h3 class="c-overview__module e-heading__4">
+              {{ $moduleEmoji }}
+              <a href="{{ $moduleURL }}">{{ $moduleTitle }}</a>
+            </h3>
+            {{ $hasShownModuleTitle = true }}
+
+          {{ end }}
+          <div class="c-overview__subheading">
+          <h4 class="c-overview__sprint e-heading__5">
+            {{ $themePage.Params.Emoji |default "⏱️"}}
+            <a href="{{ .CurrentSection.RelPermalink }}"
+              >{{ $themePage.Params.Theme }}</a
+            >
+          </h4>
+          <nav class="c-overview__nav">
+            <a class="e-button" href="{{ $success.Permalink }}"
+              >✅ Objectives</a
+            >
+            <a class="e-button" href="{{ $prep.Permalink }}">🧑🏾‍💻 Prep</a>
+          </nav>
+          </div>
+         {{ with $prep.Params.blocks}} 
+         <ol class="c-overview__list">
+            {{ range $prep.Params.blocks }}
+              {{ $block := ($site.GetPage .src) }}
+              {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
+                {{ continue }}
+              {{ end }}
+              <li>{{ $block.Title }}</li>
+            {{ end }}
+          </ol>
+         {{end}}
+      {{ end }}
+      </section>
   {{ end }}
+    </section>
 {{ end }}
