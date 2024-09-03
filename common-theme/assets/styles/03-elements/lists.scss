@@ -1,0 +1,13 @@
+ul[class],
+ol[class],
+li[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.e-list,
+ol.e-list {
+  margin: revert;
+  line-height: 1.5;
+}

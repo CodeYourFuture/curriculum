@@ -46,8 +46,8 @@
   // backdrop
   --theme-color--block: hsla(var(--hsl), var(--alpha));
   --theme-color--outline: hsl(var(--hsl), 1);
-  --theme-color--backdrop-from: hsl(var(--hsl) / 0.25);
-  --theme-color--backdrop-to: hsl(var(--hsl) / 0.2);
+  --theme-color--backdrop-from: hsla(var(--hsl), 0.25);
+  --theme-color--backdrop-to: hsla(var(--hsl), 0.2);
 
   // signals
 

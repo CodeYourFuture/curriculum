@@ -1,0 +1,25 @@
+.c-overview {
+  display: grid;
+  // smallest gaps here so this view is very skimmable
+  --gap: var(--theme-spacing--1);
+  gap: var(--gap);
+  padding: var(--gap) var(--gap) var(--gap) 0;
+  max-width: var(--theme-spacing--linelength);
+
+  &__module {
+    font-weight: 600;
+    color: var(--theme-color--ink);
+    background-color: var(--theme-color--block);
+  }
+  &__subheading,
+  &__nav {
+    display: flex;
+    gap: var(--gap);
+    justify-content: space-between;
+  }
+  &__subheading {
+    @media (max-width: $c-min) {
+      flex-flow: row wrap;
+    }
+  }
+}
