@@ -1,6 +1,6 @@
 +++
 title ="Step 1: What to do"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
+description= "Use block programming to produce real web code"
 emoji= "🤖"
 time= 360
 [build]

@@ -32,6 +32,10 @@ Link to my project on Netlify : URL
 
 This is all about you, so be as creative as you like! We know that people who do well on our courses show creativity, curiosity, persistence, and rigour. That’s what we’re looking for from you in this project.
 
+{{<note type="tip" title="Skip the paywalled video">}}
+You do not need to watch the subscriber-only video titled "Solo Project: Hometown Homepage" at Scrimba. You can design your Hometown Homepage freely.
+{{</note>}}
+
 {{<blocklink
   src="https://v2.scrimba.com/learn-html-and-css-c0p"
   name="Learn HTML and CSS"
