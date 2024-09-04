@@ -1,6 +1,8 @@
 +++
 title="Software Development Course"
 map=["start here", "SDC", "tracks"]
-description="Here's how you find out _what_ to do _when_"
-emoji= "🧑🏾‍🔧"
+description="Alert: this course is not yet available. Content is incomplete."
+emoji= "🧑🏾‍🔧" 
 +++
+
+# This new course starts [📅 March 2025](https://curriculum.codeyourfuture.io).
