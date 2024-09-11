@@ -52,7 +52,7 @@
     text-align: right;
     mix-blend-mode: add;
     @include on-event(false, ".c-card") {
-      animation: float 6s infinite alternate ease;
+      animation: float 4s infinite alternate ease-in-out;
     }
   }
 }
@@ -79,11 +79,10 @@
 }
 
 @keyframes float {
-  0%,
-  100% {
+  from {
     transform: translateY(0);
   }
-  50% {
+  to {
     transform: translateY(-5px);
   }
 }
