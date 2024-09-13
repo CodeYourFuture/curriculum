@@ -74,11 +74,15 @@ array.forEach((item) => {
 
 ### Edge Cases
 
-Edge cases are when code does something you're not expecting and you didn't account for in your code.
+Inputs to some code can often be grouped into different categories.
+
+For example, if you accept a string, there are some strings which are all letters, some which are all numbers, some which contain punctuation, the empty string, and so on.
+
+Maybe your function accepts strings, but it always tries to get the first character from the string. In this case, the empty string is an edge-case - it's something you may need to handle specially, or that you may need to reject with an error.
 
 Some edge cases are valid data, and some are not.
 
-Some names contain punctuation; some people may only have a single name; your code must handle these edge cases. If someone doesn't enter a name at all, your code should reject this edge case and throw an error.
+Some names contain punctuation; some people may only have a single name; your code must handle these edge cases by accepting the names. If someone doesn't enter a name at all, your code should reject this edge case and throw an error.
 
 If your code doesn't notice unexpected inputs, you might rely on data that doesn't exist or are malformed. As your code gets more complicated, these problems get more difficult to resolve.
 
@@ -172,17 +176,13 @@ Guidelines are important in big organisations so that everyone writes code in th
 
 #### More Reading
 
-- [CodeYourFuture Coding Standards](./code-style-guide)
+- [CodeYourFuture Coding Standards](../style-guide)
 
 ### Well Indented Code
 
 Indentation is a fundamental aspect of code styling, and plays a large role in influencing readability. First of all, indented code is easier to read through than unindented code.
 
 With unindented code, the overall structure of the code might be somewhat difficult to see. However, with indented code, the overall structure of the code jumps out at you. Tabs tell you that a line of code is inside a function, loop, if statement, or else statement. Knowing which parts of the code is inside what will become especially important when your code becomes more complex.
-
-#### More Reading
-
-- [Importance of Code Indentation](http://mrbool.com/importance-of-code-indentation/29079)
 
 ### Good Function Names
 
@@ -200,7 +200,7 @@ A good function name might be
 function removeCapitalLetters(){)
 ```
 
-Sometimes if you can't come up with a good function name it's an indication that the function doesn't have a nice, crisp focus and needs to be refactored.
+Sometimes if you can't come up with a good function name it's an indication that the function doesn't have a nice, crisp focus and needs to be broken up or rewritten.
 
 But it's well worth the trouble finding the best possible names, since it makes your code so much more understandable and usable.
 
@@ -216,12 +216,14 @@ Each variable is named so it is clear which variable is being used at any time. 
 For example,
 
 ```js
-let pocketMoney = 20;
+let pocketMoneyPence = 2000;
 ```
 
-means that the variable `pocketMoney` is being used to store how much pocket money you have. Right now you have £20.
+means that the variable `pocketMoneyPence` is being used to store how much pocket money you have, counting the number of pence. Right now you have £20.
 
 The name given to each variable is up to the programmer, but ideally a variable name should have meaning you can understand without needing to read any other code, i.e. it should reflect the value that it is holding.
+
+When tracking numbers that have multiple possible units, we often include the unit in the variable name. Above, we used `pocketMoneyPence`, because if we'd just used `pocketMoney` it would be unclear whether 2000 meant £20 or £2000 (or possibly €20!).
 
 #### More Reading
 

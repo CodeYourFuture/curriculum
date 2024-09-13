@@ -1,7 +1,7 @@
 +++
 title="🎬 Active learning"
 
-time= 30
+time=10
 [objectives]
     1="Define active learning"
     2="Explain why active learning is critical to the our educational philosophy"
