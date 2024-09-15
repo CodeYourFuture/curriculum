@@ -1,12 +1,3 @@
-<!-- 
-- Prep: we have a short description of what our objectives are, and a couple of sentences on
-spreadsheets & databases tabular databases with rows (records) and columns (properties)
-- Backlog Item 1 (or maybe part of prep): Send them to some well-written SQL intro / video
-For now, maybe it’s enough to focus on SELECT, WHERE, LIMIT, ORDER BY and one aggregation function (maybe MAX or COUNT)
-- Backlog item 2: Some practice exercises on Google Sheets
-Understanding a requirement in English / Creating a query to satisfy the requirement
-Submit by sharing a read-only link to their Google Sheet -->
-
 +++
 title = 'Introduction to databases, using Google Sheets'
 
@@ -74,9 +65,9 @@ Start by making sure we're familiar with Google sheets. The following tutorials 
 Now you've got a good understanding of Google Sheets. We can start to use SQL, a powerful tool you will regularly come across when working with databases.
 
 What the video below, make sure you copy the dataset provided in the video and follow along with the queries as you go.
-[Here is a link to the data](https://docs.google.com/spreadsheets/d/1zPeHxhKkYmdiqXNhMwhfC1A0o1wI0zNiD5Gsks2SYoc/template/preview)
 
-- SQL in Google Sheets - <https://www.youtube.com/watch?v=dTNamL30sDg>
+- [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg)
+- [Here is a link to the data](https://docs.google.com/spreadsheets/d/1zPeHxhKkYmdiqXNhMwhfC1A0o1wI0zNiD5Gsks2SYoc/template/preview)
 
 # Backlog 2 - SQL Problems using Google Sheets
 
