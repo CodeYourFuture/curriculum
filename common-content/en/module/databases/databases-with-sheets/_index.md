@@ -64,10 +64,12 @@ Start by making sure we're familiar with Google sheets. The following tutorials 
 
 Now you've got a good understanding of Google Sheets. We can start to use SQL, a powerful tool you will regularly come across when working with databases.
 
-What the video below, make sure you copy the dataset provided in the video and follow along with the queries as you go.
+What the video below, copying the dataset provided in the video and follow along with the queries as you go.
 
 - [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg)
 - [Here is a link to the data](https://docs.google.com/spreadsheets/d/1zPeHxhKkYmdiqXNhMwhfC1A0o1wI0zNiD5Gsks2SYoc/template/preview)
+
+Do up to at the step `least GROUP BY clause and aggregation`. We can skip PIVOT, LIMIT and OFFSET for now, you wont need these for the next piece of coursework but feel free to look at them if you're curious and not short on time.
 
 # Backlog 2 - SQL Problems using Google Sheets
 
