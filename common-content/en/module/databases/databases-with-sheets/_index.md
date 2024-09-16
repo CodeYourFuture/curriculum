@@ -19,7 +19,7 @@ emoji= '🧩'
 
 ### What is a database?
 
-A database is a structured set of data held in a computer. It provides ways to store, retrieve and organize information.
+A database is a structured set of data held in a computer. It stores, retrieves and organizes information.
 
 You will actually very likely be using these in your every day life! A few examples:
 
