@@ -42,7 +42,7 @@ Most databases arrange data into columns and rows.
 | Tom           | Jones   | +447700000    |
 | Ali           | Smith   | +327700000    |
 
-Tom and Ali's details here are records in the database, where the information is stored in rows, and the properties of what we're storing is the columns.
+Tom and Ali's details here are records in the database.  The properties are listed as columns and the values are in rows. Each row is a new record. 
 
 If you've used tools such as Excel or Google sheets, you will have seen this sort of structure before. We'll take a closer look at these in the backlog exercises to do this sprint.
 
