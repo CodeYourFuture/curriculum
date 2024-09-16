@@ -23,7 +23,7 @@ A database is a structured set of data held in a computer. It stores, retrieves 
 
 You already use databases in your everyday life! A few examples:
 
-- The messages you've sent on Slack will be in a database.
+- The messages you send on Slack are stored in a database.
 - CYF will store your're contact details, that will be on a database!
 - You're phones contact list? That will be in a database too!
 
