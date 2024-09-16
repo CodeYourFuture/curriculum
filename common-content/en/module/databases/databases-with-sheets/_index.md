@@ -21,7 +21,7 @@ emoji= '🧩'
 
 A database is a structured set of data held in a computer. It stores, retrieves and organizes information.
 
-You will actually very likely be using these in your every day life! A few examples:
+You already use databases in your everyday life! A few examples:
 
 - The messages you've sent on Slack will be in a database.
 - CYF will store your're contact details, that will be on a database!
