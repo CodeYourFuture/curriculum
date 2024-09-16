@@ -25,7 +25,7 @@ You already use databases in your everyday life! A few examples:
 
 - The messages you send on Slack are stored in a database.
 - CYF will store your're contact details, that will be on a database!
-- You're phones contact list? That will be in a database too!
+- Your phone contact list? That will be in a database too!
 
 Have a think about what else you do on your computer and phone, what information is there, where do you think it's stored?
 
