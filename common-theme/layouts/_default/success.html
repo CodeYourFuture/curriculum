@@ -15,6 +15,9 @@
       {{ end }}
 
       {{ if in .Params.menu_level "module" }}
+        {{ if not .Params.Objectives }}
+          {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." .Page.RelPermalink }}
+        {{ end }}
         {{/* At the module level, we just want the overall criteria for progressing to the next module */}}
       {{ else }}
         <section class="c-objectives">
@@ -38,7 +41,7 @@
           {{ end }}
           {{/* If you don't have any blocks but you do have places to get them from */}}
           {{ if and (not $blocks) $dayplan $prep }}
-            {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." $.Page.RelPermalink }}
+            {{ errorf "There are no learning objectives on the %s page. Make sure this sprint has learning objectives." $.Page.RelPermalink }}
           {{ end }}
           {{/* Deduplicate blocks */}}
           {{ $uniqueSrcs := slice }}
