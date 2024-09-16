@@ -8,7 +8,7 @@ emoji= '🧩'
     1='Explain what databases are'
     2='Explain the difference between a row and column'
     3='Be familiar with Google Sheets'
-    4='Be able to use SQL syntax to retrieve information from a database'
+    4='Use SQL syntax to retrieve information from a database'
 
 [build]
   render = 'never'
