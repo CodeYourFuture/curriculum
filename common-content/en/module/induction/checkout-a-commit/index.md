@@ -1,11 +1,11 @@
 +++
-title = '🔍 Check out a commit'
+title = '🔍 Inspect a commit'
 
 time ="20"
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Given a remote or local repository, identify the files and folders from any commit in a version timeline'
+    1='Given a remote repository on GitHub, identify the files and folders from any commit in a version timeline'
 [build]
   render = 'never'
   list = 'local'

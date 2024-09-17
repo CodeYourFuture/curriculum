@@ -35,7 +35,7 @@ src="module/induction/viewing-files"
 name="branching"
 src="module/induction/branching"
 [[blocks]]
-name="wrapping up"
+name="wrapping up Git"
 src="module/induction/wrapping-up"
 [[blocks]]
 name="Recap HTML and CSS"

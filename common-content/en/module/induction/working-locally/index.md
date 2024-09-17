@@ -5,9 +5,7 @@ time ="20"
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Figure out what we need to do next in the course'
-    2='Locate the prep view on the curriculum'
-    3='Practice asking for guidance/help when we are stuck'
+    1='Clone a remote repository from GitHub into a local folder'
 [build]
   render = 'never'
   list = 'local'
@@ -45,11 +43,13 @@ A repository on our own computer is said to be **local**.
 
 You'll need to clone **your fork** of the education blog repo.
 
-Follow through the steps in this video 👉 https://www.youtube.com/watch?v=ILJ4dfOL7zs
+Follow through the steps in the video below.
 
 ##### 🎗️ Reminder:
 
-- use the url for your fork of the `education-blog` repo when you are cloning
-- when selecting the location to clone your files, choose the `CYF` folder you created in the [module prep](/user-data/prep/#create-cyf-folder)
+- Use the URL for your fork of the `education-blog` repo when you are cloning
+- When selecting the location to clone your files, choose the `CYF` folder you created in the [module prep](/user-data/prep/#create-cyf-folder)
 
 {{</note>}}
+
+{{<youtube>}}https://www.youtube.com/watch?v=ILJ4dfOL7zs{{</youtube>}}

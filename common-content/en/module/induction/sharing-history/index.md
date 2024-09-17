@@ -1,12 +1,12 @@
 +++
 title = '🗄️ 🌐 Sharing history'
 
-time ="20"
+time="30"
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Given a remote or local repository, identify the number of commits'
-2='Given a remote or local repository, identify the author, time and message of a given commit'
+1='Given a remote repository on GitHub, identify the number of commits on the main branch'
+2='Given a remote repository on GitHub, identify the author, time and message of a given commit'
 [build]
   render = 'never'
   list = 'local'
