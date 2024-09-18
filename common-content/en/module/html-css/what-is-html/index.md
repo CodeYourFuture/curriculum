@@ -133,7 +133,13 @@ HTML tags are powerful because they are meaningful. They are meaningful because 
 
 HTML tags are powerful because they are meaningful. They are meaningful because they are semantic. Semantic HTML is powerful HTML.
 
-The better structured your document, the more meaning you can pack into it, the more powerful your code is, the better it will work in more contexts, and more things will be able to interface with it. The more meaning you put in, the more meaning other readers can get out.
+The better structured your document, the more meaning you can pack into it, the more powerful your code is, the better it will work in more contexts, and more things will be able to interface with it.
+
+One place semantic HTML is useful is that if you use a `<footer>` tag instead of a `<div>` tag, a screen reader can understand that it is a footer, and treat it specially.
+
+Another place it's useful is that another programmer reading the CSS you've written can see a `header { ... }` block and know that you're styling the header, rather than needing to work out what `div.top { ... }` means and applies to.
+
+By using semantic conventions, we make it easier for everyone and everything to understand what we're trying to express.
 
 </details>
 
