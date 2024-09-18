@@ -23,7 +23,7 @@ You probably already have this if you have done previous modules.
 {{<note type="warning">}}
 Code Your Future does not support Windows.
 
-We have found that we don't reliably have volunteers at class who can debug Windows problems, and they frequently come up stopping trainees from making progress.
+We have found that we don't reliably have volunteers at class who can debug Windows problems, and they frequently come up, stopping trainees from making progress.
 
 We do not support Windows so as to not waste lots of trainee and volunteer time, even though Windows is a popular operating system and has features like WSL which help to get experience with Unix.
 
