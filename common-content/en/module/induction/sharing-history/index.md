@@ -5,7 +5,7 @@ time="30"
 facilitation = false
 emoji= '🧩'
 [objectives]
-1='Given a remote repository on GitHub, identify the number of commits on the main branch'
+1='Identify the number of commits on the main branch of a remote repository'
 2='Given a remote repository on GitHub, identify the author, time and message of a given commit'
 [build]
   render = 'never'
