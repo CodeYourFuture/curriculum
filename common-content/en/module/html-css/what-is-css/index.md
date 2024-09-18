@@ -71,6 +71,8 @@ It means the order rules are applied.
 
 One way rules are applied in CSS is inheritance: children inherit from parents. If a parent node has red text, all its children will inherit that red text color. But when another rule with higher precendence comes and overrules, it replaces the rule which had lower precedence. An explicit rule targeting an element directly overrules a rule it inherited from its parent.
 
+Inheritance forms a hierarchy. The elements being styled are hierarchical - with children inheriting from (but perhaps overriding) parents.
+
 Everything in CSS is determined by order. Order is so important in CSS because CSS is a declarative programming language that programs the layout of boxes.
 
 CSS renders the nodes in our DOM tree as nested boxes, and we program their appearance using fonts, colours, and spacing.
@@ -105,6 +107,8 @@ The browser sorts like this:
 1. Sort by origin
 1. Sort by specificity
 1. Sort by document **order**
+
+Specificity forms a hierarchy. CSS rules are hierarchical - with more specific rules being applied after (and perhaps overriding) less specific rules.
 
 </details>
 
