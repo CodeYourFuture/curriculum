@@ -28,7 +28,8 @@ const config = () => {
           clientSecret: process.env.GITHUB_CLIENT_SECRET,
         },
       },
-      domain: process.env.DOMAIN,
+      // Netlify sets this env var correctly for both prod deploys and deploy previews.
+      domain: process.env.URL,
     },
     { abortEarly: false }
   );
