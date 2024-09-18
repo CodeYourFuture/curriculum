@@ -47,9 +47,9 @@ const handler: Handler = async (event: HandlerEvent, context) => {
 
   const gh = await githubServiceBuilder(token);
 
-  const { module, sprint, issue, prevPath } = stateOrFail;
+  const { module, sprint, issue, prevURL } = stateOrFail;
 
-  const url = new URL(prevPath || "/", config().domain);
+  const url = new URL(prevURL);
 
   // if issue is defined, we clone just that issue
   if (issue) {
