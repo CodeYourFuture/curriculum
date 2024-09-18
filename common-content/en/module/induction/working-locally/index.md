@@ -43,7 +43,7 @@ A repository on our own computer is said to be **local**.
 
 You'll need to clone **your fork** of the education blog repo.
 
-Follow through the steps in the video below.
+Follow through the steps in the video "How to clone a repository from GitHub to Visual Studio Code".
 
 ##### 🎗️ Reminder:
 

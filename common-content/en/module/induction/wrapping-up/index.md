@@ -19,7 +19,7 @@ emoji= '🧩'
 
 Now you'll need to **create a commit**.
 
-You can use the video below to figure out how to create a commit.
+You can use the "How to commit changes and push them in Visual Studio Code" video to figure out how to create a commit.
 
 We'll cover this topic often in workshops. Come to a CYF centre to work on this with a mentor.
 
