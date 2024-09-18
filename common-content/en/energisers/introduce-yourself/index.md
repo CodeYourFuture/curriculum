@@ -20,7 +20,7 @@ Facilitator(s) start by sharing your elevator pitch and then popcorn around the 
 
 Some tips:
 - Your response should be around 30 seconds.
-- Have a list of items ready but tailor what you say to your audience. For example, at a conference don't tell them you love making cupcakes but on the first day of a new job introducing yourself to your new team feel free to add 1-2 personal details.
+- Have a list of items ready but tailor what you say to your audience. For example, at a technical conference focus on your technical interests rather than your love of making cupcakes, but on the first day of a new job introducing yourself to your new team feel free to add 1-2 personal details.
 - Try to structure your response, 
     - Who are you? Where are you from? Where have you worked? Have you studied somewhere and what subjects?
     - What do you do? What are your skills, passions, or hobbies? What motivates you?
