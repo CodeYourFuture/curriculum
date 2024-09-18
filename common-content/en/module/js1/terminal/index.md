@@ -41,7 +41,7 @@ We can issue commands to the computer using the terminal. These commands are ins
 
 The computer knows `ls` means **"list the files and directories in the current directory"**.
 
-During the execution of a computer program, a computer will store and modify {{<tooltip title="data">}}Data is information. Text, images, numbers are all _forms_ of data.{{</tooltip>}} The data in a executing program is sometimes called the **state**. A computer program will modify data with {{<tooltip title="operations">}} Operations modify or create data, from the current data in the program. Adding numbers, joining words, changing text to ALLCAPS, are all operations.
+During the execution of a computer program, a computer will store and modify {{<tooltip title="data">}}Data is information. Text, images, numbers are all _forms_ of data.{{</tooltip>}} The data in an executing program is sometimes called the **state**. A computer program will modify data with {{<tooltip title="operations">}} Operations modify or create data, from the current data in the program. Adding numbers, joining words, changing text to ALLCAPS, are all operations.
 {{</tooltip>}}
 
 `ls` is a shell command. Shell is a programming language we use to interact with the files and folders on our computer. You already know at least two more programming languages. Can you name them?

@@ -1,5 +1,5 @@
 +++
-title = "setup"
+title = "prep"
 description = "Get setup with the main resources you'll need to learn programming"
 layout = "prep"
 emoji= "🧰"
