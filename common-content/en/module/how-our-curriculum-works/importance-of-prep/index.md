@@ -17,7 +17,7 @@ Trainees should show up to class with questions and problems they didn't underst
 
 {{<multiple-choice
 question="Which is the best use a volunteer's time on a class day?"
-answers="To read an introduction of a topic to trainees. | To help trainees with the questions they had having done the prep work. | To watch trainees read an explantion of a topic."
+answers="To read an introduction of a topic to trainees. | To help trainees with the questions they had having done the prep work. | To watch trainees read an explanation of a topic."
 feedback="Think again: Trainees can read material themselves at their own pace at home. | Right! Working together on real problems is a great use of in-person time. | Not quite: Just watching people do their own work is quite boring and doesn't add much value."
 correct="1"
 >}}
