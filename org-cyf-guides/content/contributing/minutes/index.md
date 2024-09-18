@@ -17,6 +17,71 @@ Attendees:
 
 ---
 
+## 2024-09-10
+
+Attendees: Ali Smith, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [x] Daniel (Carry-over): Finish off Piscine project
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [ ] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [x] Sally: Put up a banner on the SDC website saying it's under construction.
+
+### 📝 Agenda points
+
+#### Timings
+
+Calendar currently suggests first Piscine is in May - think this is a mistake and it's meant to be in February/March-ish?
+
+#### Feedback from ITD First Saturday
+
+Usual first-day chaos; generally felt good having something that felt like class!
+
+Scrimba seem to have changed their payment model - there was a paywall in front of an important step. Ali led an in-promptu CodePen + export + publish workshop.
+
+CodePen is a bit frustrating in that you effectively just see the body, and it hides a bunch of what actually happens under the covers.
+
+ITD site being un-linked has pros and cons. Good that it forces people to focus on one thing at a time. Bad because if there are e.g. bugs in the ITD platform it's hard to work around.
+
+A surprising number of trainees showed up on Saturday without their laptops. Also unclear whether a goal of ITD is still to be able to do it with just a phone. Relatedly: What about people doing ITP who don't have laptops, or only have Windows.
+
+Related: We probably _do_ want to financially support some folks through ITP if they're making progress and are likely to succeed, but a fair up-front policy that doesn't bankrupt us is complicated to devise.
+
+It feels like ITD -> ITP is a good place to do some check-pointing, but unclear how.
+
+It's a little unclear to ITD trainees what exactly happens when ITD finishes.
+
+CodeAcademy apparently has a regex with look-behind that crashes on older browsers. Boo!
+
+Most people had laptops (a few didn't). A lot of the really broken stuff was on CYF loaner laptops.
+
+It's no longer super clear exactly where "the course" starts, and who is a trainee now. We should firm this up. See also [Sally's proposed trainee contract](https://docs.google.com/document/d/14sqxUuJEaHTDTiBf3QlAsQHW2jQ0es3Dw9D8aNs2Kc4/edit).
+
+There's no specific day-plan, and it's not super clear who should be reviewing steps (which needs system access).
+
+This round (first after a long hiatus) has a very large number of participants - should we be worried about the size of the first ITP? In London so far ~50 people have made it to step 3/7. We need to work out target group sizes, and how we want to handle outcomes which are either too big or small (both of which could happen).
+
+Barath seems a little stressed about how much there is to do in ITP and that it feels high-stakes - particularly that the whole databases piece (which we view as nice-to-have for the first round, rather than strictly required).
+
+#### Starter tasks for new potential team members
+
+We should think of some.
+
+### ❗Actions
+
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [ ] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [ ] Everyone: Think about starter tasks for new potential team members.
+
+---
+
 ## 2024-08-27
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
