@@ -1,7 +1,7 @@
 +++
 title="🫱🏾‍🫲🏿 Study groups"
 
-time= 20
+time=10
 [objectives]
     1="Locate a study group block"
     2="Explain the importance of study groups"
