@@ -30,8 +30,11 @@ Happily, computers can evaluate expressions for us.
 REPL is a special type of program that stands for:
 
 **Read** - Users enter some code that Node will **read**
+
 **Evaluate** - Node will then **evaluate** this code
+
 **Print** - Node will **print** the result to the terminal
+
 **Loop** - Node will **loop** back to the beginning and prompt users to input some more code
 
 With a REPL we can run pieces of code and look at what happens.
@@ -72,7 +75,7 @@ Note: If you don't know how to do any of the steps above, then try searching for
 
 Create your own expressions and enter them into the Node REPL.
 
-_Before_ hitting enter, predict what the REPL output will be. Write your prediction down and compare it to the outcome.
+_Before_ you type in the expressions, predict what the REPL output will be. Write your prediction down and compare it to the outcome.
 
 {{</note>}}
 {{</tab>}}
