@@ -3,7 +3,6 @@ title=" Introduce Yourself!"
 emoji="🎙️"
 time=20 
 objectives=["Introduce yourself in 30 seconds", "Learn two key facts about each other"]
-1="Craft an elevator pitch" 2="Learn about your peers" 
 [build] 
     render = 'never' 
     list = 'local' 
