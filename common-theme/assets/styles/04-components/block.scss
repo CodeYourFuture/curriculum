@@ -1,4 +1,5 @@
 .c-block {
+  scroll-snap-align: start;
   background-color: var(--theme-color--paper-fade);
   z-index: 2;
   position: relative;

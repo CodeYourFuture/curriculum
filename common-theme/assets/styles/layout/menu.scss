@@ -5,18 +5,22 @@
   overflow-y: auto;
   position: fixed;
   top: 0;
-  left: -100%;
+  right: 100%;
   visibility: hidden;
-  height: 100vh;
+  height: 100dvh;
   z-index: 40;
-  @include backdrop(true, true, 1);
+  background-image: linear-gradient(
+    -45deg,
+    var(--theme-color--block),
+    var(--theme-color--paper)
+  );
   box-shadow: var(--theme-box-shadow);
 
   &.is-active {
     visibility: visible;
-    left: 0;
+    right: 0;
     outline: none;
-    animation: slide-menu 0.8s ease-out forwards;
+    animation: slide-menu 0.5s ease-out forwards;
   }
 
   grid-template:
@@ -24,7 +28,7 @@
       var(--theme-spacing--gutter),
       1fr
     )
-    var(--theme-spacing--container)
+    auto
     minmax(var(--theme-spacing--gutter), 1fr);
 
   &__container {
@@ -34,17 +38,25 @@
       ". heading   action    ." min-content
       ". .......   ......... ." var(--gap)
       ". primary   primary   ." 1fr
-      ". secondary ......... ." min-content
+      ". secondary secondary ." min-content
       ". .......   ......... ." var(--gap) /
-      var(--gap) calc(
-        var(--theme-spacing--container) - var(--theme-spacing--touchtarget)
-      )
+      var(--gap) 1fr
       var(--theme-spacing--touchtarget) var(--gap);
     align-items: center;
   }
 
+  &__action {
+    border-radius: 0;
+    --button-padding: 0;
+    margin: 0 0 auto auto;
+    width: fit-content;
+    min-width: fit-content;
+  }
+
   &__link {
-    text-decoration: none;
+    @include on-event {
+      text-decoration: underline dotted var(--theme-color--accent);
+    }
   }
 
   &__heading {
@@ -66,23 +78,21 @@
 
   &__secondary {
     display: flex;
-    width: 90vw;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background: var(--theme-color--block);
-    color: var(--theme-color--pop);
+    gap: var(--theme-spacing--gutter);
   }
 }
 
 @keyframes slide-menu {
   0% {
-    transform: translateX(-100vw);
+    transform: translateX(100vw);
   }
   40% {
-    transform: translateX(-100vw);
+    transform: translateX(100vw);
   }
   50% {
-    transform: translateX(-100vw);
+    transform: translateX(100vw);
   }
   100% {
     transform: translateX(0);

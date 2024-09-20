@@ -7,6 +7,7 @@ const skipLink = document.getElementById("skip-link");
 function toggleMenu() {
   menu.classList.toggle("is-active");
   menu.toggleAttribute("hidden");
+  main.toggleAttribute("inert");
   if (menu.getAttribute("hidden") == null) {
     menu.focus();
   } else {
