@@ -33,8 +33,10 @@ All these expressions are _function calls_: we’re passing input (`"hello world
 No such pre-built function converts any number to a percentage, so we must write our own. We're going to create a function called `convertToPercentage` with the following requirements:
 
 _Given_ a number input
+
 _When_ we call `convertToPercentage` with the number input
-_Then_ we get back a string representing the percentage for that
+
+_Then_ we get back a string representing the percentage equivalent of that number.
 
 Here are some examples:
 
@@ -49,6 +51,8 @@ convertToPercentage(0.231); // should return "23.1%"
 ### Useful expressions
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
+
+We're not going to define our function yet, we will instead work out what it should do. After we've worked this out, we'll learn how to define a function which does the same thing.
 
 In programming, we always try the simplest thing first. Let’s consider how to convert just one number to a percentage. Look at this variable declaration:
 
@@ -84,7 +88,7 @@ const width = 30; // Also just an example - your code should still work if this 
 
 Using these variables, let's calculate the [area](https://www.bbc.co.uk/bitesize/topics/zjbg87h/articles/zwqt6fr) and [perimeter](https://www.bbc.co.uk/bitesize/topics/zvmxsbk/articles/zmrpxbk) of the rectangle.
 
-We can calculate the area and perimeter by creating expressions that use the `height` and `width` variables we just created. Hint: read the links above if you don't remember how to calculate area and perimeter of a rectangle.
+We can calculate the area and perimeter by creating expressions that use the `height` and `width` variables we just created. Hint: read the links above if you don't know how to calculate area and perimeter of a rectangle.
 
 Finally, we'll create two more variables: `area` and `perimeter` to store the result of the calculations.
 

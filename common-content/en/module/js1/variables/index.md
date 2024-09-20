@@ -1,7 +1,7 @@
 +++
 title = '🏷️ Saving expressions'
 
-time = 5
+time = 15
 facilitation = false
 emoji= '🗄️'
 [objectives]
@@ -15,13 +15,13 @@ emoji= '🗄️'
 
 +++
 
-In programming we often want to _reuse_ our work. Consider the string: `"Hello there";`
+In programming we often want to _reuse_ our work. Consider the string: `"Hello there"`
 
-Suppose we want to create different greetings for different people, like: `"Hello there, Alicia"` `"Hello there, Barny";`
+Suppose we want to create different greetings for different people, like: `"Hello there, Alicia"` `"Hello there, Barny"`
 
 We can use a **variable** to store this string and reuse it. How can we create a {{<tooltip title="variable" emoji="🏷️">}}A **variable** is a label for a piece of data. We assign a piece of data to a label and then refer back to this label, in place of the data.{{</tooltip>}}
 
-We can create a variable in our program by writing a **variable **{{<tooltip title="declaration" type="definition">}}A _declaration_ is an instruction that binds an identifier to a value.{{</tooltip>}}, like this:
+We can create a variable in our program by writing a **variable** {{<tooltip title="declaration" type="definition">}}A _declaration_ is an instruction that binds an identifier to a value.{{</tooltip>}}, like this:
 
 ```js title="variable declaration"
 const greeting = "Hello there";
@@ -30,8 +30,8 @@ const greeting = "Hello there";
 Break down the different syntactic elements of this variable declaration:
 
 - `const` is a keyword used to indicate we're creating a variable.
-- `greeting` is the **identifier** - it is used to refer to a variable.
-- `=` this is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
+- `greeting` is the **identifier** - it can be used to refer to a variable after it has been declared.
+- `=` is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
 - `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
 
 {{<tabs name="greeting">}}
@@ -68,7 +68,7 @@ We just used backticks to create a template literal.
 `A template literal places ${expressions} inside strings;
 ```
 
-With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign `$` and a set of curly braces `()`. We can put any expression (e.g. a variable name) inside the curly braces. The value that expression evaluates to is then placed inside the string.
+With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign `$` and a set of curly braces `{}`. We can put any expression (e.g. a variable name) inside the curly braces. The value that expression evaluates to is then placed inside the string.
 
 When an operation uses an expression, that expression is immediately evaluated, and how it was written is forgotten about. That means that the `greetAlicia` variable is the same in all three of these cases:
 
@@ -77,9 +77,11 @@ const greetAlicia = "Hello there, Alicia";
 ```
 
 {{<note type="note" title="string literal">}}
-In this example, we don't use a variable or an expression to create a string. Instead we write a string `"Hello there, Alicia"`.
+In this example, we don't use a variable or a template to create a string. Instead we write a string `"Hello there, Alicia"`.
 
 A sequence of characters enclosed in quotation marks is called a **string literal**. `"Hello there, Alicia"` is a string literal.
+
+Similarly, `10` is a **number literal**.
 
 ## {{</note>}}
 
