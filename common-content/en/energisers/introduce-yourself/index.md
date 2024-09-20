@@ -9,7 +9,7 @@ objectives=["Introduce yourself in 30 seconds", "Learn two key facts about each 
     publishResources = false 
 +++
 
-### The task
+### Activity
 
 In your professional life, you will often be asked to introduce yourself. It is a good idea to have an [elevator pitch](https://careerdevelopment.princeton.edu/sites/g/files/toruqf1041/files/media/elevator_pitch.pdf) ready, a brief (30 seconds) way of introducing yourself, getting across a key point or two, and making a connection with someone.
 
