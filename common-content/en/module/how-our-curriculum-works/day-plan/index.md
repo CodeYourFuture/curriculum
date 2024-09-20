@@ -1,7 +1,7 @@
 +++
 title="📅 Day plan"
 
-time= 30
+time=5
 [objectives]
     1="Describe how the day plan works"
     2="Identify some frequently used blocks in a module"

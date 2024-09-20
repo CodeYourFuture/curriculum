@@ -16,7 +16,7 @@ export class CloneResponse {
 }
 
 export type RequestState = {
-  prevPath: string;
+  prevURL: string;
   module: string;
   sprint?: string;
   issue?: number;
