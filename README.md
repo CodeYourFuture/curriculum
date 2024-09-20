@@ -36,14 +36,14 @@ To develop a specific site, `cd` into the relevant sub-directory and follow the 
 1. In the root of this repo, or in your own repo, run:
 
 ```bash
-hugo new site org-<your-org-name>
-cd org-<your-org-name>
+hugo new site org-{your-org-name}
+cd org-{your-org-name}
 ```
 
 2. Initialise your new site as a hugo module, as only modules can import modules:
 
 ```zsh
-hugo mod init github.com/CodeYourFuture/curriculum/org-<your-org-name>
+hugo mod init github.com/{your-org}/{your-repo}/{your-module}
 ```
 
 Then add the common theme and content modules as hugo modules to hugo.toml:
