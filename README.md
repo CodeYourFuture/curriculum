@@ -1,6 +1,6 @@
 # Curriculum Platform
 
-> [!TIP]
+> [!TIP]  
 > Docs: https://common.codeyourfuture.io
 
 ## What is it?
