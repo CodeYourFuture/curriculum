@@ -16,13 +16,17 @@ name="Workshop"
 src="blocks/workshop"
 time="120"
   [[blocks.nested.blocks]]
-    name="Asking questions"
+    name="Asking questions [PD]"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions"
-    time=0
+    time=60
   [[blocks.nested.blocks]]
-    name="Devtools"
+    name="Devtools [Tech]"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools"
-    time=0
+    time=60
+  [[blocks.nested.blocks]]
+    name="Components 1 [Tech]"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/components-1"
+    time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
