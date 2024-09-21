@@ -15,6 +15,18 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="120"
+    [[blocks.nested.blocks]]
+      name="Playing Computer [Tech]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
+      time=60
+    [[blocks.nested.blocks]]
+      name="Reporting Bugs [PD]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
+      time=60
+    [[blocks.nested.blocks]]
+      name="Javascript Test Your Understanding [Tech]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
+      time=30
 [[blocks]]
 name="lunch"
 src="blocks/lunch"

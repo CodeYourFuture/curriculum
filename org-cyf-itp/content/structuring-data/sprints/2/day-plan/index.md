@@ -15,6 +15,18 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="120"
+    [[blocks.nested.blocks]]
+      name="Debugging [Tech]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/debugging"
+      time=60
+    [[blocks.nested.blocks]]
+      name="Questions and Reviews [PD]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+      time=60
+    [[blocks.nested.blocks]]
+      name="Javascript Test Your Understanding Level 2 [Tech]"
+      src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/js1-week-2"
+      time=30
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
