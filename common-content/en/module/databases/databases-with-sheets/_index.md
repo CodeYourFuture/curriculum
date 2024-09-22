@@ -35,7 +35,7 @@ Most databases arrange data into columns and rows.
 
 - A column is used to store various properties about the data. In the example of your phones contact list, this would be name, mobile number, home phone number etc.
 
-- A row is then a record of this information. So an entry into your phone book, it will have a name e.g. Tom, and a phone number.
+A **row** is a single record of this information. 
 
 | First Name    | Surname | Mobile Number |
 | ------------- | ------- | ------------- |
