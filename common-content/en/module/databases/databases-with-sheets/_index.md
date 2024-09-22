@@ -31,7 +31,12 @@ What else you do on your computer and phone? What information is there? And wher
 
 ### How do they work?
 
-Most databases arrange data into columns and rows.
+Most databases arrange data into **columns** and **rows**.
+
+| column 1 | column 1|
+|---------|--------|
+| row 1 | row 1 |
+| row 2 | row 2|
 
 A **column** stores properties of the data. In the example of your phone's contact list, this would be name and number. What other properties does your address book store? Open your phone and take a look. 
 
