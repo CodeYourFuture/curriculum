@@ -78,6 +78,6 @@ We're going to practice extracting data from a database, using SQL.
 
 1. Emily Smith would like to be able to quickly see how many deals she's made. She only cares about `Deal Value` and `Expected Close date` to see when she'll be paid. Create a query that will give only this information.
 2. As the accountant working for this business, I need to work out the total sales we've made in each country to pay our taxes. Write a query to return a list of each closed deal (they have status of `"Closed Won"`) and sort them by country so we can work this out easily.
-3. As the accountant for this business, I need to calculate total sales by country to prepare for taxes. Please write a query that lists all deals marked as "Closed Won" and sorts them by country to make this calculation easier.
+3. As the accountant for this business, I need to find out how much we’ve sold in each country to pay our taxes. Deals are only complete when they have the status "Closed Won", so we should only include those deals. To make the data easier to work with, we can sort them by country. Can you write a query to get this information?
 
 **Please submit this coursework by sharing a read-only link to your Google Sheet**
