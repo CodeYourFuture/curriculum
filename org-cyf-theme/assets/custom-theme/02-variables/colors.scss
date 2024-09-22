@@ -10,6 +10,9 @@
 
   // key
   --hue: 247;
+  //signals should stay green, but let's pick it from brand
+  --theme-color--good: hsla(146, 83%, 60%, 0.5);
+  --theme-color--bad: var(--theme-color--brand-shade);
 }
 
 @mixin dark-palette {
