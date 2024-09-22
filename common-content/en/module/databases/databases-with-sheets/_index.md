@@ -7,7 +7,7 @@ emoji= '🧩'
 [objectives]
     1='Explain what databases are'
     2='Explain the difference between a row and column'
-    3='Be familiar with Google Sheets'
+    3='Identify the formula input in Google Sheets'
     4='Use SQL syntax to retrieve information from a database'
 
 [build]
