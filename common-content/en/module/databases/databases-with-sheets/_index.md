@@ -33,7 +33,7 @@ What else you do on your computer and phone? What information is there? And wher
 
 Most databases arrange data into columns and rows.
 
-- A column is used to store various properties about the data. In the example of your phones contact list, this would be name, mobile number, home phone number etc.
+A **column** stores properties of the data. In the example of your phone's contact list, this would be name and number. What other properties does your address book store? Open your phone and take a look. 
 
 A **row** is a single record of this information. 
 
