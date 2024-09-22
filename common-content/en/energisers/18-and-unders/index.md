@@ -1,10 +1,19 @@
-+++ title="18 and under" time=10 [objectives] 1="Share any interesting fact about you when you were young" 2="Discover hidden skills of your peers"
-[build] render = 'never' list = 'local' publishResources = false +++
++++
+title="18 and under" 
+time=10 
+[objectives] 
+1="Share any interesting fact about you when you were young" 
+2="Discover hidden skills of your peers"
+[build] 
+  render = 'never' 
+  list = 'local' 
+  publishResources = false 
++++
 
-18 and under icebraker
-This game can be played with small or larger groups,
+This game can be played with small or larger groups. It is a great way to get to know each other and to discover hidden skills of your peers.
 
-Ask all participants to form a circle
-Ask one person to volunteer to share an interesting or funny story that happened to them before they turned 18.
-Once this person has gone, they should choose someone else to speak
-Keep this going until you have achieved the 10 min time for thia activity.
+1. Set a timer for 10 minutes
+1. Ask all participants to form a circle
+1. Ask one person to volunteer to share an interesting or funny story that happened to them before they turned 18 for 1 minute
+1. Once this person has gone, they should choose someone else to speak
+1. Keep this going until the timer runs out
