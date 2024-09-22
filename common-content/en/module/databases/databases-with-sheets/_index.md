@@ -62,7 +62,7 @@ Start by making sure we're familiar with Google sheets. The following tutorials 
 
 ### Part 2 - Learn how to query data in Google Sheets using SQL
 
-Now you've got a good understanding of Google Sheets. We can start to use SQL, a powerful tool you will regularly come across when working with databases.
+Now you've got a good understanding of Google Sheets, we can use [SQL](https://www.w3schools.com/sql/sql_intro.asp). SQL is a powerful tool you will regularly come across when working with databases, either as a programmer or in many other data roles.
 
 Watch the video [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg).  Copy the dataset provided in the video and follow along with the queries as you go.
 
