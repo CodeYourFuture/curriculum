@@ -92,6 +92,9 @@ then go ahead and make a TOC */}}
               {{ end }}
             </ol>
           {{ end }}
+             {{ if and (eq .Page.Params.layout "prep") (.Page.Params.blocks) }}
+          <h3 class="c-page-header__time"><time-total></time-total></h3>
+      {{ end }}
         </section>
       </div>
     {{ end }}
