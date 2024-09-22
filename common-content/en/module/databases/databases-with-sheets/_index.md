@@ -27,7 +27,7 @@ You already use databases in your everyday life! A few examples:
 - CYF stores your name and email on a database!
 - Your phone contact list? That will be in a database too!
 
-Have a think about what else you do on your computer and phone, what information is there, where do you think it's stored?
+What else you do on your computer and phone? What information is there? And where do you think it's stored? Write down five other databases you get information from. 
 
 ### How do they work?
 
