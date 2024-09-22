@@ -1,7 +1,7 @@
 +++
 title="Professional Accounts"
-
-time=120
+time=45
+objectives=["Create a professional Google account", "Download and install the apps you will need to complete the course"]
 hide_from_overview=true
 [build]
   render = 'never'
@@ -14,8 +14,8 @@ Download and install the following software or register for the apps.
 
 Click on the links to go to the registration pages. Keep your login details for all sites/apps consistent and always use your real name.
 
-{{<note type="info" title="Real Name" >}}
-CYF recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
+{{<note type="tip" title="Real Name" >}}
+{{<our-name>}} recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 {{</note>}}
 
 ### Gmail, Google Account
@@ -49,20 +49,20 @@ Your cohort is your first network, and this is one of the most valuable things y
 - [ ] I have made a LinkedIn account using my professional email address.
 - [ ] I have used my real name.
 - [ ] I have connected with my cohort.
-- [ ] I am following CodeYourFuture.
+- [ ] I am following {{<our-name>}}.
 
 ### Slack
 
 Slack is our community space and how we communicate with each other. Download and install it now.
 
 - [ ] I have downloaded the Slack app on my computer and phone.
-- [ ] I have logged in to the Code Your Future Intro to Coding Workspace.
+- [ ] I have logged in to the {{<our-name>}} Workspace.
 - [ ] I have found and joined my class channels.
 - [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
 - [ ] I have posted something on my cohort channel.
 
 {{<note type="tip" title="Robohash" >}}
-CYF understands you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
+{{<our-name>}} understands you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
 {{</note>}}
 
 ### Zoom

@@ -30,6 +30,9 @@ name="Make your Planning Board"
 src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
 time=10
 [[blocks]]
+name="Professional Accounts"
+src="module/induction/accounts"
+[[blocks]]
 name="House Rules"
 src="blocks/house-rules"
 +++
