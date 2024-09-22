@@ -53,11 +53,12 @@ If you've used tools such as Excel or Google sheets, you will have seen this sor
 
 ############ The below will be put into issues, just putting it in a PR to get any feedback :) #############
 
-# Backlog 1 - Learn about Google Sheets
+######### Backlog 1 - Learn about Google Sheets #########
 
-## Part 1 (Optional - Depending on knowledge of spreadsheets already.)
+### Link to the coursework
 
-Start by making sure we're familiar with Google sheets. The following tutorials will walk you through how to use a spreadsheet, format data, use functions, filters, and create charts using data.
+### Part 1 - Learn how to query data in Google Sheets using SQL
+
 
 - [Build, organize, and format a spreadsheet using Google Sheets.](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education-uk/en-uk/google-workspace-sheets-part-1/google-workspace-sheets-part-1/important-lesson-update.html)
 
@@ -69,20 +70,70 @@ Start by making sure we're familiar with Google sheets. The following tutorials 
 
 Now you've got a good understanding of Google Sheets, we can use [SQL](https://www.w3schools.com/sql/sql_intro.asp). SQL is a powerful tool you will regularly come across when working with databases, either as a programmer or in many other data roles.
 
-Watch the video [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg).  Copy the dataset provided in the video and follow along with the queries as you go.
+Watch the video [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg). Copy the dataset provided in the video and follow along with the queries as you go.
 
 - [SQL in Google Sheets](https://www.youtube.com/watch?v=dTNamL30sDg)
 - [Here is a link to the data](https://docs.google.com/spreadsheets/d/1zPeHxhKkYmdiqXNhMwhfC1A0o1wI0zNiD5Gsks2SYoc/template/preview)
 
 Do up to at the step `least GROUP BY clause and aggregation`. We can skip PIVOT, LIMIT and OFFSET for now, you wont need these for the next piece of coursework but feel free to look at them if you're curious and not short on time.
 
-# Backlog 2 - SQL Problems using Google Sheets
+### Why are we doing this?
+
+To learn how to use Google Sheets to store and query data.
+
+## Acceptance criteria
+
+- [ ] I have watched all three videos from Part 1, while following along with the instructions in my own Google Sheet.
+
+- [ ] I have watched the SQL in Google Sheets video and followed along with the instructions in my own Google Sheet.
+
+### Maximum time in hours
+
+2
+
+### How to get help
+
+Share your blockers in the ITP Slack.
+
+### How to submit
+
+1. Combine both of these sheets into one. You can create a new sheet for each piece of work.
+
+2. Share a link to your Google Sheet. Make sure to give read access to your sheet, you can do this by clicking the "Share" button, then change "Restricted" to "Anyone with the link".
+
+######### Backlog 2 - SQL Problems using Google Sheets #########
+
+### Link to the coursework
 
 Using the same data set we used in the Learn about Google Sheets coursework: [Here](https://docs.google.com/spreadsheets/d/1zPeHxhKkYmdiqXNhMwhfC1A0o1wI0zNiD5Gsks2SYoc/template/preview).
 We're going to practice extracting data from a database, using SQL.
+
+### Why are we doing this?
+
+To practice how to use Google Sheets to store and query data. This should make sure we understand the basics of SQL and how to use it to query data.
+
+Please complete the following tasks:
 
 1. Emily Smith would like to be able to quickly see how many deals she's made. She only cares about `Deal Value` and `Expected Close date` to see when she'll be paid. Create a query that will give only this information.
 2. As the accountant working for this business, I need to work out the total sales we've made in each country to pay our taxes. Write a query to return a list of each closed deal (they have status of `"Closed Won"`) and sort them by country so we can work this out easily.
 3. As the accountant for this business, I need to find out how much we’ve sold in each country to pay our taxes. Deals are only complete when they have the status "Closed Won", so we should only include those deals. To make the data easier to work with, we can sort them by country. Can you write a query to get this information?
 
-**Please submit this coursework by sharing a read-only link to your Google Sheet**
+## Acceptance criteria
+
+- [ ] I have completed all three tasks.
+
+- [ ] I have added them to a new sheet in my Google sheet I created in the "Learn about Google Sheets" coursework.
+
+### Maximum time in hours
+
+1
+
+### How to get help
+
+Share your blockers in the ITP Slack.
+
+### How to submit
+
+1. The work should be in the same Google Sheet as the "Learn about Google Sheets" coursework.
+
+2. Share a link to your Google Sheet. Make sure to give read access to your sheet, you can do this by clicking the "Share" button, then change "Restricted" to "Anyone with the link".
