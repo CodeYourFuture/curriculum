@@ -1,9 +1,9 @@
 +++
-title = '📝 Previous versions'
+title = 'Previous versions'
 
 time ="20"
 facilitation = false
-emoji= '🧩'
+emoji= '📜'
 [build]
   render = 'never'
   list = 'local'

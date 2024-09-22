@@ -1,9 +1,9 @@
 +++
-title = '📘 Viewing the files'
+title = 'Viewing the files'
 
 time ="20"
 facilitation = false
-emoji= '🧩'
+emoji= '📘'
 [build]
   render = 'never'
   list = 'local'

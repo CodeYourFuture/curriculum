@@ -1,9 +1,9 @@
 +++
-title = '⌛ Version control software'
+title = 'Version control software'
 
 time="10"
 facilitation = false
-emoji= '🧩'
+emoji= '⌛'
 [objectives]
 1='Define a repository'
 2='Define a commit'

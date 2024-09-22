@@ -1,9 +1,8 @@
 +++
-title = '🧰 Development process'
-
+title = 'Development process'
 time ="10"
 facilitation = false
-emoji= '🧩'
+emoji= '🧰'
 [build]
   render = 'never'
   list = 'local'

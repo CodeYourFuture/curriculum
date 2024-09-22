@@ -1,9 +1,8 @@
 +++
-title = '📝 Blog'
-
+title = 'Blog'
 time ="5"
 facilitation = false
-emoji= '🧩'
+emoji= '📝'
 [build]
   render = 'never'
   list = 'local'
