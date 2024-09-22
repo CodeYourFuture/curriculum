@@ -4,6 +4,7 @@ title = 'Viewing the files'
 time ="20"
 facilitation = false
 emoji= '📘'
+objectives=["Open a cloned repository in VSCode","Explore the repository in VSCode","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'
   list = 'local'

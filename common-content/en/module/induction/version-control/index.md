@@ -7,8 +7,7 @@ emoji= '⌛'
 [objectives]
 1='Define a repository'
 2='Define a commit'
-3='Explain why we use Git'
-4='Explain why we use GitHub'
+3='Explain the purpose of version control software'
 [build]
   render = 'never'
   list = 'local'
