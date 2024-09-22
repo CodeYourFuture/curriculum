@@ -15,11 +15,11 @@ emoji= '🧩'
 
 Let's consider a problem where we calculate the [mean of a list of numbers](https://www.mathsisfun.com/mean.html).
 
-_Given_ an array of numbers,
+_Given_ an array of numbers
 _When_ we call `calculateMean` with the array of numbers
 _Then_ we get the mean
 
-Let's create a test to check its functionality:
+Let's create a test to check its functionality. In your `prep` dir, `touch mean.js && touch mean.test.js`. Write the following test in the `mean.test.js` file.
 
 ```js
 test("calculates the mean of a list of numbers", () => {
