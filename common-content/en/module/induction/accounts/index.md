@@ -14,8 +14,8 @@ Download and install the following software or register for the apps.
 
 Click on the links to go to the registration pages. Keep your login details for all sites/apps consistent and always use your real name.
 
-{{<note type="tip" title="Real Name" >}}
-{{<our-name>}} recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
+{{<note type="info" title="Real Name" >}}
+We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 {{</note>}}
 
 ### Gmail, Google Account
@@ -36,7 +36,7 @@ Google Chrome is the first browser we will all use together.
 - [ ] I have downloaded and installed Google Chrome.
 - [ ] I have logged into my professional profile on Chrome.
 
-Use your professional Chrome profile for all your CYF work. You will often have to share your screen during sessions, so keep your personal internet use private and away from your professional profile.
+Use your professional Chrome profile for all your {{<our-name>}} work. You will often have to share your screen during sessions, so keep your personal internet use private and away from your professional profile.
 
 ### LinkedIn
 
@@ -44,7 +44,7 @@ Sign up for LinkedIn. LinkedIn is the largest professional social network. You w
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
-Your cohort is your first network, and this is one of the most valuable things you can develop at Code Your Future. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
+Your cohort is your first network, and this is one of the most valuable things you can develop at {{<our-name>}}. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
 
 - [ ] I have made a LinkedIn account using my professional email address.
 - [ ] I have used my real name.
@@ -62,7 +62,7 @@ Slack is our community space and how we communicate with each other. Download an
 - [ ] I have posted something on my cohort channel.
 
 {{<note type="tip" title="Robohash" >}}
-{{<our-name>}} understands you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
+We understand you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.
 {{</note>}}
 
 ### Zoom
