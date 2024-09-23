@@ -1,7 +1,7 @@
 +++
 title = '💬 Declarations and statements'
 
-time = 5
+time = 10
 facilitation = false
 emoji= '🗄️'
 [objectives]
