@@ -13,13 +13,17 @@
   "note" ":memo:"
   "tip" ":bulb:"
   "warning" ":warning:"
+  "activity" ":joystick:"
+  "definition" ":open_book:"
 }}
 
 {{ if eq .Type "alert" }}
-  <section class="c-note c-note--{{ .AlertType }}">
+  {{ $title := .Attributes.title | default (title .AlertType) }}
+  {{ $alertType := .Attributes.alerttype | default .AlertType }}
+  <section class="c-note c-note--{{ $alertType }}">
     <h4 class="c-note__title">
-      {{ transform.Emojify (index $emojis .AlertType) }}
-      {{ or (i18n .AlertType) (title .AlertType) }}
+      {{ transform.Emojify (index $emojis $alertType) }}
+      {{ $title }}
     </h4>
     <div class="c-note__text">{{ .Text | safeHTML }}</div>
   </section>

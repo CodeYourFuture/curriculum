@@ -9,6 +9,7 @@ emoji= '🗄️'
     2='Identify the value assigned to a parameter when a function is invoked'
     3='Differentiate between parameters and arguments'
     4='Invoke a given function with an appropriate argument to produce some target output'
+    5='Reuse code to perform the same calculation with different inputs'
 
 [build]
   render = 'never'

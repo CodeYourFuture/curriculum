@@ -1,9 +1,8 @@
 +++
-title = '🌳 Branching'
-
-time ="60"
+title = 'Branching'
+time =45
 facilitation = false
-emoji= '🧩'
+emoji= '🌳'
 [objectives]
     1="Explain why a git repository may have multiple branches"
     2="Describe what's special about the branch named main"

@@ -1,9 +1,9 @@
 +++
-title = '🎁 Wrapping up Git'
+title = 'Wrapping up Git'
 
 time ="20"
 facilitation = false
-emoji= '🧩'
+emoji= '🎁'
 [objectives]
     1='Commit changes to a local git branch'
 [build]

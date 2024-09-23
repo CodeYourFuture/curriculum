@@ -88,6 +88,16 @@
   &__description {
     font-weight: 300;
   }
+  &__time {
+    display: block;
+    color: var(--theme-color--ink);
+    font: var(--theme-font--system);
+    font-size: var(--theme-type-size--6);
+    background-color: var(--theme-color--outline);
+    margin-bottom: calc(-1 * var(--theme-spacing--3));
+    width: var(--theme-type-size--1);
+    text-align: center;
+  }
 
   &__breadcrumbs {
     padding: 0 0 0 var(--theme-type-size--1);
