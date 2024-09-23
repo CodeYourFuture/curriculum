@@ -20,14 +20,20 @@ We recognise you may need to keep your birth name private. When we say real name
 
 ### Gmail, Google Account
 
-Make a new Google account if you do not have a professional one already. Use your real name. Don’t use any numbers or words that are not your name. Never put the year of your birth in your professional email address. Your email address should look something like this:
+Make a new Google account if you do not have a professional one already. What is a professional email address?
 
-> JDoe@gmail.com > JohnDoe@gmail.com > JaneDoe@gmail.com
+1. Use your real name.
+1. Don’t use any numbers or words that are not your name.
+1. **Never** put the year of your birth or age in your professional email address.
+
+Your email address should look something like this:
+
+> GivenName_FamilyName@gmail.com
 
 This is your public professional email address. Use it to sign up for all your professional accounts unless you can use your GitHub.
 
 - [ ] I have made a professional Google account and Gmail address.
-- [ ] I have explored the Google Suite, such as calendar, docs and spreadsheets.
+- [ ] I have explored the [Google Suite](https://applieddigitalskills.withgoogle.com/c/en/workspace), such as calendar, docs and spreadsheets.
 
 ### Google Chrome
 
@@ -37,6 +43,12 @@ Google Chrome is the first browser we will all use together.
 - [ ] I have logged into my professional profile on Chrome.
 
 Use your professional Chrome profile for all your {{<our-name>}} work. You will often have to share your screen during sessions, so keep your personal internet use private and away from your professional profile.
+
+### GitHub
+
+You will use [GitHub](https://github.com/signup) to store your code and to collaborate with your peers.
+
+- [ ] I have made a GitHub account using my professional email address.
 
 ### LinkedIn
 
@@ -53,20 +65,26 @@ Your cohort is your first network, and this is one of the most valuable things y
 
 ### Slack
 
-Slack is our community space and how we communicate with each other. Download and install it now.
+[Slack](https://slack.com/intl/en-gb) is our community space and how we communicate with each other. Download and install it now.
 
-- [ ] I have downloaded the Slack app on my computer and phone.
-- [ ] I have logged in to the {{<our-name>}} Workspace.
+- [ ] I have downloaded the [Slack](https://slack.com/intl/en-gb) app on my computer and phone.
+- [ ] I have logged in to the {{<our-name>}} workspace.
 - [ ] I have found and joined my class channels.
 - [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
-- [ ] I have posted something on my cohort channel.
+- [ ] I have introduced myself on Slack.
 
 {{<note type="tip" title="Robohash" >}}
 We understand you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.
 {{</note>}}
 
+### VSCode
+
+We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a professional IDE you will use on this course and at work.
+
+- [ ] I have downloaded and installed [Visual Studio Code](https://code.visualstudio.com/).
+
 ### Zoom
 
-Usually we use Meet, but sometimes we use Zoom for remote sessions. Install it now.
+Usually we use [Meet](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/google-meet-for-beginners/overview.html), but sometimes we use [Zoom for remote sessions](https://zoom.us/download). Install it now.
 
-- [ ] I have downloaded and installed Zoom onto my computer.
+- [ ] I have downloaded and installed [Zoom](https://zoom.us/download) onto my computer.
