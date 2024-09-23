@@ -52,7 +52,7 @@ convertToPercentage(0.231); // should return "23.1%"
 
 It is often helpful to solve a problem in one specific instance before doing it for all cases.
 
-We're not going to define our function yet, we will instead work out what it should do. After we've worked this out, we'll learn how to define a function which does the same thing.
+We're not going to define our function yet. Instead we will work out what our function should do. Then we'll define a function which does the same thing.
 
 In programming, we always try the simplest thing first. Let’s consider how to convert just one number to a percentage. Look at this variable declaration:
 
