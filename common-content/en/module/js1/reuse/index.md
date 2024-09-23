@@ -5,9 +5,8 @@ time = 30
 facilitation = false
 emoji= '🗄️'
 [objectives]
-    1='Reuse code to perform the same calculation with different inputs'
-    2='Evaluate a function expression'
-    3='Call a function with an input in REPL'
+    1='Evaluate a function expression'
+    2='Call a function with an input in REPL'
 [build]
   render = 'never'
   list = 'local'

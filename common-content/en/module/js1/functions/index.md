@@ -42,7 +42,7 @@ The REPL output `[Function: round]` is telling us `Math.round` is a function.
 {{</tab>}}
 
 {{<tab name="Watch and follow along">}}
-![rounding](rounding.gif "[Function: round] indicates that Math.round is a function")
+![rounding](round.gif "[Function: round] indicates that Math.round is a function")
 {{</tab>}}
 {{</tabs>}}
 
@@ -50,7 +50,7 @@ The REPL output `[Function: round]` is telling us `Math.round` is a function.
 
 For our function to work, we need Node to read the instructions and {{<tooltip title="execute">}}Execution means the computer reads and follows instructions.{{</tooltip>}} them. Write the following in the REPL:
 
-```repl
+```js
 Math.round(10.3);
 ```
 
@@ -66,7 +66,7 @@ Notice the `(` and `)` brackets after the name of the function and a number insi
 
 "apply the set of instructions for `Math.round` to the number `10.3`."
 
-If we type `Math.round(10.3)` then we get the result 10. So we say that `Math.round(10.3)` returns 10.
+If we type `Math.round(10.3)` then we get the result `10`. So we say that `Math.round(10.3)` _returns_ `10`.
 
 A **call expression** is an **expression** which **evaluates** to the value returned by the function when it is called. So the expression `Math.round(10.3)` evaluates to the value `10`.
 
