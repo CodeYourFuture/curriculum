@@ -22,18 +22,36 @@ When we create a fork on Github, the new forked repository gets a new url:
 
 ```mermaid
 flowchart LR
-    A[🔗 https://] -->|domain| B[📍github.com]
-    B-->|username| C[👤 CodeYourFuture]
-    C -->|repo| D[📁 cyf-demo-repo]
+    subgraph "📍 domain"
+      B
+    end
+    subgraph "👤 username"
+      C
+    end
+    subgraph "📁 repo"
+      D
+    end
+    A[🔗 https://] --> B[github.com]
+    B--> C[CodeYourFuture]
+    C --> D[cyf-demo-repo]
 ```
 
 When the user EagerLearner forks this repo, the path changes from `CodeYourFuture` to `EagerLearner`.
 
 ```mermaid
 flowchart LR
-    A[🔗 https://] -->|domain| B[📍github.com]
-    B-->|username| C[👤 EagerLearner]
-    C -->|repo| D[📁 cyf-demo-repo]
+    subgraph "📍 domain"
+      B
+    end
+    subgraph "👤 username"
+      C
+    end
+    subgraph "📁 repo"
+      D
+    end
+    A[🔗 https://] --> B[github.com]
+    B--> C[EagerLearner]
+    C --> D[cyf-demo-repo]
 ```
 
 {{<note type="exercise" title="🍴 Fork a repo">}}
