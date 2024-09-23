@@ -19,6 +19,8 @@ Let's consider the case when there are multiple query parameters in the query st
 In the case when the query string has multiple query parameters, then each key-value pair is separated by an ampersand character `&`.
 {{</note>}}
 
+Write this test in the `parse-query-string.test.js` file.
+
 ```js
 test("given a query string with multiple key-value pairs, returns them in object form", function () {
   const input = "sort=lowest&colour=yellow";

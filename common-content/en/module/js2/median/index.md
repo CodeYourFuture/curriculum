@@ -17,13 +17,13 @@ Let's define another problem.
 
 We want to _calculate_ the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) value from an array of numbers.
 
-_Given_ an array of numbers in _ascending order_,
-_When_ we call `calculateMedian` with this array
+_Given_ an array of numbers in _ascending order_  
+_When_ we call `calculateMedian` with this array  
 _Then_ we get the median value
 
 We calculate the median of a list of numbers by finding the middle value in the list.
 
-Let's start with a test to check the **return value** of `calculateMedian` given an ordered list of numbers.
+Let's start with a test to check the **return value** of `calculateMedian` given an ordered list of numbers. In your `prep` dir, `touch median.js && touch median.test.js`. Write the following test in the `median.test.js` file.
 
 ```js
 test("calculates the median of a list of odd length", function () {
@@ -42,7 +42,7 @@ So we can implement `calculateMedian`.
 We can summarise our approach as follows.
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Step 1: Find the middle index of the array] --> B[Step 2: Get the middle item]
     B --> C[Step 3: Return the middle item]
 ```

@@ -23,4 +23,7 @@ src="module/js1/data"
 [[blocks]]
 name="REPL"
 src="module/js1/repl"
+[[blocks]]
+name="Prep dir"
+src="blocks/prep-dir"
 +++

@@ -23,7 +23,7 @@ What we want in the case that the query string is an empty string, is something 
 
 An empty object behaves this way, so it makes sense to return an empty object.
 
-We can write a test case as follows:
+Let's create a test to explore this idea. In your `prep` dir, `touch parse-query-string.js && touch parse-query-string.test.js`. Write the following test in the `parse-query-string.test.js` file.
 
 ```js
 test("given a query string with no query parameters, returns an empty object", function () {
