@@ -14,8 +14,7 @@ emoji= '🧩'
 
 +++
 
-Let's consider another test case: when the query string contains a single key-value pair.
-We can write a test:
+Let's consider another test case: when the query string contains a single key-value pair Write a test in the `parse-query-string.test.js` file.
 
 ```js
 test("given a query string with one pair of query params, returns them in object form", function () {

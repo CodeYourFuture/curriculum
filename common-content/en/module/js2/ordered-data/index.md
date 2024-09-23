@@ -47,7 +47,8 @@ However, instead of _ordering_ data with _indexes_, we can label data with **key
 We can look up values in this table by the **key**. With data stored like this, we can see what values like ` "Manchester"` actually mean - in this case, it refers to a city of residence for the user.
 
 In JavaScript, we can use an {{<tooltip title="object">}}An **object** is a collection of properties. Each property is a key-value pair{{</tooltip>}}to store data in a table-like way, where we can look up data using a **key**.
-We can declare an object in the following way:
+
+We can declare an object like this.
 
 ```js
 const profileData = {

@@ -24,6 +24,6 @@ src="module/how-our-curriculum-works/importance-of-prep"
 name="workshops"
 src="module/how-our-curriculum-works/workshops"
 [[blocks]]
-name="builder mindset"
-src="module/how-our-curriculum-works/builder-mindset"
+name="Next steps: Backlog and Success"
+src="module/how-our-curriculum-works/now-backlog"
 +++

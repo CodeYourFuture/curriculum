@@ -16,15 +16,19 @@
     </button>
     <ul class="l-menu__primary">
       {{- range site.Menus.syllabus }}
-        <li class="l-menu__link">
-          <a class="e-heading__2" href="{{ .URL }}"> {{ .Name }} </a>
+        <li class="l-menu__item">
+          <a class="e-heading__2 l-menu__link" href="{{ .URL }}">
+            {{ .Name }}
+          </a>
         </li>
       {{- end }}
     </ul>
     <ul class="l-menu__secondary">
       {{- range site.Menus.secondary }}
-        <li class="l-menu__link">
-          <a class="e-heading__3" href="{{ .URL }}"> {{ .Name }} </a>
+        <li class="l-menu__item">
+          <a class="e-heading__3 l-menu__link" href="{{ .URL }}">
+            {{ .Name }}
+          </a>
         </li>
       {{- end }}
     </ul>

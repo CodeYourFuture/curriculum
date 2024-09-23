@@ -33,7 +33,7 @@ tool-tip {
     var(--theme-color--paper)
   );
   color: var(--theme-color--ink);
-  bottom: 100%;
+  top: 1.5em;
   left: 50%;
   transform: translateX(-50%);
 }

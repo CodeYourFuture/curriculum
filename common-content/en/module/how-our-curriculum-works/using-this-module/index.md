@@ -14,7 +14,7 @@ emoji= '🛣️'
 
 +++
 
-The rest of this module is split into three sprints, which you can complete in your own time: **self educate**, **self coordinate** and **self evaluate**. Each sprint is about how to use the curriculum to achieve each of these community goals. For each sprint, you'll need to start with the **prep** sprint to introduce yourself to new concepts before using the **backlog** to understand how you can start engaging with the community. At the end of each sprint, there is a **success** page. Check off the objectives in the list.
+The rest of this module is split into three sprints, which you can complete in your own time: **self educate**, **self coordinate** and **self evaluate**. Each sprint is about how to use the curriculum to achieve each of these community goals. For each sprint, you'll need to start with the **prep** to introduce yourself to new concepts before doing the tasks in the **backlog** to understand how you can start engaging with the community. At the end of each sprint, there is a **success** page. Make sure you have achieved all of the objectives in the list and check them off.
 
 ```mermaid
 flowchart TB

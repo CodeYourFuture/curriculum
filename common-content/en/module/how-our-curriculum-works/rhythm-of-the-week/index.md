@@ -1,7 +1,7 @@
 +++
 title="🥁 Rhythm of the week"
 
-time= 30
+time=10
 [objectives]
     1="Identify when we prep during a typical sprint week"
     2="Identify when we work on the backlog during a typical sprint week"

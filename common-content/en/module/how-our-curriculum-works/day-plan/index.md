@@ -1,10 +1,9 @@
 +++
 title="📅 Day plan"
 
-time= 30
+time=5
 [objectives]
-    1="Describe how the day plan works"
-    2="Identify some frequently used blocks in a module"
+    1="Be able to promote a safe and respectful living environment"
 [build]
   render = 'never'
   list = 'local'
@@ -12,6 +11,24 @@ time= 30
 
 +++
 
-Cohorts meet once a week in person. Together, we develop our understanding of the topics we are working on this week. We use a **day plan** to organise this day. A day plan is an agenda with workshops, study sessions and activities to make the most of our time together.
+* **Come on time when you're learning.**
+   * Many people give up their free time to teach us. They could be doing other things. We should respect this and always be on time.
 
-There's a day plan for every sprint of every module. Each day plan lists a series of activities, with timings, instructions, and links to resources.
+* **Clean up after ourselves.**
+   * Kind people let us use their space. We should keep it tidy and clean, just like our own homes.
+
+* **Talk to each other (in English).**
+   * Put Slack on your phone and computer. Use it to ask for help and talk about classes.
+   * Speaking English helps everyone get better at it. Even if you know someone's language, try to use English.
+
+* **Learn to find answers yourself.**
+   * We teach you how to look things up. Try to use Google to answer your own questions.
+
+* **Use the computer yourself.**
+   * Don't let volunteers or peers type for you. Ask for help, but do the work on your own.
+
+* **Help each other out.**
+   * You're all learning together. You can understand each other's problems. Ask for help and offer it too. Explaining things to others helps you learn more.
+    
+* **We're all part of this.**
+   * This isn't just a coding school. It's for all of us - participants, trainees, volunteers. Try to make it better in any way you can.

@@ -1,14 +1,13 @@
 +++
-title = '⌛ Version control software'
+title = 'Version control software'
 
-time ="5"
+time="10"
 facilitation = false
-emoji= '🧩'
+emoji= '⌛'
 [objectives]
 1='Define a repository'
 2='Define a commit'
-3='Explain why we use Git'
-4='Explain why we use Github'
+3='Explain the purpose of version control software'
 [build]
   render = 'never'
   list = 'local'
@@ -47,6 +46,6 @@ A typical timeline of commits might look like this:
 {{<note type="note" title="Commit hashes">}}
 Commits also have a **hash** associated with them. A **hash** is a long string of characters used to identify a particular commit.
 
-A typical hash will look like this: `fec6909d6de23c75e77960986a9b6a7aee7feec7` but you will often see them abbreviated to the first 7 characters like this: `fec6909`
+A typical hash will look like this: `fec6909d6de23c75e77960986a9b6a7aee7feec7` but you will often see them abbreviated to the first few characters like this: `fec6909`
 
 {{</note>}}

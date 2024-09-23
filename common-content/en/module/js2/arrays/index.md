@@ -23,7 +23,7 @@ Instead of writing:
 const item0 = 4.6;
 const item1 = 5.03;
 const item2 = 7.99;
-const item4 = 8.01;
+const item3 = 8.01;
 ```
 
 We can declare an **array literal** as follows:

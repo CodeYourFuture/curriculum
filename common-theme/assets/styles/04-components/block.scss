@@ -1,4 +1,5 @@
 .c-block {
+  scroll-snap-align: start;
   background-color: var(--theme-color--paper-fade);
   z-index: 2;
   position: relative;
@@ -31,9 +32,6 @@
     margin: auto 0 auto auto;
   }
 
-  &--local {
-    overflow: hidden;
-  }
   &--link {
     padding: var(--theme-spacing--2) var(--theme-spacing--gutter)
       var(--theme-spacing--3) 0;

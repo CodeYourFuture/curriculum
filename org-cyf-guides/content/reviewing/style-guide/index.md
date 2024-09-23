@@ -218,7 +218,7 @@ When you writing code you should also try to keep in mind that you will only eve
 
 For more details you can read these useful articles
 
-- (The Art of Writing Small and Plain Functions)[https://dmitripavlutin.com/the-art-of-writing-small-and-plain-functions/]
+- [The Art of Writing Small and Plain Functions](https://dmitripavlutin.com/the-art-of-writing-small-and-plain-functions/)
 
 ## Advanced
 

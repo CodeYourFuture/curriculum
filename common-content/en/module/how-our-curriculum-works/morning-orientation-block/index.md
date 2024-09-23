@@ -1,7 +1,7 @@
 +++
 title="🎡 Morning orientation"
 
-time=30
+time=10
 [objectives]
     1="Locate a morning orientation block"
     2="Check learning objectives for morning orientation block"

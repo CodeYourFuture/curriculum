@@ -25,4 +25,6 @@
   {{ $soloView := resources.Get "scripts/solo-view.js" | resources.Minify }}
   <script src="{{ $soloView.RelPermalink }}" defer></script>
 {{ end }}
+  {{ $timeTotal := resources.Get "scripts/time-total.js" | resources.Minify }}
+  <script src="{{ $timeTotal.RelPermalink }}" defer></script>
 {{ end }}

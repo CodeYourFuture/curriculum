@@ -33,7 +33,7 @@ export const checkState = (
         "Content-Type": "text/html",
       },
       body: htmlRedirect(
-        state.prevPath || "/",
+        state.prevURL,
         4000,
         "State must have a module (github repo) to copy issues from. Redirecting you back to where you were.."
       ),

@@ -1,9 +1,9 @@
 +++
-title = '📝 Previous versions'
-
+title = 'Previous versions'
+objectives = ["Use a Git history to view previous versions of a project", "Find the commit that corresponds to a particular version of a project"]
 time ="20"
 facilitation = false
-emoji= '🧩'
+emoji= '📜'
 [build]
   render = 'never'
   list = 'local'

@@ -27,7 +27,7 @@ We can store this list of prices in a JavaScript program by declaring multiple v
 const price0 = 4.6;
 const price1 = 5.03;
 const price2 = 7.99;
-const price4 = 8.01;
+const price3 = 8.01;
 ```
 
 Each identifier is the word `price` with a numerical suffix to indicate its position in the list. However, this is _undoubtedly_ the wrong approach.
