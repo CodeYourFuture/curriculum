@@ -48,6 +48,9 @@ src="https://www.youtube.com/playlist?list=PLozA7cloMbPgM0Cra4IhDg_HvhP727Abo"
 name="What is CSS"
 src="module/html-css/what-is-css"
 [[blocks]]
+name="Professional Accounts"
+src="module/induction/accounts"
+[[blocks]]
 name="House Rules"
 src="blocks/house-rules"
 +++
