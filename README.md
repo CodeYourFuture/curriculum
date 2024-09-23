@@ -51,12 +51,12 @@ Then add the common theme and content modules as hugo modules to hugo.toml:
 ```toml
 [module]
   [[module.imports]]
-    path = 'github.com/CodeYourFuture/curriculum/common-theme'
+    path = "github.com/CodeYourFuture/curriculum/common-theme"
   [[module.imports]]
-    path = 'github.com/CodeYourFuture/curriculum/common-content'
+    path = "github.com/CodeYourFuture/curriculum/common-content"
     [[module.imports.mounts]]
-      source = 'en'
-      target = 'content'
+      source = "en"
+      target = "content"
 ```
 
 Look at the [org-cyf](/org-cyf/) and [org-cyf-tracks](/org-cyf-tracks/) examples for more details and options.
