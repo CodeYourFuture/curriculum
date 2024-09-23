@@ -1,9 +1,8 @@
 +++
-title = '🍴 Forking a repository'
-
-time ="15"
+title = 'Forking a repository'
+time ="10"
 facilitation = false
-emoji= '🧩'
+emoji= '🍴'
 [objectives]
     1="Create a fork of a repository"
 [build]
@@ -15,19 +14,49 @@ emoji= '🧩'
 
 Often we want to take an existing project and start working on it independently. In other words: we start making our own versions of the project separate from the original project.
 
-We may have a repo with the following url:
-![lesson1-github-url-anatomy](lesson1-github-url-anatomy.png)
-
-We might want to start creating our version of this project in isolation from the original project.
-
-So we can create a {{<tooltip title="fork">}}A **fork** is a copy of a repository that exists on Github{{</tooltip>}}.
+We can create a {{<tooltip title="fork">}}A **fork** is a copy of a repository that exists on Github{{</tooltip>}}.
 
 When we create a fork on Github, the new forked repository gets a new url:
-![lesson1-forked-url-anatomy](lesson1-forked-url-anatomy.png)
 
-{{<note type="exercise" title="Exercise">}}
+#### https://github.com/CodeYourFuture/cyf-demo-repo
 
-### 🍴 Forking a repo
+```mermaid
+flowchart LR
+    subgraph "📍 domain"
+      B
+    end
+    subgraph "👤 username"
+      C
+    end
+    subgraph "📁 repo"
+      D
+    end
+    A[🔗 https://] --> B[github.com]
+    B--> C[CodeYourFuture]
+    C --> D[cyf-demo-repo]
+```
+
+When the user EagerLearner forks this repo, the path changes from `CodeYourFuture` to `EagerLearner`.
+
+```mermaid
+flowchart LR
+    subgraph "📍 domain"
+      B
+    end
+    subgraph "👤 username"
+      C
+    end
+    subgraph "📁 repo"
+      D
+    end
+    A[🔗 https://] --> B[github.com]
+    B--> C[EagerLearner]
+    C --> D[cyf-demo-repo]
+```
+
+{{<note type="exercise" title="🍴 Fork a repo">}}
+
+### 🍴 Fork a repo
 
 1. Go to https://github.com/CodeYourFuture/education-blog.
 1. Find the **Fork** button on this page.

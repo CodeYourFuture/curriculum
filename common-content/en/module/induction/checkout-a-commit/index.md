@@ -1,9 +1,9 @@
 +++
-title = '🔍 Inspect a commit'
+title = 'Inspect a commit'
 
-time ="20"
+time ="15"
 facilitation = false
-emoji= '🧩'
+emoji= '🔍'
 [objectives]
     1='Given a remote repository on GitHub, identify the files and folders from any commit in a version timeline'
 [build]
