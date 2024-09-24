@@ -1,5 +1,5 @@
 +++
-title = 'How our curriculum works'
+title = 'How this works'
 description = 'How we learn; how we organise; how we check our progress'
 layout = 'module'
 emoji= '🗺️'
