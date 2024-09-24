@@ -8,7 +8,7 @@ hide_from_overview=true
   publishResources = false
 +++
 
-#### Prep your codebase
+> Complete your project README, explaining what it does and how to use it
 
 - You MUST make sure your README is filled out and presents your project clearly. If it just contains boilerplate information it looks like you haven't done anything, so you may as well just throw your project in the bin! Don't make this basic mistake.
 - Make sure your repo is linked on your deployed site and your deployed site is linked on your repo. _Help employers find you._
@@ -29,4 +29,4 @@ A good profile/ Readme has:
 - A list of key skills (3 to 5, no more)
 - An introduction to your projects
 
-Don't cover your profile with awards and auto-generated stats. Unless you've won a Nobel Prize, it's not relevant.
+Don't cover your profile with awards and auto-generated stats.

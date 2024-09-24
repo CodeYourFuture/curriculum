@@ -10,4 +10,4 @@ hide_from_overview=true
   publishResources = false
 +++
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLfMfy30P8RVJcxKlbZX4ElfgAFBDJz_AeOCJFLlshZjifnJqCktuBX4MmZl8qn4PfmoloNvUxI3tw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLfMfy30P8RVJcxKlbZX4ElfgAFBDJz_AeOCJFLlshZjifnJqCktuBX4MmZl8qn4PfmoloNvUxI3tw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
