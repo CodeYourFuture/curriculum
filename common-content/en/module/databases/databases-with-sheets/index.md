@@ -1,5 +1,5 @@
 +++
-title = 'Databases in Google Sheets'
+title = 'Databases with Google Sheets'
 description = 'Introduction to databases, using Google Sheets'
 time = 30
 facilitation = false
