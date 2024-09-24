@@ -14,6 +14,9 @@ src="blocks/spaced-repetition"
 name="What are Forms"
 src="module/html-css/what-are-forms"
 [[blocks]]
+name="Databases with Google Sheets"
+src="module/databases/databases-with-sheets"
+[[blocks]]
 name="backlog"
 src="blocks/backlog"
 +++
