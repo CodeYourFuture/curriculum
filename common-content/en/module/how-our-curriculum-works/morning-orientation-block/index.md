@@ -1,6 +1,5 @@
 +++
 title="🎡 Morning orientation"
-
 time=10
 [objectives]
     1="Locate a morning orientation block"
@@ -16,6 +15,6 @@ We use the morning orientation block to gather the community together. We nomina
 
 ### Steps 👣
 
-1. Search for **morning orientation** on the curriculum website
 1. Find a day plan view where the morning orientation is used
 1. Check the learning objectives on the morning orientation block
+1. Volunteer to be the facilitator or timekeeper

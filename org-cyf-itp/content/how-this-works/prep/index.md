@@ -9,6 +9,10 @@ weight = 1
 name="🎉 welcome"
 src="module/how-our-curriculum-works/welcome"
 [[blocks]]
+name="who we are"
+src="https://youtu.be/QBfhPkBW9Pk"
+time=4
+[[blocks]]
 name="background"
 src="module/how-our-curriculum-works/background"
 [[blocks]]
