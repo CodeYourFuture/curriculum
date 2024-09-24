@@ -6,6 +6,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="we learn together"
+src="https://youtu.be/byGat8BaFuI"
+[[blocks]]
 name="🥁 rhythm of the week"
 src="module/how-our-curriculum-works/rhythm-of-the-week"
 [[blocks]]
