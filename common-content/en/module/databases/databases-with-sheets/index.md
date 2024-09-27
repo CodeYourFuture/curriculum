@@ -36,9 +36,9 @@ Most databases arrange data into **columns** and **rows**.
 | row 1    | row 1    |
 | row 2    | row 2    |
 
-A **column** stores properties of the data. In the example of your phone's contact list, this would be name and number. What other properties does your address book store? Open your phone and take a look.
+A **row** is a single record of this information which is grouped together, for instance, information about one person.
 
-A **row** is a single record of this information.
+Within a row, each **column** stores a property of that record. In the example of your phone's contact list, this would be name and number. Each row (or record) has a name and a number. What other properties does your address book store? Open your phone and take a look.
 
 | First Name | Surname | Mobile Number |
 | ---------- | ------- | ------------- |
