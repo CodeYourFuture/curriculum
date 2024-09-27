@@ -13,7 +13,7 @@ Link to your PR for [Wireframe to Web Code](https://github.com/CodeYourFuture/Mo
 Link to your PR for [Form Controls](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/88)
 """
 3="""
-Link to your PR for [Query Data in Google Sheets with SQL](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/104)
+Link to your Google Sheet for [Query Data in Google Sheets with SQL](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/104)
 """
 +++
 
