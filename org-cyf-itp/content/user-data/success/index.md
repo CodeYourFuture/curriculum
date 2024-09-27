@@ -6,13 +6,8 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Translate requirements into high-level design outlines"
-2="Break down solving problems into testable steps"
-3="Ask questions systematically using a given formal language"
-4="Identify and create components with HTML and CSS, and recreate wireframes as a live browser experience"
-5="Create an accessible, clear, usable form with HTML and CSS including client-side validation"
-6="Navigate and describe characteristics of a repository on GitHub"
-7="Fork, clone, branch, commit, and push to a git repository"
-8="Demonstrate good citizenship on GitHub by participating in code review on PRs"
-9="Solve at least 6 7kyu problems in Codewars"
+1="Wireframe to Web Code - https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/90 - Link to PR"
+2="Form Controls - https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/88 - Link to PR"
+3="Query Data in Google Sheets with SQL - https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/104 - Link to Google Sheet"
 +++
+In addition to attending in-person sessions and completing all mandatory backlog issues, you must provide links to the following items when submitting the Dashboard step for this module.
