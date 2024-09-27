@@ -8,7 +8,7 @@ weight = 11
 [[objectives]]
 1="Link to your PR for [Wireframe to Web Code](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/90)"
 2="Link to your PR for [Form Controls](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/88)"
-3="Link to your PR for [Query Data in Google Sheets with SQL](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/104)"
+3="Link to your Google Sheet for [Query Data in Google Sheets with SQL](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/104)"
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
