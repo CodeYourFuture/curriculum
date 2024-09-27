@@ -60,10 +60,11 @@
          <ol class="c-overview__list">
             {{ range $prep.Params.blocks }}
               {{ $block := ($site.GetPage .src) }}
-              {{ if or $block.Params.hide_from_overview (strings.Contains .src "https:") }}
+              {{ if or $block.Params.hide_from_overview (and (not .title) (strings.Contains .src "https:")) }}
                 {{ continue }}
               {{ end }}
-              <li>{{ $block.Title }}</li>
+              {{ $title := or .title $block.Title }}
+              <li>{{ $title }}</li>
             {{ end }}
           </ol>
          {{end}}

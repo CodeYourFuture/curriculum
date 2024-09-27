@@ -3,6 +3,7 @@ title = 'Development process'
 time ="10"
 facilitation = false
 emoji= '🧰'
+hide_from_overview = true
 [build]
   render = 'never'
   list = 'local'

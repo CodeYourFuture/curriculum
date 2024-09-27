@@ -1,5 +1,5 @@
 +++
-title = 'Viewing the files'
+title = 'Viewing files from a git clone'
 
 time ="20"
 facilitation = false
