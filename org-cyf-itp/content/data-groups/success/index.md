@@ -20,7 +20,7 @@ weight = 11
 ```objectives
 - Store data in arrays, objects and query parameters in JavaScript.
 - Access and manipulate data stored in arrays, objects and query parameters.
-- Understand the difference between different data types and the advantages and limitations of each.
+- Compare different data types and explain the advantages and limitations of each.
 ```
 
 ### 💯 To complete _any_ module, you must:
