@@ -1,6 +1,6 @@
 +++
 title="Workshops"
-
+emoji='🗂️'
 time=10
 [objectives]
 1="Locate the Workshops repo"

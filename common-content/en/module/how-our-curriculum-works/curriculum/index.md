@@ -1,5 +1,5 @@
 +++
-title = '🗺️ Curriculum'
+title = 'Curriculum'
 
 time = 15
 facilitation = false
