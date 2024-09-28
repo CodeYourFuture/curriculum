@@ -6,8 +6,6 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-Link to
-
 1="Link to your PR for [Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/15)
 2="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)
 3="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)
