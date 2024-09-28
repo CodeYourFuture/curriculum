@@ -24,8 +24,8 @@ time="140"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
     time=0
   [[blocks.nested.blocks]]
-    name="Collective Job Hunting [PD] (60 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/collective-job-hunting"
+    name="SQL Showdown [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/sql-quiz"
     time=0
 [[blocks]]
 name="lunch"
