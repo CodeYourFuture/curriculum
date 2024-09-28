@@ -32,6 +32,3 @@ weight = 11
 ## ✅ To complete _this_ module, you must:
 
 Submit the following items to complete this module on the CYF Dashboard:
-
-+++
-
