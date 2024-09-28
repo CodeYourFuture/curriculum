@@ -1,7 +1,10 @@
 <ul class="c-objectives__list">
   {{ range . }}
     <li class="c-objectives__item">
-      <label><input type="checkbox" />{{ strings.TrimPrefix "- " . }}</label>
+      <label
+        ><input
+          type="checkbox" />{{ strings.TrimPrefix "- " . | markdownify }}</label
+      >
     </li>
   {{ end }}
 </ul>
