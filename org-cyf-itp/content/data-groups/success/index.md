@@ -6,12 +6,12 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Link to your PR for [Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/15)
-2="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)
-3="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)
-4="Link to your PR for your [Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)
-5="Link to your PR to your [Reading List Display](https://github.com/CodeYourFuture/Module-Data-Groups/issues/18)
-5="Posted my analysis in Slack and linked to it in the backlog item for the [Apply Magic Sauce](https://github.com/CodeYourFuture/Module-Data-Groups/issues/16) project
+1="Link to your PR for [Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/15)"
+2="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)"
+3="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)"
+4="Link to your PR for your [Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)"
+5="Link to your PR to your [Reading List Display](https://github.com/CodeYourFuture/Module-Data-Groups/issues/18)"
+6="Posted my analysis in Slack and linked to it in the backlog item for the [Apply Magic Sauce](https://github.com/CodeYourFuture/Module-Data-Groups/issues/16) project"
 
 ### 🎯 You've achieved your learning objectives if you can:
 
