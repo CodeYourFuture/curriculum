@@ -1,5 +1,5 @@
 +++
-title = '🧭 Strategy'
+title = '🧭 Breaking down the strategy'
 
 time = 20
 facilitation = false

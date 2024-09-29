@@ -6,6 +6,7 @@ menu_level = ['sprint']
 weight = 1
 [[blocks]]
 name="Forms in 25 minutes"
+title="Form building"
 src="https://www.youtube.com/watch?v=fNcJuPIZ2WE"
 [[blocks]]
 name="Spaced Repetition"
