@@ -7,7 +7,6 @@ weight = 3
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"
-time="15"
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -15,40 +14,26 @@ time=15
 [[blocks]]
 name= "Teamwork Project Sprint 2"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s2"
+time="140"
 [[blocks]]
-src="blocks/morning-break"
-name="Morning break"
+name="lunch"
+src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=60
+time="80"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Data-Flows/pulls"
+src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
 time="0"
-[[blocks]]
-name="Lunch"
-src="blocks/lunch"
-[[blocks]]
-name="Break down"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/goblin-breakdown"
-time=30
-[[blocks]]
-name="TV Show Project"
-src="blocks/study-group"
-time=60
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="TV Show Project"
+name="Study Group"
 src="blocks/study-group"
-time=60
+time="75"
 [[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-JS3/pulls"
-time="0"
-[[blocks]]
-name="Retrospective"
+name="Retro"
 src="blocks/retro"
 +++
