@@ -7,8 +7,6 @@ emoji= '🗄️'
 [objectives]
     1='Identify databases in everyday life'
     2='Explain the difference between a row and column'
-    3='Locate the formula input in Google Sheets'
-    4='Use SQL syntax to retrieve information from a database'
 [build]
   render = 'never'
   list = 'local'
@@ -47,4 +45,4 @@ Within a row, each **column** stores a property of that record. In the example o
 
 Tom and Ali's details here are records in the database. The properties are listed as columns and the values are in rows. Each row is a new record.
 
-If you've used tools such as Excel or Google sheets, you will have seen this sort of structure before. We'll take a closer look at these in the backlog exercises to do this sprint.
+If you've used tools such as Excel or Google Sheets, you will have seen this sort of structure before. We'll take a closer look at these in the backlog exercises for this module. You'll learn how to manipulate data in Google Sheets and use SQL syntax to retrieve information from databases.
