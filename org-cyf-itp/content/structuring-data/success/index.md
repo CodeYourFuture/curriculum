@@ -1,19 +1,35 @@
 +++
 title = 'success'
-description = 'How do we know if we have completed this module?'
+description = 'How do we know if we have completed the Structuring and Testing Data module?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
 backlog= 'Module-JS1'
 [[objectives]]
-1="Distinguish interface from implementation"
-2="Translate requirements into unit tests"
-3="Interpret test feedback"
-4="Describe the intended behaviour of a program and its actual behaviour"
-5="Identify bugs in someone else’s code (person/machine)"
+1="Completed the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
+2="Link to your exercises for the [Coursework Excercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) "
+3="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)"
+
 +++
 
-Every module, you must review your progress to understand if your cohort can progress to the next stage. The conditions for success are listed below. If your cohort has met all of these conditions, you can progress to the next module. If you have not met them yet, what actions will you take to meet them?
+### 🎯 You've achieved your learning objectives if you can:
 
-Discuss your plan in your class channel.
+```objectives
+- Define variables and functions.
+- Use if statements to write conditional code.
+- Understand the concepts of scope, return values and reusable functions.
+- Write tests for your code, using Jest.
+```
+
+### 💯 To complete _any_ module, you must:
+
+```objectives
+- Do your work: complete all mandatory backlog issues
+- Come to class
+- **Submit** the Dashboard step for this module
+```
+
+## ✅ To complete _this_ module, you must:
+
+Submit the following items to complete this module on the CYF Dashboard:
