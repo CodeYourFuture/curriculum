@@ -4,6 +4,7 @@ title = '↙️ ↘️ Making a choice'
 time = 20
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
     1='Propose a strategy for solving a problem'
 [build]

@@ -22,13 +22,13 @@ name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
 time=5
 [[blocks]]
-name="Set up Planner"
-src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
-time=30
-[[blocks]]
 name="Make your Planning Board"
 src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
 time=15
+[[blocks]]
+name="Set up Planner"
+src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
+time=30
 [[blocks]]
 name="Spaced Repetition"
 src="blocks/spaced-repetition"
