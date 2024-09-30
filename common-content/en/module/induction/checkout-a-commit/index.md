@@ -1,5 +1,5 @@
 +++
-title = 'Inspect a commit'
+title = 'Inspecting a commit'
 
 time ="15"
 facilitation = false
