@@ -10,7 +10,7 @@ weight = 11
 2="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)"
 3="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)"
 4="Link to your PR for your [Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)"
-6="Posted my analysis in Slack and linked to it in the backlog item for the [Apply Magic Sauce](https://github.com/CodeYourFuture/Module-Data-Groups/issues/16) project"
+6="Created your Brag Diary, and started listing your achievements in it [Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10)"
 
 +++
 
