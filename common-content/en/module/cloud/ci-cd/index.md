@@ -1,5 +1,5 @@
 +++
-title = '🛬 What is CI/CD?'
+title = 'What is CI/CD?'
 
 time = 5
 facilitation = false

@@ -1,6 +1,6 @@
 +++
-title="☎️ Products"
-
+title="Products"
+emoji='☎️'
 time= 30
 [objectives]
     1="Identify where products are located for a sprint"

@@ -1,5 +1,6 @@
 +++
-title="🎡 Morning orientation"
+title="Morning orientation"
+emoji='🎡'
 time=10
 [objectives]
     1="Locate a morning orientation block"

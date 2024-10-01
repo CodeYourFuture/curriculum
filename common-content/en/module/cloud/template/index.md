@@ -1,5 +1,5 @@
 +++
-title = '🍬 template'
+title = 'template'
 
 time = 20
 facilitation = false

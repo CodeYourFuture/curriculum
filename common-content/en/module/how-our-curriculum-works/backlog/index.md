@@ -4,7 +4,7 @@ title = 'Backlog'
 time = 20
 facilitation = false
 vocabulary=["Blockers"]
-emoji= '🧩'
+emoji= '📝'
 [objectives]
 1='Define the backlog'
 2='Explain how to use the sprint backlog'

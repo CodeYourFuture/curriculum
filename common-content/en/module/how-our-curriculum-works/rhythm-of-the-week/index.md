@@ -1,6 +1,6 @@
 +++
-title="🥁 Rhythm of the week"
-
+title="Rhythm of the week"
+emoji='🥁'
 time=10
 [objectives]
     1="Identify when we prep during a typical sprint week"
