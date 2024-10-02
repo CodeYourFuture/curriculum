@@ -5,10 +5,9 @@ layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
-backlog= 'Module-JS1'
 [[objectives]]
-1="Completed the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
-2="Link to your exercises for the [Coursework Excercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) "
+1="Complete the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
+2="Link to your exercises for the [Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) "
 3="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)"
 
 +++
