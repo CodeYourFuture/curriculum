@@ -22,6 +22,8 @@ weight = 11
 - Use event listeners to respond to user interaction
 - Use async/await to fetch data from an API
 - Catch errors that occur in your code
+- Describe the concept of state, how to use it and what should be stored in it.
+- Build a UI that renders content using data stored in state, which can be updated on user interaction
 ```
 
 ### 💯 To complete _any_ module, you must:
