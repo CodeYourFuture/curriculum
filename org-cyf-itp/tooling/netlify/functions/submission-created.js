@@ -12,7 +12,7 @@ import {Auth, google} from "googleapis";
 // Each sheet listed here was manually crated, and its spreadsheet ID is taken from its URL.
 // Each spreadsheet is expected to contain one sheet per module, named for the module.
 // Each module sheet is expected to contain the following columns, in order:
-// Given Name | Family Name | Email | Timestamp | Course | Module | Day
+// Given Name | Family Name | Email | Timestamp | Course | Module | Day | Build Time
 // Each spreadsheet must also give write access to the email listed below in CREDENTIALS.
 const COURSE_TO_SPREADSHEET_ID = {
   "cyf-itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
@@ -47,7 +47,7 @@ const handler = async (event, context) => {
   }
   const request = body.payload.data;
 
-  for (const requiredField of ["course", "module", "givenName", "familyName", "email", "day"]) {
+  for (const requiredField of ["course", "module", "givenName", "familyName", "email", "day", "buildTime"]) {
     if (!(requiredField in request)) {
       const error = `Request missing field ${requiredField}`;
       console.error(error, request);
@@ -83,7 +83,7 @@ const handler = async (event, context) => {
       insertDataOption: "INSERT_ROWS",
       resource: {
         values: [
-          [request.givenName, request.familyName, request.email, new Date().toISOString(), request.course, request.module, request.day],
+          [request.givenName, request.familyName, request.email, new Date().toISOString(), request.course, request.module, request.day, request.buildTime],
         ],
       },
     });
