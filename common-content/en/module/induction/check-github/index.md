@@ -1,10 +1,10 @@
 +++
-title = '📋 Setting up Coursework planner'
+title = 'Setting up Coursework planner'
 
 time = 15
 facilitation = false
 vocabulary=[]
-emoji= '🧩'
+emoji= '📋'
 [objectives]
 1='Double check Github account is set up'
 2='Double check planner is set up'

@@ -1,5 +1,6 @@
 +++
 title="Blockers!"
+emoji="🚗"
 time=25
 [objectives]
     1="Use the driver and navigator pattern"

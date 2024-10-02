@@ -1,6 +1,5 @@
 +++
-title = '🛣️ Using this module'
-
+title = 'Using this module'
 time = 20
 facilitation = false
 vocabulary=["Blockers"]

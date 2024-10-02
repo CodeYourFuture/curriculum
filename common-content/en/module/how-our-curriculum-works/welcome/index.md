@@ -1,5 +1,5 @@
 +++
-title = '🎉 Welcome'
+title = 'Welcome'
 
 time = 5
 facilitation = false
