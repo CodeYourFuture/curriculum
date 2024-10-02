@@ -17,8 +17,10 @@ backlog= 'Module-JS1'
 
 ```objectives
 - Define variables and functions.
+- Explain what a function will return when it is called.
 - Use if statements to write conditional code.
-- Understand the concepts of scope, return values and reusable functions.
+- Identify the benefits of extracting a reusable function.
+- Explain which scopes can access variables declared in a JavaScript file.
 - Write tests for your code, using Jest.
 ```
 
