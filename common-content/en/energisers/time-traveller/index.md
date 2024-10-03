@@ -1,5 +1,6 @@
 +++
 title="Time traveller"
+emoji="⏰"
 time=30
 [objectives]
     1="Hear the experience of a CYF alumni"

@@ -1,5 +1,5 @@
 +++
-title="📅 Day plan"
+title="Day plan"
 emoji="📅"
 time=5
 [objectives]

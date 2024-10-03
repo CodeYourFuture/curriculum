@@ -1,9 +1,9 @@
 +++
-title = '🧭 Community goals'
+title = 'Community goals'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🧭'
 [objectives]
 1='Define our community goals'
 [build]
