@@ -27,7 +27,12 @@
         </li>
       {{- end }}
       <li class="c-breadcrumbs__item">
-        <a class="c-breadcrumbs__link" href="{{ .RelPermalink }}"
+        <a
+          class="c-breadcrumbs__link"
+          href="{{ .RelPermalink }}"
+          {{- if in .Title "Sprint" -}}
+            data-pagefind-filter="sprint"
+          {{- end -}}
           >{{ .Title }}</a
         >
       </li>
