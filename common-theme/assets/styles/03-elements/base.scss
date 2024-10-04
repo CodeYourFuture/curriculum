@@ -13,9 +13,6 @@ html {
   animation: fade-in 0.4s;
 }
 
-html {
-  overflow-x: hidden;
-}
 @media (max-width: $c-med) {
   body {
     overflow-x: hidden;

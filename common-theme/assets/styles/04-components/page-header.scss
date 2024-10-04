@@ -17,6 +17,11 @@
     "container" 1fr
     "." var(--gap);
 
+  &--solo {
+    position: sticky;
+    top: var(--theme-spacing--4);
+  }
+
   &__container {
     pointer-events: all;
     display: grid;
