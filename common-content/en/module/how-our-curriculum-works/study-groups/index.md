@@ -3,7 +3,7 @@ title="Study groups"
 emoji='🫱🏾‍🫲🏿'
 time=10
 [objectives]
-    1="Locate a study group block"
+    1="Locate a study group activity in a day plan"
     2="Explain the importance of study groups"
 [build]
   render = 'never'
@@ -17,6 +17,6 @@ In a flipped classroom, we spend our time in class focused on active learning: w
 ### Steps 👣
 
 1. Search for **study group** on the curriculum website
-1. Find a day plan that uses the **study group** block
-1. Read the instructions on the block
-1. Check the learning objectives for the study group block
+1. Find a day plan that uses the **study group** activity
+1. Read the instructions for the activity
+1. Check the learning objectives for the study group activity
