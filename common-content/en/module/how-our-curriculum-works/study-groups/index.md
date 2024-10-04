@@ -19,4 +19,4 @@ In a flipped classroom, we spend our time in class focused on active learning: w
 1. Search for **study group** on the curriculum website
 1. Find a day plan that uses the **study group** activity
 1. Read the instructions
-1. Check the learning objectives for the study group activity
+1. Read the learning objectives for the study group
