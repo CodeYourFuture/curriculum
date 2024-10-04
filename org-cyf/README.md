@@ -76,7 +76,8 @@ If you need to develop on this locally, run:
 
 ```zsh
 rm -rf public &&
-hugo && npx pagefind --site "public" --serve
+npm run build:dev &&
+npx pagefind --site "public" --serve
 ```
 
 And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
@@ -116,5 +117,3 @@ In this curriculum you'll find the content that we teach at CodeYourFuture. For 
 ## Contributing
 
 Please read CONTRIBUTING.MD
-
-
