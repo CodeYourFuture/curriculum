@@ -19,5 +19,5 @@ Most activities have written down objectives. It's useful to know _why_ we're do
 ### Steps 👣
 
 1. Find a day plan view where the morning orientation is used
-1. Check the learning objectives on the morning orientation activity
+1. Read the learning objectives on the morning orientation
 1. Volunteer to be the facilitator or timekeeper (you don't need to do this every week!)
