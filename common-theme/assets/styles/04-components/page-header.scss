@@ -105,7 +105,7 @@
   }
 
   &__breadcrumbs {
-    padding: 0 0 0 var(--theme-type-size--1);
+    padding: 0 0 0 calc(var(--theme-type-size--1) + 5px); //TODO track down this magic number
     z-index: 1;
     .c-page-header--splash & {
       display: none;
@@ -113,8 +113,6 @@
   }
 
   &__toc {
-    scroll-margin-top: calc(2 * var(--header-height));
-
     .c-toc {
       max-height: 25vh;
     }

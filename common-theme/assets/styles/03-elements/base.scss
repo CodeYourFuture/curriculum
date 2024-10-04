@@ -11,6 +11,8 @@ html {
   padding: 0;
   height: 100%;
   animation: fade-in 0.4s;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: calc(var(--header-height) * 2);
 }
 
 @media (max-width: $c-med) {

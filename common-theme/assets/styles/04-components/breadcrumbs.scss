@@ -11,19 +11,21 @@
     display: inline-flex;
     align-items: center;
     white-space: nowrap;
-
-    .c-page-header--solo & {
-      max-width: 8ch;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: block;
-    }
     @include on-event {
       text-decoration: overline 3px solid var(--theme-color--accent);
       outline: none;
       .c-breadcrumbs__icon {
         color: var(--theme-color--pop);
       }
+    }
+  }
+
+  &__text {
+    .c-page-header--solo & {
+      max-width: 7ch;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
     }
   }
 
