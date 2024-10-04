@@ -14,7 +14,7 @@ time=10
 
 Early in most day plans, we use the morning orientation to gather the community together. We nominate a time-keeper and a facilitator (if they weren't already nominated during the week).
 
-Most activities have written down objectives. It's useful to know _why_ we're doing something, before we start doing it.
+Most sections have written down objectives. It's useful to know _why_ we're doing something, before we start doing it.
 
 ### Steps 👣
 
