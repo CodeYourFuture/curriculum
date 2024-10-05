@@ -20,6 +20,17 @@
     }
   }
 
+  &__text {
+    .c-page-header--solo & {
+      @media (min-width: $c-med) {
+        max-width: 7ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+      }
+    }
+  }
+
   &__icon {
     height: 1em;
     min-width: 6px;

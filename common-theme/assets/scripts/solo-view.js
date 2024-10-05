@@ -179,14 +179,11 @@ class SoloView extends HTMLElement {
           gap: var(--theme-spacing--gutter);
         }
         ::slotted([slot="header"]) {
-          position: sticky;
-          top: 0;
           grid-area: sidebar;
 
         }
         ::slotted([slot="blocks"]) {
           padding-top: var(--theme-spacing--6);
-          --theme-spacing--scrollmargin: 100vh !important;
           grid-area: blocks;
         }
         ::slotted([slot="nav"]) {
