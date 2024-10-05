@@ -53,7 +53,11 @@ time.slice(0, 2); // will access the characters below
 | :-------: | :---: | :---: |
 | character | `"2"` | `"3"` |
 
-So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`. Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. We can use the `Number` function to convert the string into a number.
+So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`.
+
+Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. When comparing strings, the comparison always go left-to-right. If we compare the strings `"2"` and `"10"`, `"10"` comes first - because its first character is less than the first character in `"2"`. JavaScript uses different ways to compare values depending on their types.
+
+We can use the `Number` function to convert the string into a number.
 
 ```js
 Number(time.slice(0, 2)); // evaluates to 23
