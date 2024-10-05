@@ -22,10 +22,12 @@
 
   &__text {
     .c-page-header--solo & {
-      max-width: 7ch;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: block;
+      @media (min-width: $c-med) {
+        max-width: 7ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+      }
     }
   }
 

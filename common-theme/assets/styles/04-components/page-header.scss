@@ -100,8 +100,11 @@
     font-size: var(--theme-type-size--6);
     background-color: var(--theme-color--outline);
     margin-bottom: calc(-1 * var(--theme-spacing--3));
-    width: var(--theme-type-size--1);
     text-align: center;
+
+    @media (min-width: $c-med) {
+      width: var(--theme-type-size--1);
+    }
   }
 
   &__breadcrumbs {
