@@ -1,7 +1,7 @@
 +++
 title = '❓ Conditionally executing code'
 
-time = 20
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -30,7 +30,7 @@ if (condition) {
 The `if` statement consists of:
 
 1. `if` keyword: this is the start of the `if` statement
-2. `(condition)`: condition is an expression that evaluates to true or false
+2. `condition`: condition is an expression that evaluates to true or false. The condition must be in a pair of parentheses: `()`
 3. `{}`: a block statement: any code we want to execute if the condition is true goes inside the curly braces here
 
 We can represent this with a diagram too:
@@ -67,7 +67,7 @@ console.log(checkDivisibility(50, 3));
 Play computer with the example above, step through each line in the code and work out happens each time the function is called.
 
 - What is the **return value** each time the function is called?
-- What value is assigned to the `phoneNumber` **parameter** each time the function is called?
+- What value is assigned to the **parameters** `a` and `b` each time the function is called?
 
 If you've not encountered any syntax before, remember to look it up in some documentation.
 
