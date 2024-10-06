@@ -12,7 +12,10 @@ src="https://youtu.be/byGat8BaFuI"
 name="🥁 rhythm of the week"
 src="module/how-our-curriculum-works/rhythm-of-the-week"
 [[blocks]]
-name="📅 day plan"
+name="📅 calendar"
+src="module/how-our-curriculum-works/calendar"
+[[blocks]]
+name="🧑‍🤝‍🧑 day plan"
 src="module/how-our-curriculum-works/day-plan"
 [[blocks]]
 name="morning orientation"
