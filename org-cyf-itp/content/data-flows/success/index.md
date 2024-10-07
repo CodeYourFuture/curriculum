@@ -23,7 +23,7 @@ weight = 11
 - Fetch data from an API 
 
 ```see above
-- Catch errors that occur in your code
+- Catch errors in your code
 - Describe the concept of state, how to use it and what should be stored in it.
 - Build a UI that renders content using data stored in state, which can be updated on user interaction
 ```
