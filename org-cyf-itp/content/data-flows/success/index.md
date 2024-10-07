@@ -21,7 +21,8 @@ weight = 11
 - Create elements in the DOM, using Javascript
 - Trigger changes by listening to events
 - Fetch data from an API 
-- Use async/await to fetch data from an API
+
+```see above
 - Catch errors that occur in your code
 - Describe the concept of state, how to use it and what should be stored in it.
 - Build a UI that renders content using data stored in state, which can be updated on user interaction
