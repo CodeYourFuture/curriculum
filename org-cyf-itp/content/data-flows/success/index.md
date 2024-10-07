@@ -8,7 +8,7 @@ weight = 11
 [[objectives]]
 1="Link to your PR for [Array Destructuring](https://github.com/CodeYourFuture/Module-Data-Flows/issues/24), which you have had reviewed and responded to feedback."
 2="Link to your PR for your [Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)  which you have had reviewed and responded to feedback."
-3="Worked out your LinkedIn [Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this"
+3="Work out your LinkedIn [Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this"
 4="Link to your PR for [Javascript challenges](https://github.com/CodeYourFuture/Module-Data-Flows/issues/21), which you have had reviewed and responded to feedback."
 +++
 
