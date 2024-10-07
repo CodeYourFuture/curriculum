@@ -19,7 +19,8 @@ weight = 11
 ```objectives
 - Use the map function to transform data
 - Create elements in the DOM, using Javascript
-- Use event listeners to respond to user interaction
+- Trigger changes by listening to events
+- Fetch data from an API 
 - Use async/await to fetch data from an API
 - Catch errors that occur in your code
 - Describe the concept of state, how to use it and what should be stored in it.
