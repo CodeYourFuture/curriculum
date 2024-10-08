@@ -9,7 +9,7 @@ time= 10
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria. Hi Amy this is our change.
 
 Here is the criteria you need to meet:
 
