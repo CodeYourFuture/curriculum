@@ -13,8 +13,8 @@ require (
 
 replace github.com/CodeYourFuture/curriculum/common-content => ../common-content
 
-replace github.com/CodeYourFuture/curriculum/org-cyf-theme => ../org-cyf-theme
-
 replace github.com/CodeYourFuture/curriculum/common-theme => ../common-theme
 
 replace github.com/CodeYourFuture/curriculum/org-cyf-guides => ../org-cyf-guides
+
+replace github.com/CodeYourFuture/curriculum/org-cyf-theme => ../org-cyf-theme
