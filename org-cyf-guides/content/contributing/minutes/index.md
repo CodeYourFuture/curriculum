@@ -17,6 +17,80 @@ Attendees:
 
 ---
 
+## 2024-10-08
+
+Attendees: Ali, Sally, Daniel
+
+### ❗Actions from last time
+
+* [x] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [x] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [ ] Everyone: Think about starter tasks for new potential team members.
+
+### 📝 Agenda points
+
+#### Piscine availability
+
+- Ali will be away for the first week of Feb
+	- So first 2 weekends will be away :/
+	- Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
+- Daniel to check in on other people's availability
+
+#### "Gatekeeping" in ITP
+
+- How strictly should volunteers enforce review requirements in ITP?
+- Decision: we shouldn't enforce too strictly
+	- It's not the goal of ITP to be strict in assessment, that's the goal of Piscine
+		- We want ITP to be easy to re-try, give lots of chances to succeed
+		- While Piscine needs to be strict so that we can be realistic when it comes to SDC
+- Will some volunteers might be "gatekeep" in ITP anyway?
+	- Mostly likely yes, but we think it is better to err on the side of being overly strict than the opposite
+	- This may cause some complaints from trainees about unfairness, but we can deal with this easier than unrealistic expectations in SDC
+
+#### Replacing Scrimba in ITD
+
+- Team want to switch to freeCodeCamp
+	- Possibly worth exploring other options, but don't have other ideas currently
+
+#### Resources for SDC
+
+- Daniel has started to divide up SDC outcomes into "stuff we should create ourselves" and "stuff we can point to other people's existing good resources"
+	- So if there is any good materials you know of, then point Daniel towards them
+
+#### Volunteers confused about what to do on Saturdays
+
+- Sally: volunteers are asking quite a lot about what to do on a Saturday, they seem not to be reading the curriculum at all
+	- We expect them not to read it in depth, but we do need them to read _something_
+- Should understand the prep, day plan & backlog structure enough to figure it out for themselves
+- Aside: the How This Works module is targeted at volunteers, we might want to consider an equivalent for trainees. But this is a big package of work that isn't super high priority for us right now
+- Decision: one pager to explain the concepts, with a **very obvious** link on the CYF curriculum site
+	- We also think it would be useful to have a memorable short link (e.g. bit.ly/what-to-do-at-cyf-on-saturdays) that can be shared on Slack
+
+#### Connecting remote volunteers to mid week session support & PR reviews
+
+- Sally: we have a bunch of remote volunteers and opportunity to do mid-week learning sessions & PR reviews
+- Need to get Tech Ed volunteers to understand that giving PR feedback to trainees is important
+	- Do new volunteers not understand the important of giving PR feedback? Or is it that they don't know where to look (or haven't been obviously sign-posted enough)?
+		- We think it's the latter - so we need to find ways of directing the attention that way
+- We have very low numbers of volunteers outside of London - so can't really lean on in-person  volunteers to do reviews on Saturdays - so instead we should try to lean into using remote volunteers for PR reviews
+- Lili has been gathering new remote volunteers into a Slack channel - should point ITP leaders in that direction to ask for help
+
+### ❗Actions
+
+- Daniel(?): Check in on availability for first round of Piscine
+- ???: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
+- Ali: Review Daniel's Piscine PR
+- Sally: Come up with ideas for Ali to write up
+- Ali: Respond to deedback on Piscine PR
+- Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- Daniel: Ask Barath to get him to post in remote-volunteering channel
+- All: Think about useful resources for SDC
+
+---
+
 ## 2024-09-10
 
 Attendees: Ali Smith, Daniel Wagner-Hall
