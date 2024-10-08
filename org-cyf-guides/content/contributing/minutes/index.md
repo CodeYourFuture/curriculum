@@ -80,14 +80,14 @@ Attendees: Ali, Sally, Daniel
 
 ### ❗Actions
 
-- Daniel(?): Check in on availability for first round of Piscine
-- ???: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
-- Ali: Review Daniel's Piscine PR
-- Sally: Come up with ideas for Ali to write up
-- Ali: Respond to deedback on Piscine PR
-- Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
-- Daniel: Ask Barath to get him to post in remote-volunteering channel
-- All: Think about useful resources for SDC
+- [ ] Daniel(?): Check in on availability for first round of Piscine
+- [ ] ???: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
+- [ ] Ali: Review Daniel's Piscine PR
+- [ ] Sally: Come up with ideas for Ali to write up
+- [ ] Ali: Respond to deedback on Piscine PR
+- [ ] Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] Daniel: Ask Barath to get him to post in remote-volunteering channel
+- [ ] All: Think about useful resources for SDC
 
 ---
 
