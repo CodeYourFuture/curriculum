@@ -19,6 +19,11 @@ baseURL = "https://programming.codeyourfuture.io/"
     [[module.imports.mounts]]
       source = "content/blocks"
       target = "content/pd/blocks"
+  [[module.imports]]
+    path = "github.com/CodeYourFuture/curriculum/org-cyf-how-this-works"
+    [[module.imports.mounts]]
+      source = "content"
+      target = "content/how-this-works"
       
 
 [markup]
