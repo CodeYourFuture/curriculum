@@ -36,7 +36,7 @@ Attendees: Ali, Sally, Daniel
 
 - Ali will be away for the first week of Feb
 	- So first 2 weekends will be away :/
-	- Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
+	- It just needs to start and end in Feb. Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
 - Daniel to check in on other people's availability
 
 #### "Gatekeeping" in ITP
