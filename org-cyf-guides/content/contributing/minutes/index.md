@@ -26,7 +26,7 @@ Attendees: Ali, Sally, Daniel
 * [x] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
 * [ ] Ali (Carry-over): Write up projects in the Piscine repo
 * [ ] Everyone (Carry-over): Think about SDC topics and resources.
-* [x] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [x] Everyone: Think about how we may or may not want to assess people at the end of ITP to gate entry to the Piscine.
 * [ ] Daniel: Symlink all the tooling folders.
 * [ ] Everyone: Think about starter tasks for new potential team members.
 
