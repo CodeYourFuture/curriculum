@@ -7,6 +7,7 @@ emoji= '🗄️'
 [objectives]
     1='Identify current output and target output in test feedback'
     2='Determine the line an error occurred from some test feedback'
+    3='Give an example of why Jest makes tests easier to write than console.assert'
 [build]
   render = 'never'
   list = 'local'
@@ -31,11 +32,7 @@ looks like this
 
 ```js
 test("converts 1 to an ordinal number", function () {
-  const input = 1;
-  const currentOutput = getOrdinalNumber(input);
-  const targetOutput = "1st";
-
-  expect(currentOutput).toBe(targetOutput);
+  expect(getOrdinalNumber(1)).toEqual("1st");
 });
 ```
 
@@ -51,7 +48,7 @@ At the moment, our test feedback gives the following:
 
 ![test-reference-error](test-reference-error.png)
 
-The test code is throwing a {{<tooltip title="ReferenceError">}}A **ReferenceError** occurs when we try to reference a variable that we've not defined in our code.{{</tooltip>}}
+Just like we saw when the `test` function wasn't defined, the test code is throwing a {{<tooltip title="ReferenceError">}}A **ReferenceError** occurs when we try to reference a variable that we've not defined in our code.{{</tooltip>}}
 
 This means that we haven't defined a function named `getOrdinalNumber`, but we're trying to use it.
 
@@ -61,7 +58,7 @@ To fix this, we can declare `getOrdinalNumber`.
 function getOrdinalNumber() {}
 
 test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toBe("1st");
+  expect(getOrdinalNumber(1)).toEqual("1st");
 });
 ```
 
@@ -94,23 +91,36 @@ What line number did the test case fail on?
 
 {{</note>}}
 
+### Avoiding repetition
+
+When we wrote `console.assert` tests before, we ended up extracting variables because we were re-using values.
+
+Without Jest, this assertion would probably have looked more like:
+
+```js
+const input = 1;
+const targetOutput = "1st";
+const currentOutput = getOrdinalNumber(input);
+console.assert(targetOutput === currentOutput, `Expected ${targetOutput} but got ${currentOutput}`);
+```
+
+Because Jest makes a useful error message for us telling us what the target and current outputs are, we could write this all in one line. We didn't need a variable so we could pass `"1st"` both to `getOrdinalNumber` and into the message.
+
+Jest helped us to avoid writing more repetitive code.
+
 ### Passing `getOrdinalNumber`
 
 We can now pass the test by implementing functionality for the first test case.
 We could write the following:
 
-get-ordinal-number.test.js
+`get-ordinal-number.test.js`:
 
 ```js {linenos=table,hl_lines=["2"],linenostart=1}
 function getOrdinalNumber() {
   return "1st";
 }
 
-test("converts 1 to an ordinal number", function () {
-  const input = 1;
-  const currentOutput = getOrdinalNumber(input);
-  const targetOutput = "1st";
-
-  expect(currentOutput).toBe(targetOutput);
+test("converts 1 to an ordinal number", function() {
+  expect(getOrdinalNumber(1)).toEqual("1st");
 });
 ```

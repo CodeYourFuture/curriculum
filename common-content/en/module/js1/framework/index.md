@@ -25,7 +25,7 @@ const targetOutput = "1st";
 
 Case 1 states that when `getOrdinalNumber` is called with an input of 1, it has a target output of "1st". Our first step is to check that `getOrdinalNumber` works as we have stated.
 
-We have used `console.assert` to write assertions to check our code before, but `console.assert` is limited. Now we will write **tests** to check our code is behaving in a particular way.
+We have used `console.assert` to write assertions to write tests for our code before. `console.assert` is a useful building block, but it is limited. Now we will write tests using a {{<tooltip title="test framework">}} A **test framework** is a set of tools we can use to build tests efficiently.{{</tooltip>}} to check our code is behaving in a particular way.
 
 > 🔑 A test is any piece of code that runs an **assertion** on the code we're testing
 
@@ -33,11 +33,11 @@ We have used `console.assert` to write assertions to check our code before, but 
 
 - be easy to write
 - be easy to read
-- to give clear feedback on what the current output is
-- to give clear feedback on what the target output is
-- easily write multiple test cases
+- give clear feedback on what the current output is
+- give clear feedback on what the target output is
+- allows us to easily write multiple test cases
 
-To help us build test cases like this, we will use a {{<tooltip title="test framework">}} A **test framework** is a set of tools we can use to build tests efficiently.{{</tooltip>}}
+A test framework will help us build test cases like this.
 
 {{<note type="discussion" title="🧑🏽🧑🏿 Dialogue">}}
 We can use a short dialogue to think about _why_ we want to use a testing framework:
