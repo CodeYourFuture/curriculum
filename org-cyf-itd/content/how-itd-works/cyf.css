@@ -1,0 +1,24 @@
+ol[type="1"]::before {
+    font-weight: bold;
+    font-size: 1.875em;
+    color: #9A1750;
+    content: "Activity:";
+}
+ol[type="1"] {
+    padding-right: 1em;
+    border: thick double #E3AFBC;
+}
+
+ol[type="1"] ol[type="1"]::before {
+    content: "";
+}
+    
+ol[type="1"] ol[type="1"] {
+    border: none;
+}
+
+
+ul.checklist li::marker {
+    content: '\2714\0020'; /* '✓'; */
+  color: green;
+}
