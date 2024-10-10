@@ -11,7 +11,7 @@ Practice preparing your CV to be successful for each application rather than sen
 
 Learn more here: https://www.indeed.com/career-advice/resumes-cover-letters/ats-resume
 
-​ - https://resumeworded.com/ - This gives you a score for your CV using an ATS and shows you where you can improve. You can re-upload your CV to see the impact of your changes.
-​ - https://app.jobscan.co/ - This has a limited number of uses for free but allows you to compare a specific job description against your CV. Use this to help you understand how they compare the job description to your CV.
+- https://resumeworded.com/ - This gives you a score for your CV using an ATS and shows you where you can improve. You can re-upload your CV to see the impact of your changes.
+- https://app.jobscan.co/ - This has a limited number of uses for free but allows you to compare a specific job description against your CV. Use this to help you understand how they compare the job description to your CV.
 
 **You should treat your CV & Cover Letters as you would code**. Keep iterating until it works for you!

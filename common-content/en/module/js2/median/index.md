@@ -1,9 +1,10 @@
 +++
 title = '📊 Calculating the median'
 
-time = 25
+time = 15
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
 1='Describe how to calculate the median of a list in JavaScript' 
 [build]
@@ -19,14 +20,14 @@ We want to _calculate_ the [median](https://www.bbc.co.uk/bitesize/guides/zwhgk2
 
 _Given_ an array of numbers in _ascending order_  
 _When_ we call `calculateMedian` with this array  
-_Then_ we get the median value
+_Then_ we get the median value.
 
 We calculate the median of a list of numbers by finding the middle value in the list.
 
 Let's start with a test to check the **return value** of `calculateMedian` given an ordered list of numbers. In your `prep` dir, `touch median.js && touch median.test.js`. Write the following test in the `median.test.js` file.
 
 ```js
-test("calculates the median of a list of odd length", function () {
+test("calculates the median of a list of odd length", () => {
   const list = [10, 20, 30, 50, 60];
   const currentOutput = calculateMedian(list);
   const targetOutput = 30;
@@ -57,19 +58,3 @@ function calculateMedian(list) {
   return median;
 }
 ```
-
-{{<tabs name="">}}
-
-{{<tab name="🧪 Test it">}}
-Try writing a test case to check `calculateMedian` works in the case when it is passed an _array of even length_.
-
-Use [documentation](https://www.bbc.co.uk/bitesize/guides/zwhgk2p/revision/2) to check how the median is computed in this case.
-
-{{</tab>}}
-
-{{<tab name="🔧 Implement">}}
-Once you've written your test case for `calculateMedian`, hopefully you see this implementation isn't doing the right thing. Try implementing the functionality for this case.
-
-{{</tab>}}
-
-{{</tabs>}}

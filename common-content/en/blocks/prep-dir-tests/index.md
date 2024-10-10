@@ -1,10 +1,10 @@
 +++
-title = 'Prep dir'
+title = 'Creating test files'
 time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Touch files for the first problem'
+    1='Create files for the first problem'
     2="Open the first problem in your prep directory"
     3="Use the terminal to control VSCode"
 [build]
@@ -13,7 +13,7 @@ emoji= '🧩'
   publishResources = false
 +++
 
-### 📄 Touch files for the first problem
+### 📄 Create files for the first problem
 
 Find the first problem in your prep for this module and create the files you'll need to work on it.
 

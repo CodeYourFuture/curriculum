@@ -4,6 +4,7 @@ title = '➕ Summation'
 time = 20
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
     1='Describe how to sum the numbers in a list'
     2='Explain why repeated statements are hard to maintain'
