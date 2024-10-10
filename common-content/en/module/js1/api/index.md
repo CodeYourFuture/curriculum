@@ -1,5 +1,5 @@
 +++
-title = '🎛️ Application Programming Interface'
+title = "🎛️ Jest's Application Programming Interface"
 
 time = 15
 facilitation = false
@@ -33,13 +33,13 @@ But we can break down each word in this acronym to understand it altogether.
 
 - An 🕹️**interface** is a shared boundary between two or more systems.
 
-We’ve encountered several functions like `console.log`, `Math.round` already.
+We've encountered several functions like `console.log` and `Math.round` already.
 `console.log` and `Math.round` are **API**s.
 
 `console.log` is actually implemented in a different language (C++), but that doesn't matter - its functionality is exposed to us when we write JavaScript, and we don't need to care how it's actually implemented or how it works.
 
 Jest provides an **API** so we can write tests.
-So _we have to find out about the Jest API_ to start writing tests with Jest.
+So we have to find out about the Jest API to start writing tests with Jest.
 
 {{<tabs name="exercises">}}
 

@@ -26,14 +26,14 @@ All the numbers ending in 1 will continue to end in `"st"`, with the exception o
 
 We can now update our test case to check that `getOrdinalNumber` works for lots of different numbers ending in 1.
 
-get-ordinal-number.test.js
+`get-ordinal-number.test.js`:
 
 ```js {linenos=table,hl_lines=["5-9"],linenostart=1}
 function getOrdinalNumber() {
   return "1st";
 }
 
-test("works for any number ending in 1", function () {
+test("works for any number ending in 1", function() {
   expect(getOrdinalNumber(1)).toBe("1st");
   expect(getOrdinalNumber(11)).toBe("11th");
   expect(getOrdinalNumber(21)).toBe("21st");
