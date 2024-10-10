@@ -14,7 +14,7 @@ emoji= '🧩'
 
 +++
 
-Currently `calculateMedian` mutates its input - the `list` of numbers. This mutation is called a {{<tooltip title="side effect">}} A function has a side effect if it does something which can be observed from outside of the function (aside from returning a value). Removing an element from an array is a side effect. Logging something to the console is also a side effect.{{</tooltip>}}.
+Currently `calculateMedian` mutates its input - the array of numbers. This mutation is called a {{<tooltip title="side effect">}} A function has a side effect if it does something which can be observed from outside of the function (aside from returning a value). Removing an element from an array is a side effect. Logging something to the console is also a side effect.{{</tooltip>}}.
 
 In this case, the **side effect** has unintended consequences. We have introduced a {{<tooltip title="bug">}}Any unintended behaviour or effect from our software is called a **bug**.{{</tooltip>}} which makes `calculateMean` return the wrong value. Both `calculateMean` and `calculateMedian` need access to the original `salaries` array. Therefore, we should take make sure we don't mutate the array unless we really mean to.
 

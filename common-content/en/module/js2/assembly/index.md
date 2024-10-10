@@ -4,6 +4,7 @@ title = '🧱 Assembling the parts'
 time = 10
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
 1='Identify a bug when a function gives an unexpected output'
 [build]

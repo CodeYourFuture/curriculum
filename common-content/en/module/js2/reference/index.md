@@ -47,8 +47,8 @@ Play computer with the code above to step through the code and find out what hap
 ![point-to-array](point-to-array.png)
 
 - We make an array `[10, 20, 30]` and store it somewhere in memory.
-- `list` is assigned a **reference** to `[10, 20, 30]`
-- `copy` is assigned a **reference** pointing at the same memory as `list`
+- `list` is assigned a **reference** to the location in memory containing `[10, 20, 30]`
+- `copy` is assigned a **reference** pointing at the same location in memory as `list`
 
 At this stage in the program, `list` and `copy` point to the same location in memory.
 
@@ -91,10 +91,19 @@ We can also check these variables share the same reference.
 const list = [10, 20, 30];
 const copy = list;
 
-console.log(list === copy); // evaluates to true
+console.log(list === copy); // logs true
 ```
 
-If we're comparing 2 array variables with `===`, then it will evaluate to `true` only if they have the **same reference**. `===` is comparing the references to the arrays, not the arrays themselves.
+If we're comparing 2 array variables with `===`, then it will evaluate to `true` only if they have the **same reference**. `===` is comparing the references to the arrays, not the contents of arrays.
+
+If we made two different arrays with the same contents, they would not be `===` equal:
+
+```js
+const list = [10, 20, 30];
+const copy = [10, 20, 30];
+
+console.log(list === copy); // logs false
+```
 
 ### Value vs reference
 
