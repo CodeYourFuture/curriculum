@@ -1,5 +1,5 @@
 +++
-title = '❓❓❓ Multiple parameters'
+title = '❓❓❓ Parsing multiple parameters'
 
 time = 30
 facilitation = false
@@ -22,12 +22,12 @@ In the case when the query string has multiple query parameters, then each key-v
 Write this test in the `parse-query-string.test.js` file.
 
 ```js
-test("given a query string with multiple key-value pairs, returns them in object form", function () {
+test("given a query string with multiple key-value pairs, returns them in object form", function() {
   const input = "sort=lowest&colour=yellow";
   const currentOutput = parseQueryString(input);
   const targetOutput = { sort: "lowest", colour: "yellow" };
 
-  expect(currentOutput).toStrictEqual(targetOutput);
+  expect(currentOutput).toEqual(targetOutput);
 });
 ```
 
@@ -47,13 +47,13 @@ Let's start with the first sub-goal.
 
 #### 🎯 Sub-goal 1: split the query string into an array of key-value pairs
 
-Query strings with multiple key-value pairs use `&` as a separator e.g. `sort=lowest&colour=yellow`. We want to split `sort=lowest&colour=yellow` into `["sort=yellow", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
+Query strings with multiple key-value pairs use `&` as a separator e.g. `sort=lowest&colour=yellow`. We want to split `sort=lowest&colour=yellow` into `["sort=lowest", "colour=yellow"]`. We can achieve this by calling `split` with the `"&"` separator.
 
 ```js {linenos=table,hl_lines=[4] ,linenostart=1}
 function parseQueryString(queryString) {
   // suppose queryString has a value of "sort=lowest&colour=yellow"
   const queryParams = {};
-  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=yellow", "colour=yellow"]
+  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=lowest", "colour=yellow"]
 }
 ```
 
@@ -65,7 +65,7 @@ Once we've got an array we can iterate through the key-value pairs and update th
 function parseQueryString(queryString) {
   // assume queryString has a value of "sort=lowest&colour=yellow"
   const queryParams = {};
-  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=yellow", "colour=yellow"]
+  const keyValuePairs = queryString.split("&"); // keyValuePairs will point to ["sort=lowest", "colour=yellow"]
 
   for (const pair of keyValuePairs) {
     const [key, value] = pair.split("=");
@@ -81,14 +81,16 @@ function parseQueryString(queryString) {
 
 **Play computer** with the implementation of `parseQueryString` above and pay attention to how the `queryParams` object is updated.
 
-<iframe title="parse-query-solution" width="1200" height="600" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20parseQueryString%28queryString%29%20%7B%0A%0A%20%20const%20queryParams%20%3D%20%7B%7D%3B%0A%20%20const%20keyValuePairs%20%3D%20queryString.split%28%22%26%22%29%3B%20%0A%20%20for%20%28const%20pair%20of%20keyValuePairs%29%20%7B%0A%20%20%20%20const%20%5Bkey,%20value%5D%20%3D%20pair.split%28%22%3D%22%29%3B%0A%20%20%20%20queryParams%5Bkey%5D%20%3D%20value%3B%0A%20%20%7D%0A%0A%20%20return%20queryParams%3B%0A%7D%0A%0AparseQueryString%28%22sort%3Dlowest%26colour%3Dyellow%22%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=20&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20parseQueryString%28queryString%29%20%7B%0A%0A%20%20const%20queryParams%20%3D%20%7B%7D%3B%20%0A%20%20const%20keyValuePairs%20%3D%20queryString.split%28%22%26%22%29%3B%20%0A%20%20for%20%28const%20pair%20of%20keyValuePairs%29%20%7B%0A%20%20%20%20const%20%5Bkey,%20value%5D%20%3D%20pair.split%28%22%3D%22%29%3B%0A%20%20%20%20queryParams%5Bkey%5D%20%3D%20value%3B%0A%20%20%7D%0A%0A%20%20return%20queryParams%3B%0A%7D%0A%0AparseQueryString%28%22sort%3Dlowest%26colour%3Dyellow%22%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 {{</tab>}}
 
 {{</tabs>}}
 
 Now that we've worked out how to solve this problem in the case of multiple query parameters, let's integrate that solution into our previous implementation, to make sure it works for all cases.
 
-We can keep our `if (queryString.length === 0) {` check from before. We don't need to do anything special for the one-value case, as an array containing one element gets iterated the same as an array of multiple elements:
+We can keep our `if (queryString.length === 0) {` check from before. We still need it because `split` on an empty string still returns an empty string. If we don't have this special case, we'll try to parse the empty string, probably incorrectly.
+
+We don't need to do anything special for the one-value case, as an array containing one element gets iterated the same as an array of multiple elements:
 
 ```js
 function parseQueryString(queryString) {

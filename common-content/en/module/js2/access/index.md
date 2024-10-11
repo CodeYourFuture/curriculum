@@ -1,11 +1,12 @@
 +++
-title = '🚪 Property access'
+title = '🚪 Accessing properties'
 
-time = 10
+time = 15
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Access object property values with dot notation'
+    2='Define the term "literal"'
 [build]
   render = 'never'
   list = 'local'
@@ -36,7 +37,7 @@ When we write `console.log` - think of this as saying:
 
 > "access the _value_ associated with _key_ of `"log"`, inside the `console` object"
 
-Similarly we can use dot notation to access property values stored in object literals:
+Similarly we can use dot notation to access property values stored in objects we have defined:
 
 ```js
 const profileData = {
@@ -85,9 +86,9 @@ const profileData = {
   age: 33,
 };
 const twinData = profileData;
-twinData.age++;
+twinData.firstName = "Emilia";
 console.log(profileData === twinData);
-console.log(profileData.age);
+console.log(profileData.firstName);
 ```
 
 Predict and explain what the console output be when we run the code above runs.
@@ -100,7 +101,7 @@ Predict and explain what the console output be when we run the code above runs.
 
 It's possible to add properties to an object that already exists. Objects don't always have the same properties.
 
-{{<tab name="Predict and explain 💬 🧠">}}
+{{<note type="exercise" name="Predict and explain 💬 🧠">}}
 
 ```js
 const profileData = {
@@ -117,7 +118,7 @@ console.log(profileData.cityOfResidence);
 
 Predict and explain what the console output will be when the code above runs.
 
-{{</tab>}}
+{{</note>}}
 
 ### Object literals vs objects
 

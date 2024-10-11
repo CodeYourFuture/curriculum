@@ -1,7 +1,7 @@
 +++
 title = '[ ] Access with variables'
 
-time = 20
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -14,7 +14,7 @@ emoji= '🧩'
 
 +++
 
-We can mutate an object using `.` dot notation. However, if we look at the return value in the previous implementation we get `{ key : "banana"}`.
+We can mutate an object using `.` dot notation. However, if we look at the return value in the previous implementation we get `{key: "banana"}`.
 Let's take another look at our current implementation of `parseQueryString`:
 
 ```js {linenos=table,hl_lines=["5"],linenostart=1}
@@ -44,7 +44,7 @@ function parseQueryString(queryString) {
 }
 ```
 
-We can't use dot syntax if we don't know what the name of the key is going to be. Square bracket notation is more powerful than dot notation, because it lets us use variables as keys.
+We can't use dot syntax if we don't know what the name of the key is going to be. Square bracket notation is more powerful than dot notation, because it lets us use any expression as a key.
 
 {{<tabs>}}
 
@@ -53,19 +53,19 @@ We've currently got the following test suite:
 
 ```js
 describe("parseQueryString()", () => {
-  test("given a queryString with no query parameters, returns an empty object", function () {
+  test("given a queryString with no query parameters, returns an empty object", function() {
     const input = "";
     const currentOutput = parseQueryString(input);
     const targetOutput = {};
 
-    expect(currentOutput).toStrictEqual(targetOutput);
+    expect(currentOutput).toEqual(targetOutput);
   });
-  test("given a queryString with one pair of query params, returns them in object form", function () {
+  test("given a queryString with one pair of query params, returns them in object form", function() {
     const input = "fruit=banana";
     const currentOutput = parseQueryString(input);
     const targetOutput = { fruit: "banana" };
 
-    expect(currentOutput).toStrictEqual(targetOutput);
+    expect(currentOutput).toEqual(targetOutput);
   });
 });
 ```

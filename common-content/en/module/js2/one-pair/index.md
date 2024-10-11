@@ -1,5 +1,5 @@
 +++
-title = '❓ Single pair case'
+title = '❓ Parsing a single key-value pair'
 
 time = 30
 facilitation = false
@@ -14,15 +14,17 @@ emoji= '🧩'
 
 +++
 
-Let's consider another test case: when the query string contains a single key-value pair Write a test in the `parse-query-string.test.js` file.
+Let's consider another test case: when the query string contains a single key-value pair.
+
+Write a test in the `parse-query-string.test.js` file:
 
 ```js
-test("given a query string with one pair of query params, returns them in object form", function () {
+test("given a query string with one pair of query params, returns them in object form", function() {
   const input = "fruit=banana";
   const currentOutput = parseQueryString(input);
   const targetOutput = { fruit: "banana" };
 
-  expect(currentOutput).toStrictEqual(targetOutput);
+  expect(currentOutput).toEqual(targetOutput);
 });
 ```
 
@@ -43,13 +45,15 @@ function parseQueryString(queryString) {
 }
 ```
 
-However, instead of accessing the array's elements like this, we can use [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to create new variables and assign them values, based on values in an array.
+An equivalent, but more concise way to do this uses [array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to create new variables and assign them values, based on values in an array.
+
+This code does the same thing as the previous code:
 
 ```js
 function parseQueryString(queryString) {
   const queryParams = {};
 
-  const [key, value] = queryString.split("="); // key will hold 'fruit', value will hold 'banana
+  const [key, value] = queryString.split("="); // key will hold 'fruit', value will hold 'banana'
   queryParams.key = value;
 
   return queryParams;
