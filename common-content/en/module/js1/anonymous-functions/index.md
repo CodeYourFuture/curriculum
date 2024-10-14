@@ -21,7 +21,7 @@ function convertToPercentage(decimalNumber) {
 }
 ```
 
-But in our Jest test, we wrote a function differently:
+In our Jest test, we wrote a function differently:
 
 ```js
 function() {
