@@ -31,7 +31,7 @@ function (decimalNumber) {
 ```
 
 ```js
-// We can also skip the keyword function.
+// We can also skip the keyword 'function'.
 // If we do this, we need an arrow between our parameters and the function body.
 (decimalNumber) => {
   return `${decimalNumber * 100}%`;
