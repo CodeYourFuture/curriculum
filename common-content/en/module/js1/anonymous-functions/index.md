@@ -13,7 +13,7 @@ emoji= '🏷️'
 
 +++
 
-We learnt before that functions are written like this:
+We have seen functions written like this:
 
 ```js
 function convertToPercentage(decimalNumber) {
