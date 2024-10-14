@@ -48,8 +48,15 @@ In JavaScript, we can pass functions as arguments to other functions. In this ca
 We can add a log to `updateCharacterLimit` to check it is called every time the `"keyup"` event fires.
 
 ```js
-const characterLimit = 200;
+// We already had the top part of this code before.
+
 const textarea = document.querySelector("textarea");
+const remainingCharacters = textarea.maxLength - textarea.value.length;
+
+const charactersLeftP = document.querySelector("#character-limit-info");
+charactersLeftP.innerText = `You have ${remainingCharacters} characters remaining`;
+
+// From here down is new.
 
 function updateCharacterLimit() {
   console.log(
@@ -76,7 +83,7 @@ textarea.addEventListener("keyup", updateCharacterLimit);
     rows="5"
     maxlength="200"
   ></textarea>
-  <p id="character-limit-info">You have 200 characters remaining</p>
+  <p id="character-limit-info"></p>
 </section>
 ```
 
