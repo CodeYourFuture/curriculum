@@ -50,7 +50,7 @@ function test(name, testFunction) {
 }
 ```
 
-It doesn't matter what _we_ named our test function - inside the `test` function it has the name `testFunction`, so Jest can call it.
+Inside `test` our function is labelled with the name `testFunction`. It would be labelled this whatever we named it before. Even if we didn't label it ourselves at all, it is still labelled with the name `testFunction` inside `test`.
 
 Because it doesn't matter what we named the function (because we never call it by name), we didn't give it a name.
 
