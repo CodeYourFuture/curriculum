@@ -45,7 +45,7 @@ function (decimalNumber) {
 (decimalNumber) => `${decimalNumber * 100}%`;
 ```
 
-This can be useful to make is quicker and easier to write functions. It also reduces the number of things we need to skip past when reading a function.
+This can make it easier and quicker to write functions. It reduces the number of things we need to read in a function. 
 
 Applying all of these techniques, we can rewrite our Jest test with fewer words:
 
