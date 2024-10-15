@@ -13,9 +13,9 @@ emoji= '➡️'
 
 +++
 
-As we write more code, we are going to write lots and lots of anonymous functions.
+As we write more code, we are going to write lots and lots of {{<tooltip title="anonymous functions">}}An anonymous function is a function which is not bound to a name in the scope where it is defined.{{</tooltip>}}.
 
-JavaScript added even shorter ways of writing an anonymous function. These four functions all do the same thing:
+JavaScript has even shorter ways of writing an anonymous function. These four functions all do the same thing:
 
 ```js
 function convertToPercentage(decimalNumber) {
@@ -58,3 +58,11 @@ test("works for any number ending in 1", () => {
 ```
 
 It doesn't matter whether you use arrow functions or use the `function` keyword - they work the same.
+
+Not all arrow functions are anonymous - you can assign them to a variable too:
+
+```js
+const convertToPercentage = (decimalNumber) => `${decimalNumber * 100}%`;
+```
+
+Anonymous vs named refers to whether the function is bound to a name, not whether it was defined with the `function` keyword or an `=>`.

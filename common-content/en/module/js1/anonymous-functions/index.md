@@ -39,7 +39,7 @@ Stop and identify the difference in syntax between these two function definition
 
 We didn't give a name to the function in our Jest test.
 
-This is ok, because we don't need it to have a name. We don't call the function by name. We passed the function as an argument to the `test` function. The `test` function takes the function as a parameter. And function parameters get their own names in the scope of the function.
+This is ok, because we don't need it to have a name. We don't call the function by name. We passed the function as an {{<tooltip title="argument">}}Arguments are values given to a function which can be different every time we call the function.{{</tooltip>}} to the `test` function. The `test` function takes the function as a {{<tooltip title="parameter">}}A parameter is a named variable inside a function. The variable's value is given by the caller, when the function is called.{{</tooltip>}}. And function parameters get their own names in the {{<tooltip title="scope">}}Scope is where a variable can be accessed from. When we define function, its parameters are only available inside the function.{{</tooltip>}} of the function.
 
 We can imagine the `test` function is defined like this:
 
