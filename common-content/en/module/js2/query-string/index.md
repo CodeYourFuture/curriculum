@@ -27,9 +27,9 @@ URLs must always be strings. However, a string isn't a useful data type for acce
 
 We're going to implement a function `parseQueryString` to extract the query parameters from a query string and store them in an object:
 
-_Given_ a query string and a function `parseQueryString`,
-_When_ we call `parseQueryString` with a query string,
-_Then_ it should return an object with the key-value pairs
+_Given_ a query string and a function `parseQueryString`,  
+_When_ we call `parseQueryString` with a query string,  
+_Then_ it should return an object with the key-value pairs.
 
 E.g.
 
