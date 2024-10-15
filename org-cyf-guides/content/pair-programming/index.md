@@ -28,7 +28,7 @@ When approaching a problem, you need to **explain your thought process**, **plan
 
 **Help people learn**: Most of the exercises the trainees are doing aren't useful in their own right. The point is for the trainee to learn and grow through them. Focus on understanding, and techniques that will help solve the next problem.
 
-**Don't take over!** It's important trainees get used to figuring things out. Provide guidance and assistance but trainees need to struggle to overcome any obstacles with understanding and technical communication.
+**Don't take over!** It's important trainees get used to figuring things out. Provide guidance and assistance but trainees need to struggle to overcome any obstacles with understanding and technical communication. It can be uncomfortable to watch someone struggle, but make sure they've considered and tried all of their ideas before you intervene.
 
 **Give honest feedback**: Trainees can't develop if they don't receive honest feedback about their progress.
 
