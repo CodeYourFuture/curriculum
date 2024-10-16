@@ -1,5 +1,5 @@
 +++
-title = '🌲 Interacting with the page'
+title = '🌲 The DOM'
 
 time = 20
 facilitation = false
@@ -13,7 +13,7 @@ emoji= '🧩'
 
 +++
 
-Let's consider the starting html. We need a way of interacting with the elements of this page once it is rendered.
+Let's consider the starting HTML. We need a way of interacting with the elements of this page once it is rendered.
 
 ```html
 <!DOCTYPE html>
@@ -26,10 +26,10 @@ Let's consider the starting html. We need a way of interacting with the elements
   <body>
     <section>
       <h3>Character limit</h3>
-      <label for="comment-input"
-        >Please enter your comment in the text area below
+      <label for="comment-input">
+        Please enter your comment in the text area below
       </label>
-      <textarea id="comment-input" name="comment-input" rows="5"></textarea>
+      <textarea id="comment-input" name="comment-input" rows="5" maxlength="200"></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
@@ -46,13 +46,13 @@ When we use a web browser, it takes this HTML document, and provides us with an 
 
 ### Document Object Model
 
-When the browser first renders a web page it also creates the DOM - short for {{<tooltip title="Document Object Model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All html elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}.
+When the browser first renders a web page it also creates the DOM - short for {{<tooltip title="Document Object Model">}}The **D**ocument **O**bject **M**odel is a data representation of the content in a web page. All HTML elements are represented as objects that can be accessed, modified and deleted.{{</tooltip>}}.
 
 Just like a web browser provides us a visual interface, the DOM is an interface. But it is not an interface for humans to see and interact with, it is an interface for JavaScript to interact with. We can write JavaScript programs to interact with the Document Object Model so we can make the page interactive.
 
 {{<tabs name="activity">}}
 
-{{<tab name="🔎 inspect with dev tools">}}
+{{<tab name="🔎 Inspect with dev tools">}}
 
 We can use Dev Tools to inspect the DOM and look at the elements on the page.
 Use Dev Tools to inspect the character limit component from earlier.

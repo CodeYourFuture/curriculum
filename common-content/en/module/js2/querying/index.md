@@ -18,8 +18,8 @@ Inside the `body` of the html document, we start with the following html:
 ```html
 <section>
   <h3>Character limit</h3>
-  <label for="comment-input"
-    >Please enter your comment in the text area below
+  <label for="comment-input">
+    Please enter your comment in the text area below
   </label>
   <textarea
     id="comment-input"
@@ -40,9 +40,9 @@ Step 2: Access the `textarea` element
 
 {{</note>}}
 
-The DOM is an interface. It represents html elements as objects and provides functions to access these objects. Let’s start by accessing the `textarea` element and its value. To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+The DOM is an interface. It represents HTML elements as objects and provides functions to access these objects. Let’s start by accessing the `textarea` element and its value. To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-We can create a javascript file, `script.js`, and link it to the html document using a `script` element:
+We can create a javascript file, `script.js`, and link it to the HTML document using a `script` element:
 
 ```html {linenos=table,linenostart=1 hl_lines=["7"]}
 <!DOCTYPE html>
@@ -56,10 +56,10 @@ We can create a javascript file, `script.js`, and link it to the html document u
   <body>
     <section>
       <h3>Character limit</h3>
-      <label for="comment-input"
-        >Please enter your comment in the text area below
+      <label for="comment-input">
+        Please enter your comment in the text area below
       </label>
-      <textarea id="comment-input" name="comment-input" rows="5"></textarea>
+      <textarea id="comment-input" name="comment-input" rows="5" maxlength="200"></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
@@ -91,6 +91,7 @@ console.log(textarea.value); // evaluates to the value typed by the user
 2. Make sure you start with the same static html as the example above.
 3. Double check your script file is linked to your html file.
 4. Try querying the DOM and accessing various elements like the `textarea` element.
+5. Try typing in the `textarea` element, and then accessing its `value` property in Dev Tools.
 
 {{</tab>}}
 
