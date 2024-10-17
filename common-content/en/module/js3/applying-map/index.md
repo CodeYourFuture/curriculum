@@ -38,5 +38,3 @@ const films = [
 ```
 
 Use `createFilmCard` and `map` to create an array of film card components. In your local project, render this array of components in the browser.
-
-Remember, the function you pass to `map` doesn't take exactly the same parameters as your `createFilmCard` function.
