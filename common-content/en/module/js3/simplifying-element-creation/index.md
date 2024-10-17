@@ -1,5 +1,5 @@
 +++
-title = '🧼 Simplifying element creation with functions'
+title = '🧼 Creating elements with functions'
 
 time = 30
 facilitation = false

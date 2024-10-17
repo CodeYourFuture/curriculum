@@ -1,5 +1,5 @@
 +++
-title = '🍱 Simplifying element creation with <template> tags'
+title = '🍱 Creating elements with <template>'
 
 time = 30
 facilitation = false

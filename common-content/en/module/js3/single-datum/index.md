@@ -1,5 +1,5 @@
 +++
-title = '💽 Rendering a single datum'
+title = '💽 Rendering one card'
 
 time = 30
 facilitation = false

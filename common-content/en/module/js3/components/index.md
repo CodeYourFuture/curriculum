@@ -1,5 +1,5 @@
 +++
-title = '🃏 Building a component'
+title = '🃏 Reusable components'
 
 time = 30
 facilitation = false

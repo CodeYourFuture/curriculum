@@ -14,19 +14,19 @@ src="module/js3/now-showing"
 name="Step-through-prep workshop"
 src="https://www.youtube.com/watch?v=afd8g8I4474"
 [[blocks]]
-name="Rendering a single datum"
+name="Rendering one card"
 src="module/js3/single-datum"
 [[blocks]]
 name="Composing elements"
 src="module/js3/composing-elements"
 [[blocks]]
-name="Simplifying element creation with functions"
+name="Creating elements with functions"
 src="module/js3/simplifying-element-creation"
 [[blocks]]
-name="Simplifying element creation with <template> tags"
+name="Creating elements with <template>"
 src="module/js3/template-html"
 [[blocks]]
-name="Building a component"
+name="Reusable components"
 src="module/js3/components"
 [[blocks]]
 name="One-to-one mappings"
