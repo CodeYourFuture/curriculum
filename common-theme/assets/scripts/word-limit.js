@@ -22,7 +22,7 @@ class WordLimit extends HTMLElement {
   updateCharacterLimitInfo() {
     const characterCount = this.getCharacterCount();
     this.charactersLeft = CHARACTER_LIMIT - characterCount;
-    this.message.innerText = `You have ${this.charactersLeft} characters remaining`;
+    this.message.textContent = `You have ${this.charactersLeft} characters remaining`;
   }
 
   getCharacterCount() {

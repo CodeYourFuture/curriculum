@@ -5,7 +5,7 @@ time = 45
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Access and modify the innerText of a html element'
+    1='Access and modify the textContent of a html element'
 [build]
   render = 'never'
   list = 'local'
@@ -17,7 +17,7 @@ We can calculate the remaining characters available every time a user's key is r
 
 > Step 5: Update the interface with the number of characters left
 
-To achieve this goal, we'll need to access the `p` element with id `"character-limit-info"` and then update the inner text. As before, we can use `document.querySelector` to access an element in the DOM using an appropriate CSS selector:
+To achieve this goal, we'll need to access the `p` element with id `"character-limit-info"` and then update its text content. As before, we can use `document.querySelector` to access an element in the DOM using an appropriate CSS selector:
 
 ```js {linenos=table,linenostart=1, hl_lines=["8-9"] }
 const characterLimit = 200;
@@ -28,7 +28,7 @@ function updateCharacterLimit() {
   console.log(`${charactersLeft} characters remaining`);
 
   const charactersLeftP = document.querySelector("#character-limit-info");
-  charactersLeftP.innerText = `You have ${charactersLeft} characters remaining`;
+  charactersLeftP.textContent = `You have ${charactersLeft} characters remaining`;
 }
 
 textarea.addEventListener("keyup", updateCharacterLimit);

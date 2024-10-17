@@ -30,6 +30,10 @@
             {{ end }}
           {{ end }}
         {{ end }}
+
+        {{ if (isset . "pull_request") }}
+          {{ $showIssue = false }}
+        {{ end }}
         <!-- now show the issue -->
         {{ if $showIssue }}
           {{ if strings.Contains .body "_No response_" }}
