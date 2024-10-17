@@ -36,7 +36,13 @@ console.log(filmTitle);
 
 If we open up the console tab, we should be able to see this element logged in the console. However, it won't yet appear in the browser.
 
-{{<note type="tip" title="Uncaught ReferenceError: document is not defined">}} If you see this error, make sure you are running your code in the browser and not VSCode. Node doesn't have the DOM API. You need to use your browser console. See [how to set up your html](#rendering-from-data-1) if you are stuck.{{</note>}}
+{{<note type="tip">}} If you see this error:
+
+```
+Uncaught ReferenceError: document is not defined
+```
+
+make sure you are running your code in the browser and not a terminal. Node doesn't have the DOM API. You need to use your browser console. See [how to set up your html](#rendering-from-data-1) if you are stuck.{{</note>}}
 
 {{</tab>}}
 {{<tab name="HTML">}}
@@ -112,7 +118,7 @@ duration.textContent = `${film.duration} minutes`;
 card.append(duration);
 
 const certificate = document.createElement("data");
-duration.textContent = `Certificate: ${film.certificate}`;
+certificate.textContent = `Certificate: ${film.certificate}`;
 card.append(certificate);
 
 document.body.append(card);

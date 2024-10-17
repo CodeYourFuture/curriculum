@@ -1,7 +1,7 @@
 +++
-title = '💾 ➡️ 💻 Data to UI '
+title = '💾 ➡️ 💻 Rendering Data as UI'
 
-time = 20
+time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]

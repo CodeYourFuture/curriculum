@@ -1,9 +1,10 @@
 +++
-title = '👭🏾 One to one'
+title = '👭🏾 One-to-one mappings'
 
-time = 30
+time = 15
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
     1='Describe how to render a list of data'
 [build]
@@ -24,7 +25,9 @@ flowchart LR
    C[datum2] == createFilmCard(datum2) ==> D[UI component 2]
 ```
 
-To create an array of card components, we can iterate through the film data using a `for...of` loop:
+> Given an array named `films`...
+
+To create an array of card components we can iterate through the film data using a `for...of` loop:
 
 ```js
 const filmCards = [];
