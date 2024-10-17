@@ -5,33 +5,36 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="data to ui"
+name="Rendering Data as UI"
 src="module/js3/data-ui"
 [[blocks]]
-name="now-showing"
+name="Now showing"
 src="module/js3/now-showing"
 [[blocks]]
 name="Step-through-prep workshop"
 src="https://www.youtube.com/watch?v=afd8g8I4474"
 [[blocks]]
-name="single-datum"
+name="Rendering a single datum"
 src="module/js3/single-datum"
 [[blocks]]
-name="composing elements"
+name="Composing elements"
 src="module/js3/composing-elements"
 [[blocks]]
-name="Simplifying element creation"
+name="Simplifying element creation with functions"
 src="module/js3/simplifying-element-creation"
 [[blocks]]
-name="<template>"
+name="Simplifying element creation with <template> tags"
 src="module/js3/template-html"
 [[blocks]]
-name="components"
+name="Building a component"
 src="module/js3/components"
 [[blocks]]
-name="one-to-one"
+name="One-to-one mappings"
 src="module/js3/one-to-one"
 [[blocks]]
-name="using-map"
+name="Using map"
 src="module/js3/using-map"
+[[blocks]]
+name="Applying map"
+src="module/js3/applying-map"
 +++

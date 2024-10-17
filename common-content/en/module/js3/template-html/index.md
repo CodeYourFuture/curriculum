@@ -1,11 +1,12 @@
 +++
-title = '🍱 Simplifying element creation'
+title = '🍱 Simplifying element creation with <template> tags'
 
-time = 15
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Use template tags to simplify element initialisation'
+    2='Identify trade-offs between using functions vs template tags to create components'
 [build]
   render = 'never'
   list = 'local'
@@ -31,12 +32,12 @@ When we copy an element, its children get copied. This means we can write our te
     <h3>Film title</h3>
     <p data-director>Director</p>
     <time>Duration</time>
-    <p data-certificate>Certificate</p>
+    <data data-certificate>Certificate</data>
   </section>
 </template>
 ```
 
-This is our template card. Place it in the body of your html. It doesn't show up! [Template HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) is like a wireframe; it's just a _plan_. We can use this template to create a card for any film object. We will clone (copy) this template and populate it with data.
+This is our template card. Place it in the body of your html. It doesn't show up! [Template HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) is like a wireframe; it's just a _plan_. We can use this template to create a card for any film object. We will clone (copy) this template and populate it with data. Replace the contents of your `<script>` tag with this:
 
 ```js
 const film = {
@@ -50,11 +51,9 @@ const film = {
 const card = document.getElementById("film-card").content.cloneNode(true);
 // Now we are querying our cloned fragment, not the entire page.
 card.querySelector("h3").textContent = film.title;
-card.querySelector(
-  "[data-director]"
-).textContent = `Director: ${film.director}`;
+card.querySelector("[data-director]").textContent = `Director: ${film.director}`;
 card.querySelector("time").textContent = `${film.duration} minutes`;
-card.querySelector("[data-certificate]").textContent = film.certificate;
+card.querySelector("[data-certificate]").textContent = `Certificate: ${film.certificate}`;
 
 document.body.append(card);
 ```
