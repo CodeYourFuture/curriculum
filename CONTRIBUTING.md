@@ -4,17 +4,19 @@
 
 We are a volunteer-led community of tech professionals, and we teach people to code for free. We are majority-minority, we welcome everyone, and we welcome _you_.
 
-This curriculum compiles narratives and activities developed by hundreds of people all over the world. You are invited to join us.
+This curriculum compiles narratives and activities developed by hundreds of people all over the world. You are invited to join us. Volunteer for the Tech Education team to teach in our classes, or contribute in a number of other ways. You can also volunteer remotely.
 
-https://codeyourfuture.io/
+[Volunteer with CYF](https://codeyourfuture.io/volunteers/)
 
 ## Who runs this?
 
-The Global Syllabus Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. All Tech Ed volunteers can, and do, develop content for the curriculum, but the Global Syllabus Team decide the strategy and accept new content into the core.
+Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, and do, develop content for the curriculum, and they are encouraged to experiment to see what works. 
 
-This team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and the minutes are posted on this website. If you'd like to come and talk to us, please do!
+The Global Syllabus Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Global Syllabus Team will make the ultimate decision. See more info on contributing new content below.
 
-## What content?
+The Global Syllabus Team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and the minutes are posted on this website. If you'd like to come and talk to us, please do!
+
+## About our content
 
 ### Our content is:
 
@@ -27,6 +29,10 @@ This team is led by the Director, currently [Sally McGrath](https://github.com/S
 - a textbook
 - a reference manual
 - a collection of tutorials
+
+## Pedagogy
+
+We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework.
 
 ## How to contribute
 
@@ -46,10 +52,7 @@ Our curriculum threads a coherent line through all of this activity, so whatever
 
 _Most_ content we develop and use with classes will not be adopted into the core curriculum -- that's ok! We want to be free to experiment.
 
-## Pedagogy
-
-We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework.
-
+## Coursework Template
 ---
 
 <details>
@@ -83,10 +86,6 @@ We want trainees to learn to interpret requirements in many settings and express
 </details>
 
 ---
-
-## How to join CYF Tech Ed
-
-[Volunteer with CYF](https://codeyourfuture.io/volunteers/)
 
 ## Bugs
 
