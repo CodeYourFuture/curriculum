@@ -14,7 +14,7 @@ Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, 
 
 The Global Syllabus Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Global Syllabus Team will make the ultimate decision. See more info on contributing new content below.
 
-The Global Syllabus Team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and the minutes are posted on this website. If you'd like to come and talk to us, please do!
+The Global Syllabus Team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and [the minutes](https://curriculum.codeyourfuture.io/guides/contributing/minutes/) are posted on this website. If you'd like to come and talk to us, please do!
 
 ## About our content
 
