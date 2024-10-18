@@ -1,19 +1,36 @@
 # Curriculum Platform
 
 > [!TIP]  
-> Docs: https://common.codeyourfuture.io
+> Our curriculum in action: https://curriculum.codeyourfuture.io
+> Curriculum platform docs: https://common.codeyourfuture.io
 
-## What is it?
+## What is this?
 
-This is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/) and [Netlify CMS](https://www.netlifycms.org/).
+This repo houses both our main curriculum content and our curriculum platform. 
+
+## About our curriculum
+
+Code Your Future is a volunteer-led community of tech professionals, and we teach people to code for free. We consider ourselves to be professionals helping other professionals, so our instructional approach is not hierarchical, and we encourage our volunteers to test out new material early and often. Our main curriculum (the repo you're looking at now) threads a coherent line through all of this activity, so whatever worlds we explore, everyone can come back here to find out what to do next.  
+
+Our curriculum content is all open source, and our teaching style is [flipped classroom](https://teachingcommons.stanford.edu/teaching-guides/blended-and-hybrid-teaching-guide/frameworks-blended-and-hybrid-teaching/flipped). This means that anyone should be able to follow the curriculum content independently. We offer mentoring and support to help people work through it, but the content does not assume a teacher/mentor will be present for programme delivery.
+
+Our Golbal Syllabus Team is responsible for the overall direction of the main curriculum. They decide the strategy and accept new tested content into the core. Find out more by learning [how to contribute](/contributing.md). 
+
+Our curriculum and our curriculum platform are tightly integrated with GitHub. We want our learners to know how to use Git and GitHub and how modern development practices work, so we do almost everything right on GitHub. Learners submit their work by creating a pull request to the project repo. They plan their work using GitHub Projects, and they track their progress on the issues. We code review via the GitHub PR interface, and we have some automation and unit testing on quizzes and exercises/problems. 
+
+The curriculum content is developed in the Hugo module [/common-content](/common-content). This content is all headless blocks. It doesn't create any pages on your site unless you call it somewhere.
+
+## About the curriculum platform
+
+Our self-developed curriculum platform is called Common. It is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/) and [Netlify CMS](https://www.netlifycms.org/).
 
 The platform, layout, styles and components are all developed in the Hugo module [/common-theme](/common-theme).
 
-The content is developed in the Hugo module [/common-content](/common-content). This content is all headless blocks. It doesn't create any pages on your site unless you call it somewhere.
-
 Multi-language support is provided by [Hugo's i18n support](https://gohugo.io/content-management/multilingual/).
 
-Each org or team configures its own Hugo site that mounts the common theme and content modules, and then makes any customisations they need and deploys it wherever they want. You can use any repo to do this and your site can be as simple as a `hugo.toml` and a `content/_index.md`.
+Common is tightly integrated with GitHub. Really the main content should always be project work in GitHub repositories, and any site generated with Common should be a viewer for that content. 
+
+Each org or team configures its own Hugo site that mounts the common theme and content modules, and then makes any customisations they need and deploys it wherever they want. You can use any repo to do this and your site can be as simple as a `hugo.toml` and a `content/_index.md`. We'd love for you to use Common, too!
 
 ## Examples
 
