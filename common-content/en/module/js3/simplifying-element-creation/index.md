@@ -31,7 +31,7 @@ We can identify things we're doing several times, and extract a function to do t
 In this example, we keep doing these three things:
 
 1. Create a new element (sometimes with a different tag name).
-2. Set that element's inner text (always to different values).
+2. Set that element's text content (always to different values).
 3. Appending that element to some parent element (sometimes a different parent).
 
 We could extract a function which does these three things. The things which are different each time need to be parameters to the function.
