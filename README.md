@@ -10,7 +10,7 @@ This repo houses both our main curriculum content and our curriculum platform.
 
 ## About our curriculum
 
-Code Your Future is a volunteer-led community of tech professionals, and we teach people to code for free. We consider ourselves to be professionals helping other professionals, so our insructional approach is not hierarchical, and we encourage our volunteers to test out new material early and often. Our main curriculum (the repo you're looking at now) threads a coherent line through all of this activity, so whatever worlds we explore, everyone can come back here to find out what to do next.  
+Code Your Future is a volunteer-led community of tech professionals, and we teach people to code for free. We consider ourselves to be professionals helping other professionals, so our instructional approach is not hierarchical, and we encourage our volunteers to test out new material early and often. Our main curriculum (the repo you're looking at now) threads a coherent line through all of this activity, so whatever worlds we explore, everyone can come back here to find out what to do next.  
 
 Our curriculum content is all open source, and our teaching style is [flipped classroom](https://teachingcommons.stanford.edu/teaching-guides/blended-and-hybrid-teaching-guide/frameworks-blended-and-hybrid-teaching/flipped). This means that anyone should be able to follow the curriculum content independently. We offer mentoring and support to help people work through it, but the content does not assume a teacher/mentor will be present for programme delivery.
 
