@@ -1,8 +1,8 @@
 +++
-title = 'One'
-description = 'Revise a CV with Generative AI'
+title = 'Zero'
+description = 'Join the CodeYourFuture Intro to Digital Slack'
 layout = 'prep'
-emoji= '🤖'
+emoji= '🗨'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 1
