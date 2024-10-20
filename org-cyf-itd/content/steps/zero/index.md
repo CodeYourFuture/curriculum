@@ -8,13 +8,13 @@ menu=[ 'steps']
 weight = 1
 [[blocks]]
 name="Instructions"
-src="blocks/step-1/instructions"
+src="blocks/step-0/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-1/acceptance"
+src="blocks/step-0/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-1/submission"
+src="blocks/step-0/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
