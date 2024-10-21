@@ -1,6 +1,6 @@
 +++
 title = 'Three'
-description = 'Build and deploy five websites to Netlify with Scrimba'
+description = 'Build four simple projects using HTML and CSS'
 layout = 'prep'
 emoji= '🚀'
 menu_level = ['module']
