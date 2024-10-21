@@ -1,6 +1,6 @@
 +++
 title = 'One'
-description = 'Revise a CV with Generative AI'
+description = 'Make a Cover Letter with Generative AI'
 layout = 'prep'
 emoji= '🤖'
 menu_level = ['module']
