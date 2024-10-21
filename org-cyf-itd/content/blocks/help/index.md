@@ -1,6 +1,7 @@
 +++
 title="How to get help"
 description="How to get help with the Intro to Digital programme"
+time=30
 +++
 
 > When you have a question, ask it.
