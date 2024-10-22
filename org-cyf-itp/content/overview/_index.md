@@ -2,6 +2,8 @@
 title="Course overview"
 layout="overview"
 overview_menu="programming"
+menu=["start here", "syllabus"]
+weight=2
 emoji="🦉"
 +++
 
