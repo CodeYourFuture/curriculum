@@ -46,7 +46,7 @@ Software for Lawyers Ltd makes case management software. Their software helps la
 1. Go to https://chatgpt.com
 2. Signup for an account
 3. Ask the AI to help you write a cover letter. Give it the description of Jane and the job description provided. It may take some experimentation to get the right prompt. That’s OK - getting AI to do what you want is all about trial and error.
-4. Read and reflect on the cover letter. How has the AI demonstrated that Jane has the right skills for the job? Has the AI added anything that wasn’t in the description of Jane? Could you do better?
+4. Think about [the goals of a cover letter](https://hbr.org/2014/02/how-to-write-a-cover-letter). Read and reflect on the cover letter. Has the AI provided good links between Jane's experience and the job's requirements (e.g. does it note that she has experience in the legal sector)? How has the AI demonstrated that Jane has the right skills for the job? Has the AI added anything that wasn’t in the description of Jane? Could you do better?
 5. Create a document with the text of the cover letter you generated
 6. Save the document. Please ensure that your name is in the file name. It can just be your given name or your family name if you prefer.
 7. Upload the cover letter to this site
