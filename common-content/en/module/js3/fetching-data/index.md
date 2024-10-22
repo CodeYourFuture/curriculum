@@ -16,9 +16,9 @@ emoji= '🧩'
 
 So far we have displayed film data stored in our JavaScript code. But real applications fetch data from servers over the internet. We can restate our problem as follows:
 
-> _Given_ an **API that serves** film data
-> _When_ the page first loads
-> _Then_ the page should `fetch` and display the list of film data, including the film title, times and film certificate
+> _Given_ an **API that serves** film data  
+> _When_ the page first loads  
+> _Then_ the page should `fetch` and display the list of film data, including the film title, times, and film certificate.
 
 ### 💻 Client side and 🌐 Server side APIs
 

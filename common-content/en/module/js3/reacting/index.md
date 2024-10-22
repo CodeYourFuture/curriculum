@@ -5,7 +5,7 @@ time = 5
 facilitation = false
 emoji= '🧩'
 [objectives]
-    1='Explain how Javascript can react to user input from a search input'
+    1='Explain how JavaScript can react to user input from a search input'
 [build]
   render = 'never'
   list = 'local'
@@ -13,7 +13,7 @@ emoji= '🧩'
 
 +++
 
-As users interact with web applications, they trigger events like clicking buttons, submitting forms, or typing text that we need to respond to. Let's explore a common example: searching.
+As users interact with web applications, they trigger events by doing things like clicking buttons, submitting forms, or typing text. We need to respond to these events. Let's explore a common example: searching.
 
 ```html
 <label>

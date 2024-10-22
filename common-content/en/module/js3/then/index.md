@@ -19,21 +19,19 @@ graph LR
     Response ---> |sequence with| then{{🪆️ then}}
 ```
 
-[`.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) is a method that belongs to the Promise {{<tooltip title="prototype">}}A prototype object is like a template. `then` is a method available on any Promise.{{</tooltip>}} You can think of the commands as
-
-1. _given_ a request to `fetch` some data
-2. _when_ the `response` comes back / the promise resolves to a [response object](https://developer.mozilla.org/en-US/docs/Web/API/Response)
-3. `then` do this next thing with the data / execute this callback
-
-The `.then()` method takes in a [callback](https://www.w3schools.com/js/js_callback.asp) function that will run once the promise resolves.
-
-For example:
+[`.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) is a method that all `Promise`s have. You can interpret this code:
 
 ```js
 const url = "https://api.github.com/users/SallyMcGrath";
 const callback = (response) => response.json(); // .json() is an instance method that exists for all Response objects.
 fetch(url).then(callback);
 ```
+
+1. _given_ a request to `fetch` some data
+2. _when_ the `response` comes back / the promise resolves to a [response object](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+3. `then` do this next thing with the data / execute this callback
+
+The `.then()` method takes in a [callback](https://www.w3schools.com/js/js_callback.asp) function that will run once the promise resolves.
 
 We can also inline the `callback` variable here - this code does exactly the same as the code above:
 
@@ -48,12 +46,12 @@ It's a similar idea as the event loop we have already investigated, but this tim
 The `then()` method of a `Promise` always returns a new `Promise`.
 {{</note>}}
 
-We can chain multiple `.then()` calls to run more logic, passing the resolved value to the next callback in the chain. This allows us to handle the asynchronous response in distinct steps. Let's create a getProfile function which we can try out in our Node REPL:
+We can chain multiple `.then()` calls to run more logic, passing the resolved value to the next callback in the chain. This allows us to handle the asynchronous response in distinct steps. Let's create a getProfile function in a file, call it, and try running the file with node:
 
 ```js
 const getProfile = (url) => {
   return fetch(url)
-    .then((response) => response.json()) // This callback consumes the response and parses it as JSON into an object.
+    .then((response) => response.json()) // This callback consumes the response string and parses it as JSON into an object.
     .then((data) => data.html_url) // This callback takes the object and gets one property of it.
     .then((htmlUrl) => console.log(htmlUrl)); // This callback logs that property.
 };

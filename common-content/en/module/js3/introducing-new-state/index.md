@@ -4,8 +4,6 @@ title = '🆕 Introducing new state'
 time = 30
 facilitation = false
 emoji= '🧩'
-[objectives]
-    1=''
 [build]
   render = 'never'
   list = 'local'
@@ -41,7 +39,7 @@ const state = {
 
 We needed to pick an initial value for this state. We picked the empty string, because when someone first loads the page, they haven't searched for anything. When someone types in the search box, we will change the value of this state, and re-render the page.
 
-We could pick _any_ initial value. This actually allows us to finish implementing our render function _before we even introduce a search box into the page_. In real life, our `searchTerm` state will be empty, but we can use different values to help us with development. We can make the page look like someone searched for "Pirate", even before we introduce a search box.
+We could pick _any_ initial value. This actually allows us to finish implementing our render function _before we even introduce a search box into the page_. In real life, our `searchTerm` state will initially be empty, but we can use different values to help us with development. We can make the page look like someone searched for "Pirate", even before we introduce a search box in the UI.
 
 This is because we have split up our problem into three parts:
 
