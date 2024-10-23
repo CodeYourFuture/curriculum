@@ -67,7 +67,7 @@ Does this match your expectation? If not, what do you think is happening?
 
 {{</note>}}
 
-JavaScript uses different ways to compare values depending on their types. If you compare two strings (which may contain numbers), it will do something different than if you compare two numbers.
+JavaScript uses different ways to [compare values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) depending on their types. If you compare two strings (which may contain numbers), it will do something different than if you compare two numbers.
 
 We can use the `Number` function to convert the string into a number.
 
