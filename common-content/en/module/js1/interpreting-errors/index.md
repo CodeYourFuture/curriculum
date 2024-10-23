@@ -70,7 +70,7 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 
 we may not know what this means yet, but it's something we can learn about (e.g. by searching online, or asking on Slack).
 
-After this, we're shown something called a stack trace (each line starting with "at"). We'll skip over this for now. In the future we'll see how it can be useful to us.
+Eeach line starting with "at" is showing us a "Stack trace". We'll skip over this for now. In the future we'll see how it can be useful to us.
 
 Finally, we're told the version of Node that we're using:
 
