@@ -173,4 +173,4 @@ console.assert(
 );
 ```
 
-Save this code to a file. Before you run it in Node, predict what you think will happen. Then run it with Node - compare what you saw with what you predicted.
+Save this code to a file. Before you run it in Node, write down what you think will happen. Then run it with Node - compare what you saw with what you predicted.
