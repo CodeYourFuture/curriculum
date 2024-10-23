@@ -108,7 +108,7 @@ Assertion failed: current output: undefined, target output: 08:00 am
 
 ## 🧰 Implementing the functionality
 
-On line 3, the function is being passed a single argument `"08:00"`. But our function ignores it - it doesn't declare any parameters. We can parameterise the function and label the input as `time`:
+On line 3, the function is being passed a single argument `"08:00"`. But our function ignores it:  it doesn't declare any parameters. We can parameterise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {}
