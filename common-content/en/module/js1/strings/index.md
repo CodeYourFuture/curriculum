@@ -57,7 +57,7 @@ So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`.
 
 Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly.
 
-{{<note type="execrise">}}
+{{<note type="exercise">}}
 
 Think about the numbers 100 and 23. Which one is bigger?
 
