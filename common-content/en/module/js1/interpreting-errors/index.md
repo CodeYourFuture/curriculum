@@ -64,7 +64,7 @@ How can we use both pieces of information?
 
 {{</note>}}
 
-Often looking at one line of a file is enough to understand what's wrong. So the message also shows us a copy of the line that caused the problem:
+Often, looking at one line of a file is enough to understand what's wrong. So the message also shows us a copy of the line that caused the problem:
 
 ```
 const currentOutput = formatAs12HourClock("23:00");
