@@ -17,6 +17,9 @@ name="Assertions"
 src="module/js1/interpreting-errors"
 name="Interpreting errors"
 [[blocks]]
+src="module/js1/interpreting-this-error"
+name="Interpreting this error"
+[[blocks]]
 src="module/js1/reusing-variable-names"
 name="Reusing variable names"
 [[blocks]]

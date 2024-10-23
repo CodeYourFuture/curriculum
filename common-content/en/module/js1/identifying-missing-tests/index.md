@@ -30,7 +30,7 @@ And we had an implementation that passed all our (2) tests!
 
 ### Groups of input
 
-One way to consider this question is to think about what _groups_ of input there may be to our problem.
+One way to approach this is to think about what _groups_ of input there may be to our problem.
 
 We've already identified two examples of groups of input to the problem of converting 24 hour clocks to 12 hour clocks: Times before midday and times after midday.
 
@@ -38,9 +38,11 @@ One way to find extra cases to consider (and extra tests to write) is to try to 
 
 For example, some times are exactly on the hour (end in `:00`) and other times have a non-zero number of minutes.
 
+{{<note type="exercise">}}
 Try to think of as many groups of input to this problem as you can. Write an example assertion for each one.
 
 If you find any bugs in the implementation, go fix them!
+{{</note>}}
 
 ### Edge cases
 
@@ -52,10 +54,21 @@ An edge case is an unusual value which may need special treatment.
 Some examples are: the minimum value, the maximum value, and the boundary between two groups of input.
 {{</note>}}
 
-Some example edge cases for this problem are `00:00` (the minimum time, which is `12:00 am` in 12 hour clock, as well as the only hour that is _bigger_ in 12 hour clock than 24 hour clock), `24:00` (the maximum time), and `12:00` (where time changes from am to pm).
+Some example edge cases for this problem are:
+`00:00`
+: The minimum time, which is `12:00 am` in 12 hour clock.  
+  This is also the only hour that is _bigger_ in 12 hour clock than 24 hour clock.
+
+`24:00`
+: The maximum time.
+
+`12:00`
+: Where time changes from am to pm. The edge between morning times and afternoon times.
 
 Often these edge cases are where bugs happen.
 
+{{<note type="exercise">}}
 Try to think of as many edge cases of input to this problem as you can. Write an example assertion for each one.
 
 If you find any bugs in the implementation, go fix them!
+{{</note>}}

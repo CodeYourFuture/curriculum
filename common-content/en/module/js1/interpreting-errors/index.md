@@ -1,7 +1,7 @@
 +++
 title = '🔎 Interpreting errors'
 
-time = 15
+time = 20
 facilitation = false
 emoji= '🔎'
 [objectives]
@@ -46,17 +46,25 @@ As programmers, we will see a lot of errors. It's useful for us to be able to re
 
 Each line of output here tells us something useful.
 
-The first line tells us exactly where the problem happened:
+The first line is:
 
 ```
 /Users/dwh/CYF/clock-example.js:12
 ```
 
-It says the problem was in a file called `/Users/dwh/CYF/clock-example.js`, on line 12 (you probably had a different file name in your output). See how the filename ends with `:12` - this means "on line 12".
+Your output was probably different. But it will have the same parts. Some text, then a colon (`:`), then a number.
 
-If we look in the file it lists at line 12, we will see what line had the problem.
+{{<note type="exercise" title="Exercise">}}
 
-Often we don't need to look at more of the file to understand the error, so the message also shows us a copy of the line that caused the problem:
+Work out what the parts of this line mean.
+
+Why are they different on my computer than yours?
+
+How can we use both pieces of information?
+
+{{</note>}}
+
+Often looking at one line of a file is enough to understand what's wrong. So the message also shows us a copy of the line that caused the problem:
 
 ```
 const currentOutput = formatAs12HourClock("23:00");
@@ -68,14 +76,26 @@ Then the output tells us the error message:
 SyntaxError: Identifier 'currentOutput' has already been declared
 ```
 
-we may not know what this means yet, but it's something we can learn about (e.g. by searching online, or asking on Slack).
+We may not know what this means yet, but it's something we can learn about.
 
-Eeach line starting with "at" is showing us a "Stack trace". We'll skip over this for now. In the future we'll see how it can be useful to us.
+{{<note type="exercise" title="Exercise">}}
+Write down three ways you could find out what this means.
+{{</note>}}
 
-Finally, we're told the version of Node that we're using:
+Each line starting with "at" is showing us a "Stack trace". We'll skip over this for now. In the future we'll see how it can be useful to us.
+
+Finally, we have this line:
 
 ```
 Node.js v22.4.1
 ```
 
-This can be useful if you're pasting an error to someone on Slack or StackOverflow to get help.
+{{<note type="exercise" title="Exercise">}}
+
+What does this line mean?
+
+Why might it be useful to know this information?
+
+Add your answer to your spaced repetition calendar. Your understanding of this will grow over time. Answer the question again in the future, and compare it to your previous answer.
+
+{{</note>}}

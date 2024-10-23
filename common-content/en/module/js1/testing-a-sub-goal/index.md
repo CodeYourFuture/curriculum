@@ -69,6 +69,14 @@ Assertion failed: current output: Don't know how to handle times in the afternoo
 
 Even though we _know_ the code on line 3 is incorrect, this was a useful step. It allowed us to run our code more often, and check that we're on the right track.
 
-Now we can focus on just one problem - how to handle times after midday (i.e. fixing line 3). We don't need to worry about both detecting the time _and_ handling it.
+{{<note type="remember">}}
+Run your code as often as you can.
+
+Make small changes and run your code.
+
+Sometimes we write code we know we will delete because it lets us get feedback sooner.
+{{</note>}}
+
+Now we can focus on just one problem: how to handle times after midday (i.e. fixing line 3). We don't need to worry about both detecting the time _and_ handling it.
 
 If the output of this assert still printed `"23:00 am"` we would have stopped here and debugged that. Again, we could focus on just one problem.

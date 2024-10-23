@@ -1,7 +1,7 @@
 +++
 title = '🧶 Accessing strings'
 
-time = 15
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -55,10 +55,26 @@ time.slice(0, 2); // will access the characters below
 
 So `time.slice(0,2)` will evaluate to `"23"` when the `time` is `"23:00"`.
 
-Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly. When comparing strings, the comparison always go left-to-right. If we compare the strings `"2"` and `"10"`, `"10"` comes first - because its first character is less than the first character in `"2"`. JavaScript uses different ways to compare values depending on their types.
+Finally we must convert `"23"` to the number `23`, otherwise we can't compare this value properly.
+
+{{<note type="execrise">}}
+
+Think about the numbers 100 and 23. Which one is bigger?
+
+Write code which compares the strings `"100"` and `"23"` and tells you which one is bigger.
+
+Does this match your expectation? If not, what do you think is happening?
+
+{{</note>}}
+
+JavaScript uses different ways to compare values depending on their types. If you compare two strings (which may contain numbers), it will do something different than if you compare two numbers.
 
 We can use the `Number` function to convert the string into a number.
 
-```js
-Number(time.slice(0, 2)); // evaluates to 23
-```
+{{<note type="exercise">}}
+
+Work out how you can convert the strings "100" and "23" to numbers.
+
+Write code which compares the numbers `100` and `23` and tells you which one is bigger.
+
+{{</note>}}

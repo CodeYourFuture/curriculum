@@ -37,7 +37,7 @@ We need to make two changes to our code.
 We don't need to solve the whole problem at once. First let's work out how to do something different depending on the time. We can worry about what we need to do differently once we've solved this problem.
 
 {{<note type="tip">}}
-It's more likely we can search for the solutions to smaller parts of problems, than the whole problem.
+It's easier to search for the solutions to smaller parts of problems than the whole problem.
 
 Programming is all about breaking down problems into smaller pieces which we can solve.
 {{</note>}}
