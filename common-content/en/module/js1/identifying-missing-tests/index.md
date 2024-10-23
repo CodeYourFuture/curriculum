@@ -49,7 +49,7 @@ Another way to consider this question is to think about what _edge cases_ there 
 {{<note type="definition" title="Definition: edge case">}}
 An edge case is an unusual value which may need special treatment.
 
-Some examples are the minimum value, the maximum value, the boundary between two groups of input.
+Some examples are: the minimum value, the maximum value, and the boundary between two groups of input.
 {{</note>}}
 
 Some example edge cases for this problem are `00:00` (the minimum time, which is `12:00 am` in 12 hour clock, as well as the only hour that is _bigger_ in 12 hour clock than 24 hour clock), `24:00` (the maximum time), and `12:00` (where time changes from am to pm).
