@@ -16,7 +16,7 @@ hide_from_overview = true
 
 Now we can worry about what we do when we've identified a time is after midday.
 
-Earlier we observed what to do when the time goes beyond midday: **subtract 12 from the hours time to get the new hours for the 12 hour clock time**.
+Earlier, we observed what to do when the time goes beyond midday: **subtract 12 from the hours time to get the new hours for the 12 hour clock time**.
 
 _Before_ writing code, we can define our approach in steps:
 
