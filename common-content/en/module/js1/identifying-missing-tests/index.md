@@ -16,21 +16,15 @@ emoji= '🔬'
 
 +++
 
-We started off writing one test for our code - checking that it correctly handled the input `08:00`.
+We started off writing one test for our code - checking that it correctly handled the input `08:00`. We wrote an implementation that passed all our (1) tests!
 
-We wrote an implementation that passed all our (1) tests!
-
-Then we realised there was a bug - it didn't handle times after midday correctly.
-
-So we wrote another test - for the input `23:00`. We saw our implementation failed that test. And we fixed it.
-
-And we had an implementation that passed all our (2) tests!
+Then we realised there was a bug - it didn't handle times after midday correctly. So we wrote another test - for the input `23:00`. We saw our implementation failed that test. And we fixed it. And we had an implementation that passed all our (2) tests!
 
 > When will we be happy that our implementation works for all possible inputs? When do we have enough tests?
 
 ### Groups of input
 
-One way to approach this is to think about what _groups_ of input there may be to our problem.
+One way to approach this is to think about what _groups_ of input our problem may have.
 
 We've already identified two examples of groups of input to the problem of converting 24 hour clocks to 12 hour clocks: Times before midday and times after midday.
 

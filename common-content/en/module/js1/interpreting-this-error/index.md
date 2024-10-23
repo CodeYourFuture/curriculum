@@ -26,6 +26,12 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 
 It can be useful to remember when our code last worked, and what we changed since then.
 
+{{<note type="tip">}}
+Source control can help here.
+
+If you commit your code every time you make something work, you can use git to easily see what changed since your last commit.
+{{</note>}}
+
 When we just had the first 10 lines of code here, everything worked. When we added the rest, we got this error:
 
 ```js {linenos=table,linenostart=1,hl_lines=["12-17"]}

@@ -21,9 +21,7 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 
 Now that we understand it, let's fix it.
 
-We're not allowed to declare a new variable with the same name as an old one.
-
-Both lines 5 and 12 here try to declare a new variable named `currentOutput`:
+We're not allowed to declare a new variable with the same name as an old one. Both lines 5 and 12 here try to declare a new variable named `currentOutput`:
 
 ```js {linenos=table,linenostart=1,hl_lines=["5", "12"]}
 function formatAs12HourClock(time) {
