@@ -57,7 +57,7 @@ If we changed one thing since our code last worked, we know what change is the p
 
 ### Interpreting the error message
 
-The error message is designed to tell us useful information:
+The error message tries to tell us useful information:
 
 ```
 SyntaxError: Identifier 'currentOutput' has already been declared
