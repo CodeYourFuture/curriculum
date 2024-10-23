@@ -14,7 +14,7 @@ emoji= '🧹'
 
 +++
 
-Let's look at our current code, which passes all of the tests we've written:
+Let's look at our code, which passes all of the tests we've written:
 
 ```js {linenos=table,linenostart=1,hl_lines=["2-3"]}
 function formatAs12HourClock(time) {
