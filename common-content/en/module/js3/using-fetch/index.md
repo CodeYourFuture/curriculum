@@ -48,4 +48,4 @@ fetchFilms().then((films) => {
 
 `fetch` returns a `Promise`; the `Promise` fulfils itself with a response; the response contains our data.
 
-Next will dig into `Promise`s, `async`, `await`, and `then`, and complete our concept map.
+Next we will dig into `Promise`s, `async`, `await`, and `then`, and complete our concept map.
