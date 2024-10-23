@@ -26,7 +26,7 @@ document.body.textContent = "";
 
 Add this to your `render` function before you add new elements. Try using your page. Try searching for a particular film.
 
-Unfortunately, our search box is gone!
+Oh no, our search box is gone!
 
 {{<note type="exercise">}}
 Work out why our search box is gone. Remember what we just changed, and what we were trying to do by making that change.
