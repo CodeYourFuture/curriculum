@@ -25,7 +25,7 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 
 It can be useful to remember when our code last worked, and what we changed since then.
 
-When we just had the first 10 lines of code here, everything worked, but we got this error when we added the rest:
+When we just had the first 10 lines of code here, everything worked. When we added the rest, we got this error:
 
 ```js {linenos=table,linenostart=1,hl_lines=["12-17"]}
 function formatAs12HourClock(time) {
