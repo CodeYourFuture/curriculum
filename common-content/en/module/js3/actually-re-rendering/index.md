@@ -34,7 +34,7 @@ Work out why our search box is gone. Remember what we just changed, and what we 
 
 We removed our search box from the page because we removed everything from the entire document body.
 
-This was not our intention - we only wanted to remove any films we had previous rendered.
+This was not our intention - we only wanted to remove any films we had previously rendered.
 
 A way to solve this is to introduce a container element which our `render` function will re-fill every time it's called.
 
