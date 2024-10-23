@@ -38,7 +38,7 @@ SyntaxError: Identifier 'currentOutput' has already been declared
 Node.js v22.4.1
 ```
 
-When an error is thrown, it means the execution of the program stops at this point and an error report is sent to the user.
+When an error is thrown, the program stops and an error report is sent to the user.
 
 As programmers, we will see a lot of errors. They are normally presented to us this same way, so it's useful for us to be able to read them.
 
