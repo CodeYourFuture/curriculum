@@ -51,7 +51,7 @@ console.assert(
 
 This is one of the reasons it's useful to run our code often.
 
-If we only changed one small thing since our code last worked, it's easier to find the problem. If we wrote 100 lines of code since we last saw it work, it will be harder to identify which change was the problem.
+If we changed one thing since our code last worked, we know what change is the problem. If we have written 100 lines of code since we last saw it work, we have 100 possible problems.
 
 {{</note>}}
 
