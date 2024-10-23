@@ -68,7 +68,7 @@ Some example edge cases for this problem are:
 Often these edge cases are where bugs happen.
 
 {{<note type="exercise">}}
-Try to think of as many edge cases of input to this problem as you can. Write an example assertion for each one.
+Set a timer for 5 minutes. Write down as many edge cases of input to this problem as you can. Write an example assertion for each one.
 
 If you find any bugs in the implementation, go fix them!
 {{</note>}}
