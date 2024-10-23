@@ -25,7 +25,7 @@ We should have a page like this:
     <title>Film View</title>
   </head>
   <body>
-    <input type="text" id="search" />
+    <label>Search <input type="text" id="search" /></label>
     <template id="film-card">
       <section>
         <h3>Film title</h3>
@@ -59,10 +59,10 @@ We should have a page like this:
       const createFilmCard = (film) => {
         const card = template.content.cloneNode(true);
         // Now we are querying our cloned fragment, not the entire page.
-        card.querySelector("h3").innerText = film.title;
-        card.querySelector("[data-director]").innerText = `Director: ${film.director}`;
-        card.querySelector("time").innerText = `${film.duration} minutes`;
-        card.querySelector("[data-certificate]").innerText = `Certificate: ${film.certificate}`;
+        card.querySelector("h3").textContent = film.title;
+        card.querySelector("[data-director]").textContent = `Director: ${film.director}`;
+        card.querySelector("time").textContent = `${film.duration} minutes`;
+        card.querySelector("[data-certificate]").textContent = `Certificate: ${film.certificate}`;
         // Return the card, rather than directly appending it to the page
         return card;
       };

@@ -33,7 +33,7 @@ In our film example, we would not store "is the search term empty" and "what is 
 
 #### 🖇️ If two things always change together, they should be one piece of state.
 
-If our website had light mode and dark mode, we would not have one state for "is dark mode enabled" and one state for "is light mode enabled". We would have one piece of state: a {{<tooltip title="boolean">}}true or false. On or off.{{</tooltip>}}. We would also not have a state for "background colour" - we would derive that from the one boolean.
+If a website allows log-in, we would not have one state for "is a user logged in" and one state for "what user is logged in". We would have one piece of state: The currently logged in user. We would set that state to `null` if there is no logged in user. We can answer the question "is a user logged in" by checking if the currently logged in user is `null`. We don't need a separate piece of state.
 
 #### State in our example
 
@@ -42,4 +42,4 @@ In our film example, we need two pieces of state:
 1. Our list of all films
 2. The search term
 
-When we introduce filtering films based on the search term **we will not introduce other new state** like a filtered list of films. Our filtered list of films can be _derived_ from our existing state.
+When we introduce filtering films based on the search term **we will not introduce other new state**. We will not store a filtered list of films in state. Our filtered list of films can be _derived_ from our existing state.

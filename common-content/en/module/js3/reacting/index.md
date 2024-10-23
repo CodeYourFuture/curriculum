@@ -17,7 +17,7 @@ As users interact with web applications, they trigger events by doing things lik
 
 ```html
 <label>
-  <input type="search" id="q" name="q" placeholder="Search term" /> 🔍
+  Search <input type="search" id="q" name="q" placeholder="Search term" /> 🔍
 </label>
 ```
 
