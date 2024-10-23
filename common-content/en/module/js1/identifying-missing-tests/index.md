@@ -39,7 +39,7 @@ One way to find extra cases to consider (and extra tests to write) is to try to 
 For example, some times are exactly on the hour (end in `:00`) and other times have a non-zero number of minutes.
 
 {{<note type="exercise">}}
-Try to think of as many groups of input to this problem as you can. Write an example assertion for each one.
+Set a timer for 5 minutes. Write down as many groups of input to this problem as you can. Write an example assertion for each one.
 
 If you find any bugs in the implementation, go fix them!
 {{</note>}}
