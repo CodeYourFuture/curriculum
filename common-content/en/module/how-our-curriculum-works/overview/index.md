@@ -12,27 +12,23 @@ time=2
 
 +++
 
-Courses are divided into modules, each with a theme. Modules are divided into week-long sprints made up of:
+Courses are divided into modules. Each module focuses on the listed module learning objectives. Modules are divided into _n_ sprints. Each sprint contains the following activities, in **this order**:
 
-##### 1. **🧑🏾‍💻 Prep** - the main concepts of the sprint
+##### 1. Start with the: **🧑🏾‍💻 Prep**
 
-**Learners** complete prep before class.  
-**Mentors** browse prep to know what learners are learning.
+_Explains the main concepts of the sprint._ **Learners** complete prep before class & **Mentors** browse prep for context.
 
-##### 2. **🏷️ Backlog** - coursework assignments
+##### 2. Then go to: **🏷️ Backlog**
 
-**Learners** clone issues to project boards and work on them.  
-**Mentors** browse issues to know what the learners are doing.
+_Lists coursework as issues on a linked module repo_. **Learners** clone issues to project boards & **Mentors** monitor boards for progress.
 
-##### 3. **🧑🏾‍🤝‍🧑🏾 Day Plan** - timestamped agenda for class
+##### 3. For class it's the: **🧑🏾‍🤝‍🧑🏾 Day Plan**
 
-Usually a lively morning workshop and quieter afternoon study-group.  
-**Everyone** should review the plan to prepare for class.
+_Timestamped agenda for class day._ Usually a busy morning workshop and quieter afternoon study-group. **Everyone** must review the plan to prepare for class.
 
-##### 4. **✅ Success** - Learning objectives for the sprint
+##### 4. Review with: **✅ Success**
 
-**Learners** check off goals.  
-**Mentors** help us focus on the sprint goals.
+_Lists learning objectives for the sprint._ **Learners** check off goals & **Mentors** help us focus on the sprint goals.
 
 ### Still lost?
 
