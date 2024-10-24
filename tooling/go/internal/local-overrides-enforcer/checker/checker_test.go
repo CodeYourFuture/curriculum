@@ -21,9 +21,10 @@ require (
 )
 `
 
-	newContent, ok, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
+	newContent, ok, missingReplaces, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
 	require.NoError(t, err)
 	require.True(t, ok)
+	require.Empty(t, missingReplaces)
 	require.Equal(t, "", newContent)
 }
 
@@ -40,9 +41,10 @@ func TestMissingReplace(t *testing.T) {
 	)
 `
 
-	newContent, ok, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
+	newContent, ok, missingReplaces, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
 	require.NoError(t, err)
 	require.False(t, ok)
+	require.Equal(t, missingReplaces, []string{"github.com/CodeYourFuture/curriculum/common-content"})
 	require.Contains(t, newContent, "replace github.com/CodeYourFuture/curriculum/common-content => ../common-content")
 }
 
@@ -60,11 +62,11 @@ require (
 )
 `
 
-	_, _, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
+	_, _, _, err := checker.CheckFile("/some/go.mod", []byte(goModContent), "github.com/CodeYourFuture/curriculum")
 	require.ErrorContains(t, err, "module at path /some/go.mod was named github.com/CodeYourFuture/wrong which isn't a child of github.com/CodeYourFuture/curriculum")
 }
 
 func TestInvalidGoModFile(t *testing.T) {
-	_, _, err := checker.CheckFile("/some/go.mod", []byte("hello"), "github.com/CodeYourFuture/curriculum")
+	_, _, _, err := checker.CheckFile("/some/go.mod", []byte("hello"), "github.com/CodeYourFuture/curriculum")
 	require.ErrorContains(t, err, "failed to parse /some/go.mod as go.mod file: ")
 }
