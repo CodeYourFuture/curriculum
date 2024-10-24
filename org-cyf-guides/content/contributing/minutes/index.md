@@ -17,6 +17,75 @@ Attendees:
 
 ---
 
+## 2024-10-22
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Daniel: Check in on availability for first round of Piscine
+- [x] Sally: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
+- [x] Ali: Review Daniel's Piscine PR
+- [x] Sally: Come up with ideas for Ali to write up
+- [x] Ali: Respond to feedback on Piscine PR
+- [ ] Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [x] Daniel: Ask Barath to get him to post in remote-volunteering channel
+- [ ] All: Think about useful resources for SDC
+
+### 📝 Agenda points
+
+We did a big big project board clean-up and sprint-planning.
+
+#### React and tracks
+
+Three kinds of tracks:
+* Independent study tracks
+* Employer/Job/Role-focused tracks after ITP
+* Employer/Job/Role-focused tracks after SDC
+
+Need to be clear what is a direct path to a job, and also that we won't support poeple indefinitely to just keep doing more learning without goals.
+
+Daniel will action this on the tracks website.
+
+#### Missing Piscine prereqs
+
+How overloaded is ITP?
+* Intro module: Can't add anything meaningful in there.
+* Structuring and Testing Data: Pretty dense
+* Data Groups: Probably has some space
+* Data Flows: Already incredibly dense
+
+* Errors, error handling, and try/catch - we could probably insert this into Data Groups somewhere.
+  * The concept that there _are_ errors and they need handling in some way is more important than try/catch.
+* Working in groups
+  * Breaking down a project into things that can be done in parallel
+  * Merge conflicts and stuff
+    * This needs to be done in a standalone project - we can't expect people to learn anything else while they're fighting with merge conflicts.
+
+We should make tickets for:
+* Reduce prereqs on Piscine - remove everything from Daniel's list _not_ listed above.
+* ITP team to introduce errors in Data Groups
+* ITP team to introduce a group-work project in Data Groups where the desired LO is resolving merge conflicts
+* Ticket to require the object+array methods Codewars library in ITP at some point
+
+#### Parsing projects for Piscine?
+
+Probably too hard.
+
+#### Sally's Piscine project ideas
+
+We discussed a few. Codewars leaderboard, Swatches, Speak and Spell.
+
+Speak and Spell maybe doesn't have enough logicy content for Piscine, but could possibly be useful for a new group project?
+
+### ❗Actions
+
+- [ ] Ali (Carry-over): Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] All (Carry-over): Think about useful resources for SDC
+- [ ] Daniel: Make a bunch of tickets described above
+
+---
+
 ## 2024-10-08
 
 Attendees: Ali, Sally, Daniel

@@ -1,11 +1,11 @@
 +++
 title = 'One'
-description = 'Revise a CV with Generative AI'
+description = 'Make a Cover Letter with Generative AI'
 layout = 'prep'
 emoji= '🤖'
 menu_level = ['module']
 menu=[ 'steps']
-weight = 1
+weight = 2
 [[blocks]]
 name="Instructions"
 src="blocks/step-1/instructions"

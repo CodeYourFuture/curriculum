@@ -78,7 +78,7 @@ b) the 🎯 target output?
 
 We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
 
-We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**. We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
+We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?** We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
 
 ### Left equals Right
 

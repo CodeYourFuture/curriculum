@@ -1,7 +1,7 @@
 +++
 title = '🧠 Forming sub-goals'
 
-time = 30
+time = 20
 facilitation = false
 emoji= '🧩'
 [objectives]

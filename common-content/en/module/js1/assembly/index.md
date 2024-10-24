@@ -4,7 +4,6 @@ title = '🏗️ Assembling the parts'
 time = 20
 facilitation = false
 emoji= '🧩'
-hide_from_overview = true
 [objectives]
     1='Explain how different concepts are combined to solve a goal'
 [build]
