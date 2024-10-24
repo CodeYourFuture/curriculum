@@ -44,10 +44,17 @@
   }
 
   &__title {
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin: 0;
     @include on-event(false, ".c-timeline__entry") {
       text-decoration: underline;
     }
+  }
+
+  &__link {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 0 var(--theme-spacing--1);
   }
 }
