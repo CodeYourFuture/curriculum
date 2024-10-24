@@ -2,6 +2,9 @@
 title="Course overview"
 layout="overview"
 overview_menu="programming"
+menu=["start here", "syllabus"]
+description="4 modules of 3 sprints delivered over 12-16 weeks"
+weight=2
 emoji="🦉"
 +++
 
