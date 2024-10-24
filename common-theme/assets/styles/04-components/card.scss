@@ -6,8 +6,8 @@
   position: relative;
   grid-template:
     ". .           . .     ." var(--theme-spacing--gutter)
-    ". title       . image ." minmax(7ch, auto)
-    ". meta . image ." minmax(0, 1fr)
+    ". title       . image ." minmax(1em, auto)
+    ". meta . image ." minmax(0, auto)
     ". description . image ." minmax(0, 1fr)
     ". .           . .     ." var(--theme-spacing--gutter)
     / var(--theme-spacing--gutter) minmax(
