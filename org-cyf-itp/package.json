@@ -17,7 +17,7 @@
   "homepage": "https://github.com/CodeYourFuture/curriculum#readme",
   "dependencies": {
     "@netlify/functions": "^1.6.0",
-    "cookie": "^0.5.0",
+    "cookie": "^0.7.0",
     "dotenv": "^16.3.1",
     "googleapis": "^144.0.0",
     "joi": "^17.9.2",
