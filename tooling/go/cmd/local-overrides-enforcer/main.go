@@ -55,13 +55,17 @@ func main() {
 		if err != nil {
 			return fmt.Errorf("failed to read %s: %w", path, err)
 		}
-		expectedContents, ok, err := checker.CheckFile(path, content, parentModule)
+		expectedContents, ok, missingReplaces, err := checker.CheckFile(path, content, parentModule)
 		if err != nil {
 			return fmt.Errorf("failed to check %s: %w", path, err)
 		}
 		if !ok {
 			sawBadFile = true
-			fmt.Printf("⚠️  File at path %s didn't have some local overrides - its contents should be:\n%s\n", path, expectedContents)
+			missingReplacesStr := ""
+			for _, missingReplace := range missingReplaces {
+				missingReplacesStr += " - " + missingReplace + "\n"
+			}
+			fmt.Printf("⚠️  File at path %s didn't have some replace directives.\nMissing replace directives for modules:\n%s\nYou should replace %s with exactly this string:\n%s\n", path, missingReplacesStr, path, expectedContents)
 		}
 		return nil
 	})
