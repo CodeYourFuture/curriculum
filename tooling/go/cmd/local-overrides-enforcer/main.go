@@ -65,7 +65,7 @@ func main() {
 			for _, missingReplace := range missingReplaces {
 				missingReplacesStr += " - " + missingReplace + "\n"
 			}
-			fmt.Printf("⚠️  File at path %s didn't have some replace directives.\nMissing replace directives for modules:\n%s\nYou should replace %s with exactly this string:\n%s\n", path, missingReplacesStr, path, expectedContents)
+			fmt.Printf("⚠️  File at path %s didn't have some replace directives.\nMissing replace directives for modules:\n%s\nYou should replace %s with exactly this string:\n```\n%s\n```\n", path, missingReplacesStr, path, expectedContents)
 		}
 		return nil
 	})
