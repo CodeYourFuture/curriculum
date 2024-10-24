@@ -26,16 +26,18 @@
           </a>
         </li>
       {{- end }}
-      <li class="c-breadcrumbs__item">
-        <a
-          class="c-breadcrumbs__link"
-          href="{{ .RelPermalink }}"
-          {{- if in .Title "Sprint" -}}
-            data-pagefind-filter="sprint"
-          {{- end -}}
-          >{{ .Title }}</a
-        >
-      </li>
+      {{ if ne .Params.Build.render "never" }}
+        <li class="c-breadcrumbs__item">
+          <a
+            class="c-breadcrumbs__link"
+            href="{{ .RelPermalink }}"
+            {{- if in .Title "Sprint" -}}
+              data-pagefind-filter="sprint"
+            {{- end -}}
+            >{{ .Title }}</a
+          >
+        </li>
+      {{ end }}
     </ol>
   </nav>
   {{/* Here's a tiny drop of structured data for google's hungry maw
