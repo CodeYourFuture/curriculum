@@ -9,18 +9,20 @@ weight = 11
 1="Complete the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
 2="Link to your exercises for the [Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) "
 3="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)"
-
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
-- Define variables and functions.
-- Explain what a function will return when it is called.
-- Use if statements to write conditional code.
-- Identify the benefits of extracting a reusable function.
-- Explain which scopes can access variables declared in a JavaScript file.
-- Write tests for your code, using Jest.
+- Interpret and rephrase error messages
+- Break down a problem into sub-goals
+- Implement and test single sub-goals without implementing a full solution to the whole goal
+- Identify and refactor duplicated code
+- Translate requirements into unit tests
+- Interpret test feedback
+- Identify edge cases that need testing
+- Describe the intended behaviour of a program and its actual behaviour
+- Identify bugs in someone else’s code (person/machine)
 ```
 
 ### 💯 To complete _any_ module, you must:

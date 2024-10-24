@@ -1,6 +1,6 @@
 +++
 title ="Step 1: How to check your work"
-description= "Acceptance criteria for the Code Academy case study"
+description= "Acceptance criteria"
 emoji= "✅"
 time= 10
 [build]
@@ -14,7 +14,9 @@ A volunteer will review your submission and check it meets the acceptance criter
 Here is the criteria you need to meet:
 
 ```objectives
-- You have completed the Code Academy case study
-- You have generated a customised resume and saved it in a doc
-- You have shared a doc with your generated resume
+- You have generated a cover letter for Jane using AI
+- You have saved the contents in a document
+- You have added your name to the document file name
+- You have uploaded the document
+- You have added a comment giving a piece of feedback on the AI’s work
 ```
