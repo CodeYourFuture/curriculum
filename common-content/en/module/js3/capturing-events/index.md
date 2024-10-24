@@ -34,6 +34,7 @@ So our key steps are:
 1. Add an input event listener to the search box
 2. In the handler, get `value` of input element
 3. Set the new state based on this value.
+4. Call our `render` function again.
 
 {{<note type="warning" title="One thing at a time!">}}
 But we're not going to do all of these at once! Stop and implement just the first two steps (adding the event listener, and getting the value), and `console.log` the search term.
@@ -56,5 +57,3 @@ function handleSearchInput(event) {
   console.log(searchTerm);
 }
 ```
-
-Now that we've shown we can log the search text, we can set the new value of the searchTerm state, and re-render the page.

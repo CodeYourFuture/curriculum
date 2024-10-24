@@ -25,6 +25,6 @@ Latency is the time taken for a request to traverse the network.
 
 > 💡 Network latency is travel time.
 
-Why is latency a problem? Because it means we need to **wait** for our data. But our program can only do one thing at a time - if we stopped our program to wait for data, then we wouldn't be able to do anything else. We need to handle this time problem.
+Why is latency a problem? Because it means we need to **wait** for our data. But our program can only do one thing at a time. If we stopped our program to wait for data, then we wouldn't be able to do anything else (like show the rest of the page, or respond to a user clicking in the page). We need to handle this time problem.
 
 Programming often involves time problems, and latency is just one of them.

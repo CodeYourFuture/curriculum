@@ -1,7 +1,7 @@
 +++
 title = '🎱 Rendering based on state'
 
-time = 15
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
