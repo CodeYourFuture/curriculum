@@ -34,3 +34,4 @@ _Lists learning objectives for the sprint._ **Learners** check off goals. **Ment
 
 1. 🔍 Search: filter by module, sprint, and view.
 1. 🦉 [Overview](/overview): your high level map with themes.
+1. 📚 [How this works](/how-this-works): our programme in detail.
