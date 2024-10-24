@@ -56,11 +56,11 @@ Your output was probably different. But it will have the same parts. Some text, 
 
 {{<note type="exercise" title="Exercise">}}
 
-Work out what the parts of this line mean.
+1. Work out what the parts of this line mean.
 
-Why are they different on my computer than yours?
+2. Why are they different on my computer than yours?
 
-How can we use both pieces of information?
+3. How can we use both pieces of information?
 
 {{</note>}}
 
@@ -92,9 +92,7 @@ Node.js v22.4.1
 
 {{<note type="exercise" title="Exercise">}}
 
-What does this line mean?
-
-Why might it be useful to know this information?
+What does this line mean? Why might it be useful to know this information?
 
 Add your answer to your spaced repetition calendar. Your understanding of this will grow over time. Answer the question again in the future, and compare it to your previous answer.
 
