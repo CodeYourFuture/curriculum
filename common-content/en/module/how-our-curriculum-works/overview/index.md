@@ -26,7 +26,7 @@ The course is divided into modules, each with a theme and learning objectives. M
 
 Usually a lively morning workshop and quieter afternoon study-group. **Everyone** should review the plan to prepare for class.
 
-##### 4. Review with: **✅ Success** , the learning objectives for the sprint.
+##### 4. Review with: **✅ Success**, the learning objectives for the sprint.
 
 **Learners** check off goals. **Mentors** help us focus on the sprint goals.
 
