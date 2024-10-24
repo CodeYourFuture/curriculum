@@ -27,4 +27,7 @@ src="module/how-our-curriculum-works/curriculum"
 [[blocks]]
 name="🛣️ using this module"
 src="module/how-our-curriculum-works/using-this-module"
+[[blocks]]
+name="overview"
+src="module/how-our-curriculum-works/overview"
 +++

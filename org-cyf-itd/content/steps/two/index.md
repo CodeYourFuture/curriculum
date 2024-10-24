@@ -5,7 +5,7 @@ layout = 'prep'
 emoji= '📊'
 menu_level = ['module']
 menu=[ 'steps']
-weight = 2
+weight = 3
 [[blocks]]
 name="Instructions"
 src="blocks/step-2/instructions"

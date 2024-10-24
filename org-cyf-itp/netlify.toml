@@ -12,3 +12,8 @@ to = "/.netlify/functions/:splat"
 status = 200
 [functions]
 external_node_modules = ["node-fetch"]
+
+[[headers]]
+  for = "/dummy-apis/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
