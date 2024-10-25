@@ -21,5 +21,3 @@ replace github.com/CodeYourFuture/curriculum/org-cyf-guides => ../org-cyf-guides
 replace github.com/CodeYourFuture/curriculum/org-cyf-how-this-works => ../org-cyf-how-this-works
 
 replace github.com/CodeYourFuture/curriculum/org-cyf-piscine => ../org-cyf-piscine
-
-replace github.com/CodeYourFuture/curriculum/org-cyf-theme => ../org-cyf-theme
