@@ -32,9 +32,6 @@ src="module/js3/then"
 name="Async/Await"
 src="module/js3/async-await"
 [[blocks]]
-name="Catch"
-src="module/js3/catch"
-[[blocks]]
 name="Fetch Films"
 src="module/js3/fetch-films"
 +++
