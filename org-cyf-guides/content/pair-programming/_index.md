@@ -6,9 +6,9 @@ emoji = '👥'
 
 Pair programming is an excellent way to develop programming and communication skills.
 
-It is often much easier to work through something when working on something 1-to-1.
+It is often much easier to work through a problem when working with someone 1-to-1.
 
-It is also helps our trainees to prepare for technical interviews when they'll need to code in front of other people.
+It also helps our trainees to prepare for technical interviews when they'll need to code in front of other people.
 
 ## What
 
