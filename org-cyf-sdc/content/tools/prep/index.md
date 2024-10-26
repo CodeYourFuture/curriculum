@@ -1,6 +1,6 @@
 +++
 title = 'Prep'
-description = 'There is just so much to do!'
+description = 'What to do before the module starts'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']

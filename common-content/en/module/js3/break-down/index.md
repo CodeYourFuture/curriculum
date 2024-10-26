@@ -4,6 +4,7 @@ title = '🧩 Break down the problem'
 time = "30"
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
     1='Identify and sequence sub tasks'
 [build]
@@ -13,11 +14,13 @@ emoji= '🧩'
 
 +++
 
+We already have a website for displaying film listings.
+
 Let's think through building this film search interface step-by-step. Write down your sequence of steps to build this interface.
 
-> _Given_ a view of film cards and search box
-> _When_ a user types in the search box
-> _Then_ the view should update to show only matching films
+> _Given_ a view of film cards and search box  
+> _When_ a user types in the search box  
+> _Then_ the view should update to show only matching films.
 
 {{<tabs name="Decomposition">}}
 {{<tab name="Draw your plan">}}
@@ -47,7 +50,7 @@ The key aspects we need to handle are capturing input and updating UI.
 
 ### 👂🏿 Capturing Input
 
-We need to listen for the `input` event on the search box to react as the user types. When the event fires, we can read the updated string value from the search box input element.
+We need to listen for the [`input`](https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event) event on the search box to react as the user types. When the event fires, we can read the updated string value from the search box input element.
 
 ### 🎬 Filtering Data
 

@@ -9,7 +9,7 @@ weight = 11
 1="Link to your PR for [Array Destructuring](https://github.com/CodeYourFuture/Module-Data-Flows/issues/24), which you have had reviewed and responded to feedback."
 2="Link to your PR for your [Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)  which you have had reviewed and responded to feedback."
 3="Work out your LinkedIn [Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this"
-4="Link to your PR for [Javascript challenges](https://github.com/CodeYourFuture/Module-Data-Flows/issues/21), which you have had reviewed and responded to feedback."
+4="Link to your PR for [JavaScript challenges](https://github.com/CodeYourFuture/Module-Data-Flows/issues/21), which you have had reviewed and responded to feedback."
 +++
 
 
@@ -17,14 +17,13 @@ weight = 11
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
+- Describe the concept of state, how to use it and what should be stored in it.
+- Identify the state in a problem
 - Use the map function to transform data
-- Create elements in the DOM, using Javascript
+- Create elements in the DOM, using JavaScript
+- Create re-usable components in the DOM
 - Trigger changes by listening to events
 - Fetch data from an API 
-
-```see above
-- Catch errors in your code
-- Describe the concept of state, how to use it and what should be stored in it.
 - Build a UI that renders content using data stored in state, which can be updated on user interaction
 ```
 

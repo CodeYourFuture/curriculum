@@ -17,7 +17,7 @@ src="blocks/workshop"
 time="140"
   [[blocks.nested.blocks]]
     name="Reporting Bugs [PD] (60 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-cli"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
     time="0"
   [[blocks.nested.blocks]]
     name="Playing Computer [Tech] (60 Mins)"
