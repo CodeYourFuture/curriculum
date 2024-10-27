@@ -56,11 +56,7 @@
       {{ $newSrc = print $newSrc "?per_page=5&state=open" }}
       {{ .Scratch.SetInMap "blockData" "type" "pullreq" }}
     {{ else }}
-      {{/* For repositories and individual README files, use readme API endpoint
-        https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory
-      */}}
-      {{ $newSrc = replace $newSrc "/tree/main" "/readme" }}
-      {{ $newSrc = replace $newSrc "/blob/main/README.md" "/readme" }}
+      {{ $newSrc = partial "strings/readme-paths" (dict "src" $newSrc) }}
       {{ .Scratch.SetInMap "blockData" "type" "readme" }}
     {{ end }}
 
