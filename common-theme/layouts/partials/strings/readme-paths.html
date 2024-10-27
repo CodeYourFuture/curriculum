@@ -17,6 +17,9 @@
 
 {{ $newSrc := .src }}
 
+{{/* Remove trailing slash if present */}}
+{{ $newSrc = replaceRE "/$" "" $newSrc }}
+
 {{/* Handle /blob/main/path/readme.md format */}}
 {{ $newSrc = replaceRE "/blob/main/(.+?)/(?i:readme\\.md)$" "/readme/$1" $newSrc }}
 
