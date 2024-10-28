@@ -17,7 +17,6 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}" && cd .. && pwd)"
 SITE_ROOT="$REPO_ROOT/$SITE_NAME"
 CONTENT_DIR="$SITE_ROOT/content"
 MODULE_DIR="$CONTENT_DIR/$MODULE_NAME"
-SPRINT_DIR="$MODULE_DIR/sprints"
 PRODUCT_DIR="$MODULE_DIR/product"
 
 # Create the content directory if it doesn't exist
@@ -46,7 +45,7 @@ done
 # sprint[1-4] has: prep backlog day-plan success
 for i in {1..4}; do
     SPRINT_NAME="$i"
-    SPRINT_PATH="$SPRINT_DIR/$SPRINT_NAME"
+    SPRINT_PATH="$MODULE_DIR/$SPRINT_NAME"
     hugo new --kind sprint "$SPRINT_PATH/_index.md"
     SPRINT_FILES=("prep" "backlog" "day-plan" "success")
     for file in "${SPRINT_FILES[@]}"; do
