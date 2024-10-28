@@ -62,7 +62,7 @@ When we call `splice` it does 2 things:
 
 Play computer with the example above. Pay careful attention to what happens when `salaries` is passed to `calculateMedian`
 
-<iframe title="median-mutation-example" width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20calculateMedian%28list%29%20%7B%0A%20%20const%20middleIndex%20%3D%20Math.floor%28list.length%20/%202%29%3B%0A%20%20const%20median%20%3D%20list.splice%28middleIndex,%201%29%5B0%5D%3B%0A%0A%20%20return%20median%3B%0A%7D%0A%0Aconst%20salaries%20%3D%20%5B10,%2020,%2030,%2040,%2060,%2080,%2080%5D%3B%0Aconst%20median%20%3D%20calculateMedian%28salaries%29%3B%0A%0Aconsole.log%28salaries,%20%22%3C---%20salaries%20input%20before%20we%20call%20calculateMean%22%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=7&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"></iframe>
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20calculateMedian%28list%29%20%7B%0A%20%20const%20middleIndex%20%3D%20Math.floor%28list.length%20/%202%29%3B%0A%20%20const%20median%20%3D%20list.splice%28middleIndex,%201%29%5B0%5D%3B%0A%0A%20%20return%20median%3B%0A%7D%0A%0Aconst%20salaries%20%3D%20%5B10,%2020,%2030,%2040,%2060,%2080,%2080%5D%3B%0Aconst%20median%20%3D%20calculateMedian%28salaries%29%3B%0A%0Aconsole.log%28salaries,%20%22%3C---%20salaries%20input%20before%20we%20call%20calculateMean%22%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 {{</tab>}}
 {{</tabs>}}

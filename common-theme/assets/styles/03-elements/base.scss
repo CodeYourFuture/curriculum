@@ -10,12 +10,10 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  animation: fade-in 0.2s;
+  animation: fade-in 0.4s;
+  scroll-padding: calc(var(--header-height) * 2) 0;
 }
 
-html {
-  overflow-x: hidden;
-}
 @media (max-width: $c-med) {
   body {
     overflow-x: hidden;

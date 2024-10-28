@@ -1,13 +1,12 @@
 +++
-title = '🌳 Branching'
-
-time ="60"
+title = 'Branching'
+time =45
 facilitation = false
-emoji= '🧩'
+emoji= '🌳'
 [objectives]
-    1='Figure out what we need to do next in the course'
-    2='Locate the prep view on the curriculum'
-    3='Practice asking for guidance/help when we are stuck'
+    1="Explain why a git repository may have multiple branches"
+    2="Describe what's special about the branch named main"
+    3="Create a new local branch in a git repository"
 [build]
   render = 'never'
   list = 'local'
@@ -60,7 +59,7 @@ gitGraph
         commit
 ```
 
-The **`main`** branch is often treated as a special branch - it's where we put commits which people working on the project have agreed on. Other branches (e.g. the experimental purple branch) may have extra changes, and if people working on the project agree the changes are good, we'll add those changes to the main branch.
+The **`main`** branch is often treated as a special branch - it's where we put commits which people working on the project have agreed on. Other branches (e.g. the experimental purple branch) may have extra changes that have not been agreed on. If people working on the project agree the changes from the purple branch are good, we'll add those changes to the main branch.
 
 When we're working on something new, we haven't agreed with other people that our new thing is good yet, so we often don't add our changes to the main branch straight away. Instead we make our own branch to experiment on.
 

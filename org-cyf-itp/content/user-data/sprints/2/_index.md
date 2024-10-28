@@ -5,7 +5,7 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 3
-theme = "Breaking down problems with functions"
+theme = "Collecting and formatting data"
 +++
 
 

@@ -5,28 +5,28 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="grouping-data"
+name="Grouping data"
 src="module/js2/grouping-data"
 [[blocks]]
 name="arrays"
 src="module/js2/arrays"
 [[blocks]]
-name="mean"
+name="Calculating the mean"
 src="module/js2/mean"
 [[blocks]]
-name="summing"
+name="Summation"
 src="module/js2/summing"
 [[blocks]]
-name="iteration"
+name="Iteration"
 src="module/js2/iteration"
 [[blocks]]
-name="median"
+name="Calculating the median"
 src="module/js2/median"
 [[blocks]]
-name="assembly"
+name="Assembling the parts"
 src="module/js2/assembly"
 [[blocks]]
-name="reference"
+name="References"
 src="module/js2/reference"
 [[blocks]]
 name="mutation"
@@ -34,6 +34,9 @@ src="module/js2/mutation"
 [[blocks]]
 name="side-effects"
 src="module/js2/side-effects"
+[[blocks]]
+name="Implementing all the cases"
+src="module/js2/more-median-cases"
 [[blocks]]
 name="Failing Fast"
 src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"

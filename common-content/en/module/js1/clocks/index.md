@@ -4,6 +4,7 @@ title = '🕛 12 vs 24 hour clock'
 time = 10
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
  1='Identify a pattern between a set of inputs and outputs produced by a given function'
 [build]
@@ -34,9 +35,9 @@ We use the notation "HH:MM". HH is our stand-in for the hours value. MM is our s
 
 Let's pose a problem: given any time in 24 hour clock, we want to format it as a 12 hour clock time. To achieve this goal, we're going to implement a function `formatAs12HourClock`.
 
-_Given_ a time in 24 hour clock
-_When_ we call `formatAs12HourClock`
-_Then_ we get back a string representing the same time in 12 hour clock
+_Given_ a time in 24 hour clock  
+_When_ we call `formatAs12HourClock`  
+_Then_ we get back a string representing the same time in 12 hour clock.
 
 ### 🧪 Our tests:
 

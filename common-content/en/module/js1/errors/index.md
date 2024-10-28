@@ -5,9 +5,8 @@ time = 20
 facilitation = false
 emoji= '❌'
 [objectives]
-    1='Use the Teach Tech Together guide to construct your objectives'
-    2='Limit the objectives to 3-5 items'
-    3='Write objectives you can measure'
+    1='Identify the cause of syntax errors in small snippets of JavaScript'
+    2='Interpret syntax error messages to determine their cause and how to fix them'
 [build]
   render = 'never'
   list = 'local'
@@ -42,7 +41,7 @@ We get a **SyntaxError** message. This error message is telling us that we've br
 
 {{<note type="activity" title="Predict, Explain">}}
 
-This code is broken. Before you run each block of code:
+Each block of code in this activity is broken. Before you run each block of code:
 
 1. Predict the error.
 1. Explain why the error happened.
@@ -65,7 +64,7 @@ console.log(Math.round(10.3);
 
 ### Saving return values
 
-We can store the return value of a function in a variable. Function calls are also expressions. This means their value can also be stored in variables, same as the [math expressions](#-creating-expressions).
+We can store the return value of a function in a variable. Function calls are also expressions. This means their value can also be stored in variables, just like with operations on numbers or strings.
 
 Suppose we have a file `arithmetic.js` containing this code:
 

@@ -1,7 +1,7 @@
 +++
 title="Workshops"
-
-time= 30
+emoji='🗂️'
+time=10
 [objectives]
 1="Locate the Workshops repo"
 2="Describe how we use workshops during Saturday sessions"

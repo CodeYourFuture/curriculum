@@ -3,6 +3,7 @@ tool-tip-container {
   display: inline-block;
   cursor: help;
   text-decoration: 1px var(--theme-color--brand) wavy underline;
+  z-index: 3;
 }
 
 .tooltip {
@@ -33,7 +34,7 @@ tool-tip {
     var(--theme-color--paper)
   );
   color: var(--theme-color--ink);
-  bottom: 100%;
+  top: 1.5em;
   left: 50%;
   transform: translateX(-50%);
 }

@@ -21,7 +21,13 @@
       {{ $decodedContent := $response.content | base64Decode }}
       {{ $strippedComments := $decodedContent | replaceRE "<!--(.*?)-->" "$1" }}
       {{ $externalPath := replace $response.download_url $response.name "" }}
-      {{ partial "strings/absolute-image-paths.html" (dict "markdownContent" $strippedComments "externalPath" $externalPath) | markdownify }}
+      {{/* TODO this replaces the call to the absolute-image-paths partial as it was breaking the markdownifying --
+        once this regex happened in another partial, it no longer recognised hugo shortcodes
+        if you can fix this and return the partial call PLEASE do, as I don't want multiple regexes littering the codebase
+      */}}
+      {{/* Replace Markdown image links, targeting anything without a : */}}
+      {{ $processedContent := $strippedComments | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
+      {{ $processedContent | markdownify }}
     </div>
 
     {{/* You can attach a range of nested blocks as options

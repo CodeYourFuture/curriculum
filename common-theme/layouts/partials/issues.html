@@ -30,6 +30,10 @@
             {{ end }}
           {{ end }}
         {{ end }}
+
+        {{ if (isset . "pull_request") }}
+          {{ $showIssue = false }}
+        {{ end }}
         <!-- now show the issue -->
         {{ if $showIssue }}
           {{ if strings.Contains .body "_No response_" }}
@@ -46,7 +50,7 @@
               {{ .title }}
               <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
               <a
-                href="/api/clone?state={{ dict "issue" .number "module" $repo "sprint" $filter "prevPath" $currentPath | jsonify }}"
+                href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .number "module" $repo "sprint" $filter "prevURL" (urls.AbsLangURL $currentPath) | jsonify }}"
                 class="e-button"
                 data-props="{{ $currentPath }}">
                 Clone

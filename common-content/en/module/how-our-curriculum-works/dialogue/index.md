@@ -1,6 +1,6 @@
 +++
-title="⛗ Dialogue"
-
+title="Dialogue"
+emoji="⛗"
 time= 30
 [objectives]
   1="Explain the importance of dialogue in education and evaluation"
@@ -19,10 +19,10 @@ We learn best when we ask questions and explore possible answers. Dialogue is a 
 
 #### Code review
 
-🧑🏿‍🤝‍🧑🏽 Reviewers on a PR are expected to ask questions and explore the reasoning behind submitted code.
-🧑🏿‍🤝‍🧑🏽 PR owners are expected to answer the questions and make revisions to their submitted code.
+- 🧑🏿‍🤝‍🧑🏽 Reviewers on a PR are expected to ask questions and explore the reasoning behind submitted code.
+- 🧑🏿‍🤝‍🧑🏽 PR owners are expected to answer the questions and make revisions to their submitted code.
 
 #### Pair programming
 
-🧑🏿‍🤝‍🧑🏽 Drivers are expected to listen to their navigator and implement their directions
-🧑🏿‍🤝‍🧑🏽 Navigators are expected to talk to their drivers and articulate their strategy
+- 🧑🏿‍🤝‍🧑🏽 Drivers are expected to listen to their navigator and implement their directions
+- 🧑🏿‍🤝‍🧑🏽 Navigators are expected to talk to their drivers and articulate their strategy

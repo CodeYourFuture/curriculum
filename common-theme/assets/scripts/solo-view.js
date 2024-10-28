@@ -89,17 +89,21 @@ class SoloView extends HTMLElement {
 
   // Navigation logic
   navigateBack = (event) => {
-    event.preventDefault();
-    const backIndex = this.state.currentBlockIndex - 1;
-    this.state.tocLinks[backIndex].click();
+    this.navigate(event, this.state.currentBlockIndex - 1);
   };
 
   navigateNext = (event) => {
-    event.preventDefault();
-    const nextIndex = this.state.currentBlockIndex + 1;
-    if (nextIndex < this.state.blocks.length) {
-      this.state.tocLinks[nextIndex].click();
+    this.navigate(event, this.state.currentBlockIndex + 1);
+  };
+
+  navigate = (event, index) => {
+    if (index < 0 || index >= this.state.blocks.length) {
+      return;
     }
+    event.preventDefault();
+    // If we don't stop propagation, if focus is on a child of the main view, we end up double-navigating.
+    event.stopPropagation();
+    this.state.tocLinks[index].click();
   };
 
   // Handle swipe gesture
@@ -175,14 +179,11 @@ class SoloView extends HTMLElement {
           gap: var(--theme-spacing--gutter);
         }
         ::slotted([slot="header"]) {
-          position: sticky;
-          top: 0;
           grid-area: sidebar;
 
         }
         ::slotted([slot="blocks"]) {
           padding-top: var(--theme-spacing--6);
-          --theme-spacing--scrollmargin: 100vh !important;
           grid-area: blocks;
         }
         ::slotted([slot="nav"]) {

@@ -6,7 +6,7 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="blocks/energiser"
+src="energisers/introduce-yourself"
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -14,7 +14,19 @@ time=15
 [[blocks]]
 name="Workshop"
 src="blocks/workshop"
-time="120"
+time="140"
+  [[blocks.nested.blocks]]
+    name="Stand-up [PD] (30 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
+    time=0
+  [[blocks.nested.blocks]]
+    name="Git Day 1 [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
+    time=0
+  [[blocks.nested.blocks]]
+    name="LLM Writing 1 [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/llm-writing-1"
+    time=0
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -32,7 +44,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="90"
+time="75"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

@@ -1,9 +1,9 @@
 +++
-title = '🧰 Install VSCode'
+title = 'Install VSCode'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '🧰'
 [objectives]
     1='Download and install VSCode'
     2='Identify the key parts of the VSCode interface'

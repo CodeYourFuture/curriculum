@@ -18,7 +18,7 @@ Once you've signed up to help with a session please make sure you've done the fo
 - [ ] Chosen a role ([step](../../steps)) to help with and communicated this to the lead volunteer
 - [ ] Read over the [workshop agenda](./workshop-plan)
 - [ ] Read over any additional material for your specific role
-- [ ] Ask any questions in the #cyf-itd channel on Slack
+- [ ] Ask any questions in the #cyf-intro-to-digital-course channel on Slack
 
 ### Frequently Asked Questions from Students
 

@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 3
-theme = "Comparisons and assertions"
+theme = "Comparisons, assertions, and breaking down problems"
 +++

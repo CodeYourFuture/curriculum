@@ -31,8 +31,8 @@ Try typing in the character limit box above and observing the behaviour as you t
 
 We can define _acceptance criteria_ for this component:
 
-> _Given_ an textarea and a character limit of 200,
-> _When_ a user types characters into the textarea
+> _Given_ an textarea and a character limit of 200  
+> _When_ a user types characters into the textarea  
 > _Then_ the interface should update with how many characters they've got left
 
 ### 🏁 Starting point
@@ -65,4 +65,4 @@ In the user interface, we will start off with some static html:
 </html>
 ```
 
-> To implement the acceptance criterion, we'll need to interact with the elements on the page. We'll need a way to **access** and **update** elements based off **user interactions**.
+To implement the acceptance criterion, we'll need to interact with the elements on the page. We'll need a way to **access** and **update** elements based off **user interactions**.

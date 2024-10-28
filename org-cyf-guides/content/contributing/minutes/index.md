@@ -17,6 +17,214 @@ Attendees:
 
 ---
 
+## 2024-10-22
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Daniel: Check in on availability for first round of Piscine
+- [x] Sally: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
+- [x] Ali: Review Daniel's Piscine PR
+- [x] Sally: Come up with ideas for Ali to write up
+- [x] Ali: Respond to feedback on Piscine PR
+- [ ] Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [x] Daniel: Ask Barath to get him to post in remote-volunteering channel
+- [ ] All: Think about useful resources for SDC
+
+### 📝 Agenda points
+
+We did a big big project board clean-up and sprint-planning.
+
+#### React and tracks
+
+Three kinds of tracks:
+* Independent study tracks
+* Employer/Job/Role-focused tracks after ITP
+* Employer/Job/Role-focused tracks after SDC
+
+Need to be clear what is a direct path to a job, and also that we won't support poeple indefinitely to just keep doing more learning without goals.
+
+Daniel will action this on the tracks website.
+
+#### Missing Piscine prereqs
+
+How overloaded is ITP?
+* Intro module: Can't add anything meaningful in there.
+* Structuring and Testing Data: Pretty dense
+* Data Groups: Probably has some space
+* Data Flows: Already incredibly dense
+
+* Errors, error handling, and try/catch - we could probably insert this into Data Groups somewhere.
+  * The concept that there _are_ errors and they need handling in some way is more important than try/catch.
+* Working in groups
+  * Breaking down a project into things that can be done in parallel
+  * Merge conflicts and stuff
+    * This needs to be done in a standalone project - we can't expect people to learn anything else while they're fighting with merge conflicts.
+
+We should make tickets for:
+* Reduce prereqs on Piscine - remove everything from Daniel's list _not_ listed above.
+* ITP team to introduce errors in Data Groups
+* ITP team to introduce a group-work project in Data Groups where the desired LO is resolving merge conflicts
+* Ticket to require the object+array methods Codewars library in ITP at some point
+
+#### Parsing projects for Piscine?
+
+Probably too hard.
+
+#### Sally's Piscine project ideas
+
+We discussed a few. Codewars leaderboard, Swatches, Speak and Spell.
+
+Speak and Spell maybe doesn't have enough logicy content for Piscine, but could possibly be useful for a new group project?
+
+### ❗Actions
+
+- [ ] Ali (Carry-over): Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] All (Carry-over): Think about useful resources for SDC
+- [ ] Daniel: Make a bunch of tickets described above
+
+---
+
+## 2024-10-08
+
+Attendees: Ali, Sally, Daniel
+
+### ❗Actions from last time
+
+* [x] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [x] Everyone: Think about how we may or may not want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [ ] Everyone: Think about starter tasks for new potential team members.
+
+### 📝 Agenda points
+
+#### Piscine availability
+
+- Ali will be away for the first week of Feb
+	- So first 2 weekends will be away :/
+	- It just needs to start and end in Feb. Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
+- Daniel to check in on other people's availability
+
+#### "Gatekeeping" in ITP
+
+- How strictly should volunteers enforce review requirements in ITP?
+- Decision: we shouldn't enforce too strictly
+	- It's not the goal of ITP to be strict in assessment, that's the goal of Piscine
+		- We want ITP to be easy to re-try, give lots of chances to succeed
+		- While Piscine needs to be strict so that we can be realistic when it comes to SDC
+- Will some volunteers might be "gatekeep" in ITP anyway?
+	- Mostly likely yes, but we think it is better to err on the side of being overly strict than the opposite
+	- This may cause some complaints from trainees about unfairness, but we can deal with this easier than unrealistic expectations in SDC
+
+#### Replacing Scrimba in ITD
+
+- Team want to switch to freeCodeCamp
+	- Possibly worth exploring other options, but don't have other ideas currently
+
+#### Resources for SDC
+
+- Daniel has started to divide up SDC outcomes into "stuff we should create ourselves" and "stuff we can point to other people's existing good resources"
+	- So if there is any good materials you know of, then point Daniel towards them
+
+#### Volunteers confused about what to do on Saturdays
+
+- Sally: volunteers are asking quite a lot about what to do on a Saturday, they seem not to be reading the curriculum at all
+	- We expect them not to read it in depth, but we do need them to read _something_
+- Should understand the prep, day plan & backlog structure enough to figure it out for themselves
+- Aside: the How This Works module is targeted at volunteers, we might want to consider an equivalent for trainees. But this is a big package of work that isn't super high priority for us right now
+- Decision: one pager to explain the concepts, with a **very obvious** link on the CYF curriculum site
+	- We also think it would be useful to have a memorable short link (e.g. bit.ly/what-to-do-at-cyf-on-saturdays) that can be shared on Slack
+
+#### Connecting remote volunteers to mid week session support & PR reviews
+
+- Sally: we have a bunch of remote volunteers and opportunity to do mid-week learning sessions & PR reviews
+- Need to get Tech Ed volunteers to understand that giving PR feedback to trainees is important
+	- Do new volunteers not understand the important of giving PR feedback? Or is it that they don't know where to look (or haven't been obviously sign-posted enough)?
+		- We think it's the latter - so we need to find ways of directing the attention that way
+- We have very low numbers of volunteers outside of London - so can't really lean on in-person  volunteers to do reviews on Saturdays - so instead we should try to lean into using remote volunteers for PR reviews
+- Lili has been gathering new remote volunteers into a Slack channel - should point ITP leaders in that direction to ask for help
+
+### ❗Actions
+
+- [ ] Daniel(?): Check in on availability for first round of Piscine
+- [ ] ???: Communicate the decision about "strictness of gatekeeping" to ITP team by commenting on a ticket
+- [ ] Ali: Review Daniel's Piscine PR
+- [ ] Sally: Come up with ideas for Ali to write up
+- [ ] Ali: Respond to feedback on Piscine PR
+- [ ] Ali: Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] Daniel: Ask Barath to get him to post in remote-volunteering channel
+- [ ] All: Think about useful resources for SDC
+
+---
+
+## 2024-09-10
+
+Attendees: Ali Smith, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [x] Daniel (Carry-over): Finish off Piscine project
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [ ] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [x] Sally: Put up a banner on the SDC website saying it's under construction.
+
+### 📝 Agenda points
+
+#### Timings
+
+Calendar currently suggests first Piscine is in May - think this is a mistake and it's meant to be in February/March-ish?
+
+#### Feedback from ITD First Saturday
+
+Usual first-day chaos; generally felt good having something that felt like class!
+
+Scrimba seem to have changed their payment model - there was a paywall in front of an important step. Ali led an in-promptu CodePen + export + publish workshop.
+
+CodePen is a bit frustrating in that you effectively just see the body, and it hides a bunch of what actually happens under the covers.
+
+ITD site being un-linked has pros and cons. Good that it forces people to focus on one thing at a time. Bad because if there are e.g. bugs in the ITD platform it's hard to work around.
+
+A surprising number of trainees showed up on Saturday without their laptops. Also unclear whether a goal of ITD is still to be able to do it with just a phone. Relatedly: What about people doing ITP who don't have laptops, or only have Windows.
+
+Related: We probably _do_ want to financially support some folks through ITP if they're making progress and are likely to succeed, but a fair up-front policy that doesn't bankrupt us is complicated to devise.
+
+It feels like ITD -> ITP is a good place to do some check-pointing, but unclear how.
+
+It's a little unclear to ITD trainees what exactly happens when ITD finishes.
+
+CodeAcademy apparently has a regex with look-behind that crashes on older browsers. Boo!
+
+Most people had laptops (a few didn't). A lot of the really broken stuff was on CYF loaner laptops.
+
+It's no longer super clear exactly where "the course" starts, and who is a trainee now. We should firm this up. See also [Sally's proposed trainee contract](https://docs.google.com/document/d/14sqxUuJEaHTDTiBf3QlAsQHW2jQ0es3Dw9D8aNs2Kc4/edit).
+
+There's no specific day-plan, and it's not super clear who should be reviewing steps (which needs system access).
+
+This round (first after a long hiatus) has a very large number of participants - should we be worried about the size of the first ITP? In London so far ~50 people have made it to step 3/7. We need to work out target group sizes, and how we want to handle outcomes which are either too big or small (both of which could happen).
+
+Barath seems a little stressed about how much there is to do in ITP and that it feels high-stakes - particularly that the whole databases piece (which we view as nice-to-have for the first round, rather than strictly required).
+
+#### Starter tasks for new potential team members
+
+We should think of some.
+
+### ❗Actions
+
+* [ ] Ali (Carry-over): Write up requirements "spectrum" into a doc for discussion
+* [ ] Ali (Carry-over): Write up projects in the Piscine repo
+* [ ] Everyone (Carry-over): Think about SDC topics and resources.
+* [ ] Everyone: Think about how we may want to assess people at the end of ITP to gate entry to the Piscine.
+* [ ] Daniel: Symlink all the tooling folders.
+* [ ] Everyone: Think about starter tasks for new potential team members.
+
+---
+
 ## 2024-08-27
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath

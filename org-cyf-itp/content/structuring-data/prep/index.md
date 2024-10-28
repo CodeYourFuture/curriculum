@@ -1,5 +1,5 @@
 +++
-title = "setup"
+title = "prep"
 description = "Get setup with the main resources you'll need to learn programming"
 layout = "prep"
 emoji= "🧰"
@@ -23,4 +23,7 @@ src="module/js1/data"
 [[blocks]]
 name="REPL"
 src="module/js1/repl"
+[[blocks]]
+name="Prep dir"
+src="blocks/prep-dir"
 +++

@@ -1,12 +1,13 @@
 +++
 title = '⚖️ Comparing current and target output'
 
-time = 20
+time = 40
 facilitation = false
 emoji= '🧩'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'
+    3='List the values of the boolean type'
 [build]
   render = 'never'
   list = 'local'
@@ -77,7 +78,7 @@ b) the 🎯 target output?
 
 We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
 
-We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?**. We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
+We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?** We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
 
 ### Left equals Right
 
@@ -114,9 +115,6 @@ console.log(10 * 5 === 60);
 {{</tab>}}
 
 {{<tab name="Exercise 1">}}
-Look at the code below and then try predicting how the computer will interpret each line. Remember to think about each line and work out if it is a declaration or a statement.
-You may want to use the Node REPL to help you check your answers.
-
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
@@ -128,7 +126,7 @@ Math.min(3, 4, 5) === 4;
 let mhairiName = "Mhairi";
 typeof mhairiName === "string";
 let mhairiAge = 28;
-let isMhairOldEnoughToDrive = true;
+let isMhairiOldEnoughToDrive = true;
 let kilometersMhairiDrivesToWork = 9.4;
 ```
 
@@ -141,8 +139,8 @@ Look at the code below and predict what each expression will evaluate to. Write 
 ```js {linenos=table,linenostart=1}
 "hello Mhairi" === `hello ${mhairiName}`;
 "${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
-isMhairOldEnoughToDrive;
-isMhairOldEnoughToDrive === true;
+isMhairiOldEnoughToDrive;
+isMhairiOldEnoughToDrive === true;
 mhairiAge >= 18;
 29 <= mhairiAge;
 Math.round(kilometersMhairiDrivesToWork) === 9;

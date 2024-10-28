@@ -1,5 +1,5 @@
 +++
-title = '📜 Grouping data'
+title = '📜 Arrays'
 
 time = 10
 facilitation = false

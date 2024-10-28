@@ -1,9 +1,9 @@
 +++
-title = '📋 Check Git installation'
+title = 'Check Git installation'
 time = 15
 facilitation = false
 vocabulary=[]
-emoji= '🧩'
+emoji= '📋'
 [objectives]
 1='Double check Git is installed on your local machine'
 [build]

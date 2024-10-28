@@ -1,7 +1,7 @@
 +++
-title="🐬 Flipped classroom"
-
-time= 30
+title="Flipped classroom"
+emoji='🐬'
+time=10
 [objectives]
     1="Explain how a flipped classroom works"
     2="Identify the three learning phases in a flipped classroom model"

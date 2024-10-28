@@ -28,7 +28,11 @@ then go ahead and make a TOC */}}
     <div class="c-page-header__breadcrumbs">
       {{ partial "breadcrumbs.html" . }}
     </div>
-    <h1 class="c-page-header__title e-heading__1" data-pagefind-weight="10">
+    <h1 class="c-page-header__title e-heading__1" 
+    {{- if in (slice "backlog" "day plan" "prep" "success" "product") .Page.Layout -}}
+          data-pagefind-filter="view"
+        {{ end }}
+      data-pagefind-weight="10">
       <span class="c-emoji">
         {{ $override := .Scratch.Get "emoji" }}
         {{ if $override }}
@@ -37,9 +41,13 @@ then go ahead and make a TOC */}}
           {{ with .Page.Params.emoji }}
             {{ . }}
           {{ end }}
+           {{ if and (eq .Page.Params.layout "prep") (.Page.Params.blocks) }}
+            <time-total class="c-page-header__time"></time-total>
+      {{ end }}
         {{ end }} 
         </span>
         <span class="c-page-header__title-text">{{ .Page.Title }}</span>
+               
     </h1>
     {{ if eq .Page.Params.layout "backlog" }}
       <h2

@@ -12,7 +12,7 @@ src="module/js3/reacting"
 name="Step-through-prep workshop"
 src="https://www.youtube.com/watch?v=7kYwo6W89j4"
 [[blocks]]
-name="Decomposition"
+name="Breaking down the problem"
 src="module/js3/break-down"
 [[blocks]]
 name="Identifying state"
@@ -29,4 +29,10 @@ src="module/js3/rendering-based-on-state"
 [[blocks]]
 name="Capturing events"
 src="module/js3/capturing-events"
+[[blocks]]
+name="Re-rendering"
+src="module/js3/re-rendering"
+[[blocks]]
+name="Actually re-rendering"
+src="module/js3/actually-re-rendering"
 +++

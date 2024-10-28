@@ -4,6 +4,7 @@ title = 'What are forms?'
 time = 60
 facilitation = false
 emoji= '🧩'
+hide_from_overview = true
 [objectives]
     1='Define form, field, and input'
     2='Define form elements and attributes'
@@ -32,7 +33,7 @@ These questions and answers are compiled from recorded sessions on HTML forms, a
 <details>
 <summary>Why do we do that? Why do we bother grouping and shaping data in that way?</summary>
 
-🧑🏿‍💻💬 **Trainee:** What's that? Of course because it makes it easier to sort it out.
+🧑🏿‍💻💬 **Trainee:** Of course because it makes it easier to sort it out.
 
 👩🏻‍💻💬 **Mentor:** Yeah, absolutely! Because you know we're going to post that data to a database. Our database doesn't know what all these strings mean. We have to define the data. We have to label the data. We have to group it, and we have to do something with it: to post it to a database or in some cases, get it from a database.
 
@@ -98,7 +99,7 @@ Then [look up that last part](https://developer.mozilla.org/en-US/docs/Web/HTML/
 
 👩🏻‍💻💬 **Mentor:** The point being that there are absolutely loads of different form elements!
 
-What you need to focus on is _what you're actually doing_. We're structuring data: you are defining, naming and then grouping data. Keep that goal, front and center, then your forms will work well.
+What you need to focus on is _what you're actually doing_. We're structuring data: you are defining, naming and then grouping data. Keep that goal front and center, then your forms will work well.
 
 {{<note title="Now practise with">}}
 [Test Your Skills](https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Basic_controls)
@@ -117,9 +118,9 @@ What you need to focus on is _what you're actually doing_. We're structuring dat
 <details>
 <summary>What happens when things don't work well. What happens when the user puts the wrong thing in a field?</summary>
 
-🧑🏿‍💻💬 **Trainee:** do you mean validation? Don't we need JavaScript for that?
+🧑🏿‍💻💬 **Trainee:** Do you mean validation? Don't we need JavaScript for that?
 
-🧑🏾‍💻💬 **Mentor:** we'll learn about validation with JavaScript later on, but there's actually a lot of [validation built in](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#using_built-in_form_validation) to HTML. For example, if you put [a `required` attribute](https://www.w3.org/WAI/tutorials/forms/validation/#validating-required-input) on a field, the browser will not let you submit the form until you fill in that field. That's validation: it checks against rules and rejects the data if it doesn't meet the rules.
+🧑🏾‍💻💬 **Mentor:** We'll learn about validation with JavaScript later on, but there's actually a lot of [validation built in](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#using_built-in_form_validation) to HTML. For example, if you put [a `required` attribute](https://www.w3.org/WAI/tutorials/forms/validation/#validating-required-input) on a field, the browser will not let you submit the form until you fill in that field. That's validation: it checks against rules and rejects the data if it doesn't meet the rules.
 
 </details>
 
@@ -145,7 +146,7 @@ I think the difference is that there's no way to type into a checkbox: there's n
 
 👨🏾‍💻💬 **Trainee:** Oh well then people will write in things that aren't email addresses?
 
-🧑🏿‍💻💬 **Trainee:** and you won't know until you try to send them an email...
+🧑🏿‍💻💬 **Trainee:** And you won't know until you try to send them an email...
 
 👩🏻‍💻💬 **Mentor:** Yeah they will. You can be absolutely guaranteed that users will do that. You have to save them from themselves, and save your database from your users!
 

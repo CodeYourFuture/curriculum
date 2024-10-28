@@ -31,9 +31,7 @@
   &--important {
     background: var(--theme-color--pop-shade);
   }
-  &--warning {
-    background: var(--theme-color--bad);
-  }
+  &--warning,
   &--caution {
     background: var(--theme-color--bad);
   }

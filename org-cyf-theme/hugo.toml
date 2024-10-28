@@ -22,15 +22,15 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 # Default menus     
 [menus]
     [[menus.secondary]]
-        name = "Main Curriculum 👈🏾"
+        name = "👈🏾 Our Programme"
         weight = 1
         url = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
-        name = "Join Us 👋🏿"
+        name = "👋🏿 Join Us"
         weight = 2
         url = "https://codeyourfuture.io/volunteers/"
     [[menus.secondary]]
-        name = "Support 🫶🏼"
+        name = "🫶🏼 Support Us"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
@@ -48,7 +48,7 @@ org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"
 root = "curriculum"
-googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800;900&family=Lato:wght@500;800&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Raleway:wght@300;600;800;900&family=Lato:wght@500;800&display=swap"
 
 # We use a proxy which concatenates paginated responses, otherwise we miss results.
 # Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.

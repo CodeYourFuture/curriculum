@@ -1,9 +1,10 @@
 +++
-title = '📘 Viewing the files'
+title = 'Viewing files from a git clone'
 
 time ="20"
 facilitation = false
-emoji= '🧩'
+emoji= '📘'
+objectives=["Open a cloned repository in VSCode","Explore the repository in VSCode","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'
   list = 'local'

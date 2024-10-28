@@ -14,8 +14,12 @@
           "module"
         }}
           <li class="c-timeline__entry">
-            <a class="c-timeline__post" href="{{ .RelPermalink }}"
-              ><h3 class="c-timeline__title">{{ .Title }}</h3></a
+            <a class="c-timeline__link" href="{{ .RelPermalink }}"
+              ><h3 class="c-timeline__title">{{ .Title }}</h3>
+              {{ $meta := .Params.theme | default .Description | default "" }}
+              {{ if $meta }}
+                <p class="c-timeline__meta e-heading__5">: {{ $meta }}</p>
+              {{ end }}</a
             >
           </li>
         {{ end }}

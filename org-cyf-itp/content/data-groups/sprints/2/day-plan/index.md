@@ -14,14 +14,14 @@ time=15
 [[blocks]]
 name="Workshop"
 src="blocks/workshop"
-time="120"
+time="140"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="90"
+time="80"
 [[blocks]]
 name="Code Review"
 src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
@@ -32,7 +32,7 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="90"
+time="75"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

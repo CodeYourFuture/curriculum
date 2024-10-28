@@ -17,6 +17,11 @@
     "container" 1fr
     "." var(--gap);
 
+  &--solo {
+    position: sticky;
+    top: var(--theme-spacing--4);
+  }
+
   &__container {
     pointer-events: all;
     display: grid;
@@ -88,9 +93,22 @@
   &__description {
     font-weight: 300;
   }
+  &__time {
+    display: block;
+    color: var(--theme-color--ink);
+    font: var(--theme-font--system);
+    font-size: var(--theme-type-size--6);
+    background-color: var(--theme-color--outline);
+    margin-bottom: calc(-1 * var(--theme-spacing--3));
+    text-align: center;
+
+    @media (min-width: $c-med) {
+      width: var(--theme-type-size--1);
+    }
+  }
 
   &__breadcrumbs {
-    padding: 0 0 0 var(--theme-type-size--1);
+    padding: 0 0 0 calc(var(--theme-type-size--1) + 5px); //TODO track down this magic number
     z-index: 1;
     .c-page-header--splash & {
       display: none;
@@ -98,8 +116,6 @@
   }
 
   &__toc {
-    scroll-margin-top: calc(2 * var(--header-height));
-
     .c-toc {
       max-height: 25vh;
     }
