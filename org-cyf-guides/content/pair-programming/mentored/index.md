@@ -12,7 +12,7 @@ All of the standard [pair programming guidance](../guidance) applies - make sure
 **Before** a mentored pair programming session, learners should decide what they're going to pair on and share this with the volunteer, e.g. by sharing a link to a particular Codewars exercise, a particular piece of coursework, or some other problem.
 
 **During** mentored pair programming, the **learner** should:
-* Explain their throught process
+* Explain their thought process
 * Break down the problem
 * Plan what code to write
 * Write all of the code
