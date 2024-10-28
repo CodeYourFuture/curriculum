@@ -23,6 +23,6 @@ The **mentor** should:
 * Help the trainee think about breaking down the problem
 * Support the trainee as they write code
 * Help the trainee to debug their code
-* Stretch the trainee by bringing up extra concerns
+* Stretch the trainee by bringing up edge cases or complications
 
 This is different from other forms of pair programming, where both people may be expected to write code, or people may take turns at different roles. This is because the goal is different - the goal is teaching.
