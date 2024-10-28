@@ -4,9 +4,3 @@ baseURL = "https://guides.codeyourfuture.io/"
 [module]
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
-
-#this makes the section nav go the right way
-# because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
-[page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'

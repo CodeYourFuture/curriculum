@@ -38,10 +38,6 @@ description = "A free and open source software development programme."
 # pdrepo = "PD-curriculum-repo"
 
 #markdown configs cannot be inherited so are not set, look in org-cyf-theme for examples
-# this seems also to not be heritable but you do need it
-[page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'
 
 [caches.getjson]
 # Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.

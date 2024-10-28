@@ -33,8 +33,3 @@ googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500
     [markup.goldmark.renderer]
 # Enable HTML codeblocks, e.g. for <details> blocks
       unsafe = true
-#this makes the section nav go the right way
-# because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
-[page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'

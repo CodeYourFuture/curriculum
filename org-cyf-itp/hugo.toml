@@ -39,9 +39,3 @@ baseURL = "https://programming.codeyourfuture.io/"
       [markup.goldmark.parser.attribute]
         block = true
         title = true
-
-#this makes the section nav go the right way
-# because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
-[page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'

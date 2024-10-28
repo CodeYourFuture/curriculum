@@ -73,9 +73,3 @@ getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
       unsafe = true
 
 theme = "common-theme"
-
-#this makes the section nav go the right way
-# because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
-[page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'
