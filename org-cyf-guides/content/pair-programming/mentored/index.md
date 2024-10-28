@@ -19,7 +19,7 @@ All of the standard [pair programming guidance](../guidance) applies - make sure
 * Check that it works
 
 The **mentor** should:
-* **Ask questions** to get the trainee thinking. It's always better to ask than tell.
+* **Ask questions** to get the trainee thinking. It's always better to _ask_ than tell.
 * Help the trainee think about breaking down the problem
 * Support the trainee as they write code
 * Help the trainee to debug their code
