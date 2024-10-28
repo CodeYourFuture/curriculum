@@ -8,7 +8,8 @@ Pair programming is an excellent way to develop programming and communication sk
 
 It can be easier to work through a problem when working with someone 1-to-1.
 
-It also helps our trainees to prepare for technical interviews when they'll need to code in front of other people.
+Pair programming prepares our trainees for technical interviews when they'll 
+ code in front of other people.
 
 ## What
 
