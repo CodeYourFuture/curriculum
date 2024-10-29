@@ -7,7 +7,7 @@ time=2
 Here is a quick list of useful links (some are for applicants only, but it is helpful to know them if an applicant has a problem):
 
 **The ITD Syllabus:**  
-[https://cyf-itd.netlify.app/](https://cyf-itd.netlify.app/). It's right here.
+[https://itd.codeyourfuture.io/](https://itd.codeyourfuture.io/). It's right here.
 
 **ITD signup page (for applicants only):**  
 [https://codeyourfuture.io/itc/](https://codeyourfuture.io/itc/)
@@ -26,11 +26,11 @@ Here is a quick list of useful links (some are for applicants only, but it is he
 
 **Acceptance Criteria:** These are what you refer to when approving applicants work:
 
-- **Step 1**: [https://cyf-itd.netlify.app/steps/one/#acceptance-criteria](https://cyf-itd.netlify.app/steps/one/#acceptance-criteria)
-- **Step 2**: [https://cyf-itd.netlify.app/steps/two/#acceptance-criteria](https://cyf-itd.netlify.app/steps/two/#acceptance-criteria)
-- **Step 3**: [https://cyf-itd.netlify.app/steps/three/#acceptance-criteria](https://cyf-itd.netlify.app/steps/three/#acceptance-criteria)
-- **Step 4**: [https://cyf-itd.netlify.app/steps/four/#acceptance-criteria](https://cyf-itd.netlify.app/steps/four/#acceptance-criteria)
-- **Step 5**: [https://cyf-itd.netlify.app/steps/five/#acceptance-criteria](https://cyf-itd.netlify.app/steps/five/#acceptance-criteria)
-- **Step 6**: [https://cyf-itd.netlify.app/steps/six/#acceptance-criteria](https://cyf-itd.netlify.app/steps/six/#acceptance-criteria)
+- **Step 1**: [https://itd.codeyourfuture.io/steps/one/#acceptance-criteria](https://itd.codeyourfuture.io/steps/one/#acceptance-criteria)
+- **Step 2**: [https://itd.codeyourfuture.io/steps/two/#acceptance-criteria](https://itd.codeyourfuture.io/steps/two/#acceptance-criteria)
+- **Step 3**: [https://itd.codeyourfuture.io/steps/three/#acceptance-criteria](https://itd.codeyourfuture.io/steps/three/#acceptance-criteria)
+- **Step 4**: [https://itd.codeyourfuture.io/steps/four/#acceptance-criteria](https://itd.codeyourfuture.io/steps/four/#acceptance-criteria)
+- **Step 5**: [https://itd.codeyourfuture.io/steps/five/#acceptance-criteria](https://itd.codeyourfuture.io/steps/five/#acceptance-criteria)
+- **Step 6**: [https://itd.codeyourfuture.io/steps/six/#acceptance-criteria](https://itd.codeyourfuture.io/steps/six/#acceptance-criteria)
 
 ## To be continued...
