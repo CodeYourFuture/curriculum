@@ -1,6 +1,6 @@
 # Code Your Future Curriculum ITD MODULE
 
-https://itd.codeyourfuture.io/ / https://cyf-itd.netlify.app
+https://itd.codeyourfuture.io/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 
