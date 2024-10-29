@@ -1,5 +1,5 @@
 name="Intro to Programming"
-code="itp"
+code="cyf-itp"
 weight=2
 menu="start here"
 url="https://programming.codeyourfuture.io"
@@ -8,3 +8,4 @@ emoji="🐣"
 days=84
 commitment="part time"
 frequency=4
+locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Online", "Sheffield"]

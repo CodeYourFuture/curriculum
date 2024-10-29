@@ -12,6 +12,9 @@
 {{ $course := .course | anchorize }}
 {{ $module := .module }}
 {{ $day := .day | urlize}}
+{{ $orgData := $.Site.Data.courses "code" $course }}
+{{ $orgData}} YO {{ $course}}
+{{ $locations := $orgData.locations}} Loca {{$locations}}
 
 {{/* if any of these params are null, error */}}
 {{ if or (not $course) (not $module) (not $day) }}
@@ -46,6 +49,14 @@
   <div><label for="email" class="is-invisible">Email</label>
   <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
   </div>
+  {{ with $locations }}
+  <div><label for="location" class="is-invisible">Location</label>
+  <input list="locations" name="location" id="location" autocomplete="location" placeholder="Location" required>
+  <datalist id="locations">
+    {{ range . }}<option value="{{.}}"></option>{{ end }}
+  </datalist>
+  </div>
+  {{ end }}
   <button class="e-button">Register</button>
 </form>
 </section>
