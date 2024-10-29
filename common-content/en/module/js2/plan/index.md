@@ -22,7 +22,7 @@ A[Step 1: Define the character limit of 200] --> B[Step 2: Access the textarea e
 ```
 
 There are two times we may want to do this:
-* When the page first loads we should show the _initial_ limit.
+1. When the page first loads we should show the _initial_ limit.
 * Whenever the user changes what's in the textarea (adds or removes a character), we want to _update_ to show the remaining limit.
 
 ```mermaid
