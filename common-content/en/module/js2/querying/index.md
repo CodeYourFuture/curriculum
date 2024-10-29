@@ -42,7 +42,7 @@ Step 2: Access the `textarea` element
 
 The DOM is an interface. It represents HTML elements as objects and provides functions to access these objects. Let’s start by accessing the `textarea` element and its value. To access DOM elements, we can use a method on the DOM API - [`document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-We can create a javascript file, `script.js`, and link it to the HTML document using a `script` element:
+We can create a Javascript file, `script.js`, and link it to the HTML document using a `script` element:
 
 ```html {linenos=table,linenostart=1 hl_lines=["7"]}
 <!DOCTYPE html>
