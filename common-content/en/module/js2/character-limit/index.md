@@ -1,5 +1,5 @@
 +++
-title = '🛑 Character limit'
+title = '🛑 Implenenting a character limit'
 
 time = 20
 facilitation = false
@@ -33,7 +33,12 @@ We can define _acceptance criteria_ for this component:
 
 > _Given_ an textarea and a character limit of 200  
 > _When_ a user types characters into the textarea  
-> _Then_ the interface should update with how many characters they've got left
+> _Then_ the interface should update with how many characters they've got left.
+
+> _Given_ an textarea and a character limit of 200  
+> _When_ a user has already typed 200 characters into the textarea  
+> _And_ the user tries to type another character  
+> _Then_ the extra character should not get added to the textarea.
 
 ### 🏁 Starting point
 
@@ -50,8 +55,8 @@ In the user interface, we will start off with some static html:
   <body>
     <section>
       <h3>Example character limit comment component</h3>
-      <label for="comment-input"
-        >Please enter your comment in the text area below
+      <label for="comment-input">
+        Please enter your comment in the text area below
       </label>
       <textarea
         id="comment-input"
