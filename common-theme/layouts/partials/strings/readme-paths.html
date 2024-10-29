@@ -1,0 +1,34 @@
+{{/* For repositories and individual README files, use readme API endpoint
+  https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#get-a-repository-readme-for-a-directory
+
+  /repos/{owner}/{repo}/readme/{dir}
+
+  $newSrc comes in as api links from data.html, but TODO you might want to also transform directly from github.com links
+  https://api.github.com/repos/CodeYourFuture/CYF-Workshops
+  change to => https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/
+  https://api.github.com/repos/CodeYourFuture/CYF-Workshops/tree/main/template
+  change to => https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/template
+  https://api.github.com/repos/CodeYourFuture/CYF-Workshops/blob/main/template/readme.md
+  change to => https://api.github.com/repos/CodeYourFuture/CYF-Workshops/readme/template
+
+  https://api.github.com/repos/{owner}/{repo}
+  https://api.github.com/repos/{owner}/{repo}/{dir}
+*/}}
+
+{{ $newSrc := .src }}
+
+{{/* Remove trailing slash if present */}}
+{{ $newSrc = replaceRE "/$" "" $newSrc }}
+
+{{/* Handle /blob/main/path/readme.md format */}}
+{{ $newSrc = replaceRE "/blob/main/(.+?)/(?i:readme\\.md)$" "/readme/$1" $newSrc }}
+
+{{/* Handle /tree/main/path format */}}
+{{ $newSrc = replaceRE "/tree/main/(.+)$" "/readme/$1" $newSrc }}
+
+{{/* Add /readme if it's not already present */}}
+{{ if not (findRE "/readme" $newSrc) }}
+  {{ $newSrc = print $newSrc "/readme" }}
+{{ end }}
+
+{{ return $newSrc }}
