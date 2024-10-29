@@ -88,7 +88,7 @@ console.log(textarea.value); // evaluates to the value typed by the user
 {{<tab name="🖲️ Follow along">}}
 
 1. On your local machine, set up a new directory with an `index.html` and `script.js`.
-2. Make sure you start with the same static html as the example above.
+2. Make sure you start with the same static HTML as the example above.
 3. Double check your script file is linked to your html file.
 4. Try querying the DOM and accessing various elements like the `textarea` element.
 5. Try typing in the `textarea` element, and then accessing its `value` property in Dev Tools.
