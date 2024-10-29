@@ -52,5 +52,5 @@ D["`**Step 4: When the browser tells us a user has pressed a key**`"] --> E[Step
 
 Notice a few things here:
 
-- There's no arrow between Step 3 and Step 4. The trigger for Step 4 is _a user doing something_ - if the user doesn't type anything in the textarea, Step 4 will not run after the first load (and neither will Step 5 and Step 6).
+- There's no arrow between Step 3 and Step 4. The trigger for Step 4 is _a user doing something_. If the user doesn't type anything in the textarea, Step 4 will not run after the first load (and neither will Step 5 and Step 6).
 - _We_ don't run Step 4. The browser runs Step 4. In Step 3 we asked the browser to do something for us in the future. This is something new - up until now, _we_ have always been the ones telling JavaScript what to do next.
