@@ -14,26 +14,4 @@
       {{ end }}
     </ol>
   </article>
-  <footer class="c-page-footer">
-    <nav class="c-page-footer__nav">
-      <!--These aren't quite sections so prev and next won't appear, but we can fake it-->
-      {{ $thisPageWeight := .Page.Weight }}
-      {{ $PrevInSection := .Page.Parent }}
-      {{ $NextInSection := .Page.Parent }}
-      {{ range where .Site.Pages "Section" .Section }}
-        {{ if and (in .Params.menu_level "module") (eq .Weight (sub $thisPageWeight 1)) }}
-          {{ $PrevInSection = . }}
-        {{ end }}
-        {{ if and (in .Params.menu_level "module") (eq .Weight (add $thisPageWeight 1)) }}
-          {{ $NextInSection = . }}
-        {{ end }}
-      {{ end }}
-
-      ←<a href="{{ $PrevInSection.RelPermalink }}"
-        >{{ $PrevInSection.Title }}</a
-      >
-      <a href="{{ $NextInSection.RelPermalink }}">{{ $NextInSection.Title }}</a
-      >→
-    </nav>
-  </footer>
 {{ end }}
