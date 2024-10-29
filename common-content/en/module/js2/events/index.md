@@ -32,7 +32,13 @@ However, we're missing a step in our plan. We need to find a way of running some
 An [event](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) is something that occurs in a programming environment that can be observed or responded to.
 {{</note>}}
 
-Events are things that happen in the browser, which your code can ask to be told about, so that your code can react to them. In a browser context, an event could be a user clicking on a button, a user typing something into a textarea box, a user submitting a form etc. Not all events are in response to user actions, for instance there is an event for the browser finished initially rendering the page. You can find a [complete reference all the different event types](https://developer.mozilla.org/en-US/docs/Web/Events) on MDN.
+Events are things that happen in the browser, which your code can ask to be told about, so that your code can react to them. In a browser context, an event could be:
+- a user clicking on a button
+- a user typing something into a textarea box
+- a user submitting a form
+- and so on.
+
+Not all events are in response to user actions. You can think of events as "interesting changes". For instance, there is an event for the browser completing its initial render of the page. You can find a [complete reference all the different event types](https://developer.mozilla.org/en-US/docs/Web/Events) on MDN.
 
 When a user presses a key in our `textarea`, the browser will create an event. If we asked the browser to tell us about it, we can respond to it. So we can update our plan as follows:
 
