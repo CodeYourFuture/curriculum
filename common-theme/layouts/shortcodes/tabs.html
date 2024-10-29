@@ -1,32 +1,56 @@
-{{/*  These tabs are based on the Kubernetes docs*/}}
-{{- .Page.Store.Set "hasTabs" true -}}  
-{{- .Page.Scratch.Add "tabset-counter" 1 -}}  
-{{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) (.Page.Scratch.Get "tabset-counter") ) | anchorize -}}
-{{- $tabs := .Scratch.Get "tabs" -}}
-{{- if .Inner -}}{{- /* We don't use the inner content, but Hugo will complain if we don't reference it. */ -}}{{- end -}}
+<!--prettier-ignore-->
+{{/* Example usage
+{{<tabs name="NAME HERE">}}
+===[[TAB 1 title]]  
+TAB 1 content  
+===[[TAB 2 title]]  
+TAB 2 content
+{{< /tabs >}}
+*/}}
+{{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) time.Now ) | anchorize -}}
+{{/* Same as columns, slice on custom delimiter */}}
+{{ $tabs := split .Inner "===[[" }}
+{{/* Skip the first item in the slice which is always empty */}}
+{{ $tabs = after 1 $tabs }}
 <tab-panels class="c-tabs">
   <div class="c-tabs__list" id="{{ $tab_set_id }}" role="tablist">
-    {{- range $i, $e := $tabs -}}
-      {{- $id := printf "%s-%d" $tab_set_id $i -}}
-      {{- if (eq $i 0) -}}
-        <button data-toggle="tab" id="tab-label-{{$id}}" class="c-tabs__tab is-active e-heading__5" role="tab" aria-controls="{{ $id }}" aria-selected="true">{{- trim .name " " -}}</button>
-      {{ else }}
-        <button data-toggle="tab" id="tab-label-{{$id}}" class="c-tabs__tab e-heading__5" role="tab" aria-controls="{{ $id }}" aria-selected="false">{{- trim .name " " -}}</button>
+    {{- range $index, $tab := $tabs -}}
+      {{- if ne $tab "" -}}
+        {{- $id := printf "%s-%d" $tab_set_id $index -}}
+        {{- $tabParts := split $tab "]]" -}}
+        {{- $tabName := index $tabParts 0 -}}
+        <button
+          data-toggle="tab"
+          id="tab-label-{{ $id }}"
+          class="c-tabs__tab e-heading__5 space {{ if (eq $index 0) }}
+            is-active
+          {{- end -}}"
+          role="tab"
+          aria-controls="{{ $id }}"
+          aria-selected="{{- if (eq $index 0) -}}
+            true
+          {{- else -}}
+            false
+          {{- end -}}">
+          {{ $tabName }}
+        </button>
       {{- end -}}
     {{- end -}}
   </div>
   <div class="c-tabs__group" id="{{ $tab_set_id }}">
-    {{- range $i, $e := $tabs -}}
-      {{- $id := printf "%s-%d" $tab_set_id $i -}}
-      {{- if (eq $i 0) -}}
-        <div id="{{ $id }}" class="c-tabs__panel is-active" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
-      {{ else }}
-        <div id="{{ $id }}" class="c-tabs__panel" role="tabpanel" aria-labelledby='tab-label-{{ $id }}'>
-      {{ end }}
-        {{- with .content -}}
-          {{- . | $.Page.RenderString -}}
-        {{- end -}}
-      </div>
+    {{- range $index, $tab := $tabs -}}
+      {{- if ne $tab "" -}}
+        {{- $id := printf "%s-%d" $tab_set_id $index -}}
+        {{- $tabParts := split $tab "]]" -}}
+        {{- $content := index $tabParts 1 -}}
+        <div
+          id="{{ $id }}"
+          class="c-tabs__panel {{ if (eq $index 0) }}is-active{{ end }}"
+          role="tabpanel"
+          aria-labelledby="tab-label-{{ $id }}">
+          {{ $content | markdownify }}
+        </div>
+      {{- end -}}
     {{- end -}}
   </div>
 </tab-panels>
