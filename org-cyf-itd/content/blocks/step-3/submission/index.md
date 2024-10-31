@@ -1,6 +1,6 @@
 +++
 title ="Step 1: How to show us"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
+description= "Submit your work for review"
 emoji= "🤖"
 time= 5
 [build]
@@ -11,16 +11,15 @@ time= 5
 
 ### Submission
 
-You must do this in CYF Course platform
+You must submit a link to your work in the CYF Course platform
 
-1. Share a link to your personal website deployed on Netlify
-1. Share a link to your Google.com clone website deployed on Netlify
-1. Share a link to your Digital Business Card website deployed on Netlify
-1. Share a link to your Space Exploration website deployed on Netlify
-1. Share a link to your Birthday GIFt website deployed on Netlify
+1. You have completed all five projects on Scrimba
+1. You have deployed all five projects on Netlify
+1. You have created a public Google doc to collect the links to all your deployed projects
+1. You have shared the link to your Google doc on the CYF Course Platform
 
 ### Personalise your URLs
 
-Before you share your link with your mentors, change your Netlify URL to include your name. You can use your first name or last name. To learn how to do this, follow this guide: [Modify your domain name on Netlify](https://www.makeuseof.com/netlify-free-domain-name-modify/).
+Before you share your links with your mentors, change your Netlify URL to include your name. You can use your first name or last name. To learn how to do this, follow this guide: [Modify your domain name on Netlify](https://www.makeuseof.com/netlify-free-domain-name-modify/).
 
-Once you have personalised it, share the website link in the course platform. You'll share five links in total.
+You'll share one document containing five links in total.
