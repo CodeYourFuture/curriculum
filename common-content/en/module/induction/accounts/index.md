@@ -18,7 +18,7 @@ Click on the links to go to the registration pages. Keep your login details for 
 We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 {{</note>}}
 
-Every time you create an account which can have a profile picture, you should set one up. Follow these [professional image guidlines](https://www.linkedin.com/business/talent/blog/product-tips/tips-for-taking-professional-linkedin-profile-pictures) when picking an image. Use the same picture for every account.
+Every time you create an account which can have a profile picture, you should set one up. Follow these [professional image guidelines](https://www.linkedin.com/business/talent/blog/product-tips/tips-for-taking-professional-linkedin-profile-pictures) when picking an image. Use the same picture for every account.
 
 {{<note type="tip" title="Robohash" >}}
 We understand you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.
