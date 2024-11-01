@@ -1,6 +1,14 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
+
 {{ $pageContext := . }}
-{{ with resources.GetRemote $blockData.api $blockData.headers }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
+
+{{/* 404s lead to GetRemote returning nil rather than an error. */}}
+{{ if eq $response nil }}
+  {{ errorf "Couldn't find readme at %s" $blockData.api }}
+{{ end }}
+
+{{ with $response }}
   {{ with .Err }}
     {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title .Err }}
   {{ end }}
