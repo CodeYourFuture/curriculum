@@ -17,6 +17,42 @@ Attendees:
 
 ---
 
+## 2024-11-05
+
+Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+- [ ] Ali (Carry-over): Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] All (Carry-over): Think about useful resources for SDC
+- [x] Daniel: Make a bunch of tickets described above
+
+### 📝 Agenda points
+
+We had a lovely catch-up.
+
+Some things that came up:
+* Sally is working with some Royal Holloway researchers who are researching the impact of GenAI on novice learning programmers.
+* Sally is finding AI's influence uninspiring in her coding life.
+* In Zoom school, Sally walked through the page of a PR line by line understanding every element in the page.
+  * In flipped classroom we're maybe overlooking context setting for logistical/workflowy things like this.
+  * There's probably some good workshops in this.
+* How to handle things like playing computer with volunteers who don't have an understanding you'd expect them to.
+* So far 15% of 117 ITP participants have completed module 1. 3-4 have dropped out.
+ * Some people are racing ahead at a faster pace than the old course timing would have allowed - this is great to see.
+ * Unclear what the balance will be of the slower folks between "need a bit of extra time to get going" vs "just need a bit more time for everything" vs "not actually getting things".
+ * People re-taking the course seem to be thriving - getting the culture, reviewing code, etc.
+ * Fundamentals was really useful at culture-setting, we probably want to try re-framing the first ITP module as fundamentals.
+* Sally wants to release the curriculum platform with the DPG team in December.
+
+### ❗Actions
+
+- [ ] Ali (Carry-over): Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] All (Carry-over): Think about useful resources for SDC
+- [ ] All: File tickets about requirements for the curriculum platform in https://github.com/orgs/CodeYourFuture/projects/105/views/17
+
+---
+
 ## 2024-10-22
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
