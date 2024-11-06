@@ -12,14 +12,14 @@ hide_from_overview=true
 
 {{<tabs name="Run a retro">}}
 {{<tab name="Video">}}
-{{<youtube>}}https://www.youtube.com/watch?v=TeKHx6GY3Zw{{</youtube>}}
+{{<youtube>}}https://www.youtube.com/watch?v=3rCllHgDl7s{{</youtube>}}
 {{</tab>}}
 {{<tab name="Text">}}
 
 {{<note title="Retro (20 minutes)" type="activity">}}
-A retro is a chance to reflect. You can do this on [a FigJam](https://www.figma.com/board/otHBufZ3jGm9S7QPxeuXYV/Retro-Board-CYF) (make sure someone makes a **copy** of the template before you start) or on sticky notes on a wall.
+A retro is a chance to reflect. You can do this on [RetroTool](https://retrotool.io/) (create a free anonymous retro and share the link with the class) or on sticky notes on a wall.
 
-1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+5+minutes). There's one on the FigJam too.
+1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+5+minutes). There's one on the RetroTool too.
 1. Write down as many things as you can think of that you'd like to _start_, _stop_, and _continue_ doing next sprint.
 1. Write one point per note and keep it short.
 1. When the timer goes off, one person should set a [timer for 1 minute](https://www.google.com/search?q=timer+1+minute) and group the notes into themes.
