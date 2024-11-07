@@ -10,7 +10,11 @@ Before you can review the work submitted by applicants, you should familiarise y
 
 This is the ITD syllabus.
 
-Applicants will work through the steps week by week. Each step contains instructions for the applicants to do complete a task which they should then submit. Volunteers can find these submissions on the dashboard and give feedback. There is a page which just contains the steps in order and that is here: [https://course1.codeyourfuture.io/login](https://course1.codeyourfuture.io/login). The Workshops will be organised by each region, and are designed to be face-to-face opportunities for applicants to ask questions and clarify their learning. Workshops will be advertised on Eventbrite and advertised in Slack.
+Applicants will work through the steps week by week. Each step contains instructions for the applicants to do complete a task which they should then submit. Volunteers can find these submissions on the dashboard and give feedback. 
+
+Tip: You can read all the steps right here in the menu ["Steps"](https://itd.codeyourfuture.io/). 
+
+The Workshops will be organised by each region, and are designed to be face-to-face opportunities for applicants to ask questions and clarify their learning. Workshops will be advertised on Eventbrite and advertised in Slack.
 
 You will find that each step has a number of sub-components reachable via a menu which looks like this:<br/>
 ![Components of a step are Instructions Acceptance Criteria Submission Help and Extensions](StepComponents.png).
