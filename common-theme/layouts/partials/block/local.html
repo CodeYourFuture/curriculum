@@ -33,7 +33,7 @@
         <h3>🗂️ Options</h3>
         {{ range . }}
           {{ range $block := . }}
-            {{ $blockDict := dict "block" $block "Page" $.Page "Site" $.Site }}
+            {{ $blockDict := dict "block" $block "Page" $.Page "Site" site }}
             {{ partial "block/nested.html"  $blockDict }}
           {{ end }}
         {{ end }}
