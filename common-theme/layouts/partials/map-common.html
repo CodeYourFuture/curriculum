@@ -1,0 +1,34 @@
+{{/*
+Expects a slice[dict] param containing an ordered list of dicts with the following keys, one per section in the map to render:
+* title (string) - The heading to display for the section.
+* values (slice[Page]) - A slice of Pages, one per page in the section which should be listed.
+*/}}
+
+<div class="c-map">
+<h1 class="e-heading c-map__start is-none--lt-container">👉🏾</h1>
+{{ range $i, $section := index . "sections" }}
+  {{ $sectionTitle := index $section "title" }}
+  {{ $sectionValues := index $section "values" }}
+  <section class="c-map__block">
+    <h2 class="e-heading c-map__title">
+      📍{{ $i }}:
+      {{ $sectionTitle }}
+    </h2>
+    <ol class="c-map__timeline">
+      {{/* Check if a menu for the current map section exists */}}
+      {{ if $sectionValues }}
+        {{/* Range over the items in the menu */}}
+        {{ range $iterator, $module := $sectionValues }}
+          <li
+            class="c-map__stop"
+            style="--layer:{{ sub (len $sectionValues) (add $iterator 1) }}">
+              {{ partial "card.html" $module }}
+          </li>
+        {{ end }}
+      {{ else }}
+        <li>No items found for {{ $sectionTitle }}</li>
+      {{ end }}
+    </ol>
+  </section>
+{{ end }}
+</div>
