@@ -16,11 +16,11 @@
     <time-stamper>
       <div class="c-block__series c-block__series--timeline">
         {{ if ne .Params.noRegister true }}
-          {{ partial "register-attendance.html" (dict "course" $.Site.Title "module" $.Page.CurrentSection.Parent.Title "day" $.Page.CurrentSection.Title) }}
+          {{ partial "register-attendance.html" (dict "course" site.Title "module" $.Page.CurrentSection.Parent.Title "day" $.Page.CurrentSection.Title) }}
         {{ end }}
         {{ range $index, $block := .Params.blocks }}
 
-          {{ partial "block/block.html" (dict "block" $block "Page" $.Page "Site" $.Site) }}
+          {{ partial "block/block.html" (dict "block" $block "Page" $.Page "Site" site) }}
 
         {{ end }}
       </div>

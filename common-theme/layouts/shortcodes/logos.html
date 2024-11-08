@@ -4,7 +4,7 @@
 */}}
 {{ $filter := slice (.Get 0) }}
 
-{{ with and $filter $.Site.Data.funding }}
+{{ with and $filter site.Data.funding }}
   <ul class="c-logos">
     {{ range . }}
       {{ if intersect .support_type $filter }}
