@@ -12,7 +12,7 @@ time= 300
 This course teaches you HTML and CSS by helping you make five great projects. You'll also get to do over 75 coding tasks. You don't need to know anything about coding to start - it's good for complete beginners.
 
 1. Create an [account on Scrimba](https://v2.scrimba.com/home)
-1. Find out [what to do and what to avoid when taking the Scrimba course](https://docs.google.com/presentation/d/1Z10grrFWQcKeEb2iD84ljhq9vzLMPWL5ny6oaotpb8E/edit?usp=sharing)
+1. Learn [what to do and what to avoid when taking the Scrimba course](https://docs.google.com/presentation/d/1Z10grrFWQcKeEb2iD84ljhq9vzLMPWL5ny6oaotpb8E/edit?usp=sharing)
 1. Go to the course: [Learn HTML and CSS](https://v2.scrimba.com/learn-html-and-css-c0p) on Scrimba
 1. Follow along and build the first five projects
 1. Make a public Google doc to collect the links to all your deployed projects on Netlify
