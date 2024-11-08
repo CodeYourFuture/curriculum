@@ -18,5 +18,5 @@ Here is the criteria you need to meet:
 - You have saved the contents in a document
 - You have added your name to the document file name
 - You have uploaded the document
-- You have added a comment giving a piece of feedback on the AI’s work
+- You have added three comments giving feedback on the AI’s work
 ```
