@@ -1,0 +1,11 @@
+{{ $items := slice }}
+{{ $objectives := split .Inner "\n" }}
+{{ range $objectives }}
+  {{ $objective := replace . "- [ ] " "" }}
+  {{ if ne (trim $objective " ") "" }}
+    {{ $items = $items | append $objective }}
+  {{ end }}
+{{ end }}
+{{ with $items }}
+  {{ partial "objectives/block" . }}
+{{ end }}
