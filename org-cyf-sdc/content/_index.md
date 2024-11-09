@@ -1,6 +1,6 @@
 +++
 title="Software Development Course"
-menus_to_map=["start here", "SDC", "tracks"]
+map=["start here", "SDC", "tracks"]
 description="Alert: this course is not yet available. Content is incomplete."
 emoji= "🧑🏾‍🔧" 
 +++
