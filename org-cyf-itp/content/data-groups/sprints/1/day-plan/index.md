@@ -16,10 +16,6 @@ name="Workshop"
 src="blocks/workshop"
 time="140"
   [[blocks.nested.blocks]]
-    name="TBD [PD] (30 Mins)"
-    src="TBD"
-    time=0
-  [[blocks.nested.blocks]]
     name="Arrays [Tech] (60 Mins)"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
     time=0
