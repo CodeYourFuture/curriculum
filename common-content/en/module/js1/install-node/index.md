@@ -58,7 +58,7 @@ You should see a version number like `10.9.0`.
 
 ##  On Mac
 
-1. Install the the Xcode Command Line Developer Tools
+1. Install the the Xcode Command Line Developer Tools by running the following command in your terminal:
 
 ```terminal
 xcode-select --install
@@ -72,7 +72,7 @@ These may already be installed, in which case you will see "xcode-select: note: 
 touch ~/.zshrc
 ```
 
-3. Install nvm by running the following command in your terminal:
+3. Install nvm:
 
 ```terminal
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
