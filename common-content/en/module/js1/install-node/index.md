@@ -66,7 +66,7 @@ xcode-select --install
 
 These may already be installed, in which case you will see "xcode-select: note: Command line tools are already installed." and can continue to the next step.
 
-2. Create a (Non-Login Interactive) Shell Configuration File
+2. Create a (Non-Login Interactive) Shell Configuration File:
 
 ```terminal
 touch ~/.zshrc
