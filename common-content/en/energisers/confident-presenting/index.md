@@ -22,7 +22,7 @@ Get everyone standing for this exercise!
 3. In a power pose of your choosing go around the room and ask everyone to say their name in the most exaggerated, enthusiastic way possible, like they’re introducing themselves to a stadium of people. 
 
 > [!WARNING]  
-> The science behind power poses is not very strong, this is only to get everyone up and moving around!
+> This is not proven science. This is just a fun game to get everyone up and moving around!
 
 # Resources on Confident Presenting
 - [Make Body Language Your Superpower](https://www.youtube.com/watch?v=cFLjudWTuGQ&ab_channel=StanfordGraduateSchoolofBusiness)
