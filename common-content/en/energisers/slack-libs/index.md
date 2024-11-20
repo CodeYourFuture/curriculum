@@ -1,5 +1,5 @@
 +++
-title="Slack Stack"
+title="Slack Libs"
 emoji="💬"
 time=10
 [tasks]
