@@ -15,6 +15,18 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="140"
+[[blocks.nested.blocks]]
+    name="Giving Feedback [PD] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
+    time=0
+  [[blocks.nested.blocks]]
+    name="Arrays [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
+    time=0
+  [[blocks.nested.blocks]]
+    name="Testing [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/testing"
+    time=0
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
