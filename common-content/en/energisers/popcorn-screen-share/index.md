@@ -13,7 +13,7 @@ publishResources = false
 
 A playful way to practice screen sharing while sharing something personal.
 
-Facilitator, please begin by sharing your screen. talk through what you are doing and show your favorite website, digital photo, or bookmark. Explain why it's meaningful to you. On gallery view, choose the person "next" to you to share next.
+Facilitator, please begin by sharing your screen. Talk through what you are doing and show your favorite website, digital photo, or bookmark. Explain why it's meaningful to you. On gallery view, choose the person "next" to you to share next.
 
 Each participant will have {{<timer>}}1{{</timer>}} minute to:
 
