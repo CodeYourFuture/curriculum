@@ -1,9 +1,9 @@
 +++
-title = 'Sprint 2'
+title = 'Sprint 4'
 description = 'The plan for this sprint'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Shell tools, hardware, and programming language concepts"
+theme = "Implementing and testing shell tools in Python, and Operating Systems concepts"
 +++
