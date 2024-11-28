@@ -28,6 +28,7 @@ defaultContentLanguageInSubdir = false
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
 description = "A free and open source software development programme."
+startTime="10:00"
 # main_website = ""
 # main_org_name = "eg Code Your Future"
 # our_name = "alias for in text replacement"
