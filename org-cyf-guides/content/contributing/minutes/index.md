@@ -17,6 +17,67 @@ Attendees:
 
 ---
 
+## 2024-11-19
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Ali (Carry-over): Check in with the Dashboard team about Piscine reqs (write up a ticket for this)
+- [ ] All (Carry-over): Think about useful resources for SDC
+- [x] All: File tickets about requirements for the curriculum platform in https://github.com/orgs/CodeYourFuture/projects/105/views/17
+
+### 📝 Agenda points
+
+#### Helping ITP team reboot the first module for ITP iteration 2 which starts in about 6 weeks
+
+We should start thinking about reworking the first module as slightly more fundamentals-style "try this out and enroll as a trainee or drop out".
+
+We may want to do with on behalf of the ITP syllabus team and hand it over, as they are bandwidth-constrained.
+
+We would probably want this to happen before we rely on people having access to their own computers.
+
+Would probably want to keep git, which you can do on GitHub, but without Codespaces that doesn't let you _run_ code. These are cheap enough that we can probably pay for it. Probably ditching the terminal completely though.
+
+Sally has acquired a poor quality trainee laptop and will experiment with it.
+
+##### Do we want to time-limit the module?
+
+Pros:
+* Encourages people to focus and pushes them to actually enroll as trainees
+* Sets the expectation of: You have to show up, put the work in, and make progress
+
+Cons:
+* Extra pressure
+* Makes a paperwork spike of enrollment applications
+* Mismatched expectations around introducing artificial time pressure for module 1 vs trying to relieve time pressure for ITP
+
+We probably want to set a target guideline of 4 weeks, but not enforce this. Maybe we "enforce" this by telling cohort leaders that week 5 must be working on module 2 not module 1.
+
+##### Actions
+
+* Collaboratively put together learning objectives.
+* Rebranding the module.
+* Go through moving/removing things we think need to be removed.
+* Frame sprint 1 with specific energisers/introductions.
+
+#### Renaming SDC
+
+Daniel would quite like to rename SDC to Software Engineering for two reasons:
+1. To not need to disambiguate between "old SDC" and "new SDC"
+2. "Software engineering" contrasts nicely with "Learning programming"
+
+#### Piscine dashboard requirements
+
+Worked out in comments on https://docs.google.com/document/d/1KOl4eWF0XWS34esrkWvCE5d4ESgMrjeFWQFao404UPY/edit
+
+### ❗Actions
+
+- [ ] All: Collaboratively put together LOs and name for ITP Introduction Module.
+- [ ] Daniel: Sync with Karen on Piscine dashboard requirements
+
+---
+
 ## 2024-11-05
 
 Attendees: Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
@@ -43,7 +104,7 @@ Some things that came up:
  * Unclear what the balance will be of the slower folks between "need a bit of extra time to get going" vs "just need a bit more time for everything" vs "not actually getting things".
  * People re-taking the course seem to be thriving - getting the culture, reviewing code, etc.
  * Fundamentals was really useful at culture-setting, we probably want to try re-framing the first ITP module as fundamentals.
-* Sally wants to release the curriculum platform with the DPG team in December.
+* Sally wants to release the curriculum platform with the [DPG](https://github.com/dpgalliance) [team](https://github.com/orgs/CodeYourFuture/teams/dpg-team) in December.
 
 ### ❗Actions
 

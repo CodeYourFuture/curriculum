@@ -10,6 +10,7 @@ class TimeStamper extends HTMLElement {
         `;
 
     this.timelineEntries = this.querySelectorAll(".c-block");
+    this.startTime = this.getAttribute('start-time');
   }
 
   connectedCallback() {
@@ -17,7 +18,7 @@ class TimeStamper extends HTMLElement {
   }
 
   stampTime() {
-    let currentTime = new Date("1970-01-01T10:00:00"); // Set initial time to 10:00 AM
+    let currentTime = new Date(`1970-01-01T${this.startTime}`); // Set initial time to 10:00 AM
 
     this.timelineEntries.forEach((entry) => {
       const timeElement = entry.querySelector(".c-block__time");

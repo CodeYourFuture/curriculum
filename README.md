@@ -78,7 +78,7 @@ Then add the common theme and content modules as hugo modules to hugo.toml:
 
 Look at the [org-cyf](/org-cyf/) and [org-cyf-tracks](/org-cyf-tracks/) examples for more details and options.
 
-To customise the css, make a dir `assets/custom-theme` and throw any scss in there. It will be compiled and added last.
+To customise the CSS, make a dir `assets/custom-theme` and throw any SCSS in there. It will be compiled and added last.
 
 To add site logo/s, make a dir and add svgs to `assets/custom-images/site-logo/`. They will be added to the site header.
 
