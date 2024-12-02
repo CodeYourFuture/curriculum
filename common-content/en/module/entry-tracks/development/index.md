@@ -9,13 +9,13 @@ objectives = [
     "Open a pull request and iterate on it in response to feedback."]
 [[blocks.nested.blocks]]
 name="Pomodoro"
-src="module/piscine/pomodoro"
+src="module/entry-tracks/pomodoro"
 [[blocks.nested.blocks]]
 name="Blockers"
-src="module/piscine/blockers"
+src="module/entry-tracks/blockers"
 [[blocks.nested.blocks]]
 name="Pair Programming"
-src="module/piscine/pairing"
+src="module/entry-tracks/pairing"
 [build]
   render = 'never'
   list = 'local'
