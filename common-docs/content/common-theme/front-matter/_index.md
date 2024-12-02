@@ -20,8 +20,11 @@ src="common-theme/front-matter/blocks/blocks"
 name="Emoji"
 src="common-theme/front-matter/blocks/emoji"
 [[blocks]]
-name="Map"
-src="common-theme/front-matter/blocks/map"
+name="Taxonomy map"
+src="common-theme/front-matter/blocks/taxonomy-map"
+[[blocks]]
+name="Menu map"
+src="common-theme/front-matter/blocks/menu-map"
 [[blocks]]
 name="Menus, menu_level"
 src="common-theme/front-matter/blocks/menu"

@@ -6,15 +6,12 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Read about operating systems"
-src="module/computers/read-about-operating-systems-2"
+name="Read about programming languages"
+src="module/tools/read-about-programming-languages"
 [[blocks]]
-name="Learn Python"
-src="module/tools/learn-python"
+name="jq"
+src="module/tools/jq"
 [[blocks]]
-name="Implement and test CLI tools in Python"
-src="module/tools/implement-tools-in-python"
-[[blocks]]
-name="Convert a script between languages"
-src="module/tools/convert-script-between-languages"
+name = "Shell pipelines"
+src="module/tools/shell-pipelines"
 +++

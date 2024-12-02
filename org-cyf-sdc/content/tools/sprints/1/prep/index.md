@@ -6,15 +6,12 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Read about operating systems"
-src="module/computers/read-about-operating-systems-1"
+name="Read about binary numbers"
+src="module/tools/read-about-binary"
 [[blocks]]
-name="Learn NodeJS"
-src="module/tools/learn-nodejs"
+name="Read about CPU and RAM"
+src="module/tools/read-about-cpu-and-ram"
 [[blocks]]
-name="Implement and test CLI tools in NodeJS"
-src="module/tools/implement-tools-in-nodejs"
-[[blocks]]
-name="Implement a single-use data analysis program"
-src="module/tools/implement-single-use-data-analysis"
+name="Individual shell tools"
+src="module/tools/individual-shell-tools"
 +++

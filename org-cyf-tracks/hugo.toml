@@ -20,3 +20,6 @@ baseURL = "https://tracks.codeyourfuture.io/"
     [[module.imports.mounts]]
       source = "content"
       target = "content/how-this-works"
+
+[taxonomies]
+  track_kind = "track_kinds"
