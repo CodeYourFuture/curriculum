@@ -2,7 +2,7 @@
 title="🎡 Morning orientation"
 
 time=15
-[objectives]
+[tasks]
     1="Introduce and welcome new volunteers"
     2="Nominate a timekeeper"
     3="Check the morning day plan and group structures"

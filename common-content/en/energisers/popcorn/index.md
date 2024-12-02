@@ -2,7 +2,7 @@
 title="Popcorn Show and Tell"
 emoji="🍿"
 time=10
-[objectives]
+[tasks]
 1="Practice popcorning participation in meetings"
 2="Share quick personal insights"
 [build]
