@@ -1,4 +1,4 @@
-{{ $strippedText := . | replaceRE "<!--|-->" "" }}
+{{ $strippedText := . | replaceRE "<!--|-->" "" | replaceRE "\r\n" "\n" }}
 
 {{/* Find fenced objectives in text */}}
 {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
@@ -8,4 +8,8 @@
 <!--prettier-ignore-->
 {{ $regexShortcode := "{{<objectives>}}([^`]*?){{</objectives>}}" }}
 {{ $extractedObjectives = $extractedObjectives | append (findRE $regexShortcode $strippedText) }}
+
+
+
+
 {{ return $extractedObjectives }}
