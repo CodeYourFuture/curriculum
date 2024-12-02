@@ -2,6 +2,7 @@
 Expects a slice[dict] param containing an ordered list of dicts with the following keys, one per section in the map to render:
 * title (string) - The heading to display for the section.
 * values (slice[Page]) - A slice of Pages, one per page in the section which should be listed.
+* metadata (slice[dict[string, string]]) - Ordered key-value pairs of extra metadata to display about the section. Each dict should contain a key named "name" and a key named "value".
 */}}
 
 <div class="c-map">
@@ -14,6 +15,13 @@ Expects a slice[dict] param containing an ordered list of dicts with the followi
       📍{{ $i }}:
       {{ $sectionTitle }}
     </h2>
+    {{ if index $section "metadata" }}
+      <dl>
+        {{ range $metadatum := index $section "metadata" }}
+          <dt>{{ index $metadatum "name" }}</dt> <dd>{{ index $metadatum "value" }}</dd>
+        {{ end }}
+      </dl>
+    {{ end }}
     <ol class="c-map__timeline">
       {{/* Check if a menu for the current map section exists */}}
       {{ if $sectionValues }}
