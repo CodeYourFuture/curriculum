@@ -7,7 +7,7 @@ time=15
   publishResources = false
 +++
 
-Welcome to the Piscine.
+Welcome to Tracks.
 
 Before you came to class today, you should have completed the prep and signed the Trainee Agreement and the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/). If you haven't done the prep, it's time to leave. Thanks, and try again next time.
 
@@ -30,4 +30,4 @@ Next up, we need to choose a timekeeper. The timekeeper is responsible for keepi
 
 Today you will kick off your first team project. At the end of the day, each person will give a two minute demo of something they have built, learned, or discovered today. Then we will wrap and go for a cup of tea together.
 
-But first, let's get to know each other. Stand up and find someone you don't know. Introduce yourself and tell them one thing you are looking forward to learning in the Piscine.
+But first, let's get to know each other. Stand up and find someone you don't know. Introduce yourself and tell them one thing you are looking forward to learning in this course.

@@ -4,7 +4,7 @@ time=2
 emoji="🎯"
 hide_from_overview=true
 objectives = [
-  "List the core goals of the ITSM Track."
+  "List the core goals of the Track."
 ]
 [build]
   render = 'never'
@@ -12,10 +12,9 @@ objectives = [
   publishResources = false
 +++
 
-Your goal is to build two group projects and one solo project over the next 22 days. For each project, your goal is to:
+Your goal is to complete at least one team project, four team workshops, and the assigned coursework. For each activity, your goal is to:
 
-- 🎯 Build a complete project that meets the requirements, including tests.
-- 🎯 Build a complete understanding of all the code in your project, because you will be asked to explain it.
+- 🎯 Build a complete understanding of the work you have done, because you will be asked to explain it.
 
 _Our_ goal is to find people who are ready to join a service desk and hit the ground running. This means we are looking for people ready to begin working as an IT professional within the next 8 weeks. This is why we are looking at your ability to:
 

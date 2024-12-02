@@ -14,22 +14,17 @@ objectives = [
   publishResources = false
 +++
 
-You will be asked to join a video call for your technical interview. We use an interview platform called Evidenced.
+You will be asked to join a video call for your technical interview. We use an interview platform called Evidenced. You will act as both an interviewer and an interviewee, so you get to experience both sides of the process.
 
 ## What to expect
 
-- The interview will be 15 minutes long
-- You will be asked to discuss a feature from a project you have worked on during the Piscine.
-- You may have written this feature yourself, or it may have been written by someone else in your group.
+- The interview will be 20 minutes long
+- You will be asked to discuss a task or feature from a project you have worked on during the track.
+- You may have delivered this feature yourself, or it may have been delivered by someone else in your group.
 
 ## What questions will I be asked?
 
-- You will be asked to explain the code. You may be asked to:
-
-1. Play computer and run the code in your head
-1. Explain what the state of the application is at different points in the code
-1. Define the function and meaning of different parts of the code
-1. Refactor the code to meet new requirements given by the interviewer
+The questions will be pre-set and shared with you in advance. They will all be based on the "Day 1" learning objectives agreed with our industry partner. Look for these objectives on the success page of this track.
 
 Your interview will be recorded and scored against a rubric you can read before the interview. You will get the transcript of your interview with the decision about your application.
 

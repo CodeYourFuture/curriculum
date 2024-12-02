@@ -43,5 +43,5 @@ After the demo, the group will give you feedback for up to 5 minutes. It's smart
 - **Keep it simple**. Don't try to show everything you did. Just show _one_ interesting thing.
 - **Keep it short**. Two minutes is enough.
 - **Explain** what you did and why.
-- **Show** your code.
+- **Show** your code, system, or other artefacts of work.
 - **Ask** for feedback.

@@ -19,4 +19,4 @@ Describing the problem systematically will take you most of the way to resolving
 1. **What you expected**: Describe what you expected to happen.
 1. **What actually happened**: Describe what actually happened.
 
-Blockers can feel frustrating, but in reality they are opportunities to explore and solve problems. This is what engineering is all about. 🌱
+Blockers can feel frustrating, but in reality they are opportunities to explore and solve problems. This is what tech is all about. 🌱

@@ -8,13 +8,13 @@ hide_from_overview="true"
   publishResources = false
 +++
 
-Double-check you have everything you need to start the Piscine.
+Double-check you have everything you need to start this Track.
 
-- [ ] You have applied to the Piscine and received an enrollment email
+- [ ] You have applied to _this Track_ and received an enrollment email
 - [ ] You have a suitable laptop and internet access
 - [ ] You have organised childcare if you need it
-- [ ] You have signed the Code of Conduct
-- [ ] You have signed the trainee agreement
+- [ ] You have signed the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/)
+- [ ] You have signed the trainee agreement sent to you by email
 - [ ] You know how to get to class
 - [ ] You have read and understood the success criteria
 

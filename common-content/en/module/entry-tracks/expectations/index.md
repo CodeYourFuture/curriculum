@@ -32,7 +32,7 @@ hide_from_overview="true"
 - Do the prep.
 
 {{<multiple-choice
-  question="How long is the track?"
-  answers="6 weeks | 16 weeks | 3 weeks "
-  feedback="Right! This track has 6 working weeks. | Tracks are shorter than main courses | No, you need to arrange to spend more time on this track."
+  question="Do you have to attend all the classes?"
+  answers="Yes | Nah, it's a casual hobby | No, you can skip some"
+  feedback="Right! Tracks are intense job prep courses and you should treat it as you would any professional training | No, this isn't a coding club | If you skip the classes you won't be able to complete the track"
   correct="0" >}}
