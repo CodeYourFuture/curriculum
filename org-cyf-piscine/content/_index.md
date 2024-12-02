@@ -4,5 +4,5 @@ description = 'In teams and on your own, build working software with tests. Expl
 layout = 'module'
 emoji= '🐠'
 menu = ['syllabus', 'next steps']
-map=['entry', 'sprints', 'assessment']
+menus_to_map=['entry', 'sprints', 'assessment']
 +++
