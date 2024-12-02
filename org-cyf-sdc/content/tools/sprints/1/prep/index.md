@@ -6,7 +6,7 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Binary and hexidecimal numbers"
+name="Binary and hexadecimal numbers"
 src="module/tools/binary-and-hexidecimal-numbers"
 [[blocks]]
 name="CPU and Memory"
