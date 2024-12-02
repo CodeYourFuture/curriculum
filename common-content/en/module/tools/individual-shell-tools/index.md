@@ -27,7 +27,7 @@ To describe running a program, we will use this syntax:
 file1   file2
 ```
 
-Here we are say: At a terminal prompt (signified by the `%`), run the command `ls`.\
+Here we are saying: At a terminal prompt (signified by the `%`), run the command `ls`.\
 Below the command is some expected or example output (`file1    file2`) you will see when you run it.
 
 To call a program, we type its name and press enter, e.g. open a terminal and run:
