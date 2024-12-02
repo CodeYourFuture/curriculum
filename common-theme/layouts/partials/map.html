@@ -1,29 +1,5 @@
-{{ with .Params.map }}
-  <div class="c-map">
-    <h1 class="e-heading c-map__start is-none--lt-container">👉🏾</h1>
-    {{ range $i, $currentMapSectionName := . }}
-      {{ $currentMapSectionModules := index site.Menus $currentMapSectionName }}
-      <section class="c-map__block">
-        <h2 class="e-heading c-map__title">
-          📍{{ $i }}:
-          {{ $currentMapSectionName }}
-        </h2>
-        <ol class="c-map__timeline">
-          {{/* Check if a menu for the current map section exists */}}
-          {{ if $currentMapSectionModules }}
-            {{/* Range over the items in the menu */}}
-            {{ range $iterator, $module := $currentMapSectionModules }}
-              <li
-                class="c-map__stop"
-                style="--layer:{{ sub (len $currentMapSectionModules) (add $iterator 1) }}">
-                {{ partial "card.html" $module }}
-              </li>
-            {{ end }}
-          {{ else }}
-            <li>No items found for {{ $currentMapSectionName }}</li>
-          {{ end }}
-        </ol>
-      </section>
-    {{ end }}
-  </div>
-{{ end }}
+{{/* Expects Page as a param, and that the page will have a .Params.map which contains a slice[string] of menus to render as sections. */}}
+
+{{/* This is legacy support which we will deprecate at some point. */}}
+{{ warnf "Using the map param is deprecated - rename this param to menus_to_map" }}
+{{ partial "map-menu.html" .Params.map }}
