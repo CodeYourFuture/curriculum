@@ -30,7 +30,7 @@ file1   file2
 Here we are saying: At a terminal prompt (signified by the `%`), run the command `ls`.\
 Below the command is some expected or example output (`file1    file2`) you will see when you run it.
 
-To call a program, we type its name and press enter, e.g. open a terminal and run:
+To call a program, we type its name and press enter.  Open a terminal and run:
 
 ```console
 % ls
