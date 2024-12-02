@@ -5,7 +5,12 @@
 {{ $textWithoutObjectives := replaceRE $regexFence "" . }}
 
 {{/* Find shortcoded objectives in text */}}
-{{ $regexShortcode := "{{< objectives >}}([^`]*?){{< /objectives >}}" }}
+<!--prettier-ignore-->
+{{ $regexShortcode := "{{<objectives>}}([^`]*?){{</objectives>}}" }}
 {{ $textWithoutObjectives = replaceRE $regexShortcode "" $textWithoutObjectives }}
+{{/* Find and remove headings that contain "earning objective" */}}
+{{ $regexHeading := "(?im)^#{1,6}\\s*[^\\n]*earning\\s*objective[^\\n]*$" }}
+{{ $textWithoutObjectives = $textWithoutObjectives | replaceRE $regexHeading "" }}
+
 
 {{ return $textWithoutObjectives }}
