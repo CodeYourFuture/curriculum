@@ -9,8 +9,12 @@
         {{ . }}
       </section>
     {{ end }}
-    {{ if .Params.map }}
+    {{ if .Params.menus_to_map }}
+      {{ partial "map-menu.html" .Params.menus_to_map }}
+    {{ else if .Params.map }}
       {{ partial "map.html" . }}
+    {{ else if .Params.taxonomy_to_map }}
+      {{ partial "map-taxonomy.html" .Params.taxonomy_to_map }}
     {{ else }}
       <ol class="c-timeline c-timeline--card">
         {{- range site.Menus.syllabus }}

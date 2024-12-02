@@ -104,7 +104,7 @@ Some things that came up:
  * Unclear what the balance will be of the slower folks between "need a bit of extra time to get going" vs "just need a bit more time for everything" vs "not actually getting things".
  * People re-taking the course seem to be thriving - getting the culture, reviewing code, etc.
  * Fundamentals was really useful at culture-setting, we probably want to try re-framing the first ITP module as fundamentals.
-* Sally wants to release the curriculum platform with the DPG team in December.
+* Sally wants to release the curriculum platform with the [DPG](https://github.com/dpgalliance) [team](https://github.com/orgs/CodeYourFuture/teams/dpg-team) in December.
 
 ### ❗Actions
 

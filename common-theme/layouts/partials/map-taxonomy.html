@@ -1,0 +1,20 @@
+{{/* Expects string param which is the (plural) name of the taxonomy to render. */}}
+
+{{ $taxonomy_to_map := . }}
+
+{{ $sections := slice }}
+
+{{/* You can't ask for a taxonomy to be sorted by weight, so we need to get weights and iterate ourselves - see https://discourse.gohugo.io/t/list-custom-taxonomy-terms-in-a-specific-order-not-alphabetical/18145/5 */}}
+{{ $terms := site.GetPage (printf "/%s" $taxonomy_to_map) }}
+{{ range $termPage := $terms.Pages.ByWeight }}
+  {{ $termID := path.BaseName $termPage.Path }}
+  {{ $termTitle := $termPage.Title }}
+  {{ $values := index (index site.Taxonomies $taxonomy_to_map) $termID }}
+
+  {{ $section := dict "title" $termTitle "values" $values }}
+  {{ $sections = append $section $sections }}
+{{ end }}
+
+{{ $params := dict "sections" $sections }}
+
+{{ partial "map-common.html" $params }}
