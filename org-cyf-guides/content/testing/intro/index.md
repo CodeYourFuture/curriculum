@@ -76,7 +76,7 @@ For example, we could write a test to check that `countWords` behaves in a parti
 
 ```js
 test("one word string gives a count of 1", function () {
-  expect(countWords("hello")).toBe(1);
+  expect(countWords("hello")).toEqual(1);
 });
 ```
 
@@ -95,7 +95,7 @@ We use a function in Jest called `test` to write a test description - `"will cou
 #### 2. Assertion
 
 ```js
-expect(countWords("hello")).toBe(1);
+expect(countWords("hello")).toEqual(1);
 ```
 
 The assertion is the part of the test code that actually checks to see if something is true or not. In this example, we are claiming that the following is true:
@@ -104,7 +104,7 @@ The assertion is the part of the test code that actually checks to see if someth
 
 Notice that the statement above is very similar to the syntax used in the test code.
 
-The function [`toBe`](https://jestjs.io/docs/expect#tobevalue) ( which is part of the Jest framework ) is used to check that the return value of `countWords("hello")` and `1` are equal to each other. There are [many other functions](https://jestjs.io/docs/using-matchers) like `toEqual` which we can use to make different assertions.
+The function [`toEqual`](https://jestjs.io/docs/expect#toequalvalue) ( which is part of the Jest framework ) is used to check that the return value of `countWords("hello")` and `1` are equal to each other. There are [many other functions](https://jestjs.io/docs/using-matchers) like `toHaveLength`, `toBeCloseTo`, and `toBe` which we can use to make different assertions.
 
 ### Pass ✅ or Fail ❌
 
