@@ -58,7 +58,7 @@ Some programs take extra arguments. These may be optional or required. Extra arg
 ./errors/index.md:const result = console.log("hello world");
 ```
 
-Here we passed the optional argument `-r` (which takes no value), and the optional argument `-B` (which we gave the value `1`). We call arguments that start with a `-` flags.
+Here we passed the optional argument `-r` and the optional argument `-B`. `-r` takes no value. We gave `-B` the value 1. 
 
 We could give flags in any order - `grep -B 1 -r "hello" .` works the same as `grep -r -B 1 "hello" .`.
 
