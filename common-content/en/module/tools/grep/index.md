@@ -19,7 +19,7 @@ emoji= "💻"
 
 For instance, the regular expression `^[0-9]*$` searches for a line which has only numbers in it. The `^` means "from the start of the line", the `$` means "until the end of the line", the `[0-9]` expresses the characters we're looking for, and the `*` means "0 or more of the characters". `^[0-9]` searches for a line which starts with a number (but doesn't care about what comes after).
 
-You can learn more about Regulax Expressions at [RegexOne](https://regexone.com/). Many engineers just know the basic concepts, and Google for help when they need something more complicated, and this is fine.
+You can learn more about Regular Expressions at [RegexOne](https://regexone.com/). Many engineers just know the basic concepts, and Google for help when they need something more complicated, and this is fine.
 
 Learn about it from its man page (and the backlog exercises).
 
