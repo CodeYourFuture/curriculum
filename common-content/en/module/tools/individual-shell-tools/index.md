@@ -47,7 +47,7 @@ some-temporary-file some-other-temporary file
 
 #### Flags and arguments
 
-Some programs take extra arguments. These may be optional or required. These generally start with a `-` or `--` then their name, and if they take a value, expect the value to come after the argument name.
+Some programs take extra arguments. These may be optional or required. Extra arguments generally start with a `-` or `--` then their name.  If these extra arguments take a value, expect the value to come _after_ the name.
 
 ```console
 % grep -r -B 1 "hello" .
