@@ -41,7 +41,7 @@ will be provided
 
 We all help each other at {{<our-name>}}. We are a community.
 
-You are not competing against each other for limited number of places. We will accept everyone who meets the success criteria.
+You are not competing against each other for a limited number of places on the track. We will accept everyone who meets the success criteria.
 
 - You should ask for help
 - You should help others
