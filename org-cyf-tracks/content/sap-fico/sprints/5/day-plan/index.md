@@ -6,7 +6,7 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/fizz-buzz"
+src="energisers/bad-interview-answers"
 [[blocks]]
 name="Demo"
 src="module/entry-tracks/demo"

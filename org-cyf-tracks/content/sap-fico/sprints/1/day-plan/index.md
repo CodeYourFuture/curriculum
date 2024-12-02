@@ -20,21 +20,21 @@ src="module/entry-tracks/kickoff"
 time=20
 [[blocks]]
 name="Workshop"
-src="blocks/workshop"
+src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/workshops/Foundations"
 time=105
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Project"
-src="https://github.com/CodeYourFuture/Track-ERP-Finance"
+src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/projects/CHRM"
 time="75"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Development"
-src="module/entry-tracks/development"
+name="Project: Robot Returns"
+src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/blob/main/projects/CHRM/1-Robot-Returns/readme.md"
 time="30"
 [[blocks]]
 name="Demo"

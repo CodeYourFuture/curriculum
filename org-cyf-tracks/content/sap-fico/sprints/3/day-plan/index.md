@@ -15,14 +15,14 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Workshop"
-src="blocks/workshop"
+src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/workshops/Cost-Controlling-Change-Management"
 time=135
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Project"
-src="https://github.com/CodeYourFuture/Track-ERP-Finance"
+src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/projects/CHRM/3-Merger-Madness"
 time="75"
 [[blocks]]
 name="Afternoon break"

@@ -8,7 +8,7 @@ objectives=["Review project docs to form a development plan", "Setup a project b
   publishResources = false
 +++
 
-At {{<our-name>}} we work in small teams to deliver working software with tests.
+At {{<our-name>}} we work in small teams to deliver working products with tests and documentation.
 
 {{<note type="tip">}}
 It's important that software works and the people can use it
