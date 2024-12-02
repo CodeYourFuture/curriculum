@@ -11,16 +11,15 @@
     {{ if not .Params.blocks }}
       {{ errorf "There are no blocks on the %s page. Make sure this day plan has blocks." $.Page.RelPermalink }}
     {{ end }}
-
-
-    <time-stamper>
+    {{ $startTime := .Params.startTime | default "10:00" }}
+    <time-stamper start-time="{{$startTime}}">
       <div class="c-block__series c-block__series--timeline">
         {{ if ne .Params.noRegister true }}
-          {{ partial "register-attendance.html" (dict "course" $.Site.Title "module" $.Page.CurrentSection.Parent.Title "day" $.Page.CurrentSection.Title) }}
+          {{ partial "register-attendance.html" (dict "course" site.Title "module" $.Page.CurrentSection.Parent.Title "day" $.Page.CurrentSection.Title) }}
         {{ end }}
         {{ range $index, $block := .Params.blocks }}
 
-          {{ partial "block/block.html" (dict "block" $block "Page" $.Page "Site" $.Site) }}
+          {{ partial "block/block.html" (dict "block" $block "Page" $.Page "Site" site) }}
 
         {{ end }}
       </div>

@@ -1,5 +1,5 @@
 +++
-title = 'Mac-OS setup ⚙️'
+title = 'Mac-OS setup'
 
 time = 45
 facilitation = false

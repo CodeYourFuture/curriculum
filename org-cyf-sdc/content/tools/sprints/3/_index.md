@@ -1,9 +1,9 @@
 +++
-title = 'Sprint 1'
+title = 'Sprint 3'
 description = 'The plan for this sprint'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Shell tools, and binary numbers"
+theme = "Implementing and testing shell tools in NodeJS, and Operating Systems concepts"
 +++
