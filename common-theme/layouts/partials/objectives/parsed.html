@@ -10,14 +10,7 @@
 
   {{ $decodedContent := $response.content | base64Decode }}
 
-  {{/* Find fenced objectives in text */}}
-  {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
-  {{ $extractedObjectives := findRE $regexFence $decodedContent }}
-
-  {{/* Find shortcoded objectives in text */}}
-  {{ $regexShortcode := "{{< objectives >}}([^`]*?){{< /objectives >}}" }}
-  {{ $extractedObjectives = $extractedObjectives| append (findRE $regexShortcode $decodedContent) }}
-
+  {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $decodedContent }}
   {{ if gt (len $extractedObjectives) 0 }}
     {{ if $showTitle }}<h5>{{ $showTitle }}</h5>{{ end }}
     {{ range $extractedObjectives }}

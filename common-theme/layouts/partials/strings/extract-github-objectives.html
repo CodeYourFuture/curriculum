@@ -1,0 +1,8 @@
+{{/* Find fenced objectives in text */}}
+{{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
+{{ $extractedObjectives := findRE $regexFence . }}
+
+{{/* Find shortcoded objectives in text */}}
+{{ $regexShortcode := "{{< objectives >}}([^`]*?){{< /objectives >}}" }}
+{{ $extractedObjectives = $extractedObjectives| append (findRE $regexShortcode .) }}
+{{ return $extractedObjectives }}

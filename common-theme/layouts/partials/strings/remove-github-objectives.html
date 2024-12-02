@@ -1,0 +1,11 @@
+{{/* This removes objectives - to remove text and only have objectives use extract-github-objectives */}}
+
+{{/* Find fenced objectives in text */}}
+{{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
+{{ $textWithoutObjectives := replaceRE $regexFence "" . }}
+
+{{/* Find shortcoded objectives in text */}}
+{{ $regexShortcode := "{{< objectives >}}([^`]*?){{< /objectives >}}" }}
+{{ $textWithoutObjectives = replaceRE $regexShortcode "" $textWithoutObjectives }}
+
+{{ return $textWithoutObjectives }}
