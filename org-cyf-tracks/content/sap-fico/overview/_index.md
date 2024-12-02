@@ -1,7 +1,7 @@
 +++
 title="Course overview"
 layout="overview"
-overview_menu='ERP'
+overview_menu='SAP FI/CO'
 +++
 
 ## Objective
