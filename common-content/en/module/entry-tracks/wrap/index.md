@@ -16,4 +16,4 @@ Stand in a circle and share:
 - 👷🏾 the task you are going to work on next
 - 🛟 one thing you need help with
 
-Give yourselves a round of applause. Now you have earned your rest. Usually people go for a drink (or a coffee) after class. You are welcome to join and wind down together.
+Give yourselves a round of applause. Now you have earned your rest. Usually people go for a cup of tea or a pint after class. You are welcome to join and wind down together.
