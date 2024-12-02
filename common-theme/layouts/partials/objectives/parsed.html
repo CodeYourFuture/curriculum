@@ -1,37 +1,27 @@
-{{ $sot := .blockData.sot }}
-{{ $name := .blockData.name }}
+{{ $response := resources.GetRemote .blockData.api .blockData.headers }}
+{{ $showTitle := .showTitle |default false }}
+{{/* 404s lead to GetRemote returning nil rather than an error. */}}
+{{ if eq $response nil }}
+  {{ errorf "Couldn't find anything at %s" .blockData.api }}
+{{ end }}
 
-{{ with  resources.GetRemote .blockData.api .blockData.headers }}
-  {{ with .Err }}
-    {{ errorf "Failed %s on %s. Error: %s" $sot .Page.Title .Err }}
-  {{ end }}
+{{ with $response }}
   {{ $response := .Content | unmarshal }}
 
   {{ $decodedContent := $response.content | base64Decode }}
+
   {{/* Find fenced objectives in text */}}
   {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
-  {{ $rawBlocks := findRE $regexFence $decodedContent }}
+  {{ $extractedObjectives := findRE $regexFence $decodedContent }}
 
-  {{ $blocks := slice }}
-  {{ range $rawBlocks }}
-    {{ $blockContent := . | replaceRE "^```objectives\\s*|\\s*```$" "" }}
-    {{ $objectives := split $blockContent "\n" }}
-    {{ range $objectives }}
-      {{ $objective := replace . "- [ ] " "" }}
-      {{ if ne (trim $objective " ") "" }}
-        {{ $blocks = $blocks | append $objective }}
-      {{ end }}
+  {{/* Find shortcoded objectives in text */}}
+  {{ $regexShortcode := "{{< objectives >}}([^`]*?){{< /objectives >}}" }}
+  {{ $extractedObjectives = $extractedObjectives| append (findRE $regexShortcode $decodedContent) }}
+
+  {{ if gt (len $extractedObjectives) 0 }}
+    {{ if $showTitle }}<h5>{{ $showTitle }}</h5>{{ end }}
+    {{ range $extractedObjectives }}
+      {{ . | markdownify }}
     {{ end }}
   {{ end }}
-
-  {{/* Output list */}}
-  {{ if gt (len $blocks) 0 }}
-    <h5>
-      <a href="{{ $sot }}" class="c-objectives__link"> {{ $name }} 🔗 </a>
-    </h5>
-    {{ with $blocks }}
-      {{ partial "objectives/block.html" . }}
-    {{ end }}
-  {{ end }}
-
 {{ end }}

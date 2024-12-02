@@ -1,12 +1,17 @@
 {{ $items := slice }}
 {{ $inner := . }}
-{{ $objectives := split $inner "\n" }}
-{{ range $objectives }}
-  {{ $objective := replace . "- [ ] " "" }}
-  {{ if ne (trim $objective " ") "" }}
-    {{ $items = $items | append $objective }}
+{{/* I called this inner because I'm typically expecting .Inner from a shortcode or partial
+  But it could be a gob of text from GitHub
+*/}}
+{{ if gt (len $inner) 0 }}
+  {{ $objectives := split $inner "\n" }}
+  {{ range $objectives }}
+    {{ $objective := replace . "- [ ] " "" }}
+    {{ if ne (trim $objective " ") "" }}
+      {{ $items = $items | append $objective }}
+    {{ end }}
   {{ end }}
-{{ end }}
-{{ with $items }}
-  {{ partial "objectives/block" . }}
+  {{ with $items }}
+    {{ partial "objectives/block" . }}
+  {{ end }}
 {{ end }}
