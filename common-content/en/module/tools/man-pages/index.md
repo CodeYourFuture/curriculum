@@ -19,7 +19,7 @@ Read [this introduction to man pages](https://itsfoss.com/linux-man-page-guide/)
 
 {{</note>}}
 
-A few key take-aways:
+Key take-aways:
 
 * Open a man page for a tool by running `man tool-name` (e.g. `man cat`).
 * Quit a man page by pressing `q` (for `q`uit).
