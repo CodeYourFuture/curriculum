@@ -10,7 +10,7 @@ emoji= "💻"
 
 `ls` is a tool for listing the files in a directory.
 
-Learn about it from its man page (and the backlog exercises).
+Learn about `ls` from its man page (and the backlog exercises).
 
 Some commonly used flags you should understand:
 * `-R`

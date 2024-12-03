@@ -16,7 +16,7 @@ emoji= "💻"
 
 (Source, including text-only transcript: https://wizardzines.com/comics/awk/)
 
-Learn about it from its man page (and the backlog exercises).
+Learn about `awk` from its man page (and the backlog exercises).
 
 Some awk programs you should understand and be able to write:
 * `{print $2}`

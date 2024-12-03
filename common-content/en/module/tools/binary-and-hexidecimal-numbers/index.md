@@ -27,4 +27,4 @@ You can skip the Binary Logic section (but feel free to read it if you're curiou
 
 Do every exercise listed in the chapters.
 
-Make sure you have achieved the learning objectives listed on this page.
+Check you have achieved each learning objective listed on this page.

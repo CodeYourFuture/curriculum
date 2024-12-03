@@ -20,4 +20,4 @@ The man page contains a lot more information too. The man page lists everything 
 
 Both can be useful.
 
-Make sure you have achieved the learning objectives, between reading the two sources.
+Check you have achieved each learning objective listed on this page.

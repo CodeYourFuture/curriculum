@@ -21,7 +21,7 @@ For instance, the regular expression `^[0-9]*$` searches for a line which has on
 
 You can learn more about Regular Expressions at [RegexOne](https://regexone.com/). Many engineers just know the basic concepts, and Google for help when they need something more complicated, and this is fine.
 
-Learn about it from its man page (and the backlog exercises).
+Learn about `grep` from its man page (and the backlog exercises).
 
 Some commonly used flags you should understand:
 * `-c`

@@ -18,9 +18,25 @@ emoji= "💻"
 
 `sed` executes a list of commands on a file. The most common commands are to replace some text with some other text, or to show or hide or delete lines that meet some criteria.
 
-Sed commands feature both a matcher (called an "address") specifying which lines to operate on, and an opeation (called a command) to perform on those lines.
+Sed commands feature both a matcher (called an "address") specifying which lines to operate on, and an operation (called a command) to perform on those lines.
 
-Learn about it from its man page (and the backlog exercises).
+{{<note type="Example">}}
+`sed '1,3 s/cat/dog/' some-file`
+
+Address: `1,3` - lines 1-3 of `some-file`\
+Command: `s/cat/dog/` - replace the first occurence of "cat" on each line with "dog"
+{{</note>}}
+
+If you don't specify an address, your command applies to the whole file:
+
+{{<note type="Example">}}
+`sed 's/cat/dog/' some-file`
+
+Address: Not specified, so every line of `some-file`\
+Command: `s/cat/dog/` - replace the first occurence of "cat" on each line with "dog"
+{{</note>}}
+
+Learn about `sed` from its man page (and the backlog exercises).
 
 Some sed commands you should understand and be able to write:
 * `s/cat/dog/`

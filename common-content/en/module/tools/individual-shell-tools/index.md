@@ -28,7 +28,7 @@ file1   file2
 ```
 
 Here we are saying: At a terminal prompt (signified by the `%`), run the command `ls`.\
-Below the command is some expected or example output (`file1    file2`) you will see when you run it.
+Below the command is the output (`file1    file2`) you should expect to see after you run the command. Sometimes this is the exact output you should expect. Sometimes _example_ outputs are given: these could vary according to your filesystem, username, or other variables.
 
 To call a program, we type its name and press enter.  Open a terminal and run:
 
@@ -60,6 +60,6 @@ Some programs take extra arguments. These may be optional or required. Extra arg
 
 Here we passed the optional argument `-r` and the optional argument `-B`. `-r` takes no value. We gave `-B` the value 1. 
 
-We could give flags in any order - `grep -B 1 -r "hello" .` works the same as `grep -r -B 1 "hello" .`.
+We call arguments that start with a `-` or `--` flags. We could give flags in any order - `grep -B 1 -r "hello" .` works the same as `grep -r -B 1 "hello" .`.
 
 `"hello"` and `.` are called positional arguments because they don't have a named flag before them. The program decides how to interpret them based on their position (order) in the command line, rather than a named flag coming before them. Their order matters.

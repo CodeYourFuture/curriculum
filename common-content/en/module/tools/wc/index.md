@@ -11,7 +11,7 @@ emoji= "💻"
 
 `wc` is a tool for counting the bytes, words, or lines in a file.
 
-Learn about it from its man page (and the backlog exercises).
+Learn about `wc` from its man page (and the backlog exercises).
 
 Some commonly used flags you should understand:
 * `-c`
