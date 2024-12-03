@@ -8,8 +8,6 @@ emoji= "💻"
     1="Identify which of {cat, ls, wc, grep, sed, awk} will be useful to solve a given problem"
 +++
 
-## Shell tools
-
 Through this course, we are going to write lots of programs.
 
 But a lot of programs have already been written by other people. It's often quicker and easier to use an existing program than to write a new one.

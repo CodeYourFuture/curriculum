@@ -17,8 +17,6 @@ emoji= "📖"
     10="Identify whether a binary number is a power of two"
 +++
 
-### Binary and hexidecimal numbers
-
 Read the learning objectives listed on this page: Bear in mind what you're trying to achieve while reading this text. If a topic isn't making much sense, and isn't in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you've met the objective.
 
 Read chapters 1 and 2 of How Computers Really Work.
