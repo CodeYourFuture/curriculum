@@ -73,9 +73,9 @@
             {{ $blockData := $.Page.Scratch.Get "blockData" }}
             {{/* Depending on the type of block, call the appropriate partial */}}
             {{ if or (eq $blockData.type "readme") (eq $blockData.type "issue") }}
-              {{ partial "objectives/parsed" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" $blockData.name) }}
+              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" $blockData.name) }}
             {{ else }}
-              {{ partial "objectives/lookup.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true) }}
+              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true) }}
             {{ end }}
 
           {{ end }}

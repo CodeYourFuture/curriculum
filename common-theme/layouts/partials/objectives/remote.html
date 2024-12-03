@@ -1,3 +1,7 @@
+{{/* This partial goes and gets a remote content block but instead of rendering
+  a whole block like blocks/etc does, it just renders learning objectives
+*/}}
+
 {{ $response := resources.GetRemote .blockData.api .blockData.headers }}
 {{ $blockType := .blockData.type }}
 {{ $showTitle := .showTitle | default false }}
