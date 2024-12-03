@@ -17,6 +17,97 @@ Attendees:
 
 ---
 
+## 2024-12-03
+
+Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
+
+### ❗Actions from last time
+
+* [ ] All: Collaboratively put together LOs and name for ITP Introduction Module
+* [ ] Daniel: Sync with Karen on Piscine dashboard requirements
+
+### 📝 Agenda points
+
+#### ITP first module
+
+* Action item from last time was to write LOs for the reworked first module of ITP
+* Sally made [a doc](https://docs.google.com/document/d/1SHjRnvhoMp0NLDzEc8-lLMy4bx_FR87-_QxYRI9qRqY/edit?tab=t.0), but we got no further
+* Naming
+  * Sally: Would like to override the vote of naming to be Introduction module
+    * There's too much confusion with _Intro_ to Digital & _Intro_ to Programming as a whole course - "I completed the Introduction module" is too ambigious
+  * Decision: Will be called the Onboarding module
+    * Reasoning: It ties nicely into onboarding at a company, introduces that jargon
+    * Welcome module naming was rejected
+      * ITD feels like the true "Welcome to CYF"
+* LOs
+  * Action: Sally to pick this up
+
+#### Testing libraries
+
+* Context: Ali added a Piscine project that uses `nock` for network testing - which got us talking about testing
+* Should we use just `node:assert` & `node:test` instead of Jest?
+  * Have seen some issues where trainees are running into problems with ESM & Jest
+    * But also in general Jest seems very complex for our use case: run some tests, with basic equality assertions
+    * Ali: generally dislike Jest: very poorly documented, confusing API, as well as the ESM issues
+  * Also discussed in [this Slack thread](https://codeyourfuture.slack.com/archives/C012UUW69S8/p1732730885296249)
+* Decision: We would like to simplify testing and move away from Jest to built-in Node tools
+  * We think it would be useful to have materials on testing in-depth (e.g. introducing more complex assertions, mocking, unit vs integration vs e2e, philosophies around testing etc)
+* Action: Mitch to write up a ticket
+
+#### How will tracks work?
+
+* Demand led - if there's a job, we can create a track for it
+* Sally: Have started on a SAP FI/CO Track
+  * [Curriculum link](https://tracks.codeyourfuture.io/sap-fico/)
+  * If we land a deal with a large enterprise company, then we'll run this Track
+  * Financial / Enterprise Resource planning
+  * Will run as workshops on Saturdays, with volunteers from the company
+    * They'll also provide environments for trainees to use
+  * Anyone who completes, should be eligible for submitting their CV to the company
+* Sally: Working with employers to agree LOs, pre-reqs for getting the job
+  * [Example doc](https://docs.google.com/document/d/1zJomRiMshLluuWq_F_dM8fAxSM-ljmZZrl4H1o9aZxc/edit?tab=t.0)
+* Sally: Google have awarded us a grant to run an AI Essentials track
+  * [Press release](https://centreforpublicimpact.org/ai-opportunity-fund/)
+  * Will run by Google, essentially it's a version of their online video course
+  * Workshops will run on Saturdays
+    * Approx 50% capacity assigned to London as that's where we have ~50% trainees
+  * Scheduled for Feb 2025
+* Sally: Working create an IT Service Management (Support) Track
+  * Sally has [made a start](https://github.com/CodeYourFuture/Track-ITSM)
+  * Structured around a scenario: a user is stuck with a problem - have to write as a support person to a user
+    * 1 trainee would act as a user, 1 as a support person
+  * Trainees have to manage conflict, prioritise, triage
+    * Work with tickets: triage, label appropriately, etc
+* Mitch: Are there docs for creating a Track (in the Curriculum)
+  * Sally: Kind of yes, have a few quick start docs that might be a good basis for creating this
+* Ali: What are the reqs for creating a Track?
+  * Ali: Envision problems where volunteers want to create Tracks to "feel useful", leading to questions about who is "allowed" to create a track
+  * Sally: Tracks should to be tied to an agreement with CYF - there should be some realistic expectation that there will be X job(s) available to trainees at the end of the track
+  * Sally: General expectation is that trainees at this point should be applying for entry level jobs!
+  * Sally: Other learning materials created for trainees at this level can go on the curriculum website, but as _self-study_
+    * The [old React module](https://tracks.codeyourfuture.io/react/) is now in the self-study section of the curriculum website
+
+#### Volunteer onboarding
+
+* Ali: When attending in-person workshop on 23rd Nov, encouraged all volunteers to gather together and chat about any questions they had, introduce new people to how CYF works (how the courses fit together etc)
+  * Also tried to encourage regular volunteers to run this small meeting regularly
+  * The goal was to try to encourage a community of practice and share knowledge
+* Sally: Asked German to run [a workshop on community building](https://docs.google.com/document/d/1sMxm8y-mV1PVNATdQpPPVUpUZziBiNeSWxifxcOSfTA/edit?tab=t.0)
+  * Do _not_ want to explain why lecturing is a bad thing!
+    * Ali: Perhaps need to think about how we can filter out this sort of thinking before we get to this stage
+* Ali: Have been thinking about conference talks with the idea that we can try to attract people with a matching mindset & skills
+  * Have put in for several CFPs, but not got anything back yet
+* Sally: German to ask Ali about what CYF can do to help in this area
+  * Ali: The main thing is time!
+
+### ❗Actions
+
+* [ ] Daniel: Sync with Karen on Piscine dashboard requirements
+* [ ] Sally: Write LOs for ITP Onboarding module
+* [ ] Mitch: Write up a ticket to replace Jest with vanilla Node testing libraries
+
+---
+
 ## 2024-11-19
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
@@ -201,46 +292,46 @@ Attendees: Ali, Sally, Daniel
 #### Piscine availability
 
 - Ali will be away for the first week of Feb
-	- So first 2 weekends will be away :/
-	- It just needs to start and end in Feb. Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
+  - So first 2 weekends will be away :/
+  - It just needs to start and end in Feb. Possibly could shift Piscine to last 3 weeks of Feb, so that Ali only misses 1 week rather than 2
 - Daniel to check in on other people's availability
 
 #### "Gatekeeping" in ITP
 
 - How strictly should volunteers enforce review requirements in ITP?
 - Decision: we shouldn't enforce too strictly
-	- It's not the goal of ITP to be strict in assessment, that's the goal of Piscine
-		- We want ITP to be easy to re-try, give lots of chances to succeed
-		- While Piscine needs to be strict so that we can be realistic when it comes to SDC
+  - It's not the goal of ITP to be strict in assessment, that's the goal of Piscine
+    - We want ITP to be easy to re-try, give lots of chances to succeed
+    - While Piscine needs to be strict so that we can be realistic when it comes to SDC
 - Will some volunteers might be "gatekeep" in ITP anyway?
-	- Mostly likely yes, but we think it is better to err on the side of being overly strict than the opposite
-	- This may cause some complaints from trainees about unfairness, but we can deal with this easier than unrealistic expectations in SDC
+  - Mostly likely yes, but we think it is better to err on the side of being overly strict than the opposite
+  - This may cause some complaints from trainees about unfairness, but we can deal with this easier than unrealistic expectations in SDC
 
 #### Replacing Scrimba in ITD
 
 - Team want to switch to freeCodeCamp
-	- Possibly worth exploring other options, but don't have other ideas currently
+  - Possibly worth exploring other options, but don't have other ideas currently
 
 #### Resources for SDC
 
 - Daniel has started to divide up SDC outcomes into "stuff we should create ourselves" and "stuff we can point to other people's existing good resources"
-	- So if there is any good materials you know of, then point Daniel towards them
+  - So if there is any good materials you know of, then point Daniel towards them
 
 #### Volunteers confused about what to do on Saturdays
 
 - Sally: volunteers are asking quite a lot about what to do on a Saturday, they seem not to be reading the curriculum at all
-	- We expect them not to read it in depth, but we do need them to read _something_
+  - We expect them not to read it in depth, but we do need them to read _something_
 - Should understand the prep, day plan & backlog structure enough to figure it out for themselves
 - Aside: the How This Works module is targeted at volunteers, we might want to consider an equivalent for trainees. But this is a big package of work that isn't super high priority for us right now
 - Decision: one pager to explain the concepts, with a **very obvious** link on the CYF curriculum site
-	- We also think it would be useful to have a memorable short link (e.g. bit.ly/what-to-do-at-cyf-on-saturdays) that can be shared on Slack
+  - We also think it would be useful to have a memorable short link (e.g. bit.ly/what-to-do-at-cyf-on-saturdays) that can be shared on Slack
 
 #### Connecting remote volunteers to mid week session support & PR reviews
 
 - Sally: we have a bunch of remote volunteers and opportunity to do mid-week learning sessions & PR reviews
 - Need to get Tech Ed volunteers to understand that giving PR feedback to trainees is important
-	- Do new volunteers not understand the important of giving PR feedback? Or is it that they don't know where to look (or haven't been obviously sign-posted enough)?
-		- We think it's the latter - so we need to find ways of directing the attention that way
+  - Do new volunteers not understand the important of giving PR feedback? Or is it that they don't know where to look (or haven't been obviously sign-posted enough)?
+    - We think it's the latter - so we need to find ways of directing the attention that way
 - We have very low numbers of volunteers outside of London - so can't really lean on in-person  volunteers to do reviews on Saturdays - so instead we should try to lean into using remote volunteers for PR reviews
 - Lili has been gathering new remote volunteers into a Slack channel - should point ITP leaders in that direction to ask for help
 
