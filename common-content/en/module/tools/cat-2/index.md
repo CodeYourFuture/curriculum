@@ -16,7 +16,7 @@ hide_from_overview = true
 
 The comic and the man page contain some of the same information.
 
-The man page contains a lot more information too - it lists everything `cat` can do. The comic has targeted information for specific use-cases.
+The man page contains a lot more information too. The man page lists everything `cat` can do. The comic has targeted information for specific use-cases.
 
 Both can be useful.
 
