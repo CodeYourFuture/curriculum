@@ -6,11 +6,11 @@ menu=["shortcodes"]
 +++
 
 ```go
-<!--{{</* objectives */>}}-->
+<!--{{</*objectives*/>}}-->
 - [ ] Objective 1
 - [ ] Objective 2
 - [ ] Objective 3
-<!--{{</* /objectives */>}}-->
+<!--{{</*/objectives*/>}}-->
 ```
 
 {{< objectives >}}
