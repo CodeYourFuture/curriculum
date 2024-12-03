@@ -34,9 +34,13 @@
           {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
             .CurrentSection.RelPermalink)
           }}
+          {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" $backlog.Params.backlog "backlog_filter" $backlog.Params.backlog_filter) }}
           {{ $blocks := slice }}
           {{/* append non-nil blocks */}}
           {{ range $prep.Params.blocks }}
+            {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
+          {{ end }}
+          {{ range $issueBlocks }}
             {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
           {{ end }}
           {{ range $dayplan.Params.blocks }}
@@ -46,6 +50,7 @@
           {{ if and (not $blocks) $dayplan $prep }}
             {{ errorf "There are no learning objectives on the %s page. Make sure this sprint has learning objectives." $.Page.RelPermalink }}
           {{ end }}
+
           {{/* Deduplicate blocks */}}
           {{ $uniqueSrcs := slice }}
           {{ $dedupedBlocks := slice }}
