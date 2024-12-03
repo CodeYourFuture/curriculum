@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Shell tools, and binary numbers"
+theme = "Shell tools, and how computers work"
 +++
