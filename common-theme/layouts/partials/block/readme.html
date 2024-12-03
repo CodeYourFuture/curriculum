@@ -14,6 +14,7 @@
   {{ end }}
 
   {{ $response := .Content | unmarshal }}
+  {{ $decodedContent := $response.content | base64Decode }}
   <section
     class="c-block c-block--{{ $blockData.type }}"
     aria-labelledby="{{ $blockData.name |urlize }}">
@@ -25,8 +26,16 @@
       </h2>
       {{ partial "time.html" $pageContext }}
     </header>
+    {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $decodedContent }}
+    {{ if gt (len $extractedObjectives) 0 }}
+      <details>
+        <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+        {{ range $extractedObjectives }}
+          {{ . | markdownify }}
+        {{ end }}
+      </details>
+    {{ end }}
     <div class="c-block__content c-copy">
-      {{ $decodedContent := $response.content | base64Decode }}
       {{ $strippedComments := $decodedContent | replaceRE "<!--(.*?)-->" "$1" }}
       {{ $externalPath := replace $response.download_url $response.name "" }}
       {{/* TODO this replaces the call to the absolute-image-paths partial as it was breaking the markdownifying --
@@ -35,7 +44,9 @@
       */}}
       {{/* Replace Markdown image links, targeting anything without a : */}}
       {{ $processedContent := $strippedComments | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
-      {{ $processedContent | markdownify }}
+      {{ $textWithoutObjectives := partial "strings/remove-github-objectives.html" $processedContent }}
+      {{ $textWithoutObjectives | markdownify }}
+
     </div>
 
     {{/* You can attach a range of nested blocks as options

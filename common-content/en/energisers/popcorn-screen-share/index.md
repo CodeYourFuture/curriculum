@@ -2,7 +2,7 @@
 title="Screen Safari"
 emoji="🖥️"
 time=15
-[objectives]
+[tasks]
 1="Practice screen sharing functionality"
 2="Build comfort with sharing digital workspace"
 [build]

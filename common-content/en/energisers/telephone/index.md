@@ -3,7 +3,7 @@ title="Telephone!"
 emoji="📞"
 hide_from_overview=true
 time=15
-[objectives]
+[tasks]
     1="Transmit a message accurately through multiple people"
     2="Identify points of miscommunication in the final message"
     4="Demonstrate active listening by repeating a message verbatim"

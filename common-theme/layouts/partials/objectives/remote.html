@@ -1,0 +1,30 @@
+{{/* This partial goes and gets a remote content block but instead of rendering
+  a whole block like blocks/etc does, it just renders learning objectives
+*/}}
+
+{{ $response := resources.GetRemote .blockData.api .blockData.headers }}
+{{ $blockType := .blockData.type }}
+{{ $showTitle := .showTitle | default false }}
+{{/* 404s lead to GetRemote returning nil rather than an error. */}}
+{{ if eq $response nil }}
+  {{ errorf "Couldn't find anything at %s" .blockData.api }}
+{{ end }}
+
+{{ with $response }}
+  {{ $response := .Content | unmarshal }}
+  {{/* readme and issue responses are a tiny bit different but not enough to warrant different partials */}}
+  {{ if eq $blockType "readme" }}
+    {{ $response = $response.content | base64Decode }}
+  {{ end }}
+  {{ if eq $blockType "issue" }}
+    {{ $response = $response.body }}
+  {{ end }}
+
+  {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response }}
+  {{ if gt (len $extractedObjectives) 0 }}
+    {{ if $showTitle }}<h5>{{ $showTitle }}</h5>{{ end }}
+    {{ range $extractedObjectives }}
+      {{ . | markdownify }}
+    {{ end }}
+  {{ end }}
+{{ end }}
