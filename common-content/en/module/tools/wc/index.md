@@ -11,6 +11,8 @@ emoji= "💻"
 
 `wc` is a tool for counting the bytes, words, or lines in a file.
 
+It is named `wc` because it is used to find a **w**ord **c**ount.
+
 Learn about `wc` from its man page (and the backlog exercises).
 
 Some commonly used flags you should understand:
@@ -18,9 +20,16 @@ Some commonly used flags you should understand:
 * `-l`
 * `-w`
 
-{{<note type="Exercise">}}
-Write down answers to the following questions:
+{{<multiple-choice
+question="What does the command `wc -w /some/file` do?"
+answers="Count the number of lines in the file /some/file | Count the number of bytes, words, and lines in the file /some/file. | Count the number of words in the file /some/file."
+feedback="Not quite - check the meaning of -w. | Not quite - check the meaning of -w. | Right! -w means count words."
+correct="2"
+>}}
 
-1. What does the command `wc -w /some/file` do?
-2. If you want to get the number of lines in the file `/some/other/file`, what command would you run?
+
+{{<note type="Exercise">}}
+Write down answers to the following question:
+
+If you want to get the number of lines in the file `/some/other/file`, what command would you run?
 {{</note>}}

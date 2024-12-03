@@ -10,6 +10,8 @@ emoji= "💻"
 
 `ls` is a tool for listing the files in a directory.
 
+It is named `ls` because it is used to **l**i**s**t files.
+
 Learn about `ls` from its man page (and the backlog exercises).
 
 Some commonly used flags you should understand:
@@ -20,9 +22,15 @@ Some commonly used flags you should understand:
 * `-1`
 * `-h`
 
-{{<note type="Exercise">}}
-Write down answers to the following questions:
+{{<multiple-choice
+question="What does the command `ls -lt` do?"
+answers="List all of the files in a directory, including permissions, sorted most-recently-modified first. | List all of the files in a directory, including hidden files, sorted most-recently-modified last. | List all of the files in a directory, including permissions, sorted most-recently-modified last."
+feedback="Right! -l includes metadata, and -t sorts by modification time (mtime). | Not quite - check the meaning of -l. | Not quite - check the meaning of -t."
+correct="0"
+>}}
 
-1. What does the command `ls -lahtr` do?
-2. If you want to list the files in the directory `/tmp`, one file per line, what command would you run?
+{{<note type="Exercise">}}
+Write down answer to the following question:
+
+If you want to list the files in the directory `/tmp`, one file per line, what command would you run?
 {{</note>}}

@@ -32,9 +32,15 @@ Some commonly used flags you should understand:
 * `-o`
 * `-A`, `-B`, `-C`
 
-{{<note type="Exercise">}}
-Write down answers to the following questions:
+{{<multiple-choice
+question="What does the command `grep -ril \"langurs\" /animals/primates` do?"
+answers="List the files under /animals/primates which contain the word langurs, only in lower case. | List the files under /animals/primates which contain the word langurs, in any case, ignoring binary files like images. | List the files under /animals/primates which contain the word langurs, in any case."
+feedback="Not quite - check the meaning of -i. | Not quite - if we wanted to ignore binary files we'd need to pass -I (capital i) as well | Right! -r means all files under the directory, -i means case insensitive, and -l means just list the file names."
+correct="2"
+>}}
 
-1. What does the command `grep -riI "langurs" /animals/primates` do?
-2. If you want to find all of the lines in a file which end with a number, what command would you run?
+{{<note type="Exercise">}}
+Write down answer to the following question:
+
+If you want to find all of the lines in a file which end with a number, what command would you run?
 {{</note>}}

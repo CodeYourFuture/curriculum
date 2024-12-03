@@ -45,10 +45,22 @@ Some sed commands you should understand and be able to write:
 * `/dog/d`
 * `6d`
 
-{{<note type="Exercise">}}
-Write down answers to the following questions:
+{{<multiple-choice
+question="What does the command `sed -e 's#cat#dog#' animals` do?"
+answers="Output the contents of the file animals, with all occurences of 'cat' replaced with 'dog'. | Output the contents of the file animals, with the first occurence of 'cat' on each line replaced with 'dog'. | Output the contents of the file animals, with the first occurence of 'cat' in the file replaced with 'dog'."
+feedback="Not quite - take a look at the flags passed to the s command. | Right! sed operates on lines, and without the g flag it just does one replacement. We can use any character (like #) between the sections of an s command, not just /. | Not quite, think about what unit sed operates on - characters/words/lines/files?"
+correct="1"
+>}}
 
-1. What does the command `sed 's/\([0-9]\)/only \1/g' animal-counts` do?
-2. What does the command `sed -e 's#cat#dog#g' animals` do?
-3. If you want to output the lines of the file named `/tmp/animals` which _don't_ include any numbers, what command would you run?
+{{<multiple-choice
+question="What does the command `sed 's/\([0-9]\)/only \1/g' animal-counts` do?"
+answers="Add the word 'only' before the characters '0', '-', or '9' in the file. | Add the word 'only' before all numbers in the file. | Replace all numbers in the file with the text 'only 1'."
+feedback="Not quite - what does an - inside []s mean? | Right - we match all numbers, and re-insert it with a back-reference. | Not quite - what does the \ before the 1 mean?"
+correct="1"
+>}}
+
+{{<note type="Exercise">}}
+Write down answers to the following question:
+
+If you want to output the lines of the file named `/tmp/animals` which _don't_ include any numbers, what command would you run?
 {{</note>}}
