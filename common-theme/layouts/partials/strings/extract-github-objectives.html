@@ -8,8 +8,4 @@
 <!--prettier-ignore-->
 {{ $regexShortcode := "{{<objectives>}}([^`]*?){{</objectives>}}" }}
 {{ $extractedObjectives = $extractedObjectives | append (findRE $regexShortcode $strippedText) }}
-
-
-
-
 {{ return $extractedObjectives }}
