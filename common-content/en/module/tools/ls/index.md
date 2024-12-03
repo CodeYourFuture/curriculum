@@ -19,3 +19,10 @@ Some commonly used flags you should understand:
 * `-a`
 * `-1`
 * `-h`
+
+{{<note type="Exercise">}}
+Write down answers to the following questions:
+
+1. What does the command `ls -lahtr` do?
+2. If you want to list the files in the directory `/tmp`, one file per line, what command would you run?
+{{</note>}}

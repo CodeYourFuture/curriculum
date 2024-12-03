@@ -31,3 +31,10 @@ Some commonly used flags you should understand:
 * `-l`
 * `-o`
 * `-A`, `-B`, `-C`
+
+{{<note type="Exercise">}}
+Write down answers to the following questions:
+
+1. What does the command `grep -riI "langurs" /animals/primates` do?
+2. If you want to find all of the lines in a file which end with a number, what command would you run?
+{{</note>}}

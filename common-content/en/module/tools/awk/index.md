@@ -22,3 +22,11 @@ Some awk programs you should understand and be able to write:
 * `{print $2}`
 * `/Ibrahim/ {print $NF}`
 * `{sum += $2} END {print sum}`
+
+{{<note type="Exercise">}}
+Write down answers to the following questions:
+
+1. What does the command `awk '/Ibrahim/ {print $2}' scores` do?
+2. What does `NF` in an `awk` program mean? What does `$NF` mean?
+3. Imagine you have a file named `scores` where each line contains a name, then a space, then a numeric score. If you want to use `awk` to output the biggest score, what command would you run?
+{{</note>}}

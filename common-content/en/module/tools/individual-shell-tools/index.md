@@ -62,4 +62,6 @@ Here we passed the optional argument `-r` and the optional argument `-B`. `-r` t
 
 We call arguments that start with a `-` or `--` flags. We could give flags in any order - `grep -B 1 -r "hello" .` works the same as `grep -r -B 1 "hello" .`.
 
+Flags that start with a `-` not a `--` can also be squashed together. `grep -rc "Hello" .` works the same as `grep -r -c "Hello" .`. If you are looking up a flag you don't know, like `-rc`, remember it may actaully be two flags (`-r` and `-c`). You can also specify a value for the _last_ flag in a squashed together list: `grep -rcB 1 "hello" .`.
+
 `"hello"` and `.` are called positional arguments because they don't have a named flag before them. The program decides how to interpret them based on their position (order) in the command line, rather than a named flag coming before them. Their order matters.

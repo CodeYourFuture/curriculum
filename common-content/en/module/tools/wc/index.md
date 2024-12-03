@@ -17,3 +17,10 @@ Some commonly used flags you should understand:
 * `-c`
 * `-l`
 * `-w`
+
+{{<note type="Exercise">}}
+Write down answers to the following questions:
+
+1. What does the command `wc -w /some/file` do?
+2. If you want to get the number of lines in the file `/some/other/file`, what command would you run?
+{{</note>}}

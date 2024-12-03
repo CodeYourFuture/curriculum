@@ -44,3 +44,11 @@ Some sed commands you should understand and be able to write:
 * `s/\([0-9]\)/only \1/g`
 * `/dog/d`
 * `6d`
+
+{{<note type="Exercise">}}
+Write down answers to the following questions:
+
+1. What does the command `sed 's/\([0-9]\)/only \1/g' animal-counts` do?
+2. What does the command `sed -e 's#cat#dog#g' animals` do?
+3. If you want to output the lines of the file named `/tmp/animals` which _don't_ include any numbers, what command would you run?
+{{</note>}}
