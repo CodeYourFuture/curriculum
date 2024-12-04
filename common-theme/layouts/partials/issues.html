@@ -16,7 +16,7 @@
     {{ else }}
       {{ $issues := . | unmarshal }}
       {{/* <!-- range over issues list and pull out useful data --> */}}
-      {{ range $issues }}
+      {{ range (sort $issues "title" "asc") }}
 
         {{ $showIssue := true }}
         {{/* <!-- if a filter exists, only show issues with the right label --> */}}
@@ -56,7 +56,23 @@
                 Clone
               </a>
             </summary>
-            <div class="c-issue__body">{{ .body | markdownify }}</div>
+
+            <div class="c-issue__body">
+              {{/* extract objectives */}}
+              {{ $extractedObjectives := partial "strings/extract-github-objectives.html" .body }}
+
+              {{ if gt (len $extractedObjectives) 0 }}
+                <details>
+                  <summary>
+                    <h3 class="e-heading__5">Learning Objectives</h3>
+                  </summary>
+                  {{ range $extractedObjectives }}
+                    {{ . | markdownify }}
+                  {{ end }}
+                </details>
+              {{ end }}
+              {{ .body | markdownify }}
+            </div>
           </details>
           {{ with .labels }}
             <ul class="c-issue__labels c-label__list">

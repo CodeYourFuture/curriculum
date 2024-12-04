@@ -3,7 +3,7 @@ title="Fizz Buzz"
 emoji="🔢"
 hide_from_overview=true
 time=20
-[objectives]
+[tasks]
 1="Execute mental arithmetic and divisibility rules"
 3="Listen actively and coordinate with others"
 [build]

@@ -1,0 +1,13 @@
+{{/* This partial goes and gets a local block
+  But instead of rendering the whole thing like blocks/local
+  It just renders the objectives
+*/}}
+{{ $scope := . }}
+{{ $pageContext := .pageContext }}
+{{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
+{{ $showTitle := .showTitle |default false }}
+
+{{ with $localBlock.Page.Params.Objectives }}
+  {{ if $showTitle }}<h5>{{ $localBlock.Page.Title }}</h5>{{ end }}
+  {{ partial "objectives/block.html" . }}
+{{ end }}
