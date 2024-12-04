@@ -16,7 +16,7 @@
     {{ else }}
       {{ $issues := . | unmarshal }}
       {{/* <!-- range over issues list and pull out useful data --> */}}
-      {{ range $issues }}
+      {{ range (sort $issues "title" "asc") }}
 
         {{ $showIssue := true }}
         {{/* <!-- if a filter exists, only show issues with the right label --> */}}
