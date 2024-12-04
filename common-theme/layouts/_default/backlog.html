@@ -1,9 +1,59 @@
 {{ define "main" }}
+  {{ $backlog_filter := .Page.Params.backlog_filter }}
+  {{ $repos := .Page.Params.backlog }}
+  {{ if not (reflect.IsSlice $repos) }}
+    {{ $repos = slice $repos }}
+  {{ end }}
   <article>
     {{ partial "page-header.html" . }}
     {{ with .Content }}
       <section class="c-copy">{{ . }}</section>
     {{ end }}
-    {{ partial "issues.html" . }}
+    {{/* you can have multiple repos but probably for sanity let's just stick with one label filter
+      for each repo, grab the issues that match the filter
+    */}}
+    {{ range $repos }}
+      {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter) }}
+      {{ range $issueBlocks }}
+        <div class="c-alert" role="alert" hidden>
+          <span class="alert__message"></span>
+          <button aria-label="Close" class="clean-btn close" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <details class="c-issue">
+          <summary class="c-issue__title e-heading__3">
+            {{ .name }}
+            <a class="c-issue__link" href="{{ .src }}">🔗</a>
+            <a
+              href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .number "module" .Page.Params.backlog "sprint" .Page.Params.backlog_filter "prevURL" (urls.AbsLangURL .Page.RelPermalink) | jsonify }}"
+              class="e-button"
+              data-props="{{ .Page.RelPermalink }}">
+              Clone
+            </a>
+          </summary>
+          <div class="c-issue__body">
+            {{ partial "block/block.html" (dict "block" . "Page"
+              $.Page "Site" site )
+            }}
+          </div>
+        </details>
+        {{ with .labels.nodes }}
+          <ul class="c-issue__labels c-label__list">
+            {{ range . }}
+              <li
+                class="c-issue__label c-label"
+                style="--color:#{{ .color }}4d">
+                <span
+                  class="c-issue__label-name c-label__name"
+                  title="{{ .description }}">
+                  {{ .name }}
+                </span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+    {{ end }}
   </article>
 {{ end }}
