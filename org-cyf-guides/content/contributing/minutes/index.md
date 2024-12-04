@@ -66,7 +66,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
   * Anyone who completes, should be eligible for submitting their CV to the company
 * Sally: Working with employers to agree LOs, pre-reqs for getting the job
   * [Example doc](https://docs.google.com/document/d/1zJomRiMshLluuWq_F_dM8fAxSM-ljmZZrl4H1o9aZxc/edit?tab=t.0)
-* Sally: Google have awarded us a grant to run an AI Essentials track
+* Sally: Centre for Public Impact have awarded us a grant to run an AI Essentials track
   * [Press release](https://centreforpublicimpact.org/ai-opportunity-fund/)
   * Will run by Google, essentially it's a version of their online video course
   * Workshops will run on Saturdays
