@@ -38,12 +38,10 @@
 
     // when this header has details
     > summary {
-      list-style: "🙋🏾";
       list-style-position: inside;
       padding-left: var(--theme-spacing--3);
     }
     &[open] > summary {
-      list-style: "💁🏾";
       list-style-position: inside;
     }
   }
