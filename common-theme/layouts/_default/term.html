@@ -14,7 +14,8 @@
       {{ .Content }}
       {{ with .Pages }}
       <footer class="c-page__footer">
-        <h3>🏷️ Members</h3>
+        {{ $taxonomy := site.GetPage "/track_kinds" }}
+        <h3>🏷️ {{ or $taxonomy.Params.member_name "Members" }}</h3>
         <ul class="c-label__list">
         {{ range sort . "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
