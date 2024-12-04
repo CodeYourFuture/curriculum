@@ -14,7 +14,7 @@
       {{ .Content }}
       {{ with .Pages }}
       <footer class="c-page__footer">
-        <h3>🏷️ Tagged</h3>
+        <h3>🏷️ Members</h3>
         <ul class="c-label__list">
         {{ range sort . "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
@@ -25,8 +25,6 @@
 
         {{ end }}
         </ul>
-      <hr>
-       <h5 class="e-heading__6">📛 This is a term definition page</h5>
       </footer>
       {{ end }}
     </article>
