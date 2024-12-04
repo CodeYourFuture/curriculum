@@ -5,7 +5,7 @@ emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-React'
-backlog_filter= 'Week 2'
+backlog_filter='📅 Week 2'
 [[blocks]]
 name="Orientation"
 src="morning-orientation"
