@@ -3,16 +3,13 @@
 
   {{ partial "page-header.html" . }}
     <article class="c-copy">
-      {{ if .Page.Params.When }}
-       <dl class="c-terms">
-          <dt>When</dt>
-          <dd>{{ .Page.Params.When }}</dd>
-          {{ if .Page.Params.Eligibility }}
-            <dt>Who</dt>
-            <dd>{{ .Page.Params.Eligibility }}</dd>
-          {{ end }}
-        </dl>
-      {{ end}}
+    {{ with .Page.Params.details }}
+      <dl class="c-terms">
+        {{ range $metadatum := index . }}
+          <dt>{{ index $metadatum "name" }}</dt> <dd>{{ index $metadatum "value" }}</dd>
+        {{ end }}
+      </dl>
+    {{ end }}
 
       {{ .Content }}
       {{ with .Pages }}
@@ -25,6 +22,7 @@
             <span class="c-label__name">{{ .Params.emoji |default "🧩"}} {{ .Title }}</span>
         {{ with .Permalink }}</a>{{end}}
       </li>    
+
         {{ end }}
         </ul>
       <hr>

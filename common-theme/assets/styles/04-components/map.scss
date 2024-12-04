@@ -40,6 +40,7 @@
     > summary {
       list-style: "🙋🏾";
       list-style-position: inside;
+      padding-left: var(--theme-spacing--3);
     }
     &[open] > summary {
       list-style: "💁🏾";
@@ -49,6 +50,7 @@
 
   &__title {
     color: var(--theme-color--brand);
+    margin-bottom: calc(-1 * var(--theme-spacing--4));
     transform: translate3d(
         calc(-1 * var(--theme-spacing--3)),
         calc(-1 * var(--theme-spacing--5)),
