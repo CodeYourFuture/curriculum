@@ -24,7 +24,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
 ### ❗Actions from last time
 
 * [ ] All: Collaboratively put together LOs and name for ITP Introduction Module
-* [ ] Daniel: Sync with Karen on Piscine dashboard requirements
+* [x] Daniel: Sync with Karen on Piscine dashboard requirements
 
 ### 📝 Agenda points
 
@@ -102,7 +102,6 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
 
 ### ❗Actions
 
-* [ ] Daniel: Sync with Karen on Piscine dashboard requirements
 * [ ] Sally: Write LOs for ITP Onboarding module
 * [ ] Mitch: Write up a ticket to replace Jest with vanilla Node testing libraries
 
