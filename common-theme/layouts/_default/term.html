@@ -3,11 +3,21 @@
 
   {{ partial "page-header.html" . }}
     <article class="c-copy">
-      <h3>📛 This is a term definition page</h3>
+      {{ if .Page.Params.When }}
+       <dl class="c-terms">
+          <dt>When</dt>
+          <dd>{{ .Page.Params.When }}</dd>
+          {{ if .Page.Params.Eligibility }}
+            <dt>Who</dt>
+            <dd>{{ .Page.Params.Eligibility }}</dd>
+          {{ end }}
+        </dl>
+      {{ end}}
+
       {{ .Content }}
       {{ with .Pages }}
       <footer class="c-page__footer">
-        <h4>Citations</h4>
+        <h3>🏷️ Tagged</h3>
         <ul class="c-label__list">
         {{ range sort . "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
@@ -17,6 +27,8 @@
       </li>    
         {{ end }}
         </ul>
+      <hr>
+       <h5 class="e-heading__6">📛 This is a term definition page</h5>
       </footer>
       {{ end }}
     </article>

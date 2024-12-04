@@ -26,7 +26,8 @@
     left: 0;
   }
 
-  &__stop {
+  &__stop,
+  &__header {
     position: relative;
     z-index: var(--layer);
     @media (min-width: $c-max) {
@@ -34,12 +35,20 @@
         calc(var(--theme-spacing--container) / 3) - var(--theme-spacing--gutter)
       );
     }
+
+    // when this header has details
+    > summary {
+      list-style: "🙋🏾";
+      list-style-position: inside;
+    }
+    &[open] > summary {
+      list-style: "💁🏾";
+      list-style-position: inside;
+    }
   }
 
   &__title {
     color: var(--theme-color--brand);
-    position: absolute;
-    z-index: 2;
     transform: translate3d(
         calc(-1 * var(--theme-spacing--3)),
         calc(-1 * var(--theme-spacing--5)),
