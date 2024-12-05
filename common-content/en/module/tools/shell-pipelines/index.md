@@ -13,7 +13,9 @@ emoji= "💻"
 
 Read the learning objectives listed on this page: Bear in mind what you’re trying to achieve while reading this text. If a topic isn’t making much sense, and isn’t in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you’ve met the objective.
 
+{{<note type="Reading">}}
 Read [Thinking in Pipelines from Effective Shell](https://effective-shell.com/part-2-core-skills/thinking-in-pipelines/).
+{{</note>}}
 
 Key take-aways:
 * Most programs take some input, and produce some output.
