@@ -25,6 +25,20 @@
       nodes {
         title
         url
+        number
+        labels(
+          first: 25 
+          orderBy: { 
+          direction: DESC 
+          field: NAME 
+          }
+        ) {
+          nodes {
+            name
+            color
+            description
+          }
+        }
       }
     }
   }
@@ -37,9 +51,9 @@
 {{ $issueBlocks := slice }}
 {{ with resources.GetRemote "https://api.github.com/graphql" (merge $request (partial "github-auth.html" .)) }}
   {{ with .Content | unmarshal }}
-    {{ with .data.repository.issues }}
-      {{ range .nodes }}
-        {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" .url) }}
+    {{ with .data.repository.issues.nodes }}
+      {{ range sort . "title" "asc" }}
+        {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" .url "number" .number "labels" .labels) }}
       {{ end }}
     {{ end }}
   {{ end }}
