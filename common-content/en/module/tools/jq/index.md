@@ -15,6 +15,8 @@ But there are more complex formats it can be useful to process too. You have alr
 
 `jq` is a tool for processing JSON without having to write a whole program. This can be really useful to quickly analyse some data.
 
+{{<note type="Reading">}}
 Read [Earthly's introduction to `jq`](https://earthly.dev/blog/jq-select/).
+{{</note>}}
 
 Practice using `jq` using the relevant backlog exercises.

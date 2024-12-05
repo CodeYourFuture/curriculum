@@ -27,10 +27,12 @@ emoji= "📖"
     20="Explain one advantage of compiled languages, and one advantage of interpreted languages."
 +++
 
+{{<note type="Reading">}}
 Read chapter 9 of How Computers Work.
 
 Do every exercise listed in the chapters.
 
 You can skip the projects (though you're welcome to try any of them if you have time!).
+{{</note>}}
 
 Check you have achieved each learning objective listed on this page.
