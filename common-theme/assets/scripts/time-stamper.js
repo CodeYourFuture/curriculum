@@ -2,15 +2,12 @@ class TimeStamper extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.shadowRoot.innerHTML = `
-            <style>
-                /* You can include any component-specific styles here */
-            </style>
-            <slot></slot>
-        `;
+    this.shadowRoot.innerHTML = `<slot></slot>`;
 
-    this.timelineEntries = this.querySelectorAll(".c-block");
-    this.startTime = this.getAttribute('start-time');
+    this.timelineEntries = this.querySelectorAll(
+      ".c-block:not(.is-nested .c-block)"
+    );
+    this.startTime = this.getAttribute("start-time");
   }
 
   connectedCallback() {
