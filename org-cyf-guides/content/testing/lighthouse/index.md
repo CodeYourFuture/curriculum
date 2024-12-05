@@ -12,15 +12,15 @@ caption="Lighthouse Documentation in Chrome DevTools"
 
 ## How to run an audit
 
-1. Open the webpage you want to audit in Chrome.
+1. Open a webpage in Chrome.
 2. Right-click on the page and select [`Inspect`](https://developer.chrome.com/docs/devtools/open).
 3. Click on the [`Lighthouse`](https://developer.chrome.com/docs/lighthouse/overview#devtools) tab.
-4. Under `Categories`, check `Accessibility`. Uncheck the other categories for now to make your report simpler.
+4. Under `Categories`, check `Accessibility`. (Uncheck the other categories for now to make your report simpler.)
 5. Click the `Analyze page load` button.
 
 ## How to read and use the report
 
-Lighthouse is a great friend! It won't just give you a score out of 100. Lighthouse will go through your code and show you how to fix everything. Under the top score, you will see a list of items that need fixing.
+Lighthouse is your friend! Lighthouse will go through your code and show you how to fix everything. Under the top score, you will see a list of items that need fixing. You must click on the triangle to see the details.
 
 <details>
 <summary>
