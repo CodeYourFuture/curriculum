@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $currentPath := .Page.RelPermalink }}
   {{ $backlog_filter := .Page.Params.backlog_filter }}
   {{ $repos := .Page.Params.backlog }}
   {{ if not (reflect.IsSlice $repos) }}
@@ -14,6 +15,7 @@
     */}}
     {{ range $repos }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter) }}
+      {{ $repo := . }}    
       {{ range $issueBlocks }}
         <div class="c-alert" role="alert" hidden>
           <span class="alert__message"></span>
@@ -26,7 +28,7 @@
             {{ .name }}
             <a class="c-issue__link" href="{{ .src }}">🔗</a>
             <a
-              href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .number "module" .Page.Params.backlog "sprint" .Page.Params.backlog_filter "prevURL" (urls.AbsLangURL .Page.RelPermalink) | jsonify }}"
+              href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .number "module" $repo "sprint" $backlog_filter "prevURL" (urls.AbsLangURL $currentPath) | jsonify }}"
               class="e-button"
               data-props="{{ .Page.RelPermalink }}">
               Clone
