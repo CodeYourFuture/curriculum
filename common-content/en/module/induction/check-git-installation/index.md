@@ -4,7 +4,7 @@ time = 15
 facilitation = false
 vocabulary=[]
 emoji= '📋'
-[objectives]
+[tasks]
 1='Double check Git is installed on your local machine'
 [build]
   render = 'never'

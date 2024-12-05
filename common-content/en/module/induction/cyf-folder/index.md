@@ -14,7 +14,12 @@ emoji= '🧰'
 
 +++
 
-You'll need to create a {{<our-name>}} folder to store your projects on the course.
+> [!TIP]
+> Make a folder called `{{<our-name>}}` in your home directory. Store all your work for the course in this folder.
+
+You'll need to create a {{<our-name>}} folder to store your projects on the course. You can do this any way you like, but here we are using the terminal.
+
+### How to create a folder using the terminal
 
 1. Open a terminal on your computer.
 

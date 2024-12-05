@@ -5,7 +5,7 @@ time = 15
 facilitation = false
 vocabulary=[]
 emoji= '📖 '
-[objectives]
+[tasks]
 1='Double check Github account is setup'
 2='Double check Course planner is setup'
 [build]
