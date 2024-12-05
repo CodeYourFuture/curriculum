@@ -1,7 +1,7 @@
 +++
 title="Lighthouse Audits"
 description="Learn how to audit your webpage"
-emoji="💡🏠"
+emoji="🔦"
 [[blocks]]
 name="Lighthouse Guide"
 src="https://developer.chrome.com/docs/lighthouse/overview#devtools"
@@ -10,7 +10,7 @@ caption="Lighthouse Documentation in Chrome DevTools"
 
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) is an open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more. At {{<our-name>}}, we require all web pages you write to score 100 for Accessibility as a minimum standard.
 
-## Running an Audit
+## How to run an audit
 
 1. Open the webpage you want to audit in Chrome.
 2. Right-click on the page and select [`Inspect`](https://developer.chrome.com/docs/devtools/open).
@@ -18,7 +18,7 @@ caption="Lighthouse Documentation in Chrome DevTools"
 4. Under `Categories`, check `Accessibility`. Uncheck the other categories for now to make your report simpler.
 5. Click the `Analyze page load` button.
 
-## Reading and using the report
+## How to read and use the report
 
 Lighthouse is a great friend! It won't just give you a score out of 100. Lighthouse will go through your code and show you how to fix everything. Under the top score, you will see a list of items that need fixing.
 
@@ -35,9 +35,9 @@ Each item will have a description of the problem and why it matters for users. I
 
 </details>
 
-## Fixing the issues
+### Fix the issues one by one
 
-Work through the list of issues one by one. Fix **one at a time** and re-run the audit to check your progress.
+Work through the list of issues one by one. Fix **one error** and re-run the audit to check your progress.
 
 > [!TIP]
 > If you can't fix an issue, open a draft PR and ask for help. We are here to help each other!
