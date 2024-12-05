@@ -1,5 +1,5 @@
 +++
-title="Testing"
+title="Unit Testing with Jest"
 description="Learn how to test your code"
 emoji="🧪"
 +++
@@ -233,16 +233,16 @@ This should run our tests and then provide us with feedback about how our code i
 
 Consider an extract from the test file `countWords.test.js`
 
-![Test case for countWords](./test-case.png)
+![Test case for countWords](test-case.png)
 
 After the test has run, we will get some feedback from Jest depending on whether the test passed or failed.
 If the test fails then we should expect to see something like this:
 
-![Failing test case for countWords](./test-fail-case.png)
+![Failing test case for countWords](test-fail-case.png)
 
 If the test passes, then we should get some feedback that looks like this:
 
-![Passing test case for countWords](./test-pass-case.png)
+![Passing test case for countWords](test-pass-case.png)
 
 Jest aims to give feedback that makes it simple to see why test has failed. It shows us several things:
 
