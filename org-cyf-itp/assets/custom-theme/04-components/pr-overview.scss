@@ -12,3 +12,30 @@
     padding: var(--theme-spacing--1);
   }
 }
+
+.e-dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+.e-dt {
+  grid-column-start: 1;
+}
+
+.e-dd {
+  grid-column-start: 2;
+}
+
+.age-container .count.problem {
+  font-weight: bolder;
+}
+
+.age-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.age-container .age-bucket {
+  font-size: medium;
+  text-align: center;
+}

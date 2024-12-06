@@ -7,16 +7,6 @@
   {{ end }}
   <div id="overview" class="c-pr-overview"></div>
 
-  <h3 class="e-heading__4">For PRs:</h3>
-  <dl class="e-dl">
-    <dt class="e-dt">🔴</dt>
-    <dd class="e-dd">Waiting for review >4 weeks</dd>
-    <dt class="e-dt">🟠</dt>
-    <dd class="e-dd">Waiting for review >1 week</dd>
-    <dt class="e-dt">🟢</dt>
-    <dd class="e-dd">From this week</dd>
-  </dl>
-
   <div id="pr-list">Loading...</div>
 
   <template class="overview-card">
@@ -27,14 +17,20 @@
           PRs needing review from:
         </p>
         <dl class="c-pr-overview__age age-container">
-          <dt class="c-pr-overview__bucket age-bucket this-week">This week</dt>
-          <dd class="c-pr-overview__count count"></dd>
-          <dt class="c-pr-overview__bucket age-bucket this-month">
-            2-4 weeks ago
-          </dt>
-          <dd class="c-pr-overview__count count"></dd>
-          <dt class="c-pr-overview__count age-bucket old">4+ weeks ago</dt>
-          <dd class="c-pr-overview__count count"></dd>
+          <div>
+            <dt class="c-pr-overview__bucket age-bucket this-week">🟢 &lt;7 days</dt>
+            <dd class="c-pr-overview__count count"></dd>
+          </div>
+          <div>
+            <dt class="c-pr-overview__bucket age-bucket this-month">
+              🟠 7-28 days
+            </dt>
+            <dd class="c-pr-overview__count count"></dd>
+          </div>
+          <div>
+            <dt class="c-pr-overview__count age-bucket old">🔴 28+ days</dt>
+            <dd class="c-pr-overview__count count"></dd>
+          </div>
         </dl>
         <div class="c-pr-overview__values summary-values"></div>
       </div>
@@ -48,7 +44,7 @@
 
   <template class="pr-in-list">
     <li>
-      <span class="c-emoji emoji"></span> <a class="pr-link"></a> (<a
+      <span class="c-emoji emoji"></span> <a class="e-link pr-link"></a> (<a
         class="e-link user-link"></a>
       - #<span class="pr-number"></span>)
     </li>

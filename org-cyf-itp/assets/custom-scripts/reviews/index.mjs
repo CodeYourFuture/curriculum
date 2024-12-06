@@ -81,7 +81,7 @@ async function onLoad() {
     ).innerText = `${module} (${totalPending})`;
     for (const [age, count] of Object.entries(awaitingReview)) {
       const bucket = overviewCard.querySelector(
-        `.age-bucket.${age.replaceAll(" ", "-")} .count`
+        `.age-bucket.${age.replaceAll(" ", "-")} + .count`
       );
       if (bucket) bucket.innerText = count;
       if (bucket && badness(age, count) === 900) {
