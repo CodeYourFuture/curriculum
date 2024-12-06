@@ -34,7 +34,7 @@ func main() {
 	sort.Strings(directoriesToCheck)
 	var errors []string
 	for _, directoryToCheck := range directoriesToCheck {
-		for _, expectedSymlink := range []string{"config", "deploy-netlify.sh"} {
+		for _, expectedSymlink := range []string{"config", "deploy-netlify.sh", "netlify.toml"} {
 			if errorToReport, ok := checkForParentSymlink(directoryToCheck, expectedSymlink); !ok {
 				errors = append(errors, errorToReport)
 			}
@@ -52,7 +52,7 @@ func main() {
 // checkForParentSymlink checks that a symlink exists in the directory with expectedLinkName pointing at something in the parent directory with the same name.
 // It returns a bool indicating whether things were correct, and if the bool is false, returns a non-empty string describing the problem suitable for displaying to a user.
 func checkForParentSymlink(directoryToCheck, expectedLinkName string) (string, bool) {
-	expectedDestination := filepath.Join("..", expectedLinkName)
+	expectedDestination := filepath.Join("..", "tooling", "common-config", expectedLinkName)
 	path := filepath.Join(directoryToCheck, expectedLinkName)
 	fileInfo, err := os.Lstat(path)
 	if err != nil {
