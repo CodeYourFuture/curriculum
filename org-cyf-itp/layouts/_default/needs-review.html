@@ -1,0 +1,61 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  {{ with .Content }}
+    <section class="l-page__main c-copy">
+      {{ . }}
+    </section>
+  {{ end }}
+  <div id="overview" class="c-pr-overview"></div>
+
+  <h3 class="e-heading__4">For PRs:</h3>
+  <dl class="e-dl">
+    <dt class="e-dt">🔴</dt>
+    <dd class="e-dd">Waiting for review >4 weeks</dd>
+    <dt class="e-dt">🟠</dt>
+    <dd class="e-dd">Waiting for review >1 week</dd>
+    <dt class="e-dt">🟢</dt>
+    <dd class="e-dd">From this week</dd>
+  </dl>
+
+  <div id="pr-list">Loading...</div>
+
+  <template class="overview-card">
+    <section class="c-pr-overview__card overview-card">
+      <h3 class="c-pr-overview__module e-heading__5 module"></h3>
+      <div class="c-pr-overview__summary summary-heading">
+        <p class="c-pr-overview__description e-heading__6 ">
+          PRs needing review from:
+        </p>
+        <dl class="c-pr-overview__age age-container">
+          <dt class="c-pr-overview__bucket age-bucket this-week">This week</dt>
+          <dd class="c-pr-overview__count count"></dd>
+          <dt class="c-pr-overview__bucket age-bucket this-month">
+            2-4 weeks ago
+          </dt>
+          <dd class="c-pr-overview__count count"></dd>
+          <dt class="c-pr-overview__count age-bucket old">4+ weeks ago</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </dl>
+        <div class="c-pr-overview__values summary-values"></div>
+      </div>
+    </section>
+  </template>
+
+  <template class="pr-list">
+    <h2 class="e-heading__3 module"></h2>
+    <ul class="e-list pr-list"></ul>
+  </template>
+
+  <template class="pr-in-list">
+    <li>
+      <span class="c-emoji emoji"></span> <a class="pr-link"></a> (<a
+        class="e-link user-link"></a>
+      - #<span class="pr-number"></span>)
+    </li>
+  </template>
+
+  {{ $common := resources.Get "custom-scripts/reviews/common.mjs" | resources.Minify }}
+  {{ $reviews := resources.Get "custom-scripts/reviews/index.mjs" | resources.Minify }}
+  {{ $js := slice $common $reviews | resources.Concat "js/reviews-bundle.js" | resources.Minify }}
+  <script type="module" src="{{ $js.RelPermalink }}"></script>
+{{ end }}
