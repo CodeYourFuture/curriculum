@@ -10,32 +10,17 @@
   &__card {
     box-shadow: var(--theme-box-shadow--slim);
     padding: var(--theme-spacing--1);
+    display: grid;
+    gap: var(--theme-spacing--1);
   }
-}
 
-.e-dl {
-  display: grid;
-  grid-template-columns: max-content auto;
-}
+  &__age {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 0 0;
+  }
 
-.e-dt {
-  grid-column-start: 1;
-}
-
-.e-dd {
-  grid-column-start: 2;
-}
-
-.age-container .count.problem {
-  font-weight: bolder;
-}
-
-.age-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.age-container .age-bucket {
-  font-size: medium;
-  text-align: center;
+  &__bucket {
+    text-align: center;
+  }
 }

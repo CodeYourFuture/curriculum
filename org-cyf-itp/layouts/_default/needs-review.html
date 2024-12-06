@@ -12,28 +12,25 @@
   <template class="overview-card">
     <section class="c-pr-overview__card overview-card">
       <h3 class="c-pr-overview__module e-heading__5 module"></h3>
-      <div class="c-pr-overview__summary summary-heading">
-        <p class="c-pr-overview__description e-heading__6 ">
-          PRs needing review from:
-        </p>
-        <dl class="c-pr-overview__age age-container">
-          <div>
-            <dt class="c-pr-overview__bucket age-bucket this-week">🟢 &lt;7 days</dt>
-            <dd class="c-pr-overview__count count"></dd>
-          </div>
-          <div>
-            <dt class="c-pr-overview__bucket age-bucket this-month">
-              🟠 7-28 days
-            </dt>
-            <dd class="c-pr-overview__count count"></dd>
-          </div>
-          <div>
-            <dt class="c-pr-overview__count age-bucket old">🔴 28+ days</dt>
-            <dd class="c-pr-overview__count count"></dd>
-          </div>
-        </dl>
-        <div class="c-pr-overview__values summary-values"></div>
-      </div>
+      <p class="c-pr-overview__description e-heading__6 ">
+        PRs waiting, time in <strong>days</strong>:
+      </p>
+
+      <dl class="c-pr-overview__age age-container">
+        <div>
+          <dt class="c-pr-overview__bucket age-bucket this-week">🟢 &lt;7</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+        <div>
+          <dt class="c-pr-overview__bucket age-bucket this-month">🟠 7-28</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+        <div>
+          <dt class="c-pr-overview__count age-bucket old">🔴 28+</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+      </dl>
+      <div class="c-pr-overview__values summary-values"></div>
     </section>
   </template>
 

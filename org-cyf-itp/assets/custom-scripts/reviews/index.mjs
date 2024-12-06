@@ -85,7 +85,7 @@ async function onLoad() {
       );
       if (bucket) bucket.innerText = count;
       if (bucket && badness(age, count) === 900) {
-        bucket.classList.add("problem");
+        bucket.classList.add("is-problem");
       }
     }
     overviewCard
