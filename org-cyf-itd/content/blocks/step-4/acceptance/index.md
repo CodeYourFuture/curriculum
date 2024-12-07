@@ -15,18 +15,17 @@ Here are the acceptance criteria for your project:
 
 ### Given a personal home page
 
-{{<objectives>}}
+**When** I look in the test console  
+_Then_ all 10 tests are passing
 
-- [ ] When I look in the test console  
-       Then all 10 tests are passing
-- [ ] When I read the content  
-       Then I learn something about you
-- [ ] When I view the page  
-       Then the design is unique
-- [ ] When I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
-       Then the HTML is valid
+**When** I read the content  
+_Then_ I learn something about you
 
-{{</objectives>}}
+**When** I view the page  
+_Then_ the design is unique
+
+**When** I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
+_Then_ the HTML is valid
 
 > [!TIP]
 > Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.
