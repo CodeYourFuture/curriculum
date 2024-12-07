@@ -62,7 +62,7 @@ export async function fetchPrs() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
-        responsePromises.push(fetch(`https://github-issue-proxy.illicitonion.com/cached/120/repos/CodeYourFuture/${module}/pulls?state=all`).then((response) => response.json()));
+        responsePromises.push(fetch(`https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/${module}/pulls?state=all`).then((response) => response.json()));
     }
     const responsesByModule = await Promise.all(responsePromises);
     for (let i = 0; i < responsesByModule.length; i++) {
