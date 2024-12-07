@@ -1,8 +1,8 @@
 +++
 title = 'Four'
-description="Build, iterate, and deploy your capstone project"
+description="Build a personal home page with CodePen"
 layout = 'prep'
-emoji= '🧑🏾‍🚀'
+emoji= '🏠'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 5

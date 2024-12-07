@@ -13,7 +13,7 @@ time= 30
 
 We have an environment in which you can ask for help and build your local community. Slack helps us have asynchronous conversations with our community. It is used by most tech teams.
 
-Please use your real name on Slack and add a consistent profile picture. We ask this so we can recognise each other.
+Please use a consistent professional name on Slack and add a consistent profile picture. We ask this so we can recognise each other. You don't have to share any information you are not comfortable with.
 
 1. Accept this invite _(invite available in Learner view on CYF Platform, not on this public copy)_ to our Introduction to Digital Slack
 2. [Read the Slack tutorial](https://slack.com/intl/en-gb/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) to get started on Slack
