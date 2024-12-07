@@ -2,7 +2,7 @@
 title ="Step 4: How to check your work"
 description= "How to check your work"
 emoji= "🤖"
-time= 5
+time= 20
 [build]
   render = 'never'
   list = 'local'
