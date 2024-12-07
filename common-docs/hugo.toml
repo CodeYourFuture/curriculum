@@ -44,13 +44,14 @@ title = "The longed for documentation"
         url = "https://codeyourfuture.io/donate"    
 
 [params]
-googleFonts="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@400;700&display=swap"
 description = "A free and open source technical curriculum platform."
 main_website = "https://curriculum.codeyourfuture.io/"
 main_org_name = "Code Your Future"
 our_name="The Docs"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
+owner = "CodeYourFuture"
 root = "curriculum"
 orgapi = "https://api.github.com/repos/CodeYourFuture"
 [caches.getresource]

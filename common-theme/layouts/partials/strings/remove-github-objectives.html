@@ -1,0 +1,16 @@
+{{/* This removes objectives - to remove text and only have objectives use extract-github-objectives */}}
+
+{{/* Find fenced objectives in text */}}
+{{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
+{{ $textWithoutObjectives := replaceRE $regexFence "" . }}
+
+{{/* Find shortcoded objectives in text */}}
+<!--prettier-ignore-->
+{{ $regexShortcode := "{{<objectives>}}([^`]*?){{</objectives>}}" }}
+{{ $textWithoutObjectives = replaceRE $regexShortcode "" $textWithoutObjectives }}
+{{/* Find and remove headings that contain "earning objective" */}}
+{{ $regexHeading := "(?im)^#{1,6}\\s*[^\\n]*earning\\s*objective[^\\n]*$" }}
+{{ $textWithoutObjectives = $textWithoutObjectives | replaceRE $regexHeading "" }}
+
+
+{{ return $textWithoutObjectives }}

@@ -15,6 +15,14 @@ time=15
 name="Workshop"
 src="blocks/workshop"
 time="140"
+  [[blocks.nested.blocks]]
+    name="Objects [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
+    time=0
+  [[blocks.nested.blocks]]
+    name="Debugging 2 [Tech] (60 Mins)"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/debugging-2"
+    time=0
 [[blocks]]
 name="lunch"
 src="blocks/lunch"

@@ -1,7 +1,7 @@
 +++
 title = '🐕 🎞️ fetch films'
 
-time = 60
+time = 30
 facilitation = false
 emoji= '🧩'
 [objectives]
@@ -13,88 +13,33 @@ emoji= '🧩'
 
 +++
 
-Now that we have a basic understanding of Web APIs and Promises, let's use our knowledge to get some data from an API. There's [a list of films](/js3/blocks/fetch-films/data.json) stored in a JSON file in this directory. We'll use `fetch` to get the data from this API and then render it to the page.
-
-> 🎯 **Success criterion:** You have a working app that fetches data from an API and renders it to the page.
-
-{{<tabs name="getFilms">}}
-{{<tab name="Try it yourself">}}
-
-### 🧠 Think back to your [filterFilms](/filterFilms.html) project.
-
-1. Find your completed code. You're going to iterate on this code to fetch the films from the API instead of using the data in the file.
-2. Update the state to start with an empty array. We can't work with films we haven't fetched yet!
+Now that we have a basic understanding of Web APIs and Promises, let's use look again at our code for fetching film data:
 
 ```js
-const state = {
-  films: [],
+const endpoint = "https://programming.codeyourfuture.io/dummy-apis/films.json";
+
+const fetchFilms = async () => {
+  const response = await fetch(endpoint);
+  return await response.json();
 };
+
+fetchFilms().then((films) => {
+   // When the fetchFilms Promise resolves, this callback will be called.
+  state.films = films;
+  render();
+});
 ```
 
-3. Make a new `getFilms` function to use `fetch` to get the data from the API. The URL is `//curriculum.codeyourfuture.io/js3/blocks/fetch-films/data.json`
+We are defining `fetchFilms`: an `async` function - a function which returns a `Promise`.
 
-4. Use:
+When we call `fetchFilms`, what we get is an unresolved `Promise`.
 
-- `fetch` to get the data
-- `async`/`await` to make sure the function waits for the fetch to complete before trying to get the json data from the response
-- `response.json()` to get the data from the response
-- a `try...catch` block to handle any errors that might occur
+What `fetchFilms` does is fetch a URL (with our call to `fetch` itself returning a `Promise` resolving to a `Response`). When the `Promise` from `fetch` resolves, `fetchFilms` reads the body of the `Response` (a string), and parses is as JSON. The `Promise` returned by `fetchFilms` then resolves with the result of parsing the string as JSON.
 
-  {{</tab>}}
-  {{<tab name="Check your understanding">}}
+When the `Promise` from `fetchFilms` resolves, our next callback is called: We update our `state`, and call `render()`.
 
-```js
-const getFilms = async () => {
-  try {
-    const response = await fetch(
-      "//curriculum.codeyourfuture.io/js3/blocks/fetch-films/data.json"
-    );
-    return await response.json();
-  } catch (error) {
-    console.error(error);
-    return [];
-  }
-};
-```
+After this is done, the rest of our code works exactly the same as it did before. We _have_ our list of films in our state, so we never need to fetch the list of films again.
 
-{{</tab>}}
-{{</tabs>}}
+`render` works the same - it only cares that `state.films` is an array of films, it doesn't care where they came from.
 
-We've added a `try...catch` block to handle any errors that might occur. We've also added `await` to the `fetch` and `response.json()` calls. This means that the function will sensibly wait for the `fetch` to complete before trying to get the json data from the response.
-
-In our last implementation, we called the render function straight away. This time, we need to wait for the films to be fetched before we can render them. Write a new async function to initialise our app. Try to write it yourself first, then check your understanding below.
-
-<details>
-<summary>
-
-Your `init` function should look something like this:</summary>
-
-```js
-// Initial render, which is distinct from the render function as it loads our films into memory from the API.
-// Subsequent render calls do not need to call the API to get the films - we already know the films and can remember them.
-async function init() {
-  try {
-    const films = await getFilms();
-    state.films = films;
-    render(filmContainer, films);
-  } catch (error) {
-    console.error(error);
-  }
-}
-```
-
-The name _`init` is a convention. It has no special meaning in the JavaScript language._
-
-</details>
-
-### 🎁 Finally!
-
-And let's now call this function at the end of our script.
-
-```js
-init();
-```
-
-{{<note type="tip" title="Need help?">}}
-🧧 Here's an [example implementation](/js3/blocks/fetch-films/filterFilms.html) you can <a download href="/js3/blocks/fetch-films/filterFilms.html">download</a>.
-{{</note>}}
+When we change our filter by typing, events fire and our event handler will be called back exactly the same as it did before.

@@ -15,7 +15,7 @@ Here is the criteria you need to meet:
 
 ```objectives
 - You have joined the CodeYourFuture ITD Slack
-- You have added a profile picture to your Slack profile 
+- You have added a profile picture to your Slack profile
 - You have used your real name on your Slack profile
 - You have introduced yourself on the #introduce-yourself-to-codeyourfuture channel
 - You have taken a screenshot of your introduction on the channel

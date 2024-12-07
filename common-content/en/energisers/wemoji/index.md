@@ -2,7 +2,7 @@
 title="Wemoji"
 emoji="😀😢😲"
 time=10
-[objectives]
+[tasks]
     1="Express emojis using only facial expressions and body language"
     2="Identify emojis from facial expressions and body language"
 [build]

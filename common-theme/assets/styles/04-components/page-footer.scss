@@ -6,9 +6,6 @@
     justify-content: center;
     align-items: center;
     text-transform: lowercase;
-  }
-
-  &__this {
-    color: var(--theme-color--accent-shade);
+    font: var(--theme-font--system);
   }
 }

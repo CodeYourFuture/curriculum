@@ -2,7 +2,7 @@
 title ="Step 6: What to do"
 description= "Take the Duolingo Practice Test"
 emoji= "🤖"
-time= 20
+time= 45
 [build]
   render = 'never'
   list = 'local'

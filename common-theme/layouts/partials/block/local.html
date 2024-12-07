@@ -18,10 +18,15 @@
       </h2>
       {{ partial "time.html" . }}
     </header>
-    {{ with $block.Params.Objectives }}
+    {{ if or $block.Params.Objectives $block.Params.Tasks }}
       <details>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
-        {{ partial "objectives/block.html" . }}
+        {{ with $block.Params.Objectives }}
+          {{ partial "objectives/block.html" . }}
+        {{ end }}
+        {{ with $block.Params.Tasks }}
+          {{ partial "objectives/block.html" . }}
+        {{ end }}
       </details>
     {{ end }}
     <div class="c-block__content c-copy">{{ $block.Content }}</div>
@@ -33,7 +38,7 @@
         <h3>🗂️ Options</h3>
         {{ range . }}
           {{ range $block := . }}
-            {{ $blockDict := dict "block" $block "Page" $.Page "Site" $.Site }}
+            {{ $blockDict := dict "block" $block "Page" $.Page "Site" site }}
             {{ partial "block/nested.html"  $blockDict }}
           {{ end }}
         {{ end }}

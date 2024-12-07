@@ -1,0 +1,61 @@
+{{/* This uses graphQL instead of REST
+  It returns a map of "blocks" so issues can be passed into the blocks loop instead of needing its own system
+  If we decide we like this better, we should probably systematise this and store
+  the graphql queries in their own dir
+  https://docs.github.com/en/graphql/reference/objects#issue
+  This exact matches on labels unlike the current system which partial matches inside Hugo
+  We did that because PD kept making partially matching labels, but maybe we should be stricter
+  TODO But it means someone has to go round and clean up
+*/}}
+{{ $variables := dict
+  "owner" site.Params.owner
+  "repo" .backlog
+  "labels" .backlog_filter
+}}
+<!--prettier-ignore-->
+{{ $query := `query($owner: String!, $repo: String!, $labels: [String!]) {
+  repository(owner: $owner, name: $repo) {
+    issues(
+      last: 100,
+      filterBy: {
+        states: OPEN,
+        labels: $labels
+      }
+    ) {
+      nodes {
+        title
+        url
+        number
+        labels(
+          first: 25 
+          orderBy: { 
+          direction: DESC 
+          field: NAME 
+          }
+        ) {
+          nodes {
+            name
+            color
+            description
+          }
+        }
+      }
+    }
+  }
+}` }}
+
+{{ $request := dict
+  "method" "POST"
+  "body" (dict "query" $query "variables" $variables | jsonify)
+}}
+{{ $issueBlocks := slice }}
+{{ with resources.GetRemote "https://api.github.com/graphql" (merge $request (partial "github-auth.html" .)) }}
+  {{ with .Content | unmarshal }}
+    {{ with .data.repository.issues.nodes }}
+      {{ range sort . "title" "asc" }}
+        {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" .url "number" .number "labels" .labels) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $issueBlocks }}

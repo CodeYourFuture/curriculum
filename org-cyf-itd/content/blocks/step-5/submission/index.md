@@ -11,8 +11,11 @@ time= 5
 
 ### Submission
 
-There are two things to submit here.
+Make a public Google Doc. Add a link to your revised Hometown Homepage. Add a CYF blocks sharelink from a project you have completed. Share the link to your Google Doc on the CYF Course Platform.
 
-1. Share _one_ project. For example, once you have completed* Project: Build an image carousel*, press the [Share] button and paste the very very long URL in here. The URL will begin with `https://blocks.codeyourfuture.io/share.html?v=`
+### Checklist
 
-2. The **goal** is to use the generated code to add a {{<tooltip title="dynamic feature">}}A dynamic feature means the website changes with some input or interaction.{{</tooltip>}} to your own project. Copy paste your block-generated code into a single `.js` file and add it, with the html and css, to your Hometown Homepage project. Share the link to your improved website.
+- [ ] I have made a public Google Doc.
+- [ ] I have added a link to my revised Hometown Homepage.
+- [ ] I have added a CYF blocks sharelink.
+- [ ] I have shared the link to my Google Doc on the CYF Course Platform.
