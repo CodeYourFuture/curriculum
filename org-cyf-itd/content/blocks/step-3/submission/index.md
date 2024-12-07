@@ -11,10 +11,10 @@ time= 5
 
 ### Submission
 
-You must submit a link to your work in the CYF Course platform
+You must submit a link to your work in the [CYF Course platform](https://application-process.codeyourfuture.io)
 
-1. Share a link to your Invitation project on GitHub Pages
+1. Share a link to your Invitation project on [GitHub Pages](https://pages.github.com/)
 
 ### Personalise your URLs
 
-Before you share your link with your mentors, set your Github Pages URL to include your name. You can use your first name or last name.
+Before you share your link, set your [Github](https://github.com/) Pages URL to include your name, so we can tell who you are. You can use your first name or last name.
