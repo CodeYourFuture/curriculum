@@ -1,35 +1,35 @@
 +++
-title ="Step 1: What to do"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
+title ="Step 3: What to do"
+description= "Learn HTML and CSS fundamentals with Khan Academy"
 emoji= "🤖"
-time= 300
+time= 360
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-This course teaches you HTML and CSS by helping you make five great projects. You'll also get to do over 75 coding tasks. You don't need to know anything about coding to start - it's good for complete beginners.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9i83JvV6Cdo?si=jkSSHxEfr1fiV3Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-1. Create an [account on Scrimba](https://v2.scrimba.com/home)
-1. Learn [what to do and what to avoid when taking the Scrimba course](https://docs.google.com/presentation/d/1Z10grrFWQcKeEb2iD84ljhq9vzLMPWL5ny6oaotpb8E/edit?usp=sharing)
-1. Go to the course: [Learn HTML and CSS](https://v2.scrimba.com/learn-html-and-css-c0p) on Scrimba
-1. Follow along and build the first five projects
-1. Make a public Google doc to collect the links to all your deployed projects on Netlify
-1. Add the links to your projects to your Google doc as you complete them
-1. Share the link to your Google doc on the CYF Course Platform when you have finished all five projects
+Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacademy.org)'s Computer Programming course. You don't need to know anything about coding to start - it's good for complete beginners. There are 9 lessons in Unit 2. The [video playlist](https://www.youtube.com/playlist?list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr) is ~2 hours long, and the whole course will take 4-10 hours. This course is completely free.
 
-#### The 5 projects you will do are:
+1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
+1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
+1. Follow along and build the projects.
+1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
 
-1. _Build and deploy your first website_: add your link to your doc, and move on to...
-1. _Build a Google.com clone_: add the link to your doc, and move on to...
-1. _Build a Digital Business_ card: add your link to your doc, and move on to...
-1. _Build a Space Exploration site_: add your link to your doc, and move on to...
-1. _Build a Birthday GIFt site_: add your link to your doc, and...
+#### The 4 projects you will do are:
 
-When you have finished all five projects, add the link to your Google doc to the CYF Course Platform to complete the step.
+1. Project: Travel webpage
+1. Project: Recipe book
+1. Project: Blog
+1. Project: Event invite
+
+#### The project you will deploy to GitHub Pages is:
+
+4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
 
 {{<blocklink
-  src="https://v2.scrimba.com/learn-html-and-css-c0p"
-  name="Learn HTML and CSS"
-  caption="Scrimba">}}
+  src="https://www.khanacademy.org/computing/computer-programming/html-css"
+  name="Computer Programming: Unit 2"
+  caption="Khan Academy">}}

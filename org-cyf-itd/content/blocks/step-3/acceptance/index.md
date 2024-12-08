@@ -14,10 +14,7 @@ A volunteer will review your submission and check it meets the acceptance criter
 Here is the criteria you need to meet:
 
 ```objectives
-- You have shared a link to your personal website deployed on Netlify
-- You have shared a link to your Google.com clone website deployed on Netlify
-- You have shared a link to your Digital Business Card website deployed on Netlify
-- You have shared a link to your Space Exploration website deployed on Netlify
-- You have shared a link to your Birthday GIFt website deployed on Netlify
-- Each of your links includes your name
+- You confirm you have completed Unit 2 of Khan Academy Computer Programming course: HTML/CSS Making Webpages
+- You have shared a link to your Invitation project on GitHub Pages
+- Your website link includes your name
 ```
