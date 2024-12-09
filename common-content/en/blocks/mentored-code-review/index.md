@@ -14,7 +14,7 @@ time = 15
 +++
 
 Our learners get feedback on their work through code review.
-In jobs, colleagues review each others code to understand code, look for problems, and both share and learn better ways of doing things.
+At work, colleagues review each others code to understand code, look for problems, and both share and learn better ways of doing things.
 
 At {{<our-name>}} every learner should get code review on their work every week.
 
