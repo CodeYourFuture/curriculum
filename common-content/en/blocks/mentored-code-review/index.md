@@ -27,7 +27,12 @@ Pair up a volunteer with one or more learners.
 
 {{</note>}}
 
-Examples of things it may be useful to explain:
+<details><summary>
+
+### Hints and tips
+
+</summary>
+
 1. How did you understand what the goal of the PR is? Reading the title and description, looking at the coursework exercises, etc.
 2. The uses of the different tabs in a PR: Conversation, Commits, Files changed.
 3. What made a PR easy or hard to review:
