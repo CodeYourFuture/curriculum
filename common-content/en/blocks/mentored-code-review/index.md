@@ -1,7 +1,7 @@
 +++
 title="Mentored code review"
 
-time = 15
+time = 20
 [objectives]
     1="Explain what a code reviewer is looking for in a PR."
     2="Describe elements of the GitHub code review interface."
