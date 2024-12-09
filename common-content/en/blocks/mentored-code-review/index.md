@@ -27,11 +27,9 @@ Pair up a volunteer with one or more learners.
 
 {{</note>}}
 
-<details><summary>
+<details>
 
-### Hints and tips
-
-</summary>
+<summary>Hints and tips</summary>
 
 1. How did you understand what the goal of the PR is? Reading the title and description, looking at the coursework exercises, etc.
 2. The uses of the different tabs in a PR: Conversation, Commits, Files changed.
@@ -39,3 +37,4 @@ Pair up a volunteer with one or more learners.
    1. Where unrelated files/lines changed?
    2. Was code consistently formatted? Did indentation help or hurt understanding?
 4. How did you review the code? Did you read top-to-bottom? Did you jump around into and out-of functions? Did you look at tests? Did you clone the code locally and try running it?
+</details>
