@@ -17,7 +17,6 @@ weight = 11
 - Track changes to data (your code) over time with Git and GitHub.
 - Structure data for presentation and user input with HTML and HTML forms.
 - Query and analyse structured data with SQL in a spreadsheet.
-- Write one line of Python code that can process and transform data programmatically.
 ```
 
 ### 💯 To complete _any_ module, you must:
