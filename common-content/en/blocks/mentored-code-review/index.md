@@ -18,7 +18,14 @@ At work, colleagues review each others code to understand code, look for problem
 
 At {{<our-name>}} every learner should get code review on their work every week.
 
-Pair up a volunteer with one or more learners. The volunteer will review a pull request, and should talk aloud what they're looking for and doing. The learner(s) should ask questions as they do.
+{{<note type="activity" title="Live Code Review">}}
+
+Pair up a volunteer with one or more learners. 
+
+- The volunteer will review a pull request, and talk out loud about what they're looking for and doing.
+- The learner(s) will ask questions as they do.
+
+{{</note>}}
 
 Examples of things it may be useful to explain:
 1. How did you understand what the goal of the PR is? Reading the title and description, looking at the coursework exercises, etc.
