@@ -25,3 +25,6 @@ git version 2.40.0
 ```
 
 Otherwise, you will need to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) it or ask for support on your Slack channel.
+
+> [!TIP]
+> If you are working on a library computer, you do not have a terminal, but your github.dev account already has Git installed. (It's called "Source Control".) So you can skip this step.

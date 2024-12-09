@@ -10,13 +10,15 @@ hide_from_overview=true
 
 +++
 
-Download and install the following software or register for the apps.
+Download and install the following software or register for the apps if you have not done so already
 
 Click on the links to go to the registration pages. Keep your login details for all sites/apps consistent and always use your real name.
 
-{{<note type="info" title="Real Name" >}}
-We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
-{{</note>}}
+> [!IMPORTANT]
+>
+> ##### Real name
+>
+> We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 
 Every time you create an account which can have a profile picture, you should set one up. Follow these [professional image guidelines](https://www.linkedin.com/business/talent/blog/product-tips/tips-for-taking-professional-linkedin-profile-pictures) when picking an image. Use the same picture for every account.
 
@@ -52,9 +54,10 @@ Use your professional Chrome profile for all your {{<our-name>}} work. You will 
 
 ### GitHub
 
-You will use [GitHub](https://github.com/signup) to store your code and to collaborate with your peers.
+You will use [GitHub](https://github.com/signup) to store your code and to collaborate with your peers. You have already made a GitHub account, but you need to check it is professional. You can change your username in your settings. You can add your professional email address in your settings too. (You can have more than one email address on your account.)
 
-- [ ] I have made a GitHub account using my professional email address.
+- [ ] My GitHub account shows my professional name
+- [ ] I have added my professional email address to my GitHub account.
 
 ### LinkedIn
 

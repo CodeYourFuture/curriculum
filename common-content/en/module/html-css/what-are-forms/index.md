@@ -48,7 +48,7 @@ So that's the point of all this.
 
 👩🏻‍💻💬 **Mentor:** Right! You put a piece into a form field; you just put _one thing_ in there. A form has many fields, and a field is a single piece of data. It is the smallest piece.
 
-So we [structure data with forms](https://developer.mozilla.org/en-US/docs/Learn/Forms). And we do that by defining form fields.
+So we [structure data with forms](https://developer.mozilla.org/en-US/docs/Learn/Forms). And we do that by defining form fields with [semantic HTML](https://web.dev/learn/html/semantic-html).
 
 {{<note title="Now practise with">}}
 
@@ -127,7 +127,7 @@ What you need to focus on is _what you're actually doing_. We're structuring dat
 <details>
 <summary>🧑🏿‍💻💬 Trainee: But then aren't all form elements validation?</summary>
 
-🧑🏽‍💻💬 **Mentor:** You _could_ say that all the rules you make about what the user can put in a field are also validation. Every `type` we just named - input type checkbox, input type email, number, date... are rules about data.
+🧑🏽‍💻💬 **Mentor:** You _could_ say that all the rules you make about what the user can put in a field are also validation. Every `type` we just named - input type checkbox, input type email, number, [date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)... are rules about data.
 
 I think the difference is that there's no way to type into a checkbox: there's no error message, you just can't do it. If you type your birthday into an email field, the browser will tell you that's not a valid email address. So one is just impossible to do and the other gives you an error message, and that's normally what we mean by validation.
 
