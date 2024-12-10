@@ -10,7 +10,7 @@ hide_from_overview="true"
 
 Double-check you have everything you need to start this course.
 
-- [ ] You have applied to _this course_ and received an invitation to join
+- [ ] You have completed ITD and received an invitation to join this course by email
 - [ ] You have signed the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/)
 - [ ] You have signed the Learner agreement sent to you by email
 - [ ] You know how to get to class in person or online

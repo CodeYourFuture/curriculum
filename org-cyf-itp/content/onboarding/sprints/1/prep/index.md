@@ -5,6 +5,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="GitHub Dot Dev"
+src="module/induction/dot-dev"
+[[blocks]]
 name="Install VS Code"
 src="module/induction/install-vscode"
 time=10
@@ -61,6 +64,10 @@ src="module/induction/branching"
 [[blocks]]
 name="wrapping up Git"
 src="module/induction/wrapping-up"
+[[blocks]]
+name="Using GitHub Dev to complete coursework on a library computer"
+src="https://www.youtube.com/watch?v=qkEL0LaTc4k"
+time=15
 [[blocks]]
 name="backlog"
 src="blocks/backlog"
