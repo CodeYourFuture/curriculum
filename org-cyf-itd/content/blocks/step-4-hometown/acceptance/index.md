@@ -9,14 +9,13 @@ time= 5
   publishResources = false 
 +++
 
-You will be asking for code review feedback on this project in the CYF Slack workspace, so make sure you have joined. Please make sure you check back to review your feedback. You will need to take this feedback and implement it to complete this step.
+A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
 
 Here is the criteria you need to meet:
 
 ```objectives
-- You have built a website by yourself
-- Your website expresses something personal about your home town or a place you like
-- You have asked for code review in the ITD Slack workspace
-- You have made changes based on the feedback you received
-- You have deployed your site to Netlify and shared the link here
+- You have built a webpage by yourself
+- Your webpage expresses something personal about your home town or a place you like
+- Your webpage is error free and contain sufficient amount of content
+- You have shared a link in the form `http(s)://<github-username>.github.io/<repository>`
 ```
