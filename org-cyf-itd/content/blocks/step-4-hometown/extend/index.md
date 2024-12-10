@@ -9,11 +9,11 @@ time= 60
   publishResources = false 
 +++
 
-The step is optional. You don't need use it in your webpage.
+The step is optional.
 
 #### What's Next?
 
-If you'd like to learn more about organizing elements on a webpage, you might find the following resources helpful. 
+If you'd like to learn more about organising elements on a webpage, you might find the following resources helpful. 
 
 1. ***CSS Flexbox*** -- A flexible 1-D layout system
   - [W3Schools: CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)

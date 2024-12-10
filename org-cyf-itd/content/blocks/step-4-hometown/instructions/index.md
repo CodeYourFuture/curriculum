@@ -9,13 +9,13 @@ time= 240
   publishResources = false 
 +++
 
-Deploy a webpage that introduces your hometown (or a place you like) at [Github Pages](https://pages.github.com/).
+Deploy a webpage that introduces your hometown (or a place you like) on [Github Pages](https://pages.github.com/).
 - You can freely design your webpage
-- Your HTML and CSS code should be error free
+- Your HTML and CSS code should be free of errors
   - Use a [HTML Validator](https://validator.w3.org/) to validate your HTML code
   - Use a [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate your CSS code
-- You should include at least four images and significant amount of text in your webpage
-  - Tips: You can utilise ChatGPT to produce professional-like content
+- You should include at least four images and a substantial amount of text on your webpage
+  - Tips: You can use ChatGPT to help generate professional-quality content
 
 
 #### Rules

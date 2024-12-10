@@ -11,7 +11,7 @@ time= 5
 
 ### Submission
 
-You must submit a link, in the form `http(s)://<github-username>.github.io/<repository>`, to your work in the [CYF Course platform](https://application-process.codeyourfuture.io).
+You must submit a link (in the form `http(s)://<github-username>.github.io/<repository>`) to your work on the [CYF Course platform](https://application-process.codeyourfuture.io).
 
 
 
