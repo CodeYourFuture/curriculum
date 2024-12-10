@@ -11,11 +11,9 @@ time= 5
 
 ### Submission
 
-Make a public Google Doc. Add a link to your revised Hometown Homepage. Add a CYF blocks sharelink from a project you have completed. Share the link to your Google Doc on the CYF Course Platform.
+1. Upload a screenshot of your result to this step in the Learning Journey platform.
 
-### Checklist
+This is all you need to submit for now.
 
-- [ ] I have made a public Google Doc.
-- [ ] I have added a link to my revised Hometown Homepage.
-- [ ] I have added a CYF blocks sharelink.
-- [ ] I have shared the link to my Google Doc on the CYF Course Platform.
+> [!NOTE]
+> To qualify as a CYF trainee and access later, funded courses like [The Piscine](https://piscine.codeyourfuture.io/), you will be required to take a proctored English exam. This will be a free, certified exam, donated by our partners, Duolingo.

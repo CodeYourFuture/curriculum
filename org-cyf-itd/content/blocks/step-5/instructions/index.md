@@ -1,27 +1,26 @@
 +++
-title ="Step 1: What to do"
-description= "Use block programming to produce real web code"
+title ="Step 6: What to do"
+description= "Take the Duolingo Practice Test"
 emoji= "🤖"
-time= 360
+time= 45
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-1. Go to the [CYF Blocks](https://blocks.codeyourfuture.io/#introduction) page:
-1. Read the [instructions](https://blocks.codeyourfuture.io/#introduction)
-1. Complete lessons 1 through 16
-1. Build at least one project
-1. Use what you learned to improve your Hometown Homepage. Add at least one dynamic element to your page. For example, you could add a menu that opens when you click a button, or a counter that adds stars to your page.
-1. Make a Google docs document with a link to your improved Hometown Homepage and a CYF Blocks sharelink from a project you have completed.
+### Preparation
 
-> [!TIP]
-> Use [the examples section](https://blocks.codeyourfuture.io/examples#understanding_cyf_blocks_interface) to help you understand how to use blocks.
+1. Find 50 minutes where you will not be interrupted
+1. [Register on the Duolingo website](https://englishtest.duolingo.com/register) to do the Practice Test
+1. You need to look at your camera during some exercises. Test that your camera and microphone are working. You may need to do this test on your phone.
 
-1. Share _one_ project. For example, once you have completed* Project: Build an image carousel*, press the [Share] button and paste the very very long URL in here. The URL will begin with `https://blocks.codeyourfuture.io/share.html?v=`
+### Take the test
 
-2. The **goal** is to use the generated code to add a {{<tooltip title="dynamic feature">}}A dynamic feature means the website changes with some input or interaction.{{</tooltip>}} to your own project. Copy paste your block-generated code into a single `.js` file and add it, with the html and css, to your Hometown Homepage project. Share the link to your improved website.
+1. Go to the [Duolingo Practice Test](https://englishtest.duolingo.com/test/practice) page
+1. Take the test, which will be around 45 minutes
+1. Take a screenshot of your result
+1. Upload your image to this step in the Learning Journey platform
 
 {{<blocklink
   src="https://blocks.codeyourfuture.io/#introduction"
