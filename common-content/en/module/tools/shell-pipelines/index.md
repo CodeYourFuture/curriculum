@@ -16,7 +16,7 @@ Read the learning objectives listed on this page: Bear in mind what you’re try
 Read [Thinking in Pipelines from Effective Shell](https://effective-shell.com/part-2-core-skills/thinking-in-pipelines/).
 {{</note>}}
 
-Key take-aways:
+### Key take-aways:
 * Most programs take some input, and produce some output.
 * Instead of writing one program to do exactly what we want, we can often combine existing programs.
 * Programs read from stdin, and write to stdout and stderr.
