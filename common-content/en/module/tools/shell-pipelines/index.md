@@ -22,7 +22,7 @@ Key take-aways:
 * Programs read from stdin, and write to stdout and stderr.
   * They write their main output to stdout.
   * They write error messages, progress messages, and other information that isn't their main output to stderr.
-* We can pass information between programs using a pipe (`|`).
+* We can pass information between programs using a pipe: `|`
 * We can write the output of programs to a file using `>`, or append to a file using `>>`.
 
 {{<multiple-choice
