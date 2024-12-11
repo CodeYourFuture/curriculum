@@ -27,6 +27,8 @@ emoji= "📖"
     20="Explain one advantage of compiled languages, and one advantage of interpreted languages."
 +++
 
+Read the learning objectives listed on this page: Bear in mind what you’re trying to achieve while reading this text. If a topic isn’t making much sense, and isn’t in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you’ve met the objective.
+
 {{<note type="Reading">}}
 Read chapter 9 of How Computers Work.
 
