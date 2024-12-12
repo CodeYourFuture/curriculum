@@ -5,7 +5,7 @@ time = 20
 facilitation = false
 emoji= '🧰'
 [objectives]
-1='Access the dotdev environment on a library computer'
+1='Access the dotdev environment on a library computer if you don't have your own'
 [build]
   render = 'never'
   list = 'local'
