@@ -27,7 +27,7 @@ name="Study Group"
 src="module/onboarding/development"
 time=45
 [[blocks.nested.blocks]]
-name="Pair Programming"
+name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Submit your Step"
