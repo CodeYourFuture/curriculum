@@ -22,7 +22,7 @@ Find the learning objectives for the text you are reading now. These are the goa
 
 Now find the learning objectives for Sprint 1. We call these the "success criteria". These are the goals for the first sprint of the module. This is what you should be able to do after completing Sprint 1.
 
-This formal structure might be new to you. It is a way to help you evaluate for yourself whether you have achieved the goals of the module. If you have done (and can do) the things listed in the learning objectives, you have gained the skill. If you have not, you have not yet gained the skill.
+This formal structure might be new to you. It is a way to help you evaluate for yourself whether you have achieved the goals of the module. If you have done (and can do) the things listed in the learning objectives, you have gained the skill. If you have not, you have not yet gained the skill, and should keep working at it.
 
 As we are just meeting this idea, let's go over them here too. The overall goals of this module are based around these themes: version control, requirements and testing, code review, data, scientific method, and enrollment. Write each of these themes down in your notebook.
 
