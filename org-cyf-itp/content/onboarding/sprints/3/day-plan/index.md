@@ -30,7 +30,7 @@ time=45
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
-name="Submit your Step"
+name="Optional structured activity: Submit your Step"
 src="module/onboarding/steps"
 [[blocks]]
 name="Afternoon break"
