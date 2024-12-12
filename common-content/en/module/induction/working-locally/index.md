@@ -14,6 +14,15 @@ emoji= '💻'
 
 +++
 
+Here is a diagram representing how the repositories interact after forking and cloning:
+
+![fork-and-clone-diagram](fork-and-clone-diagram.png)
+
+Sketch this diagram in your notebook. When you inevitably get mixed lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
+
+> [!NOTE]
+> If you're working on a library computer, just fork the repo to your own GitHub account. You can't clone a repo on a library computer, so come to class to try cloning out.
+
 We can also use Git on our local machine to perform similar tasks as we do on GitHub. So we need to address the following question:
 
 > How can we get a copy of an existing GitHub repository on our local machine?

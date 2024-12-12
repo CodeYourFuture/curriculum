@@ -20,14 +20,14 @@ In this session, we're going to describe how we harness our community to learn t
 
 ### Resources
 
-The facilitator will use this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVNeEASJc=/?share_link_id=563047396351)
+The facilitator will make a copy of this presentation 👉 [Learning as a community presentation](https://miro.com/app/board/uXjVNeEASJc=/?share_link_id=563047396351) or set the same thing up on a physical board with sticky notes.
 
 ### Preparation
 
-- [ ] Facilitator: Review [how this works](how-this-works) and the Miro board [Learning as a community](hhttps://miro.com/app/board/uXjVNeEASJc=/?share_link_id=563047396351) before class.
-- [ ] Facilitator: Ensure everyone can access the Miro board presentation.
+- [ ] Facilitator: Review [how this works](how-this-works) and the Miro board [Learning as a community](https://miro.com/app/board/uXjVNeEASJc=/?share_link_id=563047396351) before class.
 - [ ] Facilitator: Split the class into groups of no more than 5.
-- [ ] Facilitator: Make sure every group has access to a piece of paper and pen if you are in person.
+- [ ] Facilitator: Ensure everyone can access the board if you are online.
+- [ ] Facilitator: Make sure every group has access to sticky notes and pens if you are in person.
 
 ### Introduction
 

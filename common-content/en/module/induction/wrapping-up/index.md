@@ -16,7 +16,7 @@ hide_from_overview = true
 
 {{<note type="activity" title="Creating a commit - Figure it out 🔍">}}
 
-📋 Double check the learning objectives from this section. Make a note of those objectives that you're still struggling with.
+📋 Double check the learning objectives from this sprint. Make a note of those objectives that you're still struggling with.
 
 Now you'll need to **create a commit**.
 
