@@ -6,7 +6,7 @@ hide_from_overview=true
 objectives = [
   "List the core goals of the module",
   "Find the learning objectives for Sprint 1",
-  "Find the overall success criteria for the module"
+  "Describe what you need to do in order to complete the onboarding module"
 ]
 [build]
   render = 'never'
@@ -14,7 +14,9 @@ objectives = [
   publishResources = false
 +++
 
-You have joined us as a Learner. Your overall goal for this module is to enroll as a Trainee within the next three weeks.
+You have joined us as a Learner. Your overall goal for this module is to understand how to succeed at the ITP course.
+
+To demonstrate you know how to succeed at the course, you should enroll as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
 
 > 🎯 Complete onboarding and enroll as a Trainee
 
@@ -24,7 +26,9 @@ Now find the learning objectives for Sprint 1. We call these the "success criter
 
 This formal structure might be new to you. It is a way to help you evaluate for yourself whether you have achieved the goals of the module. If you have done (and can do) the things listed in the learning objectives, you have gained the skill. If you have not, you have not yet gained the skill, and should keep working at it.
 
-As we are just meeting this idea, let's go over them here too. The overall goals of this module are based around these themes: version control, requirements and testing, code review, data, scientific method, and enrollment. Write each of these themes down in your notebook.
+As we are just meeting this idea, let's go over them here too. The skills you'll learn in this module are based around these themes: version control, requirements and testing, code review, data, and scientific method. Write each of these themes down in your notebook.
+
+To complete the module, you will need to demonstrate you have learnt these skills, and apply to enroll as a Trainee.
 
 #### Version control
 
