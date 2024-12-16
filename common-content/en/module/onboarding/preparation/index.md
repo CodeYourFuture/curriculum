@@ -23,7 +23,7 @@ Now go read over the day plans, backlogs, success criteria and complete the quiz
 {{<multiple-choice
   question="What time does class start?"
   answers="Any time in the morning | 10am sharp | It's on-demand"
-  feedback="No, it's a mistake to be late for class. | Yes, you should be ready to begin at 10am. | No, you must come to class in person and on time."
+  feedback="No, it's a mistake to be late for class. | Yes, you should be ready to begin at 10am. | No, you must come to class on time."
   correct="1" >}}
 
 {{<multiple-choice

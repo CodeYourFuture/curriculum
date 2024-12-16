@@ -20,13 +20,16 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Welcome to Code Your Future"
-src="https://www.youtube.com/watch?v=QBfhPkBW9Pk"
-time=5
+name="Workshop: Using the Curriculum"
+src="module/fundamentals/using-the-curriculum"
+time=60
 [[blocks]]
-name="Workshop"
-src="module/induction/learning-as-community"
-time=120
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Workshop: Using GitHub"
+src="https://github.com/CodeYourFuture/Developer-Specs"
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -42,17 +45,17 @@ name="Study Group Development"
 src="module/onboarding/development"
 time=75
 [[blocks.nested.blocks]]
-name="Pomodoro"
+name="Optional structured activity: Pomodoro"
 src="module/onboarding/pomodoro"
 [[blocks.nested.blocks]]
-name="Pair Programming"
+name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Bikes for Refugees Project"
 src="https://github.com/CodeYourFuture/Module-Onboarding/issues/22"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-User-Focused-Data/pulls"
+src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
 time=0
 [[blocks]]
 name="Wrap"
