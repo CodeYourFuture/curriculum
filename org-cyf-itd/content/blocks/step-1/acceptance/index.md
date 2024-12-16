@@ -15,8 +15,9 @@ Here is the criteria you need to meet:
 
 ```objectives
 - You have generated a cover letter for Jane using AI
-- You have saved the contents in a document
-- You have added your name to the document file name
-- You have uploaded the document
-- You have added three comments giving feedback on the AI’s work
+- You have saved the cover letter in a Google Docs document
+- You have added your name to the document's file name
+- You have made the document public
+- You have uploaded the link to the document to this site
+- You have added a comment on the document giving feedback on the content
 ```
