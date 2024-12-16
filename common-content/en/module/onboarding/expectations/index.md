@@ -35,5 +35,5 @@ hide_from_overview="true"
 {{<multiple-choice
   question="Do you have to attend all the classes?"
   answers="Yes, we should act professionally | Nah, it's a casual hobby"
-  feedback="Right! Participating, in person if possible, to the best of your ability is necessary. | No, this isn't a coding club, it's a vocational training programme and classes are part of it."
+  feedback="Right! Participating to the best of your ability is necessary. You will get more out of attending in person if possible, but if not there's online class too. | No, this isn't a coding club, it's a vocational training programme and classes are part of it."
   correct="0" >}}
