@@ -26,4 +26,7 @@ src="module/how-our-curriculum-works/study-groups"
 [[blocks]]
 name="backlog"
 src="module/how-our-curriculum-works/backlog"
+[[blocks]]
+name="tasks and ratios"
+src="module/how-our-curriculum-works/tasks-and-ratios"
 +++
