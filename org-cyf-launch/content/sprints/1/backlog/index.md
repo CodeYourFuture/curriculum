@@ -5,5 +5,5 @@ emoji= '🏷️'
 menu_level = ['sprint']
 weight = 2
 backlog= 'Module-The-Launch'
-backlog_filter= 'Week 1'
+backlog_filter='📅 Week 1'
 +++

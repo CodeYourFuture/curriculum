@@ -11,7 +11,7 @@
   {{ $termTitle := $termPage.Title }}
   {{ $values := index (index site.Taxonomies $taxonomy_to_map) $termID }}
 
-  {{ $section := dict "title" $termTitle "values" $values }}
+  {{ $section := dict "title" $termTitle "termPageLink" $termPage.RelPermalink "values" $values "metadata" $termPage.Params.details }}
   {{ $sections = append $section $sections }}
 {{ end }}
 
