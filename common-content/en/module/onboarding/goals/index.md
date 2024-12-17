@@ -32,24 +32,24 @@ To complete the module, you will need to demonstrate you have learnt these skill
 
 #### Version control
 
-You will have tracked changes to data (your code) over time with Git and GitHub. Your goal is to build a mental model of Git "trees" and begin learning ways to travel through files using the "time machine" of Git.
+_By the end of this module_ you will have tracked changes to data (your code) over time with Git and GitHub. Your goal is to build a mental model of Git "trees" and begin learning ways to travel through files using the "time machine" of Git.
 
 #### Requirements and Testing
 
-You will have tested your work using acceptance criteria, manual testing, and automated testing. Your goal is to interpret requirements and write code to meet acceptance criteria.
+_By the end of this module_ , you will have tested your work using acceptance criteria, manual testing, and automated testing. Your goal is to interpret requirements and write code to meet acceptance criteria.
 
 #### Code review
 
-You will have revised, refactored, and reviewed code using code review. Your goal is to form the habits of a professional who can think, talk, and write in a technical context.
+_By the end of this module_ you will have revised, refactored, and reviewed code using code review. Your goal is to form the habits of a professional who can think, talk, and write in a technical context.
 
 #### Data
 
-You will have manipulated data with HTML, Git, and Google Sheets. Your goal is to begin to understand how data is structured and how to manipulate it.
+_By the end of this module_ you will have manipulated data with HTML, Git, and Google Sheets. Your goal is to begin to understand how data is structured and how to manipulate it.
 
 #### Scientific method
 
-You will have written and asked well-structured developer questions. Your goal is to build a strategy to methodically solve problems.
+_By the end of this module_ you will have written and asked well-structured developer questions. Your goal is to build a strategy to methodically solve problems.
 
 #### Enrollment
 
-You will have enrolled as a Trainee. Your goal is to complete the onboarding process and enroll as a Trainee.
+_By the end of this module_ you will have enrolled as a Trainee. Your goal is to complete the onboarding process and enroll as a Trainee.

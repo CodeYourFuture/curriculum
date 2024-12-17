@@ -18,4 +18,6 @@ To take this course you must have completed [Intro to Digital](https://itd.codey
 
 You will receive an email within two weeks of completing ITD, inviting you to begin this course as a Learner. All operational details should be linked in this email. If you have not received an email, please tell us at contact@codeyourfuture.io.
 
-If you have been invited, please now continue...
+Log in to your [Course Portal](https://application-process.codeyourfuture.io/). This the same portal you used to complete ITD. A new set of steps should have appeared. These are the steps to complete ITP.
+
+If you are all signed up and logged in, please now continue...
