@@ -10,7 +10,7 @@ weight = 11
 2="Link to your PR for [Form Controls](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/88)"
 +++
 
-> 🎯 Complete onboarding and [enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)
+> 🎯 Complete onboarding and [apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)
 
 ### 🎯 You've achieved your learning objectives if you can:
 
@@ -34,5 +34,6 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
 1. Link to the two Pull Requests on your issue. You don't have to wait for your PRs to be reviewed, but you must have made them.
 1. Submit the issue link to step 1 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/)
-1. [Enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)
-1. Here are those PRs again:
+1. [Apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA).
+
+Here are those PRs again:

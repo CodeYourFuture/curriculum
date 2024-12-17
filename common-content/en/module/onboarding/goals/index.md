@@ -16,7 +16,9 @@ objectives = [
 
 You have joined us as a Learner. Your overall goal for this module is to understand how to succeed at the ITP course.
 
-To demonstrate you know how to succeed at the course, you should enroll as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
+To demonstrate you know how to succeed at the course, you should apply to enroll as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
+
+If eligible, you should enroll as a Trainee within the next three weeks.
 
 > 🎯 Complete onboarding and enroll as a Trainee
 
