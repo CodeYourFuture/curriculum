@@ -17,6 +17,58 @@ Attendees:
 
 ---
 
+## 2024-12-17
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+* [x] Sally: Write LOs for ITP Onboarding module
+* [ ] Mitch: Write up a ticket to replace Jest with vanilla Node testing libraries
+
+### 📝 Agenda points
+
+#### Update on the SDC
+
+* Tools module is mostly there - just a bit of writing up to do.
+  * Discussion about possibly removing Python - we probably want to keep it for now and not change _too_ many bits of ITP at one time.
+
+#### Feedback on ITP
+
+From Levi (a grad, who is TAing in Sheffield)
+
+* Much better in comparison to the previous version of the curriculum
+* A lot of the structure is really nice - the Day Plan (should) provide structure
+* Ordering the prep is really useful
+* The Code In Place Python course is really high quality
+
+From another volunteer
+
+* Curriculum isn't a reference document (e.g. doesn't define the JavaScript data types in a list) - we probably want to document explaining why we have made it like this.
+
+#### Syllabus team reps
+
+Daniel is trying to set up the "community leader" style role we always talk about. See [doc about the role](https://docs.google.com/document/d/1hyR0ZKnyp_FECg4v1FpeBL7iYS85uzunEFSALl_MeOo/edit).
+
+Things we've done in the past that have worked, and/or to think about:
+* Attending class, observing what's happening, giving small targeted feedback.
+* Pulling all of the volunteers into a room for 10 minutes and just having a chat.
+* Maybe doing volunteer orientation at the start of class days.
+* Consider cross-pollination between volunteers running multiple courses.
+* Acknowledging that the big pause means a lot of our volunteers don't have the experience/habit of being in class, and we can't rely on collective memory.
+* Maybe a short friendly URL to point volunteers at "How this works"?
+* We want to frame this in a way that doesn't make people feel like aspiring to this role is a big aim - don't want people to feel lesser because they're not taking on this role.
+  * Also, want to frame this as more of a hat than a role - something someone happens to be doing this week, rather than something they are.
+* Morning orientation being presented both to the trainees and the volunteers together means the trainees know what should be happening, and can set and continue that tone.
+
+### ❗Actions
+
+* [ ] Mitch (carry-over): Write up a ticket to replace Jest with vanilla Node testing libraries
+* [ ] Mitch: Write up why the curriculum looks like it does, and isn't set up like a reference
+* [ ] Ali: Write up a ticket for "Make it easy to say out loud "
+
+---
+
 ## 2024-12-03
 
 Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
