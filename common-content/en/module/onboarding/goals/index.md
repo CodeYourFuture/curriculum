@@ -1,6 +1,6 @@
 +++
 title="🎯 Goals"
-time=2
+time=10
 emoji="🎯"
 hide_from_overview=true
 objectives = [
