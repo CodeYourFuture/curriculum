@@ -1,11 +1,9 @@
 +++
 title = 'Sprint 1'
-description = 'The plan for the week'
+description = 'What to do, in order, to complete Sprint 1'
 layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
 theme = 'Version control'
 +++
-
-
