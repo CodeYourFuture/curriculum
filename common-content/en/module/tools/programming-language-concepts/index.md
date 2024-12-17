@@ -4,27 +4,13 @@ headless = true
 time = 120
 facilitation = false
 emoji= "📖"
-[objectives]
-    1="Describe what a variable is."
-    2="Describe how a variable relates to a memory location."
-    3="Identify whether variables have fixed types in C, Python, and JavaScript."
-    4="Explain how the next memory location is found when declaring a local variable on the stack."
-    5="Explain why some variables are allocated on the heap not the stack."
-    6="Explain when memory used for a variable on the stack is released."
-    7="Explain when memory used for a variable on the heap is released."
-    8="Define an operator."
-    9="Give examples of common operators."
-    10="Explain the difference between integer division and floating point division."
-    11="Describe the meaning of the &, |, ^, and ~ bitwise operators."
-    12="Manually perform the function of the &, |, ^, and ~ bitwise operators on two integers."
-    13="Describe the meaning of the && (and), || (or), and ! (not) operators."
-    14="Explain when it's more appropriate to use a while loop or a for loop."
-    15="Identify and explain the differences between a function definition in C and Python."
-    16="Explain what happens when you call a function."
-    17="Explain what a class is."
-    18="Describe the relationship between an object and a class."
-    19="Compare compiled and interpreted languages."
-    20="Explain one advantage of compiled languages, and one advantage of interpreted languages."
+objectives=[
+    "Describe what a variable is.",
+    "Describe how a variable relates to a memory location.",
+    "Give examples of common operators.",
+    "Describe the meaning of the && (and), || (or), and ! (not) operators.",
+    "Explain what happens when you call a function.",
+]
 +++
 
 Read the learning objectives listed on this page: Bear in mind what you’re trying to achieve while reading this text. If a topic isn’t making much sense, and isn’t in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you’ve met the objective.
@@ -32,9 +18,43 @@ Read the learning objectives listed on this page: Bear in mind what you’re try
 {{<note type="Reading">}}
 Read chapter 9 of How Computers Work.
 
-Do every exercise listed in the chapters.
+Do every exercise listed in the chapter.
 
 You can skip the projects (though you're welcome to try any of them if you have time!).
 {{</note>}}
 
 Check you have achieved each learning objective listed on this page.
+
+{{<note type="Exercise">}}
+Write down an explanation of what a variable is. Make sure to use the term "memory location" in your explanation.
+{{</note>}}
+
+{{<note type="Exercise">}}
+Write down what operators you have used in a programming language.
+
+Next to each, write down whether it's a unary, binary, or ternary operator.
+
+Make sure you have at least one example of a unary operator, a binary operator, and a ternary operator.
+{{</note>}}
+
+{{<note type="Exercise">}}
+Write down what happens when you call a function.
+
+Make sure you include how the "next line of code to run" moves around, parameters/arguments, return values, and scope.
+{{</note>}}
+
+{{<note type="Exercise">}}
+Write down an explanation of what a class is, which could be understood by someone who's never written any code before.
+
+Include at least one real-world example of when a class is useful.
+
+Make sure you describe the relationship between a class and an instance of a class.
+{{</note>}}
+
+{{<note type="Exercise">}}
+Instances of classes are often called objects.
+
+This kind of "object" is similar to, but slightly different from what we call an "object" in JavaScript.
+
+Write down the differences between the two meanings of the word object.
+{{</note>}}
