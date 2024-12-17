@@ -21,7 +21,7 @@ Here is a diagram representing how the repositories interact after forking and c
 Sketch this diagram in your notebook. When you inevitably get mixed lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
 
 > [!NOTE]
-> If you're working on a library computer, just fork the repo to your own GitHub account. You can't clone a repo on a library computer, so come to class to try cloning out.
+> If you're working on a library computer, just fork the repo to your own GitHub account. You can't clone a repo on a library computer, so come to class to try cloning out. You can explore the files using dot dev in the same way as you would in Visual Studio Code.
 
 We can also use Git on our local machine to perform similar tasks as we do on GitHub. So we need to address the following question:
 

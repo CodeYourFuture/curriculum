@@ -30,4 +30,4 @@ VSCode is an application that enables developers to view and edit files on their
 {{</note>}}
 
 > [!NOTE]
-> If you're working on a library computer, use dot dev to open the repo in your browser, and navigate the files and folder there. You cannot open a terminal in the library, so come to class to try this out.
+> If you're working on a library computer, use dot dev to open the repo in your browser, and navigate the files and folder there. You cannot open a terminal in the library, so come to class to try this part out.
