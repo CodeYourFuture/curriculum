@@ -1,7 +1,7 @@
 +++
 title = 'day plan'
 layout = 'day-plan'
-description='The agenda and activities for the first day of the course'
+description='The agenda and activities for our first day together'
 emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['module']
 weight = 3
