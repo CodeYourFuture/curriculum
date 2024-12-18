@@ -35,16 +35,21 @@ class PR {
         this.createdAge = createdAge;
         this.updatedAge = updatedAge;
         this.status = status;
+        this._didLoadReviews = false;
         this.reviews = [];
     }
 
     async loadReviews() {
+        if (this._didLoadReviews) {
+            return;
+        }
         const response = await fetch(`${apiPrefix}/${this.module}/pulls/${this.number}/reviews`);
         const reviews = await response.json();
         for (const reviewResponse of reviews) {
             const review = new Review(reviewResponse.user.login, reviewResponse.user.login === this.userName, identifyAge(new Date(Date.parse(reviewResponse["submitted_at"]))), reviewResponse.state);
             this.reviews.push(review);
         }
+        this._didLoadReviews = true;
     }
 
     hasReviewer() {
@@ -83,7 +88,7 @@ function getStatus(state, labels) {
     return "Unknown";
 }
 
-export async function fetchPrs() {
+export async function fetchPrsWithoutLoadingReviews() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
@@ -101,10 +106,5 @@ export async function fetchPrs() {
             prs.push(new PR(pr.html_url, pr.number, pr.user.login, pr.user.html_url, pr.title, module, identifyAge(createdAt), identifyAge(updatedAt), status));
         }
     }
-    const commentPromises = [];
-    for (const pr of prs) {
-        commentPromises.push(pr.loadReviews());
-    }
-    await Promise.all(commentPromises);
     return prs;
 }
