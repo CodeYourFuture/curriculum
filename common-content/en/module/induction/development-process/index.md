@@ -25,6 +25,6 @@ At the moment, the computer has a folder with the blog that looks like this:
 
 Describe some of the challenges that Ahmed and Naima face when trying to write a blog together in this way.
 
-Create or join a thread 🧵 on Slack to share your answers. Did your cohort colleagues think of similar things?
+Look in Slack. Has someone made a post describing Ahmed and Naima's challenge? Share your answers as a **reply** to this post, making a [conversation 🧵 thread](https://slack.com/intl/en-gb/help/articles/115000769927-Use-threads-to-organise-discussion).
 
 {{</note>}}

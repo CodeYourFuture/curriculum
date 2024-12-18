@@ -28,7 +28,7 @@ We teach you how to look things up. Try to use Google to answer your own questio
 
 #### Use the computer yourself
 
-Don't let volunteers or peers type for you. Ask for help, but do the work on your own.
+Don't let volunteers or peers type for you. Ask for help, but do the work yourself.
 
 #### Help each other out
 
