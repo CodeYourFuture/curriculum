@@ -36,7 +36,24 @@ function computeStatusClass(awaitingReview) {
   }
 }
 
+const state = {
+  "prs": null,
+}
+
 async function onLoad() {
+  render();
+  state.prs = (await fetchPrsWithoutLoadingReviews()).filter((pr) => pr.status === "Needs Review");
+  render();
+  await Promise.all(state.prs.map((pr) => pr.loadReviews()));
+  render();
+}
+
+function render() {
+  if (state.prs === null) {
+    document.querySelector("#pr-list").innerText = "Loading...";
+    return;
+  }
+
   for (const module of modules) {
     awaitingReviewByAge[module] = {
       "this week": 0,
@@ -46,9 +63,7 @@ async function onLoad() {
     prsByModule[module] = [];
   }
 
-  for (const pr of (await fetchPrs()).filter(
-    (pr) => pr.status === "Needs Review"
-  )) {
+  for (const pr of state.prs) {
     awaitingReviewByAge[pr.module][pr.updatedAge]++;
     prsByModule[pr.module].push(pr);
   }
@@ -65,6 +80,7 @@ async function onLoad() {
   }
 
   document.querySelector("#pr-list").innerText = "";
+  document.querySelector("#overview").innerText = "";
 
   for (const module of modules) {
     const awaitingReview = awaitingReviewByAge[module];
@@ -105,7 +121,13 @@ async function onLoad() {
           .querySelector("template.pr-in-list")
           .content.cloneNode(true);
 
-        prInList.querySelector(".emoji").innerText = ageToEmoji[pr.updatedAge];
+        const emojiElement = prInList.querySelector(".emoji");
+        if (pr.hasReviewer()) {
+          emojiElement.innerText = "🙋🏾";
+          emojiElement.title = "Has reviewer";
+        } else {
+          emojiElement.innerText = ageToEmoji[pr.updatedAge];
+        }
 
         const prLink = prInList.querySelector("a.pr-link");
         prLink.href = pr.url;

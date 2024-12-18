@@ -13,6 +13,8 @@ function identifyAge(date) {
     }
 }
 
+const apiPrefix = "https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/";
+
 // TODO: Pull these in from config.
 export const modules = [
     "Module-User-Focused-Data",
@@ -33,7 +35,35 @@ class PR {
         this.createdAge = createdAge;
         this.updatedAge = updatedAge;
         this.status = status;
-        this.comments = [];
+        this._didLoadReviews = false;
+        this.reviews = [];
+    }
+
+    async loadReviews() {
+        if (this._didLoadReviews) {
+            return;
+        }
+        const response = await fetch(`${apiPrefix}/${this.module}/pulls/${this.number}/reviews`);
+        const reviews = await response.json();
+        for (const reviewResponse of reviews) {
+            const review = new Review(reviewResponse.user.login, reviewResponse.user.login === this.userName, identifyAge(new Date(Date.parse(reviewResponse["submitted_at"]))), reviewResponse.state);
+            this.reviews.push(review);
+        }
+        this._didLoadReviews = true;
+    }
+
+    hasReviewer() {
+        return this.reviews.some(review => !review.isPrAuthor);
+    }
+}
+
+class Review {
+    constructor(userName, isPrAuthor, age, state) {
+        this.userName = userName;
+        this.isPrAuthor = isPrAuthor;
+        this.age = age;
+        // e.g. "COMMENTED".
+        this.state = state;
     }
 }
 
@@ -58,11 +88,11 @@ function getStatus(state, labels) {
     return "Unknown";
 }
 
-export async function fetchPrs() {
+export async function fetchPrsWithoutLoadingReviews() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
-        responsePromises.push(fetch(`https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/${module}/pulls?state=all`).then((response) => response.json()));
+        responsePromises.push(fetch(`${apiPrefix}/${module}/pulls?state=all`).then((response) => response.json()));
     }
     const responsesByModule = await Promise.all(responsePromises);
     for (let i = 0; i < responsesByModule.length; i++) {
