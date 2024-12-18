@@ -3,7 +3,7 @@ title="⚖️ Expectations"
 emoji="⚖️"
 time=5
 objectives = [
-  "List the expectations of the track."
+  "List the expectations of the course."
 ]
 hide_from_overview="true"
 [build]
