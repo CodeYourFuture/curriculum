@@ -16,16 +16,9 @@ name="Workshop: Developer Tools"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools/"
 time="120"
 [[blocks]]
-name="lunch"
-src="blocks/lunch"
-[[blocks]]
-name="Blockers! Getting Unstuck"
-src="module/onboarding/blockers"
-time=45
-[[blocks]]
 name="Study Group"
 src="module/onboarding/development"
-time=45
+time=30
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
@@ -33,12 +26,19 @@ src="module/onboarding/pairing"
 name="Optional structured activity: Submit your Step"
 src="module/onboarding/steps"
 [[blocks]]
+name="lunch"
+src="blocks/lunch"
+[[blocks]]
+name="Blockers! Getting Unstuck"
+src="module/onboarding/blockers"
+time=45
+[[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
 name="Study Group"
 src="module/onboarding/development"
-time=75
+time=90
 [[blocks.nested.blocks]]
 name="Optional structured activity: consolidating SQL"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/google-sheets-sql-quiz"
