@@ -105,7 +105,13 @@ async function onLoad() {
           .querySelector("template.pr-in-list")
           .content.cloneNode(true);
 
-        prInList.querySelector(".emoji").innerText = ageToEmoji[pr.updatedAge];
+        const emojiElement = prInList.querySelector(".emoji");
+        if (pr.hasReviewer()) {
+          emojiElement.innerText = "🙋🏾";
+          emojiElement.title = "Has reviewer";
+        } else {
+          emojiElement.innerText = ageToEmoji[pr.updatedAge];
+        }
 
         const prLink = prInList.querySelector("a.pr-link");
         prLink.href = pr.url;

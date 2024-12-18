@@ -13,6 +13,8 @@ function identifyAge(date) {
     }
 }
 
+const apiPrefix = "https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/";
+
 // TODO: Pull these in from config.
 export const modules = [
     "Module-User-Focused-Data",
@@ -33,7 +35,30 @@ class PR {
         this.createdAge = createdAge;
         this.updatedAge = updatedAge;
         this.status = status;
-        this.comments = [];
+        this.reviews = [];
+    }
+
+    async loadReviews() {
+        const response = await fetch(`${apiPrefix}/${this.module}/pulls/${this.number}/reviews`);
+        const reviews = await response.json();
+        for (const reviewResponse of reviews) {
+            const review = new Review(reviewResponse.user.login, reviewResponse.user.login === this.userName, identifyAge(new Date(Date.parse(reviewResponse["submitted_at"]))), reviewResponse.state);
+            this.reviews.push(review);
+        }
+    }
+
+    hasReviewer() {
+        return this.reviews.some(review => !review.isPrAuthor);
+    }
+}
+
+class Review {
+    constructor(userName, isPrAuthor, age, state) {
+        this.userName = userName;
+        this.isPrAuthor = isPrAuthor;
+        this.age = age;
+        // e.g. "COMMENTED".
+        this.state = state;
     }
 }
 
@@ -62,7 +87,7 @@ export async function fetchPrs() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
-        responsePromises.push(fetch(`https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/${module}/pulls?state=all`).then((response) => response.json()));
+        responsePromises.push(fetch(`${apiPrefix}/${module}/pulls?state=all`).then((response) => response.json()));
     }
     const responsesByModule = await Promise.all(responsePromises);
     for (let i = 0; i < responsesByModule.length; i++) {
@@ -76,5 +101,10 @@ export async function fetchPrs() {
             prs.push(new PR(pr.html_url, pr.number, pr.user.login, pr.user.html_url, pr.title, module, identifyAge(createdAt), identifyAge(updatedAt), status));
         }
     }
+    const commentPromises = [];
+    for (const pr of prs) {
+        commentPromises.push(pr.loadReviews());
+    }
+    await Promise.all(commentPromises);
     return prs;
 }
