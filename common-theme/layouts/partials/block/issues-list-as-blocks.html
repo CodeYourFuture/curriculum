@@ -10,8 +10,10 @@
 {{ $variables := dict
   "owner" site.Params.owner
   "repo" .backlog
-  "labels" .backlog_filter
 }}
+{{ if .backlog_filter }}
+  {{ $variables = merge $variables (dict "labels" .backlog_filter) }}
+{{ end }}
 <!--prettier-ignore-->
 {{ $query := `query($owner: String!, $repo: String!, $labels: [String!]) {
   repository(owner: $owner, name: $repo) {
