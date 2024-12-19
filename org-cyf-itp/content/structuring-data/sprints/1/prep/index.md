@@ -44,4 +44,7 @@ src="module/js1/reuse"
 [[blocks]]
 name="Parameters"
 src="module/js1/parameters"
+[[blocks]]
+name="Solving problems with functions 📼"
+src="module/js1/functions-workshop"
 +++
