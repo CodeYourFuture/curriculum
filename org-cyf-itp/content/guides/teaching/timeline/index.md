@@ -10,7 +10,7 @@ emoji= "📅"
 
 The course starts on the 1st of the month but there may be 7 days until the first Saturday, so we have written this to follow that timeline. 
 
-There are 12 learning weeks in the curriculum, which you will schedule over a maximum of 16 weeks. This padding will help you account for things like Christmas or Eid or other movable feasts. The course allows for variance in ability and previous experience. Most people should complete this course in 12 weeks of classes. Some will go faster (and this is encouraged). A few people will have adverse life events and need a couple of weeks to catch up. Once a learner is a full module behind, it's not realistic for them to catch up.
+There are 12 learning weeks in the curriculum, which you will schedule over a maximum of 16 weeks. This padding will help you account for things like Christmas, or Eid and other movable feasts. The course allows for variance in ability and previous experience. Most people should complete this course in 12 weeks of classes. Some will go faster (and this is encouraged). A few people will have adverse life events and need a couple of weeks to catch up. Once a learner is a full module behind, it's not realistic for them to catch up.
 
 So that's your rule of thumb for staying on track. What does this look like in practice, week by week?
 
