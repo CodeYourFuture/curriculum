@@ -8,15 +8,15 @@ emoji= "📅"
 
 ## Timeline of ITP, staying on track:
 
-The course starts on the 1st of the month but there may be 7 days until the first Saturday, so we have written this to cover that variance.
+The course starts on the 1st of the month but there may be 7 days until the first Saturday, so we have written this to follow that timeline. 
 
-There are 12 learning weeks in the curriculum, which you will schedule over a maximum of 16 weeks. Most people should complete this course in 12 weeks of classes. Some will go faster (and this is encouraged). A few people will have adverse life events and need a couple of weeks to catch up. Once a learner is a full module behind, it's not realistic for them to catch up.
+There are 12 learning weeks in the curriculum, which you will schedule over a maximum of 16 weeks. This padding will help you account for things like Christmas or Eid or other movable feasts. The course allows for variance in ability and previous experience. Most people should complete this course in 12 weeks of classes. Some will go faster (and this is encouraged). A few people will have adverse life events and need a couple of weeks to catch up. Once a learner is a full module behind, it's not realistic for them to catch up.
 
 So that's your rule of thumb for staying on track. What does this look like in practice, week by week?
 
 ## 🫶🏽 Day 1 Week 1
 
-Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack.
+Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack. You have scheduled your learning weeks in your [classplanner](https://classplanner.codeyourfuture.io/) and your volunteer team has signed up on the schedule so everybody knows the rota.  
 
 ## 🤝 Module 1: [Weeks 2, 3, 4](/onboarding)
 
@@ -42,12 +42,12 @@ Week 1: you have logged in to the dashboard to see your list of learners and wel
 
 ## 🐥 Final Module: [Weeks 11, 12, 13](/data-flows)
 
-🐥 Week 11: Everybody has begun [Data Flows](/data-flows). Most trainees are completing their TV Show Projects - encourage demos!  
-🐥 Week 12: Most trainees are submitting their final step  
-🐥 Week 13: You are reviewing and approving final step submissions
+🐥 Week 11: Everybody has begun [Data Flows](/data-flows).  
+🐥 Week 12: Most trainees are completing their TV Show Projects - encourage demos! 
+🐥 Week 13: Most trainees are submitting their final step.
 
 ## 🎁 Wrapping up: Weeks 14, 15, 16
 
-🐟 Week 14: Trainees who have fallen behind by less than 1 module have caught up and completed. Trainees going for [the Piscine](https://piscine.codeyourfuture.io) have applied.  
-👣 Week 15: You are wrapping up and supporting trainees to take their next steps.  
+🐟 Week 14: You are reviewing and approving final step submissions. Trainees going for [the Piscine](https://piscine.codeyourfuture.io) have applied.  
+👣 Week 15: Trainees who have fallen behind by less than 1 module have caught up and completed. You are wrapping up and supporting trainees to take their next steps.  
 🎉 Week 16 : This course has completed. 100% of learners have completed or withdrawn. Have a party.
