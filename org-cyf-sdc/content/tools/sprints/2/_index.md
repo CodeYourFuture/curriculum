@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Shell pipelines, hardware, and programming language concepts"
+theme = "Shell pipelines and programming language concepts"
 +++
