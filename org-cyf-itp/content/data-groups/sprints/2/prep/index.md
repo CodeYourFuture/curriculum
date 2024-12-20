@@ -32,6 +32,9 @@ name="[ ] access with variables"
 src="module/js2/multiple-params"
 name="Parsing multiple params"
 [[blocks]]
+name="Solving problems with objects 📼"
+src="module/js2/objects-workshop"
+[[blocks]]
 src="https://cyf-pd.netlify.app/blocks/prep-conflict-resolution/readme/"
 name="Conflict Resolution"
 +++
