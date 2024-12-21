@@ -5,7 +5,7 @@ time = 90
 facilitation = false
 emoji= "📖"
 [objectives]
-    1="Convert signed and unsigned numbers between any two of: binary, decimal, hexidecimal"
+    1="Convert signed and unsigned numbers between any two of: binary, decimal, hexadecimal"
     2="Explain the similarities and differences between binary, decimal, and hexidecimal numbers"
     3="Explain why we use binary numbers"
     4="Explain why we use hexidecimal numbers"
