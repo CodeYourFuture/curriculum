@@ -4,8 +4,6 @@ layout = 'day-plan'
 emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-Servers'
-backlog_filter='📅 Week 1'
 [[blocks]]
 name="Non-Verbal Communication Energiser"
 src="https://cyf-pd.netlify.app/blocks/non-verbal-communication/readme/"

@@ -5,7 +5,6 @@ layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
-backlog= 'Module-Databases'
 [[objectives]]
 1="Every trainee has received and responded to at least one code review"
 2="100% of cohort is at or beyond milestones"

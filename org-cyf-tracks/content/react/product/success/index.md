@@ -5,7 +5,6 @@ layout = "success"
 emoji= "✅"
 menu_level = [ "product" ]
 weight = 11
-backlog= "Module-React"
 [[objectives]]
 1= "You have delivered features every sprint"
 2= "Each feature is unit tested"
