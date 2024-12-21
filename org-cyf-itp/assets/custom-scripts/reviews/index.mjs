@@ -124,7 +124,9 @@ function render() {
         const emojiElement = prInList.querySelector(".emoji");
         if (pr.hasReviewer()) {
           emojiElement.innerText = "🙋🏾";
-          emojiElement.title = "Has reviewer";
+          const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
+          const maybeS = reviewers.length === 1 ? "" : "s";
+          emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
         } else {
           emojiElement.innerText = ageToEmoji[pr.updatedAge];
         }
