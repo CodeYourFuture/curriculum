@@ -6,10 +6,9 @@ emoji= "✅"
 menu_level = [ "module" ]
 weight = 11
 [[objectives]]
-1="Link to your PR for [Array Destructuring](https://github.com/CodeYourFuture/Module-Data-Flows/issues/24), which you have had reviewed and responded to feedback."
+1="Link to your GitHub repo and deployed Netlify site for your [TV show project](https://github.com/CodeYourFuture/Project-TV-Show). Include links to your level 400 and level 500 PRs that show that both you and your partner contributed."
 2="Link to your PR for your [Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)  which you have had reviewed and responded to feedback."
 3="Work out your LinkedIn [Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this"
-4="Link to your PR for [JavaScript challenges](https://github.com/CodeYourFuture/Module-Data-Flows/issues/21), which you have had reviewed and responded to feedback."
 +++
 
 
