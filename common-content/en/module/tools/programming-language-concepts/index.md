@@ -8,7 +8,7 @@ objectives=[
     "Describe what a variable is.",
     "Describe how a variable relates to a memory location.",
     "Give examples of common operators.",
-    "Describe the meaning of the && (and), || (or), and ! (not) operators.",
+    "Describe the meaning of the `&&` (`and`), `||` (`or`), and `!` (`not`) operators.",
     "Explain what happens when you call a function.",
 ]
 +++

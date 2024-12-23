@@ -5,7 +5,7 @@ time = 20
 facilitation = false
 emoji= "💻"
 [objectives]
-    1="Replace all occurrences of one character with another using tr"
+    1="Replace all occurrences of one character with another using `tr`"
 +++
 
 `tr` translates (replaces) characters.

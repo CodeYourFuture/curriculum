@@ -5,7 +5,7 @@ time = 20
 facilitation = false
 emoji= "💻"
 [objectives]
-    1="Count the occurrences of different lines within a file using sort and uniq"
+    1="Count the occurrences of different lines within a file using `sort` and `uniq`"
 +++
 
 `sort` sorts its input. `uniq` deduplicates adjacent matching lines.

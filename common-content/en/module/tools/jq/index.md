@@ -5,7 +5,7 @@ time = 90
 facilitation = false
 emoji= "❓"
 [objectives]
-    1="Use jq to retrieve information from a JSON file"
+    1="Use `jq` to retrieve information from a JSON file"
 +++
 
 All of the tools we've seen so far operate on lines, words, or characters.
