@@ -22,6 +22,6 @@ Learn about `tr` from its man page (and the backlog exercises).
 {{<multiple-choice
    delimiter="~"
    question="What command could we write to delete all of the vowels from the input?"
-   answers="tr -d 'aeiou' ~ tr 'aeiou' '' ~ tr -d '[aeiou]'"
+   answers="`tr -d 'aeiou'` ~ `tr 'aeiou' ''` ~ `tr -d '[aeiou]'`"
    feedback="Right - we list all of the vowels as things to delete. ~ No - the no-flag form of tr doesn't allow an empty second string. ~ No - this will remove all of the vowels, but also remove other characters. tr doesn't accept regular expressions."
    correct="0" >}}

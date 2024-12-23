@@ -31,15 +31,15 @@ hamsters 300
 {{<multiple-choice
    delimiter="~"
    question="What command would output the lines of the file sorted alphabetically?"
-   answers="sort input.txt ~ sort -u input.txt ~ sort input.txt | uniq"
-   feedback="Right - sort sorts the file. ~ Not quite - what does -u do? ~ Not quite - what does piping to uniq do?"
+   answers="`sort input.txt` ~ `sort -u input.txt` ~ `sort input.txt | uniq`"
+   feedback="Right - sort sorts the file. ~ Not quite - what does `-u` do? ~ Not quite - what does piping to uniq do?"
    correct="0" >}}
 
 {{<multiple-choice
    delimiter="~"
    question="What command would output the lines of the file sorted by the number after the first space, starting with hamsters 300?"
-   answers="sort -k1 input.txt ~ sort -k2 input.txt ~ sort -k2 -r -n input.txt ~ sort -k2 -n input.txt"
-   feedback="Not quite - check what -k1 does. ~ Not quite - look at the difference between alphabetical sorting and numerical sorting. ~ Right! We need to select the right field, sort numerically, and reverse the order to go biggest to smallest. ~ Close, but what order will things be sorted?"
+   answers="`sort -k1 input.txt` ~ `sort -k2 input.txt` ~ `sort -k2 -r -n input.txt` ~ `sort -k2 -n input.txt`"
+   feedback="Not quite - check what `-k1` does. ~ Not quite - look at the difference between alphabetical sorting and numerical sorting. ~ Right! We need to select the right field, sort numerically, and reverse the order to go biggest to smallest. ~ Close, but what order will things be sorted?"
    correct="2" >}}
 
 {{<multiple-choice
