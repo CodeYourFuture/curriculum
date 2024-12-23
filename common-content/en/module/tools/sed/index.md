@@ -4,9 +4,9 @@ headless = true
 time = 30
 emoji= "💻"
 [objectives]
-    1="Remove numbers from the start of lines in a file using sed"
-    2="Replace occurences of one string in a file with another using sed"
-    3="Print the lines of a file which don't contain some string using sed"
+    1="Remove numbers from the start of lines in a file using `sed`"
+    2="Replace occurrences of one string in a file with another using `sed`"
+    3="Print the lines of a file which don't contain some string using `sed`"
 +++
 
 `sed` is a tool for replacing text in files with other text.

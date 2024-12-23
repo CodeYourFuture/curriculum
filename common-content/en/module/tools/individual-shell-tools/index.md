@@ -4,7 +4,7 @@ headless = true
 time = 30
 emoji= "💻"
 [objectives]
-    1="Identify which of {cat, ls, wc, grep, sed, awk} will be useful to solve a given problem"
+    1="Identify which of {`cat`, `ls`, `wc`, `grep`, `sed`, `awk`} will be useful to solve a given problem"
 +++
 
 Through this course, we are going to write lots of programs.
