@@ -21,5 +21,5 @@
 {{ else if eq $blockData.type "link" }}
   {{ partial "block/link.html" . }}
 {{ else }}
-  <p>Error: {{ $blockData.type }} Unrecognized block type</p>
+  {{ errorf "Unrecognized block type %s" $blockData.type }}
 {{ end }}

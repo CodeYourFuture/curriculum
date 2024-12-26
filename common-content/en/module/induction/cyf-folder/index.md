@@ -14,7 +14,12 @@ emoji= '🧰'
 
 +++
 
-You'll need to create a {{<our-name>}} folder to store your projects on the course.
+> [!IMPORTANT]
+> Make a folder called `{{<our-name>}}` in your home directory. Store all your work for the course in this folder.
+
+You'll need to create a {{<our-name>}} folder to store your projects on the course. You can do this any way you like, but here we are using the terminal.
+
+### How to create a folder using the terminal
 
 1. Open a terminal on your computer.
 
@@ -33,3 +38,6 @@ You'll need a place to store your work for the course.
 5. **C**hange **d**irectory into the `{{<our-name>}}` directory.
 
 6. Double check you're in the right place by **p**rinting your current **w**orking **d**irectory.
+
+> [!TIP]
+> If you're working on a library computer, skip this step. You will store your work in your GitHub account.

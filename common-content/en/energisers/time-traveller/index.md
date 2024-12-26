@@ -2,7 +2,7 @@
 title="Time traveller"
 emoji="⏰"
 time=30
-[objectives]
+[tasks]
     1="Hear the experience of a CYF alumni"
     2="Ask questions about their experience"
 [build]

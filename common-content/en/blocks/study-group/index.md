@@ -1,6 +1,6 @@
 +++
 title="Study Group"
-objectives=["Resolve blockers in your coursework", "Express and resolve problems effectively by writing tickets and asking questions", "Give and receive code review", "Develop your personal portfolio", "Pair programme", "Evaluate your progress with peers and mentors"]
+tasks=["Resolve blockers in your coursework", "Express and resolve problems effectively by writing tickets and asking questions", "Give and receive code review", "Develop your personal portfolio", "Pair programme", "Evaluate your progress with peers and mentors"]
 time=60
 [build]
   render = 'never'

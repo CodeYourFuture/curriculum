@@ -1,7 +1,7 @@
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 {{ $pageContext := . }}
 {{ $tab_set_id := $blockData.name | anchorize }}
-{{ $issueForm := print $.Site.Params.org "/" $.Site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize) }}
+{{ $issueForm := print site.Params.org "/" site.Params.pdrepo "/issues/new?assignees=&labels=Feedback&template=feedback_template.yml&title=Feedback+on+" ($blockData.name | urlize) }}
 
 {{ with .Page.Site.GetPage $blockData.api }}
   <section

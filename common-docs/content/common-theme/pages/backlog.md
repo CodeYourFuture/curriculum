@@ -6,7 +6,7 @@ emoji= '🥞'
 menu_level = ['sprint']
 weight = 2
 backlog= 'Module-Template'
-backlog_filter= 'Week 1'
+backlog_filter='📅 Week 1'
 +++
 
 This view lists issues. It pulls these issues from Github using [Hugo GetRemote](https://gohugo.io/functions/resources/getremote/). It is looking for a repo in your org named `Module-<module-name>` where it expects issues to live. You can edit this of course.

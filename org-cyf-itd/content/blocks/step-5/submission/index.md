@@ -11,8 +11,9 @@ time= 5
 
 ### Submission
 
-There are two things to submit here.
+1. Upload a screenshot of your result to this step in the Learning Journey platform.
 
-1. Share _one_ project. For example, once you have completed* Project: Build an image carousel*, press the [Share] button and paste the very very long URL in here. The URL will begin with `https://blocks.codeyourfuture.io/share.html?v=`
+This is all you need to submit for now.
 
-2. The **goal** is to use the generated code to add a {{<tooltip title="dynamic feature">}}A dynamic feature means the website changes with some input or interaction.{{</tooltip>}} to your own project. Copy paste your block-generated code into a single `.js` file and add it, with the html and css, to your Hometown Homepage project. Share the link to your improved website.
+> [!NOTE]
+> To qualify as a CYF trainee and access later, funded courses like [The Piscine](https://piscine.codeyourfuture.io/), you will be required to take a proctored English exam. This will be a free, certified exam, donated by our partners, Duolingo.

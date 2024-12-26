@@ -11,12 +11,6 @@ time= 5
 
 ### Submission
 
-You must do this in CYF Course platform
+You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
 
-1. Share a link to your Hometown Homepage deployed on Netlify
-
-### Personalise your URLs
-
-Before you share your link with your mentors, change your Netlify URL to include your name. You can use your first name or last name. To learn how to do this, follow this guide: [Modify your domain name on Netlify](https://www.makeuseof.com/netlify-free-domain-name-modify/).
-
-Once you have personalised it, share the website link in the course platform. You'll share five links in total.
+1. Share a link to your personal homepage on CodePen with all the tests passing

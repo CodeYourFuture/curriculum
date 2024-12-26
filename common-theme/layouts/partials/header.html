@@ -3,7 +3,7 @@
     <h1 class="l-header__heading e-heading__6" data-pagefind-ignore>
       <a class="l-header__home" href="/"
         ><span class="is-invisible"
-          >{{ .Section }} {{ .Title }} {{ $.Site.Title }}</span
+          >{{ .Section }} {{ .Title }} {{ site.Title }}</span
         >
         {{ $logos := resources.Match "custom-images/site-logo/*.svg" }}
         {{ range $logos }}{{ .Content | safeHTML }}{{ end }}

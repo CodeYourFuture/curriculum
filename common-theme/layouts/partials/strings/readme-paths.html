@@ -26,8 +26,11 @@
 {{/* Handle /tree/main/path format */}}
 {{ $newSrc = replaceRE "/tree/main/(.+)$" "/readme/$1" $newSrc }}
 
-{{/* Add /readme if it's not already present */}}
-{{ if not (findRE "/readme" $newSrc) }}
+{{/* Handle root of repo with /tree/main */}}
+{{ $newSrc = replaceRE "/tree/main$" "/readme" $newSrc }}
+
+{{/* Make sure that /readme is present, avoiding duplicates */}}
+{{ if not (findRE "/readme(/.*)?$" $newSrc) }}
   {{ $newSrc = print $newSrc "/readme" }}
 {{ end }}
 

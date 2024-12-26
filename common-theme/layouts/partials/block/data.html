@@ -64,6 +64,7 @@
     {{/* TODO pull time from commented out front matter in Github readmes */}}
   {{ end }}
 
+  {{/* TODO get rid of the old way of bringing in cyf pd and remove hardcoded CYF stuff here */}}
   {{ if or ("cyf-pd.netlify.app" | in $src) ("/pd/"| in $src) }}
     {{ .Scratch.SetInMap "blockData" "type" "pd" }}
     {{ $blockPath := replace $src "https://cyf-pd.netlify.app/blocks/" "pd/blocks/" }}
