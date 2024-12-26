@@ -41,7 +41,7 @@ Happily, computers can evaluate expressions for us.
 We input JavaScript instructions that are then executed by NodeJS. The REPL replies with, or prints out, the result of this execution.
 
 {{<tabs name="REPL 1">}}
-{{<tab name="REPL Activity Code">}}
+===[[REPL Activity Code]]
 Type each of the following expressions [into the REPL](#repl-1-1) one at a time and then press enter to check the result.
 
 ```bash
@@ -52,8 +52,7 @@ Type each of the following expressions [into the REPL](#repl-1-1) one at a time 
 32 / 10
 ```
 
-{{</tab>}}
-{{<tab name="Step by Step">}}
+===[[Step by Step]]
 
 <!--prettier-ignore-->
 > [!NOTE]
@@ -67,8 +66,7 @@ Type each of the following expressions [into the REPL](#repl-1-1) one at a time 
 {title="Activity" AlertType="activity"}
 
 If you don't know how to do any of the steps above, then try searching for an [appropriate command](https://nodejs.org/en/learn/command-line/how-to-use-the-nodejs-repl) online. Searching for things when you're stuck is super important part of being a developer!
-{{</tab>}}
-{{<tab name="Explore REPL">}}
+===[[Explore REPL]]
 
 <!--prettier-ignore-->
 > [!NOTE]
@@ -77,5 +75,4 @@ If you don't know how to do any of the steps above, then try searching for an [a
 >🧠  _Before_ you type in the expressions, **predict** what the REPL output will be. Write your prediction down and compare it to the outcome.
 {title="Activity" AlertType="activity"}
 
-{{</tab>}}
 {{</tabs>}}

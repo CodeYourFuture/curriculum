@@ -16,7 +16,7 @@ time=50
 [Online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html)
 
 {{<tabs name="blockers-game">}}
-{{<tab name="Gameplay">}}
+===[[Gameplay]]
 
 {{<note type="activity" title="Activity 25 minutes">}}
 
@@ -37,9 +37,7 @@ Back in the main room.
 What did people think about this game? Let’s go around and each group share **one thing** you noticed about it.
 {{</note>}}
 
-{{</tab>}}
-
-{{<tab name="Facilitation Tips">}}
+===[[Facilitation Tips]]
 
 You can do this workshop in person, online, or a mix of both. You can run this workshop completely offline using this kit: [Rush Hour](https://www.thinkfun.com/products/rush-hour/).
 
@@ -80,5 +78,4 @@ It’s a good reflection on blockers and planning.
 - Backup alternative online game: https://www.crazygames.com/game/rush-hour-online
 - Physical version of this game: https://www.thinkfun.com/products/rush-hour/
 
-  {{</tab>}}
-  {{</tabs>}}
+{{</tabs>}}

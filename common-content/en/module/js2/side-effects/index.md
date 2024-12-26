@@ -33,9 +33,7 @@ test("doesn't modify the input", () => {
 
 In this test, we don't check the **return value** of `calculateMedian`. We assert that the input has the same contents as the original input. We can use the `toEqual` matcher to check the contents of the array referenced by the variable `list`.
 
-{{<tabs name="">}}
-
-{{<tab name="🔧 Fix it">}}
+{{<note title="🔧 Fix it">}}
 
 Recall the current buggy implementation of `calculateMedian`:
 
@@ -51,10 +49,4 @@ function calculateMedian(list) {
 We've established that we shouldn't use `splice` to retrieve the median from the input array.
 Fix the implementation of `calculateMedian` above so it no longer calls `splice` (which mutates the input), and instead gives the right answer _without_ mutating the input.
 
-{{</tab>}}
-
-{{</tab>}}
-
-```
-
-```
+{{</note>}}

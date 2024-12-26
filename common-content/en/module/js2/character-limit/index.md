@@ -19,15 +19,8 @@ Suppose we're working on a website where users will need to **comment** on artic
 
 {{<wordlimit>}}
 
-{{<tabs>}}
-
-{{<tab name="🕹️ Activity">}}
-
-Try typing in the character limit box above and observing the behaviour as you type.
-
-{{</tab>}}
-
-{{</tabs>}}
+> [!TIP]
+> 🕹️ Try typing in the character limit box above and observing the behaviour as you type.
 
 We can define _acceptance criteria_ for this component:
 

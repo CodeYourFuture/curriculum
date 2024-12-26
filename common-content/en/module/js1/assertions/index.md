@@ -19,7 +19,7 @@ emoji= '🧩'
 
 {{<tabs name="Predict, explain, check">}}
 
-{{<tab name="Define assertion">}}
+===[[Define assertion]]
 
 We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
@@ -35,9 +35,7 @@ console.assert(calculation === result);
 
 🎮 [Work through the exercises](#predict-explain-check-1)
 
-{{</tab>}}
-
-{{<tab name="Exercise 1">}}
+===[[Exercise 1]]
 
 ### Experiment with assertions
 
@@ -50,9 +48,7 @@ console.assert(calculation === result);
 Change the value assigned to the `result` variable to make the assertion fail. Check the output you get in the console.
 
 👉🏿 [Keep Going](#predict-explain-check-2)
-{{</tab>}}
-
-{{<tab name="Exercise 2">}}
+===[[Exercise 2]]
 
 Let's look at an example using `formatAs12HourClock`:
 
@@ -62,8 +58,6 @@ console.assert(formatAs12HourClock("08:00") === "08:00 am");
 ```
 
 Predict and explain if the assertion will succeed or fail. Pay particular attention to the return value of `formatAs12HourClock`.
-
-{{</tab>}}
 
 {{</tabs>}}
 
@@ -108,7 +102,7 @@ Assertion failed: current output: undefined, target output: 08:00 am
 
 ## 🧰 Implementing the functionality
 
-On line 3, the function is being passed a single argument `"08:00"`. But our function ignores it:  it doesn't declare any parameters. We can parameterise the function and label the input as `time`:
+On line 3, the function is being passed a single argument `"08:00"`. But our function ignores it: it doesn't declare any parameters. We can parameterise the function and label the input as `time`:
 
 ```js
 function formatAs12HourClock(time) {}

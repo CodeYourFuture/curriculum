@@ -48,19 +48,19 @@ We can't use dot syntax if we don't know what the name of the key is going to be
 
 {{<tabs>}}
 
-{{<tab name="Tests">}}
+===[[Tests]]
 We've currently got the following test suite:
 
 ```js
 describe("parseQueryString()", () => {
-  test("given a queryString with no query parameters, returns an empty object", function() {
+  test("given a queryString with no query parameters, returns an empty object", function () {
     const input = "";
     const currentOutput = parseQueryString(input);
     const targetOutput = {};
 
     expect(currentOutput).toEqual(targetOutput);
   });
-  test("given a queryString with one pair of query params, returns them in object form", function() {
+  test("given a queryString with one pair of query params, returns them in object form", function () {
     const input = "fruit=banana";
     const currentOutput = parseQueryString(input);
     const targetOutput = { fruit: "banana" };
@@ -70,20 +70,14 @@ describe("parseQueryString()", () => {
 });
 ```
 
-{{</tab>}}
-
-{{<tab name="Feedback">}}
+===[[Feedback">}}
 We've currently got the following test suite:
 
 ![parse-query-test-feedback](parse-query-test-feedback.png)
 
-{{</tab>}}
-
-{{<tab name="🧠 Explain">}}
+===[[🧠 Explain">}}
 We've got a situation where the first test case (for an empty string) is no longer working.
 Explain why this test case is no longer passing for the first test case. **Playing computer** will help you to explain why!
-
-{{</tab>}}
 
 {{</tabs>}}
 

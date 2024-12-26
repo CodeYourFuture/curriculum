@@ -23,7 +23,7 @@ Let's think through building this film search interface step-by-step. Write down
 > _Then_ the view should update to show only matching films.
 
 {{<tabs name="Decomposition">}}
-{{<tab name="Draw your plan">}}
+===[[Draw your plan]]
 
 ```mermaid
 graph LR
@@ -34,8 +34,7 @@ D --> E[Update state]
 E --> A
 ```
 
-{{</tab>}}
-{{<tab name="Write your plan">}}
+===[[Write your plan]]
 
 1. 🔍 Display search box and initial list of films
 1. 🦻🏽 Listen for user typing in search box
@@ -43,7 +42,6 @@ E --> A
 1. 🎬 Filter films list based on search text
 1. 📺 Update UI with filtered list
 
-{{</tab>}}
 {{</tabs>}}
 
 The key aspects we need to handle are capturing input and updating UI.

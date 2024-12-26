@@ -59,7 +59,12 @@ We can create a Javascript file, `script.js`, and link it to the HTML document u
       <label for="comment-input">
         Please enter your comment in the text area below
       </label>
-      <textarea id="comment-input" name="comment-input" rows="5" maxlength="200"></textarea>
+      <textarea
+        id="comment-input"
+        name="comment-input"
+        rows="5"
+        maxlength="200"
+      ></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
@@ -83,9 +88,7 @@ const textarea = document.querySelector("textarea");
 console.log(textarea.value); // evaluates to the value typed by the user
 ```
 
-{{<tabs>}}
-
-{{<tab name="🖲️ Follow along">}}
+{{<note type="activity" title="🖲️ Follow along">}}
 
 1. On your local machine, set up a new directory with an `index.html` and `script.js`.
 2. Make sure you start with the same static HTML as the example above.
@@ -93,6 +96,4 @@ console.log(textarea.value); // evaluates to the value typed by the user
 4. Try querying the DOM and accessing various elements like the `textarea` element.
 5. Try typing in the `textarea` element, and then accessing its `value` property in Dev Tools.
 
-{{</tab>}}
-
-{{</tabs>}}
+{{</note>}}

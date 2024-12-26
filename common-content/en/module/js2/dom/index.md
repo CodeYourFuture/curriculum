@@ -29,7 +29,12 @@ Let's consider the starting HTML. We need a way of interacting with the elements
       <label for="comment-input">
         Please enter your comment in the text area below
       </label>
-      <textarea id="comment-input" name="comment-input" rows="5" maxlength="200"></textarea>
+      <textarea
+        id="comment-input"
+        name="comment-input"
+        rows="5"
+        maxlength="200"
+      ></textarea>
       <p id="character-limit-info">You have 200 characters remaining</p>
     </section>
   </body>
@@ -50,13 +55,8 @@ When the browser first renders a web page it also creates the DOM - short for {{
 
 Just like a web browser provides us a visual interface, the DOM is an interface. But it is not an interface for humans to see and interact with, it is an interface for JavaScript to interact with. We can write JavaScript programs to interact with the Document Object Model so we can make the page interactive.
 
-{{<tabs name="activity">}}
-
-{{<tab name="🔎 Inspect with dev tools">}}
-
-We can use Dev Tools to inspect the DOM and look at the elements on the page.
-Use Dev Tools to inspect the character limit component from earlier.
-
-{{</tab>}}
-
-{{</tabs>}}
+> [!TIP]
+>
+> ### 🔎 Inspect with dev tools
+>
+> We can use Dev Tools to inspect the DOM and look at the elements on the page. Use Dev Tools to inspect the character limit component from earlier.

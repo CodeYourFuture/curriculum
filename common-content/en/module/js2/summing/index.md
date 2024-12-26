@@ -37,11 +37,6 @@ sumValues([1, 2, 3, 4, 5]);
 
 However, this approach is flawed.
 
-{{<tabs name="Explain">}}
+## 🧠 Explain
 
-{{<tab name="🧠  Explain">}}
 Explain why the approach above is flawed when it comes to summing the numbers for an array of _any_ length.
-
-{{</tab>}}
-
-{{</tabs>}}

@@ -51,7 +51,7 @@ Recalling our card function, let's see how we can update the UI with the latest 
 
 {{<tabs name="Updating the DOM">}}
 
-{{<tab name="Render">}}
+===[[Render]]
 
 ```js
 const render = (container, list) => {
@@ -61,9 +61,7 @@ const render = (container, list) => {
 };
 ```
 
-{{</tab>}}
-
-{{<tab name="Card">}}
+===[[Card]]
 
 ```js
 const createCard = (template, { title, director }) => {
@@ -76,8 +74,7 @@ const createCard = (template, { title, director }) => {
 };
 ```
 
-{{</tab>}}
-{{<tab name="Template">}}
+===[[Template]]
 
 ```html
 <template id="filmCardTemplate">
@@ -91,9 +88,7 @@ const createCard = (template, { title, director }) => {
 </template>
 ```
 
-{{</tab>}}
-
-{{<tab name="Data">}}
+===[[Data]]
 
 ```js
 const films = [
@@ -110,10 +105,8 @@ const films = [
 ];
 ```
 
-{{</tab>}}
-{{<tab name="Compiled">}}
+===[[Compiled]]
 
 <iframe src="../../../../filterFilms.html" width="100%" height="480px"></iframe>
-{{</tab>}}
 
 {{</tabs>}}

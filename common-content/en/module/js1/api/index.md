@@ -41,13 +41,9 @@ We've encountered several functions like `console.log` and `Math.round` already.
 Jest provides an **API** so we can write tests.
 So we have to find out about the Jest API to start writing tests with Jest.
 
-{{<tabs name="exercises">}}
-
-{{<tab name="🧐 Other APIs">}}
-
-Try and list other examples of APIs you've used since the start of the course.
-Start a thread in Slack to discuss with your class.
-
-{{</tab>}}
-
-{{</tabs>}}
+> [!NOTE]
+>
+> ## 🧐 Other APIs
+>
+> Try and list other examples of APIs you've used since the start of the course.
+> Start a thread in Slack to discuss with your class.

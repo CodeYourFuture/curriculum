@@ -41,17 +41,16 @@ function render() {
 ```
 
 {{<tabs name="Predict and Explain State">}}
-{{<tab name="Predict the state">}}
+===[[Predict the state]]
 
 1. At this point in our codealong, when we open our page, what will we see?
 2. If we change the initial value of `state.searchTerm` back to the empty string and open the page again, what will we see?
 
-{{</tab>}}
-{{<tab name="Check understanding ">}}
+===[[Check understanding]]
 If we open our page, we should now only see cards for films containing "Pirate" in their title.
 
 If we change the initial value of `state.searchTerm` back to the empty string and open the page again, we should see cards for all of the films.
-{{</tab>}}
+
 {{</tabs>}}
 
 We have now solved two of our three problems:

@@ -29,10 +29,6 @@ function calculateMean(list) {
 }
 ```
 
-{{<tabs name="Playing computer">}}
+### 🐛 Visualising iteration with debugger
 
-{{<tab name="🐛Visualising iteration with debugger">}}
 {{<youtube>}}https://www.youtube.com/watch?v=YX5jAFJlEqM{{</youtube>}}
-{{</tab>}}
-
-{{</tabs>}}
