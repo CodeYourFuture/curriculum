@@ -15,7 +15,7 @@
     {{- transform.Emojify (index $emojis $noteType) -}}
       {{- or (i18n $noteType) ($title) -}}</span>
   </h4>
-  <div class="c-note__text ">{{- .Inner  | safeHTML | markdownify -}}</div>
+  <div class="c-note__text ">{{- .Inner  | markdownify -}}</div>
 </section>
 {{/* Example usage:
 

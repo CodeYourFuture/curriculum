@@ -31,7 +31,7 @@
       <details>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
         {{ range $extractedObjectives }}
-          {{ . | markdownify }}
+          {{ . | page.RenderString }}
         {{ end }}
       </details>
     {{ end }}
@@ -45,7 +45,7 @@
       {{/* Replace Markdown image links, targeting anything without a : */}}
       {{ $processedContent := $strippedComments | replaceRE `!\[([^\]]+)\]\(([^"http:\/\/|https:\/\/][^)]+)\)` (printf "![$1](%s$2)" $externalPath) }}
       {{ $textWithoutObjectives := partial "strings/remove-github-objectives.html" $processedContent }}
-      {{ $textWithoutObjectives | markdownify }}
+      {{ $textWithoutObjectives | page.RenderString }}
 
     </div>
 

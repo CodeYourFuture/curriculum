@@ -46,7 +46,7 @@
               <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
             </summary>
             <div class="c-issue__body">
-              {{ .body | markdownify }}
+              {{ .body | page.RenderString }}
               <a class="e-button c-issue__button" href="{{ .html_url }}/files"
                 >Start a review</a
               >
