@@ -12,27 +12,24 @@
   You can double click to set it going.
   TODO: make this opt in for a simple time block if that comes up.
 */}}
-{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{- $blockData := .Page.Scratch.Get "blockData" -}}
 {{/* Sometimes we're not using blocks, but local pages, and we might want time then too */}}
-{{ $localBlock := "0" }}
-{{ if not $blockData }}
+{{- $localBlock := "0" -}}
+{{- if not $blockData -}}
   {{ $localBlock = .Site.GetPage .File.Path }}
   {{ $localBlock = $localBlock.Params.Time }}
-{{ end }}
-{{ if eq $blockData.type "local" }}
+{{- end -}}
+{{- if eq $blockData.type "local" -}}
   {{ $localBlock = .Site.GetPage $blockData.api }}
   {{ $localBlock = $localBlock.Params.Time }}
-{{ end }}
-{{ $time := $blockData.time | default $localBlock | default 60 }}
+{{- end -}}
+{{- $time := $blockData.time | default $localBlock | default 60 -}}
+<!-- prettier-ignore -->
 <time
   class="c-block__time"
   tabindex="0"
   role="timer"
   aria-label="{{ $time }} minutes countdown"
-  datetime="P{{ $time }}M"
-  >{{ $time }} minutes ⏱</time
->
+  datetime="P{{ $time }}M">{{- $time -}}&nbsp;minutes ⏱</time>
 {{ $stopwatch := resources.GetMatch "/scripts/stop-watch.js" | resources.Minify }}
-<script type="module" defer>
-    import StopWatch from "{{ $stopwatch.RelPermalink }}";
-</script>
+<script type="module" defer>import StopWatch from "{{ $stopwatch.RelPermalink }}";</script>

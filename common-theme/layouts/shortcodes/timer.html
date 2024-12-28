@@ -10,4 +10,4 @@
 {{ .Page.Scratch.SetInMap "blockData" "api" "" }}
 {{ .Page.Scratch.SetInMap "blockData" "time" .Inner }}
 {{ .Page.Scratch.SetInMap "blockData" "isShortcode" true }}
-{{ partial "time.html" . | safeHTML }}
+{{- partial "time.html" . | safeHTML -}}
