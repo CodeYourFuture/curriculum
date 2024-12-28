@@ -10,6 +10,9 @@ TAB 2 content
 {{- $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) time.Now ) | anchorize -}}
 {{/* Same as columns, slice on custom delimiter */}}
 {{ $tabs := split .Inner "===[[" }}
+{{ if lt (len $tabs) 2 }}
+  {{ errorf "Tabs must have more than one tab. Remove tab formatting on %v and consider note instead" .Page }}
+{{ end }}
 {{/* Skip the first item in the slice which is always empty */}}
 {{ $tabs = after 1 $tabs }}
 <tab-panels class="c-tabs">
@@ -48,7 +51,7 @@ TAB 2 content
           class="c-tabs__panel {{ if (eq $index 0) }}is-active{{ end }}"
           role="tabpanel"
           aria-labelledby="tab-label-{{ $id }}">
-          {{ $content | markdownify }}
+          {{ $content | safeHTML | markdownify }}
         </div>
       {{- end -}}
     {{- end -}}
