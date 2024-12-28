@@ -42,7 +42,7 @@ Suppose we now call the function like this:
 formatAs12HourClock("05:30");
 ```
 
-{{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the 🎯 target output?" answers="'05:30 am' | '05:30 AM' | '5:30 am' | '17:30'" feedback="Correct! The target output should append 'am' to maintain the 12-hour clock format. | Not quite - based on the examples, we use lowercase 'am'. | No - we want to preserve the leading zero. | No - we want 12-hour format, not 24-hour format." correct="0">}}
+{{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the 🎯 target output?" answers="`'05:30 am'` | `'05:30 AM'` | `'5:30 am'` | `'17:30'`" feedback="Correct! The target output should append 'am' to maintain the 12-hour clock format. | Not quite - based on the examples, we use lowercase 'am'. | No - we want to preserve the leading zero. | No - we want 12-hour format, not 24-hour format." correct="0" >}}
 
 👉🏼 [Keep going](#current-2)
 ===[[Exercise 2]]
@@ -59,7 +59,7 @@ Suppose we call the function like this:
 formatAs12HourClock("20:10");
 ```
 
-{{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the current output?" answers="undefined | '05:30 am' | null | An error is thrown" feedback="Correct! Since the function is empty and has no return statement, it returns undefined by default. | Not quite - remember that the function is currently empty with no implementation. | No - an empty function returns undefined, not null. | No - an empty function executes successfully but returns undefined." correct="0">}}
+{{% multiple-choice question="When calling formatAs12HourClock('05:30'), what is the current output?" answers="undefined | '05:30 am' | null | An error is thrown" feedback="Correct! Since the function is empty and has no return statement, it returns undefined by default. | Not quite - remember that the function is currently empty with no implementation. | No - an empty function returns undefined, not null. | No - an empty function executes successfully but returns undefined." correct="0" %}}
 
 {{</tabs>}}
 

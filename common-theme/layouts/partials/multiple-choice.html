@@ -31,7 +31,7 @@
       <fieldset class="c-quiz__fieldset" tabindex="0">
         <legend class="c-quiz__legend">🤔 {{ $question }}</legend>
         <ol class="c-quiz__list">
-           {{range $index, $answer := $answers }}
+           {{- range $index, $answer := $answers -}}
           <li class="c-quiz__answer">
             <label
               class="c-quiz__label"
@@ -42,17 +42,17 @@
               id="answer-{{ $index }}"
               name="answer"
               value="{{ $index }}" />
-            {{ $answer }}</label
+            {{ $answer | markdownify}}</label
             >
           </li>
-        {{ end }}
+        {{- end -}}
         </ol>
       </fieldset>
     </form>
     <section class="c-quiz__feedback" slot="feedback" aria-live="polite">
-        {{ range $index, $fb := $feedback }}
-          <p class="c-quiz__remark" data-index="{{$index}}" >💬 {{ $fb }}</p>
-        {{ end }}
+        {{- range $index, $fb := $feedback -}}
+          <p class="c-quiz__remark" data-index="{{$index}}" >💬 {{ $fb | markdownify }}</p>
+        {{- end -}}
       </section>
   </multiple-choice>
  
