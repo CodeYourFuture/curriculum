@@ -1,14 +1,14 @@
 +++
-title = "Binary and hexidecimal numbers"
+title = "Binary and hexadecimal numbers"
 headless = true
 time = 90
 facilitation = false
 emoji= "📖"
 [objectives]
     1="Convert signed and unsigned numbers between any two of: binary, decimal, hexadecimal"
-    2="Explain the similarities and differences between binary, decimal, and hexidecimal numbers"
+    2="Explain the similarities and differences between binary, decimal, and hexadecimal numbers"
     3="Explain why we use binary numbers"
-    4="Explain why we use hexidecimal numbers"
+    4="Explain why we use hexadecimal numbers"
     5="Describe how different programs can interpret the same bytes as different data"
     6="Identify how many bits are needed to store integers up to some limit"
     7="Identify the maximum integer that can be stored in a number of bits"

@@ -7,7 +7,7 @@ menu_level = ['sprint']
 weight = 1
 [[blocks]]
 name="Binary and hexadecimal numbers"
-src="module/tools/binary-and-hexidecimal-numbers"
+src="module/tools/binary-and-hexadecimal-numbers"
 [[blocks]]
 name="CPU and Memory"
 src="module/tools/cpu-and-memory"

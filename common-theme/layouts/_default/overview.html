@@ -8,7 +8,10 @@
   {{ if not $overviewMenu }}
     {{ errorf "You must define a menu in your overview_menu front matter param" }}
   {{ end }}
- 
+  {{ if not (index .Site.Menus $overviewMenu) }}
+    {{ errorf "Overview page tried to generate overview for menu %s which is empty" $overviewMenu }}
+  {{ end }}
+
   {{ range index .Site.Menus $overviewMenu }}
     <section class="c-overview">
       {{/* ===========================
