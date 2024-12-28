@@ -1,5 +1,5 @@
-{{ $src := .Inner }}
-{{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" "" "page" .) }}
-{{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ .Page.Scratch.SetInMap "blockData" "isShortcode" true }}
-{{ partial "block/youtube.html" . | safeHTML }}
+{{- $src := .Inner -}}
+{{- partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" "" "page" .) -}}
+{{- $blockData := .Page.Scratch.Get "blockData" -}}
+{{- .Page.Scratch.SetInMap "blockData" "isShortcode" true -}}
+{{- partial "block/youtube.html" . | safeHTML -}}

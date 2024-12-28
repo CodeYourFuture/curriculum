@@ -1,13 +1,12 @@
-{{/* this is similar to the youtube shortcode in that we are just pas
+{{- .Scratch.Set "blockData" (dict) -}}
+{{- .Page.Scratch.SetInMap "blockData" "type" "time" -}}
+{{- .Page.Scratch.SetInMap "blockData" "api" "" -}}
+{{- .Page.Scratch.SetInMap "blockData" "time" .Inner -}}
+{{- .Page.Scratch.SetInMap "blockData" "isShortcode" true -}}
+{{- partial "time.html" . -}}
+{{/* this is similar to the youtube shortcode in that we are just passing
   the inner content to the existing partial
   in this case instead of passing through blockData
   we make a mini scratch block and then just send to the existing
   because we're not creating a block, just a time element to go on a block
 */}}
-
-{{ .Scratch.Set "blockData" (dict) }}
-{{ .Page.Scratch.SetInMap "blockData" "type" "time" }}
-{{ .Page.Scratch.SetInMap "blockData" "api" "" }}
-{{ .Page.Scratch.SetInMap "blockData" "time" .Inner }}
-{{ .Page.Scratch.SetInMap "blockData" "isShortcode" true }}
-{{- partial "time.html" . | safeHTML -}}
