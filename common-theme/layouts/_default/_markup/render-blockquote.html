@@ -19,7 +19,7 @@
 }}
 
 {{ if eq .Type "alert" }}
-  {{ $title := .Attributes.title | default .AlertTitle | default (title .AlertType) }}
+  {{ $title := .Attributes.title | default (title .AlertType) }}
   {{ $alertType := .Attributes.alerttype | default .AlertType }}
   <section class="c-note c-note--{{ $alertType }}">
     <h4 class="c-note__title">
