@@ -17,19 +17,29 @@ Today we will be going around the room and introducing ourselves! `
 
 Facilitator(s) start by sharing your elevator pitch and then popcorn around the room.
 
-Some tips:
+<details>
+<summary>
 
-- Your response should be around 30 seconds.
-- Have a list of items ready but tailor what you say to your audience. For example, at a technical conference focus on your technical interests rather than your love of making cupcakes, but on the first day of a new job introducing yourself to your new team feel free to add 1-2 personal details.
-- Try to structure your response,
-  - Who are you? Where are you from? Where have you worked? Have you studied somewhere and what subjects?
-  - What do you do? What are your skills, passions, or hobbies? What motivates you?
+#### Some tips:
+
+</summary>
+
+- Your response should be around 30 seconds. Think: What do you do? What are your skills, passions, or hobbies? What motivates you?
+- Have a list of items ready but tailor what you say to your audience. For example, at a technical conference focus on your technical interests rather than your love of making cupcakes, but on the first day of a new job introducing yourself to your new team, add 1-2 personal details.
+- Structure your response: Who are you? Where are you from? Where have you worked? Have you studied somewhere and what subjects?
 - Try to be enthusiastic, let your personality and confidence shine
 - Allow space for follow-up questions
 - It will feel awkward and nerve-wracking the first couple of times, practice-practice-practice to feel confident
+</details>
+<details>
+<summary>
 
 #### Facilitator Check-in questions
+
+</summary>
 
 - How did you feel about public speaking?
 - What are some strategies to feel more confident when public speaking?
 - What activities could you share to create a connection? Ex. Sports, Hobbies
+
+</details>
