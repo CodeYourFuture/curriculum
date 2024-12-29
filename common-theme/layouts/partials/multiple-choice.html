@@ -29,7 +29,7 @@
   <multiple-choice data-correct="{{$correct}}" class="c-quiz">
     <form slot="quiz">
       <fieldset class="c-quiz__fieldset" tabindex="0">
-        <legend class="c-quiz__legend">🤔 {{ $question }}</legend>
+        <legend class="c-quiz__legend">🤔 {{ $question | markdownify }}</legend>
         <ol class="c-quiz__list">
            {{- range $index, $answer := $answers -}}
           <li class="c-quiz__answer">
