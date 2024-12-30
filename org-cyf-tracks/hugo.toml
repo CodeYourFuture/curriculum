@@ -21,5 +21,19 @@ baseURL = "https://tracks.codeyourfuture.io/"
       source = "content"
       target = "content/how-this-works"
 
+[markup]
+# I've configured markdown so you don't have to
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Enable HTML codeblocks, e.g. for <details> blocks
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
 [taxonomies]
   track_kind = "track_kinds"
