@@ -64,3 +64,17 @@ target = "content/guides"
 [page]
   nextPrevInSectionSortOrder = 'asc'
   nextPrevSortOrder = 'asc'
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
