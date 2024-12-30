@@ -35,7 +35,7 @@ setTimeout(printMessage, 3000, "Sally"); // <-- Call printMessage after at least
 printMessage("Daniel");
 ```
 
-In this example, we define the function and call `printMessage` just once. However, we're also using a built-in function called `setTimeout`. `setTimeout` allows us to set a minimum amount of time after which a function will be called back.
+In this example, we define the function and call `printMessage` just once. We also call it ourselves once. We're also using a built-in function called `setTimeout`. `setTimeout` allows us to set a minimum amount of time after which a function will be called back.
 
 ```js
 setTimeout(printMessage, 3000, "Sally");
@@ -45,4 +45,4 @@ Let's break this down this call to `setTimeout`. It is saying:
 
 > "After at least 3000 ms, call the function `printMessage`, and when you call back `printMessage`, pass the input of `"Sally"` to `printMessage`."
 
-Notice we're saying _at least_ 3000 ms because `setTimeout` guarantees a minimum amount of time: it doesn't say that `printMessage` muse be called _exactly_ after 3000 ms. In this example, we say that `printMessage` is a {{<tooltip title="callback function">}}A callback function is a function that is passed as an argument to another function and gets executed after the main function has finished its execution.{{</tooltip>}} as it is _called back_ after 3000 miliseconds. In the terminal, we'll see "Daniel" appear first and then after an at least 3000 ms delay, we'll see the console log of "Sally"
+Notice we're saying _at least_ 3000 ms because `setTimeout` guarantees a minimum amount of time: it doesn't say that `printMessage` muse be called _exactly_ after 3000 ms. In this example, we say that `printMessage` is a {{<tooltip title="callback function">}}A callback function is a function that is passed as an argument to another function. We ourselves don't call the callback function - something else will call it for us at the right time.{{</tooltip>}} as it is _called back_ after 3000 miliseconds. In the terminal, we'll see "Daniel" appear first and then after an at least 3000 ms delay, we'll see the console log of "Sally".
