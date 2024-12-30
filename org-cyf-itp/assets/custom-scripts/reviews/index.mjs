@@ -1,6 +1,3 @@
-const awaitingReviewByAge = {};
-const prsByModule = {};
-
 // 400/700/900
 function badness(name, count) {
   if ((name === "old" || name == "this month") && count > 0) {
@@ -50,10 +47,18 @@ async function onLoad() {
 }
 
 function render() {
+  const reviewerFilterElement = document.querySelector("#reviewer-filter");
+  reviewerFilterElement.innerText = "";
+  reviewerFilterElement.appendChild(makeOption("Filter by reviewer", ""));
+
   if (state.prs === null) {
     document.querySelector("#pr-list").innerText = "Loading...";
     return;
   }
+
+  const awaitingReviewByAge = {};
+  const prsByModule = {};
+  const reviewers = new Set();
 
   for (const module of modules) {
     awaitingReviewByAge[module] = {
@@ -65,6 +70,15 @@ function render() {
   }
 
   for (const pr of state.prs) {
+    for (const review of pr.reviews) {
+      if (!review.isPrAuthor) {
+        reviewers.add(review.userName);
+      }
+    }
+    if (state.reviewer_filter && !pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
+      continue;
+    }
+
     awaitingReviewByAge[pr.module][pr.updatedAge]++;
     prsByModule[pr.module].push(pr);
   }
@@ -118,9 +132,6 @@ function render() {
         ".module"
       ).innerText = `${module} (${totalPending})`;
       for (const pr of prsByModule[module]) {
-        if (state.reviewer_filter && !pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
-          continue;
-        }
         const prInList = document
           .querySelector("template.pr-in-list")
           .content.cloneNode(true);
@@ -149,11 +160,27 @@ function render() {
       document.querySelector("#pr-list").appendChild(modulePrList);
     }
   }
+
+  const sortedReviewers = [...reviewers].sort();
+  for (const reviewer of sortedReviewers) {
+    reviewerFilterElement.appendChild(makeOption(reviewer, reviewer, reviewer === state.reviewer_filter));
+  }
+}
+
+function makeOption(text, value, selected) {
+  const option = document.createElement("option");
+  option.innerText = text;
+  option.value = value;
+  if (selected) {
+    option.selected = true;
+  }
+  return option;
 }
 
 onLoad();
 
-document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
+document.querySelector("#reviewer-filter").addEventListener("change", (event) => {
   state.reviewer_filter = event.target.value;
+  console.log("Setting filter to " + state.reviewer_filter);
   render();
 });
