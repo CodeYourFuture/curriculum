@@ -13,7 +13,7 @@ emoji= '🧩'
   publishResources = false
 +++
 
-To update the DOM, we'll need to understand the idea of timers and {{<tooltip title="callbacks">}}A callback function is a function that is passed as an argument to another function and gets executed after the main function has finished its execution.{{</tooltip>}}.
+To update the DOM, it's helpful to understand the idea of timers and {{<tooltip title="callbacks">}}A callback is a function you pass as an _argument_ to another function. The callback runs after the main function has finished its execution.{{</tooltip>}}.
 
 ```js
 function printMessage(name) {
