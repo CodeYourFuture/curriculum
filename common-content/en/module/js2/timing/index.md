@@ -32,7 +32,7 @@ function printMessage(name) {
 }
 
 setTimeout(printMessage, 3000, "Sally"); // <-- Call printMessage after at least 3000ms, with the argument "Sally"
-printName("Daniel");
+printMessage("Daniel");
 ```
 
 In this example, we define the function and call `printMessage` just once. However, we're also using a built-in function called `setTimeout`. `setTimeout` allows us to set a minimum amount of time after which a function will be called back.
