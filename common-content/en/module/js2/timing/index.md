@@ -45,4 +45,8 @@ Let's break this down this call to `setTimeout`. It is saying:
 
 > "After at least 3000 ms, call the function `printMessage`, and when you call back `printMessage`, pass the input of `"Sally"` to `printMessage`."
 
-Notice we're saying _at least_ 3000 ms because `setTimeout` guarantees a minimum amount of time: it doesn't say that `printMessage` muse be called _exactly_ after 3000 ms. In this example, we say that `printMessage` is a {{<tooltip title="callback function">}}A callback function is a function that is passed as an argument to another function. We ourselves don't call the callback function - something else will call it for us at the right time.{{</tooltip>}} as it is _called back_ after 3000 miliseconds. In the terminal, we'll see "Daniel" appear first and then after an at least 3000 ms delay, we'll see the console log of "Sally".
+Notice we're saying _at least_ 3000 ms because `setTimeout` guarantees a minimum amount of time: it doesn't say that `printMessage` must be called _exactly_ after 3000 ms. In this example, we say that `printMessage` is a {{<tooltip title="callback function">}}A callback function is a function that is passed as an argument to another function. We ourselves don't call the callback function - something else will call it for us at the right time.{{</tooltip>}} as it is _called back_ after 3000 milliseconds.
+
+Run this code in your terminal.  In the terminal, you'll see "Daniel" appear first. After at least a 3000 ms delay, you will see console log of "Sally". Now play computer with some different combinations of timeouts and function calls. Set timeouts on a series of simple functions you can write yourself. Play with the numbers and line orders, and see if you can predict the execution order reliably.  
+
+We will explore callbacks in more detail later on.
