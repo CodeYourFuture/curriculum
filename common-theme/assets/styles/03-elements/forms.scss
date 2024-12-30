@@ -37,9 +37,7 @@ legend {
   font: var(--theme-type-size--4) var(--theme-font--display);
   // float legend in a fieldset of display grid to artificially recreate a box
   float: left;
-  // em specifically to size on the text
-  margin: calc(-1 * 2em) auto 0.5em 0;
-  padding: 1em 0 0 0;
+  padding: var(--theme-spacing--1) 0;
 }
 label,
 input::placeholder {
