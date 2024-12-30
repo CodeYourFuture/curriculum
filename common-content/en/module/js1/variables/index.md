@@ -36,7 +36,7 @@ Break down the different syntactic elements of this variable declaration:
 
 {{<tabs name="greeting">}}
 
-===[[Try it yourself]]
+===[[Try it yourself]]===
 Type this variable declaration into the REPL:
 
 ```
@@ -55,7 +55,7 @@ Our `greeting` variable is stored in memory. We can reuse it to build more expre
 `${greeting}, Barny`
 ```
 
-===[[Watch and follow along]]
+===[[Watch and follow along]]===
 
 ![greeting](greeting.gif "Store your string in a variable and reuse it")
 

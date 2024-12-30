@@ -19,7 +19,7 @@ emoji= '🧩'
 
 {{<tabs name="Predict, explain, check">}}
 
-===[[Define assertion]]
+===[[Define assertion]]===
 
 We now have 2 new concepts: **booleans** and **comparisons**. From these concepts, we can now write an assertion about the function `formatAs12HourClock`.
 
@@ -35,7 +35,7 @@ console.assert(calculation === result);
 
 🎮 [Work through the exercises](#predict-explain-check-1)
 
-===[[Exercise 1]]
+===[[Exercise 1]]===
 
 ### Experiment with assertions
 
@@ -48,7 +48,7 @@ console.assert(calculation === result);
 Change the value assigned to the `result` variable to make the assertion fail. Check the output you get in the console.
 
 👉🏿 [Keep Going](#predict-explain-check-2)
-===[[Exercise 2]]
+===[[Exercise 2]]===
 
 Let's look at an example using `formatAs12HourClock`:
 

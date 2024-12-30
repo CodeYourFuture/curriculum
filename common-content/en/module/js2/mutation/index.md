@@ -16,7 +16,7 @@ emoji= '🧩'
 Let's take another look at our earlier implementation of `calculateMedian`:
 
 {{<tabs name="implementation">}}
-===[[calculate median]]
+===[[calculate median]]===
 
 ```js
 function calculateMedian(list) {
@@ -27,7 +27,7 @@ function calculateMedian(list) {
 }
 ```
 
-===[[calculating median and mean]]
+===[[calculating median and mean]]===
 
 ```js
 const salaries = [10, 20, 30, 40, 60, 80, 80];

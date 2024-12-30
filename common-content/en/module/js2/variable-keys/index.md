@@ -48,7 +48,7 @@ We can't use dot syntax if we don't know what the name of the key is going to be
 
 {{<tabs>}}
 
-===[[Tests]]
+===[[Tests]]===
 We've currently got the following test suite:
 
 ```js

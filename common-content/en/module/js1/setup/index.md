@@ -15,7 +15,7 @@ emoji= '🧩'
 +++
 
 {{% tabs name="Start Project" %}}
-===[[🕹️ Follow along]]
+===[[🕹️ Follow along]]===
 Let's start a brand new project in a directory called `ordinal-testing-example` and create a file called `package.json` in our project.
 
 1. Open your terminal and ensure you're inside the `{{<our-name>}}` directory you created earlier in the course.
@@ -29,7 +29,7 @@ Let's start a brand new project in a directory called `ordinal-testing-example` 
 
 👉🏽 [Now create a `package.json` file](#start-project-1)
 
-===[[🕹️ Create a package.json]]
+===[[🕹️ Create a package.json]]===
 
 {{<note type="tip" title="Package">}}A `package.json` stores useful information about our project, like the name, description, and version. It is written in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).{{</note>}}
 
@@ -38,7 +38,7 @@ Let's start a brand new project in a directory called `ordinal-testing-example` 
 
 👉🏽 Need help? [Follow step by step instructions](#start-project-2)
 
-===[[👣 Step by step]]
+===[[👣 Step by step]]===
 
 1. Create a `package.json` file in your project directory:
 

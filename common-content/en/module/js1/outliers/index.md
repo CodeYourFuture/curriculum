@@ -80,7 +80,7 @@ test("converts 2 to an ordinal number", function () {
 
 {{<tabs name="exercises">}}
 
-===[[exercise 1]]
+===[[exercise 1]]===
 
 ### Check the test output
 
@@ -92,7 +92,7 @@ Double check you agree with the test feedback in this case.
 
 Before coding, outline a strategy for handling the second test case.
 
-===[[exercise 2]]
+===[[exercise 2]]===
 
 {{<note type="exercise" title="Further assertions">}}
 

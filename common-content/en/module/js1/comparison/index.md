@@ -16,7 +16,7 @@ emoji= '🧩'
 +++
 
 {{<tabs name="current">}}
-===[[Define current and target]]
+===[[Define current and target]]===
 Let's start with a function declaration of `formatAs12HourClock`:
 
 ```js
@@ -28,7 +28,7 @@ Whenever we call `formatAs12HourClock` we expect it to return a particular value
 However, the **current output** is what the function _actually_ returns right now.
 
 👉🏼 [Work through the exercises](#current-1)
-===[[Exercise 1]]
+===[[Exercise 1]]===
 
 Let's start with `formatAs12HourClock` defined like this:
 
@@ -45,7 +45,7 @@ formatAs12HourClock("05:30");
 {{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the 🎯 target output?" answers="`'05:30 am'` | `'05:30 AM'` | `'5:30 am'` | `'17:30'`" feedback="Correct! The target output should append 'am' to maintain the 12-hour clock format. | Not quite - based on the examples, we use lowercase 'am'. | No - we want to preserve the leading zero. | No - we want 12-hour format, not 24-hour format." correct="0" >}}
 
 👉🏼 [Keep going](#current-2)
-===[[Exercise 2]]
+===[[Exercise 2]]===
 
 Let's continue with `formatAs12HourClock` defined like this:
 
@@ -82,7 +82,7 @@ formatAs12HourClock("08:00") === "8:00 am";
 ## ✅ ❌ Boolean values
 
 {{<tabs name="booleans">}}
-===[[Define Boolean]]
+===[[Define Boolean]]===
 
 ### Does 1 equal 0? Yes or No? True or False?
 
@@ -101,7 +101,7 @@ console.log(10 * 5 === 60);
 ```
 
 👉🏾 [Now work through the exercises](#booleans-1)
-===[[Exercise 1]]
+===[[Exercise 1]]===
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
@@ -118,7 +118,7 @@ let kilometersMhairiDrivesToWork = 9.4;
 ```
 
 👉🏿 [Keep Going](#booleans-2)
-===[[Exercise 2]]
+===[[Exercise 2]]===
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before
 
 ```js {linenos=table,linenostart=1}
@@ -132,7 +132,7 @@ Math.round(kilometersMhairiDrivesToWork) === 9;
 ```
 
 👉🏿 [Keep Going](#booleans-3)
-===[[Exercise 3]]
+===[[Exercise 3]]===
 
 ### Checking misconceptions 🤔
 

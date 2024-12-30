@@ -20,19 +20,19 @@ emoji= '🧩'
 ## 👩🏽‍✈️👨🏾‍✈️Code along with video mentors
 
 {{<tabs name="Communicating with DB">}}
-===[[setup select statement]]
+===[[setup select statement]]===
 {{<youtube>}}https://www.youtube.com/watch?v=jpCUG_NH_ew{{</youtube>}}
 
-===[[selecting columns]]
+===[[selecting columns]]===
 {{<youtube>}}https://www.youtube.com/watch?v=cHM_nSSIyp8{{</youtube>}}
 
-===[[psql commands]]
+===[[psql commands]]===
 {{<youtube>}}https://www.youtube.com/watch?v=folFY2yrvBg{{</youtube>}}
 
-===[[where clauses]]
+===[[where clauses]]===
 {{<youtube>}}https://www.youtube.com/watch?v=DpS5dlIiHWU{{</youtube>}}
 
-===[[distinct ordering limits]]
+===[[distinct ordering limits]]===
 {{<youtube>}}https://www.youtube.com/watch?v=Ci4Dspp8h1A{{</youtube>}}
 
 {{</tabs>}}

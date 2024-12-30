@@ -32,14 +32,14 @@ There is no operator for rounding the number `10.3` in JavaScript. But we will w
 Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
 
 {{<tabs name="Functions in REPL">}}
-===[[Try it yourself]]
+===[[Try it yourself]]===
 
 1. Write `Math.round` in the Node REPL
 1. Hit enter to evaluate our expression
 
 The REPL output `[Function: round]` is telling us `Math.round` is a function.
 
-===[[Watch and follow along]]
+===[[Watch and follow along]]===
 ![rounding](round.gif "[Function: round] indicates that Math.round is a function")
 
 {{</tabs>}}

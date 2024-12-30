@@ -11,7 +11,7 @@ hide_from_overview=true
 +++
 
 {{<tabs name="Scheduled check-ins">}}
-===[[Text]]
+===[[Text]]===
 
 ## What are we doing now?
 
@@ -39,7 +39,7 @@ _Write down your answers first_ and then update them after looking at the sample
 - [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 - [A large language model like ChatGPT](https://chat.openai.com/)
 - [Devtools](https://developer.chrome.com/docs/devtools/)
-  ===[[Video]]
+  ===[[Video]]===
   {{<youtube>}}https://www.youtube.com/watch?v=U1QWx8xbbt4
   {{</youtube>}}
 

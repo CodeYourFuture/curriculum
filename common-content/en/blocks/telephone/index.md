@@ -10,7 +10,7 @@ time=15
 +++
 
 {{<tabs name="telephone">}}
-===[[Telephone]]
+===[[Telephone]]===
 
 {{<note type="activity" title="Ring Ring Bananaphone">}}
 In groups of no more than 5, we’re going to play a game of telephone.
@@ -18,7 +18,7 @@ In groups of no more than 5, we’re going to play a game of telephone.
 → [Telephone](https://garticphone.com/)
 {{</note>}}
 
-===[[Unplugged Version]]
+===[[Unplugged Version]]===
 
 {{<note type="activity" title="Ring Ring Bananaphone">}}
 To play Telephone without the internet, you will need: pens, paper, a stopwatch or timer

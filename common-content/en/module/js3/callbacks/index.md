@@ -28,7 +28,7 @@ A callback is our function call, sent back to us through the event loop, for us 
 {{</note>}}
 
 {{<tabs name="Event Loop">}}
-===[[Sketch your mental model]]
+===[[Sketch your mental model]]===
 **With a pen and paper**, draw a diagram of your mental model of the event loop.
 
 Use your model to predict the order of logged numbers in the following code snippet:
@@ -46,7 +46,7 @@ setTimeout(function timeout3() {
 console.log("4");
 ```
 
-===[[Compare your model]]
+===[[Compare your model]]===
 
 ```mermaid
 graph

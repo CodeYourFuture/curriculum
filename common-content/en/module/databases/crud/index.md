@@ -17,16 +17,16 @@ emoji= '🧩'
 +++
 
 {{<tabs name="CRUD Operations">}}
-===[[Insert]]
+===[[Insert]]===
 
 ## 👩🏽‍✈️👨🏾‍✈️Code along with video mentors
 
 {{<youtube>}}https://www.youtube.com/watch?v=g1eHag5BG6o&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=3{{</youtube>}}
 
-===[[Create]]
+===[[Create]]===
 {{<youtube>}}https://www.youtube.com/watch?v=ojLmL6tfj_E&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=4{{</youtube>}}
 
-===[[Update and Delete]]
+===[[Update and Delete]]===
 {{<youtube>}}https://www.youtube.com/watch?v=7VXTXjnFtZo&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=5{{</youtube>}}
 
 {{</tabs>}}

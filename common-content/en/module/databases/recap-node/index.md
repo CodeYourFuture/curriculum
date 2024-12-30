@@ -51,7 +51,7 @@ app.listen(3000, function () {
 Before we move on, run the `server.js` file in node and check the endpoint using your browser.
 
 {{<tabs name="Communicating with DB">}}
-===[[Using Postman]]
+===[[Using Postman]]===
 
 ### Using Postman to Test an API
 
@@ -65,7 +65,7 @@ Check the method is GET, set the URL for your customers endpoint then click Send
 
 ![postman get cust all results](postman-get-cust-all-results.png)
 
-===[[👩🏽‍✈️👨🏾‍✈️Code along : Retrieving individual records]]
+===[[👩🏽‍✈️👨🏾‍✈️Code along : Retrieving individual records]]===
 {{<youtube>}}https://www.youtube.com/watch?v=LNfZAI3dp10&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=1{{</youtube>}}
 
 {{</tabs>}}

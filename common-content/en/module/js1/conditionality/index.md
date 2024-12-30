@@ -47,7 +47,7 @@ flowchart LR
 ```
 
 {{<tabs>}}
-===[[Exercise 1]]
+===[[Exercise 1]]===
 
 ### 🕹️ Playing computer
 
@@ -71,7 +71,7 @@ Play computer with the example above, step through each line in the code and wor
 
 If you've not encountered any syntax before, remember to look it up in some documentation.
 
-===[[Exercise 2]]
+===[[Exercise 2]]===
 
 ### 🕹️ Playing computer
 

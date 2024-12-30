@@ -22,9 +22,9 @@ Suppose you're building a user interface to display the films that are now showi
 > _Then_ it should display the list of films now showing, including the film title, times and film certificate.
 
 {{<tabs name="wireframe and data structure">}}
-===[[Wireframe]]
+===[[Wireframe]]===
 ![film-cards](film-cards.png "A grid of cards displaying film information")
-===[[Data]]
+===[[Data]]===
 Here are some example film data:
 
 ```js
