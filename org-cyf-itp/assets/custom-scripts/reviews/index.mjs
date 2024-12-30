@@ -38,6 +38,7 @@ function computeStatusClass(awaitingReview) {
 
 const state = {
   "prs": null,
+  "reviewer_filter": "",
 }
 
 async function onLoad() {
@@ -117,6 +118,9 @@ function render() {
         ".module"
       ).innerText = `${module} (${totalPending})`;
       for (const pr of prsByModule[module]) {
+        if (state.reviewer_filter && !pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
+          continue;
+        }
         const prInList = document
           .querySelector("template.pr-in-list")
           .content.cloneNode(true);
@@ -148,3 +152,8 @@ function render() {
 }
 
 onLoad();
+
+document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
+  state.reviewer_filter = event.target.value;
+  render();
+});
