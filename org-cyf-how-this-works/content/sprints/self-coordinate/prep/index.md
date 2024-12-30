@@ -29,4 +29,7 @@ src="module/how-our-curriculum-works/backlog"
 [[blocks]]
 name="tasks and ratios"
 src="module/how-our-curriculum-works/tasks-and-ratios"
+[[blocks]]
+name="class planner"
+src="module/how-our-curriculum-works/classplanner"
 +++
