@@ -3,7 +3,7 @@ title="Zip Zap Boing!"
 emoji="⚡"
 hide_from_overview=true
 time=15
-[objectives]
+[tasks]
 1="Coordinate group movement and attention"
 3="Energise the group and create a fun atmosphere"
 [build]

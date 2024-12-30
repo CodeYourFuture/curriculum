@@ -1,0 +1,4 @@
+# This config is for any production only settings
+
+[caches.getresource]
+maxAge = "0m"

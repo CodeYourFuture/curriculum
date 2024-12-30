@@ -17,7 +17,7 @@ src="blocks/workshop"
 time="140"
   [[blocks.nested.blocks]]
     name="Stand-up [PD] (30 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
+    src="https://github.com/CodeYourFuture/CYF-Workshops/blob/main/stand-up/readme.md"
     time=0
   [[blocks.nested.blocks]]
     name="Git Day 1 [Tech] (60 Mins)"

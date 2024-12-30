@@ -28,12 +28,19 @@
           {{ $prep := .Site.GetPage (printf "%sprep/index.md"
             .CurrentSection.RelPermalink)
           }}
+          {{ $backlog := .Site.GetPage (printf "%sbacklog/index.md"
+            .CurrentSection.RelPermalink)
+          }}
           {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
             .CurrentSection.RelPermalink)
           }}
+          {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" $backlog.Params.backlog "backlog_filter" $backlog.Params.backlog_filter) }}
           {{ $blocks := slice }}
           {{/* append non-nil blocks */}}
           {{ range $prep.Params.blocks }}
+            {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
+          {{ end }}
+          {{ range $issueBlocks }}
             {{ if . }}{{ $blocks = $blocks | append . }}{{ end }}
           {{ end }}
           {{ range $dayplan.Params.blocks }}
@@ -43,6 +50,7 @@
           {{ if and (not $blocks) $dayplan $prep }}
             {{ errorf "There are no learning objectives on the %s page. Make sure this sprint has learning objectives." $.Page.RelPermalink }}
           {{ end }}
+
           {{/* Deduplicate blocks */}}
           {{ $uniqueSrcs := slice }}
           {{ $dedupedBlocks := slice }}
@@ -64,10 +72,10 @@
             {{/* Retrieve the blockData from Scratch */}}
             {{ $blockData := $.Page.Scratch.Get "blockData" }}
             {{/* Depending on the type of block, call the appropriate partial */}}
-            {{ if or (eq $blockData.type "readme") }}
-              {{ partial "objectives/parsed" (dict "blockData" $blockData "pageContext" $pageContext) }}
+            {{ if or (eq $blockData.type "readme") (eq $blockData.type "issue") }}
+              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" $blockData.name) }}
             {{ else }}
-              {{ partial "objectives/lookup.html" (dict "blockData" $blockData "pageContext" $pageContext) }}
+              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true) }}
             {{ end }}
 
           {{ end }}

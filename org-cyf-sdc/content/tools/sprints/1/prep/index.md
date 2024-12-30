@@ -1,20 +1,41 @@
 +++
 title = 'prep'
-description = 'Overview description of the prep work for the sprint'
+description = 'Learn about shell tools, and how computers work'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Read about operating systems"
-src="module/computers/read-about-operating-systems-1"
+name="Binary and hexadecimal numbers"
+src="module/tools/binary-and-hexadecimal-numbers"
 [[blocks]]
-name="Learn NodeJS"
-src="module/tools/learn-nodejs"
+name="CPU and Memory"
+src="module/tools/cpu-and-memory"
 [[blocks]]
-name="Implement and test CLI tools in NodeJS"
-src="module/tools/implement-tools-in-nodejs"
+name="Shell tools"
+src="module/tools/individual-shell-tools"
 [[blocks]]
-name="Implement a single-use data analysis program"
-src="module/tools/implement-single-use-data-analysis"
+name="cat"
+src="module/tools/cat-1"
+[[blocks]]
+name="man pages"
+src="module/tools/man-pages"
+[[blocks]]
+name="more cat"
+src="module/tools/cat-2"
+[[blocks]]
+name="ls"
+src="module/tools/ls"
+[[blocks]]
+name="wc"
+src="module/tools/wc"
+[[blocks]]
+name="grep"
+src="module/tools/grep"
+[[blocks]]
+name="sed"
+src="module/tools/sed"
+[[blocks]]
+name="awk"
+src="module/tools/awk"
 +++

@@ -14,7 +14,7 @@ Code Your Future is a volunteer-led community of tech professionals, and we teac
 
 Our curriculum content is all open source, and our teaching style is [flipped classroom](https://teachingcommons.stanford.edu/teaching-guides/blended-and-hybrid-teaching-guide/frameworks-blended-and-hybrid-teaching/flipped). This means that anyone should be able to follow the curriculum content independently. We offer mentoring and support to help people work through it, but the content does not assume a teacher/mentor will be present for programme delivery.
 
-Our Golbal Syllabus Team is responsible for the overall direction of the main curriculum. They decide the strategy and accept new tested content into the core. Find out more by learning [how to contribute](/contributing.md). 
+Our Global Syllabus Team is responsible for the overall direction of the main curriculum. They decide the strategy and accept new tested content into the core. Find out more by learning [how to contribute](/CONTRIBUTING.md). 
 
 Our curriculum and our curriculum platform are tightly integrated with GitHub. We want our learners to know how to use Git and GitHub and how modern development practices work, so we do almost everything right on GitHub. Learners submit their work by creating a pull request to the project repo. They plan their work using GitHub Projects, and they track their progress on the issues. We code review via the GitHub PR interface, and we have some automation and unit testing on quizzes and exercises/problems. 
 
@@ -78,7 +78,7 @@ Then add the common theme and content modules as hugo modules to hugo.toml:
 
 Look at the [org-cyf](/org-cyf/) and [org-cyf-tracks](/org-cyf-tracks/) examples for more details and options.
 
-To customise the css, make a dir `assets/custom-theme` and throw any scss in there. It will be compiled and added last.
+To customise the CSS, make a dir `assets/custom-theme` and throw any SCSS in there. It will be compiled and added last.
 
 To add site logo/s, make a dir and add svgs to `assets/custom-images/site-logo/`. They will be added to the site header.
 

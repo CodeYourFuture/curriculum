@@ -1,10 +1,9 @@
 +++
 title = 'Viewing files from a git clone'
-
 time ="20"
 facilitation = false
 emoji= '📘'
-objectives=["Open a cloned repository in VSCode","Explore the repository in VSCode","Open the Integrated Terminal in VSCode"]
+objectives=["Open a cloned repository in your IDE","Explore the repository in your IDE","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'
   list = 'local'
@@ -30,6 +29,5 @@ VSCode is an application that enables developers to view and edit files on their
 
 {{</note>}}
 
-Here is a diagram representing how the repositories interact after forking and cloning:
-
-![fork-and-clone-diagram](fork-and-clone-diagram.png)
+> [!NOTE]
+> If you're working on a library computer, use dot dev to open the repo in your browser, and navigate the files and folder there. You cannot open a terminal in the library, so come to class to try this part out.

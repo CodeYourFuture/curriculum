@@ -2,7 +2,7 @@
 title="Blockers!"
 emoji="🚗"
 time=25
-[objectives]
+[tasks]
     1="Use the driver and navigator pattern"
     2="Break down a problem into steps"
     3="Negotiate a strategy with your team"

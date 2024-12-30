@@ -1,9 +1,9 @@
-{{/* Section navigation */}}
-
-{{ if or .PrevInSection .NextInSection }}
+{{/* Section navigation  and other tiny tips */}}
+{{ if or .IsSection  .IsPage }}
   <footer class="c-page-footer">
     <nav class="c-page-footer__nav">
-      {{ with .PrevInSection }}
+      {{ $pages := .Page.Parent.Pages.Reverse }}
+      {{ with $pages.Prev . }}
         <a
           class="c-page-footer__prev c-page-footer__link e-link"
           href="{{ .RelPermalink }}"
@@ -11,7 +11,7 @@
         >←
       {{ end }}
       <span class="c-page-footer__this">{{ .Title }}</span>
-      {{ with .NextInSection }}
+      {{ with $pages.Next . }}
         →<a
           class="c-page-footer__next c-page-footer__link e-link"
           href="{{ .RelPermalink }}"

@@ -1,0 +1,54 @@
+{{ define "main" }}
+  {{ partial "page-header.html" . }}
+  {{ with .Content }}
+    <section class="l-page__main c-copy">
+      {{ . }}
+    </section>
+  {{ end }}
+  <div id="overview" class="c-pr-overview"></div>
+
+  <div id="pr-list">Loading...</div>
+
+  <template class="overview-card">
+    <section class="c-pr-overview__card overview-card">
+      <h3 class="c-pr-overview__module e-heading__5 module"></h3>
+      <p class="c-pr-overview__description e-heading__6 ">
+        PRs waiting, time in <strong>days</strong>:
+      </p>
+
+      <dl class="c-pr-overview__age age-container">
+        <div>
+          <dt class="c-pr-overview__bucket age-bucket this-week">🟢 &lt;7</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+        <div>
+          <dt class="c-pr-overview__bucket age-bucket this-month">🟠 7-28</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+        <div>
+          <dt class="c-pr-overview__count age-bucket old">🔴 28+</dt>
+          <dd class="c-pr-overview__count count"></dd>
+        </div>
+      </dl>
+      <div class="c-pr-overview__values summary-values"></div>
+    </section>
+  </template>
+
+  <template class="pr-list">
+    <h2 class="e-heading__3 module"></h2>
+    <ul class="e-list pr-list"></ul>
+  </template>
+
+  <template class="pr-in-list">
+    <li>
+      <span class="c-emoji emoji"></span> <a class="e-link pr-link"></a> (<a
+        class="e-link user-link"></a>
+      - #<span class="pr-number"></span>)
+    </li>
+  </template>
+
+  {{ $common := resources.Get "custom-scripts/reviews/common.mjs" | resources.Minify }}
+  {{ $reviews := resources.Get "custom-scripts/reviews/index.mjs" | resources.Minify }}
+  {{ $js := slice $common $reviews | resources.Concat "js/reviews-bundle.js" | resources.Minify }}
+  <script type="module" src="{{ $js.RelPermalink }}"></script>
+{{ end }}

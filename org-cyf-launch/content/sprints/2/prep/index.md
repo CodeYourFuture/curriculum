@@ -6,7 +6,7 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-The-Launch'
-backlog_filter= 'Week 2'
+backlog_filter='📅 Week 2'
 [[blocks]]
 name="Prep your Demo"
 src="blocks/prep-launch-week-2"

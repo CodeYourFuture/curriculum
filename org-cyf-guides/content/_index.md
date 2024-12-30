@@ -4,5 +4,5 @@ description = 'A collection of guides, references, resources that do not belong 
 emoji= '📚'
 menu=["syllabus"]
 weight=1
-map=['volunteers', 'learners', 'everyone']
+menus_to_map=['volunteers', 'learners', 'everyone']
 +++

@@ -37,4 +37,7 @@ name="Anonymous functions"
 [[blocks]]
 src="module/js1/arrow-functions"
 name="Arrow functions"
+[[blocks]]
+name="Solving problems while testing 📼"
+src="module/js1/testing-workshop"
 +++

@@ -5,7 +5,7 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Servers'
-backlog_filter= 'Week 4'
+backlog_filter='📅 Week 4'
 theme = "Building Wordle"
 [[blocks]]
 name="Play Wordle"

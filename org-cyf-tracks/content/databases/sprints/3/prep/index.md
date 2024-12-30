@@ -5,7 +5,7 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-Databases'
-backlog_filter= 'Week 3'
+backlog_filter='📅 Week 3'
 [[blocks]]
 name="Recap Node and Postman"
 src="module/databases/recap-node"

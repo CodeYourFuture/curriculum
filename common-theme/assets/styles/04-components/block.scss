@@ -16,6 +16,10 @@
     gap: var(--theme-spacing--gutter);
   }
 
+  &__objectives {
+    width: 100%;
+  }
+
   &__series {
     display: grid;
     gap: var(--theme-spacing--gutter);
@@ -61,7 +65,7 @@
       font-size: var(--theme-type-size--6);
     }
   }
-
+  // TODO track down and rm this
   &--pd.c-block {
     box-shadow: none;
     border: none;

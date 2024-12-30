@@ -53,12 +53,18 @@ then go ahead and make a TOC */}}
       <h2
         class="c-page-header__subtitle c-page-header__backlog e-heading__3"
         data-pagefind-weight="0.5">
+        {{ $repos := .Page.Params.backlog | default ""}}
+        {{ if not (reflect.IsSlice $repos)}}
+          {{ $repos = slice .Page.Params.backlog}}
+        {{ end}}
+        {{ range $repos}}
         <a
           class="c-page-header__link"
-          href="{{ .Page.Site.Params.org }}/{{ .Page.Params.backlog }}/issues"
-          >{{ .Page.Params.backlog }}
-          🔗</a
-        >
+          href="{{ site.Params.org }}/{{ . }}/issues"
+          > {{ . }}
+          🔗 </a
+        >&nbsp; 
+        {{ end}}
       </h2>
     {{ else }}
       {{ with .Page.Description }}

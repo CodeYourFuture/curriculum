@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "dotenv -e ../.env -- hugo server --disableFastRender --environment development",
-    "build:dev": "hugo mod vendor && dotenv -e ../.env  -- hugo --environment development"
+    "build:dev": "hugo mod vendor && dotenv -e ../.env  -- hugo --environment development",
+    "build:audit": "HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo mod vendor && dotenv -e ../.env  -- hugo --environment production && grep -inorE '<\\!-- raw HTML omitted -->|ZgotmplZ|\\[i18n\\]|\\(<nil>\\)|(&lt;nil&gt;)|hahahugo' public/"
   },
   "keywords": [],
   "author": "",

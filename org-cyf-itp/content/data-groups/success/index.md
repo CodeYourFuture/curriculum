@@ -1,16 +1,15 @@
 +++
 title = 'success'
-description = 'How do we know we have completed User Data Groups?'
+description = 'How do we know we have completed Data Groups?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Link to your PR for [Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/15)"
-2="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)"
-3="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)"
-4="Link to your PR for your [Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)"
-5="Created your [Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10), and started listing your achievements in it"
+1="Link to your PR for [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)"
+2="Link to your PR for your [Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)"
+3="Link to your PR for your [Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)"
+4="Link to your [Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10) and explain how you have used it to record your progress"
 
 +++
 
@@ -31,6 +30,9 @@ weight = 11
 - **Submit** the Dashboard step for this module
 ```
 
+> [!TIP]
+> If you've opened your PRs, but nobody has reviewed your work, you should submit your step and ask in comments for help in getting your review.
+
 ## ✅ To complete _this_ module, you must:
 
-Submit the following items to complete this module on the CYF Dashboard:
+Submit the following items to complete this module on the [CYF Course Platform](https://application-process.codeyourfuture.io/):

@@ -2,7 +2,7 @@
 title ="Step 1: Extend Your Skills"
 description= "Explore using AI to generate a cover letter for yourself or a CV"
 emoji= "💪🏾"
-time= 60
+time=5
 [build]
   render = 'never'
   list = 'local'

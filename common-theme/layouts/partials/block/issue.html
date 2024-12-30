@@ -21,7 +21,22 @@
           {{ end }}
         {{ end }}
       {{ end }}
+
+      {{/* extract objectives */}}
+      {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response.body }}
+
+      {{ if gt (len $extractedObjectives) 0 }}
+        <details class="c-block__objectives">
+          <summary>
+            <h3 class="e-heading__4">Learning Objectives</h3>
+          </summary>
+          {{ range $extractedObjectives }}
+            {{ . | markdownify }}
+          {{ end }}
+        </details>
+      {{ end }}
     </header>
+
     <div class="c-block__content c-copy">
       {{ $response.body | markdownify }}
     </div>

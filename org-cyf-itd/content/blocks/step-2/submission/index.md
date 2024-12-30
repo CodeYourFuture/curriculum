@@ -11,7 +11,7 @@ time= 5
 
 ### Submission
 
-You must do this in CYF Course platform
+You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io)
 
 1. Share a link to the spreadsheet you made
 

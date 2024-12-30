@@ -25,7 +25,7 @@ _Before_ you join the Piscine, you should have a secure understanding of a _limi
 - [ ] Navigating Objects: `Object.entries`, `Object.fromEntries`, `Object.keys`, `Object.values`
 - [ ] Navigating Arrays: `Array.includes`, `Array.slice`
 - [ ] Operators: `=`, `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`, `&&`, `||`, `!`, `%`, `+`, `-`, `*`, `/`
-- [ ] Control structures: `if`, `else`, `else if`, `switch`, `case`, `break`, `continue`, `return`
+- [ ] Control structures: `if`, `else`, `else if`, `return`
 - [ ] Functions: `function`, `=>`, scope, callbacks, and extracting a function
 - [ ] Loops: `for`, `for of`
 - [ ] Higher order functions that take callbacks: `Array.map`, `Array.filter`, `Array.find`, `Array.findIndex`
@@ -38,8 +38,7 @@ _Before_ you join the Piscine, you should have a secure understanding of a _limi
 
 ### JavaScript Testing
 
-- [ ] Assertions in Jest: `describe`, `it`, `expect`, `to`, `toEqual`, `toBe`, `not`
-- [ ] Error handling: `try`, `catch`, `throw`
+- [ ] Assertions in Jest: `test`, `expect`, `toEqual`, `not`
 
 ### Git
 

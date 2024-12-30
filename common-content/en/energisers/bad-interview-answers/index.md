@@ -3,7 +3,7 @@ title="Bad Interview Answers"
 emoji="🤦‍♂️"
 hide_from_overview=true
 time=15
-[objectives]
+[tasks]
 1="Wake up"
 3="Have a laugh"
 [build]

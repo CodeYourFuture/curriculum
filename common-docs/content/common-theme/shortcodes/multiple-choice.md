@@ -7,6 +7,8 @@ menu=["shortcodes"]
 
 This is a simple "check understanding" block that allows you to create a multiple choice question with options and feedback. Short assessments like this are a pedagogically sound strategy to boost retention and understanding.
 
+If you need to use `|` characters in your answers/feedback, you can specify the `delimiter` key to use a different delimiter between them.
+
 ### Invoke
 
 ```go

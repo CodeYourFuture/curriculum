@@ -5,5 +5,5 @@ emoji= '🏷️'
 menu_level = ['subdir']
 weight = 2
 backlog= 'React-Module-Project'
-backlog_filter= 'Week 2'
+backlog_filter='📅 Week 2'
 +++

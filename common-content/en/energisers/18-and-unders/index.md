@@ -2,7 +2,7 @@
 title="18 and under" 
 emoji="🧒"
 time=10 
-[objectives] 
+[tasks] 
 1="Share any interesting fact about you when you were young" 
 2="Discover hidden skills of your peers"
 [build] 

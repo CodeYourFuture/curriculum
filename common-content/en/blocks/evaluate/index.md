@@ -2,7 +2,7 @@
 title="Evaluate ✏️"
 
 time= 60
-[objectives]
+[tasks]
     1="Evaluate your current progress against previous modules"
 [build]
   render = 'never'

@@ -10,4 +10,7 @@ hide_from_overview=true
   publishResources = false
 +++
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLfMfy30P8RVJcxKlbZX4ElfgAFBDJz_AeOCJFLlshZjifnJqCktuBX4MmZl8qn4PfmoloNvUxI3tw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+On the demo day the Launch Module teams will present their products. Each team has 10 minutes to present. You must ensure that you can present within the allocated time.
+_Suggestion of split: 7 minutes for the presentation itself and 3 minutes for questions._
+
+Use our [presenting guide](/guides/presenting/) to understand what you should consider when building your demo.

@@ -1,0 +1,26 @@
+.c-pr-overview {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--theme-spacing--container-min), 1fr)
+  );
+  gap: var(--theme-spacing--2);
+  margin-bottom: var(--theme-spacing--4);
+
+  &__card {
+    box-shadow: var(--theme-box-shadow--slim);
+    padding: var(--theme-spacing--1);
+    display: grid;
+    gap: var(--theme-spacing--1);
+  }
+
+  &__age {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 0 0;
+  }
+
+  &__bucket {
+    text-align: center;
+  }
+}

@@ -1,0 +1,12 @@
+{{/* Expects slice[string] param which is the name of the menus to render as sections. */}}
+
+{{ $sections := slice }}
+
+{{ range $menuName := . }}
+  {{ $section := dict "title" $menuName "values" (index site.Menus $menuName) }}
+  {{ $sections = append $section $sections }}
+{{ end }}
+
+{{ $params := dict "sections" $sections }}
+
+{{ partial "map-common.html" $params }}

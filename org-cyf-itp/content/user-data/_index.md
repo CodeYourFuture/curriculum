@@ -1,8 +1,10 @@
 +++
-title = 'User focused data'
-description = 'User focused data: Build up robust interfaces by structuring data and interactions; analyse and interrogate code with tools; decompose interfaces into components; recognise patterns'
+title = '[ARCHIVED 2024] User focused data'
+description = 'This module has been archived and replaced by the Onboarding module.'
 layout = 'module'
 emoji= '📇'
-menu = ['syllabus', 'core', 'programming']
-weight='2'
+[build]
+  render = false
+  publishResources = false
+  list = 'never'
 +++

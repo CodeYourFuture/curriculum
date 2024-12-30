@@ -28,7 +28,7 @@ test("calculates the mean of a list of numbers", () => {
   const currentOutput = calculateMean(list);
   const targetOutput = 20;
 
-  expect(currentOutput).toBe(targetOutput); // 20 is (3 + 50 + 7) / 3
+  expect(currentOutput).toEqual(targetOutput); // 20 is (3 + 50 + 7) / 3
 });
 ```
 

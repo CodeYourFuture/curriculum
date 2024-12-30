@@ -16,8 +16,7 @@ In a flipped learning model, learners are expected to **prepare** before they me
 Trainees should show up to class with questions and problems they didn't understand from the prep they already did. This means that we can use our in-person time to work together to fix real problems people have!
 
 {{<multiple-choice
-question="Which is the best use a volunteer's time on a class day?"
-answers="To read an introduction of a topic to trainees. | To help trainees with the questions they had having done the prep work. | To watch trainees read an explanation of a topic."
+question="What is the best use of volunteer time on a class day?"
+answers="Reading an introduction of a topic to trainees. | Helping trainees with the questions they had having done the prep work. | Watching trainees read and do work by themselves."
 feedback="Think again: Trainees can read material themselves at their own pace at home. | Right! Working together on real problems is a great use of in-person time. | Not quite: Just watching people do their own work is quite boring and doesn't add much value."
-correct="1"
->}}
+correct="1" >}}

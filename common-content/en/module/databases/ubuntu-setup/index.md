@@ -1,5 +1,5 @@
 +++
-title = 'Ubuntu setup ⚙️'
+title = 'Ubuntu setup'
 
 time = 45
 facilitation = false

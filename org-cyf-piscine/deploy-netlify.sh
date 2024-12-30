@@ -1,1 +1,1 @@
-../deploy-netlify.sh
+../tooling/common-config/deploy-netlify.sh

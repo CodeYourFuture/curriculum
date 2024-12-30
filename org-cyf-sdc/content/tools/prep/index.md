@@ -26,4 +26,7 @@ src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
 [[blocks]]
 name="Make your Planning Board"
 src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
+[[blocks]]
+name="Get a copy of How Computers Really Work"
+src="get-how-computers-really-work"
 +++

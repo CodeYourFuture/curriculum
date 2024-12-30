@@ -7,9 +7,11 @@
 >}}
 
 */}}
+
+{{ $delimiter := .Get "delimiter" | default "|" }}
 {{ $question := .Get "question" }}
-{{ $answers := split (.Get "answers")  "|" }}
-{{ $feedback := split (.Get "feedback" | default "") "|" }}
+{{ $answers := split (.Get "answers") $delimiter }}
+{{ $feedback := split (.Get "feedback" | default "") $delimiter }}
 {{ $correct := (.Get "correct") }}
 
 {{ partial "multiple-choice" (dict "question" $question "answers" $answers "feedback" $feedback "correct" $correct) }}

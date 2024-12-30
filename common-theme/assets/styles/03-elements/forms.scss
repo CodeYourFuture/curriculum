@@ -18,6 +18,7 @@ fieldset {
   border-color: var(--theme-color--block);
   box-shadow: var(--theme-box-shadow--slim);
   border-radius: var(--theme-border-radius);
+  display: grid;
 }
 
 main input:not([type="radio"]):not([type="checkbox"]) {
@@ -34,6 +35,9 @@ main input:not([type="radio"]):not([type="checkbox"]) {
 
 legend {
   font: var(--theme-type-size--4) var(--theme-font--display);
+  // float legend in a fieldset of display grid to artificially recreate a box
+  float: left;
+  padding: var(--theme-spacing--1) 0;
 }
 label,
 input::placeholder {

@@ -32,7 +32,7 @@ test("calculates the median of a list of odd length", () => {
   const currentOutput = calculateMedian(list);
   const targetOutput = 30;
 
-  expect(currentOutput).toBe(targetOutput);
+  expect(currentOutput).toEqual(targetOutput);
 });
 ```
 

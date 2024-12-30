@@ -5,7 +5,7 @@ emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-Portfolio'
-backlog_filter= 'Week 1'
+backlog_filter='📅 Week 1'
 [[blocks]]
 name="Energiser"
 src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"

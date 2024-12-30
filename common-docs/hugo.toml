@@ -51,6 +51,7 @@ main_org_name = "Code Your Future"
 our_name="The Docs"
 org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
+owner = "CodeYourFuture"
 root = "curriculum"
 orgapi = "https://api.github.com/repos/CodeYourFuture"
 [caches.getresource]
