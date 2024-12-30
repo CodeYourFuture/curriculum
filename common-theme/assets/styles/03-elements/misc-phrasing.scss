@@ -52,9 +52,16 @@ summary > * {
   display: inline-block;
   margin: 0;
 }
-summary::marker {
-  color: var(--theme-color--accent);
-  font-size: var(--theme-type-size--3);
+details {
+  summary::marker {
+    color: var(--theme-color--accent);
+    font-size: var(--theme-type-size--3);
+    transition: all 0.5s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  }
+  &:hover summary::marker {
+    color: var(--theme-color--pop);
+    font-size: calc(2px + var(--theme-type-size--3));
+  }
 }
 hr {
   border: 0;

@@ -4,7 +4,7 @@ description = 'This content is coming soon'
 time = 20
 facilitation = false
 emoji= '🌫️'
-[objectives]
+[tasks]
     1='Find the plan in Slack instead'
 [build]
   list = 'never'

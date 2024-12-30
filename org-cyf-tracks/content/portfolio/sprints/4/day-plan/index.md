@@ -5,7 +5,7 @@ emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Portfolio'
-backlog_filter= 'Week 4'
+backlog_filter='📅 Week 4'
 [[blocks]]
 name="Energiser"
 src="blocks/energiser"

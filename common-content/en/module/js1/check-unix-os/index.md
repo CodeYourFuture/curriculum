@@ -26,8 +26,6 @@ Code Your Future does not support Windows.
 We have found that we don't reliably have volunteers at class who can debug Windows problems, and they frequently come up, stopping trainees from making progress.
 
 We do not support Windows so as to not waste lots of trainee and volunteer time. We have made this decision even though Windows is a popular operating system and has features like WSL which help to get experience with Unix.
-
-You *must* use a Unix-based operating system at Code Your Future.
 {{</note>}}
 
 If you have a Mac or Linux machine already, you already have a UNIX based operating system. All CYF-supplied laptops run Mac OS or Linux. If you have your own machine and it runs Windows, you should already have set up a Linux partition.

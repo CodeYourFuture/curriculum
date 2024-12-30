@@ -3,11 +3,19 @@
 
   {{ partial "page-header.html" . }}
     <article class="c-copy">
-      <h3>📛 This is a term definition page</h3>
+    {{ with .Page.Params.details }}
+      <dl class="c-terms">
+        {{ range $metadatum := index . }}
+          <dt>{{ index $metadatum "name" }}</dt> <dd>{{ index $metadatum "value" }}</dd>
+        {{ end }}
+      </dl>
+    {{ end }}
+
       {{ .Content }}
       {{ with .Pages }}
       <footer class="c-page__footer">
-        <h4>Citations</h4>
+        {{ $taxonomy := site.GetPage "/track_kinds" }}
+        <h3>🏷️ {{ or $taxonomy.Params.member_name "Members" }}</h3>
         <ul class="c-label__list">
         {{ range sort . "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
@@ -15,6 +23,7 @@
             <span class="c-label__name">{{ .Params.emoji |default "🧩"}} {{ .Title }}</span>
         {{ with .Permalink }}</a>{{end}}
       </li>    
+
         {{ end }}
         </ul>
       </footer>

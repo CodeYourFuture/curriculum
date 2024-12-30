@@ -1,6 +1,6 @@
 +++
 title = 'Three'
-description = 'Build and deploy five websites to Netlify with Scrimba'
+description = 'Build four simple projects using HTML and CSS in Khan Academy'
 layout = 'prep'
 emoji= '🚀'
 menu_level = ['module']
@@ -21,4 +21,5 @@ src="blocks/help"
 [[blocks]]
 name="Extensions"
 src="blocks/step-3/extend"
+time=5
 +++

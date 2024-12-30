@@ -10,13 +10,15 @@ hide_from_overview=true
 
 +++
 
-Download and install the following software or register for the apps.
+Download and install the following software or register for the apps if you have not done so already.
 
 Click on the links to go to the registration pages. Keep your login details for all sites/apps consistent and always use your real name.
 
-{{<note type="info" title="Real Name" >}}
-We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
-{{</note>}}
+> [!IMPORTANT]
+>
+> ##### Real name
+>
+> We recognise you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 
 Every time you create an account which can have a profile picture, you should set one up. Follow these [professional image guidelines](https://www.linkedin.com/business/talent/blog/product-tips/tips-for-taking-professional-linkedin-profile-pictures) when picking an image. Use the same picture for every account.
 
@@ -41,20 +43,12 @@ This is your public professional email address. Use it to sign up for all your p
 - [ ] I have made a professional Google account and Gmail address.
 - [ ] I have explored the [Google Suite](https://applieddigitalskills.withgoogle.com/c/en/workspace), such as calendar, docs and spreadsheets.
 
-### Google Chrome
-
-Google Chrome is the first browser we will all use together.
-
-- [ ] I have downloaded and installed Google Chrome.
-- [ ] I have logged into my professional profile on Chrome.
-
-Use your professional Chrome profile for all your {{<our-name>}} work. You will often have to share your screen during sessions, so keep your personal internet use private and away from your professional profile.
-
 ### GitHub
 
-You will use [GitHub](https://github.com/signup) to store your code and to collaborate with your peers.
+You will use [GitHub](https://github.com/signup) to store your code and to collaborate with your peers. You have already made a GitHub account, but you need to check it is professional. You can change your username in your settings. You can add your professional email address in your settings too. (You can have more than one email address on your account.)
 
-- [ ] I have made a GitHub account using my professional email address.
+- [ ] My GitHub account shows my professional name
+- [ ] I have added my professional email address to my GitHub account.
 
 ### LinkedIn
 
@@ -71,13 +65,24 @@ Your cohort is your first network, and this is one of the most valuable things y
 
 ### Slack
 
-[Slack](https://slack.com/intl/en-gb) is our community space and how we communicate with each other. Download and install it now.
+[Slack](https://slack.com/intl/en-gb) is our community space and how we communicate with each other. Download and install it now. If you are not using your own computer, log in to the web version instead.
 
 - [ ] I have downloaded the [Slack](https://slack.com/intl/en-gb) app on my computer and phone.
 - [ ] I have logged in to the {{<our-name>}} workspace.
 - [ ] I have found and joined my class channels.
 - [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
 - [ ] I have introduced myself on Slack.
+
+## Applications
+
+If you're working on a library computer, you can't download these applications. You will use [GitHub Dev](https://github.dev/) to complete coursework instead.
+
+### Google Chrome
+
+- [ ] I have downloaded and installed Google Chrome.
+- [ ] I have logged into my professional profile on Chrome.
+
+Use your professional Chrome profile for all your {{<our-name>}} work. You will often have to share your screen during sessions, so keep your personal internet use private and away from your professional profile.
 
 ### VSCode
 

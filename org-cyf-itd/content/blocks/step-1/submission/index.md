@@ -11,10 +11,10 @@ time= 5
 
 ### Submission
 
-You must do this in the CYF Course platform
+You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
 
-1. Upload the document containing the cover letter to this site
-2. Add a comment with at least one comment (positive or negative) on the AI’s work
+1. Add a link to the Google Doc
+2. Add a comment on the document giving feedback on the content
 
 {{<note type="tip" title="Personalise your URLs">}}
 Before you upload the document, edit your file name to include your name. It can just be your given name or your family name if you prefer.
