@@ -44,24 +44,34 @@ code:not([class]) {
 }
 
 // details could show up in github flavoured markdown so we put a basic style on here
+details {
+  list-style: none;
+}
 summary {
   margin-bottom: var(--theme-spacing--1);
   cursor: pointer;
+  list-style: none;
 }
 summary > * {
   display: inline-block;
   margin: 0;
 }
-details {
-  summary::marker {
-    color: var(--theme-color--accent);
-    font-size: var(--theme-type-size--3);
-    transition: all 0.5s cubic-bezier(0.4, 2.08, 0.55, 0.44);
-  }
-  &:hover summary::marker {
-    color: var(--theme-color--pop);
-    font-size: calc(2px + var(--theme-type-size--3));
-  }
+
+details > summary::before {
+  content: "▶";
+  display: inline-block;
+  color: var(--theme-color--accent);
+  font-size: var(--theme-type-size--4);
+  transition: transform 0.5s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  margin: 0 var(--theme-spacing--1) 0 0;
+}
+details:hover summary::before {
+  color: var(--theme-color--pop);
+  transform: rotate(5deg) scale(1.1);
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
 }
 hr {
   border: 0;
