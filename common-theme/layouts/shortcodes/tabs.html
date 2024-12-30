@@ -44,7 +44,7 @@ TAB 2 content
     {{- range $index, $tab := $tabs -}}
       {{- if ne $tab "" -}}
         {{- $id := printf "%s-%d" $tab_set_id $index -}}
-        {{- $tabParts := split $tab "]]" -}}
+        {{- $tabParts := split $tab "]]===" -}}
         {{- $content := index $tabParts 1 -}}
         <div
           id="{{ $id }}"
