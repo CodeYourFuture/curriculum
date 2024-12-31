@@ -6,9 +6,6 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-title="Read about the world-wide web"
-src="module/decomposition/read-about-the-www"
-[[blocks]]
 title = "Making a non-live chat application"
 src = "module/decomposition/non-live-chat-application"
 [[blocks]]
