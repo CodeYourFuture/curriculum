@@ -6,7 +6,7 @@ facilitation = false
 emoji= "💻"
 hide_from_overview = true
 [objectives]
-    1="Show the contents of a file, including line numbers, with cat"
+    1="Show the contents of a file, including line numbers, with `cat`"
     2="Concatenate multiple files outputting to the terminal"
 +++
 
