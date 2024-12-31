@@ -47,10 +47,6 @@ async function onLoad() {
 }
 
 function render() {
-  const reviewerFilterElement = document.querySelector("#reviewer-filter");
-  reviewerFilterElement.innerText = "";
-  reviewerFilterElement.appendChild(makeOption("Filter by reviewer", ""));
-
   if (state.prs === null) {
     document.querySelector("#pr-list").innerText = "Loading...";
     return;
@@ -161,25 +157,19 @@ function render() {
     }
   }
 
+  const knownReviewersElement = document.querySelector("#known-reviewers");
+  knownReviewersElement.innerText = "";
   const sortedReviewers = [...reviewers].sort();
   for (const reviewer of sortedReviewers) {
-    reviewerFilterElement.appendChild(makeOption(reviewer, reviewer, reviewer === state.reviewer_filter));
+    const option = document.createElement("option");
+    option.value = reviewer;
+    knownReviewersElement.appendChild(option);
   }
-}
-
-function makeOption(text, value, selected) {
-  const option = document.createElement("option");
-  option.innerText = text;
-  option.value = value;
-  if (selected) {
-    option.selected = true;
-  }
-  return option;
 }
 
 onLoad();
 
-document.querySelector("#reviewer-filter").addEventListener("change", (event) => {
+document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
   state.reviewer_filter = event.target.value;
   console.log("Setting filter to " + state.reviewer_filter);
   render();

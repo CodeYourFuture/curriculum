@@ -7,7 +7,7 @@
   {{ end }}
   <div id="overview" class="c-pr-overview"></div>
 
-  <select id="reviewer-filter"></select>
+  <label for="reviewer-filter" class="is-invisible">Filter by reviewer</label><input id="reviewer-filter" name="reviewer-filter" list="known-reviewers" placeholder="Filter by reviewer" size="10" style="width: unset; margin-bottom: 1em;" /><datalist id="known-reviewers"></datalist>
 
   <div id="pr-list">Loading...</div>
 
