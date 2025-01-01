@@ -1,97 +1,96 @@
 {{/* https://gohugo.io/methods/page/resources/#get
   https://gohugo.io/functions/urls/parse/
 */}}
-{{ if eq .Destination "" }}
-  {{ warnf "Image source is empty: %s" .PlainText }}
-{{ else }}
-  {{ $url := urls.Parse .Destination }}
-  {{ $src :=.Destination }}
-  {{ $alt := .PlainText | safeHTML }}
-  {{ $image := false }}
-  {{ $srcset := "" }}
+{{- if eq .Destination "" -}}
+  {{- warnf "Image source is empty: %s" .PlainText -}}
+{{- else -}}
+  {{- $url := urls.Parse .Destination -}}
+  {{- $src :=.Destination -}}
+  {{- $alt := .PlainText | safeHTML -}}
+  {{- $image := false -}}
+  {{- $srcset := "" -}}
 
   {{/* Check if the source is external to this repo */}}
 
   {{/* Case 1: where an image is remote, get it please */}}
   {{- if $url.IsAbs -}}
     {{/* Most images will be github, and we were previously using jsdelivr, but now let's use github raw */}}
-    {{ if eq $url.Hostname "github.com" }}
+    {{- if eq $url.Hostname "github.com" -}}
       {{/* Replace 'blob' or 'tree' with a direct path for raw content */}}
-      {{ $src = replace $src "github.com" "raw.githubusercontent.com" }}
-      {{ $src = replaceRE "/(blob|tree)/" "/" $src }}
-    {{ end }}
+      {{- $src = replace $src "github.com" "raw.githubusercontent.com" -}}
+      {{- $src = replaceRE "/(blob|tree)/" "/" $src -}}
+    {{- end -}}
 
-    {{ with resources.GetRemote $src }}
-      {{ with .Err }}
-        {{ warnf "Unable to get remote resource %q" $src }}
-      {{ else }}
-        {{ $image = . }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+    {{- with resources.GetRemote $src -}}
+      {{- with .Err -}}
+        {{- warnf "Unable to get remote resource %q" $src -}}
+      {{- else -}}
+        {{- $image = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
 
   {{/* Case 2: if it's not an absolute link, look for the image in Page resources */}}
-  {{ if not $url.IsAbs }}
+  {{- if not $url.IsAbs -}}
     {{/* Check if the image is a resource */}}
-    {{ with $.Page.Resources.GetMatch $src }}
-      {{ $image = . }}
-    {{ end }}
-  {{ end }}
+    {{- with $.Page.Resources.GetMatch $src -}}
+      {{- $image = . -}}
+    {{- end -}}
+  {{- end -}}
 
   {{/* Case 3: If the image is still not found, try to get it from the assets directory */}}
   {{- if not $image -}}
-    {{ with resources.Get (path.Join "custom-images" $src) }}
-      {{ with .Err }}
-        {{ warnf "Unable to get local resource %q" $src }}
-      {{ else }}
-        {{ $image = . }}
-      {{ end }}
+    {{- with resources.Get (path.Join "custom-images" $src) -}}
+      {{- with .Err -}}
+        {{- warnf "Unable to get local resource %q" $src -}}
+      {{- else -}}
+        {{- $image = . -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 
   {{/* If the image is found, resize it based on the screen width and display it in the figure */}}
-  {{ if $image }}
-    {{ if in (slice "image/png" "image/jpeg" "image/webp" "image/tiff") $image.MediaType.Type }}
+  {{- if $image -}}
+    {{- if in (slice "image/png" "image/jpeg" "image/webp" "image/tiff") $image.MediaType.Type -}}
       {{/* Perform resizing operations only if $image is a rasterisable resource */}}
-      {{ $small := (cond (gt $image.Width 480) ($image.Resize "480x webp q75") $image) }}
-      {{ $medium := (cond (gt $image.Width 768) ($image.Resize "768x webp q75") $image) }}
-      {{ $big := (cond (gt $image.Width 1024) ($image.Resize "1024x webp q75") $image) }}
-      {{ $srcset := printf "%s 480w, %s 768w, %s 1024w" $small.RelPermalink $medium.RelPermalink $big.RelPermalink }}
-    {{ else if in (slice "image/svg+xml" "image/gif") $image.MediaType.Type }}
+      {{- $small := (cond (gt $image.Width 480) ($image.Resize "480x webp q75") $image) -}}
+      {{- $medium := (cond (gt $image.Width 768) ($image.Resize "768x webp q75") $image) -}}
+      {{- $big := (cond (gt $image.Width 1024) ($image.Resize "1024x webp q75") $image) -}}
+      {{- $srcset := printf "%s 480w, %s 768w, %s 1024w" $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
+    {{- else if in (slice "image/svg+xml" "image/gif") $image.MediaType.Type -}}
       {{/* If $image isn't rasterisable, don't try to generate srcset but do generate permalink */}}
-      {{ $srcset := $image.RelPermalink }}
-    {{ else }}
-      {{ warnf "Unsupported media type %q for image %q" $image.MediaType.Type $src }}
-    {{ end }}
-  {{ end }}
+      {{- $srcset := $image.RelPermalink -}}
+    {{- else -}}
+      {{- warnf "Unsupported media type %q for image %q" $image.MediaType.Type $src -}}
+    {{- end -}}
+  {{- end -}}
 
-  {{ if $image }}
+  {{- if $image -}}
     <figure>
       <img
         loading="lazy"
-        src="{{ $image.RelPermalink }}"
+        src="{{- $image.RelPermalink -}}"
+        {{- if $srcset -}}
+          srcset="{{- $srcset -}}" sizes="(max-width: 480px) 480px, (max-width:
+          768px) 768px, 1024px" width="{{- $image.Width -}}"
+          height="{{- $image.Height -}}"
+        {{- end -}}
 
-        {{ if $srcset }}
-          srcset="{{ $srcset }}" sizes="(max-width: 480px) 480px, (max-width:
-          768px) 768px, 1024px" width="{{ $image.Width }}"
-          height="{{ $image.Height }}"
-        {{ end }}
-
-        {{ if $alt }}
-          alt="{{ $alt }}" data-pagefind-index-attrs="{{ $alt }}"
-        {{ else }}
+        {{- if $alt -}}
+          alt="{{- $alt -}}" data-pagefind-index-attrs="{{- $alt -}}"
+        {{- else -}}
           alt=""
-        {{ end }} />
+        {{- end -}} />
 
-      {{ with .Title }}
-        <figcaption>{{ . | markdownify }}</figcaption>
-      {{ end }}
+      {{- with .Title -}}
+        <figcaption>{{- . | markdownify -}}</figcaption>
+      {{- end -}}
     </figure>
-  {{ else }}
+  {{- else -}}
     <div
-      title="broken image link from {{ $src }}"
+      title="broken image link from {{- $src -}}"
       style="font-size: 48px; text-align: center;">
       🖼️
     </div>
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}

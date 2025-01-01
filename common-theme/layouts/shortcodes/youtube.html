@@ -2,4 +2,4 @@
 {{- partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" "" "page" .) -}}
 {{- $blockData := .Page.Scratch.Get "blockData" -}}
 {{- .Page.Scratch.SetInMap "blockData" "isShortcode" true -}}
-{{- partial "block/youtube.html" . | safeHTML -}}
+{{- partial "block/youtube.html" . -}}
