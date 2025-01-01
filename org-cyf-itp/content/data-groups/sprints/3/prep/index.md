@@ -29,6 +29,9 @@ name="Calculating the remaining characters"
 src="module/js2/update"
 name="Updating the interface"
 [[blocks]]
+src="module/js2/timing"
+name="Timers"
+[[blocks]]
 src="module/js2/events"
 name="DOM events"
 [[blocks]]
