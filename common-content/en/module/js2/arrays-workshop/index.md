@@ -1,9 +1,9 @@
 +++
-title = '📼 Arrays Workshop'
+title = 'Arrays Workshop'
 
 time = 60
 facilitation = false
-emoji= '🗄️'
+emoji= '📼'
 [objectives]
     1='Practice solving problems with arrays'
 [build]
@@ -23,30 +23,29 @@ You can use the code samples below as a starting point.
 ```js
 // Can you fix this code?
 function doubleAllNumbers() {
-    let doubledNumbers
+  let doubledNumbers;
 
-    for(let n of numbers) {
-        doubledNumbers.push(n * 2)
-    }
+  for (let n of numbers) {
+    doubledNumbers.push(n * 2);
+  }
 
-    return doubledNumbers
+  return doubledNumbers;
 }
 
-const myNums = [10, 20, 30]
-doubleAllNumbers(myNums)
-console.log(myNums)
+const myNums = [10, 20, 30];
+doubleAllNumbers(myNums);
+console.log(myNums);
 ```
 
 ### Exercise 2
 
 ```js
-// Write a function which takes an array as a parameter 
+// Write a function which takes an array as a parameter
 //   and swaps the first element with the last element
 
-function swapFirstAndLast(arr) {
-}
+function swapFirstAndLast(arr) {}
 
-const myArray = [5, 2, 3, 4, 1]
-swapFirstAndLast(myArray)
-console.log(myArray) // what output should we expect?
+const myArray = [5, 2, 3, 4, 1];
+swapFirstAndLast(myArray);
+console.log(myArray); // what output should we expect?
 ```

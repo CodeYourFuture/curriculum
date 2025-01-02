@@ -1,9 +1,9 @@
 +++
-title = '🧩 Percentages'
+title = 'Percentages'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '🧮'
 [objectives]
     2='Construct simple expressions to represent a calculation'
 [build]

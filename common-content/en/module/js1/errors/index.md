@@ -1,5 +1,5 @@
 +++
-title = '❌ Errors'
+title = 'Errors'
 
 time = 20
 facilitation = false

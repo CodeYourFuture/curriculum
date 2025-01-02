@@ -1,9 +1,9 @@
 +++
-title = '🎬 DOM events'
+title = 'DOM events'
 
 time = 60
 facilitation = false
-emoji= '🧩'
+emoji= '🎬'
 [objectives]
     1='Describe an event in the browser environment'
     2='Update the strategy for implementing a character limit component'
@@ -33,6 +33,7 @@ An [event](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_bl
 {{</note>}}
 
 Events are things that happen in the browser, which your code can ask to be told about, so that your code can react to them. In a browser context, an event could be:
+
 - a user clicking on a button
 - a user typing something into a textarea box
 - a user submitting a form

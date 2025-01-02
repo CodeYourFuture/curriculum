@@ -1,9 +1,9 @@
 +++
-title = '📁 Running scripts'
+title = 'Running scripts'
 
 time = 10
 facilitation = false
-emoji= '🗄️'
+emoji= '📁'
 [objectives]
     1='Execute a JavaScript file with Node'
 [build]

@@ -1,9 +1,9 @@
 +++
-title = '🆕 Introducing new state'
+title = 'Introducing new state'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🆕'
 [build]
   render = 'never'
   list = 'local'

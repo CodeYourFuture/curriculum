@@ -1,9 +1,9 @@
 +++
-title = '🗓️ Latency'
+title = 'Latency'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '🗓️'
 [objectives]
   1='Define latency'
 [build]

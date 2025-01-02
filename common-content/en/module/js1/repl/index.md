@@ -1,9 +1,9 @@
 +++
-title = '🧾 Evaluating expressions'
+title = 'Evaluating expressions'
 
 time = 15
 facilitation = false
-emoji= '🗄️'
+emoji= '🧾'
 [objectives]
     1='Define the features of the Node REPL'
     2='Evaluate expressions using your mental model of JavaScript'

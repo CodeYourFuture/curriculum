@@ -1,9 +1,9 @@
 +++
-title = '🐕 🎞️ fetch films'
+title = 'Fetch Films'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🐕 🎞️'
 [objectives]
     1='Apply fetch to get data from an API'
 [build]
@@ -24,7 +24,7 @@ const fetchFilms = async () => {
 };
 
 fetchFilms().then((films) => {
-   // When the fetchFilms Promise resolves, this callback will be called.
+  // When the fetchFilms Promise resolves, this callback will be called.
   state.films = films;
   render();
 });

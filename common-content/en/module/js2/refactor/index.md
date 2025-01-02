@@ -1,9 +1,9 @@
 +++
-title = '🧩 Refactor'
+title = 'Refactor'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🧹'
 [objectives]
     1='Identify and remove duplicated code'
 [build]

@@ -1,9 +1,9 @@
 +++
-title = '🧮 Calculating the remaining characters'
+title = 'Calculating the remaining characters'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🧮'
 hide_from_overview = true
 [objectives]
     1='Access properties representing HTML attributes'
@@ -36,7 +36,7 @@ In the Dev Tools console, if you type `textarea.max` you should see autocomplete
 Most HTML attributes are exposed in the DOM as a property with the same name (but in camelCase). Let's try:
 
 ```js
-console.log(textarea.maxLength)
+console.log(textarea.maxLength);
 ```
 
 Now that we have the character limit (from `textarea.maxLength`), and the number of characters already typed (from `textarea.value.length`):

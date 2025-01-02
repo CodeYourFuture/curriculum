@@ -1,9 +1,9 @@
 +++
-title = '🎒 Starting a project'
+title = 'Starting a project'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🎒'
 [objectives]
     1='Identify a package.json'
     2='Explain the purpose of a package.json'

@@ -1,9 +1,9 @@
 +++
-title = '📦 Using packages'
+title = 'Using packages'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '📦'
 [objectives]
     1='Define a dependency'
     2='Define a package'

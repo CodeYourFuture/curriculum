@@ -1,9 +1,9 @@
 +++
-title = '⚖️ Comparing current and target output'
+title = 'Comparing current and target output'
 
 time = 40
 facilitation = false
-emoji= '🧩'
+emoji= '⚖️'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'

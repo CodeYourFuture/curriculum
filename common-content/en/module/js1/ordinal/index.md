@@ -1,9 +1,9 @@
 +++
-title = '🧮 Ordinal numbers'
+title = 'Ordinal numbers'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🧮'
 hide_from_overview = true
 [objectives]
     1='Convert positions to ordinal numbers'

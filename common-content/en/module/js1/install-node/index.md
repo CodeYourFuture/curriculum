@@ -1,6 +1,6 @@
 +++
-title = "🧰 Install Node with nvm"
- 
+title = "Install Node with nvm"
+emoji = "🧰"
 time = 20 
 facilitation = false
 [objectives] 

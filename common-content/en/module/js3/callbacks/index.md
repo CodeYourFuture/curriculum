@@ -1,9 +1,9 @@
 +++
-title = '🪃 Callbacks'
+title = 'Callbacks'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🪃'
 [objectives]
 1='Define a callback'
 2="Sketch the event loop"

@@ -1,9 +1,9 @@
 +++
-title = '📤 Reacting to events'
+title = 'Reacting to events'
 
 time = 60
 facilitation = false
-emoji= '🧩'
+emoji= '📤'
 [objectives]
     1='Identify the syntactic features of a call to addEventListener'
     2='Explain when an event listener is called'

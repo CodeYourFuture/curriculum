@@ -1,9 +1,9 @@
 +++
-title = '💼 First test case'
+title = 'First test case'
 
 time = 40
 facilitation = false
-emoji= '🧩'
+emoji= '💼'
 [objectives]
     1='Outline the effect of running npm test'
     2='Interpret documentation to determine how part of a third-party API behaves'
@@ -30,7 +30,7 @@ We can use [documentation](https://jestjs.io/docs/getting-started) to work out h
 `get-ordinal-number.test.js`:
 
 ```js
-test("converts 1 to an ordinal number", function() {});
+test("converts 1 to an ordinal number", function () {});
 ```
 
 Let's break down this syntax.
@@ -53,7 +53,7 @@ We need to write an **assertion** inside the body of `function() {}` inside `get
 `get-ordinal-number.test.js`:
 
 ```js
-test("converts 1 to an ordinal number", function() {});
+test("converts 1 to an ordinal number", function () {});
 ```
 
 {{<note type="tip" title="Recall">}}
@@ -78,7 +78,7 @@ A matcher is a function we use to compare values in Jest.
 So the whole test looks like this:
 
 ```js
-test("converts 1 to an ordinal number", function() {
+test("converts 1 to an ordinal number", function () {
   expect(getOrdinalNumber(1)).toEqual("1st");
 });
 ```

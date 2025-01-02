@@ -1,9 +1,9 @@
 +++
-title = '🎱 Rendering based on state'
+title = 'Rendering based on state'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🎱'
 [objectives]
     1='Filter films based on search terms'
     2='Render a filtered list'

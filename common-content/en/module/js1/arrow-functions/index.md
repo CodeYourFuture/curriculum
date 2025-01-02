@@ -1,5 +1,5 @@
 +++
-title = '➡️ Arrow functions'
+title = 'Arrow functions'
 
 time = 5
 facilitation = false
@@ -35,7 +35,7 @@ function (decimalNumber) {
 // If we do this, we need an arrow between our parameters and the function body.
 (decimalNumber) => {
   return `${decimalNumber * 100}%`;
-}
+};
 ```
 
 ```js

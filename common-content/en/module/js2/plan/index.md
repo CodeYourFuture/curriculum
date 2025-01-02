@@ -1,9 +1,9 @@
 +++
-title = '🧭 Breaking down the strategy'
+title = 'Breaking down the strategy'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '⛓️‍💥'
 hide_from_overview = true
 [objectives]
     1='Break down a problem into a series of steps'
@@ -22,6 +22,7 @@ A[Step 1: Define the character limit of 200] --> B[Step 2: Access the textarea e
 ```
 
 There are two times we may want to do this:
+
 1. When the page first loads we should show the _initial_ limit.
 2. Whenever the user adds or removes a character from the textarea, we want to _update_ to show the remaining limit.
 

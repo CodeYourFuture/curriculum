@@ -1,9 +1,9 @@
 +++
-title = '🗄️ Generalising further'
+title = 'Generalising further'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🗄️'
 [objectives]
     1='Extend an implementation based on more assertions'
 [build]
@@ -33,7 +33,7 @@ function getOrdinalNumber() {
   return "1st";
 }
 
-test("works for any number ending in 1", function() {
+test("works for any number ending in 1", function () {
   expect(getOrdinalNumber(1)).toEqual("1st");
   expect(getOrdinalNumber(11)).toEqual("11th");
   expect(getOrdinalNumber(21)).toEqual("21st");

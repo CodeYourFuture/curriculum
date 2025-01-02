@@ -1,9 +1,9 @@
 +++
-title = '🌲 The DOM'
+title = 'The DOM'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🌲'
 [objectives]
     1='Define the Document Object Model'
 [build]

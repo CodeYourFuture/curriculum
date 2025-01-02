@@ -1,9 +1,9 @@
 +++
-title = '✅ ❌ Interpreting feedback'
+title = 'Interpreting feedback'
 
 time = 25
 facilitation = false
-emoji= '🗄️'
+emoji= '✅ ❌'
 [objectives]
     1='Identify current output and target output in test feedback'
     2='Determine the line an error occurred from some test feedback'
@@ -101,7 +101,10 @@ Without Jest, this assertion would probably have looked more like:
 const input = 1;
 const targetOutput = "1st";
 const currentOutput = getOrdinalNumber(input);
-console.assert(targetOutput === currentOutput, `Expected ${targetOutput} but got ${currentOutput}`);
+console.assert(
+  targetOutput === currentOutput,
+  `Expected ${targetOutput} but got ${currentOutput}`
+);
 ```
 
 Because Jest makes a useful error message for us telling us what the target and current outputs are, we could write this all in one line. We didn't need a variable so we could pass `"1st"` both to `getOrdinalNumber` and into the message.
@@ -120,7 +123,7 @@ function getOrdinalNumber() {
   return "1st";
 }
 
-test("converts 1 to an ordinal number", function() {
+test("converts 1 to an ordinal number", function () {
   expect(getOrdinalNumber(1)).toEqual("1st");
 });
 ```

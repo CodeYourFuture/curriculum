@@ -1,9 +1,9 @@
 +++
-title = '🖊️ Mutating'
+title = 'Mutating'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🖊️'
 [objectives]
     1='Describe how to mutate an object property value'
 [build]

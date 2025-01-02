@@ -1,9 +1,9 @@
 +++
-title = '🗺️ Applying map to our problem'
+title = 'Applying map to our problem'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🗺️'
 hide_from_overview = true
 [objectives]
     1='Use map to render multiple film cards'

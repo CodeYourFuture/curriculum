@@ -4,7 +4,7 @@ title = 'MVP'
 time = 30
 facilitation = false
 vocabulary=["MVP"]
-emoji= '🧩'
+emoji= '🚀'
 [objectives]
 1='Identify described requirements'
 2='Identify extra requirements from your own experience'

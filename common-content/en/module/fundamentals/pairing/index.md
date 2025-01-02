@@ -4,7 +4,7 @@ title = 'Pairing'
 time = 30
 facilitation = true
 vocabulary=["Pair Programming"]
-emoji= '🧩'
+emoji= '👯‍♀️'
 [objectives]
 1='Identify described requirements'
     2='Identify extra requirements from your own experience'

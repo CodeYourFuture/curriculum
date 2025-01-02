@@ -1,9 +1,9 @@
 +++
-title = '✏️ Writing an assertion'
+title = 'Writing an assertion'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '✏️'
 [objectives]
 1='Describe the difference between console.log and console.assert'
 2='Write an assertion to check for some behaviour of a given function'

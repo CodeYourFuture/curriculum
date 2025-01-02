@@ -1,9 +1,9 @@
 +++
-title = '💾 ➡️ 💻 Rendering Data as UI'
+title = 'Rendering Data as UI'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '💾 ➡️ 💻'
 [objectives]
     1='Explain how data is rendered into a user interface'
 [build]

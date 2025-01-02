@@ -1,8 +1,8 @@
 +++
-title = '🌡️ Diagnose'
+title = 'Diagnose'
 
 facilitation = false
-emoji= '🧩'
+emoji= '🌡️'
 [objectives]
 1='Identify areas of weakness'
 2='Address misconceptions from prep work'

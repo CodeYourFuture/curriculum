@@ -1,9 +1,9 @@
 +++
-title = '🪄 Functions'
+title = 'Functions'
 
 time = 20
 facilitation = false
-emoji= '🗄️'
+emoji= '🪄'
 [objectives]
     1='Define a function in programming'
     2='Evaluate a function expression'

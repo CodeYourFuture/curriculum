@@ -1,9 +1,9 @@
 +++
-title = '⏳ Asynchrony : outside time'
+title = 'Asynchrony : outside time'
 
 time = 40
 facilitation = false
-emoji= '🧩'
+emoji= '⏳'
 [objectives]
 1="Define asynchrony"
 2="Explain why we need asynchrony"

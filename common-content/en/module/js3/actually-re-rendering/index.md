@@ -1,5 +1,5 @@
 +++
-title = '🔁 Actually re-rendering'
+title = 'Actually re-rendering'
 
 time = 30
 facilitation = false
