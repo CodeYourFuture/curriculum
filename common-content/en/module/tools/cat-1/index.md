@@ -5,7 +5,7 @@ time = 10
 facilitation = false
 emoji= "💻"
 [objectives]
-    1="Show the contents of a file with cat"
+    1="Show the contents of a file with `cat`"
 +++
 
 `cat` is a tool for getting the contents of files.
