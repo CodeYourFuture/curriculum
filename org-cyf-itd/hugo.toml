@@ -19,18 +19,22 @@ description="Meet the world of tech in 30 days"
         weight = 3
         url = "https://codeyourfuture.io/donate/"
 
-[markup]
-# I've configured markdown so you don't have to
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = true
-    startLevel = 2
-    [markup.goldmark.renderer]
-# Enable HTML codeblocks, e.g. for <details> blocks
-      unsafe = true
-
 #this makes the section nav go the right way
 # because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
 [page]
   nextPrevInSectionSortOrder = 'asc'
   nextPrevSortOrder = 'asc'
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true

@@ -59,3 +59,17 @@ getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
   [module.hugoVersion]
     extended = true
     min = "0.133.0"
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true

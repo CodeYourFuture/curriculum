@@ -5,3 +5,17 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 [module]
   [[module.imports]]
     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
