@@ -3,7 +3,7 @@ title = 'Vite'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🏃‍♀️'
 [objectives]
     1='Create a new React app with Vite'
     2='Run the app in development mode'

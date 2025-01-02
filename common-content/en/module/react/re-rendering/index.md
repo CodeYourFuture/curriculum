@@ -1,9 +1,9 @@
 +++
-title = '🪞 Re-Rendering'
+title = 'Re-Rendering'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🪞'
 [objectives]
     1='Write your first React component'
 [build]

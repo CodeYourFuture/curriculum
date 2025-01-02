@@ -3,7 +3,7 @@ title = 'Introduction to databases'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '💾'
 [objectives]
     1='Explain why databases are needed in Web Development'
 [build]

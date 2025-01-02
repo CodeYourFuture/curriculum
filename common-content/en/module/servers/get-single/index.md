@@ -1,9 +1,9 @@
 +++
-title = '🐕 GET single movie'
+title = 'GET single movie'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🐕'
 [objectives]
     1='Use GET to match a specific query parameter'
 [build]

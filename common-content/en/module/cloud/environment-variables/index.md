@@ -3,7 +3,7 @@ title = 'Environment Variables'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🔐'
 [objectives]
     1='Automate the deployment process to a specified environment.'
 [build]

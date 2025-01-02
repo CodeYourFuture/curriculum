@@ -1,12 +1,10 @@
 +++
 title = 'Writing Basic Infrastructure Code'
-
+emoji="🖨️"
 time = 30
 facilitation = false
-emoji= '🧩'
 [objectives]
-    1='Define syntactic sugar'
-    2='Write a function using the async keyword'
+    1='Define a null resource in Terraform'
 [build]
   render = 'never'
   list = 'local'

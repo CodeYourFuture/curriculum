@@ -3,7 +3,7 @@ title = 'Set up Render'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🧰'
 [objectives]
     1='Set up Render'
 [build]

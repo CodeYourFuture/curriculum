@@ -1,9 +1,9 @@
 +++
-title = '🚢 Importing and Exporting'
+title = 'Importing and Exporting'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '🚢'
 [objectives]
     1='Export a React component'
     2='Import a React component'

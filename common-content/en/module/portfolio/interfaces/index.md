@@ -1,9 +1,9 @@
 +++
-title = '🕹️ User Interface'
+title = 'User Interface'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🕹️'
 [objectives]
     1='Identify key features for the user interface'
     2='Propose basic designs for key parts of the user interface'

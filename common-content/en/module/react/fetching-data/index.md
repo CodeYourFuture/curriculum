@@ -1,9 +1,9 @@
 +++
-title = "🐕 Fetching data"
+title = "Fetching data"
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '🐕'
 [objectives]
     1="Explain why fetch doesn't work in React"
 [build]

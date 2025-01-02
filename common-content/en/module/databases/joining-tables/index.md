@@ -3,7 +3,7 @@ title = 'Joining Tables'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '🔗'
 [objectives]
     1='Combine tables together using `INNER JOIN`'
 [build]

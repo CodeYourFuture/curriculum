@@ -3,7 +3,7 @@ title = 'CRUD Again'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🎒'
 [objectives]
     1='Define CRUD'
 [build]

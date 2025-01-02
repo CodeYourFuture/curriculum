@@ -3,7 +3,7 @@ title = 'Introduction to Terraform'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '🌎'
 [objectives]
     1='Explain the purpose of Terraform'
     2='List the core concepts in Terraform'

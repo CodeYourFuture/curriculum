@@ -3,7 +3,7 @@ title = 'Secrets'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🔒'
 [objectives]
     1='TODO'
 [build]

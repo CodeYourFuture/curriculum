@@ -1,9 +1,9 @@
 +++
-title = '🧩 Project time'
+title = 'Project time'
 
 time = 60
 facilitation = false
-emoji= '🧩'
+emoji= '🛠️'
 [objectives]
     1='Work on your project'
 [build]

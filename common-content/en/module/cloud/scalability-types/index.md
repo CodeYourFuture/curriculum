@@ -3,7 +3,7 @@ title = 'Types of scalability'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '📈'
 [objectives]
     1='Identify the difference between vertical and horizontal scaling'
 [build]

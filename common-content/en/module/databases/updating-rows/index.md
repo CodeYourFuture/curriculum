@@ -3,7 +3,7 @@ title = 'Inserting, Updating and Deleting Rows'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '📩'
 [objectives]
     1="Insert, Update and Delete rows in a pre-existing table using INSERT, UPDATE and DELETE"
 [build]

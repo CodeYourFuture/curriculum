@@ -1,5 +1,5 @@
 +++
-title = '🧩 Components'
+title = 'Components'
 
 time = 30
 facilitation = false
