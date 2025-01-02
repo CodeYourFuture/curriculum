@@ -14,6 +14,9 @@
       <h2
         class="c-block__title e-heading__2"
         id="{{ $blockData.name |urlize }}">
+        {{ with $block.Params.emoji }}
+          <span class="c-emoji">{{ . }}</span>
+        {{ end }}
         {{ $block.Title }}
       </h2>
       {{ partial "time.html" . }}
