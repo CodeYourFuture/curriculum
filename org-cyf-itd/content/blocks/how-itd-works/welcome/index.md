@@ -1,5 +1,6 @@
 +++
 title="Welcome to new ITD Volunteers"
+emoji="👋"
 author="Tony Beaumont"
 time=2
 +++

@@ -1,5 +1,5 @@
 +++
-title = '🧰 Mentor Led Workshop '
+title = 'Mentor Led Workshop '
 time = 45
 emoji= '🧰'
 objectives =['Work together on exercises and activities to find gaps in understanding','Describe and resolve mental model errors']

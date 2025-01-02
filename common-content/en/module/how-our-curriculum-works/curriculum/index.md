@@ -1,6 +1,5 @@
 +++
 title = 'Curriculum'
-emoji = '🗺️'
 time = 15
 facilitation = false
 vocabulary=["Blockers"]

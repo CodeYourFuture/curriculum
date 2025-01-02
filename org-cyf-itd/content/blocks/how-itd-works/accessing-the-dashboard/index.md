@@ -1,5 +1,6 @@
 +++
 title="Accessing the Dashboard"
+emoji="🪪"
 author="Tony Beaumont"
 description="How to access the dashboard"
 time=15
