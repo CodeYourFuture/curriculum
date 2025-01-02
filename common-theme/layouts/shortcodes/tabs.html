@@ -46,13 +46,12 @@ TAB 2 content
         {{- $id := printf "%s-%d" $tab_set_id $index -}}
         {{- $tabParts := split $tab "]]===" -}}
         {{- $content := index $tabParts 1 -}}
+        <!--prettier-ignore-->
         <div
           id="{{ $id }}"
           class="c-tabs__panel {{ if (eq $index 0) }}is-active{{- end -}}"
           role="tabpanel"
-          aria-labelledby="tab-label-{{- $id -}}">
-          {{ $content| $.Page.RenderString }}
-        </div>
+          aria-labelledby="tab-label-{{- $id -}}">{{ $content| $.Page.RenderString }}</div>
       {{- end -}}
     {{- end -}}
   </div>
