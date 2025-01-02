@@ -20,7 +20,7 @@
     </header>
 
     {{ with .Content }}
-      <section class="c-copy">{{ . | markdownify }}</section>
+      <section class="c-copy">{{ . | page.RenderString }}</section>
     {{ end }}
 
 
@@ -68,13 +68,13 @@
           {{ with .Params.Prep }}
             <section class="c-copy">
               <h3>Preparation</h3>
-              <div class="c-copy__node">{{ . | markdownify }}</div>
+              <div class="c-copy__node">{{ . | page.RenderString }}</div>
             </section>
           {{ end }}
           {{ with .Params.Introduction }}
             <section class="c-copy">
               <h3>Introduction</h3>
-              <div class="c-copy__node">{{ . | markdownify }}</div>
+              <div class="c-copy__node">{{ . | page.RenderString }}</div>
             </section>
           {{ end }}
         </div>
@@ -88,10 +88,10 @@
               aria-labelledby="tab-label-{{ .name | anchorize }}">
               <h4 class="e-heading e-heading__4">{{ .name }}</h4>
               <p>
-                🎯 <strong>Goal: </strong>{{ .goal | markdownify }}
+                🎯 <strong>Goal: </strong>{{ .goal | page.RenderString }}
                 {{ with .time }}({{ . }} minutes){{ end }}
               </p>
-              {{ .content | markdownify }}
+              {{ .content | page.RenderString }}
             </div>
           {{ end }}
         {{ end }}

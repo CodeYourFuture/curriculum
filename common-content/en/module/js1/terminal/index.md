@@ -16,8 +16,7 @@ emoji= '🧩'
 
 Programmers need interfaces to ask computers to do things. A computer terminal is an **interface** where programmers can issue commands to a computer. Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
-{{<tabs name="Open Your Terminal">}}
-{{<tab name="LS Activity">}}
+### Open Your Terminal
 
 #### Interface via the terminal
 
@@ -27,13 +26,9 @@ We can input a command into the prompt and hit enter. The terminal then passes t
 ls
 ```
 
-{{</tab>}}
-{{<tab name="The terminal on Mac">}}
+#### The terminal on Mac
 
 ![terminal](terminal.gif "The terminal is a window on the computer, prompting users for instructions. ")
-
-{{</tab>}}
-{{</tabs>}}
 
 ### 🖊️ Writing computer instructions
 

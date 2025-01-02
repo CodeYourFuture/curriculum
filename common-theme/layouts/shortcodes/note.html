@@ -1,26 +1,28 @@
-{{/* Example usage:
-
-  {{<note title="Yo" type="tip"
->}}
-This is a note. 
-But we probably want to use github notes now, 
-so look in render-blockquote.html for the new syntax.
-
-*/}}
-{{ $emojis := dict
+{{- $emojis := dict
   "caution" ":exclamation:"
   "important" ":loudspeaker:"
   "note" ":memo:"
   "tip" ":bulb:"
   "warning" ":warning:"
-}}
-{{$title := .Get "title" | default (.Get "type") | default "Note"}}
-{{$noteType := .Get "type" | default "note"}}
-
+  "activity" ":joystick:"
+  "exercise" ":writing_hand:"
+  "definition" ":open_book:"
+-}}
+{{- $title := .Get "title" | default (.Get "type") | default "Note" -}}
+{{- $noteType := .Get "type" | default "note" -}}
 <section class="c-note c-note--{{$noteType}}">
   <h4 class="c-note__title e-heading__4">
-    {{ transform.Emojify (index $emojis $noteType) }}
-      {{ or (i18n $noteType) ($title) }}</span>
+    {{- transform.Emojify (index $emojis $noteType) -}}
+      {{- or (i18n $noteType) ($title) -}}</span>
   </h4>
-  <div class="c-note__text ">{{ printf "%s" .Inner | markdownify }}</div>
+  <div class="c-note__text ">{{- .Inner  | markdownify -}}</div>
 </section>
+{{/* Example usage:
+
+  {{<note title="Yo" type="tip"
+>}}
+This is a note. 
+We probably want to use github notes mostly now, 
+so look in render-blockquote.html for the new syntax.
+But this is good for nesting more shortcodes inside, as render hooks struggle
+*/}}

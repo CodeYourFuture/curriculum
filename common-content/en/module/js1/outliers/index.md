@@ -80,7 +80,7 @@ test("converts 2 to an ordinal number", function () {
 
 {{<tabs name="exercises">}}
 
-{{<tab name="exercise 1">}}
+===[[exercise 1]]===
 
 ### Check the test output
 
@@ -92,17 +92,13 @@ Double check you agree with the test feedback in this case.
 
 Before coding, outline a strategy for handling the second test case.
 
-{{</tab>}}
-
-{{<tab name="exercise 2">}}
+===[[exercise 2]]===
 
 {{<note type="exercise" title="Further assertions">}}
 
 Try updating the second test case to check `getOrdinalNumber` works for other numerical inputs ending in 2.
 
 {{</note>}}
-
-{{</tab>}}
 {{</tabs>}}
 
 We know that this doesn't solve all cases (e.g. it will give the wrong answer for getOrdinalNumber(2)), but it's a start, and we have a test-case showing that it works in one case.

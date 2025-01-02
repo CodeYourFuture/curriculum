@@ -31,14 +31,14 @@
             <h3 class="e-heading__4">Learning Objectives</h3>
           </summary>
           {{ range $extractedObjectives }}
-            {{ . | markdownify }}
+            {{ . | page.RenderString }}
           {{ end }}
         </details>
       {{ end }}
     </header>
 
     <div class="c-block__content c-copy">
-      {{ $response.body | markdownify }}
+      {{ $response.body | page.RenderString }}
     </div>
     {{ with $response.labels }}
       <ul class="c-issue__labels c-label__list">

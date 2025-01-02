@@ -69,7 +69,7 @@ then go ahead and make a TOC */}}
     {{ else }}
       {{ with .Page.Description }}
         <h2 class="c-page-header__description e-heading__3">
-          {{ . | markdownify }}
+          {{ . | $.Page.RenderString }}
         </h2>
       {{ end }}
     {{ end }}

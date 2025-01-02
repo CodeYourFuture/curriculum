@@ -9,6 +9,6 @@
   {{ end }}
   <div class="c-block__content">
     {{ $image := $blockData.caption | printf "![%s](%s '%s')" $blockData.name $blockData.api }}
-    {{ $image |markdownify }}
+    {{ $image | page.RenderString }}
   </div>
 </section>

@@ -43,7 +43,7 @@ In JavaScript, we can pass functions as arguments to other functions. In this ca
 
 {{<tabs>}}
 
-{{<tab name="javascript">}}
+===[[javascript]]===
 
 We can add a log to `updateCharacterLimit` to check it is called every time the `"keyup"` event fires.
 
@@ -67,9 +67,7 @@ function updateCharacterLimit() {
 textarea.addEventListener("keyup", updateCharacterLimit);
 ```
 
-{{</tab>}}
-
-{{<tab name="html-css">}}
+===[[html-css]]===
 
 ```html
 <section>
@@ -87,14 +85,10 @@ textarea.addEventListener("keyup", updateCharacterLimit);
 </section>
 ```
 
-{{</tab>}}
-
-{{<tab name="✏️ check">}}
+===[[✏️ check]]===
 
 In your local project, define your own event handler and then use `addEventListener` to register that event handler for a `keyup` event.
 Add a `console.log` to the event handler and **check** the event handler is being called when the event fires.
 Check the console tab in dev tools to see the log appear in the console.
-
-{{</tab>}}
 
 {{</tabs>}}

@@ -3,7 +3,7 @@
     <li class="c-objectives__item">
       <label
         ><input
-          type="checkbox" />{{ strings.TrimPrefix "- " . | markdownify }}</label
+          type="checkbox" />{{ strings.TrimPrefix "- " . | page.RenderString }}</label
       >
     </li>
   {{ end }}

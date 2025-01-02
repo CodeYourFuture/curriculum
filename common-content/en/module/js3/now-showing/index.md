@@ -22,11 +22,9 @@ Suppose you're building a user interface to display the films that are now showi
 > _Then_ it should display the list of films now showing, including the film title, times and film certificate.
 
 {{<tabs name="wireframe and data structure">}}
-{{<tab name="Wireframe">}}
+===[[Wireframe]]===
 ![film-cards](film-cards.png "A grid of cards displaying film information")
-{{</tab>}}
-
-{{<tab name="Data">}}
+===[[Data]]===
 Here are some example film data:
 
 ```js
@@ -48,7 +46,6 @@ const films = [
 ];
 ```
 
-{{</tab>}}
 {{</tabs>}}
 
 To visualise the user interface, we can use a {{<tooltip title="wireframe">}}A wireframe is a basic outline of a web page used for design purposes{{</tooltip>}}. This films wireframe is built by reusing the same{{<tooltip title="UI component">}}A **UI component** is a reusable, self-contained piece of the UI. UI components are like lego blocks you can use to build websites. Most websites are made by "composing" components in this way.{{</tooltip>}}. Each film object is rendered as a card component. To build this user interface, we will start with data in the form of an array of objects, each with similar properties.

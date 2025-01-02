@@ -24,7 +24,7 @@
   {{ if gt (len $extractedObjectives) 0 }}
     {{ if $showTitle }}<h5>{{ $showTitle }}</h5>{{ end }}
     {{ range $extractedObjectives }}
-      {{ . | markdownify }}
+      {{ . | page.RenderString }}
     {{ end }}
   {{ end }}
 {{ end }}

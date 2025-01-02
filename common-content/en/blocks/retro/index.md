@@ -11,10 +11,10 @@ hide_from_overview=true
 +++
 
 {{<tabs name="Run a retro">}}
-{{<tab name="Video">}}
+===[[Video]]===
 {{<youtube>}}https://www.youtube.com/watch?v=3rCllHgDl7s{{</youtube>}}
-{{</tab>}}
-{{<tab name="Text">}}
+
+===[[Text]]===
 
 {{<note title="Retro (20 minutes)" type="activity">}}
 A retro is a chance to reflect. You can do this on [RetroTool](https://retrotool.io/) (create a free anonymous retro and share the link with the class) or on sticky notes on a wall.
@@ -27,6 +27,5 @@ A retro is a chance to reflect. You can do this on [RetroTool](https://retrotool
 1. Finally, set a [timer for 8 minutes](https://www.google.com/search?q=timer+8+minutes) and all discuss the top three themes.
 
 {{</note>}}
-{{</tab>}}
 
 {{</tabs>}}
