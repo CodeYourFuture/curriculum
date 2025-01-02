@@ -70,12 +70,12 @@ describe("parseQueryString()", () => {
 });
 ```
 
-===[[Feedback">}}
+===[[Feedback]]===
 We've currently got the following test suite:
 
 ![parse-query-test-feedback](parse-query-test-feedback.png)
 
-===[[🧠 Explain">}}
+===[[🧠 Explain]]===
 We've got a situation where the first test case (for an empty string) is no longer working.
 Explain why this test case is no longer passing for the first test case. **Playing computer** will help you to explain why!
 
