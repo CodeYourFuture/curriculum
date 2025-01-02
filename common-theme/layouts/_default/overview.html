@@ -67,7 +67,7 @@
                 {{ continue }}
               {{ end }}
               {{ $title := or .title $block.Title }}
-              <li>{{ $title }}</li>
+              <li>{{with $block.Params.emoji}}<span class="c-emoji">{{.}}</span>{{end}} {{ $title }}</li>
             {{ end }}
           </ol>
          {{end}}
