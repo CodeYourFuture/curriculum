@@ -1,6 +1,6 @@
 +++
 title="Kata"
-
+emoji="🥋"
 time= 30
 [objectives]
     1="Write a failing test"

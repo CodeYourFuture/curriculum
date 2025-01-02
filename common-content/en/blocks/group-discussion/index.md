@@ -1,6 +1,6 @@
 +++
 title="Group Discussion"
-
+emoji="🗣️"
 time=75
 [build]
   render = 'never'
