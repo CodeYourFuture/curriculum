@@ -5,8 +5,8 @@ time = 30
 facilitation = false
 emoji= "💻"
 [objectives]
-    1="Identify the lines in a file which contain a string using grep"
-    2="Identify which files contain a string using grep"
+    1="Identify the lines in a file which contain a string using `grep`"
+    2="Identify which files contain a string using `grep`"
 +++
 
 `grep` is a tool for searching files for text.
