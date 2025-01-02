@@ -1,9 +1,9 @@
 +++
-title = '🏷️ Updating the interface'
+title = 'Updating the interface'
 
 time = 25
 facilitation = false
-emoji= '🧩'
+emoji= '🏷️'
 [objectives]
     1='Access and modify the textContent of a html element'
 [build]
@@ -18,6 +18,7 @@ We know we don't want to always have the number "200" in the text "You have 200 
 We've solved Step 3: Calculate the number of characters left. So we know what value we want to show.
 
 All that remains is:
+
 1. To solve Step 4: Update the interface with the number of characters left.
 2. To make this happen on page load.
 3. To make this also happen when the textarea changes.
@@ -67,7 +68,12 @@ We want to do this because we have another way of setting this. If we wanted to 
       <label for="comment-input">
         Please enter your comment in the text area below
       </label>
-      <textarea id="comment-input" name="comment-input" rows="5" maxlength="200"></textarea>
+      <textarea
+        id="comment-input"
+        name="comment-input"
+        rows="5"
+        maxlength="200"
+      ></textarea>
       <p id="character-limit-info"></p>
     </section>
   </body>

@@ -1,9 +1,9 @@
 +++
-title = "🗂️ Forms with multiple fields"
+title = "Forms with multiple fields"
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🗂️'
 [objectives]
     1='Handle multiple user inputs in a form'
     2='Use a single event handler for multiple inputs'

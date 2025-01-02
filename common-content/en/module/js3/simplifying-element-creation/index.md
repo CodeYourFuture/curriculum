@@ -1,9 +1,9 @@
 +++
-title = '🧼 Creating elements with functions'
+title = 'Creating elements with functions'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🧼'
 [objectives]
     1='Extract functions for common tasks'
     2='Identify benefits of using reusable functions'
@@ -83,7 +83,7 @@ This code does exactly the same thing as the code we had before. By introducing 
 1. Our code is smaller, which can make it easier to read and understand what it's doing.
 2. If we want to change how we create elements we only need to write the new code one time, not for every element. We could add a class attribute for each element easily.
 3. We can see that each element is being created the same way. Before, we would have to compare several lines of code to see this. Because we can see they're calling the same function, we know they're made the same way.
-4. We're less likely to make mistakes copying and pasting the code. In the first version of this content, we actually wrote ``duration.textContent = `Certificate: ${film.certificate}`;`` instead of ``certificate.textContent = `Certificate: ${film.certificate}`;`` because we were just copying and pasting and missed an update. The less we need to copy and paste and update code, the less likely we are to miss an update.
+4. We're less likely to make mistakes copying and pasting the code. In the first version of this content, we actually wrote `` duration.textContent = `Certificate: ${film.certificate}`; `` instead of `` certificate.textContent = `Certificate: ${film.certificate}`; `` because we were just copying and pasting and missed an update. The less we need to copy and paste and update code, the less likely we are to miss an update.
 
 There are also some drawbacks to our refactoring:
 

@@ -1,9 +1,9 @@
 +++
-title = '🪆 .then()'
+title = '.then()'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🪆'
 [objectives]
     1='Chain then() on to a Promise'
 [build]

@@ -1,13 +1,9 @@
 +++
 title = 'Git and Github for poets'
-
 time = 15
-facilitation = false
-vocabulary=[]
 emoji= '📖 '
 [tasks]
-1='Double check Github account is setup'
-2='Double check Course planner is setup'
+1='Bookmark GitHub training videos'
 [build]
   render = 'never'
   list = 'local'

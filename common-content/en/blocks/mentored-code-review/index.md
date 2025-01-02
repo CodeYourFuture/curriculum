@@ -1,6 +1,6 @@
 +++
 title="Mentored code review"
-
+emoji="🧑🏾‍💻"
 time = 20
 [objectives]
     1="Explain what a code reviewer is looking for in a PR."
@@ -20,7 +20,7 @@ At {{<our-name>}} every learner should get code review on their work every week.
 
 {{<note type="activity" title="Live Code Review">}}
 
-Pair up a volunteer with one or more learners. 
+Pair up a volunteer with one or more learners.
 
 - The volunteer will review a pull request, and talk out loud about what they're looking for and doing.
 - The learner(s) will ask questions as they do.

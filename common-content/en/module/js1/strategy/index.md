@@ -1,9 +1,9 @@
 +++
-title = '↙️ ↘️ Making a choice'
+title = 'Making a choice'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '↙️ ↘️'
 hide_from_overview = true
 [objectives]
     1='Propose a strategy for solving a problem'

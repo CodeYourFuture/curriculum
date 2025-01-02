@@ -1,9 +1,9 @@
 +++
-title = '🔎 Gathering requirements'
+title = 'Gathering requirements'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🛍️'
 [objectives]
     1='Choose a project brief'
     2='Identify and explain the key user stories for your project'

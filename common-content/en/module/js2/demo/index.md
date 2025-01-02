@@ -1,6 +1,6 @@
 +++
-title="▶️ Demo"
-
+title="Demo"
+emoji="📽️"
 time= 60
 vocabulary="Backlog"
 [objectives]

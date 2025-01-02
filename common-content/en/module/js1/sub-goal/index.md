@@ -1,9 +1,9 @@
 +++
-title = '🧠 Forming sub-goals'
+title = 'Forming sub-goals'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🧠'
 [objectives]
  1='Define a sub-goal'
  2='Explain why we use sub-goals'

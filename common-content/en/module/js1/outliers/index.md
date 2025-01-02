@@ -1,9 +1,9 @@
 +++
-title = '🗄️ Generalising further'
+title = 'Generalising further'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🗄️'
 [objectives]
     1='Define an outlier'
 [build]

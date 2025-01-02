@@ -1,5 +1,5 @@
 +++
-title = '🔎 Interpreting errors'
+title = 'Interpreting errors'
 
 time = 20
 facilitation = false

@@ -1,9 +1,9 @@
 +++
-title = '🥎 try/catch'
+title = 'try/catch'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🥎'
 [objectives]
     1='Define a try/catch block'
     2='Handle an error'

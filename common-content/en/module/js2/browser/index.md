@@ -1,9 +1,9 @@
 +++
-title = '💻 User interfaces'
+title = 'User interfaces'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '💻'
 [objectives]
     1='Define static html'
     2='Explain why we interact with user interfaces'

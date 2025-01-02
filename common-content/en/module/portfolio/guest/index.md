@@ -1,5 +1,5 @@
 +++
-title = '🎤 Guest Speaker'
+title = 'Guest Speaker'
 
 time = 60
 facilitation = false

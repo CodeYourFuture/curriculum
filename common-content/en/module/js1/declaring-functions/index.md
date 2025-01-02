@@ -1,9 +1,9 @@
 +++
-title = '🪄 Declaring functions'
+title = 'Declaring functions'
 
 time = 20
 facilitation = false
-emoji= '🗄️'
+emoji= '🪄'
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
 [build]

@@ -1,9 +1,9 @@
 +++
-title = "🚏 React Router"
+title = "React Router"
 
 time = 60
 facilitation = false
-emoji= '🧩'
+emoji= '🚏'
 [objectives]
     1='Define multiple routes in a React application'
 [build]

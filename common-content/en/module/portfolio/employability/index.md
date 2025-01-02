@@ -1,5 +1,5 @@
 +++
-title = '🪞 Employability'
+title = 'Employability'
 
 time = 60
 facilitation = false

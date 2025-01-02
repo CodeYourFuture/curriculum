@@ -1,9 +1,9 @@
 +++
-title = '🖥️ Terminal interface'
+title = 'Terminal interface'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🖥️'
 [objectives]
 1='Identify the terminal and its purpose'
 2='Execute commands in the terminal'

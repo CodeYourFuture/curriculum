@@ -1,9 +1,9 @@
 +++
-title = '🪀 Discuss an app'
+title = 'Discuss an app'
 
 time = 85
 facilitation = false
-emoji= '🧩'
+emoji= '🪀'
 [objectives]
 1='Discuss problem solving strategies in groups'
 2='Check required functionality against acceptance criteria'

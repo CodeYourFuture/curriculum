@@ -1,5 +1,5 @@
 +++
-title = '📝 Check progress'
+title = 'Check progress'
 
 time = 15
 facilitation = false

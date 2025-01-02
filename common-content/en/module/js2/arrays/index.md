@@ -1,9 +1,9 @@
 +++
-title = '📜 Arrays'
+title = 'Arrays'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '📜'
 [objectives]
     1='Access items in an array using an index'
     2='Identify the benefits of using an array to store information'

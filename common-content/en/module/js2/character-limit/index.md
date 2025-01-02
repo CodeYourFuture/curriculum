@@ -1,9 +1,9 @@
 +++
-title = '🛑 Implenenting a character limit'
+title = 'Implementing a character limit'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🛑'
 [objectives]
     1='Define acceptance criteria for the character limit component'
 [build]

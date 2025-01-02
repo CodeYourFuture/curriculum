@@ -1,9 +1,9 @@
 +++
-title = '🏤 References'
+title = 'References'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🏤'
 [objectives]
     1='Define reference'
     2='Describe some effects of variables being assigned the same array reference'

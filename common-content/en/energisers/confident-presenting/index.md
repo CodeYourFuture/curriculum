@@ -1,5 +1,6 @@
 +++
 title="Confident Presenting!"
+emoji='🦸‍♂️'
 time=15
 [tasks]
     1="Trainee can strike a power pose"

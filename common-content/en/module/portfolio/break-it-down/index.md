@@ -1,5 +1,5 @@
 +++
-title = '🧩 Break it down'
+title = 'Break it down'
 
 time = 60
 facilitation = false

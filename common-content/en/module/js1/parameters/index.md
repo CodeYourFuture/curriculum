@@ -1,9 +1,9 @@
 +++
-title = '🏷️ Parameterising a function'
+title = 'Parameterising a function'
 
 time = 40
 facilitation = false
-emoji= '🗄️'
+emoji= '🏷️'
 [objectives]
     1='Define a parameter'
     2='Identify the value assigned to a parameter when a function is invoked'

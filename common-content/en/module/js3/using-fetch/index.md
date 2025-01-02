@@ -1,9 +1,9 @@
 +++
-title = '🌐 Requesting from a server side API'
+title = 'Requesting from a server side API'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🌐'
 [objectives]
 1="Fetch data from a server side API using a client side Web API"
 [build]
@@ -40,7 +40,7 @@ const fetchFilms = async () => {
 }; // Our async function returns a Promise
 
 fetchFilms().then((films) => {
-   // When the fetchFilms Promise resolves, this callback will be called.
+  // When the fetchFilms Promise resolves, this callback will be called.
   state.films = films;
   render();
 });

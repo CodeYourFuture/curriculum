@@ -3,7 +3,7 @@ title = 'Routing'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🛤️'
 [objectives]
     1='Identify the endpoint in a URL'
     2='Define two endpoints in Express'

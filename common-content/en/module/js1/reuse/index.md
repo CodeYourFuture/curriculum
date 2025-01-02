@@ -1,9 +1,9 @@
 +++
-title = '♻️ Reusing the function'
+title = 'Reusing the function'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '♻️'
 [objectives]
     1='Evaluate a function expression'
     2='Call a function with an input in REPL'

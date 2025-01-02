@@ -1,5 +1,5 @@
 +++
-title = '🧰 Peer learning Workshop '
+title = 'Peer learning Workshop '
 time = 30
 emoji= '🧰'
 objectives =['Work together on exercises and activities to find gaps in understanding','Describe and resolve mental model errors']

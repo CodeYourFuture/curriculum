@@ -1,6 +1,6 @@
 +++
 title="Code review"
-emoji="📝"
+emoji="🔍"
 time= 15
 [objectives]
     1="Explain the value of code review"

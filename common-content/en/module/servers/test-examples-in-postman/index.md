@@ -1,9 +1,9 @@
 +++
-title = '📮 🧪 Test Examples in Postman'
+title = 'Test Examples in Postman'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '📮🧪'
 [objectives]
     1='Fork a Postman workspace'
     2='Run a request in Postman'

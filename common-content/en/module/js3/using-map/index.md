@@ -1,9 +1,9 @@
 +++
-title = '🗺️ Using map'
+title = 'Using map'
 
 time = 60
 facilitation = false
-emoji= '🧩'
+emoji= '🗺️'
 [objectives]
     1='Describe how to use map'
 [build]

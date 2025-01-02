@@ -1,5 +1,5 @@
 +++
-title = '📈 Implementing all the cases'
+title = 'Implementing all the cases'
 
 time = 15
 facilitation = false

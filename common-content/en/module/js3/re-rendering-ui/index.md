@@ -1,9 +1,9 @@
 +++
-title = '🪞 Re-rendering the UI'
+title = 'Re-rendering the UI'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '🪞'
 [objectives]
     1='Trace the flow of data from user input to updated UI'
 [build]

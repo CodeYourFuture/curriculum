@@ -1,9 +1,9 @@
 +++
-title = '❓ No parameters'
+title = 'No parameters'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🕳️'
 hide_from_overview = true
 [build]
   render = 'never'
@@ -25,7 +25,7 @@ An empty object behaves this way, so it makes sense to return an empty object.
 Let's create a test to explore this idea. In your `prep` dir, `touch parse-query-string.js && touch parse-query-string.test.js`. Write the following test in the `parse-query-string.test.js` file.
 
 ```js
-test("given a query string with no query parameters, returns an empty object", function() {
+test("given a query string with no query parameters, returns an empty object", function () {
   const input = "";
   const currentOutput = parseQueryString(input);
   const targetOutput = {};

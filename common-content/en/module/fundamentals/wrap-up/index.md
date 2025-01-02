@@ -4,7 +4,7 @@ title = 'Wrap Up'
 time = 60
 facilitation = false
 vocabulary=["Requirements", "User Stories"]
-emoji= '🧩'
+emoji= '🎉'
 [objectives]
 1='Identify described requirements'
     2='Identify extra requirements from your own experience'

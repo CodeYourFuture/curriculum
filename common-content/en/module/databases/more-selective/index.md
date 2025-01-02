@@ -3,7 +3,7 @@ title = 'Being More Selective'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🔍'
 [objectives]
     1='Create an API endpoint that can add data to a database'
     2='Validate data before adding it to a database'

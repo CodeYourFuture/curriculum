@@ -1,9 +1,9 @@
 +++
-title = '📨 POST'
+title = 'POST'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '📨'
 [objectives]
     1='Process a POST request using Express and Node and store data in memory'
 [build]

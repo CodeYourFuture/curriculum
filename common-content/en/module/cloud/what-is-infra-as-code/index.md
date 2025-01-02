@@ -3,7 +3,7 @@ title = 'What is infrastructure as code?'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🏗️'
 [objectives]
     1='Define infrastructure as code'
     2='Explain the need for infrastructure as code'

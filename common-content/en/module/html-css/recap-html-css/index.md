@@ -3,7 +3,7 @@ title = 'Recap HTML and CSS'
 
 time = 40
 facilitation = false
-emoji= '🧩'
+emoji= '🔁'
 [objectives]
     1='Name 3 HTML tags'
     2='Define semantic HTML'

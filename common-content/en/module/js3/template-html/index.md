@@ -1,9 +1,9 @@
 +++
-title = '🍱 Creating elements with <template>'
+title = 'Creating elements with <template>'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🍱'
 [objectives]
     1='Use template tags to simplify element initialisation'
     2='Identify trade-offs between using functions vs template tags to create components'
@@ -51,9 +51,13 @@ const film = {
 const card = document.getElementById("film-card").content.cloneNode(true);
 // Now we are querying our cloned fragment, not the entire page.
 card.querySelector("h3").textContent = film.title;
-card.querySelector("[data-director]").textContent = `Director: ${film.director}`;
+card.querySelector(
+  "[data-director]"
+).textContent = `Director: ${film.director}`;
 card.querySelector("time").textContent = `${film.duration} minutes`;
-card.querySelector("[data-certificate]").textContent = `Certificate: ${film.certificate}`;
+card.querySelector(
+  "[data-certificate]"
+).textContent = `Certificate: ${film.certificate}`;
 
 document.body.append(card);
 ```

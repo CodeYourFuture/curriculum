@@ -3,7 +3,7 @@ title = 'Sharing Our Blockers'
 time = 45
 facilitation = false
 vocabulary=["Blockers"]
-emoji= '🧩'
+emoji= '🚧'
 [objectives]
 1='Identify blockers'
 2='Share blockers on a board or sticky notes'

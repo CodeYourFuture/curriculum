@@ -1,9 +1,9 @@
 +++
-title = '🔭 Scope'
+title = 'Scope'
 
 time = 20
 facilitation = false
-emoji= '❌'
+emoji= '🔭'
 [objectives]
 1='Define scope'
 2='Explain what happens when a variable is referenced out of scope'

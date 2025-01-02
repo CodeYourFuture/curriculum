@@ -1,9 +1,9 @@
 +++
-title = '📤 Returning from a function'
+title = 'Returning from a function'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '📤'
 [objectives]
     1='Identify the return value at a call site given its function declaration'
     2='Log the return value of a function'

@@ -1,5 +1,6 @@
 +++
 title="Standup"
+emoji="📢"
 time=15
 [build]
   render = 'never'

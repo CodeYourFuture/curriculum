@@ -1,5 +1,5 @@
 +++
-title = '🧠 Interpreting this error'
+title = 'Interpreting this error'
 
 time = 20
 facilitation = false
@@ -88,11 +88,11 @@ Make sure you _understand_ each word. Make sure you could explain the word to so
 Expand for example definitions - only expand this after you have written yours down. Compare your answers with these.
 </summary>
 
-* **SyntaxError** - If we Google "JavaScript SyntaxError", [MDN tells us](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) this is "an error when trying to interpret syntactically invalid code". So - we wrote some code which isn't allowed.
-* **Identifier** - If we Google "JavaScript Identifier", [MDN tells us](https://developer.mozilla.org/en-US/docs/Glossary/Identifier): this is "a sequence of characters in the code that identifies a variable, function, or property". On line 12, the identifier is the variable name: `currentOutput`.
-* **currentOutput** - This is the variable name we used in our code. This is the **identifier** that the error is about.
-* **has**, **already**, and **been** are all standard English words with no special meaning.
-* **declared** - We learnt about this already in this course - a **declaration** is where we make a new name (e.g. a new variable) in JavaScript.
+- **SyntaxError** - If we Google "JavaScript SyntaxError", [MDN tells us](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) this is "an error when trying to interpret syntactically invalid code". So - we wrote some code which isn't allowed.
+- **Identifier** - If we Google "JavaScript Identifier", [MDN tells us](https://developer.mozilla.org/en-US/docs/Glossary/Identifier): this is "a sequence of characters in the code that identifies a variable, function, or property". On line 12, the identifier is the variable name: `currentOutput`.
+- **currentOutput** - This is the variable name we used in our code. This is the **identifier** that the error is about.
+- **has**, **already**, and **been** are all standard English words with no special meaning.
+- **declared** - We learnt about this already in this course - a **declaration** is where we make a new name (e.g. a new variable) in JavaScript.
 
 Reading that back, we can rephrase this error message:
 

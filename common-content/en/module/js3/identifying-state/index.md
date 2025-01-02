@@ -1,9 +1,9 @@
 +++
-title = '🔎 Identifying state'
+title = 'Identifying state'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🔎'
 [objectives]
     1='Identify the state in a given problem'
 [build]

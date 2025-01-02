@@ -1,8 +1,8 @@
 +++
-title = 'Next steps 👣'
+title = 'Next steps'
 time="30"
 facilitation = false
-emoji= '🧩'
+emoji= '👣'
 [objectives]
     1='Figure out what we need to do next in the course'
     2='Locate the setup and prep view on the curriculum'

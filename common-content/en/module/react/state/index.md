@@ -1,9 +1,9 @@
 +++
-title = '🚦 State'
+title = 'State'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🚦'
 [objectives]
     1='Add a state variable with the useState Hook'
 [build]

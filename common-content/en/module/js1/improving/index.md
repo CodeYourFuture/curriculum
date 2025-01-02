@@ -1,9 +1,9 @@
 +++
-title = '🧹 Improving the code'
+title = 'Improving the code'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🧹'
 [objectives]
 1='Explain why refactoring is necessary in the production of software'
 2='Suggest several appropriate ways to refactor a given piece of code'

@@ -3,7 +3,7 @@ title = 'GitHub.dev'
 description = 'Completing coursework on a library computer'
 time = 20
 facilitation = false
-emoji= '🧰'
+emoji= '📚'
 [objectives]
 1='Access the dotdev environment on a library computer if you do not have your own'
 [build]

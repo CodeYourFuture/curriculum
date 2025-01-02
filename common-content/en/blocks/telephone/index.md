@@ -1,6 +1,6 @@
 +++
 title="Telephone"
-
+emoji="📞"
 time=15
 [build]
   render = 'never'

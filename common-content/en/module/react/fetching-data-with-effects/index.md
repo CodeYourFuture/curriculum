@@ -1,9 +1,9 @@
 +++
-title = "🐕 🎳 Fetching data with Effects"
+title = "Fetching data with Effects"
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🎳'
 [objectives]
     1='Fetch data from an API using the useEffect hook'
 [build]

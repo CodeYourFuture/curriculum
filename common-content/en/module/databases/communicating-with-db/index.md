@@ -3,7 +3,7 @@ title = 'Communicating with the database using SQL'
 
 time = 120
 facilitation = false
-emoji= '🧩'
+emoji= '🏓'
 [objectives]
     1='Describe what `tables`, `rows` and `columns` are used for in a relational database'
     2='Retrieve data from a table using PostgreSQL'

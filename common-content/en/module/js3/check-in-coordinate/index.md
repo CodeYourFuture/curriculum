@@ -1,9 +1,9 @@
 +++
-title = '📝 Check-in ➡️ Coordinate'
+title = 'Check-in ➡️ Coordinate'
 
 facilitation = false
 time=10
-emoji= '🧩'
+emoji= '📝'
 [objectives]
 1="Perform quick temperature check on the current concepts"
 2="Devise strategies for dealing with misconceptions during the week"

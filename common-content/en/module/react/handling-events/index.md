@@ -1,9 +1,9 @@
 +++
-title = '🦻🏼 Handling events'
+title = 'Handling events'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '🦻🏼'
 [objectives]
     1='Add event handlers to your JSX'
 [build]

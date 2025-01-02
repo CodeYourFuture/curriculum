@@ -1,9 +1,9 @@
 +++
-title = '📼 Objects Workshop'
+title = 'Objects Workshop'
 
 time = 60
 facilitation = false
-emoji= '🗄️'
+emoji= '📼'
 [objectives]
     1='Practice solving problems with objects'
 [build]
@@ -28,40 +28,40 @@ You can use the code samples below as a starting point.
 function canEat(iceCream) {}
 
 const iceCream1 = {
-	flavour: "Vanilla",
-	lactoseFree: false,
-	gramsOfSugarPerScoop: 12,
-}
+  flavour: "Vanilla",
+  lactoseFree: false,
+  gramsOfSugarPerScoop: 12,
+};
 
 const iceCream2 = {
-	flavour: "Mango Sorbet",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 10,
-}
+  flavour: "Mango Sorbet",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 10,
+};
 
 const iceCream3 = {
-	flavour: "Coconut",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 8,
-}
+  flavour: "Coconut",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 8,
+};
 
 const iceCream4 = {
-	flavour: "Strawberry",
-	lactoseFree: false,
-	gramsOfSugarPerScoop: 8,
-}
+  flavour: "Strawberry",
+  lactoseFree: false,
+  gramsOfSugarPerScoop: 8,
+};
 
 const iceCream5 = {
-	flavour: "Lemon Sorbet",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 7,
-}
+  flavour: "Lemon Sorbet",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 7,
+};
 
-console.log(canEat(iceCream1)) // what should this output?
-console.log(canEat(iceCream2)) // what should this output?
-console.log(canEat(iceCream3)) // what should this output?
-console.log(canEat(iceCream4)) // what should this output?
-console.log(canEat(iceCream5)) // what should this output?
+console.log(canEat(iceCream1)); // what should this output?
+console.log(canEat(iceCream2)); // what should this output?
+console.log(canEat(iceCream3)); // what should this output?
+console.log(canEat(iceCream4)); // what should this output?
+console.log(canEat(iceCream5)); // what should this output?
 ```
 
 ### Exercise 2
@@ -71,23 +71,23 @@ console.log(canEat(iceCream5)) // what should this output?
 //  and return the name of the cheaper book
 
 const fictionBook = {
-	title: "1984",
-	author: "George Orwell",
-	category: "Dystopian Fiction",
-	subcategory: "Political",
-	cost: 9.99,
-}
+  title: "1984",
+  author: "George Orwell",
+  category: "Dystopian Fiction",
+  subcategory: "Political",
+  cost: 9.99,
+};
 
 const productivityBook = {
-	title: "Atomic Habits",
-	author: "James Clear",
-	category: "Self-Help",
-	subcategory: "Productivity",
-	cost: 16.2,
-}
+  title: "Atomic Habits",
+  author: "James Clear",
+  category: "Self-Help",
+  subcategory: "Productivity",
+  cost: 16.2,
+};
 
 // this should output 1984
-console.log(getCheapest(fictionBook, productivityBook))
+console.log(getCheapest(fictionBook, productivityBook));
 ```
 
 ### Exercise 3
@@ -97,47 +97,40 @@ console.log(getCheapest(fictionBook, productivityBook))
 //	and returns an array of the names of ice creams I can eat
 //  I can eat the ice cream if it is lactose-free and contains less than 10 grams of sugar
 //  Use the solution from Exercise 1 to help you
-function whichIceCreamsCanIEat(iceCreams) {
-}
+function whichIceCreamsCanIEat(iceCreams) {}
 
 const iceCream1 = {
-	flavour: "Vanilla",
-	lactoseFree: false,
-	gramsOfSugarPerScoop: 12,
-}
+  flavour: "Vanilla",
+  lactoseFree: false,
+  gramsOfSugarPerScoop: 12,
+};
 
 const iceCream2 = {
-	flavour: "Mango Sorbet",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 10,
-}
+  flavour: "Mango Sorbet",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 10,
+};
 
 const iceCream3 = {
-	flavour: "Coconut",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 8,
-}
+  flavour: "Coconut",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 8,
+};
 
 const iceCream4 = {
-	flavour: "Strawberry",
-	lactoseFree: false,
-	gramsOfSugarPerScoop: 8,
-}
+  flavour: "Strawberry",
+  lactoseFree: false,
+  gramsOfSugarPerScoop: 8,
+};
 
 const iceCream5 = {
-	flavour: "Lemon Sorbet",
-	lactoseFree: true,
-	gramsOfSugarPerScoop: 7,
-}
+  flavour: "Lemon Sorbet",
+  lactoseFree: true,
+  gramsOfSugarPerScoop: 7,
+};
 
-const allIceCreams = [
-	iceCream1,
-	iceCream2,
-	iceCream3,
-	iceCream4,
-	iceCream5,	
-]
+const allIceCreams = [iceCream1, iceCream2, iceCream3, iceCream4, iceCream5];
 
-const iceCreamsICanEat = whichIceCreamsCanIEat(allIceCreams)
-console.log(iceCreamsICanEat) // what should this output?
+const iceCreamsICanEat = whichIceCreamsCanIEat(allIceCreams);
+console.log(iceCreamsICanEat); // what should this output?
 ```

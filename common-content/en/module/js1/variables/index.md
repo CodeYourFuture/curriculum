@@ -1,9 +1,9 @@
 +++
-title = '🏷️ Saving expressions'
+title = 'Saving expressions'
 
 time = 15
 facilitation = false
-emoji= '🗄️'
+emoji= '🏷️'
 [objectives]
 1='Identify the syntactic features of a variable declaration'
 2='Explain why we use variable declarations'

@@ -1,5 +1,5 @@
 +++
-title = '🔄 Reusing variable names'
+title = 'Reusing variable names'
 
 time = 30
 facilitation = false

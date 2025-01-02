@@ -1,5 +1,5 @@
 +++
-title = '😉 Stand up'
+title = 'Stand up'
 
 time = 15
 facilitation = false

@@ -1,5 +1,5 @@
 +++
-title = '🗄️ Classifying data'
+title = 'Classifying data'
 
 time = 15
 facilitation = false
@@ -30,7 +30,7 @@ A **data type** is a grouping of data with some particular properties{{</tooltip
 A string is a sequence of characters demarcated by quotes.
 
 ```js
-"Code Your Future"
+"Code Your Future";
 ```
 
 ### 🧮 Creating expressions
@@ -40,7 +40,7 @@ Think of the numbers `10` and `32`. We could ask questions about these numbers, 
 Another way to say this is _what do 10 and 32 add up to?_ In English we can say this in many ways, but in JavaScript we can say this using numbers and an operator. Just like in mathematics, “the sum of 10 and 32” can be written as `10 + 32`:
 
 ```js
-10 + 32
+10 + 32;
 ```
 
 In JavaScript, `+` is an {{<tooltip title="operator">}} An **operator** represents an operation, or act. {{</tooltip>}}. It's a symbol. In this example, `+` represents the operation “make the sum of the numbers”. It symbolises addition.
