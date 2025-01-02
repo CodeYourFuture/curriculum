@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Implementing and testing shell tools in Python, and Operating Systems concepts"
+theme = "Implementing shell tools in Python"
 +++
