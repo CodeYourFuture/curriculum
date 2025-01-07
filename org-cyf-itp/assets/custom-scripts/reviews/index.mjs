@@ -18,6 +18,8 @@ const ageToEmoji = {
   old: "🔴",
 };
 
+const NO_REVIEWER_PLACEHOLDER = "[No reviewer]";
+
 function computeStatusClass(awaitingReview) {
   const score = Math.max(
     ...Object.entries(awaitingReview).map(([name, count]) =>
@@ -71,8 +73,16 @@ function render() {
         reviewers.add(review.userName);
       }
     }
-    if (state.reviewer_filter && !pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
-      continue;
+    if (state.reviewer_filter) {
+      if (state.reviewer_filter === NO_REVIEWER_PLACEHOLDER) {
+        if (pr.hasReviewer()) {
+          continue;
+        }
+      } else if (state.reviewer_filter) {
+        if (!pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
+          continue;
+        }
+      }
     }
 
     awaitingReviewByAge[pr.module][pr.updatedAge]++;
@@ -160,6 +170,11 @@ function render() {
   const knownReviewersElement = document.querySelector("#known-reviewers");
   knownReviewersElement.innerText = "";
   const sortedReviewers = [...reviewers].sort();
+  if (sortedReviewers) {
+    const option = document.createElement("option");
+    option.value = NO_REVIEWER_PLACEHOLDER;
+    knownReviewersElement.appendChild(option);
+  }
   for (const reviewer of sortedReviewers) {
     const option = document.createElement("option");
     option.value = reviewer;
