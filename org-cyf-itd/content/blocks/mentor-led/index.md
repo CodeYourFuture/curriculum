@@ -14,11 +14,10 @@ This time is to get help with a specific step. Focus on the blockers that are st
 
 #### 📢 Caller:
 
-1. [Step 1](../steps/one) join group Code Academy
+1. [Step 1](../steps/one) join group GenAI Cover Letters
 2. [Step 2](../steps/two) join group Google Sheets
-3. [Step 3](../steps/three) join group Scrimba
-4. [Step 4](../steps/four) join group Scrimba as well
-5. [Step 5](../steps/five) join group CYF Blocks
-6. [Step 6](../steps/six) join group English
+3. [Step 3](../steps/three) join group Web Development
+4. [Step 4](../steps/four) join group Web Development as well
+5. [Step 5](../steps/five) join group English
 
 And if you haven't started yet, welcome! Join the group _Newcomers_!
