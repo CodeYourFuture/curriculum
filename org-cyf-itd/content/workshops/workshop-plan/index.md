@@ -22,20 +22,16 @@ name="Step by Step"
 src="blocks/mentor-led"
 time="45"
     [[blocks.nested.blocks]]
-    name="Code Academy"
-    src="blocks/groups/code-academy"
+    name="GenAI Cover Letters"
+    src="blocks/groups/genai-cover-letters"
     time=0
     [[blocks.nested.blocks]]
     name="Google Sheets"
     src="blocks/groups/google-sheets"
     time=0
     [[blocks.nested.blocks]]
-    name="Scrimba"
-    src="blocks/groups/scrimba"
-    time=0
-    [[blocks.nested.blocks]]
-    name="CYF Blocks"
-    src="blocks/groups/cyf-blocks"
+    name="Web Development"
+    src="blocks/groups/web-development"
     time=0
     [[blocks.nested.blocks]]
     name="English"
@@ -53,16 +49,16 @@ name="Mentor each other"
 src="blocks/peer-learning"
 time="30"
    [[blocks.nested.blocks]]
-    name="Code Academy"
-    src="blocks/groups/code-academy"
+    name="GenAI Cover Letters"
+    src="blocks/groups/genai-cover-letters"
     time=0
     [[blocks.nested.blocks]]
     name="Google Sheets"
     src="blocks/groups/google-sheets"
     time=0
     [[blocks.nested.blocks]]
-    name="Scrimba"
-    src="blocks/groups/scrimba"
+    name="Web Development"
+    src="blocks/groups/web-development"
     time=0 
 [[blocks]]
 name="Wrap up"
