@@ -1,7 +1,14 @@
-+++ title = 'Gathering requirements'
-
-time = 60 facilitation = false emoji= '🗺️' hide_from_overview = true [objectives] 1='Define product, MVP, feature, user story' [build] render = 'never' list = 'local' publishResources = false
-
++++
+title = 'Gathering requirements'
+time = 60
+facilitation = false
+emoji= '🗺️'
+[objectives]
+1='Define product, MVP, feature, user story'
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 +++
 
 Read the following materials and get familiar with “product”, “MVP”, “feature” and “user story” concepts.
