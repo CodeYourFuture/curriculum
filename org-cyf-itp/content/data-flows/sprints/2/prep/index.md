@@ -12,6 +12,9 @@ src="module/js3/reacting"
 name="Step-through-prep workshop"
 src="https://www.youtube.com/watch?v=7kYwo6W89j4"
 [[blocks]]
+name="Gathering requirements"
+src='module/js3/gathering-requirements" 
+[[blocks]]
 name="Breaking down the problem"
 src="module/js3/break-down"
 [[blocks]]
