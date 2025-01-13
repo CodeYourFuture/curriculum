@@ -40,7 +40,6 @@ _Write down your answers first_ and then update them after looking at the sample
 - [A large language model like ChatGPT](https://chat.openai.com/)
 - [Devtools](https://developer.chrome.com/docs/devtools/)
   ===[[Video]]===
-  {{<youtube>}}https://www.youtube.com/watch?v=U1QWx8xbbt4
-  {{</youtube>}}
+  {{<youtube>}}https://www.youtube.com/watch?v=U1QWx8xbbt4{{</youtube>}}
 
   {{</tabs>}}

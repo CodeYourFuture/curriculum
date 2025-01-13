@@ -19,8 +19,7 @@ We've been using the internet for years, but how does it actually work? What hap
 
 {{<tabs name="How the internet works playlist">}}
 ===[[What is the internet]]===
-{{<youtube>}}https://www.youtube.com/watch?v=Dxcc6ycZ73M
-{{</youtube>}}
+{{<youtube>}}https://www.youtube.com/watch?v=Dxcc6ycZ73M{{</youtube>}}
 
 ===[[Understanding networks]]===
 {{<youtube>}}https://www.youtube.com/watch?v=ZhEf7e4kopM{{</youtube>}}
