@@ -21,7 +21,7 @@ You must **apply** to join the Piscine. If you meet the eligibility criteria, yo
 
 You will receive a technical test within two days of your application.
 
-The technical test will require you to write code. It's like on Codewars. There will be some existing code you have to modify, and you will have up to one hour to do the task. You must pass the technical test - if you fail the technical test, you will be allowed to apply to the next Piscine if you want to.
+The technical test will require you to write code. It's like on Codewars. There will be some existing code you have to modify, and you will have up to one hour to do the task. You must pass the technical test. If you fail the technical test, you will be allowed to apply to the next Piscine if you want to.
 
 If you are accepted, you will receive an enrollment email.
 
