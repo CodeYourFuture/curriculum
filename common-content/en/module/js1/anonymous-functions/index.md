@@ -1,5 +1,5 @@
 +++
-title = '🏷️ Anonymous functions'
+title = 'Anonymous functions'
 
 time = 10
 facilitation = false

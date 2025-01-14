@@ -1,6 +1,5 @@
 +++
 title = 'Curriculum'
-
 time = 15
 facilitation = false
 vocabulary=["Blockers"]

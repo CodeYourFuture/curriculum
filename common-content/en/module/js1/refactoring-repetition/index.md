@@ -1,5 +1,5 @@
 +++
-title = '🧹 Refactoring repetition'
+title = 'Refactoring repetition'
 
 time = 30
 facilitation = false
@@ -50,7 +50,7 @@ There are a few reasons this isn't ideal.
 1. It's not clear what this value represents. You can read it and work it out, but that takes some time.
 2. Doing the same thing twice is slower than doing it once.
 3. In the future if we need to change this code's implementation, we would need to change it **twice**.  
-Right now our code assumes the hours in a time are always two digits (like `05:00`). What if we wanted to support single-digit hours, like `5:00`? We would need to make the same change to both lines. It would be easy to change one line and forget the other, which would lead to a bug.
+   Right now our code assumes the hours in a time are always two digits (like `05:00`). What if we wanted to support single-digit hours, like `5:00`? We would need to make the same change to both lines. It would be easy to change one line and forget the other, which would lead to a bug.
 
 ### Refactor
 

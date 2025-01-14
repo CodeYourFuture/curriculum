@@ -1,6 +1,6 @@
 +++
-title="🫱🏽‍🫲🏾 Setup project teams"
-
+title="Setup project teams"
+emoji="🫱🏽‍🫲🏾"
 time=60
 [build]
   render = 'never'

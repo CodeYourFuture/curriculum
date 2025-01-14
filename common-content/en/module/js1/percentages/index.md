@@ -1,9 +1,9 @@
 +++
-title = '🧩 Percentages'
+title = 'Percentages'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '🧮'
 [objectives]
     2='Construct simple expressions to represent a calculation'
 [build]
@@ -71,7 +71,7 @@ Recalling template literals, the expression in the curly braces will be evaluate
 
 {{<tabs name="Calculation with variables">}}
 
-{{<tab name="Calculate area">}}
+===[[Calculate area]]===
 
 Now that we've solved the problem of converting a single decimal number to a percentage, let's practice solving other similar problems using expressions.
 
@@ -99,9 +99,7 @@ const perimeter = FILL_ME_IN;
 
 Now, if we change the numbers assigned to `height` and `width`, are the `area` and `perimeter` values still correct? Try using `console.log` to print out the value of the variables and then run the script using Node to view the output.
 
-{{</tab>}}
-
-{{<tab name="Convert pence">}}
+===[[Convert pence]]===
 
 Remember to create a new JavaScript file to run the code for yourself.
 
@@ -117,5 +115,4 @@ Now, you should write an expression that calculates the price in pounds. The pri
 
 Try using `console.log` to print out the value of price in pounds and then run the script using Node to view the output.
 
-{{</tab>}}
 {{</tabs>}}

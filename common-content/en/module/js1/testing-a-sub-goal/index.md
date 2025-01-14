@@ -1,5 +1,5 @@
 +++
-title = '🔎 Testing a sub-goal'
+title = 'Testing a sub-goal'
 
 time = 15
 facilitation = false

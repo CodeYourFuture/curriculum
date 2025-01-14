@@ -4,7 +4,7 @@ title = 'Background'
 time = 20
 facilitation = false
 vocabulary=["Blockers"]
-emoji= '🧩'
+emoji= '🌍'
 [objectives]
 1='Summarise the background in which CodeYourFuture was founded'
 2='Describe some of the challenges facing displaced people during the refugee crisis of 2015'

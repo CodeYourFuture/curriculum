@@ -1,9 +1,9 @@
 +++
-title = '🔁 Iteration'
+title = 'Iteration'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🔁'
 [objectives]
     1='Define iteration'
     2='Explain why iteration is relevant in a particular problem'
@@ -29,10 +29,6 @@ function calculateMean(list) {
 }
 ```
 
-{{<tabs name="Playing computer">}}
+### 🐛 Visualising iteration with debugger
 
-{{<tab name="🐛Visualising iteration with debugger">}}
 {{<youtube>}}https://www.youtube.com/watch?v=YX5jAFJlEqM{{</youtube>}}
-{{</tab>}}
-
-{{</tabs>}}

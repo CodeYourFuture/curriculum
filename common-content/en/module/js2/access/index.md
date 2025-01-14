@@ -1,9 +1,9 @@
 +++
-title = '🚪 Accessing properties'
+title = 'Accessing properties'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '🚪'
 [objectives]
     1='Access object property values with dot notation'
     2='Define the term "literal"'
@@ -75,9 +75,7 @@ profileData.firstName = "Fraz";
 console.log(profileData.firstName); // firstName is now "Fraz"
 ```
 
-{{<tabs name="Exercises">}}
-
-{{<tab name="Predict and explain 💬 🧠">}}
+### Predict and explain 💬 🧠
 
 ```js
 const profileData = {
@@ -92,10 +90,6 @@ console.log(profileData.firstName);
 ```
 
 Predict and explain what the console output be when we run the code above runs.
-
-{{</tab>}}
-
-{{</tabs>}}
 
 ### Properties are optional
 

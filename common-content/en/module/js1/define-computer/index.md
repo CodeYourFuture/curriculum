@@ -3,7 +3,7 @@ title = 'Interacting with computers'
 
 time = 5
 facilitation = false
-emoji= '🧩'
+emoji= '🤝'
 [objectives]
  1='Define a computer'
 [build]

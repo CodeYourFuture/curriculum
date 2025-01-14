@@ -1,9 +1,9 @@
 +++
-title = '🫱🏿‍🫲🏾 Pair up'
+title = 'Pair up'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🫱🏿‍🫲'
 [objectives]
 1="Prepare for next week's project"
 [build]

@@ -1,9 +1,9 @@
 +++
-title = '🧱 Composing elements'
+title = 'Composing elements'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🧱'
 [objectives]
     1='Compose UI elements to some specification'
     2='Append DOM elements to other nodes in the DOM tree'
@@ -17,7 +17,7 @@ emoji= '🧩'
 We can start by calling `createElement` to create and {{<tooltip title="compose DOM elements">}}To **compose DOM elements** means to **combine DOM elements** to form some part of the user interface.{{</tooltip>}}.
 
 {{<tabs name="Rendering from data">}}
-{{<tab name="JavaScript">}}
+===[[JavaScript]]===
 For now, we'll only consider rendering the `title` property from the `film` object. Create this script in your index.html:
 
 ```js
@@ -44,8 +44,7 @@ Uncaught ReferenceError: document is not defined
 
 make sure you are running your code in the browser and not a terminal. Node doesn't have the DOM API. You need to use your browser console. See [how to set up your html](#rendering-from-data-1) if you are stuck.{{</note>}}
 
-{{</tab>}}
-{{<tab name="HTML">}}
+===[[HTML]]===
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +69,6 @@ make sure you are running your code in the browser and not a terminal. Node does
 </html>
 ```
 
-{{</tab>}}
 {{</tabs>}}
 
 ### Appending elements

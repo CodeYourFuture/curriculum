@@ -20,5 +20,5 @@ A quick introduction to popcorning where participants spontaneously "pop up" to 
 
 Continue until everyone has shared once or you run out of time.
 
-> ![!TIP]
+> [!TIP]
 > If everyone puts their hand up and then put it down after speaking, it's easier to see who hasn't shared yet.

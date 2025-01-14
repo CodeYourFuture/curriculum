@@ -1,9 +1,9 @@
 +++
-title = '❓ Conditionally executing code'
+title = 'Conditionally executing code'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '❓'
 [objectives]
   1='Construct a flow diagram that describes how to produce an output from a given input'
   2='Explain when it is necessary to use a conditional statement'
@@ -47,7 +47,7 @@ flowchart LR
 ```
 
 {{<tabs>}}
-{{<tab name="Exercise 1">}}
+===[[Exercise 1]]===
 
 ### 🕹️ Playing computer
 
@@ -71,9 +71,7 @@ Play computer with the example above, step through each line in the code and wor
 
 If you've not encountered any syntax before, remember to look it up in some documentation.
 
-{{</tab>}}
-
-{{<tab name="Exercise 2">}}
+===[[Exercise 2]]===
 
 ### 🕹️ Playing computer
 
@@ -93,7 +91,5 @@ Play computer with the example above, step through each line in the code and wor
 - What is the **return value** each time the function is called?
 - What value is assigned to the `phoneNumber` parameter each time the function is called?
 - Try describing the purpose of this function - what should it do?
-
-{{</tab>}}
 
 {{</tabs>}}

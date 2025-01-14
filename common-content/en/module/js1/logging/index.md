@@ -1,9 +1,9 @@
 +++
-title = '🖨️ Logging'
+title = 'Logging'
 
 time = 10
 facilitation = false
-emoji= '🗄️'
+emoji= '🖨️'
 [objectives]
     1='Use console.log to print a value'
 [build]

@@ -1,9 +1,9 @@
 +++
-title = '📤 Returning from a function'
+title = 'Returning from a function'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '📤'
 [objectives]
     1='Identify the return value at a call site given its function declaration'
     2='Log the return value of a function'
@@ -55,7 +55,7 @@ Now we want to **call** the function `convertToPercentage` and **store the retur
 
 {{<tabs name="checking output">}}
 
-{{<tab name="Store the return value">}}
+===[[Store the return value]]===
 
 We can store the return value in a variable in exactly the same way:
 
@@ -70,9 +70,7 @@ function convertToPercentage() {
 const result = convertToPercentage(0.5);
 ```
 
-{{</tab>}}
-
-{{<tab name="Log the return value">}}
+===[[Log the return value]]===
 
 Log out the value of `result` to the console using `console.log`.
 
@@ -93,7 +91,5 @@ This will now print the following when run:
 ```
 50%
 ```
-
-{{</tab>}}
 
 {{</tabs>}}

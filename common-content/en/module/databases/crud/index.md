@@ -3,7 +3,7 @@ title = 'CRUD operations with NodeJS and PostgreSQL'
 
 time = 120
 facilitation = false
-emoji= '🧩'
+emoji= '🪄'
 [objectives]
     1="Create an API endpoint that can create data in a database"
     2="Create an API endpoint that can delete data from a database"
@@ -17,18 +17,18 @@ emoji= '🧩'
 +++
 
 {{<tabs name="CRUD Operations">}}
-{{<tab name="Insert">}}
+===[[Insert]]===
 
 ## 👩🏽‍✈️👨🏾‍✈️Code along with video mentors
 
 {{<youtube>}}https://www.youtube.com/watch?v=g1eHag5BG6o&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=3{{</youtube>}}
-{{</tab>}}
-{{<tab name="Create">}}
+
+===[[Create]]===
 {{<youtube>}}https://www.youtube.com/watch?v=ojLmL6tfj_E&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=4{{</youtube>}}
-{{</tab>}}
-{{<tab name="Update and Delete">}}
+
+===[[Update and Delete]]===
 {{<youtube>}}https://www.youtube.com/watch?v=7VXTXjnFtZo&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=5{{</youtube>}}
-{{</tab>}}
+
 {{</tabs>}}
 
 ---

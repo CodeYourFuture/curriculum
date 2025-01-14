@@ -1,9 +1,9 @@
 +++
-title = '🏷️ Parameterising a function'
+title = 'Parameterising a function'
 
 time = 40
 facilitation = false
-emoji= '🗄️'
+emoji= '🏷️'
 [objectives]
     1='Define a parameter'
     2='Identify the value assigned to a parameter when a function is invoked'
@@ -78,12 +78,8 @@ flowchart LR
 
 In this interactive widget we have defined a parameter `decimalNumber` in the function declaration inside parentheses after the function name `convertToPercentage`. In our mental model, a function call means going to `convertToPercentage` and running the code inside the function.
 
-{{<tabs>}}
-{{<tab name="🎮 Play computer">}}
+### 🎮 Play computer
 
 <iframe title="interactive widget" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28decimalNumber%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B&codeDivHeight=400&codeDivWidth=500&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 Use the interactive widget to see what happens when the code above is executed. Pay close attention to what happens inside the `convertToPercentage` frame.
-{{</tab>}}
-
-{{</tabs>}}

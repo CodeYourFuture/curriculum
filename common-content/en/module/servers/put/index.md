@@ -1,9 +1,9 @@
 +++
-title = '📨 PUT'
+title = 'PUT'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '📨'
 [objectives]
     1='Process a PUT request using Express and Node and update an array held in memory'
 [build]

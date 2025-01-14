@@ -3,7 +3,7 @@ title = 'Monitoring Tools'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🤿'
 [objectives]
     1='List the benefits of monitoring'
     2='Define observability'

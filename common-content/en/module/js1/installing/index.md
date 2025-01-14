@@ -1,9 +1,9 @@
 +++
-title = '🃏 Installing Jest'
+title = 'Installing Jest'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🃏'
 [objectives]
     1='Outline the effects of running an installation command, e.g. npm install'
     2='Install a dependency with npm'

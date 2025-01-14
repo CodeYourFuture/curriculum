@@ -1,9 +1,9 @@
 +++
-title = '🫱🏿‍🫲🏽 Promises'
+title = 'Promises'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji = '🫱🏿‍🫲🏽 '
 [objectives]
     1='Define a Promise'
     2='Log a Promise to the console'

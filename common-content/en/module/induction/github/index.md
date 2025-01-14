@@ -4,9 +4,9 @@ title = 'Check your Planner'
 time = 5
 facilitation = false
 vocabulary=[]
-emoji= '🧩'
-[objectives]
-1='Double check Git is installed on your local machine'
+emoji= '✅'
+[tasks]
+1='Double check you have set up a planner'
 [build]
   render = 'never'
   list = 'local'

@@ -18,7 +18,7 @@
     {{ end }}
     <h4 class="c-chip__title e-heading__2">{{ $blockData.name }}</h4>
     {{ with $blockData.caption }}
-      <p class="c-chip__description">🔗 {{ . | markdownify }}</p>
+      <p class="c-chip__description">🔗 {{ . | page.RenderString }}</p>
     {{ end }}
   </a>
 </section>

@@ -16,4 +16,4 @@
 {{ partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" $name "time" $time "caption" $caption  "page" .) }}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 
-{{ partial "block/link.html" . }}
+{{- partial "block/link.html" . -}}

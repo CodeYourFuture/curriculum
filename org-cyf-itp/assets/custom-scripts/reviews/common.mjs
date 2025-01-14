@@ -17,7 +17,7 @@ const apiPrefix = "https://github-issue-proxy.illicitonion.com/cached/2/repos/Co
 
 // TODO: Pull these in from config.
 export const modules = [
-    "Module-User-Focused-Data",
+    "Module-Onboarding",
     "Module-Structuring-And-Testing-Data",
     "Module-Data-Groups",
     "Module-Data-Flows",

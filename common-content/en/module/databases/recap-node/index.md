@@ -3,7 +3,7 @@ title = 'Communicating with the database using SQL'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '📮'
 [objectives]
     1='Check the database connection'
     2='Get query results from the database with Postman'
@@ -51,7 +51,7 @@ app.listen(3000, function () {
 Before we move on, run the `server.js` file in node and check the endpoint using your browser.
 
 {{<tabs name="Communicating with DB">}}
-{{<tab name="Using Postman">}}
+===[[Using Postman]]===
 
 ### Using Postman to Test an API
 
@@ -64,8 +64,8 @@ Run Postman (it can be slow to start).
 Check the method is GET, set the URL for your customers endpoint then click Send.
 
 ![postman get cust all results](postman-get-cust-all-results.png)
-{{</tab>}}
-{{<tab name="👩🏽‍✈️👨🏾‍✈️Code along : Retrieving individual records">}}
+
+===[[👩🏽‍✈️👨🏾‍✈️Code along : Retrieving individual records]]===
 {{<youtube>}}https://www.youtube.com/watch?v=LNfZAI3dp10&list=PLozA7cloMbPhJgWwncnb-N4yI07JpUcs5&index=1{{</youtube>}}
-{{</tab>}}
+
 {{</tabs>}}

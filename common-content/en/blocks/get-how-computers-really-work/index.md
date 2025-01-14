@@ -1,5 +1,6 @@
 +++
 title = "Get a copy of How Computers Really Work"
+emoji = "📚"
 time = 5
 hide_from_overview = true
 [build]
@@ -12,4 +13,4 @@ Throughout this course, we will reference the book [How Computers Really Work](h
 
 You will need a copy. {{<our-name>}} is working out how to get you a copy if you can't afford one.
 
-If you buy your own copy [from e.g. Amazon](https://www.amazon.co.uk/How-Computers-Work-Hands-Workings/dp/1718500661), {{<our-name>}} cannot pay for this. 
+If you buy your own copy [from e.g. Amazon](https://www.amazon.co.uk/How-Computers-Work-Hands-Workings/dp/1718500661), {{<our-name>}} cannot pay for this.

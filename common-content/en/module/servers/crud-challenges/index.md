@@ -1,9 +1,9 @@
 +++
-title = '💪🏾 CRUD Challenges'
+title = 'CRUD Challenges'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '💪🏾'
 [build]
   render = 'never'
   list = 'local'

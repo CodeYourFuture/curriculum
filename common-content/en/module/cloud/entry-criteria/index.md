@@ -3,7 +3,7 @@ title = 'Entry Criteria'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🎯'
 [objectives]
     1='List the entry criteria for the Cloud module'
 [build]

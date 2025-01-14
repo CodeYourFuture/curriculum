@@ -1,6 +1,3 @@
-const awaitingReviewByAge = {};
-const prsByModule = {};
-
 // 400/700/900
 function badness(name, count) {
   if ((name === "old" || name == "this month") && count > 0) {
@@ -38,6 +35,7 @@ function computeStatusClass(awaitingReview) {
 
 const state = {
   "prs": null,
+  "reviewer_filter": "",
 }
 
 async function onLoad() {
@@ -54,6 +52,10 @@ function render() {
     return;
   }
 
+  const awaitingReviewByAge = {};
+  const prsByModule = {};
+  const reviewers = new Set();
+
   for (const module of modules) {
     awaitingReviewByAge[module] = {
       "this week": 0,
@@ -64,6 +66,15 @@ function render() {
   }
 
   for (const pr of state.prs) {
+    for (const review of pr.reviews) {
+      if (!review.isPrAuthor) {
+        reviewers.add(review.userName);
+      }
+    }
+    if (state.reviewer_filter && !pr.reviews.some((review) => review.userName.toLowerCase().startsWith(state.reviewer_filter.toLowerCase()))) {
+      continue;
+    }
+
     awaitingReviewByAge[pr.module][pr.updatedAge]++;
     prsByModule[pr.module].push(pr);
   }
@@ -145,6 +156,21 @@ function render() {
       document.querySelector("#pr-list").appendChild(modulePrList);
     }
   }
+
+  const knownReviewersElement = document.querySelector("#known-reviewers");
+  knownReviewersElement.innerText = "";
+  const sortedReviewers = [...reviewers].sort();
+  for (const reviewer of sortedReviewers) {
+    const option = document.createElement("option");
+    option.value = reviewer;
+    knownReviewersElement.appendChild(option);
+  }
 }
 
 onLoad();
+
+document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
+  state.reviewer_filter = event.target.value;
+  console.log("Setting filter to " + state.reviewer_filter);
+  render();
+});

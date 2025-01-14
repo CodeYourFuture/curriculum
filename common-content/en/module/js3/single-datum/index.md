@@ -1,9 +1,9 @@
 +++
-title = '💽 Rendering one card'
+title = 'Rendering one card'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '💽'
 hide_from_overview = true
 [objectives]
     1='Define a sub-goal for rendering data in the user interface'

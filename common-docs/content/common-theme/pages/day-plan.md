@@ -22,7 +22,7 @@ src="common-content/blocks/study-group"
 time="90"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/curriculum/pulls"
+src="https://github.com/CodeYourFuture/Module-Template/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"

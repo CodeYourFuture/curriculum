@@ -6,8 +6,8 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Link to your PR for [Wireframe to Web Code](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/90)"
-2="Link to your PR for [Form Controls](https://github.com/CodeYourFuture/Module-User-Focused-Data/issues/88)"
+1="Link to your PR for [Wireframe to Web Code](https://github.com/CodeYourFuture/Module-Onboarding/issues/17)"
+2="Link to your PR for [Form Controls](https://github.com/CodeYourFuture/Module-Onboarding/issues/19)"
 +++
 
 > 🎯 Complete onboarding and [apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)

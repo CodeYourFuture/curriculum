@@ -6,6 +6,9 @@ emoji= '📝'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="Gathering requirements"
+src="module/js3/gathering-requirements"
+[[blocks]]
 name="Reacting"
 src="module/js3/reacting"
 [[blocks]]

@@ -1,9 +1,9 @@
 +++
-title = '♻️ Reusing the function'
+title = 'Reusing the function'
 
 time = 30
 facilitation = false
-emoji= '🗄️'
+emoji= '♻️'
 [objectives]
     1='Evaluate a function expression'
     2='Call a function with an input in REPL'
@@ -49,9 +49,7 @@ However, _given the function's current implementation_, we get the following log
 
 At the moment, `decimalNumber` is in the {{<tooltip title="global scope">}} Variables declared in the global scope are available everywhere in your program. Variables declared in a { block scope } are only available within that block. Any block within your program can access variables that are defined within the global scope. {{</tooltip>}}. Any functions we declare can reference variables in the global scope. If a variable is in the global scope, we say that variable is a **global variable**.
 
-{{<tabs name="activities">}}
-
-{{<tab name="🎮 Play computer">}}
+### 🎮 Play computer
 
 Play computer and step through the code to check why we get the output below:
 
@@ -61,7 +59,3 @@ Play computer and step through the code to check why we get the output below:
 ```
 
 <iframe title="interactive widget" width="1200" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20decimalNumber%20%3D%200.5%3B%0A%0Afunction%20convertToPercentage%28%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B%0A%0Aconsole.log%28output1%29%3B%0Aconsole.log%28output2%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=11&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-
-{{</tab>}}
-
-{{</tabs>}}

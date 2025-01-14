@@ -1,5 +1,5 @@
 +++
-title = '🧰 Workshop Activity'
+title = 'Workshop Activity'
 
 time = 120
 emoji= '🧰'

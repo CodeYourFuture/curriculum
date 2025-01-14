@@ -1,9 +1,9 @@
 +++
-title = '🗝️ Key-value pairs'
+title = 'Key-value pairs'
 
 time = 10
 facilitation = false
-emoji= '🧩'
+emoji= '🗝️'
 [objectives]
     1='Define an object property'
     2='Identify key-value pairs in an object literal'
@@ -40,4 +40,3 @@ In object literals, each **key-value pair** is separated by a comma.
 >   background-color: blue;
 > }
 > ```
->

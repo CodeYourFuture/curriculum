@@ -1,9 +1,9 @@
 +++
-title = '📼 Testing Workshop'
+title = 'Testing Workshop'
 
 time = 60
 facilitation = false
-emoji= '🗄️'
+emoji= '📼'
 [objectives]
     1='Practice solving problems while testing'
 [build]
@@ -21,7 +21,7 @@ You can use the code samples below as a starting point.
 ### Exercise 1
 
 ```js
-// Create a function that takes three numbers as parameters 
+// Create a function that takes three numbers as parameters
 //   and returns the largest of the three
 ```
 

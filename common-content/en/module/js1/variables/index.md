@@ -1,9 +1,9 @@
 +++
-title = '🏷️ Saving expressions'
+title = 'Saving expressions'
 
 time = 15
 facilitation = false
-emoji= '🗄️'
+emoji= '🏷️'
 [objectives]
 1='Identify the syntactic features of a variable declaration'
 2='Explain why we use variable declarations'
@@ -36,7 +36,7 @@ Break down the different syntactic elements of this variable declaration:
 
 {{<tabs name="greeting">}}
 
-{{<tab name="Try it yourself">}}
+===[[Try it yourself]]===
 Type this variable declaration into the REPL:
 
 ```
@@ -55,11 +55,10 @@ Our `greeting` variable is stored in memory. We can reuse it to build more expre
 `${greeting}, Barny`
 ```
 
-{{</tab>}}
-{{<tab name="Watch and follow along">}}
+===[[Watch and follow along]]===
 
 ![greeting](greeting.gif "Store your string in a variable and reuse it")
-{{</tab>}}
+
 {{</tabs>}}
 
 We just used backticks to create a template literal.

@@ -1,5 +1,5 @@
 +++
-title = '🔬 Identifying missing tests'
+title = 'Identifying missing tests'
 
 time = 30
 facilitation = false
@@ -51,7 +51,7 @@ Some examples are: the minimum value, the maximum value, and the boundary betwee
 Some example edge cases for this problem are:
 `00:00`
 : The minimum time, which is `12:00 am` in 12 hour clock.  
-  This is also the only hour that is _bigger_ in 12 hour clock than 24 hour clock.
+ This is also the only hour that is _bigger_ in 12 hour clock than 24 hour clock.
 
 `24:00`
 : The maximum time.

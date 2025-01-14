@@ -28,13 +28,26 @@
           {{ $prep := .Site.GetPage (printf "%sprep/index.md"
             .CurrentSection.RelPermalink)
           }}
-          {{ $backlog := .Site.GetPage (printf "%sbacklog/index.md"
+          {{ $backlogPage := .Site.GetPage (printf "%sbacklog/index.md"
             .CurrentSection.RelPermalink)
           }}
           {{ $dayplan := .Site.GetPage (printf "%sday-plan/index.md"
             .CurrentSection.RelPermalink)
           }}
-          {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" $backlog.Params.backlog "backlog_filter" $backlog.Params.backlog_filter) }}
+          {{ $issueBlocks := slice }}
+          {{ if $backlogPage }}
+            {{ $backlogs := $backlogPage.Params.backlog }}
+            {{ if $backlogs }}
+              {{ if reflect.IsSlice $backlogs }}
+                {{ range $backlogs }}
+                  {{ $issueBlocks = append (partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
+                {{ end }}
+              {{ else }}
+                {{ $backlog := $backlogs }}
+                {{ $issueBlocks = append (partial "block/issues-list-as-blocks.html" (dict "backlog" $backlog "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
           {{ $blocks := slice }}
           {{/* append non-nil blocks */}}
           {{ range $prep.Params.blocks }}

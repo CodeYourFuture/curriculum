@@ -1,9 +1,9 @@
 +++
-title = '🛑 Implenenting a character limit'
+title = 'Implementing a character limit'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🛑'
 [objectives]
     1='Define acceptance criteria for the character limit component'
 [build]
@@ -19,15 +19,8 @@ Suppose we're working on a website where users will need to **comment** on artic
 
 {{<wordlimit>}}
 
-{{<tabs>}}
-
-{{<tab name="🕹️ Activity">}}
-
-Try typing in the character limit box above and observing the behaviour as you type.
-
-{{</tab>}}
-
-{{</tabs>}}
+> [!TIP]
+> 🕹️ Try typing in the character limit box above and observing the behaviour as you type.
 
 We can define _acceptance criteria_ for this component:
 

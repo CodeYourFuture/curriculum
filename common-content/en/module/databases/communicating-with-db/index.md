@@ -3,7 +3,7 @@ title = 'Communicating with the database using SQL'
 
 time = 120
 facilitation = false
-emoji= '🧩'
+emoji= '🏓'
 [objectives]
     1='Describe what `tables`, `rows` and `columns` are used for in a relational database'
     2='Retrieve data from a table using PostgreSQL'
@@ -20,21 +20,21 @@ emoji= '🧩'
 ## 👩🏽‍✈️👨🏾‍✈️Code along with video mentors
 
 {{<tabs name="Communicating with DB">}}
-{{<tab name="setup select statement">}}
+===[[setup select statement]]===
 {{<youtube>}}https://www.youtube.com/watch?v=jpCUG_NH_ew{{</youtube>}}
-{{</tab>}}
-{{<tab name="selecting columns">}}
+
+===[[selecting columns]]===
 {{<youtube>}}https://www.youtube.com/watch?v=cHM_nSSIyp8{{</youtube>}}
-{{</tab>}}
-{{<tab name="psql commands">}}
+
+===[[psql commands]]===
 {{<youtube>}}https://www.youtube.com/watch?v=folFY2yrvBg{{</youtube>}}
-{{</tab>}}
-{{<tab name="where clauses">}}
+
+===[[where clauses]]===
 {{<youtube>}}https://www.youtube.com/watch?v=DpS5dlIiHWU{{</youtube>}}
-{{</tab>}}
-{{<tab name="distinct ordering limits">}}
+
+===[[distinct ordering limits]]===
 {{<youtube>}}https://www.youtube.com/watch?v=Ci4Dspp8h1A{{</youtube>}}
-{{</tab>}}
+
 {{</tabs>}}
 
 ---

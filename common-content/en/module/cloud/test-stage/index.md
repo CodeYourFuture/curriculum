@@ -3,7 +3,7 @@ title = 'Adding Testing Stages'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🧪'
 [objectives]
     1='Add a test stage to a GitHub action'
     2='Integrate existing test scripts to run automatically'

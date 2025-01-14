@@ -1,5 +1,5 @@
 +++
-title = '🧰 Peer learning Workshop '
+title = 'Peer learning Workshop '
 time = 30
 emoji= '🧰'
 objectives =['Work together on exercises and activities to find gaps in understanding','Describe and resolve mental model errors']
@@ -14,11 +14,9 @@ At {{<our-name>}} we always make time to help others. In fact, the best way to _
 
 #### 📢 Caller:
 
-1. [Step 1](../steps/one) stay in group Code Academy
-2. [Step 2](../steps/two) stay in group Google Sheets
-3. [Step 3](../steps/three) stay in group Scrimba
-4. [Step 4](../steps/four) join group Code Academy
-5. [Step 5](../steps/five) join group Google Sheets
-6. [Step 6](../steps/six) join group Scrimba
+1. [Step 1](../steps/one) join group GenAI Cover Letters
+2. [Step 2](../steps/two) join group Google Sheets
+3. [Step 3](../steps/three) join group Web Development
+4. [Step 4](../steps/four) join group Web Development as well
 
 And if you're a Newcomer, welcome! Join the group Code Academy!

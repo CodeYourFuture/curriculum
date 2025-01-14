@@ -14,7 +14,7 @@
       for each repo, grab the issues that match the filter
     */}}
     {{ range $repos }}
-      {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter) }}
+      {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
       {{ $repo := . }}    
       {{ range $issueBlocks }}
         <div class="c-alert" role="alert" hidden>

@@ -3,7 +3,7 @@ title = 'Mac-OS setup'
 
 time = 45
 facilitation = false
-emoji= '🧩'
+emoji= '🍏'
 [objectives]
      1='Set up PostgresQL on Mac-OS'
 [build]

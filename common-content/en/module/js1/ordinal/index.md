@@ -1,9 +1,9 @@
 +++
-title = '🧮 Ordinal numbers'
+title = 'Ordinal numbers'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🧮'
 hide_from_overview = true
 [objectives]
     1='Convert positions to ordinal numbers'
@@ -22,7 +22,7 @@ To form the ordinal number we take a number and add the correct {{<tooltip title
 ☝🏽 Up from the **1st floor**, we are on the 2**nd** floor (seco**nd** floor)
 
 {{<tabs name="Ordinals">}}
-{{<tab name="🙋🏾 Ordinals Exercise 1">}}
+===[[🙋🏾 Ordinals Exercise 1]]===
 
 | number | + **suffix** | = ordinal number |
 | ------ | ------------ | ---------------- |
@@ -36,8 +36,7 @@ b) 40?
 c) 49?  
 d) 13?
 
-{{</tab>}}
-{{<tab name="📆 Days of the month">}}
+===[[📆 Days of the month]]===
 
 Use ordinal numbers to write the days of the month for the following events:
 
@@ -46,8 +45,7 @@ b) A week from now
 c) Easter Sunday 2024
 d) When is Eid expected to occur in 2024
 
-{{</tab>}}
-{{<tab name="💾 Ordinal Numbers Reference">}}
+===[[💾 Ordinal Numbers Reference]]===
 
 1. 1**st**
 2. 2**nd**
@@ -59,8 +57,6 @@ d) When is Eid expected to occur in 2024
 8. 8**th**
 9. 9**th**
 10. 10**th**
-
-{{</tab>}}
 
 {{</tabs>}}
 

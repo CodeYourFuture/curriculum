@@ -1,5 +1,5 @@
-{{ $title := .Get "title" | default "tooltip" }}
-{{ $emoji := .Get "emoji" | default "🧶" }}
+{{- $title := .Get "title" | default "tooltip" -}}
+{{- $emoji := .Get "emoji" | default "🧶" -}}
 <tool-tip-container tabindex="0">
   <strong class="tooltip__trigger" id="trigger__{{- $title -}}">
     {{ $title }}
@@ -10,7 +10,7 @@
       ><span class="tooltip__emoji">{{ $emoji }}</span> {{ $title }}</span
     >
     <span class="tooltip__content">
-      {{ .Inner | markdownify }}
+      {{- .Inner | markdownify -}}
     </span>
   </tool-tip>
 </tool-tip-container>

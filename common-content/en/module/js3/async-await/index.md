@@ -1,9 +1,9 @@
 +++
-title = '🍬 async/await'
+title = 'async/await'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🍬'
 [objectives]
     1='Define syntactic sugar'
     2='Write a function using async/await'
@@ -23,7 +23,7 @@ const getProfile = async (url) => {
   const data = await response.json();
   const htmlUrl = data.html_url;
   console.log(htmlUrl);
-}
+};
 
 getProfile("https://api.github.com/users/SallyMcGrath");
 ```
@@ -72,8 +72,9 @@ const getProfile = async (url) => {
   return response.json();
 };
 
-getProfile("https://api.github.com/users/SallyMcGrath")
-  .then((response) => console.log(response))
+getProfile("https://api.github.com/users/SallyMcGrath").then((response) =>
+  console.log(response)
+);
 ```
 
 Save this to a file and run with with node. It works the same as before.

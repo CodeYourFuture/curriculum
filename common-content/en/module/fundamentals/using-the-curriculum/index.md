@@ -1,9 +1,9 @@
 +++
-title = '🗺️ Using the curriculum'
+title = 'Using the curriculum'
 
 time="50"
 facilitation = true
-emoji= '🧩'
+emoji= '🗺️'
 [objectives]
    1="Describe our mission"
    2="Identify the key elements of our educational philosophy"

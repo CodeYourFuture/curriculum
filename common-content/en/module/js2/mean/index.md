@@ -1,9 +1,9 @@
 +++
-title = '📊 Calculating the mean'
+title = 'Calculating the mean'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '📊'
 hide_from_overview = true
 [objectives]
 1='Describe how to compute the mean of a data set in JavaScript'

@@ -1,9 +1,9 @@
 +++
-title = '🪃 Callbacks'
+title = 'Callbacks'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🪃'
 [objectives]
 1='Define a callback'
 2="Sketch the event loop"
@@ -28,7 +28,7 @@ A callback is our function call, sent back to us through the event loop, for us 
 {{</note>}}
 
 {{<tabs name="Event Loop">}}
-{{<tab name="Sketch your mental model">}}
+===[[Sketch your mental model]]===
 **With a pen and paper**, draw a diagram of your mental model of the event loop.
 
 Use your model to predict the order of logged numbers in the following code snippet:
@@ -46,8 +46,7 @@ setTimeout(function timeout3() {
 console.log("4");
 ```
 
-{{</tab>}}
-{{<tab name="Compare your model">}}
+===[[Compare your model]]===
 
 ```mermaid
 graph
@@ -59,5 +58,5 @@ graph
 ```
 
 Did yours look different? There are many ways to visualise the event loop. Work on building your own mental model that helps you predict how code will run.
-{{</tab>}}
+
 {{</tabs>}}

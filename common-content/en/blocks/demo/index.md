@@ -1,6 +1,6 @@
 +++
 title="Demo"
-
+emoji="🎤"
 time=60
 [build]
   render = 'never'

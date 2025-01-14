@@ -1,9 +1,9 @@
 +++
-title = '⚖️ Comparing current and target output'
+title = 'Comparing current and target output'
 
 time = 40
 facilitation = false
-emoji= '🧩'
+emoji= '⚖️'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'
@@ -16,10 +16,10 @@ emoji= '🧩'
 +++
 
 {{<tabs name="current">}}
-{{<tab name="Define current and target">}}
+===[[Define current and target]]===
 Let's start with a function declaration of `formatAs12HourClock`:
 
-```js {linenos=table,linenostart=1}
+```js
 function formatAs12HourClock() {}
 ```
 
@@ -28,13 +28,11 @@ Whenever we call `formatAs12HourClock` we expect it to return a particular value
 However, the **current output** is what the function _actually_ returns right now.
 
 👉🏼 [Work through the exercises](#current-1)
-
-{{</tab>}}
-{{<tab name="Exercise 1">}}
+===[[Exercise 1]]===
 
 Let's start with `formatAs12HourClock` defined like this:
 
-```js {linenos=table,linenostart=1}
+```js
 function formatAs12HourClock() {}
 ```
 
@@ -44,19 +42,14 @@ Suppose we now call the function like this:
 formatAs12HourClock("05:30");
 ```
 
-For the call above, what is the
-
-a) the current output?
-b) the 🎯 target output?
+{{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the 🎯 target output?" answers="`'05:30 am'` | `'05:30 AM'` | `'5:30 am'` | `'17:30'`" feedback="Correct! The target output should append 'am' to maintain the 12-hour clock format. | Not quite - based on the examples, we use lowercase 'am'. | No - we want to preserve the leading zero. | No - we want 12-hour format, not 24-hour format." correct="0" >}}
 
 👉🏼 [Keep going](#current-2)
-
-{{</tab>}}
-{{<tab name="Exercise 2">}}
+===[[Exercise 2]]===
 
 Let's continue with `formatAs12HourClock` defined like this:
 
-```js {linenos=table,linenostart=1}
+```js
 function formatAs12HourClock() {}
 ```
 
@@ -66,12 +59,8 @@ Suppose we call the function like this:
 formatAs12HourClock("20:10");
 ```
 
-For the call above, what is the
+{{% multiple-choice question="When calling formatAs12HourClock('05:30'), what is the current output?" answers="undefined | '05:30 am' | null | An error is thrown" feedback="Correct! Since the function is empty and has no return statement, it returns undefined by default. | Not quite - remember that the function is currently empty with no implementation. | No - an empty function returns undefined, not null. | No - an empty function executes successfully but returns undefined." correct="0" %}}
 
-a) the current output?
-b) the 🎯 target output?
-
-{{</tab>}}
 {{</tabs>}}
 
 ## 🧩 Comparing values
@@ -93,7 +82,7 @@ formatAs12HourClock("08:00") === "8:00 am";
 ## ✅ ❌ Boolean values
 
 {{<tabs name="booleans">}}
-{{<tab name="Define Boolean">}}
+===[[Define Boolean]]===
 
 ### Does 1 equal 0? Yes or No? True or False?
 
@@ -112,9 +101,7 @@ console.log(10 * 5 === 60);
 ```
 
 👉🏾 [Now work through the exercises](#booleans-1)
-{{</tab>}}
-
-{{<tab name="Exercise 1">}}
+===[[Exercise 1]]===
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
 
 ```js {linenos=table,linenostart=1}
@@ -131,9 +118,7 @@ let kilometersMhairiDrivesToWork = 9.4;
 ```
 
 👉🏿 [Keep Going](#booleans-2)
-
-{{</tab>}}
-{{<tab name="Exercise 2">}}
+===[[Exercise 2]]===
 Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before
 
 ```js {linenos=table,linenostart=1}
@@ -147,9 +132,7 @@ Math.round(kilometersMhairiDrivesToWork) === 9;
 ```
 
 👉🏿 [Keep Going](#booleans-3)
-{{</tab>}}
-
-{{<tab name="Exercise 3">}}
+===[[Exercise 3]]===
 
 ### Checking misconceptions 🤔
 
@@ -161,5 +144,4 @@ Try using the Node Repl to check your answer. Does the REPL output make sense?
 console.log(10 + 32) === 42;
 ```
 
-{{</tab>}}
 {{</tabs>}}

@@ -1,9 +1,9 @@
 +++
-title = '🃏 Reusable components'
+title = 'Reusable components'
 
 time = 30
 facilitation = false
-emoji= '🧩'
+emoji= '🃏'
 [objectives]
     1='Implement components for a user interface'
 [build]
@@ -35,9 +35,13 @@ const createFilmCard = (film) => {
   const card = template.content.cloneNode(true);
   // Now we are querying our cloned fragment, not the entire page.
   card.querySelector("h3").textContent = film.title;
-  card.querySelector("[data-director]").textContent = `Director: ${film.director}`;
+  card.querySelector(
+    "[data-director]"
+  ).textContent = `Director: ${film.director}`;
   card.querySelector("time").textContent = `${film.duration} minutes`;
-  card.querySelector("[data-certificate]").textContent = `Certificate: ${film.certificate}`;
+  card.querySelector(
+    "[data-certificate]"
+  ).textContent = `Certificate: ${film.certificate}`;
   // Return the card, rather than directly appending it to the page
   return card;
 };

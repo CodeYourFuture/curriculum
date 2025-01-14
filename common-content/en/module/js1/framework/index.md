@@ -1,9 +1,9 @@
 +++
-title = '🖼️ Testing frameworks'
+title = 'Testing frameworks'
 
 time = 15
 facilitation = false
-emoji= '🧩'
+emoji= '🖼️'
 [objectives]
     1='Explain why we need to use testing frameworks'
 [build]

@@ -1,9 +1,9 @@
 +++
-title = '🏤 References'
+title = 'References'
 
 time = 20
 facilitation = false
-emoji= '🧩'
+emoji= '🏤'
 [objectives]
     1='Define reference'
     2='Describe some effects of variables being assigned the same array reference'
@@ -32,17 +32,15 @@ console.log(copy);
 
 Let's break down what is happening in this program.
 
-{{<tabs name="">}}
+{{<tabs name="References">}}
 
-{{<tab name="🎮 Playing computer">}}
+===[[🎮 Playing computer]]===
 
 Play computer with the code above to step through the code and find out what happens when the code is executed.
 
 <iframe title="playing-computer-reference "width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=const%20list%20%3D%20%5B10,%2020,%2030%5D%3B%0Aconst%20copy%20%3D%20list%3B%0Acopy.push%2860,%2070%29%3B%0A%0Aconsole.log%28list%29%3B%0Aconsole.log%28copy%29%3B&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
-{{</tab>}}
-
-{{<tab name="📜 Explanation">}}
+===[[📜 Explanation]]===
 
 ![point-to-array](point-to-array.png)
 
@@ -61,9 +59,7 @@ If we mutate `list` then we're mutating the same list that `copy` points to.
 
 So the console output is the same.
 
-{{</tab>}}
-
-{{<tab name=" 🧠  Explain">}}
+===[[🧠 Explain]]===
 
 ```js {linenos=table,hl_lines=["4"],linenostart=1}
 const salaries = [10, 20, 30, 40, 60, 80, 80];
@@ -78,8 +74,6 @@ console.log(`The mean salary is ${mean}`);
 
 In the example above, `salaries` is assigned a reference on the first line.
 Explain why `calculateMedian` and `calculateMean` both get access to the same array.
-
-{{</tab>}}
 
 {{</tabs>}}
 
@@ -119,7 +113,7 @@ There are two different but similar implementations of `pluralise` - a function 
 
 {{<tabs>}}
 
-{{<tab name="pluralise: array">}}
+===[[pluralise: array]]===
 
 Here `pluralise` is **passed an array by reference**.
 
@@ -128,9 +122,7 @@ Here `pluralise` is **passed an array by reference**.
 Step through the code to observe this behaviour:
 
 <iframe title="pluralise-array" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28arr%29%20%7B%0A%20%20arr.push%28%22s%22%29%3B%0A%7D%0Aconst%20lettersInAnArray%20%3D%20%5B%22c%22,%22a%22,%22t%22%5D%3B%0Apluralise%28lettersInAnArray%29%3B%0A%0Aconsole.assert%28lettersInAnArray.length%20%3D%3D%3D%204%29%3B%0Aconsole.assert%28lettersInAnArray%5B3%5D%20%3D%3D%3D%20%22s%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-{{</tab>}}
-
-{{<tab name="pluralise: string">}}
+===[[pluralise: string]]===
 
 Here `pluralise` is **passed a string by value**.
 
@@ -139,6 +131,4 @@ This means a copy of `string`'s value is passed to `pluralise` in the second tab
 Step through the code to observe this behaviour:
 
 <iframe title="pluralise-string" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20pluralise%28str%29%20%7B%0A%20%20str%20%2B%3D%20%22s%22%3B%0A%7D%0Aconst%20string%20%3D%20%22cat%22%3B%0Apluralise%28string%29%3B%0A%0Aconsole.assert%28string.length%20%3D%3D%3D%203%29%3B%0Aconsole.assert%28string%20%3D%3D%3D%20%22cat%22%29%3B&codeDivHeight=400&codeDivWidth=600&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
-
-{{</tab>}}
 {{</tabs>}}
