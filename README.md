@@ -84,7 +84,7 @@ To add site logo/s, make a dir and add svgs to `assets/custom-images/site-logo/`
 
 Add your content to `content/` and customise the site config in `config.toml`. Please contribute any improvements you make back to the common theme and content modules.
 
-For each module you import, add a `replace` directive to your `go.mod` file - if you forget to do this, you won't get live updates to your site when shared content changes. CI will remind you if you forget.
+For each module you import, add a `replace` directive to your `go.mod` file - if you forget to do this, you won't get real-time updates to your site when shared content changes. CI will remind you if you forget.
 
 ## To locally develop your site
 
