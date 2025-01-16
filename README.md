@@ -89,3 +89,8 @@ For each module you import, add a `replace` directive to your `go.mod` file - if
 ## To locally develop your site
 
 Check [org-cyf/README.md](/org-cyf/README.md) on how to set up your local environment. Once that is done you can `cd` into the site you wish to develop, and run `npm run start:dev` to get a live preview.
+
+## FAQ
+
+**Q:
+
