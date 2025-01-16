@@ -18,9 +18,9 @@ name="Kickoff"
 src="module/piscine/kickoff"
 time=20
 [[blocks]]
-name="Second group project"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-2"
-time=45
+name="Group Project: Days Calendar"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar"
+time=40
 [[blocks]]
 name="Development"
 src="module/piscine/development"

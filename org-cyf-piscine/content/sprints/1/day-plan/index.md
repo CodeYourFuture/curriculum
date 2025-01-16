@@ -19,9 +19,9 @@ name="Kickoff"
 src="module/piscine/kickoff"
 time=20
 [[blocks]]
-name="First group project"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-1"
-time=45
+name="Group Project: Spaced Repetition Tracker"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Spaced-Repetition-Tracker"
+time=50
 [[blocks]]
 name="Development"
 src="module/piscine/development"

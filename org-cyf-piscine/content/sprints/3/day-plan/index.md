@@ -15,12 +15,24 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Solo project"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-3"
+src="module/piscine/solo-project"
 time=45
+[[blocks.nested.blocks]]
+name="Shared Bookmarks"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Shared-Bookmarks"
+time=0
+[[blocks.nested.blocks]]
+name="Music Data"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Music-Data"
+time=0
+[[blocks.nested.blocks]]
+name="Codewars Leaderboard"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Codewars-Leaderboard"
+time=0
 [[blocks]]
 name="Development"
 src="module/piscine/solo-development"
-time="45"
+time="60"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
