@@ -24,7 +24,7 @@ You will be asked to join a video call for your technical interview. We use an i
 
 ## What questions will I be asked?
 
-- You will be asked to explain the code. You may be asked to:
+You will be asked to explain the code. You may be asked to:
 
 1. Play computer and run the code in your head
 1. Explain what the state of the application is at different points in the code

@@ -1,7 +1,7 @@
 +++
 title="Demo"
 time=45
-objectives = [
+tasks = [
     "Explain your work to others at CEFR B2 level or higher.",
     "Listen and understand standard speech spoken at a normal rate and follow even complex lines of argument provided the topic is reasonably familiar.",
     "Participate in meetings in your area of expertise, if you have help understanding some points.",
@@ -45,3 +45,16 @@ After the demo, the group will give you feedback for up to 5 minutes. It's smart
 - **Explain** what you did and why.
 - **Show** your code.
 - **Ask** for feedback.
+
+
+## Rubric
+
+These are some criteria we will be using to assess your demo. You must:
+<dl class="c-rubric">
+  <dt>Clearly introduce the topic of the demo.</dt><dd>Someone watching should be able to state the topic of the demo in one sentence.</dd>
+  <dt>Explain what was done</dt><dd>Someone watching should be able to state what you have done in one sentence.</dd>
+  <dt>Explain the reasoning behind a choice.</dt><dd>Someone watching should be able to explain why you did at least one thing.</dd>
+  <dt>Show relevant code or artifacts (e.g. a website, a ticket, an discussion).</dt><dd>Someone watching should be able to identify at least one artifact of your work.</dd>
+  <dt>Ask questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?".</dd>
+  <dt>Stick to your time limit.</dt><dd>You should know how long you have for your demo, and stick to that time. You will be given a warning when you're running low on time.</dd>
+</dl>

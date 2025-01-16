@@ -16,7 +16,7 @@ src="blocks/morning-break"
 [[blocks]]
 name="Interviews"
 src="module/piscine/interviews"
-time=90
+time=95
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
