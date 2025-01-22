@@ -15,7 +15,7 @@ In JavaScript we wrote:
 content.split(" ").filter((word) => word.indexOf(char) > -1).length
 ```
 
-It's useful to know that what JavaScript calls arrays, Python calls lists. (Arrays and lists are basically the same, other than the name, though!)
+What JavaScript calls arrays, Python calls lists. Arrays and lists are basically the same.
 
 Googling for "Python filter list" suggests there are two things we can use - a `filter` function, or something called a "list comprehension". Some people prefer one, other people prefer the other.
 
