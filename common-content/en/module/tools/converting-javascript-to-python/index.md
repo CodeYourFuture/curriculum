@@ -65,7 +65,7 @@ In our JavaScript code, we needed to check that there was exactly one positional
 
 We don't need to do this in our Python code. Because `argparse` treats positional arguments as arguments, it actually already errors if we pass no positional arguments, or more than one.
 
-So we can tick this essential requirement off of our list. Sometimes different languages, or different libraries, do things slightly differently, and that's ok!
+So we can tick this essential requirement off our list. Different languages or libraries do things differently, and that's ok!
 
 > [!TIP]
 > We don't need to convert every line.
