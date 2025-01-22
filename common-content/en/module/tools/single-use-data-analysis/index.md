@@ -16,7 +16,7 @@ Sometimes we can use, or combine, existing tools to get answers. For instance, w
 
 Sometimes we can write custom tools when existing tools don't quite do what we want. For instance, we wrote a program to count specific words.
 
-When we want to answer some question, sometimes it's useful to write a program that we may only use one time. Or we may re-use in the future.
+When we want to answer some question, sometimes it's useful to write a program we may only use once. (Or we may re-use in the future.)
 
 It's not always obvious whether it's easier to try to use tools that already exist, or to write our own.
 
