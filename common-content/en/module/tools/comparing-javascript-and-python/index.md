@@ -18,7 +18,7 @@ Most differences are "cosmetic". Here are some examples of cosmetic differnces:
 * JavaScript uses `{}` around blocks of code and we _choose_ if we indent code. Python uses `:` and indentation is required.
 * In JavaScript we choose to name variables in `camelCase`, whereas in Python we choose to name variables in `snake_case` (but in both langues we _could_ do either).
 
-Let's take our "count containing words" JavaScript code from last week, and think about what it would look like in Python.
+Recall our "count containing words" JavaScript code. Now think about what it would look like in Python.
 
 ```js
 import { program } from "commander";
