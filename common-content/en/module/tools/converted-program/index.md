@@ -9,7 +9,7 @@ objectives = [
 ]
 +++
 
-Finally, instead of calling `console.log`, in Python we call `print`.
+Instead of calling `console.log`, in Python we call `print`.
 
 ```python
 import argparse
