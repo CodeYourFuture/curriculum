@@ -40,7 +40,7 @@ Let's play computer with this program - line by line:
 import process from "node:process";
 ```
 
-This is loading some code from somewhere that isn't this file.
+This `import` is loading some code from somewhere that isn't this file.
 
 We've seen `import` before. Here, instead of importing from a file we've written, we're importing the `process` module which is built into NodeJS.
 
