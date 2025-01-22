@@ -54,7 +54,7 @@ When we activate a virtual environment, its name gets shown before our terminal 
 
 Run `python3 cow.py`. We don't get an error because we installed `cowsay` into our active virtual environment.
 
-If we open a new terminal and run `python3 cow.py` we'll get an error again. Because we haven't activated a virtual environment.
+Open a new terminal and run `python3 cow.py`. An error will occur because we haven't activated a virtual environment.
 
 If we run `. .venv/bin/activate` and then `python3 cow.py` it will start working again.
 
