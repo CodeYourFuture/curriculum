@@ -15,7 +15,7 @@ JavaScript and Python have many things in common.
 
 Most differences are "cosmetic". Here are some examples of cosmetic differnces:
 * Some functions and operators have different names. But often there are functions/operators which do exactly the same thing.
-* JavaScript uses `{}` around blocks of code and we optionally _choose_ to indent code, whereas Python uses `:` and _required_ indents.
+* JavaScript uses `{}` around blocks of code and we _choose_ if we indent code. Python uses `:` and indentation is required.
 * In JavaScript we choose to name variables in `camelCase`, whereas in Python we choose to name variables in `snake_case` (but in both langues we _could_ do either).
 
 Let's take our "count containing words" JavaScript code from last week, and think about what it would look like in Python.
