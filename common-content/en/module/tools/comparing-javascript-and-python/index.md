@@ -53,7 +53,7 @@ Let's think about what we're doing in this code. We're:
 * Counting how many of the words contained a particular character.
 * Printing the count.
 
-These are the meaningful things we needed to do. If we wanted to solve the same problem with Python, we'd need to do all of these things.
+These are the meaningful things we needed to do. To solve the same problem with Python, we'd still do all of these things.
 
 There are also some other things we did in our code, which were important, but not the point of the code. An example is, we imported some modules. We may need to import modules to write this code in Python. Or we may not. Importing modules wasn't one of our _goals_, it was just something we needed to do to help us.
 
