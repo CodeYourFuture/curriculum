@@ -11,7 +11,7 @@ objectives = [
 ]
 +++
 
-JavaScript and Python are quite similar languages in a lot of ways.
+JavaScript and Python have many things in common.
 
 Most of the differences between them are quite cosmetic. e.g.
 * Some functions and operators have different names. But often there are functions/operators which do exactly the same thing.
