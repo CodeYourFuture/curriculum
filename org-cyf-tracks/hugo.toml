@@ -37,3 +37,17 @@ baseURL = "https://tracks.codeyourfuture.io/"
 
 [taxonomies]
   track_kind = "track_kinds"
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true

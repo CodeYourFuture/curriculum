@@ -63,16 +63,6 @@ maxAge="6h"
 getenv = ["^HUGO_CURRICULUM_GITHUB_BEARER_TOKEN$"]
 
 
-[markup]
-# I've configured markdown so you don't have to
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = true
-    startLevel = 2
-    [markup.goldmark.renderer]
-# Enable HTML codeblocks, e.g. for <details> blocks
-      unsafe = true
-
 theme = "common-theme"
 
 #this makes the section nav go the right way
@@ -80,3 +70,17 @@ theme = "common-theme"
 [page]
   nextPrevInSectionSortOrder = 'asc'
   nextPrevSortOrder = 'asc'
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
