@@ -52,7 +52,7 @@ When we activate a virtual environment, its name gets shown before our terminal 
 
 ### Running our program
 
-Now if we run `python3 cow.py` we don't get an error - we installed `cowsay` into our active virtual environment.
+Run `python3 cow.py`. We don't get an error because we installed `cowsay` into our active virtual environment.
 
 If we open a new terminal and run `python3 cow.py` we'll get an error again. Because we haven't activated a virtual environment.
 
