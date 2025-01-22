@@ -46,7 +46,7 @@ We've seen `import` before. Here, instead of importing from a file we've written
 
 This is an example of the same language features (`import`) being used slightly differently (the `"node:"` is a special prefix to say "specially from node").
 
-The `process` module is built into NodeJS for managing our process. It can be used to do things like find out what arguments were passed to the process when it started, find out what user ran the process, exit the process, and more.
+The `process` module is built into NodeJS for managing our process. We can use it to find out what arguments were passed to the process when it started, find out what user ran the process, exit the process, and more.
 
 ```js
 import { promises as fs } from "node:fs";
