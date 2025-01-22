@@ -56,7 +56,7 @@ Run `python3 cow.py`. We don't get an error because we installed `cowsay` into o
 
 Open a new terminal and run `python3 cow.py`. An error will occur because we haven't activated a virtual environment.
 
-If we run `. .venv/bin/activate` and then `python3 cow.py` it will start working again.
+Run `. .venv/bin/activate` and then `python3 cow.py`. It will start working again.
 
 Now we can finish our program - let's have the cow say the arguments back to the user (joining together the arguments with spaces). We need to use a slice to skip the first argument, which is our program name:
 
