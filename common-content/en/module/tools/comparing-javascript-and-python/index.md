@@ -6,7 +6,7 @@ facilitation = false
 emoji= "📖"
 objectives = [
     "Identify and explain equivalences between JavaScript and Python",
-    "Identify and explain differences between JavaScript and Python",
+    "Compare and contrast differences between JavaScript and Python",
     "Distinguish between essential and accidental complexity"
 ]
 +++
