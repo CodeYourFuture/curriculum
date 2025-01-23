@@ -50,8 +50,10 @@ class LabelItems extends HTMLElement {
 
     labels.forEach((label) => {
       label.setAttribute("draggable", "true");
+      label.style.cursor = "grab";
       label.addEventListener("dragstart", (e) => {
         e.dataTransfer.setData("text/plain", label.dataset.label);
+        label.style.cursor = "grabbing";
       });
     });
   }
