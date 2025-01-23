@@ -4,7 +4,7 @@ time = 20
 emoji = "💻"
 objectives = [
   "List the files in a directory which contain an upper-case letter in their name with `ls` and `grep`.",
-  "Count the number of files in a directory which contain an upper-case letter in their name with `ls`, `grep`, and `wc`."<
+  "Count the number of files in a directory which contain an upper-case letter in their name with `ls`, `grep`, and `wc`.",
   "Explain why we don't need to pass `-1` to `ls` when piping its output.",
 ]
 [build]
