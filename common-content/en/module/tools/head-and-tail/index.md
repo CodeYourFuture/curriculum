@@ -1,13 +1,16 @@
 +++
 title = "head and tail"
-headless = true
 time = 20
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Output the first 5 lines of a file using `head`"
-    2="Output the last 5 lines of a file using `tail`"
-    3="Output the five lines starting 10 lines into a file using `head` and `tail`"
+emoji = "💻"
+objectives = [
+  "Output the first 5 lines of a file using `head`.",
+  "Output the last 5 lines of a file using `tail`.",
+  "Output the five lines starting 10 lines into a file using `head` and `tail`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `head` outputs lines (or bytes) from the start of a file. `tail` outputs lines (or bytes) from the end of a fail.

@@ -2,14 +2,18 @@
 title = "Discussion: programming language concepts"
 
 time = 60
-emoji= "🧰"
+emoji = "🧰"
 objectives = [
-
+  "Define the term variable.",
+  "Describe how a variable relates to a memory location.",
+  "Explain what happens when you call a function.",
+  "Define the term class.",
+  "Explain the relationship between a class and an instance of a class.",
 ]
 [build]
-  render = "never"
   list = "local"
   publishResources = false
+  render = "never"
 +++
 
 This sprint you have read about programming language concepts in How Computers Really Work.

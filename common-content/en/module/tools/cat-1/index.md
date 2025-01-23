@@ -1,10 +1,14 @@
 +++
 title = "cat"
-headless = true
 time = 10
-emoji= "💻"
-[objectives]
-    1="Show the contents of a file with `cat`"
+emoji = "💻"
+objectives = [
+  "Show the contents of a file with `cat`",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `cat` is a tool for getting the contents of files.

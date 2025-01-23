@@ -1,13 +1,17 @@
 +++
 title = "Shell pipelines"
-headless = true
 time = 30
-emoji= "💻"
-[objectives]
-    1="Describe what a shell pipeline is."
-    2="Explain why we use shell pipelines."
-    3="Explain the difference between stdout and stderr."
-    4="Explain what gets passed between two programs when they're combined with a `|`."
+emoji = "💻"
+objectives = [
+  "Describe what a shell pipeline is.",
+  "Explain why we use shell pipelines.",
+  "Explain the difference between stdout and stderr.",
+  "Explain what gets passed between two programs when they're combined with a `|`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 Read the learning objectives listed on this page: Bear in mind what you’re trying to achieve while reading this text. If a topic isn’t making much sense, and isn’t in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you’ve met the objective.

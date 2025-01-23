@@ -1,13 +1,15 @@
 +++
 title = "Bitwise operators"
-headless = true
 time = 120
-facilitation = false
-emoji= "📖"
+emoji = "📖"
 objectives=[
-    "Describe the meaning of the `&`, `|`, `^`, and `~` bitwise operators.",
-    "Manually perform the function of the `&`, `|`, `^`, and `~` bitwise operators on two integers.",
+  "Describe the meaning of the `&`, `|`, `^`, and `~` bitwise operators.",
+  "Manually perform the function of the `&`, `|`, `^`, and `~` bitwise operators on two integers.",
 ]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 {{<multiple-choice

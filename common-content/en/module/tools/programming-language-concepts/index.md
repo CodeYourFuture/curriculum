@@ -1,16 +1,18 @@
 +++
 title = "Programming language concepts"
-headless = true
 time = 120
-facilitation = false
-emoji= "📖"
-objectives=[
-    "Define the term variable.",
-    "Describe how a variable relates to a memory location.",
-    "Give 3 examples of common operators.",
-    "Define the `&&` (`and`), `||` (`or`), and `!` (`not`) operators.",
-    "Explain what happens when you call a function.",
+emoji = "📖"
+objectives = [
+  "Define the term variable.",
+  "Describe how a variable relates to a memory location.",
+  "Give 3 examples of common operators.",
+  "Define the `&&` (`and`), `||` (`or`), and `!` (`not`) operators.",
+  "Explain what happens when you call a function.",
 ]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 Read the learning objectives listed on this page: Bear in mind what you’re trying to achieve while reading this text. If a topic isn’t making much sense, and isn’t in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you’ve met the objective.

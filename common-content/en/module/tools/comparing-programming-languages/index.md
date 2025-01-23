@@ -1,15 +1,17 @@
 +++
 title = "Comparing programming languages"
-headless = true
 time = 20
-facilitation = false
-emoji= "⚖️"
-objectives=[
-    "Identify whether variables have fixed types in C, Python, and JavaScript.",
-    "Identify and explain the differences between a function definition in C and Python.",
-    "Compare compiled and interpreted languages.",
-    "Explain one advantage of compiled languages, and one advantage of interpreted languages.",
+emoji = "⚖️"
+objectives = [
+  "Identify whether variables have fixed types in C, Python, and JavaScript.",
+  "Identify and explain the differences between a function definition in C and Python.",
+  "Compare compiled and interpreted languages.",
+  "Explain one advantage of compiled languages, and one advantage of interpreted languages.",
 ]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 Variables are names for {{<tooltip text="memory locations" title="Memory location">}}Memory is where we store values. You can think of memory as a long list of locations. Each location can store one byte of data. We can store the byte `0x41` in a memory location. One variable always points at one memory location, but depending on its type may include the data from subsequent memory locations too.{{</tooltip>}}. What's inside the memory location can be changed.

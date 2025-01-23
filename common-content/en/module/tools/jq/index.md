@@ -1,10 +1,14 @@
 +++
 title = "jq"
-headless = true
 time = 90
-emoji= "❓"
-[objectives]
-    1="Use `jq` to retrieve information from a JSON file"
+emoji = "❓"
+objectives = [
+  "Use `jq` to retrieve information from a JSON file",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 All of the tools we've seen so far operate on lines, words, or characters.

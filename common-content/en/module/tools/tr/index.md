@@ -1,11 +1,14 @@
 +++
 title = "tr"
-headless = true
 time = 20
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Replace all occurrences of one character with another using `tr`"
+emoji = "💻"
+objectives = [
+  "Replace all occurrences of one character with another using `tr`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `tr` translates (replaces) characters.

@@ -1,13 +1,16 @@
 +++
 title = "grep in pipelines"
-headless = true
 time = 20
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="List the files in a directory which contain an upper-case letter in their name with `ls` and `grep`."
-    2="Count the number of files in a directory which contain an upper-case letter in their name with `ls`, `grep`, and `wc`."
-    3="Explain why we don't need to pass `-1` to `ls` when piping its output."
+emoji = "💻"
+objectives = [
+  "List the files in a directory which contain an upper-case letter in their name with `ls` and `grep`.",
+  "Count the number of files in a directory which contain an upper-case letter in their name with `ls`, `grep`, and `wc`."<
+  "Explain why we don't need to pass `-1` to `ls` when piping its output.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 We've already used grep to search for text in files using regular expressions.

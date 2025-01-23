@@ -1,11 +1,14 @@
 +++
 title = "sort and uniq"
-headless = true
 time = 20
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Count the occurrences of different lines within a file using `sort` and `uniq`"
+emoji = "💻"
+objectives = [
+  "Count the occurrences of different lines within a file using `sort` and `uniq`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `sort` sorts its input. `uniq` deduplicates adjacent matching lines.
