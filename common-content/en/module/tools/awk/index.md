@@ -2,7 +2,6 @@
 title = "awk"
 headless = true
 time = 20
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Filter a space-separated file and extract a positional field using awk"

@@ -2,7 +2,6 @@
 title = 'Parameterising a function'
 
 time = 40
-facilitation = false
 emoji= '🏷️'
 [objectives]
     1='Define a parameter'

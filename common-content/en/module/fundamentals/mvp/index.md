@@ -2,7 +2,6 @@
 title = 'MVP'
 
 time = 30
-facilitation = false
 vocabulary=["MVP"]
 emoji= '🚀'
 [objectives]

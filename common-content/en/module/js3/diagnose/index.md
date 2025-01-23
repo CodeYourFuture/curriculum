@@ -1,7 +1,6 @@
 +++
 title = 'Diagnose'
 
-facilitation = false
 emoji= '🌡️'
 [objectives]
 1='Identify areas of weakness'

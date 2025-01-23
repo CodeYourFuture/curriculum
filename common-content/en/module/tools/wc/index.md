@@ -2,7 +2,6 @@
 title = "wc"
 headless = true
 time = 10
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Count the bytes, words, and lines of a file with wc"

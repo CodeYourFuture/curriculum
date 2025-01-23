@@ -2,7 +2,6 @@
 title = 'Adding Testing Stages'
 
 time = 20
-facilitation = false
 emoji= '🧪'
 [objectives]
     1='Add a test stage to a GitHub action'

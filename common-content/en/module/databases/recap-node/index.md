@@ -2,7 +2,6 @@
 title = 'Communicating with the database using SQL'
 
 time = 30
-facilitation = false
 emoji= '📮'
 [objectives]
     1='Check the database connection'

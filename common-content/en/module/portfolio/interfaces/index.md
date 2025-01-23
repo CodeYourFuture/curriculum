@@ -2,7 +2,6 @@
 title = 'User Interface'
 
 time = 30
-facilitation = false
 emoji= '🕹️'
 [objectives]
     1='Identify key features for the user interface'

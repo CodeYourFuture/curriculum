@@ -2,7 +2,6 @@
 title = "Long-polling requests"
 headless = true
 time = 30
-facilitation = false
 emoji= "📖"
 [objectives]
     1="Identify the limitations of loading a website via a single request and response"

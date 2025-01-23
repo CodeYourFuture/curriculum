@@ -2,7 +2,6 @@
 title = 'Returning from a function'
 
 time = 30
-facilitation = false
 emoji= '📤'
 [objectives]
     1='Identify the return value at a call site given its function declaration'

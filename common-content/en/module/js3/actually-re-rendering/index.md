@@ -2,7 +2,6 @@
 title = 'Actually re-rendering'
 
 time = 30
-facilitation = false
 emoji= '🔁'
 [objectives]
     1='Group UI components by whether they need to re-render'

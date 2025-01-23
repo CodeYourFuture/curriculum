@@ -2,7 +2,6 @@
 title = 'Errors'
 
 time = 20
-facilitation = false
 emoji= '❌'
 [objectives]
     1='Identify the cause of syntax errors in small snippets of JavaScript'

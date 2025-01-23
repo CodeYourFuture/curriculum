@@ -2,7 +2,6 @@
 title = 'Backlog'
 
 time = 20
-facilitation = false
 vocabulary=["Blockers"]
 emoji= '📝'
 [objectives]

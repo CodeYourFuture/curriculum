@@ -2,7 +2,6 @@
 title = 'Functions'
 
 time = 20
-facilitation = false
 emoji= '🪄'
 [objectives]
     1='Define a function in programming'

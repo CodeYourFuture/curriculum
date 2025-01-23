@@ -2,7 +2,6 @@
 title = 'Cinema listings'
 
 time = 20
-facilitation = false
 emoji= '📽️'
 hide_from_overview = true
 [objectives]
