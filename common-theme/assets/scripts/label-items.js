@@ -19,7 +19,7 @@ class LabelItems extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <section class="c-quiz">
         <slot name="labels"></slot>
-        <h3>Drag the labels on to the items</h3>
+        <h3>👆🏾 Drag the labels on to the items 👇🏽</h3>
         <slot name="content"></slot>
         <h4 role="status" aria-live="polite">
           <slot name="feedback"></slot>
