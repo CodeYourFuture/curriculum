@@ -2,7 +2,6 @@
 title = "Binary and hexadecimal numbers"
 headless = true
 time = 90
-facilitation = false
 emoji= "📖"
 [objectives]
     1="Convert signed and unsigned numbers between any two of: binary, decimal, hexadecimal"

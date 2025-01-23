@@ -2,7 +2,6 @@
 title = "CPU and memory"
 headless = true
 time = 60
-facilitation = false
 emoji= "📖"
 [objectives]
     1="Explain the purpose of main memory"

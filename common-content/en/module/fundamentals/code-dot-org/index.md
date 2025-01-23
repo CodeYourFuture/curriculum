@@ -1,7 +1,6 @@
 +++
 title = 'Code.org'
 time = 20
-facilitation = false
 emoji= '🧩'
 [objectives]
  1="Navigate the Code.org interface"

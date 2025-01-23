@@ -2,7 +2,6 @@
 title = "cat"
 headless = true
 time = 10
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Show the contents of a file with cat"

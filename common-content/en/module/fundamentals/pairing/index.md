@@ -2,7 +2,6 @@
 title = 'Pairing'
 
 time = 30
-facilitation = true
 vocabulary=["Pair Programming"]
 emoji= '👯‍♀️'
 [objectives]

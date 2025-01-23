@@ -2,7 +2,6 @@
 title = 'Arrow functions'
 
 time = 5
-facilitation = false
 emoji= '➡️'
 [objectives]
     1='Write an arrow function'

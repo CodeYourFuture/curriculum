@@ -1,7 +1,6 @@
 +++
 title = 'Gathering requirements'
 time = 60
-facilitation = false
 emoji= '🗺️'
 [objectives]
 1='Define product, MVP, feature, user story'

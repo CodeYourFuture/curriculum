@@ -2,7 +2,6 @@
 title = 'Discuss an app'
 
 time = 85
-facilitation = false
 emoji= '🪀'
 [objectives]
 1='Discuss problem solving strategies in groups'

@@ -2,7 +2,6 @@
 title = 'Communicating with the database using SQL'
 
 time = 120
-facilitation = false
 emoji= '🏓'
 [objectives]
     1='Describe what `tables`, `rows` and `columns` are used for in a relational database'

@@ -2,7 +2,6 @@
 title = 'Calculating the mean'
 
 time = 15
-facilitation = false
 emoji= '📊'
 hide_from_overview = true
 [objectives]

@@ -2,7 +2,6 @@
 title = "Big-O"
 headless = true
 time = 30
-facilitation = false
 emoji= "📖"
 [objectives]
     1="Categorise algorithms as O(lg(n)), O(n), O(n^2), O(2^n)"

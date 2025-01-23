@@ -2,7 +2,6 @@
 title = "sed"
 headless = true
 time = 30
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Remove numbers from the start of lines in a file using sed"
