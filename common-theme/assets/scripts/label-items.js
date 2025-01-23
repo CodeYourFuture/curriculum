@@ -17,9 +17,12 @@ class LabelItems extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
+    <style>
+    .c-quiz { display: grid;gap: var(--theme-spacing--gutter)}
+    </style>
       <section class="c-quiz">
         <slot name="labels"></slot>
-        <h3>👆🏾 Drag the labels on to the items 👇🏽</h3>
+        <slot name="heading"></slot>
         <slot name="content"></slot>
         <h4 role="status" aria-live="polite">
           <slot name="feedback"></slot>
@@ -75,6 +78,14 @@ class LabelItems extends HTMLElement {
     });
   }
 
+  makeLabel(labelId) {
+    // make a label
+    const label = document.createElement("span");
+    label.textContent = labelId;
+    label.classList.add("c-label");
+    return label;
+  }
+
   handleDrop(labelId, itemElement) {
     const itemId = itemElement.dataset.item;
     const isCorrect = this.correctAnswers.get(itemId) === labelId;
@@ -82,6 +93,12 @@ class LabelItems extends HTMLElement {
     itemElement.dataset.status = isCorrect ? "correct" : "incorrect";
     itemElement.classList.toggle("is-good", isCorrect);
     itemElement.classList.toggle("is-bad", !isCorrect);
+
+    // remove old labels
+    itemElement.querySelectorAll(".c-label").forEach((label) => label.remove());
+
+    // add this label
+    itemElement.appendChild(this.makeLabel(labelId));
 
     // Update feedback slot content
     const feedbackSlot = this.shadowRoot.querySelector('slot[name="feedback"]');

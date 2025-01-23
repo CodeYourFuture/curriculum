@@ -1,10 +1,11 @@
 {{/* example usage: attach a label to delimit each item
-  {{<label-items
+  {{<label-items heading="👆🏾 Drag the labels on to the items 👇🏽"
 >}}
 [LABEL=Label-1]Item here [LABEL=Label-2]Item here anything you like can be
 multiple lines [LABEL=Label-1] Another item here
 {{< /label-items >}}
 */}}
+{{ $heading := .Get "heading" | default "👆🏾 Drag the labels on to the items 👇🏽" }}
 {{/* Split content into items by label, using a similar pattern to TABS and COLUMNS */}}
 {{ $content := .Inner | strings.TrimSpace }}
 {{ $items := split $content "[LABEL=" }}
@@ -33,6 +34,7 @@ multiple lines [LABEL=Label-1] Another item here
       <button class="c-label" data-label="{{ . | urlize }}">{{ . }}</button>
     {{ end }}
   </section>
+  <h3 slot="heading" class="e-heading__5">{{ $heading }}</h3>
   <section slot="content" aria-label="Items to label">
     {{ range $index, $item := $processedItems }}
       <div data-item="{{ add $index 1 }}" data-correct="{{ .label | urlize }}">
