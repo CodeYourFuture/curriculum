@@ -2,7 +2,6 @@
 title = 'Capturing the user event'
 
 time = 15
-facilitation = false
 emoji= '🦻🏻'
 [objectives]
     1='Add an event listener to a user input'

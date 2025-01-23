@@ -2,7 +2,6 @@
 title = 'Refactoring to state+render'
 
 time = 30
-facilitation = false
 emoji= '🧼'
 [objectives]
     1='Structure code to use state and render'

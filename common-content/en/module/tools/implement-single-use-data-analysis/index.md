@@ -2,7 +2,6 @@
 title = "Implement a single-use data analysis program"
 headless = true
 time = 30
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Write a program to extract information from a JSON file"

@@ -2,7 +2,6 @@
 title = "ls"
 headless = true
 time = 15
-facilitation = false
 emoji= "💻"
 [objectives]
     1="List the files (and directories) in a directory with ls"

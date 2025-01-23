@@ -2,7 +2,6 @@
 title = 'Access with variables'
 
 time = 30
-facilitation = false
 emoji= '🍌'
 [objectives]
     1='Explain when square bracket notation may be necessary to access an object'

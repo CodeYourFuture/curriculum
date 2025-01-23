@@ -2,7 +2,6 @@
 title = 'What Is CSS'
 
 time = 60
-facilitation = false
 vocabulary=['selector', 'property', 'value', 'cascade', 'specificity', 'declarative', 'precedence', 'render', 'block', 'inline']
 emoji= '🎨'
 [objectives]

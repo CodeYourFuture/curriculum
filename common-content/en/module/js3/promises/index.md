@@ -2,7 +2,6 @@
 title = 'Promises'
 
 time = 15
-facilitation = false
 emoji = '🫱🏿‍🫲🏽 '
 [objectives]
     1='Define a Promise'

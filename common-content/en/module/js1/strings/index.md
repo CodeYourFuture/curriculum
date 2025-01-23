@@ -2,7 +2,6 @@
 title = 'Accessing strings'
 
 time = 20
-facilitation = false
 emoji= '🧶'
 [objectives]
  1='Define zero-indexing'

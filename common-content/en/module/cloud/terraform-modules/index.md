@@ -2,7 +2,6 @@
 title = 'What Are Terraform Modules'
 
 time = 60
-facilitation = false
 emoji= '🧩'
 [objectives]
     1='Explain what Terraform modules are'

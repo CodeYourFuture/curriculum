@@ -2,7 +2,6 @@
 title = 'CRUD Challenges'
 
 time = 45
-facilitation = false
 emoji= '💪🏾'
 [build]
   render = 'never'

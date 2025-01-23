@@ -2,7 +2,6 @@
 title = 'First test case'
 
 time = 40
-facilitation = false
 emoji= '💼'
 [objectives]
     1='Outline the effect of running npm test'

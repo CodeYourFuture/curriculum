@@ -2,7 +2,6 @@
 title = 'Writing Basic Infrastructure Code'
 emoji="🖨️"
 time = 30
-facilitation = false
 [objectives]
     1='Define a null resource in Terraform'
 [build]
