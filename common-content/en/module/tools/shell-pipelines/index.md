@@ -25,6 +25,41 @@ Read [Thinking in Pipelines from Effective Shell](https://effective-shell.com/pa
 * We can pass information between programs using a pipe: `|`
 * We can write the output of programs to a file using `>`, or append to a file using `>>`.
 
+### Comparison with JavaScript
+
+A shell pipeline is like a chain of function calls.
+
+In JavaScript we joined together pipeline stages (functions) with `.`s:
+
+```js
+["Hello", "I", "am", "EXTRA", "happy"]
+    .filter((word) => /[A-Z]/.test(word))
+    .map((word) => word.toLowerCase())
+    .sort()
+```
+
+In shell we join together pipeline stages (commands) with `|`s:
+
+```bash
+printf "Hello\nI\nam\nEXTRA\nhappy\n" | grep '[A-Z]' | tr '[:upper:]' '[:lower:]' | sort
+```
+
+```mermaid
+flowchart LR
+    Initial[Hello
+    I
+    am
+    EXTRA
+    happy]
+    Initial --grep '[A-Z]'--> Filtered[Hello
+    I
+    EXTRA] --tr '[:upper:]' '[:lower:]'--> Mapped[hello
+    i
+    extra] --sort--> Sorted[hello
+    extra
+    i]
+```
+
 {{<multiple-choice
    question="If /doesnotexist doesn't exist, what will be output to stdout and stderr by the command `ls /doesnotexist`"
    answers="stdout: an error message. stderr: nothing. | stdout: /doesnotexist. stderr: an error message. | stdout: nothing. stderr: an error message."

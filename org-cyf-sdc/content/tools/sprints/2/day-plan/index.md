@@ -8,9 +8,8 @@ weight = 3
 name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
-name="Study group"
-src="blocks/workshop"
-time="115"
+name="Discussion: programming language concepts"
+src="module/tools/discuss-programming-language-concepts"
 [[blocks]]
 name="Games, rules, logic and strategy"
 src="blocks/games"

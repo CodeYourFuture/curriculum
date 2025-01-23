@@ -16,6 +16,8 @@ emoji= "💻"
 
 (Source, including text-only transcript: https://wizardzines.com/comics/head-tail/)
 
+TODO: Insert a visualisation of lines being selected.
+
 Learn about `head` and `tail` from their man pages (and the backlog exercises).
 
 Imagine we have an input file which has 100 lines.
