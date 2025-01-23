@@ -12,7 +12,7 @@ objectives=[
 ]
 +++
 
-Variables are names for {{<tooltip title="memory locations" text="Memory location">}}Memory is where we store values. You can think of memory as a long list of locations. Each location can store one byte of data. We can store the byte `0x41` in a memory location. One variable always points at one memory location, but depending on its type may include the data from subsequent memory locations too.{{</tooltip>}}. What's inside the memory location can be changed.
+Variables are names for {{<tooltip text="memory locations" title="Memory location">}}Memory is where we store values. You can think of memory as a long list of locations. Each location can store one byte of data. We can store the byte `0x41` in a memory location. One variable always points at one memory location, but depending on its type may include the data from subsequent memory locations too.{{</tooltip>}}. What's inside the memory location can be changed.
 
 {{<multiple-choice
 question="Which languages allow assigning a new value with a different type to a variable."

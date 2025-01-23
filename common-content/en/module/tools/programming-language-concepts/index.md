@@ -23,7 +23,9 @@ Do every exercise listed in the chapter.
 You can skip the projects (though you're welcome to try any of them if you have time!).
 {{</note>}}
 
-Check you have achieved each learning objective listed on this page.
+Check you have achieved each learning objective listed on this page. If you're not sure about any of them, ask in Slack.
+
+In class, we will have a discussion about each of the below prompts. Think about them, and write down notes in your notebook to help you participate in the discussion.
 
 {{<note type="Exercise">}}
 Write down an explanation of what a variable is. Make sure to use the term "memory location" in your explanation.
