@@ -2,7 +2,6 @@
 title = 'DOM events'
 
 time = 60
-facilitation = false
 emoji= '🎬'
 [objectives]
     1='Describe an event in the browser environment'

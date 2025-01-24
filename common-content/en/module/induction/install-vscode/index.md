@@ -2,7 +2,6 @@
 title = 'Install VSCode'
 
 time = 15
-facilitation = false
 emoji= '🧰'
 [objectives]
     1='Download and install VSCode'

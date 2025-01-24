@@ -2,7 +2,6 @@
 title = "Forms with multiple fields"
 
 time = 20
-facilitation = false
 emoji= '🗂️'
 [objectives]
     1='Handle multiple user inputs in a form'

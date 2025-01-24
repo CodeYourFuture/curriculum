@@ -1,7 +1,6 @@
 +++
 title = 'Sharing Our Blockers'
 time = 45
-facilitation = false
 vocabulary=["Blockers"]
 emoji= '🚧'
 [objectives]

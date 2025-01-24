@@ -2,7 +2,6 @@
 title = 'No parameters'
 
 time = 10
-facilitation = false
 emoji= '🕳️'
 hide_from_overview = true
 [build]

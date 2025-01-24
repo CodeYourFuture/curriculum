@@ -2,7 +2,6 @@
 title = 'What is CI/CD?'
 
 time = 5
-facilitation = false
 emoji= '🛬'
 [objectives]
     1='Define CI and CD'

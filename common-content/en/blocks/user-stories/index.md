@@ -1,7 +1,6 @@
 +++
 title = 'User stories'
 time = 50
-facilitation = false
 vocabulary=["Requirements", "User Stories"]
 emoji= '👤'
 [objectives]

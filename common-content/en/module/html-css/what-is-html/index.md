@@ -2,7 +2,6 @@
 title = 'What is HTML?'
 
 time = 45
-facilitation = false
 activities = ['defining-key-terms']
 emoji= '😶‍🌫️'
 [objectives]

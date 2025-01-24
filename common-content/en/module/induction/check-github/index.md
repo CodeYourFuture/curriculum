@@ -2,7 +2,6 @@
 title = 'Setting up Coursework planner'
 
 time = 15
-facilitation = false
 vocabulary=[]
 emoji= '🎢'
 [objectives]

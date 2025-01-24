@@ -1,7 +1,6 @@
 +++
 title = 'Create a work folder'
 time = 20
-facilitation = false
 vocabulary=[]
 emoji= '📂'
 [objectives]

@@ -2,7 +2,6 @@
 title = 'Arrays'
 
 time = 10
-facilitation = false
 emoji= '📜'
 [objectives]
     1='Access items in an array using an index'

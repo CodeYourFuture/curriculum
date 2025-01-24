@@ -2,7 +2,6 @@
 title = 'Make a Node Project'
 
 time = 30
-facilitation = false
 emoji= '🧰'
 [objectives]
     1='Create a new repo from scratch'

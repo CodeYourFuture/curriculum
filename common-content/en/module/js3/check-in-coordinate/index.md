@@ -1,7 +1,6 @@
 +++
 title = 'Check-in ➡️ Coordinate'
 
-facilitation = false
 time=10
 emoji= '📝'
 [objectives]

@@ -2,7 +2,6 @@
 title = 'Solving Problems with Functions'
 
 time = 60
-facilitation = false
 emoji= '📼'
 [objectives]
     1='Practice solving problems with functions'

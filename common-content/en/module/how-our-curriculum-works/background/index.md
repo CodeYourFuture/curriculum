@@ -2,7 +2,6 @@
 title = 'Background'
 
 time = 20
-facilitation = false
 vocabulary=["Blockers"]
 emoji= '🌍'
 [objectives]

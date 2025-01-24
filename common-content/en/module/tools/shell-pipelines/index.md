@@ -2,7 +2,6 @@
 title = "Shell pipelines"
 headless = true
 time = 30
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Count the occurences of different lines within a file using sort and uniq"

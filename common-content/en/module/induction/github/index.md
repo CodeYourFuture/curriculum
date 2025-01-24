@@ -2,7 +2,6 @@
 title = 'Check your Planner'
 
 time = 5
-facilitation = false
 vocabulary=[]
 emoji= '✅'
 [tasks]

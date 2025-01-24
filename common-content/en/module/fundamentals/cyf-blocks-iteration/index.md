@@ -2,7 +2,6 @@
 title = 'CYF Blocks'
 
 time = 40
-facilitation = false
 emoji= '🧩'
 [objectives]
 1='Break down solving problems into testable steps'

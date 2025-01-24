@@ -2,7 +2,6 @@
 title = "grep"
 headless = true
 time = 30
-facilitation = false
 emoji= "💻"
 [objectives]
     1="Identify the lines in a file which contain a string using grep"

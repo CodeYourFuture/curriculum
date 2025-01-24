@@ -2,7 +2,6 @@
 title = 'async/await'
 
 time = 30
-facilitation = false
 emoji= '🍬'
 [objectives]
     1='Define syntactic sugar'
