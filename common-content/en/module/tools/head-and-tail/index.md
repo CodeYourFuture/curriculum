@@ -19,7 +19,27 @@ objectives = [
 
 (Source, including text-only transcript: https://wizardzines.com/comics/head-tail/)
 
-TODO: Insert a visualisation of lines being selected.
+```mermaid
+flowchart LR
+   Initial[1 This is the first line
+2 And more
+3
+4 Yet more
+5 It keeps going
+6 This file has 9 lines
+7 This is line 7
+8 And they all lived
+9 happily ever after] --head -n5--> Head[1 This is the first line
+2 And more
+3
+4 Yet more
+5 It keeps going] --tail -n2--> Tail[4 Yet more
+5 It keeps going]
+
+style Initial text-align:left
+style Head text-align:left
+style Tail text-align:left
+```
 
 Learn about `head` and `tail` from their man pages (and the backlog exercises).
 
