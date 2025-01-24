@@ -1,10 +1,14 @@
 +++
 title = "Shell tools"
-headless = true
 time = 30
-emoji= "💻"
-[objectives]
-    1="Identify which of {cat, ls, wc, grep, sed, awk} will be useful to solve a given problem"
+emoji = "💻"
+objectives = [
+  "Identify which of {`cat`, `ls`, `wc`, `grep`, `sed`, `awk`} will be useful to solve a given problem.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 Through this course, we are going to write lots of programs.
