@@ -27,11 +27,13 @@ multiple lines [LABEL=Label-1] Another item here
 
 {{ end }}
 
+{{ $labels = $labels | uniq | shuffle }}
+
 
 <div class="c-block">
   <label-items>
     <section slot="labels" class="c-labels" aria-label="Labels">
-      {{ range (uniq $labels) }}
+      {{ range  $labels }}
         <button class="c-label" data-label="{{ . | urlize }}">{{ . }}</button>
       {{ end }}
     </section>
