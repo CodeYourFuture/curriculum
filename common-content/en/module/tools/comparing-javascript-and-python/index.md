@@ -45,7 +45,18 @@ const wordsContainingChar = content.split(" ").filter((word) => word.indexOf(cha
 console.log(wordsContainingChar);
 ```
 
-Think about what we're doing in this code:
+{{<tabs name="Exercise">}}
+===[[Exercise]]===
+Think about what we're doing in this code.
+
+Try to list the high-level ideas. This means describing in English what we're achieving, using sentences like like "Reading a file".
+
+We're not trying to think about the programming concepts we're doing here (we aren't talking about things like "Assigning a variable" or "An if statement"). Think about what a non-programmer would want to understand about our program.
+
+===[[Answer]]===
+
+You may have slightly different answers, but the programme is doing roughly the following things:
+
 * Parsing command line flags - writing down what flags we expect to be passed, and reading values for them based on the actual command line.
 * Validating the flags (i.e. checking that exactly one path was passed).
 * Reading a file.
@@ -53,9 +64,11 @@ Think about what we're doing in this code:
 * Counting how many of the words contained a particular character.
 * Printing the count.
 
+{{</tabs>}}
+
 These are the meaningful things we needed to do. To solve the same problem with Python, we'd still do all of these things.
 
-There are also some other things we did in our code, which were important, but not the point of the code. An example is, we imported some modules. We may need to import modules to write this code in Python. Or we may not. Importing modules wasn't one of our _goals_, it was just something we needed to do to help us.
+We did some other things in our code to make it work. For example, we imported some modules. To write this code in Python, we might need modules or we might not. Importing modules isn't one of our _goals_, it was just something we needed to do to help us.
 
 We split up things we need to do into two categories: essential and accidental.
 
@@ -63,6 +76,17 @@ We split up things we need to do into two categories: essential and accidental.
 
 **Accidental** means it isn't what we _care_ about doing, but we may need to do it anyway. e.g. importing the `process` module isn't _essential_ to our problem, but we needed to do it anyway so we could report errors.
 
+{{<note type="Think about real life">}}
+Imagine we want to post a parcel, so we take the bus to the post office.
+
+_Essential_ to our goal is getting the parcel to someone who will deliver it.
+
+_Accidental_ to this, we took the bus. There may be ways we could achieve our essential goal without getting the bus. Maybe we could walk or cycle to the post office. Maybe we could arrange for someone from the post office to come to our home and collect the parcel.
+
+The accidental things we did were important - they helped us get our essential goal done. But we shouldn't get too attached to the accidental things - maybe we will replace them later.
+{{</note>}}
+
+
 When we're thinking about how we use different languages, it's useful to think about what parts of our problem are _essential_ (we'll need to do them in any language), and which parts are _accidental_ (it's just something we had to do on the way to achieve our aim).
 
-Whether we write the JavaScript `someArray.length` or the Python `len(some_array)` isn't a big difference - both do the same thing, they just look a little a little different.
+Whether we write the JavaScript `someArray.length` or the Python `len(some_array)` isn't a big difference. Both lines do the same thing, they just express it differently. 

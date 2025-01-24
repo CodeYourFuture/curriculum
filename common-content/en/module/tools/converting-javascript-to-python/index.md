@@ -11,7 +11,7 @@ objectives = [
 
 ### Parsing command line flags
 
-In JavaScript, we wrote this code (note: there was some other code in between some of these lines):
+In JavaScript, we wrote this code:
 
 ```js
 import { program } from "commander";
@@ -27,6 +27,8 @@ const argv = program.args;
 const path = argv[0];
 const char = program.opts().char;
 ```
+
+Which of the following are _essential_ goals in this code, and which are _accidental_ goals?
 
 The _essential_ goals here are to:
 * Allow a user to pass a `-c` argument (defaulting to `-` if they don't).
