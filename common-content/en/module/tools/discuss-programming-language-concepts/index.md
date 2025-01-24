@@ -5,10 +5,13 @@ time = 60
 emoji = "🧰"
 objectives = [
   "Define the term variable.",
+  "Explain the purpose of main memory.",
   "Describe how a variable relates to a memory location.",
+  "Describe how a string is laid out in memory.",
   "Explain what happens when you call a function.",
   "Define the term class.",
   "Explain the relationship between a class and an instance of a class.",
+  "Explain why computers have secondary storage.",
 ]
 [build]
   list = "local"
@@ -20,11 +23,19 @@ This sprint you have read about programming language concepts in How Computers R
 
 Topics to discuss:
 
-### Variables
+<!--
+TODO: Make this block more prescriptive about activities
+-->
 
-What is a variable?
+### Variables and memory
+
+What is main memory? What is a variable?
 
 How does a variable relate to a memory location?
+
+How is a string laid out in memory?
+
+How does main memory (RAM) relate to secondary storage (a hard drive)? Why do we have both?
 
 ### Functions
 
@@ -50,6 +61,8 @@ This kind of "object" is similar to, but slightly different from what we call an
 
 What are the similarities and differences between these two meanings of the word object?
 
-TODO: Fill in some of the CPU and Memory stuff in this block
+### CPUs
 
-TODO: Make this block more prescriptive about activities
+What does a CPU do?
+
+What benefits are there to having multiple CPU cores?
