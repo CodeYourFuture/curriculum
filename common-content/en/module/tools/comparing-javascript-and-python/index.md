@@ -45,7 +45,7 @@ const wordsContainingChar = content.split(" ").filter((word) => word.indexOf(cha
 console.log(wordsContainingChar);
 ```
 
-Let's think about what we're doing in this code. We're:
+Think about what we're doing in this code:
 * Parsing command line flags - writing down what flags we expect to be passed, and reading values for them based on the actual command line.
 * Validating the flags (i.e. checking that exactly one path was passed).
 * Reading a file.
