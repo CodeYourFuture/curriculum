@@ -32,4 +32,4 @@ print(words_containing_char)
 
 This looks similar to the JavaScript version. The shape is the same, but every line is a little bit different.
 
-Some programming languages are very different, as different as Mandarin and English. But JavaScript and Python are, essentially, quite similar, like Spanish and Portugese.
+Some programming languages are very different, as different as Mandarin and English. But JavaScript and Python are, essentially, quite similar, like Spanish and Portuguese.
