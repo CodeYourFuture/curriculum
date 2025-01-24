@@ -27,15 +27,25 @@ You can skip the projects (though you're welcome to try any of them if you have 
 
 Check you have achieved each learning objective listed on this page. If you're not sure about any of them, ask in Slack.
 
-{{<note type="Exercise">}}
-TODO: Reframe this as a labeller exercise
+#### Exercise
 
-Write down what operators you have used in a programming language.
+Label each operator with its correct arity:
 
-Next to each, write down whether it's a unary, binary, or ternary operator.
+{{<label-items heading="Drag the correct arity from 👆🏾 onto each operator 👇🏽">}}
+[LABEL=Ternary] The `?` operator in JavaScript.
+[LABEL=Binary] The "logical and" operator (`and` in Python, `&&` in JavaScript and C).
+[LABEL=Unary] The "logical not" operator (`not` in Python, `!` in JavaScript and C).
+[LABEL=Binary] The "plus" operator (`+`).
+[LABEL=Binary] The "logical or" operator (`or` in Python, `||` in JavaScript and C).
+[LABEL=Binary] The "bitwise and" operator (`&`).
+[LABEL=Unary] The "bitwise not" operator (`~`).
+{{</label-items>}}
 
-Make sure you have at least one example of a unary operator, a binary operator, and a ternary operator.
-{{</note>}}
+{{<multiple-choice
+  question="What is the arity of the `-` operator?"
+  answers="Unary | Binary | Ternary | It depends"
+  feedback="Sometimes: when used in `value = -1` it's unary. But can it be used other ways? | Sometimes: when used like `value = 2 - 1` it's binary. But can it be used other ways? | No, in the languages we're learning `-` isn't a ternary operator. | Right - sometimes it applies to one value (`value = -1`) and other times it needs two (`value = 2 - 1`)."
+  correct="3" >}}
 
 In class, we will have a discussion about each of the below prompts. Think about them, and write down notes in your notebook to help you participate in the discussion.
 

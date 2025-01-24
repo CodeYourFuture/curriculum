@@ -7,7 +7,7 @@ menu_level = ['sprint']
 weight = 1
 [[blocks]]
 name="Programming language concepts"
-src="module/tools/programming-language-concepts"
+src="module/tools/read-about-programming-language-concepts"
 [[blocks]]
 name="Bitwise operators"
 src="module/tools/bitwise-operators"
