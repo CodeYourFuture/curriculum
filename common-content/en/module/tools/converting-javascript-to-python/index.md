@@ -1,7 +1,7 @@
 +++
 title = "Converting JavaScript to Python"
 headless = true
-time = 40
+time = 90
 facilitation = false
 emoji= "📖"
 objectives = [
@@ -30,16 +30,20 @@ const char = program.opts().char;
 
 Which of the following are _essential_ goals in this code, and which are _accidental_ goals?
 
-The _essential_ goals here are to:
-* Allow a user to pass a `-c` argument (defaulting to `-` if they don't).
-* Allow a user to pass a path as a positional argument.
-* Supply a nice `--help` implementation to help a user if they don't know how to use our tool.
-
-We _accidentally_ did a lot of things to achieve these goals. We used a library called commander. We imported that library. We called some particular functions, and made some particular variables.
+{{<label-items heading="Drag essential/accidental from 👆🏾 onto each goal 👇🏽">}}
+[LABEL=Essential] Allow a user to pass a `-c` argument (defaulting to `-` if they don't).
+[LABEL=Accidental] Made a `const` variable called `argv`.
+[LABEL=Accidental] Import `program` from the `commander` library.
+[LABEL=Essential] Allow a user to pass a path as a positional argument.
+[LABEL=Accidental] Looked up element `0` in the `program.args` array.
+[LABEL=Essential] Supply a nice `--help` implementation to help a user if they don't know how to use our tool.
+[LABEL=Accidental] Use the commander library.
+[LABEL=Accidental] Called the function `program.name()`.
+{{</label-items>}}
 
 If we want to work out how to do this in Python, we should focus on the essential goals. We may want to search for things like "Parse command line flags Python" and "Default argument values Python" because they get to the essential problems we're trying to solve.
 
-Searching Google for "Parse command line flags Python" brought us to [the Python argparse documentation](https://docs.python.org/3/library/argparse.html). The example code looks pretty similar to what we were doing in Python. We can probably write something like:
+Searching Google for "Parse command line flags Python" brought us to [the Python argparse documentation](https://docs.python.org/3/library/argparse.html). The example code looks pretty similar to what we were doing in JavaScript. We can probably write something like:
 
 ```python
 import argparse
@@ -73,3 +77,7 @@ So we can tick this essential requirement off our list. Different languages or l
 > We don't need to convert every line.
 >
 > We're trying to convert _essential requirements_.
+
+{{<note type="Exercise">}}
+Identify all of the essential requirements from our JavaScript program, and finish implementing the Python version.
+{{</note>}}
