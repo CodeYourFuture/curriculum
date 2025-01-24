@@ -8,6 +8,9 @@ class LabelItems extends HTMLElement {
     super();
     this.attachShadow({ mode: "open" });
     this.correctAnswers = new Map();
+    this.playerAnswers = new Map();
+    this.labels = [];
+    this.items = [];
   }
 
   connectedCallback() {
@@ -49,9 +52,9 @@ class LabelItems extends HTMLElement {
   }
 
   setupLabels(labelsContainer) {
-    const labels = labelsContainer.querySelectorAll("[data-label]");
+    this.labels = labelsContainer.querySelectorAll("[data-label]");
 
-    labels.forEach((label) => {
+    this.labels.forEach((label) => {
       label.setAttribute("draggable", "true");
       label.style.cursor = "grab";
       label.addEventListener("dragstart", (e) => {
@@ -62,12 +65,11 @@ class LabelItems extends HTMLElement {
   }
 
   setupContent(contentContainer) {
-    const items = contentContainer.querySelectorAll("[data-item]");
+    this.items = contentContainer.querySelectorAll("[data-item]");
 
-    items.forEach((item) => {
-      if (item.dataset.correct) {
-        this.correctAnswers.set(item.dataset.item, item.dataset.correct);
-      }
+    this.items.forEach((item) => {
+      this.correctAnswers.set(item.dataset.item, item.dataset.correct);
+      this.playerAnswers.set(item.dataset.item, false); // we always start off wrong
 
       item.addEventListener("dragover", (e) => e.preventDefault());
       item.addEventListener("drop", (e) => {
@@ -90,7 +92,9 @@ class LabelItems extends HTMLElement {
     const itemId = itemElement.dataset.item;
     const isCorrect = this.correctAnswers.get(itemId) === labelId;
 
-    itemElement.dataset.status = isCorrect ? "correct" : "incorrect";
+    this.playerAnswers.set(itemId, isCorrect ? true : false);
+
+    itemElement.dataset.status = isCorrect ? true : false;
     itemElement.classList.toggle("is-good", isCorrect);
     itemElement.classList.toggle("is-bad", !isCorrect);
 
@@ -100,11 +104,28 @@ class LabelItems extends HTMLElement {
     // add this label
     itemElement.appendChild(this.makeLabel(labelId));
 
-    // Update feedback slot content
-    const feedbackSlot = this.shadowRoot.querySelector('slot[name="feedback"]');
-    const feedback = feedbackSlot.assignedElements()[0];
-    if (feedback) {
-      feedback.textContent = isCorrect ? "Sorted!" : "Try again";
+    this.updateFeedback(isCorrect);
+  }
+
+  updateFeedback(isCorrect) {
+    const feedback = this.shadowRoot
+      .querySelector('slot[name="feedback"]')
+      .assignedElements()[0];
+    if (!feedback) return;
+
+    const correctCount = [...this.playerAnswers.values()].filter(
+      (state) => state
+    ).length;
+    const totalItems = this.items.length;
+
+    if (correctCount === totalItems) {
+      feedback.textContent = "🎉 You've sorted them all!";
+    } else {
+      feedback.textContent = `${
+        isCorrect
+          ? "✅ You got that one right! "
+          : "❌ You got that one wrong. "
+      } ${correctCount} of ${totalItems} labelled correctly`;
     }
   }
 }
