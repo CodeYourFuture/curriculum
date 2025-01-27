@@ -7,5 +7,5 @@ menu="selection"
 url="https://piscine.codeyourfuture.io/"
 days="22"
 commitment="part time"
-frequency=4
-locations=["Online"]
+frequency=3
+locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Online", "Sheffield"]
