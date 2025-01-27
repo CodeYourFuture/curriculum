@@ -27,13 +27,13 @@ Check you have achieved each learning objective listed on this page.
 {{<note type="Project">}}
 Do project 23 from How Computers Really Work.
 
-You can do this on any Unix OS - you do not need a Raspberry Pi.
+You can do this on any {{<tooltip title="Unix-family OS">}}Linux and macOS are both Unix-family operating systems. Windows is not.{{</tooltip>}} - you do not need a Raspberry Pi.
 {{</note>}}
 
 {{<note type="Project">}}
 Do project 20 from How Computers Really Work.
 
-You can do this on any Unix OS - you don't need a Raspberry Pi.
+You can do this on any Unix-family OS - you don't need a Raspberry Pi.
 
 Note: If you're on macOS, `ps -eH` doesn't exist. You can use `ps` or `ps aux` to get a list of processes. To get parent-child relationships, you'll need to install `pstree` using `brew` (`brew install pstree`), then run `pstree`.
 

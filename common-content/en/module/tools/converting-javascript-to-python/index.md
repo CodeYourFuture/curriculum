@@ -19,7 +19,7 @@ import { program } from "commander";
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "-");
+    .option("-c, --char <char>", "The character to search for", "e");
 
 program.parse();
 
@@ -31,7 +31,7 @@ const char = program.opts().char;
 Which of the following are _essential_ goals in this code, and which are _accidental_ goals?
 
 {{<label-items heading="Drag essential/accidental from 👆🏾 onto each goal 👇🏽">}}
-[LABEL=Essential] Allow a user to pass a `-c` argument (defaulting to `-` if they don't).
+[LABEL=Essential] Allow a user to pass a `-c` argument (defaulting to `e` if they don't).
 [LABEL=Accidental] Made a `const` variable called `argv`.
 [LABEL=Accidental] Import `program` from the `commander` library.
 [LABEL=Essential] Allow a user to pass a path as a positional argument.
@@ -53,7 +53,7 @@ parser = argparse.ArgumentParser(
     description="Counts words in a file that contain a particular character",
 )
 
-parser.add_argument("-c", "--char", help="The character to search for", default="-")
+parser.add_argument("-c", "--char", help="The character to search for", default="e")
 parser.add_argument("path", help="The file to search")
 
 args = parser.parse_args()

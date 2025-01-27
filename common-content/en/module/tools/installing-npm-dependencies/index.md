@@ -13,7 +13,7 @@ To use a library, we need to fetch the code we're going to use. When using NodeJ
 
 First we need a `package.json` file - this a file that `npm` will read to understand your project. This is the same as the `package.json` file you've seen when using `npm` in the past.
 
-Make this `package.json` file in the same directory as your hyphen-counting program:
+Make this `package.json` file in the same directory as your e-word-counting program:
 
 ```json
 {
@@ -47,7 +47,7 @@ import process from "node:process";
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "-");
+    .option("-c, --char <char>", "The character to search for", "e");
 
 program.parse();
 
@@ -60,8 +60,11 @@ const path = argv[0];
 const char = program.opts().char;
 
 const content = await fs.readFile(path, "utf-8");
-const wordsContainingChar = content.split(" ").filter((word) => word.indexOf(char) > -1).length;
-console.log(wordsContainingChar);
+const countOfWordsContainingChar = content
+  .split(" ")
+  .filter((word) => word.includes(char))
+  .length;
+console.log(countOfWordsContainingChar);
 ```
 
 {{<note type="Exercise">}}
@@ -84,7 +87,7 @@ Let's run through what we changed:
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "-");
+    .option("-c, --char <char>", "The character to search for", "e");
 ```
 
 We told `commander` information about our program. We gave it a name, a description, and told it that it should allow a user to pass a flag name `-c` (or equivalently `--char`), and use a default value of `-` for that flag if it's not specified.
@@ -110,11 +113,14 @@ const char = program.opts().char;
 We are getting the `char` flag that `commander` interpreted and storing it in a variable.
 
 ```js
-const wordsContainingChar = content.split(" ").filter((word) => word.indexOf(char) > -1).length;
-console.log(wordsContainingChar);
+const countOfWordsContainingChar = content
+  .split(" ")
+  .filter((word) => word.includes(char))
+  .length;
+console.log(countOfWordsContainingChar);
 ```
 
-We have renamed our `wordsContainingHyphens` variable to `wordsContainingChar` because we're no longer always looking for hyphens, and changed the `indexOf` call to look for the value of the `char` variable instead of always a `-`.
+We have renamed our `countOfWordsContainingEs` variable to `countOfWordsContainingChar` because we're no longer always looking for hyphens, and changed the `includes` call to look for the value of the `char` variable instead of always an `e`.
 
 We only needed to make a few small changes to get all of this new functionality:
 * Support for accepting a new command line flag.
@@ -122,3 +128,9 @@ We only needed to make a few small changes to get all of this new functionality:
 * Detection for if someone passes flags that aren't known, and warning them about this (and even suggesting what they maybe meant).
 
 We could have written all of this code ourselves. But using a library meant we could focus on what's unique about our problem, rather than spending time implementing flag parsing.
+
+This is a very common task in software development in the real world, joining together libraries (written by other people) to create some new unique solution.
+
+> [!NOTE]
+>
+> We also could have used [the builtin `util.parseArgs` function from NodeJS](https://nodejs.org/api/util.html#utilparseargsconfig) for most of this functionality, but it doesn't support `--help` like `commander` does.

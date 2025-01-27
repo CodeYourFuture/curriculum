@@ -17,7 +17,7 @@ NodeJS is another runtime environment for running JavaScript. It allows us to ru
 
 There are some similarities and differences between how NodeJS runs JavaScript, and how web browsers run JavaScript. For instance:
 * Both support the same core language (e.g. defining variables, if statements, for loops, etc).
-* Web browsers expose extra APIs that can be used from JavaScript, e.g. the DOM.
+* Web browsers {{<tooltip title="expose">}}To expose an API means to provide functions or values to the programmer. Sometimes we expose these over the internet, using HTTP+JSON. Other times we expose them directly as symbols you can import into your program.{{</tooltip>}} extra APIs that can be used from JavaScript, e.g. the DOM.
 * NodeJS exposes extra APIs that can be used from JavaScript, e.g. reading and writing files in the filesystem.
 * Some APIs are implemented differently, e.g. if you call `console.log` in a web browser it will log to the web inspector console (hidden by default), whereas in NodeJS it will log to stdout (the default output of a program).
 

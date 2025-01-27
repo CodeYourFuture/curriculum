@@ -12,7 +12,10 @@ objectives = [
 In JavaScript we wrote:
 
 ```js
-content.split(" ").filter((word) => word.indexOf(char) > -1).length
+content
+  .split(" ")
+  .filter((word) => word.includes(char))
+  .length
 ```
 
 What JavaScript calls arrays, Python calls lists. Arrays and lists are basically the same.

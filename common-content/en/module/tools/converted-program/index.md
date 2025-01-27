@@ -19,15 +19,15 @@ parser = argparse.ArgumentParser(
     description="Counts words in a file that contain a particular character",
 )
 
-parser.add_argument("-c", "--char", help="The character to search for", default="-")
+parser.add_argument("-c", "--char", help="The character to search for", default="e")
 parser.add_argument("path", help="The file to search")
 
 args = parser.parse_args()
 
 with open(args.path, "r") as f:
     content = f.read()
-words_containing_char = len(filter(lambda word: args.char in word, content.split(" ")))
-print(words_containing_char)
+count_of_words_containing_char = len([word for word in content.split(" ") if args.char in word])
+print(count_of_words_containing_char)
 ```
 
 This looks similar to the JavaScript version. The shape is the same, but every line is a little bit different.

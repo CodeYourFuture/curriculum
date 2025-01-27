@@ -28,7 +28,7 @@ import process from "node:process";
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "-");
+    .option("-c, --char <char>", "The character to search for", "e");
 
 program.parse();
 
@@ -41,8 +41,11 @@ const path = argv[0];
 const char = program.opts().char;
 
 const content = await fs.readFile(path, "utf-8");
-const wordsContainingChar = content.split(" ").filter((word) => word.indexOf(char) > -1).length;
-console.log(wordsContainingChar);
+const countOfWordsContainingChar = content
+  .split(" ")
+  .filter((word) => word.includes(char))
+  .length;
+console.log(countOfWordsContainingChar);
 ```
 
 {{<tabs name="Exercise">}}

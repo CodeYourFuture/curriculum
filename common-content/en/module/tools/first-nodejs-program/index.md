@@ -10,11 +10,11 @@ objectives = [
 ]
 +++
 
-Below we have a small NodeJS program. It is a bit like `wc`. It counts words in a file which contain a hyphen (`-`) character.
+Below we have a small NodeJS program. It is a bit like `wc`. It counts words in a file which contain the letter `e`.
 
 Our program accepts one command line argument - the path of the file to read and count.
 
-Our program's output to stdout is just the number of words which contain a hyphen.
+Our program's output to stdout is just the number of words which contain an e.
 
 Our program uses the same language (JavaScript) as we've written before, but uses some different APIs.
 
@@ -30,8 +30,11 @@ if (argv.length != 1) {
 const path = argv[0];
 
 const content = await fs.readFile(path, "utf-8");
-const wordsContainingHyphens = content.split(" ").filter((word) => word.indexOf("-") > -1).length;
-console.log(wordsContainingHyphens);
+const countOfWordsContainingEs = content
+  .split(" ")
+  .filter((word) => word.includes("e"))
+  .length;
+console.log(countOfWordsContainingEs);
 ```
 
 Let's play computer with this program - line by line:
@@ -116,18 +119,21 @@ Reading the file at the path passed as an argument. We're using the `fs` module 
 <summary>
 
 ```js
-const wordsContainingHyphens = content.split(" ").filter((word) => word.indexOf("-") > -1).length;
+const countOfWordsContainingEs = content
+  .split(" ")
+  .filter((word) => word.includes("e"))
+  .length;
 ```
 </summary>
 
-Just some regular JavaScript. Taking a string, splitting it into an array, filtering the array, searching strings to see if they contain characters, and getting the length of an array.
+Just some regular JavaScript. Taking a string, splitting it into an array, filtering the array, searching strings to see if they contain any e characters, and getting the length of an array.
 </details>
 
 <details>
 <summary>
 
 ```js
-console.log(wordsContainingHyphens);
+console.log(countOfWordsContainingEs);
 ```
 </summary>
 
@@ -135,7 +141,7 @@ console.log(wordsContainingHyphens);
 </details>
 
 {{<note type="Exercise">}}
-Save the above program into a file. Run the file with `node`, and count how many words contain hyphens in a few different files.
+Save the above program into a file. Run the file with `node`, and count how many words contain "e"s in a few different files.
 
 If you run into problems, ask for help.
 {{</note>}}
