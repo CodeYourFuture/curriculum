@@ -29,7 +29,7 @@ In this example, we'll call it `cow.py`.
 import cowsay
 ```
 
-If we try to run `python3 cow.py`, we'll get an error:
+Run `python3 cow.py`. It will trigger this error:
 
 ```
 ModuleNotFoundError: No module named 'cowsay'
@@ -54,7 +54,7 @@ When we activate a virtual environment, its name gets shown before our terminal 
 
 Run `python3 cow.py`. We don't get an error because we installed `cowsay` into our active virtual environment.
 
-Open a new terminal and run `python3 cow.py`. An error will occur because we haven't activated a virtual environment.
+Open a new terminal and run `python3 cow.py`. You will get an error again! This is because we haven't activated a virtual environment.
 
 Run `. .venv/bin/activate` and then `python3 cow.py`. It will start working again.
 

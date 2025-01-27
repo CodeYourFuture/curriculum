@@ -10,13 +10,13 @@ objectives = [
 ]
 +++
 
-Below we have a small NodeJS program. It is a bit like `wc`. It counts words in a file. Specifically, it counts words which contain a hyphen (`-`) character.
+Below we have a small NodeJS program. It is a bit like `wc`. It counts words in a file which contain a hyphen (`-`) character.
 
-It accepts one command line argument - the path of the file to read and count.
+Our program accepts one command line argument - the path of the file to read and count.
 
-Its output to stdout is just the number of words which contain a hyphen.
+Our program's output to stdout is just the number of words which contain a hyphen.
 
-It uses the same language (JavaScript) as we've written before, but uses some different APIs.
+Our program uses the same language (JavaScript) as we've written before, but uses some different APIs.
 
 ```js
 import process from "node:process";
@@ -56,9 +56,9 @@ We're importing another module.
 
 The `fs` module is built into NodeJS for interacting with the filesystem.
 
-This time, we're not importing the whole module. We are destructuring. The `node:fs` module exposes an object, and we are saying "import the `promises` property from the `fs` module, and bind it to the name `fs`".
+This time, we're not importing the whole module. We are {{<tooltip text="destructuring" title="Destructuring">}}Destructuring is a form of variable assignment where we give variables values based on where we can find them structurally in another value. Examples:<br /><br />We can write `const [first, second] = [3, 1];` to assign `first = 3` and `second = 1`.<br /><br />We can write `const {name, age} = {name: "Amir", age: 34};` to assign `name = "Amir"` and `age = 34`.{{</tooltip>}}. The `node:fs` module exposes an object, and we are saying "import the `promises` property from the `fs` module, and bind it to the name `fs`".
 
-It's the equivalent to us writing `import { promises } from "node:fs"; const fs = promises;`.
+It is like writing `import { promises } from "node:fs"; const fs = promises;`.
 
 We are doing this because many of the things in the `fs` module don't support `async`/`await`, but `fs` has a sub-module called `promises` where everything supports `async`/`await`. Because we want to use `async`/`await`, we will use that. But having to write `fs.promises.readFile` is a bit annoying, so instead we import `fs.promises` as if it was just named `fs`.
 
@@ -70,42 +70,69 @@ We're getting the `argv` array from the `process` module, and slicing it. We can
 
 Again, `Array.slice` is exactly the same as we know from JavaScript, but `process.argv` is a new API we can use to get the array we need.
 
+Play computer with the rest of the program - read each line, and explain what you think that line does. After you make your predictions, expand the explanations below and compare them to your predictions.
+
+<details>
+<summary>
+
 ```js
 if (argv.length != 1) {
     console.error(`Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`);
     process.exit(1);
 }
 ```
-
+</summary>
 We always expect our program to be given exactly one argument. Here we check this using an `if` statement, just like we've seen before.
 
 `console.error` writes a message to stderr (which is where error messages should go).
 
-`process.exit` is a function which, when called, will stop our program running. Passing a non-zero number to it indicates that our program did not succeed.
+`process.exit` is a function which, when called, will stop our program running. Passing a non-zero number to it indicates that our program did not succeed. We can read more about it in the official NodeJS documentation for the `process` module.
+
+</details>
+
+<details>
+<summary>
 
 ```js
 const path = argv[0];
 ```
+</summary>
 
 Giving a useful name to our argument.
+</details>
+
+<details>
+<summary>
 
 ```js
 const content = await fs.readFile(path, "utf-8");
 ```
+</summary>
 
 Reading the file at the path passed as an argument. We're using the `fs` module here from `node`, but everything else is just JavaScript - declaring a variable, using `await` because `fs.promises.readFile` is an `async` function, calling a function.
+</details>
+
+<details>
+<summary>
 
 ```js
 const wordsContainingHyphens = content.split(" ").filter((word) => word.indexOf("-") > -1).length;
 ```
+</summary>
 
 Just some regular JavaScript. Taking a string, splitting it into an array, filtering the array, searching strings to see if they contain characters, and getting the length of an array.
+</details>
+
+<details>
+<summary>
 
 ```js
 console.log(wordsContainingHyphens);
 ```
+</summary>
 
 `console.log` in a NodeJS environment logs to stdout, so this outputs our result to stdout.
+</details>
 
 {{<note type="Exercise">}}
 Save the above program into a file. Run the file with `node`, and count how many words contain hyphens in a few different files.

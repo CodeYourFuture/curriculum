@@ -20,6 +20,16 @@ When we want to answer some question, sometimes it's useful to write a program w
 
 It's not always obvious whether it's easier to try to use tools that already exist, or to write our own.
 
+> [!TIP]
+>
+> This is like in real life! Imagine if you had two differently sized bottles, and wanted to pour all of the liquid from one to the other without spilling any.
+>
+> You can imagine making the perfect tube that has exactly the right size connector at each end to connect to the bottles.
+>
+> Or maybe you already have a funnel that's about the right size - not perfect, but close enough, and you can probably use.
+>
+> But if you got a really wide or really narrow bottle, maybe that funnel wouldn't be good enough and you would need to make a custom solution.
+
 Sometimes the format of our data makes it easier or harder to use existing tools.
 
 Let's look at some sample data:

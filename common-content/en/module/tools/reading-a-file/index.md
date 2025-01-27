@@ -24,7 +24,7 @@ with open(args.path, "r") as f:
     content = f.read()
 ```
 
-Comparing these shows some interesting differences, particularly around scope.
+Comparing these shows some interesting differences, particularly around {{<tooltip text="scope" title="Scope">}}Scope is where a variable can be accessed from.{{</tooltip>}}.
 
 ### Scope
 

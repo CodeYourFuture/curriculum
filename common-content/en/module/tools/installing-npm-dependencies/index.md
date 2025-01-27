@@ -11,7 +11,7 @@ objectives = [
 
 To use a library, we need to fetch the code we're going to use. When using NodeJS, we use a tool called `npm` for this.
 
-First we need a `package.json` file - this a file that `npm` will read to understand your project.
+First we need a `package.json` file - this a file that `npm` will read to understand your project. This is the same as the `package.json` file you've seen when using `npm` in the past.
 
 Make this `package.json` file in the same directory as your hyphen-counting program:
 
