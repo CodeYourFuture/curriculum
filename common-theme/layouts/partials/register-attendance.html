@@ -13,6 +13,9 @@
 {{ $module := .module }}
 {{ $day := .day | urlize}}
 
+{{ $orgData := index site.Data.courses $course }}
+{{ $locations := $orgData.locations }}
+
 {{/* if any of these params are null, error */}}
 {{ if or (not $course) (not $module) (not $day) }}
   {{ errorf "register must go on a day plan and capture course, module, and day correctly" }}
@@ -37,15 +40,20 @@
   <input type="hidden" name="module" value="{{ $module }}">
   <input type="hidden" name="day" value="{{ $day }}">
   <input type="hidden" name="buildTime" value="{{ now.Format "2006-01-02T15:04:05" }}">
-  <div><label for="givenName" class="is-invisible">Given Name</label>
-  <input type="text" name="givenName" id="givenName" autocomplete="given-name" placeholder="Given Name" required>
-  </div>
-  <div><label for="familyName" class="is-invisible">Family Name</label>
-  <input type="text" name="familyName" id="familyName" autocomplete="family-name" placeholder="Family Name" required>
+  <div><label for="name" class="is-invisible">Name</label>
+  <input type="text" name="name" id="name" autocomplete="name" placeholder="Name" required>
   </div>
   <div><label for="email" class="is-invisible">Email</label>
   <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
   </div>
+  {{ with $locations }}
+  <div><label for="location" class="is-invisible">Location</label>
+  <input list="locations" name="location" id="location" autocomplete="location" placeholder="Location" required>
+  <datalist id="locations">
+    {{ range . }}<option value="{{.}}"></option>{{ end }}
+  </datalist>
+  </div>
+  {{ end }}
   <button class="e-button">Register</button>
 </form>
 </section>
