@@ -2,7 +2,6 @@
 title = 'Refactor'
 
 time = 30
-facilitation = false
 emoji= '🧹'
 [objectives]
     1='Identify and remove duplicated code'

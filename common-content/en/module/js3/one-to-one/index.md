@@ -2,7 +2,6 @@
 title = 'One-to-one mappings'
 
 time = 15
-facilitation = false
 emoji= '👭🏾'
 hide_from_overview = true
 [objectives]

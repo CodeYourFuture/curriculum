@@ -20,7 +20,6 @@ Look in the /archetypes for examples of possible [front matter](https://gohugo.i
 Theme-specific front matter params:
 
 - `time` - `Number` the time in minutes the block should take
-- `facilitation` - `Boolean` whether the block requires facilitation
 - `emoji` - `String` an emoji to represent the block
 - `objectives` - `Slice` a list of learning objectives for the block
 - `activity` - `Slice` a list of activities for the block

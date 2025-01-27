@@ -2,7 +2,6 @@
 title = 'Chaining Promises'
 
 time = 20
-facilitation = false
 emoji= '🔗'
 [objectives]
 [build]

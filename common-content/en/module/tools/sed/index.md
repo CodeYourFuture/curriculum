@@ -1,13 +1,16 @@
 +++
 title = "sed"
-headless = true
 time = 30
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Remove numbers from the start of lines in a file using sed"
-    2="Replace occurences of one string in a file with another using sed"
-    3="Print the lines of a file which don't contain some string using sed"
+emoji = "💻"
+objectives = [
+  "Remove numbers from the start of lines in a file using `sed`.",
+  "Replace occurrences of one string in a file with another using `sed`.",
+  "Print the lines of a file which don't contain some string using `sed`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `sed` is a tool for replacing text in files with other text.

@@ -2,7 +2,6 @@
 title = 'Rendering one card'
 
 time = 30
-facilitation = false
 emoji= '💽'
 hide_from_overview = true
 [objectives]

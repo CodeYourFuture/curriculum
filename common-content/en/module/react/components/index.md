@@ -2,7 +2,6 @@
 title = 'Components'
 
 time = 30
-facilitation = false
 emoji= '🧩'
 [objectives]
     1='Write your first React component'

@@ -2,7 +2,6 @@
 title = 'Break down the problem'
 
 time = "30"
-facilitation = false
 emoji= '🧩'
 hide_from_overview = true
 [objectives]

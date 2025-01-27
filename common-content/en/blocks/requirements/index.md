@@ -2,7 +2,6 @@
 title = 'Understanding Requirements'
 
 time = 20
-facilitation = false
 vocabulary=["Requirements", "User Stories"]
 emoji= '🎯'
 [objectives]

@@ -1,7 +1,6 @@
 +++
 title = 'Our mission'
 time = 10
-facilitation = false
 emoji= '🚀'
 [objectives]
 1='Define the mission of our organisation'

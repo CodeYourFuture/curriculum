@@ -2,7 +2,6 @@
 title = 'Introduction to PostgreSQL'
 
 time = 30
-facilitation = false
 emoji= '🐘'
 [objectives]
     1='Define what SQL is and what it is used for'

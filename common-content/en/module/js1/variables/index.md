@@ -2,7 +2,6 @@
 title = 'Saving expressions'
 
 time = 15
-facilitation = false
 emoji= '🏷️'
 [objectives]
 1='Identify the syntactic features of a variable declaration'

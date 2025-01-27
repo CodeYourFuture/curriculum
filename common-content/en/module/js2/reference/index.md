@@ -2,7 +2,6 @@
 title = 'References'
 
 time = 20
-facilitation = false
 emoji= '🏤'
 [objectives]
     1='Define reference'

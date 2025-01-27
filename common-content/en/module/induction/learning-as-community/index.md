@@ -2,7 +2,6 @@
 title = 'Learning as a community'
 
 time="60"
-facilitation = true
 emoji= '🏫'
 [objectives]
     1='Describe how we learn as a community'
