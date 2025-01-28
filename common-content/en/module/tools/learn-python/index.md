@@ -2,7 +2,6 @@
 title = "Learn Python"
 headless = true
 time = 30
-facilitation = false
 emoji= "❓"
 [objectives]
     1="Identify and explain why someone may use Python"

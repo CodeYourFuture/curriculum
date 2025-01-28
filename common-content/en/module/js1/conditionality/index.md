@@ -2,7 +2,6 @@
 title = 'Conditionally executing code'
 
 time = 30
-facilitation = false
 emoji= '❓'
 [objectives]
   1='Construct a flow diagram that describes how to produce an output from a given input'

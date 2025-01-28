@@ -16,6 +16,7 @@ import {Auth, google} from "googleapis";
 // Each spreadsheet must also give write access to the email listed below in CREDENTIALS.
 const COURSE_TO_SPREADSHEET_ID = {
   "cyf-itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
+  "cyf-piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
 };
 
 const CREDENTIALS = {
@@ -47,7 +48,7 @@ const handler = async (event, context) => {
   }
   const request = body.payload.data;
 
-  for (const requiredField of ["course", "module", "givenName", "familyName", "email", "day", "buildTime"]) {
+  for (const requiredField of ["course", "module", "name", "email", "day", "location", "buildTime"]) {
     if (!(requiredField in request)) {
       const error = `Request missing field ${requiredField}`;
       console.error(error, request);
@@ -83,7 +84,7 @@ const handler = async (event, context) => {
       insertDataOption: "INSERT_ROWS",
       resource: {
         values: [
-          [request.givenName, request.familyName, request.email, new Date().toISOString(), request.course, request.module, request.day, request.buildTime],
+          [request.name, request.email, new Date().toISOString(), request.course, request.module, request.day, request.location, request.buildTime],
         ],
       },
     });

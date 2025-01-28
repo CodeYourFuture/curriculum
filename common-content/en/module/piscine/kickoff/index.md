@@ -1,7 +1,7 @@
 +++
 title="Kickoff"
 time=60
-objectives=["Review project docs to form a development plan", "Setup a project board", "Break a brief down into small scoped tasks"]
+tasks=["Review project docs to form a development plan", "Setup a project board", "Break a brief down into small scoped tasks"]
 [build]
   render = 'never'
   list = 'local'

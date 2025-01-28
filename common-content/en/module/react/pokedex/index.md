@@ -2,7 +2,6 @@
 title = 'Pokedex'
 
 time = 30
-facilitation = false
 emoji= '📇'
 [objectives]
     1='Use the Teach Tech Together guide to construct your objectives'

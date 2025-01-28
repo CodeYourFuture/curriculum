@@ -1,7 +1,6 @@
 +++
 title = 'Blocks'
 time = 5
-facilitation = false
 hide_from_overview=false
 emoji= '🧩'
 [build]

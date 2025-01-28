@@ -2,7 +2,6 @@
 title = 'Running scripts'
 
 time = 10
-facilitation = false
 emoji= '📁'
 [objectives]
     1='Execute a JavaScript file with Node'

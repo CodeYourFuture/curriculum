@@ -2,7 +2,6 @@
 title = 'Breaking down the strategy'
 
 time = 20
-facilitation = false
 emoji= '⛓️‍💥'
 hide_from_overview = true
 [objectives]

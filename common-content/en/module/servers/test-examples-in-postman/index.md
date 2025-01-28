@@ -2,7 +2,6 @@
 title = 'Test Examples in Postman'
 
 time = 30
-facilitation = false
 emoji= '📮🧪'
 [objectives]
     1='Fork a Postman workspace'

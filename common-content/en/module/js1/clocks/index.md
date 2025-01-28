@@ -2,7 +2,6 @@
 title = '12 vs 24 hour clock'
 
 time = 10
-facilitation = false
 emoji= '🕛'
 hide_from_overview = true
 [objectives]

@@ -2,7 +2,7 @@
 title="Backlog"
 time=60
 hide_from_overview="true"
-objectives = [
+tasks = [
     "Create a strategy for implementing an application based on a set of user stories.",
     "Interpret business requirements and express them as test cases.",
     "Design interactions with a provided data set.",

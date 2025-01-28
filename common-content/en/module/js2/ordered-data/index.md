@@ -2,7 +2,6 @@
 title = 'Ordered data'
 
 time = 15
-facilitation = false
 emoji= '📏'
 [objectives]
     1='Explain the limitations of arrays when storing data'

@@ -2,7 +2,6 @@
 title = 'Implementing all the cases'
 
 time = 15
-facilitation = false
 emoji= '📈'
 hide_from_overview = true
 [objectives]

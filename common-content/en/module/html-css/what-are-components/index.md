@@ -2,7 +2,6 @@
 title = 'What are components?'
 
 time = 30
-facilitation = false
 emoji= '🧩'
 [objectives]
     1='Identify 5 UI components'

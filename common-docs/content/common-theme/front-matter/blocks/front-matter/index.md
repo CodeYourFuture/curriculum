@@ -1,7 +1,6 @@
 +++
 title = 'Front matter'
 time = 1
-facilitation = false
 hide_from_overview=false
 emoji= ''
 [build]

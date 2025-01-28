@@ -2,7 +2,6 @@
 title = 'Ship It'
 
 time = 60
-facilitation = false
 emoji= '🚢'
 [objectives]
 1='Export JavaScript written in CYF Blocks into a website'

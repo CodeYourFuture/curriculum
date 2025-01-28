@@ -2,7 +2,6 @@
 title = 'Terminal interface'
 
 time = 10
-facilitation = false
 emoji= '🖥️'
 [objectives]
 1='Identify the terminal and its purpose'

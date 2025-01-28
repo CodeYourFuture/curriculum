@@ -2,7 +2,6 @@
 title = 'Implementing Scalability in the Cloud'
 
 time = 15
-facilitation = false
 emoji= '🛸'
 [objectives]
     1='Identify a strategy for achieving vertical scaling with AWS RDS'

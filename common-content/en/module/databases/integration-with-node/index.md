@@ -2,7 +2,6 @@
 title = 'Integration with NodeJS'
 
 time = 45
-facilitation = false
 emoji= '☎️'
 [objectives]
     1='Connect a PostgreSQL database to a NodeJS application'

@@ -1,6 +1,5 @@
 +++
 title = 'Capturing the user event'
-
 time = 20
 facilitation = false
 emoji= '🦻🏻'
@@ -10,7 +9,6 @@ emoji= '🦻🏻'
   render = 'never'
   list = 'local'
   publishResources = false
-
 +++
 
 We've introduced our state, and our render works for different values of that state. But users of our website can't change the `searchTerm` state themselves. We need to introduce a way for them to change the `searchTerm` state via the UI.

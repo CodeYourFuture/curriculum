@@ -2,7 +2,6 @@
 title = 'Re-rendering'
 
 time = 10
-facilitation = false
 emoji= '🔁'
 [objectives]
     1='Re-render a page based on user input'

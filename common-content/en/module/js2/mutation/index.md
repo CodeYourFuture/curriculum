@@ -2,7 +2,6 @@
 title = 'Mutation'
 
 time = 25
-facilitation = false
 emoji= '🔀'
 [objectives]
     1='Define mutation'
