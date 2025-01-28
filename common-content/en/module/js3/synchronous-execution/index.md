@@ -7,7 +7,6 @@ emoji= '⏳'
 [objectives]
 1="Define asynchrony"
 2="Explain how synchronous execution works"
-3="Compare and contrast synchronous execution with asynchronous execution"
 [build]
   render = 'never'
   list = 'local'
