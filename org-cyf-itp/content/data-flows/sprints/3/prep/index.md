@@ -15,7 +15,7 @@ name="Latency"
 src="module/js3/latency"
 [[blocks]]
 name="Asynchrony"
-src="module/js3/asynchrony"
+src="module/js3/sync-vs-async"
 [[blocks]]
 name="Callbacks"
 src="module/js3/callbacks"

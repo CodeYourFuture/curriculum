@@ -1,18 +1,17 @@
 +++
-title = 'Asynchrony : outside time'
+title = 'Synchronous vs asynchronous execution'
 
-time = 40
+time = 10
 facilitation = false
 emoji= '⏳'
 [objectives]
 1="Define asynchrony"
-2="Explain why we need asynchrony"
-3="Identify an asynchronous method we have already used"
+2="Explain how synchronous execution works"
+3="Compare and contrast synchronous execution with asynchronous execution"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-
 +++
 
 We can handle latency using {{<tooltip title="asynchronous execution">}}Asynchronous execution is running code in a different order than it was written.{{</tooltip>}} To understand asynchrony we first need to be clear about {{<tooltip title="synchronous execution">}}Synchronous execution is running code in the order it is written.{{</tooltip>}}.

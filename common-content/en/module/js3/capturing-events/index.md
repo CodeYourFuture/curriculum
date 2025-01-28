@@ -1,7 +1,7 @@
 +++
 title = 'Capturing the user event'
 
-time = 15
+time = 20
 facilitation = false
 emoji= '🦻🏻'
 [objectives]
