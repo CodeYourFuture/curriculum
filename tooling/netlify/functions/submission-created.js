@@ -12,7 +12,7 @@ import {Auth, google} from "googleapis";
 // Each sheet listed here was manually crated, and its spreadsheet ID is taken from its URL.
 // Each spreadsheet is expected to contain one sheet per module, named for the module.
 // Each module sheet is expected to contain the following columns, in order:
-// Given Name | Family Name | Email | Timestamp | Course | Module | Day | Build Time
+// Name | Email | Timestamp | Course | Module | Day | Location | Build Time
 // Each spreadsheet must also give write access to the email listed below in CREDENTIALS.
 const COURSE_TO_SPREADSHEET_ID = {
   "itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
