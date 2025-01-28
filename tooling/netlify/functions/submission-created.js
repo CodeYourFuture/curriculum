@@ -15,8 +15,8 @@ import {Auth, google} from "googleapis";
 // Given Name | Family Name | Email | Timestamp | Course | Module | Day | Build Time
 // Each spreadsheet must also give write access to the email listed below in CREDENTIALS.
 const COURSE_TO_SPREADSHEET_ID = {
-  "cyf-itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
-  "cyf-piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
+  "itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
+  "piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
 };
 
 const CREDENTIALS = {
