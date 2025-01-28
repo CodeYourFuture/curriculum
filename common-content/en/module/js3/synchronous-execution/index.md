@@ -1,5 +1,5 @@
 +++
-title = 'Synchronous vs asynchronous execution'
+title = 'Synchronous execution'
 
 time = 10
 facilitation = false
