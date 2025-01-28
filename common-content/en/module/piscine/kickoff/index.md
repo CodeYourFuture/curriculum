@@ -16,7 +16,7 @@ It's important that software works and the people can use it
 
 ## 🎯 Goal:
 
-You will be split randomly into groups of 3-4.
+You will be split randomly into groups of 2-4.
 
 {{<note type="activity" title="Kickoff">}}
 
