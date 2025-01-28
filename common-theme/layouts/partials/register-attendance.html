@@ -13,7 +13,15 @@
 {{ $module := .module }}
 {{ $day := .day | urlize}}
 
+{{/* Note: These keys are hard-coded in submission-created.js - if you change them, you need to change them there as well. */}}
 {{ $orgData := index site.Data.courses $course }}
+{{ if eq $orgData nil }}
+  {{ $keys := slice }}
+  {{ range $key, $value := site.Data.courses }}
+    {{ $keys = append $key $keys }}
+  {{ end }}
+  {{ errorf "Couldn't find course data for course %s - knew about %s" $course $keys }}
+{{ end }}
 {{ $locations := $orgData.locations }}
 
 {{/* if any of these params are null, error */}}
