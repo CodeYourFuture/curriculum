@@ -34,7 +34,7 @@ The `file://` prefix indicates that your browser is reading the file directly fr
 
 ### Web Server Access: The HTTP Protocol
 
-The second approach involves using a local development server. You can create one using tools like [Python's built-in server](https://realpython.com/python-http-server/) or [Node.js's http-server](https://www.npmjs.com/package/http-server). These tools create a web server on your computer that serves your files using the HTTP protocol. Your browser will then access the files through a URL like:
+Another approach involves using a local development server. You can create one using tools like [Python's built-in server](https://realpython.com/python-http-server/) or [Node.js's http-server](https://www.npmjs.com/package/http-server). These tools create a web server on your computer that serves your files using the HTTP protocol. Your browser will then access the files through a URL like:
 
 ```
 http://localhost:8000/index.html
