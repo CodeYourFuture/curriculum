@@ -18,8 +18,8 @@ When the "input" event fires, our handler function will run. Inside the handler 
 
 So our key steps are:
 
-1. Add an input event listener to the search box
-2. In the handler, get `value` of input element
+1. Add an input event listener to the search box.
+2. In the handler, get the `value` of input element.
 3. Set the new state based on this value.
 4. Call our `render` function again.
 
