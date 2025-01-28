@@ -42,6 +42,8 @@ http://localhost:8000/index.html
 
 The `http://` prefix shows that you're accessing the file through a proper web server, even though that server is running on your own computer.
 
+You need to be using `http://` (or `https://`) _not_ `file://` in order to use `fetch`.
+
 ## Using `fetch`
 
 Previously, we had a list of films hard-coded in our `state`. Now, let's continue using our concept map to fetch data from a server.
