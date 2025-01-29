@@ -38,13 +38,14 @@ To complete the full requirements, you can build on the tasks we decide on today
 
 {{</note>}}
 
-Some of these tasks _block_ other tasks: one task must be completed before the other can start.
+Looking ahead to your coursework for the next week, one of your tasks will be to [Refine a ticket](https://github.com/CodeYourFuture/The-Piscine/issues/6).
 
-{{<note type="exercise" title="Identify blockers">}}
+{{<note type="exercise" title="Refining tickets">}}
 
-1. In groups of 2, discuss of the tasks on the whiteboard are blocking other tasks?
-2. As a group, discuss which tasks are blockers.
-3. Again as a group, discuss what actions you could take to avoid being blocked by these tasks?
+1. Everyone read the [Refine a ticket coursework task](https://github.com/CodeYourFuture/The-Piscine/issues/6), for {{<timer>}}3{{</timer>}} minutes.
+2. Get into pairs. Each pair should then pick 2 of the tasks from the whiteboard (it doesn't matter if multiple pairs do the same task). Spend {{<timer>}}10{{</timer>}} minutes refining your tickets in your pairs. Make sure you work through **all** of the workflow points.
+3. Go around each pair in the group. The pair should pick 1 of their tasks and say what they think the priority, estimate, schedule and type of work the task is, and if there is anything they would need to know before starting the ticket. (Hint: the last point is **important**! Don't skip it!)
+4. As a group, pick a task (or two, depending on time) that needs more information. Spend {{<timer>}}10{{</timer>}} minutes discussing what actions you could take to ensure everyone has what they need to complete this task?
 
 {{</note>}}
 
