@@ -25,7 +25,7 @@ We will practice this together on the two of the requirements of the project:
 To complete these requirements we'd need to build most of the project! So we'll focus on simplified versions of these requirements:
 
 - When the page loads, display one revision date for one topic from in User 1's stored agenda
-- When clicking a button, store _hard-coded_ data for User 1's agenda
+- When clicking a button, store {{<tooltip title="hard-coded">}}Hard-coding refers to when developers directly write values or data into code, often replacing variables or user input with static values.{{</tooltip>}} data for User 1's agenda
 
 To complete the full requirements, you can build on the tasks we decide on today.
 
