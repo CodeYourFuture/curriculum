@@ -127,6 +127,8 @@ const content = await fs.readFile(path, "utf-8");
 </summary>
 
 Reading the file at the path passed as an argument. We're using the `fs` module here from `node`, but everything else is just JavaScript - declaring a variable, using `await` because `fs.promises.readFile` is an `async` function, calling a function.
+
+You can read more about this in [the documentation for `fs.promises.readFile`](https://nodejs.org/api/fs.html#fspromisesreadfilepath-options).
 </details>
 
 <details>
