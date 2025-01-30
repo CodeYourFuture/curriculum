@@ -63,7 +63,13 @@ This time, we're not importing the whole module. We are {{<tooltip text="destruc
 
 It is like writing `import { promises } from "node:fs"; const fs = promises;`.
 
-We are doing this because many of the things in the `fs` module don't support `async`/`await`, but `fs` has a sub-module called `promises` where everything supports `async`/`await`. Because we want to use `async`/`await`, we will use that. But having to write `fs.promises.readFile` is a bit annoying, so instead we import `fs.promises` as if it was just named `fs`.
+The `fs` module exposes two alternate APIs with functions with the same name (like `readFile`):
+* The default `fs` module was written before `async`/`await` was added to JavaScript, and requires using callbacks, which can be annoying.
+* `fs` has a submodule called `promises` which can be used with `async`/`await`, and is generally much more convenient.
+
+We want to use the `promises` submodule, because it's much more convenient for us to use `async`/`await`. But if we just wrote `import { promises } from "node:fs";`, we'd be binding the submodule to the name `promises`, and everywhere we used it we'd need to write `promises.readFile`. This is less clear than `fs.readFile`, because `promises` is a very general name. So we rename `promises` to `fs`, and can use it like `fs.readFile`.
+
+We are really doing this because we wish the `async`/`await` APIs were the default APIs exposed by the `fs` module, and this lets us pretend that they are in the rest of our code.
 
 ```js
 const argv = process.argv.slice(2);
