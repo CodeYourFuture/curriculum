@@ -1,7 +1,7 @@
 +++
 title = "Counting words containing a character"
 headless = true
-time = 15
+time = 45
 facilitation = false
 emoji= "📖"
 hide_from_overview = true
@@ -22,28 +22,23 @@ What JavaScript calls arrays, Python calls lists. Arrays and lists are basically
 
 Googling for "Python filter list" suggests there are two things we can use - a `filter` function, or something called a "list comprehension". Some people prefer one, other people prefer the other.
 
-Using filter (`lambda` is a keyword for making an anonymous function in Python):
+Let's try out both approaches. We can do this in a standalone program, rather than in the whole word-counting program. This gives us a lot more control, and makes it easier for us to experiment.
+
+{{<note type="Exercise">}}
+Create a new file, `filter.py`. Start it with:
 
 ```python
-filter(lambda word: args.char in word, content.split(" "))
+content = "this is a list of words"
+char = "i"
+
+filtered = TODO
+
+print(filtered)
 ```
 
-Using a list comprehension:
+Now fill in the TODO. First, use a list comprehension. Run the file and make sure you get the expected output.
 
-```python
-[word for word in content.split(" ") if args.char in word]
-```
+Next, replace your list comprehension with some code that calls the global function `filter`. (`filter` takes a function, and it may be useful to know that `lambda` is a keyword for making an anonymous function in Python, similar to arrow functions in JavaScript). Run the file and make sure you get the expected output.
+{{</note>}}
 
-Then we need to get the length of the produced list. Googling "python length of list" tells us we wrap our list in a call to `len()`, giving:
-
-```python
-len([word for word in content.split(" ") if args.char in word])
-```
-
-or
-
-```python
-len(filter(lambda word: args.char in word, content.split(" ")))
-```
-
-The list comprehension version of this works. The `filter` version gives an error. We can try to understand and fix the error, or just use the list comprehension version.
+Now that we've learnt how to do the filtering, we can apply what we've learnt to the program we're converting.
