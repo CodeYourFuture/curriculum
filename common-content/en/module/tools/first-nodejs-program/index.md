@@ -71,6 +71,14 @@ We want to use the `promises` submodule, because it's much more convenient for u
 
 We are really doing this because we wish the `async`/`await` APIs were the default APIs exposed by the `fs` module, and this lets us pretend that they are in the rest of our code.
 
+{{<note type="🧠 Think">}}
+`fs` uses callbacks or promises because its operations are asynchronous.
+
+Why would interacting with the filesystem (e.g. reading a file) be an asynchronous operation?
+
+Explain on a Slack thread why you think this is. If you're not sure, ask about it on Slack.
+{{</note>}}
+
 ```js
 const argv = process.argv.slice(2);
 ```
