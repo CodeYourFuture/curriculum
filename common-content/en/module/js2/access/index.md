@@ -2,7 +2,6 @@
 title = 'Accessing properties'
 
 time = 15
-facilitation = false
 emoji= '🚪'
 [objectives]
     1='Access object property values with dot notation'

@@ -2,7 +2,6 @@
 title = 'Writing an assertion'
 
 time = 45
-facilitation = false
 emoji= '✏️'
 [objectives]
 1='Describe the difference between console.log and console.assert'

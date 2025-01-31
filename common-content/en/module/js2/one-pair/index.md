@@ -2,7 +2,6 @@
 title = 'Parsing a single key-value pair'
 
 time = 30
-facilitation = false
 emoji= '❓'
 [objectives]
     1='Suggest a way of splitting a string into an array'

@@ -2,7 +2,6 @@
 title = 'Recap HTML and CSS'
 
 time = 40
-facilitation = false
 emoji= '🔁'
 [objectives]
     1='Name 3 HTML tags'

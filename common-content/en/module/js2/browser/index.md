@@ -2,7 +2,6 @@
 title = 'User interfaces'
 
 time = 10
-facilitation = false
 emoji= '💻'
 [objectives]
     1='Define static html'

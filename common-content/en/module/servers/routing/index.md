@@ -2,7 +2,6 @@
 title = 'Routing'
 
 time = 30
-facilitation = false
 emoji= '🛤️'
 [objectives]
     1='Identify the endpoint in a URL'

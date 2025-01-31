@@ -1,7 +1,6 @@
 +++
 title = 'Branching'
 time =45
-facilitation = false
 emoji= '🌳'
 [objectives]
     1="Explain why a git repository may have multiple branches"

@@ -2,7 +2,6 @@
 title = 'Criteria'
 
 time = 60
-facilitation = false
 emoji=  '🎯' 
 [objectives]
     1='List the criteria for starting a Portfolio module'

@@ -2,7 +2,6 @@
 title = 'Ubuntu setup'
 
 time = 45
-facilitation = false
 emoji= '🐧'
 [objectives]
     1='Set up PostgresQL on an Ubuntu OS'

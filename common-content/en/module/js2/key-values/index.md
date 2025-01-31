@@ -2,7 +2,6 @@
 title = 'Key-value pairs'
 
 time = 10
-facilitation = false
 emoji= '🗝️'
 [objectives]
     1='Define an object property'

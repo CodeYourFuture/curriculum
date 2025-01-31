@@ -2,7 +2,6 @@
 title = 'Working locally'
 
 time ="20"
-facilitation = false
 emoji= '🏠'
 [objectives]
     1='Clone a remote repository from GitHub into a local folder'

@@ -2,7 +2,6 @@
 title = 'What is React'
 
 time = 5
-facilitation = false
 emoji= '🪄'
 [objectives]
     1='Find the docs'

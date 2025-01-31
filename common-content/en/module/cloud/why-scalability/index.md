@@ -2,7 +2,6 @@
 title = 'Why is scalability important?'
 
 time = 5
-facilitation = false
 emoji= '🎚️'
 [objectives]
     1='List the benefits and challenges of scalability'

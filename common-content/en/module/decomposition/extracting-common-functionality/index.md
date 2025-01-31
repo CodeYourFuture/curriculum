@@ -2,7 +2,6 @@
 title = "Extracting common functionality"
 headless = true
 time = 30
-facilitation = false
 emoji= "📖"
 [objectives]
     1="Identify and explain the risks and costs of duplicate code"

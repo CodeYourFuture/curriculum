@@ -17,6 +17,56 @@ Attendees:
 
 ---
 
+## 2025-01-14
+
+Attendees: Ali, Mitch, Sally
+
+### ❗Actions from last time
+
+* [ ] Mitch (carry-over): Write up a ticket to replace Jest with vanilla Node testing libraries
+* [ ] Mitch: Write up why the curriculum looks like it does, and isn't set up like a reference
+* [ ] Ali: Write up a ticket for "Make it easy to say out loud here's what we teach and why"
+
+### 📝 Agenda points
+
+#### Piscine projects
+
+* Daniel: We should pick the actual Piscine projects for February this week. I'm not sure we actually have two team projects right now? Days Calendar is one, so we should probably do that. Repetition Tracker is probably team-able-enough, so maybe that? And as an individual project either Shared Bookmarks or Music Data or Codewars Leaderboard? We should decide this this week so we can update the site
+* Decision: agree with Daniel's proposal above. Days Calendar & Repetition Tracker are the team projects. Shared Bookmarks, Music Data & Codewars Leaderboard can be individual projects
+* Sally & Mitch to (re-)familiarise themselves with the projects
+
+#### Application timelines
+
+* Daniel's proposal: cutoff on the 27th Jan
+  * Decision: no objections to that
+* Sally: Estimating ~16 applicants
+  * More than 30 would be a bit of a problem for us in Piscine logistically, but looking very unlikely
+* Mitch: What level are they at?
+  * Sally: Pretty good, roughly 10 completed before Jan
+  * A few more are attempting to finish up now - sense that there's a fair bit of ChatGPT here, but Piscine should weed this out
+* Sally: Given that we have a sense of who is doing well from ITP, is there a future where we don't need the Piscine & can just rely on ITP progress?
+  * Ali: Have to account for ChatGPT, so suspect we'll need something, even if it's much stripped down than the Piscine
+
+#### Prep for Piscine
+
+* Sally: Do we want to organise some prep ahead of the Piscine?
+  * Decision: yes, seems reasonable
+
+#### Sprint planning
+
+- Looked through In Review & In Progress, checked statuses
+- Generally agreed to focus on Piscine prep instead of picking up new tickets
+
+### ❗Actions
+
+* [ ] Mitch (carry-over): Write up a ticket to replace Jest with vanilla Node testing libraries
+* [ ] Mitch (carry-over): Write up why the curriculum looks like it does, and isn't set up like a reference
+* [ ] Ali (carry-over): Write up a ticket for "Make it easy to say out loud here's what we teach and why"
+* [ ] Sally & Mitch: Familiarise with Piscine projects
+* [ ] Someone??: Organise a Piscine prep session for us
+
+---
+
 ## 2024-12-17
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath

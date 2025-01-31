@@ -2,7 +2,6 @@
 title = 'Creating elements with functions'
 
 time = 30
-facilitation = false
 emoji= '🧼'
 [objectives]
     1='Extract functions for common tasks'

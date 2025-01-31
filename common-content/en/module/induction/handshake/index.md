@@ -1,7 +1,6 @@
 +++
 title = 'Handshake'
 time = 15
-facilitation = false
 emoji= '🫱🏽‍🫲🏿'
 [objectives]
     1='Transfer and bookmark any key google sheets from previous cohort channel to current cohort channel'

@@ -1,13 +1,17 @@
 +++
 title = "awk"
-headless = true
 time = 20
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Filter a space-separated file and extract a positional field using awk"
-    2="Sum the numbers in a column of a space-separated file using awk"
-    3="Explain what NF and $NF mean in awk"
+emoji = "💻"
+objectives = [
+  "Filter a space-separated file and extract a positional field using `awk`.",
+  "Sum the numbers in a column of a space-separated file using `awk`.",
+  "Explain what `NF` and `$NF` mean in awk.",
+]
+
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `awk` is a tiny programming language for manipulating columns of data.

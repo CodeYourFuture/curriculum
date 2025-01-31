@@ -2,7 +2,6 @@
 title = 'Interpreting feedback'
 
 time = 25
-facilitation = false
 emoji= '✅❌'
 [objectives]
     1='Identify current output and target output in test feedback'

@@ -2,7 +2,6 @@
 title = 'Fetch Films'
 
 time = 30
-facilitation = false
 emoji= '🐕 🎞️'
 [objectives]
     1='Apply fetch to get data from an API'

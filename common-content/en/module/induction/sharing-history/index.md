@@ -2,7 +2,6 @@
 title = 'Sharing history'
 
 time="30"
-facilitation = false
 emoji= '🗄️'
 [objectives]
 1='Identify the number of commits on the main branch of a remote repository'

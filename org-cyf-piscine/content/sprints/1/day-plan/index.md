@@ -12,20 +12,23 @@ time=15
 name="Energiser"
 src="energisers/zip-zap-boing"
 [[blocks]]
-name="Morning break"
-src="blocks/morning-break"
-[[blocks]]
 name="Kickoff"
 src="module/piscine/kickoff"
 time=20
 [[blocks]]
-name="First group project"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-1"
-time=45
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Group Project: Spaced Repetition Tracker"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Spaced-Repetition-Tracker"
+time=30
+[[blocks]]
+name="Practice breaking down a requirement"
+src="module/piscine/practice-break-down"
 [[blocks]]
 name="Development"
 src="module/piscine/development"
-time="60"
+time="20"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
