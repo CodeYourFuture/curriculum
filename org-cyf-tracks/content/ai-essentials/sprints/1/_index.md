@@ -1,5 +1,5 @@
 +++
-title = 'Sprint 1'
+title = 'AI Sprint 1'
 description = 'Introduction to AI; Maximise productivity with AI tools'
 layout = 'sprint'
 emoji= '🧱'
