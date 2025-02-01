@@ -15,7 +15,7 @@ objectives = [
 
 ### Welcome
 
-You must **apply** to join this track. If you meet the eligibility criteria, you will be invited to join the next run of this track.
+You must **apply** to join this track. If you meet the eligibility criteria, you will be invited to join the next run of this track. CYF will run this track six times in 2025 and six times in 2026. This track is delivered in partnership with the [Centre for Public Impact Google.org AI Opportunity Fund: Europe](https://centreforpublicimpact.org/ai-opportunity-fund/). You can find the dates on the Global Calendar.
 
 EMBED APPLICATION FORM HERE
 

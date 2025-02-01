@@ -14,7 +14,7 @@ name="Application"
 src="module/entry-tracks/application"
 [[blocks]]
 name="Goals"
-src="module/entry-tracks/goals"
+src="blocks/ai-essentials/goals"
 [[blocks]]
 name="Expectations"
 src="module/entry-tracks/expectations"
