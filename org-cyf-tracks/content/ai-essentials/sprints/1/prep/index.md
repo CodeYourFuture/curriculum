@@ -8,6 +8,9 @@ weight = 1
 name="Prep for this class"
 src="module/entry-tracks/preparation"
 [[blocks]]
+name="Prepare your CV"
+src="https://github.com/CodeYourFuture/Track-AI-Essentials/issues/11"
+[[blocks]]
 name="Module 1: Introduction to AI"
 src="https://github.com/CodeYourFuture/Track-AI-Essentials/issues/2"
 [[blocks]]
