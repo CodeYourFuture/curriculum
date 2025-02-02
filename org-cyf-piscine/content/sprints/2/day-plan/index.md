@@ -11,12 +11,12 @@ src="energisers/blockers"
 name="Demo"
 src="module/piscine/demo"
 [[blocks]]
-name="Morning break"
-src="blocks/morning-break"
-[[blocks]]
 name="Kickoff"
 src="module/piscine/kickoff"
 time=20
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
 [[blocks]]
 name="Group Project: Days Calendar"
 src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar"
