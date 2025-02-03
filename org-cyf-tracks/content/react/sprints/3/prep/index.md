@@ -4,8 +4,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
-backlog= 'Module-React'
-backlog_filter='📅 Week 3'
 [[blocks]]
 name="Fetching data"
 src="module/react/fetching-data"

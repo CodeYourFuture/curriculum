@@ -5,8 +5,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
-backlog= 'Module-Databases'
-backlog_filter='📅 Week 1'
 [[blocks]]
 name="Introduction to Databases"
 src="module/databases/introduction-to-db"
