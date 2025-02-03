@@ -11,7 +11,7 @@ name="Pre-requisites"
 src="blocks/ai-essentials/prereqs"
 [[blocks]]
 name="Application"
-src="module/entry-tracks/application"
+src="blocks/ai-essentials/application"
 [[blocks]]
 name="Goals"
 src="blocks/ai-essentials/goals"
