@@ -4,8 +4,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
-backlog= 'Module-React'
-backlog_filter='📅 Week 1'
 [[blocks]]
 name="What is React"
 src="module/react/what-is-react"

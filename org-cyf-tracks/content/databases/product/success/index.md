@@ -5,7 +5,6 @@ layout = "success"
 emoji= "✅"
 menu_level = [ "product" ]
 weight = 11
-backlog= "Full-Stack-Project-Assessment"
 [[objectives]]
 1= "You have completed the levels for each sprint"
 2= "You have met the listed Acceptance Criteria for each sprint"

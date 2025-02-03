@@ -5,7 +5,6 @@ layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
-backlog= 'Module-JS1'
 [[objectives]]
 1="Distinguish interface from implementation"
 2="Translate requirements into unit tests"
