@@ -6,10 +6,10 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Translate requirements into high-level design outlines"
-2="Break down solving problems into testable steps"
-3="Ask questions systematically using a given formal language"
-4="Demonstrate good citizenship on GitHub by participating in code review on PRs"
-5="Solve at least 6 7kyu problems in Codewars"
-6="Solve up to level 5 in the Bandit repeatedly"
+1="Work with binary, hexadecimal, and decimal numbers"
+2="Explain what a CPU is, what main memory is, and how they interact"
+3="Describe an operating system, including the kernel, processes, and syscalls"
+4="Process text files using standard command line tools, including in pipelines"
+5="Write command line tools using JavaScript + NodeJS, including dependencies from npm"
+6="Write command line tools using Python, including dependencies from pypi"
 +++

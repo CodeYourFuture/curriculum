@@ -1,7 +1,6 @@
 +++
 title = 'Capturing the user event'
-
-time = 15
+time = 20
 emoji= '🦻🏻'
 [objectives]
     1='Add an event listener to a user input'
@@ -9,7 +8,6 @@ emoji= '🦻🏻'
   render = 'never'
   list = 'local'
   publishResources = false
-
 +++
 
 We've introduced our state, and our render works for different values of that state. But users of our website can't change the `searchTerm` state themselves. We need to introduce a way for them to change the `searchTerm` state via the UI.
@@ -26,33 +24,13 @@ function handleSearchInput(event) {
 }
 ```
 
-When the "input" event fires, our handler function will run. Inside the handler we can access the updated input value: `const searchTerm = event.target.value;`
-
-So our key steps are:
-
-1. Add an input event listener to the search box
-2. In the handler, get `value` of input element
-3. Set the new state based on this value.
-4. Call our `render` function again.
-
-{{<note type="warning" title="One thing at a time!">}}
-But we're not going to do all of these at once! Stop and implement just the first two steps (adding the event listener, and getting the value), and `console.log` the search term.
-
-{{</note>}}
-
-We will make sure this works before we try to change the UI. Why? If we try to add the event listener and something _doesn't_ work, we will only have a little bit of code to debug.
-
-If we tried to solve the whole problem (updating the UI) and something didn't work, we would have a _lot_ of code to debug, which is harder!
-
-We've now demonstrated that we can capture search text on every keystroke:
+These listeners wait for specific events to occur, and when they do, they trigger a callback function we've defined. This gives us a way to make our code respond to user actions rather than running all at once.
 
 ```js
-const searchBox = document.getElementById("search");
-
-searchBox.addEventListener("input", handleSearchInput);
-
-function handleSearchInput(event) {
-  const searchTerm = event.target.value;
-  console.log(searchTerm);
-}
+const search = document.getElementById("search");
+search.addEventListener("input", handleInput);
 ```
+
+When we call `addEventListener`, it doesn't immediately execute the `handleInput` function. Instead, it sets up a listener that will run this function later. Event listeners are part of the web browser's Event API. But event listeners themselves aren't part of the core JavaScript language! When you create an event listener, you're making a request to a Web API to handle this functionality for you. In this pattern, the callback function (`handleInput`) only executes when a user types. These callback functions need to execute in response to user interactions. This lets us tell the browser exactly what actions to take once a particular event occurs.
+
+Callback functions are essential for handling user interactions in web browsers. They allow our code to execute in response to an event. The browser listens for events and executes our callback functions at the right time. It is our job to define what should happen when those events occur.
