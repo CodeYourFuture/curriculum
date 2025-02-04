@@ -8,17 +8,17 @@
 
 ## What is this?
 
-This repo houses both our main curriculum content and our curriculum platform. 
+This repo houses both our main curriculum content and our curriculum platform.
 
 ## About our curriculum
 
-Code Your Future is a volunteer-led community of tech professionals, and we teach people to code for free. We consider ourselves to be professionals helping other professionals, so our instructional approach is not hierarchical, and we encourage our volunteers to test out new material early and often. Our main curriculum (the repo you're looking at now) threads a coherent line through all of this activity, so whatever worlds we explore, everyone can come back here to find out what to do next.  
+Code Your Future is a volunteer-led community of tech professionals, and we teach people to code for free. We consider ourselves to be professionals helping other professionals, so our instructional approach is not hierarchical, and we encourage our volunteers to test out new material early and often. Our main curriculum (the repo you're looking at now) threads a coherent line through all of this activity, so whatever worlds we explore, everyone can come back here to find out what to do next.
 
 Our curriculum content is all open source, and our teaching style is [flipped classroom](https://teachingcommons.stanford.edu/teaching-guides/blended-and-hybrid-teaching-guide/frameworks-blended-and-hybrid-teaching/flipped). This means that anyone should be able to follow the curriculum content independently. We offer mentoring and support to help people work through it, but the content does not assume a teacher/mentor will be present for programme delivery.
 
-Our Global Syllabus Team is responsible for the overall direction of the main curriculum. They decide the strategy and accept new tested content into the core. Find out more by learning [how to contribute](/CONTRIBUTING.md). 
+Our Global Syllabus Team is responsible for the overall direction of the main curriculum. They decide the strategy and accept new tested content into the core. Find out more by learning [how to contribute](/CONTRIBUTING.md).
 
-Our curriculum and our curriculum platform are tightly integrated with GitHub. We want our learners to know how to use Git and GitHub and how modern development practices work, so we do almost everything right on GitHub. Learners submit their work by creating a pull request to the project repo. They plan their work using GitHub Projects, and they track their progress on the issues. We code review via the GitHub PR interface, and we have some automation and unit testing on quizzes and exercises/problems. 
+Our curriculum and our curriculum platform are tightly integrated with GitHub. We want our learners to know how to use Git and GitHub and how modern development practices work, so we do almost everything right on GitHub. Learners submit their work by creating a pull request to the project repo. They plan their work using GitHub Projects, and they track their progress on the issues. We code review via the GitHub PR interface, and we have some automation and unit testing on quizzes and exercises/problems.
 
 The curriculum content is developed in the Hugo module [/common-content](/common-content). This content is all headless blocks. It doesn't create any pages on your site unless you call it somewhere.
 
@@ -30,7 +30,7 @@ The platform, layout, styles and components are all developed in the Hugo module
 
 Multi-language support is provided by [Hugo's i18n support](https://gohugo.io/content-management/multilingual/).
 
-Common is tightly integrated with GitHub. Really the main content should always be project work in GitHub repositories, and any site generated with Common should be a viewer for that content. 
+Common is tightly integrated with GitHub. Really the main content should always be project work in GitHub repositories, and any site generated with Common should be a viewer for that content.
 
 Each org or team configures its own Hugo site that mounts the common theme and content modules, and then makes any customisations they need and deploys it wherever they want. You can use any repo to do this and your site can be as simple as a `hugo.toml` and a `content/_index.md`. We'd love for you to use Common, too!
 
@@ -40,7 +40,6 @@ Each org or team configures its own Hugo site that mounts the common theme and c
 - https://projects.codeyourfuture.io/
 - https://workshops.codeyourfuture.io/
 - https://programming.codeyourfuture.io/
-- https://guides.codeyourfuture.io/
 - https://launch.codeyourfuture.io/
 - https://piscine.codeyourfuture.io/
 - https://sdc.codeyourfuture.io/
