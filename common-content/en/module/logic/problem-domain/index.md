@@ -13,6 +13,8 @@ emoji= "🗺️"
 
 > The problem domain is a bounded space that contains all possible solutions to a problem. Everything outside the problem domain is impossible or irrelevant.
 
+{{<columns>}}
+
 <figure>
 
 ```mermaid
@@ -29,19 +31,16 @@ stateDiagram-v2
 <figcaption>Each constraint reduces our problem space</figcaption>
 </figure>
 
-Before we can solve a problem, we need to understand what's possible. In [Twenty Questions](http://20q.net/):
+<--->
 
 > _Given_ no constraints  
-> The answer could be anything in the universe!  
-> _When_ we add "must be an animal"  
-> We constrain to a manageable domain
+> _Then_... the answer could be anything in the universe!  
+> _When_ we add "must be a number"  
+> _Then_ we constrain to the domain of numbers
 
-Understanding our problem domain means:
+{{</columns>}}
 
-1. Starting with everything possible
-2. Adding constraints one by one
-3. Reaching a bounded space we can search
-4. Only then starting to solve
+Before we can solve a problem, we need to understand what's possible. In [Twenty Questions](http://20q.net/) we start with everything in the universe, then ask questions to reduce our problem space. We might start with "Is it alive?" to constrain our domain to animals, then "Is it a mammal?" to reduce further.
 
 {{<blocklink
   src="http://20q.net/"

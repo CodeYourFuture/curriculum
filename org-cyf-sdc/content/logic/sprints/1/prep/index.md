@@ -27,6 +27,6 @@ src="module/logic/falsification"
 name="Bisection"
 src="module/logic/bisection"
 [[blocks]]
-name="Binary Search"
-src="module/logic/binary-search"
+name="Binary Logic"
+src="module/logic/binary-logic"
 +++

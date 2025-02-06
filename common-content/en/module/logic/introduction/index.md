@@ -25,10 +25,9 @@ In class this week _you_ will be teaching something. You will be explaining one 
 ### Mental models
 
 1. **Deduction**: Reasoning from general rules to a specific conclusion that is _definitely_ true
-2. **Induction**: Reasoning from specific examples to form general patterns that are _probably_
-3. **Abduction**: Reasoning to the best explanation for all the evidence we observe
-4. **Falsification**: Testing a theory by trying to prove it wrong
-5. **Problem Domain**: Identifying the bounded space that contains all possible solutions to a problem
-6. **Bisection**: Reasoning by reducing a problem space to the smallest possible size
-7. **Simplification**: Reducing a problem to its simplest form
-8. **Binary Search**: A bisection strategy for finding a specific value in a sorted list
+1. **Induction**: Reasoning from specific examples to form general patterns that are _probably_
+1. **Abduction**: Reasoning to the best explanation for all the evidence we observe
+1. **Falsification**: Testing a theory by trying to prove it wrong
+1. **Problem Domain**: Identifying the bounded space that contains all possible solutions to a problem
+1. **Bisection**: Reasoning by reducing a problem space to the smallest possible size
+1. **Binary Logic**: Reasoning with only two possible states (true or false)
