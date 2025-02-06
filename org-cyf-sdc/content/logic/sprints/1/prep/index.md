@@ -1,11 +1,32 @@
 +++
 title = 'prep'
-description = 'Overview description of the prep work for the sprint'
+description = 'Mental models for logical reasoning'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-title = "Coming soon"
-src = "blocks/coming-soon"
+name = "Introduction"
+src = "module/logic/introduction"
+[[blocks]]
+name = "Deduction"
+src = "module/logic/deduction"
+[[blocks]]
+name = "Induction"
+src = "module/logic/induction"
+[[blocks]]
+name = "Abduction"
+src = "module/logic/abduction"
+[[blocks]]
+name="Problem Domain"
+src="module/logic/problem-domain"
+[[blocks]]
+name="Falsification"
+src="module/logic/falsification"
+[[blocks]]
+name="Bisection"
+src="module/logic/bisection"
+[[blocks]]
+name="Binary Search"
+src="module/logic/binary-search"
 +++
