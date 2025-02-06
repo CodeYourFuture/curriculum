@@ -1,7 +1,7 @@
 +++
 title = "Limitations of backends"
 headless = true
-time = 20
+time = 30
 facilitation = false
 emoji= "✋"
 objectives = [

@@ -31,6 +31,8 @@ Your frontend should not have any quotes hard-coded in it. It should make a `fet
 It should have a button to fetch a new quote, which should fetch and render a different quote.
 
 It can be as ugly as you want, the purpose of this exercise is not to make a beautiful UI, but to see how things connect.
+
+You don't need to support adding new quotes yet - we'll do that later.
 {{</note>}}
 
 > [!TIP]

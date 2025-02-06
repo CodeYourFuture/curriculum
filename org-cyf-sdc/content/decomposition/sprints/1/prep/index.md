@@ -6,6 +6,12 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="Overview"
+src="blocks/decomposition-sprint1-overview"
+[[blocks]]
+name="Limitations and trade-offs"
+src="module/decomposition/limitations-and-trade-offs"
+[[blocks]]
 name="Read about the Internet"
 src="module/decomposition/read-about-the-internet"
 [[blocks]]
@@ -47,12 +53,6 @@ src="module/decomposition/design-trivial-frontend-and-backend"
 [[blocks]]
 name="Write a frontend and backend"
 src="module/decomposition/write-trivial-frontend-and-backend"
-[[blocks]]
-name="Adding quotes"
-src="module/decomposition/adding-quotes"
-[[blocks]]
-name="Data validation"
-src="module/decomposition/data-validation"
 [[blocks]]
 name="Deploy a frontend and backend"
 src="module/decomposition/deploy-trivial-frontend-and-backend"
