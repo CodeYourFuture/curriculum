@@ -5,7 +5,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
-backlog= 'Module-Databases'
 [[blocks]]
 name="ubuntu setup"
 src="module/databases/ubuntu-setup"
@@ -23,7 +22,9 @@ We shall be using PostgreSQL - a widely used relational database. It's open-sour
 
 {{<note title="Windows" type="warning">}}
 Windows is not supported at CYF. You are not allowed to use Windows.
+
 <!-- END-CYF-ONLY -->
+
 {{</note>}}
 
 If you get stuck post a message asking for help on your class channel.

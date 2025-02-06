@@ -5,7 +5,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
-backlog= 'Module-Servers'
 [[blocks]]
 name="Install Postman"
 src="module/servers/postman"
