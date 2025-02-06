@@ -9,12 +9,11 @@
 
 // markdown checklist we are trying to hijack from gfm
 
-ul:has(input[type="checkbox"]),
 li:has(input[type="checkbox"]) {
   padding: 0;
   margin: 0 0 var(--theme-spacing--1) 0;
   list-style: none;
-  &::marker {
+  &::before {
     content: "☑️ ";
     font-size: 22px;
   }
@@ -25,13 +24,12 @@ li:has(input[type="checkbox"]) {
   }
 }
 li:has(input[type="checkbox"]:checked) {
-  &::marker {
+  &::before {
     content: "✅ ";
-    font-size: 21.5px; // this magic number is just because the untick is smaller than the tick and the pixel-bump grieves me
   }
 }
 ul:has(input[type="checkbox"]) {
-  margin: 0 0 var(--theme-spacing--3) 1.5em;
+  margin: 0 0 var(--theme-spacing--3) 0;
   input[type="checkbox"] {
     position: absolute;
     opacity: 0;

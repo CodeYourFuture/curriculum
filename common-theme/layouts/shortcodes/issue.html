@@ -1,0 +1,6 @@
+{{- $name := .Get "name" -}}
+{{- $src := .Get "src" -}}
+{{- partial "block/data.html" (dict "Scratch" .Page.Scratch "src" $src  "name" $name "page" .) -}}
+{{- $blockData := .Page.Scratch.Get "blockData" -}}
+{{- .Page.Scratch.SetInMap "blockData" "isShortcode" true -}}
+{{- partial "block/issue.html" . -}}
