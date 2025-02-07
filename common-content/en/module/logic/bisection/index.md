@@ -1,6 +1,6 @@
 +++
 title = "Bisection"
-time = 5
+time = 10
 emoji= "✂️"
 [build]
   render = 'never'
