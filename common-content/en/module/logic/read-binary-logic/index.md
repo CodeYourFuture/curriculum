@@ -16,7 +16,7 @@ emoji= "📖"
 Read the learning objectives listed on this page: Bear in mind what you're trying to achieve while reading this text. If a topic isn't making much sense, and isn't in the objectives, you can probably skip over it. If a topic is listed in the objectives, you should keep studying it until you are confident you've met the objective.
 
 {{<note type="Reading">}}
-Review chapters 1, 2, and 5 of How Computers Really Work. This time focus on the Binary Logic section that you might have skipped before.
+Review chapters 1, 2, and the "Binary Addition", "Signed Numbers" and "Unsigned Numbers" sections of chapter 5 of How Computers Really Work. This time focus on the Binary Logic section that you might have skipped before.
 
 Do every exercise listed in the chapters that you haven't done before. You can skip the projects.
 {{</note>}}
