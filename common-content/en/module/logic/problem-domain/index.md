@@ -1,6 +1,6 @@
 +++
 title = "The Problem Domain"
-time = 10
+time = 15
 emoji= "🗺️"
 [build]
   render = 'never'
