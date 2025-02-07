@@ -1,10 +1,13 @@
 +++
 title = "Deploying the chat application"
 headless = true
-time = 30
-emoji= "📖"
-[objectives]
-    1="Deploy all components of a frontend/backend/database application so it can be used on the internet"
+time = 60
+emoji= "➡️"
+objectives = [
+    "Deploy a frontend and backend so it can be used on the internet.",
+]
 +++
 
-### Deploying the chat application
+{{<note type="Exercise">}}
+Deploy your chat application so that both the frontend and backend are on the Internet, can talk to each other, and can be used by people.
+{{</note>}}
