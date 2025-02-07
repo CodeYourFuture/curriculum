@@ -25,7 +25,7 @@ In class this week _you_ will be teaching something. You will be explaining one 
 ### Mental models
 
 1. **Deduction**: Reasoning from general rules to a specific conclusion that is _definitely_ true
-1. **Induction**: Reasoning from specific examples to form general patterns that are _probably_
+1. **Induction**: Reasoning from specific examples to form general patterns that are _probably_ true
 1. **Abduction**: Reasoning to the best explanation for all the evidence we observe
 1. **Falsification**: Testing a theory by trying to prove it wrong
 1. **Problem Domain**: Identifying the bounded space that contains all possible solutions to a problem
