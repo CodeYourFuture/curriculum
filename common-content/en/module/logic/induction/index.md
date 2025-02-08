@@ -1,6 +1,6 @@
 +++
 title = "Induction"
-time = 10
+time = 45
 emoji= "🍱"
 [build]
   render = 'never'

@@ -1,6 +1,6 @@
 +++
 title = "Falsification"
-time = 25
+time = 45
 emoji= "❌"
 [build]
   render = 'never'

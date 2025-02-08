@@ -1,6 +1,6 @@
 +++
 title = "Abduction"
-time = 30
+time = 60
 emoji= "🔎"
 [build]
 render = 'never'

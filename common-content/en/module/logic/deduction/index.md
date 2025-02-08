@@ -1,6 +1,6 @@
 +++
 title = "Deduction"
-time = 10
+time = 25
 emoji= "🚥"
 [build]
   render = 'never'
@@ -15,8 +15,8 @@ emoji= "🚥"
 
 ```mermaid
 flowchart LR
-    dp[General Premise] --> d1[Rule 1: If A then B]
-    dp --> d2[Rule 2: We have A]
+    d1[Rule 1: If A then B]
+    d2[Rule 2: We have A]
     d1 --> dc[Therefore we must have B]
     d2 --> dc
 ```
