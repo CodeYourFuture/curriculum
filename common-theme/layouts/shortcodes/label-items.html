@@ -37,7 +37,7 @@ multiple lines [LABEL=Label-1] Another item here
         <button class="c-label" data-label="{{ . | urlize }}">{{ . }}</button>
       {{ end }}
     </section>
-    <h3 slot="heading" class="e-heading__5">{{ $heading }}</h3>
+    <h3 slot="heading" class="e-heading__5">{{ $heading | markdownify }}</h3>
     <section slot="content" aria-label="Items to label">
       {{ range $index, $item := $processedItems }}
         <div
