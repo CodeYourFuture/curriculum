@@ -31,3 +31,9 @@ In class this week _you_ will be teaching something. You will be explaining one 
 1. **Problem Domain**: Identifying the bounded space that contains all possible solutions to a problem
 1. **Bisection**: Reasoning by reducing a problem space to the smallest possible size
 1. **Binary Logic**: Reasoning with only two possible states (true or false)
+
+### Your task
+
+Your core prep for this sprint is to learn about _all_ of these mental models. You will do this by reading, and by playing games that use them.
+
+You will need to prepare to teach other people about _one_ of these mental models. Make sure to coordinate on Slack so that people are teaching different mental models.
