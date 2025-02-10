@@ -29,6 +29,10 @@ time=0
 name="Codewars Leaderboard"
 src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Codewars-Leaderboard"
 time=0
+[[blocks.nested.blocks]]
+name="Spell Checker"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Spell-Checker"
+time=0
 [[blocks]]
 name="Development"
 src="module/piscine/solo-development"
