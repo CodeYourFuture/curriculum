@@ -1,7 +1,11 @@
 {{/* This block expects the github pulls api */}}
 {{ $blockData := .Page.Scratch.Get "blockData" }}
 
-{{ with resources.GetRemote $blockData.api $blockData.headers }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
+{{ if eq $response nil }}
+  {{ errorf "No response fetching %s" $blockData.api }}
+{{ end }}
+{{ with $response }}
   {{ with .Err }}
     {{ errorf "Failed %s on %s. Error: %s" $blockData.api .Page.Title . }}
   {{ end }}
