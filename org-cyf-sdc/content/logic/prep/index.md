@@ -1,11 +1,11 @@
 +++
 title = 'prep'
-description = 'Developing understanding of data groups'
+description = 'Mental models'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
-title = "Coming soon"
-src = "blocks/coming-soon"
+name="Recap binary"
+src="module/logic/read-binary-logic"
 +++

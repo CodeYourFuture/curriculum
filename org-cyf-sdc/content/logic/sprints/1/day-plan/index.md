@@ -8,9 +8,12 @@ weight = 3
 name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
-name="Study group"
+name="Energiser"
+src="energisers/binary"
+[[blocks]]
+name="Workshop: Binary Search"
 src="blocks/workshop"
-time="115"
+time="120"
 [[blocks]]
 name="Games, rules, logic and strategy"
 src="blocks/games"
@@ -20,16 +23,8 @@ name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="demo"
-src="blocks/demo"
-time="25"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
+src="module/logic/demo"
 time="60"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Template/pulls"
-time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"

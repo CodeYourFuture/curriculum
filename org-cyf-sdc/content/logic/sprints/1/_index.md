@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 2
-theme = "Solving logical problems well, considering edge-cases, and playing computer"
+theme = "Solving logical problems efficiently"
 +++
