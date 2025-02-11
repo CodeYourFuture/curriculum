@@ -29,4 +29,10 @@ src="module/logic/bisection"
 [[blocks]]
 name="Binary Logic"
 src="module/logic/binary-logic"
+[[blocks]]
+name="1000 Wine Bottles"
+src="module/logic/search"
+[[blocks]]
+name="Binary Information Theory"
+src="module/logic/location"
 +++

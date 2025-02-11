@@ -36,7 +36,7 @@ In [Sushi Go](https://en.boardgamearena.com/gamepanel?game=sushigo), every game 
 - Early puddings often pay off in the final round
 - Chopsticks are most valuable when saved for high-scoring combinations
 
-Play a few rounds of [Sushi Go](https://en.boardgamearena.com/gamepanel?game=sushigo) and practice inductive reasoning. Try to:
+Play a few rounds of [Sushi Go](https://en.boardgamearena.com/gamepanel?game=sushigo) and practice inductive reasoning. Don't spend a long time reading the rules, just play through a few rounds to get the idea. Try to:
 
 1. Notice specific scoring patterns
 2. Look for recurring situations

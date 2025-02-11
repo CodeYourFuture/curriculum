@@ -22,6 +22,8 @@ In this prep you will build a series of mental models necessary for logical reas
 
 In class this week _you_ will be teaching something. You will be explaining one of these mental models. You will not use a computer to explain this, but something else. This could be a drawing, a game, a conversation, or anything you like that will help you communicate the concept, except a computer!
 
+You should make sure you understand all these models, but choose just one to teach in class.
+
 ### Mental models
 
 1. **Deduction**: Reasoning from general rules to a specific conclusion that is _definitely_ true

@@ -55,7 +55,7 @@ flowchart TD
 
 ```
 
-Popper explains that each additional white swan appears to confirm our wrong idea that all swans are white. A single black swan disproves it, and ends the loop. This strategy shows us that:
+[Popper](https://en.wikipedia.org/wiki/Falsifiability) explains that each additional white swan appears to confirm our wrong idea that all swans are white. A single black swan disproves it, and ends the loop. This strategy shows us that:
 
 1. Only gathering confirming evidence leaves too many possibilities, or too large a problem domain
 2. However, each failed prediction narrows our search space by discarding possibilities
@@ -69,4 +69,4 @@ Now, practice eliminating possibilities in [Zendo](https://www.koryheath.com/zen
   src="https://www.perlkonig.com/zendo/"
   name="Zendo"
   caption="Eliminate to learn"
-  time="20" >}}
+  time="30" >}}
