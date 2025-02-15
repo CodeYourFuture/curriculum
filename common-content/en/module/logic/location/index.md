@@ -12,9 +12,9 @@ At its heart, out rat puzzle demonstrates how binary data encoding works. Each r
 
 ### 🧮 The Power of Binary
 
-- 1 bit can represent 2 possibilities (0 or 1)
-- 2 bits can represent 4 possibilities (00, 01, 10, 11)
-- 3 bits → 8 possibilities
+- 1 bit can represent 2^1 = 2 possibilities (0 or 1)
+- 2 bits can represent 2^2 = 4 possibilities (00, 01, 10, 11)
+- 3 bits → 2^3 = 8 possibilities
 - 10 bits → 2^10 = 1024 possibilities!
 
 ### 🎯 Key Insight
