@@ -1,5 +1,5 @@
 +++
-title="Docendo Discimus"
+title="Learn by Teaching"
 emoji="🎤"
 time=60
 [build]
