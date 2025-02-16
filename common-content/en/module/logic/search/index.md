@@ -60,7 +60,7 @@ With just 10 rats, we need a way to make our solution more efficient. We can bre
 
 **Round 1:** Let's divide our 1000 bottles into 10 groups of 100. Each rat tests one _group_ : a sip from every bottle in its group of 100. An hour later, with one dead rat, we have narrowed our search to 100 bottles. We've saved 900 bottles of wine and we still have 9 rats to help us.
 
-**Round 2** Let's do it again: take our suspicious 100 bottles and create ten groups of ten. Our doomed rat perishes again, and after another hour, we've found the right group of ten. We now have 8 rats.
+**Round 2** Let's do it again: take our suspicious 100 bottles and create ten groups of ten. Our nine rats each drink from one whole group (and one group goes un-drunk). Our doomed rat perishes again, and after another hour, we've found the right group of ten. We now have 8 rats.
 
 **Round 3** Now we're down to just 10 bottles. Eight rats test a bottle each, leaving two untested. If a rat dies, we've found the poisoned bottle. If not, we have two bottles left for the last round.
 
