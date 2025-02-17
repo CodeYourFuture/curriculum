@@ -29,10 +29,10 @@ time="60"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
+name="Workshop: Bits and Rats"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/bits-and-rats"
 time="90"
 [[blocks]]
-name="Retro"
-src="blocks/retro"
+name="Wrap"
+src="blocks/wrap"
 +++
