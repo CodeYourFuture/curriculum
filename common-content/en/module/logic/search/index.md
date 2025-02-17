@@ -121,6 +121,6 @@ Take a moment to check this out for yourself with 8 bottles and 3 rats.
 
 Now, what about 16 bottles? How many rats do you need?
 
-We can also frame this as: how many rats do we need for `n` bottles? With 1000 bottles, do you actually need 10 rats, or can you do it with fewer? How would you prove that?
+We can also frame this as: how many rats do we need for `n` bottles? With 1000 bottles, do you definitely need 10 rats? How would you prove that?
 
 {{</tabs>}}
