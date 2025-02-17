@@ -38,6 +38,7 @@ We have five attempts. Each guess we make gives us some feedback and allows us t
 - Form multiple possible word theories
 - Test each word against _all_ the evidence
 - Choose the word that best fits everything we know
+- Make a guess even though we can't know for sure whether we're right
 - Revise our guess when new evidence appears
 
 It's quite a lot like problem solving we've done before, isn't it? This process of seeking the best explanation mirrors how we approach complex problems in many fields:
