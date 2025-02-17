@@ -1,7 +1,7 @@
 +++
 title = "Abduction"
-time = 60
-emoji= "🔎"
+time = 30
+emoji = "🔎"
 [build]
 render = 'never'
 list = 'local'
@@ -15,37 +15,44 @@ publishResources = false
 
 ```mermaid
 flowchart TD
-    ev1[Evidence 1] --> h1[Hypothesis A]
-    ev2[Evidence 2] --> h1
-    ev3[Evidence 3] --> h1
-    ev1 --> h2[Hypothesis B]
-    ev2 --> h2
-    ev3 -.-> h2
-    h1 --> be[Best Explanation]
-    h2 -.- be
-    style h2 stroke-dasharray: 5 5
-    style ev3 stroke-dasharray: 5 5
+   ev1[🟨 Yellow S] --> h1[Hypothesis LAPSE]
+   ev2[🟨 Yellow A] --> h1
+   ev3[🟩 Green E] --> h1
+   ev1 --> h2[Hypothesis SHAME]
+   ev3 --> h2
+   h1 --> be[Best Word]
+   style h2 stroke-dasharray: 5 5
 ```
 
-In [Sherlock Holmes: Consulting Detective](https://www.spacecowboys.fr/case3-the-murderess), we think like detectives. Each case presents us with mysterious evidence that needs explaining. Unlike deduction which proves only what _must_ be true, or induction which only finds patterns that are probably true, abduction seeks the most complete explanation.
+Unlike deduction which proves only what _must_ be true, or induction which only finds patterns that are probably true, abduction seeks the most complete explanation.
 
-> _Given_ a woman was found dead in her apartment  
-> _And_ her jewelry was untouched  
-> _And_ there were no signs of forced entry  
-> _Then_ the killer likely knew the victim (but we can't be certain)
+> _Given_ we guessed STARE  
+> _And_ we got 🟨⬜🟨⬜🟩  
+> _Then_ LAPSE might be the answer (but we can't be certain)
 
-Each lead we follow adds new evidence. A witness statement might support our theory, contradict it, or suggest a completely different explanation. We must:
+In Wordle, we think like word detectives. We have an initial constraint: it must be an English word of five letters.
 
-- Keep track of all evidence
-- Form multiple possible theories
-- Test each theory against _all_ the evidence
-- Choose the explanation that best fits everything we know
-- Be ready to revise our theory when new evidence appears
+We have five attempts. Each guess we make gives us some feedback and allows us to eliminate some hypotheses, or guesses. A yellow square might support our theory about which letters are in the word, contradict it, or suggest a completely different explanation. We must:
 
-It's quite a lot like problem solving we've done before, isn't it? Now go solve a case:
+- Keep track of all feedback squares
+- Form multiple possible word theories
+- Test each word against _all_ the evidence
+- Choose the word that best fits everything we know
+- Revise our guess when new evidence appears
+
+It's quite a lot like problem solving we've done before, isn't it? This process of seeking the best explanation mirrors how we approach complex problems in many fields:
+
+🧑🏽‍⚕️ Doctors diagnosing illnesses from symptoms  
+🕵🏿 Detectives solving cases from clues  
+🧑🏿‍🔬 Scientists developing theories from observations  
+🧑🏻‍🔧 Engineers troubleshooting system failures
+
+We need a strategy, but experience also matters. In Wordle, the more English words we know, and the more we know about words, the better our guesses. In engineering, the more we know about building software, the faster we can find our problems.
+
+Now go solve today's puzzle:
 
 {{<blocklink
-  src="https://www.spacecowboys.fr/case3-the-murderess"
-  name="Sherlock Holmes: Consulting Detective - Case 3"
+  src="https://www.nytimes.com/games/wordle"
+  name="Today's Wordle"
   caption="Use abductive reasoning to best explain the evidence"
   time="5" >}}
