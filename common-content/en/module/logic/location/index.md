@@ -8,7 +8,7 @@ list = 'local'
 publishResources = false
 +++
 
-At its heart, out rat puzzle demonstrates how binary data encoding works. Each rat represents one binary digit (a bit). They either live (0) or die (1). With 10 rats, we have 10 bits of information.
+At its heart, our rat puzzle demonstrates how binary data encoding works. Each rat represents one binary digit (a bit). They either live (1) or die (0). With 10 rats, we have 10 bits of information.
 
 ### 🧮 The Power of Binary
 
