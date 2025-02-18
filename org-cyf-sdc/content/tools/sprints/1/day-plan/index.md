@@ -15,8 +15,8 @@ time="45"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Why we review code workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/why-we-review-code?ref=wip-sdc-workshops"
+name="Terminal skills workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
 time="45"
 [[blocks]]
 name="Study Group"

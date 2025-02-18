@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Java workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/understanding-java-code?ref=wip-sdc-workshops"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/understanding-java"
 time="90"
 [[blocks]]
 name="Morning break"
