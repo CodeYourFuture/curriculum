@@ -173,4 +173,116 @@ You've learned the difference between a program and a process.
 
 ## Files
 
+Processes can open files.
+We can see which files a process has open, and we do this by using `lsof`.
+`lsof` stands for `List Open Files`.
 
+Just as with processes, the computer doesn't like using words to refer to the open file.
+Instead, it uses an *File Descriptor* (usually shortened to *FD*).
+A *file descriptor* is a number.
+
+### Running lsof
+
+<!--
+  I've omitted the `sudo lsof | grep /var/log/syslog` style of finding which process has a particular file open.
+  It's very useful, but I think explaining this distracts from the goal (learning how processes and kernel interact).
+  It's also not super easy to explain, without explaining `sudo`, and thus users, permissions, and oh my...
+  -->
+
+Some preparation:
+
+Create a new file: `exercise_2_file.txt`.
+It's fine to leave it empty.
+
+Create a file `exercise_2.py` with this code.
+```
+file_object = open("exercise_2_file.txt", "r")
+input("Press enter to stop the program...")
+file_object.close()
+```
+On your first terminal, run the program: `python3 exercise_2.py`
+The program should wait for you to press enter.
+Just like in before, we won't press enter yet, instead we'll keep it waiting.
+
+Use what you learned in the previous exercise, to find the *PID* of this program.
+
+Now run `lsof -p 1234` (replace 1234 with the *PID* of the program).
+The `-p` flag tells `lsof` that we're only interested in the files opened by that process; without that option `lsof` will show everything that it can show.
+
+<details>
+<summary>Can you find the FD of the <tt>exercise\_2.py</tt> file?</summary>
+
+If I run `lsof` on the program, I see this.
+You should see something similar.
+```
+ariane@ubuntu2204:~$ lsof -p 65262
+COMMAND   PID   USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME
+python3 65262 ariane  cwd    DIR  253,0     4096  262145 /home/ariane/programming
+python3 65262 ariane  rtd    DIR  253,0     4096       2 /
+python3 65262 ariane  txt    REG  253,0  5937800 3670306 /usr/bin/python3.10
+python3 65262 ariane  mem    REG  253,0    27002 3691433 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+python3 65262 ariane  mem    REG  253,0  3048928 3684223 /usr/lib/locale/locale-archive
+python3 65262 ariane  mem    REG  253,0  2220400 3691022 /usr/lib/x86_64-linux-gnu/libc.so.6
+python3 65262 ariane  mem    REG  253,0   108936 3681429 /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+python3 65262 ariane  mem    REG  253,0   194872 3704849 /usr/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+python3 65262 ariane  mem    REG  253,0   940560 3691027 /usr/lib/x86_64-linux-gnu/libm.so.6
+python3 65262 ariane  mem    REG  253,0   240936 3691016 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+python3 65262 ariane    0u   CHR  136,1      0t0       4 /dev/pts/1
+python3 65262 ariane    1u   CHR  136,1      0t0       4 /dev/pts/1
+python3 65262 ariane    2u   CHR  136,1      0t0       4 /dev/pts/1
+python3 65262 ariane    3r   REG  253,0        0  262147 /home/ariane/programming/exercise_2_file.txt
+```
+
+I can see the file mentioned on the last line:
+```
+python3 65262 ariane    3r   REG  253,0        0  262147 /home/ariane/programming/exercise_2_file.txt
+```
+The *FD* column says `3r`.
+This means the file is on *FD* 3.
+(The `r` suffix, means it is opened for reading.)
+
+</details>
+
+### Standard Input, Output, and Error
+
+Despite our program only opening the `exercise_2_file.txt` file, it has more files open.
+There are three other *file descriptors* in use: `0`, `1`, and `2`.
+
+| File descriptor | How we call it    | What it's for                                                                       |
+|-----------------|-------------------|-------------------------------------------------------------------------------------|
+| 0               | `stdin`           | Things you type, show up in your program on this *file descriptor*.                 |
+|                 | (standard input)  |                                                                                     |
+| 1               | `stdout`          | Your program can write output on this *file descriptor*.                            |
+|                 | (standard output) |                                                                                     |
+| 2               | `stderr`          | If things go wrong in your program, you can write errors to this *file descriptor*. |
+|                 | (standard error)  |                                                                                     |
+
+The *standard input* is used by our tiny program, to wait for the "enter" key.
+And the message `Press enter to stop the program...` is written to standard output.
+
+These *file descriptors* (0, 1, and 2) always exist, they're created at the start of the program.
+This is also why the first opened file ends up on *file descriptor* `3`: it's the first available number that can be used.
+
+### Reg, Chr, Dir?
+
+The `TYPE` column tells us what kind of file is opened.
+`REG` means something that is a regular file.
+Because we created a regular file for our program, we can see that `exercise_2_file.txt` is opened as a `REG` file.
+
+All other types are special kinds of files.
+In particular, `DIR` means directory.
+(Yes, you can open directories. The directory mentioned under *FD* `cwd`, is the Current Working Directory, where you program is running.)
+
+And `CHR` means character special device.
+These are usually things like the console.
+Which is why you see *standard input*, *standard output*, and *standard error* having those types of file open.
+
+There are many many more types, but you won't see those quite as often.
+You can read them all in the `lsof` man-page: `man lsof`.
+(Most of them I don't know, and have never seen in the wild.)
+
+### What You've Learned
+
+Processes can open files.
+They use *file descriptors* to refer to the files.
+And we can inspect which files are opened by a process, using the `lsof` command.
