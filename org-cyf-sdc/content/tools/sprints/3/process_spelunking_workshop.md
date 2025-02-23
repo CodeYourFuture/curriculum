@@ -210,7 +210,7 @@ Now run `lsof -p 1234` (replace 1234 with the *PID* of the program).
 The `-p` flag tells `lsof` that we're only interested in the files opened by that process; without that option `lsof` will show everything that it can show.
 
 <details>
-<summary>Can you find the FD of the <tt>exercise\_2.py</tt> file?</summary>
+<summary>Can you find the FD of the <tt>exercise_2.py</tt> file?</summary>
 
 If I run `lsof` on the program, I see this.
 You should see something similar.
