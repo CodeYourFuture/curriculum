@@ -248,14 +248,11 @@ This means the file is on *FD* 3.
 Despite our program only opening the `exercise_2_file.txt` file, it has more files open.
 There are three other *file descriptors* in use: `0`, `1`, and `2`.
 
-| File descriptor | How we call it    | What it's for                                                                       |
-|-----------------|-------------------|-------------------------------------------------------------------------------------|
-| 0               | `stdin`           | Things you type, show up in your program on this *file descriptor*.                 |
-|                 | (standard input)  |                                                                                     |
-| 1               | `stdout`          | Your program can write output on this *file descriptor*.                            |
-|                 | (standard output) |                                                                                     |
-| 2               | `stderr`          | If things go wrong in your program, you can write errors to this *file descriptor*. |
-|                 | (standard error)  |                                                                                     |
+| File descriptor | How we call it             | What it's for                                                                       |
+|-----------------|----------------------------|-------------------------------------------------------------------------------------|
+| 0               | `stdin` (standard input)   | Things you type, show up in your program on this *file descriptor*.                 |
+| 1               | `stdout` (standard output) | Your program can write output on this *file descriptor*.                            |
+| 2               | `stderr` (standard error)  | If things go wrong in your program, you can write errors to this *file descriptor*. |
 
 The *standard input* is used by our tiny program, to wait for the "enter" key.
 And the message `Press enter to stop the program...` is written to standard output.
