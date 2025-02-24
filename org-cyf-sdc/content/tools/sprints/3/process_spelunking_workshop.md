@@ -36,7 +36,7 @@ The kernel is really important to run a process, but it can't do any of the prog
 | Who/What does those instructions | a cook        | a process        |
 | What you use to do this          | a kitchen     | a kernel         |
 
-The kernel makes facilities available, to see what a program is doing.
+The kernel makes facilities available, to see what a process is doing.
 In this workshop, we'll use those facilities to look into what's going on inside the process.
 
 
@@ -50,7 +50,7 @@ In this workshop, we'll use those facilities to look into what's going on inside
 
 In order to start doing anything, we first need to learn how to find a process.
 
-Some preparation:  
+{{<note title="Preparation">}}
 Create a file `exercise_1.py` with this code.
 ```
 input("Press enter to stop the program...")
@@ -58,6 +58,7 @@ input("Press enter to stop the program...")
 On your first terminal, run the program: `python3 exercise_1.py`
 The program should wait for you to press enter.
 We won't press enter yet, instead we'll keep it waiting.
+{{</note>}}
 
 <!--
   I'm teaching the BSD invocation of ps.
@@ -72,6 +73,8 @@ We'll use the `ps` command.
   The linux man-page doesn't tell you this.
   -->
 
+{{<tabs>}}
+===[[Exercise]]===
 On your second terminal, type `ps a`.
 (There are no dashes.)
 <!--
@@ -79,9 +82,10 @@ On your second terminal, type `ps a`.
   Since we're using a second terminal, that wouldn't show out python process.
   Unix is messy like that. :P
   -->
-<details>
-<summary>Can you find your program?</summary>
 
+Can you find your program?
+
+===[[Answer]]===
 The `ps a` command should show you something like this:
 ```
 ariane@ubuntu2204:~$ ps a
@@ -98,8 +102,7 @@ In the example output, you can see the program on the second-to-last line:
 ```
   64981 pts/1    S+     0:00 python3 exercise_1.py
 ```
-
-</details>
+{{</tabs>}}
 
 In the `ps` output, you can see multiple columns.
 The one we're interested in, is the *PID* column.
@@ -157,9 +160,11 @@ We can combine the options.
 For example, `ps aux` shows all processes (even if they don't have a *TTY*), and will use the "user" view to show them.
 Try it. :)
 
-Personally, I usually just type `ps aux | grep exercise_1` when I want to find the *PID* of the exercise.
-And I never use the options separately.
-So if you only want to remember one thing, remember this. :)
+> [!TIP]
+>
+> Personally, I usually just type `ps aux | grep exercise_1` when I want to find the *PID* of the exercise.
+> And I never use the options separately.
+> So if you only want to remember one thing, remember this. :)
 
 If you want to learn more, you can use `man ps` to read the documentation.
 It'll also have examples.
@@ -194,8 +199,7 @@ A *file descriptor* is a number.
   It's also not super easy to explain, without explaining `sudo`, and thus users, permissions, and oh my...
   -->
 
-Some preparation:
-
+{{<note title="Preparation">}}
 Create a new file: `exercise_2_file.txt`.
 It's fine to leave it empty.
 
@@ -208,15 +212,18 @@ file_object.close()
 On your first terminal, run the program: `python3 exercise_2.py`
 The program should wait for you to press enter.
 Just like in before, we won't press enter yet, instead we'll keep it waiting.
+{{</note>}}
 
+{{<tabs>}}
+===[[Exercise]]===
 Use what you learned in the previous exercise, to find the *PID* of this program.
 
 Now run `lsof -p 1234` (replace 1234 with the *PID* of the program).
 The `-p` flag tells `lsof` that we're only interested in the files opened by that process; without that option `lsof` will show everything that it can show.
 
-<details>
-<summary>Can you find the FD of the <tt>exercise_2.py</tt> file?</summary>
+Can you find the FD of the `exercise_2.py` file?
 
+===[[Answer]]===
 If I run `lsof` on the program, I see this.
 You should see something similar.
 ```
@@ -245,8 +252,7 @@ python3 65262 ariane    3r   REG  253,0        0  262147 /home/ariane/programmin
 The *FD* column says `3r`.
 This means the file is on *FD* 3.
 (The `r` suffix, means it is opened for reading.)
-
-</details>
+{{</tabs>}}
 
 ### Standard Input, Output, and Error
 
