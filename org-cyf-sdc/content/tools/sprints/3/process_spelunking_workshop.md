@@ -113,8 +113,10 @@ It turns out, working with text is a lot of work for computers.
 And they much prefer working with numbers.
 And that's why the kernel doesn't think about a process as a name, but as a number: the *PID*.
 
-By default, `ps` (without any options) will only show our own processes, that have a *TTY*.
-(*TTY* is short for *TeleTYpe*, it's a kind of really old type-writer that used a phone line, so you can type and the typed information appears in some far-away place.)
+By default, `ps` (without any options) will only show our own processes, that have a
+{{<tooltip text="TTY" title="TTY">}}
+*TTY* is short for *TeleTYpe*, it's a kind of really old type-writer that used a phone line, so you can type and the typed information appears in some far-away place.
+{{</tooltip>}}.
 A *TTY* is used whenever you log in, and is the console used by programs.
 If you've ever heard of `standard in` or `standard out`, those are usually writing to a *TTY*, which is used by a person.
 
