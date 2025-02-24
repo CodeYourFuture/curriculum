@@ -75,33 +75,42 @@ We'll use the `ps` command.
 
 {{<tabs>}}
 ===[[Exercise]]===
-On your second terminal, type `ps a`.
+On your second terminal, type `ps aux`.
 (There are no dashes.)
-<!--
-  On BSD, you can just use `ps`. But on linux, that selects only processes on the current terminal.
-  Since we're using a second terminal, that wouldn't show out python process.
-  Unix is messy like that. :P
-  -->
 
-Can you find your program?
+Can you find your process?
 
 ===[[Answer]]===
-The `ps a` command should show you something like this:
+The `ps aux` command should show you something like this:
 ```
-ariane@ubuntu2204:~$ ps a
-    PID TTY      STAT   TIME COMMAND
-    664 tty1     Ss+    0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
-  62705 pts/0    Ss     0:00 -bash
-  62849 pts/1    Ss     0:00 -bash
-  63235 ttyS0    Ss+    0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0
-  64981 pts/1    S+     0:00 python3 exercise_1.py
-  64983 pts/0    R+     0:00 ps a
+ariane@ubuntu2204:~$ ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 166428 11948 ?        Ss   Jan24   0:30 /lib/systemd/systemd --syste
+root           2  0.0  0.0      0     0 ?        S    Jan24   0:00 [kthreadd]
+ariane     62597  0.0  0.1 170608  5156 ?        S    Feb22   0:00 (sd-pam)
+ariane     62702  0.0  0.1  17316  8008 ?        R    Feb22   0:00 sshd: ariane@pts/0
+ariane     62705  0.0  0.1   8972  5812 pts/0    Ss   Feb22   0:00 -bash
+root       62789  0.0  0.2  16924 10760 ?        Ss   Feb22   0:00 sshd: ariane [priv]
+ariane     62848  0.0  0.2  17316  8016 ?        S    Feb22   0:00 sshd: ariane@pts/1
+ariane     62849  0.0  0.1   9000  5944 pts/1    Ss   Feb22   0:00 -bash
+root       63213  0.0  0.0   6896  3108 ?        Ss   Feb22   0:00 /usr/sbin/cron -f -P
+ariane     66392  0.0  0.2  17328  8784 pts/1    S+   20:17   0:00 python3 exercise_1.py
+ariane     66393  0.0  0.0  10072  1604 pts/0    R+   20:17   0:00 ps aux
 ```
+(You'll see a lot more than I'm showing here.)
+<!--
+  I left out many from this output, so it wouldn't be so long.
+  I hope that won't confuse our students.
+  If I didn't do that, the output would be 123 lines, most of them kernel threads.
+  -->
 
 In the example output, you can see the program on the second-to-last line:
 ```
-  64981 pts/1    S+     0:00 python3 exercise_1.py
+ariane     66392  0.0  0.2  17328  8784 pts/1    S+   20:17   0:00 python3 exercise_1.py
 ```
+
+You can also see that the first column shows the username.
+So now you know my name. :)
 {{</tabs>}}
 
 In the `ps` output, you can see multiple columns.
@@ -110,12 +119,12 @@ The one we're interested in, is the *PID* column.
 (*ID* is short for Identifier.)
 
 It turns out, working with text is a lot of work for computers.
-And they much prefer working with numbers.
+They much prefer working with numbers.
 And that's why the kernel doesn't think about a process as a name, but as a number: the *PID*.
 
-By default, `ps` (without any options) will only show our own processes, that have a
+By default, `ps` (without any options) will only show (some of) our own processes, that have a
 {{<tooltip text="TTY" title="TTY">}}
-*TTY* is short for *TeleTYpe*, it's a kind of really old type-writer that used a phone line, so you can type and the typed information appears in some far-away place.
+*TTY* is short for *TeleTYpe*, it's a kind of really old type-writer that used a phone line, so that what you type appears in some far-away place.
 {{</tooltip>}}.
 A *TTY* is used whenever you log in, and is the console used by programs.
 If you've ever heard of `standard in` or `standard out`, those are usually writing to a *TTY*, which is used by a person.
@@ -123,58 +132,35 @@ If you've ever heard of `standard in` or `standard out`, those are usually writi
 The *STAT* and *TIME* columns tell us what a process is doing, and how much time it has used.
 We won't care about them today.
 
-----
+{{<tabs>}}
+===[[Exercise]]===
+There are much more processes, but many don't have a *TTY*.  
+Can you figure out what the *TTY* of the `cron` process is?
 
-There are much more processes, but many don't have a *TTY*.
-We can tell `ps` we want to see them anyway, by using the `x` option: `ps ax`.
-Can you figure out what the *PID* of the `cron` program is?
+===[[Answer]]===
+The `cron` program is on a line similar like this:
+```
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       63213  0.0  0.0   6896  3108 ?        Ss   Feb22   0:00 /usr/sbin/cron -f -P
+```
 
-If you look at the `cron` program in `ps`, you can see its *TTY* column is `?`.
+You can see its *TTY* column is `?`.
 This means the process doesn't have a *TTY*, and doesn't directly interact with a human.
 Many system services, and also programs which only interact with a person using graphics, won't have a *TTY*.
-
-----
-
-Most of the processes shown by `ps ax` aren't run on your user account.
-We can tell `ps` to show us the user, by turning on the "user" view.
-We do this with the `u` option.
-
-Try it: `ps u`
-Do you see the username?
-
-<details>
-<summary>Mine looks like this.</summary>
-
-```
-ariane@ubuntu2204:~$ ps u
-USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-ariane     62705  0.0  0.1   8972  5812 pts/0    Ss   Feb22   0:00 -bash
-ariane     62849  0.0  0.1   9000  5944 pts/1    Ss+  Feb22   0:00 -bash
-ariane     65081  0.0  0.0  10072  1560 pts/0    R+   15:21   0:00 ps u
-```
-Now you know my name. :)
-
-</details>
-
-----
-
-We can combine the options.
-For example, `ps aux` shows all processes (even if they don't have a *TTY*), and will use the "user" view to show them.
-Try it. :)
+{{</tabs>}}
 
 > [!TIP]
 >
-> Personally, I usually just type `ps aux | grep exercise_1` when I want to find the *PID* of the exercise.
-> And I never use the options separately.
+> Personally, I usually type `ps aux | grep exercise_1` when I want to find the *PID* of the exercise.
 > So if you only want to remember one thing, remember this. :)
 
 If you want to learn more, you can use `man ps` to read the documentation.
-It'll also have examples.
+It'll also have examples, and explain what the `a`, `u`, and `x` mean.
 
-----
-
+{{<note title="Clean up">}}
 Now that you know how to find a *Process Identifier*, we no longer need the program that we started on the first terminal.
 You can hit "enter" to get it to stop.
+{{</note>}}
 
 ### What You've Learned
 
@@ -186,14 +172,15 @@ You've learned the difference between a program and a process.
 ## Files
 
 Processes can open files.
-We can see which files a process has open, and we do this by using `lsof`.
-`lsof` stands for `List Open Files`.
 
 Just as with processes, the computer doesn't like using words to refer to the open file.
 Instead, it uses an *File Descriptor* (usually shortened to *FD*).
 A *file descriptor* is a number.
 
 ### Running lsof
+
+We can see which files a process has open, and we do this by using `lsof`.
+`lsof` stands for `List Open Files`.
 
 <!--
   I've omitted the `sudo lsof | grep /var/log/syslog` style of finding which process has a particular file open.
@@ -290,6 +277,11 @@ Which is why you see *standard input*, *standard output*, and *standard error* h
 There are many many more types, but you won't see those quite as often.
 You can read them all in the `lsof` man-page: `man lsof`.
 (Most of them I don't know, and have never seen in the wild.)
+
+{{<note title="Clean up">}}
+Now that you know how to find a *File Descriptor*, we no longer need the program that we started on the first terminal.
+You can hit "enter" to get it to stop.
+{{</note>}}
 
 ### What You've Learned
 
