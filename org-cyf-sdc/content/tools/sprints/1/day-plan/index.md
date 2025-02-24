@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Using a project board workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/using-a-project-board?ref=wip-sdc-workshops"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
 time="45"
 [[blocks]]
 name="Morning break"
