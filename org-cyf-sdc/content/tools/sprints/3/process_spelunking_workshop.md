@@ -43,6 +43,11 @@ In this workshop, we'll use those facilities to look into what's going on inside
 
 ### Processes
 
+<!--
+  XXX reduce amount of information for `ps`.
+  Context: https://codeyourfuture.slack.com/archives/C03UULUK2MP/p1740418526199899?thread_ts=1739209473.379139&cid=C03UULUK2MP
+  -->
+
 In order to start doing anything, we first need to learn how to find a process.
 
 Some preparation:  
