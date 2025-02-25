@@ -17,6 +17,16 @@ Attendees:
 
 ---
 
+## 2025-02-25
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Nirmeet Baweja, Sally McGrath
+
+### 📝 Agenda points
+
+[Piscine retro](https://www.figma.com/board/1rJERE9kA4zkzUT2q8h5Tp/Piscine-Retro?node-id=2-823)
+
+---
+
 ## 2025-01-14
 
 Attendees: Ali, Mitch, Sally
