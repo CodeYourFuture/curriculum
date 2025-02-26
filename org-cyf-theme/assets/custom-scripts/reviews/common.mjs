@@ -1,4 +1,4 @@
-export function daysToMilliseconds(days) {
+function daysToMilliseconds(days) {
     return days * 24 * 60 * 60 * 1000;
 }
 
@@ -14,14 +14,6 @@ function identifyAge(date) {
 }
 
 const apiPrefix = "https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/";
-
-// TODO: Pull these in from config.
-export const modules = [
-    "Module-Onboarding",
-    "Module-Structuring-And-Testing-Data",
-    "Module-Data-Groups",
-    "Module-Data-Flows",
-];
 
 class PR {
     // status: one of: "Needs Review", "Reviewed", "Complete", "Closed", "Unknown"
@@ -88,7 +80,7 @@ function getStatus(state, labels) {
     return "Unknown";
 }
 
-export async function fetchPrsWithoutLoadingReviews() {
+async function fetchPrsWithoutLoadingReviews() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
