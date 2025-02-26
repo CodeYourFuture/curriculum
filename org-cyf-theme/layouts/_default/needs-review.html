@@ -49,8 +49,14 @@
     </li>
   </template>
 
-  {{ $common := resources.Get "custom-scripts/reviews/common.mjs" | resources.Minify }}
-  {{ $reviews := resources.Get "custom-scripts/reviews/index.mjs" | resources.Minify }}
-  {{ $js := slice $common $reviews | resources.Concat "js/reviews-bundle.js" | resources.Minify }}
-  <script type="module" src="{{ $js.RelPermalink }}"></script>
+  {{ $wrappedModules := "" }}
+  {{ range $module := .Params.GitHubRepos }}
+    {{ $wrappedModules = printf "%s\"%s\"," $wrappedModules $module }}
+  {{ end }}
+  {{ $modules := resources.FromString "pr-modules" (printf "const modules = [%s];" $wrappedModules) }}
+  {{ $common := resources.Get "custom-scripts/reviews/common.mjs" }}
+  {{ $reviews := resources.Get "custom-scripts/reviews/index.mjs" }}
+  <script type="text/javascript" src="{{ $modules.RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ $common.RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ $reviews.RelPermalink }}"></script>
 {{ end }}
