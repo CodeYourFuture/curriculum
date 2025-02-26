@@ -283,3 +283,273 @@ You can hit "enter" to get it to stop.
 Processes can open files.
 They use *file descriptors* to refer to the files.
 And we can inspect which files are opened by a process, using the `lsof` command.
+
+
+
+## System Calls
+
+So far, we've seen files getting opened.
+And we've seen we can use `lsof` to see those files being opened.
+
+The reason `lsof` can see it, is because the process asks the kernel.
+The kernel was asked for a file, thus it knows the file is opened, and can tell you about it.
+
+This "asking the kernel" is done by use of *system calls*.
+
+### Running strace
+
+We can look at *system calls* while they happen.
+`strace` is short for *system call trace*.
+
+{{<note title="Preparation">}}
+Create a new file `exercise_3_file.txt`.
+This time, we want to put something in it.
+You can write what you like, but if you're short on inspiration, write this:
+```
+Agnes, who is a cat, is sleeping on the sofa.
+```
+
+Create a file `exercise_3.py` with this code.
+```
+file_object = open("exercise_3_file.txt", "r")
+```
+This time, the program doesn't wait for you to press enter.
+You can test if you've set everything up correctly, by running `python3 exercise_3.py`.
+It should write the text you wrote in `exercise_3_file.txt`.
+{{</note>}}
+
+{{<tabs>}}
+===[[Exercise]]===
+Run `strace python3 exercise_3.py`.
+
+`strace` will write each and ever *system call* that the process makes.
+
+It shows a lot of *system calls*.
+Each line it shows, is a *system call*.
+The program does a lot of talking to the kernel.
+
+Can you see where `exercise_3_file.txt` is opened?
+===[[Answer]]===
+You should see something like:
+```
+read(3, "file_object = open(\"exercise_3_f"..., 4096) = 47
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "file_object = open(\"exercise_3_f"..., 4096) = 47
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0664, st_size=46, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffefb757ae0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffefb757930)        = -1 ENOTTY (Inappropriate ioctl for device)
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f1f2f25a520}, {sa_handler=0x55dda8389f00, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f1f2f25a520}, 8) = 0
+close(3)                                = 0
+munmap(0x7f1f2ec9f000, 151552)          = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+```
+(There's a whole lot before this, but I left that out.)
+
+If you look closely, you can find the name of the file, and it being opened, here:
+```
+openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
+```
+{{</tabs>}}
+
+The `openat` *system call* opens a file.
+
+From looking at the *system calls* that the process makes, we can try to figure out what it's doing.
+We call this tracing.
+
+{{<tabs>}}
+===[[Exercise]]===
+Change the file `exercise_3.py` with this code:
+```
+file_object = open("exercise_3_file.txt", "r")
+input("Press enter to stop the program...")
+```
+
+Now run `strace python3 exercise_3.py` again.
+Can you figure out which *system call* is used to write "Press enter to stop the program..."?
+
+===[[Answer]]===
+You should see something like this:
+```
+read(3, "file_object = open(\"exercise_3_f"..., 4096) = 91
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0664, st_size=46, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd41cdfc40)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd41cdfa90)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+read(0,
+```
+
+You can see the *system call* happening here:
+```
+write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
+```
+So we can see it's the `write` system call.
+
+{{</tabs>}}
+
+Because we haven't pressed "enter" yet, the process is still waiting for us.
+Let's press "enter" to allow the process to end.
+
+When we pressed "enter", the `read` system call was only half written to the screen:
+```
+read(0,
+```
+And now that we pressed "enter", the rest of it got rendered, but it was broken across two lines.
+
+This is because the output of our process and the output of `strace` are getting mixed up.
+This can be really confusing.
+
+> [!NOTE]
+>
+> You might have noticed the `write` *system call* looked a bit odd too:
+> ```
+> write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
+> ```
+> It shows "Press enter to stop the program" twice.
+>
+> This is also because of the output of the process getting mixed up with  the output of `strace`:
+> `strace` tried to tell us of the `write` *system call*.
+> And while it was telling us, the `write` *system call* happened.
+> Both tried to write "Press enter to stop the program", therefore it appeared twice.
+
+Because all this mixing up is confusing, we'll use two terminals again.
+We'll have to do things a little different this time.
+
+{{<tabs>}}
+===[[Exercise]]===
+On your first terminal, type `strace -o strace.output python3 exercise_3.py`
+You should see the process, but no longer see the *trace*.
+That's because we are sending it to a file: `strace.output`.
+The `-o` flag means "write everything to this file".
+
+On your second terminal, type `less strace.output` to view the *trace*. 
+
+Can you find the `write` system call again?
+Can you see how it is different from the previous time we found it?
+
+===[[Answer]]===
+This time, the system call looks like this:
+```
+write(2, "Press enter to stop the program."..., 34) = 34
+```
+
+It only writes the "Press enter to stop the program" once.
+
+And we get to interact with our program on the other terminal normally.
+
+You can close `less` now (you can close it by pressing `q`).
+{{</tabs>}}
+
+You now know how to get your process traced.
+And you've seen that the `openat` *system call* is used to open the file.
+
+{{<tabs>}}
+===[[Exercise]]===
+On your first terminal, trace the program again, like you did in the previous exercise: `strace -o strace.output python3 exercise_3.py`
+
+On your second terminal, use `lsof` (from earlier) to find the *file descriptor* for `exercise_3_file.txt`.
+Next, find the `openat` system call where `exercise_3_file.txt` is opened.
+
+Can you tell where `strace` tells you what the file descriptor is?
+
+===[[Answer]]===
+I expect you'll see the same numbers as me.
+
+I can see `lsof` telling me that the *file descriptor* is 3.
+
+And the *trace* shows:
+```
+openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
+```
+
+That last `= 3` is the *file descriptor*.
+
+{{</tabs>}}
+
+Let's make this a little more useful.
+
+At the preparation step, we made sure the file had something in it.
+That's because we're going to read it.
+
+And then write it to the output.
+And this time, we're going to do that without "Press enter to stop the program".
+
+{{<tabs>}}
+===[[Exercise]]===
+Change the file `exercise_3.py` with this code:
+```
+file_object = open("exercise_3_file.txt", "r")
+lines = file_object.readlines()
+for line in lines:
+    print(line, end="")
+file_object.close()
+```
+
+Can you find all the system calls used to read this file?
+And can you find all the system calls used to write the text?
+
+===[[Answer]]===
+To read the file, three *system calls* are used.
+
+First, the `openat` *system call*:
+```
+openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
+```
+
+Next the `read` *system calls*:
+```
+read(3, "Agnes, who is a cat, is sleeping"..., 8192) = 46
+read(3, "", 8192)                       = 0
+```
+The `3` refers to the same file descriptor again.
+And we can see the text we placed in our file.
+(If you put a different text in, you'll see that different text here.)
+
+There is also a `close` *system call*:
+```
+close(3)                                = 0
+```
+
+And to write the text, the `write` *system call* is used:
+```
+write(1, "Agnes, who is a cat, is sleeping"..., 46) = 46
+```
+We can see the `1`, which is the *file descriptor* to which it is written.
+(In the `lsof` part, we can have seen that this is *standard output*.
+
+{{</note>}}
+
+<!--
+  XXX This chapter needs more love.
+  I've written out the exercises that I want, but I want to teach them to look at the man-page
+  to get an idea of what the system call does.
+  (Because guessing based on the name only gets one so far.)
+
+  I want to tell them that all system calls are documented in section 2 of the man-pages.
+
+  And I want a little more filler text between the exercises.
+
+  And maybe I should just start with the `-o` immediately.
+  Just like `ps`, we should go "this is the tool, hold it here",
+  and students can get fancy on their own time if/when they feel like it.
+  -->
+
+### What You've Learned
+
+You've learned that the process and the kernel speak with eachother using *system calls*.
+And that you can *trace* those *system calls* using `strace`.
+
+You've also seen how a file is opened, and read, by asking the kernel to do that for us, using *system calls*.
