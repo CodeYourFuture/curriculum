@@ -12,7 +12,6 @@ hide_from_overview=true
 
 Usually there's a rota showing who will lead the energiser. We have some favourite games you can play if you are stuck.
 
-1. [How Computer really work?](https://kahoot.it/): Quiz Game cover Chapters 1&2 of How Computers Really Work
 1. [Traffic Jam](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html): re-order the cars to unblock yourself
 1. [Telephone](https://garticphone.com/): draw the words and write the pictures
 1. [Set](https://www.setgame.com/set/puzzle): a game of visual perception
