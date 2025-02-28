@@ -154,14 +154,6 @@ delimiter="/"
 >}}
 
 {{<multiple-choice
-question="What is an example of a lossless image format?"
-answers="JPEG / PNG / MP3 / H.264"
-feedback=" Not quite - check again / Right! Reference: Page 24, Line 8 / Not quite - check again / Not quite - check again"
-correct="1"
-delimiter="/"
->}}
-
-{{<multiple-choice
 question="What does RGB stand for?"
 answers="Red, Green, Black / Red, Gray, Blue / Red, Green, Blue / Random Gradient Blending"
 feedback=" Not quite - check again / Not quite - check again / Right! Reference: Page 23, Line 8 / Not quite - check again"
