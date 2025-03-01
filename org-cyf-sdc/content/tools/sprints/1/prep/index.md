@@ -12,6 +12,9 @@ src="module/tools/binary-and-hexadecimal-numbers"
 name="CPU and Memory"
 src="module/tools/cpu-and-memory"
 [[blocks]]
+name="Computer Quiz"
+src="module/tools/computer-quiz"
+[[blocks]]
 name="Shell tools"
 src="module/tools/individual-shell-tools"
 [[blocks]]
