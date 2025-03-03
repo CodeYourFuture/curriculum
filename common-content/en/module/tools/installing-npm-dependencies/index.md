@@ -47,7 +47,8 @@ import process from "node:process";
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "e");
+    .option("-c, --char <char>", "The character to search for", "e")
+    .argument("<path>", "The file path to process");
 
 program.parse();
 
@@ -87,10 +88,11 @@ Let's run through what we changed:
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "e");
+    .option("-c, --char <char>", "The character to search for", "e")
+    .argument("<path>", "The file path to process");
 ```
 
-We told `commander` information about our program. We gave it a name, a description, and told it that it should allow a user to pass a flag name `-c` (or equivalently `--char`), and use a default value of `-` for that flag if it's not specified.
+We told `commander` information about our program. We gave it a name, a description, and told it that it should allow a user to pass a flag name `-c` (or equivalently `--char`), and use a default value of `-` for that flag if it's not specified, and also told it that it should allow a user to pass the path to process as an argument.
 
 ```js
 program.parse();
