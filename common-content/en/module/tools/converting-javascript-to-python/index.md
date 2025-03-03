@@ -19,7 +19,8 @@ import { program } from "commander";
 program
     .name("count-containing-words")
     .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "e");
+    .option("-c, --char <char>", "The character to search for", "e")
+    .argument("<path>", "The file path to process");
 
 program.parse();
 
