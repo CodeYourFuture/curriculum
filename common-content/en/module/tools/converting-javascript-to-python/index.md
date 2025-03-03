@@ -64,7 +64,7 @@ There are some differences here.
 * With commander we were calling functions on a global `program`, whereas with argparse we construct a new `ArgumentParser` which we use.
 * `add_argument` takes separate parameters for the short (`-c`) and long (`--char`) forms of the option - `commander` expected them in one string.
 * The Python version uses a lot of named arguments (e.g. `add_argument(...)` took `help=`, `default=`), whereas the JavaScript version (`option(...)`) used a lot of positional ones.
-* The Python version handles positional arguments itself as arguments with names (`path`), whereas the JavaScript version just gives us an array of positional arguments and leaves us to understand them.
+* The Python version handles positional arguments itself as arguments with names (`path`), whereas the JavaScript version defines them explicitly using `.argument("<path>", "The file path to process")`, where `<path>` is a placeholder and the second argument is a description.
 
 ### Validating command line flags
 
