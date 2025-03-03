@@ -26,7 +26,7 @@ src="blocks/lunch"
 time=60
 [[blocks]]
 name="The Roles Project"
-src="https://github.com/CodeYourFuture/Track-AI-Essentials/readme"
+src="https://github.com/CodeYourFuture/Track-AI-Essentials/issues/10"
 time=75
 [[blocks]]
 name="Afternoon Break"
