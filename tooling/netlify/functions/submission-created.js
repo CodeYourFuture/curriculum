@@ -17,6 +17,7 @@ import {Auth, google} from "googleapis";
 const COURSE_TO_SPREADSHEET_ID = {
   "itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
   "piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
+  "sdc": "1dPY9Troijh3ZZkXbYkMMS3F5TkG4TKdRzd0Z3d45_gI",
 };
 
 const CREDENTIALS = {
