@@ -320,13 +320,13 @@ It should write the text you wrote in `exercise_3_file.txt`.
 
 {{<tabs>}}
 ===[[Exercise]]===
-Run `strace python3 exercise_3.py`.
+Run `strace -o strace.output python3 exercise_3.py`.
+`strace` will write each and ever *system call* that the process makes to the `strace.output` file.
 
-`strace` will write each and ever *system call* that the process makes.
-
-It shows a lot of *system calls*.
+Look at the `strace.output` file.
 Each line it shows, is a *system call*.
-The program does a lot of talking to the kernel.
+There are a lot.
+The process does a lot of talking to the kernel.
 
 Can you see where `exercise_3_file.txt` is opened?
 ===[[Answer]]===
@@ -369,97 +369,7 @@ file_object = open("exercise_3_file.txt", "r")
 input("Press enter to stop the program...")
 ```
 
-Now run `strace python3 exercise_3.py` again.
-Can you figure out which *system call* is used to write "Press enter to stop the program..."?
-
-===[[Answer]]===
-You should see something like this:
-```
-read(3, "file_object = open(\"exercise_3_f"..., 4096) = 91
-read(3, "", 4096)                       = 0
-close(3)                                = 0
-openat(AT_FDCWD, "exercise_3_file.txt", O_RDONLY|O_CLOEXEC) = 3
-newfstatat(3, "", {st_mode=S_IFREG|0664, st_size=46, ...}, AT_EMPTY_PATH) = 0
-ioctl(3, TCGETS, 0x7ffd41cdfc40)        = -1 ENOTTY (Inappropriate ioctl for device)
-lseek(3, 0, SEEK_CUR)                   = 0
-ioctl(3, TCGETS, 0x7ffd41cdfa90)        = -1 ENOTTY (Inappropriate ioctl for device)
-ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
-ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
-ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
-ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
-write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
-newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
-read(0,
-```
-
-You can see the *system call* happening here:
-```
-write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
-```
-So we can see it's the `write` system call.
-
-{{</tabs>}}
-
-Because we haven't pressed "enter" yet, the process is still waiting for us.
-Let's press "enter" to allow the process to end.
-
-When we pressed "enter", the `read` system call was only half written to the screen:
-```
-read(0,
-```
-And now that we pressed "enter", the rest of it got rendered, but it was broken across two lines.
-
-This is because the output of our process and the output of `strace` are getting mixed up.
-This can be really confusing.
-
-> [!NOTE]
->
-> You might have noticed the `write` *system call* looked a bit odd too:
-> ```
-> write(2, "Press enter to stop the program."..., 34Press enter to stop the program...) = 34
-> ```
-> It shows "Press enter to stop the program" twice.
->
-> This is also because of the output of the process getting mixed up with  the output of `strace`:
-> `strace` tried to tell us of the `write` *system call*.
-> And while it was telling us, the `write` *system call* happened.
-> Both tried to write "Press enter to stop the program", therefore it appeared twice.
-
-Because all this mixing up is confusing, we'll use two terminals again.
-We'll have to do things a little different this time.
-
-{{<tabs>}}
-===[[Exercise]]===
 On your first terminal, type `strace -o strace.output python3 exercise_3.py`
-You should see the process, but no longer see the *trace*.
-That's because we are sending it to a file: `strace.output`.
-The `-o` flag means "write everything to this file".
-
-On your second terminal, type `less strace.output` to view the *trace*. 
-
-Can you find the `write` system call again?
-Can you see how it is different from the previous time we found it?
-
-===[[Answer]]===
-This time, the system call looks like this:
-```
-write(2, "Press enter to stop the program."..., 34) = 34
-```
-
-It only writes the "Press enter to stop the program" once.
-
-And we get to interact with our program on the other terminal normally.
-
-You can close `less` now (you can close it by pressing `q`).
-{{</tabs>}}
-
-You now know how to get your process traced.
-And you've seen that the `openat` *system call* is used to open the file.
-
-{{<tabs>}}
-===[[Exercise]]===
-On your first terminal, trace the program again, like you did in the previous exercise: `strace -o strace.output python3 exercise_3.py`
-
 On your second terminal, use `lsof` (from earlier) to find the *file descriptor* for `exercise_3_file.txt`.
 Next, find the `openat` system call where `exercise_3_file.txt` is opened.
 
@@ -479,6 +389,31 @@ That last `= 3` is the *file descriptor*.
 
 {{</tabs>}}
 
+You can look up the `openat` system call in the man pages: `man 2 openat`
+and if you look at the *RETURN VALUE* section, you can see that the return value of `openat`
+is the file descriptor:
+```
+RETURN VALUE
+       open(), openat(), and creat() return the new file descriptor (a nonnegative integer),
+       or -1 if an error occurred (in which case, errno is set appropriately).
+```
+The return value of a system call will always be after the equals sign (`=`) in the trace output.
+
+<!--
+  I think getting the students used to specifying the section of the man pages
+  when looking up system calls is important.
+  Because the `write` program exists, and `man` will prioritize that over the `write` system call.
+  -->
+
+> [!TIP]
+>
+> All system calls are documented in *man pages*.
+> The man pages system is divided into sections.
+> Section *2* contains all system calls.
+>
+> If you don't tell `man` which section to look in, it'll make a guess.
+> The guess is often right, so you can omit the *2* in many cases.
+
 Let's make this a little more useful.
 
 At the preparation step, we made sure the file had something in it.
@@ -486,6 +421,14 @@ That's because we're going to read it.
 
 And then write it to the output.
 And this time, we're going to do that without "Press enter to stop the program".
+
+<!--
+  XXX I'm thinking of making this print line numbers in front of each line.
+  That way, I can point out that while we can see the effects of the process
+  (opening the file, writing to stdout),
+  we can't see what the process does inside.
+  We can only guess.
+  -->
 
 {{<tabs>}}
 ===[[Exercise]]===
@@ -528,23 +471,15 @@ And to write the text, the `write` *system call* is used:
 write(1, "Agnes, who is a cat, is sleeping"..., 46) = 46
 ```
 We can see the `1`, which is the *file descriptor* to which it is written.
-(In the `lsof` part, we can have seen that this is *standard output*.
+(In the `lsof` part, we can have seen that this is *standard output*.)
 
-{{</note>}}
+{{</tabs>}}
 
 <!--
   XXX This chapter needs more love.
   I've written out the exercises that I want, but I want to teach them to look at the man-page
   to get an idea of what the system call does.
   (Because guessing based on the name only gets one so far.)
-
-  I want to tell them that all system calls are documented in section 2 of the man-pages.
-
-  And I want a little more filler text between the exercises.
-
-  And maybe I should just start with the `-o` immediately.
-  Just like `ps`, we should go "this is the tool, hold it here",
-  and students can get fancy on their own time if/when they feel like it.
   -->
 
 ### What You've Learned
