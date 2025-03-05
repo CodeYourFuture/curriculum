@@ -1,7 +1,56 @@
-# Workshop: XXX
+# Workshop: Process Spelunking
 
 This workshop will teach you about how the programs you write, interact with files.
 And in the process, we'll learn more about the kernel, and how it helps your programs do things.
+
+## Preparation
+
+### Linux
+
+In order to participate in this workshop, you will need a linux computer.
+I recommend using an ubuntu VM in AWS (free tier instance), or alternatively a VM inside virtual box.
+
+> [!WARNING]
+>
+> Docker linux will not work properly.
+> Don't use it.
+> (If you don't know what docker is, you're probably grand.)
+
+<!--
+  Should we warn against WoL-subsystem (linux emulator on windows) too?
+  -->
+
+For people who run linux on their own laptop, I still recommend an AWS instance,
+so you won't get distracted by all the other programs running under your user account.
+
+### Preparing Your Linux
+
+On the linux computer, make sure the following packages are installed:
+- `python3`
+- `lsof`
+- `strace`
+
+> [!TIP]
+>
+> On ubuntu, you can run `sudo apt install python3 lsof strace` to get these programs installed.
+
+<!--
+  Beyond this point, `sudo` isn't required, but I see no reason to deny it.
+  Everything (except for the package installation) can be done as a normal user.
+  -->
+
+
+
+### Linux Skills
+
+I recommend you learn how to use the `less` program.
+
+Confirm that if you run `man ps`, you get shown a man-page.
+(It's a lot of text, you can exit it with `q`.)
+
+Make sure that you can:
+- create a new text file on the linux machine,
+- open 2 shells at the same time on the linux machine (we will use 1 to run a small python program, and another to look at the program while it's running).
 
 
 
