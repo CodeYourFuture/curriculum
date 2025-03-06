@@ -2,7 +2,7 @@
 title ="Step 0: What to do"
 description= "Join the CodeYourFuture Intro To Digital Slack"
 emoji= "🗨"
-time= 30
+time= 60
 [build]
   render = 'never'
   list = 'local'
