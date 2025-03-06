@@ -2,7 +2,7 @@
 title ="Step 4: What to do"
 description= "Build a personal home page with CodePen"
 emoji= "🤖"
-time= 240
+time= 300
 [build]
   render = 'never'
   list = 'local'
