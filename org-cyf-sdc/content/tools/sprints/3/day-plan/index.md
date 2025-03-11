@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Exploring processes workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/process-spelunking?ref=wip-sdc-workshops"
+src="module/tools/process-spelunking"
 time="90"
 [[blocks]]
 name="Morning break"
