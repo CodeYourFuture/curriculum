@@ -8,7 +8,9 @@ And in the process, we'll learn more about the kernel, and how it helps your pro
 ### Linux
 
 In order to participate in this workshop, you will need a linux computer.
-I recommend using an ubuntu VM in AWS (free tier instance), or alternatively a VM inside virtual box.
+If you're in a CYF class, there are laptops you can borrow for this workshop - your volunteers should know how to access them.
+
+Otherwise, I recommend using an ubuntu VM in AWS (free tier instance), or alternatively a VM inside virtual box.
 
 > [!WARNING]
 >
