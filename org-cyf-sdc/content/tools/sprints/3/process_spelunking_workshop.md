@@ -370,7 +370,7 @@ It should write the text you wrote in `exercise_3_file.txt`.
 {{<tabs>}}
 ===[[Exercise]]===
 Run `strace -o strace.output python3 exercise_3.py`.
-`strace` will write each and ever *system call* that the process makes to the `strace.output` file.
+`strace` will write each and every *system call* that the process makes to the `strace.output` file.
 
 Look at the `strace.output` file.
 Each line it shows, is a *system call*.
