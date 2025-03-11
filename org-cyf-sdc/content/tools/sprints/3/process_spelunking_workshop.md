@@ -178,7 +178,7 @@ We won't care about them today.
 
 {{<tabs>}}
 ===[[Exercise]]===
-There are much more processes, but many don't have a *TTY*.  
+There are many more processes, but many don't have a *TTY*.  
 Can you figure out what the *TTY* of the `cron` process is?
 
 ===[[Answer]]===
