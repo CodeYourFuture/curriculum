@@ -229,7 +229,7 @@ You can hit "enter" to get it to stop.
 
 ### What You've Learned
 
-You've learned how you can use `ps` to find the *PID* of a process.
+You've learned how you can use `ps` to find the *PID* of a process. \
 You've learned the difference between a program and a process.
 
 
@@ -350,9 +350,9 @@ You can hit "enter" to get it to stop.
 
 ### What You've Learned
 
-Processes can open files.
-They use *file descriptors* to refer to the files.
-And we can inspect which files are opened by a process, using the `lsof` command.
+Processes can open files. \
+Processes use *file descriptors* to refer to the files. \
+We can inspect which files are opened by a process, using the `lsof` command.
 
 
 
@@ -554,7 +554,7 @@ We can see the `1`, which is the *file descriptor* to which it is written.
 
 ### What You've Learned
 
-You've learned that the process and the kernel speak with eachother using *system calls*.
-And that you can *trace* those *system calls* using `strace`.
+You've learned that the process and the kernel speak with eachother using *system calls*. \
+You can *trace* those *system calls* using `strace`.
 
 You've also seen how a file is opened, and read, by asking the kernel to do that for us, using *system calls*.
