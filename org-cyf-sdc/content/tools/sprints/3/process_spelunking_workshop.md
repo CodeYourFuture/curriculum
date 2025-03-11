@@ -384,8 +384,8 @@ Create a file `exercise_3.py` with this code.
 file_object = open("exercise_3_file.txt", "r")
 ```
 This time, the program doesn't wait for you to press enter.
-You can test if you've set everything up correctly, by running `python3 exercise_3.py`.
-It should write the text you wrote in `exercise_3_file.txt`.
+You can test if you've set everything up correctly, by running `python3 exercise_3.py` (it should not produce any output).
+After that, if you run `echo $?`, you should get `0`, indicating the program ran without errors.
 {{</note>}}
 
 {{<tabs>}}
