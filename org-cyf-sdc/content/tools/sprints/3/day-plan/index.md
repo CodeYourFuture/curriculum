@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Exploring processes workshop"
-src="tools/sprints/3/process_spelunking_workshop.md"
+src="module/tools/process-spelunking"
 time="90"
 [[blocks]]
 name="Morning break"
