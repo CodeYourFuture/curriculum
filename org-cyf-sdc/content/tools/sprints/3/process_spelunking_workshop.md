@@ -1,3 +1,22 @@
++++
+title = "Workshop: Process Spelunking"
+time = 90
+emoji= "📖"
+objectives = [
+    "Find the PID of a process, using `ps`.",
+    "Define a file descriptor.",
+    "List a process's open file descriptors, using `lsof`.",
+    "Define a system call.",
+    "List the system calls performed by a process, using `strace`",
+    "Interpret the output of `strace`.",
+    "Interpret return values of syscalls by referencing `man 2`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Workshop: Process Spelunking
 
 This workshop will teach you about how the programs you write, interact with files.
