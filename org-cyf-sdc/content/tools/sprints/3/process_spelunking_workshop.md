@@ -265,7 +265,7 @@ file_object.close()
 ```
 On your first terminal, run the program: `python3 exercise_2.py`
 The program should wait for you to press enter.
-Just like in before, we won't press enter yet, instead we'll keep it waiting.
+Just like before, we won't press enter yet, instead we'll keep it waiting.
 {{</note>}}
 
 {{<tabs>}}
