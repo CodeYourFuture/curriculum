@@ -12,7 +12,7 @@ I recommend using an ubuntu VM in AWS (free tier instance), or alternatively a V
 
 > [!WARNING]
 >
-> Docker linux will not work properly.
+> Docker linux will not work properly for this workshop.
 > Don't use it.
 > (If you don't know what docker is, you're probably grand.)
 
