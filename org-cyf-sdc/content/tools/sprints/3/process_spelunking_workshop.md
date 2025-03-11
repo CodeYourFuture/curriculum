@@ -491,7 +491,7 @@ file_object.close()
 ```
 
 Can you find all the system calls used to read this file?
-And can you find all the system calls used to write the text?
+And can you find all the system calls used to write the text to standard out?
 
 ===[[Answer]]===
 To read the file, three *system calls* are used.
