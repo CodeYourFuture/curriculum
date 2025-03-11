@@ -343,6 +343,11 @@ There are many many more types, but you won't see those quite as often.
 You can read them all in the `lsof` man-page: `man lsof`.
 (Most of them I don't know, and have never seen in the wild.)
 
+<!--
+  XXX `lsof -d 3` will show all processes and their `3` file descriptor.
+  This can be turned into an exercise to show that each process has their own scoped file descriptors.
+  -->
+
 {{<note title="Clean up">}}
 Now that you know how to find a *File Descriptor*, we no longer need the program that we started on the first terminal.
 You can hit "enter" to get it to stop.
