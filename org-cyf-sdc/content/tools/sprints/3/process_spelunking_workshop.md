@@ -258,7 +258,7 @@ Create a new file: `exercise_2_file.txt`.
 It's fine to leave it empty.
 
 Create a file `exercise_2.py` with this code.
-```
+```python
 file_object = open("exercise_2_file.txt", "r")
 input("Press enter to stop the program...")
 file_object.close()
@@ -385,7 +385,7 @@ Agnes, who is a cat, is sleeping on the sofa.
 ```
 
 Create a file `exercise_3.py` with this code.
-```
+```python
 file_object = open("exercise_3_file.txt", "r")
 ```
 This time, the program doesn't wait for you to press enter.
@@ -439,7 +439,7 @@ We call this tracing.
 {{<tabs>}}
 ===[[Exercise]]===
 Change the file `exercise_3.py` with this code:
-```
+```python
 file_object = open("exercise_3_file.txt", "r")
 input("Press enter to stop the program...")
 ```
@@ -508,7 +508,7 @@ And this time, we're going to do that without "Press enter to stop the program".
 {{<tabs>}}
 ===[[Exercise]]===
 Change the file `exercise_3.py` with this code:
-```
+```python
 file_object = open("exercise_3_file.txt", "r")
 lines = file_object.readlines()
 for line in lines:
