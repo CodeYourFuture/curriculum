@@ -21,7 +21,7 @@ flowchart TD
     F[Document your change] --> C
 ```
 
-Adding new features to legacy code presents unique challenges:
+Another way to think of this is of joining a game that is already being played. You need to read the rules, identify the strategies, and then make your move. But how do you get over your fear of breaking something?
 
 1. **Find the Patterns**
 

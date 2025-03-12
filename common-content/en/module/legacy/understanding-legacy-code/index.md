@@ -3,22 +3,22 @@ title = "Understanding legacy code"
 time = 60
 emoji= "🗿"
 [objectives]
-    1="Explain the functionality offered by existing code"
-    2="Sketch the flow of a request through existing code"
+    1="Sketch the flow of a request through existing code"
+    2="Identify key components and their relationships"
     3="Map the architecture of an unfamiliar application"
-    4="Identify key components and their relationships"
-    5="Build a mental model of request flow"
 +++
 
 > Understanding legacy code is like exploring an unfamiliar city. You need a map, some landmarks, and a way to navigate between points of interest.
 
 ```mermaid
 flowchart LR
-    A[index.html] --> B[index.mjs ?]
-    B --> C[component.mjs ?]
-    C --> D[api service ?]
-    D --> E[flask server ?]
-    E --> D
+    A[🚪 index.html
+    index.mjs]
+    A --> B[📍 component.mjs
+    component.spec.mjs
+    component.css]
+    B --> C[🚏 api service ?]
+    C --> D[🧰 flask server ?]
     D --> C
     B --> A
     C --> A
@@ -26,7 +26,21 @@ flowchart LR
 
 ```
 
-The goal isn't just to find your way around, but to understand the city's design principles so you can build more of it. Get out your notebook and start drawing out a map of the application as you explore the codebase. You can sketch it in any way that makes sense to you. You are going to:
+### Fear
+
+> Into the unknown
+
+Do you remember your first day at {{<our-name>}}? You couldn't find the building, maybe, and you had no idea how the day would go. What on earth is a day plan, or a backlog, you thought to yourself. Perhaps you got frustrated: WHY are all my changes from last week in my new PR? HOW? It was incomprehensible. But you learned! You asked questions, you read the guides, and you built a mental map of the system.
+
+So recognise that fear of the unknown. That feeling that if you change something, you don't know what will happen: that you will break things and not be able to fix them. It's a normal feeling, but it's not a reason to avoid the challenge.
+
+### Patterns
+
+> define design patterns
+
+The first thing to do is to start identifying the patterns you can see and relate them to things you already know.
+
+Get out your notebook and start drawing out a map of the application as you explore the codebase. You can sketch it in any way that makes sense to you. You are going to:
 
 1. **Find the Entry Points**
 
@@ -42,12 +56,14 @@ The goal isn't just to find your way around, but to understand the city's design
 3. **Trace the Request Flow**
 
    - Follow a single request from start to finish
-   - Example: User login → route → authentication → database → response
+   - Example: User login → authentication → database → response?
 
 4. **Map Data Structures**
    - What objects or data types are being passed around?
    - How is state managed?
    - How do we know who the user is?
+
+### Tests
 
 ### 🧑‍🎓 Activity: Application Archaeology
 
@@ -56,6 +72,6 @@ Open the PurpleForest application. Without making any changes yet, spend 15 minu
 1. What are the main components of the application?
 2. How are the frontend and backend connected?
 3. How is user data stored and retrieved?
-4. Draw a simple diagram showing the flow of a bloom from creation to display
+4. Draw a diagram showing the flow of a bloom from creation to display
 
 Remember, understanding comes before changing. Don't dive into fixing yet! Your goal is to understand the existing patterns so you can work effectively within them, not to reimagine the application architecture.
