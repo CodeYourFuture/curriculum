@@ -19,5 +19,6 @@ Here is the criteria you need to meet:
 - You have added your name to the document's file name
 - You have made the document public
 - You have uploaded the link to the document to this site
-- You have added a comment on the document giving feedback on the content
+- You have added at least one comment giving feedback on the content of the AI's work
+- Your comment is made on this site (not on Google docs).
 ```
