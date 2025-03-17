@@ -17,6 +17,87 @@ Attendees:
 
 ---
 
+## 2025-03-11
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
+
+### 📝 Agenda points
+
+#### Organisation of the syllabus team
+
+* Could scatter ourselves into the per-course teams, and structure global syllabus more as an occasional "gathering of representatives of the per-course teams".
+* Unclear how successful the per-course team split has gone - we have a few strong individuals but don't seem to have much by way of self-organising teams.
+* Experience with trying to make the React syllabus team is that they looked to Ali as if he was leading the team, rather than self-organising.
+
+#### New region
+
+* CYF is looking to open a new region this year - unclear where, but we're starting to think about what factors to consider in picking a place.
+* Availability of jobs feels like a major factor.
+
+#### Discussion of momentum of different regions
+
+* Justification of bringing people in-person?
+  * ITP doesn't currently feel like a great justification.
+  * Flipped classroom means different people are having different experiences.
+  * What would it take to make it worthwhile?
+  * Or should we defer people coming together in-person to the Piscine.
+
+#### Legacy code SDC module
+
+* Sally thinks there are three key skills
+  * Overcoming fear of the unknown
+  * Identifying patterns - how are things named/organised/split up/...
+  * Testing ideas
+* Ali adds:
+  * Where to start (e.g. "Go to the router")
+* Daniel adds:
+  * Anchor points we know about ("paths", "error messages", ...)
+    * Possible real task: Given some logged errors, find out what caused them and fixed them
+  * Tracing a request forwards
+  * Finding how we got here (e.g. find-references)
+* Mitch adds:
+  * Environments - how are things configured? Where is code being executed?
+  * Timings, particularly with events
+
+Ali is still unsure about the name "Legacy Code" - has certain connotations that aren't necessarily accurate.
+
+Differentiating between "I would do it this way" and "It should be done this way"; thinking about fear of unfamiliar technologies.
+
+#### Ali's LeadDev talk
+
+LeadDev seem to be merging their managers conference and their staff+ conference.
+
+10 minute talk. Pitch: How can we apply pedagogy in workplaces?
+
+* Mentoring and ways of doing mentorship; learning by teaching
+* Cognitive load, mental models, expert blindspot
+* Backward design - writing learning objectives and working back from there
+* Teaching making you a better developer
+  * Forces you to give better feedback
+  * Forces you to confront unexpected unknowns
+  * Forces you to solidify ambiguity and be explicit
+  * Forces you to clarify your uncertainty and improve it
+  * Making the model explicit
+  * Communicating at different levels of precision and abstraction
+  * Clearing up assumptions with targeted questioning
+
+### ❗Actions
+
+* [ ] Everyone to think about future syllabus team organisation
+* [ ] Daniel to put together a CYF vision doc for discussion
+
+---
+
+## 2025-02-25
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Nirmeet Baweja, Sally McGrath
+
+### 📝 Agenda points
+
+[Piscine retro](https://www.figma.com/board/1rJERE9kA4zkzUT2q8h5Tp/Piscine-Retro?node-id=2-823)
+
+---
+
 ## 2025-01-14
 
 Attendees: Ali, Mitch, Sally

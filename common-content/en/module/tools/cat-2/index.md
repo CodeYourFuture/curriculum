@@ -1,13 +1,16 @@
 +++
 title = "More cat"
-headless = true
 time = 10
-facilitation = false
-emoji= "💻"
+emoji = "💻"
 hide_from_overview = true
-[objectives]
-    1="Show the contents of a file, including line numbers, with cat"
-    2="Concatenate multiple files outputting to the terminal"
+objectives = [
+  "Show the contents of a file, including line numbers, with `cat`.",
+  "Concatenate multiple files outputting to the terminal.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 ![Julia Evans' comic about cat](https://wizardzines.com/images/uploads/cat.png)

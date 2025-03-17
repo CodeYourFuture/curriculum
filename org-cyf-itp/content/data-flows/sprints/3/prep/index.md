@@ -14,8 +14,8 @@ src="https://www.youtube.com/watch?v=J-0XkB54yp8"
 name="Latency"
 src="module/js3/latency"
 [[blocks]]
-name="Asynchrony"
-src="module/js3/asynchrony"
+name="Synchronous execution"
+src="module/js3/synchronous-execution"
 [[blocks]]
 name="Callbacks"
 src="module/js3/callbacks"

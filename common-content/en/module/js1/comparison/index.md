@@ -2,7 +2,6 @@
 title = 'Comparing current and target output'
 
 time = 40
-facilitation = false
 emoji= '⚖️'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'

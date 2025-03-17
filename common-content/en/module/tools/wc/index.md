@@ -1,12 +1,15 @@
 +++
 title = "wc"
-headless = true
 time = 10
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Count the bytes, words, and lines of a file with wc"
-    2="Count just the words of a file with wc"
+emoji = "💻"
+objectives = [
+  "Count the bytes, words, and lines of a file with `wc`.",
+  "Count just the words of a file with `wc`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `wc` is a tool for counting the bytes, words, or lines in a file.

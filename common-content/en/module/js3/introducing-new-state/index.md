@@ -2,7 +2,6 @@
 title = 'Introducing new state'
 
 time = 30
-facilitation = false
 emoji= '🆕'
 [build]
   render = 'never'

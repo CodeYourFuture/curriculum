@@ -2,7 +2,7 @@
 title ="Step 1: What to do"
 description= "Use ChatGPT to make a cover letter for a fictional person"
 emoji= "🤖"
-time= 60
+time= 90
 [build]
   render = 'never'
   list = 'local'

@@ -87,12 +87,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Time", name: "time", widget: "number", default: 30 }
       - {
-          label: "Facilitation",
-          name: "facilitation",
-          widget: "boolean",
-          default: false,
-        }
-      - {
           label: "Hide from Overview",
           name: "hide_from_overview",
           widget: "boolean",

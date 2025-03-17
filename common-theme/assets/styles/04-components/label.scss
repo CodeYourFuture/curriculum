@@ -4,6 +4,10 @@
   font: 600 var(--theme-type-size--6) system-ui;
   border: 1px solid;
   border-radius: 1em;
+
+  &:not(:has(.c-label__name)) {
+    padding: 0.125em 0.5em;
+  }
   &__name {
     display: inline-block;
     padding: 0.125em 0.5em;

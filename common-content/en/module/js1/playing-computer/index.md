@@ -2,7 +2,6 @@
 title = 'Playing computer'
 
 time = 30
-facilitation = false
 emoji= '🎮'
 [objectives]
     1='Analyse each line in a given program and state what the line does when the program executes'

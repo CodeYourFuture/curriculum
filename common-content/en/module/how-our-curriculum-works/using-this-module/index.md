@@ -1,7 +1,6 @@
 +++
 title = 'Using this module'
 time = 20
-facilitation = false
 vocabulary=["Blockers"]
 emoji= '🛣️'
 [objectives]

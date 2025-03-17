@@ -2,7 +2,6 @@
 title = 'Improving the code'
 
 time = 30
-facilitation = false
 emoji= '🧹'
 [objectives]
 1='Explain why refactoring is necessary in the production of software'

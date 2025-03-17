@@ -1,7 +1,6 @@
 +++
 title = '{{ replace .Name "-" " " | title }}'
 time = 30
-facilitation = false
 hide_from_overview=false
 threads = ['unassigned']
 activities=["define a term"]

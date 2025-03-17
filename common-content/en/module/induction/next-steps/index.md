@@ -2,7 +2,6 @@
 title = 'Next steps'
 
 time ="20"
-facilitation = false
 emoji= '👣'
 [objectives]
     1='Figure out what we need to do next in the course'

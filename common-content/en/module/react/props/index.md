@@ -2,7 +2,6 @@
 title = 'Props'
 
 time = 15
-facilitation = false
 emoji= '📦'
 [objectives]
     1='Pass props to a component'

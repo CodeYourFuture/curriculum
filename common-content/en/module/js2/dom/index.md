@@ -2,7 +2,6 @@
 title = 'The DOM'
 
 time = 20
-facilitation = false
 emoji= '🌲'
 [objectives]
     1='Define the Document Object Model'

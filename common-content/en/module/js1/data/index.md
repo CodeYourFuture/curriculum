@@ -2,7 +2,6 @@
 title = 'Classifying data'
 
 time = 15
-facilitation = false
 emoji= '🗄️'
 [objectives]
     1='Define data type, expression, and operator'

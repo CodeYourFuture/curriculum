@@ -1,12 +1,15 @@
 +++
 title = "grep"
-headless = true
 time = 30
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="Identify the lines in a file which contain a string using grep"
-    2="Identify which files contain a string using grep"
+emoji = "💻"
+objectives = [
+  "Identify the lines in a file which contain a string using `grep`",
+  "Identify which files contain a string using `grep`",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `grep` is a tool for searching files for text.

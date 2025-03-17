@@ -2,7 +2,7 @@
 title ="Step 3: What to do"
 description= "Learn HTML and CSS fundamentals with Khan Academy"
 emoji= "🤖"
-time= 360
+time= 480
 [build]
   render = 'never'
   list = 'local'

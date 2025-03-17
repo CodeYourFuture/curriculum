@@ -2,7 +2,6 @@
 title = "Jest's Application Programming Interface"
 
 time = 15
-facilitation = false
 emoji= '🎛️'
 [objectives]
     1='Explain why we use APIs in programming'

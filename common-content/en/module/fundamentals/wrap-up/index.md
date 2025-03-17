@@ -2,7 +2,6 @@
 title = 'Wrap Up'
 
 time = 60
-facilitation = false
 vocabulary=["Requirements", "User Stories"]
 emoji= '🎉'
 [objectives]

@@ -8,35 +8,46 @@ weight = 3
 name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
-name="Study group"
-src="blocks/workshop"
-time="115"
+name="Using a project board workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
+time="45"
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Terminal skills workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
+time="45"
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time="30"
 [[blocks]]
 name="Games, rules, logic and strategy"
 src="blocks/games"
-time="20"
+time="25"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="demo"
 src="blocks/demo"
-time="25"
+time="30"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="60"
+time="45"
 [[blocks]]
 name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Template/pulls"
+src="https://github.com/CodeYourFuture/Module-Tools/pulls"
 time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
-time="90"
+name="Study Group"
+src="blocks/study-group"
+time="60"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

@@ -2,7 +2,6 @@
 title = 'Objects Workshop'
 
 time = 60
-facilitation = false
 emoji= '📼'
 [objectives]
     1='Practice solving problems with objects'

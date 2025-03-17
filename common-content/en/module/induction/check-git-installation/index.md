@@ -1,7 +1,6 @@
 +++
 title = 'Check Git installation'
 time = 15
-facilitation = false
 vocabulary=[]
 emoji= '📋'
 [tasks]

@@ -2,7 +2,6 @@
 title = 'Gathering requirements'
 
 time = 30
-facilitation = false
 emoji= '🛍️'
 [objectives]
     1='Choose a project brief'
