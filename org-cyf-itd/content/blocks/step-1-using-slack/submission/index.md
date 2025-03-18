@@ -11,6 +11,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
+You must do this in the [CYF Course Platform](https://application-process.codeyourfuture.io/)
 
-1. Upload a PDF file of your Result Page (or Score Summary Page) containing your name, your score, and your answers
+1. Upload a PDF file created from your Result Page (Score Summary Page)
