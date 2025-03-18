@@ -44,6 +44,7 @@
     border-radius: var(--theme-border-radius);
     border-top-left-radius: 0;
     opacity: 0;
+    overflow-x: scroll;
 
     &.is-active {
       opacity: 1;

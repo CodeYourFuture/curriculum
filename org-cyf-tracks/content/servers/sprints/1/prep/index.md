@@ -4,8 +4,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
-backlog= 'Module-Servers'
-backlog_filter='📅 Week 1'
 theme = "Intro to HTTP servers"
 [[blocks]]
 name="Intro to Express"

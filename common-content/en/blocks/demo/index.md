@@ -15,7 +15,7 @@ At {{<our-name>}} we expect you to demo your work to the class. You must have ma
 
 The timekeeper will keep the groups on track.
 
-Split randomly into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 10 minutes. Then the next person will demo their work.
+Split randomly into groups of no more than 5 people. Each person will have 2 minutes to demo their work to the group. After the demo, the group will give feedback for 5 minutes. Then the next person will demo their work.
 
 ## 🧑🏼‍🎓 Trainees
 
@@ -25,11 +25,12 @@ You will demo your work to the group. You will have 2 minutes to explain what yo
 
 ### 2. Feedback
 
-After the demo, the group will give you feedback for up to 10 minutes. It's smart to suggest what kind of feedback you want by asking some "generative" questions. For example:
+After the demo, the group will give you feedback for up to 5 minutes. It's smart to suggest what kind of feedback you want by asking some "generative" questions. For example:
 
 - I wasn't sure if it makes sense to try X. What do you think?
 - I liked the way I did X, but I know there are other approaches, what did you do?
 - I found X really confusing, did anyone else have the same problem?
+- I wasn't sure if I explained what an X was very clearly, how could I have explained it better?
 
 ## 💡 Tips:
 

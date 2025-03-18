@@ -2,7 +2,6 @@
 title = 'Check progress'
 
 time = 15
-facilitation = false
 emoji= '📝'
 hide_from_overview = true
 [objectives]

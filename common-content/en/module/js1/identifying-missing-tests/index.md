@@ -2,7 +2,6 @@
 title = 'Identifying missing tests'
 
 time = 30
-facilitation = false
 emoji= '🔬'
 [objectives]
 1='Define groups of input'

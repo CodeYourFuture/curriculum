@@ -2,7 +2,6 @@
 title = 'How the internet works'
 
 time = 20
-facilitation = false
 emoji= '🌐'
 [objectives]
   1='Describe what happens when a user enters a url into a browser'

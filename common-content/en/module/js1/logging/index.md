@@ -2,7 +2,6 @@
 title = 'Logging'
 
 time = 10
-facilitation = false
 emoji= '🖨️'
 [objectives]
     1='Use console.log to print a value'

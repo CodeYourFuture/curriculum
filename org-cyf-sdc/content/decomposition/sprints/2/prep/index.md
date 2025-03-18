@@ -6,18 +6,30 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-title="Read about the world-wide web"
-src="module/decomposition/read-about-the-www"
+name="Adding quotes"
+src="module/decomposition/adding-quotes"
 [[blocks]]
-title = "Making a non-live chat application"
+name="Data validation"
+src="module/decomposition/data-validation"
+[[blocks]]
+name = "Chat application requirements"
+src = "module/decomposition/chat-application-requirements"
+[[blocks]]
+name = "Making a non-live chat application"
 src = "module/decomposition/non-live-chat-application"
 [[blocks]]
-title = "Deploying the chat application"
+name = "Deploying the chat application"
 src = "module/decomposition/deploy-chat-application"
 [[blocks]]
-title = "Long-polling requests"
-src = "module/decomposition/long-polling-requests"
+name = "Limitations of a single request/response"
+src = "module/decomposition/single-request-response-limitations"
 [[blocks]]
-title = "Making chat live"
-src = "module/decomposition/making-chat-live"
+name = "Designing a streaming API"
+src = "module/decomposition/designing-streaming-api"
+[[blocks]]
+name = "Repeated client requests for updates"
+src = "module/decomposition/repeated-client-requests-for-updates"
+[[blocks]]
+name = "Long-polling"
+src = "module/decomposition/long-polling"
 +++

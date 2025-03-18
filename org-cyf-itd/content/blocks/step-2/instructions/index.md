@@ -2,7 +2,7 @@
 title ="Step 1: What to do"
 description= "Learn about data analytics, review required skills, then build a project that exemplifies a typical task for a data analyst."
 emoji= "🤖"
-time= 90
+time= 120
 [build]
   render = 'never'
   list = 'local'

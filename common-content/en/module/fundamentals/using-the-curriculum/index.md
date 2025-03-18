@@ -2,7 +2,6 @@
 title = 'Using the curriculum'
 
 time="50"
-facilitation = true
 emoji= '🗺️'
 [objectives]
    1="Describe our mission"

@@ -2,7 +2,6 @@
 title = 'Assembling the parts'
 
 time = 10
-facilitation = false
 emoji= '🧱'
 hide_from_overview = true
 [objectives]

@@ -2,7 +2,6 @@
 title = 'Vite'
 
 time = 30
-facilitation = false
 emoji= '🏃‍♀️'
 [objectives]
     1='Create a new React app with Vite'

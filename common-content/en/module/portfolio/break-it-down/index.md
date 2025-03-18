@@ -2,7 +2,6 @@
 title = 'Break it down'
 
 time = 60
-facilitation = false
 emoji= '🧩'
 [objectives]
     1='Propose acceptance criteria for a given user story'

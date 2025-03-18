@@ -2,7 +2,6 @@
 title = 'Starting a project'
 
 time = 10
-facilitation = false
 emoji= '🎒'
 [objectives]
     1='Identify a package.json'
@@ -18,13 +17,13 @@ emoji= '🎒'
 ===[[🕹️ Follow along]]===
 Let's start a brand new project in a directory called `ordinal-testing-example` and create a file called `package.json` in our project.
 
-1. Open your terminal and ensure you're inside the `{{<our-name>}}` directory you created earlier in the course.
+1. Open your terminal and ensure you're inside the `CYF` directory you created earlier in the course.
 1. [Make](https://man7.org/linux/man-pages/man1/mkdir.1.html) a new directory on your local machine called `ordinal-testing-example`.
 1. Change directory into `ordinal-testing-example` and double-check your current working directory.
 
 ```console
 % pwd
-.../{{<our-name>}}/ordinal-testing-example
+.../CYF/ordinal-testing-example
 ```
 
 👉🏽 [Now create a `package.json` file](#start-project-1)

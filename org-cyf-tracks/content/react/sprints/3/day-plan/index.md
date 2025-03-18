@@ -4,8 +4,6 @@ layout = 'day-plan'
 emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Module-React'
-backlog_filter='📅 Week 3'
 [[blocks]]
 name="Orientation"
 src="morning-orientation"

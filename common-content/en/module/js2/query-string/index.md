@@ -2,7 +2,6 @@
 title = 'Query strings'
 
 time = 10
-facilitation = false
 emoji= '❓🪢'
 [objectives]
 1='Identify the query string section of a URL'

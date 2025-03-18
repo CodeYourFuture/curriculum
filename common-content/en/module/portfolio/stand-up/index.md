@@ -2,7 +2,6 @@
 title = 'Stand up'
 
 time = 15
-facilitation = false
 emoji= '😉'
 [objectives]
     1='Share your blockers'

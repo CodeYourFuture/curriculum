@@ -5,7 +5,6 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
-backlog= 'Module-React'
 [[blocks]]
 name="Learn React with WebDev Simplified"
 src="https://www.youtube.com/watch?v=Rh3tobg7hEo"

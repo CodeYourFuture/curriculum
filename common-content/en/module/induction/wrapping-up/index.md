@@ -2,7 +2,6 @@
 title = 'Wrapping up Git'
 
 time ="20"
-facilitation = false
 emoji= '🎁'
 hide_from_overview = true
 [objectives]

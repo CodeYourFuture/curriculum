@@ -1,11 +1,14 @@
 +++
 title = "ls"
-headless = true
 time = 15
-facilitation = false
-emoji= "💻"
-[objectives]
-    1="List the files (and directories) in a directory with ls"
+emoji = "💻"
+objectives = [
+  "List the files (and directories) in a directory with `ls`.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
 +++
 
 `ls` is a tool for listing the files in a directory.

@@ -4,8 +4,6 @@ layout = 'day-plan'
 emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
-backlog= 'Portfolio'
-backlog_filter='📅 Week 3'
 [[blocks]]
 name="Energiser"
 src="https://cyf-pd.netlify.app/blocks/employability-energiser/readme/"

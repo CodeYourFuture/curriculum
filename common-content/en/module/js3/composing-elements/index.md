@@ -2,7 +2,6 @@
 title = 'Composing elements'
 
 time = 20
-facilitation = false
 emoji= '🧱'
 [objectives]
     1='Compose UI elements to some specification'

@@ -53,7 +53,7 @@ name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Predict Explain exercises"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-week-2/"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews/"
 time=0
 [[blocks]]
 name="Retro"

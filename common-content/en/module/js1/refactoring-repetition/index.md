@@ -2,7 +2,6 @@
 title = 'Refactoring repetition'
 
 time = 30
-facilitation = false
 emoji= '🧹'
 [objectives]
 1='Refactor code to remove duplication'

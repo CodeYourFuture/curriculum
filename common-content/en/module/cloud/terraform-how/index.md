@@ -2,7 +2,6 @@
 title = 'How does terraform work?'
 
 time = 5
-facilitation = false
 emoji= '🌎'
 [objectives]
     1='List the workflow steps of Terraform'
