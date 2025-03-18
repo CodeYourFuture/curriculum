@@ -1,20 +1,32 @@
 +++
 title = 'prep'
-description = 'Overview description of the prep work for the sprint'
+description = 'Navigating and working with code written by others'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-title = "Understanding existing code"
-src = "module/legacy/understanding-legacy-code"
+name = "Understanding"
+src = "module/legacy/understanding"
 [[blocks]]
-title = "Debugging existing code"
-src = "module/legacy/debugging-legacy-code"
+name="Fear and logic"
+src="module/legacy/fear"
 [[blocks]]
-title = "Fixing existing code"
-src = "module/legacy/fixing-legacy-code"
+name = "Finding things"
+src = "module/legacy/navigation"
 [[blocks]]
-title = "Extending existing code"
-src = "module/legacy/extending-legacy-code"
+name = "Patterns"
+src = "module/legacy/patterns"
+[[blocks]]
+name = "Debugging"
+src = "module/legacy/debugging"
+[[blocks]]
+name = "Testing"
+src = "module/legacy/testing"
+[[blocks]]
+name = "Fixing"
+src = "module/legacy/fixing"
+[[blocks]]
+name = "Extending"
+src = "module/legacy/adding"
 +++
