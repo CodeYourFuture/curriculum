@@ -1,0 +1,55 @@
++++
+title = "Fear and logic"
+time = 60
+emoji= "🗿"
+[objectives]
+    1="Sketch the flow of a request through existing code"
+    2="Identify key components and their relationships"
+    3="Map the architecture of an unfamiliar application"
++++
+
+> Into the unknown
+
+{{<columns>}}
+
+```mermaid
+stateDiagram-v2
+
+    state "Fear Zone" as FZ {
+        [*] --> Paralysis: "What if I break it?"
+        Paralysis --> Avoidance: "I'll just work around it"
+        Avoidance --> Rewrite: "Let's rewrite from scratch"
+        Rewrite --> Reset: "What should it do?"
+    }
+```
+
+<--->
+
+```mermaid
+stateDiagram-v2
+    state "Logic Zone" as LZ {
+       [*] --> Understand: "What does it do?"
+        Understand --> Hypothesise: "How does it work?"
+        Hypothesise --> Verify: "Let's test that theory"
+        Verify --> Modify: "Small, careful changes"
+    }
+
+```
+
+{{</columns>}}
+
+Do you remember your first day at {{<our-name>}}? You couldn't find the building, maybe, and you had no idea how the day would go. What on earth is a day plan, or a backlog, you thought to yourself. Perhaps you got frustrated: WHY are all my changes from last week in my new PR? HOW? It was incomprehensible. But you learned! You asked questions, you read the guides, and you built a mental map of the system.
+
+You might have find your first code reviews challenging too. You worked on a project for days, JUST got it all working, and now someone is telling you to change it. Changing code you don't understand very well is risky.
+
+Feeling a bit hesitant is fine. In fact, some caution is healthy. If code is working and it's doing something important for the business, we don't want to break it. But we also don't want to be _so_ fearful that we can't fix it or write new features. We must balance caution with curiosity, and approach legacy code with a structured, logical plan.
+
+A good rule here is that before we change something, we must explain why it's like that in the first place. Legacy code is like a crime scene. We will use our detective skills to understand how it happened.
+
+### Chesterton's Fence: No Before You Know
+
+{{<youtube>}}https://www.youtube.com/watch?v=qPGbl2gxGqI{{</youtube>}}
+
+{{<note type="important" title="Chesterton's Fence">}}
+Approaching legacy code requires curiosity over judgment. This code exists for a reason and it's doing its job. It's not perfect, but it's not useless either. Before you change something, you must understand why it's like that in the first place.
+{{</note>}}
