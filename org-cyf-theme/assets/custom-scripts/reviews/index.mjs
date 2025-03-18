@@ -103,9 +103,7 @@ function render() {
     const overviewCard = document
       .querySelector("template.overview-card")
       .content.cloneNode(true);
-    overviewCard.querySelector(
-      ".module"
-    ).innerText = `${module} (${totalPending})`;
+    fillWithModuleHeading(overviewCard.querySelector(".module"), module, totalPending);
     for (const [age, count] of Object.entries(awaitingReview)) {
       const bucket = overviewCard.querySelector(
         `.age-bucket.${age.replaceAll(" ", "-")} + .count`
@@ -124,9 +122,7 @@ function render() {
       const modulePrList = document
         .querySelector("template.pr-list")
         .content.cloneNode(true);
-      modulePrList.querySelector(
-        ".module"
-      ).innerText = `${module} (${totalPending})`;
+      fillWithModuleHeading(modulePrList.querySelector(".module"), module, totalPending);
       for (const pr of prsByModule[module]) {
         const prInList = document
           .querySelector("template.pr-in-list")
@@ -165,6 +161,15 @@ function render() {
     option.value = reviewer;
     knownReviewersElement.appendChild(option);
   }
+}
+
+const fillWithModuleHeading = (container, module, pending) => {
+  container.innerText = "";
+  const link = document.createElement("a");
+  link.innerText = module;
+  link.href = `https://github.com/CodeYourFuture/${module}/pulls`;
+  const text = document.createTextNode(` (${pending})`);
+  container.append(link, text);
 }
 
 onLoad();
