@@ -11,7 +11,7 @@ Welcome to the Legacy Code module. In this module, you'll be working with existi
 You will need:
 
 - 📓 Notebook and pen
-- 💻 Your development environment
+- 💻 VSCode and Chrome Devtools
 - 🧩 The PurpleForest application (our Bluesky type app)
 - 🔍 Your analytical thinking skills, so get those Logic module notes out
 

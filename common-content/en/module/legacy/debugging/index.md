@@ -132,9 +132,4 @@ if (!existingProfile || !existingProfile.recent_blooms) {
 1. **Result**: The page stops refreshing... and is also blank.
 1. **Conclusion**: The loop is caused by `hashtagView` calling `apiService.getBloomsByHashtag` multiple times.
 
-{{<note type="Activity" title="Fix the Loop (5m)">}}
-
-1. **Fix**: Add a conditional to `hashtagView` to only call `apiService.getBloomsByHashtag` if the blooms are not already in the state.
-1. **Test**: Refresh the page and create a new bloom with the hashtag #do.
-
-{{</note>}}
+Uncomment the line and don't make any further changes to the codebase. Move on to the next step.

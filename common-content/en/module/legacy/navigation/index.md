@@ -29,13 +29,13 @@ What does this module do? What can it tell you about the system?
 
 In `router.mjs` there is a function called `handleRouteChange`. What is using this function? Where is it called?
 
-Press `fn+Shift+F12` . This will show you a references panel with links to every place that references this function. Double click on a reference to navigate to that file.
+Press `fn+Shift+F12` . This will show you a [references panel](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_go-to-references) with links to every place that references this function. Double click on a reference to navigate to that file.
 
 #### 🫣 3. Peek definition: `fn+F12`
 
-Now you're in `index.mjs` you can see _where_ the function is called, but you can't see the details of the function. Double click on the function name to select it and now press `Fn+Option+F12`. This opens the **peek panel**, which shows you the function definition _without_ leaving the file you're in.
+Now you're in `index.mjs` you can see _where_ the function is called, but you can't see the details of the function. Double click on the function name to select it and now press `Fn+Option+F12`. This opens the **[peek panel](https://code.visualstudio.com/docs/editor/editingevolved#_peek)**, which shows you the function definition _without_ leaving the file you're in.
 
-#### 🗃 4. Find in files: `Cmd+Shift+F`
+#### 🗃 4. [Find in files](https://code.visualstudio.com/docs/editor/codebasics?source=post_page-----4e234d504dd--------------------------------#_search-across-files): `Cmd+Shift+F`
 
 Is that everything to do with the router? Press `Cmd+Shift+F` and search for `route`. What else do you find?
 
@@ -72,6 +72,9 @@ Your completed flowchart should show the full path from the user click to the UI
 <details>
 <summary>Some help if you are completely stuck</summary>
 Login form submit --> Event calls--> handleLogin --> Sends form data to apiService.login --> Fetches token & success from /login --> calls updateState --> State updates, persists to localStorage, dispatches state-change event --> Router listens for event and --> calls Home View --> calls Render --> renders Profile, Timeline, and Logout components with current State
+
+add a `console.trace();` to the home view to help you trace the flow
+
 </details>
 
 ### 3. 🖍 Sketch the System from different perspectives
