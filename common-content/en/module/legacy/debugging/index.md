@@ -67,6 +67,9 @@ Remembering what we just learned, `Cmd+P` and open `api.mjs`, `Cmd+F` to jump to
 
 This should be a clue.
 
+> [!TIP]
+> Legacy code is like a crime scene. Use your detective skills to understand how it happened.
+
 <details>
 <summary>
 

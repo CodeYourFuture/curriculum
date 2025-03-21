@@ -25,7 +25,7 @@ Launch the test runner (look in `package.json` to find the command). Find the fi
 ```
 
 <details>
-<summary>You might find this a bit tricky if you're new to end to end testing, so here's a test to copy this time.</summary>
+<summary>You might find this a bit tricky if you're new to end to end testing, so here's a test to copy if you get stuck.</summary>
 
 ```js
 test("should not make infinite hashtag endpoint requests", async ({ page }) => {
