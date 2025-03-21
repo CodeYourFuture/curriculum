@@ -1,7 +1,7 @@
 +++
 title = "Debugging: Proposing and Discarding Hypotheses"
-time = 35
-emoji= "🔍"
+time = 30
+emoji= "🐛"
 [build]
   render = 'never'
   list = 'local'

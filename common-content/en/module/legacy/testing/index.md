@@ -1,8 +1,8 @@
 +++
 title = "Capturing behaviour in tests"
 description="Noticing and copying patterns"
-time = 280
-emoji= "🏗️"
+time = 45
+emoji= "🧪"
 [objectives]
     1="Describe a feature in terms of its behaviour"
     2="Write a test that captures the behaviour of a feature"

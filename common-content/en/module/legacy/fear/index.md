@@ -1,11 +1,9 @@
 +++
 title = "Fear and logic"
-time = 60
+time = 10
 emoji= "🗿"
 [objectives]
-    1="Sketch the flow of a request through existing code"
-    2="Identify key components and their relationships"
-    3="Map the architecture of an unfamiliar application"
+    1="Define Chesterton's Fence"
 +++
 
 Do you remember your first day at {{<our-name>}}? You couldn't find the building, maybe, and you had no idea how the day would go. What on earth is a day plan, or a backlog, you thought to yourself. Perhaps you got frustrated: _why_ are all my changes from last week in my new PR? **How**?! It was incomprehensible. But you learned! You asked questions, you read the guides, and you built a mental map of the system.

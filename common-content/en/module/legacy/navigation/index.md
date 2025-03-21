@@ -1,7 +1,7 @@
 +++
 title = "Finding things"
 description="Finding Your Way Through Legacy Code"
-time = 25
+time = 45
 emoji= "🧭"
 [build]
   render = 'never'

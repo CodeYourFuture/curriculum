@@ -1,6 +1,6 @@
 +++
 title = "Understanding Legacy Code"
-time = 20
+time = 5
 emoji= "🏛️"
 [build]
   render = 'never'

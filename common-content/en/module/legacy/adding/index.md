@@ -1,6 +1,6 @@
 +++
 title = "Extending: Adding Features the Right Way"
-time = 40
+time = 60
 emoji= "🌱"
 [build]
   render = 'never'
