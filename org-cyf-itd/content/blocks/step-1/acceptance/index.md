@@ -18,6 +18,7 @@ Here is the criteria you need to meet:
 - You have saved the cover letter in a Google Docs document
 - You have added your name to the document's file name
 - You have made the document public
-- You have uploaded the link to the document to this site
-- You have added a comment on the document giving feedback on the content
+- You have uploaded the link to the document to the CYF Course Platform
+- You have added at least one comment giving feedback on the content of the AI's work
+- Your comment is made on the CYF Course Platform (not on Google docs).
 ```
