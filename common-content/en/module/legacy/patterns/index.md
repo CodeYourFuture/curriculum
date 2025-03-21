@@ -12,7 +12,7 @@ In [the PurpleForest application](https://github.com/CodeYourFuture/Module-Legac
 
 ### Architectural Patterns
 
-These are known solutions to common tasks in software. In Purple Forest, we could identify an [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC) pattern, a [SPA](https://developer.mozilla.org/en-US/docs/Glossary/SPA) pattern, and a [RESTful API](https://developer.mozilla.org/en-US/docs/Glossary/REST) pattern, among others.
+These are [known solutions](https://www.turing.com/blog/software-architecture-patterns-types) to common tasks in software. In Purple Forest, we could identify an [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC) pattern, a [SPA](https://developer.mozilla.org/en-US/docs/Glossary/SPA) pattern, and a [RESTful API](https://developer.mozilla.org/en-US/docs/Glossary/REST) pattern, among others.
 
 You don't need to memorise all these names, just be alive to the idea that there are patterns in the codebase that you should look for and reuse.
 <--->

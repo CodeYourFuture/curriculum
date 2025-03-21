@@ -19,35 +19,48 @@ emoji= "🧭"
 
 We're going to use the features of our IDE to help us. [VSCode](https://code.visualstudio.com/docs/getstarted/getting-started) has a million features for this, but we're just going to start with four: **Open** file, **Find** references, **Peek** definition, and **Find in** files.
 
+{{<tabs name="Code Along">}}
+===[[📂 1. Open]]===
+
 #### 📂 1. Open file : `Cmd+P`
 
-{{<note type="Activity" title="Code Along">}}
+##### Code Along
+
 Open the [Purple Forest codebase](https://github.com/CodeYourFuture/Module-Legacy-Code). Let's start at the router. Press `Cmd+P` and type `router`. O*p*en the file `router.mjs` and look at where it shows up in the [Explorer](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view). What else is in that /directory? Why have these files been grouped together? Write down your ideas.
 
 What does this module do? What can it tell you about the system?
-{{</note>}}
+
+===[[🏷 2. References]]===
 
 #### 🏷 2. Find references: `fn+Shift+F12`
 
-{{<note type="Activity" title="Code Along">}}
+##### Code Along
+
 In `router.mjs` there is a function called `handleRouteChange`. What is using this function? Where is it called?
 
 Press `fn+Shift+F12` . This will show you a [references panel](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_go-to-references) with links to every place that references this function. Double click on a reference to navigate to that file.
-{{</note>}}
+
+===[[🫣 3. Peek]]===
 
 #### 🫣 3. Peek definition: `fn+F12`
 
-{{<note type="Activity" title="Code Along">}}
+##### Code Along
+
 Now you're in `index.mjs` you can see _where_ the function is called, but you can't see the details of the function. Double click on the function name to select it and now press `Fn+Option+F12`. This opens the **[peek panel](https://code.visualstudio.com/docs/editor/editingevolved#_peek)**, which shows you the function definition _without_ leaving the file you're in.
-{{</note>}}
+
+===[[🗃 4. Find]]===
 
 #### 🗃 4. [Find in files](https://code.visualstudio.com/docs/editor/codebasics?source=post_page-----4e234d504dd--------------------------------#_search-across-files): `Cmd+Shift+F`
 
-{{<note type="Activity" title="Code Along">}}
+##### Code Along
+
 Is that everything to do with the router? Press `Cmd+Shift+F` and search for `route`. What else do you find?
 
 Repeat this process with `navigateTo`. Deliberately practice using keyboard shortcuts to navigate your codebase. As the code you work with gets more complicated, scrolling through files becomes enormously time-consuming.
-{{</note>}}
+
+{{</tabs>}}
+
+---
 
 ### 2. 📞 Trace a Request Flow
 
@@ -82,11 +95,13 @@ Note: Your completed flowchart should show a sequence from the user click to the
 
 <details>
 <summary>Some help if you are completely stuck</summary>
-Login form submit --> Event calls--> handleLogin --> Sends form data to apiService.login --> Fetches token & success from /login --> calls updateState --> State updates, persists to localStorage, dispatches state-change event --> Router listens for event and --> calls Home View --> calls Render --> renders Profile, Timeline, and Logout components with current State
+Login form submit --> handleLogin --> Sends form data to apiService.login --> Fetches token & success from /login --> calls updateState --> State updates, persists to localStorage, dispatches state-change event --> Router listens for event and --> calls Home View --> clears page with Destroy, then calls Render --> renders Profile, Timeline, and Logout components with current State
 
 Add a [`console.trace();` ](https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static)to the home view to help you trace the flow.
 
 </details>
+
+---
 
 ### 3. 🖍 Sketch the System from different perspectives
 
@@ -98,7 +113,7 @@ config:
   look: handDrawn
 ---
 graph LR
-    A[Router] -->|matches url| B[Views]
+    A[Router] -->|matches url| B{Views}
     B --> C[Home View]
     B --> D[Login View]
 ```
