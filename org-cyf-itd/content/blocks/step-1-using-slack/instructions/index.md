@@ -23,7 +23,7 @@ This exercise aims to help you
 
 #### Steps
 
-1. Answer the questions on [Slack and Search Engine Exercise](https://docs.google.com/forms/d/e/1FAIpQLSc-xeV91g0TSWtbDVcYIxJ9AJRo_PJYzdd9AaKXJBKHt6sihA/viewform?usp=dialog)
+1. Answer the questions on [Slack and Search Engine Exercise](https://forms.gle/hmz1qU8ZPDJTNYpa6)
 2. If your score is at least 25/30, go to step 3. Otherwise please repeat step 1
 3. Use your browser's **print** function to print/save the Result Page (Score Summary Page) to a PDF file
    - Hint: Use a search engine to learn how to print a webpage to a PDF file using a browser
