@@ -69,13 +69,13 @@ class Comment {
 
 function getStatus(state, labels) {
     // TODO: Check possibilities
-    if (state !== "open") {
-        return "Closed"
-    }
     for (const possibleLabel of ["Needs Review", "Complete", "Reviewed"]) {
         if (labels.some((label) => label.name === possibleLabel)) {
             return possibleLabel;
         }
+    }
+    if (state !== "open") {
+        return "Closed"
     }
     return "Unknown";
 }
