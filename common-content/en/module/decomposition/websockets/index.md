@@ -43,7 +43,7 @@ It will be easier for you to learn a new API (like WebSockets) with a simple exa
 
 At the end, you will want your WebSocket to stream new messages from the server to the client, but maybe to explore WebSockets you want the server to always report the message "Hello" when it's connected to, so you can test things out more easily? Or even write a whole new website which _only_ makes a WebSocket connection and displays a message?
 
-Once you have an example WebSocket working, and understand how it works, it should be easier for you to apply that to the real problem you're trying to solve.
+Once you have an example WebSocket working, and understand how it works, move forward. Apply your new understanding to the real problem you're trying to solve.
 
 ### Think about the protocol you want
 
