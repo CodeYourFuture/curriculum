@@ -90,6 +90,6 @@ Now, the function body is 7 lines. They say: "I expect the request to be a JSON 
 
 We can see at a glance what the function does. And the common functionality has a clear name explaining what it's doing, rather than needing us to read 18 lines to work it out.
 
-We can also easily see the _difference_ between what the two endpoints do. They both expect the request to be a JSON object. They both expect some fields, but different fields. Then they do something different with them. This is much easier to see that before, where a subtle difference may have been hard to notice.
+We can also more easily see the _difference_ between what the two endpoints do. Each endpoint expects the request to be a JSON object. They both expect some fields, but different fields. Then they do something different with them. This is much easier to see than before, where a subtle difference may have been hard to notice.
 
 We can also ignore the details of the helper functions if we don't need to know them. If we don't care exactly how the body is parsed as JSON, we can just trust that the function does it somehow. If we _do_ need to know, we can look into the function. If we need to change or fix something, we only need to do it in one place.
