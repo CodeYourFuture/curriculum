@@ -31,7 +31,7 @@ const server = http.createServer(app);
 const webSocketServer = new WebSocketServer({ httpServer: server });
 ```
 
-You will then need to follow the example in the `websocket` npm package's documentation to have your server handle requests.
+Next, follow the example in the `websocket` npm package's documentation to have your server handle requests.
 
 On the client-side, you will need to make a new `WebSocket` connection to the server.
 
