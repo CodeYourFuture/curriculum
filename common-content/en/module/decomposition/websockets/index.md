@@ -9,7 +9,7 @@ objectives = [
 ]
 +++
 
-WebSockets are an API and protocol which allow creating a bi-directional communication channel between two programs.
+> [WebSockets ](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) are an API and protocol which create a two-way communication channel between two programs.
 
 They are commonly used in websites to establish a channel so that a backend can send updates to a frontend.
 
