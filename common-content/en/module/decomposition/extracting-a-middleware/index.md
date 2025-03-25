@@ -24,7 +24,7 @@ Read the [Express documentation on writing middleware](https://expressjs.com/en/
 {{</note>}}
 
 {{<note type="Exercise">}}
-Write an Express application. You must write two separate middlewares.
+Write a tiny Express application. You must write two separate middlewares.
 
 Requirements:
 * There must be an endpoint which handles POST requests.
