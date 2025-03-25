@@ -12,7 +12,7 @@ emoji= "🧪"
 
 ## Describe the Behaviour, Capture your Understanding
 
-Now we have an understanding of the system, the bug, and the intended behaviour, we need to write a test to capture our understanding. There are some incomplete [Playwright tests](https://playwright.dev/docs/writing-tests) in the codebase already.
+Now we have an understanding of the system, the bug, and the intended behaviour, we need to write a test to capture our understanding. There are some [Playwright tests](https://playwright.dev/docs/writing-tests) in the codebase already, but no project has complete test coverage for absolutely every eventuality.
 
 Launch the test runner (look in `package.json` to find the command). Find the file to add your test and describe the behaviour you expect.
 
@@ -33,7 +33,7 @@ test("should not make infinite hashtag endpoint requests", async ({ page }) => {
   // Track all requests to the hashtag endpoint
   const requests = [];
   page.on("request", (request) => {
-    if (request.url().includes("/hashtag/playwright")) {
+    if (request.url().includes("/hashtag/do")) {
       requests.push(request);
     }
   });
@@ -43,7 +43,7 @@ test("should not make infinite hashtag endpoint requests", async ({ page }) => {
   await loginAsSample(page);
 
   // When I navigate to the hashtag
-  await page.goto("/front-end/#/hashtag/playwright");
+  await page.goto("/front-end/#/hashtag/do");
   // And I wait a reasonable time for any additional requests
   await page.waitForTimeout(200);
 

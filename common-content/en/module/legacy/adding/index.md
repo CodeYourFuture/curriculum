@@ -1,6 +1,6 @@
 +++
 title = "Extending: Adding Features the Right Way"
-time = 60
+time = 90
 emoji= "🌱"
 [build]
   render = 'never'
@@ -14,7 +14,7 @@ emoji= "🌱"
 +++
 
 {{<note type="tip" title="When in Rome">}}
-When adding features to legacy code, write code that looks like it belongs. This isn't the time to introduce radically different approaches or programming paradigms.
+When adding features to legacy code, write code that looks like it belongs. This isn't the time to introduce radically different approaches or programming paradigms. That would make our code harder to navigate and understand.
 {{</note>}}
 
 For Purple Forest, this means:
@@ -25,7 +25,7 @@ For Purple Forest, this means:
 
 In your backlog, you have some more features to add. Let's do one simple feature extension together. Branch from main to `feature/unfollow`.
 
-Add an "Unfollow" button to the Profile component. This button should remove the current user from the list of followers. The button should only appear if the current user is following the post.
+Add an "Unfollow" button to the Profile component. This button should remove the current user from the list of followers. The button should only appear if the current user is following the user.
 
 {{<tabs name="Feature Extension">}}
 ===[[Step 1: Describe the feature]]===
@@ -38,6 +38,7 @@ Then I should see a button labeled "Unfollow"
 When I click the "Unfollow" button  
 Then I should no longer be following sample  
 And the unfollow button is not visible
+And a "Follow" button should be visible
 
 The tabs contain sample code for each step of this process, but you should write your own implementation, based on your understanding of the Purple Forest codebase.
 
