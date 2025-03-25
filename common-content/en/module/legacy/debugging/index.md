@@ -49,7 +49,7 @@ Yikes! As soon as we open the [Network panel](https://developer.chrome.com/docs/
 
 **Prediction**: there's some kind of loop in the system that's causing the page to refresh over and over. **Explanation**: the network panel is showing a lot of requests to the same endpoint.
 
-We can see precisely which files are involved in this request in the [call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack). This [stack trace]() allows us to reduce our problem domain to these 5 files.
+We can see precisely which files are involved in this request in the [call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack). This [stack trace](https://developer.chrome.com/blog/print-out-a-quick-stack-trace-from-the-console) allows us to reduce our problem domain to these 5 files.
 
 ```js
 _apiRequest @ //front-end/lib/api.mjs:33
@@ -88,7 +88,9 @@ sequenceDiagram
 ```
 
 <figcaption>
+
 `hashtagView` calls `apiService.getBloomsByHashtag` which calls `_apiRequest` which makes a request to the server. Success updates the state which dispatches a state-change event that the router listens for and calls `hashtagView` again to render the page with the blooms.
+
 </figcaption>
 </figure>
 </details>
@@ -115,7 +117,9 @@ sequenceDiagram
 ```
 
 <figcaption>
+
 `hashtagView` calls `apiService.getBloomsByHashtag` which calls `_apiRequest` which makes a request to the server. Success updates the state which dispatches a state-change event that the router listens for and calls `hashtagView` that calls `apiService.getBloomsByHashtag` which calls `_apiRequest` which makes a request to the server...
+
 </figcaption>
 </figure>
 
