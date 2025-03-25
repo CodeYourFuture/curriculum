@@ -92,7 +92,7 @@ Imagine we made an HTTP GET request to ask for all of the messages, then created
 Or imagine we made a WebSocket request, and expected to receive a list of all previous messages, and then to keep receiving updates. Does the server need to remember which messages have already been sent to each client?
 
 {{<note type="Exercise">}}
-Write down your strategy for how to make sure that after initially getting the existing messages, your client won't miss any new messages.
+How will you make sure that your client won't miss any new messages, after getting the initial messages? Write down your strategy.
 {{</note>}}
 
 ### Remember WebSockets are bi-directional
