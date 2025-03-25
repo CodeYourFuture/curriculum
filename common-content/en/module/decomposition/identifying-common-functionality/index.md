@@ -203,7 +203,7 @@ app.post("/react", (req, res) => {
 });
 ```
 
-Then each implementation does something quite different - this is very specific to what the endpoint is for:
+Then each implementation does something quite different. The highlighted code is very specific to what the endpoint is for:
 
 ```js {linenos=table,hl_lines=["19-20", "42-53"]}
 app.post("/message", (req, res) => {
@@ -263,4 +263,4 @@ app.post("/react", (req, res) => {
 });
 ```
 
-Ideally, most of the code in these functions would be specific to the behaviour of the handler, and it would be easy to see what they do from reading them.
+Ideally, most of the code in these functions would be specific to the behaviour of the handler. It would be easy to see each function does from reading them.

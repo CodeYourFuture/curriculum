@@ -22,8 +22,10 @@ On the server side, we will be using the [websocket npm package](https://www.npm
 > This sprint, you will need to submit _both_ a copy of your code which supports polling, _and_ a copy which supports WebSockets.
 >
 > You probably want to make a copy of your polling code, and have two separate (similar) pages in your repo.
+>
+> You should aim to share code between these implementations where possible.
 
-On the backend, you can create a WebSocket server by adding this code:
+On the backend, create a WebSocket server by adding this code:
 
 ```js
 import { server as WebSocketServer } from "websocket";
@@ -41,9 +43,11 @@ Some things to think about when implementing WebSockets updates:
 
 It will be easier for you to learn a new API (like WebSockets) with a simple example.
 
-At the end, you will want your WebSocket to stream new messages from the server to the client, but maybe to explore WebSockets you want the server to always report the message "Hello" when it's connected to, so you can test things out more easily? Or even write a whole new website which _only_ makes a WebSocket connection and displays a message?
+Your goal is to make a WebSocket to stream new messages from the server to the client. Your existing codebase is more complicated and handles many other concerns. To explore WebSockets, configure the server to always report the message "Hello". This way, you can isolate the new process and test things out more easily.
 
-Once you have an example WebSocket working, and understand how it works, move forward. Apply your new understanding to the real problem you're trying to solve.
+You could even write a whole new website which _only_ makes a WebSocket connection and displays a message.
+
+Once you have an example WebSocket working, and understand how it works, keep going. Apply your new understanding to the real problem you're trying to solve.
 
 ### Think about the protocol you want
 
@@ -97,11 +101,7 @@ How will you make sure that your client won't miss any new messages, after getti
 
 ### Remember WebSockets are bi-directional
 
-Now, we're using a `POST` request to send a new message, and a `WebSocket` to stream receiving new messages.
-
-But we know that WebSockets are bi-directional - we can both send and receive information on them.
-
-We could change our sending logic to also use our WebSocket. Or we could keep using HTTP POST requests. Both of these approaches work.
+Now, we're using a `POST` request to send a new message, and a `WebSocket` to stream receiving new messages. But we know that WebSockets are bi-directional - we can both send and receive information on them. We could change our sending logic to also use our WebSocket. Or we could keep using HTTP POST requests. Both of these approaches work.
 
 {{<note type="Exercise">}}
 Think: What advantages does each approach have?

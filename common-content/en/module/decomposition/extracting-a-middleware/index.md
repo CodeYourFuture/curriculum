@@ -15,7 +15,11 @@ For instance, we often want to check authentication details for _every_ request 
 
 And typically we use the same format for all POST request bodies to an application (often JSON, but some applications use other formats) - we want to parse _all_ POST request bodies in that format.
 
-It can be annoying to have to write the same code (like calling `parseRequestAsJsonObject`) in every handler. I can also be dangerous to require doing so: If we forget to call a function to check a user is logged in in one endpoint, that may be a big security problem.
+It can be annoying to have to write the same code (like calling `parseRequestAsJsonObject`) in every handler. It can also be **dangerous** to require doing so:
+
+> [!WARNING]
+>
+> If we forget to call a function to check a user is logged in in one endpoint, that may be a big security problem.
 
 One strategy to improve this is to use a {{<tooltip title="Middleware" text="middleware">}}A middleware is a piece of code which is called before route handlers.{{</tooltip>}}. A middleware may process the request, do extra checks (e.g. check an authorization token), or attach extra data (e.g. parsing a POST body as JSON and adding the fields to the request object). It can choose to respond to the request itself, or allow the route handler to do so.
 
