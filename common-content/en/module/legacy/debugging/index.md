@@ -62,7 +62,7 @@ updateState @ //front-end/lib/state.mjs:26
 
 Remembering what we just learned, `Cmd+P` and open `api.mjs`, `Cmd+F` to jump to `_apiRequest`. This is a wrapper function that all these endpoints call, so it's not likely to be the problem if only this one view is refreshing.
 
-1. Read `_getBloomsByHashtag`. Is there a clue in here?
+1. Read `getBloomsByHashtag`. Is there a clue in here?
 1. What is calling this function? Use `fn+Shift+F12` to navigate to `hashtagView`. **Prediction:** if we comment out the `apiService.getBloomsByHashtag` call, the page will stop refreshing. Try it.
 
 This should be a clue.

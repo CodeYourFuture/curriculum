@@ -26,7 +26,7 @@ We're going to use the features of our IDE to help us. [VSCode](https://code.vis
 
 ##### Code Along
 
-Open the [Purple Forest codebase](https://github.com/CodeYourFuture/Module-Legacy-Code). Let's start at the router. Press `Cmd+P` and type `router`. O*p*en the file `router.mjs` and look at where it shows up in the [Explorer](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view). What else is in that /directory? Why have these files been grouped together? Write down your ideas.
+Open the [Purple Forest codebase](https://github.com/CodeYourFuture/Module-Legacy-Code). Let's start at the router. Press `Cmd+P` and type `router`. O*p*en the file `router.mjs` and look at where it shows up in the [Explorer](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view). What else is in that directory? Why have these files been grouped together? Write down your ideas.
 
 What does this module do? What can it tell you about the system?
 
@@ -60,11 +60,19 @@ Repeat this process with `navigateTo`. Deliberately practice using keyboard shor
 
 {{</tabs>}}
 
+> [!TIP]
+>
+> You will learn these keyboard shortcuts over time.
+>
+> If you forget them, VSCode displays them in a few places. When you right click in a file, it shows things like "Find All References" in the menu, and says the keyboard shortcut next to the menu entry. VSCode also has something called the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) which you can type the name of what you want (e.g. "References") into. You can run commands directly from the Command Palette, and it also shows the keyboard shortcuts for them.
+>
+> Learn the commands now. But you won't be able to remember all of the keyboard shortcuts at once. Try to remember one or two more each week.
+
 ---
 
 ### 2. 📞 Trace a Request Flow
 
-Open Purple Forest on your local machine. Read the README to get it running, and launch the app with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). Again, Devtools has a million features but we're going to use four: [Event Listener](https://developer.chrome.com/blog/easily-jump-to-event-listeners) panel, [Network](https://developer.chrome.com/docs/devtools/network) panel, [Sources](https://developer.chrome.com/docs/devtools/sources) panel, and [Local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage) in the Application panel.
+Open Purple Forest on your local machine. Read the README to get it running, and launch the frontend with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). Again, Devtools has a million features but we're going to use four: [Event Listener](https://developer.chrome.com/blog/easily-jump-to-event-listeners) panel, [Network](https://developer.chrome.com/docs/devtools/network) panel, [Sources](https://developer.chrome.com/docs/devtools/sources) panel, and [Local Storage](https://developer.chrome.com/docs/devtools/storage/localstorage) in the Application panel.
 
 {{<note type="Activity" title="Code Along">}}
 
