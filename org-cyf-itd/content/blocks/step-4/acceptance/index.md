@@ -22,7 +22,10 @@ _Then_ all 10 tests are passing
 _Then_ I learn something about you
 
 **When** I view the page  
-_Then_ the design is unique
+_Then_ the design is unique and the images are displayed properly
+
+**When** I play the video on the page
+_Then_ the video can play normally
 
 **When** I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
 _Then_ the HTML is valid

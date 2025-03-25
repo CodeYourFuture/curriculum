@@ -1,6 +1,6 @@
 +++
-title ="Step 1: How to show us"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
+title ="Step 4: How to show us"
+description= "Submit your work for review"
 emoji= "📩"
 time= 5
 [build]
