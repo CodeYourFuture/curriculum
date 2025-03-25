@@ -23,6 +23,8 @@ On the server side, we will be using the [websocket npm package](https://www.npm
 >
 > You probably want to make a copy of your polling code, and have two separate (similar) pages in your repo.
 >
+> Note that this is different from other work you've done, where you make different branches for different pieces of work. We want both of your implementations on one branch.
+>
 > You should aim to share code between these implementations where possible.
 
 On the backend, create a WebSocket server by adding this code:
