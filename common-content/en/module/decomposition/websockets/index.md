@@ -11,7 +11,7 @@ objectives = [
 
 > [WebSockets ](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) are an API and protocol which create a two-way communication channel between two programs.
 
-They are commonly used in websites to establish a channel so that a backend can send updates to a frontend.
+Websockets are used to establish a channel so that a backend can send updates to a frontend website.
 
 You can read [an introduction to WebSockets](https://docs.developer.tech.gov.sg/docs/data-engineering-initiative-playbook/Chapter5/Introduction_to_WebSockets), as well as roughly [what a client looks like](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications), and [what a server does](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers).
 
