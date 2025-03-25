@@ -47,10 +47,11 @@ graph TD
 
 A good rule here is [Chesterton's Fence](https://www.youtube.com/watch?v=qPGbl2gxGqI{). This says that before we change something, we must [explain why](https://thoughtbot.com/blog/chestertons-fence) it's like that in the first place.
 
-In code, Chesterton's Fence comes up a lot when we read code that looks complicated. It's easy to think "This code could be simpler". And maybe it could! There are a lot of reasons code is more complicated than it could be:
-* Maybe it is complicated because the person who wrote it didn't know a better way - if so, we can simplify it!
-* Maybe it is complicated because the simpler way was only introduced to the language after the code was written - if so, we can simplify it!
-* Maybe it is complicated because we want to support old versions of the language when the simpler way didn't exist - if so, we can't simplify it, we would break something important!
-* Maybe it is complicated because of some important edge-case we hadn't considered - if so, we need to understand that edge-case before we can change it, or we'll break it.
+In code, Chesterton's Fence comes up a lot when we read code that looks complicated. It's easy to think "This code could be simpler". And maybe it could! There are a lot of reasons code is more complicated than it could be. Maybe it is complicated because:
 
-_Understanding why_ is crucial here. Tests can help us to understand - if we simplify the code, and a test for a particular edge-case breaks, we found out why the code was more complicated! Comments can help too - a comment saying "We don't do the simpler thing because it doesn't handle `undefined` properly" tells us why the code is more complicated. But sometimes legacy code doesn't have useful tests or comments.
+- ✅ the person who wrote it didn't know a better way. If so, we can simplify it.
+- ✅ the simpler way was only introduced to the language after the code was written. If so, we can simplify it.
+- 🚫 we want to support old versions of the language when the simpler way didn't exist. If so, we can't simplify it: we would break something important!
+- 🚫 some important edge-case we hadn't considered. If so, we need to understand that edge-case before we can change it, or we'll break it.
+
+_Understanding why_ is crucial here. Tests can help us to understand. If we simplify the code and a test for a particular edge-case breaks, we found out why the code was more complicated! Comments can help too. A comment saying _"We don't do the simpler thing because it doesn't handle `undefined` properly"_ tells us why the code is more complicated. But sometimes legacy code doesn't have useful tests or comments.

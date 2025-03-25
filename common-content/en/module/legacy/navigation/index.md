@@ -22,7 +22,7 @@ We're going to use the features of our IDE to help us. [VSCode](https://code.vis
 {{<tabs name="Code Along">}}
 ===[[📂 1. Open]]===
 
-#### 📂 1. Open file : `Cmd+P`
+#### 📂 1. Open file : `Cmd+P` or `Ctrl+P`
 
 ##### Code Along
 
@@ -50,7 +50,7 @@ Now you're in `index.mjs` you can see _where_ the function is called, but you ca
 
 ===[[🗃 4. Find]]===
 
-#### 🗃 4. [Find in files](https://code.visualstudio.com/docs/editor/codebasics?source=post_page-----4e234d504dd--------------------------------#_search-across-files): `Cmd+Shift+F`
+#### 🗃 4. [Find in files](https://code.visualstudio.com/docs/editor/codebasics?source=post_page-----4e234d504dd--------------------------------#_search-across-files): `Cmd+Shift+F` or `Ctrl+Shift+F`
 
 ##### Code Along
 
@@ -64,9 +64,7 @@ Repeat this process with `navigateTo`. Deliberately practice using keyboard shor
 >
 > You will learn these keyboard shortcuts over time.
 >
-> If you forget them, VSCode displays them in a few places. When you right click in a file, it shows things like "Find All References" in the menu, and says the keyboard shortcut next to the menu entry. VSCode also has something called the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) which you can type the name of what you want (e.g. "References") into. You can run commands directly from the Command Palette, and it also shows the keyboard shortcuts for them.
->
-> Learn the commands now. But you won't be able to remember all of the keyboard shortcuts at once. Try to remember one or two more each week.
+> Use the commands now, but you won't be able to remember all the keyboard shortcuts at once. Try to learn one or two more each week. Use the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) to look up the keyboard shortcuts.
 
 ---
 
