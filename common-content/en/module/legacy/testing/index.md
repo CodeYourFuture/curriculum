@@ -29,27 +29,25 @@ Launch the test runner (look in `package.json` to find the command). Find the fi
 
 ```js
 test("should not make infinite hashtag endpoint requests", async ({ page }) => {
-  // ====== ARRANGE
-  // Track all requests to the hashtag endpoint
+  // ===== ARRANGE
   const requests = [];
   page.on("request", (request) => {
-    if (request.url().includes("/hashtag/do")) {
+    if (
+      request.url().includes(":3000/hashtag/playwright") &&
+      request.resourceType() === "fetch"
+    ) {
       requests.push(request);
     }
   });
-
   // ====== ACT
-  // Given I am logged in
-  await loginAsSample(page);
-
   // When I navigate to the hashtag
-  await page.goto("/front-end/#/hashtag/do");
+  await page.goto("/front-end/#/hashtag/playwright");
   // And I wait a reasonable time for any additional requests
   await page.waitForTimeout(200);
 
-  //====== ASSERT
-  // Then the number of requests should be fewer than 4
-  expect(requests.length).toBeLessThan(4);
+  // ====== ASSERT
+  // Then the number of requests should be 1
+  expect(requests.length).toEqual(1);
 });
 ```
 
