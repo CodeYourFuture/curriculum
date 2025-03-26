@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Refining poorly specified bugs"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/refining-poorly-specified-bugs?ref=wip-sdc-workshops"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
 time="90"
 [[blocks]]
 name="Morning break"
