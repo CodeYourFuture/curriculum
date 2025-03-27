@@ -18,8 +18,6 @@ And they need to know how to talk to each other. In your frontend you probably h
 
 First let's deploy our backend somewhere. Then when we know its address, we can update our frontend to talk to our deployed backend, and then deploy it too.
 
-TODO(https://github.com/CodeYourFuture/curriculum/issues/1337): Add some pictures of this when we have a well-described backend hosting platform.
-
 {{<note type="Exercise">}}
 We also need to store our frontend and backend somewhere to deploy them from:
 1. Make a new Git repository on your GitHub.
@@ -29,13 +27,13 @@ We also need to store our frontend and backend somewhere to deploy them from:
 {{</note>}}
 
 {{<note type="Exercise">}}
-Follow [the Deploying to fly.io guide](/guides/deploying/flyio/setup/) to deploy your backend.
+Follow the [Deploying to CYF's hosted environment guide](/guides/deploying/cyf) to deploy your backend.
 {{</note>}}
 
 {{<note type="Exercise">}}
 Update your frontend to talk to your deployed backend when it uses `fetch`.
 
-Follow [the Deploying to Netlify guide](/guides/deploying/netlify/) to deploy your frontend.
+Follow the [Deploying to CYF's hosted environment guide](/guides/deploying/cyf) to deploy your frontend.
 {{</note>}}
 
-Make sure you can use your frontend which was deployed to Netlify. Try adding a quote, and make sure it shows up in your frontend.
+Make sure you can use your frontend which was deployed to CYF's hosted environment. Try adding a quote, and make sure it shows up in your frontend.
