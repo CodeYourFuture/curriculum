@@ -17,6 +17,29 @@ Attendees:
 
 ---
 
+## 2025-03-25
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Karen Klein, Mitch Lloyd, Sally McGrath
+
+### ❗Actions from last time
+
+* [x] Everyone to think about future syllabus team organisation
+* [x] Daniel to put together a CYF vision doc for discussion
+
+### 📝 Agenda points
+
+#### Ali's Lead Dev talk
+
+* It was great!
+
+#### Forward-looking planning
+
+* Long discussion, [notes in the discussion doc](https://docs.google.com/document/d/1-nOEnJeEPuvF9TdBU07oDCWUPb_5iRqfWj-g_YloT0A/edit).
+
+### ❗Actions
+
+---
+
 ## 2025-03-11
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Mitch Lloyd, Sally McGrath
