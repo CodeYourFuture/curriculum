@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 3
-theme = "Middleware: Extracting common functionality"
+theme = "Websockets and Middlewares"
 +++
