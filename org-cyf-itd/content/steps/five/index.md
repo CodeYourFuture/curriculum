@@ -1,24 +1,24 @@
 +++
 title = 'Five'
-description="Check your English CEFR level is B1 or above"
+description="Build a personal home page with CodePen"
 layout = 'prep'
-emoji= '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
+emoji= '🏠'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 6
 [[blocks]]
 name="Instructions"
-src="blocks/step-5/instructions"
+src="blocks/step-4/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-5/acceptance"
+src="blocks/step-4/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-5/submission"
+src="blocks/step-4/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
 [[blocks]]
 name="Extensions"
-src="blocks/step-5/extend"
+src="blocks/step-4/extend"
 +++

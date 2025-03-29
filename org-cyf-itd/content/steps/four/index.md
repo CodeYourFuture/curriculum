@@ -1,24 +1,25 @@
 +++
 title = 'Four'
-description="Build a personal home page with CodePen"
+description = 'Build four simple projects using HTML and CSS in Khan Academy'
 layout = 'prep'
-emoji= '🏠'
+emoji= '🚀'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 5
 [[blocks]]
 name="Instructions"
-src="blocks/step-4/instructions"
+src="blocks/step-3/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-4/acceptance"
+src="blocks/step-3/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-4/submission"
+src="blocks/step-3/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
 [[blocks]]
 name="Extensions"
-src="blocks/step-4/extend"
+src="blocks/step-3/extend"
+time=5
 +++
