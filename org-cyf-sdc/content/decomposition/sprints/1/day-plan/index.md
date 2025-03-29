@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Breaking down features workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/breaking-down-features?ref=wip-sdc-workshops"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/breaking-down-quote-app"
 time="90"
 [[blocks]]
 name="Morning break"
