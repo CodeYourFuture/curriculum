@@ -15,6 +15,8 @@ Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacadem
 
 1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
 1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
+1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
+
 1. Follow along and build the projects.
 1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
 
@@ -28,6 +30,21 @@ Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacadem
 #### The project you will deploy to GitHub Pages is:
 
 4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
+
+
+### **Expected Result & Screenshot Submission**  
+
+To verify your work, **take a screenshot of your completed all lessons in Unit 2** and add it below.  
+
+#### How to Take the Screenshot
+
+- Open **Unit 2** in Khan Academy.  
+- Go to the "Course Progress" section, where it shows checkmarks or completion status for each lesson.
+- Take a screenshot of your completed lessons. 
+- Uploading the image to GitHub and linking it here.  
+
+#### **Example Screenshot:**  
+![Expected Result](![image](https://github.com/user-attachments/assets/cf33651e-44d1-4af9-a11e-6fc27774da00))  
 
 {{<blocklink
   src="https://www.khanacademy.org/computing/computer-programming/html-css"
