@@ -6,6 +6,6 @@ emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]
-title = "Coming soon"
-src = "blocks/coming-soon"
+title = "Get on the CYF Hosted Environment"
+src = "blocks/cyf-hosting-onboarding"
 +++
