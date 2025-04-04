@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Value/Prioritisation/Estimation workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/value-prioritisation-estimation?ref=wip-sdc-workshops"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/prioritisation-and-estimating"
 time="90"
 [[blocks]]
 name="Morning break"
