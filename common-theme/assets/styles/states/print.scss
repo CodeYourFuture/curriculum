@@ -22,7 +22,9 @@
   .c-block:has(#register),
   .c-page-footer,
   .c-alert,
-  .c-block--pullreq {
+  .c-block--pullreq,
+  .c-overview__nav,
+  .c-issue__title .e-button {
     display: none;
   }
   .c-page-header__toc .c-toc {
