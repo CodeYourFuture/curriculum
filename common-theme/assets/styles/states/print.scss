@@ -21,7 +21,8 @@
   .c-tabs__list,
   .c-block:has(#register),
   .c-page-footer,
-  .c-alert {
+  .c-alert,
+  .c-block--pullreq {
     display: none;
   }
   .c-page-header__toc .c-toc {
