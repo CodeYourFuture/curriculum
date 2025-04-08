@@ -8,13 +8,20 @@ weight = 3
 name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
-name="Study group"
-src="blocks/workshop"
-time="115"
+name="Explaining code workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/explaining-code?ref=explaining-code-workshop"
+time="90"
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Discuss different continuation styles"
+src="module/decomposition/discuss-continuation-styles"
+time="30"
 [[blocks]]
 name="Games, rules, logic and strategy"
 src="blocks/games"
-time="20"
+time="25"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -34,9 +41,9 @@ time="0"
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
-time="90"
+name="Study Group"
+src="blocks/study-group"
+time="60"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
