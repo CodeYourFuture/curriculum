@@ -24,7 +24,7 @@ If a class is just a place to group related data, it is sometimes called a {{<to
 
 There are several functions that we can implement on classes that have obvious implementations for value objects.
 
-Equality is one - ideally two value objects are the same if their fields are the same. But this is not the case with objects by default:
+Equality is one: ideally two value objects are the same if their fields are the same. But this is not the case with objects by default:
 
 ```python
 class Person:
