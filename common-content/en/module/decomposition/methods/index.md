@@ -42,7 +42,7 @@ imran = Person("Imran", 22, "Ubuntu")
 print(imran.is_adult())
 ```
 
-This has a few advantages over have {{<tooltip text="free functions" title="Free function">}}A free function is a function that isn't a method. It isn't bound to a particular type (but may take parameters).{{</tooltip>}}.
+This has a few advantages over {{<tooltip text="free functions" title="Free function">}}A free function is a function that isn't a method. It isn't bound to a particular type (but may take parameters).{{</tooltip>}}.
 
 {{<note type="exercise">}}
 Think of as many advantages as you can of using methods instead of free functions. Write them down in your notebook.
