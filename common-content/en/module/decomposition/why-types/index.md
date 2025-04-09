@@ -151,7 +151,7 @@ print(double(10))
 This code has a bug.
 
 {{<note type="exercise">}}
-Read the above code and write down what teh bug is. How would you fix it?
+Read the above code and write down what the bug is. How would you fix it?
 {{</note>}}
 
 Even though we're calling `double` with the correct type, something is wrong. Either the name of `double` is wrong (it should be called `triple`), or what it's doing is wrong (it should do `* 2` not `* 3`).
