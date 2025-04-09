@@ -6,15 +6,15 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-title = "Memory consumption"
+name = "Memory consumption"
 src = "module/complexity/memory-consumption"
 [[blocks]]
-title = "Big-O"
+name = "Big-O"
 src = "module/complexity/big-o"
 [[blocks]]
-title = '"Expensive" Operations'
+name = '"Expensive" Operations'
 src = "module/complexity/operations"
 [[blocks]]
-title = "Pre-computing"
+name = "Pre-computing"
 src = "module/complexity/pre-computing"
 +++
