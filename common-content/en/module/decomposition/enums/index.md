@@ -91,7 +91,7 @@ for person in people:
     print(f"Possible laptops for {person.name}: {possible_laptops}")
 ```
 
-We know that when we save data, transfer it across a network, or take user input, everything comes in as bytes. A typical pattern in software is to accept a string in the user input, and convert it to an enum before passing it into any other function. If the string wasn't a valid operating system we know about, we will rejected it and give an error when we first accept it. All of our other functions can take an `OperatingSystem` as a parameter, and know that any value it's given _must_ be a valid operating system. This restricts where we need to worry about incorrect input - once we've checked that the string was correct one time, the rest of our code doesn't have to worry about incorrect strings.
+We know that when we save data, transfer it across a network, or take user input, everything comes in as bytes. A typical pattern in software is to accept a string in the user input, and convert it to an enum before passing it into any other function. If the string wasn't a valid operating system we know about, we will reject it and give an error when we first accept it. All of our other functions can take an `OperatingSystem` as a parameter, and know that any value it's given _must_ be a valid operating system. This restricts where we need to worry about incorrect input - once we've checked that the string was correct one time, the rest of our code doesn't have to worry about incorrect strings.
 
 {{<note type="exercise">}}
 Write a program which:
