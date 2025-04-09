@@ -98,7 +98,7 @@ We have two classes that behave the same. They both have a constructor, and four
 The `largest` implementation is different for the two classes. They have different trade-offs. If we will frequently need to get the largest value from the list, `ImmutableNumberList` is going to be slower, because it looks through every element every time it needs to find the largest value. If instead we will frequently need to get the length of the list, `ImmutableNumberList` is going to be faster, because it does less work in the constructor.
 
 {{<note type="Reading">}}
-Programmers used to use inheritance a lot. Increasingly over time, many people are preferring composition over inheritance.
+Programmers used to use inheritance a lot. Over time, many people are preferring composition over inheritance.
 
 Have a read of [this article describing the differences between composition and inheritance](https://sheldonrcohen.medium.com/favoring-composition-over-inheritance-ff2ece6b7b4e) and [this article exploring when each makes sense](https://www.thoughtworks.com/en-gb/insights/blog/composition-vs-inheritance-how-choose).
 {{</note>}}
