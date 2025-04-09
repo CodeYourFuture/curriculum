@@ -2,7 +2,9 @@
   /* ============ SIZING */
   :root {
     font-size: 12pt;
-    --theme-spacing--container: 297mm;
+    --theme-spacing--container: calc(
+      297mm - calc(var(theme-spacing--gutter) * 2)
+    );
   }
   * {
     box-shadow: none !important;
