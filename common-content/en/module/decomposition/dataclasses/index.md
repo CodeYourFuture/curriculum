@@ -22,7 +22,7 @@ Our `Person` class is an example of this. We just store some data in it (and may
 
 If a class is just a place to group related data, it is sometimes called a {{<tooltip title="Value object" text="value object">}}A value object is an object which exists just to store data. They are normally immutable (never change).{{</tooltip>}}. We normally consider two value objects to be equal to each other if their fields contain the same values.
 
-There are several functions that we can implement on classes that have obvious implementations for value objects.
+There are several functions we can implement on classes that have obvious implementations for value objects.
 
 Equality is one: ideally two value objects are the same if their fields are the same. But this is not the case with objects by default:
 
