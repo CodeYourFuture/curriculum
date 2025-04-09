@@ -14,7 +14,7 @@ objectives = [
   render = "never"
 +++
 
-We've already seen that objects can be useful for grouping together related, named data. e.g. we can write:
+We've already seen that objects can group together related, named data. We can write:
 
 ```python
 imran = {
