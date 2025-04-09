@@ -104,7 +104,7 @@ Have a read of [this article describing the differences between composition and 
 {{</note>}}
 
 {{<note type="exercise">}}
-Play computer this this code. Predict what you expect each line will do. Then run the code and check your predictions. (If any lines cause errors, you may need to comment them out to check later lines).
+Play computer with this code. Predict what you expect each line will do. Then run the code and check your predictions. (If any lines cause errors, you may need to comment them out to check later lines).
 
 ```python
 class Parent:

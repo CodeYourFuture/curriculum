@@ -14,9 +14,7 @@ objectives = [
   render = "never"
 +++
 
-We've seen that grouping together fields and methods into a class can help us encapsulate them.
-
-We can define a class whose purpose is just to group together related data, and provide access to it.
+We've seen that grouping together fields and methods into a class can help us encapsulate them. We can define a class whose purpose is just to group together related data, and provide access to it.
 
 Our `Person` class is an example of this. We just store some data in it (and maybe add some methods that just read that data).
 
@@ -71,7 +69,7 @@ print(imran == imran2)  # Prints True
 
 The `dataclass` decorator generated a constructor, a `__str__` method (which is called when string formatting the value), and a custom `__eq__` method (which is called when comparing two values). This saves us having to write all of that code.
 
-Other languages have a similar idea of a value type, and tools to help make them.
+Other languages have a similar idea of a value type, and tools to help make them, such as [Java's record classes](https://docs.oracle.com/en/java/javase/17/language/records.html) and [C#'s' structure types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct).
 
 {{<note type="exercise">}}
 Write a `Person` class using `@datatype` which uses a `datetime.date` for date of birth, rather than an `int` for age.
