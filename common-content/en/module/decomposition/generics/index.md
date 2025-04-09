@@ -14,9 +14,7 @@ objectives = [
   render = "never"
 +++
 
-Sometimes we want to reason about more complicated type relationships than "this field is a string".
-
-Lists and dicts are examples of this. We may want to reason that every value in a list is a string.
+Sometimes we want to reason about more complicated type relationships than "this field is a string". Lists and dicts are examples of this. We may want to reason that every value in a list is a string.
 
 Consider this code:
 
@@ -45,13 +43,13 @@ There is a bug in this code. Can you spot it?
 
 Run your code through mypy. Does mypy spot it?
 
-In some languages, like Java, C#, Rust, or Go, type information is _required_ - you can't write code without it. This means those languages can do more checks, and give better error messages.
+In some languages, like Java, C#, Rust, or Go, type information is _required_ - you can't write code without it. This means those languages can do more checks, and give better error messages. We call these {{<tooltip text="statically typed languages" title="Static typing">}}A statically typed language is a language where every variable has a fixed type. It is an error to try to assign a value to a variable with a different type.{{</tooltip>}}
 
 In other languages, like Python and JavaScript, type information is _optional_. Because of this, tools that check types are sometimes less strict. If they don't know what type something has, they stop doing any checks.
 
 That's what's happening here. `Person.children` is a `list`, but mypy doesn't know what type of thing is in the list. It doesn't even know that everything in the list has the same type = `["hello", 7, True]` is a legal list in Python.
 
-We can use generics to tell mypy what type of thing is in the list:
+We can use {{<tooltip title="Generic types" text="generics">}}Some code can work with different types, but one particular instance should always use the same type. A list could store numbers, or strings. We use generic types to say which type this instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list:
 
 ```python {linenos=table}
 from dataclasses import dataclass

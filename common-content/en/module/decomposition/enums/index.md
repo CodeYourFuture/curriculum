@@ -25,7 +25,7 @@ Some common problems with strings:
 
 In fact, in the previous example, the laptop with id 3 was never put in anyone's preferred list, because its operating system was spelled `Ubuntu` not `ubuntu`.
 
-We can use enums to represent that one some values are allowed, and make sure we're always using the same ones.
+We can use enums to represent that one some values are allowed, and make sure we're always using the same ones. This is similar to how in HTML we can use an `<input type="number">` instead of an `<input type="text">` to restrict what a user can enter into a form.
 
 In Python, we can define an enum as a new type. This is like `bool` - `bool` is a type which has two possible values (`True` and `False`). We can make enums that have any number of possible values, and we can choose the values' names.
 
