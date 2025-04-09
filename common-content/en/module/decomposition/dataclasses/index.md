@@ -16,7 +16,7 @@ objectives = [
 
 We've seen that grouping together fields and methods into a class can help us encapsulate them.
 
-Often when programming we define a class whose purpose is just to group together related data, and provide access to it.
+We can define a class whose purpose is just to group together related data, and provide access to it.
 
 Our `Person` class is an example of this. We just store some data in it (and maybe add some methods that just read that data).
 
