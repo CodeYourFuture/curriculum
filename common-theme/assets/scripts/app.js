@@ -69,3 +69,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
     parent.innerHTML = `<label>${parent.innerHTML}</label>`;
   });
 });
+
+// Toggle learning objectives for print
+window.addEventListener("beforeprint", () => {
+  document
+    .querySelectorAll("details")
+    .forEach((d) => d.setAttribute("open", ""));
+});
