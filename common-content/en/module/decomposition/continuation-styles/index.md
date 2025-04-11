@@ -185,4 +185,6 @@ const ensureFields = (req, res, expectedFields) => {
 Compare these three approaches. What advantages does each have? What problems do they have? When would each be better to choose?
 
 Write down your thoughts.
+
+In class this sprint you will discuss this.
 {{</note>}}
