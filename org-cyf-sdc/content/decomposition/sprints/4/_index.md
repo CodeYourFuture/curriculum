@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '⏱️'
 menu_level = ['module']
 weight = 4
-theme = "Classes, objects, and methods"
+theme = "Types and typechecking: classes, objects, methods, and enums"
 +++
