@@ -49,7 +49,7 @@ In other languages, like Python and JavaScript, type information is _optional_. 
 
 That's what's happening here. `Person.children` is a `list`, but mypy doesn't know what type of thing is in the list. It doesn't even know that everything in the list has the same type = `["hello", 7, True]` is a legal list in Python.
 
-We can use {{<tooltip title="Generic types" text="generics">}}Some code can work with different types, but one particular instance should always use the same type. A list could store numbers, or strings. We use generic types to say which type this instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list:
+We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list:
 
 ```python {linenos=table}
 from dataclasses import dataclass
@@ -84,5 +84,5 @@ Now that we've told mypy `Person.children` is a list of type `Person` (line 7), 
 > It's kind of annoying, but don't worry about it too much.
 
 {{<note type="exercise">}}
-Fix the above code so that it works. You must not change the `print` on line 17 - we _do_ want to print the children's ages. (Feel free to invent the ages of Imran's children).
+Fix the above code so that it works. You must not change the `print` on line 17 - we _do_ want to print the children's ages. (Feel free to invent the ages of Imran's children.)
 {{</note>}}
