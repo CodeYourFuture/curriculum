@@ -35,4 +35,6 @@ weight = 11
 
 ## ✅ To complete _this_ module, you must:
 
+Any PRs you're submitting must have been reviewed, and must be labelled Complete by a volunteer.
+
 Submit the following items to complete this module on the [CYF Course Platform](https://application-process.codeyourfuture.io/):

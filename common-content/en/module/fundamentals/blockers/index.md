@@ -3,7 +3,7 @@ title = 'Sharing Our Blockers'
 time = 45
 vocabulary=["Blockers"]
 emoji= '🚧'
-[objectives]
+[tasks]
 1='Identify blockers'
 2='Share blockers on a Jamboard or sticky notes'
 [build]
