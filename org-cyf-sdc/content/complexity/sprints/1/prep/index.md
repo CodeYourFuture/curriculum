@@ -15,6 +15,9 @@ src = "module/complexity/big-o"
 name = '"Expensive" Operations'
 src = "module/complexity/operations"
 [[blocks]]
+name="Search and Sort"
+src = "module/complexity/sort-search"
+[[blocks]]
 name = "Pre-computing"
 src = "module/complexity/pre-computing"
 +++

@@ -8,7 +8,7 @@ emoji= "📈"
     2="Give practical limits to the size of inputs to O(n^2) and O(2^n) algorithms"
 +++
 
-> Big-O notation describes how **runtimes** grow as the **input** size (n) **grows**.
+> [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) notation describes how **runtimes** grow as the **input** size (n) **grows**.
 
 ```mermaid
 
@@ -23,6 +23,14 @@ line [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 line [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
 ```
 
+{{<note type="Reading" title="Reading">}}
+
+Complete the coursework [Data Structures and Algorithms: Space and Time Complexity](https://www.wscubetech.com/resources/dsa/time-complexity).
+
+This is in your backlog and you do not need to do it now, but you might like to open it in a tab.
+
+{{</note>}}
+
 <details><summary>
 
 ☺️ **Constant:** The algorithm takes the same amount of time, regardless of the input size.
@@ -33,7 +41,7 @@ line [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
 
 xychart-beta
 title "O(1) Constant Time"
-x-axis "Input Size" [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+x-axis "Input Size" [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 y-axis "Computation Time" 0 --> 10
 line [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 ```
@@ -45,14 +53,14 @@ line [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 ```mermaid
 xychart-beta
 title "O(log n) Logarithmic Time"
-x-axis [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+x-axis [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 y-axis "Computation Time" 0 --> 10
 line [2.3, 3.0, 3.4, 3.7, 3.9, 4.1, 4.2, 4.4, 4.5, 4.6]
 ```
 
 <summary>
 
-😟 **Logarithmic:** The runtime grows proportionally to the logarithm of the input size.</summary>
+😟 **Logarithmic:** The runtime grows proportionally to the [logarithm](https://www.bbc.co.uk/bitesize/guides/zn3ty9q/revision/1) of the input size.</summary>
 
 </details>
 
@@ -61,9 +69,9 @@ line [2.3, 3.0, 3.4, 3.7, 3.9, 4.1, 4.2, 4.4, 4.5, 4.6]
 ```mermaid
 xychart-beta
 title "O(n) Linear Time"
-x-axis "Input Size" [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-y-axis "Computation Time" 0 --> 100
-line [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+x-axis "Input Size" [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y-axis "Computation Time" 0 --> 10
+line [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 <summary>
@@ -136,9 +144,7 @@ Oh where have we seen this sequence of numbers before? ;)
 
 </details>
 
->
-
-You will find that you already have a basic understanding of this idea. Let's look at these algorithms in real life:
+You will find that you already have a basic understanding of this idea. No really! Let's look at these algorithms in real life:
 
 {{<label-items heading="Drag the time complexity categories onto the correct examples">}}
 [LABEL=Constant Time]
@@ -154,59 +160,4 @@ You will find that you already have a basic understanding of this idea. Let's lo
 - Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities.
   {{< /label-items >}}
 
-<figure>
-<figcaption>Now let's match those concepts to the notation:</figcaption>
-
-{{<label-items heading="Drag the time complexity notations onto their descriptions">}}
-[LABEL=O(1)]
-
-- Constant Time
-  [LABEL=O(log n)]
-- Logarithmic Time
-  [LABEL=O(n)]
-- Linear Time
-  [LABEL=O(n2)]
-- Quadratic Time
-  [LABEL=O(2n)]
-- Exponential Time
-
-{{< /label-items >}}
-
-</figure>
-
-Now let's match those concepts to real code we can write:
-
-{{<label-items heading="Drag the time complexity notations onto the correct code examples">}}
-[LABEL=O(1)]
-
-- Accessing a list element by index: `my_list[5]`
-  [LABEL=O(log n)]
-
-- Binary search.
-
-[LABEL=O(n)]
-
-- Finding the largest number in an unsorted list.
-
-[LABEL=O(n2)]
-
-- Bubble Sort, comparing every element to every other element.  
-  [LABEL=O(2n)]
-
-- Naive recursive Fibonacci calculation.
-
-{{< /label-items >}}
-
-{{<note type="activity" title="Activity: Match the Scenario">}}
-
-For each scenario below, decide which Big-O category best describes its time complexity as the input (n) grows. Explain your reasoning briefly in your notebook.
-
-- [ ] Checking if a specific book (n = number of books) is present on a library shelf, assuming the books are not sorted.
-- [ ] Delivering a single package to a specific known address (n = number of houses in the city).
-- [ ] Finding a specific page number in a book (n = number of pages).
-- [ ] A group of n friends all wanting to exchange gifts with every other friend in the group (how many gifts total?).
-- [ ] Guessing a secret number between 1 and n by asking "is it higher or lower?" repeatedly.
-
-Practical Limits: Think about the O(n²) party handshakes and the O(2ⁿ) password combinations. Why would these become completely impractical very quickly if n (number of people or password length) got even moderately large (like 100 people or a 20-character password)?
-
-{{</note>}}
+You will explore this theory in your backlog. Let's look at some practical examples.

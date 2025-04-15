@@ -1,5 +1,6 @@
 +++
 title = "Memory consumption"
+description="Memory is finite"
 [build]
   render = 'never'
   list = 'local'
@@ -12,16 +13,33 @@ emoji= "🥪"
 
 > There are only so many bits you can fit on a chip.
 
-Computers are real things, not diagrams or mathematical models. This means a computer has a physical size and a finite amount of memory.
+Computers are real things, not diagrams or mathematical models. This means a computer has a limited physical size and a finite amount of memory. When your program runs, it uses some of this memory to store data.
 
-When your program runs, it uses some of this memory to store data, like variables and data structures. On your laptop, you have, basically, three places you can put data:
+Think back to Chapter 7 of <cite>How Your Computer Really Works</cite>.
 
-1. CPU cache
-1. Main memory
-1. I/O storage (like your hard drive)
+```mermaid
+graph LR
+CPU -->|️ Fastest: Smallest| Cache -->|Fast: Small| RAM -->|Slow : Big| Disk -->|Slowest: Vast| Network
+```
 
-Think of it like this. You have a sandwich on your plate (CPU). You have two more in your fridge (main memory), and there are ten more in the shop nearby (I/O storage). There are yet more sandwiches at the distribution centre (I/O network)! Your plate is small and nearby. You can get that sandwich quickly but you only have one. It takes a bit longer, but you can go to your fridge to get another. But there's a limit. If you invite more people or you are very greedy, you are going to have to go back to the shops.
+At each stage there are **limits** to **how fast** you can get the data and **how much** data you can store. Given this constraint, we need to consider how much memory our programs consume.
 
-Given this constraint, we need to understand how much memory we are consuming, or how many sandwiches we are eating, in our programs. There are ways to reduce the bytes we use, and we can learn them.
+### Simpler is smaller
 
-Let's quantify the memory used by different arrays:
+Consider these data structures. Order them from least to most memory needed:
+
+```js
+const userIds = [101, 102, ..., 1100]; // An array of 1000 numbers
+const userRoles = ["Admin", "Editor", "Viewer"]; //An array of 3 short strings
+const userProfiles = [ {id: 1, name: "Farzaneh", role: "Admin", preferences: {...}}, {id: 2, name: "Cuneyt", role: "Editor", preferences: {...}} ]; // An array of 2 complex objects
+```
+
+Different kinds of data have different memory footprints:
+
+- Numbers or booleans use less memory than objects
+- The longer a string, the more bytes it consumes.
+- Objects and arrays need memory for their internal organisation _as well_ as the data itself.
+
+More complicated elements or more properties need more memory. It matters what things are made of. This is how much _space_ our program takes.
+
+It also matters how many _steps_ our program takes. Another way to think of this is how much _time_ it takes...
