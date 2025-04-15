@@ -27,6 +27,9 @@ src="module/how-our-curriculum-works/importance-of-prep"
 name="workshops"
 src="module/how-our-curriculum-works/workshops"
 [[blocks]]
+name="🥁 rhythm of the week"
+src="module/how-our-curriculum-works/rhythm-of-the-week"
+[[blocks]]
 name="Next steps: Backlog and Success"
 src="module/how-our-curriculum-works/now-backlog"
 +++

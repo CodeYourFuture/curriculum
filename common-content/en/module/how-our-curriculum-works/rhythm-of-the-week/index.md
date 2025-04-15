@@ -13,7 +13,9 @@ time=10
 
 +++
 
-Self-coordinating as a community poses challenges. One challenge is working out not just _what_ to do but _when_ to do it. This gets harder when we are working on different schedules. To make things even harder, we use a flipped classroom model: very different from a regular school.
+If we're expecting to get help with our problems in class, we need to have run into those problems before class.
+
+Different people have different schedules - they may work different days or nights, or have other responsibilities.
 
 To solve this problem, we use the **rhythm of the week**.
 
@@ -33,3 +35,5 @@ gantt
 ```
 
 This rhythm supports trainees to plan their work during the week while still allowing flexibility in people's different schedules. In a typical sprint week, **Tuesday is the starting point** with in-person sessions on **Saturdays serving as the mid-point in the week**. We use Sundays and Mondays to reflect on our learning and finish off any backlog tasks.
+
+Aim to get your prep done by Thursday, and start working on your backlog. Most Saturdays, you should have questions or blockers from the prep or backlog items that someone can help you with.
