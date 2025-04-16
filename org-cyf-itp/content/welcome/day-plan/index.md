@@ -6,16 +6,11 @@ emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['module']
 weight = 3
 [[blocks]]
+name="Name tags"
+src="blocks/name-tags"
+[[blocks]]
 name="Energiser"
-src="energisers/in-person-and-online"
-[[blocks.nested.blocks]]
-name="Zip Zap Boing"
-src="energisers/zip-zap-boing"
-time=0
-[[blocks.nested.blocks]]
-name="Popcorn Show and Tell"
-src="energisers/popcorn"
-time=0
+src="energisers/favourite-dessert"
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -31,9 +26,12 @@ src="module/induction/learning-as-community"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
+name="Code of Conduct"
+src="blocks/code-of-conduct"
+[[blocks]]
 name="Traffic Jam"
 src="energisers/blockers"
-time=60
+time=45
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -51,4 +49,7 @@ time=45
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
+[[blocks]]
+name="Socialise"
+src="blocks/socialise"
 +++

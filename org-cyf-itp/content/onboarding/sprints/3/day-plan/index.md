@@ -6,7 +6,10 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/slack-libs"
+src="energisers/start-thinking-of-your-own"
+[[blocks.nested.blocks]]
+name="Energiser: Telephone!"
+src="energisers/telephone"
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -18,7 +21,7 @@ time="120"
 [[blocks]]
 name="Study Group"
 src="module/onboarding/development"
-time=30
+time=25
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
@@ -54,4 +57,7 @@ time="0"
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"
+[[blocks]]
+name="Socialise"
+src="blocks/socialise"
 +++

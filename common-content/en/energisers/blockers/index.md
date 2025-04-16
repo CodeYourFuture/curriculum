@@ -1,5 +1,5 @@
 +++
-title="Blockers!"
+title="Blockers: Traffic Jam Gameplay"
 emoji="🚗"
 time=25
 [tasks]
@@ -13,13 +13,13 @@ time=25
   publishResources = false
 +++
 
-[Online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html)
+{{<note type="In Person / Online">}}
+If you're online, get into breakout rooms of up to 4 trainees. One person should open the [online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html) and share their screen.
 
-## 🚗 Traffic Jam Gameplay
+If you're in person, get into groups of up to 4 trainees. If you have a [physical game](https://www.thinkfun.com/products/rush-hour/), use that, otherwise follow the online instructions.
+{{</note>}}
 
-In groups or breakout rooms of 4 trainees maximum.
-
-One person will share their screen and be the **driver**. The driver can only move the pieces where you are told by the navigators. The driver cannot make any decisions!
+One person should take on the role of **driver**. The driver can only move the pieces where you are told by the navigators. The driver cannot make any decisions!
 
 The others will be the **navigators**. Together, the navigators must figure out a strategy to unblock the car, and tell the driver how to do it!
 
@@ -27,11 +27,11 @@ The others will be the **navigators**. Together, the navigators must figure out 
 
 You can do this energiser in person, online, or a mix of both. You can play this completely offline using this kit: [Rush Hour](https://www.thinkfun.com/products/rush-hour/).
 
-Start on **Level 6** or above and get everyone to load the page before you go into breakout rooms/groups. Put your [adblocker](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) on!
+Start on **Level 6** or above and get everyone to load the page before you go into breakout rooms/groups.
 
-#### Facilitator Check in questions
+<details><summary>Facilitator Check in questions</summary>
 
-<details><summary>Model ways of thinking about the game strategically instead of just trying stuff randomly</summary>
+Model ways of thinking about the game strategically instead of just trying stuff randomly:
 
 - Which car is the blocker? Everyone guess!
 - What shall we do first?
@@ -45,13 +45,11 @@ Start on **Level 6** or above and get everyone to load the page before you go in
 
 ### Evolve the game
 
-<details><summary>Evolve the game each time you play to guide the players to insights</summary>
+Evolve the game each time you play to guide the players to insights
 
 - Round 2: You must discuss for 1 minute before you make any moves
 - Round 3: A single navigator can make no more than three moves in one go
 - Round 4: Try to solve the puzzle in as few moves as you can
-
-</details>
 
 #### More resources
 

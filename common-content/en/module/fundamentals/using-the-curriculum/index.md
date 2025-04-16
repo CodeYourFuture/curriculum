@@ -27,10 +27,10 @@ At {{<our-name>}}, the curriculum maps out what you will learn together over the
 ### Preparation
 
 - [ ] Facilitator: Review the [How to use the curriculum](https://miro.com/app/board/uXjVMh2y3Ds=/?share_link_id=217111259406) presentation before class.
-- [ ] Facilitator: Ensure everyone can access the Miro board presentation.
+- [ ] Facilitator: Ensure everyone can access the Miro board presentation, or has access to post-its and pens to do the workshop on a physical board.
 - [ ] Facilitator: Split the class into groups of no more than 4.
-- [ ] Facilitator: Make sure every group has access to a laptop.
-- [ ] Facilitator: Make sure every group has access to a piece of paper and pen
+- [ ] Facilitator: Make sure every group has access to a laptop, or post-its and pens.
+- [ ] Facilitator: Make sure every group has access to a piece of paper and pen.
 
 ### Introduction
 

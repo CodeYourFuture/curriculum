@@ -1,5 +1,5 @@
 +++
-title="Telephone!"
+title="Energiser: Telephone!"
 emoji="📞"
 hide_from_overview=true
 time=15
@@ -13,8 +13,6 @@ time=15
   publishResources = false
 +++
 
-## 📞 Telephone Gameplay
-
 Arrange participants in a line or circle. This game works best with 5 or more players and must be played in person.
 
 The first player whispers a message to the next person. Each subsequent player whispers what they heard to the next person. The last player says the message out loud.
@@ -23,9 +21,9 @@ Compare the final message to the original to see how it changed.
 
 Set a timer for {{<timer>}}5{{</timer>}} minutes per round. Play a couple of rounds with different starting messages and message passers.
 
-#### Facilitator Check in questions
+<details><summary>Facilitator Check in questions</summary>
 
-<details><summary>Guide participants to reflect on communication challenges and strategies</summary>
+Guide participants to reflect on communication challenges and strategies:
 
 - What happened to the message as it traveled through the group?
 - What techniques did you use to remember the message accurately?
@@ -35,9 +33,9 @@ Set a timer for {{<timer>}}5{{</timer>}} minutes per round. Play a couple of rou
 
 </details>
 
-### Evolve the game
+<details><summary>Evolve the game</summary>
 
-<details><summary>Introduce variations to increase complexity and challenge</summary>
+Introduce variations to increase complexity and challenge:
 
 - Round 2: Use a more complex message, such as a short riddle or technical instruction
 - Round 3: Allow each player to ask one yes/no question to the person who whispered to them

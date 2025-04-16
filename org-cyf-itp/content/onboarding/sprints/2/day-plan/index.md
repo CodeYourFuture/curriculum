@@ -53,4 +53,7 @@ src="module/onboarding/pairing"
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"
+[[blocks]]
+name="Socialise"
+src="blocks/socialise"
 +++
