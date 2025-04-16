@@ -15,23 +15,30 @@ objectives = [
 
 🧭 _Everyone_ at {{<our-name>}} has barriers to education, and we can [help with some things](https://signposts.codeyourfuture.io/). If you cannot come to an in-person class because you can't afford:
 
+Help is provided to anyone who needs it in the first 5 weeks of the ITP Course. After 5 weeks, it is only provided to those who enrolled as trainees. 
+
 #### 🧒 Childcare
 
-The onboarding module can be completed entirely online if necessary. Once you have completed this module and enrolled as a Trainee, we can help you with childcare costs.
-
-#### 💻 A computer or broadband
-
-The onboarding module can be completed entirely on a library computer. Once you have completed this module and enrolled as a Trainee, we can lend you a laptop and data if you need them.
+We can help you with childcare costs for the class and to study during the week. Follow the steps on our [Signpost](https://signposts.codeyourfuture.io/) website.
 
 #### 🚌 Bus or train tickets
 
-Just like ITD, this onboarding module can be completed entirely online if necessary. Once you have completed this module and enrolled as a Trainee, we can help with travel costs.
+We expect you to come to class every Saturday. We can help with travel costs if you need it.
+
+#### 💻 Broadband
+
+We can help you with data access if you need support with it. 
 
 #### 🥪 Food
 
-will always be provided in class.
+It will always be provided in class.
 
-We ask that you complete the onboarding module step before we enroll you as a Trainee. We are obliged to only enroll people we have a reasonable expectation of being able to complete the whole course. But predicting the future is a challenge! We have created this module to try to give as many people as possible a fair chance to show they can do this.
+For help with a computer, you must be enrolled as a trainee.
+#### 💻 A computer
+
+The onboarding module can be completed entirely on a library computer. Once you have completed this module and enrolled as a Trainee, we can lend you a laptop if you need. 
+
+We ask that you complete the onboarding module step before we enrol you as a Trainee. We are obliged to only enrol people we have a reasonable expectation of being able to complete the whole course. But predicting the future is a challenge! We have created this module to try to give as many people as possible a fair chance to show they can do this.
 
 {{<multiple-choice
   question="Who will help you with your blockers?"
