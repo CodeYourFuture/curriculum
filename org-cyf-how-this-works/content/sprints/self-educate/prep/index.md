@@ -24,6 +24,9 @@ src="module/how-our-curriculum-works/dialogue"
 name="importance of prep"
 src="module/how-our-curriculum-works/importance-of-prep"
 [[blocks]]
+name="backlog"
+src="module/how-our-curriculum-works/backlog"
+[[blocks]]
 name="workshops"
 src="module/how-our-curriculum-works/workshops"
 [[blocks]]
