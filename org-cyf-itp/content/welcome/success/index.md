@@ -6,7 +6,7 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Come to class in person or online if you cannot travel"
+1="Come to class in person or online (if you region is running online)"
 2="Name 5 people in your class"
 3="Find and begin your prep for the Onboarding Module"
 +++
