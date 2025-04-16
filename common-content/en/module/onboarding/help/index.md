@@ -13,30 +13,37 @@ objectives = [
   publishResources = false
 +++
 
-🧭 _Everyone_ at {{<our-name>}} has barriers to education, and we can [help with some things](https://signposts.codeyourfuture.io/). If you cannot come to an in-person class because you can't afford:
+_Everyone_ at {{<our-name>}} has barriers to education. We can help with some things, and can recommend where to get help with others. Our [signpost website](https://signposts.codeyourfuture.io/) has more details.
 
-Help is provided to anyone who needs it in the first 5 weeks of the ITP Course. After 5 weeks, it is only provided to those who enrolled as trainees. 
+The support _we_ can offer is around your ability to come to class, or follow the course material. We can support you financially with the following things for the first 5 weeks of ITP. In this time, we expect you to enroll as a trainee - after 5 weeks, we can only continue supporting enrolled trainees.
+
+If you cannot come to an in-person class because you can't afford:
 
 #### 🧒 Childcare
 
-We can help you with childcare costs for the class and to study during the week. Follow the steps on our [Signpost](https://signposts.codeyourfuture.io/) website.
+We can help you with childcare costs for the class and to study during the week. See our [childcare expense policy](https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.qihtqi7x4bva) for more details.
 
 #### 🚌 Bus or train tickets
 
-We expect you to come to class every Saturday. We can help with travel costs if you need it.
+We expect you to come to class every Saturday. We can help with travel costs if you need it. See our [travel expense policy](https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.aa4ef4mrh55x) for details.
 
 #### 💻 Broadband
 
-We can help you with data access if you need support with it. 
+We can help you with data access if you need support with it. See our [internet access expense policy](https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.obj7zunadec0) for more details.
 
 #### 🥪 Food
 
 It will always be provided in class.
 
-For help with a computer, you must be enrolled as a trainee.
+{{<note type="Borrowing a computer">}}
+
+If you need a computer, you must be enrolled as a trainee before we can help you.
+
 #### 💻 A computer
 
 The onboarding module can be completed entirely on a library computer. Once you have completed this module and enrolled as a Trainee, we can lend you a laptop if you need. 
+
+{{</note>}}
 
 We ask that you complete the onboarding module step before we enrol you as a Trainee. We are obliged to only enrol people we have a reasonable expectation of being able to complete the whole course. But predicting the future is a challenge! We have created this module to try to give as many people as possible a fair chance to show they can do this.
 
