@@ -5,7 +5,7 @@ description="Memory is finite"
   render = 'never'
   list = 'local'
   publishResources = false
-time = 45
+time = 30
 emoji= "🥪"
 [objectives]
     1="Quantify the memory used by different arrays"

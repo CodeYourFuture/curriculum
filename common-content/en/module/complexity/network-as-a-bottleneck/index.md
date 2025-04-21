@@ -22,7 +22,7 @@ Thinking back to the strategies we mooted in [Expensive Operations](#expensive-o
 
 ### Inefficient Strategy: Making Too Many Requests
 
-In the second design, we make network calls inside a loop. Each network call in the loop adds latency. If we follow 50 people, we wait for the network 50+ times! Another way to say this is that this is an "N+1 query problem".
+In the second design, we make network calls inside a loop. Each network call in the loop adds latency. If we follow 50 people, we wait for the network 50+ times! Another way to say this is that this is an "N+1 API problem".
 
 ### Inefficient Strategy: Fetching Too Much Data
 
@@ -34,15 +34,4 @@ Both looping network calls and fetching/processing huge amounts of data are exam
 
 > Remember: after just three seconds of waiting, half of all your users have given up and left.
 
-But there's a further problem with making too many requests or asking for too much data. Let's think again about our "N+1 Query" problem. 
-
-
-### What to do instead
-
-The real /home endpoint avoids these problems by using efficient strategies:
-
-**Batching**: Instead of asking for data one item at a time (like in the loop example), ask for multiple items in one request: "get blooms for users Daniel, Ali, and Sally".
-**Caching**: Store results so you don't have to ask the network again, or so you can ask for only new changes in future.
-**Pagination**: Ask for only the first page of results, and load more later if the user scrolls or clicks "next".
-
-All these are ways to save the data we need, close to where we need it. 
+But there's a further problem with making too many requests or asking for too much data. Let's think again about our "N+1" problem. 
