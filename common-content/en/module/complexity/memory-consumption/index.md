@@ -40,6 +40,6 @@ Different kinds of data have different memory footprints:
 - The longer a string, the more bytes it consumes.
 - Objects and arrays need memory for their internal organisation _as well_ as the data itself.
 
-More complicated elements or more properties need more memory. It matters what things are made of. This is how much _space_ our program takes.
+More complicated elements or more properties need more memory. It matters what things are made of. All of this data added up is how much _space_ our program takes.
 
-It also matters how many _steps_ our program takes. Another way to think of this is how much _time_ it takes...
+It also matters how many _steps_ our program takes. Another way to think of this is how much _time_ it takes to get the answer...

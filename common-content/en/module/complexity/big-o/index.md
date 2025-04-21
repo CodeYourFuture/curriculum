@@ -1,11 +1,13 @@
 +++
 title = "Big-O"
-headless = true
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
 time = 30
 emoji= "📈"
 [objectives]
     1="Categorise algorithms as O(lg(n)), O(n), O(n^2), O(2^n)"
-    2="Give practical limits to the size of inputs to O(n^2) and O(2^n) algorithms"
 +++
 
 > [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) notation describes how **runtimes** grow as the **input** size (n) **grows**.
@@ -149,15 +151,19 @@ You will find that you already have a basic understanding of this idea. No reall
 {{<label-items heading="Drag the time complexity categories onto the correct examples">}}
 [LABEL=Constant Time]
 
-- Finding your own parked car in your designated spot. Doesn't matter if the car park has 10 spots or 1000, finding your spot takes the same time.
+- Finding your own parked car in your designated spot. Doesn't matter if the car park has 10 spots or 1000, finding your spot takes the same time. This is like accessing an index in an array.
+
   [LABEL=Logarithmic Time]
-- Finding a name in a physical dictionary or **sorted** phone book. You open to the middle, decide which half the name is in, and repeat. Each step halves the problem. Adding way more pages doesn't increase the search time proportionally.
+
+- Finding a name in a physical dictionary or **sorted** phone book. You open to the middle, decide which half the name is in, and repeat. Each step halves the problem. Adding way more pages doesn't increase the search time proportionally. This is like binary search.
+
   [LABEL=Linear Time]
-- Reading every page of a book in order to find a specific word. If the book doubles in length, it takes roughly double the time.
+
+- Reading every page of a book in order to find a specific word. If the book doubles in length, it takes roughly double the time. This is like looping over an array.
   [LABEL=Quadratic Time]
-- Everyone at a party shaking hands with everyone else. If you double the number of people (n), the number of handshakes increases much faster (roughly n \* n).
+- Everyone at a party shaking hands with everyone else. If you double the number of people (n), the number of handshakes increases much faster (roughly n \* n). This is like nested loops.
   [LABEL=Exponential Time]
-- Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities.
+- Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities. This is like naive recursion - we'll talk about this more later.
   {{< /label-items >}}
 
 You will explore this theory in your backlog. Let's look at some practical examples.

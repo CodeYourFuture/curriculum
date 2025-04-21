@@ -15,9 +15,18 @@ src = "module/complexity/big-o"
 name = '"Expensive" Operations'
 src = "module/complexity/operations"
 [[blocks]]
-name="Search and Sort"
-src = "module/complexity/sort-search"
+name = "Space: Memory consumption"
+src = "module/complexity/memory-consumption"
 [[blocks]]
-name = "Pre-computing"
-src = "module/complexity/pre-computing"
+name = "Time: Big-O"
+src = "module/complexity/big-o"
+[[blocks]]
+name = '"Expensive" Operations'
+src = "module/complexity/operations"
+[[blocks]]
+name="Network as a bottleneck"
+src = "module/complexity/network-as-a-bottleneck"
+[[blocks]]
+name="Memory, Cache Locality, and why arrays are fast"
+src="https://www.youtube.com/watch?v=247cXLkYt2M"
 +++
