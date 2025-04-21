@@ -1,11 +1,11 @@
 +++
-title = "N+ Query Problem"
+title = "N+1 Query Problem"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 30
-emoji= "⏳"
+time = 60
+emoji= "🎟️"
 [objectives]
     1="Define the n+1 query problem"
     2="List effective strategies to reduce database queries"
@@ -13,14 +13,15 @@ emoji= "⏳"
 
 You fetch data from an endpoint, but where does the endpoint get its data? Usually from a database, by sending a query. 
 
-> 💡 Databases take time to find data
+> 💡 Databases also take time to find data
 
-Database calls can be slow. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
+Database calls can be expensive. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
 
 ### Purple Forest Profile Picture
-Imagine building a new feature of user profile picture. We need to show blooms from people you follow. Now each bloom also needs to show the author's name and profile picture.
+We are building a new feature of "user profile picture". We already show blooms from people you follow. Now each bloom also needs to show the author's name and profile picture.
 
-Let's say we are using a SQL database. A simple, but very inefficient, way to fetch this data from the database might be:
+Let's say we are using a SQL database. A simple, but 
+inefficient, way to fetch this data from the database might be:
 
 1. Get the IDs of the 50 people you follow: `SELECT user_id FROM follows WHERE follower_id = current_user_id (1 query)`
 1. Get the latest 10 bloom IDs for each of those 50 people:` SELECT bloom_id FROM blooms WHERE author_id = ? ORDER BY timestamp DESC LIMIT 10` (50 separate queries, one for each followed user)
@@ -29,9 +30,16 @@ Let's say we are using a SQL database. A simple, but very inefficient, way to fe
 
 This pattern: one initial query followed by N queries inside a loop is the "N+1 Query Problem". In this example, it's more like 1 + N + M + P queries! It results in hundreds of separate trips to the database.
 
+{{<note type="activity" title="Draft this feature">}}
+
+1. In your notebook, plan how _you_ would build this feature in your local copy of Purple Forest.
+1. Now build the feature from the back end to the front. Don't worry about the layout, just focus on finding the most efficient route through the system.
+
+{{</note>}}
+
 ### Flooding and Performance
 
-Each individual database query is fast. Making hundreds of them back-to-back has serious consequences.
+Each individual database query may be fast. Making hundreds of them back-to-back has serious consequences.
 
 We've already seen that every query adds network delay and processing time. This is the latency problem we considered before. But there's also a problem with the number of queries. There are only so many queries you can fit in a queue. Sending a burst of hundreds of simple queries can _overwhelm_ the database server. This is sometimes called "flooding" the database. 
 
