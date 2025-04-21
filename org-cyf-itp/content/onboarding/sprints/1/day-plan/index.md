@@ -5,14 +5,18 @@ emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
+name="Name tags"
+src="blocks/name-tags"
+[[blocks]]
 name="Energiser"
 src="energisers/in-person-and-online"
+time=20
 [[blocks.nested.blocks]]
-name="Zip Zap Boing"
+name="In person: Zip Zap Boing"
 src="energisers/zip-zap-boing"
 time=0
 [[blocks.nested.blocks]]
-name="Popcorn Show and Tell"
+name="Online: Popcorn Show and Tell"
 src="energisers/popcorn"
 time=0
 [[blocks]]
@@ -34,9 +38,12 @@ time=60
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
+name="Energiser"
+src="energisers/slack-libs"
+[[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
-time=75
+time=50
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
@@ -60,4 +67,7 @@ time=0
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
+[[blocks]]
+name="Socialise"
+src="blocks/socialise"
 +++

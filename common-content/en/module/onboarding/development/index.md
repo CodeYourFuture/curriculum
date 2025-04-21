@@ -2,7 +2,7 @@
 title="Study Group Development"
 emoji="🧑🏿‍🔧"
 time=120
-objectives = [
+tasks = [
     "Create a strategy for implementing a program based on a set of requirements.",
     "Express questions, problems and blockers as formal bug reports",
     "Interpret business requirements and express them as test cases.",

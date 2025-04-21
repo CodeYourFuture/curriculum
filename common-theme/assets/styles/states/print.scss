@@ -1,0 +1,151 @@
+@media print {
+  /* ============ SIZING */
+  :root {
+    font-size: 12pt;
+    --theme-spacing--container: calc(
+      297mm - calc(var(theme-spacing--gutter) * 2)
+    );
+  }
+  * {
+    box-shadow: none !important;
+    box-sizing: border-box;
+  }
+
+  /* ============ SHOW HIDE 
+  details must be done with js alas */
+  [hidden] {
+    display: block;
+  }
+  .l-layout__header,
+  .l-layout__footer,
+  #top,
+  [slot="nav"],
+  .c-tabs__list,
+  .c-block:has(#register),
+  .c-page-footer,
+  .c-alert,
+  .c-block--pullreq,
+  .c-overview__nav,
+  .c-issue__title .e-button {
+    display: none;
+  }
+  .c-page-header__toc .c-toc {
+    max-height: none;
+  }
+  a[href^="http"]:not([href*="codeyourfuture.io"]):after {
+    content: " (" attr(href) ") ";
+    grid-area: link;
+  }
+  /* ============TABS SHOW */
+  .c-tabs {
+    margin: 0;
+  }
+  .c-tabs__panel {
+    opacity: 1;
+    border: var(--theme-border);
+    overflow-x: visible;
+
+    &::before {
+      content: attr(data-heading);
+      font-family: var(--theme-font--display);
+      font-size: var(--theme-type-size--3);
+    }
+  }
+  .c-tabs__group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--theme-spacing--2);
+  }
+  /* ============ TOOLTIPS */
+  tool-tip-container {
+    display: block;
+    text-decoration: none;
+  }
+  tool-tip {
+    opacity: 1;
+    margin: var(--theme-spacing--1) auto;
+    position: static;
+    display: block;
+    transform: none;
+    max-width: none;
+  }
+
+  /* ============ CHIPS */
+  .c-chip {
+    grid-template:
+      ".... . ..... ." var(--theme-spacing--1)
+      "icon . title ." min-content
+      "icon . description ." 1fr
+      "icon . link ." auto
+      ".... . ..... ." var(--theme-spacing--1) / var(--theme-type-size--1) var(
+        --theme-spacing--1
+      )
+      1fr var(--theme-spacing--1);
+  }
+  /* ============ HIDE VIDEOS SHOW LINK*/
+  video,
+  youtube-player,
+  iframe[title="YouTube video player"] {
+    height: 2ch;
+    overflow: hidden;
+    display: block;
+    text-align: left;
+  }
+  youtube-player::before {
+    content: "📼" attr(data-src);
+  }
+
+  /* ========== REPLACE checkbox with checkable in print box */
+  li:has(input[type="checkbox"])::before {
+    content: " ◻️";
+  }
+
+  /* ============ HANDLE HANGING LINES */
+
+  p {
+    widows: 3;
+    orphans: 4;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  svg,
+  tooltip-component {
+    break-after: avoid-page;
+    break-inside: avoid-page;
+  }
+
+  /*======== PAGE BREAKS FOR BLOCKS
+  should be able to set up to print 2 pages per a4 page double sided and make booklets */
+  .p-day-plan .c-block__series--timeline > .c-block {
+    break-before: always;
+    break-inside: avoid;
+  }
+
+  solo-view [slot="blocks"] {
+    > .c-block {
+      break-before: always;
+    }
+  }
+
+  solo-view {
+    grid-template:
+      "sidebar" min-content
+      "blocks" auto;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 25mm;
+  }
+
+  @page:left {
+    @bottom-left {
+      content: "CYF " counter(page) " of " counter(pages);
+      font-size: 9pt;
+    }
+  }
+}
