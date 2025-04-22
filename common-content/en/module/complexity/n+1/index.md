@@ -15,7 +15,7 @@ You fetch data from an endpoint, but where does the endpoint get its data? Usual
 
 > 💡 Databases also take time to find data
 
-Database calls _can be_ expensive. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
+[Database calls](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-storage-guide?view=sql-server-ver16#disk-io) are expensive. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
 
 ### 🟣 Purple Forest Profile Picture
 We are building a new feature of "user profile picture". We already show blooms from people you follow. Now each bloom also needs to show the author's name and profile picture.
@@ -39,7 +39,7 @@ This pattern: one initial query followed by N queries inside a loop is the "N+1 
 
 ### 🌊 Flooding and Performance
 
-Each individual database query may be fast. Making hundreds of them back-to-back has serious consequences.
+Even if each individual database query is reasonably fast. Making hundreds of them back-to-back has serious consequences.
 
 We've already seen that every query adds network delay and processing time. This is the latency problem we considered before. But there's also a problem with the number of queries. There are only so many queries you can fit in a queue. Sending a burst of hundreds of simple queries can _overwhelm_ the database server. This is sometimes called "flooding" the database. 
 

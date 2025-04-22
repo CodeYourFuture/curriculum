@@ -20,15 +20,15 @@ The further data must travel, the longer it takes. This is why we try to store d
 
 Thinking back to the strategies we mooted in [Expensive Operations](#expensive-operations), there are two main network related costs:
 
-### Inefficient Strategy: Making Too Many Requests
-
-In the second design, we make network calls inside a loop. Each network call in the loop adds latency. If we follow 50 people, we wait for the network 50+ times! Another way to say this is that this is an "N+1 API problem".
-
-### Inefficient Strategy: Fetching Too Much Data
+### 🦥 Fetching Too Much Data
 
 In design one and three, we just get everything and sort it out in the browser. This sends too much data over the network! Every single byte of data we request extends the time we have to wait. Once we have all this data, we have to waste yet more time and energy sorting through items we knew we could never need or use. 
 
-### Why These Are Bottlenecks
+### 🦥 Making Too Many Requests
+
+In the second design, we make network calls inside a loop. Each network call in the loop adds latency. If we follow 50 people, we wait for the network 50+ times! Another way to say this is that this is an "N+1 API problem".
+
+### 🤑 Too much, too often
 
 Both looping network calls and fetching/processing huge amounts of data are examples of overusing a limited resource. They make the user wait.
 

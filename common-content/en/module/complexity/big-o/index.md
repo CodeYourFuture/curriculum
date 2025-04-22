@@ -155,15 +155,15 @@ You will find that you already have a basic understanding of this idea. No reall
 
   [LABEL=Logarithmic Time]
 
-- Finding a name in a physical dictionary or **sorted** phone book. You open to the middle, decide which half the name is in, and repeat. Each step halves the problem. Adding way more pages doesn't increase the search time proportionally. This is like binary search.
+- Finding a name in a physical dictionary or **sorted** phone book. You open to the middle, decide which half the name is in, and repeat. Each step halves the problem. Adding way more pages doesn't increase the search time proportionally. This is like [binary search](logic/sprints/1/prep#bisection).
 
   [LABEL=Linear Time]
 
 - Reading every page of a book in order to find a specific word. If the book doubles in length, it takes roughly double the time. This is like looping over an array.
   [LABEL=Quadratic Time]
-- Everyone at a party shaking hands with everyone else. If you double the number of people (n), the number of handshakes increases much faster (roughly n \* n). This is like nested loops.
+- Everyone at a party shaking hands with everyone else. If you double the number of people (n), the number of handshakes increases much faster (roughly n \* n). This is like nesting a loop inside a loop.
   [LABEL=Exponential Time]
-- Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities. This is like naive recursion - we'll talk about this more later.
+- Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities. This is like naive recursion;  we'll talk about this more later.
   {{< /label-items >}}
 
-You will explore this theory in your backlog. Let's look at some practical examples.
+You will explore this theory in your backlog.

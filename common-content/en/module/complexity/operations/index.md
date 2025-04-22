@@ -47,14 +47,14 @@ What if we had tried any of the following strategies:
 1. Sort by timestamp
 1. Display blooms
 
-Given what we've just thought about, how efficient are these programs? How could you make them more efficient?
+Given what we've just thought about, how efficient are these programs? How could you make them more efficient? Write your ideas down in your notebook.
 
-Our end state is always to show the latest blooms that meet our criteria. How we produce that list determines how quickly our user gets their page. After just **three seconds**, half of all your users have given up and left.
+Our end state is always to show the latest blooms that meet our criteria. How we produce that list determines how quickly our user gets their page. This is very very important. After just **three seconds**, half of all your users have given up and left.
 
-The Purple Forest application does not do most of this work on the front end, but it does still do it somewhere. (We can make our work cheaper, but never free.) The real applications uses common strategies to minimise:
+The Purple Forest application does not do most of this work on the front end, but it does still do it somewhere. (We can make our work cheaper, but never free.) The application uses common strategies to minimise:
 
 1. Steps taken to find and sort the data
 1. Quantity of data requested
 1. Number of network calls
 
-This is because some operations are more expensive than others.
+This is because some operations are more {{<tooltip title="expensive">}}Expensive operations consume a lot of computational resources like CPU time, memory, or disk I/O.{{</tooltip>}} than others.

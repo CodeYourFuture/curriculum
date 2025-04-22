@@ -15,7 +15,8 @@ emoji= "⛓️‍💥"
 
 ### 🍣 Stale/Fresh
 
-What happens if the answer changes after we have cached it? The user might see an old version. This is called a stale cache or staleness. How do we tell the cache: "This item is old, get a fresh copy"? This is cache invalidation, and [it's tricky.](https://shouldiblamecaching.com/)
+What happens if the answer changes after we have cached it? The user might see an old version. This is called a stale cache or staleness. We need to tell the cache: "This item is old, get a fresh copy" . This is {{<tooltip title="cache invalidation">}}
+[Cache invalidation](https://redis.io/glossary/cache-invalidation/) is the process of removing data that is no longer accurate or useful.{{</tooltip>}}, and [it's tricky.](https://shouldiblamecaching.com/)
 
 In the browser, common invalidation strategies include:
 
@@ -28,5 +29,7 @@ In the browser, common invalidation strategies include:
 If there are so many solutions, why do we say cache invalidation is hard? It's because every cache is a tradeoff between running out of time, running out of resources, and giving the right answer. Your program can be fast and cheap, but probably not accurate. It can be fast and accurate, but that's not cheap. And it can be cheap and accurate, but that's not likely to be fast. 
 
 When we do not cache, our program is _slow_. If we do not invalidate our cache at the right moment, our program is **wrong**. 
+
+![Venn diagram showing three overlapping circles: fast, cheap, and accurate](venn.svg)
 
 
