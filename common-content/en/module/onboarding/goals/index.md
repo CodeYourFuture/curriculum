@@ -5,8 +5,8 @@ emoji="🎯"
 hide_from_overview=true
 objectives = [
   "List the core goals of the module",
-  "Find the learning objectives for Sprint 1",
-  "Describe what you need to do in order to complete the onboarding module"
+  "Find the learning objectives for Sprint 1 of the Onboarding module",
+  "Describe what you need to do in order to complete the Onboarding module"
 ]
 [build]
   render = 'never'
@@ -24,7 +24,7 @@ If eligible, you should enrol as a Trainee within the next three weeks. _If you 
 
 **Find the learning objectives for the text you are reading now.** These are the goals for this text. This is what you should be able to do after completing this text.
 
-**Now find the learning objectives for Sprint 1**. We call these the "success criteria". These are the goals for the first sprint of the module. This is what you should be able to do after completing Sprint 1.
+**Now find the learning objectives for Sprint 1 of the Onboarding module**. We call these the "success criteria". These are the goals for the first sprint of the module. This is what you should be able to do after completing Sprint 1.
 
 This formal structure might be new to you. **It is a way to help you evaluate for yourself whether you have achieved the goals of the module.** If you have done (and can do) the things listed in the learning objectives, you have gained the skill. If you have not, you have not yet gained the skill, and should keep working at it.
 
