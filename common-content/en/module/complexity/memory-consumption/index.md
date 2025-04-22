@@ -11,7 +11,7 @@ emoji= "🥪"
     1="Quantify the memory used by different arrays"
 +++
 
-> There are only so many bits you can fit on a chip.
+> 📏 There are only so many bits you can fit on a chip.
 
 Computers are real things, not diagrams or mathematical models. This means a computer has a limited physical size and a finite amount of memory. When your program runs, it uses some of this memory to store data.
 
@@ -24,7 +24,7 @@ CPU -->|️ Fastest: Smallest| Cache -->|Fast: Small| RAM -->|Slow : Big| Disk -
 
 At each stage there are **limits** to **how fast** you can get the data and **how much** data you can store. Given this constraint, we need to consider how much memory our programs consume.
 
-### Simpler is smaller
+### 🧘🏽 Simpler is smaller
 
 Consider these data structures. Order them from least to most memory needed:
 

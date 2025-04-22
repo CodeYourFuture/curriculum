@@ -14,13 +14,13 @@ emoji= "⚖️"
 
 In software engineering, we constantly make trade-offs. We choose one approach over another, gaining some benefits while accepting some downsides. In this module we have examined many problems that involve balancing resources like memory, CPU time, network bandwidth, and even developer time.
 
-### Space vs time
+### 🫱🏻‍🫲🏽 Space vs Time
 
 We saw caching trades the limited resource of memory space for the limited resource of computation time. But caching introduces the problem of stale data, and it can make it harder to reason about our application. We saw that we can store much more data and query it much quicker on a database, but also that it's slower to access that data over a network. 
 
 In each optimisation we have examined, there is a trade off.
 
-### Where Should Work Be Done?
+### 🗺️ Where Should Work Be Done?
 
 Understanding these trade-offs allows us to optimise a system. This doesn't always mean "make it the absolute fastest". It means making conscious choices to best meet the goals, which might include:
 

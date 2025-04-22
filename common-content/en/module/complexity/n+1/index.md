@@ -15,9 +15,9 @@ You fetch data from an endpoint, but where does the endpoint get its data? Usual
 
 > 💡 Databases also take time to find data
 
-Database calls can be expensive. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
+Database calls _can be_ expensive. When our backend needs data from the database, it sends a query. If we're not careful, we can end up making many more queries than necessary.
 
-### Purple Forest Profile Picture
+### 🟣 Purple Forest Profile Picture
 We are building a new feature of "user profile picture". We already show blooms from people you follow. Now each bloom also needs to show the author's name and profile picture.
 
 Let's say we are using a SQL database. A simple, but 
@@ -37,7 +37,7 @@ This pattern: one initial query followed by N queries inside a loop is the "N+1 
 
 {{</note>}}
 
-### Flooding and Performance
+### 🌊 Flooding and Performance
 
 Each individual database query may be fast. Making hundreds of them back-to-back has serious consequences.
 
@@ -47,7 +47,7 @@ The server has to handle each request individually, consuming resources (CPU, me
 
 This N+1 problem can happen with any database interaction if you loop and query individually. Understanding this helps you write backend code that doesn't accidentally overload the database.
 
-### What to do instead
+### 📦 What to do instead
 
 The real `/home `endpoint avoids these problems by using efficient strategies:
 
