@@ -33,7 +33,7 @@ This pattern: one initial query followed by N queries inside a loop is the "N+1 
 {{<note type="activity" title="Draft this feature">}}
 
 1. In your notebook, plan how _you_ would build this feature in your local copy of Purple Forest.
-1. Now build the feature from the back end to the front. Don't worry about the layout, just focus on finding the most efficient route through the system.
+1. Now build out the feature from the back end to the front. Don't worry about the layout, just focus on finding the most efficient route through the system.
 
 {{</note>}}
 
