@@ -10,14 +10,14 @@ emoji= "📈"
     1="Categorise algorithms as O(lg(n)), O(n), O(n^2), O(2^n)"
 +++
 
-> [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) notation describes how **runtimes** grow as the **input** size (n) **grows**.
+> [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) notation describes how **resource use** grows as the **input** size (n) **grows**.
 
 ```mermaid
 
 xychart-beta
 title "Big O Notation - Constant to Exponential"
 x-axis "Input size (n)" [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-y-axis "Time (log)" 0 --> 1024
+y-axis "Time/Space (log)" 0 --> 1024
 line [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 line [0, 1, 1.6, 2, 2.3, 2.6, 2.8, 3, 3.2, 3.3]
 line [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -148,7 +148,7 @@ Oh where have we seen this sequence of numbers before? ;)
 
 You will find that you already have a basic understanding of this idea. No really! Let's look at these algorithms in real life:
 
-{{<label-items heading="Drag the time complexity categories onto the correct examples">}}
+{{<label-items heading="Drag the complexity categories onto the correct examples">}}
 [LABEL=Constant Time]
 
 - Finding your own parked car in your designated spot. Doesn't matter if the car park has 10 spots or 1000, finding your spot takes the same time. This is like accessing an index in an array.
@@ -165,5 +165,8 @@ You will find that you already have a basic understanding of this idea. No reall
   [LABEL=Exponential Time]
 - Trying every possible combination to unlock a password. Each extra character dramatically increases the possibilities. This is like naive recursion;  we'll talk about this more later.
   {{< /label-items >}}
+
+> [!TIP]
+>  Big-O notation also describes space complexity (how memory use grows). Sometimes an algorithm's time complexity is different from its space complexity. We're focusing on time here, but you'll meet space complexity analysis too.
 
 You will explore this theory in your backlog.
