@@ -9,7 +9,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 [[blocks]]
 name="Technical interview workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/technical-interviews?ref=technical-interview-workshop"
+src="https://github.com/CodeYourFuture/CYF-Workshops/readme/technical-interviews"
 time="90"
 [[blocks]]
 name="Morning break"
