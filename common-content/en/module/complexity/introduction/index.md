@@ -35,9 +35,9 @@ This module explores computational complexity. This means the resources (like ti
 
 ### Concepts you will teach:
 
-You get to choose:
+You get to choose 
 
-1. Either caching, precomputing, or memoisation
-1. Time complexity of either logarithmic, linear, quadratic, or exponential algorithms
+1. **Space**: caching, precomputing, memoisation, memory consumption
+1. **Time**: complexity of algorithms (eg logarithmic, linear, quadratic, or exponential)
 
 Buckle up!
