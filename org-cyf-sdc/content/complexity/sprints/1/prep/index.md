@@ -1,6 +1,6 @@
 +++
 title = 'prep'
-description = 'Overview description of the prep work for the sprint'
+description = 'Examining the cost of computation'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
