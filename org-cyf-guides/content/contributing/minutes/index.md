@@ -49,7 +49,7 @@ Top focus areas:
 * CJ: Set up self-study material to help guide people at home or in class with support.
 * Jay: Being available to make whatever iterative changes we find are needed.
 * Karen: Linking non-tech-specific skills into workshops more closely tied to technical project work.
-* Daniel: Focus on reliably delivery of material in class.
+* Daniel: Focus on reliable delivery of material in class.
 
 #### Working together as a group
 
