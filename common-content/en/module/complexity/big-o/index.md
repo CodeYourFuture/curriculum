@@ -146,7 +146,7 @@ Oh where have we seen this sequence of numbers before? ;)
 
 </details>
 
-You will find that you already have a basic understanding of this idea. No really! Let's look at these algorithms in real life:
+You will explore this theory in your backlog, but you will find that you already have a basic understanding of this idea. No really! Let's look at these algorithms in real life:
 
 {{<label-items heading="Drag the complexity categories onto the correct examples">}}
 [LABEL=Constant Time]
@@ -167,6 +167,4 @@ You will find that you already have a basic understanding of this idea. No reall
   {{< /label-items >}}
 
 > [!TIP]
->  Big-O notation also describes space complexity (how memory use grows). Sometimes an algorithm's time complexity is different from its space complexity. We're focusing on time here, but you'll meet space complexity analysis too.
-
-You will explore this theory in your backlog.
+>  Big-O notation also describes space complexity (how memory use grows). Sometimes an algorithm's time complexity is different from its space complexity. We have focused on time here, but you'll meet space complexity analysis in the assigned reading. 

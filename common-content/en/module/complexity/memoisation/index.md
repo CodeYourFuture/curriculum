@@ -37,7 +37,7 @@ def factorial(n):
     return n * factorial(n-1) if n else 1
 ```
 
-In Python, [functools](https://docs.python.org/3/library/functools.html) provides a function cache. The `@cache` decorator automatically stores the result of `factorial(n)` for each value of n that it calculates. If the function is called again with the same value, `@cache` immediately returns the stored result without rerunning the code. 
+In Python, [functools](https://docs.python.org/3/library/functools.html) provides a function cache. The `@cache` decorator automatically stores the result of `factorial(n)` for each value of n it computes. If the function is called again with the same value, `@cache` returns the stored result without rerunning the code. 
 
 We don't _need_ a decorator to apply this idea. We can create a temporary cache, index, or memo inside any function ourselves.  Memoisation is an implementation of the strategy of saving time by spending space. 
 

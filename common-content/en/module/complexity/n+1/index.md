@@ -55,4 +55,11 @@ The real `/home `endpoint avoids these problems by using efficient strategies:
 **Caching**: Store results so you don't have to ask the network again. Ask for only new changes in future.  
 **Pagination**: Ask for only the first page of results. Load more later if the user scrolls or clicks "next".  
 
-All these are ways to save the data we need, close to where we need it.  We'll think about this more next time. 
+All these are ways to save the data we need, close to where we need it. But each strategy also has downsides. 
+
+{{<
+  multiple-choice
+  question="What is the N+1 Query Problem?"
+  answers="Fetching N items plus 1 extra backup item. | Making 1 query to get a list, then N separate queries to get details for each item in the list. | A query that is N times too complex. |  Trying N+1 different network endpoints."
+  feedback="No, but flip this and try again? | Right! That's a clear description. | No, this is so vague it describes nothing. | No, it's not about network endpoints."
+  correct="1">}}
