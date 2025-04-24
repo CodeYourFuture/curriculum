@@ -38,7 +38,7 @@ Attendees: Ali Smith, Caroline Scherf, CJ Yuan, Daniel Wagner-Hall, Jay Mayer, K
   * Trainees seem to need inconsistent pacing, and the course isn't set up very well for that.
 * Struggling with reliable delivery, class doesn't always go smoothly or lead to the desired amount of knowledge transfer.
 * ITD feels like there are some unclear instructions - could make things more clear and easy to follow.
-* Need make sure we're getting good feedback from trainees and seeing how things are landing with them.
+* Need to make sure we're getting good feedback from trainees and seeing how things are landing with them.
 * Written content generally seems to be in a good place - probably don't want to do any major rewrites. Focus on iterative change and delivery.
 * Recent Piscine and current SDC seem to be thriving strongly, but they're small groups. They seem to have a consistent community that "get it".
 
