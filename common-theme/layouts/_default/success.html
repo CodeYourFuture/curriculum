@@ -9,7 +9,7 @@
       {{/* print any objectives from the success page front matter */}}
       {{ with .Params.Objectives }}
         <section class="c-objectives">
-          <h3 class="c-objectives__title is-invisible">Overall Objectives</h3>
+          <h3 class="c-objectives__title">Objectives</h3>
           {{ range . }}{{ partial "objectives/block.html" . }}{{ end }}
         </section>
       {{ end }}

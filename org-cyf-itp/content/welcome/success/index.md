@@ -10,5 +10,3 @@ weight = 11
 2="Name 5 people in your class"
 3="Find and begin your prep for the Onboarding Module"
 +++
-
-### 🎯 You've achieved your learning objectives if you can:

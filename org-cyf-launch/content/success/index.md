@@ -48,5 +48,3 @@ A successful Launch Project must also meet these criteria:
 > You have to build it together, it has to work, and you have to show us.
 
 {{<our-name>}} has no automatic progress, but many chances exist. If you don’t meet these criteria, you can try again until you do.
-
-## Objectives
