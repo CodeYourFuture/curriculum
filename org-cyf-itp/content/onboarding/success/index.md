@@ -1,5 +1,5 @@
 +++
-title = 'success'
+title = 'Success'
 description = 'How do we know if we have completed Onboarding?'
 layout = 'success'
 emoji= '✅'
