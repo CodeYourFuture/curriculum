@@ -1,6 +1,6 @@
 +++
 title = 'success'
-description = 'How do we know if we have completed the Structuring and Testing Data module?'
+description = 'How do we know if we have completed Structuring and Testing Data?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']

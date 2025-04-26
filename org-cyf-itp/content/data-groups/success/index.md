@@ -1,6 +1,6 @@
 +++
 title = 'success'
-description = 'How do we know we have completed Data Groups?'
+description = 'How do we know if we have completed Data Groups?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
