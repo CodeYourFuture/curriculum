@@ -17,6 +17,133 @@ Attendees:
 
 ---
 
+## 2025-04-23
+
+Attendees: Ali Smith, Caroline Scherf, CJ Yuan, Daniel Wagner-Hall, Jay Mayer, Karen Klein, Zachee Niyokwizera
+
+### 📝 Agenda points
+
+#### Intros
+
+* Daniel: Director of Technical Education in London. Been at CYF ~5 years. Common topics of discussion: Focusing on slowing down and breaking down problems more, and more assessment and feedback.
+* Jay: Backend-focused dev in finance in NW. CYF for ~2 years. Saw a bit of pre-ITD/ITP, haven't been as curriculum-involved recently, but excited to work together! Currently focused on career tracks to get grads ready for specific jobs.
+* CJ: Volunteer in Sheffield for about 6 months. Mostly ITD (curriculum work, and running day-to-day) and ITP (lots of code review). Excited to make the curriculua clearer, and ease the transitions between courses.
+* Ali: Frontend-focused engineer (with some management history) in London. CYF since 2017 - teaching, curriculum writing, a bit of everything. Have been helping on the syllabus/curriculum team for a while. Frequent topic: Supporting volunteers through a community of practice - encouraging better practice from our volunteers, think like we think, communicate the ideas we have.
+* Zachee: CYF for 6 years, involved with ITD for the last year. Software developer, less active recently because of job hunting but eager to get stuck in.
+* Caroline: Infrastructure engineer in London. CYF for about a year, mostly involved with ITP syllabus, particularly in-person workshops.
+
+#### State of the curriculum
+
+* ITP feels like it's in a pretty good place. Trainees are learning things, and are relatively prepared for the Piscine. Questions around consistent depth of understanding - a lot of trainees are struggling with quite basic concepts around problem solving and writing code.
+  * Trainees seem to need inconsistent pacing, and the course isn't set up very well for that.
+* Struggling with reliable delivery, class doesn't always go smoothly or lead to the desired amount of knowledge transfer.
+* ITD feels like there are some unclear instructions - could make things more clear and easy to follow.
+* Need to make sure we're getting good feedback from trainees and seeing how things are landing with them.
+* Written content generally seems to be in a good place - probably don't want to do any major rewrites. Focus on iterative change and delivery.
+* Recent Piscine and current SDC seem to be thriving strongly, but they're small groups. They seem to have a consistent community that "get it".
+
+Top focus areas:
+
+* Ali: Getting volunteers on the day focusing on high-quality delivery.
+* Caroline: ITP workshops, day-plans, and prepping volunteers in advance.
+* CJ: Set up self-study material to help guide people at home or in class with support.
+* Jay: Being available to make whatever iterative changes we find are needed.
+* Karen: Linking non-tech-specific skills into workshops more closely tied to technical project work.
+* Daniel: Focus on reliable delivery of material in class.
+
+#### Working together as a group
+
+* Make sure we have a space to share and discuss ideas, get to know each other and share perspectives.
+  * Particularly for bigger cross-cutting problems, e.g. community building and spreading teaching practices.
+  * Aim to mostly meet virtually.
+  * Discuss trainee feedback and team updates.
+  * Try to communicate actively on Slack too.
+* Don't feel blocked by the group, particularly for smaller more practical things - feel free to draft things for discussion rather than wait for complete agreement before getting started.
+
+**Goal: Reliable delivery of material to trainees.**
+
+Standing agenda:
+* What should we be discussing?
+* What proposals would people like feedback on?
+* What work do we have that needs to get done?
+
+#### MigraCode network
+
+We work together with MigraCode Barcelona, who want to co-develop our curriculum more with us.
+
+We also work with HackYourFuture (a number of loosely connected groups) in Belgium, Denmark, and the Netherlands, who may want to collaborate on things too.
+
+#### How can we prepare the ITD curriculum to better prepare the participants for ITP?
+
+ITD currently prepares people to follow instructions, and learn some HTML/CSS. We're not seeing a lot of deeper learning from a lot of the steps (e.g. spreadsheets) - they're just learning to follow instructions.
+
+Making some instructions more clear may remove some blockers, and allow more time to learn new things - what would people benefit from?
+
+Don't want to make it longer.
+
+ITD currently feels like a very intro trial, then ITP feels like a whole reset - a fresh start. Not sure where the boundary between the courses sits.
+
+We have different volunteers on the two courses, so some difference is inevitable.
+
+There's quite a large complexity gap between ITD and ITP - not great expectation management.
+
+We did previously have CYF Blocks which was a lot harder - maybe we over-simplified it a bit too much.
+
+Original goal was for ITD to be a bit of a taster for the rest of the course. We really want people who aren't going to enjoy programming to drop out as early as possible - don't want to waste volunteer and trainee time. We need to test and slightly push people.
+
+Want ITD to be a standalone course where people learn skills that are useful to them.
+
+We don't think programming is going to be the only outcome from our courses - more general tech jobs are in scope, so data thinking is useful regardless.
+
+Maybe we need to set exercises that require more independent thought, e.g. after having watched a video and followed the steps: "Here is a large CSV of some data, come to some conclusions about it". Make sure we're testing _knowledge transfer_ to similar but different tasks.
+
+Our value-add isn't writing a bunch of new step-by-step material - we can point at existing resources, but need to focus on making sure they can apply it (e.g. through exercises, support).
+
+A lot of our ITD participants struggle with how/where to find resources.
+
+English level seems to be a major blocker - bringing that filtering earlier in the process would be really useful - will introduce this for next ITD/ITP run.
+
+#### The role of the AI step in ITD see https://codeyourfuture.slack.com/archives/C07799JJD5E/p1743759996764819?thread_ts=1743759996.764819&cid=C07799JJD5E for context
+
+The generated cover letter right now is a useless artifact, and maybe isn't a great use of time to produce.
+
+Can we make the assessment be more based on the process rather than the end result? ChatGPT allows linking to a thread.
+
+Often our trainees don't know the right questions to ask (so get the wrong answers).
+
+Maybe we can prepare some exercises to help them self-check? People being confronted by this in the Piscine interviews was really motivating to people to go back and re-learn.
+
+In the past we've had an exercise to have ChatGPT answer a question the trainee _already knows_ and use it to present something useful. Gives more opportunities to meaningfully criticise the output.
+
+Three key GenAI lessons:
+1. Be skeptical about what it produces.
+2. Use it to learn/understand not to produce output.
+3. How to effectively refine things with good prompts or follow-ups.
+
+We should write down learning objectives:
+* Determine that ChatGPT is unreliable.
+* Explain why they should use ChatGPT to understand concepts rather than write answers.
+* Prompt effectively.
+
+And then work out solutions to the problems (or choose which ones we want to introduce in ITD).
+
+#### ITP Steps update - any changes before uploading to the dashboard?
+
+Think we're good to go.
+
+For the future, how difficult is it to make updates? Basically trivial, can do any time, but need to make sure we're fair and don't change the required standard part-way through.
+
+Currently we have a split between backlog tickets vs Google Docs - do we want to unify that across the modules? Yes.
+
+### ❗Actions
+
+- [ ] Consider each step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
+- [ ] Think about what topics we may want to pull back from ITP to ITD (e.g. version control).
+- [ ] Discuss modifications to the GenAI ITD step: https://github.com/CodeYourFuture/curriculum/issues/1403
+- [ ] Jay and Zachee: Update ITP Success pages to instruct to make an Issue: https://github.com/CodeYourFuture/curriculum/issues/1422
+
+---
+
 ## 2025-03-25
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Karen Klein, Mitch Lloyd, Sally McGrath
