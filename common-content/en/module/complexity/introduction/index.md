@@ -28,7 +28,7 @@ This module explores computational complexity. This means the resources (like ti
 
 ### How to succeed
 
-- **Work through each section.** Read the explanations and engage with the suggested activities or thought experiments. You will also be reading Chapter 7 of How Computers Really Work.
+- **Work through each section.** Read the explanations and engage with the suggested activities. You will also be reading Chapter 8 of How Computers Really Work.
 - **Focus on the learning objectives.** Check you can meet the objectives listed for each section.
 - **Build toy solutions.** Build your own small programs to test the ideas presented in the prep.
 - **Prepare for discussion.** You will be teaching a concept in class.
@@ -38,6 +38,6 @@ This module explores computational complexity. This means the resources (like ti
 You get to choose 
 
 1. **Space**: caching, precomputing, memoisation, memory consumption
-1. **Time**: complexity of algorithms (eg logarithmic, linear, quadratic, or exponential)
+1. **Time**: complexity of algorithms (eg logarithmic, exponential), expensive operations, I/O, thrifty queries
 
 Buckle up!
