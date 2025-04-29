@@ -10,8 +10,6 @@ weight = 11
 2="Apply to enroll as a Trainee"
 +++
 
-> 🎯 Complete onboarding and [apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)
-
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
