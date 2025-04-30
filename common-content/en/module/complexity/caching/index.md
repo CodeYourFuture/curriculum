@@ -1,11 +1,11 @@
 +++
 title = "Caching"
+time = 15
+emoji = "🛍️"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 15
-emoji= "🛍️"
 [objectives]
     1="Identify and explain how web browsers benefit from caching"
     2="Demonstrate how caching can trade memory for CPU"

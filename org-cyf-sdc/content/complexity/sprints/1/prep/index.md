@@ -12,6 +12,9 @@ src = "module/complexity/memory-consumption"
 name = "Time: Big-O"
 src = "module/complexity/big-o"
 [[blocks]]
+name = "Worked example"
+src = "module/complexity/worked-example-duplicate-encoder"
+[[blocks]]
 name = '"Expensive" Operations'
 src = "module/complexity/operations"
 [[blocks]]

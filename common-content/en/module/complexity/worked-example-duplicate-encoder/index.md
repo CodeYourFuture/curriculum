@@ -1,0 +1,119 @@
++++
+title = "Worked example: Duplicate Encoder"
+time = 90
+emoji = "🧰"
+[build]
+  render = "never"
+  list = "local"
+  publishResources = false
+objectives = [
+    "Analyse the time complexity of a function.",
+    "Compare two algorithms for solving the same problem in terms of complexity.",
+    "Identify that speed isn't the only factor in choosing the best code.",
+]
++++
+
+Let's consider two possible approaches to [the Duplicate Encoder Codewars exercise](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript).
+
+The problem can be stated as:
+
+{{<note type="exercise">}}
+The goal of this exercise is to convert a string to a new string where each character in the new string is `(` if that character appears only once in the original string, or `)` if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+Examples
+Input       | Output
+------------|-------
+`"din"`     | `"((("`
+`"recede"`  | `"()()()"`
+`"Success"` | `")())())"`
+`"(( @"`    | `"))(("`
+```
+{{</note>}}
+
+> [!WARNING]
+>
+> First, try solving this exercise yourself.
+
+Here are three sample solutions:
+
+```js {linenos=table}
+function duplicateEncode(word){
+  let result = ""
+  for (const char of word.toLowerCase()) {
+    if (word.indexOf(char) === word.lastIndexOf(char)) {
+      result += "(";
+    } else {
+      result += ")";
+    }
+  }
+  return result;
+}
+```
+
+```js {linenos=table}
+function duplicateEncode(word){
+  let result = ""
+  for (const char of word) {
+    const lowerCaseChar = char.toLowerCase()
+    if (word.indexOf(lowerCaseChar) === word.lastIndexOf(lowerCaseChar)) {
+      result += "(";
+    } else {
+      result += ")";
+    }
+  }
+  return result;
+}
+```
+
+```js {linenos=table}
+function duplicateEncode(word){
+  const occurrences = {};
+  for (const char of word) {
+    const normalisedChar = char.toLowerCase();
+    occurrences[normalisedChar] = (occurrences[normalisedChar] || 0) + 1;
+  }
+  let out = "";
+  for (const char of word) {
+    out += (occurrences[char.toLowerCase()] === 1 ? "(" : ")");
+  }
+  return out;
+}
+```
+
+### Comparing the approaches
+
+Approaches 1 and 2 are very similar. In terms of time and memory complexity, they are the same as each other. But the second uses less memory than the first. The first one keeps around an entire copy of `word` (converted to lower case) for the whole function. The second one only converts each character in `word` to lower case one at a time. It's important to remember that big-O complexity doesn't tell you how much time or memory an approach takes, only fast how they grow.
+
+Approaches 2 and 3 are quite different. Let's analyse them each for time complexity:
+
+#### Approach 2
+
+* Approach 2 has a `for`-loop over each character in the word (line 3). If we say the size of the word is `n`, a `for`-loop on its own is `O(n)`.
+* Line 4 calls `char.toLowerCase()` - this is an `O(1)` operation - changing the case of one character takes constant time.
+* Line 5 calls `word.indexOf` - this is an `O(n)` operation - it may have to look through the whole string, comparing every character to see if it's the one we're looking for. Because we have an `O(n)` operation (the `word.indexOf` call) inside an `O(n)` operation (the for loop), this makes the function at least `O(n^2)`.
+* Line 5 also calls `word.lastIndexOf` - this is _also_ an `O(n)` operation for the same reason. But it doesn't change the complexity of our function - doing an `O(n)` operation _twice_ is still `O(n)` - we ignore constant factors. This is different from doing an `O(n)` operation inside a for loop (where do we do an `O(n)` operation _for each `n`_ - making it `O(n^2)`).
+
+Because the worst thing we've seen is `O(n^2)` (an `O(n)` operation inside a `for` loop), approach 2 takes `O(n^2)` time.
+
+#### Approach 3
+
+* Approach 3 has a `for`-loop over each character in the word (line 3). This is `O(n)`.
+* Each operation inside the `for`-loop is `O(1)` (converting one character to lower case, looking up a value in an object, adding two numbers, inserting a value in an object). So this whole loop is `O(n)`.
+* We have a second `for`-loop over each character in the word - `O(n)`.
+* Each operation inside the `for`-loop is `O(1)` (converting one character to lower case, looking up a value in an object, a ternary operator, and appending one character to a string). So this whole loop is `O(n)`.
+
+Because the worst thing we've seen is `O(n)` (even though there were two `O(n)` loops), approach 3 takes `O(n)` time.
+
+This technique is called {{<tooltip text="precomputing" title="Precomputing">}}Precomputing is when we do some work in advance which we can use to avoid needing to do it later.<br /><br />Here we counted the occurrences of each character _before_ the loop (which was `O(n)`) rather than needing to search through the string for each character (which would've been `O(n^2)`).{{</tooltip>}}. We will learn more about it later.
+
+### Which is better?
+
+Approach 3 has a better time complexity than approach 2. As longer input is given to the function, approach 3 will be much faster than approach 2.
+
+Speed is not the only concern, however!
+
+Approach 3 uses more memory than approach 2 (though not in terms of memory complexity), because it stores a whole extra object.
+
+Which approach do you think is easiest to read? Ease of reading is an important concern to consider in code.
+
+If we know our function will only take small strings as input, the time and memory use of the functions probably doesn't matter much, and we should prefer the easiest code to read, maintain, and modify. We can still make small choices to speed things up (like choosing approach 2 over approach 1). But we should only make our code harder to read if we know that to not do so will be a problem.

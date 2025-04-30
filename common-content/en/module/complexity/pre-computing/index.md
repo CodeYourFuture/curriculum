@@ -1,11 +1,11 @@
 +++
 title = "Pre-computing"
+time = 30
+emoji = "🔮"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 30
-emoji= "🔮"
 [objectives]
     1="Identify a pre-computation which will improve the complexity of an algorithm"
 +++

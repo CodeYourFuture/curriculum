@@ -1,11 +1,11 @@
 +++
 title = "Trade-offs"
+time = 15
+emoji = "⚖️"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 15
-emoji= "⚖️"
 [objectives]
     1="Give examples of trading off memory for CPU"
     2="Give examples of choosing where work is done in system design"
