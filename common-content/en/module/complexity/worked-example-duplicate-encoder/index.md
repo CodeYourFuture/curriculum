@@ -13,20 +13,22 @@ objectives = [
 ]
 +++
 
-Let's consider two possible approaches to [the Duplicate Encoder Codewars exercise](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript).
-
-The problem can be stated as:
+Let's consider this problem:
 
 {{<note type="exercise">}}
-The goal of this exercise is to convert a string to a new string where each character in the new string is `(` if that character appears only once in the original string, or `)` if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+Convert a string to a new string. The new string should:
+* Replace each character which occurs exactly once in the original string with a `1` character.
+* Replace each character which occurs more than once in the original string with a `*` character.
+
+Ignore capitalization when determining if a character is a duplicate.
 
 Examples
 Input       | Output
 ------------|-------
-`"din"`     | `"((("`
-`"recede"`  | `"()()()"`
-`"Success"` | `")())())"`
-`"(( @"`    | `"))(("`
+`"din"`     | `"```"`
+`"recede"`  | `"1*1*1*"`
+`"Success"` | `"*1**1**"`
+`"11*2"`    | `"**11"`
 ```
 {{</note>}}
 
@@ -34,16 +36,16 @@ Input       | Output
 >
 > First, try solving this exercise yourself.
 
-Here are three sample solutions:
+Here are three sample solutions we will compare:
 
 ```js {linenos=table}
 function duplicateEncode(word){
   let result = ""
   for (const char of word.toLowerCase()) {
     if (word.indexOf(char) === word.lastIndexOf(char)) {
-      result += "(";
+      result += "1";
     } else {
-      result += ")";
+      result += "*";
     }
   }
   return result;
@@ -56,9 +58,9 @@ function duplicateEncode(word){
   for (const char of word) {
     const lowerCaseChar = char.toLowerCase()
     if (word.indexOf(lowerCaseChar) === word.lastIndexOf(lowerCaseChar)) {
-      result += "(";
+      result += "1";
     } else {
-      result += ")";
+      result += "*";
     }
   }
   return result;
@@ -74,7 +76,7 @@ function duplicateEncode(word){
   }
   let out = "";
   for (const char of word) {
-    out += (occurrences[char.toLowerCase()] === 1 ? "(" : ")");
+    out += (occurrences[char.toLowerCase()] === 1 ? "1" : "*");
   }
   return out;
 }
@@ -116,4 +118,4 @@ Approach 3 uses more memory than approach 2 (though not in terms of memory compl
 
 Which approach do you think is easiest to read? Ease of reading is an important concern to consider in code.
 
-If we know our function will only take small strings as input, the time and memory use of the functions probably doesn't matter much, and we should prefer the easiest code to read, maintain, and modify. We can still make small choices to speed things up (like choosing approach 2 over approach 1). But we should only make our code harder to read if we know that to not do so will be a problem.
+If we know our function will only take small strings as input, the time and memory use of the functions probably doesn't matter much, and we should prefer the easiest code to read, maintain, and modify. We can still make small choices to speed things up (like choosing approach 2 over approach 1). But we should only make our code harder to read if we know that we'll have a problem if we don't.
