@@ -151,7 +151,7 @@ Oh where have we seen this sequence of numbers before? ;)
 
 <summary>
 
-😰 **Exponential:** The runtime grows exponentially with the input size.</summary>
+😱 **Exponential:** The runtime grows exponentially with the input size.</summary>
 
 An example is making a list of every _combination_ of ever element in a list (so if we have `[1, 2, 3]` and want to make all the combinations: `[]`, `[1]`, `[2]`, `[3]`, `[1, 2]`, `[1, 3]`, `[2, 3]`, `[1, 2, 3]`).
 
