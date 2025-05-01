@@ -182,4 +182,4 @@ You will explore this theory in your backlog, but you will find that you already
 
 Big-O notation is focused on the _trend_ of growth, not the exact growth.
 
-If we think about strings, one character may take up one byte or four. If we think about doubling the length of the string, we don't worry about what characters are actually in the string. We think about the _trend_ - the string will take _about_ twice as much space. If the string only contained four-byte characters, and we only added one-byte characters, the string is still growing linearly, even though it may not take exactly double the space.
+Think about strings: one character may take up one byte or four. If we double the length of the string, we don't check which characters are in the string. We just think about the **trend**. The string will take _about_ twice as much space. If the string only has four-byte characters, and we add one-byte characters, the string is _still_ growing linearly, even though it may not take _exactly_ double the space.
