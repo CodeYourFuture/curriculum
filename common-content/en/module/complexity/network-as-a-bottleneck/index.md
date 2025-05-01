@@ -1,11 +1,11 @@
 +++
 title = "Network as a bottleneck"
+time = 15
+emoji = "⏳"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 15
-emoji= "⏳"
 [objectives]
     1="Explain limitations of needing to make network calls (e.g. from a backend to a database)"
 +++

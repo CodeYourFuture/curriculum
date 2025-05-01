@@ -1,11 +1,11 @@
 +++
 title = "N+1 Query Problem"
+time = 60
+emoji = "🎟️"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 60
-emoji= "🎟️"
 [objectives]
     1="Define the n+1 query problem"
     2="List effective strategies to reduce database queries"
@@ -45,7 +45,14 @@ We've already seen that every query adds network delay and processing time. This
 
 The server has to handle each request individually, consuming resources (CPU, memory, connections). If many users trigger this N+1 pattern at once, the database can slow down for everyone, or even fall over entirely.
 
-This N+1 problem can happen with any database interaction if you loop and query individually. Understanding this helps you write backend code that doesn't accidentally overload the database.
+This N+1 problem can happen with any database interaction if you loop and query individually. Understanding this helps you write code that doesn't accidentally overload the database.
+
+{{<
+  multiple-choice
+  question="What is the N+1 Query Problem?"
+  answers="Fetching N items plus 1 extra backup item. | Making 1 query to get a list, then N separate queries to get details for each item in the list. | A query that is N times too complex. |  Trying N+1 different network endpoints."
+  feedback="No, but flip this and try again? | Right! That's a clear description. | No, this is so vague it describes nothing. | No, it's not about network endpoints."
+  correct="1">}}
 
 ### 📦 What to do instead
 
@@ -55,11 +62,8 @@ The real `/home `endpoint avoids these problems by using efficient strategies:
 **Caching**: Store results so you don't have to ask the network again. Ask for only new changes in future.  
 **Pagination**: Ask for only the first page of results. Load more later if the user scrolls or clicks "next".  
 
-All these are ways to save the data we need, close to where we need it. But each strategy also has downsides. 
+All these are ways to save the data we need, close to where we need it. But each strategy also has downsides.
 
-{{<
-  multiple-choice
-  question="What is the N+1 Query Problem?"
-  answers="Fetching N items plus 1 extra backup item. | Making 1 query to get a list, then N separate queries to get details for each item in the list. | A query that is N times too complex. |  Trying N+1 different network endpoints."
-  feedback="No, but flip this and try again? | Right! That's a clear description. | No, this is so vague it describes nothing. | No, it's not about network endpoints."
-  correct="1">}}
+* Batching may reduce our responsiveness. It will probably take longer to fetch three users' blooms than one user's blooms. If we'd just asked for one user's blooms, then the next user's, we probably probably could've showed the user _some_ results sooner. Batching forces us to wait for _all_ of the results before we show anything.
+* Caching may result in stale results. If we store a user's most recent blooms, and when they re-visit the page we don't ask the database for the most recent blooms, it's possible we'll return old results missing the newest blooms.
+* Pagination means the user doesn't have complete results up-front. If they want to ask a question like "has this user ever bloomed the word cheese", they may need to keep scrolling and searching to find the answer (with each scroll requiring a separate network call and database lookup).

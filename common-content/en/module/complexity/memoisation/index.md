@@ -1,11 +1,11 @@
 +++
 title = "Memoisation"
+time = 15
+emoji = "📝"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 15
-emoji= "📝"
 [objectives]
     1="Define memoisation"
 +++

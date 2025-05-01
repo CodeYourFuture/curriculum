@@ -1,11 +1,11 @@
 +++
 title = "Cache Invalidation"
+time = 15
+emoji = "⛓️‍💥"
 [build]
   render = 'never'
   list = 'local'
   publishResources = false
-time = 15
-emoji= "⛓️‍💥"
 [objectives]
     1="Identify and explain staleness risks with caching, and the difficulty of invalidation"
 +++
