@@ -34,7 +34,7 @@ const userRoles = ["Admin", "Editor", "Viewer"]; //An array of 3 short strings
 const userProfiles = [ {id: 1, name: "Farzaneh", role: "Admin", preferences: {...}}, {id: 2, name: "Cuneyt", role: "Editor", preferences: {...}} ]; // An array of 2 complex objects
 ```
 
-Different kinds of data have different memory footprints. All data if fundamentally stored as bytes. We can form intuition for how much memory a piece of data takes:
+Different kinds of data have different memory footprints. All data is fundamentally stored as bytes. We can form intuition for how much memory a piece of data takes:
 
 - Numbers are typically stored as 8 bytes. In some languages, you can define numbers which take up less space (but can store a smaller range of values).
 - Each character in an ASCII string takes 1 byte. More complex characters may take more bytes. The biggest characters take up to 4 bytes.
