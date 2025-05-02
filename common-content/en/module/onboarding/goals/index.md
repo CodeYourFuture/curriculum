@@ -18,7 +18,7 @@ You have joined us as a Learner. Your overall goal for this module is to underst
 
 To demonstrate you know how to succeed at the course, you should apply to enroll as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
 
-If eligible, you should enrol as a Trainee within the next three weeks. _If you do not enrol as a trainee by week 6 of this course, you will be removed from it. You can request to restart in the next ITP course. _
+If eligible, you should enrol as a Trainee within the next three weeks. _If you do not enrol as a trainee by week 6 of this course, you will be removed from it. You can request to restart in the next ITP course._
 
 > 🎯 Complete onboarding and enrol as a Trainee
 
@@ -38,7 +38,7 @@ _By the end of this module_ you will have tracked changes to data (your code) ov
 
 #### Requirements and Testing
 
-_By the end of this module_ , you will have tested your work using acceptance criteria, manual testing, and automated testing. Your goal is to interpret requirements and write code to meet acceptance criteria.
+_By the end of this module_ you will have tested your work using acceptance criteria, manual testing, and automated testing. Your goal is to interpret requirements and write code to meet acceptance criteria.
 
 #### Code review
 
