@@ -23,7 +23,7 @@ Accessing local files is much faster than downloading over the network, so your 
 
 ### 🫱🏽‍🫲🏿 The Memory vs. CPU/Network Trade-off
 
-Browser caching is a classic example of trading memory for CPU time or network time. We use memory **space** to hold the cached copies and we save network **time** by not re-downloading assets.
+Browser caching is a classic example of trading memory for CPU time or network time. We use extra memory **space** to hold the cached copies and we save network **time** by not re-downloading assets. We could have chosen to use less memory space, but it would have slowed down our application.
 
 {{<note type="Activity" title="Activity">}}
 

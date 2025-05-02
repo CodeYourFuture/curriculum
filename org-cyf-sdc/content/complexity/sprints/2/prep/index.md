@@ -15,6 +15,9 @@ src = "module/complexity/invalidation"
 name="Memoisation"
 src="module/complexity/memoisation"
 [[blocks]]
+name = "Caching too much"
+src = "module/complexity/caching-too-much"
+[[blocks]]
 name="Pre-computing"
 src="module/complexity/pre-computing"
 [[blocks]]

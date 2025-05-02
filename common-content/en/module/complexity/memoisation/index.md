@@ -1,6 +1,6 @@
 +++
 title = "Memoisation"
-time = 15
+time = 90
 emoji = "📝"
 [build]
   render = 'never'
