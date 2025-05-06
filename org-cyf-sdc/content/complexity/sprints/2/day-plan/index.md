@@ -20,7 +20,7 @@ name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="demo"
-src="blocks/demo"
+src="blocks/teach"
 time="25"
 [[blocks]]
 name="Study Group"
