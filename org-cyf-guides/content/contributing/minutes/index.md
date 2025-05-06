@@ -17,6 +17,78 @@ Attendees:
 
 ---
 
+## 2025-05-06
+
+Attendees: Ali Smith, Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Consider each ITD step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
+- [ ] Think about what topics we may want to pull back from ITP to ITD (e.g. version control).
+- [x] Discuss modifications to the GenAI ITD step: https://github.com/CodeYourFuture/curriculum/issues/1403
+- [x] Jay and Zachee: Update ITP Success pages to instruct to make an Issue: https://github.com/CodeYourFuture/curriculum/issues/1422
+
+### 📝 Agenda points
+
+#### Should people re-taking ITP make new PRs
+
+* Don't want to waste previous volunteer time re-reviewing things
+* Don't want to add friction without good reason
+* If people are re-doing ITP, they're doing so for a reason - if there's feedback for them, it's useful
+* If we require re-submitting, we'll need to make clear to the step reviewers to check for freshness
+* Maybe doing Codewars is a more useful activity
+* Conclusion: Allow (/encourage) but don't require re-doing the work - people can re-submit old work if they want, but if trainees would find it useful to do again, we're happy to review.
+* As a universal rule: Actively discourage copy+pasting, and remind people it's a waste of time.
+  * This is in the trainee agreement
+  * Maybe make this a _key takeaway_ message of Onboarding Sprint 2.
+* Karen will publicise.
+
+#### Trainee distance
+
+* Sheffield has a couple of trainees based in Newcastle who want to travel 2+ hours to Sheffield.
+* Maybe the policy should be: We'll pay £30 outside of London (£200 in London), and require you to actually show up and make progress. (But still encourage people to think about their travel time and its practicalities).
+
+#### ITP launched this week
+
+* A bit too early to tell how it's going, but signs are promising
+
+#### It's confusing that ITD is course-platform-first and ITP is curriculum-first
+
+* We're not sure what ITP learners see on the course platform - we should probably all get that experience.
+* Maybe we could introduce an explicit instruction to go to the curriculum.
+* Maybe we want to move ITD to be curriculum-first - make the course platform more just a place to submit evidence.
+
+#### Should we merge module-level prep into the first sprint?
+
+* Mostly merging makes sense
+* Naming is maybe confusing here - maybe just renaming module prep to prerequisites is useful
+* Installing tools (particularly setting up a new laptop) is a bit of a standalone task - maybe something worth separating out conceptually
+  * Also they may need to re-do it, so having an easy reference is handy
+  * Also it's very "just follow instructions" rather than "focus and learn"
+
+#### Modifications to the GenAI ITD step
+
+* Not sure the step is providing for any of its learning objectives ("Understand that AI is fallible" and "Produce a useful outcome for job applications").
+* At the moment we're asking people to produce a cover letter for a made up user which isn't a very useful artifact - maybe make it more about the process than the outcome - judge the prompting discussion rather than the outcome.
+* Ideally want them to understand what it can/can't do - maybe we can give examples of what is possible. Maybe by having them ask it about HTML/CSS after they've learnt it.
+* Moving the step to after HTML/CSS is probably a good idea.
+* Maybe have them have ChatGPT help them write some CSS, then have them writing their own explanation be hand without using ChatGPT, to try to prompt people to realise they don't understand what it did.
+
+### ❗Actions
+
+- [ ] (Carry-over): CJ: Consider each ITD step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
+- [ ] Daniel: Make a GitHub team for our team
+- [ ] Daniel: Add "Do your own work" as a key takeaway message of Onboarding Sprint 2
+- [ ] Daniel: Work with the dashboard team to make "see the curriculum" more clear at the start of ITP
+- [ ] Jay: Rename / maybe modify module prep to prereqs
+- [ ] Anna: Start putting together a new GenAI ITD step
+- [ ] All: Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [ ] Daniel: Merge syllabus/curriculum team channels
+- [ ] Daniel: Set up Slack reminders for this meeting
+- [ ] Daniel: Find out if we can get an AI note-taker
+
+---
+
 ## 2025-04-23
 
 Attendees: Ali Smith, Caroline Scherf, CJ Yuan, Daniel Wagner-Hall, Jay Mayer, Karen Klein, Zachee Niyokwizera
@@ -137,7 +209,7 @@ Currently we have a split between backlog tickets vs Google Docs - do we want to
 
 ### ❗Actions
 
-- [ ] Consider each step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
+- [ ] Consider each ITD step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
 - [ ] Think about what topics we may want to pull back from ITP to ITD (e.g. version control).
 - [ ] Discuss modifications to the GenAI ITD step: https://github.com/CodeYourFuture/curriculum/issues/1403
 - [ ] Jay and Zachee: Update ITP Success pages to instruct to make an Issue: https://github.com/CodeYourFuture/curriculum/issues/1422
