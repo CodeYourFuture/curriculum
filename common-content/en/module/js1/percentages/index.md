@@ -24,7 +24,7 @@ Our function must convert _any_ decimal to a percentage. We have used functions 
 
 ```js {linenos=table,linenostart=1}
 console.log("hello world"); // logs "hello world" to the console
-Math.round(3.141); // evaluates to 3
+Math.round(3.141); // evaluates to the whole number 3
 ```
 
 All these expressions are _function calls_: we’re passing input (`"hello world"` or `3.141`) to the functions (`console.log` or `Math.round`) to use their functionality. `Math.round` and `console.log` are functions that the JavaScript language designers have written and stored inside the language, because everyone needs them all the time.
