@@ -7,7 +7,7 @@ time=5
 
 ### What is ITD
 
-When people [sign up to study](https://migracode.org/web-development-course/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course opens for two months. RANDOM CHANGE
+When people [sign up to study](https://migracode.org/web-development-course/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course opens for two months. RANDOM CHANGE More
 
 Learners complete the course on our [Guided Learning platform](https://course1.codeyourfuture.io/) by completing a sequence of steps. Each step is explained clearly in B1 English. The text is reproduced on this site in the [Steps](./steps) section.
 
