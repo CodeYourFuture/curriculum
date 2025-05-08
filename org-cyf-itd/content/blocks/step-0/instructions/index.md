@@ -11,7 +11,7 @@ time= 60
 
 ### Join the CodeYourFuture Intro To Digital Slack
 
-We have an environment in which you can ask for help and build your local community. Slack helps us have asynchronous conversations with our community. It is used by most tech teams. (something new)
+We have an environment in which you can ask for help and build your local community. Slack helps us have asynchronous conversations with our community. It is used by most tech teams.
 
 Please use a consistent professional name on Slack and add a consistent profile picture. We ask this so we can recognise each other. You don't have to share any information you are not comfortable with.
 
