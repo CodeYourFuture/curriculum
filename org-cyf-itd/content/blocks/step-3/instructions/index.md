@@ -23,7 +23,7 @@ Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacadem
 1. Project: Travel webpage
 1. Project: Recipe book
 1. Project: Blog - on anything
-1. Project: Event invite
+1. Project: Event invite - for coming weekend
 
 #### The project you will deploy to GitHub Pages is:
 
