@@ -14,6 +14,6 @@ title="Accessibility audit"
 src="https://github.com/CodeYourFuture/Project-Record-A-Goose/"
 time=180
 [[blocks]]
-name="backlog"
+name="Backlog"
 src="blocks/backlog"
 +++
