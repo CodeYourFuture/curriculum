@@ -1,6 +1,6 @@
 +++
 title = 'success'
-description = 'How do we know we have completed day one successfully?'
+description = 'How do we know if we have completed day one successfully?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
