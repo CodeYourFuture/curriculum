@@ -1,5 +1,5 @@
 +++
-title = 'Prep'
+title = 'Prep for trainees'
 description = 'Check your eligibility and apply for the Piscine'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
@@ -21,6 +21,9 @@ src="module/piscine/programming-prereqs"
 [[blocks]]
 name="Help"
 src="module/piscine/help"
+[[blocks]]
+name="Group Work"
+src="module/piscine/group-work"
 [[blocks]]
 name="Preparation"
 src="module/piscine/preparation"
