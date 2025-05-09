@@ -1,6 +1,6 @@
 +++
 title ="Step 3: What to do"
-description= "Learn HTML and CSS fundamentals with Khan Academy"
+description= "Learn HTML and CSS fundamentals with Scrimba"
 emoji= "🤖"
 time= 480
 [build]
@@ -9,27 +9,46 @@ time= 480
   publishResources = false 
 +++
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9i83JvV6Cdo?si=jkSSHxEfr1fiV3Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+git
+Learn HTML and CSS with Scrimba
+This course will teach you HTML and CSS through building and deploying five awesome projects. It is also fully interactive, with over 75 coding challenges. There are no prerequisites, so it is suitable for absolute beginners.
+Getting Started:
 
-Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacademy.org)'s Computer Programming course. You don't need to know anything about coding to start - it's good for complete beginners. There are 9 lessons in Unit 2. The [video playlist](https://www.youtube.com/playlist?list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr) is ~2 hours long, and the whole course will take 4-10 hours. This course is completely free.
+Create an account on Scrimba
+Go to the course: Learn HTML and CSS
+Follow along with the interactive lessons and complete the coding challenges
+Build and deploy your projects
 
-1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
-1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
-1. Follow along and build the projects.
-1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
+Why this course is special:
 
-#### The 4 projects you will do are:
+Fully interactive learning experience
+No setup required - code right in your browser
+Bite-sized, engaging lectures
+"Pair programming" style instruction
+Build real projects you can add to your portfolio
 
-1. Project: Travel webpage
-1. Project: Recipe book
-1. Project: Blog
-1. Project: Event invite
+What you'll learn:
 
-#### The project you will deploy to GitHub Pages is:
+Basic HTML tags
+HTML document structure
+How HTML and CSS work together
+Chrome Dev Tools
+HTML input fields
+Anchor tags
+Deployment with Netlify
+Basic CSS syntax
+Centering with CSS
+Basic CSS Flexbox
+Padding, margins, and borders in CSS
+Getting started with GitHub
 
-4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
+The entire course is approximately 5.7 hours long and will take 10-15 hours to complete with all the coding challenges and projects.
+Take your time and finalise and polish the individual projects. 
+
+Note: Scrima is free, expect for the solo project- therefore we skip the solo project. You also do not have to show the final certificate- a screenshot that you have done all of the course is enough
+
 
 {{<blocklink
-  src="https://www.khanacademy.org/computing/computer-programming/html-css"
-  name="Computer Programming: Unit 2"
-  caption="Khan Academy">}}
+src="https://scrimba.com/learn-html-and-css-c0p"
+name="Learn HTML and CSS"
+caption="Scrimba">}}
