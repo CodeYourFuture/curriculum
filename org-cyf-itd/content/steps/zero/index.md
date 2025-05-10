@@ -1,6 +1,6 @@
 +++
 title = 'Zero'
-description = 'Join the CodeYourFuture Intro to Digital Slack'
+description = 'Join the MigraCode Intro to Digital Slack'
 layout = 'prep'
 emoji= '🗨'
 menu_level = ['module']
