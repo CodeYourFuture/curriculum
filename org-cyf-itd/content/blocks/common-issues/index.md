@@ -6,7 +6,7 @@ description="How to get help with the Intro to Digital programme"
 > When you have a question, ask it.
 
 {{<note type="tip" title="MigraCode is a Community">}}
-Remember, MigraCode is a community of adults sharing skills. We are all here to help each other, and _learn_. You are meant to ask questions at Code Your Future.
+Remember, MigraCode is a community of adults sharing skills. We are all here to help each other, and _learn_. You are meant to ask questions at MigraCode.
 
 When you see someone else has a question, help them if you can.
 {{</note>}}
