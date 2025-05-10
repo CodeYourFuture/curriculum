@@ -11,4 +11,4 @@ time= 60
 
 #### Use your new skill in real life:
 
-This step is just for you. You don't need to submit it. Next, deploy your personal home page to GitHub Pages, using what you learned in Khan Academy.
+This step is just for you. You don't need to submit it. Next, deploy your personal home page to GitHub Pages, using what you learned on Scrimba.

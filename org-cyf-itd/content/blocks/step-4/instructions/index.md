@@ -13,7 +13,7 @@ You must now build your own home page, and get all of the tests to pass. Give it
 
 ### Steps 
 1. Make a free account on [CodePen](https://codepen.io/)
-2. [Fork](https://blog.codepen.io/documentation/forks/) the CYF starter page [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod)
+2. [Fork](https://blog.codepen.io/documentation/forks/) the CYF starter page from Code Your Future (our partner organisation in the UK) [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod)
 3. Read the instructions in the code panels and edit the code to meet all the criteria you discover
 
 Use HTML and CSS to complete this project.
