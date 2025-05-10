@@ -46,7 +46,6 @@ time = 600
 - Getting started with GitHub  
 
 
-
 ⏱️ **Course Duration**: ~5.7 hours  
 🧩 **Full Completion Time**: 10–15 hours (with projects and challenges)
 
@@ -55,7 +54,7 @@ Take your time and **polish each project** — it's all about learning and doing
 
 
 > ⚠️ **Note:** Scrimba is free *except* for the solo project.  
-> We're skipping that part.  
+> Therefore we're skipping that part.  
 > ✅ A **screenshot showing course completion** is enough — no certificate required!
 
 
