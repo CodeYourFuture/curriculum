@@ -1,7 +1,5 @@
 +++
-
-description = "Learn HTML and CSS fundamentals with Scrimba"
-time = 600
+time= 480
 [build]
   render = 'never'
   list = 'local'
@@ -49,15 +47,10 @@ time = 600
 ⏱️ **Course Duration**: ~5.7 hours  
 🧩 **Full Completion Time**: 10–15 hours (with projects and challenges)
 
-Take your time and **polish each project** — it's all about learning and doing.
-
-
 
 > ⚠️ **Note:** Scrimba is free *except* for the solo project.  
 > Therefore we're skipping that part.  
 > ✅ A **screenshot showing course completion** is enough — no certificate required!
-
-
 
 {{<blocklink
 src="https://scrimba.com/learn-html-and-css-c0p"
