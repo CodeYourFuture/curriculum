@@ -24,6 +24,6 @@ Here are some ways MigraCode solved this problem in the past:
 
 1. Borrow a computer from a friend or a relative if you can.
 
-1.  If you are accepted as a students you can borrow a laptop for the entirety of the bootcamp- which you can take home. Let us know you need one at barcelona@migracode.org or text us on the MigraCode Slack.
+1.  If you are accepted as a student you can borrow a laptop for the entirety of the bootcamp- which you can take home. Let us know you need one at barcelona@migracode.org or text us on the MigraCode Slack.
 
 </details>
