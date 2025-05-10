@@ -15,6 +15,5 @@ Here is the criteria you need to meet:
 
 ```objectives
 - You confirm you have completed the Scrimba course on HTML/CSS 
-- You have shared a link to your CodePen Project
-- Your website link includes your name
+- You have polished and deployed one of the projects
 ```
