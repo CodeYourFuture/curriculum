@@ -11,7 +11,7 @@ time= 5
 
 ### Submission
 
-You must submit a link to your work in the [CYF Course platform](https://application-process.codeyourfuture.io)
+You must submit a link to your work by sending it to barcelona@migracode.org
 
 1. Share a link to your Invitation project on [GitHub Pages](https://pages.github.com/)
 
