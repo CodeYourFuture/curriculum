@@ -15,6 +15,7 @@ emoji= '🏠'
 
 Here is a diagram representing how the repositories interact after forking and cloning:
 
+```mermaid
 flowchart TD
     subgraph Remote["Remote (GitHub)"]
         A["CodeYourFuture/education-blog"] -->|fork| B["EagerLearner/education-blog"]
@@ -35,6 +36,7 @@ flowchart TD
     class Remote,Local container
     class A,B,C rounded
     linkStyle 0,1 stroke:#0d6efd,stroke-width:2px
+```
 
 Sketch this diagram in your notebook. When you inevitably get mixed lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
 
