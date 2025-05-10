@@ -1,12 +1,12 @@
 @mixin light-palette {
   // these brand colours are set and then everything else is derived from the key
-  --theme-color--brand: hsla(360, 83%, 60%, 0.95);
-  --theme-color--brand-shade: hsla(360, 83%, 60%, 0.25);
+  --theme-color--brand: rgb(21, 212, 190);
+  --theme-color--brand-shade: rgba(21, 212, 190, .05);
   // this is picked from CYF Canva brand palette and we will take the hue from this
-  --theme-color--accent: hsl(247, 35%, 19%);
-  --theme-color--accent-shade: hsla(247, 35%, 35%, 0.15);
+  --theme-color--accent: rgb(21, 212, 190);
+  --theme-color--accent-shade: hsla(146, 100%, 46%, 0.5);
   // this is the nearest accessible shade to brand red
-  --theme-color--pop: hsla(360, 83%, 45%, 0.95);
+  --theme-color--pop: hsla(262, 100%, 62%, 1);
 
   // key
   --hue: 247;
