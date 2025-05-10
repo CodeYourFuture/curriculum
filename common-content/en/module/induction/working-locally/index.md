@@ -15,7 +15,10 @@ emoji= '🏠'
 
 Here is a diagram representing how the repositories interact after forking and cloning:
 
-![fork-and-clone-diagram](fork-and-clone-diagram.png)
+```mermaid
+flowchart LR
+    GitHubRepo[GitHub Repository (Original)] --> ForkedRepo[Your Forked Repository]
+    ForkedRepo --> LocalClone[Your Local Clone]
 
 Sketch this diagram in your notebook. When you inevitably get mixed lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
 
