@@ -25,7 +25,7 @@ Split randomly into groups of no more than 4 people. Mix up your teams. Each per
 
 ### 1. Demo {{<timer>}}2{{</timer>}}
 
-You will demo something about your work to the group.
+You will demo something about your project work this spring to the group.
 
 You will have 2 minutes to explain what you did and why. It's ok to show broken code or code that doesn't work yet. Just make sure your demo is interesting.
 
@@ -49,12 +49,12 @@ After the demo, the group will give you feedback for up to 5 minutes. It's smart
 
 ## Rubric
 
-These are some criteria we will be using to assess your demo. You must:
+These are some criteria we will be using to assess your demo. You must meet 5 of the 6 criteria, and if you skip one we recommend you skip asking a question. This is not an ordered list - you can complete these criteria in any order.
 <dl class="c-rubric">
-  <dt>Clearly introduce the topic of the demo.</dt><dd>Someone watching should be able to state the topic of the demo in one sentence. This topic should match how the trainee introduced their demo.</dd>
+  <dt>Clearly introduce the topic of the demo.</dt><dd>Someone watching should be able to state the topic of the demo in one sentence. This topic should match how the trainee introduced their demo.<br /><br />The topic <strong>must not</strong> be "I will tell you about my project". It must be more specific than a project overview.</dd>
   <dt>Explain what was done</dt><dd>Someone watching should be able to state what you have done in one sentence.</dd>
   <dt>Explain the reasoning behind a choice.</dt><dd>Someone watching should be able to explain why you did at least one thing a particular way (and why it was a better choice than alternatives).</dd>
-  <dt>Show relevant code or artifacts (e.g. a website, a ticket, an discussion).</dt><dd>Someone watching should be able to identify at least one artifact of your work.</dd>
-  <dt>Ask questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". The point of this is to engage the audience and get them thinking/caring about the demo. The question should generally be rhetorical - you don't have time to wait for answers.</dd>
+  <dt>Show relevant code or artifacts (e.g. a website, a ticket, an discussion).</dt><dd>Someone watching should be able to identify at least one artifact of your work. Slides don't count as an artifact.</dd>
   <dt>Stick to your time limit.</dt><dd>You should know how long you have for your demo, and stick to that time. You will be given a warning when you're running low on time.</dd>
+  <dt>(Stretch goal): Ask questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". The point of this is to engage the audience and get them thinking/caring about the demo. The question should generally be rhetorical - you don't have time to wait for answers.</dd>
 </dl>
