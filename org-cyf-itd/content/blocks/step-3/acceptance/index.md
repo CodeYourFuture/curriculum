@@ -9,11 +9,12 @@ time= 5
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+One of us will review your submission once you have sent us the full email with all requirements and will check it meets the acceptance criteria. 
 
 Here is the criteria you need to meet:
 
 ```objectives
 - You confirm you have completed the Scrimba course on HTML/CSS 
-- You have polished and deployed one of the projects
+- You have created your own files on VSCode and polished the GIFt site
+- You have deployed the GIFt site on Netlify
 ```
