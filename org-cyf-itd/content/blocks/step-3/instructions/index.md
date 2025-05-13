@@ -46,11 +46,15 @@ time= 480
 
 ⏱️ **Course Duration**: ~5.7 hours  
 🧩 **Full Completion Time**: 10–15 hours (with projects and challenges)
+⚡ **Requirement to pass**: A screenshot of all having watched all parts of the course and submitted al scrimbs (i.e., small code snippets) along the way and the deployment of the Birthday GIFt Site. 
 
 
 > ⚠️ **Note:** Scrimba is free *except* for the solo project.  
-> Therefore we're skipping that part.  
-> ✅ A **screenshot showing course completion** is enough — no certificate required!
+> Therefore we're skipping the solo project (Hometown Homepage) 
+> The rest of the projects are mandatory for passing into the next round.
+> The Birthday GIFt Site needs to be deployed externally, you will need to have created your own files on your local machine.
+> In the case that you need assistance, do not hesitate to contact us on Slack (view help section) - asking for help will not impact your application negatively (quite the opposite, we believe in sharing blockers and helping one another in the MigraCode community)
+> ✅ A **screenshot showing course completion** and **a link to your deplyed GIFt Site** is enough — no official Scrimba certificate is required!
 
 {{<blocklink
 src="https://scrimba.com/learn-html-and-css-c0p"

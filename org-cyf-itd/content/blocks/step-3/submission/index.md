@@ -11,11 +11,6 @@ time= 5
 
 ### Submission
 
-You must submit a link to your work by sending it to barcelona@migracode.org
+You must submit the screenshots and the link to your deployed site by sending it (along with the other requirements) to barcelona@migracode.org. Please check the Manual for exact instructions.
 
-1. Share a link to your Invitation project on [GitHub Pages](https://pages.github.com/)
-
-### Personalise your URLs
-
-Before you share your link, set your [Github](https://github.com/) Pages URL to include your name, so we can tell who you are. You can use your first name or last name.
 
