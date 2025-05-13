@@ -1,13 +1,12 @@
 @mixin light-palette {
   // these brand colours are set and then everything else is derived from the key
-  --theme-color--brand: hsla(0, 100%, 67%, 1);
-  --theme-color--brand-shade: hsla(0, 100%, 67%, 0.375);
-  --theme-color--accent: hsl(146, 100%, 46%);
+  --theme-color--brand: rgb(21, 212, 190);
+  --theme-color--brand-shade: rgba(21, 212, 190, .05);
+  --theme-color--accent: rgb(21, 212, 190);
   --theme-color--accent-shade: hsla(146, 100%, 46%, 0.5);
   --theme-color--pop: hsla(262, 100%, 62%, 1);
-  --theme-color--pop-shade: hsla(262, 100%, 62%, 0.375);
   // key
-  --hue: 260;
+  --hue: 210;
   --sat: 35%;
   --lum: 90%;
   --alpha: 0.95;
@@ -46,13 +45,8 @@
   // backdrop
   --theme-color--block: hsla(var(--hsl), var(--alpha));
   --theme-color--outline: hsl(var(--hsl), 1);
-  --theme-color--backdrop-from: hsla(var(--hsl), 0.25);
-  --theme-color--backdrop-to: hsla(var(--hsl), 0.2);
-
-  // signals
-
-  --theme-color--good: var(--theme-color--accent-shade);
-  --theme-color--bad: var(--theme-color--brand-shade);
+  --theme-color--backdrop-from: hsl(var(--hsl) / 0.25);
+  --theme-color--backdrop-to: hsl(var(--hsl) / 0.2);
 }
 
 @mixin dark-palette {
@@ -66,8 +60,8 @@
     calc(var(--lum) * 4.4),
     var(--alpha)
   );
-  --theme-color--accent: hsla(262, 100%, 67%, 1);
-  --theme-color--pop: hsl(146, 100%, 46%);
+  --theme-color--accent: rgb(21, 212, 190);
+  --theme-color--pop: hsl(321, 100%, 46%);
 }
 
 :root {
