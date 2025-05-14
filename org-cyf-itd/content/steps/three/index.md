@@ -4,7 +4,7 @@ description = 'Evaluate data with Google Sheets'
 layout = 'prep'
 emoji= '📊'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'get connected']
 weight = 4
 [[blocks]]
 name="Instructions"

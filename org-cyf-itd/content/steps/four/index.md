@@ -4,7 +4,7 @@ description = 'Build five simple projects using HTML and CSS in Scrimba'
 layout = 'prep'
 emoji= '🚀'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'get coding']
 weight = 5
 [[blocks]]
 name="Instructions"

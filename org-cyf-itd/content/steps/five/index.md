@@ -4,7 +4,7 @@ description="Build a personal home page with CodePen"
 layout = 'prep'
 emoji= '🏠'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'get coding']
 weight = 6
 [[blocks]]
 name="Instructions"
