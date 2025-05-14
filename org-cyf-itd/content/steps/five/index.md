@@ -18,7 +18,7 @@ src="blocks/step-4/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
-[[blocks]]
+<!-- [[blocks]]
 name="Extensions"
-src="blocks/step-4/extend"
+src="blocks/step-4/extend" -->
 +++
