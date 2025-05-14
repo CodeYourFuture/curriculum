@@ -9,7 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Publish
-      run: curl --fail -X POST ${{ secrets.NETLIFY_DEPLOY_HOOK_URL }}
+    - name: Publish curriculum
+      run: curl --fail -X POST ${{ secrets.CURRICULUM_NETLIFY_DEPLOY_HOOK_URL }}
+    - name: Publish ITP
+      run: curl --fail -X POST ${{ secrets.ITP_NETLIFY_DEPLOY_HOOK_URL }}
     - name: Publish SDC
       run: curl --fail -X POST ${{ secrets.SDC_NETLIFY_DEPLOY_HOOK_URL }}
+    - name: Publish Piscine
+      run: curl --fail -X POST ${{ secrets.PISCINE_NETLIFY_DEPLOY_HOOK_URL }}
