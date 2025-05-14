@@ -1,5 +1,5 @@
 +++
-title = 'Four'
+title = 'Three'
 description = 'Build five simple projects using HTML and CSS in Scrimba'
 layout = 'prep'
 emoji= '🚀'

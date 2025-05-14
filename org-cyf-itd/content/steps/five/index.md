@@ -1,5 +1,5 @@
 +++
-title = 'Five'
+title = 'Four'
 description="Build a personal home page with CodePen"
 layout = 'prep'
 emoji= '🏠'
@@ -18,7 +18,9 @@ src="blocks/step-4/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
-<!-- [[blocks]]
-name="Extensions"
-src="blocks/step-4/extend" -->
+
+# [[blocks]]
+# name = "Extensions"
+# src = "blocks/step-4/extend"
 +++
+
