@@ -11,3 +11,5 @@ jobs:
     - uses: actions/checkout@master
     - name: Publish
       run: curl --fail -X POST ${{ secrets.NETLIFY_DEPLOY_HOOK_URL }}
+    - name: Publish SDC
+      run: curl --fail -X POST ${{ secrets.SDC_NETLIFY_DEPLOY_HOOK_URL }}
