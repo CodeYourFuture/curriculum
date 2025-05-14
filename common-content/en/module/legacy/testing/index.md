@@ -20,8 +20,8 @@ Launch the test runner (look in `package.json` to find the command). Find the fi
 
 ```js
 // Given I am logged in
-// When I navigate to /front-end/#/hashtag/playwright
-// Then the number of requests should be fewer than 4
+// When I navigate to /#/hashtag/do
+// Then the number of fetch requests should be 1
 ```
 
 <details>
@@ -33,7 +33,7 @@ test("should not make infinite hashtag endpoint requests", async ({ page }) => {
   const requests = [];
   page.on("request", (request) => {
     if (
-      request.url().includes(":3000/hashtag/playwright") &&
+      request.url().includes(":3000/hashtag/do") &&
       request.resourceType() === "fetch"
     ) {
       requests.push(request);
@@ -41,7 +41,7 @@ test("should not make infinite hashtag endpoint requests", async ({ page }) => {
   });
   // ====== ACT
   // When I navigate to the hashtag
-  await page.goto("/front-end/#/hashtag/playwright");
+  await page.goto("/#/hashtag/do");
   // And I wait a reasonable time for any additional requests
   await page.waitForTimeout(200);
 
@@ -54,3 +54,5 @@ test("should not make infinite hashtag endpoint requests", async ({ page }) => {
 </details>
 
 Your test should be failing because your system is making too many requests. This is a good thing! It means you have a clear goal for your next step.
+
+When we fix our code, having written this test means someone won't be able to break this in the future without noticing. (If they'd written the test in the first place, we would never have had to debug this!)
