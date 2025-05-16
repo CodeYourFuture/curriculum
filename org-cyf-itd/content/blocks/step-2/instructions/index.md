@@ -12,6 +12,7 @@ time= 120
 Evaluate data with Google Sheets
 
 This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners and will upgrade your employability. 
+=======
 
 Complete the course and share a link to the final spreadsheet you made in the final email (check the ITD Manual for instructions).
 
