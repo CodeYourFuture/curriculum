@@ -18,6 +18,7 @@ To smoothly run a Piscine, we ask that that the volunteers running it:
 On class days, we:
 * Attend each week.
 * Start punctually at 10:00.
+* Assign trainees to groups randomly. Make sure that trainees are working in different groups each week. Ideally there should be 0 overlap week-to-week.
 * Treat showing up late as a failure.
 * Sometimes take 30 minutes of the ITP class to present demos to the ITP class.
   * We never do this in the first week. First demos are generally bad.
