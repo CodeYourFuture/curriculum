@@ -18,8 +18,8 @@ src="blocks/step-3/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
-[[blocks]]
-name="Extensions"
-src="blocks/step-3/extend"
+# [[blocks]]
+# name="Extensions"
+# src="blocks/step-3/extend"
 time=5
 +++

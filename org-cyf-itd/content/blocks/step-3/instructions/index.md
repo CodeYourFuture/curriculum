@@ -8,9 +8,10 @@ time= 480
 
 # 🤖 Step 3: Learn HTML and CSS with Scrimba
 
-> **This course will teach you HTML and CSS through building and deploying four awesome projects.**  
-> It’s fully interactive with over **75 coding challenges** and **no prerequisites** — perfect for beginners!
+This course will teach you HTML and CSS through building and deploying four awesome projects. 
+It’s fully interactive with over *75 coding challenges* and *no prerequisites* — perfect for beginners!
 
+<br><br>
 
 
 ## 🚀 Getting Started
@@ -20,6 +21,8 @@ time= 480
 3. Follow along with the interactive lessons and complete the challenges
 4. Build and deploy your projects
 
+
+<br><br>
 
 ## 📚 What You'll Learn
 
@@ -42,6 +45,9 @@ time= 480
 
 - Deployment with Netlify  
 - Getting started with GitHub  
+<br><br>
+<br><br>
+
 
 ## 🧠 What you need to pass this module
 
@@ -50,15 +56,16 @@ time= 480
 - ⚡ **Requirement to pass**: A screenshot of all having watched all parts of the course and submitted al scrimbs (i.e., small code snippets) along the way and the deployment of the Birthday GIFt Site. 
 
 
-> ⚠️ **Note:** You do not need to pay for Scrimba! It is a free resource *except* for the "solo project" which we are skipping ➡️
+⚠️ **Note: You do not need to pay for Scrimba! It is a free resource except for the "solo project" which we are skipping** ➡️
+<br><br>
 
 ### 💪 Just in case it was not clear yet...
-- All projects except the Hometown Homepage are *mandatory* for passing into the next round.
+- All projects except the Hometown Homepage are mandatory for passing into the next round.
 - The Birthday GIFt Site needs to be deployed externally, you will need to have created your own files on your local machine.
 - For that it will be necessary for you to download VSCode to edit code and make a free Netlify account to deploy your site at the end- follow instructions on the Scrimba course.
 - In the case that you need assistance, do not hesitate to contact us on Slack (view help section) - asking for help will not impact your application negatively (quite the opposite, we believe in sharing blockers and helping one another in the MigraCode community!)
 
->✅ A **screenshot showing course completion** and **a link to your deplyed GIFt Site** is enough — no official Scrimba certificate is required (no need to pay for the PRO version of Scrimba)!
+✅ A **screenshot showing course completion** and **a link to your deplyed GIFt Site** is enough — no official Scrimba certificate is required (no need to pay for the PRO version of Scrimba)!
 
 {{<blocklink
 src="https://scrimba.com/learn-html-and-css-c0p"

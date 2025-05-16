@@ -1,6 +1,6 @@
 +++
 title ="Step 4: What to do"
-description= "Build a personal home page with CodePen"
+description= "Build a portfolio with CodePen"
 emoji= "🤖"
 time= 300
 [build]
