@@ -1,6 +1,6 @@
 +++
 title = 'Four'
-description="Build a personal home page with CodePen"
+description="Build a portfolio with CodePen"
 layout = 'prep'
 emoji= '🏠'
 menu_level = ['module']
@@ -18,7 +18,6 @@ src="blocks/step-4/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
-
 # [[blocks]]
 # name = "Extensions"
 # src = "blocks/step-4/extend"

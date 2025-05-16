@@ -17,5 +17,5 @@ Here is the criteria you need to meet:
 - You have submitted your answers in the "Slack and Search Engine Exercise" and scored at least 25/30.
 - You have saved your Result Page (Score Summary Page) as a PDF file.
 - The PDF file contains your **name**, your **score**, and your **answers**.
-- You have uploaded the PDF file to the CYF Course Platform.
+- You have attached your file to the final email (check ITD manual)
 ```
