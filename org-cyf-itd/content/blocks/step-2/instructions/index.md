@@ -11,9 +11,9 @@ time= 120
 
 Evaluate data with Google Sheets
 
-This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners. Come to CYF workshops to get help and to work with other applicants on your project. If you do not have a computer, find your nearest free online centre.
+This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners and will upgrade your employability. 
 
-Complete the course and share a link to the final spreadsheet you made. You can move on to the next step as soon as you have shared the link. You don't need to wait.
+Complete the course and share a link to the final spreadsheet you made in the final email (check the ITD Manual for instructions).
 
 {{<blocklink
   src="https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/try-a-career-in-data-analytics/details.html"

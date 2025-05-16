@@ -55,9 +55,10 @@ time= 480
 ### 💪 Just in case it was not clear yet...
 - All projects except the Hometown Homepage are *mandatory* for passing into the next round.
 - The Birthday GIFt Site needs to be deployed externally, you will need to have created your own files on your local machine.
-- In the case that you need assistance, do not hesitate to contact us on Slack (view help section) - asking for help will not impact your application negatively (quite the opposite, we believe in sharing blockers and helping one another in the MigraCode community)
+- For that it will be necessary for you to download VSCode to edit code and make a free Netlify account to deploy your site at the end- follow instructions on the Scrimba course.
+- In the case that you need assistance, do not hesitate to contact us on Slack (view help section) - asking for help will not impact your application negatively (quite the opposite, we believe in sharing blockers and helping one another in the MigraCode community!)
 
->✅ A **screenshot showing course completion** and **a link to your deplyed GIFt Site** is enough — no official Scrimba certificate is required!
+>✅ A **screenshot showing course completion** and **a link to your deplyed GIFt Site** is enough — no official Scrimba certificate is required (no need to pay for the PRO version of Scrimba)!
 
 {{<blocklink
 src="https://scrimba.com/learn-html-and-css-c0p"
