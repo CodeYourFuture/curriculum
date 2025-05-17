@@ -11,6 +11,5 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
-
-1. Upload the screenshot of your introduction on Slack
+You must do this along all the other submissions to Barcelona@migracode.org
+1. Send the screenshot of your introduction on Slack

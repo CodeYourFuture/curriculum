@@ -57,7 +57,7 @@ Software for Lawyers Ltd makes case management software. Their software helps la
 5. Create a Google doc with the text of the cover letter you generated. If this platform is new to you, there is this [guide on what Google docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) available.
 6. Please put your name in the title of the Google doc and **make it public**. You can add just your given name or your family name if you prefer.
 7. Add the link to the Google doc to this platform
-8. Add a comment *on the CYF Course Platform* with feedback (positive or negative) on the text the AI has generated. It should not be a general comment about AI or your feelings about using AI; it should be your own evaluation of the text you are submitting. 
+8. Add a comment *on the Migracode Barcelona Course Platform* with feedback (positive or negative) on the text the AI has generated. It should not be a general comment about AI or your feelings about using AI; it should be your own evaluation of the text you are submitting. 
 
 {{<blocklink
   src="https://chatgpt.com"

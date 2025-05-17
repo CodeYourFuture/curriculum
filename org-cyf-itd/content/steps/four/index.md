@@ -1,6 +1,6 @@
 +++
 title = 'Four'
-description = 'Build four simple projects using HTML and CSS in Khan Academy'
+description = 'Build five simple projects using HTML and CSS in Scrimba'
 layout = 'prep'
 emoji= '🚀'
 menu_level = ['module']

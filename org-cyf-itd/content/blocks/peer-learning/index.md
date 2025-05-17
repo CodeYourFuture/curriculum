@@ -10,7 +10,7 @@ objectives =['Work together on exercises and activities to find gaps in understa
 
 +++
 
-At {{<our-name>}} we always make time to help others. In fact, the best way to _learn_ is to teach others. This is how we secure our understanding. Remember: focus on the blockers that are stopping your group from progressing. Volunteers may be around to help you with your questions, but this is your time to work together.
+At Migracode Barcelona we always make time to help others. In fact, the best way to _learn_ is to teach others. This is how we secure our understanding. Remember: focus on the blockers that are stopping your group from progressing. Volunteers may be around to help you with your questions, but this is your time to work together.
 
 #### 📢 Caller:
 
