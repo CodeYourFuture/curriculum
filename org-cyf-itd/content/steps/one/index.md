@@ -4,7 +4,7 @@ description = 'Using Slack and search engines'
 layout = 'prep'
 emoji= '🧑‍🤝‍🧑'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'get connected']
 weight = 2
 [[blocks]]
 name="Instructions"

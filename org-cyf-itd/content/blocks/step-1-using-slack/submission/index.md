@@ -11,6 +11,4 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course Platform](https://application-process.codeyourfuture.io/)
-
-1. Upload a PDF file created from your Result Page (Score Summary Page)
+Attach the PDF file created from your Result Page (Score Summary Page) to the email you send to us. (Check the ITD Manual for exact instructions)

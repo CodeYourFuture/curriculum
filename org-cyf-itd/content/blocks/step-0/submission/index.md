@@ -11,6 +11,4 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
-
-1. Upload the screenshot of your introduction on Slack
+Send an introductory message stating your name, where you are from and an optional fun fact about you in the itd-2025 channel.

@@ -11,6 +11,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
+You must send us the link to your personal homepage to Barcelona@migracode.org
 
 1. Share a link to your personal homepage on CodePen with all the tests passing
