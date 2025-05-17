@@ -13,4 +13,4 @@ time= 5
 
 You must send us the link to your personal homepage to Barcelona@migracode.org
 
-1. Share a link to your personal homepage on CodePen.
+1. Share a link to your portfolio homepage on CodePen.
