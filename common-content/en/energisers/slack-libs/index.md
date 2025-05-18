@@ -26,7 +26,7 @@ Now, each person will add **one sentence** to the story using:
 1. One Slack formatting feature (**bold**, _italic_, bullet point)
 1. One @mention of another team member, inviting them to continue the story.
 
-Continue for {{<timer>}}10{{</timer>}} minutes or until everyone has contributed.
+Continue for {{<timer>}}10{{</timer>}} or until everyone has contributed.
 
 <details><summary>Key Slack features to try</summary>
 

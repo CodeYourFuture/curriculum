@@ -27,7 +27,7 @@ graph LR
     F --> C
 ```
 
-We have identified our issue and written our test/s. We've really done all the hard work already. Fixing the actual code is now simple.
+We have identified our issue and written our test(s). We've really done all the hard work already. Fixing the actual code is now simple.
 
 Fix your code!
 

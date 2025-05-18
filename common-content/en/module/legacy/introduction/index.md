@@ -26,8 +26,8 @@ Sound challenging? It is! But it's also where many developers spend most of thei
 By the end of this module, you will have had the opportunity to:
 
 - [ ] Navigate and understand an unfamiliar codebase
-- [ ] Debug existing features without breaking functionality
-- [ ] Fix issues using systematic approaches
+- [ ] Debug existing features using systematic approaches
+- [ ] Fix issues without breaking functionality
 - [ ] Extend legacy applications with new features
 - [ ] Work effectively within existing architectural constraints
 
