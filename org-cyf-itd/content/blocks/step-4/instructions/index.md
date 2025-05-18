@@ -12,10 +12,11 @@ time= 300
 You must now build your own home page, and get all of the tests to pass. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
 
 ### Steps 
-1. **Create a free CodePen account** to save your progress:[CodePen](https://codepen.io/)
+1. **Create a free CodePen account** 
+   [CodePen](https://codepen.io/)
 
 2. **Fork the CYF Starter Page**  
-   Use this [Code Your Future Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod) to start your project.Learn how to fork here: [CodePen Fork Documentation](https://blog.codepen.io/documentation/forks/)
+   Use this [Code Your Future Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod) to start your project. Learn how to fork here: [CodePen Fork Documentation](https://blog.codepen.io/documentation/forks/)
 
 3. **Follow the instructions in the code panels** and edit the HTML and CSS to complete the project.
 
