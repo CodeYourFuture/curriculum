@@ -13,7 +13,7 @@ We have written this criteria in a special format called _Given/When/Then_ . It 
 
 Here are the acceptance criteria for your project:
 
-### Given a personal home page
+### Given a portfolio home page
 
 **When** I look in the test console  
 _Then_ all 10 tests are passing
