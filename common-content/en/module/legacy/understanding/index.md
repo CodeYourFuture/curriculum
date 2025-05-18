@@ -17,8 +17,8 @@ emoji= "🏛️"
 
 Legacy code isn't necessarily bad or even that old. It's code that:
 
-1. **You didn't write** - It lacks your mental model and intentions
-1. **Powers important systems** - It can't simply be replaced
+1. **You didn't write** - It lacks your mental model and intentions.
+1. **Powers important systems** - It can't simply be deleted or replaced.
 1. **Contains institutional knowledge** - Sometime undocumented! Decisions were often made for good reasons which we may not remember any more, and changing those decisions may be risky.
 
 The Purple Forest application is now your legacy code. Someone else designed and built it, and you need to maintain and extend it.
