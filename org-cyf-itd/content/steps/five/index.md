@@ -2,7 +2,7 @@
 title = 'Four'
 description="Build a portfolio with CodePen"
 layout = 'prep'
-emoji= '🏠'
+emoji= '💻'
 menu_level = ['module']
 menu=[ 'get coding']
 weight = 6
