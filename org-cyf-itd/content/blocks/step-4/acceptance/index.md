@@ -13,22 +13,28 @@ We have written this criteria in a special format called _Given/When/Then_ . It 
 
 Here are the acceptance criteria for your project:
 
-### Given a portfolio home page
+### Requirements for Portfolio Homepage
 
-**When** I look in the test console  
-_Then_ all 10 tests are passing
+1. **Navigation Bar**  
+Must include at least 3 working links (e.g., Home, About, Contact).
 
-**When** I read the content  
-_Then_ I learn something about you
+2. **Profile Image**  
+Must display one image (e.g., a profile photo or banner)
 
-**When** I view the page  
-_Then_ the design is unique and the images are displayed properly
+3. **Portfolio Sections**  
+Page must include at least two sections:  
+   - About Me
+   - Contact Information
 
-**When** I play the video on the page
-_Then_ the video can play normally
+4. **Custom Styling**  
+Must use custom CSS:  
+   - At least two colors
+   - One custom font
+   - Spacing and alignment for readability
 
-**When** I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
-_Then_ the HTML is valid
+5. **CodePen Project Setup**  
+The CodePen must be public, titled, and have the student’s name somewhere on the page.
+
 
 > [!TIP]
 > Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.
