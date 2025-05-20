@@ -7,10 +7,13 @@ time=5
 
 ### What is ITD
 
-When people [sign up to study](https://migracode.org/web-development-course/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course opens for two months.
+When people [sign up to study](https://migracode.org/web-development-course/) on our website, they are sent an email with a series of instructions to follow in order to join our courses.
 
-Learners complete the course by following the sequence of steps found in this page. Each step is explained clearly in English.
+If we have approved your Motivational Letter, you will receive an email linking to this current page: Intro to Digital (ITD), and directing you to finish it before we can consider your application for the final selection steps.
 
-In order for you to enter our courses (Web Development, AWS...) you need to do **all the steps** and share the content with us. After the submission has been done, you will be invited to an interview with our team.
+You can think of ITD as:
 
-While doing this course, you can join our Slack channel for ITD and get support on the process.
+1. The first requirement to access our program
+2. An opportunity to try coding and test if you like it
+3. A way for the MigraCode team to set the expectations on how our courses work
+4. The baseline knowledge that we expect from all our students. This way we can ensure a balanced class.

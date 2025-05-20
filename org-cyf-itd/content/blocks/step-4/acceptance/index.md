@@ -9,7 +9,6 @@ time= 20
   publishResources = false 
 +++
 
-We have written this criteria in a special format called _Given/When/Then_ . It is called a "specification".
 
 Here are the acceptance criteria for your project:
 
