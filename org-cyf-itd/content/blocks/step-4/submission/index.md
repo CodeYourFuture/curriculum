@@ -11,6 +11,7 @@ time= 5
 
 ### Submission
 
-You must send us the link to your personal homepage to Barcelona@migracode.org
+You must submit the link to your [Personal Home Page](https://codepen.io/IntroToTech/pen/PomeEod) by adding them to the template provided in Manual and send it at the end of ITD to the MigraCode team @ Barcelona@migracode.org 
 
-Share a link to your portfolio homepage on CodePen.
+We won’t accept separate emails for separate steps of ITD. 1 Candidate = 1 Submission of ITD
+
