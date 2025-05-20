@@ -36,5 +36,6 @@ Must use custom CSS:
 The CodePen must be public, titled, and have the student’s name somewhere on the page.
 
 
+
 > [!TIP]
 > Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.
