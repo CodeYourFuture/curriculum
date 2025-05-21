@@ -17,6 +17,56 @@ Attendees:
 
 ---
 
+## 2025-05-21
+
+Attendees: Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] (Carry-over): CJ: Consider each ITD step - can we reframe them from "follow instructions" into "go learn some stuff, then apply it independently to a novel problem"?
+- [x] Daniel: Make a GitHub team for our team
+- [x] Daniel: Add "Do your own work" as a key takeaway message of Onboarding Sprint 2
+- [ ] Daniel: Work with the dashboard team to make "see the curriculum" more clear at the start of ITP (Karen has a plan)
+- [ ] Jay: Rename / maybe modify module prep to prereqs
+- [ ] Anna: Start putting together a new GenAI ITD step
+- [ ] All: Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [x] Daniel: Merge syllabus/curriculum team channels
+- [x] Daniel: Set up Slack reminders for this meeting
+- [ ] Daniel: Find out if we can get an AI note-taker
+
+### 📝 Agenda points
+
+#### ITP Feedback from Piscine
+
+* 3 things missing from ITP
+  * Accessibility as a general concept: we initially teach about accessibility pre-interactivity, but we don't revisit later as page design changes / interactivity is added.
+    * One idea: In Module 4, perhaps we introduce a checklist of things a developer would normally do when making changes to an existing code base? Maybe this is something we could do during the TV Show project?
+    * As part of this we could also be encouraging a more product-focused mindset
+  * Breaking things down
+    * We currently have a temporary workshop 
+    * Can we have a workshop after the tic-tac-toe exercise that explains how it was broken down / and then give a few more exercises where they can practice breaking down projects?
+  * Testing
+    * Specifically about how to structure to code to promote testability
+
+#### Pathways for non-development roles after ITP
+
+* We are currently in progress with a Business Analyst track - potentially serving as a pathway for non-development roles
+
+#### Changes to Duolingo assessment timings in ITD
+
+* In ITD, we are considering moving the Duolingo assessment slightly earlier in order to receive slightly earlier feedback (not realising they've not passed at the last moment before ITP starts)
+
+#### Clarifying process for making changes in the curriculum
+
+* Generally we should be following a normal pull request process. In some very obvious cases (small typo fixes) we can change directly ourselves.
+
+### ❗Actions
+
+- [ ] Barath: look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around the structuring code around the idea of testability
+
+---
+
 ## 2025-05-06
 
 Attendees: Ali Smith, Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Karen Klein
