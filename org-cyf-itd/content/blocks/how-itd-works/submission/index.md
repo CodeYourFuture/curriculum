@@ -1,11 +1,11 @@
 +++
 title="Submission"
-emoji="📤"
+emoji="🎉"
 author="Tony Beaumont"
 time=10
 +++
 
-## 📤 Submitting Your ITD
+
 
 You must **reply to the original email** where you were asked to complete ITD.
 
