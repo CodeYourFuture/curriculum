@@ -1,38 +1,23 @@
 +++
-title="What you know, what you will learn"
-emoji="🧑🏼‍🎓"
-author="Tony Beaumont"
-time=10
+title="Duration and Deadlines"
+description="How long does the ITD take"
+emoji="⏱️"
+time=5
 +++
 
-### As a volunteer you should:
 
-- be able to spend some time on the tasks that need volunteers to complete so that CYF can function. Volunteers enable CYF to achieve its goals.
-- be digitally literate
-- Your feedback to applicants will be guided by one or both of the following
-  - technical expertise in some of the full stack development technologies including HTML, CSS, Javascript, React, SQL (Postgres)
-  - expertise in personal skills to guide applicants in their personal development, for example in communication, presentation, time management, work-life balance, etc.
+**How long does the ITD take?**
 
-### What you'll learn
+We estimate that finalising the whole of **ITD takes around 30h**. However, we are all different, we have different backgrounds and different ways of doing things. We also have different situations and some of us can dedicate more time to learn, while other need to balance work, family, other studies… 
 
-- How to register (if you are a new volunteer)
-- How to access the dashboard
-- Where to find the syllabus
-- How to give helpful feedback.
+Either if it takes you 15 hours or 50 hours, we want to hear from you and check your work 💪
 
-### What you'll need
+Our recommendation is to plan ahead. Before starting review briefly all the content, check everything you will need to do and consider your other obligations. Then you can start and allocate time to do the coursework.
 
-You will need a computer or tablet with this software installed:
+Currently we are planning to start our next Web Dev Course in mid September of 2025. 
 
-- Slack
-- A web browser
+The **deadline to submit** all the assignments included here in ITD is: **July 30th, 2025.**
 
-CYF generally uses (Ubuntu) Linux rather than Windows or Macs. If you are trying to complete tasks that the applicants will do, instructions generally assume a Linux environment, so some experience of Linux would be helpful.
 
-### What you'll do
-
-On the following pages we will take you through all the necessary information on volunteering with ITD guide your feedback to applicants.
-
-- Access the Syllabus
-- Access the dashboard
-- Find applicant submissions and give feedback
+> [!NOTE]
+> Any submission past that deadline won’t be considered for the batch of September 2025

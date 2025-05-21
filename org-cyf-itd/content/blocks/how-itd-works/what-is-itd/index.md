@@ -1,11 +1,10 @@
 +++
-title="How ITD works"
+title="What is ITD"
 description="A brief description of ITD"
 emoji="🗺️"
 time=5
 +++
 
-### What is ITD
 
 When people [sign up to study](https://migracode.org/web-development-course/) on our website, they are sent an email with a series of instructions to follow in order to join our courses.
 
