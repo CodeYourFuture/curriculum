@@ -35,13 +35,13 @@ title = "The longed for documentation"
         weight = 1
         url = "/guides"
      [[menus.secondary]]
-        name = "Join Us 👋🏿"
+        name = "About Us 👋🏿"
         weight = 2
-        url = "https://codeyourfuture.io/volunteer/"
+        url = "migracode.org"
     [[menus.secondary]]
-        name = "Support 🫶🏼"
+        name = "About our NGO OCC 🫶🏼"
         weight = 3
-        url = "https://codeyourfuture.io/donate"    
+        url = "openculturalcenter.org"    
 
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@400;700&display=swap"
