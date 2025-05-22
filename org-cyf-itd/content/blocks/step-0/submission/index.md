@@ -11,5 +11,4 @@ time= 5
 
 ### Submission
 
-You must do this along all the other submissions to Barcelona@migracode.org
-1. Send the screenshot of your introduction on Slack
+Send an introductory message stating your name, where you are from and an optional fun fact about you in the itd-2025 channel.

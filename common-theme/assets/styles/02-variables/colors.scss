@@ -4,7 +4,7 @@
   --theme-color--brand-shade: rgba(21, 212, 190, .05);
   --theme-color--accent: rgb(21, 212, 190);
   --theme-color--accent-shade: hsla(146, 100%, 46%, 0.5);
-  --theme-color--pop: hsla(262, 100%, 62%, 1);
+  --theme-color--pop: rgb(61, 97, 255);
   // key
   --hue: 210;
   --sat: 35%;
@@ -61,7 +61,7 @@
     var(--alpha)
   );
   --theme-color--accent: rgb(21, 212, 190);
-  --theme-color--pop: hsl(321, 100%, 46%);
+  --theme-color--pop: hsl(246, 100%, 46%);
 }
 
 :root {

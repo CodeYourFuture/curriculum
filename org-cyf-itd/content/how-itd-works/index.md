@@ -9,24 +9,24 @@ menu_level = ['module']
 name="What is ITD"
 src="blocks/how-itd-works/what-is-itd"
 [[blocks]]
-name="Welcome new volunteers"
-src="blocks/how-itd-works/welcome"
+name="Duration and Deadlines"
+src="blocks/how-itd-works/duration"
 [[blocks]]
-name="Most important task"
-src="blocks/how-itd-works/reviewing"
+name="Submission"
+src="blocks/how-itd-works/submission"
 [[blocks]]
-name="Your role as a volunteer"
-src="blocks/how-itd-works/know-learn-need-do"
-[[blocks]]
-name="Using the curriculum"
-src="blocks/how-itd-works/using-the-curriculum"
-[[blocks]]
-name="How to access the dashboard"
-src="blocks/how-itd-works/accessing-the-dashboard"
-[[blocks]]
-name="How to use the dashboard"
-src="blocks/how-itd-works/using-the-dashboard"
-[[blocks]]
-name="Useful links"
-src="blocks/how-itd-works/useful-links"
+name="Example Submission Email"
+src="blocks/how-itd-works/email"
+# [[blocks]]
+# name="Using the curriculum"
+# src="blocks/how-itd-works/using-the-curriculum"
+# [[blocks]]
+# name="How to access the dashboard"
+# src="blocks/how-itd-works/accessing-the-dashboard"
+# [[blocks]]
+# name="How to use the dashboard"
+# src="blocks/how-itd-works/using-the-dashboard"
+# [[blocks]]
+# name="Useful links"
+# src="blocks/how-itd-works/useful-links"
 +++
