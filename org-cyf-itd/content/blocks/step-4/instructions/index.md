@@ -12,11 +12,16 @@ time= 300
 You must now build your own home page, and get all of the tests to pass. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
 
 ### Steps 
-1. Make a free account on [CodePen](https://codepen.io/)
-2. [Fork](https://blog.codepen.io/documentation/forks/) the CYF starter page from Code Your Future (our partner organisation in the UK) [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod)
-3. Read the instructions in the code panels and edit the code to meet all the criteria you discover
+1. **Create a free CodePen account** 
+   here: [CodePen](https://codepen.io/)
 
-Use HTML and CSS to complete this project.
+2. **Build your webpage using HTML and CSS**  
+   - Add navigation bar 
+   - Display one image
+   - Apply all the skills you learned during the course
+
+3. **When finished, send us the direct link to your CodePen webpage.**  
+   Projects that meet the acceptance criteria will allow you to move on to the final step of the MigraCode application process.
 
 > [!TIP]
 > Make sure you’re [logged in to CodePen](https://codepen.io/your-work) when you [fork](https://blog.codepen.io/documentation/forks/) so your work is saved.

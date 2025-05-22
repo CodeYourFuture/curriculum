@@ -15,6 +15,8 @@ emoji= "🌱"
 
 {{<note type="tip" title="When in Rome">}}
 When adding features to legacy code, write code that looks like it belongs. This isn't the time to introduce radically different approaches or programming paradigms. That would make our code harder to navigate and understand.
+
+If we _do_ want to change things, we should do so separately from fixes or features. _Refactoring_ shouldn't change what code does, just how it is written. But if you're going to refactor code, you should do so consistently across the whole codebase. Remember why patterns are useful: If suddenly all of the code works one way _except_ for this one view, it's harder to understand the codebase.
 {{</note>}}
 
 For Purple Forest, this means:
@@ -30,14 +32,14 @@ Add an "Unfollow" button to the Profile component. This button should remove the
 {{<tabs name="Feature Extension">}}
 ===[[Step 1: Describe the feature]]===
 
-Given a profile component sample  
-And I am logged in as sample2  
-And sample2 is following sample  
-When I view the profile component for sample  
+Given a profile component for user AnotherUser  
+And I am logged in as sample  
+And the sample is following AnotherUser  
+When I view the profile component for AnotherUser  
 Then I should see a button labeled "Unfollow"  
 When I click the "Unfollow" button  
-Then I should no longer be following sample  
-And the unfollow button is not visible
+Then I should no longer be following AnotherUser  
+And the unfollow button is not visible  
 And a "Follow" button should be visible
 
 The tabs contain sample code for each step of this process, but you should write your own implementation, based on your understanding of the Purple Forest codebase.
@@ -48,14 +50,17 @@ Before you start coding, open each file you think you will need in your editor. 
 
 ```javascript
 test("allows unfollowing a user from their profile", async ({ page }) => {
-  // Given a profile component sample
-  // And I am logged in as sample2
-  await loginAsSample2(page);
-  // And sample2 is following sample
-  await page.goto("/front-end/#/profile/sample");
+  await signUp(page, "sample");
+  await signUp(page, "AnotherUser");
+
+  // Given a profile component AnotherUser
+  // And I am logged in as sample
+  await loginAsSample(page);
+  await page.goto("/#/profile/AnotherUser");
+  // And sample is following AS
   await page.click('[data-action="follow"]');
 
-  // When I view the profile component for sample
+  // When I view the profile component for AnotherUser
   // Then I should see a button labeled "Unfollow"
   const unfollowButton = page.locator('[data-action="unfollow"]');
   await expect(unfollowButton).toBeVisible();
@@ -63,7 +68,7 @@ test("allows unfollowing a user from their profile", async ({ page }) => {
   // When I click the "Unfollow" button
   await unfollowButton.click();
 
-  // Then I should no longer be following sample
+  // Then I should no longer be following AnotherUser
   const followerCount = page.locator("[data-follower-count]");
   await expect(followerCount).toHaveText("0");
   // And the unfollow button is not visible
@@ -111,20 +116,25 @@ Use your debugging skills to find out.
 
 You have written an interface, but you haven't connected it to anything in the back end! There's an API endpoint in the apiService, but is there an matching endpoint in `main.py`? Go look.
 
-Find the @route for follow in `main.py` and use it to make a new route, directly underneath, called unfollow. Play computer with each line of code so you are sure you understand what is happening.
+Find the endpoint for `do_follow` in `endpoints.py` and use it to make a new route, directly underneath, called `unfollow`. Play computer with each line of code so you are sure you understand what is happening.
 
 ```python
-@app.route("/unfollow/<unfollow_username>", methods=["POST"])
 @jwt_required()
-def unfollow(unfollow_username):
-    username = get_current_user().username
+def do_unfollow():
+    type_check_error = verify_request_fields({"unfollow_username": str})
+    if type_check_error is not None:
+        return type_check_error
 
-    if unfollow_username not in users:
+    current_user = get_current_user()
+
+    follow_username = request.json["unfollow_username"]
+    unfollow_user = get_user(follow_username)
+    if unfollow_user is None:
         return make_response(
             (f"Cannot unfollow {unfollow_username} - user does not exist", 404)
         )
 
-    follows.remove(username, unfollow_username)
+    unfollow(current_user, unfollow_user)
     return jsonify(
         {
             "success": True,
