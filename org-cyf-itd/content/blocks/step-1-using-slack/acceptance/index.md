@@ -1,21 +1,37 @@
 +++
-title ="Step 1: How to check your work"
-description= "Acceptance criteria for step one"
-emoji= "✅"
-time= 10
+title = "Acceptance"
+description = "Acceptance criteria for step one"
+emoji = "✅"
+time = 10
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+### Step 1 Acceptance Criteria
 
-Here is the criteria you need to meet:
+To successfully complete Step 1 (*Essential Digital Skills: Navigating Slack & Google Search*), make sure you meet **all** the following criteria:
 
-```objectives
-- You have submitted your answers in the "Slack and Search Engine Exercise" and scored at least 25/30.
-- You have saved your Result Page (Score Summary Page) as a PDF file.
-- The PDF file contains your **name**, your **score**, and your **answers**.
-- You have attached your file to the final email (check ITD manual)
-```
+---
+
+#### ✅ Slack Usage
+
+- You posted a message in the `#itd` Slack channel
+- You reacted to at least **2 other students' messages** using appropriate emojis (e.g. ✅, ❤️, 🙌)
+- Your message includes something you’ve learned in ITD so far
+- Bonus: You replied to someone in a thread (helps keep conversations clean and organised)
+
+---
+
+#### ✅ Search Skills (this will not be evaluated, it is just for you!)
+
+- You practiced using **advanced search techniques**, such as:
+  - Using quotation marks for exact matches
+  - Using `site:` for targeted results
+  - Filtering by date (e.g., “Past year”)
+- You located and read from at least **one reliable technical source** (e.g. MDN, Stack Overflow, official docs)
+
+---
+
+> 💡 Your contributions should reflect respectful communication, clear writing, and thoughtful engagement.
