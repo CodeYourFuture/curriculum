@@ -9,14 +9,12 @@ time= 10
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
-
 Here is the criteria you need to meet:
 
 ```objectives
-- You have joined the CodeYourFuture ITD Slack
-- You have used the same name on the Slack as you have on this platform so we can tell who you are
-- You have introduced yourself on the #introduce-yourself-to-codeyourfuture channel
-- You have taken a screenshot of your introduction on the channel
-- You have uploaded the screenshot to this platform
+- You have joined the CodeYourFuture ITD Slack.
+- You have updated your Slack profile name to match your name on the CYF Course Platform so we can recognise you.
+- You have posted a message introducing yourself in the #introduce-yourself-to-codeyourfuture channel.
+- You have taken a screenshot of your introduction in the channel.
+- You have uploaded the screenshot to the CYF Course Platform.
 ```
