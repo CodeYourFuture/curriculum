@@ -14,7 +14,7 @@ Everyone on a team must be able to contribute to the project. To be invited to j
 - Kept the commitments you made in your trainee agreement
 - Completed all your mandatory coursework
 - Applied to join the project with your CV, cover letter, and a portfolio
-- I have completed all the mandatory projects during the Software Development course
+- I have completed all the mandatory backlog items during the Software Development course
 - Passed the technical and competency-based interview.
 ```
 
