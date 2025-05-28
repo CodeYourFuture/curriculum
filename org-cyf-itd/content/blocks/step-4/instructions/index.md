@@ -1,28 +1,35 @@
 +++
-title ="Step 4: What to do"
-description= "Build a personal home page with CodePen"
+title ="Step 3: What to do"
+description= "Learn HTML and CSS fundamentals with Khan Academy"
 emoji= "🤖"
-time= 300
+time= 480
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-You must now build your own home page, and get all of the tests to pass. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9i83JvV6Cdo?si=jkSSHxEfr1fiV3Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Steps 
-1. Make a free account on [CodePen](https://codepen.io/)
-2. [Fork](https://blog.codepen.io/documentation/forks/) the CYF starter page [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod)
-3. Read the instructions in the code panels and edit the code to meet all the criteria you discover
+Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacademy.org)'s Computer Programming course. You don't need to know anything about coding to start - it's good for complete beginners. There are 9 lessons in Unit 2. The [video playlist](https://www.youtube.com/playlist?list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr) is ~2 hours long, and the whole course will take 4-10 hours. This course is completely free.
 
-Use HTML and CSS to complete this project.
+1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
+1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
+1. Follow along and build the projects.
+1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
 
-> [!TIP]
-> Make sure you’re [logged in to CodePen](https://codepen.io/your-work) when you [fork](https://blog.codepen.io/documentation/forks/) so your work is saved.
+#### The 4 projects you will do are:
 
-### Advice
+1. Project: Travel webpage
+1. Project: Recipe book
+1. Project: Blog
+1. Project: Event invite
 
-**Use and read the tests** to discover the other 10 requirements. Build, test, and improve your code progressively. The tests are written in the Javascript window in Codepen for you to see, and there’s a readout in the main view showing the results. Don’t worry that you don’t understand the brackets and arrows, **read the words**. The tests will rerun every time you make a change in your code.
+#### The project you will deploy to GitHub Pages is:
 
-Once you're done, submit the URL of your working project with all its tests passing, to the dashboard.
+4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
+
+{{<blocklink
+  src="https://www.khanacademy.org/computing/computer-programming/html-css"
+  name="Computer Programming: Unit 2"
+  caption="Khan Academy">}}
