@@ -14,7 +14,7 @@ Here is the criteria you need to meet:
 
 ```objectives
 - You have taken the English placement test
-- Your English level is B2 or higher
+- Your English level is B2 or higher - so at least 100 points on the Duolingo practice test
 - You have shared a screenshot of your Duolingo test result
 ```
 
