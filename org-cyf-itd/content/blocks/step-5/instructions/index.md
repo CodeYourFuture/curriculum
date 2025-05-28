@@ -1,28 +1,28 @@
 +++
-title ="Step 6: What to do"
-description= "Take the Duolingo Practice Test"
+title ="Step 4: What to do"
+description= "Build a personal home page with CodePen"
 emoji= "🤖"
-time= 60
+time= 300
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-### Preparation
+You must now build your own home page, and get all of the tests to pass. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
 
-1. Find 50 minutes where you will not be interrupted
-1. [Register on the Duolingo website](https://englishtest.duolingo.com/register) to do the Practice Test
-1. You need to look at your camera during some exercises. Test that your camera and microphone are working. You may need to do this test on your phone.
+### Steps 
+1. Make a free account on [CodePen](https://codepen.io/)
+2. [Fork](https://blog.codepen.io/documentation/forks/) the CYF starter page [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod)
+3. Read the instructions in the code panels and edit the code to meet all the criteria you discover
 
-### Take the test
+Use HTML and CSS to complete this project.
 
-1. Go to the [Duolingo Practice Test](https://englishtest.duolingo.com/test/practice) page
-1. Take the test, which will be around 45 minutes
-1. Take a screenshot of your result
-1. Upload your image to this step in the Learning Journey platform
+> [!TIP]
+> Make sure you’re [logged in to CodePen](https://codepen.io/your-work) when you [fork](https://blog.codepen.io/documentation/forks/) so your work is saved.
 
-{{<blocklink
-  src="https://blocks.codeyourfuture.io/#introduction"
-  name="CYF Blocks"
-  caption="Code Your Future">}}
+### Advice
+
+**Use and read the tests** to discover the other 10 requirements. Build, test, and improve your code progressively. The tests are written in the Javascript window in Codepen for you to see, and there’s a readout in the main view showing the results. Don’t worry that you don’t understand the brackets and arrows, **read the words**. The tests will rerun every time you make a change in your code.
+
+Once you're done, submit the URL of your working project with all its tests passing, to the dashboard.

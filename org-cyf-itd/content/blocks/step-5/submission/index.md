@@ -1,7 +1,7 @@
 +++
-title ="Step 1: How to show us"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
-emoji= "🤖"
+title ="Step 4: How to show us"
+description= "Submit your work for review"
+emoji= "📩"
 time= 5
 [build]
   render = 'never'
@@ -11,9 +11,6 @@ time= 5
 
 ### Submission
 
-1. Upload a screenshot of your result to this step in the Learning Journey platform.
+You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
 
-This is all you need to submit for now.
-
-> [!NOTE]
-> To qualify as a CYF trainee and access later, funded courses like [The Piscine](https://piscine.codeyourfuture.io/), you will be required to take a proctored English exam. This will be a free, certified exam, donated by our partners, Duolingo.
+1. Share a link to your personal homepage on CodePen with all the tests passing

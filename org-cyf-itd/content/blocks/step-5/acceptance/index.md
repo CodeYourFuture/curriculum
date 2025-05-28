@@ -1,37 +1,34 @@
 +++
-title ="Step 5: How to check your work"
-description= "How to check you have completed the step"
+title ="Step 4: How to check your work"
+description= "How to check your work"
 emoji= "🤖"
-time= 5
+time= 20
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria.
-Here is the criteria you need to meet:
+We have written this criteria in a special format called _Given/When/Then_ . It is called a "specification".
 
-```objectives
-- You have taken the English placement test
-- Your English level is B1 or higher
-- You have shared a screenshot of your Duolingo test result
-```
+Here are the acceptance criteria for your project:
 
-### B1
+### Given a personal home page
 
-To join Introduction to Programming, the lowest level we can work with is B1. If you continue in our course, you will later on take another English test.
+**When** I look in the test console  
+_Then_ all 10 tests are passing
 
-### B2
+**When** I read the content  
+_Then_ I learn something about you
 
-To join the Piscine, trainees need to be at level B2.
+**When** I view the page  
+_Then_ the design is unique and the images are displayed properly
 
-### C1
+**When** I play the video on the page
+_Then_ the video can play normally
 
-The goal is level C1 or higher
+**When** I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
+_Then_ the HTML is valid
 
-We set these levels because we have learned that people without this level of English proficiency cannot follow our courses. **We want you to succeed.** It is better to work on your English _first_ and then apply to us when you are _ready_.
-
-Most people at Code Your Future speak English as a second language. All trainees will get lots of help and practise, but we do not have the expertise to teach English. Our expertise is in teaching programming languages.
-
-[Working on your English](https://docs.google.com/document/d/1XKpjtFTtvYf_j6hlLwEoiQ_ujSFv12P_WL0Th2wml1Y/edit#heading=h.gx8ev6ub7thp)
+> [!TIP]
+> Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.
