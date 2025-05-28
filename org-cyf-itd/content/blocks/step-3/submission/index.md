@@ -1,7 +1,7 @@
 +++
-title ="Step 1: How to show us"
+title ="Step 2: How to show us"
 description= "Submit your work for review"
-emoji= "🤖"
+emoji= "📩"
 time= 5
 [build]
   render = 'never'
@@ -11,11 +11,10 @@ time= 5
 
 ### Submission
 
-You must submit a link to your work in the [CYF Course platform](https://application-process.codeyourfuture.io)
+You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io)
 
-1. Share a link to your Invitation project on [GitHub Pages](https://pages.github.com/)
+1. Share a link to the spreadsheet you made
 
-### Personalise your URLs
-
-Before you share your link, set your [Github](https://github.com/) Pages URL to include your name, so we can tell who you are. You can use your first name or last name.
-
+{{<note type="tip" title="Personalise your URLs">}}
+Before you share your link with your mentors, edit your file name to include your name. It can just be your given name or your family name if you prefer.
+{{</note>}}

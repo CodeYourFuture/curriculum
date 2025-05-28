@@ -1,35 +1,22 @@
 +++
-title ="Step 3: What to do"
-description= "Learn HTML and CSS fundamentals with Khan Academy"
+title ="Step 1: What to do"
+description= "Learn about data analytics, review required skills, then build a project that exemplifies a typical task for a data analyst."
 emoji= "🤖"
-time= 480
+time= 120
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9i83JvV6Cdo?si=jkSSHxEfr1fiV3Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Evaluate data with Google Sheets
 
-Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacademy.org)'s Computer Programming course. You don't need to know anything about coding to start - it's good for complete beginners. There are 9 lessons in Unit 2. The [video playlist](https://www.youtube.com/playlist?list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr) is ~2 hours long, and the whole course will take 4-10 hours. This course is completely free.
+This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners. Come to CYF workshops to get help and to work with other applicants on your project. If you do not have a computer, find your nearest free online centre.
 
-1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
-1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
-1. Follow along and build the projects.
-1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
-
-#### The 4 projects you will do are:
-
-1. Project: Travel webpage
-1. Project: Recipe book
-1. Project: Blog
-1. Project: Event invite
-
-#### The project you will deploy to GitHub Pages is:
-
-4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
+Complete the course and share a link to the final spreadsheet you made. You can move on to the next step as soon as you have shared the link. You don't need to wait.
 
 {{<blocklink
-  src="https://www.khanacademy.org/computing/computer-programming/html-css"
-  name="Computer Programming: Unit 2"
-  caption="Khan Academy">}}
+  src="https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/try-a-career-in-data-analytics/details.html"
+  name="Try a Career in Data Analytics"
+  caption="Google Applied Digital Skills"
+  time="90">}}
