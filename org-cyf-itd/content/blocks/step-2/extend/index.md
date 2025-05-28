@@ -1,6 +1,6 @@
 +++
 title ="Step 2: Extend Your Skills"
-description= "Make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet."
+description= "Explore using AI to generate a cover letter for yourself or a CV"
 emoji= "💪🏾"
 time=5
 [build]
@@ -11,8 +11,14 @@ time=5
 
 #### Use your new skill in real life:
 
-This optional step is just for you. You don't need to submit it. Next, make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet.
+You do not have to complete this part of the task, but you might find it interesting or useful. Please don’t submit the result - it will lead to your submission being rejected.
 
-{{<note type="tip" title="The national careers service works for you">}}
-The [National Careers Service](https://nationalcareers.service.gov.uk/) is a free service that can help you with your [job search](https://nationalcareers.service.gov.uk/careers-advice/advertised-job-vacancies).
+You can ask ChatGPT to generate a CV for Jane using her summary. There isn’t quite enough information there for the AI to do a perfect job, so it might guess.
+
+You could also ask it to generate a CV for you. [This course by CodeAcademy](https://www.codecademy.com/enrolled/courses/streamline-resume-creation-with-generative-ai-case-study) might be helpful in getting AI to make a CV. But, please do note that the sample prompts in the course do not always work.
+
+{{<note type="tip" title="Be careful with Generative AI">}}
+Remember, your _real_ CV must only say _true_ things. (Lying on your CV is a crime in the UK!) Make sure you only use the AI to help you write your CV, not to write it for you.
+
+Do not give ChatGPT personal information (e.g. your phone number, email address, full name).
 {{</note>}}

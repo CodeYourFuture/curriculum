@@ -1,8 +1,8 @@
 +++
 title ="Step 2: How to check your work"
-description= "Acceptance criteria for the Google Sheets course"
+description= "Acceptance criteria for step two"
 emoji= "✅"
-time=10
+time= 10
 [build]
   render = 'never'
   list = 'local'
@@ -14,9 +14,9 @@ A volunteer will review your submission and check it meets the acceptance criter
 Here is the criteria you need to meet:
 
 ```objectives
-- My spreadsheet can be viewed by anyone on the internet
-- My spreadsheet includes my name in the title
-- My spreadsheet contains a sheet where the song data is sorted by music genre
-- My spreadsheet contains a sheet where the average age of listeners for each genre is calculated with a formula and displayed in a graph
-- I have shared a link to my spreadsheet
+- You have generated a cover letter for Jane using AI
+- You have saved the cover letter in a Google Docs document
+- You have added your name to the document's file name
+- You have made the document public
+- You have submitted the link to the document to the CYF Course Platform
 ```
