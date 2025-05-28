@@ -14,17 +14,13 @@ Here is the criteria you need to meet:
 
 ```objectives
 - You have taken the English placement test
-- Your English level is B1 or higher
+- Your English level is B2 or higher
 - You have shared a screenshot of your Duolingo test result
 ```
 
-### B1
-
-To join Introduction to Programming, the lowest level we can work with is B1. If you continue in our course, you will later on take another English test.
-
 ### B2
 
-To join the Piscine, trainees need to be at level B2.
+To join Introduction to Programming, the lowest level we can work with is B2. If you continue in our course, you will later take another English test.
 
 ### C1
 
