@@ -1,35 +1,50 @@
 +++
 title ="Step 3: What to do"
-description= "Learn HTML and CSS fundamentals with Khan Academy"
+description= "Evaluate data with Google Sheets"
 emoji= "🤖"
-time= 480
+time= 120
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9i83JvV6Cdo?si=jkSSHxEfr1fiV3Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Overview
 
-Learn HTML and CSS by completing Unit 2 of [Khan Academy](https://www.khanacademy.org)'s Computer Programming course. You don't need to know anything about coding to start - it's good for complete beginners. There are 9 lessons in Unit 2. The [video playlist](https://www.youtube.com/playlist?list=PLC51FJvpvRvyK3n1d-Kth7ldHO__Tpygr) is ~2 hours long, and the whole course will take 4-10 hours. This course is completely free.
+This exercise aims to:
+  - Introduce the basics of analysing and visualising data in Google Sheets
+  - Train you to follow instructions carefully and pay close attention to detail
 
-1. Create an [account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
-1. Go to the course: [Computer Programming: Unit 2](https://www.khanacademy.org/computing/computer-programming/html-css) HTML/CSS Making webpages
-1. Follow along and build the projects.
-1. Deploy the Lesson 6 project "Event Invitation" to GitHub Pages and share the link in the submission form
+<!-- {{<note type="note" title="Note">}}-->
+An important quality of IT professionals is the ability to follow instructions (whether written or in video format) with precision, paying close attention to minor details such as letter case and exact spacing. This level of accuracy ensures functionality, consistency, and professionalism in their work.
+<!--{{</note>}}-->
 
-#### The 4 projects you will do are:
+### What Should You Do?
 
-1. Project: Travel webpage
-1. Project: Recipe book
-1. Project: Blog
-1. Project: Event invite
-
-#### The project you will deploy to GitHub Pages is:
-
-4. Project: [Event invite](https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite)
+##### 1. Watch the videos in the Google short course to prepare a Google Sheet
 
 {{<blocklink
-  src="https://www.khanacademy.org/computing/computer-programming/html-css"
-  name="Computer Programming: Unit 2"
-  caption="Khan Academy">}}
+  src="https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/try-a-career-in-data-analytics/overview.html"
+  name="Try a Career in Data Analytics"
+  caption="Google Applied Digital Skills"
+  time="90">}}
+
+{{<note type="note" title="Note">}}
+This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners. Come to CYF workshops to get help and to work with other applicants on your project.
+{{</note>}}
+
+1. Watch the videos in the _"Try a Career in Data Analytics"_ short course.
+2. Follow the instructions in the videos to clone a Google Sheet with the dataset.
+3. Carefully follow the instructions in the videos to prepare the resulting Google Sheet.
+
+##### 2. Put your name in the Google Sheet name 
+
+Include your given name or your family name in the title of the Google Sheet.
+
+##### 3. Make your Google Sheet public
+
+Change the sharing settings of your Google Sheet to "Anyone with the link can view".
+
+##### 4. Submit the Google Sheet link
+
+Submit the link to the Google Sheet in Step 3 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).

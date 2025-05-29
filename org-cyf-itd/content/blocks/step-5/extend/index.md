@@ -1,8 +1,8 @@
 +++
-title ="Step 1: Extend Your Skills"
-description= "Explore and develop professional English speaking and writing"
-emoji= "💪🏾"
-time= 5
+title ="Step 5: Extend Your Skills"
+description= "Deploy your personal home page to GitHub Pages"
+emoji= "🤖"
+time= 60
 [build]
   render = 'never'
   list = 'local'
@@ -11,8 +11,4 @@ time= 5
 
 #### Use your new skill in real life:
 
-This optional step is just for you. You don't need to submit it. Next, complete the lessons in [BBC Learning English: Office English](https://www.bbc.co.uk/learningenglish/english/business-english).
-
-{{<note type="tip" title="Do the stretch">}}
-We know that people who do well on our courses make sure they are secure in their understanding before they move on.
-{{</note>}}
+This step is just for you. You don't need to submit it. Next, deploy your personal home page to GitHub Pages, using what you learned in Khan Academy.
