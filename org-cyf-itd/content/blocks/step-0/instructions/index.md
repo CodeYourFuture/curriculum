@@ -18,7 +18,7 @@ The CodeYourFuture Intro to Digital Slack (ITD Slack) is an environment where yo
 
 ##### 1. Join the ITD Slack
 
-To join the ITD Slack, click the **invitation link** on Step 0 at the CYF [CYF Course Platform](https://application-process.codeyourfuture.io/).
+To join the ITD Slack, click the **invitation link** in Step 0 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
 > Read the [Slack tutorial](https://slack.com/intl/en-gb/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide) to get started on Slack.
