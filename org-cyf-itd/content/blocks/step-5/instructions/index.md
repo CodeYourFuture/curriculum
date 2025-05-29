@@ -16,7 +16,7 @@ time= 300
 In this exercise, you must build your own homepage on CodePen that meets some specific requirements. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
 
 {{<note type="tip" title="Tip">}}
-- Make good use of web search and AI
+- Make good use of web search and AI.
 {{</note>}}
 
 ### What Should You Do?
@@ -26,7 +26,7 @@ In this exercise, you must build your own homepage on CodePen that meets some sp
 
 ##### 2. Fork the CYF starter page
 
-1. Fork (make a copy of) the CYF starter page, [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod), to your own CodePen account.
+1. Fork (make a copy of) the CYF starter page [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod) to your own CodePen account.
     - Here are the [instructions to fork a CodePen page](https://blog.codepen.io/documentation/forks/).
     - Make sure you're logged into CodePen when you fork the page so that your work is saved.
  
@@ -73,7 +73,7 @@ _Then_ the HTML is valid
 
 ##### 5. Submit your CodePen page link  
 
-- Submit the link to your CodePen page on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Submit the link to your CodePen page in Step 5 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
 > [!TIP]
 > Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.

@@ -9,9 +9,9 @@ time= 10
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check that it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes needed to meet the criteria.
 
-Here is the criteria you need to meet:
+Here are the criteria you need to meet:
 
 ```objectives
 - You have submitted your answers in the "Slack and Search Engine Exercise" and scored at least 25/30.

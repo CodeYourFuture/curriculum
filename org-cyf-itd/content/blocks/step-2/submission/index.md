@@ -11,7 +11,7 @@ time= 5
 
 ### Submission
 
-You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/)
+You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
 1. Submit a link to your Google Doc
 

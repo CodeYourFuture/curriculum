@@ -9,10 +9,12 @@ time= 5
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check that it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes needed to meet the criteria.
+
+Here are the criteria you need to meet:
 
 ```objectives
-- You have taken the Duolingo Practice test.
+- You have taken the Duolingo Practice Test.
 - Your score is 100 or higher, which is equivalent to level B2 or above.
 - You have uploaded a screenshot of your Duolingo test result.
 ```

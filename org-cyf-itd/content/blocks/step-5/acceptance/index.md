@@ -9,14 +9,14 @@ time= 20
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check that it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes needed to meet the criteria.
 
-Here is the criteria you need to meet:
+Here are the criteria you need to meet:
 
 ```objectives
-- You prepared your homepage on a CodePen page forked from the CYF template
-- Your homepage must include the original JavaScript code provided in the CYF template
-- Your homepage must meet the following Given/When/Then criteria
+- You have prepared your homepage on a CodePen page forked from the CYF template
+- Your homepage includes the original JavaScript code provided in the CYF template
+- Your homepage meets the following Given/When/Then criteria
 ```
 
 **Given a personal homepage**

@@ -9,14 +9,14 @@ time= 10
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check that it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes needed to meet the criteria.
 
-Here is the criteria you need to meet:
+Here are the criteria you need to meet:
 
 ```objectives
 - You have generated a cover letter for Jane using AI
 - You have saved the cover letter in a Google Docs document
 - You have added your name to the document's file name
-- You have made the document public
+- You have made the document accessible to anyone with the link
 - You have submitted the link to the document on the CYF Course Platform
 ```

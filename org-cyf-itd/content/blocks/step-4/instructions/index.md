@@ -88,4 +88,4 @@ Use these resources to learn
 
 ##### 7. Submit your webpage link  
 
-- Submit the link on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Submit the link to your webpage in Step 4 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).

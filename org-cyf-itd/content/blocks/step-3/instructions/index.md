@@ -11,7 +11,7 @@ time= 120
 
 ### Overview
 
-This exercise aims to 
+This exercise aims to:
   - Introduce the basics of analysing and visualising data in Google Sheets
   - Train you to follow instructions carefully and pay close attention to detail
 
@@ -33,7 +33,7 @@ An important quality of IT professionals is the ability to follow instructions (
 This short course from Google will teach you how to analyse and visualise data in Google Sheets. It is suitable for beginners. Come to CYF workshops to get help and to work with other applicants on your project.
 {{</note>}}
 
-1. Watch the videos in the "Try a Career in Data Analytics" short course.
+1. Watch the videos in the _"Try a Career in Data Analytics"_ short course.
 2. Follow the instructions in the videos to clone a Google Sheet with the dataset.
 3. Carefully follow the instructions in the videos to prepare the resulting Google Sheet.
 
@@ -43,8 +43,8 @@ Include your given name or your family name in the title of the Google Sheet.
 
 ##### 3. Make your Google Sheet public
 
-Change the sharing settings of your Google Sheet to "Anyone with the link can view."
+Change the sharing settings of your Google Sheet to "Anyone with the link can view".
 
 ##### 4. Submit the Google Sheet link
 
-Submit the link to the Google Sheet on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Submit the link to the Google Sheet in Step 3 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).

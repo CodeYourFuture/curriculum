@@ -25,7 +25,7 @@ To join the ITD Slack, click the **invitation link** in Step 0 on the [CYF Cours
 
 ##### 2. Update your Slack profile
 
-Please use a consistent professional name on Slack and add a consistent profile picture. We ask this so we can recognise each other. You don't have to share any information you are not comfortable with.
+Please use a consistent, professional name on Slack and add a consistent profile picture. We ask this so we can recognise each other. You don't have to share any information you are not comfortable with.
 
 {{<note type="tip" title="Search the Web">}}
 `How to update Slack profile`
@@ -34,11 +34,11 @@ Please use a consistent professional name on Slack and add a consistent profile 
 
 ##### 3. Introduce yourself on Slack
 
-Visit the [`#introduce-yourself-to-codeyourfuture`](https://cyf-introtodigital.slack.com/archives/CQ8HYL25C) channel, and post a message introducing yourself.
+Visit the [`#introduce-yourself-to-codeyourfuture`](https://cyf-introtodigital.slack.com/archives/CQ8HYL25C) channel and post a message introducing yourself.
 
 ##### 4. Take a screenshot of your introduction
 
-Your screenshot should shows the channel name and your message.
+Your screenshot should show the channel name and your message.
 
 Here are sample screenshots taken on a desktop and a smartphone.
 
@@ -46,5 +46,4 @@ Here are sample screenshots taken on a desktop and a smartphone.
 
 ##### 5. Submit your screenshot 
 
-Upload your screenshot on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
-
+Upload your screenshot in Step 0 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).

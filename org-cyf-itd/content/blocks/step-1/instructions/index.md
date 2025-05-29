@@ -11,12 +11,13 @@ time= 60
 
 ### Overview
 
-- **Slack** is a professional communication and collaboration tool widely used across industries, especially in tech.
-- **Search engines** (such as Google Search) are powerful tools that IT professionals rely on to quickly find solutions and troubleshoot issues.
+**Slack** is a professional communication and collaboration tool widely used across industries, especially in tech.
 
-- This exercise aims to help you 
-  - Become familiar with Slack so you can use it effectively in CodeYourFuture's courses and also in a professional setting
-  - Enhance self-sufficiency in finding solutions using search engines
+**Search engines** (such as Google Search) are powerful tools that IT professionals rely on to quickly find solutions and troubleshoot issues.
+
+This exercise aims to help you:
+  - Become familiar with Slack so you can use it effectively in CodeYourFuture's courses and in a professional setting
+  - Enhance your self-sufficiency in finding solutions using search engines
 
 ### What Should You Do?
 
@@ -24,9 +25,9 @@ time= 60
 
 Answer the questions on the [Slack and Search Engine Exercise](https://forms.gle/hmz1qU8ZPDJTNYpa6) until you **score at least 25/30**.
 
-##### 2. Save your result in the Score Summary Page to a PDF file
+##### 2. Save your result from the Score Summary Page as a PDF file
   
-Use your browser's **print** function to print/save the Score Summary Page to a PDF file.
+Use your browser's **print** function to save the Score Summary Page as a PDF file.
 
 {{<note type="tip" title="Search the Web">}}
 `How to print a webpage to a PDF file using a browser`
@@ -34,4 +35,4 @@ Use your browser's **print** function to print/save the Score Summary Page to a 
 
 ##### 3. Submit the PDF file
 
-Upload the PDF file to the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Upload the PDF file in Step 1 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
