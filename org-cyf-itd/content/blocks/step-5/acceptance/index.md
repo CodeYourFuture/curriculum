@@ -1,7 +1,7 @@
 +++
-title ="Step 4: How to check your work"
-description= "How to check your work"
-emoji= "🤖"
+title ="Step 5: How to check your work"
+description= "Acceptance criteria for step five"
+emoji= "✅"
 time= 20
 [build]
   render = 'never'
@@ -9,11 +9,17 @@ time= 20
   publishResources = false 
 +++
 
-We have written this criteria in a special format called _Given/When/Then_ . It is called a "specification".
+A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
 
-Here are the acceptance criteria for your project:
+Here is the criteria you need to meet:
 
-### Given a personal home page
+```objectives
+- You prepared your homepage on a CodePen page forked from the CYF template
+- Your homepage must include the original JavaScript code provided in the CYF template
+- Your homepage must meet the following Given/When/Then criteria
+```
+
+**Given a personal homepage**
 
 **When** I look in the test console  
 _Then_ all 10 tests are passing
@@ -27,8 +33,6 @@ _Then_ the design is unique and the images are displayed properly
 **When** I play the video on the page
 _Then_ the video can play normally
 
-**When** I [validate the HTML](https://validator.w3.org/#validate_by_input+with_options)  
+**When** I validate the HTML
 _Then_ the HTML is valid
 
-> [!TIP]
-> Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.

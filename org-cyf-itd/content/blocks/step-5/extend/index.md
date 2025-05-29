@@ -1,5 +1,5 @@
 +++
-title ="Step 4: Extend Your Skills"
+title ="Step 5: Extend Your Skills"
 description= "Deploy your personal home page to GitHub Pages"
 emoji= "🤖"
 time= 60
