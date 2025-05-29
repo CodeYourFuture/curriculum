@@ -1,6 +1,6 @@
 +++
-title ="Step 2: How to check your work"
-description= "Acceptance criteria for the Google Sheets course"
+title ="Step 3: How to check your work"
+description= "Acceptance criteria for step three"
 emoji= "✅"
 time=10
 [build]
@@ -14,9 +14,9 @@ A volunteer will review your submission and check it meets the acceptance criter
 Here is the criteria you need to meet:
 
 ```objectives
-- My spreadsheet can be viewed by anyone on the internet
-- My spreadsheet includes my name in the title
-- My spreadsheet contains a sheet where the song data is sorted by music genre
-- My spreadsheet contains a sheet where the average age of listeners for each genre is calculated with a formula and displayed in a graph
-- I have shared a link to my spreadsheet
+- Your Google Sheet contains a sheet where the song data is sorted by music genre
+- Your Google Sheet contains a sheet where the average age of listeners for each genre is calculated using a formula and displayed in a graph
+- You have added your name to the Google Sheet's file name
+- You have made the Google Sheet public
+- You have submitted the link to the Google Sheet on the CYF Course Platform
 ```
