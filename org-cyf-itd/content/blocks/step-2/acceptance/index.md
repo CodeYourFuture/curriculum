@@ -18,5 +18,5 @@ Here is the criteria you need to meet:
 - You have saved the cover letter in a Google Docs document
 - You have added your name to the document's file name
 - You have made the document public
-- You have submitted the link to the document to the CYF Course Platform
+- You have submitted the link to the document on the CYF Course Platform
 ```

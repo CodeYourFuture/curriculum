@@ -95,4 +95,4 @@ Change the sharing settings of your Google Doc to "Anyone with the link can view
 
 ##### 6 Submit the Google Doc link
 
-Submit the link to the Google Doc to the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Submit the link to the Google Doc on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
