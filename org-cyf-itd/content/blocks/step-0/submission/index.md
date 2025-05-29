@@ -11,6 +11,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course Platform](https://application-process.codeyourfuture.io/)
+You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/)
 
 1. Upload a screenshot of your introduction on Slack
