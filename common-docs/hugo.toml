@@ -18,30 +18,30 @@ title = "The longed for documentation"
     [[module.imports.mounts]]
       source = "content/"
       target = "content/more-sources/mounted/pd"
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/CYF-Workshops/micro-front-end" 
-    [[module.imports.mounts]]
-      source = "content/"
-      target = "content/more-sources/mounted/workshops"
+#[[module.imports]]
+#path = "github.com/CodeYourFuture/CYF-Workshops/micro-front-end" 
+#[[module.imports.mounts]]
+#source = "content/"
+# target = "content/more-sources/mounted/workshops"
   [[module.imports]]
     path = "github.com/CodeYourFuture/CYF-Projects/micro-front-end" 
     [[module.imports.mounts]]
       source = "content/"
       target = "content/more-sources/mounted/projects"
 
-[menus]
-    [[menus.secondary]]
-        name = "Guides 👈🏾"
-        weight = 1
-        url = "/guides"
-     [[menus.secondary]]
-        name = "About Us 👋🏿"
-        weight = 2
-        url = "migracode.org"
-    [[menus.secondary]]
-        name = "About our NGO OCC 🫶🏼"
-        weight = 3
-        url = "openculturalcenter.org"    
+# [menus]
+#   [[menus.secondary]]
+#      name = "Guides 👈🏾"
+#       weight = 1
+#       url = "/guides"
+#     [[menus.secondary]]
+#        name = "About Us 👋🏿"
+#       weight = 2
+#        url = "https://migracode.org/"
+#    [[menus.secondary]]
+#        name = "About our NGO OCC 🫶🏼"
+#        weight = 3
+#        url = "https://migracode.org/"    
 
 [params]
 googleFonts="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Oswald:wght@400;700&display=swap"
