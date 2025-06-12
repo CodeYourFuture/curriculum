@@ -12,13 +12,14 @@ class SoloView extends HTMLElement {
       fragment: null,
       touchStartX: 0,
       touchEndX: 0,
-    };
-    // Adding window and doc event listeners
+    };    // Adding window and doc event listeners
     window.addEventListener(
       "hashchange",
-      { passive: true },
-      this.handleFragment.bind(this)
+      this.handleFragment.bind(this),
+      { passive: true }
     );
+    // Note: We're keeping document keydown listener for wider page coverage
+    // but the handler will now check for editable elements
     document.addEventListener("keydown", this.handleKeydown.bind(this));
   }
 
@@ -78,7 +79,11 @@ class SoloView extends HTMLElement {
       { passive: true }
     );
 
-    this.addEventListener("keydown", this.handleKeydown, { passive: true });
+    this.addEventListener(
+      "keydown",
+      this.handleKeydown,
+      { passive: false } // Changed from true to false so we can call preventDefault when appropriate
+    );
   }
 
   // Update current block index
@@ -118,11 +123,20 @@ class SoloView extends HTMLElement {
       this.navigateNext(new Event("swipe"));
     }
   };
-
   handleKeydown = (event) => {
+    // Don't intercept arrow keys if they occurred in a form control that uses arrow keys
+    const target = event.target;
+    if (target.tagName === 'TEXTAREA' || 
+        target.tagName === 'INPUT' || 
+        target.tagName === 'SELECT' || 
+        target.isContentEditable) {
+      return; // Allow default behavior for arrow keys in editable elements
+    }
+
     if (event.key === "ArrowLeft") {
       this.navigateBack(event);
     }
+
     if (event.key === "ArrowRight") {
       this.navigateNext(event);
     }
