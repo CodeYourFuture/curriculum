@@ -64,6 +64,11 @@ Attendees: Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Karen
 
 - [ ] Barath: look at tic-tac-toe workshop explaining the breaking down of the problem
 - [ ] CJ: look into a workshop around the structuring code around the idea of testability
+- [ ] Daniel: Work with the dashboard team to make "see the curriculum" more clear at the start of ITP (Karen has a plan)
+- [ ] Jay: Rename / maybe modify module prep to prereqs
+- [ ] Anna: Start putting together a new GenAI ITD step
+- [ ] All: Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [ ] Daniel: Find out if we can get an AI note-taker
 
 ---
 
