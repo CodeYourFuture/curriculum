@@ -11,6 +11,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
+You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Share a link to your personal homepage on CodePen with all the tests passing
+1. Submit a link to your Event Invite webpage on GitHub Pages

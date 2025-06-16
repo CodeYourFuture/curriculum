@@ -28,7 +28,7 @@ What else you do on your computer and phone? What information is there? And wher
 
 Most databases arrange data into **columns** and **rows**.
 
-| column 1 | column 1 |
+| column 1 | column 2 |
 | -------- | -------- |
 | row 1    | row 1    |
 | row 2    | row 2    |

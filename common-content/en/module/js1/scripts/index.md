@@ -23,7 +23,7 @@ So the computer will read and execute the program one line at a time:
 
 ```js
 const yearOfBirth = 1990; // declaration
-const currentYear = 2023; // declaration
+let currentYear = 2023; // declaration
 
 currentYear++; // statement
 `I am ${currentYear - yearOfBirth} years old`; // statement
