@@ -21,4 +21,4 @@ You can go to this environment directly by replacing `github.com` with `github.d
 https://github.dev/CodeYourFuture/Module-Onboarding
 
 > [!TIP]
-> If you do have a computer, you should set up VSCode and a local environment. This is a workaround for people who don't yet have the luxury of a personal computer.
+> If you do have a computer, you should set up VSCode and a local environment. This is a workaround for people who don't yet have the luxury of a personal computer. This also includes borrowing a laptop from MigraCode (-you are allowed to install VS Code and all necessary softwares on MigraCode laptops.)

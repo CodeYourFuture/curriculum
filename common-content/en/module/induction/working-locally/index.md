@@ -13,7 +13,9 @@ emoji= '🏠'
 
 +++
 
-Here is a diagram representing how the repositories interact after forking and cloning:
+### 📌 Understanding Forking and Cloning
+
+Here is a diagram representing how repositories interact after forking and cloning:
 
 ```mermaid
 flowchart TD
@@ -38,28 +40,34 @@ flowchart TD
     linkStyle 0,1 stroke:#0d6efd,stroke-width:2px
 ```
 
-Sketch this diagram in your notebook. When you inevitably get mixed lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
+Sketch this diagram in your notebook. When you inevitably get confused about where your changes live, this visual will help you understand the flow of changes between repositories.
 
-> [!NOTE]
-> If you're working on a library computer, just fork the repo to your own GitHub account. You can't clone a repo on a library computer, so come to class to try cloning out. You can explore the files using dot dev in the same way as you would in Visual Studio Code.
+> \[!NOTE]
+> If you're using a **library computer**, you can fork the repository to your GitHub account, but you **won’t be able to clone it locally**. Come to class to try cloning on your own machine. In the meantime, you can explore the files using [GitHub.dev](https://github.dev) just as you would in Visual Studio Code.
 
-We can also use Git on our local machine to perform similar tasks as we do on GitHub. So we need to address the following question:
+---
 
-> How can we get a copy of an existing GitHub repository on our local machine?
+In addition to using GitHub through the browser, we can also use **Git on our local machine** to perform similar tasks. So, here's the key question:
 
-In other words, we need to get a {{<tooltip title="local copy">}}A repository on GitHub is said to be **remote**. A repository on our own computer is said to be **local**.{{</tooltip>}} of the repository which is on GitHub.
+> **How can we get a copy of an existing GitHub repository onto our local computer?**
 
-We call a local copy of a GitHub repository a **clone**. The process of copying a remote repository on to a local machine is called **cloning**.
+In Git terms, this means creating a {{<tooltip title="local copy">}}A repository on GitHub is a **remote** repository. A version of it on your own computer is called a **local** repository.{{</tooltip>}}.
 
-### 🎯 Goal: Clone a remote repository to your local machine
+The process of copying a remote repository to your local machine is called **cloning**. The resulting copy is referred to as a **clone**.
 
-You'll need to clone **your fork** of the education blog repo. Follow through the steps in the video "How to clone a repository from GitHub to Visual Studio Code".
+---
 
-{{<youtube>}}https://www.youtube.com/watch?v=ILJ4dfOL7zs{{</youtube>}}
+### 🌟 Goal: Clone a remote repository to your local machine
 
-<hr>
+You’ll need to **clone your fork** of the education blog repository. Follow along with this video for step-by-step instructions:
+---
 
 ##### 🎗️ Reminder:
 
-- Use the URL for your fork of the `education-blog` repo when you are cloning
-- When selecting the location to clone your files, choose the `CYF` folder you created in the [module prep](/user-data/prep/#create-cyf-folder)
+* Make sure you’re cloning **your fork** of the `education-blog` repository (not the original).
+* Choose the `MCB` folder you created in the [module prep](/user-data/prep/#create-cyf-folder) as the destination for your clone.
+
+---
+
+> 💡 **Industry Insight:**
+> While forking is useful for learning, **companies typically don’t use forking** when working on internal projects. Instead, developers clone the original (or central) repository and collaborate by creating branches and pull requests within that shared repo. Forking creates a separate copy under your own account.
