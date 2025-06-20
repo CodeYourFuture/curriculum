@@ -6,8 +6,8 @@ emoji = "📅"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-name="TBC"
-src="module/business-analysis/requirements"
+name="Design mindset"
+src="module/business-analysis/design-mindset"
 [[blocks]]
 name="TBC"
 src="module/business-analysis/system-boundaries"
