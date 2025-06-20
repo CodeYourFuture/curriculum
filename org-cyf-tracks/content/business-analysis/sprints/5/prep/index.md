@@ -18,12 +18,6 @@ src="module/business-analysis/change-mgmt"
 name="Prioritisation"
 src="module/business-analysis/prioritisation"
 [[blocks]]
-name=" TBC"
-src="module/business-analysis/data-modelling"
-[[blocks]]
-name="TBC "
-src="module/business-analysis/design-solution"
-[[blocks]]
 name="Presentation"
 src="module/business-analysis/presentation"
 +++
