@@ -15,8 +15,8 @@ src="module/business-analysis/design-principles"
 name="UX Design"
 src="module/business-analysis/ux-design"
 [[blocks]]
-name="TBC"
-src="module/business-analysis/use-case-prep"
+name="Functional architechture"
+src="module/business-analysis/functional-architechture"
 [[blocks]]
 name="TBC"
 src="module/business-analysis/specification"
