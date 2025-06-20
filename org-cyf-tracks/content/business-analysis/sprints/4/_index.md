@@ -1,9 +1,9 @@
 +++
-title = "Sprint 1"
+title = "Sprint 4"
 description = "Business Analysis"
 layout = "sprint"
 emoji= "⏱️"
 menu_level = ["module"]
 weight = 1
-theme = "Discovering Customer Needs"
+theme = "Transforming Requirements to Solution Design"
 +++
