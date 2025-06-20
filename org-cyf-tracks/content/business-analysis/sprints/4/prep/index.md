@@ -1,27 +1,27 @@
 +++
 title = "prep"
-description = "Specifying the solution"
+description = "Transforming requirements to solution design"
 layout = "prep"
 emoji = "📅"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-name="Requirements"
+name="TBC"
 src="module/business-analysis/requirements"
 [[blocks]]
-name="System boundaries"
+name="TBC"
 src="module/business-analysis/system-boundaries"
 [[blocks]]
-name="Epics"
+name="TBC"
 src="module/business-analysis/epics"
 [[blocks]]
-name="Use case"
+name="TBC"
 src="module/business-analysis/use-case-prep"
 [[blocks]]
-name="Specification"
+name="TBC"
 src="module/business-analysis/specification"
 [[blocks]]
-name="Acceptance criteria"
+name="TBC"
 src="module/business-analysis/acceptance-criteria"
 [[blocks]]
 name="Presentation"
