@@ -9,8 +9,8 @@ weight = 1
 name="Design mindset"
 src="module/business-analysis/design-mindset"
 [[blocks]]
-name="TBC"
-src="module/business-analysis/system-boundaries"
+name="Design principles"
+src="module/business-analysis/design-principles"
 [[blocks]]
 name="TBC"
 src="module/business-analysis/epics"
