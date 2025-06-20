@@ -1,10 +1,10 @@
 +++
-title = "Responsibilities"
+title = "BA Responsibilities"
 
-time = 20
+time = 30
 emoji = "🤖"
 objectives = [
-    "Describe the key responsibilities of a Business Analyst within different product development methodologies (e.g., Agile, Waterfall)",
+    "Trainees will learn about the key responsibilities of a Business Analyst and also how the application and timing of BA activities vary under different product development methodologies (e.g., Agile, Waterfall)",
 ]
 [build]
   render = "never"
@@ -12,4 +12,4 @@ objectives = [
   publishResources = false
 +++
 
-Business Analysis do TODO.
+Read about and describe the Business Analyst role in product development, and name any differences you identify in how BA activities are performed with an agile approach, such as Scrum.

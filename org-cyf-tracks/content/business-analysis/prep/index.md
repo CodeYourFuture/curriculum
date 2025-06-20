@@ -7,5 +7,5 @@ menu_level = ["sprint"]
 weight = 1
 [[blocks]]
 name="Use_case"
-src="module/business-analysis/role-responsibilities"
+src="module/business-analysis/use-case/index.md"
 +++
