@@ -1,7 +1,8 @@
 +++
 title = "Business Analysis"
-description = "TODO"
+description = "Discovering Customer Needs"
 layout = "module"
 emoji= "🤝"
 track_kinds = ["jobs-after-itp"]
+theme = "Tracks"
 +++
