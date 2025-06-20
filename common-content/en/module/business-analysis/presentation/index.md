@@ -4,8 +4,8 @@ title = "Present your learnings"
 time = 60
 emoji = "🤖"
 objectives = [
-    "Ability to present finding from a business analysis perspective.",
-    "Present and discuss the latest learnings on the sprint"
+    "Present finding from a business analysis perspective.",
+    "Present and discuss the latest learnings on the sprint.",
 ]
 [build]
   render = "never"

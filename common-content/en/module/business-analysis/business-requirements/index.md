@@ -4,7 +4,8 @@ title = "User research"
 time = 60
 emoji = "🤖"
 objectives = [
-    "Awareness of document archaeology and basic techniques for data analysis (e.g., survey results, sales figures) as a means to identify potential business gaps or areas for improvement."
+    "Define document archaeology",
+    "Compare basic techniques for data analysis (e.g., survey results, sales figures) as a means to identify potential business gaps or areas for improvement.",
 ]
 [build]
   render = "never"
