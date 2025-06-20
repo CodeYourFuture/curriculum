@@ -1,13 +1,13 @@
 +++
 title = "Day-plan"
-description = "Discovering customer needs"
+description = "TODO"
 layout = "day-plan"
 emoji = "📅"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/introduce-yourself"
+src="energisers/popcorn-screen-share"
 time=20
 [[blocks]]
 name="Presentation: round 1"
