@@ -10,33 +10,25 @@ name="Energiser"
 src="energisers/slack-libs"
 time=20
 [[blocks]]
-name="Presentation: round 1"
-src="module/business-analysis/presentation"
-time=60
-[[blocks]]
-name="Morning break"
-src="blocks/morning-break"
-time=15
-[[blocks]]
-name="Presentation: round 2"
-src="module/business-analysis/presentation"
-time=60
+name="New Use case"
+src="module/business-analysis/new-use-case"
+time=120
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 time=60
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="90"
+name="Presentation: round 1"
+src="module/business-analysis/presentation"
+time=60
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
 time=15
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="60"
+name="Presentation: round 2"
+src="module/business-analysis/presentation"
+time=60
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
