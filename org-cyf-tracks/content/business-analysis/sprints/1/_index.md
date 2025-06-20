@@ -1,6 +1,6 @@
 +++
 title = "Sprint 1"
-description = "TODO"
+description = "Business Analysis"
 layout = "sprint"
 emoji= "⏱️"
 menu_level = ["module"]
