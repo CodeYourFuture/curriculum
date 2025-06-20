@@ -25,5 +25,6 @@ Understand:
 
 3. Idenitfy possible scope changes that could happen on the use case you are working on. How would you deal with them? And who would have to be informed?
 
-4. Idenitfy how you would work with the Change management team on the use case you are working on.
+4. Outline 3 ways a BA would support the launch (rollout activities).
+
 

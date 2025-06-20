@@ -1,6 +1,6 @@
 +++
 title = "Day-plan"
-description = "TODO"
+description = "Putting it all together"
 layout = "day-plan"
 emoji = "📅"
 menu_level = ["sprint"]

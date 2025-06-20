@@ -5,5 +5,5 @@ layout = "sprint"
 emoji= "⏱️"
 menu_level = ["module"]
 weight = 1
-theme = "Are you ready to be a BA?"
+theme = "Putting it all together"
 +++
