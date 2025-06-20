@@ -4,7 +4,8 @@ title = "Stakeholder mapping"
 time = 45
 emoji = "🤖"
 objectives = [
-    "Trainees should be aware of potential stakeholders in a project/product context and know how to tailor communication approaches for different stakeholder types",
+    "Identify potential stakeholders in a project/product context" 
+    "Be able to tailor communication approaches for different stakeholder types",
 ]
 [build]
   render = "never"
