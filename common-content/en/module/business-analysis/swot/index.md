@@ -4,7 +4,7 @@ title = "SWOT Analysis"
 time = 45
 emoji = "🤖"
 objectives = [
-    "Understand how to gather information about a given business's current business situation and how to summarise their findings, for example, with the help of SWOT analysis"
+    "Gather and summarise information about a business's current business situation, for example with the help of SWOT analysis",
 ]
 [build]
   render = "never"
