@@ -15,4 +15,4 @@ objectives = [
 
 Read about common user research methods, including interviews, surveys and usability testing 
 
-Choose a research method for the BrightStar case study and explain why it is an appropriate choice in that context
+- Choose a research method for the BrightStar case study and explain why it is an appropriate choice in that context

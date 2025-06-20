@@ -11,4 +11,13 @@ src="module/business-analysis/role-responsibilities"
 [[blocks]]
 name="Stakeholder mapping"
 src="module/business-analysis/stakeholder-mapping"
+[[blocks]]
+name="User research"
+src="module/business-analysis/user-research"
+[[blocks]]
+name="Communicating effectively"
+src="module/business-analysis/communication"
+[[blocks]]
+name="SWOT Analysis"
+src="module/business-analysis/swot"
 +++
