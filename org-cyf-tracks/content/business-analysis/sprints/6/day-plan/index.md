@@ -19,7 +19,7 @@ src="blocks/lunch"
 time=60
 [[blocks]]
 name="Presentation: round 1"
-src="module/business-analysis/presentation"
+src="module/business-analysis/demo"
 time=60
 [[blocks]]
 name="Afternoon Break"
@@ -27,7 +27,7 @@ src="blocks/afternoon-break"
 time=15
 [[blocks]]
 name="Presentation: round 2"
-src="module/business-analysis/presentation"
+src="module/business-analysis/demo"
 time=60
 [[blocks]]
 name="Wrap"

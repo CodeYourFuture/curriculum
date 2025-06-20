@@ -11,7 +11,7 @@ src="energisers/popcorn-screen-share"
 time=20
 [[blocks]]
 name="Presentation: round 1"
-src="module/business-analysis/presentation"
+src="module/business-analysis/demo"
 time=60
 [[blocks]]
 name="Morning break"
@@ -19,7 +19,7 @@ src="blocks/morning-break"
 time=15
 [[blocks]]
 name="Presentation: round 2"
-src="module/business-analysis/presentation"
+src="module/business-analysis/demo"
 time=60
 [[blocks]]
 name="Lunch"
