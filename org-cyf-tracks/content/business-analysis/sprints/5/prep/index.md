@@ -15,8 +15,8 @@ src="module/business-analysis/measure-success"
 name="Change Management"
 src="module/business-analysis/change-mgmt"
 [[blocks]]
-name="BC TBC"
-src="module/business-analysis/functional-architechture"
+name="Prioritisation"
+src="module/business-analysis/prioritisation"
 [[blocks]]
 name=" TBC"
 src="module/business-analysis/data-modelling"
