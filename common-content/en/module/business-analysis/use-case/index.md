@@ -14,7 +14,7 @@ objectives = [
 
 BrightStar Department Stores  - Digital Transformation Overview
 
-1. Introduction: Your New Assignment
+### Introduction: Your New Assignment
 As a Business Analyst at a major consultancy company, you will work on a modernisation project for BrightStar Department Stores, a major retail chain. This project focuses on challenges that businesses face in the digital age. You should read the whole document before working on the coursework. If you have any questions, write them down and contact the product owner to clarify this brief.
 
 2. Client Background: BrightStar Department Stores 
