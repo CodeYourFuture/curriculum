@@ -9,10 +9,10 @@ weight = 1
 name="Agile and others"
 src="module/business-analysis/agile"
 [[blocks]]
-name="Measure Success "
+name="Measure Success"
 src="module/business-analysis/measure-success"
 [[blocks]]
-name="Change Management "
+name="Change Management"
 src="module/business-analysis/change-mgmt"
 [[blocks]]
 name="BC TBC"
