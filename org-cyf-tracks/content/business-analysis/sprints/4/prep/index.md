@@ -21,8 +21,8 @@ src="module/business-analysis/functional-architechture"
 name="Data modelling"
 src="module/business-analysis/data-modelling"
 [[blocks]]
-name="TBC"
-src="module/business-analysis/acceptance-criteria"
+name="Design solution"
+src="module/business-analysis/design-solution"
 [[blocks]]
 name="Presentation"
 src="module/business-analysis/presentation"
