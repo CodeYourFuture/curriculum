@@ -4,7 +4,7 @@ title = "Stakeholder mapping"
 time = 45
 emoji = "🤖"
 objectives = [
-    "Identify potential stakeholders in a project/product context" 
+    "Identify potential stakeholders in a project/product context", 
     "Be able to tailor communication approaches for different stakeholder types",
 ]
 [build]
