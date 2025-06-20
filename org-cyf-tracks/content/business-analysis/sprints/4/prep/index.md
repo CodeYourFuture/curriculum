@@ -18,8 +18,8 @@ src="module/business-analysis/ux-design"
 name="Functional architechture"
 src="module/business-analysis/functional-architechture"
 [[blocks]]
-name="TBC"
-src="module/business-analysis/specification"
+name="Data modelling"
+src="module/business-analysis/data-modelling"
 [[blocks]]
 name="TBC"
 src="module/business-analysis/acceptance-criteria"
