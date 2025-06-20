@@ -4,7 +4,8 @@ title = "BA Responsibilities"
 time = 30
 emoji = "🤖"
 objectives = [
-    "Trainees will learn about the key responsibilities of a Business Analyst and also how the application and timing of BA activities vary under different product development methodologies (e.g., Agile, Waterfall)",
+    "Describe the key responsibilities of a Business Analyst",
+    "Explain when a Business Analyst would be involved in a project.",
 ]
 [build]
   render = "never"
