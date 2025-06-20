@@ -18,4 +18,4 @@ The principles of good design extend beyond software design, as you can read abo
 
 2. How might these apply in the context of software development? 
 
-3. Compare your answers with these ideas from the Digital Design Manifesto? 
+3. Compare your answers with these ideas from the [Digital Design Manifesto](https://ddp.ireb.org/en/downloads-and-resources/downloads#digital-design-manifest)? 

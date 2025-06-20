@@ -12,8 +12,8 @@ src="module/business-analysis/design-mindset"
 name="Design principles"
 src="module/business-analysis/design-principles"
 [[blocks]]
-name="TBC"
-src="module/business-analysis/epics"
+name="UX Design"
+src="module/business-analysis/ux-design"
 [[blocks]]
 name="TBC"
 src="module/business-analysis/use-case-prep"
