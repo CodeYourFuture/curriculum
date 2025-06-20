@@ -20,4 +20,10 @@ src="module/business-analysis/communication"
 [[blocks]]
 name="SWOT Analysis"
 src="module/business-analysis/swot"
+[[blocks]]
+name="Business Requirements"
+src="module/business-analysis/business-requirements"
+[[blocks]]
+name="Presentation"
+src="module/business-analysis/presentation"
 +++
