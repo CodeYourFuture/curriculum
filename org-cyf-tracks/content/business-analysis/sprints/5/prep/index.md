@@ -12,8 +12,8 @@ src="module/business-analysis/agile"
 name="Measure Success "
 src="module/business-analysis/measure-success"
 [[blocks]]
-name="TBC "
-src="module/business-analysis/ux-design"
+name="Change Management "
+src="module/business-analysis/change-mgmt"
 [[blocks]]
 name="BC TBC"
 src="module/business-analysis/functional-architechture"
