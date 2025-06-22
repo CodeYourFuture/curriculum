@@ -1,0 +1,48 @@
+<style type="text/css">
+    th, td {
+        border: 1px black solid;
+    }
+
+    td.attendance-absent {
+        background-color: #ff0d0d57;
+    }
+    
+    td.attendance-present {
+        background-color: rgba(68, 238, 142, 0.5);
+    }
+    td.attendance-late {
+        background-color: #ee784480;
+    }
+    td.attendance-unknown {
+        background-color: grey;
+    }
+    td.pr-missing {
+        background-color: #ff0d0d57;
+    }
+    td.pr-complete {
+        background-color: rgba(68, 238, 142, 0.5);
+    }
+    td.pr-reviewed {
+        background-color: #ee784480;
+    }
+    td.pr-needs-review {
+        background-color: #ee784480;
+    }
+</style>
+
+<button id="auth-button">Auth for register data</button>
+
+<div id="tracker-content">Loading...</div>
+
+<script type="text/javascript" src="https://accounts.google.com/gsi/client"></script>
+
+{{ $wrappedModules := "" }}
+{{ range $module := .Params.GitHubRepos }}
+  {{ $wrappedModules = printf "%s\"%s\"," $wrappedModules $module }}
+{{ end }}
+{{ $modules := resources.FromString "pr-modules" (printf "const modules = [%s];" $wrappedModules) }}
+{{ $common := resources.Get "custom-scripts/reviews/common.mjs" }}
+{{ $tracker := resources.Get "custom-scripts/trainee-tracking/index.mjs" }}
+<script type="text/javascript" src="{{ $modules.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $common.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $tracker.RelPermalink }}"></script>
