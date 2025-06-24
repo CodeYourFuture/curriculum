@@ -37,6 +37,6 @@ weight = 11
 1. Submit the issue link to step 3 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
-> A pull request is _completed_ when a volunteer has added the "Complete" tag. If no one is reviewing your PRs, please ask on Slack in #cyf-code-review.
+> A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
 
 Celebrate your hard work by checking off the objectives below!
