@@ -12,6 +12,6 @@ objectives = [
   publishResources = false
 +++
 
-You were given a lot of information on the use case. Considering everything you know so far, and maybe making some assumptions, perform a SWOT analysis for BrightStar.
+You were given a lot of information on the case study. Considering everything you know so far, and maybe making some assumptions, perform a SWOT analysis for BrightStar.
 
 If you do not know what a SWOT analysis is, research about it first. 
