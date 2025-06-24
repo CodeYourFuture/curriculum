@@ -4,7 +4,7 @@ title = "Personas"
 time = 60
 emoji = "🤖"
 objectives = [
-    "Understand the use of personas to characterise particular types of user customers’ interactions with the business"
+    "Use personas to characterise particular types of user customers’ interactions with the business"
 ]
 [build]
   render = "never"
