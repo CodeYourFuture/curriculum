@@ -10,6 +10,12 @@ weight = 11
 2="Apply to enroll as a Trainee"
 +++
 
+> [!CAUTION]
+>
+> At the end of Onboarding, you must enrol as a trainee. If you do not enrol as a trainee by the end of week 6, you will be removed from the ITP cohort.
+>
+> If you are removed from the cohort, you will not be allowed to keep attending class. You can apply to start again in the next cohort if you want.
+
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
