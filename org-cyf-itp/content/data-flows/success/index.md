@@ -32,6 +32,7 @@ weight = 11
 ## ✅ To complete _this_ module, you must:
 
 1. Make a new issue on your own Coursework Planner.
+   - Follow this template for naming your issue: `<COHORT_NAME> | Data flows | <YOUR_NAME>`
 1. On the issue, add:
     - A link to your GitHub repo and deployed Netlify site for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
     - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.

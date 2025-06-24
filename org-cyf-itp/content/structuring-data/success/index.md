@@ -33,6 +33,7 @@ weight = 11
 ## ✅ To complete _this_ module, you must:
 
 1. Make a new issue on your own Coursework Planner.
+   - Follow this template for naming your issue: `<COHORT_NAME> | Structuring and testing data | <YOUR_NAME>`
 1. On the issue, add:
     - Evidence you have completed "[Intro to Python](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)".
     - Links to your _completed_ pull requests for each sprint:

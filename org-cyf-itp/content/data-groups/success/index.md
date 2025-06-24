@@ -28,6 +28,7 @@ weight = 11
 ## ✅ To complete _this_ module, you must:
 
 1. Make a new issue on your own Coursework Planner.
+   - Follow this template for naming your issue: `<COHORT_NAME> | Data groups | <YOUR_NAME>`
 1. On the issue, add:
     - A link to your _completed_ pull request for "[Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)".
     - A link to your _completed_ pull request for "[Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)".
