@@ -13,9 +13,6 @@ src="blocks/entry-criteria"
 name="Role Description"
 src="blocks/job-description"
 [[blocks]]
-name="How to apply"
-src="blocks/how-to-apply"
-[[blocks]]
 name="Application Form"
 src="blocks/application-form"
 +++

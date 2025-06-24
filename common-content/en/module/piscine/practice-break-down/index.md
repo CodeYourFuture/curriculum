@@ -42,15 +42,15 @@ Looking ahead to your coursework for the next week, one of your tasks will be to
 
 {{<note type="exercise" title="Refining tickets">}}
 
-1. Everyone read the [Refine a ticket coursework task](https://github.com/CodeYourFuture/The-Piscine/issues/6), for {{<timer>}}3{{</timer>}} minutes.
-2. Get into pairs. Each pair should then pick 2 of the tasks from the whiteboard (it doesn't matter if multiple pairs do the same task). Spend {{<timer>}}10{{</timer>}} minutes refining your tickets in your pairs. Make sure you work through **all** of the workflow points.
+1. Everyone read the [Refine a ticket coursework task](https://github.com/CodeYourFuture/The-Piscine/issues/6), for {{<timer>}}3{{</timer>}}.
+2. Get into pairs. Each pair should then pick 2 of the tasks from the whiteboard (it doesn't matter if multiple pairs do the same task). Spend {{<timer>}}10{{</timer>}} refining your tickets in your pairs. Make sure you work through **all** of the workflow points.
 3. Go around each pair in the group. The pair should pick 1 of their tasks and say what they think the priority, estimate, schedule and type of work the task is, and if there is anything they would need to know before starting the ticket. (Hint: the last point is **important**! Don't skip it!)
-4. As a group, pick a task (or two, depending on time) that needs more information. Spend {{<timer>}}10{{</timer>}} minutes discussing what actions you could take to ensure everyone has what they need to complete this task?
+4. As a group, pick a task (or two, depending on time) that needs more information. Spend {{<timer>}}10{{</timer>}} discussing what actions you could take to ensure everyone has what they need to complete this task?
 
 {{</note>}}
 
-{{/*
+<!--
   TODO: The Piscine is meant to be pure evaluation with no teaching.
   Ideally ITP would provide this experience so we wouldn't need to teach it in the Piscine.
   But right now ITP doesn't teach these skills, so we fill that gap so we're not testing people on things they don't know.
-*/}}
+-->

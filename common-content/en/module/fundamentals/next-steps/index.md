@@ -39,4 +39,4 @@ Pair up with a new person. In pairs, complete the following tasks:
 1. Check the success page for the next module, and the next sprint. What are we trying to help the trainees to achieve?
 1. Check the instructions and links on the prep and backlog issues for the upcoming sprint - what will trainees need help with?
 1. Read the day-plan for the upcoming sprint - what should you prepare for?
-1. In the day-plan for the upcoming week, identify the instructions for any workshops and visit the repository containing that readme. Check the instructions make sense.
+1. In the day-plan for the upcoming sprint, identify the instructions for any workshops and visit the repository containing that readme. Check the instructions make sense.

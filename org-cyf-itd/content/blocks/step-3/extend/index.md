@@ -1,8 +1,8 @@
 +++
 title ="Step 3: Extend Your Skills"
-description= "Build your first portfolio website"
+description= "Make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet."
 emoji= "💪🏾"
-time=0
+time=5
 [build]
   render = 'never'
   list = 'local'
@@ -11,9 +11,8 @@ time=0
 
 #### Use your new skill in real life:
 
-This optional step is just for you. You don't need to submit it. Next, build a website to show your skills and experience. It's a great way to show potential employers what you can do.
+This optional step is just for you. You don't need to submit it. Next, make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet.
 
-A site like this is called a portfolio. It's a collection of your work and skills. Start now and keep adding to it as you learn new things.
-
-> [!TIP]
-> This four hour video course [Learn HTML: Full Tutorial for Beginners (2022)](https://www.youtube.com/watch?v=kUMe1FH4CHE) answers most of the common questions beginners have.
+{{<note type="tip" title="The national careers service works for you">}}
+The [National Careers Service](https://nationalcareers.service.gov.uk/) is a free service that can help you with your [job search](https://nationalcareers.service.gov.uk/careers-advice/advertised-job-vacancies).
+{{</note>}}

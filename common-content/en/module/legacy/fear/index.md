@@ -3,7 +3,7 @@ title = "Fear and logic"
 time = 15
 emoji= "🗿"
 [objectives]
-    1="Define Chesterton's Fence"
+    1="Define and explain Chesterton's Fence"
 +++
 
 Do you remember your first day at {{<our-name>}}? You couldn't find the building, maybe, and you had no idea how the day would go. What on earth is a day plan, or a backlog, you thought to yourself. Perhaps you got frustrated: _why_ are all my changes from last week in my new PR? **How**?! It was incomprehensible. But you learned! You asked questions, you read the guides, and you built a mental map of the system.

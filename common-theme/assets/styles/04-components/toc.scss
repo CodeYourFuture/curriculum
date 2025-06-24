@@ -22,7 +22,7 @@
   // so instead of writing all that I'm resetting the counter and running them together that way
   // feel free to tackle if you have spare time
   ol > li {
-    text-transform: lowercase;
+    
     font-family: var(--theme-font--display);
     font-weight: 300;
     &:before {
