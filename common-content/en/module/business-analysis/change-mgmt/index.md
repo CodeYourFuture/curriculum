@@ -23,7 +23,7 @@ Understand:
 
 2. Explain the difference of change management and organisational change management.
 
-3. Idenitfy possible scope changes that could happen on the  case study you are working on. How would you deal with them? And who would have to be informed?
+3. Idenitfy possible scope changes that could happen on the case study you are working on. How would you deal with them? And who would have to be informed?
 
 4. Outline 3 ways a BA would support the launch (rollout activities).
 
