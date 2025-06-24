@@ -22,8 +22,6 @@ We will start with a team meeting. We will introduce ourselves, identify the tas
 
 Today we will do **two** workshops on the [Google AI Essentials](https://www.coursera.org/learn/google-ai-essentials) course. The trainer is an experienced specialist who can really help us get the most out of this course.
 
-After the workshops, we will work on the Roles project together.
-
 Then we will wrap and go for a cup of tea together.
 
 But first, let’s get to know each other. Everyone put your hands in the air. Wiggle those fingers! **Meeting Leader**, please begin by saying hello and then:
