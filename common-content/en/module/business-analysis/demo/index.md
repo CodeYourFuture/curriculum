@@ -51,7 +51,7 @@ Someone from the group might act as one of the main stakeholders and ask questio
 
 These are some criteria we will be using to assess your demo. You must meet 5 of the 6 criteria, and if you skip one we recommend you skip asking a question. This is not an ordered list - you can complete these criteria in any order.
 <dl class="c-rubric">
-  <dt>Clearly introduce the topci to the stakeholders (aka the group).</dt><dd>Someone watching should be able to approve the next steps.<br /><br />The topic <strong>must not</strong> be "I will tell you about my hard work". It must be about how you, as a Business anayst, evaluated and used the knowledge you acquired.</dd>
+  <dt>Clearly introduce the topic to the stakeholders (aka the group).</dt><dd>Someone watching should be able to approve the next steps.<br /><br />The topic <strong>must not</strong> be "I will tell you about my hard work". It must be about how you, as a Business anayst, evaluated and used the knowledge you acquired.</dd>
   <dt>Explain what was done</dt><dd>Someone watching should be able to state what you have done in one sentence.</dd>
   <dt>Explain the reasoning behind a choice.</dt><dd>Someone watching should be able to explain why you did at least one thing a particular way (and why it was a better choice than alternatives).</dd>
   <dt>Show relevant artifacts (e.g. business mapping, data mapping, user story).</dt><dd>Someone watching should be able to identify at least one artifact of your work. Slides don't count as an artifact.</dd>
