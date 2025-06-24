@@ -1,7 +1,7 @@
 +++
 title = "Day-plan"
 description = "Transforming Requirements to Solution Design"
-layout = "favourite-dessert"
+layout = "day-plan"
 emoji = "📅"
 menu_level = ["sprint"]
 weight = 3
