@@ -7,5 +7,5 @@ menu_level = ["module"]
 weight = 1
 [[blocks]]
 name="Case Study"
-src="module/business-analysis/use-case/index.md"
+src="module/business-analysis/case-study/index.md"
 +++

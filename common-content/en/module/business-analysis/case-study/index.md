@@ -1,10 +1,10 @@
 +++
-title = "Use Case"
+title = "Study Case"
 
 time = 60
 emoji = "🤖"
 objectives = [
-    "Create business analyst artifacts based on a use-case.",
+    "Create business analyst artifacts based on this study case.",
 ]
 [build]
   render = "never"
