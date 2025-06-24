@@ -6,7 +6,7 @@ emoji = "📅"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-name="Additional information for your use case"
+name="Additional information for your case study"
 src="module/business-analysis/use-case-more-info"
 [[blocks]]
 name="Vision and goals"

@@ -1,6 +1,6 @@
 
 +++
-title = "New use case"
+title = "New case study"
 
 time = 60
 emoji = "🤖"

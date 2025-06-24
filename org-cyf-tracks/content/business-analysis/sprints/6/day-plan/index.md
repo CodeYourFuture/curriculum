@@ -10,7 +10,7 @@ name="Energiser"
 src="energisers/slack-libs"
 time=20
 [[blocks]]
-name="New Use case"
+name="New case study"
 src="module/business-analysis/new-use-case"
 time=120
 [[blocks]]

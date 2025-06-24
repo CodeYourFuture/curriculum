@@ -1,5 +1,5 @@
 +++
-title = "Additional info for your use case"
+title = "Additional info for your study case"
 
 time = 15
 emoji = "🤖"
