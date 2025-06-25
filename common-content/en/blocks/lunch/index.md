@@ -10,6 +10,7 @@ hide_from_overview=true
 
 +++
 
-Every Saturday we cook and eat together. We share our food and our stories. We learn about each other and the world. We build community.
+Every Saturday we eat together on the 9th floor. Bring your home-cooked food or buy some food across the street at Glories (e.g., at the Carrefour Supermarket or pick up some to-go Food from one of the restaurants there). We share our time, food and our stories. We learn about each other and the world. We build community.
 
-This is everyone's responsibility, so help with what is needed to make this happen, for example, organising the food, setting up the table, washing up, tidying up, etc. You can do something different every week. You don't need to be constantly responsible for the same task.
+Adevinta allows us to use their beautiful space, cutlery, plates, micrwaves etc - please make sure to leave everything exactly as it was before so they keep lending their precious space to us ☺️. Ah and make sure to check out the foosball table on the terrace.
+
