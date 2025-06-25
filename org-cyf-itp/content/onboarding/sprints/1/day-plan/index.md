@@ -15,10 +15,10 @@ time=20
 name="In person: Zip Zap Boing"
 src="energisers/zip-zap-boing"
 time=0
-[[blocks.nested.blocks]]
-name="Online: Popcorn Show and Tell"
-src="energisers/popcorn"
-time=0
+# [[blocks.nested.blocks]]
+# name="Online: Popcorn Show and Tell"
+# src="energisers/popcorn"
+# time=0
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"

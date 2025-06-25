@@ -9,7 +9,7 @@ hide_from_overview="true"
   publishResources = false
 +++
 
-You should have completed the prep listed in [Welcome to CodeYourFuture](/welcome/prep). If you haven't done that yet, go back and complete it now.
+You should have completed the prep listed in [Welcome to MigraCode Barcelona](/welcome/prep). If you haven't done that yet, go back and complete it now.
 
 > 🧠 You must always do the prep.
 
