@@ -33,10 +33,10 @@ src="blocks/mentored-code-review"
 name="Optional structured activity for consolidating Git"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
 time=0
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time="0"
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
+# time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
