@@ -17,6 +17,87 @@ Attendees:
 
 ---
 
+## 2025-06-18
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Barath: look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around the structuring code around the idea of testability
+- [x] Daniel: Work with the dashboard team to make "see the curriculum" more clear at the start of ITP (Karen has a plan)
+- [ ] Jay: Rename / maybe modify module prep to prereqs
+- [ ] Anna: Start putting together a new GenAI ITD step
+- [ ] All: Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [ ] Daniel: Find out if we can get an AI note-taker
+
+### 📝 Agenda points
+
+#### ITD Step 3 (Data Analysis)
+
+The Step 3 course will stop being available after 2025-06-30.
+
+Original goal was to help prepare people for office jobs, but realistically people are just following instructions.
+
+Would be useful to add a "solve some problems without just following instructions" step.
+
+#### ITD Step 4 and 5
+
+Steps 4 and 5 overlap. And Step 5 is currently CodePen and needs to satisfy some automated tests.
+
+Maybe make Step 4 be to deploy a personal webpage with specific required elements, and Step 5 centre more around GitHub. But need to be wary that some libraries block GitHub.
+
+#### Supporting non-Laptop-having trainees
+
+Not having a laptop is a big blocker for a lot of trainees early in the course.
+
+Some folks have laptops but really slow ones - wait minutes for steps.
+
+If ITD was a better predictor for ITP performance, maybe we'd be more comfortable lending out laptops earlier.
+
+Sheffield libraries block GitHub, which is a bit of a problem. But they can probably do key things from phones. (Or maybe we could use GitLab or something).
+
+Something to consider...
+
+#### GenAI ITD step
+
+Goal: Need to hit a middle-ground that sometimes GenAI does useful things and sometimes it sucks.
+
+Want to demo it fooling people into thinking they understand, then quizzing them on the outcome.
+
+CJ: People probably aren't using AI at the start enough - but do need them to know the dangers.
+
+Probably want to avoid technical questions (e.g. JS). Could maybe make it help you do something fiddly in CSS.
+
+A couple of potential exercises:
+* Try to get the answers to some questions, then look up without GenAI and write up a justification of whether the GenAI was right or wrong.
+* Try to get a concept explained, and then show that we need actually understand the explanation to apply it to a problem.
+
+#### BA Track
+
+[Draft track](https://docs.google.com/document/d/1SM2jcvIA8wFoFSu9ZLktzJcI-gzAJiwcHfCIIVtBz_0/edit) - please comment as appropriate!
+
+Will be loading into the curriculum itself in the next week.
+
+One case study, and assessment via demos on Saturdays - whatever they understood/found/learned.
+
+Be aware in the Piscine people later in the day improve their demos based on the feedback to the people earlier in the day.
+
+Should think about the rubric of demos - probably want to include some content points in a rubric.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] All (Carry-over): Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ: Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Come up with some questions trainees can ask GenAI and then verify.
+- [ ] Anyone: Have a review of the [draft BA track](https://docs.google.com/document/d/1SM2jcvIA8wFoFSu9ZLktzJcI-gzAJiwcHfCIIVtBz_0/edit)
+
+---
+
 ## 2025-05-21
 
 Attendees: Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Karen Klein
