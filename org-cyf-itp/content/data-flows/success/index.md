@@ -1,14 +1,12 @@
 +++
-title = "Success"
-description = "How do we know if we have completed Data Flows?"
+title = 'success'
+description = 'How do we know if we have completed Data Flows?'
 layout = "success"
 emoji= "✅"
 menu_level = [ "module" ]
 weight = 11
 [[objectives]]
-1="Link to your GitHub repo and deployed Netlify site for your [TV show project](https://github.com/CodeYourFuture/Project-TV-Show). Include links to your level 400 and level 500 PRs that show that both you and your partner contributed."
-2="Link to your PR for your [Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31), where you have responded to review feedback."
-3="Work out your LinkedIn [Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12), and posted the actions you will take to improve this"
+1="Submit step 4 on the CYF Course Portal"
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
@@ -29,12 +27,20 @@ weight = 11
 ```objectives
 - Do your work: complete all mandatory backlog issues
 - Come to class
-- **Submit** the step for this module
 ```
-
-> [!TIP]
-> If you've opened your PRs, but nobody has reviewed your work, you can submit your step and ask in comments to get your review.
 
 ## ✅ To complete _this_ module, you must:
 
-Submit the following items to complete this module on the [Course Platform](https://application-process.codeyourfuture.io/):
+1. Make a new issue on your own Coursework Planner.
+   - Follow this template for naming your issue: `<COHORT_NAME> | Data flows | <YOUR_NAME>`
+1. On the issue, add:
+    - A link to your GitHub repo and deployed Netlify site for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
+    - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.
+    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)", where you have responded to review feedback.
+    - A link to your issue for "[LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12)". Your issue must show your current index and actions you will take to improve it.
+1. Submit the issue link to step 4 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
+
+> [!NOTE]
+> A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
+
+Celebrate your hard work by checking off the objectives below!
