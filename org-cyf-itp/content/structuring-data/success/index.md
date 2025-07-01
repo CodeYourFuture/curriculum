@@ -1,16 +1,12 @@
 +++
 title = 'success'
-description = 'How do we know if we have completed the Structuring and Testing Data module?'
+description = 'How do we know if we have completed Structuring and Testing Data?'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Screenshot showing you finished the **Intro to Python** section of the [Code In Place course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
-2="Link to your PR for your [Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)"
-3="Link to your PR for your [Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)"
-4="Link to your PR for your [Sprint 3 Coursework](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)"
-5="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/449)"
+1="Submit step 2 on the CYF Course Portal"
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
@@ -32,11 +28,22 @@ weight = 11
 ```objectives
 - Do your work: complete all mandatory backlog issues
 - Come to class
-- **Submit** the Dashboard step for this module
 ```
 
 ## ✅ To complete _this_ module, you must:
 
-Note: Any PRs you're submitting must have been reviewed and labelled "Complete" by a volunteer.
+1. Make a new issue on your own Coursework Planner.
+   - Follow this template for naming your issue: `<COHORT_NAME> | Structuring and testing data | <YOUR_NAME>`
+1. On the issue, add:
+    - Evidence you have completed "[Intro to Python](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)".
+    - Links to your _completed_ pull requests for each sprint:
+        1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
+        1. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
+        1. "[Sprint 3 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
+    - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
+1. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
-In your Coursework Planner repo, create an issue with the following, and submit the link to Step 2 of ITP on the [CYF Course Platform](https://application-process.codeyourfuture.io/):
+> [!NOTE]
+> A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
+
+Celebrate your hard work by checking off the objectives below!
