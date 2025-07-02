@@ -76,7 +76,7 @@ Tony has been working on some problem solving workshops - we think they look rea
 
 Some discussion as to how we on-board volunteers - Daniel does Education Trainings (come help him! Or visit one!) - it should probably reference How This Works better.
 
-Also a pitch for Teaching Tech Together - it's a good book on how to teach in our style - read it!
+Also a pitch for [Teaching Tech Together](https://teachtogether.tech/en/) - it's a good book on how to teach in our style - read it!
 
 #### Code In Place - How useful is it?
 
