@@ -17,6 +17,104 @@ Attendees:
 
 ---
 
+## 2025-07-01
+
+Attendees: Ali Smith, Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Jay Mayer
+
+### ❗Actions from last time
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] All (Carry-over): Triage [project board](https://github.com/orgs/CodeYourFuture/projects/105/views/1) - remove anything we're unlikely to do in the next year
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ: Look at new Google Data Analytics course, update Step 3 accordingly.
+- [x] Anna: Come up with some questions trainees can ask GenAI and then verify.
+- [x] Anyone: Have a review of the [draft BA track](https://docs.google.com/document/d/1SM2jcvIA8wFoFSu9ZLktzJcI-gzAJiwcHfCIIVtBz_0/edit)
+
+### 📝 Agenda points
+
+#### Running upcoming SDC
+
+Have 8-10 folks in London, 3 in Glasgow, ?2 in Cape Town, and 1 in West Midlands.
+
+Probably running one in-London class, and one remote class (though remote may end up hybrid in London a bit if we need).
+
+Generally looking for volunteers, particularly remote volunteers. Barath may be interested in getting involved at some point :)
+
+#### ITD GenAI Step
+
+Anna put together [a draft proposal](https://docs.google.com/document/d/1gvzCckQ4Znsnta8p-e_Rb7WWcZYAkV2YvI5_9FYGtS8/edit?tab=t.0) - generally looks good.
+
+CJ suggested we have them do a self-check: Have GenAI teach you something, and then try to do it without GenAI. Unclear how exactly we can enforce that people don't cheat, but setting up the narrative is maybe the best we can do.
+
+#### ITP Step 2 Completion Rates
+
+Mostly people aren't getting code review.
+
+Need to work out how to foster more of a community of remote volunteers (e.g. doing code review). Maybe set up some calls?
+
+Maybe we can have some in-person volunteers on Saturdays doing some code review in class.
+
+When people have done a few of one exercise, getting through lots more of them is pretty easy - you get into a zone. Not sure how to encourage this.
+
+Trainees tend to make similar mistakes - doing some "in public" reviews in class may help people to identify they've made similar mistakes? Maybe with simulated poor solutions rather than an individual's. Or preparing a guide to common mistakes people can look at after their attempts to try to improve their code themselves before a reviewer takes a look.
+
+Maybe we should make some exercises/workshops about self-reviewing PRs after creating them.
+
+Can paid education team members help? Yes some, but we don't have enough time / money to rely entirely on them - we're a volunteer-based organisation.
+
+Maybe we can try to use AI to help (e.g. [Chris Owen's experiments here](https://github.com/ChrisOwen101/CodingCoach/)).
+
+#### Tony's Problem Solving Workshops
+
+Tony has been working on some problem solving workshops - we think they look really nice, and are excited to hear back how the first try or two of running them in WM has gone, and how we can pull them into the curriculum!
+
+#### LDX
+
+[Ali's talk](https://leaddev.com/leadership/creating-the-next-generation-of-senior-engineers) went well, got positive feedback on it, and CYF's presence was nice too :)
+
+Some discussion as to how we on-board volunteers - Daniel does Education Trainings (come help him! Or visit one!) - it should probably reference How This Works better.
+
+Also a pitch for [Teaching Tech Together](https://teachtogether.tech/en/) - it's a good book on how to teach in our style - read it!
+
+#### Code In Place - How useful is it?
+
+People seem to need to invest a lot of time in it.
+
+Also it's a really cut-down subset of language, e.g. with no variables.
+
+We should work out why we're using CIP - what are our objectives?
+
+Some _possible_ objectives (that we may not find compelling or find this is the best way of achieving):
+* Stopping trainees from being intimidated from new languages.
+* Different learning styles - quite visual, and a different approach they can use.
+* Seeing abstraction - seeing the same problem solved in different languages - seeing that problem solving is the key thing.
+  * Unclear whether trainees actually make that link given the actual problems they're solving in the languages.
+  * Also unclear whether we call out this link.
+
+Maybe push Python to a later module, and frame it as "do this same Codewars as you already did in Python". Consciously drive the comparison.
+
+Maybe frame this as "Go work out how to do this in Python for yourself", without a course to follow. Could maybe fit into Tony's "breaking down problems" workshops too.
+
+#### ITD Dates
+
+We moved October + December back to September + November.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ (Carry-over): Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Finish off GenAI ITD Step.
+- [ ] Barath: Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali): Put together draft self-review PR exercises.
+- [ ] CJ: Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
 ## 2025-06-18
 
 Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
