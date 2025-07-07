@@ -33,8 +33,8 @@ weight = 11
 > [!TIP]
 > If you've opened your PRs, but nobody has reviewed your work, you should submit your step and ask in comments for help in getting your review.
 
-## ✅ To complete _this_ module, you must:
+<!-- ## ✅ To complete _this_ module, you must:
 
 Any PRs you're submitting must have been reviewed, and must be labelled Complete by a volunteer.
 
-Submit the following items to complete this module on the [CYF Course Platform](https://application-process.codeyourfuture.io/):
+Submit the following items to complete this module on the [CYF Course Platform](https://application-process.codeyourfuture.io/): -->
