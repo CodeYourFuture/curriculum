@@ -25,9 +25,9 @@ time=25
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Submit your Step"
-src="module/onboarding/steps"
+# [[blocks.nested.blocks]]
+# name="Optional structured activity: Submit your Step"
+# src="module/onboarding/steps"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -50,10 +50,10 @@ time=0
 name="Optional structured activity: know your computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/know-your-computer"
 time=0
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time="0"
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
+# time="0"
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"

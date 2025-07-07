@@ -34,13 +34,13 @@ time=30
 name="Study Group"
 src="module/onboarding/development"
 time=30
-[[blocks.nested.blocks]]
-name="Optional structured activity: Code Review"
-src="blocks/mentored-code-review"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
-time="0"
+# [[blocks.nested.blocks]]
+# name="Optional structured activity: Code Review"
+# src="blocks/mentored-code-review"
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
+# time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"

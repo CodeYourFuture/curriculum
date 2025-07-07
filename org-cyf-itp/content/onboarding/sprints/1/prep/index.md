@@ -19,56 +19,56 @@ time=5
 name="Create CYF Folder"
 src="module/induction/cyf-folder"
 time=5
+# [[blocks]]
+# name="Fork your Planner"
+# src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
+# time=5
+# [[blocks]]
+# name="Make your Planning Board"
+# src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
+# time=15
+# [[blocks]]
+# name="Set up Planner"
+# src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
+# time=30
+# [[blocks]]
+# name="cyf blog"
+# src="module/induction/cyf-blog"
 [[blocks]]
-name="Fork your Planner"
-src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
-time=5
-[[blocks]]
-name="Make your Planning Board"
-src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
-time=15
-[[blocks]]
-name="Set up Planner"
-src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
-time=30
-[[blocks]]
-name="cyf blog"
-src="module/induction/cyf-blog"
-[[blocks]]
-name="development-process"
+name="Development-process"
 src="module/induction/development-process"
 [[blocks]]
-name="version control"
+name="Version control"
 src="module/induction/version-control"
 [[blocks]]
-name="sharing history"
+name="Sharing history"
 src="module/induction/sharing-history"
 [[blocks]]
-name="explore"
+name="Explore"
 src="module/induction/checkout-a-commit"
 [[blocks]]
-name="previous versions"
+name="Previous versions"
 src="module/induction/previous-versions"
 [[blocks]]
-name="forking a repository"
+name="Forking a repository"
 src="module/induction/forking-a-repository"
 [[blocks]]
-name="working locally"
+name="Working locally"
 src="module/induction/working-locally"
 [[blocks]]
-name="viewing files"
+name="Viewing files"
 src="module/induction/viewing-files"
 [[blocks]]
-name="branching"
+name="Branching"
 src="module/induction/branching"
 [[blocks]]
-name="wrapping up Git"
+name="Wrapping up Git"
 src="module/induction/wrapping-up"
 [[blocks]]
 name="Using GitHub Dev to complete coursework on a library computer"
 src="https://www.youtube.com/watch?v=qkEL0LaTc4k"
 time=15
 [[blocks]]
-name="backlog"
+name="Backlog"
 src="blocks/backlog"
 +++
