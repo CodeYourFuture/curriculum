@@ -11,6 +11,6 @@ time=25
   publishResources = false
 +++
 
-Energisers are a big part of {{<our-name>}}'s culture! Even as adults, we all feel a bit shy and uncertain when we join a new group. But when we let ourselves be silly together, we start to feel more at home.
+Energisers are a big part of MigraCode's culture! Even as adults, we all feel a bit shy and uncertain when we join a new group. But when we let ourselves be silly together, we start to feel more at home.
 
 Here follows one energiser for in-person and one for online.

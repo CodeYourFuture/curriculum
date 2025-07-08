@@ -42,7 +42,7 @@ To double check we're in the correct directory, we can run `pwd`:
 
 ```console
 $ pwd
-.../{{<our-name>}}/ordinal-testing-example
+.../MCB/ordinal-testing-example
 ```
 
 `pwd` is telling us we're in the `ordinal-testing-example` directory.

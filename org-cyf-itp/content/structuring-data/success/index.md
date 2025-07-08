@@ -6,9 +6,9 @@ emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
-1="Complete the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
-2="Link to your exercises for the [Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) - they must have been reviewed and must be labelled Complete by a volunteer"
-3="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)"
+# 1="Complete the [Intro to Python course](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)"
+# 2="Link to your exercises for the [Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6) - they must have been reviewed and must be labelled Complete by a volunteer"
+# 3="Link to your [Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)"
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
@@ -30,9 +30,8 @@ weight = 11
 ```objectives
 - Do your work: complete all mandatory backlog issues
 - Come to class
-- **Submit** the Dashboard step for this module
 ```
-
+<!-- 
 ## ✅ To complete _this_ module, you must:
 
-Submit the following items to complete this module on the CYF Dashboard:
+Submit the following items to complete this module on the CYF Dashboard: -->

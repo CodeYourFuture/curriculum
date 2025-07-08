@@ -11,11 +11,11 @@ src="https://www.youtube.com/watch?v=fNcJuPIZ2WE"
 time=25
 [[blocks]]
 name="How to structure a web form"
-src="https://github.com/CodeYourFuture/Module-Onboarding/issues/71"
+src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form"
 time=60
-[[blocks]]
-name="Spaced Repetition"
-src="blocks/spaced-repetition"
+# [[blocks]]
+# name="Spaced Repetition"
+# src="blocks/spaced-repetition"
 [[blocks]]
 name="What are Forms"
 src="module/html-css/what-are-forms"
