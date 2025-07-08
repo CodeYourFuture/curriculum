@@ -13,7 +13,7 @@ objectives = [
   publishResources = false
 +++
 
-Build the presentation of the key learnings of this week. 
+Build the presentation of how you applied the key learnings of this week to the Bright Sparks case study.
  
 The people in class can be the stakeholders and will evaluate your work. 
  
