@@ -35,13 +35,13 @@ time=5
 # name="cyf blog"
 # src="module/induction/cyf-blog"
 [[blocks]]
-name="Development-process"
+name="Development Process"
 src="module/induction/development-process"
 [[blocks]]
-name="Version control"
+name="Version Control"
 src="module/induction/version-control"
 [[blocks]]
-name="Sharing history"
+name="Sharing History"
 src="module/induction/sharing-history"
 [[blocks]]
 name="Explore"

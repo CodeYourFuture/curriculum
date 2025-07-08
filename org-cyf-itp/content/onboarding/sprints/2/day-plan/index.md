@@ -23,9 +23,12 @@ time=30
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
+name="Working with others"
+src="blocks/working-with-others"
+[[blocks]]
 name="Study Group"
 src="module/onboarding/development"
-time=75
+time=60
 [[blocks.nested.blocks]]
 name="Optional structured activity: Live Code Review"
 src="blocks/mentored-code-review"

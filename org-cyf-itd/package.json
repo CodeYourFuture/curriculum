@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/CodeYourFuture/curriculum#readme",
   "dependencies": {
-    "dotenv-cli": "^7.3.0",
     "dotenv": "^16.3.1",
     "prettier": "^2.8.8",
     "prettier-plugin-go-template": "^0.0.13"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
   }
 }

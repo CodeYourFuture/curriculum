@@ -1,6 +1,6 @@
 +++
 title = "Identifying patterns"
-time = 20
+time = 30
 emoji= "🏴󠁧󠁢󠁳󠁣󠁴󠁿🏴󠁧󠁢󠁥󠁮󠁧󠁿🇬🇧"
 
 +++
@@ -69,3 +69,11 @@ Patterns help you:
 - Spot potential problems where patterns are broken
 
 Understanding patterns allows you to {{<tooltip title="chunk">}}[Chunking](https://www.youtube.com/watch?v=hydCdGLAh00) is a way to group information together so it's easier to remember and understand.{{</tooltip>}} information, making complex codebases easier to comprehend.
+
+#### Enforcing patterns
+
+Sometimes these patterns are enforced by the shape of the code, e.g. `renderEach` ensures that if we're rendering multiple pieces of data we will always have the data, a container, a template name, and a `create*` function.
+
+Other times these patterns are just implemented by writing code in similar styles. This is less reliable - it's easy for someone to forget a step. Particularly this is harder to _keep_ consistent over time - if you change the pattern, you need to make sure you update it everywhere.
+
+Relying on code constructs (like functions) to _enforce_ our use of patterns makes them more likely to be consistently followed.

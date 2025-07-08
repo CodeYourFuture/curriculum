@@ -10,10 +10,13 @@ src="blocks/morning-orientation"
 [[blocks]]
 name="Refining poorly specified bugs"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
-time="90"
+time="60"
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
+[[blocks]]
+name="Refining Purple Forest bugs"
+src="module/legacy/refining-purple-forest-bugs"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"

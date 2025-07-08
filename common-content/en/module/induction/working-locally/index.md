@@ -17,7 +17,28 @@ emoji= '🏠'
 
 Here is a diagram representing how repositories interact after forking and cloning:
 
-![fork-and-clone-diagram](fork-and-clone-diagram.png)
+```mermaid
+flowchart TD
+    subgraph Remote["Remote (GitHub)"]
+        A["CodeYourFuture/education-blog"] -->|fork| B["EagerLearner/education-blog"]
+    end
+    
+    B -->|clone| C
+    
+    subgraph Local["Local (your computer)"]
+        C["YOUR_CYF_FOLDER/education-blog"]
+    end
+    
+    %% Style definitions
+    classDef container stroke-dasharray:5 5,fill:#f8f9fa,stroke:#495057
+    classDef rounded rx:10,ry:10,fill:#e9ecef,stroke:#495057
+    classDef arrow color:#0d6efd,stroke-width:2px
+    
+    %% Apply styles
+    class Remote,Local container
+    class A,B,C rounded
+    linkStyle 0,1 stroke:#0d6efd,stroke-width:2px
+```
 
 Sketch this diagram in your notebook. When you inevitably get confused about where your changes live, this visual will help you understand the flow of changes between repositories.
 

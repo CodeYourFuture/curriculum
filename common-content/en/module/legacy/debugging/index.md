@@ -134,6 +134,8 @@ if (!existingProfile || !existingProfile.recent_blooms) {
 }
 ```
 
+This is _different_ to how we are using `apiService` for hashtags. Maybe this is intentional, or maybe this is a violation of a pattern.
+
 1. **Hypothesis**: The `hashtagView` is calling `apiService.getBloomsByHashtag` multiple times.
 1. **Test**: Comment out the `apiService.getBloomsByHashtag` call in `hashtagView`.
 1. **Result**: The page stops refreshing... and is also blank.
