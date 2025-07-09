@@ -64,3 +64,9 @@ If in doubt, anyone can (and should) report things to any member of staff. And i
 
 But we're a community, and a lot of less severe things can be dealt with a good faith conversation between adults.
 </details>
+
+### What should you do if you are concerned about someone's welfare (even outside of CodeYourFuture)?
+
+e.g. if you think they're being abused by their partner, or being taken advantage of?
+
+You can report this to any member of staff who will take appropriate action. You will probably not be involved in this action after you report the concern.
