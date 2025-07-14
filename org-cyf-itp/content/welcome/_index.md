@@ -1,5 +1,5 @@
 +++
-title = 'Welcome to Code Your Future'
+title = 'Welcome to MigraCode'
 description = 'Our first day together '
 layout = 'module'
 emoji= '🫶🏽'

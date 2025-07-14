@@ -16,7 +16,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Welcome to Code Your Future"
+name="Welcome to MigraCode Barcelona"
 src="https://www.youtube.com/watch?v=QBfhPkBW9Pk"
 time=5
 [[blocks]]
