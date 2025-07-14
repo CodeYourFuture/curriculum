@@ -9,7 +9,7 @@ Many employers (especially larger companies) use **A**pplicant **T**racking **S*
 
 There is a common misconception that the ATS automatically rejects applicants, which is mostly not true! The system will only auto-reject you if you don't meet some specific criteria - location, years of experience, etc. 
 
-This is why it is extremely important that your CV is in a format these systems can understand. Stick to file formats like .docx and .pdf. 
+This is why it is extremely important that your CV is in a format these systems can understand. Always submit your CV as a .pdf. 
 
 Recruiters search these systems for specific keywords based on the job description. Think of it as a Google search, but for CVs. So if you don't have the right keywords on your CV, it doesn't show up in the search result. 
 
