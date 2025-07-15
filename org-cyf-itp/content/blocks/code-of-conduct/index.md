@@ -84,6 +84,7 @@ If you suspect or learn that a trainee is facing serious personal challenges or 
 
 * No Penalties for Trainees: CYF does not penalise trainees experiencing problems.
 * Access to Support: CYF can share a list of organizations experienced in addressing various challenges.
+* If in doubt, it's better to share your concern. It's better to ask if someone needs help and be told no, than to not ask when someone does need help.
 
 </details>
 
