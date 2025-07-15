@@ -4,6 +4,13 @@ description: Work through different sections in your CV
 emoji: 🖼️
 weight: 4
 ---
+## Basic Information
+
+Your CV should clearly mention your name, email address and phone number. It is a good practice to include your LinkedIn and GitHub links as well. 
+
+All links should have a hyperlink to make it easier for recruiters and hiring managers to access your link, like this - [LinkedIn](https://www.linkedin.com/in/your-profile).
+
+Different countries have different expectations about including your photo, gender and home address. For example, some European countries make it mandatory to include your photo in your CV, whereas it is a big no in the UK and the USA due to risk of discrimination. Do some research about how it works in your region before deciding to include (or exclude) this information! 
 
 ## Profile section explained
 
