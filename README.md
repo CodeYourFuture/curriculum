@@ -40,6 +40,7 @@ Each org or team configures its own Hugo site that mounts the common theme and c
 - https://projects.codeyourfuture.io/
 - https://workshops.codeyourfuture.io/
 - https://programming.codeyourfuture.io/
+- https://curriculum.codeyourfuture.io/guides/
 - https://launch.codeyourfuture.io/
 - https://piscine.codeyourfuture.io/
 - https://sdc.codeyourfuture.io/
