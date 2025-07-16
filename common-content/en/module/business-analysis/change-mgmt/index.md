@@ -1,7 +1,7 @@
 +++
 title = "Change management"
 
-time = 60
+time = 120
 emoji = "🤖"
 objectives = [
     "List relevant tasks a business analyst will support a change management team with",
@@ -14,17 +14,14 @@ objectives = [
   publishResources = false
 +++
 
-Understand:
-- What is [change management](https://youtu.be/wxVgd8h1svU?si=3ckqHAce9mg_zzhA)? 
-- What is the difference between change management and organisational change management?
-- What are [scope changes](https://www.lucidchart.com/blog/scope-change-management), and how should you deal with them?
- 
-1. Write a list of how you, as a Business Analyst, can support change management and the rollout of a project.
+Learn and reflect on these questions, so you can understand how change affects your work.
 
-2. Explain the difference of change management and organisational change management.
+1. What is [change management](https://youtu.be/wxVgd8h1svU?si=3ckqHAce9mg_zzhA), and how does it affect the BA?
 
-3. Idenitfy possible scope changes that could happen on the case study you are working on. How would you deal with them? And who would have to be informed?
+2. What is the difference between change management and organisational change management?
 
-4. Outline 3 ways a BA would support the launch (rollout activities).
+3. What are [scope changes](https://www.lucidchart.com/blog/scope-change-management), and how should you deal with them?
 
+4. Would you say that change management conflicts with Agile principles?
 
+5. Thinking about the roadmap you built, how will change management be part of your MVP?
