@@ -22,6 +22,6 @@ Learn and reflect on these questions, so you can understand how change affects y
 
 3. What are [scope changes](https://www.lucidchart.com/blog/scope-change-management), and how should you deal with them?
 
-4. Would you say that change management conflicts with Agile principles?
+4. How could change management conflict with Agile principles? How would you handle this conflict pragmatically?
 
 5. Thinking about the roadmap you built, how will change management be part of your MVP?
