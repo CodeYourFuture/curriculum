@@ -14,5 +14,7 @@ objectives = [
   publishResources = false
 +++
 
-Understand the [Agile](https://youtu.be/Z9QbYZh1YXY?si=YDtrkFHORJ000z8s)/[Scrum](https://youtu.be/TRcReyRYIMg?si=ZE2sFQcwHh3oWTc5) principle, including Sprints, Iterations, Releases, [Backlog](https://www.aha.io/roadmapping/guide/release-management/product-release-sprint-backlog), etc.
+Enrol in this [Udemy course](https://codeyourfuture.udemy.com/course/introduction-to-agile-scrum-and-kanban/) and jump to video 14 ([What is Scrum?](https://codeyourfuture.udemy.com/course/introduction-to-agile-scrum-and-kanban/learn/lecture/28395568#overview)) in section 5. Watch this video to review Scrum basics. 
+
+Stretch: Watch any of the subsequent videos in section 5 if you would like to drill into any more details. 
 
