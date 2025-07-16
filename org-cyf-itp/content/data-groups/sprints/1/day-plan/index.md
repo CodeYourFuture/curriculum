@@ -12,13 +12,17 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
-time="140"
-[[blocks.nested.blocks]]
-    name="Giving Feedback [PD] (60 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
-    time=0
+name="Giving Feedback"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
+time=60
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+time=20
+[[blocks]]
+name="Arrays"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
