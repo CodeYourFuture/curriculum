@@ -42,7 +42,7 @@ Here, `grep -l "error" *.log` finds all .log files containing "error" and output
 
 **Important**: The current directory (`.`) is not in PATH by default for security reasons. To run a program in the current directory, you must use `./program-name` instead of just `program-name`.
 
-**Finding programs**: Use `which <program-name>` to see where a program is located, or `type <command>` to see if it's a built-in command or external program.
+**Finding programs**: Use `which <program-name>` to see where a program is located.
 
 ### Conventions
 
