@@ -64,3 +64,28 @@ If in doubt, anyone can (and should) report things to any member of staff. And i
 
 But we're a community, and a lot of less severe things can be dealt with a good faith conversation between adults.
 </details>
+
+---
+
+### When trainees face serious personal challenges outside of CYF
+
+If you suspect or learn that a trainee is facing serious personal challenges or abuse outside of CYF, please tell a staff member. For example, if a trainee tells you about partner abuse. Or, if you believe they’re being financially exploited by someone.
+
+<details>
+
+<summary>How to Share Your Concern</summary>
+
+1. **Write down what you observed or learned**, especially if it’s from a conversation. Try to use the other person’s words where possible.
+2. **Tell a CYF Staff Member**: They will then take appropriate action.
+   * We may not include you in the actions after reporting.
+   * If you're hesitant, you can first share your concerns without naming the affected individual.
+
+**Important Points to Remember**
+
+* No Penalties for Trainees: CYF does not penalise trainees experiencing problems.
+* Access to Support: CYF can share a list of organizations experienced in addressing various challenges.
+* If in doubt, it's better to share your concern. It's better to ask if someone needs help and be told no, than to not ask when someone does need help.
+
+</details>
+
+If you are facing serious personal challenges, you can visit [the signpost directory of organisations for help](https://signposts.codeyourfuture.io/). Or, you can tell a CYF staff member.
