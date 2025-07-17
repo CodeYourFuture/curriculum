@@ -17,6 +17,71 @@ Attendees:
 
 ---
 
+## 2025-07-16
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, Jay Mayer
+
+### ❗Actions from last time
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ (Carry-over): Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Finish off GenAI ITD Step.
+- [ ] Barath: Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali): Put together draft self-review PR exercises.
+- [ ] CJ: Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Structuring code around testing
+
+CJ has been looking into how we can set up a skeleton project structure for ITP exercises. This should encourage trainees to write tests for their logic that doesn't depend on the DOM, and ideally utilise ES Modules. We would like trainees to decouple the DOM and their app's logic, without getting bogged down in teaching sophisticated design jargon. May need to be split into different ITP modules to provide a gentle introduction to different concepts.
+
+The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
+
+#### AI in ITD (Step Two)
+
+Anna shared the latest draft of a new AI step. We agreed this looks good. We could get valuable feedback from upcoming ITD participants by observing them completing the exercise on a call.
+
+Discussed a self-check, where participants could use AI to improve their implementation of previous (non-AI generated) work.
+
+A potential long-term goal for CYF Dashboard is the ability to 'quiz' participants to give automated feedback when an incorrect answer is submitted.
+
+#### Feedback from June Piscine
+
+A retro for Piscine June-2025 took place on 2025-07-15.
+
+Overall, this Piscine went really well. There was a >50% pass rate! With curriculum iterations in Piscine and earlier, this went better than the first Piscine. However there are still some skills that need attention:
+
+- Interviewing. Delivering an elevator pitch should be worked on during ITP. A workshop is ideal, because it gives trainees live feedback from volunteers.
+
+- Demos. The first demo of Piscine is often the first demo ever given. Attending a few weekly demo calls could be mandatory to complete ITP - to practice giving demos and observing others. Any topic is welcome, the key skill is explaining something out loud. Recorded examples of good demos could be useful, but encouraging people to attend a call solves the same challenges in a better way. Attending 'out of class' is an unusual requirement, but not unfeasible. Karen is exploring alternative call times to reach as many trainees as possible.
+
+- Dead code. People keep submitting Piscine projects with dead code (from single variables to whole files). We don't talk about this in ITP, or even point out that faded objects in VS Code are unused. Refactoring might be mentioned, but is rarely seen as a skill worth acquiring (relative to everything else a trainee has to learn). As an exercise, we could ask trainees to clean up some code. Should linting be set up to make these errors even more obvious?
+
+- Creating new repos. This is a surprisingly big problem in Piscine. Collaborating well on GitHub is another aspect.
+
+- Git SHA. Piscine submissions use a SHA to ensure no work after the deadline is assessed. There could be a wider misunderstanding about what a commit represents. The GitHub UI is a useful helping hand for obtaining a SHA.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ (Carry-over): Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Finish off GenAI ITD Step.
+- [ ] Barath: Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali): Put together draft self-review PR exercises.
+- [ ] CJ: Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+- [ ] Anna (+ Daniel): Explore workshops to improve interviewing skills at Piscine for ITP
+- [ ] Unassigned: Write a small piece of code with dead code to clean up
+- [ ] Barath (hopefully!): Look into exercises to setup a GitHub repo
+
+---
+
 ## 2025-07-01
 
 Attendees: Ali Smith, Anna Aitchison, Barath Vignarajah, CJ Yuan, Daniel Wagner-Hall, Jay Mayer
