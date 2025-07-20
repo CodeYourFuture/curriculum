@@ -14,14 +14,14 @@ time=15
 [[blocks]]
 name="Teamwork Project Sprint 1"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s1/readme/"
-time=140
+time=100
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="80"
+time="60"
 # [[blocks]]
 # name="Code Review"
 # src="https://github.com/CodeYourFuture/Module-Data-Flows/pulls"
