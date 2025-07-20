@@ -34,7 +34,7 @@ weight = 11
 > If you've opened your PRs, but nobody has reviewed your work, you should submit your step and ask in comments for help in getting your review.
 
 {{<note title=":pushpin: Disclaimer">}}
-The exercises linked below are hosted on the GitHub repository of our partner NGO, **Code Your Future** (UK), and **not** on a MigraCode-owned repository. We are part of a European network where we share resources and support each other as we share the same mission — to provide free, high-quality tech education to our communities.
+Some of the exercises below link to the GitHub repository of our partner NGO, **Code Your Future** (UK), and **not** to a MigraCode-owned repository. We are part of a European network where we share resources and support each other as we share the same mission — to provide free, high-quality tech education to our communities.
 
 The exercises work as intended — you are free to **fork and clone** the repositories as needed.
 
