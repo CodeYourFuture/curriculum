@@ -14,12 +14,10 @@ time=15
 +++
 
 {{<note title="Planning during the week" type="info">}}
-🧭 During the week, create a post on Slack and get some people to take on the roles of **facilitator** and **timekeeper**. Nominate new people each time.
+🧭 During the week, we create a post on Slack to assign the roles of **facilitator** and **timekeeper**. The roles rotate.
 {{</note>}}
 
-# 👣 Steps
-
-If you haven't done so already, choose someone (volunteer or trainee) to be the **facilitator** for this morning orientation block. Choose another to be the **timekeeper**.
+# 👣 To Do
 
 <details>
 <summary>
@@ -28,20 +26,11 @@ If you haven't done so already, choose someone (volunteer or trainee) to be the 
 
 </summary>
 
-1. Assemble the entire group (all volunteers & all trainees) in a circle
+1. Assemble the entire group (all volunteers & all students) in a circle
 1. Briefly welcome everyone with an announcement, like this:
-   > 💬 "Morning everyone, Welcome to {{<our-name>}} {REGION}, this week we are working on {MODULE} {SPRINT} and we're currently working on {SUMMARISE THE TOPICS OF THE WEEK}"
-1. Ask any newcomers to introduce themselves to the group, and welcome them.
+   > 💬 "Morning everyone, Welcome to another Saturday at MigraCode, this week we are working on Module X Sprint 3 and we're currently working on {summarise what the topic of the week is}"
 1. Now check: is it the _start of a new module_? Is it sprint 1? If so, read out [the success criteria for the new module](../../../success).
-1. Next go through the _morning day plan only_ (typically on the curriculum website) - and check the following things:
-
-#### Facilitator Checklist
-
-- [ ] Check the number of volunteers you have for the morning
-- [ ] Check someone is leading each session
-- [ ] Describe how any new activities works for the group
-- [ ] Decide how best to allocate trainees and volunteers for a given block - most blocks will make this clear
-
+1. Next add one thing you hope to find out or learn about today.
 </details>
 
 <details>

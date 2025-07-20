@@ -1,5 +1,5 @@
 +++
-title="Welcome to Code Your Future"
+title="Welcome to MigraCode Barceloa"
 description="How to participate in the Code Your Future programme as a learner"
 objectives=['Sign up for the Code Your Future programme', 'Join the Code Your Future Slack workspace', 'Begin Step 1']
 time=30

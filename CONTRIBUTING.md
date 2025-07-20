@@ -36,6 +36,48 @@ We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogica
 
 ## How to contribute
 
+### Git Workflow
+
+To contribute to this project, follow these steps:
+
+1. Fork the repository on GitHub
+
+2. Clone your fork locally:
+```bash
+git clone https://github.com/YOUR-USERNAME/curriculum2.0.git
+cd curriculum2.0
+```
+
+4. Create a new branch for your changes:
+```bash
+git checkout -b your-feature-name
+```
+
+5. Make your changes to the code or documentation
+
+6. Commit your changes with a descriptive message:
+```bash
+git add .
+git commit -m "Add detailed description of your changes"
+```
+
+7. Push to your fork:
+```bash
+git push origin feature/your-feature-name
+```
+
+8. Open a Pull Request:
+   - Go to the original repository on GitHub
+   - Click "New Pull Request"
+   - Select your feature branch
+   - Add a clear title and description
+   - Reference any related issues
+
+9. Wait for review and address any feedback
+
+The maintainers will review your PR and may request changes. Make any requested changes by adding new commits to your branch.
+
+
 ### Propose a new narrative or activity
 
 We adopt _tested_ content into the main curriculum, so develop and try out your material first! Come to class, try it, and get feedback from the community. Come talk in #cyf-syllabus-tech on Slack and iterate on your session.

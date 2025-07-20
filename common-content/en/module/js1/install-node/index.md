@@ -45,7 +45,7 @@ nvm install --lts
 node -v
 ```
 
-You should see a version number like `v22.11.0`.
+You should see a version number like `v22.16.0`.
 
 5. Check that you have successfully installed npm by running:
 
@@ -53,7 +53,7 @@ You should see a version number like `v22.11.0`.
 npm -v
 ```
 
-You should see a version number like `10.9.0`.
+You should see a version number like `10.9.2`.
 
 ##  On Mac
 
@@ -95,7 +95,7 @@ nvm install --lts
 node -v
 ```
 
-You should see a version number like `v22.11.0`.
+You should see a version number like `v22.16.0`.
 
 7. Check that you have successfully installed npm by running:
 
@@ -103,7 +103,7 @@ You should see a version number like `v22.11.0`.
 npm -v
 ```
 
-You should see a version number like `10.9.0`.
+You should see a version number like `10.9.2`.
 
 {{<note type="tip" title="Protip">}}
 Using nvm allows you to easily install and manage multiple versions of Node.js on your system. This will help you access projects that use older versions of Node.js.

@@ -16,13 +16,15 @@ emoji= '🗺️'
 
 +++
 
-At {{<our-name>}}, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on class days. Use this time to go through the activities and learn how to navigate the curriculum interface.
+At MigraCode, the curriculum maps out what you will learn together over the course. It defines your weekly work, the preparation you must do before class and what you will do together on class days. Use this time to go through the activities and learn how to navigate the curriculum interface. Let`s check out how this works.
 
-### Resources
 
-<!-- CYF-ONLY -->The facilitator will make a copy of this template presentation 👉
 
-<iframe title="using-the-curriculum" width="768" height="432" src="https://miro.com/app/live-embed/uXjVMh2y3Ds=/?moveToViewport=-7348,-6186,14736,7636&embedId=173973063452" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe><!-- END-CYF-ONLY -->
+<!-- ### Resources
+The facilitator will make a copy of this template presentation 👉
+
+<iframe title="using-the-curriculum" width="768" height="432" src="https://miro.com/app/live-embed/uXjVMh2y3Ds=/?moveToViewport=-7348,-6186,14736,7636&embedId=173973063452" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
 
 ### Preparation
 
@@ -34,4 +36,6 @@ At {{<our-name>}}, the curriculum maps out what you will learn together over the
 
 ### Introduction
 
-The facilitator will use the Miro board presentation to guide trainees and volunteers through a discussion about how we use the curriculum.
+The facilitator will use the Miro board presentation to guide trainees and volunteers through a discussion about how we use the curriculum. -->
+
+

@@ -15,10 +15,10 @@ time=20
 name="In person: Zip Zap Boing"
 src="energisers/zip-zap-boing"
 time=0
-[[blocks.nested.blocks]]
-name="Online: Popcorn Show and Tell"
-src="energisers/popcorn"
-time=0
+# [[blocks.nested.blocks]]
+# name="Online: Popcorn Show and Tell"
+# src="energisers/popcorn"
+# time=0
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -37,9 +37,9 @@ time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
-[[blocks]]
-name="Energiser"
-src="energisers/slack-libs"
+# [[blocks]]
+# name="Energiser"
+# src="energisers/slack-libs"
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
@@ -60,10 +60,10 @@ src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Bikes for Refugees Project"
 src="https://github.com/CodeYourFuture/Module-Onboarding/issues/22"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time=0
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
+# time=0
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"

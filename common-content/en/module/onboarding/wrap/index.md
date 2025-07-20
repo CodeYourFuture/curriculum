@@ -12,7 +12,7 @@ You are done for the day. Take a moment to reflect on what you have learned and 
 Stand in a circle and share:
 
 - 📛 your name
-- 💪🏽 one thing you built today
+- 💪🏽 one thing you are proud of today
 - 👷🏾 the task you are going to work on next
 - 🛟 one thing you need help with
 
