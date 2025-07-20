@@ -19,7 +19,7 @@ When we run the file with Node, we get an error in the console:
 
 ```console
 % node clock-example.js
-/Users/dwh/CYF/clock-example.js:12
+/Users/dwh/MCB/clock-example.js:12
 const currentOutput = formatAs12HourClock("23:00");
       ^
 
@@ -48,7 +48,7 @@ Each line of output here tells us something useful.
 The first line is:
 
 ```
-/Users/dwh/CYF/clock-example.js:12
+/Users/dwh/MCB/clock-example.js:12
 ```
 
 Your output was probably different. But it will have the same parts. Some text, then a colon (`:`), then a number.

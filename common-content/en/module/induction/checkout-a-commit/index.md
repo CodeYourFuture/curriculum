@@ -1,5 +1,5 @@
 +++
-title = 'Inspecting a commit'
+title = 'Check out a commit'
 
 time ="15"
 emoji= '🔍'

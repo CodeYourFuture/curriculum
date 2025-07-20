@@ -10,9 +10,8 @@ objectives=["Open a cloned repository in your IDE","Explore the repository in yo
 
 +++
 
-Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.
+Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode that you will have already used in your application process. This is a refresher to make sure we are all on the same page.
 
-VSCode is an application that enables developers to view and edit files on their local machine.
 
 {{<note type="exercise" title="Exercise">}}
 
@@ -28,5 +27,3 @@ VSCode is an application that enables developers to view and edit files on their
 
 {{</note>}}
 
-> [!NOTE]
-> If you're working on a library computer, use dot dev to open the repo in your browser, and navigate the files and folder there. You cannot open a terminal in the library, so come to class to try this part out.

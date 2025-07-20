@@ -21,18 +21,14 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 
 # Default menus     
 [menus]
-    [[menus.secondary]]
-        name = "👈🏾 Our Programme"
-        weight = 1
-        url = "https://curriculum.codeyourfuture.io/"
      [[menus.secondary]]
-        name = "👋🏿 Join Us"
+        name = "👋🏿 About MigraCode"
         weight = 2
-        url = "https://codeyourfuture.io/volunteers/"
+        url = "migracode.org"
     [[menus.secondary]]
-        name = "🫶🏼 Support Us"
+        name = " 👨‍👩‍👦‍👦 About Open Cultural Center"
         weight = 3
-        url = "https://codeyourfuture.io/donate/"
+        url = "openculturalcenter.org"
 
 [page]
   nextPrevInSectionSortOrder = 'asc'

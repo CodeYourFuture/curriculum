@@ -36,10 +36,10 @@ src="blocks/mentored-code-review"
 name="Optional structured activity for consolidating Git"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
 time=0
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time="0"
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
+# time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
@@ -47,12 +47,12 @@ src="blocks/afternoon-break"
 name="Study Group"
 src="module/onboarding/development"
 time=60
-[[blocks.nested.blocks]]
-name="Optional structured activity for consolidating HTML forms"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
+# [[blocks.nested.blocks]]
+# name="Optional structured activity for consolidating HTML forms"
+# src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"
+# [[blocks.nested.blocks]]
+# name="Optional structured activity: Pair Programming"
+# src="module/onboarding/pairing"
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"

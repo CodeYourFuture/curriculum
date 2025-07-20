@@ -48,4 +48,4 @@ The combination of symbols `10 + 32` is an {{<tooltip title="expression">}}An **
 
 `10` is also an expression. It **evaluates** to the value `10`.
 
-`"Code Your Future"` and `"Code Your " + "Future"` are also both expressions - both evaluate to the value `"Code Your Future"`.
+`"Migracode Barcelona"` and `"Migracode " + "Barcelona"` are also both expressions - both evaluate to the value `"Migracode Barcelona"`.

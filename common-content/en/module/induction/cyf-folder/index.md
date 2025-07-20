@@ -14,9 +14,9 @@ emoji= '📂'
 +++
 
 > [!IMPORTANT]
-> Make a folder called `{{<our-name>}}` in your home directory. Store all your work for the course in this folder.
+> Make a folder called `MCB` (stands for MigraCode Barcelona) in your home directory. Store all your work for the course in this folder.
 
-You'll need to create a {{<our-name>}} folder to store your projects on the course. You can do this any way you like, but here we are using the terminal.
+You'll need to create a `MCB` folder to store your projects on the course. You can do this any way you like, but here we are using the terminal.
 
 ### How to create a folder using the terminal
 
@@ -32,11 +32,9 @@ Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-co
 
 You'll need a place to store your work for the course.
 
-4. **M**a**k**e a new **dir**ectory called `{{<our-name>}}` in your home directory.
+4. Make a new diRectory called `MCB` in your home directory.
 
-5. **C**hange **d**irectory into the `{{<our-name>}}` directory.
+5. Change directory into the `MCB` directory.
 
-6. Double check you're in the right place by **p**rinting your current **w**orking **d**irectory.
+6. Double check you're in the right place by printing your current working directory.
 
-> [!TIP]
-> If you're working on a library computer, skip this step. You will store your work in your GitHub account.
