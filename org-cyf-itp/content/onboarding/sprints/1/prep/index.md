@@ -16,7 +16,7 @@ name="Check Git"
 src="module/induction/check-git-installation"
 time=5
 [[blocks]]
-name="Create CYF Folder"
+name="Create MCB Folder"
 src="module/induction/cyf-folder"
 time=5
 # [[blocks]]

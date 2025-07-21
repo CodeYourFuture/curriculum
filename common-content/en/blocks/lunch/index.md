@@ -1,5 +1,5 @@
 +++
-title="Community Lunch"
+title=""
 emoji="🍽️"
 time=60
 hide_from_overview=true

@@ -32,7 +32,7 @@ Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-co
 
 You'll need a place to store your work for the course.
 
-4. Make a new diRectory called `MCB` in your home directory.
+4. Make a new directory called `MCB` in your home directory.
 
 5. Change directory into the `MCB` directory.
 

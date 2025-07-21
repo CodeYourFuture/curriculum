@@ -26,7 +26,7 @@ The interface is mostly the same, but you cannot install extensions or use the t
 <--->
 
 > [!TIP]
-> But if you have a computer from MigraCode please download VS code and edit your code locally there (github.dev is only an emergency option).
+> But if you have a computer from MigraCode or a computer of your own please download VS code and edit your code locally there (github.dev is only an emergency option).
 !["Github.dev can be accessed by pressing dot on any GitHub repo"](https://user-images.githubusercontent.com/856858/130119109-4769f2d7-9027-4bc4-a38c-10f297499e8f.gif "Press the dot while on any GitHub repo to open Github.dev.")
 
 {{</columns>}}
