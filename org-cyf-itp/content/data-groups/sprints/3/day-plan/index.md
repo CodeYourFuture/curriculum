@@ -14,7 +14,7 @@ time=15
 [[blocks]]
 name="Workshop"
 src="blocks/workshop"
-time="140"
+time="90"
   [[blocks.nested.blocks]]
     name="DOM merge conflict [Tech] (60 Mins)"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
@@ -29,18 +29,18 @@ src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="80"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
-time="0"
+time="60"
+# [[blocks]]
+# name="Code Review"
+# src="https://github.com/CodeYourFuture/Module-Data-Groups/pulls"
+# time="0"
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="75"
+# [[blocks]]
+# name="Study Group"
+# src="blocks/study-group"
+# time="75"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
