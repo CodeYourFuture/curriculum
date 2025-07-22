@@ -32,9 +32,9 @@ src="blocks/code-of-conduct"
 name="Traffic Jam"
 src="energisers/blockers"
 time=45
-[[blocks]]
-name="lunch"
-src="blocks/lunch"
+# [[blocks]]
+# name="lunch"
+# src="blocks/lunch"
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"

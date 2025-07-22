@@ -10,6 +10,15 @@ objectives=["Open a cloned repository in your IDE","Explore the repository in yo
 
 +++
 
+{{<note title="📌 Disclaimer">}}
+This exercise is hosted on the GitHub repository of our partner NGO, **Code Your Future** (UK), and **not** on a MigraCode-owned repository.
+We are part of a European network where we share resources and support each other as we share the same mission -  to provide free, high-quality tech education to our communities.
+
+The exercise works as intended — you are free to **fork and clone** the repository as usual, if required by the exercise.
+
+However, please do not make any pull requests to the original Code Your Future repository.
+{{</note>}}
+
 Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode that you will have already used in your application process. This is a refresher to make sure we are all on the same page.
 
 

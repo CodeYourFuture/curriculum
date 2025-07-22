@@ -13,6 +13,15 @@ emoji= '🏠'
 
 +++
 
+{{<note title="📌 Disclaimer">}}
+This exercise is hosted on the GitHub repository of our partner NGO, **Code Your Future** (UK), and **not** on a MigraCode-owned repository.
+We are part of a European network where we share resources and support each other as we share the same mission.
+
+The exercise works as intended — you are free to **fork and clone** the repository as usual, if required by the exercise.
+
+However, please do not make any pull requests to the original Code Your Future repository.
+{{</note>}}
+
 ### 📌 Understanding Forking and Cloning
 
 Here is a diagram representing how repositories interact after forking and cloning:
