@@ -34,9 +34,9 @@ src="blocks/morning-break"
 name="Workshop: Using GitHub"
 src="https://github.com/CodeYourFuture/Developer-Specs"
 time=60
-# [[blocks]]
-# name="lunch"
-# src="blocks/lunch"
+[[blocks]]
+name="lunch"
+src="blocks/lunch"
 # [[blocks]]
 # name="Energiser"
 # src="energisers/slack-libs"

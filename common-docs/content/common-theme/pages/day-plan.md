@@ -13,9 +13,9 @@ src="common-content/blocks/energiser"
 name="Placeholder Workshop"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
 time="120"
-# [[blocks]]
-# name="Lunch"
-# src="common-content/blocks/lunch"
+[[blocks]]
+name="Lunch"
+src="common-content/blocks/lunch"
 [[blocks]]
 name="Study Group 2"
 src="common-content/blocks/study-group"
