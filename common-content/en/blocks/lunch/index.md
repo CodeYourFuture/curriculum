@@ -1,5 +1,5 @@
 +++
-title=""
+title="Lunch"
 emoji="🍽️"
 time=60
 hide_from_overview=true
