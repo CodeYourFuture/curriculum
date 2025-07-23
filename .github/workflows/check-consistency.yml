@@ -12,7 +12,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: 1.21
+          go-version: 1.24.5
       - name: Build tooling
         run: (cd tooling/go && go build ./cmd/local-overrides-enforcer && go build ./cmd/sprint-consistency && go build ./cmd/site-consistency)
       - name: Check override consistency

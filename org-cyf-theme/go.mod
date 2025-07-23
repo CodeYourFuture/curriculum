@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/org-cyf-theme
 
-go 1.22.6
+go 1.24.5
 
 require (
 	github.com/CodeYourFuture/curriculum/common-content v0.0.0-20241008095008-281a5517463f // indirect
