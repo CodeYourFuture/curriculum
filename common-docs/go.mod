@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/common-docs
 
-go 1.22.6
+go 1.24.5
 
 require (
 	github.com/CodeYourFuture/CYF-PD v1.0.1-0.20240721130916-d70fc853a278 // indirect

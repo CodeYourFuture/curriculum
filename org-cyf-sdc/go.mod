@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/org-cyf-sdc
 
-go 1.22.6
+go 1.24.5
 
 require (
 	github.com/CodeYourFuture/CYF-PD v1.0.0 // indirect

@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/org-cyf-how-this-works
 
-go 1.22.6
+go 1.24.5
 
 toolchain go1.22.8
 
