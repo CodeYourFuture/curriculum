@@ -12,17 +12,17 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Workshop"
-src="blocks/workshop"
-time="140"
-  [[blocks.nested.blocks]]
-    name="DOM merge conflict [Tech] (60 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
-    time=0
-    [[blocks.nested.blocks]]
-    name="Interviewing practice [PD] (60 Mins)"
-    src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
-    time=0
+name="DOM merge conflict"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
+time=60
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+time=20
+[[blocks]]
+name="Interviewing practice"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
