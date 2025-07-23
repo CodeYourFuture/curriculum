@@ -31,6 +31,9 @@ time=60
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
+name="Disclaimer: this exercise is from Code Your Future"
+src="blocks/disclaimer-mc"
+[[blocks]]
 name="Workshop: Using GitHub"
 src="https://github.com/CodeYourFuture/Developer-Specs"
 time=60
