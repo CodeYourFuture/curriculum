@@ -20,3 +20,5 @@ jobs:
           extended: true
       - name: Build all sites
         run: ./tooling/build_all_sites.sh
+        env:
+          HUGO_CURRICULUM_GITHUB_BEARER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
