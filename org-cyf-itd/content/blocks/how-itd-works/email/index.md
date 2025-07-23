@@ -19,9 +19,7 @@ Please find below all the required materials:
 
 
 
-  **Step 2.** Link to the spreadsheet I created:  `[paste the URL here]`
-
-  **Step 3a.** Screenshot showing course completion (all four projects except the Hometown project need to be at 100% completion): `[paste the screenshot here]`
+  **Step 3a.** Screenshot showing course completion (all four projects except the Hometown project need to be at close to 100% completion): `[paste the screenshot here]`
 
   **Step 3b.** Link to my deployed GIFt Site:  `[paste the URL here]`
 
