@@ -1,0 +1,17 @@
+name: Build all sites
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build_all_sites:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.21
+      - name: Build all sites
+        run: ./tooling/build_all_sites.sh
