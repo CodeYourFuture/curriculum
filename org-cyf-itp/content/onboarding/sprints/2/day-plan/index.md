@@ -12,6 +12,9 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
+name="Disclaimer: this exercise is from Code Your Future"
+src="blocks/disclaimer-mc"
+[[blocks]]
 name="Workshop: Asking Questions"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions/"
 time="120"
