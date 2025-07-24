@@ -37,4 +37,4 @@ You're all learning together. You can understand each other's problems. Ask for 
 
 #### We're all part of this
 
-This isn't just a coding school. It's for all of us - participants, trainees, volunteers. Try to make it better in any way you can.
+This isn't just a coding school. It's for all of us - participants, students, volunteers. Try to make it better in any way you can.
