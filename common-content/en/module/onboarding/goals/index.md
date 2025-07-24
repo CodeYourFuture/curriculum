@@ -14,7 +14,7 @@ objectives = [
   publishResources = false
 +++
 
-You have joined us as a Learner. Your overall goal for this module is to understand how to succeed at the ITP course.
+You have joined us as a student. Your overall goal for this module is to understand how to succeed at the ITP course.
 
 To demonstrate you know how to succeed at the course, you should apply to enroll as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
 
