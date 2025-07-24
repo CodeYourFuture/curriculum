@@ -23,7 +23,7 @@ name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
 time=30
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Working with others"

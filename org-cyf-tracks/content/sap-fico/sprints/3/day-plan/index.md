@@ -18,7 +18,7 @@ name="Workshop"
 src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/workshops/Cost-Controlling-Change-Management"
 time=135
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Project"

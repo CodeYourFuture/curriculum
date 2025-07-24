@@ -20,7 +20,7 @@ name="Giving Feedback [PD] (60 Mins)"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
 time=0
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"

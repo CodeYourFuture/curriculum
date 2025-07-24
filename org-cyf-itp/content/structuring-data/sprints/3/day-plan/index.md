@@ -17,7 +17,7 @@ name="Workshop:Playing Computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
 time=140
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Stand Up"
