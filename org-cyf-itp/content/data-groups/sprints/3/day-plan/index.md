@@ -24,7 +24,7 @@ time="90"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
     time=0
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"

@@ -16,7 +16,7 @@ name= "Teamwork Project"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s3"
 time=140
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"

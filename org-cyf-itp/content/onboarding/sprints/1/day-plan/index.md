@@ -38,7 +38,7 @@ name="Workshop: Using GitHub"
 src="https://github.com/CodeYourFuture/Developer-Specs"
 time=60
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 # [[blocks]]
 # name="Energiser"

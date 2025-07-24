@@ -23,7 +23,7 @@ name="Games, rules, logic and strategy"
 src="blocks/games"
 time="25"
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="demo"

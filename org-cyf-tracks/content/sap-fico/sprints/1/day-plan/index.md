@@ -23,7 +23,7 @@ name="Workshop"
 src="https://github.com/CodeYourFuture/Track-ERP-SAP-FICO/tree/main/workshops/Foundations"
 time=105
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Project"

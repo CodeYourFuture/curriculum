@@ -38,7 +38,7 @@ name="Development"
 src="module/piscine/solo-development"
 time="60"
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Development"

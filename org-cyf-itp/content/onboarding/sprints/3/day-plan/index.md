@@ -29,7 +29,7 @@ src="module/onboarding/pairing"
 # name="Optional structured activity: Submit your Step"
 # src="module/onboarding/steps"
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Blockers! Getting Unstuck"
