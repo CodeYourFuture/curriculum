@@ -2,15 +2,26 @@
 ignore = "exit 1" #always build on PR even if you can't detect changes in this folder
 publish = "public"
 command = "./deploy-netlify.sh"
+
+[build.environment]
+  GO_VERSION = "1.24.5"
+  HUGO_VERSION = "0.136.3"
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+
 [dev]
 framework = "hugo"
 targetPort = 3000
 command = "hugo server -p 3000"
+
 [[redirects]]
 from = "/api/*"
 to = "/.netlify/functions/:splat"
 status = 200
+
 [functions]
+directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
 
 [[headers]]

@@ -1,6 +1,6 @@
 module github.com/CodeYourFuture/curriculum/tooling/go
 
-go 1.21.5
+go 1.24.5
 
 require (
 	github.com/stretchr/testify v1.8.4
@@ -8,9 +8,10 @@ require (
 )
 
 require (
-	github.com/BurntSushi/toml v0.3.1 // indirect
+	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/adrg/frontmatter v0.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/goccy/go-yaml v1.18.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
