@@ -13,4 +13,3 @@ hide_from_overview=true
 Every Saturday we would love to eat together on the 9th floor. Bring your home-cooked food or buy some food across the street at Glories (e.g., at the Carrefour Supermarket or pick up some to-go meal from one of the restaurants there). We share our time, food and our stories. We learn about each other and the world. We build community.👭👬
 
 Adevinta allows us to use their beautiful space, cutlery, plates, microwaves etc - please make sure to leave everything exactly as it was before so they keep lending their precious space to us ☺️. Ah and make sure to check out the foosball table on the terrace.
-
