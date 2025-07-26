@@ -45,4 +45,4 @@ However, please **do not make any pull requests** to the original Code Your Futu
 
 Any PRs you're submitting must have been reviewed, and must be labelled Complete by a volunteer.
 
-Submit the following items to complete this module on your private slack channel with the MigraCode team
+Submit the following items to complete this module on your private slack channel with the MigraCode team.
