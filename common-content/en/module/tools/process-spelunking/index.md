@@ -275,7 +275,7 @@ Use what you learned in the previous exercise, to find the *PID* of this program
 Now run `lsof -p 1234` (replace 1234 with the *PID* of the program).
 The `-p` flag tells `lsof` that we're only interested in the files opened by that process; without that option `lsof` will show everything that it can show.
 
-Can you find the FD of the `exercise_2.py` file?
+Can you find the FD of the `exercise_2_file.txt` file?
 
 ===[[Answer]]===
 If I run `lsof` on the program, I see this.
@@ -306,6 +306,8 @@ python3 65262 ariane    3r   REG  253,0        0  262147 /home/ariane/programmin
 The *FD* column says `3r`.
 This means the file is on *FD* 3.
 (The `r` suffix, means it is opened for reading.)
+
+Note that the file `exercise_2.py` does not appear in the list because, by the time lsof is executed, Python has already read its contents into memory and no longer holds an open file descriptor.
 {{</tabs>}}
 
 ### Standard Input, Output, and Error
