@@ -24,7 +24,7 @@ name="Time Traveller"
 src="energisers/time-traveller"
 time=65
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Stand Up"

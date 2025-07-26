@@ -24,7 +24,7 @@ time="100"
     src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/debugging-2"
     time=0
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Study Group"

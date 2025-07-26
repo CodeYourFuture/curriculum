@@ -31,11 +31,14 @@ time=60
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
+name="Disclaimer: this exercise is from Code Your Future"
+src="blocks/disclaimer-mc"
+[[blocks]]
 name="Workshop: Using GitHub"
 src="https://github.com/CodeYourFuture/Developer-Specs"
 time=60
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 # [[blocks]]
 # name="Energiser"
@@ -59,7 +62,7 @@ name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Bikes for Refugees Project"
-src="https://github.com/CodeYourFuture/Module-Onboarding/issues/22"
+src="https://github.com/MigraCode-Barcelona/bikes-for-refugees"
 # [[blocks]]
 # name="Code Review"
 # src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"

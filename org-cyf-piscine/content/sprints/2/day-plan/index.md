@@ -26,7 +26,7 @@ name="Development"
 src="module/piscine/development"
 time="30"
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Development"

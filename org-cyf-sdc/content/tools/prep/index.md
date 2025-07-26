@@ -15,7 +15,7 @@ src="module/induction/check-git-installation"
 name="Install VS Code"
 src="module/induction/install-vscode"
 [[blocks]]
-name="Create CYF Folder"
+name="Create MCB Folder"
 src="module/induction/cyf-folder"
 [[blocks]]
 name="Fork your Planner"

@@ -1,14 +1,14 @@
-+++
-title="Prep"
-time=10
-hide_from_overview="true"
-[build]
-  render = 'never'
-  list = 'local'
-  publishResources = false
-+++
+<!-- # +++
+# title="Prep"
+# time=10
+# hide_from_overview="true"
+# [build]
+#   render = 'never'
+#   list = 'local'
+#   publishResources = false
+# +++ -->
 
-Double-check you have everything you need to start this course.
+<!-- Double-check you have everything you need to start this course.
 
 - [ ] You have completed ITD and received an invitation to join this course by email
 - [ ] You have signed the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/)
@@ -30,4 +30,4 @@ Now go read over the day plans, backlogs, success criteria and complete the quiz
   question="What is the first thing you should do when you come into class?"
   answers="Sign the register | Find a seat | Get a coffee"
     feedback="Yes, sign the register as soon as you come in. | No, you should sign the register first. | No, you should sign the register first."
-    correct="0" >}}
+    correct="0" >}} -->

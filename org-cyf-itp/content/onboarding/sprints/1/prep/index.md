@@ -16,21 +16,21 @@ name="Check Git"
 src="module/induction/check-git-installation"
 time=5
 [[blocks]]
-name="Create CYF Folder"
+name="Create MCB Folder"
 src="module/induction/cyf-folder"
 time=5
-# [[blocks]]
-# name="Fork your Planner"
-# src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
-# time=5
-# [[blocks]]
-# name="Make your Planning Board"
-# src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
-# time=15
-# [[blocks]]
-# name="Set up Planner"
-# src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
-# time=30
+[[blocks]]
+name="Fork your Planner"
+src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
+time=5
+[[blocks]]
+name="Make your Planning Board"
+src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
+time=15
+[[blocks]]
+name="Set up Planner"
+src="https://github.com/Migracode-Barcelona/My-Coursework-Planner/tree/main"
+time=30
 # [[blocks]]
 # name="cyf blog"
 # src="module/induction/cyf-blog"

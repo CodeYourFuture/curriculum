@@ -23,7 +23,7 @@ name="Another Asking Questions Workshop"
 src="https://cyf-pd.netlify.app/blocks/asking-good-technical-questions"
 time=70
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Blockers! Getting Unstuck"

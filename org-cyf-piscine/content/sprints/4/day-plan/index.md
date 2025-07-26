@@ -18,7 +18,7 @@ name="Interviews"
 src="module/piscine/interviews"
 time=95
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Wrap Party"

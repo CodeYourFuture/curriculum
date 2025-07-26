@@ -23,9 +23,6 @@ Click on the links to go to the registration pages. Keep your login details for 
 
 Every time you create an account which can have a profile picture, you should set one up. Follow these [professional image guidelines](https://www.linkedin.com/business/talent/blog/product-tips/tips-for-taking-professional-linkedin-profile-pictures) when picking an image. Use the same picture for every account.
 
-{{<note type="tip" title="Robohash" >}}
-We understand you may need to keep your picture off the internet. In this case, generate [a robohash picture](https://robohash.org/) from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.
-{{</note>}}
 
 ### Gmail, Google Account
 
@@ -57,22 +54,21 @@ Sign up for LinkedIn. LinkedIn is the largest professional social network. You w
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
-Your cohort is your first network, and this is one of the most valuable things you can develop at {{<our-name>}}. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
+Your cohort is your first network, and this is one of the most valuable things you can develop at MigraCode. A strong, tightly linked, professional network is a powerful asset, so begin building it today.
 
 - [ ] I have made a LinkedIn account using my professional email address.
 - [ ] I have used my real name.
 - [ ] I have connected with my cohort.
-- [ ] I am following {{<our-name>}}.
+- [ ] I am following MigraCode Barcelona.
 
 ### Slack
 
 [Slack](https://slack.com/intl/en-gb) is our community space and how we communicate with each other. Download and install it now. If you are not using your own computer, log in to the web version instead.
 
 - [ ] I have downloaded the [Slack](https://slack.com/intl/en-gb) app on my computer and phone.
-- [ ] I have logged in to the {{<our-name>}} workspace.
+- [ ] I have logged in to the MigraCode workspace.
 - [ ] I have found and joined my class channels.
 - [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
-- [ ] I have introduced myself on Slack.
 
 ## Applications
 

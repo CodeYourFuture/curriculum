@@ -12,6 +12,9 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
+name="Disclaimer: this exercise is from Code Your Future"
+src="blocks/disclaimer-mc"
+[[blocks]]
 name="Workshop: Asking Questions"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions/"
 time="120"
@@ -20,7 +23,7 @@ name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
 time=30
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Working with others"

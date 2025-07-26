@@ -18,7 +18,7 @@ name="Interviews"
 src="module/entry-tracks/interviews"
 time=90
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Wrap Party"
