@@ -7,8 +7,8 @@ emoji= '🧑🏿‍💻'
 weight = 1
 [[blocks]]
 name="Planning and organising your project"
-src="https://github.com/CodeYourFuture/Project-TV-Show/readme"
+src="https://raw.githubusercontent.com/Migracode-Barcelona/Project-TV-Show/main/readme.md"
 [[blocks]]
 name="Setting up"
-src="https://github.com/CodeYourFuture/Project-TV-Show/issues/4"
+src="https://raw.githubusercontent.com/Migracode-Barcelona/Project-TV-Show/main/levels/level-0.md"
 +++

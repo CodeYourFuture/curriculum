@@ -14,7 +14,7 @@ time=15
 [[blocks]]
 name= "Teamwork Project Sprint 2"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s2"
-time="140"
+time="100"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

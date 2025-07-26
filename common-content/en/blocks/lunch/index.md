@@ -15,4 +15,3 @@ hide_from_overview=true
 On days where there is no community lunch planned you can still stay to socialise here and use the terrace to meet you peers and connect (this goes especially for class days that are longer than just until 2pm.)
 
 Adevinta allows us to use their beautiful space, cutlery, plates, microwaves etc - please make sure to leave everything exactly as it was before so they keep lending their precious space to us ☺️. Ah and make sure to check out the foosball table on the terrace.
-
