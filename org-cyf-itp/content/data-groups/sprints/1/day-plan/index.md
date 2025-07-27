@@ -6,7 +6,7 @@ menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Energiser"
-src="blocks/energiser
+src="blocks/energiser"
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
@@ -50,4 +50,4 @@ src="blocks/afternoon-break"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
-+++git
++++
