@@ -58,6 +58,20 @@ Which of the below are NOT appropriate responses?
 6. Copying another student’s answers.
 7. Sending a direct message to a active volunteer
 
+##### Question Four
+###### Setup
+This question is a little more technical, however you don't need to understand everything quite yet to answer it. Start by opening [the exercise code on CodePen](https://codepen.io/Ara225/pen/JoYbRVd). It should look like this:
+![CodePen Editor](./codepen-editor.png)
+The bottom panel displays the result of the HTML and CSS in the text boxes above. Imagine you are a junior developer who has been tasked with making the central panel look like this:
+![Desired Outcome](outcome.png)
+Use an AI tool such as [ChatGPT](https://chatgpt.com/) or [Gemini](https://gemini.google.com/app) to help you figure out how to achieve this. Test your understanding
+
+> [!NOTE]
+> CodePen is a useful tool to enable you to write, preview and share code. It is used later in this course and in other CYF courses. You don't need to understand everything about it right now. However, if you are new to CodePen, you may find this [guide on the CodePen editor](https://blog.codepen.io/documentation/pen-editor/) useful.
+
+###### Question
+
+
 ### What Should You Do?
 
 ##### 1. Answer the Questions in a Google Doc
