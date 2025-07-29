@@ -15,10 +15,15 @@ objectives = [
 
 As a group, work together to create and submit these key documents for a new business scenario. Each person should understand all parts of the submission:
 
-1. A Problem Statement (what the problem is) & Stakeholder Map (who is involved).
-2. 2-3 User Personas (descriptions of typical users).
-3. An "As-Is" Process or User Journey Diagram (how things currently work).
-4. 8-10 Requirements (what the solution needs to do, functional, non-functional).
-5. 5 User Stories with acceptance criteria.
-6. A high-level Solution Design (how you'd solve the problem).
-7. What's "In-Scope" (what you will do) and "Out-of-Scope" (what you won't do for this project)?
+1. Present the problem \
+   Include a Problem Statement, Market overview (example of a similar product), goals
+2. Present your approach \
+   Include Stakeholder Map, 2-3 User Personas (descriptions of typical users) and User Journeys
+3. Understand the product
+    - Scope Description and/or Context Diagram
+    - Business Process and/or Use Cases
+    - Prioritised Backlog (Epics/Features/Stories)
+    - MVP and Roadmap on Epic or Feature level
+4. Mock-up / High-level Solution Design
+5. Data model
+6. Rollout proposal
