@@ -58,17 +58,6 @@ Which of the below are NOT appropriate responses?
 6. Copying another student’s answers.
 7. Sending a direct message to a active volunteer
 
-##### Practical Use of AI
-This question is a little more technical, however you don't need to understand everything quite yet to answer it. Start by opening [the exercise code on CodePen](https://codepen.io/Ara225/pen/JoYbRVd). It should look like this:
-![CodePen Editor](./codepen-editor.png)
-The bottom panel displays the result of the HTML and CSS in the text boxes above. Imagine you are a junior developer who has been tasked with making the central panel look like this:
-![Desired Outcome](outcome.png)
-Use an AI tool such as [ChatGPT](https://chatgpt.com/) or [Gemini](https://gemini.google.com/app) to help you figure out how to achieve this. Do not ask the AI to directly answer the questions, ask it to explain the concepts. Test your understanding by editing the CSS in CodePen.
-
-> [!NOTE]
-> CodePen is a useful tool to enable you to write, preview and share code. It is used later in this course and in other CYF courses. You don't need to understand everything about it right now. However, if you are new to CodePen, you may find this [guide on the CodePen editor](https://blog.codepen.io/documentation/pen-editor/) useful.
-
-
 ### What Should You Do?
 
 ##### 1. Create a Google Doc
@@ -79,10 +68,7 @@ Use an AI tool such as [ChatGPT](https://chatgpt.com/) or [Gemini](https://gemin
 > [!NOTE]
 > If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
 
-##### 2. Complete the Practical 
-Complete the practical task above. Take a screenshot of the result and insert it into the doc.
-
-##### 3. Put your name in the document name 
+##### 2. Put your name in the document name 
 
 Include your given name or your family name in the title of the Google Doc.
 
@@ -90,7 +76,7 @@ Include your given name or your family name in the title of the Google Doc.
 `How to change document name in Google Docs`
 {{</note>}}
 
-##### 4. Make your Google Doc public
+##### 3. Make your Google Doc public
 
 Change the sharing settings of your Google Doc to "Anyone with the link can view".
 
@@ -98,7 +84,6 @@ Change the sharing settings of your Google Doc to "Anyone with the link can view
 `How to share Google Docs to public`
 {{</note>}}
 
-
-##### 5. Submit the Google Doc link
+##### 4. Submit the Google Doc link
 
 Submit the link to the Google Doc in Step 2 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
