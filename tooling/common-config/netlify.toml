@@ -20,6 +20,11 @@ from = "/api/*"
 to = "/.netlify/functions/:splat"
 status = 200
 
+[[redirects]]
+from = "/calendar"
+to = "https://docs.google.com/spreadsheets/d/1yI0msIwe8qYn2Nv9WPLwFMTM_Td0TtPvlv17u3B8sS8/edit?gid=0#gid=0"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
