@@ -18,8 +18,8 @@ src="blocks/morning-break"
 name="Refining Purple Forest bugs"
 src="module/legacy/refining-purple-forest-bugs"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="Discussion: Behavioural Interviews"
+src="blocks/discuss-behavioural-interviews"
 time="30"
 [[blocks]]
 name="Games, rules, logic and strategy"
