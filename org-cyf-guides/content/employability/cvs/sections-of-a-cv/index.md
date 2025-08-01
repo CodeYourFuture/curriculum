@@ -1,9 +1,10 @@
 ---
-title: Profile sections
+title: Sections of a CV
 description: Work through different sections in your CV
-emoji: 🖼️
-weight: 4
+emoji: 📄
+weight: 1
 ---
+
 ## Basic Information
 
 Your CV should clearly mention your name, email address and phone number. It is a good practice to include your LinkedIn and GitHub links as well. 
@@ -43,4 +44,4 @@ Everything you have delivered in a role can be explained as an achievement. Each
 
 Add the most recent experience first. The most recent or most important information appears above the older or less important information. If education is more important than experience for this job advert, then put the education section above experience. Focus on the experience that is relevant to the job you want.
 
-If have an older unrelated career, de-focus its importance by writing less about it. However, you can extract and use the important aspects that are transferable. For example, if your previous experience was working in a pub then only write one line about it with no achievements, but you can include transferable skills such as working as part of a team and supporting colleagues.
+If you have an older unrelated career, focus on the transferrable skills from it. But think carefully about what these may be! If you were a journalist, you probably have skills in storytelling, explaining things, and user-focus. If you worked in a shop, perhaps you have great experience working in a team and supporting colleagues. Most jobs have transferrable skills - think about them.
