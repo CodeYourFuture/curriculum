@@ -15,8 +15,8 @@ time="90"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
+name="CV Personal Statement Matching"
+src="cv-personal-statement-matching"
 time="30"
 [[blocks]]
 name="Games, rules, logic and strategy"
