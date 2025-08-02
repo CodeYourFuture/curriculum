@@ -12,21 +12,21 @@ time=20
 [[blocks]]
 name="New case study"
 src="module/business-analysis/new-use-case"
-time=120
+time=150
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 time=60
 [[blocks]]
-name="Presentation: round 1"
-src="module/business-analysis/demo"
-time=60
+name="New case study"
+src="module/business-analysis/new-use-case"
+time=100
 [[blocks]]
 name="Afternoon Break"
 src="blocks/afternoon-break"
 time=15
 [[blocks]]
-name="Presentation: round 2"
+name="Presentations"
 src="module/business-analysis/demo"
 time=60
 [[blocks]]
