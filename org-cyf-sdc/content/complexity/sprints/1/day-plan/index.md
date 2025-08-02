@@ -15,9 +15,8 @@ time="90"
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="30"
+name="Discussion: Technical Interviews"
+src="blocks/discuss-technical-interviews"
 [[blocks]]
 name="Games, rules, logic and strategy"
 src="blocks/games"
