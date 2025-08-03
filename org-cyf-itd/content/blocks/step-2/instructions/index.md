@@ -64,7 +64,7 @@ Which of the below are NOT appropriate responses?
 ##### 1. Create a Google Doc
 1. Create a Google Doc
 2. Place your answers for each of the questions above into the doc
-3. Add one or three sentences explaining why you chose the answers you did
+3. Add one to three sentences explaining why you chose the answers you did
 
 > [!NOTE]
 > If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
