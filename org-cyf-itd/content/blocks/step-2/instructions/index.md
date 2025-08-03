@@ -42,7 +42,7 @@ Which of the below might be appropriate responses?
 1. Googling the topic and look for reliable sources to clarify the point.
 2. Trying to persuade the AI to check again.
 3. Accepting this as the truth because the AI seemed to know what it was talking about.
-4. Asking a volunteer whether the AI is right
+4. Asking a volunteer whether the AI is right.
 5. Asking another AI tool. 
 
 ##### Question Three
