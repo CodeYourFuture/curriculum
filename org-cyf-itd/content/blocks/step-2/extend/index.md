@@ -11,7 +11,6 @@ time=5
 
 #### Further Reading
 You do not have to read these resources, but you might find them interesting or useful
-Hey programmers – is AI making us dumber?
 - [Hey programmers – is AI making us dumber?](https://www.theregister.com/2025/02/21/opinion_ai_dumber/)
 - [UN Development Report - A Matter of Choice: People and Possibilities in the Age of AI](https://report.hdr.undp.org/) 
 
