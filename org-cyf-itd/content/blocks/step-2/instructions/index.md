@@ -20,7 +20,7 @@ This means that all output from AI is potentially untrustworthy. It's especially
 
 Despite all these downsides and risks, AI can be an amazing tool. The great majority of our teachers are volunteers, so their availability is limited. AI means that you now have a teacher at your fingertips whenever you get stuck. However, good teachers try to help you to understand and find the answers yourself. AI tools do not do this by default - they tend to simply give you the answer. This can make you think you’re progressing and understanding when you’re not. So, you need to use it correctly. You need to be careful to ask it to help you to learn the concepts, not to solve the problems. For instance it would be inappropriate to get it to do CYF coursework for you but it would be appropriate to get it to help you to understand a concept you're struggling with.
 
-Success at CYF is not about using AI to rush through the course and tick all the boxes. It's about building a deep understanding of the concepts we teach for yourself. Using AI to do the work for you wastes everyone’s time. You will end the course without the coding skills you wanted and our volunteers will have wasted their time marking AI work.
+Success at CYF is not about using AI to rush through the course and tick all the boxes. It's about building a deep understanding of the concepts we teach for yourself. Using AI to do the work for you wastes everyone’s time. You will end the course without the coding skills you wanted (which means you won't get a job) and our volunteers will have wasted their time marking AI work.
 
 #### Questions
 
