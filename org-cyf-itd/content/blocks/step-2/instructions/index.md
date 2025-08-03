@@ -57,6 +57,7 @@ Which of the below are NOT appropriate responses?
 5. Using Google to find articles on the topics they are struggling with. 
 6. Copying another student’s answers.
 7. Sending a direct message to a active volunteer
+8. Giving an AI tool their assigned problems and ask it to solve them for them. They then copy and paste the output, making small edits.
 
 ### What Should You Do?
 
