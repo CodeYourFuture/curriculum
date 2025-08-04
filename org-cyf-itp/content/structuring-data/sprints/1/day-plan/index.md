@@ -12,8 +12,8 @@ time=10
 name="Energiser: Popcorn"
 src="energisers/popcorn-screen-share"
 [[blocks]]
-name="Javascript Test Your Understanding"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
+name="Problem Solving Workshop"
+src="https://cyf-codewars-workshops.netlify.app/problem-01/"
 time=65
 [[blocks]]
 name="Morning break"
