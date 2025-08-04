@@ -13,8 +13,8 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Questions and Review Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews"
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-02/"
 time=60
 [[blocks]]
 name="Morning break"

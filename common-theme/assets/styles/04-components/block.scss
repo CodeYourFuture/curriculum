@@ -79,4 +79,9 @@
       color: var(--theme-color--pop);
     }
   }
+
+  &--codewars-workshop iframe {
+    width: 100%;
+    height: 90vh;
+  }
 }

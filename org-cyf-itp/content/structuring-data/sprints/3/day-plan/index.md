@@ -15,7 +15,14 @@ time=20
 [[blocks]]
 name="Workshop:Playing Computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
-time=140
+time=65
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-03/"
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
