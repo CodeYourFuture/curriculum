@@ -42,3 +42,17 @@ It's ok to make your CV stand out - it can be beautiful and interesting. But nev
 Often career-changers will skip previous jobs/careers from their CV. Other times, people will fill their CV with irrelevant experience. Both are mistakes.
 
 If you have an older unrelated career, focus on the transferrable skills from it. But think carefully about what these may be! If you were a journalist, you may have used skills in storytelling, explaining things, attention to detail, or focusing on the user. If you worked in a shop, perhaps you have great experience working in a team and supporting colleagues. Most jobs have transferrable skills - think about them and include them - but focus on what's relevant.
+
+## Generic personal statements
+
+Your personal statement should be personal to you. Lots of people write very generic statements that don't say anything about themselves. Consider:
+
+"An enthusiastic junior engineer eager to learn new skills. Experienced in JavaScript, NodeJS and React. Loves solving problems, and equally happy working on a team or alone. Can't wait to start providing value to your team!"
+
+Anyone could have written this, and it says nothing about the job being applied for. Probably 10 other people applying for the job wrote basically the same thing. This doesn't make you stand out. Compare with:
+
+"Career-changer with strong communication and storytelling skills from a background in journalism. Recently finished a practical course creating many interactive multi-user applications, eager to combine storytelling and performant user-focused design into the world of game development."
+
+This is individual. It points at your specific background and skills, as well as highlighting why they're relevant to the role being applied for.
+
+If someone who knows you reads 5 personal statements, they should be able to tell which one is yours.
