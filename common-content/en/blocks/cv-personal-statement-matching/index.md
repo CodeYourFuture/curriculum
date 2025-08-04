@@ -21,11 +21,11 @@ We're going to play a game to test this.
 
 ### Set-up (5 minutes)
 
-All trainees should send a copy of their CV personal statement to one volunteer. That volunteer should make a slideshow where each slide shows one personal statement, without a name.
+All trainees should send a copy of their CV personal statement to one volunteer. That volunteer should make a slideshow where each slide shows one personal statement, without a name. It should just show the personal statement, not the whole CV.
 
 ### Playing the game (15 minutes)
 
-Go through as a class one side at a time. The class should vote on who each statement belongs to. Don't reveal who was correct until the end of the game.
+Go through as a class one slide at a time. The class should vote on who each statement belongs to. Don't reveal who was correct until the end of the game.
 
 ### Discussion (10 minutes)
 
