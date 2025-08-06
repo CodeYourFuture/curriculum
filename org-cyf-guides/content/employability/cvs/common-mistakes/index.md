@@ -56,3 +56,5 @@ Anyone could have written this, and it says nothing about the job being applied 
 This is individual. It points at your specific background and skills, as well as highlighting why they're relevant to the role being applied for.
 
 If someone who knows you reads 5 personal statements, they should be able to tell which one is yours.
+
+Just an example change.
