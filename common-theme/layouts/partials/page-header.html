@@ -8,7 +8,7 @@
 or is we have made a forced list of headings,
 then go ahead and make a TOC */}}
 {{ if or $forcedHeadings (and
-  (gt .Page.WordCount 400) (.Page.TableOfContents))
+  (gt .Page.WordCount 400) (gt (.Page.TableOfContents | findRE "<li>" | len) 1))
 }}
   {{ $hasTOC = true }}
   {{ $mdTOC = true }}
