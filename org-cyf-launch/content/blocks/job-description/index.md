@@ -1,10 +1,9 @@
 +++
-title="Role Description"
-time= 20
-hide_from_overview=true
+title = "Role Description"
+time = 10
 [build]
-  render = 'never'
-  list = 'local'
+  render = "never"
+  list = "local"
   publishResources = false
 +++
 
@@ -21,5 +20,4 @@ You will build an MVP product in a cross-functional Agile team. The project is 5
 
 ### Requirements and qualifications
 
-1. Have fulfilled all [entry criteria](https://launch.codeyourfuture.io/prep/#entry-criteria) conditions
-
+You must have fulfilled all [entry criteria](/prep/#entry-criteria).

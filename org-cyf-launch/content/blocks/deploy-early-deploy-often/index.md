@@ -18,4 +18,6 @@ Build the simplest thing you can. Deploy it. Get feedback. Improve it. Repeat.
 
 As a team, you should deploy your project to a live environment **at least once a day**. This is the best way to ensure that you are making progress in manageable steps.
 
+You should not consider a ticket/feature done until it is deployed.
+
 Deploy your project to a live environment now. It can (and should!) just say "Hello, World!".

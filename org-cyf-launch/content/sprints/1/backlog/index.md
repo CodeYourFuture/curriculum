@@ -1,5 +1,5 @@
 +++
-title = 'backlog'
+title = 'Backlog'
 layout = 'backlog'
 emoji= '🏷️'
 menu_level = ['sprint']

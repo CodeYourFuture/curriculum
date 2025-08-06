@@ -1,5 +1,5 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
 description='Launching your Agile team'
 emoji= '🧑🏾‍💻'
