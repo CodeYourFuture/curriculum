@@ -4,7 +4,7 @@ description="All teams will show the amazing work they have done so far."
 modules="The Launch"
 week="2"
 skills=["Communication","Confidence"]
-objectives=["Present your achievements in a 5-min demo"]
+tasks=["Present your achievements in a 5-min demo"]
 time=60
 [build]
   render = 'never'

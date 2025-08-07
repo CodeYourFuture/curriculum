@@ -1,5 +1,5 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
 description='Your product is viable and the team is ready to launch'
 emoji= '🧑🏾‍💻'

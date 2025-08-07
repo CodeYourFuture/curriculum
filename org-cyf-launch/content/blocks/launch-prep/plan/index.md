@@ -1,15 +1,16 @@
 +++
-title="Weekly plan"
-time= 20
-hide_from_overview=true
-[build]
-  render = 'never'
-  list = 'local'
-  publishResources = false
-objectives=[
+title = "Weekly plan"
+time = 20
+objectives = [
   "Explain the structure of the launch sprint week.",
-  "Schedule your daily stand-up, mid-week check-in, and Saturday meet-ups."
 ]
+tasks = [
+  "Schedule your daily stand-up, mid-week check-in, and Saturday meet-ups.",
+]
+[build]
+  render = "never"
+  list = "local"
+  publishResources = false
 +++
 
 You will continue working in sprints but with some extra meetings to ensure the team is aligned and on the same page.

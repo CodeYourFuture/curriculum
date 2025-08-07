@@ -4,7 +4,7 @@ description="The demo is an Agile ceremony. It celebrates your team's achievemen
 modules="The Launch"
 week="2"
 skills=["Communication","Time/Project Management"]
-objectives=["Develop a presentation about your team's achievements","Collaborate with your team to have content that any non-developer can understand"]
+tasks=["Develop a presentation about your team's achievements","Collaborate with your team to have content that any non-developer can understand"]
 time=60
 [build]
   render = 'never'
