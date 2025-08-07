@@ -16,6 +16,44 @@ Attendees:
 ### ❗Actions
 
 ---
+## 2025-07-29
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, Jay Mayer,  Hugo Martínez
+
+### 📝 Agenda points
+
+#### Moving module-level Prep to Sprint 1 Prep in ITP
+
+For each module, Jay suggested moving the module-level Prep into Sprint 1 Prep to keep the weekly study pattern consistent (Prep -> Backlog -> Day Plan -> Success). Everyone thought it was a good idea.
+
+In the Module-Structuring-and-Testing-Data, there is a lot of content in both the module-level Prep and the Sprint 1 Prep. Suggested actions:
+  - Trimming the content by moving some Prep items into a Backlog item.  
+  - Pointing trainees to resources like [javascript.info](http://javascript.info) to learn the fundamentals of JavaScript programming.
+
+#### ITD Google Sheets Step replacement
+
+CJ has found an online [Google Sheets course](https://edu.exceedlms.com/student/path/1606820-google-workspace-sheets-part-1?sid=9f092b41-fdbc-4363-a85d-200f9bcaf22c&sid_i=4) and will prepare an exercise requiring participants to apply what they learn from it.
+
+#### ITD GenAI Step  
+Anna is in the final process of fine-tuning the GenAI Step.
+
+### Pruning the issues in [https://github.com/CodeYourFuture/curriculum](https://github.com/CodeYourFuture/curriculum)
+
+There are about 138 issues in the Curriculum repo. Jay is offering help with cleaning up some of them.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around structuring code around the idea of testability (Is the [Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list) sufficient?)
+- [ ] Jay: Move module-level Prep into Sprint-1 prep, and trim the module-level & Sprint-1 preps in Module-Structuring-and-Testing-Data
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ : Prepare a Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Barath (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Put together draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
 
 ## 2025-07-16
 
