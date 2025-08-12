@@ -21,7 +21,7 @@ src="blocks/morning-break"
 time=20
 [[blocks]]
 name="Arrays"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/arrays"
 time=60
 [[blocks]]
 name="lunch"
