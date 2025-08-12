@@ -2,7 +2,7 @@
 title: Applicant Tracking systems
 description: Make sure your CV stands out from the crowd
 emoji: 🖲️
-weight: 4
+weight: 3
 ---
 
 Many employers (especially larger companies) use **A**pplicant **T**racking **S**ystems (ATSs) to manage the huge amount of candidates that apply for roles online. An ATS is a system that scans resumes and matches them against criteria (mostly keywords) defined by the employer.  

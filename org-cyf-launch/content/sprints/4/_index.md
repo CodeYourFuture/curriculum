@@ -1,5 +1,5 @@
 +++
-title = 'sprint 4'
+title = 'Sprint 4'
 description = 'The plan for the week'
 layout = 'sprint'
 emoji= '🛺'

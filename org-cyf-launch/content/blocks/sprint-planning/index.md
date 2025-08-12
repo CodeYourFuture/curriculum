@@ -4,7 +4,7 @@ description = 'Plan the upcoming week of work as a team'
 modules = 'The Launch'
 week = 1
 skills = ['Time/Project Management','Teamwork']
-objectives = ['Plan 1 sprint','Prioritise user stories']
+tasks = ['Plan 1 sprint','Prioritise user stories']
 time = 30
 [build]
   render = 'never'

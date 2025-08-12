@@ -10,10 +10,37 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Publish curriculum
-      run: curl --fail -X POST ${{ secrets.CURRICULUM_NETLIFY_DEPLOY_HOOK_URL }}
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.CURRICULUM_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
+    - name: Publish ITD
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.ITD_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
     - name: Publish ITP
-      run: curl --fail -X POST ${{ secrets.ITP_NETLIFY_DEPLOY_HOOK_URL }}
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.ITP_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
     - name: Publish SDC
-      run: curl --fail -X POST ${{ secrets.SDC_NETLIFY_DEPLOY_HOOK_URL }}
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.SDC_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
     - name: Publish Piscine
-      run: curl --fail -X POST ${{ secrets.PISCINE_NETLIFY_DEPLOY_HOOK_URL }}
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.PISCINE_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
+    - name: Publish Tracks
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.TRACKS_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}
+    - name: Publish Launch
+      env:
+        DEPLOY_HOOK_URL: ${{ secrets.LAUNCH_NETLIFY_DEPLOY_HOOK_URL }}
+      if: ${{ env.DEPLOY_HOOK_URL != '' }}
+      run: curl --fail -X POST ${{ env.DEPLOY_HOOK_URL }}

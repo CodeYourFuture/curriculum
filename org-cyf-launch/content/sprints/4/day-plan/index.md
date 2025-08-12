@@ -1,5 +1,5 @@
 +++
-title = 'day-plan'
+title = 'Day Plan'
 description="Last day to work together in person"
 layout = 'day-plan'
 emoji= '🧑🏽‍🤝‍🧑🏽'
@@ -20,6 +20,10 @@ src="blocks/retrospective"
 [[blocks]]
 name="Sprint Planning"
 src="blocks/sprint-planning/"
+[[blocks]]
+name="Development Time"
+src="blocks/development-time"
+time=30
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

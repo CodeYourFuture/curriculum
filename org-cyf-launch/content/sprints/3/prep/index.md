@@ -1,5 +1,5 @@
 +++
-title = 'prep'
+title = 'Prep'
 description='Building features and reviewing PRs'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
