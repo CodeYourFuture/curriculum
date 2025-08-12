@@ -5,6 +5,12 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="How the internet works"
+src="module/js3/internet"
+[[blocks]]
+name="Technical Writing 101"
+src="https://github.com/CodeYourFuture/Module-Data-Groups/issues/1"
+[[blocks]]
 name="Rendering Data as UI"
 src="module/js3/data-ui"
 [[blocks]]
