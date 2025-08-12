@@ -1,5 +1,5 @@
 +++
-title = 'Six'
+title = 'Seven'
 description="Check if your English CEFR level is B2 or above"
 layout = 'prep'
 emoji= '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
@@ -8,17 +8,17 @@ menu=[ 'steps']
 weight = 7
 [[blocks]]
 name="Instructions"
-src="blocks/step-6/instructions"
+src="blocks/step-7/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-6/acceptance"
+src="blocks/step-7/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-6/submission"
+src="blocks/step-7/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
 [[blocks]]
 name="Extensions"
-src="blocks/step-6/extend"
+src="blocks/step-7/extend"
 +++

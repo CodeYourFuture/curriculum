@@ -1,5 +1,5 @@
 +++
-title ="Step 6: What to do"
+title ="Step 7: What to do"
 description= "Take the Duolingo Practice Test"
 emoji= "🤖"
 time= 60
@@ -31,6 +31,6 @@ Participants are required to score 100 or higher on the Duolingo English Practic
 3. Take a screenshot of your result.
 
 ##### 3. Upload your result
-Upload your screenshot in Step 6 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+Upload your screenshot in Step 7 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
 

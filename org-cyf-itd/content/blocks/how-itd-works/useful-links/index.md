@@ -33,5 +33,6 @@ Here is a quick list of useful links (some are for applicants only, but it is he
 - **Step 4**: [https://itd.codeyourfuture.io/steps/four/#acceptance-criteria](https://itd.codeyourfuture.io/steps/four/#acceptance-criteria)
 - **Step 5**: [https://itd.codeyourfuture.io/steps/five/#acceptance-criteria](https://itd.codeyourfuture.io/steps/five/#acceptance-criteria)
 - **Step 6**: [https://itd.codeyourfuture.io/steps/six/#acceptance-criteria](https://itd.codeyourfuture.io/steps/six/#acceptance-criteria)
+- **Step 7**: [https://itd.codeyourfuture.io/steps/seven/#acceptance-criteria](https://itd.codeyourfuture.io/steps/seven/#acceptance-criteria)
 
 ## To be continued...

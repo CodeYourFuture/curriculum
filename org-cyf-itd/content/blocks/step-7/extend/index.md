@@ -1,5 +1,5 @@
 +++
-title ="Step 6: Extend Your Skills"
+title ="Step 7: Extend Your Skills"
 description= "Explore and develop professional English speaking and writing"
 emoji= "💪🏾"
 time= 5
