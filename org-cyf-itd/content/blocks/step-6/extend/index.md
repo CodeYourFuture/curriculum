@@ -1,6 +1,6 @@
 +++
 title ="Step 2: Extend Your Skills"
-description= "Further Reading"
+description= "Optionally add responsive design for smaller screens"
 emoji= "👀"
 time=5
 [build]
@@ -9,8 +9,11 @@ time=5
   publishResources = false 
 +++
 
-#### Further Reading
-You do not have to read these resources, but you might find them interesting or useful
-- [Hey programmers – is AI making us dumber?](https://www.theregister.com/2025/02/21/opinion_ai_dumber/)
-- [UN Development Report - A Matter of Choice: People and Possibilities in the Age of AI](https://report.hdr.undp.org/) 
+#### Add Responsive Design 
+This is an additional task for those who want to stretch themselves and try something else. It is not compulsory in anyway.
 
+The task is to make the page look like the below on screen sizes below 500px:
+
+![alt text](animals-mobile.png)
+
+You will need to use media queries.

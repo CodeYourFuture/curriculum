@@ -14,6 +14,7 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have answered all three questions
-- You have provided one to three sentences explaining each answer
+- You have submitted a link to your CodePen containing the solution
+- You have submitted a screenshot which meets the requirements in the instructions
+- You have submitted a link to your conversation with the AI
 ```

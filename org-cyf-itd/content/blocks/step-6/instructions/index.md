@@ -14,20 +14,37 @@ As covered in step 2, generative AI tools such as ChatGPT can be a great help in
 
 This step is an opportunity to practice this with a practical task which is outside your current knowledge of CSS and HTML. We have provided a [CodePen](https://codepen.io/Ara225/pen/JoYbRVd) which contains some HTML code. Your task is to use CSS to style the HTML so that:
 - The element with the class of "parent" has a dotted border
+- The element with the class of "parent" is centered on the page 
 - The div elements with the class "child" have background colors, borders, rounded corners and margins between them.
-- The 
+- The div elements with the class "child" stay inside the element with the class parent even if the screen size changes
 
+You may use any colors you like - they aren't the important bit in this task.
+
+Here are some visual examples:
+
+#### On a large screen
 ![alt text](animals-larger-screen.png)
-
+#### On a much smaller screen
 ![alt text](animals-smaller-screen.png)
 
-You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
-
-https://support.google.com/gemini/answer/13743730?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Cwhy-cant-i-share-a-chat
-
-https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq#h_d543d7453b
+Assuming you were new to HTML and CSS when you started this course, this task is outside your current knowledge. This makes it an excellent candidate for AI assistance, as you can use AI to help you understand the new concepts.
 
 ### What Should You Do?
 
 #### 1 - Fork the CodePen
-We have provided a code
+Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into your CodePen account
+
+#### 2 - Make a Plan 
+Start by thinking about what you need to know to solve this problem. What might be a good first question to ask the AI? How can you avoid having the AI do your thinking for you?
+
+#### 3 - Interact with the AI
+Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples and explain code etc. It must not mean copying code from the AI or blindly following its advice without understanding why. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack
+
+> [!NOTE]
+> You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
+
+#### 4 - Submit
+Please submit the following on the CYF course platform:
+- A link to your CodePen (please note that volunteers probably won't give you a full code review but this is useful context for them)
+- A link to your chat with the AI - Instructions to share links [to Gemini chats are here](https://support.google.com/gemini/answer/13743730) and [to ChatGPT chats are here](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq)
+- A screen shot of the output in CodePen
