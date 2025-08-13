@@ -1,6 +1,6 @@
 +++
-title ="Step 2: How to check your work"
-description= "Acceptance criteria for step two"
+title ="Step 6: How to check your work"
+description= "Acceptance criteria for step six"
 emoji= "✅"
 time= 10
 [build]
