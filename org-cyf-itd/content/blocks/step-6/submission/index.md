@@ -1,5 +1,5 @@
 +++
-title ="Step 2: How to show us"
+title ="Step 6: How to show us"
 description= "Submit your work for review"
 emoji= "📩"
 time= 5
