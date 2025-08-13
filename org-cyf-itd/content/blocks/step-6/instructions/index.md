@@ -42,7 +42,7 @@ Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into your Cod
 Start by thinking about what you need to know to solve this problem. What might be a good first question to ask the AI? How can you avoid having the AI do your thinking for you?
 
 #### 3 - Interact with the AI
-Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples and explain code etc. It must not mean copying code from the AI or blindly following its advice without understanding why. You may wish to look at step 2 again and/or search resources for using AI appropriately. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack.
+Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples, explain code, etc. It must not mean copying code from the AI or blindly following its advice without understanding why. You may wish to look at step 2 again and/or search resources for using AI appropriately. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack.
 
 > [!NOTE]
 > You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
