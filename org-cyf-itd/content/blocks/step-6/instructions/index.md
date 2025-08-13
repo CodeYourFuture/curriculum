@@ -33,6 +33,8 @@ Assuming you were new to HTML and CSS when you started this course, this task is
 
 ### What Should You Do?
 
+**You are not allowed to have AI write code for you. You must write your own code.**
+
 #### 1 - Fork the CodePen
 Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into your CodePen account
 
