@@ -5,6 +5,9 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="Do the prep"
+src="module/onboarding/do-the-prep"
+[[blocks]]
 name="GitHub Dot Dev"
 src="module/induction/dot-dev"
 [[blocks]]

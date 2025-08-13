@@ -5,6 +5,12 @@ emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
+name="Prep dir"
+src="blocks/prep-dir"
+[[blocks]]
+name="Creating test files"
+src="blocks/prep-dir-tests"
+[[blocks]]
 name="Grouping data"
 src="module/js2/grouping-data"
 [[blocks]]
