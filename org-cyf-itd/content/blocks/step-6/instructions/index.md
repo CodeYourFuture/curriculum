@@ -1,6 +1,6 @@
 +++
-title ="Step 2: What to do"
-description= "Learn how to use AI appropriately"
+title ="Step 6: What to do"
+description= "Use AI appropriately to solve a noval CSS problem"
 emoji= "🤖"
 time= 90
 [build]
@@ -14,9 +14,11 @@ As covered in step 2, generative AI tools such as ChatGPT can be a great help in
 
 This step is an opportunity to practice this with a practical task which is outside your current knowledge of CSS and HTML. We have provided a [CodePen](https://codepen.io/Ara225/pen/JoYbRVd) which contains some HTML code. Your task is to use CSS to style the HTML so that:
 - The element with the class of "parent" has a dotted border
-- The element with the class of "parent" is centered on the page 
+- The element with the class of "parent" is centered on the page even if the screen size changes
 - The div elements with the class "child" have background colors, borders, rounded corners and margins between them.
 - The div elements with the class "child" stay inside the element with the class parent even if the screen size changes
+
+You must not change the HTML in anyway.
 
 You may use any colors you like - they aren't the important bit in this task.
 
@@ -38,10 +40,13 @@ Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into your Cod
 Start by thinking about what you need to know to solve this problem. What might be a good first question to ask the AI? How can you avoid having the AI do your thinking for you?
 
 #### 3 - Interact with the AI
-Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples and explain code etc. It must not mean copying code from the AI or blindly following its advice without understanding why. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack
+Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples and explain code etc. It must not mean copying code from the AI or blindly following its advice without understanding why. You may wish to look at step 2 again and/or search resources for using AI appropriately. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack.
 
 > [!NOTE]
 > You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
+
+#### 5 - Self Check
+Look over the code you have written. Do you understand it all? Has any been pasted from an AI tools or elsewhere? Review what worked and what didn’t when prompting the AI.
 
 #### 4 - Submit
 Please submit the following on the CYF course platform:
