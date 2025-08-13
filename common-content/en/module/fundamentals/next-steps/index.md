@@ -27,12 +27,10 @@ Pair up with a new person. In pairs, complete the following tasks:
 > If you're unsure about the answer to any of the questions below, start a thread in Slack to clarify the answer (unless there is already a thread discussing this matter).
 
 1. Starting from the home page of this website, locate the success page for the next module. Have you already achieved any of the learning objectives?
-1. Starting from the home page of this website, locate the prep page for the next module, and the prep page for sprint 1 of the next module.
-1. List the things you need to install (if anything) for the upcoming module.
+1. Starting from the home page of this website, locate the prep page for sprint 1 of the next module.
+1. List the things you need to install (if anything) for sprint 1 of the upcoming module.
 1. Check you can find the backlog page for the next sprint.
-1. Double check you've copied all the issues from the backlog over to your Course Planner (There are instructions for setting up your Course Planner in the prep).
 1. When should you start the prep work for the upcoming module?
-1. Experiment with your project planner: can you filter by Size, Sprint, or other fields?
 
 ## For volunteers
 
