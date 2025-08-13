@@ -1,5 +1,5 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
