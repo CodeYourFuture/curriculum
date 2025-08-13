@@ -17,4 +17,5 @@ Here are the criteria you need to meet:
 - You have submitted a link to your CodePen containing the solution
 - You have submitted a screenshot which meets the requirements in the instructions
 - You have submitted a link to your conversation with the AI
+- You wrote the code in your CodePen yourself. You didn't copy+paste it from an AI tool
 ```
