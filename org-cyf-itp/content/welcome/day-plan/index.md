@@ -1,5 +1,5 @@
 +++
-title = 'day plan'
+title = 'Day Plan'
 layout = 'day-plan'
 description='The agenda and activities for our first day together'
 emoji= '🧑🏾‍🤝‍🧑🏾'
