@@ -12,7 +12,7 @@ time=5
 #### Add Responsive Design 
 This is an additional task for those who want to stretch themselves and try something else. It is not compulsory in anyway.
 
-The task is to make the page look like the below on screen sizes below 500px:
+The task is to make the page look like the below on screen sizes below 500px wide:
 
 ![alt text](animals-mobile.png)
 
