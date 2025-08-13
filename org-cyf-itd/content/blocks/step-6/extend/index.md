@@ -1,5 +1,5 @@
 +++
-title ="Step 2: Extend Your Skills"
+title ="Step 6: Extend Your Skills"
 description= "Optionally add responsive design for smaller screens"
 emoji= "👀"
 time=5
