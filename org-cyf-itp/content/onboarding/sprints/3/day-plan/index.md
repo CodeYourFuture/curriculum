@@ -1,5 +1,5 @@
 +++
-title = 'day-plan'
+title = 'Day Plan'
 layout = 'day-plan'
 emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
