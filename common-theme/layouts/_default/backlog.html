@@ -40,21 +40,6 @@
             }}
           </div>
         </details>
-        {{ with .labels.nodes }}
-          <ul class="c-issue__labels c-label__list">
-            {{ range . }}
-              <li
-                class="c-issue__label c-label"
-                style="--color:#{{ .color }}4d">
-                <span
-                  class="c-issue__label-name c-label__name"
-                  title="{{ .description }}">
-                  {{ .name }}
-                </span>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
       {{ end }}
     {{ end }}
   </article>
