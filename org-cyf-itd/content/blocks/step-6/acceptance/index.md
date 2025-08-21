@@ -14,8 +14,11 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have submitted a link to your CodePen containing the solution
-- You have submitted a screenshot which meets the requirements in the instructions
-- You have submitted a link to your conversation with the AI
+- Your Google Doc contains a link to your CodePen containing the solution
+- Your Google Doc contains a screenshot which meets the requirements in the instructions
+- Your Google Doc contains a link to your conversation with the AI
+- Your Google Doc has your name in the title
+- Your Google doc is public
+- You have submitted a link to your Google doc
 - You wrote the code in your CodePen yourself. You didn't copy+paste it from an AI tool
 ```

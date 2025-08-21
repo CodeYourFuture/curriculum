@@ -50,8 +50,36 @@ Use an AI tool to help you solve the problem. This can mean asking it to explain
 #### 5 - Self Check
 Look over the code you have written. Do you understand it all? Has any been pasted from an AI tools or elsewhere? Review what worked and what didn’t when prompting the AI.
 
-#### 4 - Submit
-Please submit the following on the CYF course platform:
+##### 4. Create a Google Doc
+1. Create a Google Doc
+2. Place your answers for each of the questions above into the doc
+3. Add one to three sentences explaining why you chose the answers you did
+
+> [!NOTE]
+> If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
+
+#### 5. Put your name in the document name 
+
+Include your given name or your family name in the title of the Google Doc.
+
+{{<note type="tip" title="Search the Web">}}
+`How to change document name in Google Docs`
+{{</note>}}
+
+#### 6. Make your Google Doc public
+
+Change the sharing settings of your Google Doc to "Anyone with the link can view".
+
+{{<note type="tip" title="Search the Web">}}
+`How to share Google Docs to public`
+{{</note>}}
+
+#### 7 - Fill out your Doc
+Please add the following to your google doc:
 - A link to your CodePen (please note that volunteers probably won't give you a full code review but this is useful context for them)
 - A link to your chat with the AI - Instructions to share links [to Gemini chats are here](https://support.google.com/gemini/answer/13743730) and [to ChatGPT chats are here](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq)
 - A screen shot of the output in CodePen
+
+#### 4. Submit the Google Doc link
+
+Submit the link to the Google Doc in Step 6 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
