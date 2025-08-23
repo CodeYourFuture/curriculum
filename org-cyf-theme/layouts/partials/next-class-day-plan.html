@@ -3,7 +3,7 @@
 {{ $now := now }}
 {{ $todayIdx := index $weekdays (time.Format "Monday" $now) }}
 {{ $daysUntilSat := mod (add (sub 6 $todayIdx) 7) 7 }}
-{{ $nextClass := $now | time.AddDate 0 0 $daysUntilSat }}
+{{ $nextClass := time.AddDate $now 0 0 $daysUntilSat }}
 
 {{ $year := int (time.Format "2006" $nextClass) }}
 {{ $month := int (time.Format "1" $nextClass) }}
@@ -11,7 +11,7 @@
 {{ $start := time (printf "%04d-%02d-01" $year $quarterMonth) }}
 {{ $startIdx := index $weekdays (time.Format "Monday" $start) }}
 {{ $daysToSat := mod (add (sub 6 $startIdx) 7) 7 }}
-{{ $courseStart := $start | time.AddDate 0 0 $daysToSat }}
+{{ $courseStart := time.AddDate $start 0 0 $daysToSat }}
 
 {{ $startUnix := $courseStart.Unix }}
 {{ $classUnix := $nextClass.Unix }}
