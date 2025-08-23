@@ -1,0 +1,30 @@
+{{/* Compute link to next class day plan */}}
+{{ $weekdays := dict "Sunday" 0 "Monday" 1 "Tuesday" 2 "Wednesday" 3 "Thursday" 4 "Friday" 5 "Saturday" 6 }}
+{{ $now := now }}
+{{ $todayIdx := index $weekdays (time.Format "Monday" $now) }}
+{{ $daysUntilSat := mod (add (sub 6 $todayIdx) 7) 7 }}
+{{ $nextClass := $now | time.AddDate 0 0 $daysUntilSat }}
+
+{{ $year := int (time.Format "2006" $nextClass) }}
+{{ $month := int (time.Format "1" $nextClass) }}
+{{ $quarterMonth := add (mul (div (sub $month 1) 3) 3) 1 }}
+{{ $start := time (printf "%04d-%02d-01" $year $quarterMonth) }}
+{{ $startIdx := index $weekdays (time.Format "Monday" $start) }}
+{{ $daysToSat := mod (add (sub 6 $startIdx) 7) 7 }}
+{{ $courseStart := $start | time.AddDate 0 0 $daysToSat }}
+
+{{ $startUnix := $courseStart.Unix }}
+{{ $classUnix := $nextClass.Unix }}
+{{ $daysFromStart := div (sub $classUnix $startUnix) 86400 }}
+{{ $sprint := add 1 (div $daysFromStart 7) }}
+
+{{ $dayPlans := site.Menus.scheduled }}
+{{ $match := first 1 (where $dayPlans "Identifier" (printf "%d" $sprint)) }}
+{{ if not (len $match) }}
+  {{ $match = first 1 (where $dayPlans "Weight" $sprint) }}
+{{ end }}
+{{ with index $match 0 }}
+  <a href="{{ .URL }}">Day plan for sprint {{ $sprint }}</a>
+{{ else }}
+  <span>Day plan coming soon</span>
+{{ end }}
