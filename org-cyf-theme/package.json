@@ -1,0 +1,13 @@
+{
+  "name": "org-cyf-theme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-instructions": "echo 'Fix: pass .Date to the partial or change the partial to use .Date when available. Example partial snippet: {{ $base := time.Now }} {{ with .Date }}{{ $base = . }}{{ end }} {{ $next := $base.AddDate 0 0 7 }} Next class: {{ $next.Format \"Jan 2, 2006\" }}'"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}
