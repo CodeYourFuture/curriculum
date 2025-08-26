@@ -14,9 +14,8 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- Your Google Sheet contains a sheet (includes a tab) where the song data is sorted by music genre
-- Your Google Sheet contains a sheet (includes a tab) where the average age of listeners for each genre is calculated using a formula and displayed in a graph
-- You have added your name to the Google Sheet's file name
-- You have made the document accessible to anyone with the link
-- You have submitted the link to the Google Sheet on the CYF Course Platform
+- You have edited, formatted, and applied filters on the Sales Data Google Sheet according to the instructions.
+- You have added your name to the Google Sheet's file name (title).
+- You have made the Google sheet publicly viewable.
+- You have submitted the Google Sheet link on the CYF Course Platform
 ```
