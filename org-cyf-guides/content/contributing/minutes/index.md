@@ -17,6 +17,70 @@ Attendees:
 
 ---
 
+## 2025-08-26
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer
+
+### 📝 Agenda points
+
+#### ITD - Rewriting Steps 4 and 5
+
+CJ has been rewriting Steps 4 and 5 so that 4 is really a focus on HTML+CSS and 5 is really a focus on GitHub.
+
+He's going to try to get it ready for final review on Thursday, but we'll confirm whether we're aiming to merge it for the September or the November ITD :)
+
+#### ITP: Project TV Show
+
+The goals of the partner swapping are for people to get experience working with code they didn't write themselves (and a bit, to either adapt to someone else's coding style, or adapt their code to your style).
+
+We don't give much feedback on the project itself - unclear how much people are learning on the way.
+
+Not sure how much people are learning useful things via the pairing vs just experiencing chaos.
+
+Learning how to use branches and collaborate is probably useful in the Piscine and later. This was one of the goals of the project.
+
+Maybe we should have trainees give presentations of their projects as part of an acceptance criteria. But we should be wary of everyone giving identical presentations - maybe we can prompt them to different specific sub-topics.
+
+Maybe we could split the project up into levels slightly differently, so that one partner is doing logic then the next person is doing UI rendering.
+
+Update reviewer instructions to show that all we really care about in terms of collaboration is that more than one person contributed non-trivial code.
+
+#### AI Strategy feedback
+
+Generally looks good.
+
+#### PR template updates
+
+We workshopped some PR template updates.
+
+#### Piscine in October
+
+Jay and CJ are interested in getting involved, Ali should be around except the 11th
+
+We talked through how the Piscine generally runs.
+
+### ❗Actions from last time
+
+- [ ] Daniel: Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [x] CJ: Finish Google Sheets exercise to replace Step 3 accordingly
+- [x] Anna: Finish off GenAI ITD Step
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### ❗Actions
+
+- [ ] Daniel: Write up learning objectives for TV Show Project
+- [ ] CJ: Write up PR guide for trainees
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
 ## 2025-08-13
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer, Karen Klein, Léon McGregor
