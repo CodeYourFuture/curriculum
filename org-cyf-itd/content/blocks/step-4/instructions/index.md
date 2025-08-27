@@ -12,7 +12,7 @@ time= 480
 ### Overview
 
 In this exercise, you will:
-- Build your first simple webpage using **HTML** and **CSS**
+- Build your first webpage using **HTML** and **CSS**
 - Practice editing your webpage and instantly see results
 - Share your work with others using **CodePen**
 
