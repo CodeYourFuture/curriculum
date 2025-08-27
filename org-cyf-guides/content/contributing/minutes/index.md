@@ -16,6 +16,77 @@ Attendees:
 ### ❗Actions
 
 ---
+
+## 2025-08-13
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer, Karen Klein, Léon McGregor
+
+### ❗Actions from last time
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around structuring code around the idea of testability (Is the [Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list) sufficient?)
+- [x] Jay: Move module-level Prep into Sprint-1 prep, and trim the module-level & Sprint-1 preps in Module-Structuring-and-Testing-Data
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [x] CJ: Prepare a Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Barath (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Put together draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Self-review PR exercises
+
+CJ shared [a draft](https://github.com/cjyuan/Module-Data-Flows/blob/book-library-feedback/debugging/book-library/feedback.md)
+
+Ali wondered whether we want very exercise-specific feedback or something more general.
+
+Maybe we can introduce a more general "Look at your code before making the PR" (including possibly linking to the [style guide](https://curriculum.codeyourfuture.io/guides/reviewing/style-guide/)) and introduce exercise-specific guides where we have them?
+
+Possibly a PR auto-commenter could be helpful. But don't want to be too spammy and desensitise people. Ideally want it to be targeted.
+
+We need to keep focusing on conveying _understanding_ rather than just instructions - they need to understand why something is a problem, not just follow an instruction to follow it.
+
+#### Intro to Léon
+
+Léon has joined CYF as the [Community Education Lead in the Scotland region](https://codeyourfuture.io/community-minded-lead-teacher/) with a focus on giving trainees feedback and helping volunteers to become better teachers.
+
+#### AI Strategy
+
+Daniel has put together a [draft AI strategy for CYF](https://docs.google.com/document/d/16ZFFVPRQ6JL6-kpVdwXndQ1zUo0i9kvP5fQ5c4NE3Nk/edit) - please take a look and leave some comments.
+
+#### Launch Demo Day Feedback
+
+Was really impressive - some of the best projects and demos we've seen at CYF! All of the course changes are paying off - thank you everyone!
+
+People were much better at presenting than in the past, but struggled with the style of answering questions about their demos. (Also, some trainees were asking not amazing questions.) - We should think about how to help people ask and answer questions better after demos.
+
+#### Tony's Problem Solving Workshops
+
+Daniel demo'd [Tony's problem solving workshops](https://deploy-preview-1538--cyf-programming.netlify.app/structuring-data/sprints/1/day-plan/#problem-solving-workshop) - we're all very excited about them.
+
+#### Backlog GitHub Issue Labels
+
+The Size and Priority labels on GitHub issues are probably useful because they help trainees filter in their project boards.
+
+The Topic labels probably are not - we don't use them, that's not how we develop the curriculum. (They used to be useful, but we've changed how we work.) Daniel will clear some out.
+
+#### When will ITD and ITP be done and ready to be uploaded to the dashboard
+
+https://deploy-preview-1548--cyf-itd.netlify.app/ should have all the info needed to update the dashboard.
+
+### ❗Actions
+
+- [ ] Daniel: Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] CJ: Finish Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
 ## 2025-07-29
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, Jay Mayer,  Hugo Martínez

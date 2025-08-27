@@ -1,8 +1,8 @@
 +++
 title = 'Six'
-description="Check if your English CEFR level is B2 or above"
+description="Practice using AI appropriately"
 layout = 'prep'
-emoji= '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
+emoji= '🤖'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 7
