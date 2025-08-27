@@ -22,7 +22,7 @@ In this exercise, you will:
 Create a free account on [GitHub](https://github.com/).
 
 {{<note type="tip" title="Ask AI">}}
-- Need to choose a **professional GitHub username**? Ask an AI assistant for tips on picking one that’s clear, simple, and career-friendly.
+- Need to choose a **professional GitHub username**? Ask an AI assistant for tips on picking one that's clear, simple, and career-friendly.
 - Curious **why a professional username matters**? Let AI explain how it can impact your credibility, discoverability, and personal brand.  
 
 **Tip:** Avoid including your birth year in your username - this information could be misused for discrimination.
