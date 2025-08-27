@@ -1,6 +1,6 @@
 +++
 title ="Step 5: What to do"
-description= "Build a personal home page on CodePen"
+description= "Deploying a webpage on GitHub Pages"
 emoji= "🤖"
 time= 300
 [build]
@@ -11,78 +11,96 @@ time= 300
 
 ### Overview
 
-**CodePen** is an easy-to-use website where you can build and preview simple web pages using HTML, CSS, and JavaScript—right in your browser—and easily share your work with others using a link.
-
-In this exercise, you must build your own homepage on CodePen that meets some specific requirements. Give it your own personal touch. We know that people who do well on our courses show **creativity**, **curiosity**, **persistence**, and **rigour**. That’s what we’re looking for from you in this project.
-
-{{<note type="tip" title="Tip">}}
-- Make good use of web search and AI.
-{{</note>}}
-
+In this exercise, you will:
+- Upload and manage your project files on GitHub
+- Publish your webpage (from Step 4) using GitHub Pages
+  
 ### What Should You Do?
 
-##### 1. Make a free account on CodePen
-- Sign up for a free account on [CodePen](https://codepen.io/).
+#### 1. Sign up a GitHub account
 
-##### 2. Fork the CYF starter page
+Create a free account on [GitHub](https://github.com/).
 
-1. Fork (make a copy of) the CYF starter page [Personal Home Page Template](https://codepen.io/IntroToTech/pen/PomeEod) to your own CodePen account.
-    - Here are the [instructions to fork a CodePen page](https://blog.codepen.io/documentation/forks/).
-    - Make sure you're logged into CodePen when you fork the page so that your work is saved.
- 
-{{<note type="note" title="Note">}}
-- The CYF template is set up to use JavaScript to check whether your HTML code passes 10 automated tests.
-- You must not modify the JavaScript code.
+#### 2. Use AI to learn about GitHub
+
+Before you start uploading files, use AI to explore some key concepts and terminology.
+Understanding these will make GitHub easier to use.
+
+Here are some questions you can ask AI:
+- What is **GitHub**, and why is it useful for projects like a website?
+- What is a **repository** (or **repo**), and how is it similar to a project folder on my computer?
+- What is a **commit** and a **commit message**?
+- When should I make a **commit**?
+- What is **GitHub Pages**, and how is it different from **GitHub** itself?
+
+#### 3. Practice managing a repository on GitHub
+
+##### A. Create a repository with a `README.md` file
+
+Follow this guide to create your first repository:  
+👉 [Quickstart for repositories - Create a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#create-a-repository)
+
+##### B. Edit the `README.md` file
+
+Follow this guide to make your first edit in GitHub:  
+👉 [Quickstart for repositories - Commit your first change](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#commit-your-first-change)
+
+{{<note type="tip" title="Ask AI">}}
+While editing the `README.md`, ask AI these questions to understand it better:
+
+- What is the purpose of the `README.md` file in a repository?
+- What information is usually included in `README.md`?
+- What is **Markdown**, and how is it different from **plain text**?
 {{</note>}}
 
-##### 3. Prepare your homepage
+##### C. Managing files
 
-1. Prepare your homepage in the page you forked.
-2. Write your HTML code in the **HTML** tab and your CSS code in the **CSS** tab.
-    - You may delete the HTML comment in the **HTML** tab.
-3. Your homepage must meet the following criteria, which are written in a special format called _Given/When/Then_.
+Read: [Managing Files -- GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files)  
+This explains how to **add**, **edit**, **rename**, and **delete** files.
 
-{{<note type="note" title="Given/When/Then Criteria">}}
-**Given a personal homepage**
+👉 Important:
+  - Follow only the instructions for using the GitHub website.
+  - Skip anything that involves the command line or the `git` command.
 
-**When** I look in the test console  
-_Then_ all 10 tests are passing
+#### 4. Create a repository for your website
 
-**When** I read the content  
-_Then_ I learn something about you
+1. **Create a repository** and include your name in the repository name.
+    - The repository name will appear in the link to your webpage.
+    - This helps identify your work. You can use your first name, last name, or a combination.
 
-**When** I view the page  
-_Then_ the design is unique and the images are displayed properly
+2. **Download your webpage files from CodePen**
+    - Go to the CodePen page you prepared in Step 4 and **export** your webpage as a ZIP file.
+    - The **Export** button is located in the lower-right corner of the CodePen page. (See [Exporting Pens](https://blog.codepen.io/documentation/exporting-pens/) for more information.)
+  
+3. **Unzip the downloaded file** into a local folder on your computer.
+   
+4. **Upload your webpage files to GitHub**
+   - **Important**: Only upload the files in the `dist/` subfolder to your repository.
+   - Optionally, you can add your own images to your repository and edit your code on GitHub to use them.
 
-**When** I play the video on the page
-_Then_ the video can play normally
+5. **Add a brief description** of your project in the `README.md` file.
 
-**When** I validate the HTML
-_Then_ the HTML is valid
+
+#### 5. Deploy your webpage on GitHub Pages
+
+![Configuring Github Page settings](github-pages-settings.png)
+
+1. In your repository, click **Settings**.
+2. Select **Pages** from the sidebar.
+3. Choose the branch you want to deploy. Typically, this is the `main` branch.
+4. Click **Save** to apply the branch setting.
+5. Reload the settings page every few minutes until you see the message: "Your page is live at ..."
+   - Click the link to visit your webpage. (**This is the link you will submit**.)
+   - Deployment may take a few minutes.
+
+For detailed instructions, see: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+#### 6. Submit your webpage link  
+
+Submit the link to your deployed webpage in Step 5 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+
+{{<note type="tip" title="Ask AI">}}
+If you’re not sure where to find your links, try asking AI:
+- How do I find out the link to my repository?
+- How do I find out the link to my webpage deployed on GitHub Pages?
 {{</note>}}
-
-
-##### 4. Validate your code
-
-1. Use CodePen’s "Analyze HTML" feature to help you find errors in your HTML code. Then fix the errors yourself manually.
-
-![HTML Analyzer](codepen-html-analyzer.png)
-
-2. Use a similar approach to identify and fix CSS errors.
-
-
-##### 5. Submit your CodePen page link  
-
-Submit the link to your CodePen page in Step 5 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
-
-> [!TIP]
-> Your work is not judged on aesthetics in this project. We are interested in code correctness and specification compliance.
-
-<!--
-### Advice
-
-<!--
-**Use and read the tests** to discover the other 10 requirements. Build, test, and improve your code progressively. The tests are written in the Javascript window in Codepen for you to see, and there’s a readout in the main view showing the results. Don’t worry that you don’t understand the brackets and arrows, **read the words**. The tests will rerun every time you make a change in your code.
-
-Once you're done, submit the URL of your working project with all its tests passing, to the dashboard.
--->

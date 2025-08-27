@@ -14,25 +14,7 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have prepared your homepage on a CodePen page forked from the CYF template
-- Your homepage includes the original JavaScript code provided in the CYF template
-- Your homepage meets the following Given/When/Then criteria
+- You have successfully deployed your personal webpage from Step 4 using **GitHub Pages**.
+- The URL of the deployed webpage includes your first name, last name, or both.
+- The link to the deployed webpage has been submitted on the CYF Course Platform.
 ```
-
-**Given a personal homepage**
-
-**When** I look in the test console  
-_Then_ all 10 tests are passing
-
-**When** I read the content  
-_Then_ I learn something about you
-
-**When** I view the page  
-_Then_ the design is unique and the images are displayed properly
-
-**When** I play the video on the page
-_Then_ the video can play normally
-
-**When** I validate the HTML
-_Then_ the HTML is valid
-
