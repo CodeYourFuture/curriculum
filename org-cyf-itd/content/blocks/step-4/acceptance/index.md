@@ -14,7 +14,14 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have successfully hosted your Event Invite webpage on GitHub Pages
-- The webpage link includes your name
-- You have submitted the webpage link on the CYF Course Platform
+- You prepared your personal webpage on CodePen.
+- Your webpage meets all the criteria
+- You have submitted the webpage link on the CYF Course Platform.
 ```
+
+#### Webpage Criteria
+1. It contains **at least 100 words**.
+2. It includes **at least three images**, and **at least one image is centered** on the page.
+3. It includes a **list**.
+4. All CSS code is written **inside the CSS tab**.
+5. All code is **free of syntax errors**.
