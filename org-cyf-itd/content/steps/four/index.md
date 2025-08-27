@@ -1,6 +1,6 @@
 +++
 title = 'Four'
-description = 'Build four simple projects using HTML and CSS in Khan Academy'
+description = 'Build a personal webpage on CodePen'
 layout = 'prep'
 emoji= '🚀'
 menu_level = ['module']
