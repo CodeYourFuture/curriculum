@@ -88,6 +88,8 @@ Your webpage should meet all of the following criteria:
 
 {{<note type="tip" title="Using AI to help you understand and fix coding errors">}}
 If you do not know how to fix an error in your code, show your code to AI and ask it to help you understand the cause of the error.
+
+Remember that the purpose of this exercise is learning - you shouldn't have AI write code for you. But it can help you understand problems.
 {{</note>}}
 
 
