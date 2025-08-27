@@ -21,6 +21,11 @@ In this exercise, you will:
 
 Create a free account on [GitHub](https://github.com/).
 
+{{<note type="tip" title="Ask AI">}}
+- Need to choose a **professional GitHub username**? Ask an AI assistant how to pick one that’s clear, simple, and career-friendly.  
+- Wondering **why a professional username matters**? Let AI explain how it can affect your credibility, discoverability, and personal brand.
+{{</note>}}
+
 #### 2. Use AI to learn about GitHub
 
 Before you start uploading files, use AI to explore some key concepts and terminology.
