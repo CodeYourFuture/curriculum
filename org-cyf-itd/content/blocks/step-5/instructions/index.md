@@ -21,19 +21,20 @@ In this exercise, you will:
 
 Create a free account on [GitHub](https://github.com/).
 
-{{<note type="tip" title="Choosing a consistent professional username">}}
+{{<note type="tip" title="Ask AI">}}
+- Need to choose a **professional GitHub username**? Ask an AI assistant for tips on picking one that’s clear, simple, and career-friendly.
+- Curious **why a professional username matters**? Let AI explain how it can impact your credibility, discoverability, and personal brand.  
 
-- Need to choose a **professional GitHub username**? Ask an AI assistant how to pick one that’s clear, simple, and career-friendly.
-  
-- Wondering **why a professional username matters**? Let AI explain how it can affect your credibility, discoverability, and personal brand.
-
-- You **should not include your year of birth** in your account name - if you do, people may use it to discriminate against you.
-
-- You should use **one consistent name** for your accounts and on your CV. It doesn't have to match your name on your birth certificate - some people need to hide that name, or prefer another. But it is confusing for an employer if you use different names on your CV and your accounts. Be consistent.
-
-- Pick the one professional name you're going to use now. You should keep using that name in professional contexts.
-
+**Tip:** Avoid including your birth year in your username - this information could be misused for discrimination.
 {{</note>}}
+
+> [!IMPORTANT]
+>
+> People sometimes use different names in different contexts (nicknames, shortened versions, or using first and middle names differently).  
+>
+> For professional purposes, **choose one consistent name** for your accounts and CV. It doesn’t have to match your legal name, but consistency helps employers recognize you.  
+>
+> Decide on the professional name you will use now and stick with it across all professional contexts.
 
 #### 2. Use AI to learn about GitHub
 
