@@ -91,3 +91,15 @@ For each module you import, add a `replace` directive to your `go.mod` file - if
 ## To locally develop your site
 
 Check [org-cyf/README.md](/org-cyf/README.md) on how to set up your local environment. Once that is done you can `cd` into the site you wish to develop, and run `npm run start:dev` to get a live preview.
+
+## Shortcodes
+
+### `next-class-day-plan`
+
+The `next-class-day-plan` shortcode pulls sprint pages from the existing `syllabus`/`module` menu hierarchy, so no additional `scheduled` menu is required.
+
+Example:
+
+```
+{{< next-class-day-plan >}}
+```
