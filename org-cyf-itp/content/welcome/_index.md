@@ -6,4 +6,5 @@ emoji= '🫶🏽'
 menu = ['syllabus', 'course schedule']
 weight='1'
 parentsToTraverseToModule = 0
+moduleForRegister = "Welcome"
 +++
