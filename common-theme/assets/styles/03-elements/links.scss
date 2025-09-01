@@ -9,8 +9,10 @@ a:link:not([class]),
 a:visited:not([class]),
 .e-link {
   color: currentColor;
-  text-decoration: dotted underline;
-
+  text-decoration: underline;            /* fallback for old Safari */
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  
   @include on-event {
     text-decoration: underline;
     outline: none;
