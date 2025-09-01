@@ -96,7 +96,7 @@ Check [org-cyf/README.md](/org-cyf/README.md) on how to set up your local enviro
 
 ### `next-class-day-plan`
 
-The `next-class-day-plan` shortcode pulls sprint pages from the existing `syllabus`/`module` menu hierarchy, so no additional `scheduled` menu is required.
+The `next-class-day-plan` shortcode pulls sprint pages from the existing `syllabus`/`module` menu hierarchy.
 
 Example:
 
