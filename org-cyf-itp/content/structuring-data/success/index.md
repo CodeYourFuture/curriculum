@@ -39,7 +39,8 @@ weight = 11
     - Links to your _completed_ pull requests for each sprint:
         1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
         1. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
-        1. "[Sprint 3 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
+        1. "[Sprint 3 "Implement and Rewrite Tests" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
+        1. "[Sprint 3 "Practice TDD" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)".
     - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
 1. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
