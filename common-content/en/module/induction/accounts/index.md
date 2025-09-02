@@ -71,8 +71,12 @@ Your cohort is your first network, and this is one of the most valuable things y
 - [ ] I have downloaded the [Slack](https://slack.com/intl/en-gb) app on my computer and phone.
 - [ ] I have logged in to the {{<our-name>}} ITP workspace.
 - [ ] I have found and joined my class channels.
-- [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
+- [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile, my region, and my cohort.
 - [ ] I have introduced myself on Slack.
+
+See this example fully filled-in Slack profile - make sure yours has at least the same fields filled on:
+
+![Filled-in Slack profile](slack-profile.png)
 
 ## Applications
 
