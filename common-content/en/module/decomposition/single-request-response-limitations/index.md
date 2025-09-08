@@ -20,7 +20,7 @@ This leaves no room for updates. In our chat example, we made a request, and the
 If a new message comes in, the server has no way of telling us about it. It already sent its response.
 
 We can imagine a few ways to overcome this limitation, for example:
-1. The client could also the server again.
+1. The client could ask the server again.
 2. We could use something _other_ than an HTTP request which allows multiple responses, or bi-directional communication.
 3. The client could ask the server to make an HTTP request to it if there are new updates.
 
