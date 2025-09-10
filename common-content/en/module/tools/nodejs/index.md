@@ -9,7 +9,7 @@ objectives = [
 ]
 +++
 
-We know that that JavaScript is an interpreted language. Running it needs some interpreter to read our lines of code and execute them.
+We know that JavaScript is an interpreted language. Running it needs some interpreter to read our lines of code and execute them.
 
 We've already seen that web browsers can run JavaScript. Web browsers provide a runtime environment for JavaScript. 
 
