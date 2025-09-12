@@ -84,7 +84,7 @@ Let's break this statement down:
   a variable
 - `x`: The variable name/identifier. It can be short or long, but must not
   contain spaces and must not start with a number.
-- `=`: The equal sign is the assigmnent operator
+- `=`: The equal sign is the assignment operator
 - `3`: The value that we assign to the variable. This can be any number, string
   or boolean, or any more complex data type that we will introduce later. You
   can also use an existing variable here.
@@ -164,7 +164,7 @@ called _string concatenation_. It's achieved by the plus (`+`) operator:
 can only have two values: `true` and `false`.
 
 Like numbers, they can be combined using operators, but there are different
-operators for booleans (analoguous to
+operators for booleans (analogous to
 [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)). The most
 important ones are:
 

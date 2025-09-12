@@ -44,7 +44,7 @@ sudo -u postgres createuser -P --createdb <username>
 
 This will ask for your Ubuntu login password to run the sudo command. The other parts of the line are:
 
-- `-u postgres` tells sudo to run createuser as user postgres (set up when you installed postgres) -`createuser` the shell command to create a PostgeSQL user
+- `-u postgres` tells sudo to run createuser as user postgres (set up when you installed postgres) -`createuser` the shell command to create a PostgreSQL user
 - `-P ` (upper case) tells createuser to ask for the new user's password
 - `--createdb ` grants the user the privileges to create databases
 - `<username> ` the new username (hint: make it the same as your o/s username)

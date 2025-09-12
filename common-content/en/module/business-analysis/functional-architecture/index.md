@@ -1,5 +1,5 @@
 +++
-title = "Functional architechture"
+title = "Functional architecture"
 
 time = 60
 emoji = "🤖"

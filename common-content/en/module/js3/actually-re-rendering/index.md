@@ -17,7 +17,7 @@ We have seen that when we search, we're only _adding_ new elements, and not remo
 
 We previously identified our strategy of clearing old elements before adding new ones. But we are not doing this.
 
-We can clear out the existing children of an element by setting its `textContent` propery to the empty string:
+We can clear out the existing children of an element by setting its `textContent` property to the empty string:
 
 ```js
 document.body.textContent = "";

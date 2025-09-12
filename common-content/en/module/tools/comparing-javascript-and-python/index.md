@@ -13,7 +13,7 @@ objectives = [
 
 JavaScript and Python have many things in common.
 
-Most differences are "cosmetic". Here are some examples of cosmetic differnces:
+Most differences are "cosmetic". Here are some examples of cosmetic differences:
 * Some functions and operators have different names. But often there are functions/operators which do exactly the same thing.
 * JavaScript uses `{}` around blocks of code and we _choose_ if we indent code. Python uses `:` and indentation is required.
 * In JavaScript we choose to name variables in `camelCase`, whereas in Python we choose to name variables in `snake_case`. In both langues we _could_ do either; this is called a {{<tooltip title="convention">}}A convention is something a group (maybe a team, or a company, or most users of a programming language) agree to do. It's not quite a rule - things _could_ work another way. But we agree one way we'll all do it anyway.<br /><br />e.g. in Python you could name one variable `firstName` and another `middle_name` and another `LASTname`, but if everyone agrees to use `first_name` and `middle_name` and `last_name` it makes it a bit easier for everyone to read because they know what to expect.{{</tooltip>}}.

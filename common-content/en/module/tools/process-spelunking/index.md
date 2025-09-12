@@ -561,7 +561,7 @@ We can see the `1`, which is the *file descriptor* to which it is written.
 
 ### What You've Learned
 
-You've learned that the process and the kernel speak with eachother using *system calls*. \
+You've learned that the process and the kernel speak with each other using *system calls*. \
 You can *trace* those *system calls* using `strace`.
 
 You've also seen how a file is opened, and read, by asking the kernel to do that for us, using *system calls*.

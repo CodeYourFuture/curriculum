@@ -13,4 +13,4 @@ objectives = [
   publishResources = false
 +++
 
-Do this interesting [Requirements crash course](https://codeyourfuture.udemy.com/course/requirements-discovery-crash-course/) on Udemy and learn waht you should consider when doing a requirements discovery.  
+Do this interesting [Requirements crash course](https://codeyourfuture.udemy.com/course/requirements-discovery-crash-course/) on Udemy and learn what you should consider when doing a requirements discovery.  

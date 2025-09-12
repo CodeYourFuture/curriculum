@@ -27,7 +27,7 @@ Sed commands feature both a matcher (called an "address") specifying which lines
 `sed '1,3 s/cat/dog/' some-file`
 
 Address: `1,3` - lines 1-3 of `some-file`\
-Command: `s/cat/dog/` - replace the first occurence of "cat" on each line with "dog"
+Command: `s/cat/dog/` - replace the first occurrence of "cat" on each line with "dog"
 {{</note>}}
 
 If you don't specify an address, your command applies to the whole file:
@@ -36,7 +36,7 @@ If you don't specify an address, your command applies to the whole file:
 `sed 's/cat/dog/' some-file`
 
 Address: Not specified, so every line of `some-file`\
-Command: `s/cat/dog/` - replace the first occurence of "cat" on each line with "dog"
+Command: `s/cat/dog/` - replace the first occurrence of "cat" on each line with "dog"
 {{</note>}}
 
 Learn about `sed` from its man page (and the backlog exercises).
@@ -50,7 +50,7 @@ Some sed commands you should understand and be able to write:
 
 {{<multiple-choice
 question="What does the command `sed -e 's#cat#dog#' animals` do?"
-answers="Output the contents of the file animals, with all occurences of 'cat' replaced with 'dog'. | Output the contents of the file animals, with the first occurence of 'cat' on each line replaced with 'dog'. | Output the contents of the file animals, with the first occurence of 'cat' in the file replaced with 'dog'."
+answers="Output the contents of the file animals, with all occurrences of 'cat' replaced with 'dog'. | Output the contents of the file animals, with the first occurrence of 'cat' on each line replaced with 'dog'. | Output the contents of the file animals, with the first occurrence of 'cat' in the file replaced with 'dog'."
 feedback="Not quite - take a look at the flags passed to the s command. | Right! sed operates on lines, and without the g flag it just does one replacement. We can use any character (like #) between the sections of an s command, not just /. | Not quite, think about what unit sed operates on - characters/words/lines/files?"
 correct="1"
 >}}

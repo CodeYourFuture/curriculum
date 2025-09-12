@@ -87,7 +87,7 @@ If you see this, congratulations! You have built yourself a server!
 
 #### 6. npm script
 
-To exit the running the server, type `ctrl + c`. Instead of running the server with `node server.js` everytime, we can create an alias for it in `package.json`.
+To exit the running the server, type `ctrl + c`. Instead of running the server with `node server.js` every time, we can create an alias for it in `package.json`.
 
 Under the `scripts` property, add `start: node server.js`. We can now run our server using `npm start` which will be an alias (a shortcut) to `node server.js`.
 

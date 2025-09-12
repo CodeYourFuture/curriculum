@@ -911,7 +911,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
 * Sally made [a doc](https://docs.google.com/document/d/1SHjRnvhoMp0NLDzEc8-lLMy4bx_FR87-_QxYRI9qRqY/edit?tab=t.0), but we got no further
 * Naming
   * Sally: Would like to override the vote of naming to be Introduction module
-    * There's too much confusion with _Intro_ to Digital & _Intro_ to Programming as a whole course - "I completed the Introduction module" is too ambigious
+    * There's too much confusion with _Intro_ to Digital & _Intro_ to Programming as a whole course - "I completed the Introduction module" is too ambiguous
   * Decision: Will be called the Onboarding module
     * Reasoning: It ties nicely into onboarding at a company, introduces that jargon
     * Welcome module naming was rejected
@@ -1107,7 +1107,7 @@ Three kinds of tracks:
 * Employer/Job/Role-focused tracks after ITP
 * Employer/Job/Role-focused tracks after SDC
 
-Need to be clear what is a direct path to a job, and also that we won't support poeple indefinitely to just keep doing more learning without goals.
+Need to be clear what is a direct path to a job, and also that we won't support people indefinitely to just keep doing more learning without goals.
 
 Daniel will action this on the tracks website.
 
@@ -2333,9 +2333,9 @@ Sprint is basically "review all the things".
 
 - Monorepos make it simpler to do things atomically (e.g. for wide-scale change, for unified previews, etc), and to not need to build tooling around stitching things together.
   - Each time we need to build tooling to bridge gaps, either we need to spend time on that tooling, or we need to be sad because we have to live with the limitations of not having that tooling.
-- Our core model is composibility - separating things around can make it easier for people to focus on just their corner of the world.
+- Our core model is composability - separating things around can make it easier for people to focus on just their corner of the world.
 - Each place we have an extra repo adds complexity - we should be careful to justify why this it's worth adding this complexity for each exception we make.
-- Not super clear what value we get from seprate _repos_ over separate _directories_ (which may have their own permissions)?
+- Not super clear what value we get from separate _repos_ over separate _directories_ (which may have their own permissions)?
   - But Hugo's module system strongly assumes each module has _releases_ of some kind, and we may need to invent some cunning scheme to make this work.
 - Git submodules could potentially help, but also could add complexity.
 - Sally is going to try to build some kind of release system within Hugo and send it out for high-bar review, outside of the curriculum repo so we can experiment and iterate.
@@ -2361,7 +2361,7 @@ Sprint is basically "review all the things".
 - How much should we balance "what we teach" with "how later things will be deployed"?
   - A lot of the higher-level frameworks around React (next, remix, ...) abstract away a lot of the things that are useful to understand.
     - Sally has been migrating React Hotel to Vite - could happily put together a few other examples implementations with frameworks (e.g. Preact) we can compare/contrast.
-  - As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encoutered.
+  - As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encountered.
 - A few really different concerns for our trainees:
 
   - Can you understand what's going on with a deployment platform?
@@ -2938,7 +2938,7 @@ Ali:
 
 - Trade off between consolidation and momentum
 - Need to make this trade-off clear to the tech-ed volunteers
-- Need to avoid heroic efforts and adding unncessary extra time to the course
+- Need to avoid heroic efforts and adding unnecessary extra time to the course
 
 Mitch:
 
@@ -3287,7 +3287,7 @@ Our best answer so far: Try to be on the ground watching as much as possible.
 
 We need to work out how to introduce Git, but hopefully for the current class can spend some time across HTML/CSS doing so in the background.
 
-Consistent feedback we get from employeers:
+Consistent feedback we get from employers:
 
 - Graduates are too eager to fork repos.
 - Graduates are confused about forks vs branches.
@@ -4702,7 +4702,7 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - [ ] Greg: set up a debrief with ZA (pending) - action!
 - [x] Sally: share intro to CYF slides with Greg
 - [ ] Ali: set up a Blockly Reactification call - action!
-- [ ] Greg: create a ticket for cypress tesing in blockly - action!
+- [ ] Greg: create a ticket for cypress testing in blockly - action!
 - [x] Daniel: progress JS1 module project
 
 ### WMCA deal
@@ -4754,7 +4754,7 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 
 - Arrange CFY teacher training
 
-### Reamining Blockly PRS
+### Remaining Blockly PRS
 
 - Greg to check and merge these PRs
 - Wait for other PRs to get merged before tackling "Greater than 11"
@@ -4845,7 +4845,7 @@ Attendees: Sally, Greg, Daniel, Ali, Sanyia
 - Greg: set up a debrief with ZA
 - Sally: share intro to CYF slides with Greg
 - Ali: set up a Blockly Reactification call
-- Greg: create a ticket for cypress tesing in blockly
+- Greg: create a ticket for cypress testing in blockly
 - Daniel: progress JS1 module project
 
 ## 30-03-2022
@@ -4973,7 +4973,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 - Problem solving
 - Integration with PD
 - Working on students with code reviews
-- Module contracts - Well defined prequisites and outcomes for any module on the course
+- Module contracts - Well defined prerequisites and outcomes for any module on the course
 -
 - Iterate on module template for Code Your Future
 - Succession planning: learning how to hand things over in a sustainable way 🤔
@@ -5084,7 +5084,7 @@ Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth 
     - So we don't overstretch ourselves
     - Sally has talked to some schools about reaching targets before starting new class
       - But it's ultimately up to the volunteers
-    - Oridinarily Cape Town would start new fundamentals first
+    - Ordinarily Cape Town would start new fundamentals first
   - Try to capture some notes - that we could use as a basis for committed volunteer notes
 - Supporting schools with employment
   - Cape Town have access to Barny
@@ -5136,7 +5136,7 @@ Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia 
   - Alternative could be to set up a repo that they all use which we maintain - would keep everyone doing the same, but may take away some of the understanding of how things fit together and what the stages are.
     - Is the Node module the right place to be following Heroku guides, or can we move this somewhere else?
     - One of the really nice things about the current set-up is that it gives rise to a lots of opportunities for discussion.
-  - Thoughts on the City Guide / Paired Progamming piece (one person writes frontend, one writes backend, fit them together)
+  - Thoughts on the City Guide / Paired Programming piece (one person writes frontend, one writes backend, fit them together)
     - Probably the wrong time for it - the person doing React will probably not take as much from it (and may not remember React very well - we should also put in some work to make sure they _don't_ forget React at the end of the module).
       - In the long term, we should probably have them working on frontend and backend in concert to keep them practiced at it (e.g. quote generator, to do list, etc).
       - They'd also forgotten create-react-app, and also didn't know how to integrate a frontend and a backend in one repo.
@@ -5189,7 +5189,7 @@ Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia 
       - Will check.
       - A loop variable is something more than that - more the language storing something for you rather than you storing something.
   - What are the final exercises actually going to be, and do they really need to be as complex (particularly with arrays) as they currently are?
-    - Greg willl look and consider.
+    - Greg will look and consider.
   - What about duplication between Code.org and blockly?
     - Code.org does control flow stuff pretty well, but there's a small subset we actually need.
     - Probably focus as much in Blockly rather than Code.org because Code.org is much nicer and we don't want them getting frustrated.
@@ -5372,7 +5372,7 @@ Sally, Chris, Greg, Daniel
   - People seem to be enjoying Scrimba - maybe we should set more.
     - Scrimba is roughly: Kahn Academy, but you can pause the video, edit the code they're writing, and run it. Interface is magic, and the trainees really like it.
     - We may have an in for a creator account - Chris will coordinate with Sally.
-- Greg: Data sturcture abstractions for Blockly
+- Greg: Data structure abstractions for Blockly
   - Beginners often struggle with classic `for` loops (need to manage a lot of concepts). `while` loops are easier to get started, and upgrading from `while` to `for` generally makes some sense.
   - Put together a linked list implementation using `while` loops.
   - Naming is hard:
@@ -5579,7 +5579,7 @@ Daniel, Chris, Sally, Mitchell, Greg
   - This is a good signal
 - Tech Projects
   - Could we think about running a hackathon around some of these projects?
-  - They're fairly disfunctional right now so could be improved
+  - They're fairly dysfunctional right now so could be improved
     - As in - students could get more out of it, we could get more out of it
 
 ### Actions
@@ -5667,7 +5667,7 @@ We've split at least two London classes, it's probably the best outcome we could
 
 #### Revamping fundamentals
 
-Trying to encompas all of the use-cases all of the different schools have.
+Trying to encompass all of the use-cases all of the different schools have.
 
 London Class 8 starts September 25th and is going to be 66 people going through fundamentals. So unlikely to get revisions in by then. On current track, means 132 1:1 assessments!
 
@@ -5786,14 +5786,14 @@ Sally, Ali, Daniel, Greg, Chris
   - Compromise on the length of the course
     - Max was 24 weeks
     - Now the course "officially" starts after JS3
-  - Fundamentals convertion to a self-paced course
+  - Fundamentals conversion to a self-paced course
     - We'd lose
       - Students get know each other
       - Students getting to know mentors
       - 121 assessments
         - Was originally the core of the idea
       - Team building? Community?
-      - CYF getting to know the students e.g. attendence, punctuality
+      - CYF getting to know the students e.g. attendance, punctuality
       - The chance to remove people from the course
     - We'd gain
       - Less of an odd gap between Fundamentals and JS1
@@ -6071,7 +6071,7 @@ Welcome to Ben
 - Sally: could have teams that are module focused to "garden" the individual modules
   - syllabus team should figure out how to support people in doing this
 - Greg: As well as dependencies: document reasoning
-  - Sally: would also be good to have better communciation/collaboration between modules
+  - Sally: would also be good to have better communication/collaboration between modules
 - Ben: at school of code, similar issues - making things reorderable
 - Greg: concern that "Basics of Javascript" makes it a dumping ground for everything that is conceptually "basic", even if we could delay teaching it
 
@@ -6324,7 +6324,7 @@ The marking guide is the key part needed here.
 Action items:
 
 - Daniel will work on JS3, Matthew will work on JS1. Two assessments of 15 mins each, with a rubric to guide marking.
-- Ali wrote an assessment for React, an open book assesment. Find it, update it, and add it.
+- Ali wrote an assessment for React, an open book assessment. Find it, update it, and add it.
 
 ### Homework marking guide
 
@@ -6459,8 +6459,8 @@ Action for Chris: Get a Gist from Ali and give it to some students.
 ### Sprint planning (Chris)
 
 - Git ticket almost ready
-- introducing funtions, ready for review
-- js excercises 2
+- introducing functions, ready for review
+- js exercises 2
 
 New tickets
 
@@ -6574,7 +6574,7 @@ Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
   - Sometimes distracted by Bootstrap features
 - Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
 - Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
-- Homework for week 3 used Wix templates in the past - needs to change for copyright reaons
+- Homework for week 3 used Wix templates in the past - needs to change for copyright reasons
 
 - May need an additional 4th class
 - Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
@@ -6791,7 +6791,7 @@ Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 
 ### GIT & COMMAND LINE V. GITHUB DESKTOP
 
-Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
+Discussion around whether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
 
 - No final decision was made in the meeting about which technology should be taught.
   - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4.
