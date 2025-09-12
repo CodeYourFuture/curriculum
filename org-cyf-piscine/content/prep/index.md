@@ -27,4 +27,7 @@ src="module/piscine/group-work"
 [[blocks]]
 name="Preparation"
 src="module/piscine/preparation"
+[[blocks]]
+name="Project Submission"
+src="module/piscine/project-submission"
 +++
