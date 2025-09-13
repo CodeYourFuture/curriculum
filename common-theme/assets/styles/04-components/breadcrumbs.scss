@@ -1,5 +1,6 @@
 .c-breadcrumbs {
   &__list {
+    @extend %list-without-list-formatting;
     display: flex;
     align-items: center;
     gap: var(--theme-spacing--1);
@@ -34,5 +35,9 @@
   &__icon {
     height: 1em;
     min-width: 6px;
+  }
+
+  &__item {
+    @extend %list-without-list-formatting;
   }
 }

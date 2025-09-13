@@ -18,6 +18,9 @@
       clip: circle();
     }
   }
+  &__list {
+    @extend %list-without-list-formatting;
+  }
   @include on-event() {
     .c-chip__title {
       text-decoration: underline;
