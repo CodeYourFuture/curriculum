@@ -35,6 +35,7 @@ weight = 11
     - A link to your _completed_ pull request for "[Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)".
     - A link to your "[Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10)". (It's ok if this is a private document, you don't need to share it if you don't want to, but please include the link for your own reference).
     - An explanation of how you have used your "[Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10)" to record your progress.
+    - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
 1. Submit the issue link to step 3 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
