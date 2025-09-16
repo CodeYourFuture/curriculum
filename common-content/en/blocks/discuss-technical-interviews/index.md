@@ -4,7 +4,7 @@ description = "Help each other improve at technical interviews"
 time = 30
 emoji= "🗣️"
 objectives = [
-    "Identify perparation and techniques for succeeding at technical interviews."
+    "Identify preparation and techniques for succeeding at technical interviews."
 ]
 [build]
   list = "never"

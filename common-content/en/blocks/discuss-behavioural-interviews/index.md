@@ -4,7 +4,7 @@ description = "Help each other improve at behavioural interviews"
 time = 30
 emoji= "🗣️"
 objectives = [
-    "Identify perparation and techniques for succeeding at behavioural interviews."
+    "Identify preparation and techniques for succeeding at behavioural interviews."
 ]
 [build]
   list = "never"

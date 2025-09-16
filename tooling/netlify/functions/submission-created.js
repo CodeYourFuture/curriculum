@@ -9,7 +9,7 @@
 
 import {Auth, google} from "googleapis";
 
-// Each sheet listed here was manually crated, and its spreadsheet ID is taken from its URL.
+// Each sheet listed here was manually created, and its spreadsheet ID is taken from its URL.
 // Each spreadsheet is expected to contain one sheet per module, named for the module.
 // Each module sheet is expected to contain the following columns, in order:
 // Name | Email | Timestamp | Course | Module | Day | Location | Build Time

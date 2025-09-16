@@ -15,8 +15,8 @@ src="module/business-analysis/design-principles"
 name="UX Design"
 src="module/business-analysis/ux-design"
 [[blocks]]
-name="Functional architechture"
-src="module/business-analysis/functional-architechture"
+name="Functional architecture"
+src="module/business-analysis/functional-architecture"
 [[blocks]]
 name="Data modelling"
 src="module/business-analysis/data-modelling"
