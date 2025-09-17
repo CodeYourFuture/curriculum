@@ -37,6 +37,8 @@ You will be asked to explain the code. You may be asked to:
 
 - Your interview will be recorded and scored against a rubric you can read before the interview.
 - You will not get feedback in the interview itself. You will be sent feedback within a few days of the interview.
+- If you passed, you will be invited to join the next [SDC](https://sdc.codeyourfuture.io/).
+- If you failed, you will be given feedback and invited to discuss the best next steps for you.
 
 
 Once your interview is done, you are done. Join the wrap party and celebrate your hard work! What a journey! 🎉
