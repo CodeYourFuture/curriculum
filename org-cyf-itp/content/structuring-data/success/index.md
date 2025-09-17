@@ -42,6 +42,7 @@ weight = 11
         1. "[Sprint 3 "Implement and Rewrite Tests" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
         1. "[Sprint 3 "Practice TDD" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)".
     - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
+    - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
 1. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
