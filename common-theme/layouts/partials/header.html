@@ -6,7 +6,7 @@
           >{{ .Section }} {{ .Title }} {{ site.Title }}</span
         >
         {{ $logos := resources.Match "custom-images/site-logo/*.svg" }}
-        {{ range $logos }}{{ .Content | safeHTML }}{{ end }}
+        {{ (index $logos 0).Content | safeHTML }}
       </a>
     </h1>
     {{ partial "search.html" }}
