@@ -5,8 +5,12 @@
         ><span class="is-invisible"
           >{{ .Section }} {{ .Title }} {{ site.Title }}</span
         >
-        {{ $logos := resources.Match "custom-images/site-logo/*.svg" }}
-        {{ (index $logos 0).Content | safeHTML }}
+        <span class="is-none--lt-container">
+          {{ (resources.Get "custom-images/site-logo/site-logo.svg").Content | safeHTML }}
+        </span>
+        <span class="is-none--gt-container">
+          {{ (resources.Get "custom-images/site-logo/site-logo-small.svg").Content | safeHTML }}
+        </span>
       </a>
     </h1>
     {{ partial "search.html" }}

@@ -64,6 +64,10 @@ func main() {
 	for _, directoryToCheck := range directoriesToCheck {
 		for _, expectedSymlink := range []string{"config", "deploy-netlify.sh", "netlify.toml"} {
 			if errorToReport, ok := checkForParentSymlink(directoryToCheck, expectedSymlink); !ok {
+				// common-theme is a hugo module but we don't treat it as a deployable site.
+				if directoryToCheck == filepath.Join(rootDirectory, "common-theme") {
+					continue
+				}
 				errors = append(errors, errorToReport)
 			}
 		}
