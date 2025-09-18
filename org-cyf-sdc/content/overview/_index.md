@@ -1,7 +1,7 @@
 +++
-title="Course overview"
-layout="overview"
-overview_menu='SDC'
+title = "Course overview"
+layout = "overview"
+overview_menu = "SDC"
 menus = ["start here"]
 +++
 
