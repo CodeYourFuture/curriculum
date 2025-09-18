@@ -155,7 +155,7 @@ Before asking a question check in with yourself and make sure you have done the 
 {{<note type="exercise" title="I have checked..." >}}
 
 - [ ] Are you monitoring your questions and replying to people giving their time to help you?
-- [ ] Have you been asked for a [Minimum Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example)?
+- [ ] Have you been asked for a {{<tooltip title="\"Minimum Reproducible Example">}} People will be better able to provide help if you provide code as text in your question that prospective answerers can easily understand and use to reproduce the problem. Also, it is considered a basic sign of respect for those who are volunteering their time to help you. Read more at [How to create a Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example){{</tooltip>}}
 - [ ] Have you posted an easy to understand answer to your questions that includes everything you learnt
 
 {{</note>}}
