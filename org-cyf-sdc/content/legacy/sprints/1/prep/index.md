@@ -1,23 +1,23 @@
 +++
-title = 'prep'
-description = 'Navigating and working with code written by others'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Navigating and working with code written by others"
+layout = "prep"
+emoji = "🧑🏾‍💻"
+menu_level = ["sprint"]
 weight = 1
 [[blocks]]
 name = "Introduction"
 src = "module/legacy/introduction"
 [[blocks]]
-src="https://github.com/CodeYourFuture/Module-Legacy-Code"
-name="Purple Forest"
-time=60
+src = "https://github.com/CodeYourFuture/Module-Legacy-Code"
+name = "Purple Forest"
+time = 60
 [[blocks]]
 name = "Understanding"
 src = "module/legacy/understanding"
 [[blocks]]
-name="Fear and logic"
-src="module/legacy/fear"
+name = "Fear and logic"
+src = "module/legacy/fear"
 [[blocks]]
 name = "Finding things"
 src = "module/legacy/navigation"

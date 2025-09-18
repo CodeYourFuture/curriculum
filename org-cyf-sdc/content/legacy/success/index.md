@@ -1,9 +1,9 @@
 +++
-title = 'success'
-description = 'How do we know if we have completed this module?'
-layout = 'success'
-emoji= '✅'
-menu_level = ['module']
+title = "Success"
+description = "How do we know if we have completed this module?"
+layout = "success"
+emoji = "✅"
+menu_level = ["module"]
 weight = 11
 objectives = [[
   "Explain differences between approaching legacy code and new code.",
