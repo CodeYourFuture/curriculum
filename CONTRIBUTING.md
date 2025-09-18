@@ -10,11 +10,11 @@ This curriculum compiles narratives and activities developed by hundreds of peop
 
 ## Who runs this?
 
-Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, and do, develop content for the curriculum, and they are encouraged to experiment to see what works. 
+Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, and do, develop content for the curriculum, and they are encouraged to experiment to see what works. Our trainees also notice problems, and propose or implement solutions!
 
-The Global Syllabus Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Global Syllabus Team will make the ultimate decision. See more info on contributing new content below.
+The Curriculum Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Curriculum Team will make the ultimate decision. See more info on contributing new content below.
 
-The Global Syllabus Team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and [the minutes](https://curriculum.codeyourfuture.io/guides/contributing/minutes/) are posted on this website. If you'd like to come and talk to us, please do!
+The Curriculum is led by the Director of Education, currently [Daniel Wagner-Hall](https://github.com/illicitonion). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-curriculum and [the minutes](https://curriculum.codeyourfuture.io/guides/contributing/minutes/) are posted on this website. If you'd like to come and talk to us, please do!
 
 ## About our content
 
@@ -32,19 +32,19 @@ The Global Syllabus Team is led by the Director, currently [Sally McGrath](https
 
 ## Pedagogy
 
-We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework.
+We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework, in a [flipped classroom](https://bokcenter.harvard.edu/flipped-classrooms) style.
 
 ## How to contribute
 
 ### Propose a new narrative or activity
 
-We adopt _tested_ content into the main curriculum, so develop and try out your material first! Come to class, try it, and get feedback from the community. Come talk in #cyf-syllabus-tech on Slack and iterate on your session.
+We adopt _tested_ content into the main curriculum, so develop and try out your material first! Come to class, try it, and get feedback from the community. Come talk in #cyf-curriculum on Slack and iterate on your session.
 
-1. Develop your narrative or activity in a repo. If you're running a workshop, develop in https://github.com/CodeYourFuture/CYF-Workshops. If it's a project, link in https://github.com/CodeYourFuture/CYF-Projects
+1. Develop your narrative or activity in a repo. If you're running a workshop, develop in https://github.com/CodeYourFuture/CYF-Workshops. If it's a project, make a separate repo for it.
 2. If you're recording a video, upload it to YouTube and make it public.
 3. Use your material and iterate on it with trainees.
 4. When you're ready to propose adoption, open a PR to this repo.
-5. The Global Tech Ed team will consider your proposal and give you feedback.
+5. The Curriculum team will consider your proposal and give you feedback.
 
 **We like to experiment.** If you have an idea, try it out and let us know how it goes! Keep your experiments small and test them early. (If you want to try something big, like a new module, come talk to us first.)
 
@@ -52,48 +52,84 @@ Our curriculum threads a coherent line through all of this activity, so whatever
 
 _Most_ content we develop and use with classes will not be adopted into the core curriculum -- that's ok! We want to be free to experiment.
 
-## Coursework Template
----
+## Bugs
 
-<details>
-<summary>https://github.com/CodeYourFuture/CYF-Coursework-Template</summary>
+If you spot a bug, please let us know by [creating an issue](https://github.com/CodeYourFuture/curriculum/issues/new/choose) or opening a PR with the fix. Bug fixes are super welcome!
 
-# COURSEWORK NAME
+As this front end composes many different repos, please open an issue in the repo where you found the bug. If you're not sure, open an issue in this [main repo](https://github.com/CodeYourFuture/curriculum/issues/new/choose).
 
-Replace this readme with the requirements for your coursework
+(If the content is pulled from another repo, there's a link next to the heading -- follow that link to the source repo and open an issue there.)
 
-## Learning Objectives
+## Developing the source website
 
-```objectives
-- [ ] Use the [Teach Tech Together](https://teachtogether.tech/en/index.html#s:process-objectives) guide to construct your objectives
-- [ ] Limit the objectives to 3-5 items
-- [ ] Write objectives you can measure
+### To install
+
+You need the following software packages to run this curriculum:
+* `go`
+* `hugo` (must be the extended version) - we recommend version 0.136 extended
+* `npm`
+
+On macOS:
+
+```bash
+brew install go hugo npm
 ```
 
-## Requirements
+### To run locally
 
-Explain the requirements of the coursework. You might want to talk about goals here.
-You might want to use formal specifications like Given/When/Then. It's ok for requirements to be in different formats.
-We want trainees to learn to interpret requirements in many settings and expressions.
+#### Generate a token
 
-## Acceptance Criteria
+You'll need to get a fine-grained GitHub API token which allows read-only access to all public CYF repos from [this page](https://github.com/settings/tokens?type=beta).
 
-- [ ] I have provided clear success criteria
-- [ ] These might be related to the objectives and the requirements
-- [ ] I have given some simple, clear ways for trainees to evaluate their work
-- [ ] I have run Lighthouse and my Accessibility score is 100
+Click "Generate new token", enter a token name (can be anything), and how long you want the token to last (if you're doing a one-off contribution, pick a short value; if you're going to be a regular contributor, maybe a longer value).
+
+Make sure the Resource owner is _your_ account if you have a choice.
+
+The "Repository access" you need is "Public repositories (read-only)", and you don't need any account permissions:
+
+<details>
+<summary>Open to view screenshot of the required permissions</summary>
+
+![screenshot of required permissions](./readme_repository_access.png)
 
 </details>
 
----
+#### Set up `.env`
 
-## Bugs
+Copy the `/curriculum/.env.example` to `/curriculum/.env`. Edit the file and then change the line that says `HUGO_CURRICULUM_GITHUB_BEARER_TOKEN` to contain the token that you have generated earlier.
 
-If you spot a bug, please let us know by [creating an issue]() or opening a PR with the fix. Bug fixes are super welcome!
+You can probably ignore the other entries.
 
-As this front end composes many different repos, please open an issue in the repo where you found the bug. If you're not sure, open an issue in this [main repo]().
+#### Run this command
 
-(If the content is pulled from another repo, there's a link next to the heading -- follow that link to the source repo and open an issue there.)
+There are several websites in this repo - identify the one you want and make sure you're `cd`'d into that directory.
+
+Run this command in a terminal:
+
+```bash
+npm i
+npm run start:dev
+```
+
+If you find the build is very slow, and don't care about the issues being pulled into backlogs being precise, you can run:
+
+```bash
+npm run start:dev -- --environment issues-are-cached-and-incomplete
+```
+
+### Site Search
+
+PageFind runs the search. https://pagefind.app/
+It's in the build command on Netlify `hugo && npx pagefind --source "public"`
+If you need to develop on this locally, run:
+
+```bash
+rm -rf public &&
+npm run build:dev &&
+npx pagefind --site "public" --serve
+```
+
+And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
 
 ## Contributors ✨
 
