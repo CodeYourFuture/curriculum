@@ -1,3 +1,7 @@
+ul.c-block, ol.c-block, li.c-block {
+  @extend %list-without-list-formatting;
+}
+
 .c-block {
   scroll-snap-align: start;
   background-color: var(--theme-color--paper-fade);

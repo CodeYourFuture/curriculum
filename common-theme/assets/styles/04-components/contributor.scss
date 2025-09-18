@@ -1,5 +1,6 @@
 .c-contributors,
 ol.c-contributors {
+  @extend %list-without-list-formatting;
   display: flex;
   flex-flow: row wrap;
   gap: var(--theme-spacing--3) var(--theme-spacing--2);
@@ -7,6 +8,7 @@ ol.c-contributors {
   max-width: none;
 }
 .c-contributor {
+  @extend %list-without-list-formatting;
   flex: 0 1 auto;
   display: grid;
   @include grid-assign(avatar, name, commits);

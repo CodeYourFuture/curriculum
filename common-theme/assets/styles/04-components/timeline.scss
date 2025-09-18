@@ -1,5 +1,6 @@
 .c-timeline,
 [class="c-timeline"] {
+  @extend %list-without-list-formatting;
   --box: var(--theme-spacing--gutter);
   position: relative;
   transform: translateX(var(--box));
@@ -8,6 +9,7 @@
 
   &__entry,
   [class="c-timeline__entry"] {
+    @extend %list-without-list-formatting;
     display: flex;
     align-items: center;
     border-left: var(--theme-border--thick);
