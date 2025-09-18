@@ -54,9 +54,9 @@ _Most_ content we develop and use with classes will not be adopted into the core
 
 ## Bugs
 
-If you spot a bug, please let us know by [creating an issue]() or opening a PR with the fix. Bug fixes are super welcome!
+If you spot a bug, please let us know by [creating an issue](https://github.com/CodeYourFuture/curriculum/issues/new/choose) or opening a PR with the fix. Bug fixes are super welcome!
 
-As this front end composes many different repos, please open an issue in the repo where you found the bug. If you're not sure, open an issue in this [main repo]().
+As this front end composes many different repos, please open an issue in the repo where you found the bug. If you're not sure, open an issue in this [main repo](https://github.com/CodeYourFuture/curriculum/issues/new/choose).
 
 (If the content is pulled from another repo, there's a link next to the heading -- follow that link to the source repo and open an issue there.)
 
@@ -123,7 +123,7 @@ PageFind runs the search. https://pagefind.app/
 It's in the build command on Netlify `hugo && npx pagefind --source "public"`
 If you need to develop on this locally, run:
 
-```zsh
+```bash
 rm -rf public &&
 npm run build:dev &&
 npx pagefind --site "public" --serve
