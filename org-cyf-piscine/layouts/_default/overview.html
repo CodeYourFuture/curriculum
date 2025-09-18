@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ $site := .Site }}
+
+  {{ partial "page-header.html" . }}
+
+  {{ with .Page.Content }}<section class="c-copy">{{ . }}</section>{{ end }}
+{{ end }}
