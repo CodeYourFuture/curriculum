@@ -32,7 +32,7 @@ This exercise introduces the basics of Google Sheets — an online tool for orga
 1. Row and Column insertion, and AutoFill
     - Insert a column before column A
     - Insert a row before row 1
-    - Enter "Shirt Sales Information" in cell B2 and set the font size to 24
+    - Enter "Shirt Sales Information" in cell B1 and set the font size to 24
     - Use AutoFill to fill cells A4:A103 with the numbers 1 to 100
 
 1. Format and Freeze Headers
