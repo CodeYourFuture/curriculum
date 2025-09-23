@@ -1,6 +1,7 @@
 +++
 title = "Notes"
 time = 5
+hide_from_overview = "true"
 [build]
   render = "never"
   list = "local"
