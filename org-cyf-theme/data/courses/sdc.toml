@@ -9,3 +9,9 @@ days="84"
 commitment="part time"
 frequency=3
 locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Sheffield"]
+key_skills = [
+    "Understanding limitations",
+    "Considering trade-offs",
+    "Designing systems",
+    "Working with legacy code",
+]

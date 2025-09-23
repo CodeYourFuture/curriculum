@@ -2,10 +2,15 @@ name="Intro to Programming"
 code="itp"
 weight=2
 menu="start here"
-url="https://programming.codeyourfuture.io"
+url="https://programming.codeyourfuture.io/"
 description="Programming with JavaScript, Python, and SQL; collaborate to deliver working software with tests"
 emoji="🐣"
 days=91
 commitment="part time"
 frequency=3
 locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Sheffield"]
+key_skills = [
+    "Understanding requirements",
+    "Applying building blocks of code (variables, functions, arrays, if, for, ...)",
+    "Edge-cases and tests",
+]

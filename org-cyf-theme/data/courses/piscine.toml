@@ -9,3 +9,9 @@ days="22"
 commitment="part time"
 frequency=3
 locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Sheffield"]
+key_skills = [
+    "Test understanding with:",
+    "Projects",
+    "Demos",
+    "Interviews",
+]
