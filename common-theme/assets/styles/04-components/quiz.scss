@@ -1,0 +1,8 @@
+.c-quiz {
+    display: grid;
+    gap: var(--theme-spacing--gutter);
+
+    &__answer, &__list {
+        @extend %list-without-list-formatting;
+    }
+}

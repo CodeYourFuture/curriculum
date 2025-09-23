@@ -53,6 +53,10 @@
     min-width: fit-content;
   }
 
+  &__item {
+    @extend %list-without-list-formatting;
+  }
+
   &__link {
     @include on-event {
       text-decoration: underline dotted var(--theme-color--accent);
@@ -71,12 +75,14 @@
   }
 
   &__primary {
+    @extend %list-without-list-formatting;
     display: grid;
     align-self: stretch;
     place-content: center;
   }
 
   &__secondary {
+    @extend %list-without-list-formatting;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
