@@ -19,9 +19,9 @@ name="Workshop: Developer Tools"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools/"
 time="120"
 [[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time=25
+name="Workshop: Interview Introductions"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interview-introductions/"
+time="30"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
