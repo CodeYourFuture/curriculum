@@ -36,7 +36,7 @@ Assuming you were new to HTML and CSS when you started this course, this task is
 **You are not allowed to have AI write code for you. You must write your own code.**
 
 #### 1 - Fork the CodePen
-Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into the CodePen account you created in step 5. 
+Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into the CodePen account you created in step 4. 
 
 #### 2 - Make a Plan 
 Start by thinking about what you need to know to solve this problem. What might be a good first question to ask the AI? How can you avoid having the AI do your thinking for you?
