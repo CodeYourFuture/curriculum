@@ -2,6 +2,8 @@
 title = "Course overview"
 layout = "overview"
 overview_menu = "Piscine"
+menu = ["entry"]
+weight = 1
 +++
 
 The Piscine is an assessment. The goal is not to learn new things (though people will!), but to test understanding gained so far.

@@ -5,7 +5,7 @@ layout = "prep"
 emoji= "🧑🏾‍💻"
 menu_level = ["module"]
 menu = ["entry"]
-weight = 2
+weight = 3
 [[blocks]]
 name = "Intentions"
 src = "module/piscine/intentions"
