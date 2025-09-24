@@ -2,7 +2,10 @@
 title = 'Interview Introductions'
 time ="15"
 emoji= '💬'
-objectives=["Learn About Interview Introductions"]
+objectives=[
+  "Explain the purpose of an introduction in an interview.",
+  "Write an introduction using the Present-Past-Future model.",
+]
 [build]
   render = 'never'
   list = 'local'
