@@ -17,7 +17,7 @@ time=15
 [[blocks]]
 name="Workshop: Developer Tools"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools/"
-time="120"
+time="115"
 [[blocks]]
 name="Workshop: Interview Introductions"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interview-introductions/"
