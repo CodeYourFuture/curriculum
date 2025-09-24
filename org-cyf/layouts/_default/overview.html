@@ -11,7 +11,7 @@
         {{ $counter =  add $counter 1 }}
         {{ if $course.key_skills }}
             <li class="c-course-overview__courses__course">
-                <h3><a href="{{ $course.url }}/overview">{{ $course.name }}</a></h3>
+                <h3><a href="{{ $course.url }}overview">{{ $course.name }}</a></h3>
                 <ul>
                 {{ range $key_skill := $course.key_skills }}
                 <li class="c-course-overview__courses__course__skill">{{ $key_skill }}</li>
