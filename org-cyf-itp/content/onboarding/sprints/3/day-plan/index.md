@@ -22,12 +22,6 @@ time="115"
 name="Workshop: Interview Introductions"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interview-introductions/"
 time="30"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Submit your Step"
-src="module/onboarding/steps"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
