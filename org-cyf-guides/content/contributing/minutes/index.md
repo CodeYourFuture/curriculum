@@ -17,6 +17,40 @@ Attendees:
 
 ---
 
+## 2025-09-23
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel: Write up learning objectives for TV Show Project
+- [x] CJ: Write up PR guide for trainees
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [x] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Introducing Self Workshop
+
+Anna has [a draft](https://docs.google.com/document/d/1O8Or9adI90z4WqrbrlIlNVt3jnxqb8lvihgvNujx64w/edit) - will try to refine tonight and get merged tomorrow!
+
+#### PR Guide for trainees
+
+CJ has [a draft](https://github.com/cjyuan/cyf-notes/blob/main/pr-how-to.md) - looks ready to merge - talked through [where our guides live](https://github.com/CodeYourFuture/curriculum/tree/main/org-cyf-guides/content/reviewing).
+
+We'll transfer the [Codewars Progress Checker](https://cjyuan.github.io/Codewars-Progress-Checker/) into CodeYourFuture, and update the backlogs and success pages for ITP modules 2-4.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
 ## 2025-08-26
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer
