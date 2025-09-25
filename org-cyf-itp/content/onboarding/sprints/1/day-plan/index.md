@@ -48,9 +48,9 @@ time=50
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
-name="Study Group Development"
-src="module/onboarding/development"
-time=75
+name="Study Group"
+src="blocks/study-group"
+time=85
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pomodoro"
 src="module/onboarding/pomodoro"
@@ -60,10 +60,6 @@ src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Bikes for Refugees Project"
 src="https://github.com/CodeYourFuture/Module-Onboarding/issues/22"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time=0
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"

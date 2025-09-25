@@ -32,25 +32,14 @@ src="blocks/standup"
 time=15
 [[blocks]]
 name="Study Group"
-src="module/onboarding/development"
-time=60
+src="blocks/study-group"
+time=135
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Code Review"
 src="blocks/mentored-code-review"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time="60"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pomodoro"
 src="module/onboarding/pomodoro"
