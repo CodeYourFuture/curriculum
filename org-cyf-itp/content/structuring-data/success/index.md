@@ -35,15 +35,15 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Structuring and testing data | <YOUR_NAME>`
 1. On the issue, add:
-    - Evidence you have completed "[Intro to Python](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)".
+    - Evidence you have completed at least 60% of the [Codewars katas for this module](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/27).
     - Links to your _completed_ pull requests for each sprint:
         1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
-        1. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
-        1. "[Sprint 3 "Implement and Rewrite Tests" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
-        1. "[Sprint 3 "Practice TDD" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)".
+        2. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
+        3. "[Sprint 3 "Implement and Rewrite Tests" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
+        4. "[Sprint 3 "Practice TDD" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)".
     - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
     - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
-1. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
+2. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
 > A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
