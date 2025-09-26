@@ -1,25 +1,38 @@
 +++
-title="Study Group"
-emoji="🛗"
-tasks=["Resolve blockers in your coursework", "Express and resolve problems effectively by writing tickets and asking questions", "Give and receive code review", "Develop your personal portfolio", "Pair programme", "Evaluate your progress with peers and mentors"]
-time=60
+title = "Study Group"
+emoji = "🛗"
+tasks = [
+  "Get help with prep or backlog items you're not sure about.",
+]
+time = 60
 [build]
-  render = 'never'
-  list = 'local'
+  render = "never"
+  list = "local"
   publishResources = false
-
 +++
 
-## What are we doing now?
+## Trainees
 
-You're going to use this time to work through coursework. Your cohort will collectively self-organise to work through the coursework together in your own way. Sort yourselves into groups that work for you.
+This is time for you to get help with whatever you need help with.
 
-## Use this time wisely
+If you didn't understand something in the prep, ask about it.
 
-You will have study time in almost every class day. Don't waste it. Use it to:
+If you were struggling with a backlog exercise, get help with it.
 
-- work through the coursework
-- ask questions and get unblocked
-- give and receive code review
-- work on your portfolio
-- develop your own projects
+If you weren't quite sure of something in a workshop, discuss it.
+
+If you don't have any problems, keep working through the backlog until you need help.
+
+It can be useful to get into groups with others facing the same problem, or working on the same backlog item.
+
+## Volunteers
+
+Don't be scared to approach people and ask what they're working on - see if you can help them out, or stretch their understanding.
+
+If lots of people have the same problems, maybe you can put together a demonstration or a workshop to help them understand.
+
+If absolutely no one needs help, consider [reviewing some PRs](/prs-needing-review) using the process and guidelines in [the #cyf-code-review-team Slack channel](https://codeyourfuture.slack.com/archives/C07RZA0ERLN) canvas.
+
+## Breaks
+
+No one can work solidly forever! Make sure to take breaks when you need.

@@ -32,22 +32,11 @@ src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
 time=30
 [[blocks]]
 name="Study Group"
-src="module/onboarding/development"
-time=30
+src="blocks/study-group"
+time=120
 [[blocks.nested.blocks]]
 name="Optional structured activity: Code Review"
 src="blocks/mentored-code-review"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time=75
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"

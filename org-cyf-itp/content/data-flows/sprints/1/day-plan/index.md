@@ -21,19 +21,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="80"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Data-Flows/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-time="10"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time=75
+time="150"
 [[blocks]]
 name="Retrospective"
 src="blocks/retro"
