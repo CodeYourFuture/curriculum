@@ -28,6 +28,6 @@ Next up, we need to choose a timekeeper. The timekeeper is responsible for keepi
 - [ ] Announce the end of an activity and what happens next
 </details>
 
-Today you will kick off your first team project. At the end of the day, each person will give a two minute demo of something they have built, learned, or discovered today. Then we will wrap and go for a cup of tea together.
+Today you will kick off your first team project. Everyone will also give a demo about something they did before the Piscine. At the end of the day, we will wrap and people are welcome to stick around to socialise.
 
 But first, let's get to know each other. Stand up and find someone you don't know. Introduce yourself and tell them one thing you are looking forward to learning in the Piscine.
