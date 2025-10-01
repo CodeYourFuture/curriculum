@@ -16,4 +16,6 @@ Make sure you know:
 * What's expected of you this week.
 * How you should be working as a team.
 * How you'll be assessed.
+  * Which of your projects, demos, and interview you need to pass, and what it means to pass them.
+* When you're expected to show up in person or on calls.
 * How you'll hand in your projects.
