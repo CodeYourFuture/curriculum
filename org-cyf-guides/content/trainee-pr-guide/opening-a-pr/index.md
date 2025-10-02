@@ -31,16 +31,11 @@ means the title should have 5 components separated by a vertical bar character (
 - **`Cohort`**: In the form `year`-`course name`-`cohort starting month` (e.g., `25-ITP-Sep`)
 - **`FirstName LastName`**: 🙄
 - **`Sprint`**: `Sprint 1`, `Sprint 2`, ...
-<<<<<<< HEAD
-- **`Assignment Title`**: Project or exercise name, or the **assignment title** specified 
-  in the backlog.
-=======
 - **`Assignment Title`**:
   - Project's name
   - "Coursework" for generic coursework exercise
   - The **title** (if any) stated in the "How to Submit" section in the backlog corresponding to
     the exercise
->>>>>>> cbc2b572 (Add Trainee PR Guide)
 
 {{</note>}}
 
@@ -61,10 +56,6 @@ and treat the checklist as both your responsibility and a learning tool - ask fo
 unsure.
 
 {{<note type="note" title="In CYF Course">}}
-<<<<<<< HEAD
-Complete every item in the checklist, and mark each one as done by changing `- [ ]` to `- [x]` 
-in Markdown.
-=======
 Complete every task described in the checklist, and mark each one as done.
 
 To check a box in Markdown, change:
@@ -75,16 +66,11 @@ to
 ```
 - [x] My changes meet the requirements of the task
 ```
->>>>>>> cbc2b572 (Add Trainee PR Guide)
 {{</note>}}
 
 #### 2. Changelist
 
-<<<<<<< HEAD
-The Changelist section is a short, bullet-point summary of the key changes in your PR, 
-=======
 The **Changelist** section is a short, bullet-point summary of the key changes in your PR, 
->>>>>>> cbc2b572 (Add Trainee PR Guide)
 helping reviewers quickly understand what you did and why.
 
 {{<note type="note" title="In CYF Course">}}
@@ -93,11 +79,7 @@ Replace the placeholder text `Briefly explain your PR` by a brief description of
 
 #### 3. Questions
 
-<<<<<<< HEAD
-The Questions section lets you highlight parts of your work you’re unsure about, 
-=======
 The **Questions** section lets you highlight parts of your work you’re unsure about, 
->>>>>>> cbc2b572 (Add Trainee PR Guide)
 so reviewers can give you targeted feedback and help you learn.
 
 {{<note type="note" title="In CYF Course">}}
