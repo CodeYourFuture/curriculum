@@ -33,7 +33,7 @@ means the title should have 5 components separated by a vertical bar character (
 - **`Sprint`**: `Sprint 1`, `Sprint 2`, ...
 - **`Assignment Title`**:
   - Project's name
-  - "Coursework" for generic coursework exercise
+  - The name of the backlog issue is generally a good thing to use.
   - The **title** (if any) stated in the "How to Submit" section in the backlog corresponding to
     the exercise
 
