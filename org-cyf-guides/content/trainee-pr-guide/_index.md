@@ -10,7 +10,7 @@ menu=["everyone"]
 A **pull request**, or **PR**, is a way to share your code for review.
 In professional projects, PRs are used to suggest changes and then merge them into the main project.
 
-At CodeYourFuture, we use PRs mainly as a way for you to submit your work for review and feedback.
+At {{<our-name>}}, we use PRs mainly as a way for you to submit your work for review and feedback.
 Think of it like handing in an assignment - the PR is the place where you "submit" your code so 
 mentors and teammates can:
 - ✅ See what you changed (new code, fixes, or features)
