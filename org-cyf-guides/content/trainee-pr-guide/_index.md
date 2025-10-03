@@ -1,6 +1,6 @@
 +++
 title="Trainee PR Guide"
-description="What trainees should know about PR in CYF course"
+description="What trainees should know about PRs in {{<our-name>}} course"
 emoji="📝"
 menu=["everyone"]
 +++
