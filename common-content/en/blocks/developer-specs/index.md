@@ -2,6 +2,13 @@
 title="Using GitHub"
 emoji="🔍"
 time=60
+[tasks]
+  1="Identify the purpose of a repo by reading its README file."
+  2="Find the issues view, the pull request view, and the file tree view on any GitHub repo."
+  3="Make sense of an issue, pull request, and file tree view."
+  4="Create an issue and attach labels to it."
+  5="Discover hidden information available in the GitHub interface."
+  6="Bring up the search on a GitHub page."
 [build]
   render = 'never'
   list = 'local'
@@ -13,29 +20,17 @@ Welcome, everyone. This workshop is your first set of technical "glasses". You'r
 
 _Caution: Once you start seeing like a developer, you can't unsee it! You might find it harder to view interfaces as a regular user would - which is ironically who we design them for._
 
-## Learning Objectives
-<!--{{<objectives>}}-->
-- [ ] Identify the purpose of a repo by reading its README file.
-- [ ] Find the issues view, the pull request view, and the file tree view on any GitHub repo.
-- [ ] Make sense of an issue, pull request, and file tree view.
-- [ ] Create an issue and attach labels to it.
-- [ ] Discover hidden information available in the GitHub interface.
-- [ ] Bring up the search on a GitHub page.
-
-
-<!--{{</objectives>}}-->
-
 ## Requirements
 
 This workshop is designed to be completed on GitHub. You will need to have a GitHub account and access to the internet. Other than that it's for newbies!
 
 Before you start, make sure you can access [the repository we will use for this exercise](https://github.com/CodeYourFuture/github_issues_prs_practice).
 
-There are three activities. Split into groups of no more than 5 and set a timer so you don't lose track of time. Click the stopwatch times to start a countdown.
+There are three activities. Split into groups of no more than 5 and set a timer so you don't lose track of time. 
 
 
 > [!NOTE]
-> ## Exercise 1: Eat Me, Drink Me 📚 <!--{{<timer>}}10{{</timer>}}-->
+> ## Exercise 1: Eat Me, Drink Me 📚 (10 minutes)
 > The first thing you should always do is find and read the README
 > 
 > - Find the README file in this repository
@@ -44,7 +39,7 @@ There are three activities. Split into groups of no more than 5 and set a timer 
 Key takeaway: don't skip over text. Read it. 
 
 > [!NOTE]
-> ## Exercise 2: You've Got Issues 🔍 <!--{{<timer>}}20{{</timer>}}-->
+> ## Exercise 2: You've Got Issues 🔍 (20 minutes)
 >
 > All your coursework is assigned as issues, so you definitely need to understand them. 
 >
@@ -56,7 +51,7 @@ Key takeaway: don't skip over text. Read it.
 Popcorn round your group and share one key takeaway
 
 > [!NOTE]
-> ## Exercise 3: Pull the Other One 🕵️ <!--{{<timer>}}20{{</timer>}}-->
+> ## Exercise 3: Pull the Other One 🕵️ (20 minutes)
 >
 > Time to explore how code changes are tracked and discussed. You're going to need to slow way way down here. Instead of jumping around, skipping over all the details, you're going to read this page view from top to bottom. Really look at it. Ask each other: what does this button mean? Where does this link go? 
 >
@@ -70,7 +65,7 @@ Popcorn round your group and share one key takeaway
 
 Write your key takeaway down in your notebook. 
 
-## Solo Challenge: Hidden Powers 🔮 <!--{{<timer>}}5{{</timer>}}-->
+## Solo Challenge: Hidden Powers 🔮 (5 minutes)
 
 Take 5 minutes to click around and try things:
 
