@@ -21,7 +21,7 @@ Here is a summary of labels to be added to a PR:
 
 - `Reviewed`
   - Added by a **mentor** once the PR has been reviewed and the trainee can start working 
-    on feedback
+    on feedback - this indicates there is something more for the trainee to do.
   - Replaces `Needs review` and `Review in progress`
 
 - `Complete`
