@@ -25,6 +25,6 @@ Here is a summary of labels to be added to a PR:
   - Replaces `Needs review` and `Review in progress`
 
 - `Complete`
-  - Added by a **mentor** when the PR has been approved
+  - Added by a **mentor** when the PR has been approved and no more work is required on this PR
 
 
