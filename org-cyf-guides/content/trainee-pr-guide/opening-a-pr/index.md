@@ -22,12 +22,12 @@ For example,
 means the title should have 5 components separated by a vertical bar character (`|`)
 
 - **`Region`**: One of 
-  - `Cape Town`, `South Africa`, `ZA`
-  - `Glasgow`, `Scotland`
+  - `Cape Town`
+  - `Glasgow`
   - `London`
-  - `North West`, `NW`, `Manchester`
+  - `Manchester`
   - `Sheffield`
-  - `West Midlands`, `WM`, `Birminghams`
+  - `Birmingham`
 - **`Cohort`**: In the form `year`-`course name`-`cohort starting month` (e.g., `25-ITP-Sep`)
 - **`FirstName LastName`**: 🙄
 - **`Sprint`**: `Sprint 1`, `Sprint 2`, ...
