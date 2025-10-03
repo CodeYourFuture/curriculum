@@ -1,5 +1,5 @@
 +++
-title = "Opening PR"
+title = "Opening a PR"
 description="How to submit your work the right way"
 emoji = "🔀"
 weight = 2
