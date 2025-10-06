@@ -1,6 +1,6 @@
 +++
 title = "Success"
-description = "How do we know if we have completed this module?"
+description = "What does it mean to pass the Piscine?"
 layout = "success"
 emoji= "✅"
 menu_level = ["module"]
@@ -8,11 +8,16 @@ menu = ["assessment"]
 weight = 11
 objectives = [[
   "Attend every session.",
-  "Complete one solo and two group projects.",
-  "Give at least four demos of your projects.",
-  "Ask for help on Slack and in class.",
+  "Complete one solo and two group projects on time and according to their rubrics.",
+  "Pass at least one demo (which means getting at least 5/6 against the rubric for that demo). You will have up to 4 opportunities to have your demos assessed.",
   "Pass a technical interview.",
 ]]
 +++
 
-The learning objectives are listed per sprint. You will know you have completed this module when you have met all the objectives for each sprint and met the conditions on this page.
+In the Piscine we are testing your understanding and ability to deliver. You must actively participate in the Piscine, and work to solve whatever blockers come up on the way.
+
+If you pass the Piscine, you're ready for the Software Development Course, and we'll invite you to join the next one.
+
+If you fail the Piscine, that is not the end of the world! We will give you useful feedback, and have a 1:1 conversation with you about what the right next steps are for you. We will work it out together.
+
+To pass the Piscine you must:
