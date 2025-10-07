@@ -130,8 +130,8 @@ You do **not** need to complete a coursework exercise before making a pull reque
 
 When it's not possible to link to a PR, and you want to share your code to get help, please prepare a what is called a "Minimum Reproducible Example".
 
-This is when you prepare the minimum working code that shows exactly what the problem is, without any extras.
-A volunteer helping you should be able to run and test a minimum reproducible example without needing to do add anything to the code you share.
+This is when you prepare the minimum working code that shows exactly what the problem is.
+A volunteer helping you should be able to run and test a minimum reproducible example without needing to change the code you share.
 
 {{<note type="remember" title="Why?" >}}
 Preparing a minimum reproducible example makes it easier for someone helping you to pinpoint exactly what the problem is.
