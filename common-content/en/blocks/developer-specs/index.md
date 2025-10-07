@@ -29,43 +29,47 @@ Before you start, make sure you can access [the repository we will use for this 
 There are three activities. Split into groups of no more than 5 and set a timer so you don't lose track of time. 
 
 
-> [!NOTE]
-> ## Exercise 1: Eat Me, Drink Me 📚 (10 minutes)
-> The first thing you should always do is find and read the README
-> 
-> - Find the README file in this repository
-> - What's its purpose? How can you tell?
+{{<note type="exercise" title="Exercise 1: Eat Me, Drink Me 📚 (10 minutes)">}}
+
+The first thing you should always do is find and read the README
+
+- Find the README file in this repository
+- What's its purpose? How can you tell?
 
 Key takeaway: don't skip over text. Read it. 
 
-> [!NOTE]
-> ## Exercise 2: You've Got Issues 🔍 (20 minutes)
->
-> All your coursework is assigned as issues, so you definitely need to understand them. 
->
-> - Can you find where issues are listed?
-> - Look at the labels - what story do they tell about how work is organized? Hover over them - what else can you find out?
-> - Create an issue yourself. What options do you discover? You can look at [the deployed site](https://codeyourfuture.github.io/github_issues_prs_practice/) and the `requirements.md` file in the repository to help you identify what's wrong with the page.
-> - Challenge: Can you find out who decides what labels mean?
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 2: You've Got Issues 🔍 (20 minutes)">}}
+
+All your coursework is assigned as issues, so you definitely need to understand them. 
+
+- Can you find where issues are listed?
+- Look at the labels - what story do they tell about how work is organized? Hover over them - what else can you find out?
+- Create an issue yourself. What options do you discover? You can look at [the deployed site](https://codeyourfuture.github.io/github_issues_prs_practice/) and the `requirements.md` file in the repository to help you identify what's wrong with the page.
+- Challenge: Can you find out who decides what labels mean?
 
 Popcorn round your group and share one key takeaway
 
-> [!NOTE]
-> ## Exercise 3: Pull the Other One 🕵️ (20 minutes)
->
-> Time to explore how code changes are tracked and discussed. You're going to need to slow way way down here. Instead of jumping around, skipping over all the details, you're going to read this page view from top to bottom. Really look at it. Ask each other: what does this button mean? Where does this link go? 
->
-> - Where can you see all the pull requests on this repo?
-> - Find a pull request (PR) and "step through" the interface reading it line by line.
-> - What's the story being told in the PR?
-> - Can you piece together what changed and why?
-> - Where can you find the file changes in this PR?
-> - How can you filter the changes in the file view?
-> - Where is the conversation happening?
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 3: Pull the Other One 🕵️ (20 minutes)">}}
+
+Time to explore how code changes are tracked and discussed. You're going to need to slow way way down here. Instead of jumping around, skipping over all the details, you're going to read this page view from top to bottom. Really look at it. Ask each other: what does this button mean? Where does this link go? 
+
+- Where can you see all the pull requests on this repo?
+- Find a pull request (PR) and "step through" the interface reading it line by line.
+- What's the story being told in the PR?
+- Can you piece together what changed and why?
+- Where can you find the file changes in this PR?
+- How can you filter the changes in the file view?
+- Where is the conversation happening?
 
 Write your key takeaway down in your notebook. 
 
-## Solo Challenge: Hidden Powers 🔮 (5 minutes)
+{{</note>}}
+
+{{<note type="exercise" title="Solo Challenge: Hidden Powers 🔮 (5 minutes)">}}
 
 Take 5 minutes to click around and try things:
 
@@ -75,6 +79,8 @@ Take 5 minutes to click around and try things:
 - How could you find a word on this page instantly?
 
 Share your most surprising discovery with the group as you wrap up
+
+{{</note>}}
 
 Remember: There's no "correct" path through this workshop. The goal is to develop your own way of exploring and understanding interfaces. 
 
