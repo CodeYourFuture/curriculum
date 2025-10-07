@@ -40,10 +40,10 @@ Here are three sample solutions we will compare:
 
 ```js {linenos=table}
 function duplicateEncode(mixedCaseWord){
-  const lowerCaseWord = mixedCaseWord.toLowerCase();
+  const lowerCaseChars = mixedCaseWord.toLowerCase().split("");
   let result = ""
-  for (const char of lowerCaseWord) {
-    if (lowerCaseWord.indexOf(char) === lowerCaseWord.lastIndexOf(char)) {
+  for (const char of lowerCaseChars) {
+    if (lowerCaseChars.indexOf(char) === lowerCaseChars.lastIndexOf(char)) {
       result += "1";
     } else {
       result += "*";
@@ -55,10 +55,11 @@ function duplicateEncode(mixedCaseWord){
 
 ```js {linenos=table}
 function duplicateEncode(word){
+  const chars = word.split("");
   let result = ""
-  for (const char of word) {
+  for (const char of chars) {
     const charInCases = [char.toLowerCase(), char.toUpperCase()];
-    if (word.findIndex((c) => charInCases.includes(c)) === word.findLastIndex(charInCases.includes(c))) {
+    if (chars.findIndex((c) => charInCases.includes(c)) === chars.findLastIndex((c) => charInCases.includes(c))) {
       result += "1";
     } else {
       result += "*";
@@ -91,11 +92,12 @@ Approaches 2 and 3 are quite different. Let's analyse them each for time complex
 
 #### Approach 2
 
-* Approach 2 has a `for`-loop over each character in the word (line 3). If we say the size of the word is `n`, a `for`-loop on its own is `O(n)`.
-* Line 4 calls `char.toLowerCase()` - this is an `O(1)` operation - changing the case of one character takes constant time. It also calls `char.toUpperCase()` - also an `O(1)` operation. Two `O(1)` operations are still `O(1)`.
-* Line 5 calls `word.findIndex` - this is an `O(n)` operation - it may have to look through the whole string, comparing every character to see if it's the one we're looking for. Because we have an `O(n)` operation (the `word.indexOf` call) inside an `O(n)` operation (the for loop), this makes the function at least `O(n^2)`.
-* Line 5 also calls `word.lastIndexOf` - this is _also_ an `O(n)` operation for the same reason. But it doesn't change the complexity of our function - doing an `O(n)` operation _twice_ is still `O(n)` - we ignore constant factors. This is different from doing an `O(n)` operation inside a for loop (where do we do an `O(n)` operation _for each `n`_ - making it `O(n^2)`).
-* Line 5 _also_ calls `charInCases.includes` - this is generally an `O(n)` operation, but because we know the array has a constant size (it always contains exactly two elements, regardless of the input size), in this instance it's an `O(1)` operation. It's the same as if we'd written `word.findIndex((c) => c === lowerCaseChar || c === upperCaseChar)`. Remember, the `n` in `O(n)` refers to the input size, and here the input size is a constant.
+* Approach 2 splits `word` into an array (line 2). If we say the size of the word is `n`, splitting a string of that length is `O(n)`.
+* Line 4 has a `for`-loop over each character in the word. A `for`-loop on its own is `O(n)`.
+* Line 5 calls `char.toLowerCase()` - this is an `O(1)` operation - changing the case of one character takes constant time. It also calls `char.toUpperCase()` - also an `O(1)` operation. Two `O(1)` operations are still `O(1)`.
+* Line 6 calls `chars.findIndex` - this is an `O(n)` operation - it may have to look through the whole string, comparing every character to see if it's the one we're looking for. Because we have an `O(n)` operation (the `chars.findIndex` call) inside an `O(n)` operation (the for loop), this makes the function at least `O(n^2)`.
+* Line 6 also calls `chars.lastIndexOf` - this is _also_ an `O(n)` operation for the same reason. But it doesn't change the complexity of our function - doing an `O(n)` operation _twice_ is still `O(n)` - we ignore constant factors. This is different from doing an `O(n)` operation inside a for loop (where do we do an `O(n)` operation _for each `n`_ - making it `O(n^2)`).
+* Line 6 _also_ calls `charInCases.includes` - this is generally an `O(n)` operation, but because we know the array has a constant size (it always contains exactly two elements, regardless of the input size), in this instance it's an `O(1)` operation. It's the same as if we'd written `chars.findIndex((c) => c === lowerCaseChar || c === upperCaseChar)`. Remember, the `n` in `O(n)` refers to the input size, and here the input size is a constant - it doesn't depend on `n`.
 
 Because the worst thing we've seen is `O(n^2)` (an `O(n)` operation inside a `for` loop), approach 2 takes `O(n^2)` time.
 
