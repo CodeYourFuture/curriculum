@@ -126,6 +126,32 @@ You do **not** need to complete a coursework exercise before making a pull reque
 
 {{</note>}}
 
+### Share a minimum reproducible example
+
+When it's not possible to link to a PR, and you want to share your code to get help, please prepare a what is called a "Minimum Reproducible Example".
+
+This is when you prepare the minimum working code that shows exactly what the problem is.
+A volunteer helping you should be able to run and test a minimum reproducible example without needing to change the code you share.
+
+{{<note type="remember" title="Why?" >}}
+Preparing a minimum reproducible example makes it easier for someone helping you to pinpoint exactly what the problem is.
+You will get much better help if you do this, and you will learn to solve your own problems.
+Also, it is considered a basic sign of respect for those who are volunteering their time to help you.
+{{</note>}}
+
+How to make a Minimum Reproducible Example:
+1. Follow the guidance in the article
+["How to create a Minimal, Reproducible Example"](https://stackoverflow.com/help/minimal-reproducible-example) on StackOverflow.
+1. Edit your code down and check that it really doesn't have any code that is irrelevant to the problem
+1. You can use one of these services to quickly deploy a minimum example:
+	* [codepen.io](https://codepen.io/pen/)
+	* [repl.it](https://repl.it/)
+	* [codesandbox](https://codesandbox.io/)
+	* [jsfiddle](https://jsfiddle.net/)
+	* [glitch](https://glitch.com/)
+
+After this is ready you can share a link to your example, or follow the advice below to share the code directly in slack.
+
 ### Slack
 
 Sometimes it's not convenient to share a GitHub PR, so code can be shared on Slack directly. Here's some rules for sharing code on Slack:
@@ -155,7 +181,6 @@ Before asking a question check in with yourself and make sure you have done the 
 {{<note type="exercise" title="I have checked..." >}}
 
 - [ ] Are you monitoring your questions and replying to people giving their time to help you?
-- [ ] Have you been asked for a [Minimum Reproducible Example](https://docs.codeyourfuture.io/trainees/guides/common-responses/create-a-minimal-reproducible-example)?
 - [ ] Have you posted an easy to understand answer to your questions that includes everything you learnt
 
 {{</note>}}
