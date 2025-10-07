@@ -40,10 +40,9 @@ Here are three sample solutions we will compare:
 
 ```js {linenos=table}
 function duplicateEncode(mixedCaseWord){
-  const lowerCaseChars = mixedCaseWord.toLowerCase().split("");
   let result = ""
   for (const char of lowerCaseChars) {
-    if (lowerCaseChars.indexOf(char) === lowerCaseChars.lastIndexOf(char)) {
+    if (mixedCaseWord.indexOf(char) === mixedCaseWord.lastIndexOf(char)) {
       result += "1";
     } else {
       result += "*";
