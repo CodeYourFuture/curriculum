@@ -144,12 +144,13 @@ How to make a Minimum Reproducible Example:
 ["How to create a Minimal, Reproducible Example"](https://stackoverflow.com/help/minimal-reproducible-example) on StackOverflow.
 1. Edit your code down and check that it really doesn't have any code that is irrelevant to the problem
 1. You can use one of these services to quickly deploy a minimum example:
-  * [codepen.io](https://codepen.io/pen/)
-  * [repl.it](https://repl.it/)
-  * [codesandbox](https://codesandbox.io/)
-  * [jsfiddle](https://jsfiddle.net/)
-  * [glitch](https://glitch.com/)
-1. Share a link to your example, or follow the advice below to share the code directly in slack
+	* [codepen.io](https://codepen.io/pen/)
+	* [repl.it](https://repl.it/)
+	* [codesandbox](https://codesandbox.io/)
+	* [jsfiddle](https://jsfiddle.net/)
+	* [glitch](https://glitch.com/)
+
+After this is ready you can share a link to your example, or follow the advice below to share the code directly in slack.
 
 ### Slack
 
