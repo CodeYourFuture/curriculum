@@ -38,9 +38,6 @@ then go ahead and make a TOC */}}
         {{ if $override }}
           {{ $override }}
         {{ else }}
-          {{ with .Page.Params.emoji }}
-            {{ . }}
-          {{ end }}
            {{ if and (eq .Page.Params.layout "prep") (.Page.Params.blocks) }}
             <time-total class="c-page-header__time"></time-total>
       {{ end }}
