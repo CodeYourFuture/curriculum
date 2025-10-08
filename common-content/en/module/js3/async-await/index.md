@@ -2,7 +2,6 @@
 title = 'async/await'
 
 time = 30
-emoji= '🍬'
 [objectives]
     1='Define syntactic sugar'
     2='Write a function using async/await'

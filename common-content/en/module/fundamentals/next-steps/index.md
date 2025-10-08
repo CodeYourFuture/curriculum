@@ -1,7 +1,6 @@
 +++
 title = 'Next steps'
 time="30"
-emoji= '👣'
 [objectives]
     1='Figure out what we need to do next in the sprint'
     2='Locate the prep, backlog, day plan, and success views on the curriculum'

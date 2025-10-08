@@ -1,6 +1,5 @@
 +++
 title="Games, rules, logic, and strategy"
-emoji="🎲"
 time=25
 hide_from_overview=true
 [build]

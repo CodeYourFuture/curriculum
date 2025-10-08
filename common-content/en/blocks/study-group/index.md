@@ -1,6 +1,5 @@
 +++
 title = "Study Group"
-emoji = "🛗"
 tasks = [
   "Get help with prep or backlog items you're not sure about.",
 ]

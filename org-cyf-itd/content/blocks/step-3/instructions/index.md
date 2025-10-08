@@ -1,7 +1,6 @@
 +++
 title ="Step 3: What to do"
 description= "Working with Google Sheets"
-emoji= "🤖"
 time= 120
 [build]
   render = 'never'

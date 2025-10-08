@@ -2,7 +2,6 @@
 title = 'Query Parameters'
 
 time = 20
-emoji= '❓'
 [objectives]
     1='Identify a query parameter in a URL'
     2='Write code that responds to a query parameter'

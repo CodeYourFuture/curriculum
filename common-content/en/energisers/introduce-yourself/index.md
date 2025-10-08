@@ -1,6 +1,5 @@
 +++ 
 title=" Introduce Yourself!" 
-emoji="🎙️"
 time=20 
 tasks=["Introduce yourself in 30 seconds", "Learn two key facts about each other"]
 [build] 

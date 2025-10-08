@@ -2,7 +2,6 @@
 title = 'Fetching data'
 
 time = 20
-emoji= '🐕'
 [objectives]
     1='Define a client side Web API'
     2='Define a server side API'

@@ -1,6 +1,5 @@
 +++
 title="Coursework"
-emoji="📚"
 time= 120
 vocabulary="Coursework"
 [build]

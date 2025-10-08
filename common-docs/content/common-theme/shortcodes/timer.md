@@ -1,7 +1,6 @@
 +++
 title="Timer"
 description="A countdown timer"
-emoji="⏳"
 menu=["shortcodes"]
 +++
 

@@ -1,7 +1,6 @@
 +++
 title = "Binary Information Theory"
 time = 10
-emoji= "🐀"
 [build]
 render = 'never'
 list = 'local'

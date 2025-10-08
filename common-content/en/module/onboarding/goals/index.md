@@ -1,7 +1,6 @@
 +++
 title="🎯 Goals"
 time=10
-emoji="🎯"
 hide_from_overview=true
 objectives = [
   "List the core goals of the module",

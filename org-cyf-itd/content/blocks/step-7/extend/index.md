@@ -1,7 +1,6 @@
 +++
 title ="Step 7: Extend Your Skills"
 description= "Explore and develop professional English speaking and writing"
-emoji= "💪🏾"
 time= 5
 [build]
   render = 'never'

@@ -2,7 +2,6 @@
 title = 'Prep'
 description = 'Lays out the prep / textbook view for a sprint'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]

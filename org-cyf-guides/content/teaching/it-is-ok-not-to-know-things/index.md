@@ -1,6 +1,5 @@
 +++
 title = "It's OK not to know things"
-emoji = "🧠"
 weight = 2
 +++
 

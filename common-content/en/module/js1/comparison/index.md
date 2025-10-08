@@ -2,7 +2,6 @@
 title = 'Comparing current and target output'
 
 time = 40
-emoji= '⚖️'
 [objectives]
     1='Evaluate an expression that uses a comparison operator'
     2='Explain when to use the === operator in a program'

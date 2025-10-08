@@ -2,7 +2,6 @@
 title = 'Zero'
 description = 'Join the CodeYourFuture Intro to Digital Slack'
 layout = 'prep'
-emoji= '🗨'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 1

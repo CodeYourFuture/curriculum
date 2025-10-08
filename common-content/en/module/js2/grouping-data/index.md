@@ -2,7 +2,6 @@
 title = 'Grouping data'
 
 time = 15
-emoji= '💾'
 [objectives]
     1='Explain why using multiple variable declarations for related data is problematic'
 [build]

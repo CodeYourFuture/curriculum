@@ -2,7 +2,6 @@
 title = 'What Are Terraform Modules'
 
 time = 60
-emoji= '🧩'
 [objectives]
     1='Explain what Terraform modules are'
     2='Write a Terraform module that creates an S3 bucket'

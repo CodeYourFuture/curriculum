@@ -2,7 +2,6 @@
 title = 'Backlog'
 description = 'A backlog block displays issues from a linked repo.'
 layout = 'backlog'
-emoji= '🥞'
 menu_level = ['sprint']
 weight = 2
 backlog= 'Module-Template'

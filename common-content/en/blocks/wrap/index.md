@@ -1,6 +1,5 @@
 +++
 title="Wrap"
-emoji="🎉"
 time=20
 [build]
   render = 'never'

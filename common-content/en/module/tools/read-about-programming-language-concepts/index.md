@@ -1,7 +1,6 @@
 +++
 title = "Programming language concepts"
 time = 120
-emoji = "📖"
 objectives = [
   "Define the term variable.",
   "Describe how a variable relates to a memory location.",

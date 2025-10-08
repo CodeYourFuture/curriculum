@@ -3,7 +3,6 @@ title = 'Backlog'
 
 time = 20
 vocabulary=["Blockers"]
-emoji= '📝'
 [objectives]
 1='Define the backlog'
 2='Explain how to use the sprint backlog'

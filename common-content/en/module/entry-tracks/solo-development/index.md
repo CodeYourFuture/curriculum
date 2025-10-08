@@ -1,6 +1,5 @@
 +++
 title="Solo Development"
-emoji="🧑🏿‍🔧"
 time=120
 objectives = [
     "Create a strategy for implementing an application based on a set of user stories.",

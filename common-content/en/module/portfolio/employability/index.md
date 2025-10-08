@@ -2,7 +2,6 @@
 title = 'Employability'
 
 time = 60
-emoji= '🪞'
 [objectives]
     1='Improve a nominated metric of employability'
     2='Undergo a mock interview'

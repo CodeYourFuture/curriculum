@@ -1,7 +1,6 @@
 +++
 title ="Step 5: What to do"
 description= "Deploying a webpage on GitHub Pages"
-emoji= "🤖"
 time= 300
 [build]
   render = 'never'

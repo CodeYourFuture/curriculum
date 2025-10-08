@@ -1,6 +1,5 @@
 +++
 title="Coding 101"
-emoji="💻"
 [build]
   render = 'never'
   list = 'local'

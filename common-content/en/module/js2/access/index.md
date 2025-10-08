@@ -2,7 +2,6 @@
 title = 'Accessing properties'
 
 time = 15
-emoji= '🚪'
 [objectives]
     1='Access object property values with dot notation'
     2='Define the term "literal"'

@@ -2,7 +2,6 @@
 title = 'Calculating the remaining characters'
 
 time = 10
-emoji= '🧮'
 hide_from_overview = true
 [objectives]
     1='Access properties representing HTML attributes'

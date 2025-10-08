@@ -1,7 +1,6 @@
 +++
 title = "Fear and logic"
 time = 15
-emoji= "🗿"
 [objectives]
     1="Define and explain Chesterton's Fence"
 +++

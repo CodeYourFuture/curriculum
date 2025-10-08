@@ -1,6 +1,5 @@
 +++
 title="Day plan"
-emoji="📅"
 time=5
 [objectives]
     1="Describe how the day plan works"

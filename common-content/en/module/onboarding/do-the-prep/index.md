@@ -1,6 +1,5 @@
 +++
 title="Do the Prep"
-emoji="🧠"
 time=5
 hide_from_overview="true"
 [build]

@@ -1,7 +1,6 @@
 +++
 title = "Abduction"
 time = 30
-emoji = "🔎"
 [build]
 render = 'never'
 list = 'local'

@@ -1,7 +1,6 @@
 +++
 title = 'Development process'
 time ="10"
-emoji= '🧰'
 hide_from_overview = true
 [build]
   render = 'never'

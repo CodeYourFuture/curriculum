@@ -1,7 +1,6 @@
 +++
 title="PD block"
 description="Feature a single Professional Development block by linking to a page on the external PD syllabus website"
-emoji="🧑🏾"
 menu=["blocktypes"]
 [[blocks]]
 name="PD block"

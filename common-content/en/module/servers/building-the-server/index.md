@@ -2,7 +2,6 @@
 title = 'Building the server'
 
 time = 30
-emoji= '🏗️'
 [objectives]
     1='Import the Express package in a file'
 [build]

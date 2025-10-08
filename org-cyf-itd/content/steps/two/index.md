@@ -2,7 +2,6 @@
 title = 'Two'
 description = 'Learn how to use AI appropriately'
 layout = 'prep'
-emoji= '🤖'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 3

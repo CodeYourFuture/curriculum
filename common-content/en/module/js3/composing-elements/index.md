@@ -2,7 +2,6 @@
 title = 'Composing elements'
 
 time = 20
-emoji= '🧱'
 [objectives]
     1='Compose UI elements to some specification'
     2='Append DOM elements to other nodes in the DOM tree'

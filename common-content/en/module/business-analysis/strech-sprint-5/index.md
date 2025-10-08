@@ -2,7 +2,6 @@
 title = "Stretch: Retrospective and Roadmap"
 
 time = 120
-emoji = "🤖"
 objectives = [
     "Create a retrospective board",
     "Build a roadmap for a product"

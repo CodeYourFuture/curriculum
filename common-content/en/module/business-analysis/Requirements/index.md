@@ -2,7 +2,6 @@
 title = "Requirements"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Write different types of requirements (functional, non-functional/quality, constraint)"
 ]

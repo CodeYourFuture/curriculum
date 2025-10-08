@@ -1,7 +1,6 @@
 +++
 title ="Step 5: Extend Your Skills"
 description= "Deploy your personal webpage on GitHub Pages"
-emoji= "🤖"
 time= 60
 [build]
   render = 'never'

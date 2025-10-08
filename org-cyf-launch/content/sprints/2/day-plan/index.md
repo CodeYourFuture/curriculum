@@ -2,7 +2,6 @@
 title = 'Day Plan'
 description='Your CI/CD codebase is ready for features'
 layout = 'day-plan'
-emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]

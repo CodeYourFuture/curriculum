@@ -1,7 +1,6 @@
 +++
 title = "Workshop: Process Spelunking"
 time = 90
-emoji= "📖"
 objectives = [
     "Find the PID of a process, using `ps`.",
     "Define a file descriptor.",

@@ -2,7 +2,6 @@
 title = 'Success'
 description = 'How do we know if we have completed day one successfully?'
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 weight = 11
 objectives = [[

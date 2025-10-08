@@ -2,7 +2,6 @@
 title = 'Five'
 description="Deploying a webpage on GitHub Pages"
 layout = 'prep'
-emoji= '🏠'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 6

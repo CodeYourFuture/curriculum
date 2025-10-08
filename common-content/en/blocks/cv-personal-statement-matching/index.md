@@ -2,7 +2,6 @@
 title = "CV Personal Statement Matching"
 description = "Test how personal your personal statement is"
 time = 30
-emoji= "📁"
 objectives = [
     "Identify what makes a CV personal statement personalised.",
     "Improve the personalisation of your CV personal statement."

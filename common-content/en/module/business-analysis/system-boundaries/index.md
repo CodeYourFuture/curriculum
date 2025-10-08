@@ -2,7 +2,6 @@
 title = "System boundaries"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Define the boundaries of the solution",
     "Distinguish between in-scope and out-of-scope items."

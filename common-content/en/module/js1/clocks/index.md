@@ -2,7 +2,6 @@
 title = '12 vs 24 hour clock'
 
 time = 10
-emoji= '🕛'
 hide_from_overview = true
 [objectives]
  1='Identify a pattern between a set of inputs and outputs produced by a given function'

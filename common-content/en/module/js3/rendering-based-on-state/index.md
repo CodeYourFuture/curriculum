@@ -2,7 +2,6 @@
 title = 'Rendering based on state'
 
 time = 30
-emoji= '🎱'
 [objectives]
     1='Filter films based on search terms'
     2='Render a filtered list'

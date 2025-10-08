@@ -2,7 +2,6 @@
 title = "Identifying common functionality"
 headless = true
 time = 30
-emoji= "🔎"
 objectives = [
     "Identify and explain the risks and costs of duplicate code.",
     "Identify which code is equivalent, equivalent with parameters, or unique.",

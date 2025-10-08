@@ -2,7 +2,6 @@
 title = 'Day Plan'
 description="Last day to work together in person"
 layout = 'day-plan'
-emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]

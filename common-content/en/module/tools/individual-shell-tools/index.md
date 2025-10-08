@@ -1,7 +1,6 @@
 +++
 title = "Shell tools"
 time = 30
-emoji = "💻"
 objectives = [
   "Identify which of {`cat`, `ls`, `wc`, `grep`, `sed`, `awk`} will be useful to solve a given problem.",
 ]

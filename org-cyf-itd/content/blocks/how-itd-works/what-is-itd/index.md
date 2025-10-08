@@ -1,7 +1,6 @@
 +++
 title="How ITD works"
 description="A brief description of ITD"
-emoji="🗺️"
 time=5
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "Limitations and trade-offs"
-emoji = "⚖️"
 time = 10
 hide_from_overview = true
 [build]

@@ -1,7 +1,6 @@
 +++
 title = "Worked example: Duplicate Encoder"
 time = 90
-emoji = "🧰"
 [build]
   render = "never"
   list = "local"

@@ -2,7 +2,6 @@
 title = "Agile and others"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Explain the differences between agile and scrum",
     "Describe how sprints and iterations are different"

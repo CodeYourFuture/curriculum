@@ -1,7 +1,6 @@
 +++
 title ="Step 6: Extend Your Skills"
 description= "Optionally add responsive design for smaller screens"
-emoji= "👀"
 time=5
 [build]
   render = 'never'

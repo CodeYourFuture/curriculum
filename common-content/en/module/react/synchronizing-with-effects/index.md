@@ -2,7 +2,6 @@
 title = "Synchronising with effects"
 
 time = 40
-emoji= '🤹🏼'
 [objectives]
     1='Define the purpose of the useEffect hook in React'
     2='Describe the difference between effects and events in React'

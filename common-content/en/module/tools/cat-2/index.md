@@ -1,7 +1,6 @@
 +++
 title = "More cat"
 time = 10
-emoji = "💻"
 hide_from_overview = true
 objectives = [
   "Show the contents of a file, including line numbers, with `cat`.",

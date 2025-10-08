@@ -2,7 +2,6 @@
 title = "User research"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Define document archaeology",
     "Compare basic techniques for data analysis (e.g., survey results, sales figures) as a means to identify potential business gaps or areas for improvement.",

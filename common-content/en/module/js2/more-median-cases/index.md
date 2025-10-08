@@ -2,7 +2,6 @@
 title = 'Implementing all the cases'
 
 time = 15
-emoji= '📈'
 hide_from_overview = true
 [objectives]
     1='Translate a requirement into a failing test'
