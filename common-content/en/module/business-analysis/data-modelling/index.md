@@ -2,7 +2,6 @@
 title = "Data modelling"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Create a conceptual data model",
     "Apply the relevant notations including ERD’s diagrams.",

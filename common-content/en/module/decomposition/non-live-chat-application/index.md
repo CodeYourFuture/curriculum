@@ -2,7 +2,6 @@
 title = "Making a non-live chat application"
 headless = true
 time = 60
-emoji= "🚧"
 objectives = [
     "Write and run a frontend and backend",
     "Store data passed from a user into a backend",

@@ -1,6 +1,5 @@
 +++
 title="Evaluate"
-emoji="✏️"
 time= 60
 [tasks]
     1="Evaluate your current progress against previous modules"

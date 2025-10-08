@@ -2,7 +2,6 @@
 title = 'Project time'
 
 time = 60
-emoji= '🛠️'
 [objectives]
     1='Work on your project'
 [build]

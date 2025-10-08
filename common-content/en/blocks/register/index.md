@@ -1,6 +1,5 @@
 +++
 title="Register"
-emoji="✍🏽"
 time=5
 hide_from_overview=true
 [build]

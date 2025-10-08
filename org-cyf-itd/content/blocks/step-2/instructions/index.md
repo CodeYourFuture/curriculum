@@ -1,7 +1,6 @@
 +++
 title ="Step 2: What to do"
 description= "Learn how to use AI appropriately"
-emoji= "🤖"
 time= 90
 [build]
   render = 'never'

@@ -2,7 +2,6 @@
 title = "Prep"
 description = "Mental models for logical reasoning"
 layout = "prep"
-emoji = "🧑🏾‍💻"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]

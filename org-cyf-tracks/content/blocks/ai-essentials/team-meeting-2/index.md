@@ -1,7 +1,6 @@
 +++
 title="Team Meeting"
 time=10
-emoji="🧑🏾‍🤝‍🧑🏾"
 hide_from_overview=true
 tasks = [
   "Introduce yourselves",

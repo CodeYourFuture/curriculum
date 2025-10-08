@@ -3,7 +3,6 @@ title = "Comparing JavaScript and Python"
 headless = true
 time = 40
 facilitation = false
-emoji= "📖"
 objectives = [
     "Identify and explain equivalences between JavaScript and Python",
     "Compare and contrast differences between JavaScript and Python",

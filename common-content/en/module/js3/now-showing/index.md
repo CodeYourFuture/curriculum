@@ -2,7 +2,6 @@
 title = 'Cinema listings'
 
 time = 20
-emoji= '📽️'
 hide_from_overview = true
 [objectives]
     1='Define an acceptance criterion for building a web page'

@@ -2,7 +2,6 @@
 title = 'References'
 
 time = 20
-emoji= '🏤'
 [objectives]
     1='Define reference'
     2='Describe some effects of variables being assigned the same array reference'

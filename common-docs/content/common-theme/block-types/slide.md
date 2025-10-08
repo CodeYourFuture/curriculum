@@ -1,7 +1,6 @@
 +++
 title="Slide"
 description="Feature a single large image with caption"
-emoji="🖼️"
 menu=["blocktypes"]
 [[blocks]]
 name="Slide Example"

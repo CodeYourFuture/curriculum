@@ -1,7 +1,6 @@
 +++
 title="Virtual class"
 description="How to run effective classes online."
-emoji="📷"
 menu="learners"
 +++
 

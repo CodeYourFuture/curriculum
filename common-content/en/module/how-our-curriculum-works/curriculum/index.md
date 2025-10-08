@@ -2,7 +2,6 @@
 title = 'Curriculum'
 time = 15
 vocabulary=["Blockers"]
-emoji= '🗺️'
 [objectives]
 1='Define the curriculum'
 2='Explain the purpose of the curriculum'

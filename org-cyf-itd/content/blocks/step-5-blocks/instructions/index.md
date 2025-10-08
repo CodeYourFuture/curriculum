@@ -1,7 +1,6 @@
 +++
 title ="Step 1: What to do"
 description= "Use block programming to produce real web code"
-emoji= "🤖"
 time= 360
 [build]
   render = 'never'

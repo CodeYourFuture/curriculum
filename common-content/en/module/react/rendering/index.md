@@ -2,7 +2,6 @@
 title = "Rendering"
 
 time = 45
-emoji= '👨🏼‍🎨 '
 [objectives]
     1='Use map() with React to transform an array of data into an array of components.'
 [build]

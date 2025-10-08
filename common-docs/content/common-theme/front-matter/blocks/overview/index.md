@@ -1,7 +1,6 @@
 +++
 title = 'Overview: theme, hide_from_overview'
 time = 2
-emoji= '🦉'
 [build]
   render = 'never'
     list = 'local'

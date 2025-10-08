@@ -2,7 +2,6 @@
 title = 'Seven'
 description="Check if your English CEFR level is B2 or above"
 layout = 'prep'
-emoji= '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 8

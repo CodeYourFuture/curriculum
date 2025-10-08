@@ -2,7 +2,6 @@
 title = 'JSX syntactic sugar'
 
 time = 20
-emoji= '🍬'
 [objectives]
     1='Display information with JSX'
 [build]

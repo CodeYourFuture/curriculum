@@ -1,7 +1,6 @@
 +++
 title = "Adding like/dislike"
 time = 120
-emoji= "👍👎"
 objectives = [
     "Identify what data needs to be stored and exchanged between a client and server.",
     "Devise a scheme for differentiating messages with different meanings (e.g. a new message vs a new like).",

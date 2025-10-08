@@ -2,7 +2,6 @@
 title = 'Day Plan'
 layout = 'day-plan'
 description='The agenda and activities for our first day together'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['module']
 weight = 3
 [[blocks]]

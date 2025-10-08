@@ -3,7 +3,6 @@ title = "Virtual environments"
 headless = true
 time = 30
 facilitation = false
-emoji= "📖"
 objectives=[
     "Create a virtual environment with some dependencies installed.",
 ]

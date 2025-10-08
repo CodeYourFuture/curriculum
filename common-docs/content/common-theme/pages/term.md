@@ -2,7 +2,6 @@
 title = 'Term'
 description = 'A Hugo default page from the Taxonomy system.'
 layout = 'term'
-emoji= '📚'
 weight = 4
 +++
 

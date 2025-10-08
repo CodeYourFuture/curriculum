@@ -1,7 +1,6 @@
 +++
 title = "grep in pipelines"
 time = 20
-emoji = "💻"
 objectives = [
   "List the files in a directory which contain an upper-case letter in their name with `ls` and `grep`.",
   "Count the number of files in a directory which contain an upper-case letter in their name with `ls`, `grep`, and `wc`.",

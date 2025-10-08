@@ -2,7 +2,6 @@
 title = 'Calculating the median'
 
 time = 15
-emoji= '📊'
 hide_from_overview = true
 [objectives]
 1='Describe how to calculate the median of a list in JavaScript' 

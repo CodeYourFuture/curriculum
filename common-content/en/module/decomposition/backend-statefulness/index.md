@@ -3,7 +3,6 @@ title = "Backend statefulness"
 headless = true
 time = 30
 facilitation = false
-emoji= "🧠"
 objectives = [
     "Identify whether some program is stateful or stateless.",
 ]

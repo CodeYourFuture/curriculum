@@ -1,7 +1,6 @@
 +++
 title="Install PostGresQL"
 description="Install PostgreSQL on your computer."
-emoji="🐘"
 +++
 
 # Install PostgreSQL

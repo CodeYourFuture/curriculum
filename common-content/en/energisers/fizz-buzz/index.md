@@ -1,6 +1,5 @@
 +++
 title="Fizz Buzz"
-emoji="🔢"
 hide_from_overview=true
 time=20
 [tasks]

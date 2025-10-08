@@ -4,7 +4,6 @@ headless = true
 time = 30
 facilitation = false
 hide_from_overview = true
-emoji= "📖"
 objectives = [
     "Run a backend using Express and NodeJS.",
 ]

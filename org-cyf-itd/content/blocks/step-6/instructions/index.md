@@ -1,7 +1,6 @@
 +++
 title ="Step 6: What to do"
 description= "Use AI appropriately to solve a noval CSS problem"
-emoji= "🤖"
 time= 90
 [build]
   render = 'never'

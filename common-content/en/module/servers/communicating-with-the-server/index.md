@@ -2,7 +2,6 @@
 title = 'Communicating with the server'
 
 time = 30
-emoji= '📮'
 [objectives]
     1='Define a handler function'
     2='Inspect the request and response objects in console'

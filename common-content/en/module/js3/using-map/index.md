@@ -2,7 +2,6 @@
 title = 'Using map'
 
 time = 60
-emoji= '🗺️'
 [objectives]
     1='Describe how to use map'
 [build]

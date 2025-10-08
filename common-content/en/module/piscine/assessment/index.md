@@ -1,6 +1,5 @@
 +++
 title="Assessment"
-emoji="🧪"
 time=15
 [build]
   render = 'never'

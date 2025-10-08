@@ -1,7 +1,6 @@
 +++
 title = "Continuation styles"
 time = 45
-emoji= "➡️"
 objectives = [
     "Compare different approaches to choosing how to handle potential request errors.",
 ]

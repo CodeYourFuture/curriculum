@@ -1,7 +1,6 @@
 +++
 title = "Clean Code Workshop"
 time = 45
-emoji= "🧹"
 objectives = [
   "Identify properties which make code easier to read and modify.",
   "Compare the cleanliness of code.",

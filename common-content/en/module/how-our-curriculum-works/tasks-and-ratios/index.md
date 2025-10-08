@@ -1,6 +1,5 @@
 +++
 title="Tasks and Ratios: Capacity Planning"
-emoji="⚖️"
 time=10
 [objectives]
 1="Evaluate your capacity"

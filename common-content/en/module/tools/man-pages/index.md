@@ -2,7 +2,6 @@
 title = "man pages"
 headless = true
 time = 45
-emoji= "💻"
 [objectives]
     1="Open a man page for a tool"
     2="Close a man page for a tool"

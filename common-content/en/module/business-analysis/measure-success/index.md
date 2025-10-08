@@ -2,7 +2,6 @@
 title = "Measure success"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Explain the difference between OKR and KPI",
     "Propose relevant success metrics for a project",

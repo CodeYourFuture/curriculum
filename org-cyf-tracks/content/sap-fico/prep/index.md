@@ -2,7 +2,6 @@
 title = 'Prep'
 description = 'Check your eligibility and apply for the ERP: SAP FI/CO Track'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry']
 weight = 1

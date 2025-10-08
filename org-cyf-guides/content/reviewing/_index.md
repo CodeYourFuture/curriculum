@@ -1,7 +1,6 @@
 +++
 title="Code Review"
 description="Everyone reviews code at CYF"
-emoji="🧐"
 menu=["everyone"]
 +++
 

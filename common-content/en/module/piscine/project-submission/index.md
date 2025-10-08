@@ -1,6 +1,5 @@
 +++
 title = "Project Submission"
-emoji = "✉️"
 time = 5
 objectives = [
   "Describe how a Piscine project should be submitted.",

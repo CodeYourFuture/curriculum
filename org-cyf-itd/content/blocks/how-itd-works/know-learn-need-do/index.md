@@ -1,6 +1,5 @@
 +++
 title="What you know, what you will learn"
-emoji="🧑🏼‍🎓"
 author="Tony Beaumont"
 time=10
 +++

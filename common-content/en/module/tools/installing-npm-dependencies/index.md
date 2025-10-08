@@ -3,7 +3,6 @@ title = "Installing dependencies with npm"
 headless = true
 time = 60
 facilitation = false
-emoji= "📚"
 objectives = [
     "Use a dependency in a NodeJS program",
 ]

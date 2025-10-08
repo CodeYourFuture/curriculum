@@ -2,7 +2,6 @@
 title = 'Access with variables'
 
 time = 30
-emoji= '🍌'
 [objectives]
     1='Explain when square bracket notation may be necessary to access an object'
     2='Explain why a previous test breaks once the implementation changes'

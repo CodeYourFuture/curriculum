@@ -2,7 +2,6 @@
 title = 'Team Project'
 
 time = 60
-emoji= '🛗'
 [objectives]
     1='Work in a team to build a React app'
 [build]

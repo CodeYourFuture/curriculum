@@ -1,7 +1,6 @@
 +++
 title ="Step 7: What to do"
 description= "Take the Duolingo Practice Test"
-emoji= "🤖"
 time= 60
 [build]
   render = 'never'

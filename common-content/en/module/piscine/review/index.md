@@ -1,6 +1,5 @@
 +++
 title="Review a Pull Request"
-emoji="🚧"
 time=25
 objectives = ["Step through a pull request", "Ask clarifying questions to secure your understanding", "Ask for changes or offer suggestions"]
 [build]

@@ -2,7 +2,6 @@
 title = 'prep'
 description = "Get an overview of how our curriculum works"
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]

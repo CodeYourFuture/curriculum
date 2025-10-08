@@ -2,7 +2,6 @@
 title = "Discussion: Behavioural Interviews"
 description = "Help each other improve at behavioural interviews"
 time = 30
-emoji= "🗣️"
 objectives = [
     "Identify preparation and techniques for succeeding at behavioural interviews."
 ]

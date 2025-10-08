@@ -3,7 +3,6 @@ title = "Designing a streaming API"
 headless = true
 time = 30
 facilitation = false
-emoji= "🧑‍🔬"
 objectives = [
     "Describe the trade-offs of different streaming APIs.",
 ]

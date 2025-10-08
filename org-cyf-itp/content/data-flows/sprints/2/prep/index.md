@@ -2,7 +2,6 @@
 title = 'Prep'
 layout = 'prep'
 description= 'Take a template and populate it with data; then update the data in response to user interaction'
-emoji= '📝'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]

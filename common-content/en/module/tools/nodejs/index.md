@@ -3,7 +3,6 @@ title = "NodeJS"
 headless = true
 time = 20
 facilitation = false
-emoji= "❓"
 objectives = [
     "Identify and explain why someone may use NodeJS",
 ]

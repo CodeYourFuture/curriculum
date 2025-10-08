@@ -2,7 +2,6 @@
 title = "Design mindset"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Explain the difference between analysis and design"
 ]

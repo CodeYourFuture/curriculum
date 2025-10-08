@@ -1,7 +1,6 @@
 +++
 title = 'Interview Introductions'
 time ="15"
-emoji= '💬'
 objectives=[
   "Explain the purpose of an introduction in an interview.",
   "Write an introduction using the Present-Past-Future model.",

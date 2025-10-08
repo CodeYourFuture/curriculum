@@ -2,7 +2,6 @@
 title = "User research"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Formulate a set of solution goals, objectives, or value propositions"
 ]

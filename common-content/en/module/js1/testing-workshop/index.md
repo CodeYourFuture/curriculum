@@ -2,7 +2,6 @@
 title = 'Testing Workshop'
 
 time = 60
-emoji= '📼'
 [objectives]
     1='Practice solving problems while testing'
 [build]

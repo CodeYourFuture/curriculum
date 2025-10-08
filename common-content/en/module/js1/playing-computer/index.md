@@ -2,7 +2,6 @@
 title = 'Playing computer'
 
 time = 30
-emoji= '🎮'
 [objectives]
     1='Analyse each line in a given program and state what the line does when the program executes'
     2='Differentiate between a function declaration and a function invocation'

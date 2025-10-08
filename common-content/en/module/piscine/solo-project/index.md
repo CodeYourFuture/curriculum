@@ -1,6 +1,5 @@
 +++
 title="Solo Project"
-emoji="🧑🏿‍🔧"
 time=45
 tasks = [
     "Pick a project to work on on your own.",

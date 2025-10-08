@@ -1,7 +1,6 @@
 +++
 title = "Pre-computing"
 time = 60
-emoji = "🔮"
 [build]
   render = 'never'
   list = 'local'
