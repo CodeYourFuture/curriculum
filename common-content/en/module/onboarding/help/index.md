@@ -1,5 +1,5 @@
 +++
-title="🧭 Help"
+title="Help"
 description="Make sure you have everything you need to come to class and do your work"
 hide_from_overview="true"
 time=30

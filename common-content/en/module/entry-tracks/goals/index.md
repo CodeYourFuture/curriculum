@@ -1,5 +1,5 @@
 +++
-title="🎯 Goals"
+title="Goals"
 time=2
 hide_from_overview=true
 objectives = [

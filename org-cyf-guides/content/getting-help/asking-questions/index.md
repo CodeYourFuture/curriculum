@@ -71,7 +71,7 @@ Use this template:
 
 #### For example
 
-{{<note type="question" title=" Request for help">}}
+{{<note type="question" title="Request for help">}}
 
 **Coursework:**
 

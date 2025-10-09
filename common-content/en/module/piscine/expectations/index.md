@@ -1,5 +1,5 @@
 +++
-title="⚖️ Expectations"
+title="Expectations"
 time=5
 objectives = [
   "List the expectations of the Piscine."
