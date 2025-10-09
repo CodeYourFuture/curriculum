@@ -32,7 +32,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Workshop: Using GitHub"
-src="blocks/using-github"
+src="blocks/developer-specs"
 time=60
 [[blocks]]
 name="lunch"
