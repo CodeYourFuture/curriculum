@@ -53,7 +53,7 @@ Popcorn round your group and share one key takeaway
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 3: Pull the Other One 🕵️ (20 minutes)">}}
+{{<note type="exercise" title="Exercise 3: Pull Requests 🕵️ (20 minutes)">}}
 
 Time to explore how code changes are tracked and discussed. You're going to need to slow way way down here. Instead of jumping around, skipping over all the details, you're going to read this page view from top to bottom. Really look at it. Ask each other: what does this button mean? Where does this link go? 
 
