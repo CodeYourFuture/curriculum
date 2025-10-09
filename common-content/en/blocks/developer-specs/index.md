@@ -1,6 +1,5 @@
 +++
 title="Using GitHub"
-emoji="🔍"
 time=60
 [tasks]
   1="Identify the purpose of a repo by reading its README file."
@@ -29,7 +28,7 @@ Before you start, make sure you can access [the repository we will use for this 
 There are three activities. Split into groups of no more than 5 and set a timer so you don't lose track of time. 
 
 
-{{<note type="exercise" title="Exercise 1: Eat Me, Drink Me 📚 (10 minutes)">}}
+{{<note type="exercise" title="Exercise 1: Eat Me, Drink Me (10 minutes)">}}
 
 The first thing you should always do is find and read the README
 
@@ -40,7 +39,7 @@ Key takeaway: don't skip over text. Read it.
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 2: You've Got Issues 🔍 (20 minutes)">}}
+{{<note type="exercise" title="Exercise 2: You've Got Issues (20 minutes)">}}
 
 All your coursework is assigned as issues, so you definitely need to understand them. 
 
@@ -53,7 +52,7 @@ Popcorn round your group and share one key takeaway
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 3: Pull Requests 🕵️ (20 minutes)">}}
+{{<note type="exercise" title="Exercise 3: Pull Requests (20 minutes)">}}
 
 Time to explore how code changes are tracked and discussed. You're going to need to slow way way down here. Instead of jumping around, skipping over all the details, you're going to read this page view from top to bottom. Really look at it. Ask each other: what does this button mean? Where does this link go? 
 
@@ -69,7 +68,7 @@ Write your key takeaway down in your notebook.
 
 {{</note>}}
 
-{{<note type="exercise" title="Solo Challenge: Hidden Powers 🔮 (5 minutes)">}}
+{{<note type="exercise" title="Solo Challenge: Hidden Powers (5 minutes)">}}
 
 Take 5 minutes to click around and try things:
 
