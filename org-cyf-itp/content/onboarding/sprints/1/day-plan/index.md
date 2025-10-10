@@ -31,7 +31,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Workshop: Using GitHub"
-src="https://github.com/CodeYourFuture/Developer-Specs"
+src="blocks/developer-specs"
 time=60
 [[blocks]]
 name="lunch"
