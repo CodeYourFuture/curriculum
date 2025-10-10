@@ -46,7 +46,9 @@ All your coursework is assigned as issues, so you definitely need to understand 
 
 - Can you find where issues are listed?
 - Look at the labels - what story do they tell about how work is organized? Hover over them - what else can you find out?
-- Create an issue yourself. What options do you discover? You can look at [the deployed site](https://codeyourfuture.github.io/github_issues_prs_practice/) and the `requirements.md` file in the repository to help you identify what's wrong with the page.
+- Create an issue yourself. What options do you discover?
+   - Make sure you understand what the requirements/expectations are for the site. How  can you find this out?
+   - You can look at [the deployed site](https://codeyourfuture.github.io/github_issues_prs_practice/) to help you identify what's wrong with the page.
 - Challenge: Can you find out who decides what labels mean?
 
 Popcorn round your group and share one key takeaway
