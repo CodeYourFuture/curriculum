@@ -33,7 +33,8 @@ There are three activities. Split into groups of no more than 5 and set a timer 
 The first thing you should always do is find and read the README
 
 - Find the README file in this repository
-- What's its purpose? How can you tell?
+- What's the purpose of a README file?
+- What's the purpose of the repository?
 
 Key takeaway: don't skip over text. Read it. 
 
