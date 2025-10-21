@@ -17,6 +17,50 @@ Attendees:
 
 ---
 
+## 2025-10-21
+
+Attendees: Ali Smith, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [x] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [x] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [x] Daniel: Remove emoji from all the blocks.
+- [x] Karen: Update ITD comms around course platform vs curriculum.
+
+### 📝 Agenda points
+
+#### SDC Retro
+
+We had an SDC retro covering the last two SDCs - Daniel will write up a bunch of tickets soon.
+
+Major themes that emerged:
+* The role of AI across the courses.
+* Lack of independence in interpreting and handling e.g. unexpected errors.
+* Lack of confidence in how good they are and what jobs they should be applying for.
+* When to introduce more "real" statically typed language(s), and which one.
+
+#### Hardcore frontend track
+
+Let's start thinking about what a track to produce really high quality frontend specialists would look like.
+
+Ali's initial thoughts: Knowing the browser inside out. Accessibility. Probably also TypeScript. Will give more thought.
+
+Maybe targeting "Back of the frontend" engineers - folks who are more logic-focused than UX-focused.
+
+#### Debuggers
+
+Our trainees are not very confident with debuggers (both in ITP and SDC). We have [a workshop coming up](https://programming.codeyourfuture.io/data-groups/sprints/2/day-plan/#debugging), but may want to emphasise it or bring it earlier.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
 ## 2025-10-08
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
