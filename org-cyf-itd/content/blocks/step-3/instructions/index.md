@@ -24,7 +24,7 @@ This exercise introduces the basics of Google Sheets — an online tool for orga
 
 ##### Apply What You Learned 
 
-1. Make a copy of [this Google Sheet](https://docs.google.com/spreadsheets/d/1uPnnoEbn_YdMp_Wx4oTFgIAV7E5zd8ubFZ_e4Od_pn4/edit?usp=sharing)
+1. Make a copy of [this Google Sheet](https://docs.google.com/spreadsheets/d/1uPnnoEbn_YdMp_Wx4oTFgIAV7E5zd8ubFZ_e4Od_pn4/copy?usp=sharing)
 
 1. In your own copy, replace "YOUR_NAME" in the title with your own name
 
