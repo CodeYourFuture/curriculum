@@ -88,10 +88,17 @@ then go ahead and make a TOC */}}
             <ol>
               {{ range .Params.blocks }}
                 <li>
-                  <a href="#{{ .name | urlize }}" data-pagefind-weight="5"
-                    >{{ .name }}</a
-                  >
+                  <a href="#{{ .name | urlize }}" data-pagefind-weight="5">
+                    {{ .name }}
+                  </a>
                   {{ if "youtu" | in .src }}📼{{ end }}
+
+                  <!-- 🕒 Added time-stamper for issue #1066 -->
+                  <time-stamper
+                    class="c-page-header__time"
+                    start-time="{{ .start }}"
+                    end-time="{{ .end }}"
+                  ></time-stamper>
                 </li>
               {{ end }}
             </ol>
