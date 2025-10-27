@@ -29,7 +29,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Data groups | <YOUR_NAME>`
 1. On the issue, add:
-    - Evidence that you have completed **at least 6 katas** in the [Data Group collection](https://github.com/CodeYourFuture/Module-Data-Groups/issues/31) and **at least 3 katas** in the [Array and Object Methods collection](https://github.com/CodeYourFuture/Module-Data-Groups/issues/33).
+    - Evidence that you have completed **at least 6 katas** in the [Data Groups collection](https://github.com/CodeYourFuture/Module-Data-Groups/issues/31) and **at least 9 katas in total** in the [Array and Object Methods collection](https://github.com/CodeYourFuture/Module-Data-Groups/issues/33).
     - A link to your _completed_ pull request for "[Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)".
     - A link to your _completed_ pull request for "[Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)".
     - A link to your _completed_ pull request for "[Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)".
