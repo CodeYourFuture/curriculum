@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html lang="en" class="p-{{ (.Layout | default .Kind ) | urlize | lower }}">
   {{- partial "head.html" . -}}
   <body>
@@ -10,14 +11,22 @@
     <div class="l-layout">
       {{ partialCached "header.html" . }}
       {{ partialCached "menu.html" . }}
-      <main
-        id="main"
-        class="l-layout__main l-main"
-        tabindex="0"
-        data-pagefind-body>
+      <main id="main" class="l-layout__main l-main" tabindex="0" data-pagefind-body>
         {{ block "main" . }}{{ end }}
-
         {{ partial "page-footer.html" . }}
+        <!-- 📝 GitHub Edit & Issue Links -->
+        {{ if .File }}
+        <div style="margin-top: 2rem; text-align: right; font-size: 0.95em;">
+          {{ if .File.Path }}
+          <a href="https://github.com/CodeYourFuture/curriculum/edit/main/{{ .File.Path }}" target="_blank" style="margin-right: 1em;">
+            📝 Edit this page on GitHub
+          </a>
+          <a href="https://github.com/CodeYourFuture/curriculum/issues/new?title=Issue%20with%20{{ .File.Path }}&body=Describe%20the%20problem..." target="_blank">
+            🐛 Open an issue for this page
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
       </main>
       {{- partialCached "foot.html" . -}}
       {{- partial "scripts.html" . -}}
