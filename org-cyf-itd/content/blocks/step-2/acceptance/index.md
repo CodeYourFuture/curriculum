@@ -15,4 +15,5 @@ Here are the criteria you need to meet:
 ```objectives
 - You have answered all three questions
 - You have provided one to three sentences explaining each answer
+- You have submitted the Google Doc link on the CYF Course Platform
 ```
