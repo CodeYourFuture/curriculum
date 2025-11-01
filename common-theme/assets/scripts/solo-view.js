@@ -1,10 +1,8 @@
 const elementName = "solo-view";
-
 class SoloView extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-
     // State object
     this.state = {
       currentBlockIndex: 0,
@@ -24,7 +22,6 @@ class SoloView extends HTMLElement {
     );
     document.addEventListener("keydown", this.handleKeydown.bind(this));
   }
-
   connectedCallback() {
     this.render(); // Render the component
     this.cacheDOM(); // Cache necessary DOM elements
@@ -32,13 +29,11 @@ class SoloView extends HTMLElement {
     this.handleFragment(); // Check for a fragment in the URL and set to this view if present
     this.updateView(); // Initial view update
   }
-
   disconnectedCallback() {
     // Removing window and doc event listeners
     window.removeEventListener("hashchange", this.handleFragment.bind(this));
     document.removeEventListener("keydown", this.handleKeydown.bind(this));
   }
-
   // Cache DOM elements
   cacheDOM() {
     this.state.blocks = [
@@ -54,16 +49,13 @@ class SoloView extends HTMLElement {
       '[slot="nav"] .c-solo-view__next'
     );
   }
-
   // Add event listeners
   addEventListeners() {
     this.state.tocLinks.forEach((link, index) => {
       link.addEventListener("click", () => this.updateCurrentBlockIndex(index));
     });
-
     this.state.navButtons.back.addEventListener("click", this.navigateBack);
     this.state.navButtons.next.addEventListener("click", this.navigateNext);
-
     this.addEventListener(
       "touchstart",
       (event) => {
@@ -74,7 +66,6 @@ class SoloView extends HTMLElement {
       },
       { passive: true }
     );
-
     this.addEventListener(
       "touchend",
       (event) => {
@@ -87,25 +78,20 @@ class SoloView extends HTMLElement {
       },
       { passive: true }
     );
-
     this.addEventListener("keydown", this.handleKeydown, { passive: true });
   }
-
   // Update current block index
   updateCurrentBlockIndex(index) {
     this.state.currentBlockIndex = index;
     this.updateView();
   }
-
   // Navigation logic
   navigateBack = (event) => {
     this.navigate(event, this.state.currentBlockIndex - 1);
   };
-
   navigateNext = (event) => {
     this.navigate(event, this.state.currentBlockIndex + 1);
   };
-
   navigate = (event, index) => {
     if (index < 0 || index >= this.state.blocks.length) {
       return;
@@ -115,7 +101,6 @@ class SoloView extends HTMLElement {
     event.stopPropagation();
     this.state.tocLinks[index].click();
   };
-
   // Handle swipe gesture
   handleSwipeGesture = (startX, endX) => {
     const deltaX = endX - startX;
@@ -128,7 +113,6 @@ class SoloView extends HTMLElement {
       this.navigateNext(new Event("swipe"));
     }
   };
-
   eventTargetIsHorizontallyScrollable = (event) => {
     let el = event.target;
     while (el && el.localName !== elementName) {
@@ -139,8 +123,20 @@ class SoloView extends HTMLElement {
     }
     return false;
   }
-
   handleKeydown = (event) => {
+    // Don't navigate if user is typing in an editable element
+    const target = event.target;
+    const tagName = target.tagName;
+    
+    if (
+      tagName === 'TEXTAREA' ||
+      tagName === 'INPUT' ||
+      tagName === 'SELECT' ||
+      target.isContentEditable
+    ) {
+      return;
+    }
+    
     if (event.key === "ArrowLeft") {
       this.navigateBack(event);
     }
@@ -148,7 +144,6 @@ class SoloView extends HTMLElement {
       this.navigateNext(event);
     }
   };
-
   // look for a fragment in the URL and navigate to it if one exists so we can link directly to a view
   handleFragment = () => {
     const fragment = window.location.hash.substring(1);
@@ -162,20 +157,17 @@ class SoloView extends HTMLElement {
       }
     }
   };
-
   // Update view
   updateView() {
     this.state.blocks.forEach((block, index) => {
       block.hidden = index !== this.state.currentBlockIndex;
     });
-
     this.state.tocLinks.forEach((link, index) => {
       link.classList.toggle(
         "is-active",
         index === this.state.currentBlockIndex
       );
     });
-
     // Hide unusable buttons
     this.state.navButtons.back.style.display =
       this.state.currentBlockIndex === 0 ? "none" : "inline-flex";
@@ -184,13 +176,11 @@ class SoloView extends HTMLElement {
         ? "none"
         : "inline-flex";
   }
-
   // Render method with slots and CSS
   render() {
     this.shadowRoot.innerHTML = `
       <style>
         @media (min-width: 768px) {
-
         :host {
           display: grid;
           grid-template:
@@ -201,7 +191,6 @@ class SoloView extends HTMLElement {
         }
         ::slotted([slot="header"]) {
           grid-area: sidebar;
-
         }
         ::slotted([slot="blocks"]) {
           padding-top: var(--theme-spacing--6);
@@ -212,7 +201,6 @@ class SoloView extends HTMLElement {
           margin: 0 0 auto auto;
         }
       }
-        
       </style>
       <slot name="header"></slot>
       <slot name="blocks"></slot>
@@ -220,5 +208,4 @@ class SoloView extends HTMLElement {
     `;
   }
 }
-
 customElements.define(elementName, SoloView);
