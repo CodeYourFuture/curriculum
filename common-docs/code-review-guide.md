@@ -51,6 +51,11 @@ Use a positive tone like:
 💡 You could use Array.map() here instead of a loop to make the code cleaner.
 🧹 Remember to remove debug logs before merging.
 
+📎 Related Guides
+
+- [CodeYourFuture Reviewing Guide](https://programming.codeyourfuture.io/guides/reviewing/)
+- [Review Checklist](https://programming.codeyourfuture.io/guides/reviewing/checklist/)
+
 📚 Additional Resources
 
 CodeYourFuture Review Guidelines
