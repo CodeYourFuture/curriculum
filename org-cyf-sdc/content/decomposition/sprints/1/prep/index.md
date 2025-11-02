@@ -5,6 +5,9 @@ layout = "prep"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]
+title = "Get on the CYF Hosted Environment"
+src = "blocks/cyf-hosting-onboarding"
+[[blocks]]
 name = "Overview"
 src = "blocks/decomposition-sprint1-overview"
 [[blocks]]
