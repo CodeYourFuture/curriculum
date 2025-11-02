@@ -1,7 +1,6 @@
 +++
 title ="Step 6: What to do"
 description= "Use AI appropriately to solve a noval CSS problem"
-emoji= "🤖"
 time= 90
 [build]
   render = 'never'
@@ -48,12 +47,10 @@ Use an AI tool to help you solve the problem. This can mean asking it to explain
 > You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
 
 #### 5 - Self Check
-Look over the code you have written. Do you understand it all? Has any been pasted from an AI tools or elsewhere? Review what worked and what didn’t when prompting the AI.
+Look over the code you have written. Do you understand it all? Has any been pasted from an AI tool or elsewhere? What worked and what didn’t work when prompting the AI?
 
-##### 4. Create a Google Doc
-1. Create a Google Doc
-2. Place your answers for each of the questions above into the doc
-3. Add one to three sentences explaining why you chose the answers you did
+#### 4. Create a Google Doc
+Create a Google Doc
 
 > [!NOTE]
 > If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
