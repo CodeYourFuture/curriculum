@@ -5,7 +5,7 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry']
-weight = 1
+weight = 2
 [[blocks]]
 name="Application"
 src="module/piscine/application"

@@ -1,7 +1,6 @@
 +++
 title = "Enums"
 time = 30
-emoji= "🗄️"
 objectives = [
   "Identify risks of using strings to represent data.",
   "Define an enum.",

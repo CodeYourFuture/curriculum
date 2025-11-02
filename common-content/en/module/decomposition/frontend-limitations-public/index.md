@@ -3,7 +3,6 @@ title = "Everything is public"
 headless = true
 time = 15
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
     "Explain why needing secrets may require backend.",

@@ -5,9 +5,6 @@
       {{- range .Pages }}
         <li class="c-block c-block--link">
           <a href="{{ .RelPermalink }}" class="c-chip">
-            <div class="c-chip__icon" style="padding:.5ch">
-              {{ .Params.emoji | default "🪪" }}
-            </div>
             <h4 class="c-chip__title">{{ .Title }}</h4>
             {{ with .Description }}
               <p class="c-chip__description">🔗 {{ . | markdownify }}</p>

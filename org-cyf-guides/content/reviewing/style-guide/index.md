@@ -1,7 +1,7 @@
 +++
 title="Code Style Guide"
 description="A guide to writing code that is easy to read and understand"
-emoji="💡"
+weight="1"
 +++
 
 ## Why should I read this?

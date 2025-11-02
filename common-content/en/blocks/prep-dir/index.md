@@ -1,7 +1,6 @@
 +++
 title = 'Prep dir'
 time = 10
-emoji= '📂'
 [objectives]
     1='Create a working prep directory for the module'
 [build]

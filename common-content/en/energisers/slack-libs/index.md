@@ -1,6 +1,5 @@
 +++
 title="Slack Libs"
-emoji="💬"
 time=10
 objectives = [
     "Find an post to a thread in Slack.",

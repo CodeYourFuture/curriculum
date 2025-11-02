@@ -1,6 +1,5 @@
 +++
 title="Energiser"
-emoji="🔋"
 time=20
 hide_from_overview=true
 [build]

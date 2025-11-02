@@ -2,7 +2,6 @@
 title = "Prep"
 description = "Learn about shell tools, and how computers work"
 layout = "prep"
-emoji = "🧑🏾‍💻"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]

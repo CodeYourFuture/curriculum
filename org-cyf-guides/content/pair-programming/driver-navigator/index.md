@@ -1,7 +1,6 @@
 +++
 title = 'Driver/navigator pair programming'
 description = 'Taking turns writing code'
-emoji = '👥'
 weight = 3
 +++
 

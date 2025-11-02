@@ -17,6 +17,97 @@ Attendees:
 
 ---
 
+## 2025-10-08
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Introductions - new team members!
+
+Colin joined us!
+
+#### Future of emojis in blocks
+
+We generally find them cute but not super useful, and taking time to pick emoji isn't a great use of time.
+
+Possibly it could be useful to introduce more specific limited indicators e.g. "this is an exercise" or "this is a video".
+
+We will remove the existing emoji for now.
+
+#### Integrating "listening to and understanding questions" to demo practice
+
+Our trainees have gotten much better at presenting, but often stumble when answering questions afterwards.
+
+We probably don't want to assess people on this in the Piscine straight away, but maybe start warning people "You will be asked a question you must respond to", and have the assessor ask a decent question (which we don't assess).
+
+We probably want a workshop on asking and answering questions well. We probably can't rely on _all_ volunteers to run this workshop well.
+
+In demo sessions, we can perhaps re-organise so that we do demo + feedback + questions + feedback on questions. Time-boxing both the feedback and the questions, and having someone experienced be the last person in each segment.
+
+#### Backlog
+
+Daniel cleaned up the backlog, introduced an icebox, and closed a bunch of issues.
+
+We will have more people picking up backlog items - please assign an issue to yourself if you're going to pick it up to avoid duplicate work.
+
+#### Prep for ITD in November
+
+Currently Step 3 (Google Sheets) is the big drop-off point. This aligns with it being the first non-trivial step. This is probably the best place for us to have drop-off.
+
+People get a bit confused between the course platform vs curriculum page. We probably want to update the email we send to new ITD trainees clarifying the difference between the two.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [ ] Daniel: Remove emoji from all the blocks.
+- [ ] Karen: Update ITD comms around course platform vs curriculum.
+
+---
+
+## 2025-09-23
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel: Write up learning objectives for TV Show Project
+- [x] CJ: Write up PR guide for trainees
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [x] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Introducing Self Workshop
+
+Anna has [a draft](https://docs.google.com/document/d/1O8Or9adI90z4WqrbrlIlNVt3jnxqb8lvihgvNujx64w/edit) - will try to refine tonight and get merged tomorrow!
+
+#### PR Guide for trainees
+
+CJ has [a draft](https://github.com/cjyuan/cyf-notes/blob/main/pr-how-to.md) - looks ready to merge - talked through [where our guides live](https://github.com/CodeYourFuture/curriculum/tree/main/org-cyf-guides/content/reviewing).
+
+We'll transfer the [Codewars Progress Checker](https://cjyuan.github.io/Codewars-Progress-Checker/) into CodeYourFuture, and update the backlogs and success pages for ITP modules 2-4.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
 ## 2025-08-26
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer

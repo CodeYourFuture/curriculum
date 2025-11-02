@@ -1,6 +1,5 @@
 +++
 title="Prep your codebase"
-emoji="🚀"
 time=60
 hide_from_overview=true
 [build]

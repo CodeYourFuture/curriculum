@@ -2,7 +2,6 @@
 title = 'Preparing for Workshops'
 description = 'What should I do before a lesson?'
 time = 30
-emoji= '🧰'
 objectives =['Review the workshop preparation steps','Review the steps of the ITD programme']
 [build]
   render = 'never'

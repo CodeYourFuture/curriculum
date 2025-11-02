@@ -2,7 +2,6 @@
 title = 'DOM events'
 
 time = 60
-emoji= '🎬'
 [objectives]
     1='Describe an event in the browser environment'
     2='Update the strategy for implementing a character limit component'

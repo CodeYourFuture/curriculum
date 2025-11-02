@@ -1,6 +1,5 @@
 +++
 title="Presentation tips"
-emoji="🎤"
 time= 15
 hide_from_overview=true
 [build]

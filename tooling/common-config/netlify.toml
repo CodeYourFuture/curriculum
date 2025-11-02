@@ -25,6 +25,11 @@ from = "/calendar"
 to = "https://docs.google.com/spreadsheets/d/1yI0msIwe8qYn2Nv9WPLwFMTM_Td0TtPvlv17u3B8sS8/edit?gid=0#gid=0"
 status = 302
 
+[[redirects]]
+from = "/other-schools"
+to = "https://docs.google.com/document/d/1gO2iX0aoKyb3yCKmjhTr2FyKgDhnlzXbe0pdYOBzU_E/edit"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]

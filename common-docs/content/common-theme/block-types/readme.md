@@ -1,7 +1,6 @@
 +++
 title="README"
 description="A readme on any GitHub repo"
-emoji="📖"
 menu=["blocktypes"]
 [[blocks]]
 name="Example README"

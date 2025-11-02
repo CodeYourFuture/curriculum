@@ -2,7 +2,6 @@
 title = 'Re-rendering the UI'
 
 time = 45
-emoji= '🪞'
 [objectives]
     1='Trace the flow of data from user input to updated UI'
 [build]

@@ -1,7 +1,6 @@
 +++
 title="Issue"
 description="Embed an issue"
-emoji="🏷️"
 menu=["shortcodes"]
 +++
 

@@ -1,6 +1,5 @@
 +++
 title="Play Wordle"
-emoji="🍎"
 time= 5
 [build]
   render = 'never'

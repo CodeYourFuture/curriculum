@@ -1,6 +1,5 @@
 +++
 title="Code of Conduct"
-emoji="🫶"
 time=15
 objectives = [
   "Explain the purpose of a Code of Conduct.",

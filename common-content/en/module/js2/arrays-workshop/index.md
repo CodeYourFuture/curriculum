@@ -2,7 +2,6 @@
 title = 'Arrays Workshop'
 
 time = 60
-emoji= '📼'
 [objectives]
     1='Practice solving problems with arrays'
 [build]

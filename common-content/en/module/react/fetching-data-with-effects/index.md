@@ -2,7 +2,6 @@
 title = "Fetching data with Effects"
 
 time = 10
-emoji= '🎳'
 [objectives]
     1='Fetch data from an API using the useEffect hook'
 [build]

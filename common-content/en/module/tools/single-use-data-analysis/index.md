@@ -3,7 +3,6 @@ title = "Single-use data analysis programs"
 headless = true
 time = 60
 facilitation = false
-emoji= "💻"
 [objectives]
     1="Write a program to extract information from a JSON file"
     2="Identify the trade-offs between using existing shell tools and writing custom programs"

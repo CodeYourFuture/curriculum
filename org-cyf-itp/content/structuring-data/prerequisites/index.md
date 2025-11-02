@@ -2,7 +2,6 @@
 title = 'Pre-Reqs'
 description = 'Things you must set up to get started'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]

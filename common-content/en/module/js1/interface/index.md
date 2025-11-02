@@ -2,7 +2,6 @@
 title = 'Using an interface'
 
 time = 15
-emoji= '🕹️'
 [objectives]
     1='Categorise different interfaces'
 [build]

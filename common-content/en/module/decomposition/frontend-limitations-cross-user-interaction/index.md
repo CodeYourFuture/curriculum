@@ -3,7 +3,6 @@ title = "Limited cross-user interaction"
 headless = true
 time = 10
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
     "Explain why sharing state across users may require us to write (or use) a backend.",

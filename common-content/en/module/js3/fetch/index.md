@@ -2,7 +2,6 @@
 title = 'fetch API'
 
 time = 20
-emoji= '🐕'
 [objectives]
 [build]
   render = 'never'

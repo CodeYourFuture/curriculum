@@ -1,6 +1,5 @@
 +++
 title="Mentored code review"
-emoji="🧑🏾‍💻"
 time = 20
 [objectives]
     1="Explain what a code reviewer is looking for in a PR."

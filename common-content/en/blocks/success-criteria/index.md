@@ -1,6 +1,5 @@
 +++
 title="Check module success criteria"
-emoji="✅"
 time= 10
 [build]
   render = 'never'

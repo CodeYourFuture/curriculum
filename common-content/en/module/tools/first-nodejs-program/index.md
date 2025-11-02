@@ -3,7 +3,6 @@ title = "Writing a NodeJS program"
 headless = true
 time = 60
 facilitation = false
-emoji= "🛠️"
 hide_from_overview = true
 objectives = [
     "Write a zero-dependencies NodeJS program",

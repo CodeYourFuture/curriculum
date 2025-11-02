@@ -3,7 +3,6 @@ title = "Design a frontend and backend"
 headless = true
 time = 30
 facilitation = false
-emoji= "✏️"
 [objectives]
     1="Design a frontend and backend which can communicate with each other"
 +++

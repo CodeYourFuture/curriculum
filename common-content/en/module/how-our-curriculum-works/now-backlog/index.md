@@ -1,6 +1,5 @@
 +++
 title="Next steps: Backlog and Success"
-emoji='🙌'
 time=5
 [objectives]
     1="Find the next thing to do, having finished the prep"

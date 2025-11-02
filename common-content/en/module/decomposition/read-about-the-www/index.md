@@ -2,7 +2,6 @@
 title = "Read about the world-wide web"
 headless = true
 time = 75
-emoji= "📖"
 objectives = [
     "Identify the components of a URL.",
     "Manually parse an HTTP request into a method, path, protocol, headers, and body.",

@@ -1,7 +1,6 @@
 +++
 title = 'Register'
 time = 1
-emoji= '📝' 
 [build]
   render = 'never'
   list = 'local'

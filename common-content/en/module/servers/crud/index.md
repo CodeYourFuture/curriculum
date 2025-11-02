@@ -2,7 +2,6 @@
 title = 'CRUD'
 
 time = 10
-emoji= '🎒'
 [objectives]
     1='Define CRUD'
 [build]

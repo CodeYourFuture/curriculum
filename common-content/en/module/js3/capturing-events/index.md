@@ -1,7 +1,6 @@
 +++
 title = 'Capturing the user event'
 time = 20
-emoji= '🦻🏻'
 [objectives]
     1='Add an event listener to a user input'
 [build]

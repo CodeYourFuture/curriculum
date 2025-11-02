@@ -1,7 +1,6 @@
 +++
 title = 'Teaching values and guidelines'
 time = 5
-emoji= '📚'
 objectives =['List 5 key teaching strategies for supporting learners in ITD']
 [build]
   render = 'never'

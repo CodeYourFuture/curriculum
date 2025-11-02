@@ -2,7 +2,6 @@
 title = 'Requesting from a server side API'
 
 time = 20
-emoji= '🌐'
 [objectives]
 1="Fetch data from a server side API using a client side Web API"
 [build]

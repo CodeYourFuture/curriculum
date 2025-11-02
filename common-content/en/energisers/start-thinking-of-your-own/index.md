@@ -1,6 +1,5 @@
 +++
 title="Energiser"
-emoji="🔋"
 time=15
 tasks = [
   "Energise the group with a fun game.",

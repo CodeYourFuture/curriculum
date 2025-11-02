@@ -2,7 +2,6 @@
 title = "Business domains"
 
 time = 90
-emoji = "🤖"
 objectives = [
     "Identify key terms in the business domain",
     "Represent the relationships among key entities in the domain in a conceptual data model (business domain model)"

@@ -2,7 +2,6 @@
 title = 'Creating elements with functions'
 
 time = 30
-emoji= '🧼'
 [objectives]
     1='Extract functions for common tasks'
     2='Identify benefits of using reusable functions'

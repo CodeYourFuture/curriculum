@@ -2,7 +2,6 @@
 title = "prep"
 description = "Delivering solutions"
 layout = "prep"
-emoji = "📅"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]

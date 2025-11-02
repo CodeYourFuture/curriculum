@@ -1,7 +1,6 @@
 +++
 title = "head and tail"
 time = 20
-emoji = "💻"
 objectives = [
   "Output the first 5 lines of a file using `head`.",
   "Output the last 5 lines of a file using `tail`.",

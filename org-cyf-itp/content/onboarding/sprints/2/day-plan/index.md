@@ -1,7 +1,6 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
@@ -27,8 +26,8 @@ name="Working with others"
 src="blocks/working-with-others"
 [[blocks]]
 name="Study Group"
-src="module/onboarding/development"
-time=60
+src="blocks/study-group"
+time=145
 [[blocks.nested.blocks]]
 name="Optional structured activity: Live Code Review"
 src="blocks/mentored-code-review"
@@ -36,17 +35,6 @@ src="blocks/mentored-code-review"
 name="Optional structured activity for consolidating Git"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
 time=0
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Onboarding/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time=60
 [[blocks.nested.blocks]]
 name="Optional structured activity for consolidating HTML forms"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"

@@ -1,7 +1,6 @@
 +++
 title="Our Name"
 description="A shortcode to variabalise the name of the organisation"
-emoji="🏢"
 menu=["shortcodes"]
 +++
 

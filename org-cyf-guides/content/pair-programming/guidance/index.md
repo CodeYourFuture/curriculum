@@ -1,7 +1,6 @@
 +++
 title = 'Guidance'
 description = 'Practice writing code and getting support'
-emoji = '👥'
 weight = 1
 +++
 

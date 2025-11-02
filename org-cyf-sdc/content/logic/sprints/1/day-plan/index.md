@@ -1,7 +1,6 @@
 +++
 title = "Day Plan"
 layout = "day-plan"
-emoji = "🧑🏾‍🤝‍🧑🏾"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]
@@ -15,23 +14,20 @@ name = "Workshop: Bits and Rats"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/bits-and-rats"
 time = "90"
 [[blocks]]
-name = "Games, rules, logic and strategy"
-src = "blocks/games"
+name = "Study Group"
+src = "blocks/study-group"
 time = "50"
 [[blocks]]
-name = "lunch"
+name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
-name = "demo"
-src = "module/logic/demo"
-time = "75"
-[[blocks]]
-name = "Afternoon break"
-src = "blocks/afternoon-break"
-[[blocks]]
-name = "demo"
+name = "Demo"
 src = "blocks/demo"
-time = "60"
+time = "30"
+[[blocks]]
+name = "Study Group"
+src = "blocks/study-group"
+time = "130"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"

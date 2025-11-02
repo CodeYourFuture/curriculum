@@ -2,7 +2,6 @@
 title = "Specification"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Compare backlog and specifications"
 ]

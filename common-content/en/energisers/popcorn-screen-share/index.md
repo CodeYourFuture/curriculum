@@ -1,6 +1,5 @@
 +++
 title="Screen Safari"
-emoji="🖥️"
 time=15
 [tasks]
 1="Practice screen sharing functionality"

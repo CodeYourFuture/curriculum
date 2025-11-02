@@ -1,6 +1,5 @@
 +++
 title="Useful links"
-emoji="🔗"
 author="Tony Beaumont"
 time=2
 +++

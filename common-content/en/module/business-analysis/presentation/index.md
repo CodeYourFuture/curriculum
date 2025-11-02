@@ -2,7 +2,6 @@
 title = "Present your learnings"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Present finding from a business analysis perspective.",
     "Present and discuss the latest learnings on the sprint.",
