@@ -48,7 +48,7 @@
   }
   &__image {
     // it's an emoji actually - we dumped images
-    font-size: clamp(24px, calc(24px + 5vw), 96px);
+    font-size: clamp(24px, calc(24px + 5vw), 45px);
     text-align: right;
     mix-blend-mode: add;
     @include on-event(false, ".c-card") {
