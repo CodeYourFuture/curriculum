@@ -7,8 +7,8 @@ weight = 3
 name = "Morning orientation"
 src = "blocks/morning-orientation"
 [[blocks]]
-name = "Technical interview workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/technical-interviews"
+name = "TypeScript Workshop"
+src = "blocks/coming-soon"
 time = "90"
 [[blocks]]
 name = "Morning break"
