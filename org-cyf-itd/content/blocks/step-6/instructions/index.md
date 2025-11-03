@@ -76,6 +76,7 @@ Please add the following to your google doc:
 - A link to your CodePen (please note that volunteers probably won't give you a full code review but this is useful context for them)
 - A link to your chat with the AI - Instructions to share links [to Gemini chats are here](https://support.google.com/gemini/answer/13743730) and [to ChatGPT chats are here](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq)
 - A screen shot of the output in CodePen
+- Your answers to the questions in the '5 - Self Check' section above 
 
 #### 4. Submit the Google Doc link
 
