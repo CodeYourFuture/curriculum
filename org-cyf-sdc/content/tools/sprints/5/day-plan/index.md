@@ -7,19 +7,16 @@ weight = 3
 name = "Morning orientation"
 src = "blocks/morning-orientation"
 [[blocks]]
-name = "Sorting Cards Workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/sorting-cards"
+name = "TypeScript Workshop"
+src = "blocks/coming-soon"
 time = "90"
 [[blocks]]
 name = "Morning break"
 src = "blocks/morning-break"
 [[blocks]]
-name = "Discussion: Technical Interviews"
-src = "blocks/discuss-technical-interviews"
-[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "25"
+time = "55"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"
