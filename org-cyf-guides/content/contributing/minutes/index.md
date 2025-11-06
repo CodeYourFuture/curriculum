@@ -17,6 +17,40 @@ Attendees:
 
 ---
 
+## 2025-11-05
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Improving testing content in ITP
+
+Trainees are taking a very minimalist approach to testing. Checking PRs and marking recent Piscine projects has shown that many of them write as few tests as possible and only do so if prompted.
+
+There is a disconnect between trainees' understanding of _how_ we write tests and _why_ we write tests.
+
+We can update the exercises in ITP module 2, sprint 3 to better guide them towards the benefits of good test coverage
+
+#### Formatting of PR descriptions
+
+Some trainees are not formatting PR descriptions correctly even several weeks into the course.
+
+We can add this to the updated GitHub workshop in the ITP onboarding sprint
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Update testing content in ITP
+- [ ] Colin: Add PR formatting to ITP onboarding
+
+---
+
 ## 2025-10-21
 
 Attendees: Ali Smith, CJ Yuan, Daniel Wagner-Hall
