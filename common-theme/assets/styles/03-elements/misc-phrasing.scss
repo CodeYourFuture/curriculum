@@ -24,6 +24,9 @@ pre code .highlight pre,
 time {
   font: var(--theme-font--system);
 }
+p > code {
+  line-height: 1.5; // prevent inline code from breaking paragraph layouts
+}
 code:not([class]) {
   color: var(--theme-color--pop);
 }
