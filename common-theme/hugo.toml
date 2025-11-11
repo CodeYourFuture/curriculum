@@ -26,7 +26,7 @@ defaultContentLanguageInSubdir = false
         url = ""
 
 [params]
-googleFonts="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@300;600;800;900&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800;900&display=swap"
 description = "A free and open source software development programme."
 startTime="10:00"
 # main_website = ""

@@ -44,7 +44,7 @@ title = "The longed for documentation"
         url = "https://codeyourfuture.io/donate"    
 
 [params]
-googleFonts="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@300;600;800;900&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800;900&display=swap"
 description = "A free and open source technical curriculum platform."
 main_website = "https://curriculum.codeyourfuture.io/"
 main_org_name = "Code Your Future"
