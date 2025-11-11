@@ -49,7 +49,7 @@ org = "https://github.com/CodeYourFuture"
 repo = "https://github.com/CodeYourFuture/curriculum/"
 pdrepo = "CYF-PD"
 root = "curriculum"
-googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800;900&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
 
 # We use a proxy which concatenates paginated responses, otherwise we miss results.
 # Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
