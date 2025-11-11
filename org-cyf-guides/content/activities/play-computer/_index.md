@@ -15,7 +15,7 @@ time=30
 +++
 
 
-# What is "Playing Computer"?
+## What is "Playing Computer"?
 You may have been directed to this page because someone suggested you try "playing computer". What does this mean?
 
 A computer program is made up of a sequence of instructions, carried one after the other.
@@ -29,7 +29,7 @@ Playing computer can be useful when:
 
 This page has an explanation of how to play computer, advice for trainees and volunteers, and some worked examples playing computer with a couple of different functions.
 
-# How to Play Computer
+## How to Play Computer
 The goal of playing computer is to pretend you are the computer, processing each line of code, and tracking everything that changes.
 You can play computer individually or in pairs.
 You can use paper or, if you prefer an online visualisation, a tool like the [Python Tutor](https://pythontutor.com/render.html#mode=display). 
@@ -64,7 +64,7 @@ You can assume that built-in functions, like those in `console.` and `Math.`, ar
 If you try to access a function or a variable that is not defined in any frame, that is an error.
 When you encounter an uncaught error, the program has crashed and you can't continue further.
 
-# Advice for Trainees
+## Advice for Trainees
 
 The goal of playing computer is to help you improve your skill at understanding how a computer interacts with code.
 You might want to encourage playing computer if you find you:
@@ -95,7 +95,7 @@ Use the following rules as a starting point.
 4. When you reach the end of a script or return from a function without any errors, your script has finished.
 
 
-# Advice for Volunteers
+## Advice for Volunteers
 
 Playing computer helps trainees build up improved mental models about how code execution works.
 It practices skills that will be helpful when debugging or testing code.
@@ -107,7 +107,7 @@ To best help facilitate playing computer, here are some tips:
 
 
 
-# Step-By-Step Example
+## Step-By-Step Example
 
 Let's work through an example function to see how we would play computer.
 We will try to figure out what this simple function is doing:
@@ -229,7 +229,7 @@ According to where we left off, the line was `let result = multiply(2,3)`. This 
 
 
 
-# Example running through buggy code
+## Example running through buggy code
 The above example shows how you would play computer with some code that works well. But what about code that isn't working right, which has bugs in it? This is where playing computer can really be helpful as it will help you to spot, and better understand, where a bug is and why it is causing a problem.
 
 We will play computer using this example code:
