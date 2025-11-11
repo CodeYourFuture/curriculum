@@ -34,7 +34,7 @@ main input:not([type="radio"]):not([type="checkbox"]) {
 }
 
 legend {
-  font: var(--theme-font--display);
+  font: var(--theme-font--copy);
   font-size: var(--theme-type-size--4);
   // float legend in a fieldset of display grid to artificially recreate a box
   float: left;
@@ -42,7 +42,7 @@ legend {
 }
 label,
 input::placeholder {
-  font: var(--theme-font--ui);
+  font: var(--theme-font--copy);
   font-size: var(--theme-type-size--6);
 }
 
