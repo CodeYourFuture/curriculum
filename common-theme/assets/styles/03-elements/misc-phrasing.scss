@@ -21,7 +21,7 @@ iframe {
 code,
 .code,
 pre code .highlight pre {
-  font: var(--theme-font--system);
+  font: var(--theme-font--code);
 }
 p > code {
   line-height: 1.5; // prevent inline code from breaking paragraph layouts

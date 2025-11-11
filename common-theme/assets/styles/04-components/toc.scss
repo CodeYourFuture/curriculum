@@ -23,7 +23,7 @@
   // feel free to tackle if you have spare time
   ol > li {
     
-    font-family: var(--theme-font--display);
+    font: var(--theme-font--ui);
     font-weight: 300;
     &:before {
       display: inline-block;
@@ -45,7 +45,7 @@
 
     li {
       text-transform: none;
-      font-family: var(--theme-font--copy);
+      font: var(--theme-font--copy);
       &::marker {
         color: var(--theme-color--pop);
       }

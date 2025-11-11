@@ -2,7 +2,7 @@ svg {
   height: 100%;
   width: auto;
   min-width: var(--theme-spacing--touchtarget);
-  font: var(--theme-font--display);
+  font: var(--theme-font--ui);
 }
 
 img {
@@ -32,6 +32,6 @@ figure img {
 
 figcaption {
   padding: var(--theme-spacing--gutter);
-  font-family: var(--theme-font--display);
+  font: var(--theme-font--ui);
   border-bottom: var(--theme-border);
 }

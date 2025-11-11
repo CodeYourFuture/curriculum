@@ -96,7 +96,7 @@
   &__time {
     display: block;
     color: var(--theme-color--ink);
-    font-family: var(--theme-font--display);
+    font: var(--theme-font--ui);
     font-weight: 300;
     line-height: normal;
     font-size: var(--theme-type-size--6);
