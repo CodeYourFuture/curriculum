@@ -64,7 +64,6 @@ You can assume that built-in functions, like those in `console.` and `Math.`, ar
 If you try to access a function or a variable that is not defined in any frame, that is an error.
 When you encounter an uncaught error, the program has crashed and you can't continue further.
 
-
 # Advice for Trainees
 
 The goal of playing computer is to help you improve your skill at understanding how a computer interacts with code.
@@ -84,6 +83,16 @@ Here are some examples you might use:
 * **Purpose**: What was the purpose of this code? Does its behaviour match what you think it should be doing? Does the code perform as expected? 
 * **Problems**: Are there any bugs or errors? Can you think of any problems this code might have if you changed the inputs? Does it need any input validation or error handling?
 * **Improvements**: Based on your experience playing computer, could you make any changes to this code to improve it? Does it get stuck in lots of loops that could be made more efficient? Are there variables that could be better named?
+
+### Rules for working in Pairs
+To get comfortable with playing computer, trying it out a few times in pairs may help.
+Use the following rules as a starting point.
+
+0. Only one person plays computer in a given frame at once, you can take turns
+1. You start at the top of a script or function and run down line by line.
+2. Evaluate what each line does and update the frame memory and output as you go, writing down on paper if that helps.
+3. When a function is called and you "step into" it, use a new piece of paper and swap in your pair.
+4. When you reach the end of a script or return from a function without any errors, your script has finished.
 
 
 # Advice for Volunteers
@@ -114,8 +123,6 @@ function multiply(x, y){
 let result = multiply(2,3);
 console.log(result);
 ```
-
-
 
 {{<tabs name="playcomputer">}}
 ===[[Getting Started]]===
@@ -202,11 +209,7 @@ console.log(result);
 ||sum:6 |
 || **Return:6** |
 1. We now have to go back to where we were before we stepped into the function. You can now erase or throw away the function scope memory now as we have left it.
-| Global Frame |
-|-|
-| multiply(x,y) |
-| **returned value:6** |
-1. According to where we left off, the line was `let result = multiply(2,3)`. This is creating a new variable in the global frame, and assigning it the returned value. We now need to update the global frame. Notice how none of the variables used within the function (the local frame) exist any more:
+According to where we left off, the line was `let result = multiply(2,3)`. This is creating a new variable in the global frame, and assigning it the returned value. We now need to update the global frame. Notice how none of the variables used within the function (the local frame) exist any more:
 | Global Frame |
 |-|
 | multiply(x,y) |
@@ -273,14 +276,8 @@ console.log(squareNumber(otherNumber));
 1. We need to look up the values used in the expression. They are both the same variable - number. We look this up in the local frame:
 1. Notice _number is not listed!_. We have to then see if it exists in our global frame instead.
 1. Now we can remember it has the value 2 in it. We evaluate the expression `2**2`, which in JavaScript is the equivalent of 2 to the power of 2, giving us an answer of 4
-1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame:
-| Global Frame |
-|-|
-| number:2 |
-| otherNumber:3 |
-| squareNumber(numbers) |
-| **returned value:4** |
-1. We next pass the value 4 that was returned from the function to the final console.log(). We look up console.log() in our global frame. It is not there, but we know that console.log is a built-in function so we can still use it. This gives us our output, and we can move on:
+1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame.
+We next pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that console.log is a built-in function so we can still use it. This gives us our output, and we can move on:
 | Global Frame |Output|
 |-|-|
 | number:2 |**4**|
@@ -305,13 +302,7 @@ console.log(squareNumber(otherNumber));
 1. Notice _number is not listed!_. We have to then see if it exists in our global frame instead.
 1. Now we can remember it has the value 2 in it. We evaluate the expression `2**2`, which in JavaScript is the equivalent of 2 to the power of 2, giving us an answer of 4
 1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame:
-| Global Frame |Output |
-|-|-|
-| number:2 |4|
-| otherNumber:3 ||
-| squareNumber(numbers) ||
-| **returned value:4** ||
-1. We next pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that `console.log` is a built-in function so we can still use it. This gives us our output, and we can move on:
+We next pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that `console.log` is a built-in function so we can still use it. This gives us our output, and we can move on:
 | Global Frame |Output|
 |-|-|
 | number:2 | 4|
