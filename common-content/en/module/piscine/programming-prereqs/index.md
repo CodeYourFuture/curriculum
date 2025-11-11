@@ -1,7 +1,6 @@
 +++
 title="Programming Prerequisites"
 time=15
-emoji="🌱"
 hide_from_overview=true
 tasks = [
   "List the limited subset of JavaScript concepts we expect you to know before joining the Piscine",

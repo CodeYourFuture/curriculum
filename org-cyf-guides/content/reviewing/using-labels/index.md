@@ -1,7 +1,6 @@
 +++
 title = "Using Labels"
 description="How to make your PR easier to understand and track"
-emoji = "🏷️"
 weight = 3
 +++
 

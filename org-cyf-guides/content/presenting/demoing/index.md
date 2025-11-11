@@ -1,7 +1,6 @@
 +++
 title = 'Demos'
 description = "Sharing something you've done with people"
-emoji = '📢'
 +++
 
 Make sure you've read all of [the general presentation guidance](../presenting). This page adds to that information.

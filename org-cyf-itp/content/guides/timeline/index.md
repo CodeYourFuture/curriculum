@@ -2,7 +2,6 @@
 title = "Timeline "
 description = "Check your class progress against the ITP timeline"
 time = 30
-emoji= "📅"
 +++
 
 ## Timeline of ITP, staying on track:

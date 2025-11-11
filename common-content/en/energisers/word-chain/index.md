@@ -1,6 +1,5 @@
 +++
 title="Word Chain"
-emoji="🔤"
 time=15
 [tasks]
 1="Think quickly and associate words in English"

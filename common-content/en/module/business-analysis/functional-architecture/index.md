@@ -2,7 +2,6 @@
 title = "Functional architecture"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Describe what is functional architecture",
     "Allocate required functionalities to modules or components within such as architecture"

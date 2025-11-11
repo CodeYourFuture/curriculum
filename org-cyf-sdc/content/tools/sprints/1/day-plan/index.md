@@ -1,12 +1,17 @@
 +++
 title = "Day Plan"
 layout = "day-plan"
-emoji = "🧑🏾‍🤝‍🧑🏾"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]
 name = "Morning orientation"
 src = "blocks/morning-orientation"
+[[blocks]]
+name = "How we work"
+src = "module/sdc-induction/how-we-work"
+[[blocks]]
+name = "Goals"
+src = "module/sdc-induction/goals"
 [[blocks]]
 name = "Using a project board workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
@@ -17,15 +22,7 @@ src = "blocks/morning-break"
 [[blocks]]
 name = "Terminal skills workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
-time = "45"
-[[blocks]]
-name = "Study Group"
-src = "blocks/study-group"
-time = "30"
-[[blocks]]
-name = "Games, rules, logic and strategy"
-src = "blocks/games"
-time = "25"
+time = "60"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"
@@ -36,18 +33,7 @@ time = "30"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "45"
-[[blocks]]
-name = "Code Review"
-src = "https://github.com/CodeYourFuture/Module-Tools/pulls"
-time = "0"
-[[blocks]]
-name = "Afternoon break"
-src = "blocks/afternoon-break"
-[[blocks]]
-name = "Study Group"
-src = "blocks/study-group"
-time = "60"
+time = "130"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"

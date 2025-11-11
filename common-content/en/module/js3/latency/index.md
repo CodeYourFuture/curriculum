@@ -2,7 +2,6 @@
 title = 'Latency'
 
 time = 5
-emoji= '🗓️'
 [objectives]
   1='Define latency'
 [build]

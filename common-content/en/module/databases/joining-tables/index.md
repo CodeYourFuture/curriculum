@@ -2,7 +2,6 @@
 title = 'Joining Tables'
 
 time = 45
-emoji= '🔗'
 [objectives]
     1='Combine tables together using `INNER JOIN`'
 [build]

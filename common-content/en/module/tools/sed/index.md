@@ -1,7 +1,6 @@
 +++
 title = "sed"
 time = 30
-emoji = "💻"
 objectives = [
   "Remove numbers from the start of lines in a file using `sed`.",
   "Replace occurrences of one string in a file with another using `sed`.",

@@ -2,7 +2,6 @@
 title = "Discussion: Technical Interviews"
 description = "Help each other improve at technical interviews"
 time = 30
-emoji= "🗣️"
 objectives = [
     "Identify preparation and techniques for succeeding at technical interviews."
 ]

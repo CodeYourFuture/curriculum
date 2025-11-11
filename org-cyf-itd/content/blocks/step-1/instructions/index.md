@@ -1,7 +1,6 @@
 +++
 title ="Step 1: What to do"
 description= "Essential Digital Skills: Navigating Slack & Google Search"
-emoji= "🗨"
 time= 60
 [build]
   render = 'never'

@@ -1,7 +1,6 @@
 +++
 title = "Type-guided refactorings"
 time = 30
-emoji= "⌨️"
 objectives = [
   "Explain how type annotations and type checking can guide refactorings.",
   "Use mypy to guide a refactoring.",

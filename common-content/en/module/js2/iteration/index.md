@@ -2,7 +2,6 @@
 title = 'Iteration'
 
 time = 20
-emoji= '🔁'
 [objectives]
     1='Define iteration'
     2='Explain why iteration is relevant in a particular problem'

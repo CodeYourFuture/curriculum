@@ -2,7 +2,6 @@
 title = 'Sprint index'
 description="A structured index of activities for this block of time"
 layout = 'sprint'
-emoji= '🎽'
 weight = 2
 +++
 

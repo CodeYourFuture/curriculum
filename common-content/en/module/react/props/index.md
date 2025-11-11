@@ -2,7 +2,6 @@
 title = 'Props'
 
 time = 15
-emoji= '📦'
 [objectives]
     1='Pass props to a component'
     2='Read props from a component'

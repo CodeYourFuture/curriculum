@@ -1,7 +1,6 @@
 +++
 title ="Step 4: What to do"
 description= "Build a personal webpage on CodePen"
-emoji= "🤖"
 time= 480
 [build]
   render = 'never'

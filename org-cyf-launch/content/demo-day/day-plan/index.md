@@ -1,7 +1,6 @@
 +++
 title = "Day Plan"
 description = "Show off what you've built to our community and employers"
-emoji = "🧑🏽‍🤝‍🧑🏽"
 menu_level = ["sprint"]
 weight = 3
 +++

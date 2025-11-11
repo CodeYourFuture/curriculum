@@ -3,7 +3,6 @@ title = "Limitations of a single request/response"
 headless = true
 time = 30
 facilitation = false
-emoji= "✋"
 objectives = [
     "Identify the limitations of loading a website via a single request and response.",
     "Give examples of functionality that relies on subsequent data transfer from the server to the client.",

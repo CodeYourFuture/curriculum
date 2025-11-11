@@ -2,7 +2,6 @@
 title = 'Check progress'
 
 time = 15
-emoji= '📝'
 hide_from_overview = true
 [objectives]
     1='Use a plan to check progress in solving a problem'

@@ -2,7 +2,6 @@
 title = 'User stories'
 time = 50
 vocabulary=["Requirements", "User Stories"]
-emoji= '👤'
 [objectives]
     1='Identify described requirements'
     2='Identify extra requirements from your own experience'

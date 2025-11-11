@@ -1,7 +1,6 @@
 +++
 title ="Step 6: How to check your work"
 description= "Acceptance criteria for step six"
-emoji= "✅"
 time= 10
 [build]
   render = 'never'
@@ -17,6 +16,7 @@ Here are the criteria you need to meet:
 - Your Google Doc contains a link to your CodePen containing the solution
 - Your Google Doc contains a screenshot which meets the requirements in the instructions
 - Your Google Doc contains a link to your conversation with the AI
+- Your Google Doc contains answers to the questions in the 5 - Self Check section
 - Your Google Doc has your name in the title
 - Your Google doc is public
 - You have submitted a link to your Google doc

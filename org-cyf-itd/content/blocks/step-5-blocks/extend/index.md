@@ -1,7 +1,6 @@
 +++
 title ="Step 1: Extend Your Skills"
 description= "Explore more concepts in CYF Blocks"
-emoji= "💪🏾"
 time= 5
 [build]
   render = 'never'

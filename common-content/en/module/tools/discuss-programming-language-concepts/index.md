@@ -2,7 +2,6 @@
 title = "Discussion: programming language concepts"
 
 time = 60
-emoji = "🧰"
 objectives = [
   "Define the term variable.",
   "Explain the purpose of main memory.",

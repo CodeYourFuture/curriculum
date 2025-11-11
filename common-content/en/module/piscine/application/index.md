@@ -1,7 +1,6 @@
 +++
 title="Entry Criteria"
 time=2
-emoji="🎯"
 hide_from_overview=true
 objectives = [
   "List the mandatory requirements for the Piscine.",

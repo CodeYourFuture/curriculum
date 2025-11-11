@@ -2,7 +2,6 @@
 title = 'Keys'
 
 time = 10
-emoji= '🔑'
 [objectives]
     1='Explain why React needs keys'
 [build]

@@ -1,6 +1,5 @@
 +++
 title="Energiser: Telephone!"
-emoji="📞"
 hide_from_overview=true
 time=15
 [tasks]

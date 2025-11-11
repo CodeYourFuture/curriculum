@@ -2,7 +2,6 @@
 title = 'Testing a sub-goal'
 
 time = 15
-emoji= '🔎'
 hide_from_overview = true
 [objectives]
     1='Test a solution to a sub-goal before solving the whole problem'

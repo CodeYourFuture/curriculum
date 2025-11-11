@@ -1,7 +1,6 @@
 +++
 title="Trainee PR Guide"
 description="What trainees should know about PR in {{<our-name>}} courses"
-emoji="📝"
 weight="2"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "🫱🏽‍🫲🏾 Briefing"
+title = "Briefing"
 time = 30
 [build]
   render = "never"

@@ -1,6 +1,5 @@
 +++
 title="Interviews"
-emoji="🎤🏾"
 time=45
 objectives = [
   "Predict and explain the execution of a computer program",

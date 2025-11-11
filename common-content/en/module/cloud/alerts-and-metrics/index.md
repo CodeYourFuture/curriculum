@@ -2,7 +2,6 @@
 title = 'Creating Alerts and Understanding Metrics'
 
 time = 20
-emoji= '🚨'
 [objectives]
     1='Create an alert in Cloudwatch'
 [build]

@@ -1,9 +1,8 @@
 +++
-title = "Sprint 4"
+title = "Sprint 5"
 description = "The plan for this sprint"
 layout = "sprint"
-emoji = "⏱️"
 menu_level = ["module"]
-weight = 4
+weight = 5
 theme = "Types and typechecking: classes, objects, methods, and enums"
 +++

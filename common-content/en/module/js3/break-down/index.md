@@ -2,7 +2,6 @@
 title = 'Break down the problem'
 
 time = "30"
-emoji= '🧩'
 hide_from_overview = true
 [objectives]
     1='Identify and sequence sub tasks'

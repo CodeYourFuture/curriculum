@@ -1,7 +1,6 @@
 +++
 title ="Step 4: How to check your work"
 description= "How to check your work"
-emoji= "🤖"
 time= 5
 [build]
   render = 'never'

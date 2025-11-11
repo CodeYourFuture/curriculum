@@ -1,7 +1,6 @@
 +++
 title="Saturday"
 time=0
-emoji="🧑🏾‍🤝‍🧑🏾"
 hide_from_overview=true
 tasks = [
   "Attend the AI Essentials track on Saturday",

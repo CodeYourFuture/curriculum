@@ -3,7 +3,6 @@ title = "Data validation"
 headless = true
 time = 60
 facilitation = false
-emoji= "🔎"
 hidden_from_overview = true
 objectives = [
     "Explain the trade-offs of doing validation on the frontend or backend.",

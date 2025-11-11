@@ -3,7 +3,6 @@ title = "Using dependencies from npm"
 headless = true
 time = 20
 facilitation = false
-emoji= "📚"
 objectives = [
     "Define a library",
 ]

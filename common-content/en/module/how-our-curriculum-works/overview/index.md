@@ -1,7 +1,6 @@
 +++
 title="Overview"
 description="tl;dr How Our Curriculum Works"
-emoji="🦌"
 time=2
 [objectives]
     1="Explain the structure of our curriculum"

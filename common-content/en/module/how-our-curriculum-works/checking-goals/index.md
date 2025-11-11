@@ -1,6 +1,5 @@
 +++
 title="Have we met our goals?"
-emoji="🎯"
 time= 10
 [objectives]
     1="Explain the importance of checking learning objectives"

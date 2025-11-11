@@ -2,9 +2,11 @@
 title = "Prep"
 description = "Overview description of the prep work for the sprint"
 layout = "prep"
-emoji = "🧑🏾‍💻"
 menu_level = ["sprint"]
 weight = 1
+[[blocks]]
+title = "Get on the CYF Hosted Environment"
+src = "blocks/cyf-hosting-onboarding"
 [[blocks]]
 name = "Overview"
 src = "blocks/decomposition-sprint1-overview"

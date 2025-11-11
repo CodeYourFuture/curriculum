@@ -2,7 +2,6 @@
 title = "Epics and features"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Describe requirements at high level or in more detail (levels of granularity)", 
     "Write epics, features and stories"

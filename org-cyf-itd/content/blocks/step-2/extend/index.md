@@ -1,7 +1,6 @@
 +++
 title ="Step 2: Extend Your Skills"
 description= "Further Reading"
-emoji= "👀"
 time=5
 [build]
   render = 'never'

@@ -1,6 +1,5 @@
 +++
 title="Blockers: Traffic Jam Gameplay"
-emoji="🚗"
 time=25
 [tasks]
     1="Use the driver and navigator pattern"

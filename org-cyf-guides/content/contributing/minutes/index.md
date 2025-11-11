@@ -17,6 +17,141 @@ Attendees:
 
 ---
 
+## 2025-11-05
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Improving testing content in ITP
+
+Trainees are taking a very minimalist approach to testing. Checking PRs and marking recent Piscine projects has shown that many of them write as few tests as possible and only do so if prompted.
+
+There is a disconnect between trainees' understanding of _how_ we write tests and _why_ we write tests.
+
+We can update the exercises in ITP module 2, sprint 3 to better guide them towards the benefits of good test coverage
+
+#### Formatting of PR descriptions
+
+Some trainees are not formatting PR descriptions correctly even several weeks into the course.
+
+We can add this to the updated GitHub workshop in the ITP onboarding sprint
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Update testing content in ITP
+- [ ] Colin: Add PR formatting to ITP onboarding
+
+---
+
+## 2025-10-21
+
+Attendees: Ali Smith, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [x] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [x] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [x] Daniel: Remove emoji from all the blocks.
+- [x] Karen: Update ITD comms around course platform vs curriculum.
+
+### 📝 Agenda points
+
+#### SDC Retro
+
+We had an SDC retro covering the last two SDCs - Daniel will write up a bunch of tickets soon.
+
+Major themes that emerged:
+* The role of AI across the courses.
+* Lack of independence in interpreting and handling e.g. unexpected errors.
+* Lack of confidence in how good they are and what jobs they should be applying for.
+* When to introduce more "real" statically typed language(s), and which one.
+
+#### Hardcore frontend track
+
+Let's start thinking about what a track to produce really high quality frontend specialists would look like.
+
+Ali's initial thoughts: Knowing the browser inside out. Accessibility. Probably also TypeScript. Will give more thought.
+
+Maybe targeting "Back of the frontend" engineers - folks who are more logic-focused than UX-focused.
+
+#### Debuggers
+
+Our trainees are not very confident with debuggers (both in ITP and SDC). We have [a workshop coming up](https://programming.codeyourfuture.io/data-groups/sprints/2/day-plan/#debugging), but may want to emphasise it or bring it earlier.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
+## 2025-10-08
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Introductions - new team members!
+
+Colin joined us!
+
+#### Future of emojis in blocks
+
+We generally find them cute but not super useful, and taking time to pick emoji isn't a great use of time.
+
+Possibly it could be useful to introduce more specific limited indicators e.g. "this is an exercise" or "this is a video".
+
+We will remove the existing emoji for now.
+
+#### Integrating "listening to and understanding questions" to demo practice
+
+Our trainees have gotten much better at presenting, but often stumble when answering questions afterwards.
+
+We probably don't want to assess people on this in the Piscine straight away, but maybe start warning people "You will be asked a question you must respond to", and have the assessor ask a decent question (which we don't assess).
+
+We probably want a workshop on asking and answering questions well. We probably can't rely on _all_ volunteers to run this workshop well.
+
+In demo sessions, we can perhaps re-organise so that we do demo + feedback + questions + feedback on questions. Time-boxing both the feedback and the questions, and having someone experienced be the last person in each segment.
+
+#### Backlog
+
+Daniel cleaned up the backlog, introduced an icebox, and closed a bunch of issues.
+
+We will have more people picking up backlog items - please assign an issue to yourself if you're going to pick it up to avoid duplicate work.
+
+#### Prep for ITD in November
+
+Currently Step 3 (Google Sheets) is the big drop-off point. This aligns with it being the first non-trivial step. This is probably the best place for us to have drop-off.
+
+People get a bit confused between the course platform vs curriculum page. We probably want to update the email we send to new ITD trainees clarifying the difference between the two.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [ ] Daniel: Remove emoji from all the blocks.
+- [ ] Karen: Update ITD comms around course platform vs curriculum.
+
+---
+
 ## 2025-09-23
 
 Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein

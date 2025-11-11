@@ -1,6 +1,5 @@
 +++
 title="Active learning"
-emoji="🎬"
 time=10
 [objectives]
     1="Define active learning"

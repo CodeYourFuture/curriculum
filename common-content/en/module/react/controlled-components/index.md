@@ -2,7 +2,6 @@
 title = "Controlled Components"
 
 time = 20
-emoji= '🪤'
 [objectives]
     1='React to user input with state'
 [build]

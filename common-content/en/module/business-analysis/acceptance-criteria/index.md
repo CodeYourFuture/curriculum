@@ -2,7 +2,6 @@
 title = "Acceptance criteria"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Write clear acceptance criteria"
 ]

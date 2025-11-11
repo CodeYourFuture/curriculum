@@ -1,6 +1,5 @@
 +++
 title = "Group discussion: Working with others"
-emoji = "🧍"
 time = 15
 [build]
   render = "never"

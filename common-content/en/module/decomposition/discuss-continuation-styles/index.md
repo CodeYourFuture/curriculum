@@ -2,7 +2,6 @@
 title = "Discussion: Continuation styles"
 
 time = 30
-emoji = "🧰"
 objectives = [
   "Compare different approaches to choosing how to handle potential request errors.",
   "Understand why other people may have different preferences to you.",

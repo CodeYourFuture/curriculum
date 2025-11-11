@@ -1,6 +1,5 @@
 +++
 title="Calendar"
-emoji="📅"
 time=10
 [objectives]
     1="Join the Global Calendar"

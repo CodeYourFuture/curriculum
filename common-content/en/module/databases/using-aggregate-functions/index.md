@@ -2,7 +2,6 @@
 title = 'Using Aggregate Functions'
 
 time = 45
-emoji= '🥪'
 [objectives]
     1='Aggregate data over multiple rows and use aggregate values to restrict the results'
 [build]

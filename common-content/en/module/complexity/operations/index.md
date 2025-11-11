@@ -1,7 +1,6 @@
 +++
 title = '"Expensive" Operations'
 time = 30
-emoji= "🧮"
 [build]
   render = 'never'
   list = 'local'

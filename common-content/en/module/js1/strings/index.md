@@ -2,7 +2,6 @@
 title = 'Accessing strings'
 
 time = 20
-emoji= '🧶'
 [objectives]
  1='Define zero-indexing'
  2= 'Given a short program, determine the return value of a call to slice on a string before execution'

@@ -1,7 +1,6 @@
 +++
 title ="Step 3: How to check your work"
 description= "Acceptance criteria for step three"
-emoji= "✅"
 time=10
 [build]
   render = 'never'

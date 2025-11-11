@@ -2,7 +2,6 @@
 title = "Success"
 description = "How do we know if our product is a success?"
 layout = "success"
-emoji= "✅"
 menu_level = [ "product" ]
 weight = 11
 [[objectives]]

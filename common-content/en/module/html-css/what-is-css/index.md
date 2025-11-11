@@ -3,7 +3,6 @@ title = 'What Is CSS'
 
 time = 60
 vocabulary=['selector', 'property', 'value', 'cascade', 'specificity', 'declarative', 'precedence', 'render', 'block', 'inline']
-emoji= '🎨'
 [objectives]
     1='Define the terms: selector, property, value, cascade, specificity, declarative, precedence, render, block, and inline'
 [build]
