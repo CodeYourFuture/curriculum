@@ -28,7 +28,7 @@
       color: var(--theme-color--ink);
       transform: translateX(calc(var(--box) * -1.5));
       transition: background-color 0.3s;
-      font: var(--theme-font--system);
+      font: var(--theme-font--display);
     }
     &:hover:before {
       background-color: var(--theme-color--pop);
