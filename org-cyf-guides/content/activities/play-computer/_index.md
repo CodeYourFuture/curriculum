@@ -3,7 +3,7 @@ title="Play computer"
 description="Explore how a program works by going line by line"
 activities=["nature"]
 term=true
-emoji="🎲🖥️ "
+emoji="🎮 "
 time=30
 
 [objectives]
@@ -105,7 +105,7 @@ To best help facilitate playing computer, here are some tips:
 * If trainees are working in pairs, encourage them to take turns tracking the global frame and local frame(s) of different programs.
 * Trainees may be tempted to make assumptions about what code is doing, or skip certain parts that seem obvious. Recommend that trainees do everything fully, as this may result in the trainees missing out key learning opportunities
 
-
+Playing computer is available as a [workshop](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer) you can use in-class.
 
 ## Step-By-Step Example
 
