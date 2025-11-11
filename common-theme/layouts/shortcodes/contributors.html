@@ -1,0 +1,28 @@
+{{/* We need to get the api */}}
+{{ $repo := .Get 0 }}
+{{ if or (eq $repo "") (eq (findRE "^https://api.github.com/repos/" $repo) 0) }}
+  {{ errorf "🏷️ This shortcode needs a repo link, like this: https://api.github.com/repos/CodeYourFuture/syllabus" }}
+{{ end }}
+{{ $api := printf "%s/contributors" $repo }}
+
+{{/* Set up the auth header */}}
+{{ $headers := partial "github-auth.html" }}
+
+{{/* Let's go get our contributors list */}}
+{{ with resources.GetRemote $api $headers }}
+  {{ with .Err }}
+    {{ warnf "🏷️ No contributors: %s . Error: %s ." $api . }}
+  {{ end }}
+
+  {{ $contributors := .Content | unmarshal }}
+  <ol class="c-contributors">
+    {{ range sort $contributors ".contributions" "desc" }}
+      <li class="c-contributor">
+        <h3 class="c-contributor__name">
+          <a class="c-contributor__link" href="{{ .html_url }}">{{ .login }}</a>
+        </h3>
+        <img class="c-contributor__avatar" src="{{ .avatar_url }}" alt="" />
+      </li>
+    {{ end }}
+  </ol>
+{{ end }}
