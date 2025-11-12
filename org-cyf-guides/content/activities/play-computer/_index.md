@@ -16,10 +16,10 @@ objectives = [
 
 
 ## What is "Playing Computer"?
-You may have been directed to this page because someone suggested you try "playing computer". What does this mean?
+Someone might have sent you here because they suggested you try "playing computer". What does this mean?
 
 A computer program is made up of a sequence of instructions, carried out one after the other.
-To understand what a program is doing it can be helpful to follow these instructions one by one so we can see what is happening.
+To understand what a program is doing, following these instructions one by one lets us see what is happening.
 This is playing computer.
 
 Playing computer can be useful when:
@@ -28,10 +28,10 @@ Playing computer can be useful when:
 * You are debugging code to find out where a bug is happening
 
 This page has an explanation of how to play computer, advice for trainees and volunteers.
-There are also some worked examples playing computer with a couple of different functions.
+There are also some worked examples showing playing computer with two different functions.
 
 ## How to Play Computer
-The goal of playing computer is to pretend you are the computer, processing each line of code, and tracking everything that changes.
+The goal of playing computer is to pretend you are the computer, running each line of code, and following what changes.
 You can play computer individually or in pairs.
 You can use paper or, if you prefer an online visualisation, a tool like the [Python Tutor](https://pythontutor.com/render.html#mode=display). 
 
@@ -76,14 +76,14 @@ You might want to play computer if you find you:
 
 To get the most benefit from this, here are some suggestions:
 * Read and work through every line of code, without skipping any of them
-* Perform any calculations yourself to see what the code is _really_ doing, and avoid making assumptions about what you think it _should_ be doing
+* Avoid making assumptions about what you think it _should_ be doing. Perform calculations yourself to see what the code is _really_ doing
 * You might be tempted to avoid using notes to keep track of frames in simple scripts. While you're building up experience try to do the full exercise so you understand what is happening
 
-After playing computer, you might want to ask yourself some questions as a final step of the activity, to make sure you fully understood the code you were working with.
+After playing computer, you might want to ask yourself some questions as a final step. This helps you better understand the code you were working with.
 Here are some examples you might use: 
 * **Purpose**: What was the purpose of this code? Does its behaviour match what you think it should be doing? Does the code do what you expected? 
 * **Problems**: Are there any bugs or errors? Can you think of any problems this code might have if you changed the inputs? Does it need any input validation or error handling?
-* **Improvements**: Based on your experience playing computer, could you make any changes to this code to improve it? Does it get stuck in lots of loops that could be made more efficient? Are there variables that could be better named?
+* **Improvements**: After playing computer, could you make any changes to this code to improve it? Does it get stuck in lots of loops that could be made more efficient? Are there variables that could be better named?
 
 ### Rules for working in Pairs
 To get comfortable with playing computer, trying it out a few times in pairs may help.
@@ -102,9 +102,9 @@ Playing computer helps trainees build up improved mental models about how code e
 It practices skills that will be helpful when debugging or testing code.
 
 To best help facilitate playing computer, here are some tips:
-* Make sure that trainees are going through each line of code and following the commands as they are written
-* If trainees are working in pairs, encourage them to take turns tracking the global frame and local frame(s) of different programs.
-* Trainees may be tempted to make assumptions about what code is doing, or skip certain parts that seem obvious. Recommend that trainees do everything fully, as this may result in the trainees missing out key learning opportunities
+* Make sure that trainees are going through each line of code and are not skipping ahead
+* Encourage trainees who are working in pairs to take turns. Switch between tracking the global frame and local frame(s) of different programs
+* Trainees may be tempted to guess what code is doing, or skip parts that seem obvious. Recommend that trainees do everything, otherwise they might miss key learning opportunities
 
 Playing computer is available as a [workshop](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer) you can use in-class.
 
@@ -134,14 +134,14 @@ console.log(result);
 | **multiply(x, y)** |
 1. Because we are not running this function right now, we skip to the next line of code.
 1. The next line which does something is `let result = multiply(2, 3)`. Here we are calling a function.
-1. Make sure the function `multiply` is either on our list of globally available functions or is a built-in JavaScript function. It is on our global frame, so we can start executing it.
+1. Make sure the function `multiply` is either on a globally available function or is a built-in JavaScript function. It is on our global frame, so we can start executing it.
 1. We step into the function `multiply` using our arguments `2` and `3`.
 1. As the values 2 and 3 have been passed as arguments, we need to initialise these variables on our "Local Frame":
 |Global Frame| Local Frame |
 |-|-|
 | multiply(x, y)| **x: 2** |
 || **y: 3** |
-1. The first line of execution inside the function initialises another variable, `sum`, so we add that to the function-scope memory note:
+1. The first line inside the function initialises a variable `sum`. We add that to the function-scope local frame:
 |Global Frame| Local Frame |
 |-|-|
 | multiply(x, y)| x: 2 |
@@ -231,7 +231,8 @@ According to where we left off, the line was `let result = multiply(2, 3)`. This
 
 
 ## Example running through buggy code
-The above example shows how you would play computer with some code that works well. But what about code that isn't working right, which has bugs in it? This is where playing computer can really be helpful as it will help you to spot, and better understand, where a bug is and why it is causing a problem.
+The above example shows how you would play computer with some code that works well. But what about code that isn't working right, which has bugs in it?
+This is where playing computer can really be helpful. It will help you spot where bugs are, and understand and why it is causing a problem.
 
 We will play computer using this example code:
 ```js
@@ -267,7 +268,7 @@ console.log(squareNumber(otherNumber));
 
 ===[[First Function]]===
 
-1. We have now entered a new scope, so we need to build up a new local frame, recording the value 2 that was passed as a parameter to the function.
+1. We have now entered a new scope, so we need to build a new local frame. First record the value 2 that was passed as a parameter to the function.
 | Global Frame | Local Frame |
 |-|-|
 |  number:2 |**numbers:2** |
@@ -291,7 +292,7 @@ We next pass the value 4 that was returned from the function to the final `conso
 
 ===[[Second Function]]===
 
-1. The next line works in much the same way as the last one. From our global frame, we find the function squareNumber and the value we want to pass to it, otherNumber, which has the value 3.
+1. The next line works in much the same way as the last one. From our global frame, we find the function `squareNumber` and the value we want to pass to it, `otherNumber`, which has the value 3.
 1. We have now entered a new scope, so we need to build up a new local frame, recording the value 3 that was passed as a parameter to the function.
 | Global Frame | Local Frame | Output |
 |-|-|-|
@@ -322,16 +323,16 @@ We next pass the value 4 that was returned from the function to the final `conso
 | squareNumber(numbers) |
 1. First, did the JavaScript behave as expected? Our function was called squareNumber, so we expect it to square some numbers. Is this what happened?
     * We gave it an input 2, and it printed the value 4. that's correct.
-    * We gave it an input 3, and it printed the value 4. If we square 3 we should have got the answer 9, so something has gone wrong    
-1. Our goal with playing computer in buggy code is to identify the source of bugs by doing exactly what the computer does. Let's try to think about the places where a bug might have happened.
+    * We gave it an input 3, and it printed the value 4. If we square 3 we should have got the answer 9, so something has gone wrong.
+1. Our goal with playing computer in buggy code is to identify the source of bugs. We do this by doing exactly what the computer does. Let's think about the places where a bug might have happened.
     * Remember when we tried to look up the variable `number` and found it did not exist in the local frame? That might be a cause of the problem.
     * We could investigate further by changing some of the values.
     * What happens if we changed the `number` variable to 3? It would then give us the output 27 (cubing instead of squaring) each time. That might also be a problem.
 1. How could we fix the problems? 
-    * We spotted that the `number` variable wasn't working right, so we should rename the variables used inside the squareNumber function.
-    * The parameter `numbers` is too similar to other variables like `number`, so a more obvious name like `inputNumber` makes more sense.
-    * The first variable in the expression `number**number` should be renamed so points to this parameter instead of the global variable: `inputNumber**number`
-    * When squaring things we want to always use the power of 2, so it might be better to hard-code this instead of relying on a global variable that might change: `inputNumber**2`
+    * We saw the `number` variable wasn't working right. We should rename the variables used inside the `squareNumber` function.
+    * The parameter `numbers` has a similar name to other variables like `number`. A more obvious name like `inputNumber` makes more sense.
+    * The first variable in the expression `number**number` should be the parameter instead of the global: `inputNumber**number`
+    * When squaring we always use the power of 2. It might be better to hard-code this instead of relying on a global that might change: `inputNumber**2`
 
 If you try playing computer again, you'll see that it works as expected, logging the values 4 and 9 to the output. Much better!
 {{</tabs>}}
