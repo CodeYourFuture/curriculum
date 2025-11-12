@@ -71,7 +71,7 @@ If you've not encountered any syntax before, remember to look it up in some docu
 
 ===[[Exercise 2]]===
 
-### 🕹️ Playing computer
+### 🎮 Playing computer
 
 ```js
 function getCountryCode(phoneNumber) {
