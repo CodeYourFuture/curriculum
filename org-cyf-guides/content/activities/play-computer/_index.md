@@ -236,14 +236,14 @@ This is where playing computer can really be helpful. It will help you spot wher
 
 We will play computer using this example code:
 ```js
-function squareNumber(numbers) {
-    return number**number;
+function double(numbers) {
+    return number*2;
 }
 
 let number = 2;
 let otherNumber = 3;
-console.log(squareNumber(number));
-console.log(squareNumber(otherNumber));
+console.log(double(number));
+console.log(double(otherNumber));
 ```
 
 {{<tabs name="playbrokencomputer">}}
@@ -254,15 +254,15 @@ console.log(squareNumber(otherNumber));
 1. We read past the function definition, recording it in our global frame:
 | Global Frame |
 |-|
-| **squareNumber(numbers)** |
+| **double(numbers)** |
 1. We now have a couple of variable declarations we need to add to the frame:
 | Global Frame |
 |-|
 |  **number:2** |
 | **otherNumber:3** |
-| squareNumber(numbers) |
-1. At the next line, we have two functions being called. console.log and squareNumber. We need to evaluate squareNumber() first. We look it up in our global frame, see it is defined, so we start that function. We have to look up the number variable as this is going to be passed as an argument.
-1. We pass the value 2 to our `squareNumber` function.
+| double(numbers) |
+1. At the next line, we have two functions being called. `console.log` and `double`. We need to evaluate `double` first. We look it up in our global frame, see it is defined, so we start that function. We have to look up the number variable as this is going to be passed as an argument.
+1. We pass the value 2 to our `double` function.
 
 👉🏼 [Next](#playbrokencomputer-1)
 
@@ -273,18 +273,18 @@ console.log(squareNumber(otherNumber));
 |-|-|
 |  number:2 |**numbers:2** |
 | otherNumber:3 ||
-| squareNumber(numbers) | |
-1. Moving to the next line of our function, we are immediately returning an expression. The expression `number**number` needs to be evaluated first before we can return it.
-1. We need to look up the values used in the expression. They are both the same variable - number. We look this up in the local frame:
-1. Notice _number is not listed!_. We have to then see if it exists in our global frame instead.
-1. Now we can remember it has the value 2 in it. We evaluate the expression `2**2`, which in JavaScript is the equivalent of 2 to the power of 2, giving us an answer of 4
+| double(numbers) | |
+1. Moving to the next line of our function, we are immediately returning an expression. The expression `number*2` needs to be evaluated first before we can return it.
+1. We need to look up the value used in the variable `number`. We look this up in the local frame.
+1. Notice `number` _is not in the local frame!_. We have to then see if it exists in our global frame instead.
+1. Now we can remember it has the value 2 in it. We evaluate the expression `2*2`, which in JavaScript is the equivalent of 2 times 2, giving us an answer of 4
 1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame.
-We next pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that console.log is a built-in function so we can still use it. This gives us our output, and we can move on:
+1. We pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that it is a built-in function so we can still use it. This gives us our output, and we can move on:
 | Global Frame |Output|
 |-|-|
 | number:2 |**4**|
 | otherNumber:3 ||
-| squareNumber(numbers) ||
+| double(numbers) ||
 
 
 👉🏼 [Next](#playbrokencomputer-2)
@@ -292,24 +292,24 @@ We next pass the value 4 that was returned from the function to the final `conso
 
 ===[[Second Function]]===
 
-1. The next line works in much the same way as the last one. From our global frame, we find the function `squareNumber` and the value we want to pass to it, `otherNumber`, which has the value 3.
+1. The next line works in much the same way as the last one. From our global frame, we find the function `double` and the value we want to pass to it, `otherNumber`, which has the value 3.
 1. We have now entered a new scope, so we need to build up a new local frame, recording the value 3 that was passed as a parameter to the function.
 | Global Frame | Local Frame | Output |
 |-|-|-|
 |  number:2 |**numbers:3** | 4|
 | otherNumber:3 |||
-| squareNumber(numbers) | ||
-1. Moving to the next line of our function, we are immediately returning an expression. The expression `number**number` needs to be evaluated first before we can return it.
-1. We need to look up the values used in the expression. They are both the same variable - number. We look this up in the local frame:
-1. Notice _number is not listed!_. We have to then see if it exists in our global frame instead.
-1. Now we can remember it has the value 2 in it. We evaluate the expression `2**2`, which in JavaScript is the equivalent of 2 to the power of 2, giving us an answer of 4
-1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame:
-We next pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that `console.log` is a built-in function so we can still use it. This gives us our output, and we can move on:
+| double(numbers) | ||
+1. Moving to the next line of our function, we are immediately returning an expression. The expression `number*2` needs to be evaluated first before we can return it.
+1. We need to look up the value used in the variable `number`. We look this up in the local frame.
+1. Notice `number` _is not in the local frame!_. We have to then see if it exists in our global frame instead.
+1. Now we can remember it has the value 2 in it. We evaluate the expression `2*2`, which in JavaScript is the equivalent of 2 times 2, giving us an answer of 4
+1. Lastly, we return this value 4 back out of our function. We don't need the local frame any more, and we can get rid of it, leaving us only the global frame.
+1. We pass the value 4 that was returned from the function to the final `console.log()`. We look up `console.log()` in our global frame. It is not there, but we know that it is a built-in function so we can still use it. This gives us our output, and we can move on:
 | Global Frame |Output|
 |-|-|
 | number:2 | 4|
 | otherNumber:3 |**4**|
-| squareNumber(numbers) ||
+| double(numbers) ||
 
 👉🏼 [Next](#playbrokencomputer-3)
 
@@ -320,19 +320,18 @@ We next pass the value 4 that was returned from the function to the final `conso
 |-|-|
 | number:2 | 4|
 | otherNumber:3 |4|
-| squareNumber(numbers) |
-1. First, did the JavaScript behave as expected? Our function was called squareNumber, so we expect it to square some numbers. Is this what happened?
-    * We gave it an input 2, and it printed the value 4. that's correct.
-    * We gave it an input 3, and it printed the value 4. If we square 3 we should have got the answer 9, so something has gone wrong.
+| double(numbers) |
+1. First, did the JavaScript behave as expected? Our function was called double, so we expect it to multiply a number by 2. Is this what happened?
+    * We gave it an input 2, and it printed the value 4. That's correct.
+    * We gave it an input 3, and it printed the value 4. If we double 3 we should get the answer 6, so something has gone wrong.
 1. Our goal with playing computer in buggy code is to identify the source of bugs. We do this by doing exactly what the computer does. Let's think about the places where a bug might have happened.
     * Remember when we tried to look up the variable `number` and found it did not exist in the local frame? That might be a cause of the problem.
     * We could investigate further by changing some of the values.
-    * What happens if we changed the `number` variable to 3? It would then give us the output 27 (cubing instead of squaring) each time. That might also be a problem.
+    * What happens if we changed the `number` variable to 3? It would then always give us the output 6. That also does not look right.
 1. How could we fix the problems? 
-    * We saw the `number` variable wasn't working right. We should rename the variables used inside the `squareNumber` function.
-    * The parameter `numbers` has a similar name to other variables like `number`. A more obvious name like `inputNumber` makes more sense.
-    * The first variable in the expression `number**number` should be the parameter instead of the global: `inputNumber**number`
-    * When squaring we always use the power of 2. It might be better to hard-code this instead of relying on a global that might change: `inputNumber**2`
+    * We saw we never used the `numbers` parameter. This is probably where the bug is.
+    * First, the parameter `numbers` has a similar name to other variables like `number`. A more obvious name like `inputNumber` makes more sense and prevents easy mistakes.
+    * Then, we should fix the first variable in the expression `number*2` so it does not use the global any more: `inputNumber*2`
 
-If you try playing computer again, you'll see that it works as expected, logging the values 4 and 9 to the output. Much better!
+If you change this and try playing computer again, you'll see that it works as expected, logging the values 4 and 6 to the output. Much better!
 {{</tabs>}}
