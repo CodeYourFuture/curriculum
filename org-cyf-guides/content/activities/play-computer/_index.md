@@ -5,12 +5,13 @@ activities=["nature"]
 term=true
 time=30
 
-[objectives]
-    1='Analyse each line in a given program and state what the line does when the program executes'
-    2='Differentiate between a function declaration and a function invocation'
-    3='Define a frame'
-    4='Describe what happens when a function is called'
-    5='Differentiate between a local frame and a global frame'
+objectives = [
+    'Analyse each line in a given program and state what the line does when the program executes'
+    'Differentiate between a function declaration and a function invocation'
+    'Define a frame'
+    'Describe what happens when a function is called'
+    'Differentiate between a local frame and a global frame'
+]
 +++
 
 
