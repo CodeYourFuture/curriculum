@@ -47,7 +47,7 @@
 
     &::before {
       content: attr(data-heading);
-      font-family: var(--theme-font--display);
+      font: var(--theme-font--ui);
       font-size: var(--theme-type-size--3);
     }
   }

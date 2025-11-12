@@ -34,14 +34,16 @@ main input:not([type="radio"]):not([type="checkbox"]) {
 }
 
 legend {
-  font: var(--theme-type-size--4) var(--theme-font--display);
+  font: var(--theme-font--copy);
+  font-size: var(--theme-type-size--4);
   // float legend in a fieldset of display grid to artificially recreate a box
   float: left;
   padding: var(--theme-spacing--1) 0;
 }
 label,
 input::placeholder {
-  font: var(--theme-type-size--3) var(--theme-font--system);
+  font: var(--theme-font--copy);
+  font-size: var(--theme-type-size--6);
 }
 
 [type="submit"] {
