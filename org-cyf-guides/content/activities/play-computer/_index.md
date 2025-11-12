@@ -3,7 +3,6 @@ title="Play computer"
 description="Explore how a program works by going line by line"
 activities=["nature"]
 term=true
-emoji="🎮 "
 time=30
 
 [objectives]
