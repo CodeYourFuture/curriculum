@@ -6,10 +6,10 @@ term=true
 time=30
 
 objectives = [
-    'Analyse each line in a given program and state what the line does when the program executes'
-    'Differentiate between a function declaration and a function invocation'
-    'Define a frame'
-    'Describe what happens when a function is called'
+    'Analyse each line in a given program and state what the line does when the program executes',
+    'Differentiate between a function declaration and a function invocation',
+    'Define a frame',
+    'Describe what happens when a function is called',
     'Differentiate between a local frame and a global frame'
 ]
 +++
