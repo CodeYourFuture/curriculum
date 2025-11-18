@@ -15,6 +15,7 @@
       calc(var(--theme-spacing--container-min) * 2)
     )
     var(--theme-spacing--2) 1fr var(--theme-spacing--gutter);
+    min-height: 184px;
 
   @include on-event {
     box-shadow: var(--theme-box-shadow--slim);

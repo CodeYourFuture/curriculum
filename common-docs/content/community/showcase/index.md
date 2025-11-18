@@ -2,7 +2,6 @@
 title="Showcase"
 description="If you're using the common theme, we'd love to feature you here"
 menu=["community"]
-emoji="👨🏿‍🎤🧑🏼‍🔧🧕🏽"
 layout="prep"
 [[blocks]]
 name="MigraCode Barcelona"

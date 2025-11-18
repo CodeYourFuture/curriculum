@@ -2,7 +2,6 @@
 title = 'Sprint 2'
 description = 'Demo your project; kick off the next group project'
 layout = 'sprint'
-emoji= '🎽'
 menu_level = ['module']
 menu=['sprints']
 weight = 3

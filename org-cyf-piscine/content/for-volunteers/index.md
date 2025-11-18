@@ -2,7 +2,6 @@
 title = "For volunteers"
 description = "How to run a Piscine"
 layout = "prep"
-emoji= "🧑🏾‍💻"
 menu_level = ["module"]
 menu = ["entry"]
 weight = 3

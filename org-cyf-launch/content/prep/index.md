@@ -2,7 +2,6 @@
 title = 'Apply'
 description = 'Getting ready to launch'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=["apply"]
 weight = 1

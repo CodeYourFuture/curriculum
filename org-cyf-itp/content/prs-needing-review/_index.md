@@ -2,7 +2,6 @@
 title="ITP PRs needing review"
 layout="needs-review"
 weight=2
-emoji="🧑🏾‍🤝‍🧑🏾"
 GitHubRepos = [
     "Module-Onboarding",
     "Module-Structuring-And-Testing-Data",
