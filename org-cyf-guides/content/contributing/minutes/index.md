@@ -17,6 +17,59 @@ Attendees:
 
 ---
 
+## 2025-11-18
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Update testing content in ITP
+- [ ] Colin: Add PR formatting to ITP onboarding
+
+### 📝 Agenda points
+
+#### ITD: Slack on phones
+
+Goal: Have our trainees see our messages more.
+
+We should probably start instructing trainees to install Slack on their phones in ITD, for more reliable communication.
+
+Some people may object to installing apps and enabling notification. We won't check they've installed things, or require notifications - but making sure people see messages is important.
+
+We're pretty sure there's a welcome message when people join the workspace. We don't know what it says - will find out. But may want to modify this.
+
+Canvases confuse people - we probably want a single view (probably not a Slack canvas) which has a "getting started" guide and reference links. Maybe on the start of the ITD curriculum page.
+
+#### Structure of the curriculum - projects, tracks, …
+
+We have quite a chaotic spread of websites at the moment, e.g. https://projects.codeyourfuture.io/ is separate from everything else.
+
+We generally want to merge things together into one site wherever possible, but don't necessarily want to put in much work in migrating. But new content should probably lean in this direction.
+
+#### ITP: Add alumni "This course is tough" to the Welcome sprint of ITP
+
+We notice people dropping out because of incorrect expectations around how much work the course is.
+
+It doesn't help that the difficulty ramps up.
+
+Maybe having people who recently did the course come and report their experience of how much they needed to focus on the course would help expectation set.
+
+Most cohorts don't get an alum into class as it is. But Karen's team can help enable this.
+
+A fallback video could be useful if we can't find someone, too.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] Karen: Work out how to better centralise ITD intro information (including a nudge to install Slack on phone)
+- [ ] Karen: Get a "no really, work at ITP" video recorded and added to the curriculum
+
+---
+
 ## 2025-11-05
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
