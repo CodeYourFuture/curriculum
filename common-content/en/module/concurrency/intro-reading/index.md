@@ -1,6 +1,6 @@
 +++
 title = "Intro Reading"
-time = 5
+time = 60
 objectives = [
   "Define concurrency.",
   "Differentiate between parallelism and concurrency.",
