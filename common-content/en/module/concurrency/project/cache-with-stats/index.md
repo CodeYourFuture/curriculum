@@ -16,7 +16,7 @@ A cache is used to store some result (probably because it was in some way expens
 
 Caches (like many problems) involves trade-offs. We are using some memory (by storing results) to save some other resource in the future (often compute time).
 
-(Note that caches can get _very_ sophisticated - we're going to write quite a simple one).
+Note that caches can get _very_ sophisticated - we're going to write quite a simple one.
 
 Often times, when we use a cache, we want to limit how much memory it will use. This means we need to sometimes delete things from the cache. There are different policies for cache eviction. The one we are going to pick is "least recently used" (or LRU).
 
