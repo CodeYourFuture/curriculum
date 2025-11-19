@@ -22,7 +22,4 @@ src="module/databases/defining-keys"
 [[blocks]]
 name="Integration with Node"
 src="module/databases/integration-with-node"
-[[blocks]]
-name="Find and Analyse a Job Description"
-src="https://cyf-pd.netlify.app/blocks/find-and-analyse-a-job-description/readme/"
 +++

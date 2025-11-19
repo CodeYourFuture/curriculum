@@ -1,6 +1,6 @@
 +++
 title = 'Sprint 3'
-description = 'The plan for the sprint'
+description = 'Accessing data from NodeJS'
 layout = 'sprint'
 menu_level = ['module']
 weight = 4
