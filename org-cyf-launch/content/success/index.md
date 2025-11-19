@@ -2,7 +2,6 @@
 title = 'Exit Criteria'
 description = 'Success means: being employable.'
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 menu=['demo']
 weight = 11

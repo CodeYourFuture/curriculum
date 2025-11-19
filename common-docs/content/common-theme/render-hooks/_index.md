@@ -2,7 +2,6 @@
 title="Render Hooks"
 layout="slimdex"
 description="Render hooks override existing markdown rendering in Hugo"
-emoji="🪝"
 menu=["theme"]
 +++
 

@@ -4,7 +4,6 @@ weight=2
 menu="start here"
 url="https://programming.codeyourfuture.io/"
 description="Programming with JavaScript, Python, and SQL; collaborate to deliver working software with tests"
-emoji="🐣"
 days=91
 commitment="part time"
 frequency=3

@@ -1,7 +1,6 @@
 name="Post-ITP Tracks"
 code="itp-tracks"
 url="https://tracks.codeyourfuture.io/"
-emoji="👣"
 weight=3
 description="Targeting roles in tech that aren't focused on writing code day-to-day"
 menu="start here"

@@ -1,7 +1,6 @@
 +++
 title="Custom Front Matter"
 description="Custom metadata that has special powers in the common theme."
-emoji="🧙"
 layout="prep"
 menu=["theme"]
 [[blocks]]

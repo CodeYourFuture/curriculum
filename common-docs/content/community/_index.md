@@ -2,7 +2,6 @@
 title="If not you, who?"
 description="Is something missing? Can you make it better?"
 menu=["community", "syllabus"]
-emoji="🫱🏽‍🫲🏿"
 [[blocks]]
 name="Contributing"
 src="https://github.com/CodeYourFuture/curriculum/tree/main/CONTRIBUTING.md"

@@ -2,7 +2,6 @@
 title = 'Prep for trainees'
 description = 'Check your eligibility and apply for the Piscine'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry']
 weight = 2

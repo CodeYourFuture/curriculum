@@ -2,7 +2,6 @@
 title = "Success"
 description = "What does it mean to pass the Piscine?"
 layout = "success"
-emoji= "✅"
 menu_level = ["module"]
 menu = ["assessment"]
 weight = 11

@@ -3,7 +3,6 @@ title = 'Blocks System'
 description="Blocks compose pages from local and remote sources"
 menu=["theme"]
 layout="slimdex"
-emoji= '🧩'
 [[blocks]]
 name="link"
 src="common-theme/block-types/link"
