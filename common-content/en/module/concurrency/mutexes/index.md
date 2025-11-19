@@ -146,6 +146,8 @@ both threads may do the "exists" check, see there's no stats for that customer, 
 
 Instead we need to hold the lock across all of the operations that need to appear as atomic:
 
+{{<tabs>}}
+===[[Go]]===
 ```go
     lock.Lock()
     // Does customer stats object exist in map?
@@ -157,6 +159,16 @@ Instead we need to hold the lock across all of the operations that need to appea
     }
     lock.Unlock()
 ```
+===[[Java]]===
+```java
+    synchronized(lock) {
+      boolean alreadyExists = statsByCustomer.containsKey(customerId);
+      if (!alreadyExists) {
+        statsByCustomer.put(customerId, new IndividualCustomerStats());
+      }
+    }
+```
+{{</tabs>}}
 
 The `++` operation is _also_ a thread-safety risk as we've seen before. But it doesn't fall into the same critical section as the "check if exists, and maybe write to map" sequence. We could solve it using an atomic, a different lock, or the same lock. All of these are fine solutions to the `++` race condition. But it doesn't fall into the critical section, because it doesn't need to be guarded by the same lock acquisition.
 
