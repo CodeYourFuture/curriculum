@@ -1,6 +1,6 @@
 +++
 title = "Jobs after SDC"
-weight = 3
+weight = 1
 description = "These are course materials targeting specific jobs."
 [[details]]
 name = "When"
