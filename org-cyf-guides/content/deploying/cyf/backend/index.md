@@ -13,7 +13,7 @@ weight: 1
 
 **Add the GitHub repository**
 
-The hosting platform needs to know how where to get your backend from.
+The hosting platform needs to know where to get your backend from.
 
 You probably want to add a "Public Repository" Git Based repository, to tell it your project is in GitHub.
 
