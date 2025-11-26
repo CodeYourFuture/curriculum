@@ -1,7 +1,7 @@
 +++
 title = 'Dead code'
 
-time = <FILL OUT int>
+time = 30
 [objectives]
 1="Define what is meant by 'dead code'"
 2="Identify 'dead code' in a existing code base"
