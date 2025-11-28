@@ -6,7 +6,7 @@ time = 30
 1="Define what is meant by 'dead code'"
 2="Understand why 'dead code' matters in the context of working as a software engineer"
 3="Demonstrate how we handle 'dead code' in our codebases"
-4="Identify 'dead code' in a existing code base"
+4="Identify 'dead code' in an existing code base"
 
 [build]
   render = 'never'
@@ -15,16 +15,16 @@ time = 30
 
 +++
 
-As software engineers we have a responsibility to build code that not only fulfil the required behaviours of the programme but are well-structured and "clean" codebases.
+As software engineers, we have a responsibility to build code that not only fulfils the required behaviours of the programme but is well-structured and "clean" codebases.
 
 **What is meant by "clean"?**
 
 Clean code generally means code that is:
 
 - **Understandable for other programmers.**
-  We achieve this through good variable naming, avoiding chaining too many methods in one line, good choice of syntax depending on the data type being used etc.
+  We achieve this through good variable naming, avoiding chaining too many methods in one line, good choice of syntax depending on the data type being used, etc.
 - **Avoids duplication**.
-  Not repeating code where it could be a reusable function, making more efficient if/else statements, using loops where relevant etc.
+  Not repeating code where it could be a reusable function, making more efficient if/else statements, using loops where relevant, etc.
 - **Passes all tests** (if you have tests in the repository).
 
 - And importantly, contains a **minimal amount of "moving parts"**.
@@ -37,7 +37,6 @@ It means products we build can be maintained in the future without wasting more 
 So let's focus specifically on "dead code". What does it mean?
 
 {{<note type="exercise" title="Exercise">}}
-
 📖 Read this short article on dead code: https://refactoring.guru/smells/dead-code.
 
 📖 Read this more detailed breakdown of dead code from Devopedia: https://devopedia.org/dead-code.
@@ -47,9 +46,8 @@ So let's focus specifically on "dead code". What does it mean?
 - What makes a piece of code count as "dead code"?
 - What is the difference between "redundant code" and "unreachable code"?
 - Why do we want to remove "dead code" as much as possible? What are the benefits of removing it?
-- What tool makes finding "dead code" in our repositories easiest? (hint: do you use this tool already to code?)
-
-{{</note>}}
+- What tool makes finding "dead code" in our repositories easiest? (Hint: Do you use this tool already to code?)
+  {{</note>}}
 
 {{<note type="tip"  title="Tip">}}
 There are also plenty of Reddit threads and Stack Overflow posts asking the universal question... _"What IS dead code?"_. Look around the internet and see what developers in the world define it as.
