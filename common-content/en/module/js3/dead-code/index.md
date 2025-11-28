@@ -56,5 +56,4 @@ There are also plenty of Reddit threads and Stack Overflow posts asking the univ
 
 In this related backlog item, you will look for dead code in an existing code base and handle it appropriately. Have fun!
 
-{{<issue name="Dead Code Refactoring"
-src="https://github.com/CodeYourFuture/Module-Data-Flows/issues/331" />}}
+{{<issue name="Dead Code Refactoring" src="https://github.com/CodeYourFuture/Module-Data-Flows/issues/331" />}}
