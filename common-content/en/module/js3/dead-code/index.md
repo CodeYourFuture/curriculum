@@ -15,7 +15,7 @@ time = 30
 
 +++
 
-As software engineers we have a responsibility to build code programmes that not only fulfil the required behaviours but are well-structured and "clean".
+As software engineers we have a responsibility to build code that not only fulfil the required behaviours of the programme but are well-structured and "clean" codebases.
 
 **What is meant by "clean"?**
 
@@ -57,5 +57,5 @@ There are also plenty of Reddit threads and Stack Overflow posts asking the univ
 
 In this related backlog item, you will look for dead code in an existing code base and handle it appropriately. Have fun!
 
-{{<issue name="Example issue"
-src="https://github.com/CodeYourFuture/Module-Template/issues/7" />}}
+{{<issue name="Dead Code Refactoring"
+src="https://github.com/CodeYourFuture/Module-Data-Flows/issues/331" />}}
