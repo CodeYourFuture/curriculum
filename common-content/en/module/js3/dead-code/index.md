@@ -47,13 +47,10 @@ So let's focus specifically on "dead code". What does it mean?
 - What is the difference between "redundant code" and "unreachable code"?
 - Why do we want to remove "dead code" as much as possible? What are the benefits of removing it?
 - What tool makes finding "dead code" in our repositories easiest? (Hint: Do you use this tool already to code?)
-
-{{</note>}}
+  {{</note>}}
 
 {{<note type="tip"  title="Tip">}}
 There are also plenty of Reddit threads and Stack Overflow posts asking the universal question... _"What IS dead code?"_. Look around the internet and see what developers in the world define it as.
 {{</note>}}
 
-In this related backlog item, you will look for dead code in an existing code base and handle it appropriately. Have fun!
-
-{{<issue name="Dead Code Refactoring" src="https://github.com/CodeYourFuture/Module-Data-Flows/issues/331" />}}
+In the related backlog item, you will look for dead code in an existing code base and handle it appropriately. Have fun!
