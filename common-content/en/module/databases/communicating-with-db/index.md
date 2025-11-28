@@ -55,7 +55,7 @@ In psql, you can use the command `help` to show the help menu. Within the comman
 
 Download the following file to a directory on your computer. This file creates the sample data you can use for the following sections. To do this, click the file to open it in a github formatted page, then right click the Raw button in the bar just above the code and select Save As (or Save Link As or similar) to save it:
 
-- [`build-hotel.sql`](https://github.com/CodeYourFuture/Module-Databases/blob/main/prep-resources/build-hotel.sql)
+- [`build-hotel.sql`](https://github.com/CodeYourFuture/Module-SQL/blob/main/prep-resources/build-hotel.sql)
 
 Once you have the file downloaded to a known directory, execute the file `build-hotel.sql` from `psql` as shown below (replace `/your/sql/path/` with the path to the download directory used above):
 

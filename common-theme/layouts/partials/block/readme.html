@@ -30,7 +30,7 @@
     </header>
     {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $decodedContent }}
     {{ if gt (len $extractedObjectives) 0 }}
-      <details>
+      <details open>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
         {{ range $extractedObjectives }}
           {{ . | page.RenderString }}
