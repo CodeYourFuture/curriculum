@@ -26,7 +26,7 @@
       {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response.body }}
 
       {{ if gt (len $extractedObjectives) 0 }}
-        <details class="c-block__objectives">
+        <details open class="c-block__objectives">
           <summary>
             <h3 class="e-heading__4">Learning Objectives</h3>
           </summary>

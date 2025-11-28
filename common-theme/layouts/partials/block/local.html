@@ -19,7 +19,7 @@
       {{ partial "time.html" . }}
     </header>
     {{ if or $block.Params.Objectives $block.Params.Tasks }}
-      <details>
+      <details open>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
         {{ with $block.Params.Objectives }}
           {{ partial "objectives/block.html" . }}
