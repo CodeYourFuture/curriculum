@@ -50,7 +50,7 @@ So let's focus specifically on "dead code". What does it mean?
   {{</note>}}
 
 {{<note type="tip"  title="Tip">}}
-There are also plenty of Reddit threads and Stack Overflow posts asking the universal question... _"What IS dead code?"_. Look around the internet and see what developers in the world define it as.
+There are also plenty of Reddit threads and Stack Overflow posts asking the question... _"What IS dead code?"_. Look around the internet and see what developers in the world define it as.
 {{</note>}}
 
 In the related backlog item, you will look for dead code in an existing code base and handle it appropriately. Have fun!
