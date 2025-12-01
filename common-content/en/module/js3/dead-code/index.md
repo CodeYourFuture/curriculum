@@ -34,11 +34,17 @@ Keeping to **clean code** helps us collaborate better, code more efficiently and
 
 It means products we build can be maintained in the future without wasting more developer time than necessary trying to work out what the code is doing.
 
-So let's focus specifically on "dead code". What does it mean?
+**What is meant by "dead" code?**
+
+    A segment of code that is no longer used.
+
+As a programme evolves there might be many changes, fixes, feature additions made to the code. There is a high probability that when those changes were made to the code, there was no time to "clean" up the existing or old code. This can lead to **code being left in the repository that no longer has purpose**, whether by accident or on purpose.
+
+One common way to identify dead code in our programmes is by using a {{< tooltip title="IDE" >}}A Integrated Development Environment, like VSCode.{{< /tooltip >}}. An IDE can often make unusable or unused code obvious to us through it's colour scheme.
+
+When we remove dead code we can reduce the "bloat" of our code, making it easier to maintain and improving debugging processes.
 
 {{<note type="exercise" title="Exercise">}}
-📖 Read this short article on dead code: https://refactoring.guru/smells/dead-code.
-
 📖 Read this more detailed breakdown of dead code from Devopedia: https://devopedia.org/dead-code.
 
 ❓ Answer the following questions:
