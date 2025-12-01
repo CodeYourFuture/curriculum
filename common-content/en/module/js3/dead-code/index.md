@@ -15,7 +15,7 @@ time = 30
 
 +++
 
-As software engineers, we have a responsibility to build code that not only fulfils the required behaviours of the programme but is well-structured and "clean" codebases.
+As software engineers, we have a responsibility to build code that not only fulfils the required behaviours of the programme but is part of a well-structured and "clean" codebase.
 
 **What is meant by "clean"?**
 
