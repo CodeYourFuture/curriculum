@@ -17,6 +17,58 @@ Attendees:
 
 ---
 
+## 2025-12-03
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+
+### 📝 Agenda points
+
+#### ITD folks are getting lost...
+
+... between Slack, Slack Canvases, the curriculum, the course portal, etc.
+
+Maybe we should make an orientation page in the curriculum? Setting the tone, expectations, tools to be used, etc.
+
+Hopefully the new dashboard will help with some of the trainee journey mapping here too.
+
+Also, we're probably going to stop using Slack Canvases soon.
+
+#### ITP folks aren't familiar with the Git command line
+
+People don't really have a mental model of Git, e.g.
+- Understand what happens when you create branches
+- Commonly create branches not from main
+- Can't rebase/revert changes
+- Aren't confident using CLI commands to fix issues they've gotten into
+
+Currently we don't have any hands-on exercises for actually building up a Git mental model. We have some examples to read, and then hope people will pick things up through the other work they're doing.
+
+But we don't want to add _too much_ content e.g. to the Onboarding module.
+
+#### PR bot reviews
+
+We're seeing trainees who aren't acting on the PR bot comments, and it's quite frustrating. It causes quite a lot of noise in reviews.
+
+We probably want to introduce some "Look out for bot comments, and act on them".
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+---
+
 ## 2025-11-18
 
 Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
