@@ -61,12 +61,3 @@ response = ses_client.send_email(
 )
 print(f"Sent: {response['MessageId']}")
 ```
-
-## Environment variables
-
-Set these in your Coolify project:
-
-```
-AWS_REGION=eu-west-1
-EMAIL_FROM=noreply@cyf.academy
-```
