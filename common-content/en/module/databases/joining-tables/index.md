@@ -45,8 +45,9 @@ SELECT r.cust_id, r.room_no, i.invoice_date, i.total
 
 **_Notice:_**
 
-- The new keyword JOIN with ON (predicate)
-- Table aliases (`r` and `i`) used to qualify columns
+- The keyword 'JOIN with ON' defines how the two tables are matched.
+- `r` and `i` are aliases - short, temporary names that make queries easier to read.
+-  You can use any alias you want, as long as you define it in the `FROM / JOIN` clause and use it consistently in the query. 
 
 The new syntax follows the following pattern:
 
