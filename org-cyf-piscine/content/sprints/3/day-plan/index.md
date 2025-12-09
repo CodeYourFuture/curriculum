@@ -17,8 +17,8 @@ name="Solo project"
 src="module/piscine/solo-project"
 time=45
 [[blocks.nested.blocks]]
-name="Shared Bookmarks"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Shared-Bookmarks"
+name="Spaced Repetition Tracker"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Spaced-Repetition-Tracker"
 time=0
 [[blocks.nested.blocks]]
 name="Music Data"
