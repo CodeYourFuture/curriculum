@@ -169,6 +169,7 @@ Reviewers will not check your PR unless it has the right label.
 Here at CYF we use a bot to do some automated checks on your pull request.
 If you ever get a reply from the bot, that means something needs to be fixed on your pull request.
 This could mean something is missing from your submission, a problem in the title or description, or an issue with your submitted files.
+
 If you see a comment in your PR from the user called **`github-actions`**, here's what to do:
 
 - Carefully read the comments from the bot, this will explain what you should change
@@ -231,4 +232,5 @@ Your backlog task is not complete until the reviewer adds this label.
 
 If you spend a long time waiting for the **`complete`** label to be added, check the PR to make sure there are no comments from the reviewer that you missed.
 If you think you have answered everything, and you are still waiting, you can ask for help on slack.
+
 You can work on other tasks while you are waiting for reviews or completion on one PR, remember to do other tasks on a different branch.
