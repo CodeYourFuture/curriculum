@@ -17,7 +17,7 @@ mentors and teammates can:
 - 👍 Review and provide feedback (approve or request improvements)
 
 For most coursework, merging will not happen. You will update your code based on feedback, learn 
-from the process, and keep practicing.
+from the process, and keep practising.
 
 To get the most out of a PR, follow these steps to get 
 clear feedback, show your progress, and learn more effectively.
@@ -222,3 +222,13 @@ To learn how to write in Markdown, embed image, tag users, and other advanced fe
 visit [GitHub Docs - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 {{</note>}}
+
+## Completing a PR
+
+After you get feedback from a reviewer, you may make changes and have a back-and-forth discussion.
+When the reviewer is happy that you have understood the task, and you have answered any questions they have, they will add the **`complete`** label to your PR.
+Your backlog task is not complete until the reviewer adds this label.
+
+If you spend a long time waiting for the **`complete`** label to be added, check the PR to make sure there are no comments from the reviewer that you missed.
+If you think you have answered everything, and you are still waiting, you can ask for help on slack.
+You can work on other tasks while you are waiting for reviews or completion on one PR, remember to do other tasks on a different branch.
