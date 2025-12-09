@@ -158,11 +158,26 @@ Replace the placeholder text by your questions, or delete the section if you don
 ## After Opening a PR
 
 ### Use labels to communicate the PR status
+Reviewers will not check your PR unless it has the right label.
 
-- Add **`Need review`** label to the PR.
+- Add the **`Need review`** label to the PR.
   - For details about how to use labels in a PR, please refer to the [Using Labels](./using-labels/)
   Guide.
 
+### Check for automated feedback
+
+Here at CYF we use a bot to do some automated checks on your pull request.
+If you ever get a reply from the bot, that means something needs to be fixed on your pull request.
+This could mean something is missing from your submission, a problem in the title or description, or an issue with your submitted files.
+If you see a comment in your PR from the user called **`github-actions`**, here's what to do:
+
+- Carefully read the comments from the bot, this will explain what you should change
+- Do this change and the bot will automatically check your submission again
+- After making a change, if the bot leaves another reply, read it again and try to fix the problem
+- If you still don't understand what needs fixing, ask for help on slack
+- Once you have resolved the issue, add the **`Need review`** label again to your PR
+
+Learning how to respond to automated checks is important, because these kinds of tools are often used in software development work.
 
 ### Wait for Review
   - It may take up to a week (sometimes longer) before someone starts reviewing your PR.
@@ -193,6 +208,8 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
 4. **Ask questions if unclear**
     - If you don't understand a suggestion, ask for clarification.
     - Example: _"Could you explain what you mean by simplifying this function?"_
+    
+After you have taken action and replied to your feedback, you should add the **`Need review`** label again, so the reviewer knows you are ready for your submission to be checked again.
 
 
 {{<note type="tip" title="Writing on GitHub">}}
