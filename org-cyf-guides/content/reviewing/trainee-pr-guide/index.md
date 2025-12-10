@@ -160,7 +160,7 @@ Replace the placeholder text by your questions, or delete the section if you don
 ### Use labels to communicate the PR status
 Reviewers will not check your PR unless it has the right label.
 
-- Add the **`Need review`** label to the PR.
+- Add the **`Needs review`** label to the PR.
   - For details about how to use labels in a PR, please refer to the [Using Labels](./using-labels/)
   Guide.
 
