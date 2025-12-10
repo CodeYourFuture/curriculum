@@ -230,7 +230,7 @@ After you get feedback from a reviewer, you may make changes and have a back-and
 When the reviewer is happy that you have understood the task, and you have answered any questions they have, they will add the **`Complete`** label to your PR.
 Your backlog task is not complete until the reviewer adds this label.
 
-If you spend a long time waiting for the **`complete`** label to be added, check the PR to make sure there are no comments from the reviewer that you missed.
+If you spend a long time waiting for the **`Complete`** label to be added, check the PR to make sure there are no comments from the reviewer that you missed.
 If you think you have answered everything, and you are still waiting, you can ask for help on slack.
 
 You can work on other tasks while you are waiting for reviews or completion on one PR, remember to do other tasks on a different branch.
