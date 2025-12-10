@@ -166,8 +166,8 @@ Reviewers will not check your PR unless it has the right label.
 
 ### Check for automated feedback
 
-Here at CYF we use a bot to do some automated checks on your pull request.
-If you ever get a reply from the bot, that means something needs to be fixed on your pull request.
+Here at CYF we use bots to do some automated checks on your pull request.
+If you ever get a reply from a bot, that means something needs to be fixed on your pull request.
 This could mean something is missing from your submission, a problem in the title or description, or an issue with your submitted files.
 
 If you see a comment in your PR from the user called **`github-actions`**, here's what to do:
