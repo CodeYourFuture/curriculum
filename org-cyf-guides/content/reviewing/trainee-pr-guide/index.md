@@ -176,7 +176,7 @@ If you see a comment in your PR from the user called **`github-actions`**, here'
 - Do this change and the bot will automatically check your submission again
 - After making a change, if the bot leaves another reply, read it again and try to fix the problem
 - If you still don't understand what needs fixing, ask for help on slack
-- Once you have resolved the issue, add the **`Need review`** label again to your PR
+- Once you have resolved the issue, add the **`Needs review`** label again to your PR
 
 Learning how to respond to automated checks is important, because these kinds of tools are often used in software development work.
 
