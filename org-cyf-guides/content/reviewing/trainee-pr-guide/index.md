@@ -210,7 +210,7 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
     - If you don't understand a suggestion, ask for clarification.
     - Example: _"Could you explain what you mean by simplifying this function?"_
     
-After you have taken action and replied to your feedback, you should add the **`Need review`** label again, so the reviewer knows you are ready for your submission to be checked again.
+After you have taken action and replied to your feedback, you should add the **`Needs review`** label again, so the reviewer knows you are ready for your submission to be checked again.
 
 
 {{<note type="tip" title="Writing on GitHub">}}
