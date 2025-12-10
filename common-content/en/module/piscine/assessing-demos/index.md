@@ -9,7 +9,7 @@ time = 10
 
 We assess demos against 6 rubric points. A demo must pass any 5 of the 6 points to pass. Trainees must pass at least one demo to pass the course.
 
-We give feedback after every demo, including a run-down of each rubric point.
+We give feedback after every demo, including a run-down of each rubric point. This feedback, including a score, should ideally be given straight after the demo, and absolutely no later than the same day.
 
 Where possible, we suggest having two assessors in a demo session, to get more opinions and discuss any uncertainty.
 
