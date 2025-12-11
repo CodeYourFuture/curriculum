@@ -1,6 +1,6 @@
 +++
 title = "Hear from an Intro to Programming graduate"
-time = 20
+time = 45
 tasks = [
 "Understand the challenges you will face during the Intro to Programming course",
 ]
