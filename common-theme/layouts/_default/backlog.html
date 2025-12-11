@@ -14,9 +14,26 @@
       for each repo, grab the issues that match the filter
     */}}
     {{ range $repos }}
+      {{ $recurringTasks := slice }}
+      {{ $mandatoryTasks := slice }}
+      {{ $optionalTasks := slice }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
       {{ $repo := . }}    
       {{ range $issueBlocks }}
+        {{ $issue := . }}
+        {{ range .labels.nodes }}
+          {{if in .name "Recurring"}}
+            {{ $recurringTasks = $recurringTasks | append $issue }}
+          {{else if in .name "Core"}}
+            {{ $mandatoryTasks = $mandatoryTasks | append $issue }}
+          {{else if in .name "Optional"}}
+            {{ $optionalTasks = $optionalTasks | append $issue }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      <h2>Recurring Tasks</h2>
+      <p>These tasks need to be completed in every sprint.</p>
+      {{range $recurringTasks}} 
         <div class="c-alert" role="alert" hidden>
           <span class="alert__message"></span>
           <button aria-label="Close" class="clean-btn close" type="button">
@@ -40,6 +57,58 @@
             }}
           </div>
         </details>
+      {{ end }}
+      <h2>Mandatory Tasks</h2>
+      <p>These tasks will help consolidate your learning for this sprint. You should complete as many of these as possible before class on Saturday.</p>
+      {{range $mandatoryTasks}}
+      <div class="c-alert" role="alert" hidden>
+        <span class="alert__message"></span>
+        <button aria-label="Close" class="clean-btn close" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <details class="c-issue">
+        <summary class="c-issue__title e-heading__3">
+          {{ .name }}
+          <a class="c-issue__link" href="{{ .src }}">🔗</a>
+          <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict " issue" .number "module" $repo "sprint"
+            $backlog_filter "prevURL" (urls.AbsLangURL $currentPath) | jsonify }}" class="e-button"
+            data-props="{{ .Page.RelPermalink }}">
+            Clone
+          </a>
+        </summary>
+        <div class="c-issue__body">
+          {{ partial "block/block.html" (dict "block" . "Page"
+          $.Page "Site" site )
+          }}
+        </div>
+      </details>
+      {{ end }}
+      <h2>Optional Tasks</h2>
+      <p>These are optional "stretch goals" to attempt when you have finished the mandatory tasks. They may be more challenging or require some additional research.</p>
+      {{range $optionalTasks}}
+      <div class="c-alert" role="alert" hidden>
+        <span class="alert__message"></span>
+        <button aria-label="Close" class="clean-btn close" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <details class="c-issue">
+        <summary class="c-issue__title e-heading__3">
+          {{ .name }}
+          <a class="c-issue__link" href="{{ .src }}">🔗</a>
+          <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict " issue" .number "module" $repo "sprint"
+            $backlog_filter "prevURL" (urls.AbsLangURL $currentPath) | jsonify }}" class="e-button"
+            data-props="{{ .Page.RelPermalink }}">
+            Clone
+          </a>
+        </summary>
+        <div class="c-issue__body">
+          {{ partial "block/block.html" (dict "block" . "Page"
+          $.Page "Site" site )
+          }}
+        </div>
+      </details>
       {{ end }}
     {{ end }}
   </article>
