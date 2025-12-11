@@ -28,12 +28,16 @@ src="blocks/morning-break"
 name="Code of Conduct"
 src="blocks/code-of-conduct"
 [[blocks]]
-name="Traffic Jam"
-src="energisers/blockers"
-time=45
+name="Graduate conversation"
+src="blocks/graduate-conversation"
+time=20
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
+[[blocks]]
+name="Traffic Jam"
+src="energisers/blockers"
+time=45
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
