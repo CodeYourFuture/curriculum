@@ -30,4 +30,7 @@ src="module/piscine/preparation"
 [[blocks]]
 name="Project Submission"
 src="module/piscine/project-submission"
+[[blocks]]
+name="Pre-Piscine Briefing"
+src="module/piscine/pre-piscine-briefing"
 +++

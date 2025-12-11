@@ -13,16 +13,18 @@ hide_from_overview="true"
 
 ## Trainees, we expect you to:
 
+- Check Slack at least once a day and respond to any messages.
 - Work in groups and individually, in class and during the week.
 - Show up on time and participate in all activities, including helping others.
 - Complete the projects in the way they are specified.
+- Not over-focus on styling. We often see trainees fail because they spent most of their time working on beautiful CSS, but then not complete the project. Don't make this mistake. You're allowed to style things as much as you want, but won't get _any_ credit for doing so.
 - Do your best.
 
 ## Trainees, you can expect:
 
 - Your team to work _with_ you to complete the projects.
 - A fair assessment, explained clearly.
-- Help from volunteers and other candidates with your code and blockers.
+- Help from volunteers and other candidates with your logistical blockers.
 
 ## We expect everyone to:
 
