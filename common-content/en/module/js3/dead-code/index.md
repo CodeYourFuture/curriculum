@@ -40,9 +40,9 @@ It means products we build can be maintained in the future without wasting more 
 
 As a programme evolves there might be many changes, fixes, feature additions made to the code. There is a high probability that when those changes were made to the code, there was no time to "clean" up the existing or old code. This can lead to **code being left in the repository that no longer has purpose**, whether by accident or on purpose.
 
-One common way to identify dead code in our programmes is by using a {{< tooltip title="IDE" >}}A Integrated Development Environment, like VSCode.{{< /tooltip >}}. An IDE can often make unusable or unused code obvious to us through it's colour scheme.
+One common way to identify dead code in our programmes is by using a {{< tooltip title="IDE" >}}A Integrated Development Environment, like VSCode. IDEs are special kinds of text editors which understand programming languages. This means they can add extra functionality, like syntax highlighting, and refactoring support.{{< /tooltip >}}. An IDE can often make unusable or unused code obvious to us through its colour scheme.
 
-When we remove dead code we can reduce the "bloat" of our code, making it easier to maintain and improving debugging processes.
+When we remove dead code we can reduce the "bloat" of our code, making it easier to maintain and improving debugging processes. It means we don't need to read and understand code that isn't used.
 
 {{<note type="exercise" title="Exercise">}}
 📖 Read this more detailed breakdown of dead code from Devopedia: https://devopedia.org/dead-code.
