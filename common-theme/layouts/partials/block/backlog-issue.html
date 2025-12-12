@@ -1,0 +1,18 @@
+<details class="c-issue">
+    <summary class="c-issue__title e-heading__3">
+        {{ .block.name }}
+        <a class="c-issue__link" href="{{ .src }}">🔗</a>
+        <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict " issue" .number "module" .repo "sprint"
+            .sprint "prevURL" (urls.AbsLangURL .path) | jsonify }}" class="e-button"
+            data-props="{{ .Page.RelPermalink }}">
+            Clone
+        </a>
+    </summary>
+    <div class="c-issue__body">
+        {{ partial "block/block.html" (dict
+            "block" .block
+            "Page" $.Page
+            "Site" site
+        ) }}
+    </div>
+</details>
