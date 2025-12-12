@@ -22,12 +22,12 @@ name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
 name = "Demo"
-src = "blocks/demo"
-time = "30"
+src = "module/logic/demo"
+time = "75"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "130"
+time = "85"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"
