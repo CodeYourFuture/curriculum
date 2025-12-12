@@ -34,12 +34,6 @@
       <h2>Recurring Tasks</h2>
       <p>These tasks need to be completed in every sprint.</p>
       {{range $recurringTasks}} 
-        <div class="c-alert" role="alert" hidden>
-          <span class="alert__message"></span>
-          <button aria-label="Close" class="clean-btn close" type="button">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .name }}
@@ -61,12 +55,6 @@
       <h2>Mandatory Tasks</h2>
       <p>These tasks will help consolidate your learning for this sprint. You should complete as many of these as possible before class on Saturday.</p>
       {{range $mandatoryTasks}}
-      <div class="c-alert" role="alert" hidden>
-        <span class="alert__message"></span>
-        <button aria-label="Close" class="clean-btn close" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <details class="c-issue">
         <summary class="c-issue__title e-heading__3">
           {{ .name }}
@@ -87,12 +75,6 @@
       <h2>Optional Tasks</h2>
       <p>These are optional "stretch goals" to attempt when you have finished the mandatory tasks. They may be more challenging or require some additional research.</p>
       {{range $optionalTasks}}
-      <div class="c-alert" role="alert" hidden>
-        <span class="alert__message"></span>
-        <button aria-label="Close" class="clean-btn close" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <details class="c-issue">
         <summary class="c-issue__title e-heading__3">
           {{ .name }}
