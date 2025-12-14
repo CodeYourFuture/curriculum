@@ -5,7 +5,7 @@ layout = "prep"
 menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-title = "Get on the CYF Hosted Environment"
+name = "Get on the CYF Hosted Environment"
 src = "blocks/cyf-hosting-onboarding"
 [[blocks]]
 name = "Overview"
