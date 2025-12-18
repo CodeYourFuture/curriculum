@@ -22,7 +22,7 @@ The isolation and security allows us to run many containers simultaneously on a 
 
 This makes containers & images a very desirable way to build and deploy applications. They are commonly used at many companies.
 
-To summarize, a container:
+To summarise, a container:
 
 - is a runnable instance of an image. We can create, start, stop, move, or delete containers
 - can be run on local machines, virtual machines or deployed to the cloud
