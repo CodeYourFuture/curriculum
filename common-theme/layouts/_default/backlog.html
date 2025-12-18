@@ -31,41 +31,47 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      <h2>Recurring Tasks</h2>
-      <p>These tasks need to be completed in every sprint.</p>
-      {{range $recurringTasks}} 
-        {{ partial "block/backlog-issue.html" (dict 
-          "block" . 
-          "Page" $.Page 
-          "Site" site 
-          "repo" $repo
-          "sprint" $backlog_filter
-          "path" $currentPath
+      {{ if lt 0 ($recurringTasks | len) }}
+        <h2>Recurring Tasks</h2>
+        <p>These tasks need to be completed in every sprint.</p>
+        {{range $recurringTasks}} 
+          {{ partial "block/backlog-issue.html" (dict 
+            "block" . 
+            "Page" $.Page 
+            "Site" site 
+            "repo" $repo
+            "sprint" $backlog_filter
+            "path" $currentPath
           ) }}
+        {{ end }}
       {{ end }}
-      <h2>Mandatory Tasks</h2>
-      <p>These tasks will help consolidate your learning for this sprint. You should complete as many of these as possible before class on Saturday.</p>
-      {{range $mandatoryTasks}}
-        {{ partial "block/backlog-issue.html" (dict
-          "block" .
-          "Page" $.Page
-          "Site" site
-          "repo" $repo
-          "sprint" $backlog_filter
-          "path" $currentPath
-        ) }}
+      {{ if lt 0 ($mandatoryTasks | len) }}
+        <h2>Mandatory Tasks</h2>
+        <p>These tasks will help consolidate your learning for this sprint. You should complete as many of these as possible before class on Saturday.</p>
+        {{range $mandatoryTasks}}
+          {{ partial "block/backlog-issue.html" (dict
+            "block" .
+            "Page" $.Page
+            "Site" site
+            "repo" $repo
+            "sprint" $backlog_filter
+            "path" $currentPath
+          ) }}
+        {{ end }}
       {{ end }}
-      <h2>Optional Tasks</h2>
-      <p>These are optional "stretch goals" to attempt when you have finished the mandatory tasks. They may be more challenging or require some additional research.</p>
-      {{range $optionalTasks}}
-        {{ partial "block/backlog-issue.html" (dict
-          "block" .
-          "Page" $.Page
-          "Site" site
-          "repo" $repo
-          "sprint" $backlog_filter
-          "path" $currentPath
-        ) }}
+      {{ if lt 0 ($optionalTasks | len) }}
+        <h2>Optional Tasks</h2>
+        <p>These are optional "stretch goals" to attempt when you have finished the mandatory tasks. They may be more challenging or require some additional research.</p>
+        {{range $optionalTasks}}
+          {{ partial "block/backlog-issue.html" (dict
+            "block" .
+            "Page" $.Page
+            "Site" site
+            "repo" $repo
+            "sprint" $backlog_filter
+            "path" $currentPath
+          ) }}
+        {{ end }}
       {{ end }}
     {{ end }}
   </article>
