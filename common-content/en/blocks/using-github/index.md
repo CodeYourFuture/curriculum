@@ -81,7 +81,7 @@ Now we know how to read a pull request it's time to create one of our own.
 
 Did it work? 
 
-Many organisations run automatic checks when someone creates a pull request and CYF is one of them! We get lots of PRs submitted by trainees every week and it's very important that we are able to identify which task they are for and who created them. We have an automated tool which checks the PRS you submit and gives you feedback if any important information is missing. **It's very important that you check for feedback from the bot and make any changes it asks for!**
+Many organisations run automatic checks when someone creates a pull request and CYF is one of them! We get lots of PRs submitted by trainees every week and it's very important that we are able to identify which task they are for and who created them. We have an automated tool which checks the PRs you submit and gives you feedback if any important information is missing. This bot is just giving you a demonstration, you won't need to add this text to future PRs. **It's very important that you check for feedback from the bot and make any changes it asks for!** 
 
 - Edit your PR to make the changes requested by the bot. If the feedback is unclear ask a volunteer or another trainee to help you understand it.
 
