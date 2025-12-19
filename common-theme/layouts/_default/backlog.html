@@ -14,6 +14,7 @@
       for each repo, grab the issues that match the filter
     */}}
     {{ range $repos }}
+      {{ $setupTasks := slice }}
       {{ $recurringTasks := slice }}
       {{ $mandatoryTasks := slice }}
       {{ $optionalTasks := slice }}
@@ -24,11 +25,27 @@
         {{ range .labels.nodes }}
           {{if in .name "Recurring"}}
             {{ $recurringTasks = $recurringTasks | append $issue }}
+          {{else if in .name "Setup"}}
+            {{ $setupTasks = $setupTasks | append $issue }}
           {{else if in .name "Core"}}
             {{ $mandatoryTasks = $mandatoryTasks | append $issue }}
           {{else if in .name "Optional"}}
             {{ $optionalTasks = $optionalTasks | append $issue }}
           {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if lt 0 ($setupTasks | len) }}
+        <h2>Start Here</h2>
+        <p>These tasks should be completed before attempting anything else.</p>
+        {{range $setupTasks}} 
+          {{ partial "block/backlog-issue.html" (dict 
+            "block" . 
+            "Page" $.Page 
+            "Site" site 
+            "repo" $repo
+            "sprint" $backlog_filter
+            "path" $currentPath
+          ) }}
         {{ end }}
       {{ end }}
       {{ if lt 0 ($recurringTasks | len) }}
