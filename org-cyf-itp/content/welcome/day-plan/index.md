@@ -30,7 +30,6 @@ src="blocks/code-of-conduct"
 [[blocks]]
 name="Graduate conversation"
 src="blocks/graduate-conversation"
-time=20
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
