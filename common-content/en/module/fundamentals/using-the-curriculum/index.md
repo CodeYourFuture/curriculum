@@ -1,7 +1,7 @@
 +++
 title = 'Using the curriculum'
 
-time="40"
+time="50"
 [objectives]
    1="Describe our mission"
    2="Identify the key elements of our educational philosophy"
