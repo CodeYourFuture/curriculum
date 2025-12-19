@@ -37,7 +37,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Traffic Jam"
 src="energisers/blockers"
-time=45
+time=25
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
