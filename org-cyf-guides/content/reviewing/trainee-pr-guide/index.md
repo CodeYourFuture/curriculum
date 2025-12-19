@@ -17,7 +17,7 @@ mentors and teammates can:
 - 👍 Review and provide feedback (approve or request improvements)
 
 For most coursework, merging will not happen. You will update your code based on feedback, learn 
-from the process, and keep practicing.
+from the process, and keep practising.
 
 To get the most out of a PR, follow these steps to get 
 clear feedback, show your progress, and learn more effectively.
@@ -158,11 +158,27 @@ Replace the placeholder text by your questions, or delete the section if you don
 ## After Opening a PR
 
 ### Use labels to communicate the PR status
+Reviewers will not check your PR unless it has the right label.
 
-- Add **`Need review`** label to the PR.
+- Add the **`Needs review`** label to the PR.
   - For details about how to use labels in a PR, please refer to the [Using Labels](./using-labels/)
   Guide.
 
+### Check for automated feedback
+
+Here at CYF we use bots to do some automated checks on your pull request.
+If you ever get a reply from a bot, that means something needs to be fixed on your pull request.
+This could mean something is missing from your submission, a problem in the title or description, or an issue with your submitted files.
+
+If you see a comment in your PR from the user called **`github-actions`**, here's what to do:
+
+- Carefully read the comments from the bot, this will explain what you should change
+- Do this change and the bot will automatically check your submission again
+- After making a change, if the bot leaves another reply, read it again and try to fix the problem
+- If you still don't understand what needs fixing, ask for help on slack
+- Once you have resolved the issue, add the **`Needs review`** label again to your PR
+
+Learning how to respond to automated checks is important, because these kinds of tools are often used in software development work.
 
 ### Wait for Review
   - It may take up to a week (sometimes longer) before someone starts reviewing your PR.
@@ -193,6 +209,8 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
 4. **Ask questions if unclear**
     - If you don't understand a suggestion, ask for clarification.
     - Example: _"Could you explain what you mean by simplifying this function?"_
+    
+After you have taken action and replied to your feedback, you should add the **`Needs review`** label again, so the reviewer knows you are ready for your submission to be checked again.
 
 
 {{<note type="tip" title="Writing on GitHub">}}
@@ -205,3 +223,14 @@ To learn how to write in Markdown, embed image, tag users, and other advanced fe
 visit [GitHub Docs - Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 {{</note>}}
+
+## Completing a PR
+
+After you get feedback from a reviewer, you may make changes and have a back-and-forth discussion.
+When the reviewer is happy that you have understood the task, and you have answered any questions they have, they will add the **`Complete`** label to your PR.
+Your backlog task is not complete until the reviewer adds this label.
+
+If you spend a long time waiting for the **`Complete`** label to be added, check the PR to make sure there are no comments from the reviewer that you missed.
+If you think you have answered everything, and you are still waiting, you can ask for help on slack.
+
+You can work on other tasks while you are waiting for reviews or completion on one PR, remember to do other tasks on a different branch.

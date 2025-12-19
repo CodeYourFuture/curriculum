@@ -17,6 +17,56 @@ Attendees:
 
 ---
 
+## 2025-12-16
+
+Attendees: CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Léon McGregor
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+  - Daniel will pick this up because we have some funding to get someone to do it!
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [x] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+### 📝 Agenda points
+
+#### Updating ITP backlogs
+
+Colin has been doing an overall audit of the whole curriculum, particularly with a focus on ITP.
+
+Backlogs are currently not amazingly clean - some stuff is duplicated, maybe too much is mandatory, it's hard to see what's meant to be an every week habit.
+
+Colin is drafting cleaning up and organising the backlogs.
+
+A lot of the backlog issues have a lot of overlap.
+
+How do we care about numbering of tasks?
+- Most of the needs are met by the categorisation Colin is now doing.
+- Drawing attention to "Read this before class" could still be useful - maybe an optional section that appears above mandatory.
+
+Will also be running through PD with Karen to work out what is/isn't important and what we may want to change.
+
+#### Tests in the curriculum
+
+We should maybe remove the DOM tests from Data Groups Sprint 3 - they're mostly confusing, and people don't have enough test nous to really reason about them anyway.
+
+#### Tasks for Anna to pick up over Christmas
+
+We discussed a bunch of options, and will forward them on :)
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel: Add "respond to a bot comment" to the developer specs workshop
+
+---
+
 ## 2025-12-03
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
