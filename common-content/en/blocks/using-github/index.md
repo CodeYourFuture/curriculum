@@ -1,6 +1,6 @@
 +++
 title="Using GitHub"
-time=60
+time=70
 [tasks]
   1="Identify the purpose of a repo by reading its README file."
   2="Find the issues view, the pull request view, and the file tree view on any GitHub repo."
@@ -68,6 +68,24 @@ Time to explore how code changes are tracked and discussed. You're going to need
 - Where is the conversation happening?
 
 Write your key takeaway down in your notebook. 
+
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 4: Creating a Pull Request (10 minutes)">}}
+
+Now we know how to read a pull request it's time to create one of our own.
+
+- Fork the repository to your own GitHub account.
+- Make a change to one of the files. It doesn't need to be a big change - how about fixing the Birmingham list so it uses bullet points instead of numbers?
+- Create a pull request to merge your changes into the code base. Make sure to give it a title and include a description of the changes you made.
+
+Did it work? 
+
+Many organisations run automatic checks when someone creates a pull request and CYF is one of them! We get lots of PRs submitted by trainees every week and it's very important that we are able to identify which task they are for and who created them. We have an automated tool which checks the PRs you submit and gives you feedback if any important information is missing. This bot is just giving you a demonstration, you won't need to add this text to future PRs. **It's very important that you check for feedback from the bot and make any changes it asks for!** 
+
+- Edit your PR to make the changes requested by the bot. If the feedback is unclear ask a volunteer or another trainee to help you understand it.
+
+Write down any key takeaways from this exercise.
 
 {{</note>}}
 

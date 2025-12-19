@@ -25,14 +25,12 @@ time=15
 [[blocks]]
 name="Workshop: Using the Curriculum"
 src="module/fundamentals/using-the-curriculum"
-time=60
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Workshop: Using GitHub"
 src="blocks/using-github"
-time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
