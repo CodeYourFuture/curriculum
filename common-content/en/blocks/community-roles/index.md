@@ -23,7 +23,7 @@ Steps:
         - choosing who will buy OR communicating with who will buy
         - choosing who will help on the day (setting up/clearing out)
     - **Energiser Coordinator**: choosing who will do the energiser in the following week, ensuring it is done every week
-    - **Timekeep Coordinato**r**: choosing who will time keep, ensure it happens so the class stays on track
+    - **Timekeep Coordinator**: choosing who will time keep, ensure it happens so the class stays on track
 2. Share the coordinator names on your local Community Slack so everyone knows who they are
 3. Coordinator: identify volunteers for the next 1-2 weeks
 4. Repeat this whenever needed
