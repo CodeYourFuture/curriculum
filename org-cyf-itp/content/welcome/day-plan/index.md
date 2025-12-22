@@ -51,7 +51,7 @@ time=15
 [[blocks]]
 name="Next Steps"
 src="module/fundamentals/next-steps"
-time=45
+time=30
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
