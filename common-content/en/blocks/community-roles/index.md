@@ -19,7 +19,7 @@ Steps:
 1. Read these roles and define the coordinators
     - **Lunch Coordinator**: choose someone for every week who will 
         - make the list of food that is needed, checking leftovers (if applicable)
-        - knowing the communities dietary requirements
+        - knowing the community's dietary requirements
         - choosing who will buy OR communicating with who will buy
         - choosing who will help on the day (setting up/clearing out)
     - **Energiser Coordinator**: choosing who will do the energiser in the following week, ensuring it is done every week
