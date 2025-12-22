@@ -18,7 +18,7 @@ If the coordinator is no longer able to do this role, please identify someone el
 Steps:
 1. Read these roles and define the coordinators
     - **Lunch Coordinator**: choose someone for every week who will 
-        - make the list of food that is needed, checking leftover (if applicable)
+        - make the list of food that is needed, checking leftovers (if applicable)
         - knowing the communities dietary requirements
         - choosing who will buy OR communicating with who will buy
         - choosing who will help on the day (setting up/clearing out)
