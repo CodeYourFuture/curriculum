@@ -7,7 +7,11 @@ time=20
   publishResources = false
 +++
 
-You are done for the day. Take a moment to reflect on what you have learned and achieved.
+You are done for the day. 
+
+Make sure to have assigned the community roles for the next week, if you haven't already.
+
+Take a moment to reflect on what you have learned and achieved.
 
 Stand in a circle and share:
 
