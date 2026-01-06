@@ -1,7 +1,4 @@
 .c-issue {
-  ~ .c-issue:not(.c-issue--pr) {
-    padding-top: var(--theme-spacing--6);
-  }
   &__title {
     font-weight: 300;
     margin-bottom: var(--theme-spacing--1);
