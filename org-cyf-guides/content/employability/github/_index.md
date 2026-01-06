@@ -50,7 +50,8 @@ Your pinned projects are the projects that a potential employer will look at mak
 - [ ] Your best work
 - [ ] Recent
 - [ ] Relevant
-- [ ] Working - You should link the repo and the demo
-- [ ] Have a ReadMe describing what they are and how they were built
+- [ ] Working - You should link the repo and a deployed version
+- [ ] Have a ReadMe describing what they are and how they were built - see [this repo for an excellent example README](https://github.com/AFatmaa/Chat-Application).
+- [ ] If your site requires logging in, an employer is unlikely to create an account. Include screenshots, videos, or login details so that they can still see your work.
 
 Check this graduate's GitHub profile and compare it to your own - [https://github.com/Zobeir-Rigi](https://github.com/Zobeir-Rigi)

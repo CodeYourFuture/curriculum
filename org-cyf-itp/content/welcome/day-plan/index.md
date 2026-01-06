@@ -45,9 +45,13 @@ time=75
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
+name="Weekly tasks for your community"
+src="blocks/community-roles"
+time=15
+[[blocks]]
 name="Next Steps"
 src="module/fundamentals/next-steps"
-time=45
+time=30
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
