@@ -18,10 +18,12 @@ time=65
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
+<!-- problem solving block removed -->
 [[blocks]]
-name="Problem Solving Workshop"
-src="https://codewars-workshops.codeyourfuture.io/problem-03/"
-time=60
+name = "Clean Code Workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
+time=45
+<!-- TIMING??? 45 is shorter than the 60 min block that sat here -->
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -29,7 +31,7 @@ src="blocks/lunch"
 name="Stand Up"
 src="blocks/standup"
 time=15
-[[blocks]]
+[[blocks]] 
 name="Study Group"
 src="blocks/study-group"
 time=135
