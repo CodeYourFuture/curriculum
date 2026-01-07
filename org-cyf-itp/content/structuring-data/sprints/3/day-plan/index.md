@@ -18,12 +18,10 @@ time=65
 [[blocks]]
 name="Morning break"
 src="blocks/morning-break"
-<!-- problem solving block removed -->
 [[blocks]]
 name = "Clean Code Workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
 time=45
-<!-- TIMING??? 45 is shorter than the 60 min block that sat here -->
 [[blocks]]
 name="lunch"
 src="blocks/lunch"

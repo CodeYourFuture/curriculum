@@ -12,7 +12,6 @@ src="https://www.youtube.com/watch?v=J-0XkB54yp8"
 [[blocks]]
 name="Latency"
 src="module/js3/latency"
-<!-- DEAD CODE REMOVED FROM HERE -->
 [[blocks]]
 name="Synchronous execution"
 src="module/js3/synchronous-execution"

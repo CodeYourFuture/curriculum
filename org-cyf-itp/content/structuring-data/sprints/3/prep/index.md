@@ -27,7 +27,6 @@ name="First test case"
 [[blocks]]
 src="module/js1/feedback"
 name="Interpreting feedback"
-<!-- NEW BLOCK ADDED -->
 [[blocks]]
 name="Dead Code"
 src="module/js1/dead-code"
