@@ -13,11 +13,10 @@ time = "60"
 [[blocks]]
 name = "Morning break"
 src = "blocks/morning-break"
-<!-- NEW WORKSHOP NEEDED HERE -->
-<!-- [[blocks]] -->
-<!-- name = "Clean Code Workshop"
+[[blocks]] 
+name = "Clean Code Workshop"
 src = "module/complexity/clean-code-workshop"
-time = "45" -->
+time = "45"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
