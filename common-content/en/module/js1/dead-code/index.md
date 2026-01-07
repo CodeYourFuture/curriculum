@@ -24,7 +24,7 @@ Clean code generally means code that is:
 - **Understandable for other programmers.**
   We achieve this through good variable naming, avoiding chaining too many methods in one line, good choice of syntax depending on the data type being used, etc.
 - **Avoids duplication**.
-  Not repeating code where it could be a reusable function, making more efficient if/else statements, using loops where relevant, etc.
+  Not repeating code where it could be a reusable function, making more efficient choices in our conditional logic, using loops where relevant, etc.
 - **Passes all tests** (if you have tests in the repository).
 
 - And importantly, contains a **minimal amount of "moving parts"**.
