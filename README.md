@@ -24,7 +24,7 @@ The curriculum content is developed in the Hugo module [/common-content](/common
 
 ## About the curriculum platform
 
-Our self-developed curriculum platform is called Common. It is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/) and [Netlify CMS](https://www.netlifycms.org/).
+Our self-developed curriculum platform is called Common. It is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/) and [Decap CMS](https://decapcms.org/).
 
 The platform, layout, styles and components are all developed in the Hugo module [/common-theme](/common-theme).
 

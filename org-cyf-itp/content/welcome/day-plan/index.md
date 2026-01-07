@@ -28,12 +28,15 @@ src="blocks/morning-break"
 name="Code of Conduct"
 src="blocks/code-of-conduct"
 [[blocks]]
-name="Traffic Jam"
-src="energisers/blockers"
-time=45
+name="Graduate conversation"
+src="blocks/graduate-conversation"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
+[[blocks]]
+name="Traffic Jam"
+src="energisers/blockers"
+time=25
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
@@ -42,9 +45,13 @@ time=75
 name="Afternoon break"
 src="blocks/afternoon-break"
 [[blocks]]
+name="Weekly tasks for your community"
+src="blocks/community-roles"
+time=15
+[[blocks]]
 name="Next Steps"
 src="module/fundamentals/next-steps"
-time=45
+time=30
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"

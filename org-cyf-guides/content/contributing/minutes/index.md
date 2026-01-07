@@ -17,6 +17,108 @@ Attendees:
 
 ---
 
+## 2025-12-16
+
+Attendees: CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Léon McGregor
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+  - Daniel will pick this up because we have some funding to get someone to do it!
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [x] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+### 📝 Agenda points
+
+#### Updating ITP backlogs
+
+Colin has been doing an overall audit of the whole curriculum, particularly with a focus on ITP.
+
+Backlogs are currently not amazingly clean - some stuff is duplicated, maybe too much is mandatory, it's hard to see what's meant to be an every week habit.
+
+Colin is drafting cleaning up and organising the backlogs.
+
+A lot of the backlog issues have a lot of overlap.
+
+How do we care about numbering of tasks?
+- Most of the needs are met by the categorisation Colin is now doing.
+- Drawing attention to "Read this before class" could still be useful - maybe an optional section that appears above mandatory.
+
+Will also be running through PD with Karen to work out what is/isn't important and what we may want to change.
+
+#### Tests in the curriculum
+
+We should maybe remove the DOM tests from Data Groups Sprint 3 - they're mostly confusing, and people don't have enough test nous to really reason about them anyway.
+
+#### Tasks for Anna to pick up over Christmas
+
+We discussed a bunch of options, and will forward them on :)
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel: Add "respond to a bot comment" to the developer specs workshop
+
+---
+
+## 2025-12-03
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+
+### 📝 Agenda points
+
+#### ITD folks are getting lost...
+
+... between Slack, Slack Canvases, the curriculum, the course portal, etc.
+
+Maybe we should make an orientation page in the curriculum? Setting the tone, expectations, tools to be used, etc.
+
+Hopefully the new dashboard will help with some of the trainee journey mapping here too.
+
+Also, we're probably going to stop using Slack Canvases soon.
+
+#### ITP folks aren't familiar with the Git command line
+
+People don't really have a mental model of Git, e.g.
+- Understand what happens when you create branches
+- Commonly create branches not from main
+- Can't rebase/revert changes
+- Aren't confident using CLI commands to fix issues they've gotten into
+
+Currently we don't have any hands-on exercises for actually building up a Git mental model. We have some examples to read, and then hope people will pick things up through the other work they're doing.
+
+But we don't want to add _too much_ content e.g. to the Onboarding module.
+
+#### PR bot reviews
+
+We're seeing trainees who aren't acting on the PR bot comments, and it's quite frustrating. It causes quite a lot of noise in reviews.
+
+We probably want to introduce some "Look out for bot comments, and act on them".
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+---
+
 ## 2025-11-18
 
 Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
