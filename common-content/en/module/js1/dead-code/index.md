@@ -1,5 +1,5 @@
 +++
-title = 'Dead code'
+title = 'Dead Code'
 
 time = 30
 [objectives]
