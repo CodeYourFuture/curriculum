@@ -15,7 +15,7 @@ name = "Morning break"
 src = "blocks/morning-break"
 [[blocks]] 
 name = "Clean Code Workshop"
-src = "module/complexity/clean-code-workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
 time = "45"
 [[blocks]]
 name = "Study Group"
