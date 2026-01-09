@@ -21,7 +21,7 @@ src="blocks/morning-break"
 [[blocks]]
 name = "Clean Code Workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
-time=45
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
