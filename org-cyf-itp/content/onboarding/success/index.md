@@ -37,6 +37,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Onboarding | <YOUR_NAME>`
 1. On the issue, add:
+   - A link showing you [completed **all the onboarding katas**](https://github.com/CodeYourFuture/Module-Onboarding/issues/935). This should be a link to your Codewars Progress Checker page in the form of: https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
    - A link to your _completed_ pull request for "[Wireframe to Web Code](https://github.com/CodeYourFuture/Module-Onboarding/issues/17)".
    - A link to your _completed_ pull request for "[Form Controls](https://github.com/CodeYourFuture/Module-Onboarding/issues/19)".
    - Your Codewars username which you created when you [joined Codewars](https://github.com/CodeYourFuture/Module-Onboarding/issues/39).
