@@ -19,8 +19,8 @@ time=65
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Problem Solving Workshop"
-src="https://codewars-workshops.codeyourfuture.io/problem-03/"
+name = "Clean Code Workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
 time=60
 [[blocks]]
 name="lunch"
@@ -29,7 +29,7 @@ src="blocks/lunch"
 name="Stand Up"
 src="blocks/standup"
 time=15
-[[blocks]]
+[[blocks]] 
 name="Study Group"
 src="blocks/study-group"
 time=135
