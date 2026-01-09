@@ -33,7 +33,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Data flows | <YOUR_NAME>`
 1. On the issue, add:
-   - Evidence that you have completed **all katas** from across the Data Flows CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Flows/issues/371), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Flows/issues/372), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Flows/issues/373).
+   - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** from across the Data Flows CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Flows/issues/371), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Flows/issues/372), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Flows/issues/373).
    - A link to your GitHub repo and deployed Netlify site for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
    - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.
    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)".

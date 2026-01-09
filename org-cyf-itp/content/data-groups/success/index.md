@@ -29,7 +29,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Data groups | <YOUR_NAME>`
 1. On the issue, add:
-   - Evidence that you have completed **all katas** from across the Data Groups CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Groups/issues/936), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Groups/issues/937), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Groups/issues/938).
+   - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** from across the Data Groups CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Groups/issues/936), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Groups/issues/937), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Groups/issues/938).
    - A link to your _completed_ pull request for "[Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)".
    - A link to your _completed_ pull request for "[Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)".
    - A link to your _completed_ pull request for "[Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)".

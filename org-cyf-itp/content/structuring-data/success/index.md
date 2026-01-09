@@ -34,7 +34,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Structuring and testing data | <YOUR_NAME>`
 1. On the issue, add:
-   - Evidence you have completed all of the Codewars katas for [sprint 1](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/899), [sprint 2](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/900), and [sprint 3](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/901) of this module.
+   - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** for [sprint 1](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/899), [sprint 2](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/900), and [sprint 3](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/901) of this module. Link should be in the form https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
    - Links to your _completed_ pull requests for each sprint:
      1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
      2. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
