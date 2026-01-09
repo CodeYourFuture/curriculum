@@ -40,18 +40,5 @@
     <div class="c-block__content c-copy">
       {{ $response.body | page.RenderString }}
     </div>
-    {{ with $response.labels }}
-      <ul class="c-issue__labels c-label__list">
-        {{ range . }}
-          <li class="c-issue__label c-label" style="--color:#{{ .color }}4d">
-            <span
-              class="c-issue__label-name c-label__name"
-              title="{{ .description }}">
-              {{ .name }}
-            </span>
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
   </section>
 {{ end }}
