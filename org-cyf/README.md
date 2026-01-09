@@ -38,4 +38,4 @@ In this curriculum you'll find the content that we teach at CodeYourFuture. For 
 
 ## Contributing
 
-Please read CONTRIBUTING.MD
+Please read [CONTRIBUTING.md](../CONTRIBUTING.md)
