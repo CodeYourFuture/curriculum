@@ -37,12 +37,12 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Onboarding | <YOUR_NAME>`
 1. On the issue, add:
-   - A link showing you [completed **all the onboarding katas**](https://github.com/CodeYourFuture/Module-Onboarding/issues/935). This should be a link to your Codewars Progress Checker page in the form of: https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
+   - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Onboarding/issues/918).
+   - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
    - A link to your _completed_ pull request for "[Wireframe to Web Code](https://github.com/CodeYourFuture/Module-Onboarding/issues/17)".
    - A link to your _completed_ pull request for "[Form Controls](https://github.com/CodeYourFuture/Module-Onboarding/issues/19)".
    - Your Codewars username which you created when you [joined Codewars](https://github.com/CodeYourFuture/Module-Onboarding/issues/39).
-   - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
-   - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Onboarding/issues/918).
+   - A link showing you [completed **all the onboarding katas**](https://github.com/CodeYourFuture/Module-Onboarding/issues/935). This should be a link to your Codewars Progress Checker page in the form of: https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
 1. Submit the issue link to step 1 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 1. **[Apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)**.
 
