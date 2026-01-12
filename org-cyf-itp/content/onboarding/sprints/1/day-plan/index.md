@@ -35,7 +35,7 @@ src="blocks/using-github"
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Energiser"
+name="Slack Libs"
 src="energisers/slack-libs"
 [[blocks]]
 name="Blockers! Getting Unstuck"
