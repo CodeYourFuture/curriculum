@@ -25,7 +25,7 @@
       {{/* extract objectives */}}
       {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response.body }}
       {{/* remove "Learning Objectives" heading from remaining text */}}
-      {{ $strippedBody := replace $response.body "Learning Objectives" "" }}
+      {{ $strippedBody := replace $response.body "### Learning Objectives" "" }}
 
       {{ if gt (len $extractedObjectives) 0 }}
         <details open class="c-block__objectives">
