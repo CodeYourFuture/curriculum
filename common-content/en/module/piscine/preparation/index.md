@@ -11,10 +11,10 @@ hide_from_overview="true"
 Double-check you have everything you need to start the Piscine.
 
 - [ ] You have applied to the Piscine and received an enrollment email
+- [ ] You have joined the CYF Slack where the Piscine is hosted, and filled out your profile
 - [ ] You have a suitable laptop and internet access
 - [ ] You have organised childcare if you need it
 - [ ] You have signed the Code of Conduct
-- [ ] You have signed the trainee agreement
 - [ ] You know how to get to class
 - [ ] You have read and understood the success criteria
 
