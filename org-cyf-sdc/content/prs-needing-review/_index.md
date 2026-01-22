@@ -7,6 +7,7 @@ GitHubRepos = [
     "Module-Tools",
     "Module-Decomposition",
     "Module-Legacy-Code",
+    "Module-Complexity",
 ]
 +++
 
