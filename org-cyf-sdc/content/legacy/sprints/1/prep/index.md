@@ -8,6 +8,9 @@ weight = 1
 name = "Introduction"
 src = "module/legacy/introduction"
 [[blocks]]
+name = "Practices to remember"
+src = "module/legacy/practices-to-remember"
+[[blocks]]
 src = "https://github.com/CodeYourFuture/Module-Legacy-Code"
 name = "Purple Forest"
 time = 60
@@ -26,6 +29,9 @@ src = "module/legacy/patterns"
 [[blocks]]
 name = "Debugging"
 src = "module/legacy/debugging"
+[[blocks]]
+name = "Reproduction Steps"
+src = "module/legacy/reproduction-steps"
 [[blocks]]
 name = "Testing"
 src = "module/legacy/testing"
