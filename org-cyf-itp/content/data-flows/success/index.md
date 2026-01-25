@@ -4,8 +4,10 @@ description = 'How do we know if we have completed Data Flows?'
 layout = "success"
 menu_level = [ "module" ]
 weight = 11
-[[objectives]]
-1="Submit step 4 on the CYF Course Portal"
+objectives = [[
+    "Submit step 4 on the CYF Course Portal",
+    "Submit step 5 of the CYF Course Portal",
+]]
 +++
 
 ### 🎯 You've achieved your learning objectives if you can:
@@ -42,6 +44,12 @@ weight = 11
    - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Data-Flows/issues/323).\
      This must be at a different demo session than any submitted for previous modules.
 1. Submit the issue link to step 4 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
+
+## ✅ To complete this _course_, you must:
+
+1. Pass your Codility test.
+   - See [Pass Your Codility Test](https://github.com/CodeYourFuture/Module-Data-Flows/issues/321) for details.
+1. Submit the link to your Codility test as step 5 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
 > A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
