@@ -17,6 +17,62 @@ Attendees:
 
 ---
 
+## 2026-01-27
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Colin Farquhar, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Update testing content in ITP
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+
+### 📝 Agenda points
+
+#### ITP Testing
+
+CJ Pushed testing content today
+
+#### Adjustments for visually impaired trainees
+
+ITP student in Sheffield has visual impairment and is struggling to read some of the course content (mainly images). Submission deadline already has flexibility built in to accommodate adjustments so no additional time available, but we can make adjustments to exercise criteria.
+
+We'll take each exercise individually and asses any potential changes as we come to them. 
+
+Hugo _should_ have accessibility features built in, but some of our content may need additional descriptions/alt text eg. wireframing task.
+
+#### PR template instructions
+
+Many trainees are not removing the example text when submitting their first PRs. We should add comments/instructions to make it clear what needs to be changed
+
+#### Form Controls Task
+
+Task requires Lighthouse score of 100, but this is tricky to achieve without CSS. Should we remove the "no CSS" restriction?
+
+We could also move it to sprint 1 before wireframing.
+
+We're already past this point with ITP Jan, will revisit before May cohort
+
+#### ITD Eligibility
+
+Sheffield trainee has completed ITD but does not meet eligibility criteria for ITP. Doing checks earlier isn't practical (too many people). Are we communicating eligibility early enough? Criteria are already posted on the website for applicants to read.
+
+#### ITD Slack
+
+Support Qs asked in different channels, but fewer questions these days. We also have a general #question-support channel. Should we keep this one and remove the others?
+
+Previous ITD was quite small so may be distorting the numbers. We'll keep an eye on how the next ITD goes and reassess after.
+
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+- [ ] Colin: Update PR template for clarity
+- [ ] Ali: Post Slack message in volunteer channel sourcing accessibility resources
+
+---
+
 ## 2026-01-13
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
