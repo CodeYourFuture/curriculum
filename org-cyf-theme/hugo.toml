@@ -52,9 +52,9 @@ root = "curriculum"
 googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
 
 # We use a proxy which concatenates paginated responses, otherwise we miss results.
-# CYF is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
+# Daniel is currently hosting this code https://github.com/illicitonion/github-issue-proxy but we should work out a long-term maintainable solution to this problem.
 # The /cached/120 path prefix here caches results for 2 hours to avoid rate limits. Drop the /cached/120 if you need fresh results.
-orgapi = "https://github-issue-proxy.hosting.codeyourfuture.io/cached/120/repos/CodeYourFuture/"
+orgapi = "https://github-issue-proxy.illicitonion.com/cached/120/repos/CodeYourFuture/"
 
 [caches.getresource]
 # Disable caching of fetches - we want every build to get up to date content for issues, so that if people make clarifications or fixes to issues, we pick them up.
