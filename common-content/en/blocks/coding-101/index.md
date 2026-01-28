@@ -68,7 +68,7 @@ variable.
 Variables have a name (_identifier_) that we can use to refer to a value. You
 can assign a value to a variable with the following statement:
 
-```js
+```js title="index.js"
 var x = 3;
 ^   ^ ^ ^
 |   | | value
@@ -100,7 +100,7 @@ Now you can use the identifier instead of the actual value in an expression:
 
 Let's start with something seemingly simple - numbers. Here are some:
 
-```js
+```js title="index.js"
 1;
 15;
 3195803798;
@@ -114,7 +114,7 @@ You will see that there are whole numbers (no decimal point) and real numbers
 Numbers can be positive or negative and they support all the basic math
 operators that you would expect:
 
-```js
+```js title="index.js"
 2 + 2; // 4
 2 - 5; // -3
 2 * 3; // 6
@@ -133,7 +133,7 @@ precedence than `+` and `-`.
 Strings represent any sort of text. They are delimited by single quotes (`'`) or
 double quotes (`”`) and can be of any length.
 
-```js
+```js title="index.js"
 ""; // empty string
 ""; // empty string
 "Hello";
@@ -150,7 +150,7 @@ double quotes (`”`) and can be of any length.
 The most common operation on strings is to append one string to another. This is
 called _string concatenation_. It's achieved by the plus (`+`) operator:
 
-```js
+```js title="index.js"
 "Hello" + "World"; // "HelloWorld"
 ```
 
@@ -169,14 +169,14 @@ important ones are:
 
 - `!` (NOT), which negates a value:
 
-```js
+```js title="index.js"
 !true; // false
 !false; // true
 ```
 
 - `&&` (AND), which is only true if both operands are true:
 
-```js
+```js title="index.js"
 false && false; // false
 true && false; // false
 false && true; // false
@@ -185,7 +185,7 @@ true && true; // true
 
 - `||` (OR), which is true if at least one of the operands is true:
 
-```js
+```js title="index.js"
 false && false; // false
 true && false; // true
 false && true; // true
