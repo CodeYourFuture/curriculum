@@ -145,9 +145,11 @@ If you are working on a GitHub issue please mention the reference in the PR, but
 
 ## Deploy preview
 
-When you raise a PR, Netlify will automatically try and deploy your branch and give you a custom URL so you can view a preview of your changes and anyone reviewing your PR can see the preview without needing to run the branch locally. 
+When you raise a PR, Netlify will automatically try and deploy your branch and give you a custom URL so you can view a preview of your changes and anyone reviewing your PR can see the preview without needing to run the branch locally.
 
 However, if you do not have permissions to push to the CodeYourFuture repo and are creating a PR from a fork of the review, someone with the correct permissions will have to approve the Netlify build. Please ask in the #curriculum channel in slack to get the build approved. If you have push permissions then the build will happen automatically.
+
+As this repo contains multiple sites, when you create a PR it will create a different Netlify build for each site. Netlify also runs Lighthouse and creates a report on performance, accessibility, SEO and best practices so you can see how your branch performs.
 
 ## Contributors ✨
 
