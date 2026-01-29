@@ -71,7 +71,7 @@ Where you have certifications that are relevant they can be included here. For e
 
 ## Tools and Technologies
 
-You may want to include a section on the the technologies you are familiar with and what level you are at them. Some people like to have this information pulled out into its own section, however it is a matter of personal preference and not necessary. If you do choose to have this section make sure the things you list are relevant and not basic tools such as Microsoft Word or JIRA.
+You may want to include a section on the the technologies you are familiar with and what level you are at them. Some people like to have this information pulled out into its own section, however it is a matter of personal preference and not necessary. If you do choose to have this section make sure the things you list are relevant and not basic tools such as Microsoft Word or JIRA. It is also helpful to ensure the order of the technologies listed in your CV mirrors their importance within the job description, and so this is something you should tailor per company (don't start your front end tools list with Angular if the role requires React etc.).
 
 # Formatting and length
 
