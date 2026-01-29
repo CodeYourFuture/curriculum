@@ -39,7 +39,7 @@ If someone who knows you reads 5 personal statements, they should be able to tel
 
 ## Employment Section
 
-Here is where you detail any relevant employment experience. You should think about what the message if you are trying to convey here and tailor it to achieve that, rather than just writing a list of everything you did in every job. You should go into the most detail on the experience that is most relevant, and the experience that is most recent. If education is more important than experience for this job advert, then put the education section above experience. Focus on the experience that is relevant to the job you want.
+Here is where you detail any relevant employment experience, in chronological order with the most recent job first. You should think about what the message if you are trying to convey here and tailor it to achieve that, rather than just writing a list of everything you did in every job. You should go into the most detail on the experience that is most relevant, and the experience that is most recent. If education is more important than experience for this job advert, then put the education section above experience. Focus on the experience that is relevant to the job you want.
 
 ### Career Change
 
