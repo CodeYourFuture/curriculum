@@ -12,7 +12,8 @@ Things to check in your CV before sending it to an employer:
 * [ ] There is only one column of text throughout.
 * [ ] It is in PDF format.
 * [ ] There are no pictures.
-* [ ] Includes contact details: mobile number, e-mail address, LinkedIn link. #TODO add point for links in general and to github
+* [ ] Includes contact details: mobile number, e-mail address and location (city not full address).
+* [ ] Includes links to your LinkedIn, Github profile, specific Github projects you want to highlight and a portfolio site if you have one.
 * [ ] All the links you have included work.
 * [ ] The dates are all correct and there are no unexplained gaps.
 * [ ] It avoids personal pronouns (e.g. I, me, my).
