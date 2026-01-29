@@ -66,7 +66,7 @@ As this front end composes many different repos, please open an issue in the rep
 
 You need the following software packages to run this curriculum:
 * `go`
-* `hugo` (must be the extended version) - we recommend version 0.136 extended
+* `hugo` (must be the extended version) - please use version 0.136 extended, as more recent versions have a breaking change.
 * `npm`
 
 On macOS:
@@ -130,6 +130,26 @@ npx pagefind --site "public" --serve
 ```
 
 And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
+
+
+## Checklist before raising a PR
+
+Please check the following before raising a PR. Unless you have been given permissions to push to the code your future repo you will have to create a fork of the repo and then raise a PR from that to the main repo. You will also not be able to add reviewers yourself unless you have been given permission, but you can mention people in the PR description to bring it to their attention.
+
+If you are working on a GitHub issue please mention the reference in the PR, but if it is a small improvement it does not need one.
+
+- [ ] I have checked my spelling and grammar with an [automated tool](https://www.grammarly.com/grammar-check)
+- [ ] I have previewed my changes to check the [markdown renders](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) as I intend
+- [ ] I have run my code to check it works
+- [ ] My changes follow our [Style Guide](https://curriculum.codeyourfuture.io/guides/code-style-guide)
+
+## Deploy preview
+
+When you raise a PR, Netlify will automatically try and deploy your branch and give you a custom URL so you can view a preview of your changes and anyone reviewing your PR can see the preview without needing to run the branch locally.
+
+However, if you do not have permissions to push to the CodeYourFuture repo and are creating a PR from a fork of the review, someone with the correct permissions will have to approve the Netlify build. Please ask in the #cyf-curriculum channel in slack to get the build approved. If you have push permissions then the build will happen automatically.
+
+As this repo contains multiple sites, when you create a PR it will create a different Netlify build for each site. Netlify also runs Lighthouse and creates a report on performance, accessibility, SEO and best practices so you can see how your branch performs.
 
 ## Contributors ✨
 
