@@ -42,7 +42,7 @@ weight = 11
    - A link to your _completed_ pull request for "[Wireframe to Web Code](https://github.com/CodeYourFuture/Module-Onboarding/issues/17)".
    - A link to your _completed_ pull request for "[Form Controls](https://github.com/CodeYourFuture/Module-Onboarding/issues/19)".
    - Your Codewars username which you created when you [joined Codewars](https://github.com/CodeYourFuture/Module-Onboarding/issues/39).
-   - A link showing you [completed **all the onboarding katas**](https://github.com/CodeYourFuture/Module-Onboarding/issues/935). This should be a link to your Codewars Progress Checker page in the form of: https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
+   - A link showing you [completed **at least 50% of the Onboarding katas**](https://github.com/CodeYourFuture/Module-Onboarding/issues/935). This should be a link to your Codewars Progress Checker page in the form of: https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
 1. Submit the issue link to step 1 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 1. **[Apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)**.
 

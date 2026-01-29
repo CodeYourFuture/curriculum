@@ -17,6 +17,102 @@ Attendees:
 
 ---
 
+## 2026-01-27
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Colin Farquhar, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Update testing content in ITP
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+
+### 📝 Agenda points
+
+#### ITP Testing
+
+CJ Pushed testing content today
+
+#### Adjustments for visually impaired trainees
+
+ITP student in Sheffield has visual impairment and is struggling to read some of the course content (mainly images). Submission deadline already has flexibility built in to accommodate adjustments so no additional time available, but we can make adjustments to exercise criteria.
+
+We'll take each exercise individually and asses any potential changes as we come to them. 
+
+Hugo _should_ have accessibility features built in, but some of our content may need additional descriptions/alt text eg. wireframing task.
+
+#### PR template instructions
+
+Many trainees are not removing the example text when submitting their first PRs. We should add comments/instructions to make it clear what needs to be changed
+
+#### Form Controls Task
+
+Task requires Lighthouse score of 100, but this is tricky to achieve without CSS. Should we remove the "no CSS" restriction?
+
+We could also move it to sprint 1 before wireframing.
+
+We're already past this point with ITP Jan, will revisit before May cohort
+
+#### ITD Eligibility
+
+Sheffield trainee has completed ITD but does not meet eligibility criteria for ITP. Doing checks earlier isn't practical (too many people). Are we communicating eligibility early enough? Criteria are already posted on the website for applicants to read.
+
+#### ITD Slack
+
+Support Qs asked in different channels, but fewer questions these days. We also have a general #question-support channel. Should we keep this one and remove the others?
+
+Previous ITD was quite small so may be distorting the numbers. We'll keep an eye on how the next ITD goes and reassess after.
+
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+- [ ] Colin: Update PR template for clarity
+- [ ] Ali: Post Slack message in volunteer channel sourcing accessibility resources
+
+---
+
+## 2026-01-13
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [x] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [x] Daniel: Add "respond to a bot comment" to the developer specs workshop
+
+### 📝 Agenda points
+
+#### Testing content in ITP
+
+**Why are we introducing `console.assert`?** Avoiding having to pull in dependencies, and all of imports/packages/projects/...
+
+**Should we be focusing on what values to test or how to test or both?** A lot of the testing content is "copy and paste examples with more values". Long-term we want trainees to do both, but we don't necessarily have to do both at the same time.
+
+**Some tests talk about TDD but don't really do it?** We should probably remove the term TDD, but try to get people thinking about test cases before writing code (even if not actually writing them). If we want to introduce TDD, we should probably do so explicitly (and better)!
+
+#### Required demo-giving for people without laptops
+
+We now require giving a demo for each Step in ITP. But we won't lend people laptops until they've submitted Step 1. How should we handle bootstrapping this?
+
+Change the requirement to _attend_ a demo session for Step 1, and _presenting_ a demo session for the subsequent steps. But keep recommending presenting demos as early as possible.
+
+#### Moving Tuesday meetings to 7pm to avoid conflict with demo session
+
+Let's do it. Also, let's only do Tuesdays, they work better for everyone and it will be more predictable.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+
+---
+
 ## 2025-12-16
 
 Attendees: CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Léon McGregor
