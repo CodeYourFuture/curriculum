@@ -19,7 +19,7 @@ Different countries have different expectations about including your photo and g
 
 ## Profile Section
 
-A profile section says who you are now, a quick summary of your skills and experience (1-2 sentences), and what you want to do next in your career. It needs to use action verbs and describe the job you're applying to. Change this section depending on the advert you apply to, copying the phrases used in the advert.
+A profile section says who you are now, a quick summary of your skills and experience (1-2 sentences), and what you want to do next in your career. It needs to use action verbs and describe the job you're applying to. Change this section depending on the advert you apply to, using the same keywords used in the advert.
 
 Make sure the job title in the first line of the profile section matches the job you are applying for. If the job you are applying for is a Front End Web Designer, then write you are a Front End Web Designer even if your last job was widget sales. Nothing turns off a recruiter faster than if the first line of the CV says you are something they are not looking for!
 
