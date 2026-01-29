@@ -43,7 +43,11 @@ Here is where you detail any relevant employment experience, in chronological or
 
 ### Career Change
 
-If you have changed career, think about what transferrable skilled that you gained in your previous employment that may be relevant and highlight them. If you were a journalist, you probably have skills in storytelling and written communication. If you worked in a shop, it is not relevant to tech that you were stacking shelves, but it is relevant you were in a customer facing role helping solve customers challenges. If you had several jobs in your previous career that were similar and gave you the same skills you may want to collate them together and say "retail assistant 2000-2005" and summarise your skills rather than having multiple lines saying essentially the same thing.
+If you have changed career, think about what transferrable skilled that you gained in your previous employment that may be relevant. Your previous experience is valuable, don't hide it. Many career changers worry their background isn't relevant, but employers actively value the diverse perspectives and real-world experience you bring. Whatever your background, you've developed skills that matter: working in teams, meeting deadlines, managing stakeholders, handling difficult situations, or leading projects. These are the professional capabilities that help people succeed in their tech careers, and they're often harder to teach than coding itself.
+
+Think broadly about your transferrable skills and highlight them with confidence. A journalist brings storytelling ability and clear communication, essential for writing documentation and explaining technical concepts. Retail experience demonstrates customer service skills, problem-solving under pressure, and the ability to understand user needs, all crucial in tech roles. A teacher has experience breaking down complex ideas, adapting to different learning styles, and managing multiple priorities.
+
+If you had several similar roles that developed the same skills, you can group them (for example, "Retail Assistant, Companies X, Y, Z, 2000-2005") and summarize the key skills you gained. This keeps your CV concise while ensuring your experience is visible.
 
 ### Employment Gaps
 
