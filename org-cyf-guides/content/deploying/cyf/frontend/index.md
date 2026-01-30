@@ -55,7 +55,7 @@ If you want to deploy from a branch that isn't `main`, you need to configure thi
 
 ## Add NODE_ENV to Your Project
 
-**Required for:** All JavaScript/Node.js projects (frontend and backend)
+**Required for:** All Node.js projects (anything that has a `package.json` file) 
 
 ### Steps
 
@@ -67,7 +67,8 @@ If you want to deploy from a branch that isn't `main`, you need to configure thi
 3. Fill in the form:
    - **Name:** `NODE_ENV`
    - **Value:** `{{team.NODE_ENV}}`
-   - Check **"Available at Runtime"** ✅ 
+   - Make sure **"Available at Build time" is not checked** ❌  
+   - Make sure **"Available at Runtime"** is checked ✅ 
 
 ![Fill the new environment variables form](fill_the_form.png)
 
