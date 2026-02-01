@@ -17,10 +17,12 @@
 {{ range (slice $extractedObjectivesBlocks $extractedShortcodeBlocks) }}
   {{ range . }}
     {{ range (split . "\n")}}
-      {{ if or (eq . "{{<objectives>}}") (eq . "{{</objectives>}}") (eq . "```objectives") (eq . "```") }}
+      {{ if or (eq . "{{<objectives>}}") (eq . "{{</objectives>}}") (eq . "```objectives") (eq . "```") (eq . "") }}
         {{ continue }}
       {{ else if hasPrefix . "- [ ] "}}
         {{ $extractedObjectives = $extractedObjectives | append (substr . 6) }}
+      {{ else if hasPrefix . "- "}}
+        {{ $extractedObjectives = $extractedObjectives | append (printf "- [ ] %s" (substr . 2)) }}
       {{ else }}
         {{ errorf "Unexpected learning objective from remote content from URL %s: %s" $url . }}
       {{ end }}
