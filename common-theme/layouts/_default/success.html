@@ -84,11 +84,16 @@
             {{ partial "block/data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
             {{/* Retrieve the blockData from Scratch */}}
             {{ $blockData := $.Page.Scratch.Get "blockData" }}
+            {{ $links := slice }}
+            {{ $anchorifiedName := $name | urlize }}
+            {{ if in $prep.Params.blocks . }}{{ $links = $links | append (dict "href" (printf "../prep#%s" $anchorifiedName) "text" "Prep") }}{{ end }}
+            {{ if in $issueBlocks . }}{{ $links = $links | append (dict "href" (printf "../backlog#%s" $anchorifiedName) "text" "Backlog") }}{{ end }}
+            {{ if in $dayplan.Params.blocks . }}{{ $links = $links | append (dict "href" (printf "../day-plan#%s" $anchorifiedName) "text" "Day Plan") }}{{ end }}
             {{/* Depending on the type of block, call the appropriate partial */}}
             {{ if or (eq $blockData.type "readme") (eq $blockData.type "issue") }}
-              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" $blockData.name) }}
+              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "title" $blockData.name "links" $links ) }}
             {{ else }}
-              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true) }}
+              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true "links" $links) }}
             {{ end }}
 
           {{ end }}

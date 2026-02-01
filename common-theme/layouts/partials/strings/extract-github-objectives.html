@@ -1,11 +1,31 @@
-{{ $strippedText := . | replaceRE "<!--|-->" "" | replaceRE "\r\n" "\n" }}
+{{ $url := .URL }}
+{{ $body := .body }}
+
+{{ $strippedText := $body | replaceRE "<!--|-->" "" | replaceRE "\r\n" "\n" }}
 
 {{/* Find fenced objectives in text */}}
 {{ $regexFence := "```objectives\\s*([^`]*?)\\s*```" }}
-{{ $extractedObjectives := findRE $regexFence $strippedText }}
+{{ $extractedObjectivesBlocks := findRE $regexFence $strippedText }}
 
 {{/* Find shortcoded objectives in text */}}
 <!--prettier-ignore-->
 {{ $regexShortcode := "{{<objectives>}}([^`]*?){{</objectives>}}" }}
-{{ $extractedObjectives = $extractedObjectives | append (findRE $regexShortcode $strippedText) }}
+{{ $extractedShortcodeBlocks := findRE $regexShortcode $strippedText }}
+
+
+{{ $extractedObjectives := slice }}
+{{ range (slice $extractedObjectivesBlocks $extractedShortcodeBlocks) }}
+  {{ range . }}
+    {{ range (split . "\n")}}
+      {{ if or (eq . "{{<objectives>}}") (eq . "{{</objectives>}}") (eq . "```objectives") (eq . "```") }}
+        {{ continue }}
+      {{ else if hasPrefix . "- [ ] "}}
+        {{ $extractedObjectives = $extractedObjectives | append (substr . 6) }}
+      {{ else }}
+        {{ errorf "Unexpected learning objective from remote content from URL %s: %s" $url . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{ return $extractedObjectives }}
