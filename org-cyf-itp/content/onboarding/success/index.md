@@ -18,7 +18,7 @@ weight = 11
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
-- Explain to someone how we use prep, backlogs, day plans, and success pages at {{<our-name>}}.
+- Explain to someone how we use prep, backlogs, day plans, and end of sprint/module review pages at {{<our-name>}}.
 - Track changes to data (your code) over time with Git and GitHub.
 - Validate data with HTML forms.
 - Analyse structured data with SQL in a spreadsheet.

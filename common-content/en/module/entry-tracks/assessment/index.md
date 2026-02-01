@@ -11,7 +11,7 @@ The final class day will be interview day. You will have the opportunity to be i
 
 The interviewer will ask you some pre-set questions. These will be shared in advance so you can prepare. The questions are designed to help you show how incredible you would be as an employee, so take the opportunity to shine! You will have 30 minutes.
 
-The success criteria is listed on the success page. Read it carefully so you know what you need to do to succeed.
+The success criteria is listed on the end of sprint/module review pages. Read them carefully so you know what you need to do to succeed.
 
 ### Prerequisites:
 
