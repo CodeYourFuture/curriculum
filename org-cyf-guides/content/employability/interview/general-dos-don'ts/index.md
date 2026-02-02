@@ -5,7 +5,7 @@ emoji: 🖥️
 weight: 6
 ---
 
-## DO
+## Do
 - ask who is interviewing you beforehand and research them on LinkedIn
 - ask what the type of interview it will be to help you prepare, will it be a technical interview, will it be competency based etc.
 - if it is a technical interview, ask what the technology stack you will use will be or whether you will be able to choose yourself
@@ -25,10 +25,12 @@ weight: 6
 - remember your interviewer is a human too, they want you to be successful and are not trying to catch you out, as most likely they want to get back to their day job rather than interviewing many more people
 - keep a note of any tricky questions you are asked, so that you can be better prepared for future interviews if they come up again
 
-## DON'T
+## Don't
 - look down or at another screen during the interview, it looks like you are not paying attention
 - look at your phone during the interview
 - google the answer if you don't know it whilst stalling for time, it is better to be honest
+- 
+  - Note: In technical interviews, googling _may_ be appropriate (e.g. to look up a specific API). Make sure you say out loud what you're not sure about, and ask if it's ok to look it up. The interviewer may say yes (and want to see how you search), or may say no and either discuss the question with you, or give you an answer.
 - read out verbatim answers you have prepared word for word, as it can sound unnatural, try and keep a conversational tone
 - be afraid to be honest about your preferences, some people prefer different technologies and working environments and it is better to find that out in the interview stage than pretend you like something and then have to backtrack on that when you start a job
 - beat yourself up if it doesn't go well, everyone has bad interview experiences and it can be very subjective, a bad interview doesn't mean you are a bad candidate, it just means it wasn't a good fit on this occasion

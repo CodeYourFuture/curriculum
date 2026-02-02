@@ -15,11 +15,11 @@ The following are common types of exercise you may be asked to do.
 
 ### Questions Based
 
-These typically fall into a couple of categories. There are purely knowledge based questions which have a correct answer, e.g. what is Object Oriented Programming. These questions may also be more subjective, such as competency based questions, see [here](./interview/competency-interview) on how to nail these. Alternatively they may be opinion based, such as "Tell me about what technology you are most excited about right now"
+These typically fall into a couple of categories. There are purely knowledge based questions which have a correct answer, e.g. what is Object Oriented Programming. These questions may also be more subjective, such as competency based questions, see [this competency interview guide](../competency-interview) on how to nail these. Alternatively they may be opinion based, such as "Tell me about what technology you are most excited about right now"
 
 ### Coding Tests
 
-These are very common for engineering roles, they might be to write a new feature or algorithm, or to find problems in existing code. Most of the guidance under [technical interviews](.i/nterview/technical-interview-prep) applies here.
+These are very common for engineering roles, they might be to write a new feature or algorithm, or to find problems in existing code. Most of the guidance under [technical interviews](../technical-interview-prep) applies here.
 
 Some other things to bear in mind are that these will often be on a specific platform for assessment such as Codility. If that is the case then you may not have the normal IDE features you are used to such as autocomplete and so it's good practice to do a trial exercise on that platform to familiarise yourself with it. If it is using such a platform it's likely you will also be timed with potentially a time limit for completing the exercise. Therefore make sure you are definitely ready before you start the exercise. Your working through the problem may also be recorded so that the interviewers can watch back and see whether you ran the tests throughout or only at the end for example.
 
