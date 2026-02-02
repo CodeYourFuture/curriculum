@@ -69,7 +69,7 @@ Choose your 2 best projects to mention here, they should showcase skills that ar
 
 Briefly describe what the project is, whether it is a personal project, or part of an educational course like Code Your Future or otherwise and what is impressive about it. You should also mention if it is a group project, as otherwise the hiring manager may be confused when they look at Github and see lots of commits from others. A long list of tech can be useful but isn't impressive, and as before make sure to highlight any tech that you used that is a requirement for the job you are applying for.  "Designed caching layer to minimise database reads with p90 page loads of 10ms" or "Learnt React in 1 week to build this project" or "In use by several community groups" is more impressive.
 
-Link to both the GitHub for the project (with a good README - [this has some guidelines on how to write one](https://curriculum.codeyourfuture.io/guides/employability/github/pinned-projects/)) and a deployed version. Make sure the deployed version is working, and loads quickly.
+Link to both the GitHub for the project (with a good README - [this has some guidelines on how to write one](../../github/pinned-projects)) and a deployed version. Make sure the deployed version is working, and loads quickly.
 
 ## Certifications
 
