@@ -131,7 +131,6 @@ npx pagefind --site "public" --serve
 
 And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
 
-
 ## Checklist before raising a PR
 
 Please check the following before raising a PR. Unless you have been given permissions to push to the code your future repo you will have to create a fork of the repo and then raise a PR from that to the main repo. You will also not be able to add reviewers yourself unless you have been given permission, but you can mention people in the PR description to bring it to their attention.
