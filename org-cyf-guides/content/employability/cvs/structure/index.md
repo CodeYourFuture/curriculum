@@ -61,12 +61,15 @@ Here is where you summarise any relevant education in chronological order. You s
 
 These will depend on your circumstance whether you include these or not. If you have things you want to highlight they can be included, but if you are already at the 2 page limit you may want to prioritise more content in the employment section. You could include some of these sections on your LinkedIn profile as space is less pertinent an issue there.
 
-## Notable projects and interests
+## Projects
 
-#TODO separate out
-#TODO add better advice on projects
+This is a great way to show off your technical skills, especially if your employment experience is in different jobs to the one that you are now trying to get.
 
-You may want to mention any projects and interests that are particularly important to you, for example if you are an amateur musician, or a civilian police officer. These may be briefly asked about at the start or end of an interview to break the ice and get to know you as a person, just bear in mind this may be coming at the expense of using the space for some more relevant employment experience.
+Choose your 2 best projects to mention here, they should showcase skills that are relevant to the role you're applying for. If you're applying for a frontend design role, your projects must be beautiful. If you are applying for a backend role, you should not link to a static frontend with no backend work. If you have a third you want to include that showcases something different to the first two then you can add it, but don't add more than three as it's very unlikely they will ever be looked at.
+
+Briefly describe what the project is, whether it is a personal project, or part of an educational course like Code Your Future or otherwise and what is impressive about it. You should also mention if it is a group project, as otherwise the hiring manager may be confused when they look at Github and see lots of commits from others. A long list of tech can be useful but isn't impressive, and as before make sure to highlight any tech that you used that is a requirement for the job you are applying for.  "Designed caching layer to minimise database reads with p90 page loads of 10ms" or "Learnt React in 1 week to build this project" or "In use by several community groups" is more impressive.
+
+Link to both the GitHub for the project (with a good README - [this has some guidelines on how to write one](https://curriculum.codeyourfuture.io/guides/employability/github/pinned-projects/)) and a deployed version. Make sure the deployed version is working, and loads quickly.
 
 ## Certifications
 
@@ -75,6 +78,10 @@ Where you have certifications that are relevant they can be included here. For e
 ## Tools and Technologies
 
 You may want to include a section on the the technologies you are familiar with and what level you are at them. Some people like to have this information pulled out into its own section, however it is a matter of personal preference and not necessary. If you do choose to have this section make sure the things you list are relevant and not basic tools such as Microsoft Word or JIRA. It is also helpful to ensure the order of the technologies listed in your CV mirrors their importance within the job description, and so this is something you should tailor per company (don't start your front end tools list with Angular if the role requires React etc.).
+
+## Interests
+
+You may want to mention any interests that are particularly important to you, for example if you are an amateur musician, or a civilian police officer. You may also want to mention any other languages you speak here. These may be briefly asked about at the start or end of an interview to break the ice and get to know you as a person, just bear in mind this may be coming at the expense of using the space for some more relevant employment experience.
 
 # Formatting and length
 
