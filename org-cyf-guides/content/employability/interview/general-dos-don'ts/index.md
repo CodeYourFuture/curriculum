@@ -9,6 +9,7 @@ weight: 6
 - ask who is interviewing you beforehand and research them on LinkedIn
 - ask what the type of interview it will be to help you prepare, will it be a technical interview, will it be competency based etc.
 - if it is a technical interview, ask what the technology stack you will use will be or whether you will be able to choose yourself
+- have a look on the website GlassDoor to see if there are interview questions that that particular company frequently ask. However, **please ensure you don't rely on this as your only preparation as there are frequently many people on the hiring team and so the questions may not be the same every time**.
 - ask what the technology for the call will be, if it is Microsoft Teams for example, make sure you have installed it well before the call
 - check your camera and video are working before the call
 - listen carefully to the question being asked and if you blank and forget the question, ask them to repeat it
