@@ -11,7 +11,7 @@ Nowadays it is very common to see AI used by both candidates in writing their CV
 
 AI can be used to write the actual content of your CV, like any written document. However, this is not something that is advisable as you want your CV to be an authentic and genuine representation of you and your unique skills and talents. Writing the first draft with AI is likely to result in something that sounds very similar to other people, as it has after all been trained on other peoples content. It may sound unique to you, but you should remember the person reviewing your CV will likely be reviewing 10s of candidates for the role and so something that sounds similar to everyone else is not going to make you stand out.
 
-The other thing to remember is that, assuming you are successful, you are going to have to interview virtually and perhaps remotely. If there is a big difference between how you come across in writing on your CV and how you speak in person, it will look suspicious. If you are not a native English speaker, or even if you are, write in the language you would use on a daily basis, don't include words you would never normally say because they think they make you look better.
+The other thing to remember is that, assuming you are successful, you are going to have to interview virtually and perhaps face to face. If there is a big difference between how you come across in writing on your CV and how you speak in person, it will look suspicious. If you are not a native English speaker, or even if you are, write in the language you would use on a daily basis, don't include words you would never normally say because you think they make you look better.
 
 ## Assistance Editing and Refining CVs
 

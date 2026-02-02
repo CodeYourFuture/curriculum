@@ -49,7 +49,7 @@ As well as explaining the qualitative impact of what you have done, it is useful
 
 *Extended the RESTful search API to include pagination, decreasing the response times on the product listings page from 3s to 1s*.
 
-Make sure that if you are going to use metrics you can make them up with how it was measured and how you implemented the improvement. If you say something vague like *Improved accuracy by 50%.* but can't back it up with an explanation when asked in an interview, it will look like you are making up metrics for the sake of it.
+Make sure that if you are going to use metrics you can back them up with how it was measured and how you implemented the improvement. If you say something vague like *Improved accuracy by 50%.* but can't back it up with an explanation when asked in an interview, it will look like you are making up metrics for the sake of it.
 
 Here are some further examples of CV statements enhanced by outcomes and metrics. In each pair, the first just describes what was done, and doesn't say why it was useful. The second shows _value_ and is much more compelling.
 

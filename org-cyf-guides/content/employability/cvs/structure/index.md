@@ -13,7 +13,7 @@ These should be on every CV.
 
 Your CV should clearly mention your full name, email address, phone number and location. It doesn't need to be your full address, but it could say London for example, so companies know where you are based. It is good practice to include your LinkedIn and GitHub links as well. These are typically at the top.
 
-All links should have a hyperlink to make it easier for recruiters and hiring managers to access your link, like this - [LinkedIn](https://www.linkedin.com/in/your-profile). LinkedIn has an option where you can create a custom URL to make it more user friendly, see [here.](https://www.linkedin.com/help/linkedin/answer/a542685/manage-your-public-profile-url?lang=en)
+All links should have a hyperlink to make it easier for recruiters and hiring managers to access your link, like this - [LinkedIn](https://www.linkedin.com/in/your-profile). See [this guide on making custom LinkedIn URLs](https://www.linkedin.com/help/linkedin/answer/a542685/manage-your-public-profile-url?lang=en) to make them more user friendly.
 
 Different countries have different expectations about including your photo and gender. For example, some European countries make it mandatory to include your photo in your CV, whereas it is a big no in the UK and the USA due to risk of discrimination. Do some research about how it works in your region before deciding to include (or exclude) this information!
 
@@ -62,6 +62,9 @@ Here is where you summarise any relevant education in chronological order. You s
 These will depend on your circumstance whether you include these or not. If you have things you want to highlight they can be included, but if you are already at the 2 page limit you may want to prioritise more content in the employment section. You could include some of these sections on your LinkedIn profile as space is less pertinent an issue there.
 
 ## Notable projects and interests
+
+#TODO separate out
+#TODO add better advice on projects
 
 You may want to mention any projects and interests that are particularly important to you, for example if you are an amateur musician, or a civilian police officer. These may be briefly asked about at the start or end of an interview to break the ice and get to know you as a person, just bear in mind this may be coming at the expense of using the space for some more relevant employment experience.
 

@@ -17,18 +17,17 @@ Things to check in your CV before sending it to an employer:
 * [ ] All the links you have included work.
 * [ ] The dates are all correct and there are no unexplained gaps.
 * [ ] It avoids personal pronouns (e.g. I, me, my).
-* [ ] Written in relevant tenses (i.e. past tense for past experiences, present tense for any project/role they are still working on).
+* [ ] Written in relevant tenses (i.e. past tense for past experiences, present tense for any project/role you are still working on).
 * [ ] The summary does not contain any generic clichés or buzzwords without a supporting statement.
 * [ ] It has an emphasis on outcomes you delivered, rather than just what you did.
 * [ ] Includes a project in the experience section.
-  * [ ] Includes a technical description of what was developed / what they did.
+  * [ ] Includes a technical description of what was developed / what you did.
   * [ ] Includes the goal/benefit of that project.
 * [ ] Includes at least 12 bullet points in total in the experience section such that:
-  * [ ] For example, if they mentioned 3 different projects/roles, 4 bullet points for each would be acceptable because it totals to 12.
     * Each bullet point is in the past tense, unless it refers to an ongoing role or project.
     * Each bullet point begins with an active verb.
     * Benefits of each bullet point (or at least the first bullet point) are quantified, so include numbers of cost reduction, number of users, etc.
-  * [ ] Clearly details experiences from education (what they learned, covered that is relevant to the role).
+  * [ ] Clearly details experiences from education (what you learned, covered that is relevant to the role).
 * [ ] Is tailored to the role:
   * [ ] Mentions actions that are relevant to at least one of the main responsibilities.
   * [ ] Mention the key technologies of the job description at every opportunity.
