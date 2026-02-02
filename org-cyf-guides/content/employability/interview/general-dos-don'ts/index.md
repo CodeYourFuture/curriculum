@@ -30,7 +30,6 @@ weight: 6
 - look down or at another screen during the interview, it looks like you are not paying attention
 - look at your phone during the interview
 - google the answer if you don't know it whilst stalling for time, it is better to be honest
-- 
   - Note: In technical interviews, googling _may_ be appropriate (e.g. to look up a specific API). Make sure you say out loud what you're not sure about, and ask if it's ok to look it up. The interviewer may say yes (and want to see how you search), or may say no and either discuss the question with you, or give you an answer.
 - read out verbatim answers you have prepared word for word, as it can sound unnatural, try and keep a conversational tone
 - be afraid to be honest about your preferences, some people prefer different technologies and working environments and it is better to find that out in the interview stage than pretend you like something and then have to backtrack on that when you start a job
