@@ -2,6 +2,7 @@
 title="Employability"
 description="Your guide for getting job ready"
 menu=["everyone"]
+hide_list = true
 +++
 
 This guide is to help to you get a job and hit the ground running once you start. It is written sequentially based on the typical steps you would take in a job seeking process but each individual guide can be use as a reference to dig into at any point as well.
