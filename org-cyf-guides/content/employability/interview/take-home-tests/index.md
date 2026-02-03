@@ -25,7 +25,7 @@ Some other things to bear in mind are that these will often be on a specific pla
 
 ### Project Or Scenario Based
 
-If you are applying for a non engineering role such as a project manager or product owner you may be asked to complete a scenario based take home project. This could be something like, you are given a high level business case and you have to break it down into a project plan, or you are given a high level vision and you have to come up with a Minimal Viable Product.
+If you are applying for a non engineering role such as a manual tester or product owner you may be asked to complete a scenario based take home project. This could be something like, you are given a high level business case and you have to break it down into a project plan, or you are given a high level vision and you have to come up with a Minimal Viable Product.
 
 ### Using AI
 
