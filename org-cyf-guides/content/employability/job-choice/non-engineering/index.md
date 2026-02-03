@@ -52,6 +52,23 @@ A Product Owner is usually more delivery focused. The role often sits closer to 
 
 In smaller companies or startups, one person may cover both responsibilities. In larger organisations, the roles are more likely to be separated. For early-career roles, what matters most isn’t the title but the actual work involved. Always read job descriptions carefully and use conversations to understand how the role operates in practice.
 
-### BA
+### Business analyst (BA)
 
-#TODO add description here
+A BA focuses on understanding business problems, gathering requirements, and documenting what a system or solution needs to do. They're typically more analytical and detail-oriented, working to bridge the gap between business stakeholders and technical teams. They generally don't write code, but they may be reading API specs, trying out different API calls so it is still a reasonably technical role.
+
+They often look at business process and map out workflows to identify improvements. They are typically more execution focused than strategic and often work as part of or very closely with engineering teams. There is often overlap with the product owner and product manager roles, so it is worth asking whether they have all 3 roles and if so what the differences are during the interview process.
+
+### Project manager / Delivery manager
+
+This role is focused on planning, delivery and execution. They are responsible for delivery specific projects on time, within budget, and to the required quality standards. They focus on the "when" and "how" of getting work done. Depending on the company and seniority they may be working very closely with one team on a project or spread across multiple teams on multiple projects. 
+
+Sometimes these roles are client facing and sometimes they are internal only. The responsibilities often include
+- Creating project plans with timelines, milestones, and resource allocation
+- Managing project scope and preventing scope creep
+- Identifying and mitigating risks that could derail the project
+- Tracking progress and reporting status to leadership
+- Managing budgets and resources
+- Facilitating meetings and keeping everyone aligned
+- Removing blockers that slow down the team
+
+It is quite a different role to engineering, but you will still be working closely with technical teams.

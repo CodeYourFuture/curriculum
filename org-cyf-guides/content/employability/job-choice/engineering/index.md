@@ -65,6 +65,16 @@ This role is focused on testing code and applications to make sure that bugs don
 
 You may be working with Jest, Junit, Cucumber, Browserstack, JMeter. You may be embedded withing a cross functional engineering team, or you may be working in a test that is purely testing focused.
 
+### Data engineer / data analyst
+
+These roles are focused on using data to provide insight to the rest of the business.
+
+You may be working with Python, Pandas frameowork, DataBricks, Hadoop, EMR clusters.
+
+Sometimes this will be a more client facing role if the company does a lot of customer reporting and sells their data as a product line. Other times this will be a purely internal role, providing data insights for the internal teams. Often there is also a machine learning element.
+
+Typically a data engineer role will be focused on creating and maintaining the data platform, and the analyst role will be focused on creating reports and analysing the data to provide insight.
+
 ## Consultancy and agency roles
 
 There are frequently jobs within tech where you will be working for a software consultancy or agency. In this model you don't work for the company who is selling the product, but you will be contracted to them for a set period of time. Sometimes you will be working with just one company, sometimes you may spend 50% of time with one company and 50% of time with another. 
