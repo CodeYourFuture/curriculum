@@ -1,5 +1,5 @@
 +++
-title = "Success"
+title = "End of Module Review"
 description = "What does it mean to pass the Piscine?"
 layout = "success"
 emoji= "✅"
