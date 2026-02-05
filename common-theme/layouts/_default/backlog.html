@@ -10,6 +10,19 @@
     {{ with .Content }}
       <section class="c-copy">{{ . }}</section>
     {{ end }}
+
+    <a class="e-button" id="expand-all-button">Expand all</a>
+    <script type="text/javascript">
+    const button = document.querySelector("#expand-all-button");
+    button.addEventListener("click", () => {
+      const expand = button.textContent === "Expand all";
+      button.textContent = expand ? "Collapse all" : "Expand all";
+      document.querySelectorAll("details").forEach((details) => {
+        details.open = expand;
+      })
+    })
+    </script>
+
     {{/* you can have multiple repos but probably for sanity let's just stick with one label filter
       for each repo, grab the issues that match the filter
     */}}
