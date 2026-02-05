@@ -4,5 +4,5 @@
 {{ $title := $scope.title }}
 {{ $links := $scope.links }}
 
-{{ if $showTitle }}<h5>{{ $title }} {{range $links}}<a class="e-button" href="{{ .href }}">{{.text}}</a>{{end}}</h5>{{ end }}
+{{ if $showTitle }}<h5>{{ $title }}{{range $links}} (<a class="e-link" href="{{ .href }}">{{.text}}</a>){{end}}</h5>{{ end }}
 {{ partial "objectives/block.html" $objectives }}
