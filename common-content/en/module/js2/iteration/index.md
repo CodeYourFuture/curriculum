@@ -16,7 +16,17 @@ To solve the sub-goal, we have to repeatedly add each number in the array to the
 
 In programming, we can **iterate** by using a {{<tooltip title="loop">}}A loop is a sequence of instructions that is continually repeated until some condition is reached.{{</tooltip>}}.
 
-In particular, we can use a [`for...of` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) to sum the elements of the array.
+### The Standard `for` Loop
+
+Before we look at shortcuts, it is important to understand the **standard `for` loop**. It gives you complete control over how the loop starts, when it stops, and how it moves to the next step.
+
+Here is the syntax:
+
+```js
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration number: " + i);
+}
+```
 
 ```js
 function calculateMean(list) {
