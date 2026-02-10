@@ -7,8 +7,8 @@ weight = 1
 name="How the internet works"
 src="module/js3/internet"
 [[blocks]]
-name="Technical Writing 101"
-src="https://github.com/CodeYourFuture/Module-Data-Groups/issues/1"
+name="Usability Workshop Prep"
+src="module/ux/usability-workshop-prep"
 [[blocks]]
 name="Rendering Data as UI"
 src="module/js3/data-ui"
