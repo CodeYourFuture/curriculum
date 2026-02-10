@@ -54,6 +54,7 @@ Explain what product thinking is
 <details>
 
 <summary>Hints for volunteers</summary>
+
 * Product thinking focuses on solving the right problems for the right users. Without it, products may look impressive but fail to deliver real value.
 * Effective product development requires aligning features with user goals and needs prioritising meaningful, useful solutions over simply adding more features.
 
