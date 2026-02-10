@@ -17,6 +17,60 @@ Attendees:
 
 ---
 
+## 2026-02-10
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Poonam Rajput
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+- [x] Colin/Poonam: Update PR template for clarity
+- [x] Ali: Post Slack message in volunteer channel sourcing accessibility resources - done, but no response
+
+### 📝 Agenda points
+
+#### Making Curriculum Contributions Easier
+
+Docs that exist:
+* `CONTRIBUTING.md` gives some overview over the content, but not as much practical advice.
+* https://common.codeyourfuture.io/ exists but is more of a "framework developer" docs than a contributor doc
+
+What things do people need to know to contribute?
+* Do they know they _can_ contribute? Socialising this, making "Edit this page" links, etc
+* Knowing where all the content is (from across the many repos) - maybe a list of repos
+  * Or pull everything into the curriculum repo if there's not a _good_ reason to keep separate - probably fold Workshops, Projects into curriculum. _Maybe_ keep a repo per module for exercises/backlogs
+  * Try to _justify_ why keeping things separate is useful, or fold it together if not
+* A clear and concise guide to how to find the right place to make a change
+* A half-page tl;dr on the framework for common tasks (e.g. "A day plan is made from a list of blocks in an index file", "The top-level sites are ...", etc)
+* Step-by-step "How to run" calling out e.g. the hugo version thing (or fixing it)
+* Simplify PR template - yes! The original goals of the template aren't relevant any more.
+* Easy place to find a backlog of work items to pick up that could be useful
+
+Some discussion:
+
+We think that almost all contributions are around content, not around infrastructure/tooling. So we should focus on making _content_ contributions/fixes easier - we don't see a lot of people who actually want to fix/build the platform.
+
+Migracode consume our content, but we are suffering a lot of extra complexity and they don't really care about. We should simplify our infrastructure as much as possible (but ideally not horribly break them).
+
+Should we fold the site into one domain
+* How do we preserve context? What do nav trees look like?
+* Search - would we want course-specific or -weighted search?
+
+We get a fair few random open source contributions to the platform that don't work - how much do we want to be encouraging these? Do we have time to mentor them properly? General consensus: As a rule, we don't think we have time to mentor a lot of platform contributions from scratch. Things that work (or are close to working) are great, but if people are miles away from a useful contribution, we probably can't invest in them that much. (We probably have more time for people inside the CYF community :)).
+
+### ❗Actions
+
+- [ ] Colin + CJ: Clarify the Wireframe exercise expectations - gather what different reviewers are looking for, and clarify.
+- [ ] (After this ITP finishes): Swap order of Wireframe and Form-Controls exercises.
+- [ ] Anna: Start trying to collect all of the other repos we pull in, and make pros/cons for each being separate.
+- [ ] Colin: Quick-start guides for "I want to X" e.g. "I want to remove something from a day plan"
+- [ ] Colin: Step-by-step "How to run" calling out e.g. the hugo version thing (or fixing it)
+- [ ] Daniel: Simplify PR template - yes! The original goals of the template aren't relevant any more.
+- [ ] Daniel: Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+
+---
+
 ## 2026-01-27
 
 Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Colin Farquhar, Karen Klein
