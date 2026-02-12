@@ -45,7 +45,7 @@ There are also tech meetups and gatherings where companies that are hiring often
 
 The Code Your Future community is full of tech professionals keen to help. Connect with our community through Slack and LinkedIn. If you find connections through CYF who are related to a job opening then reach out! Here is a [guide](https://codeyourfuture.slack.com/docs/T2H71EFLK/F06V1DYV9ME) to how you can help Code Your Future create more hiring partnerships.
 
-There is also a weekly meeting to collectively search for jobs, please see the CodeYourFuture Calendar for timings and joining details. You can check the slack channels #cyf-employment and #cyf-job-opportunities for tips and a current spreadsheet of known opportunities.
+There is also a weekly meeting to collectively search for jobs, please see the [CodeYourFuture Global Calendar ](https://curriculum.codeyourfuture.io/module/how-our-curriculum-works/#calendar)for timings and joining details. You can check the slack channels #cyf-employment and #cyf-job-opportunities for tips and a current spreadsheet of known opportunities.
 
 ## Search Terms
 
