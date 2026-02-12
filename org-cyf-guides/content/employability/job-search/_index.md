@@ -7,9 +7,9 @@ weight: 5
 ---
 # Job Searching
 
-In this guide, we will review how to search for jobs in tech effectively. 
+In this guide, we will review how to search for jobs in tech effectively.
 
-To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role] #TODO add link once other PR is merged. if you aren't sure yet. 
+To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role] #TODO add link once other PR is merged. if you aren't sure yet.
 
 ## Where to find jobs?
 
@@ -27,7 +27,7 @@ Job boards come in various formats the main two being:
 
 #### General Job Boards
 
-These advertise across industries and are often good for junior-level positions. For example [LinkedIn](https://www.linkedin.com), [GlassDoor](https://www.glassdoor.co.uk/Job/index.htm), [Indeed](https://uk.indeed.com) and [Monster](https://www.monster.co.uk).
+These advertise across industries and are often good for junior-level positions. For example [LinkedIn](https://www.linkedin.com), [GlassDoor](https://www.glassdoor.co.uk/Job/index.htm), [Workable](https://jobs.workable.com/), [Indeed](https://uk.indeed.com) and [Monster](https://www.monster.co.uk).
 
 #### Industry Specific Boards
 
@@ -45,17 +45,27 @@ There are also tech meetups and gatherings where companies that are hiring often
 
 The Code Your Future community is full of tech professionals keen to help. Connect with our community through Slack and LinkedIn. If you find connections through CYF who are related to a job opening then reach out! Here is a [guide](https://codeyourfuture.slack.com/docs/T2H71EFLK/F06V1DYV9ME) to how you can help Code Your Future create more hiring partnerships.
 
-There is also a weekly meeting to collectively search for jobs, please see the [CodeYourFuture Global Calendar ](https://curriculum.codeyourfuture.io/module/how-our-curriculum-works/#calendar)for timings and joining details. You can check the slack channels #cyf-employment and #cyf-job-opportunities for tips and a current spreadsheet of known opportunities.
+There is also a weekly meeting to collectively search for jobs, please see the [CodeYourFuture Global Calendar](https://curriculum.codeyourfuture.io/module/how-our-curriculum-works/#calendar)for timings and joining details. You can check the slack channels #cyf-employment and #cyf-job-opportunities for tips and a current spreadsheet of known opportunities.
 
 ## Search Terms
 
-Use Search Terms to focus your search and make the best use of your time. When searching you should try different combinations of job titles that you're interested in and key skills. Remember that different companies often use different terminology to describe the same role, so make sure you try searching for both software developer and software engineer, if that's the role you're looking for. You may find some terms perform better on some sites as they may have different search algorithms.
+Use search terms to focus your search and make the best use of your time. Different job sites will have different search algorithms so you should experiment and see what gets best results on each site.
 
-You should also bear in mind that some jobs will have the level explicitly in the title, i.e.junior or associate, and others may not have any level mentioned, but within the job specification itself say something like "hiring at all levels of experience".
+### Search by job title
+
+One way to search is to search for the specific job title that you are looking for e.g. Cloud Engineer. However different companies often use different terminology to describe the same role, so you may need to search for both Cloud Developer and Cloud Engineer, if that's the role you're looking for.
+
+You should also bear in mind that some jobs will have the level explicitly in the title, i.e. junior or associate, and others may not have any level mentioned, but within the job specification itself say something like "hiring at all levels of experience".
+
+### Search by skill
+
+To avoid the problem of different companies calling the same job different things, and a recent profileration of fancy job titles you can search by skills or technologies instead. Using the above example of Cloud engineer, you could instead search for AWS, which should pick up "Cloud engineer", "Cloud developer", "Cloud whisperer" and any other roles which involve working with AWS.
+
+This approach is helpful if you want to work with a particular language or technology, or if you are unsure of exactly what job you want, but you know which skills you really excel at and want to use.
 
 ## Filters
 
-Use filters to save you time and focus on the roles that you’re aiming for, you can usually filter based on the following: 
+As well as entering search terms you can usually use filters to save you time and focus on the roles that you’re aiming for, you can usually filter based on the following: 
 
 - Locations
 - Remote/Hybrid/In Person
