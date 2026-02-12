@@ -12,7 +12,7 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="Teamwork Project Sprint 1"
-src="https://cyf-pd.netlify.app/blocks/teamwork-project-s1/readme/"
+src="module/pd-content/teamwork-project-s1"
 time=140
 [[blocks]]
 name="Lunch"
