@@ -11,9 +11,10 @@ The first thing you need to do is work out what sort of role you want and what s
 
 ### [How To Decide What Job I Want](./job-choice)
 
-Then before you apply ideally you will have the follow things ready. It is not mandatory to have a LinkedIn profile and portfolio site, however it will increase your chances of getting a job so we recommend creating them.
+Then before you apply ideally you will have the follow things ready. It is not mandatory to have a LinkedIn profile, GitHub profile and portfolio site, however it will increase your chances of getting a job so we recommend creating them.
 
 ### [CVs](./cvs) 
+### [GitHub](./github)
 ### [LinkedIn](./linkedin-profile)
 ### [Porfolio Site](./portfolio)
 

@@ -1,5 +1,5 @@
 +++
-title = 'Exit Criteria'
+title = "End of Module Review"
 description = 'Success means: being employable.'
 layout = 'success'
 emoji= '✅'

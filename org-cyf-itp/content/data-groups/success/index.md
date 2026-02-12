@@ -1,5 +1,5 @@
 +++
-title = 'success'
+title = "End of Module Review"
 description = 'How do we know if we have completed Data Groups?'
 layout = 'success'
 menu_level = ['module']
