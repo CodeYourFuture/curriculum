@@ -29,20 +29,9 @@ name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
 time=45
 [[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=100
-[[blocks.nested.blocks]]
-name="Optional structured activity: consolidating SQL"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/google-sheets-sql-quiz"
-time=0
-[[blocks.nested.blocks]]
-name="Optional structured activity: know your computer"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/know-your-computer"
-time=0
+time=115
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"

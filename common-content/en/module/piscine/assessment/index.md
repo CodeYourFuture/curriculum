@@ -9,7 +9,7 @@ time=15
 
 The fourth class day will be interview day. Your interview will take place in a hiring platform, [Evidenced](https://www.evidenced.app/). An assessor will ask you questions about your code and your projects. You can be asked about any part of any of your projects, so make sure you understand it all, including the parts your teammates wrote.
 
-The success criteria is listed on the success page. Read it carefully so you know what you need to do to succeed.
+The success criteria is listed on the end of sprint review page. Read it carefully so you know what you need to do to succeed.
 
 ### Prerequisites:
 

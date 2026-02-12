@@ -1,5 +1,5 @@
 +++
-title = 'success'
+title = "End of Module Review"
 description = 'How do we know if we have completed Onboarding?'
 layout = 'success'
 menu_level = ['module']
@@ -18,7 +18,7 @@ weight = 11
 ### 🎯 You've achieved your learning objectives if you can:
 
 ```objectives
-- Explain to someone how we use prep, backlogs, day plans, and success pages at {{<our-name>}}.
+- Explain to someone how we use prep, backlogs, day plans, and end of sprint/module review pages at {{<our-name>}}.
 - Track changes to data (your code) over time with Git and GitHub.
 - Validate data with HTML forms.
 - Analyse structured data with SQL in a spreadsheet.
@@ -37,7 +37,7 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Onboarding | <YOUR_NAME>`
 1. On the issue, add:
-   - A screenshot showing that you [attended a demo in a demo session with particular members of the CYF team present](https://github.com/CodeYourFuture/Module-Onboarding/issues/918).
+   - A screenshot showing that you [attended a demo session with particular members of the CYF team present](https://github.com/CodeYourFuture/Module-Onboarding/issues/918).
    - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
    - A link to your _completed_ pull request for "[Wireframe to Web Code](https://github.com/CodeYourFuture/Module-Onboarding/issues/17)".
    - A link to your _completed_ pull request for "[Form Controls](https://github.com/CodeYourFuture/Module-Onboarding/issues/19)".
