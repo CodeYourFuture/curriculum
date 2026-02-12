@@ -34,6 +34,6 @@ name="Parsing multiple params"
 name="Solving problems with objects 📼"
 src="module/js2/objects-workshop"
 [[blocks]]
-src="https://cyf-pd.netlify.app/blocks/prep-conflict-resolution/readme/"
+src="module/pd-content/prep-conflict-resolution"
 name="Conflict Resolution"
 +++
