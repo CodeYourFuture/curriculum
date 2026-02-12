@@ -23,7 +23,7 @@ This role typically works on creating APIs and creating back end services.
 
 You may be working with Java, .Net, Python, NodeJS, Go. 
 
-Depending on what the company products are, they may be selling the back end services directly to their customers via a API, or they may be intergrated into the front end. 
+Depending on what the company's products are, they may be selling the back end services directly to their customers via an API, or they may be integrated into the front end. 
 
 ### Front end engineer
 
@@ -35,7 +35,7 @@ You will likely work closely with a design team and colleagues specialising in U
 
 ### Full stack engineer
 
-This role typically does a combination of the other roles, and you will be working with multiple technologies. However although a role may be advertised as full stack the proportions of the different elements aren't always the same. Some jobs may be 70% backend, 30% front end, some may be the other way round, and some may be infrastructure and others may not. It is worth asking during the interview process for more detail on how much you would be working on each part of the stack. 
+This role typically does a combination of the other roles, and you will be working with multiple technologies. Although a role may be advertised as full stack, the proportions of the different elements aren't always the same. Some jobs may be 70% backend, 30% front end, some may be the other way round, and some may be infrastructure and others may not. It is worth asking during the interview process for more details on how much you would be working on each part of the stack. 
 
 ## Other engineer roles
 
@@ -49,7 +49,7 @@ This role can be a type of back end, full stack, or front end engineer. In this 
 
 ### AI engineer / Prompt engineer
 
-This role typically is focused on using AI to build applications. This may involve using different LLMs and integrating them with some custom logic and crafting effective prompts to leverage AI instead of building things from scratch.
+This role is typically focused on using AI to build applications. This may involve using different LLMs and integrating them with some custom logic and crafting effective prompts to leverage AI instead of building things from scratch.
 
 You may be working with OpenAI, Gemini, Anthropic APIs, or working with AI platforms such as Mistral.
 
@@ -63,13 +63,13 @@ You may be working with a range of different technologies in this role, it often
 
 This role is focused on testing code and applications to make sure that bugs don't end up in production. It can be more manual or automation focused or a mix of both. Sometimes the role will have a front end focus, sometimes a back end focus, sometimes it will be focused on performance and load testing so it's good to ask in the interview process what types of testing the role will be focused on.
 
-You may be working with Jest, Junit, Cucumber, Browserstack, JMeter. You may be embedded withing a cross functional engineering team, or you may be working in a test that is purely testing focused.
+You may be working with Jest, Junit, Cucumber, Browserstack, JMeter. You may be embedded within a cross functional engineering team, or you may be working in a test that is purely testing focused.
 
 ### Data engineer / data analyst
 
 These roles are focused on using data to provide insight to the rest of the business.
 
-You may be working with Python, Pandas frameowork, DataBricks, Hadoop, EMR clusters.
+You may be working with Python, Pandas framework, DataBricks, Hadoop, EMR clusters.
 
 Sometimes this will be a more client facing role if the company does a lot of customer reporting and sells their data as a product line. Other times this will be a purely internal role, providing data insights for the internal teams. Often there is also a machine learning element.
 
