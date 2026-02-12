@@ -47,5 +47,5 @@ name="Solving problems with arrays 📼"
 src="module/js2/arrays-workshop"
 [[blocks]]
 name="Failing Fast"
-src="https://cyf-pd.netlify.app/blocks/fail-fast-prep/readme/"
+src="module/pd-content/prep-fail-fast"
 +++
