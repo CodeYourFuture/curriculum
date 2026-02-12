@@ -60,7 +60,7 @@ They often look at business process and map out workflows to identify improvemen
 
 ### Project manager / Delivery manager / Scrum Master
 
-This role is focused on planning, delivery and execution. They are responsible for delivery specific projects on time, within budget, and to the required quality standards. They focus on the "when" and "how" of getting work done. Depending on the company and seniority they may be working very closely with one team on a project or spread across multiple teams on multiple projects. 
+This role is focused on planning, delivery and execution. They are responsible for delivery specific projects on time, within budget, and to the required quality standards. They focus on the "when" and "how" of getting work done. Depending on the company and seniority they may be working very closely with one team on a project or spread across multiple teams on multiple projects.
 
 Sometimes these roles are client facing and sometimes they are internal only. The responsibilities often include
 - Creating project plans with timelines, milestones, and resource allocation
