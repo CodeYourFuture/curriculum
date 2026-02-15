@@ -9,7 +9,7 @@ weight: 5
 
 In this guide, we will review how to search for jobs in tech effectively.
 
-To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role](./job-search) if you aren't sure yet.
+To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role](./../job-choice) if you aren't sure yet.
 
 ## Where to find jobs?
 
@@ -37,7 +37,7 @@ Finding the right boards for you can make your job search easier, however there 
 
 ### Networking
 
-For general networking advice please see [our networking guide](./networking). When you are searching for a job a good first port of call is asking your existing network whether anyone they know is hiring. This can be messaging people individually or posting a public message on LinkedIn. You can also set your LinkedIn status to [looking for work](https://www.linkedin.com/help/linkedin/answer/a507508/let-recruiters-know-you-re-open-to-work?lang=en) which helps people know you are job searching.
+For general networking advice please see [our networking guide](./../networking). When you are searching for a job a good first port of call is asking your existing network whether anyone they know is hiring. This can be messaging people individually or posting a public message on LinkedIn. You can also set your LinkedIn status to [looking for work](https://www.linkedin.com/help/linkedin/answer/a507508/let-recruiters-know-you-re-open-to-work?lang=en) which helps people know you are job searching.
 
 There are also tech meetups and gatherings where companies that are hiring often mention their open roles. The [MeetUp](https://www.meetup.com) website is a good place to find tech meetups for learning, socialising and finding jobs.
 
@@ -90,6 +90,6 @@ You may want to experiment tweaking the alerts getting set up so your inbox does
 
 Some job boards allow you to create a profile, which is typically similar to your CV but just formatted in a way to suit that particular job board. This can help match you to job opportunities and make sure that the jobs being advertised to you are a close match. Often there are hiring managers using the platform to search through the profiles on the site, so it can be a more effective way of being found on the site than just uploading a CV document that may not be parsed well during the search.
 
-Sometimes you can import from your CV but always double check whether it has imported things into the right sections as their import tools can be a bit flakey. You can use the advice in the [CV section](./cvs) to help you fill out your profile.
+Sometimes you can import from your CV but always double check whether it has imported things into the right sections as their import tools can be a bit flakey. You can use the advice in the [CV section](./../cvs) to help you fill out your profile.
 
 Hint: Remember to keep these profiles up to date as you work on projects, gain expertise and learn new skills. Keep a spreadsheet or document in which you know which websites you have signed up for and update them all when something changes.
