@@ -9,7 +9,7 @@ weight: 5
 
 In this guide, we will review how to search for jobs in tech effectively.
 
-To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role] #TODO add link once other PR is merged. if you aren't sure yet.
+To make the most of this guide you should already have a clear understanding of the job(s) you want to apply for and the skills you excel at and want to use in your job. See [how to choose a job role](./job-search) if you aren't sure yet.
 
 ## Where to find jobs?
 
