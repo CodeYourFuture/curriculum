@@ -59,7 +59,7 @@ You should also bear in mind that some jobs will have the level explicitly in th
 
 ### Search by skill
 
-To avoid the problem of different companies calling the same job different things, and a recent profileration of fancy job titles you can search by skills or technologies instead. Using the above example of Cloud engineer, you could instead search for AWS, which should pick up "Cloud engineer", "Cloud developer", "Cloud whisperer" and any other roles which involve working with AWS.
+To avoid the problem of different companies calling the same job different things, and a recent profileration of fancy job titles you can search by skills or technologies instead. Using the above example of Cloud engineer, you could instead search for AWS, which should pick up "Cloud engineer", "Cloud developer" and any other roles which involve working with AWS.
 
 This approach is helpful if you want to work with a particular language or technology, or if you are unsure of exactly what job you want, but you know which skills you really excel at and want to use.
 
