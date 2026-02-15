@@ -9,7 +9,7 @@ This guide is to help to you get a job and hit the ground running once you start
 
 The first thing you need to do is work out what sort of role you want and what sort of company you want to work for. If you are already clear on this then fantastic, if you not please read the following guide to help you with your decision.
 
-### How To Decide What Job I Want (coming soon)
+### [How To Decide What Job I Want](./job-choice)
 
 Then before you apply ideally you will have the follow things ready. It is not mandatory to have a LinkedIn profile, GitHub profile and portfolio site, however it will increase your chances of getting a job so we recommend creating them.
 
