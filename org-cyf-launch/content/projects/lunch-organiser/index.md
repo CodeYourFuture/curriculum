@@ -10,7 +10,7 @@ The process currently is roughly:
 1. Someone has to know whether there are leftovers in the kitchen from the last week - this may reduce how much we order.
 2. We need to know what classes are happening, and how many people we expect to show up. (Sometimes it's just ITP, sometimes there are four other courses going on!)
 3. We need to know any dietary requirements of attendees. We don't necessarily need to know _every_ dietary requirement (e.g. if we get lots of vegetarian food, that happens to cover several dietary requirements). But we do need a general idea, and _some_ are quite specific.
-4. Someone is responsible for creating a lunch order online (generally from a supermarket).
+4. Someone is responsible for creating a lunch order online (generally from a supermarket). This is normally created in a Google Doc (but this isn't a necessary part of the workflow - we can change this).
 5. A CYF staff member creates the order on the supermarket website and pays it.
 6. Someone checks the order is correct before the deadline, and suggests amendments.
 7. Someone is at the office to receive the order. (Ideally their phone number is attached to the order.)
