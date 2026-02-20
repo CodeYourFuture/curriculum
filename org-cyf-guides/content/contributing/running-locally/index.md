@@ -39,7 +39,7 @@ When building the curriculum content is pulled from a number of different CYF re
 
 ## Directory Structure
 
-Each part of the CYF course is deployed to its own microsite with its own url. For example, the Intro to Programming content is found at [itp.codeyourfuture.io/](https://itp.codeyourfuture.io/) and the Software Development Course is at [sdc.codeyourfuture.io](https://sdc.codeyourfuture.io/). 
+Each part of the CYF course is deployed to its own microsite with its own url. For example, the Intro to Programming content is found at [itp.codeyourfuture.io](https://itp.codeyourfuture.io/) and the Software Development Course is at [sdc.codeyourfuture.io](https://sdc.codeyourfuture.io/). 
 
 Each module has its own directory within `curriculum` named `org-cyf-<MODULE>`, eg. `org-cyf-itp`. 
 
@@ -61,9 +61,10 @@ flowchart TD
 
 Within each directory is a `content` folder laying out the material for the module and a `package.json` file. To build a module:
 
+- Navigate to `org-cyf-<MODULE>`
 - `npm i` 
 - `npm run start:dev`
-- Navigate to `localhost:1313`
+- In a browser, go to `localhost:1313`
 
 
 ## Common Problems
