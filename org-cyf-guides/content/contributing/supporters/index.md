@@ -2,7 +2,7 @@
 id: Supporters
 title: Partners and Supporters
 description: Partners and supporters donate time, money, space, and tools so we can make this work for real.
-weight: 2
+weight: 3
 emoji: 💷
 ---
 <!-- CYF-ONLY -->

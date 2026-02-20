@@ -1,7 +1,7 @@
 ---
 id: Contributors
 title: Contributors
-weight: 2
+weight: 4
 description: We made this together
 emoji: 🧑🏿‍🤝‍🧑🏿
 ---

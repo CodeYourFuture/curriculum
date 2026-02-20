@@ -1,7 +1,7 @@
 ---
 id: minutes
 title: Minutes of the Global Syllabus Team
-weight: 2
+weight: 5
 emoji: 🗒️
 ---
 
