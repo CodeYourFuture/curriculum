@@ -9,13 +9,14 @@ This guide will give you some suggestions on how to hit the ground running in yo
 
 ## Your manager
 
-You will likely want to set up a regular one to one meeting with your manager. This meeting is an opportunity for you to build your relationship with your manager. You can share any challenges you are facing and you can also share any successes with them to make sure they are aware of what a good job you are doing. It’s also a good place to ask for feedback as to how they think you are doing. Depending on the individuals this meeting may be weekly, bi-weekly or monthly. Some managers may prefer for it to be ad hoc rather than on a fixed schedule, but if that is the case I would advise setting a personal reminder to ask them for a meeting every month, in particular at the beginning when you are finding your feet.
+You will likely want to set up a regular one to one meeting with your manager. This meeting is an opportunity for you to build your relationship with them. You can share any challenges you are facing and any successes with them to make sure they are aware of what a good job you are doing. It’s also a good place to ask for feedback as to how they think you are doing. Depending on the individuals, this meeting may be weekly, bi-weekly or monthly. Some managers may prefer for it to be ad hoc rather than on a fixed schedule, but if that is the case, we would advise setting a personal reminder to ask them for a meeting every month, in particular at the beginning when you are finding your feet.
 
 This is a [sample list](https://www.unicorn-cto.com/1-1-questions/) of questions that your manager may ask you.
 
 ## Your team
 
-Your direct team are typically the people you interact with most and so building a good rapport with them is critical to your success and enjoyment. They will often be your first port of call if you are stuck with a technical issue or want advice. A good way to get to know someone is to suggest getting a coffee together or eating lunch and asking some questions to get to know them as a person beyond work. For example what hobbies they have, what films and music they are into. Just bear in mind some people will be more comfortable sharing their out of work self than others and so if you are not reciprocating in their interest it may be best to try with someone else.
+Your direct team are typically the people you interact with most and so building a good rapport with them is critical to your success and enjoyment. They will often be your first port of call if you are stuck with a technical issue or want advice. A good way to get to know someone is to suggest getting a coffee together or eating lunch and asking some questions to get to know them as a person beyond work. For example, what hobbies they have, what films and music they are into. Just bear in mind that some people will be more comfortable sharing their out-of-work self than others, and so if you are not reciprocating in their interest, it may be best to try with someone else.
+If introductions to your direct team aren't set up, we suggest you take the initiative and book them in.
 
 ## Meeting other people in the company
 
@@ -36,7 +37,7 @@ It is also useful to keep a record of the skills you learn and any achievements.
 
 ## Asking for help
 
-It’s normal to have to ask for help a lot to start with, even the most seasoned tech professionals won’t know how that particular company works. It can feel like everyone knows more than you, but everyone expects you to ask questions as a new starter. However, it is important to strike the balance between trying to find the answer yourself and not wasting days on end stuck on the same thing. If you are unsure you can always ask for feedback after your first few problems as to whether you waited long enough before asking for help. Over time you will also pick up where to ask different questions, as different people will have different expertise.
+It’s normal to have to ask for help a lot to start with, even the most experienced tech professionals won’t know how that particular company works. It can feel like everyone knows more than you, but everyone expects you to ask questions as a new starter. However, it is important to strike the balance between trying to find the answer yourself and not wasting days on end stuck on the same thing. A rule of thumb is to try to work on a problem or blocker for 2 hours. If you still can't work it out, ask for help. If you are unsure, you can always ask for feedback after your first few problems as to whether you waited long enough before asking for help. Over time, you will also pick up where to ask different questions, as different people will have different expertise.
 
 ## Quick wins
 
@@ -44,6 +45,6 @@ Look for tasks that you can quickly succeed at early on to demonstrate your valu
 
 ## Feedback
 
-Some companies will have a more feedback focused culture than others, and so you may receive feedback regularly as part of a regular process or you may not. After a couple of weeks you can ask your manager how they think you are getting on. If there is anything they think you should be doing differently it is better to know sooner rather than later and it also shows you are proactively engaged in your own development by asking.
+Some companies will have a more feedback focused culture than others, and so you may receive feedback regularly as part of a regular process or you may not. After a couple of weeks, make sure you ask your manager and another team member you are working with closely how they think you are getting on. If there is anything they think you should be doing differently, it is better to know sooner rather than later and it also shows you are proactively engaged in your own development by asking.
 
-Finally, the first part of any job is usually quite intense and tiring as you get up to speed with how everything works, and then it calms down as you get more familiar, so don’t worry if you find it very full on to start with.
+Finally, the first part of any job is usually quite intense and tiring as you get up to speed with how everything works, and then it calms down as you get more familiar, so don’t worry if you find it very full on to start with. No one is expecting you to understand everything in the first 90 days. But they expect you to be curious, interested and communicate with them.
