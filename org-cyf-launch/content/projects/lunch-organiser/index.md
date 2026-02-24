@@ -22,7 +22,7 @@ We would like to automate this as much as possible. Actually ordering lunch is h
 
 ### Requirements
 
-An application to manage lunch orders. The backend should store and persist data. The frontend could be a web app, a Slack bot, or something else.
+An application to manage lunch orders. The backend should store and persist data. The frontend could be a web app, a Slack bot, or something else. Notifications that "something needs to be done" should be sent on Slack.
 
 People who are participating in lunch ordering should know what the current status of the lunch order is, what they need to do, or what is blocking progress.
 
