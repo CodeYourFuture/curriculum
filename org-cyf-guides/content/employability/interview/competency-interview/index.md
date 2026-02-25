@@ -119,7 +119,7 @@ So to finish up — let’s look at how that alternative question exchange might
 
 **Interviewer:** “Can you provide an example of a time when you encountered a conflict within your team? How did you approach resolving it?”
 
-**Candidate:** “Hmm…nothing is immediately springing to mind right now, but perhaps I can tell you about a time when I had to resolve a conflict with a customer instead? — during my last role <and insert your STAR pre-prepared answer here>”
+**Candidate:** “Hmm…nothing is immediately springing to mind right now, but perhaps I can tell you about a time when I had to resolve a conflict with a customer instead?”
 
 **Interviewer:** “Sure! Go ahead.”
 
