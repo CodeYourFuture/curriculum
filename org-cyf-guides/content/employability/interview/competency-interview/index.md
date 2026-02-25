@@ -23,7 +23,7 @@ But first, let’s consider why this is considered to be a useful interview form
 
 So why do some hiring managers consider them to be less that useful? 
 
-1.  Interview-induced amnesia. The stress and nerves of an interview can cause a candidate to completely freeze up when put on the spot (something I hope this article will prevent happening to you). I’ve seen people with years of experience in the service industry be unable to think of a single time they delivered good customer service.
+1.  Interview-induced amnesia. The stress and nerves of an interview can cause a candidate to completely freeze up when put on the spot (something we hope this content will prevent happening to you). People with years of experience in the service industry can freeze and be unable to think of a single time they delivered good customer service.
 2.  They disproportionately disadvantage younger/less experienced candidates. These questions become easier to answer the more life and work experience you have. Some may argue that’s a good thing — that more experienced candidates are better and should be preferred. I don’t think it’s that simple, and I don’t think experienced candidates should get that kind of systematic head start in the hiring process.
 3.  They focus too much on past performance and not enough on future potential. When it comes to making junior engineering hires, hiring managers are hiring for potential and focusing so heavily on what a candidate has done in the past has limited scope for assessing what they might be able to achieve in the future.
 
