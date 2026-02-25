@@ -3,7 +3,6 @@ title = "Using Python dependencies"
 headless = true
 time = 30
 facilitation = false
-emoji= "📖"
 objectives=[
     "Write and run a Python program which uses third-party dependencies.",
 ]

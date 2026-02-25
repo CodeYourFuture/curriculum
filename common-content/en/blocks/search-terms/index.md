@@ -1,6 +1,5 @@
 +++
 title="Search terms"
-emoji="🔍"
 time= 1
 [build]
   render = 'never'

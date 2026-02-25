@@ -2,7 +2,6 @@
 title = 'Breaking down the strategy'
 
 time = 20
-emoji= '⛓️‍💥'
 hide_from_overview = true
 [objectives]
     1='Break down a problem into a series of steps'

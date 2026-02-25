@@ -1,6 +1,5 @@
 +++
 title = 'Prep'
-emoji= '📚'
 menu_level = ['module']
 menu = ['workshops']
 description = 'Prepare to run an ITD workshop'

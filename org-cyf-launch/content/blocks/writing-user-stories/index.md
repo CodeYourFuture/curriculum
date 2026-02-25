@@ -4,7 +4,7 @@ description="Clear user stories with defined acceptance criteria ensure we can d
 modules="The Launch"
 week="1"
 skills=["Teamwork","Time/Project Management"]
-objectives=["Define a user story","Write a user story", "Write a technical ticket"]
+tasks=["Define a user story","Write a user story", "Write a technical ticket"]
 time=60
 [build]
   render = 'never'

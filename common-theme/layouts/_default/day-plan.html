@@ -24,7 +24,11 @@
           {{ range seq $parentsToTraverseToModule }}
             {{ $moduleSection = $moduleSection.Parent }}
           {{ end }}
-          {{ partial "register-attendance.html" (dict "course" site.Title "module" $moduleSection.Title "day" $.Page.CurrentSection.Title) }}
+          {{ $module := $moduleSection.Title }}
+          {{ with $moduleSection.Params.moduleForRegister }}
+            {{ $module = . }}
+          {{ end }}
+          {{ partial "register-attendance.html" (dict "course" site.Title "module" $module "day" $.Page.CurrentSection.Title) }}
         {{ end }}
         {{ range $index, $block := .Params.blocks }}
 

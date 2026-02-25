@@ -2,7 +2,6 @@
 title = 'Ground rules'
 
 time = 30
-emoji= '📏'
 [objectives]
     1='Establish the rules for getting a new project off the ground'
 [build]

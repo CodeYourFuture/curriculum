@@ -1,7 +1,6 @@
 +++
 title = 'Sprint {{ replace .Name "-" " " | title }}'
 layout = 'sprint'
-emoji= '🎽'
 menu_level = ['module']
 weight = 2
 +++

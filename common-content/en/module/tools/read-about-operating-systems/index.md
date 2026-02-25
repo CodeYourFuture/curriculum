@@ -3,7 +3,6 @@ title = "Operating systems"
 headless = true
 time = 120
 facilitation = false
-emoji= "💻"
 objectives = [
     "Define an operating system.",
     "Describe what an kernel is.",

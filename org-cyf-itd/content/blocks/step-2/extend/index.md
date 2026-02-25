@@ -1,7 +1,6 @@
 +++
 title ="Step 2: Extend Your Skills"
-description= "Make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet."
-emoji= "💪🏾"
+description= "Further Reading"
 time=5
 [build]
   render = 'never'
@@ -9,10 +8,8 @@ time=5
   publishResources = false 
 +++
 
-#### Use your new skill in real life:
+#### Further Reading
+You do not have to read these resources, but you might find them interesting or useful
+- [Hey programmers – is AI making us dumber?](https://www.theregister.com/2025/02/21/opinion_ai_dumber/)
+- [UN Development Report - A Matter of Choice: People and Possibilities in the Age of AI](https://report.hdr.undp.org/) 
 
-This optional step is just for you. You don't need to submit it. Next, make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet.
-
-{{<note type="tip" title="The national careers service works for you">}}
-The [National Careers Service](https://nationalcareers.service.gov.uk/) is a free service that can help you with your [job search](https://nationalcareers.service.gov.uk/careers-advice/advertised-job-vacancies).
-{{</note>}}

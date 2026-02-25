@@ -9,7 +9,7 @@
   }
   &__tab {
     cursor: pointer;
-    font-family: var(--theme-font--display);
+    font: var(--theme-font--ui);
     transform: translateY(2px);
     padding: var(--theme-spacing--1) var(--theme-spacing--2);
     border-top: var(--tabline) solid var(--theme-color--outline);
@@ -44,6 +44,7 @@
     border-radius: var(--theme-border-radius);
     border-top-left-radius: 0;
     opacity: 0;
+    overflow-x: scroll;
 
     &.is-active {
       opacity: 1;

@@ -1,7 +1,6 @@
 +++
-title = 'success'
+title = "End of Module Review"
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 weight = 10
 [[objectives]]

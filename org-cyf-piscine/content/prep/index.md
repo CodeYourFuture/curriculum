@@ -1,11 +1,11 @@
 +++
-title = 'Prep'
+title = 'Prep for trainees'
 description = 'Check your eligibility and apply for the Piscine'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry']
-weight = 1
+weight = 2
 [[blocks]]
 name="Application"
 src="module/piscine/application"
@@ -22,6 +22,15 @@ src="module/piscine/programming-prereqs"
 name="Help"
 src="module/piscine/help"
 [[blocks]]
+name="Group Work"
+src="module/piscine/group-work"
+[[blocks]]
 name="Preparation"
 src="module/piscine/preparation"
+[[blocks]]
+name="Project Submission"
+src="module/piscine/project-submission"
+[[blocks]]
+name="Pre-Piscine Briefing"
+src="module/piscine/pre-piscine-briefing"
 +++

@@ -1,6 +1,5 @@
 +++
 title="Linting and formatting"
-emoji="🧹"
 
 time=30
 hide_from_overview=true

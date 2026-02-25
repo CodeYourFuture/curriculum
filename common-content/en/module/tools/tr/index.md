@@ -1,7 +1,6 @@
 +++
 title = "tr"
 time = 20
-emoji = "💻"
 objectives = [
   "Replace all occurrences of one character with another using `tr`.",
 ]

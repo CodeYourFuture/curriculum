@@ -1,8 +1,7 @@
 +++
-title = 'prep'
+title = 'Prep'
 description='Building features and reviewing PRs'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]

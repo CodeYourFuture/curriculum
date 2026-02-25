@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ .Scratch.Set "emoji" (.Page.Params.emoji | default "🗃️") }}
 
   {{ partial "page-header.html" . }}
     <article class="c-copy">
@@ -20,7 +19,7 @@
         {{ range sort . "Title"}}
           <li class="c-label" style="--color:var(--theme-color--block)">
         {{ with .Permalink }}<a href="{{ .}}">{{end}}
-            <span class="c-label__name">{{ .Params.emoji |default "🧩"}} {{ .Title }}</span>
+            <span class="c-label__name">{{ .Title }}</span>
         {{ with .Permalink }}</a>{{end}}
       </li>    
 

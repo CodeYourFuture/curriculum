@@ -1,6 +1,5 @@
 +++
 title="Backlog"
-emoji="📝"
 time= 30
 vocabulary="Backlog"
 hide_from_overview=true

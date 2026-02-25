@@ -2,7 +2,6 @@
 title = '.then()'
 
 time = 30
-emoji= '🪆'
 [objectives]
     1='Chain then() on to a Promise'
 [build]

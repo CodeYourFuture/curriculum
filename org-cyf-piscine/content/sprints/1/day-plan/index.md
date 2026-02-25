@@ -1,16 +1,18 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
 name="Induction"
 src="module/piscine/induction"
-time=15
+time=5
 [[blocks]]
 name="Energiser"
 src="energisers/zip-zap-boing"
+[[blocks]]
+name="Practice breaking down a requirement"
+src="module/piscine/practice-break-down"
 [[blocks]]
 name="Kickoff"
 src="module/piscine/kickoff"
@@ -19,16 +21,13 @@ time=20
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Group Project: Spaced Repetition Tracker"
-src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Spaced-Repetition-Tracker"
+name="Group Project: Shared Bookmarks"
+src="https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Shared-Bookmarks"
 time=30
-[[blocks]]
-name="Practice breaking down a requirement"
-src="module/piscine/practice-break-down"
 [[blocks]]
 name="Development"
 src="module/piscine/development"
-time="20"
+time="45"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -46,6 +45,7 @@ time="30"
 [[blocks]]
 name="Demo"
 src="module/piscine/demo"
+time="60"
 [[blocks]]
 name="Wrap"
 src="module/piscine/wrap"

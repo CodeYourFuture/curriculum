@@ -2,7 +2,6 @@
 title = 'Creating elements with <template>'
 
 time = 30
-emoji= '🍱'
 [objectives]
     1='Use template tags to simplify element initialisation'
     2='Identify trade-offs between using functions vs template tags to create components'

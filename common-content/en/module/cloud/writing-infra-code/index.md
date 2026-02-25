@@ -1,6 +1,5 @@
 +++
 title = 'Writing Basic Infrastructure Code'
-emoji="🖨️"
 time = 30
 [objectives]
     1='Define a null resource in Terraform'

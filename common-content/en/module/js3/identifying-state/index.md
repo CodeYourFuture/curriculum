@@ -2,7 +2,6 @@
 title = 'Identifying state'
 
 time = 20
-emoji= '🔎'
 [objectives]
     1='Identify the state in a given problem'
 [build]

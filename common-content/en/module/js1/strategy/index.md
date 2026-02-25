@@ -2,7 +2,6 @@
 title = 'Making a choice'
 
 time = 10
-emoji= '↙️ ↘️'
 hide_from_overview = true
 [objectives]
     1='Propose a strategy for solving a problem'

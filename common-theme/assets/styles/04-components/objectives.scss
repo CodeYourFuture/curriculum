@@ -5,6 +5,12 @@
   &__title {
     margin-bottom: 0;
   }
+  &__item {
+    @extend %list-without-list-formatting;
+  }
+  &__list {
+    @extend %list-without-list-formatting;
+  }
 }
 
 // markdown checklist we are trying to hijack from gfm

@@ -2,7 +2,6 @@
 title = 'Re-Rendering'
 
 time = 30
-emoji= '🪞'
 [objectives]
     1='Write your first React component'
 [build]

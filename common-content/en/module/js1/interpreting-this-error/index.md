@@ -2,7 +2,6 @@
 title = 'Interpreting this error'
 
 time = 20
-emoji= '🧠'
 [objectives]
 1='Interpret an error message'
 2='Break down an error message and look up unfamiliar parts'

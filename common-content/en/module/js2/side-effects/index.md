@@ -2,7 +2,6 @@
 title = 'Side effects'
 
 time = 20
-emoji= '🤕'
 [objectives]
     1='Define a side effect'
     2='Describe how side effects lead to buggy code'

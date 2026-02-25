@@ -2,7 +2,6 @@
 title = 'GET'
 
 time = 30
-emoji= '🐕'
 [objectives]
     1='Process a GET request using Express and Node to retrieve data from memory'
 [build]

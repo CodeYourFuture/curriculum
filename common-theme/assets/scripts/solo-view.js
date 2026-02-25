@@ -1,3 +1,5 @@
+const elementName = "solo-view";
+
 class SoloView extends HTMLElement {
   constructor() {
     super();
@@ -12,6 +14,7 @@ class SoloView extends HTMLElement {
       fragment: null,
       touchStartX: 0,
       touchEndX: 0,
+      isScrollingHorizontally: false,
     };
     // Adding window and doc event listeners
     window.addEventListener(
@@ -65,6 +68,9 @@ class SoloView extends HTMLElement {
       "touchstart",
       (event) => {
         this.state.touchStartX = event.changedTouches[0].clientX;
+        if (this.eventTargetIsHorizontallyScrollable(event)) {
+          this.state.isScrollingHorizontally = true;
+        }
       },
       { passive: true }
     );
@@ -73,6 +79,10 @@ class SoloView extends HTMLElement {
       "touchend",
       (event) => {
         const touchEndX = event.changedTouches[0].clientX;
+        if (this.state.isScrollingHorizontally) {
+          this.state.isScrollingHorizontally = false;
+          return;
+        }
         this.handleSwipeGesture(this.state.touchStartX, touchEndX);
       },
       { passive: true }
@@ -118,6 +128,17 @@ class SoloView extends HTMLElement {
       this.navigateNext(new Event("swipe"));
     }
   };
+
+  eventTargetIsHorizontallyScrollable = (event) => {
+    let el = event.target;
+    while (el && el.localName !== elementName) {
+      if (el.scrollWidth > el.clientWidth && ['scroll', 'auto'].includes(window.getComputedStyle(el).overflowX)) {
+        return true;
+      }
+      el = el.parentElement;
+    }
+    return false;
+  }
 
   handleKeydown = (event) => {
     if (event.key === "ArrowLeft") {
@@ -200,4 +221,4 @@ class SoloView extends HTMLElement {
   }
 }
 
-customElements.define("solo-view", SoloView);
+customElements.define(elementName, SoloView);

@@ -2,7 +2,6 @@
 title = 'Install Postman'
 
 time = 30
-emoji= '📮'
 [objectives]
     1='Install Postman'
 [build]

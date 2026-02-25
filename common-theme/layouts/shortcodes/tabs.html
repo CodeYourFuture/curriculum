@@ -51,6 +51,7 @@ TAB 2 content
           id="{{ $id }}"
           class="c-tabs__panel {{ if (eq $index 0) }}is-active{{- end -}}"
           role="tabpanel"
+          data-heading="{{ index $tabParts 0 }}"
           aria-labelledby="tab-label-{{- $id -}}">{{ $content| $.Page.RenderString }}</div>
       {{- end -}}
     {{- end -}}

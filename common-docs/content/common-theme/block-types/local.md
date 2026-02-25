@@ -1,7 +1,6 @@
 +++
 title="Local"
 description="Markdown content from the local or mounted filesystem"
-emoji="📝"
 menu=["blocktypes"]
 [objectives]
     1='Use the Teach Tech Together guide to construct your objectives'

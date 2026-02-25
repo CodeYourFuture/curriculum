@@ -2,7 +2,6 @@
 title = 'prep'
 description = 'How do we build a community of self educators?'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
@@ -24,8 +23,14 @@ src="module/how-our-curriculum-works/dialogue"
 name="importance of prep"
 src="module/how-our-curriculum-works/importance-of-prep"
 [[blocks]]
+name="backlog"
+src="module/how-our-curriculum-works/backlog"
+[[blocks]]
 name="workshops"
 src="module/how-our-curriculum-works/workshops"
+[[blocks]]
+name="🥁 rhythm of the week"
+src="module/how-our-curriculum-works/rhythm-of-the-week"
 [[blocks]]
 name="Next steps: Backlog and Success"
 src="module/how-our-curriculum-works/now-backlog"

@@ -1,7 +1,6 @@
 +++
 title = "jq"
 time = 90
-emoji = "❓"
 objectives = [
   "Use `jq` to retrieve information from a JSON file",
 ]

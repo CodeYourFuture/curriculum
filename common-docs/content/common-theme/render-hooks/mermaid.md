@@ -1,7 +1,6 @@
 +++
 title="Mermaid"
 description="Convert text to diagrams"
-emoji="🧜‍♀️"
 menu=["hooks"]
 +++
 

@@ -1,7 +1,6 @@
 +++
 title = 'Presenting'
 description = "Sharing information with people"
-emoji = '📢'
 +++
 
 ## Types of presentation

@@ -1,19 +1,8 @@
-{{/* The title is what will displayed as the title of the tooltip. */}}
+{{- /* The title is what will displayed as the title of the tooltip. */ -}}
 {{- $title := .Get "title" | default "tooltip" -}}
-{{/* The text is what will be displayed in-line in the text (which can be hovered over). */}}
+{{- /* The text is what will be displayed in-line in the text (which can be hovered over). */ -}}
 {{- $text := .Get "text" | default $title -}}
 {{- $emoji := .Get "emoji" | default "🧶" -}}
-<tool-tip-container tabindex="0">
-  <strong class="tooltip__trigger" id="trigger__{{- $text -}}">
-    {{ $text }}
-  </strong>
-  <span class="tooltip__emoji">{{ $emoji }}</span>
-  <tool-tip role="tooltip" aria-labelledby="{{ $text }}">
-    <span class="tooltip__title e-heading__2"
-      ><span class="tooltip__emoji">{{ $emoji }}</span> {{ $title }}</span
-    >
-    <span class="tooltip__content">
-      {{- .Inner | markdownify -}}
-    </span>
-  </tool-tip>
-</tool-tip-container>
+{{- /* This code is wrapped on one line so that tooltips work in notes */ -}}
+<!--prettier-ignore-->
+<tool-tip-container tabindex="0"><strong class="tooltip__trigger" id="trigger__{{- $text -}}">{{ $text }}</strong><span class="tooltip__emoji">{{ $emoji }}</span><tool-tip role="tooltip" aria-labelledby="{{ $text }}"><span class="tooltip__title e-heading__2"><span class="tooltip__emoji">{{ $emoji }}</span> {{ $title }}</span><span class="tooltip__content">{{- .Inner | markdownify -}}</span></tool-tip></tool-tip-container>

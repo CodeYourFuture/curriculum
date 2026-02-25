@@ -2,7 +2,6 @@
 title = "Deploying the chat application"
 headless = true
 time = 60
-emoji= "➡️"
 objectives = [
     "Deploy a frontend and backend so it can be used on the internet.",
 ]

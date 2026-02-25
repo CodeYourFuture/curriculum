@@ -2,7 +2,6 @@
 title = 'Introduction to Express'
 
 time = 30
-emoji= '🚀'
 [objectives]
     1='Create an Express server'
 [build]

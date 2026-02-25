@@ -1,7 +1,6 @@
 +++
 title="Multiple Choice"
 description="Create a multiple choice question with options"
-emoji="🤔"
 menu=["shortcodes"]
 +++
 

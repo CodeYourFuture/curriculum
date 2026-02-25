@@ -1,7 +1,6 @@
 +++
 title="Tooltip"
 description="A tooltip that shows on hover, click, or focus"
-emoji="🧶"
 menu=["shortcodes"]
 +++
 

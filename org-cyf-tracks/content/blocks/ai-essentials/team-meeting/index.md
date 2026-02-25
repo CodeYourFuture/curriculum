@@ -1,7 +1,6 @@
 +++
 title="Team Meeting"
 time=10
-emoji="🧑🏾‍🤝‍🧑🏾"
 hide_from_overview=true
 tasks = [
   "Introduce yourselves",
@@ -21,8 +20,6 @@ Before you came to class today, you should have completed the prep and signed th
 We will start with a team meeting. We will introduce ourselves, identify the tasks we will take on for the day, and review the plan for our day together.
 
 Today we will do **two** workshops on the [Google AI Essentials](https://www.coursera.org/learn/google-ai-essentials) course. The trainer is an experienced specialist who can really help us get the most out of this course.
-
-After the workshops, we will work on the Roles project together.
 
 Then we will wrap and go for a cup of tea together.
 

@@ -1,6 +1,5 @@
 +++
 title = "Get a copy of How Computers Really Work"
-emoji = "📚"
 time = 5
 hide_from_overview = true
 [build]

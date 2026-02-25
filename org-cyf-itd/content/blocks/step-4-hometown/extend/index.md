@@ -1,7 +1,6 @@
 +++
 title ="Step 1: Extend Your Skills"
 description= "Help someone else in the ITD Slack by giving them a code review"
-emoji= "🤖"
 time= 60
 [build]
   render = 'never'

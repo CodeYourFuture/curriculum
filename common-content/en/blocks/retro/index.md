@@ -1,6 +1,5 @@
 +++
 title="Retro: Start / Stop / Continue"
-emoji="🔄"
 description="Retro on the class day and the sprint"
 time= 25
 hide_from_overview=true

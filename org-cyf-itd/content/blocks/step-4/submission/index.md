@@ -1,7 +1,6 @@
 +++
-title ="Step 1: How to show us"
-description= "Use AI software to make a customised CV for a particular job. Include important words related to the job so that employers can find this CV more easily."
-emoji= "📩"
+title ="Step 4: How to show us"
+description= "Submit your work for review"
 time= 5
 [build]
   render = 'never'
@@ -11,6 +10,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
+You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Share a link to your personal homepage on CodePen with all the tests passing
+1. Submit a link to your personal webpage on **CodePen**. 

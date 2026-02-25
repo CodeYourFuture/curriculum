@@ -1,6 +1,5 @@
 +++
 title="No lectures"
-emoji='🧑‍🏫'
 time=5
 [objectives]
     1="Explain why we don't lecture during live sessions"

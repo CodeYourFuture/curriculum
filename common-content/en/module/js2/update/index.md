@@ -2,7 +2,6 @@
 title = 'Updating the interface'
 
 time = 25
-emoji= '🏷️'
 [objectives]
     1='Access and modify the textContent of a html element'
 [build]

@@ -2,8 +2,8 @@
 title ="Scope and limits"
 week=1
 skills= ['Teamwork','Time/Project Management']
-objectives= ['Collaborate on defining and limiting scope', 'Agree strategies to handle complexity']
-time= 15
+tasks= ['Collaborate on defining and limiting scope', 'Agree strategies to handle complexity']
+time= 20
 [build]
   render = 'never'
   list = 'local'
@@ -18,7 +18,7 @@ Learning how to do this work will make you a better software developer and ensur
 It's important that software works and that people can use it.
 {{</note>}}
 
-Discuss and agree on the points below with your product team. Set a timer for {{<timer>}}15{{</timer>}} minutes.
+Discuss and agree on the points below with your product team. Set a timer for {{<timer>}}15{{</timer>}}.
 
 ### Minimum Viable Product (MVP)
 

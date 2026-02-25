@@ -2,7 +2,6 @@
 title = 'Mutation'
 
 time = 25
-emoji= '🔀'
 [objectives]
     1='Define mutation'
 [build]
@@ -52,7 +51,7 @@ When we call `splice` it does 2 things:
 
 > In other words, `calculateMedian` modifies the same array that is passed to `calculateMean`.
 
-### Play computer
+### 🎮 Play computer
 
 Play computer with the example above. Pay careful attention to what happens when `salaries` is passed to `calculateMedian`
 

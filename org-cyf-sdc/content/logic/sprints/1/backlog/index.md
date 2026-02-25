@@ -1,8 +1,7 @@
 +++
-title = 'backlog'
-layout = 'backlog'
-emoji= '🥞'
-menu_level = ['sprint']
+title = "Backlog"
+layout = "backlog"
+menu_level = ["sprint"]
 weight = 2
-backlog= 'Module-Logic'
+backlog = "Module-Logic"
 +++

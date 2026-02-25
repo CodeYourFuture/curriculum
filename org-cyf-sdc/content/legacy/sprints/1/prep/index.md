@@ -1,20 +1,44 @@
 +++
-title = 'prep'
-description = 'Overview description of the prep work for the sprint'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Navigating and working with code written by others"
+layout = "prep"
+menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-title = "Understanding existing code"
-src = "module/legacy/understanding-legacy-code"
+name = "Introduction"
+src = "module/legacy/introduction"
 [[blocks]]
-title = "Debugging existing code"
-src = "module/legacy/debugging-legacy-code"
+name = "Practices to remember"
+src = "module/legacy/practices-to-remember"
 [[blocks]]
-title = "Fixing existing code"
-src = "module/legacy/fixing-legacy-code"
+src = "https://github.com/CodeYourFuture/Module-Legacy-Code"
+name = "Purple Forest"
+time = 60
 [[blocks]]
-title = "Extending existing code"
-src = "module/legacy/extending-legacy-code"
+name = "Understanding"
+src = "module/legacy/understanding"
+[[blocks]]
+name = "Fear and logic"
+src = "module/legacy/fear"
+[[blocks]]
+name = "Finding things"
+src = "module/legacy/navigation"
+[[blocks]]
+name = "Patterns"
+src = "module/legacy/patterns"
+[[blocks]]
+name = "Debugging"
+src = "module/legacy/debugging"
+[[blocks]]
+name = "Reproduction Steps"
+src = "module/legacy/reproduction-steps"
+[[blocks]]
+name = "Testing"
+src = "module/legacy/testing"
+[[blocks]]
+name = "Fixing"
+src = "module/legacy/fixing"
+[[blocks]]
+name = "Extending"
+src = "module/legacy/adding"
 +++

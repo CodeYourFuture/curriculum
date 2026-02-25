@@ -2,7 +2,6 @@
 title = 'CYF Blocks'
 
 time = 40
-emoji= '🧩'
 [objectives]
 1='Break down solving problems into testable steps'
 2="Prioritise a list of user stories"

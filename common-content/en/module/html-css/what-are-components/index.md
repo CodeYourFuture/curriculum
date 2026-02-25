@@ -2,7 +2,6 @@
 title = 'What are components?'
 
 time = 30
-emoji= '🧩'
 [objectives]
     1='Identify 5 UI components'
     2='Describe the benefits of building with components'

@@ -2,7 +2,6 @@
 title = "Binary and hexadecimal numbers"
 headless = true
 time = 90
-emoji= "📖"
 [objectives]
     1="Convert signed and unsigned numbers between any two of: binary, decimal, hexadecimal"
     2="Explain the similarities and differences between binary, decimal, and hexadecimal numbers"

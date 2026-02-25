@@ -46,7 +46,7 @@
 {{ if or (in $src "png") (in $src "webp") (in $src "jpg") (in $src "jpeg") (in $src "gif") }}
   {{ .Scratch.SetInMap "blockData" "type" "slide" }}
 {{ else }}
-  {{ if "github" | in $src }}
+  {{ if "https://github.com" | in $src }}
     {{/* Change base URL to api.github.com */}}
     {{ $newSrc := replace $src "https://github.com/" "https://api.github.com/repos/" }}
 
@@ -62,6 +62,10 @@
 
     {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
     {{/* TODO pull time from commented out front matter in Github readmes */}}
+  {{ end }}
+
+  {{ if "codewars-workshops." | in $src }}
+    {{ .Scratch.SetInMap "blockData" "type" "codewars-workshop" }}
   {{ end }}
 
   {{/* TODO get rid of the old way of bringing in cyf pd and remove hardcoded CYF stuff here */}}

@@ -3,7 +3,6 @@ title = "Chat application requirements"
 headless = true
 time = 30
 facilitation = false
-emoji= "📝"
 objectives = [
     "Explain the requirements of our chat application.",
     "Explain what requirements are out of scope for our chat application.",

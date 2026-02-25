@@ -20,6 +20,8 @@
   {{ partial "block/slide.html" . }}
 {{ else if eq $blockData.type "link" }}
   {{ partial "block/link.html" . }}
+{{ else if eq $blockData.type "codewars-workshop" }}
+  {{ partial "block/codewars-workshop.html" . }}
 {{ else }}
   {{ errorf "Unrecognized block type %s" $blockData.type }}
 {{ end }}

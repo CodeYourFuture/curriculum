@@ -1,5 +1,5 @@
 +++
-title = "Guided study after ITP"
+title = "Study after ITP"
 weight = 1
 description = "These are course materials which train general skills without a particular job in mind."
 [[details]]
