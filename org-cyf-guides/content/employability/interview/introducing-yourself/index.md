@@ -54,7 +54,8 @@ As an example from a CYF volunteer: "My best answer to his question will be very
 
 - Your experience, e.g. *"I've got x years of experience in backend development"*
 - Your most recent role, e.g. *"I've been doing cool stuff at this company for the last x years"*
-- Why you are interested in this role, e.g. *"I'm currently looking for a new role that will offer me opportunities to develop in areas x, y, and z"*
+- Why you are interested in this role? e.g. *"I'm currently looking for a new role that will offer me opportunities to develop in areas x, y, and z"*
+- Why you are interested in this company? Does the business have a reputation for technical excellence? Do they have a strong commitment to developing junior talent?
 
 **Topics to avoid:**
 
@@ -68,11 +69,11 @@ So that's all theory — what might this answer look like in practice? Below are
 
 ### Early career James
 
-I'm James, and I'm a recent graduate from Aston University in Electronic Engineering and Computer Science. As part of my degree I did a 12 month industrial placement with Service Birmingham as a .NET developer working on management information systems for Adult Education Providers. During my final year, I was the Aston University nominee for the City of Birmingham Silver Jubilee Engineering Award that recognises the best engineering student across all the universities in Birmingham. Right now I'm looking for graduate roles that will enable me to grow and strengthen my skills as a software developer.
+I'm James, and I'm a recent graduate from Aston University in Electronic Engineering and Computer Science. As part of my degree I did a 12 month industrial placement with Service Birmingham as a .NET developer working on management information systems for Adult Education Providers. During my final year, I was the Aston University nominee for the City of Birmingham Silver Jubilee Engineering Award that recognises the best engineering student across all the universities in Birmingham. Right now I'm looking for graduate roles that will enable me to grow and strengthen my skills as a software developer and I know that *Company X* has a well deserved reputation for developing junior talent.
 
 ### Mid career James
 
-I'm James, and I'm a mid-level software engineer with 4 years of experience, working primarily in .NET development roles in the local government sector. My most recent role was with Service Birmingham, who are responsible for Birmingham City Council's ICT provision. As part of that role I lead the development of the City Council's Public Consultation Database, which was launched last year. Right now I am looking for a role that offers new challenges — in particular I would like to broaden my horizons beyond the .NET stack and make use of my knowledge of data science and machine learning.
+I'm James, and I'm a mid-level software engineer with 4 years of experience, working primarily in .NET development roles in the local government sector. My most recent role was with Service Birmingham, who are responsible for Birmingham City Council's ICT provision. As part of that role I lead the development of the City Council's Public Consultation Database, which was launched last year. Right now I am looking for a role that offers new challenges — in particular I would like to broaden my horizons beyond the .NET stack and make use of my knowledge of data science and machine learning. Company Y is known for its commitment to innovation in the machine learning field and I feel that I could really sharpen my skills alongside your team.
 
 ### Current career James
 

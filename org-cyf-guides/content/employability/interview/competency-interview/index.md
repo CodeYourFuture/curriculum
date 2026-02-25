@@ -113,12 +113,16 @@ That’s an answer worthy of a gold STAR.
 
 ## A bonus tip
 
-But what if you can’t tailor your answer or if the question is too specific to use any of your pre-prepared answers? Here’s the secret tip… Offer an alternative question and answer that instead. To continue with the conflict resolution with a co-worker example, let’s say I’ve never quarrelled with a co-worker, or at least, I don’t have an answer ready for that, but I do have a conflict resolution scenario with a customer ready to go…ask the interviewer if you can answer _that_ question instead — and then answer it. Not only does it sidestep awkward silences, it shows adaptability, flexibility and gives you an opportunity to showcase your experience in a different way. You are still giving an example of the competency they are evaluating..
+But what if you can’t tailor your answer or if the question is too specific to use any of your pre-prepared answers? Here’s the secret tip… Offer an alternative question and answer that instead. To continue with the conflict resolution with a co-worker example, let’s say I’ve never quarrelled with a co-worker, or at least, I don’t have an answer ready for that, but I do have a conflict resolution scenario with a customer ready to go…ask the interviewer (and please do not neglect to ask, or you may be accused of not listening to the question) if you can answer _that_ question instead — and then answer it. Not only does it sidestep awkward silences, it shows adaptability, flexibility and gives you an opportunity to showcase your experience in a different way. You are still giving an example of the competency they are evaluating..
 
 So to finish up — let’s look at how that alternative question exchange might look like:
 
 **Interviewer:** “Can you provide an example of a time when you encountered a conflict within your team? How did you approach resolving it?”
 
 **Candidate:** “Hmm…nothing is immediately springing to mind right now, but perhaps I can tell you about a time when I had to resolve a conflict with a customer instead? — during my last role <and insert your STAR pre-prepared answer here>”
+
+**Interviewer:** “Sure! Go ahead.”
+
+**Candidate:** “During my last role...<and insert your prepared STAR answer here>"
 
 And if you do find yourself completely stuck for an answer — don’t panic, just say “nothing is coming to my mind right now, perhaps we can continue with the next question and if an answer pops into my head later, we can circle back”. It happens to everyone.
