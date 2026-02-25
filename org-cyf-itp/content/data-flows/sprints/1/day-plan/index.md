@@ -13,7 +13,10 @@ time=15
 [[blocks]]
 name="Teamwork Project Sprint 1"
 src="https://cyf-pd.netlify.app/blocks/teamwork-project-s1/readme/"
-time=140
+time=50
+[[blocks]]
+name="Usability Workshop"
+src="module/ux/usability-workshop"
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

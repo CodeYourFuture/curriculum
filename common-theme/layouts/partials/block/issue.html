@@ -23,7 +23,7 @@
       {{ end }}
 
       {{/* extract objectives */}}
-      {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response.body }}
+      {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $blockData.api "body" $response.body) }}
       {{/* remove "Learning Objectives" heading from remaining text */}}
       {{ $strippedBody := replace $response.body "### Learning Objectives" "" }}
 
@@ -32,9 +32,7 @@
           <summary>
             <h3 class="e-heading__4">Learning Objectives</h3>
           </summary>
-          {{ range $extractedObjectives }}
-            {{ . | page.RenderString }}
-          {{ end }}
+          {{ partial "objectives/block" $extractedObjectives }}
         </details>
       {{ end }}
     </header>

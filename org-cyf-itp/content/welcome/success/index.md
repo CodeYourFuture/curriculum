@@ -1,5 +1,5 @@
 +++
-title = 'Success'
+title = "End of Module Review"
 description = 'How do we know if we have completed day one successfully?'
 layout = 'success'
 menu_level = ['module']

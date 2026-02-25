@@ -18,4 +18,7 @@ src = "module/piscine/assessing-demos"
 [[blocks]]
 name = "Interviewing"
 src = "module/piscine/interviewing"
+[[blocks]]
+name = "Pre-Piscine Briefing"
+src = "module/piscine/pre-piscine-briefing"
 +++

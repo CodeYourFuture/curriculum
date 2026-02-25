@@ -84,7 +84,7 @@ async function fetchPrsWithoutLoadingReviews() {
     const prs = [];
     const responsePromises = [];
     for (const module of modules) {
-        responsePromises.push(fetch(`${apiPrefix}/${module}/pulls?state=all`).then((response) => response.json()));
+        responsePromises.push(fetch(`${apiPrefix}/${module}/pulls`).then((response) => response.json()));
     }
     const responsesByModule = await Promise.all(responsePromises);
     for (let i = 0; i < responsesByModule.length; i++) {

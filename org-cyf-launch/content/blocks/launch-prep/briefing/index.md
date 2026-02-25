@@ -10,9 +10,7 @@ tasks = [
   publishResources = false
 +++
 
-The briefing is a document that describes the product you should build. **You will be given a briefing on Slack.** It might be from a new partner, or it might be from {{<our-name>}}.
-
-If you don't have your brief yet, while you're waiting, you can read over [example briefings](https://projects.codeyourfuture.io/briefings/) to get a feel for them.
+The briefing is a document that describes the product you should build. You can find the briefings for your Launch in [the projects list](../../../projects). Each group should pick one different project briefing.
 
 ### What you must do:
 

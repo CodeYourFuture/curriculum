@@ -1,5 +1,5 @@
 +++
-title = 'success'
+title = "End of Module Review"
 layout = 'success'
 menu_level = ['module']
 weight = 4

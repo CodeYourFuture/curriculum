@@ -23,7 +23,7 @@ You will be asked to join a video call for your technical interview. We use an i
 
 ## What questions will I be asked?
 
-The questions will be pre-set and shared with you in advance. They will all be based on the "Day 1" learning objectives agreed with our industry partner. Look for these objectives on the success page of this track.
+The questions will be pre-set and shared with you in advance. They will all be based on the "Day 1" learning objectives agreed with our industry partner. Look for these objectives on the end of module review page of this track.
 
 Your interview will be recorded and scored against a rubric you can read before the interview. You will get the transcript of your interview with the decision about your application.
 
