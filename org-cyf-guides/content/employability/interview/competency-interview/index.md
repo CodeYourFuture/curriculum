@@ -24,7 +24,7 @@ But first, let’s consider why this is considered to be a useful interview form
 So why do some hiring managers consider them to be less that useful? 
 
 1.  Interview-induced amnesia. The stress and nerves of an interview can cause a candidate to completely freeze up when put on the spot (something we hope this content will prevent happening to you). People with years of experience in the service industry can freeze and be unable to think of a single time they delivered good customer service.
-2.  They disproportionately disadvantage younger/less experienced candidates. These questions become easier to answer the more life and work experience you have. Some may argue that’s a good thing — that more experienced candidates are better and should be preferred. I don’t think it’s that simple, and I don’t think experienced candidates should get that kind of systematic head start in the hiring process.
+2.  They disproportionately disadvantage younger/less experienced candidates. These questions become easier to answer the more life and work experience you have. Some may argue that’s a good thing — that more experienced candidates are better and should be preferred. At CodeYourFuture, we believe the opposite - our Software Engineers are as talented as any other professional. So we want to give you the tools to stand out. 
 3.  They focus too much on past performance and not enough on future potential. When it comes to making junior engineering hires, hiring managers are hiring for potential and focusing so heavily on what a candidate has done in the past has limited scope for assessing what they might be able to achieve in the future.
 
 ## A winning strategy
@@ -83,7 +83,7 @@ So what are the major categories and most commonly encountered underlying questi
 5.  Time management: _“Tell me about a time you had to organise your time effectively”_
 6.  Learning/Development: _“Tell me about a time you had to learn something new to complete a task/objective”_
 
-There’s many more, but those are the ones that come up all the time in my experience. So your job is to have 2–3 prepared answers to these 6 underlying questions. Why 2–3? Because sometimes interviewers ask two questions from the same category and you don’t want to repeat yourself.
+There’s many more, but those are the ones that come up all the time. So your job is to have 2–3 prepared answers to these 6 underlying questions. Why 2–3? Because sometimes interviewers ask two questions from the same category and you don’t want to repeat yourself.
 
 ### Step 2: Roll out your prepared answer for that underlying question
 
@@ -107,13 +107,13 @@ And the answer:
 
 
 
-That’s an answer worthy of a gold STAR — if I do say so myself.
+That’s an answer worthy of a gold STAR.
 
 **Tip 2**: “Tailor” your answer. Where possible, select the prepared answer in your collection to best fit the _specific_ question being asked. If you have been asked a conflict resolution question about a co-worker, it is better to pick a scenario about a co-worker than, for example a conflict resolution involving a customer — another reason to have at least 2 answers for each category.
 
 ## A bonus tip
 
-But what if you can’t tailor your answer or if the question is too specific to use any of your pre-prepared answers? Here’s my secret tip…Offer an alternative question and answer that instead. To continue with the conflict resolution with a co-worker example, let’s say I’ve never quarrelled with a co-worker, or at least, I don’t have an answer ready for that, but I do have a conflict resolution scenario with a customer ready to go…ask the interviewer if you can answer _that_ question instead — and then answer it. Not only does it sidestep awkward silences, it shows adaptability, flexibility and gives you an opportunity to showcase your experience in a different way. I’ve done this in many interview situations, and nobody has ever pulled me up on it or refused to let me answer my alternative question.
+But what if you can’t tailor your answer or if the question is too specific to use any of your pre-prepared answers? Here’s the secret tip… Offer an alternative question and answer that instead. To continue with the conflict resolution with a co-worker example, let’s say I’ve never quarrelled with a co-worker, or at least, I don’t have an answer ready for that, but I do have a conflict resolution scenario with a customer ready to go…ask the interviewer if you can answer _that_ question instead — and then answer it. Not only does it sidestep awkward silences, it shows adaptability, flexibility and gives you an opportunity to showcase your experience in a different way. You are still giving an example of the competency they are evaluating..
 
 So to finish up — let’s look at how that alternative question exchange might look like:
 

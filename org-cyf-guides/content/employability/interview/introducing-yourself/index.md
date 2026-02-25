@@ -5,20 +5,20 @@ emoji: 🖥️
 weight: 6
 ---
 
-Many hiring managers claim that they know whether a candidate is a good fit for a role within the first 5 minutes of an interview. It takes me a little longer than that, but more than one candidate has run aground trying to navigate the first question I ask in every single interview I conduct.
+Many hiring managers claim that they know whether a candidate is a good fit for a role within the first 5 minutes of an interview. It usually takes a little longer than that, but more than one candidate has run aground trying to navigate the first question most interviewers ask in the interview.
 
 *Can you tell me a little about yourself?*
 
-Many simple things conceal hidden depths, and judging by the occasional startled, or even panicked expressions of the candidates I have interviewed, this question is no different.
+Many simple things conceal hidden depths, and judging by the occasional startled, or even panicked expressions of the candidates, this question is no different.
 
-Before we discuss what constitutes a "good" answer to this question, let's consider why I ask it in every interview — from interns to senior engineering leaders.
+Before we discuss what constitutes a "good" answer to this question, let's consider why it iis asked in every interview — from interns to senior engineering leaders.
 
 1. **It breaks the ice.** Interviews are stressful, particularly for the candidates and giving the candidate a chance to speak about something they should know a lot about (themselves) often has a visibly calming effect.
 2. **It hands control of the interview to the candidate** by allowing the candidate to tell me what they think are the most important aspects of themselves. Most candidates will use this opportunity to speak about their career or qualifications and their suitability for the role, but sometimes a candidate will also choose to talk about their families or their non-work passions.
 3. **It's a completely open ended question.** No other question offers the same scope for a candidate to demonstrate their communication skills, their personality and their time-management.
-4. **It opens a conversation, not an interrogation.** While this is always my first question, my second question differs from candidate to candidate, because it is driven by their answer to the first. It is not unusual for me to get 30 minutes through that first interview without needing to reach for my prepared questions. And a conversation will always convey more information than an examination.
+4. **It opens a conversation, not an interrogation.** While this is mostly the first question, the second question can be driven by your answer to the first. A conversation will always convey more information than an examination.
 
-I hope you can see just how powerful a tool this simple question can be. So why does it go wrong so often? Why is this question, more than any other, the one that sinks a candidate's chances? There are three fatal mistakes/problems that I've seen come up time and again.
+Can see just how powerful a tool this simple question can be. So why does it go wrong so often? Why is this question, more than any other, the one that sinks a candidate's chances? There are three fatal mistakes/problems that I've seen come up time and again.
 
 ## Three fatal mistakes
 
@@ -30,11 +30,11 @@ Whether as a result of no preparation, a nerves-induced brain freeze, or just po
 
 ### 2. The NeverEnding Story answer
 
-This is far less common than a too-brief answer, but it has happened from time-to-time. I had one recent interview where the candidate spent 35 minutes answering this question — on a 45 minute call. He detailed every role he'd ever had and every project he'd ever been involved in. My co-interviewer faked a schedule clash to justify dropping off the call halfway through — if only I'd thought of that first. Be selective in what you choose to highlight.
+This is far less common than a too-brief answer, but it has happened from time-to-time. One of our volunteers had a recent interview where the candidate spent 35 minutes answering this question — on a 45 minute call. He detailed every role he'd ever had and every project he'd ever been involved in. Be selective in what you choose to highlight.
 
 ### 3. The incoherent answer
 
-This interview question offers insight into how the candidate communicates, for good and for bad. Modern software development is as much about good communication as it is about programming language syntax and design patterns — more so, even. When a candidate rambles aimlessly, hops from point to point, abandons sentences mid-way through, or is generally unintelligible, that's a bad start to an interview. And ultimately, that's how I will assume you're going to communicate whenever I ask for a project status update or how your weekend was.
+This interview question offers insight into how the candidate communicates, for good and for bad. Modern software development is as much about good communication as it is about programming language syntax and design patterns — more so, even. When a candidate rambles aimlessly, hops from point to point, abandons sentences mid-way through, or is generally unintelligible, that's a bad start to an interview. And ultimately, that's how many interviewers will assume you're going to communicate whenever you are asked for a project status update or how your weekend was.
 
 ## The solution
 
@@ -44,7 +44,7 @@ This question (or the many variants of it) is certainly the most common intervie
 
 So what does a good answer to this look like? Well…that depends on you. Your best answer to this question is the one that presents you in the best possible light — but the colour of that light is individual to you.
 
-As an example — my best answer to his question will be very different to that offered by an early career developer, because while I might want to present myself as a grizzled veteran who is a "safe pair of hands", an early career developer may want to project enthusiasm and a passion for learning new things.
+As an example from a CYF volunteer: "My best answer to his question will be very different to that offered by an early career developer, because while I might want to present myself as a grizzled veteran who is a "safe pair of hands", an early career developer may want to project enthusiasm and a passion for learning new things."
 
 ## Guidelines for your answer
 
@@ -58,13 +58,13 @@ As an example — my best answer to his question will be very different to that 
 
 **Topics to avoid:**
 
-- Criticism of yourself — this isn't the time to tell me you suck at paperwork (true story)
-- Inappropriate personal information — I don't need to know that you have a bad relationship with your family (true story)
-- Badmouthing current/past employer — don't do this; no matter how eloquently you describe your past employer's faults, there's a little voice in the back of my head wondering if you were the problem (many true stories)
+- Criticism of yourself — this isn't the time to tell them you suck at paperwork (true story)
+- Inappropriate personal information — the interviewer doesn't need to know that you have a bad relationship with your family (true story)
+- Badmouthing current/past employer — don't do this; no matter how eloquently you describe your past employer's faults, there's a little voice in the back of the interviewer wondering if you were the problem (many true stories)
 
 ## Examples
 
-So that's all theory — what might this answer look like in practice? Below I've drafted a few brief (but not too brief) answers to this question that I might have asked at various points in my career.
+So that's all theory — what might this answer look like in practice? Below are a few brief (but not too brief) answers to this question that this volunteer might have asked at various points in my career.
 
 ### Early career James
 
@@ -80,4 +80,4 @@ I'm James and I'm an experienced engineer and engineering leader with 17 years o
 
 ---
 
-I hope this has been useful. It might seem like a lot of effort for what is, after all, just one of many questions you will be facing in your interview. But remember: **you only get one shot at a first impression. Make it a good one.**
+It might seem like a lot of effort for what is, after all, just one of many questions you will be facing in your interview. But remember: **you only get one shot at a first impression. Make it a good one.**
