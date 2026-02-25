@@ -35,6 +35,10 @@ You should also not underestimate the value of learning about the wider context,
 
 It is also useful to keep a record of the skills you learn and any achievements. You can then use this when you want to go forward for a promotion, or when you are adding this experience to your CV for your next role. It can be easy to forget some of your wins when you are absorbed in the every day.
 
+## Ask questions
+
+Trying to understand how and why things work in the way they work is an important skill and will give you insights into the people and processes you work with. Don't make assumptions about the reasoning behind something you want to know more about. And instead of going straight into stating something is wrong or could be done differently, understand the background, reflect on it, and then make your suggestion.
+
 ## Asking for help
 
 It’s normal to have to ask for help a lot to start with, even the most experienced tech professionals won’t know how that particular company works. It can feel like everyone knows more than you, but everyone expects you to ask questions as a new starter. However, it is important to strike the balance between trying to find the answer yourself and not wasting days on end stuck on the same thing. A rule of thumb is to try to work on a problem or blocker for 2 hours. If you still can't work it out, ask for help. If you are unsure, you can always ask for feedback after your first few problems as to whether you waited long enough before asking for help. Over time, you will also pick up where to ask different questions, as different people will have different expertise.
