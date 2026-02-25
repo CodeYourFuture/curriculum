@@ -11,7 +11,7 @@ Competency based interviews are a very common interview format, especially popul
 
 Competency based interviews require you to give examples from your past experience when you have demonstrated a particular skill (or competency). They often appear in the form of "Tell me about a time you..." questions. 
 
-In this article I’m going to reveal the strategy I use to make these interviews less of a memory challenge and more of a victory lap.
+In this page we'll reveal the strategy used by many to make these interviews less of a memory challenge and more of a victory lap.
 
 ## What is the goal of a competency interview?
 
