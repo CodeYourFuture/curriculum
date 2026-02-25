@@ -1,7 +1,6 @@
 +++
 title = 'Pair programming'
 description = 'Practice writing code and getting support'
-emoji = '👥'
 +++
 
 Pair programming is working together with someone else to code a solution to a problem.

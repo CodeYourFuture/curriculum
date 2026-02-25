@@ -1,8 +1,7 @@
 +++
 title = 'Five'
-description="Check your English CEFR level is B1 or above"
+description="Deploying a webpage on GitHub Pages"
 layout = 'prep'
-emoji= '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 6

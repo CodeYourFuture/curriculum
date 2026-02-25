@@ -18,12 +18,17 @@
   }
 
   &__timeline {
+    @extend %list-without-list-formatting;
     display: grid;
     gap: var(--theme-spacing--gutter);
   }
   &__start {
     position: absolute;
     left: 0;
+  }
+
+  &__stop {
+    @extend %list-without-list-formatting;
   }
 
   &__stop,

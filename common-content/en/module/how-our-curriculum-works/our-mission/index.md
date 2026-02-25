@@ -1,7 +1,6 @@
 +++
 title = 'Our mission'
 time = 10
-emoji= '🚀'
 [objectives]
 1='Define the mission of our organisation'
 2='Define a good job in tech'

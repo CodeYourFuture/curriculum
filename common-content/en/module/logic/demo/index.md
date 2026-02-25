@@ -1,6 +1,5 @@
 +++
 title="Learn by Teaching"
-emoji="🎤"
 time=60
 [build]
   render = 'never'

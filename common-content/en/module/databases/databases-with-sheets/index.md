@@ -2,7 +2,6 @@
 title = 'Databases with Google Sheets'
 description = 'Introduction to databases, using Google Sheets'
 time = 30
-emoji= '🗄️' 
 [objectives]
     1='Identify databases in everyday life'
     2='Explain the difference between a row and column'
@@ -28,7 +27,7 @@ What else you do on your computer and phone? What information is there? And wher
 
 Most databases arrange data into **columns** and **rows**.
 
-| column 1 | column 1 |
+| column 1 | column 2 |
 | -------- | -------- |
 | row 1    | row 1    |
 | row 2    | row 2    |

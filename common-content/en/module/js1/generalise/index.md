@@ -2,7 +2,6 @@
 title = 'Generalising further'
 
 time = 20
-emoji= '🗄️'
 [objectives]
     1='Extend an implementation based on more assertions'
 [build]

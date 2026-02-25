@@ -2,7 +2,6 @@
 title = 'CYF Blocks'
 
 time = 30
-emoji= '🧩'
 [objectives]
 1="Navigate the Code.org interface"
 2="Sequence logical solutions with blocks"

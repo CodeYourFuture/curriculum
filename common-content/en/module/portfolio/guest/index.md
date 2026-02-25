@@ -2,7 +2,6 @@
 title = 'Guest Speaker'
 
 time = 60
-emoji= '🎤'
 [objectives]
     1='Interact with a guest speaker from the tech industry'
 [build]

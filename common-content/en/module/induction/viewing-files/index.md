@@ -1,7 +1,6 @@
 +++
 title = 'Viewing files from a git clone'
 time ="20"
-emoji= '📘'
 objectives=["Open a cloned repository in your IDE","Explore the repository in your IDE","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'

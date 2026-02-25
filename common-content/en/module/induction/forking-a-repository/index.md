@@ -1,7 +1,6 @@
 +++
 title = 'Forking a repository'
 time ="10"
-emoji= '🍴'
 [objectives]
     1="Create a fork of a repository"
 [build]

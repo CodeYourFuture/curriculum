@@ -1,7 +1,6 @@
 +++
 title = "Comparing programming languages"
 time = 20
-emoji = "⚖️"
 objectives = [
   "Identify whether variables have fixed types in C, Python, and JavaScript.",
   "Identify and explain the differences between a function definition in C and Python.",

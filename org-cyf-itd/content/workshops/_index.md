@@ -1,6 +1,5 @@
 +++
 title = 'Workshops'
-emoji= '🧰'
 menu_level = ['sprint']
 menu = ['workshops']
 description = 'Run an ITD workshop'

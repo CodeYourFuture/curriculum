@@ -1,10 +1,9 @@
 +++
-title="Apply to the Launch Module"
-time= 180
-hide_from_overview=true
+title = "Apply to the Launch Module"
+time = 10
 [build]
-  render = 'never'
-  list = 'local'
+  render = "never"
+  list = "local"
   publishResources = false
 +++
 

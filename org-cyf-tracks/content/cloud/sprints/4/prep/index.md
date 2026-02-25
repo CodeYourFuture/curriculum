@@ -2,7 +2,6 @@
 title = 'prep'
 description = "Infrastructure as code"
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]

@@ -1,10 +1,12 @@
 +++
-title = 'prep'
-description = 'Mental models for logical reasoning'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Mental models for logical reasoning"
+layout = "prep"
+menu_level = ["sprint"]
 weight = 1
+[[blocks]]
+name = "Recap binary"
+src = "module/logic/read-binary-logic"
 [[blocks]]
 name = "Introduction"
 src = "module/logic/introduction"
@@ -18,21 +20,21 @@ src = "module/logic/induction"
 name = "Abduction"
 src = "module/logic/abduction"
 [[blocks]]
-name="Problem Domain"
-src="module/logic/problem-domain"
+name = "Problem Domain"
+src = "module/logic/problem-domain"
 [[blocks]]
-name="Falsification"
-src="module/logic/falsification"
+name = "Falsification"
+src = "module/logic/falsification"
 [[blocks]]
-name="Bisection"
-src="module/logic/bisection"
+name = "Bisection"
+src = "module/logic/bisection"
 [[blocks]]
-name="Binary Logic"
-src="module/logic/binary-logic"
+name = "Binary Logic"
+src = "module/logic/binary-logic"
 [[blocks]]
-name="1000 Wine Bottles"
-src="module/logic/search"
+name = "1000 Wine Bottles"
+src = "module/logic/search"
 [[blocks]]
-name="Binary Information Theory"
-src="module/logic/location"
+name = "Binary Information Theory"
+src = "module/logic/location"
 +++

@@ -3,7 +3,6 @@ title = "Limitations of backends"
 headless = true
 time = 30
 facilitation = false
-emoji= "✋"
 objectives = [
     "Explain why a backend on its own doesn't provide reliable data persistence.",
     "Explain why we may prefer doing work in a frontend rather than backend to avoid latency.",
@@ -50,7 +49,7 @@ For instance, many websites that show you a list of information let you sort or 
 
 #### Context
 
-Because web frontends run in the user's own browser, they have easy access to lots of information about the user's computer. For instance, a user's browser knows what language to to use, what the user's time zone is, how big the browser window is, etc.
+Because web frontends run in the user's own browser, they have easy access to lots of information about the user's computer. For instance, a user's browser knows what language to use, what the user's time zone is, how big the browser window is, etc.
 
 If our frontend code were instead running in a backend, the browser may need to include all of this information in every request it makes, just in case the backend needs to know it. This has a couple of drawbacks: It makes the requests bigger (which makes them slower, and maybe cost more), and it ends up sharing lots of data with the server that it may not need, which may compromise the user's privacy.
 

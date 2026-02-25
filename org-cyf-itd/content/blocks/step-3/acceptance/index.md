@@ -1,20 +1,20 @@
 +++
 title ="Step 3: How to check your work"
-description= "How to check your work"
-emoji= "🤖"
-time= 5
+description= "Acceptance criteria for step three"
+time=10
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-A volunteer will review your submission and check it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes to meet the criteria.
+A volunteer will review your submission and check that it meets the acceptance criteria. They will give you feedback on your submission and help you make any changes needed to meet the criteria.
 
-Here is the criteria you need to meet:
+Here are the criteria you need to meet:
 
 ```objectives
-- You confirm you have completed Unit 2 of Khan Academy Computer Programming course: HTML/CSS Making Webpages
-- You have shared a link to your Invitation project on GitHub Pages
-- Your website link includes your name
+- You have edited, formatted, and applied filters on the Sales Data Google Sheet according to the instructions.
+- You have added your name to the Google Sheet's file name (title).
+- You have made the Google sheet publicly viewable.
+- You have submitted the Google Sheet link on the CYF Course Platform
 ```

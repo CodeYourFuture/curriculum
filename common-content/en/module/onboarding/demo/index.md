@@ -1,6 +1,5 @@
 +++
 title="Demo"
-emoji="🎤"
 time=45
 objectives = [
     "Explain your work to others at CEFR B2 level or higher.",

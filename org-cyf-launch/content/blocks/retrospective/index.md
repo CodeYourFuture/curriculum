@@ -4,7 +4,7 @@ description="Retrospective is another important ceremony in the Agile framework.
 modules="The Launch"
 week="2"
 skills=["Communication","Confidence","Teamwork"]
-objectives=["Assess the positive and negative traits in your team","Solve conflicts as part of a team"]
+tasks=["Assess the positive and negative traits in your team","Solve conflicts as part of a team"]
 time=30
 [build]
   render = 'never'
@@ -33,15 +33,6 @@ Be honest and kind when talking about the examples.
 - Write the action on the board
 - Define who in the team will be responsible for delivering it
 - Agree on a deadline.
-
-<details>
-<summary>
-
-#### Example cooldown board
-
-</summary>
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fboard%2Fc91AygW0mjctiKrxXUj08i%2FUntitled%3Fnode-id%3D0-1%26t%3DxNb7kktqfLSS7yk9-1" allowfullscreen></iframe>
-</details>
 
 ## Cooling period (optional) {{< timer >}}25{{< /timer >}}
 

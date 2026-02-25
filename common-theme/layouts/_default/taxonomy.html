@@ -1,10 +1,4 @@
 {{ define "main" }}
-  {{ if .Page.Params.emoji }}
-    {{ .Scratch.Set "emoji" .Page.Params.emoji }}
-  {{ else }}
-    {{ .Scratch.Set "emoji" "🗃️" }}
-  {{ end }}
-
   {{ partial "page-header.html" . }}
   {{ with .Content }}<article class="c-copy">{{ . }}</article>{{ end }}
   <ol class="c-chip__list">
@@ -15,9 +9,6 @@
           {{ with .Description }}
             <p class="c-chip__description">{{ . }}</p>
           {{ end }}
-          <span class="c-chip__icon">
-            {{ .Params.emoji | default "📛" }}
-          </span>
         </a>
       </li>
     {{ end }}

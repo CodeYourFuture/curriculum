@@ -1,7 +1,6 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
@@ -15,7 +14,14 @@ time=20
 [[blocks]]
 name="Workshop:Playing Computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
-time=140
+time=65
+[[blocks]]
+name="Morning break"
+src="blocks/morning-break"
+[[blocks]]
+name = "Clean Code Workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
+time=60
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -23,27 +29,16 @@ src="blocks/lunch"
 name="Stand Up"
 src="blocks/standup"
 time=15
-[[blocks]]
+[[blocks]] 
 name="Study Group"
-src="module/onboarding/development"
-time=60
+src="blocks/study-group"
+time=135
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Code Review"
 src="blocks/mentored-code-review"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time="60"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pomodoro"
 src="module/onboarding/pomodoro"

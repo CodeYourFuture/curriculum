@@ -2,7 +2,6 @@
 title = 'Conditionally executing code'
 
 time = 30
-emoji= '❓'
 [objectives]
   1='Construct a flow diagram that describes how to produce an output from a given input'
   2='Explain when it is necessary to use a conditional statement'
@@ -72,7 +71,7 @@ If you've not encountered any syntax before, remember to look it up in some docu
 
 ===[[Exercise 2]]===
 
-### 🕹️ Playing computer
+### 🎮 Playing computer
 
 ```js
 function getCountryCode(phoneNumber) {

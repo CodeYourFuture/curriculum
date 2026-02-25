@@ -2,7 +2,6 @@
 title = 'prep'
 description = 'Set up Postman'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]

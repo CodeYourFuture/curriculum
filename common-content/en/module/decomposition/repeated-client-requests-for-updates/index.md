@@ -3,7 +3,6 @@ title = "Repeated client requests for updates"
 headless = true
 time = 90
 facilitation = false
-emoji= "🔄"
 objectives = [
     "Stream live updates from a server by using repeated HTTP polling.",
 ]

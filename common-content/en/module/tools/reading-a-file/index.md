@@ -3,7 +3,6 @@ title = "Reading a file"
 headless = true
 time = 10
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
 ]

@@ -1,8 +1,7 @@
 +++
 title = 'Three'
-description = 'Build four simple projects using HTML and CSS in Khan Academy'
+description = 'Working with Google Sheets'
 layout = 'prep'
-emoji= '🚀'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 4
@@ -21,5 +20,4 @@ src="blocks/help"
 [[blocks]]
 name="Extensions"
 src="blocks/step-3/extend"
-time=5
 +++

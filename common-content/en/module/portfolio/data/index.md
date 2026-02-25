@@ -2,7 +2,6 @@
 title = 'Data'
 
 time = 30
-emoji= '🗃️'
 [objectives]
     1='Identify core components required to supply data and functionality to the user interface'
 [build]

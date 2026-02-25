@@ -1,7 +1,6 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
@@ -27,6 +26,6 @@ time=20
 name="Databases with Google Sheets"
 src="module/databases/databases-with-sheets"
 [[blocks]]
-name="backlog"
+name="Backlog"
 src="blocks/backlog"
 +++

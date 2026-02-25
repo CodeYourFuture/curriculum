@@ -2,7 +2,6 @@
 title = 'prep'
 description = 'Codealong to explore the basic principles of React'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 weight = 1
 [[blocks]]

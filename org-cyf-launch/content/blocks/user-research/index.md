@@ -4,7 +4,7 @@ description="User research is a great way of building empathy towards the users 
 modules="The Launch"
 week="2"
 skills=["Communication"]
-objectives=["Incorporate user feedback into your next project"]
+tasks=["Incorporate user feedback into your next project"]
 time=60
 [build]
   render = 'never'

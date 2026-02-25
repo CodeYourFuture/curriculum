@@ -2,7 +2,6 @@
 title = 'Introducing new state'
 
 time = 30
-emoji= '🆕'
 [build]
   render = 'never'
   list = 'local'

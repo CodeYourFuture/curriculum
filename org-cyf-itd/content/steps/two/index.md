@@ -1,8 +1,7 @@
 +++
 title = 'Two'
-description = 'Evaluate data with Google Sheets'
+description = 'Learn how to use AI appropriately'
 layout = 'prep'
-emoji= '📊'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 3

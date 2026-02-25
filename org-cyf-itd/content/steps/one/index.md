@@ -1,8 +1,7 @@
 +++
 title = 'One'
-description = 'Make a Cover Letter with Generative AI'
+description = 'Using Slack and search engines'
 layout = 'prep'
-emoji= '🤖'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 2
@@ -18,7 +17,4 @@ src="blocks/step-1/submission"
 [[blocks]]
 name="Help"
 src="blocks/help"
-[[blocks]]
-name="Extensions"
-src="blocks/step-1/extend"
 +++

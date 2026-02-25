@@ -2,7 +2,6 @@
 title = 'Learning as a community'
 
 time="60"
-emoji= '🏫'
 [objectives]
     1='Describe how we learn as a community'
     2='Describe a typical week in our community'
@@ -24,7 +23,7 @@ The facilitator will make a copy of this presentation 👉 [Learning as a commun
 ### Preparation
 
 - [ ] Facilitator: Review [how this works](how-this-works) and the Miro board [Learning as a community](https://miro.com/app/board/uXjVNeEASJc=/?share_link_id=563047396351) before class.
-- [ ] Facilitator: Split the class into groups of no more than 5.
+- [ ] Facilitator: Split the class into groups of no more than 6.
 - [ ] Facilitator: Ensure everyone can access the board if you are online.
 - [ ] Facilitator: Make sure every group has access to sticky notes and pens if you are in person.
 

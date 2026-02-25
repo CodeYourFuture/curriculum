@@ -3,7 +3,6 @@ title = 'Prep'
 description = 'How will you approach this project as a team?'
 layout = 'prep'
 menu_level = ['product']
-emoji= '📝'
 weight = 1
 [[blocks]]
 name="🫱🏽‍🫲🏾 Setup project teams"

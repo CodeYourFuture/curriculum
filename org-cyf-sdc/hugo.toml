@@ -22,7 +22,7 @@ baseURL = "https://sdc.codeyourfuture.io/"
 
 
 [params]
-googleFonts="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;600&display=swap"
+googleFonts="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
 
 [markup]
 # I've configured markdown so you don't have to

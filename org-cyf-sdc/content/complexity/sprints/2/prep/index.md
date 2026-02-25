@@ -1,17 +1,25 @@
 +++
-title = 'prep'
-description = 'Overview description of the prep work for the sprint'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Saving work, avoiding work, optimising work"
+layout = "prep"
+menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-title = "Trade-offs"
-src = "module/complexity/trade-offs"
-[[blocks]]
-title = "Network as a bottleneck"
-src = "module/complexity/network-as-a-bottleneck"
-[[blocks]]
-title = "Caching"
+name = "Caching"
 src = "module/complexity/caching"
+[[blocks]]
+name = "Cache Invalidation"
+src = "module/complexity/invalidation"
+[[blocks]]
+name = "Memoisation"
+src = "module/complexity/memoisation"
+[[blocks]]
+name = "Caching too much"
+src = "module/complexity/caching-too-much"
+[[blocks]]
+name = "Pre-computing"
+src = "module/complexity/pre-computing"
+[[blocks]]
+name = "Trade-offs"
+src = "module/complexity/trade-offs"
 +++

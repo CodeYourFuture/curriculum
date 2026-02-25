@@ -1,9 +1,11 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
+[[blocks]]
+name="Do the prep"
+src="module/onboarding/do-the-prep"
 [[blocks]]
 name="GitHub Dot Dev"
 src="module/induction/dot-dev"
@@ -32,43 +34,43 @@ name="Set up Planner"
 src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
 time=30
 [[blocks]]
-name="cyf blog"
+name="CYF Blog"
 src="module/induction/cyf-blog"
 [[blocks]]
-name="development-process"
+name="Development Process"
 src="module/induction/development-process"
 [[blocks]]
-name="version control"
+name="Version Control"
 src="module/induction/version-control"
 [[blocks]]
-name="sharing history"
+name="Sharing History"
 src="module/induction/sharing-history"
 [[blocks]]
-name="explore"
+name="Explore"
 src="module/induction/checkout-a-commit"
 [[blocks]]
-name="previous versions"
+name="Previous Versions"
 src="module/induction/previous-versions"
 [[blocks]]
-name="forking a repository"
+name="Forking a Repository"
 src="module/induction/forking-a-repository"
 [[blocks]]
-name="working locally"
+name="Working Locally"
 src="module/induction/working-locally"
 [[blocks]]
-name="viewing files"
+name="Viewing Files"
 src="module/induction/viewing-files"
 [[blocks]]
-name="branching"
+name="Branching"
 src="module/induction/branching"
 [[blocks]]
-name="wrapping up Git"
+name="Wrapping up Git"
 src="module/induction/wrapping-up"
 [[blocks]]
 name="Using GitHub Dev to complete coursework on a library computer"
 src="https://www.youtube.com/watch?v=qkEL0LaTc4k"
 time=15
 [[blocks]]
-name="backlog"
+name="Backlog"
 src="blocks/backlog"
 +++

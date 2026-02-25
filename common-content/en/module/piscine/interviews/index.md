@@ -1,6 +1,5 @@
 +++
 title="Interviews"
-emoji="🎤🏾"
 time=45
 objectives = [
   "Predict and explain the execution of a computer program",
@@ -21,6 +20,8 @@ You will be asked to join a video call for your technical interview. We use an i
 - The interview will be 15 minutes long
 - You will be asked to discuss a feature from a project you have worked on during the Piscine.
 - You may have written this feature yourself, or it may have been written by someone else in your group.
+- You will be asked to share your screen. You must be able to share your screen within 60 seconds of being asked. You will have an opportunity to practice using the interview platform before the interview day.
+- You should be ready to share your screen and talk about any of your projects. We recommend you have all of your projects open in VS Code and a web browser before starting the interview, so you can easily switch to one.
 
 ## What questions will I be asked?
 
@@ -31,6 +32,12 @@ You will be asked to explain the code. You may be asked to:
 1. Define the function and meaning of different parts of the code
 1. Refactor the code to meet new requirements given by the interviewer
 
-Your interview will be recorded and scored against a rubric you can read before the interview. You will get the transcript of your interview with the decision about your application.
+## What happens next
+
+- Your interview will be recorded and scored against a rubric you can read before the interview.
+- You will not get feedback in the interview itself. You will be sent feedback within a few days of the interview.
+- If you passed, you will be invited to join the next [SDC](https://sdc.codeyourfuture.io/).
+- If you failed, you will be given feedback and invited to discuss the best next steps for you.
+
 
 Once your interview is done, you are done. Join the wrap party and celebrate your hard work! What a journey! 🎉

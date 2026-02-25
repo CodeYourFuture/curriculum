@@ -1,6 +1,5 @@
 +++
 title="Using the CYF Dashboard"
-emoji="🪟"
 author="Tony Beaumont"
 time=15
 +++

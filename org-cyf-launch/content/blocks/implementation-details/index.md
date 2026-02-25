@@ -4,7 +4,7 @@ description="Identifying constraints and opportunities in the implementation of 
 modules="The Launch"
 week="1"
 skills=["Teamwork","Time/Project Management"]
-objectives=["Identify identities, resources, and data in your proposed system", "Clarify technical jargon"]
+tasks=["Identify identities, resources, and data in your proposed system", "Clarify technical jargon"]
 time=30
 [build]
   render = 'never'

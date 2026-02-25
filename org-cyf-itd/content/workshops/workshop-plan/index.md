@@ -2,7 +2,6 @@
 title = 'Agenda'
 description = 'The detailed agenda for a workshop'
 layout = 'day-plan'
-emoji= '📅'
 menu_level = ['module']
 menu=["workshops", "syllabus"]
 weight = 3

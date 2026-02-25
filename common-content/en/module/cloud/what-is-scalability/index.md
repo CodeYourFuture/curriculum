@@ -2,7 +2,6 @@
 title = 'What is scalability?'
 
 time = 5
-emoji= '📈'
 [objectives]
     1='Define scalability'
 [build]

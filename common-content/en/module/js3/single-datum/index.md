@@ -2,7 +2,6 @@
 title = 'Rendering one card'
 
 time = 30
-emoji= '💽'
 hide_from_overview = true
 [objectives]
     1='Define a sub-goal for rendering data in the user interface'

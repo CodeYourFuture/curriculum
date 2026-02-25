@@ -1,7 +1,6 @@
 +++
 title="Youtube"
 description="Embed a YouTube video"
-emoji="📺"
 menu=["blocktypes"]
 [[blocks]]
 name="Example Youtube"

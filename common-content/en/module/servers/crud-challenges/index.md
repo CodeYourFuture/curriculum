@@ -2,7 +2,6 @@
 title = 'CRUD Challenges'
 
 time = 45
-emoji= '💪🏾'
 [build]
   render = 'never'
   list = 'local'

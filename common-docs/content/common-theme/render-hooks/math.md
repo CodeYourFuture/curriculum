@@ -1,7 +1,6 @@
 +++
 title="Math"
 description="MathJax scientific notation"
-emoji="🧮"
 menu=["hooks"]
 +++
 

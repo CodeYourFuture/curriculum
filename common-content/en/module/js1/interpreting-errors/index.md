@@ -2,7 +2,6 @@
 title = 'Interpreting errors'
 
 time = 20
-emoji= '🔎'
 [objectives]
 1='Interpret an error trace to identify which line in which file caused the error'
 2="Identify an error message from an error trace"

@@ -1,8 +1,7 @@
 +++
 title = 'Four'
-description="Build a personal home page with CodePen"
+description = 'Build a personal webpage on CodePen'
 layout = 'prep'
-emoji= '🏠'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 5
@@ -21,4 +20,5 @@ src="blocks/help"
 [[blocks]]
 name="Extensions"
 src="blocks/step-4/extend"
+time=5
 +++

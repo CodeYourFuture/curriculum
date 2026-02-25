@@ -13,7 +13,7 @@ Double-check you have everything you need to start this course.
 - [ ] You have completed ITD and received an invitation to join this course by email
 - [ ] You have signed the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/)
 - [ ] You have signed the Learner agreement sent to you by email
-- [ ] You know how to get to class in person or online
+- [ ] You know how to get to class in person
 - [ ] You have read and understood the success criteria
 
 If you need help with any of these, ask in Slack or go to the [Signposts website](https://signposts.codeyourfuture.io/).

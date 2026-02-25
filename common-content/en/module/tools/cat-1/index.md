@@ -1,7 +1,6 @@
 +++
 title = "cat"
 time = 10
-emoji = "💻"
 objectives = [
   "Show the contents of a file with `cat`",
 ]

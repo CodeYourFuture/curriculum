@@ -1,8 +1,7 @@
 +++
-title = 'success'
+title = "End of Module Review"
 description = 'How do we know if we are ready to apply for a job in SAP FI/CO?'
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 menu=['assessment']
 weight = 11

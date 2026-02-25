@@ -3,7 +3,6 @@ title = "Counting words containing a character"
 headless = true
 time = 45
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
 ]

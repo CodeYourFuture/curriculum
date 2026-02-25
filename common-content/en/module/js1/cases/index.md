@@ -2,7 +2,6 @@
 title = 'First test case'
 
 time = 40
-emoji= '💼'
 [objectives]
     1='Outline the effect of running npm test'
     2='Interpret documentation to determine how part of a third-party API behaves'

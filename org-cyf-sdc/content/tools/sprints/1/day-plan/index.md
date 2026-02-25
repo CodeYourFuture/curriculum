@@ -1,54 +1,40 @@
 +++
-title = 'day-plan'
-layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
-menu_level = ['sprint']
+title = "Day Plan"
+layout = "day-plan"
+menu_level = ["sprint"]
 weight = 3
 [[blocks]]
-name="Morning orientation"
-src="blocks/morning-orientation"
+name = "Morning orientation"
+src = "blocks/morning-orientation"
 [[blocks]]
-name="Using a project board workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
-time="45"
+name = "How we work"
+src = "module/sdc-induction/how-we-work"
 [[blocks]]
-name="Morning break"
-src="blocks/morning-break"
+name = "Goals"
+src = "module/sdc-induction/goals"
 [[blocks]]
-name="Terminal skills workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
-time="45"
+name = "Using a project board workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
+time = "45"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="30"
+name = "Morning break"
+src = "blocks/morning-break"
 [[blocks]]
-name="Games, rules, logic and strategy"
-src="blocks/games"
-time="25"
+name = "Terminal skills workshop"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
+time = "60"
 [[blocks]]
-name="lunch"
-src="blocks/lunch"
+name = "Lunch"
+src = "blocks/lunch"
 [[blocks]]
-name="demo"
-src="blocks/demo"
-time="30"
+name = "Demo"
+src = "blocks/demo"
+time = "30"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="45"
+name = "Study Group"
+src = "blocks/study-group"
+time = "130"
 [[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Tools/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="60"
-[[blocks]]
-name="Retro"
-src="blocks/retro"
+name = "Retro"
+src = "blocks/retro"
 +++

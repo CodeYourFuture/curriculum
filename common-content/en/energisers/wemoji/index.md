@@ -1,6 +1,5 @@
 +++
-title="Wemoji"
-emoji="😀😢😲"
+title="Energiser: Wemoji"
 time=10
 [tasks]
     1="Express emojis using only facial expressions and body language"
@@ -24,15 +23,42 @@ One person will be the "Emoter" and the others will be "Empaths."
 
 <details><summary>Emojis List</summary>
 
-> ❤️ Red Heart 😭 Loudly Crying Face 💀 Skull 🔥 Fire 🫶 Heart Hands ✅ Check Mark Button ✨ Sparkles 😂 Face with Tears of Joy 😊 Smiling Face with Smiling Eyes ⭐ Star 🥹 Face Holding Back Tears 🫡 Saluting Face 🙏 Folded Hands 🤍 White Heart 👀 Eyes 🫶🏻 Heart Hands 🫂 People Hugging 🩷 Pink Heart 🫠 Melting Face ❤️‍🩹 Mending Heart ✔️ Check Mark 😍 Smiling Face with Heart-Eyes 🦴 Bone 🗿 Moai 👍 Thumbs Up ❤️‍🔥 Heart on Fire 😔 Pensive Face 🫵 Index Pointing at the Viewer 👑 Crown
+❤️ Red Heart \
+😭 Loudly Crying Face \
+💀 Skull \
+🔥 Fire \
+🫶 Heart Hands \
+✅ Check Mark Button \
+✨ Sparkles \
+😂 Face with Tears of Joy \
+😊 Smiling Face with Smiling Eyes \
+⭐ Star \
+🥹 Face Holding Back Tears \
+🫡 Saluting Face \
+🙏 Folded Hands \
+🤍 White Heart \
+👀 Eyes \
+🫂 People Hugging \
+🩷 Pink Heart \
+🫠 Melting Face \
+❤️‍🩹 Mending Heart \
+✔️ Check Mark \
+😍 Smiling Face with Heart-Eyes \
+🦴 Bone \
+🗿 Moai \
+👍 Thumbs Up \
+❤️‍🔥 Heart on Fire \
+😔 Pensive Face \
+🫵 Index Pointing at the Viewer \
+👑 Crown
 
 ~ From [emojipedia Most Popular Emojis 2024](https://emojipedia.org/)
 
 </details>
 
-#### Facilitator Check in questions
+<details><summary>Facilitator Check in questions</summary>
 
-<details><summary>Guide participants to reflect on emotional expression and recognition</summary>
+Guide participants to reflect on emotional expression and recognition:
 
 - What was most challenging about expressing without words?
 - Which emoji were easiest to express, or read? Which were most difficult?

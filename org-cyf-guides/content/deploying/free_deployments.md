@@ -1,5 +1,5 @@
 ---
-title: Free deployment offerings
+title: Other free deployment offerings
 weight: 5
 emoji: 🖥️
 ---
@@ -9,7 +9,9 @@ emoji: 🖥️
 In this section, we will showcase some free options that allow you to deploy your application stack. We will also take note of any limitations each of the providers have.
 
 {{<note type="note" title="TL;DR">}}
-The CYF Curriculum team suggests [Netlify Deployment guide](../deployment/netlify/index.md). as a free provider to use for both your frontend and backend applications, with Supabase as a free database layer for persistence. This is because among the free tier offerings they have the least amount of limitations. You will need to check these however to make sure they are still suitable for your use case.
+If you're a current CYF trainee or recent graduate, you should use the [CYF Hosted Environment](../cyf). Otherwise, see below.
+
+If you are not eligible for the CYF hosted environment, the CYF Curriculum team suggests [Netlify](../netlify) as a free provider to use for both your frontend and backend applications, with Supabase as a free database layer for persistence. This is because among the free tier offerings they have the least amount of limitations. You will need to check these however to make sure they are still suitable for your use case.
 
 If the limitations of Netlify and/or Supabase are not suitable, a good alternative is Fly.io. Do note its free tier is limited to two computers, either one backend and one database, or two backends. If you have multiple projects that you want to deploy you'll need to either use a different provider or need to pay for those.
 {{</note>}}
@@ -22,6 +24,7 @@ If the limitations of Netlify and/or Supabase are not suitable, a good alternati
 | Cloudflare Pages | CDN                               | Automatic from GitHub | Supported, All branches | -                                                                  |
 | Render           | CDN or Frontend served by backend | Automatic from GitHub | Supported, PRs          | Backend is stopped after inactivity, startup time is slow          |
 | Fly.io           | Frontend served by backend        | Manual                | None                    | Free tier limited to two backends, or one backend and one database |
+| GitHub Pages     | Frontend                          | Automatic from GitHub | None                    | Only deploys HTML already present in the repository                |
 
 ## Backend
 

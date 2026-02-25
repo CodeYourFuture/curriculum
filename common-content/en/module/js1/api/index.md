@@ -2,7 +2,6 @@
 title = "Jest's Application Programming Interface"
 
 time = 15
-emoji= '🎛️'
 [objectives]
     1='Explain why we use APIs in programming'
     2='Identify some commonly used APIs'

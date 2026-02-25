@@ -1,7 +1,6 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
@@ -28,6 +27,9 @@ name="First test case"
 [[blocks]]
 src="module/js1/feedback"
 name="Interpreting feedback"
+[[blocks]]
+name="Dead Code"
+src="module/js1/dead-code"
 [[blocks]]
 src="module/js1/generalise"
 name="Generalising further"

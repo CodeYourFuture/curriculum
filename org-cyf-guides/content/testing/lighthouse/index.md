@@ -1,7 +1,6 @@
 +++
 title="Lighthouse Audits"
 description="Learn how to audit your webpage"
-emoji="🔦"
 [[blocks]]
 name="Lighthouse Guide"
 src="https://developer.chrome.com/docs/lighthouse/overview#devtools"

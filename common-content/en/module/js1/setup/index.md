@@ -2,7 +2,6 @@
 title = 'Starting a project'
 
 time = 10
-emoji= '🎒'
 [objectives]
     1='Identify a package.json'
     2='Explain the purpose of a package.json'

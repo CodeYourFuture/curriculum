@@ -1,7 +1,6 @@
 +++
 title ="Step 1: How to show us"
 description= "Submit your work for review"
-emoji= "📩"
 time= 5
 [build]
   render = 'never'
@@ -11,11 +10,6 @@ time= 5
 
 ### Submission
 
-You must do this in the [CYF Course platform](https://application-process.codeyourfuture.io/)
+You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Add a link to the Google Doc
-2. Add a comment on the document giving feedback on the content
-
-{{<note type="tip" title="Personalise your URLs">}}
-Before you upload the document, edit your file name to include your name. It can just be your given name or your family name if you prefer.
-{{</note>}}
+1. Upload a PDF file created from your Score Summary Page

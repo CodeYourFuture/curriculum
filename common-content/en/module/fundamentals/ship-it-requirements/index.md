@@ -2,7 +2,6 @@
 title = 'Ship It'
 
 time = 90
-emoji= '🚢'
 [objectives]
 1='Export your Codepen to zip'
 2='Upload your folder to GitHub'

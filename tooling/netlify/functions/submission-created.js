@@ -9,7 +9,7 @@
 
 import {Auth, google} from "googleapis";
 
-// Each sheet listed here was manually crated, and its spreadsheet ID is taken from its URL.
+// Each sheet listed here was manually created, and its spreadsheet ID is taken from its URL.
 // Each spreadsheet is expected to contain one sheet per module, named for the module.
 // Each module sheet is expected to contain the following columns, in order:
 // Name | Email | Timestamp | Course | Module | Day | Location | Build Time
@@ -17,6 +17,7 @@ import {Auth, google} from "googleapis";
 const COURSE_TO_SPREADSHEET_ID = {
   "itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
   "piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
+  "sdc": "1dPY9Troijh3ZZkXbYkMMS3F5TkG4TKdRzd0Z3d45_gI",
 };
 
 const CREDENTIALS = {

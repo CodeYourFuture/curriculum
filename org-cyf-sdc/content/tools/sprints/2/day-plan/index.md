@@ -1,49 +1,33 @@
 +++
-title = 'day-plan'
-layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
-menu_level = ['sprint']
+title = "Day Plan"
+layout = "day-plan"
+menu_level = ["sprint"]
 weight = 3
 [[blocks]]
-name="Morning orientation"
-src="blocks/morning-orientation"
+name = "Morning orientation"
+src = "blocks/morning-orientation"
 [[blocks]]
-name="Discussion: programming language concepts"
-src="module/tools/discuss-programming-language-concepts"
+name = "Discussion: programming language concepts"
+src = "module/tools/discuss-programming-language-concepts"
 [[blocks]]
-name="Morning break"
-src="blocks/morning-break"
+name = "Morning break"
+src = "blocks/morning-break"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="60"
+name = "Study Group"
+src = "blocks/study-group"
+time = "85"
 [[blocks]]
-name="Games, rules, logic and strategy"
-src="blocks/games"
-time="25"
+name = "Lunch"
+src = "blocks/lunch"
 [[blocks]]
-name="lunch"
-src="blocks/lunch"
+name = "Demo"
+src = "blocks/demo"
+time = "30"
 [[blocks]]
-name="demo"
-src="blocks/demo"
-time="30"
+name = "Study Group"
+src = "blocks/study-group"
+time = "130"
 [[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="45"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Tools/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="blocks/study-group"
-time="60"
-[[blocks]]
-name="Retro"
-src="blocks/retro"
+name = "Retro"
+src = "blocks/retro"
 +++

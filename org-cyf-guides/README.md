@@ -1,6 +1,7 @@
 # Code Your Future Curriculum GUIDES MODULE
 
-https://guides.codeyourfuture.io/
+<!-- https://guides.codeyourfuture.io/ -->
+https://curriculum.codeyourfuture.io/guides/
 
 This is a Hugo Module. You can mount this module in your Hugo site by adding it to your `config.toml` file:
 

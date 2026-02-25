@@ -7,7 +7,6 @@
 {{ $localBlock := $pageContext.GetPage $scope.blockData.api }}
 {{ $showTitle := .showTitle |default false }}
 
-{{ with $localBlock.Page.Params.Objectives }}
-  {{ if $showTitle }}<h5>{{ $localBlock.Page.Title }}</h5>{{ end }}
-  {{ partial "objectives/block.html" . }}
+{{ if $localBlock.Page.Params.Objectives }}
+{{ partial "objectives/for-success.html" (dict "objectives" $localBlock.Page.Params.Objectives "showTitle" $showTitle "title" $localBlock.Page.Title "links" $scope.links) }}
 {{ end }}

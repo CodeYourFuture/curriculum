@@ -2,7 +2,6 @@
 title = "Working with forms"
 
 time = 20
-emoji= '🔢'
 [objectives]
     1='Define controlled components'
 [build]

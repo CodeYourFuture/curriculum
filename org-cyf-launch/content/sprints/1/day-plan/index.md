@@ -1,7 +1,6 @@
 +++
-title = 'day-plan'
+title = 'Day Plan'
 layout = 'day-plan'
-emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 backlog= 'Module-The-Launch'
@@ -24,6 +23,7 @@ src="blocks/lean-ux"
 [[blocks]]
 name="Deploy early, deploy often"
 src="blocks/deploy-early-deploy-often"
+time=65
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

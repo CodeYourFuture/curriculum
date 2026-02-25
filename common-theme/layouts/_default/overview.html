@@ -20,7 +20,6 @@
       */}}
       {{ $moduleURL := .URL }}
       {{ $moduleTitle := .Page.Params.Title }}
-      {{ $moduleEmoji := .Page.Params.Emoji }}
       {{/*  <!-- We lazily show the module title only if there's actual content under it.-->  */}}
       {{ $hasShownModuleTitle := false }}
       {{ range where $site.Pages "Section" .Page.Section }}
@@ -39,7 +38,6 @@
           {{ $success := .Site.GetPage (printf "%ssuccess/index.md" .CurrentSection.RelPermalink) }}
           {{ if not $hasShownModuleTitle }}
             <h3 class="c-overview__module e-heading__4">
-              {{ $moduleEmoji }}
               <a href="{{ $moduleURL }}">{{ $moduleTitle }}</a>
             </h3>
             {{ $hasShownModuleTitle = true }}
@@ -47,7 +45,6 @@
           {{ end }}
           <div class="c-overview__subheading">
           <h4 class="c-overview__sprint e-heading__5">
-            {{ $themePage.Params.Emoji |default "⏱️"}}
             <a href="{{ .CurrentSection.RelPermalink }}"
               >{{ $themePage.Params.Theme }}</a
             >
@@ -67,7 +64,7 @@
                 {{ continue }}
               {{ end }}
               {{ $title := or .title $block.Title }}
-              <li>{{with $block.Params.emoji}}<span class="c-emoji">{{.}}</span>{{end}} {{ $title }}</li>
+              <li>{{ $title }}</li>
             {{ end }}
           </ol>
          {{end}}

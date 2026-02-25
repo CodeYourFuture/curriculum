@@ -1,6 +1,5 @@
 +++
 title = 'Formal Technical Writing'
-emoji="📚"
 time = 120
 [objectives]
     1='Explain the resources you will build in the Cloud module'

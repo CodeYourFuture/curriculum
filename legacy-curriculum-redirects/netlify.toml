@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/guides/marking-guide"
+to = "https://curriculum.codeyourfuture.io/guides/reviewing/"
+status = 302
+
+[[redirects]]
+from = "/*"
+to = "https://curriculum.codeyourfuture.io"
+status = 302

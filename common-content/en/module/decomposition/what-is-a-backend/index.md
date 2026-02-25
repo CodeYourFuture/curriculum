@@ -3,7 +3,6 @@ title = "What is a backend?"
 headless = true
 time = 20
 facilitation = false
-emoji= "❓"
 objectives = [
     "Define the backend of a website.",
     "Explain the terms _client_ and _server_."

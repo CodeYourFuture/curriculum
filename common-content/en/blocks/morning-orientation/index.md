@@ -1,5 +1,5 @@
 +++
-title="🎡 Morning orientation"
+title="Morning orientation"
 
 time=15
 [tasks]

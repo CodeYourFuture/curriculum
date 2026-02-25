@@ -2,7 +2,6 @@
 title = 'Mutating'
 
 time = 30
-emoji= '🖊️'
 [objectives]
     1='Describe how to mutate an object property value'
 [build]
