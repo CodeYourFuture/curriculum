@@ -41,6 +41,7 @@ To keep your exercise branch clean:
 
 3. **Make only related changes**.
     - Add or modify only the files in the folder related to the exercise.
+    - If you accidentally change files for another task, you will need to [revert](https://stackoverflow.com/a/37972822) them before submitting your PR for review
 
 ### Keeping code clean
 
@@ -223,7 +224,7 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
     - Example: _"Could you explain what you mean by simplifying this function?"_
     
 After you have taken action and replied to your feedback, you should add the **`Needs review`** label again, so the reviewer knows you are ready for your submission to be checked again.
-
+When you make changes, make them in the same branch and don't create a new pull request each time.
 
 {{<note type="tip" title="Writing on GitHub">}}
 
