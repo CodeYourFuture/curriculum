@@ -46,6 +46,6 @@ Lots and lots of volunteers worldwide contribute to the curriculum. You don't ha
 
 <!-- CYF-ONLY -->
 
-But if you'd like to meet us and get more involved, [join our organisation](https://codeyourfuture.io/volunteers/) as a volunteer. Once onboarded, introduce yourself in the #cyf-volunteers #cyf-curriculum channel on Slack. Let us know you'd like to attend a meeting and add your agenda points to the meeting link posted in that channel.
+But if you'd like to meet us and get more involved, [join our organisation](https://codeyourfuture.io/volunteers/) as a volunteer. Once onboarded, introduce yourself in the #cyf-curriculum channel on Slack. Let us know you'd like to attend a meeting and add your agenda points to the meeting link posted in that channel.
 
 The [Global Syllabus volunteer team](contributors) meets every two weeks online to talk strategy, take issues and plan the next sprint. We'd love to meet you!<!-- END-CYF-ONLY -->
