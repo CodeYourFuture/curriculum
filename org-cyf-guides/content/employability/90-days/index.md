@@ -15,14 +15,17 @@ This is a [sample list](https://www.unicorn-cto.com/1-1-questions/) of questions
 
 ## Your team
 
-Your direct team are typically the people you interact with most and so building a good rapport with them is critical to your success and enjoyment. They will often be your first port of call if you are stuck with a technical issue or want advice. A good way to get to know someone is to suggest getting a coffee together or eating lunch and asking some questions to get to know them as a person beyond work. For example, what hobbies they have, what films and music they are into. Just bear in mind that some people will be more comfortable sharing their out-of-work self than others, and so if you are not reciprocating in their interest, it may be best to try with someone else.
-If introductions to your direct team aren't set up, we suggest you take the initiative and book them in.
+Your direct team are typically the people you interact with most and so building a good rapport with them is critical to your success and enjoyment. They will often be your first port of call if you are stuck with a technical issue or want advice. A good way to get to know someone is to suggest getting a coffee together or eating lunch and asking some questions to get to know them as a person beyond work. For example, what hobbies they have, what films and music they are into. Just bear in mind that some people will be more comfortable sharing their out-of-work self than others, and so if you are not reciprocating in their interest, it may be best to try with someone else. If introductions to your direct team aren't set up, we suggest you take the initiative and book them in.
 
 ## Meeting other people in the company
 
 Sometimes in software jobs you may work very closely with your immediate team but not interact with many people outside of it. There are however other ways you can get to know people outside of your direct peers. Often there will be company socials that may be organised by the office manager or a voluntary social committee. There may also be team interest channels in Slack or Microsoft Teams, for example around music or pets.
 
-It can be helpful to make friends in other teams and departments to better understand how the company works. If you are considering different career paths in tech this can also be a good way to get to know other job roles and what they really entail inside a company. 
+It can be helpful to make friends in other teams and departments to better understand how the company works. If you are considering different career paths in tech this can also be a good way to get to know other job roles and what they really entail inside a company.
+
+## Onboarding guide
+
+Ask whether there is an onboarding guide for your team to help you get up to speed, this would typically have things like what languages or tools you need to install to get started, any useful links to team documentation and company resources. If there is a guide then read it thoroughly and update it with anything that may be out of date or missing. If there isn't a guide already then you could write one yourself and show it to your manager. It is a good opportunity for you to show initiative that you are keen to improve team processes and make things easier for others.
 
 ## Learning and development
 
