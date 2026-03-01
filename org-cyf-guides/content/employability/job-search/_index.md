@@ -107,7 +107,7 @@ is to use an LLM to provide a summary of the company. An example prompt could be
 **Can you give me a summary of the company XXX, including what is their business model, what are the different products they sell, who owns them and the size and composition of their team.**
 
 but modify it to include the things that you are interested in.
-
+Important: Make sure you check that the information from the LLM is correct - you can never trust it blindly. 
 ### Understanding whether you are suitable
 
 Often the job specification will include essential and optional requirements. Even when the requirements are stated to be essential, there is often flexibility if you meet most but not all of them.
