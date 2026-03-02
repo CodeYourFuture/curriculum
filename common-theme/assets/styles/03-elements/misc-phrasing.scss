@@ -23,12 +23,15 @@ code,
 pre code .highlight pre {
   font: var(--theme-font--code);
 }
-p > code {
+
+p>code {
   line-height: 1.5; // prevent inline code from breaking paragraph layouts
 }
+
 code:not([class]) {
   color: var(--theme-color--pop);
 }
+
 //this .highlight is goldmark
 .highlight pre {
   display: block;
@@ -49,17 +52,19 @@ code:not([class]) {
 details {
   list-style: none;
 }
+
 summary {
   margin-bottom: var(--theme-spacing--1);
   cursor: pointer;
   list-style: none;
 }
-summary > * {
+
+summary>* {
   display: inline-block;
   margin: 0;
 }
 
-details > summary::before {
+details>summary::before {
   content: "▶";
   display: inline-block;
   color: var(--theme-color--accent);
@@ -67,19 +72,49 @@ details > summary::before {
   transition: transform 0.5s cubic-bezier(0.4, 2.08, 0.55, 0.44);
   margin: 0 var(--theme-spacing--1) 0 0;
 }
+
 details:hover summary::before {
   color: var(--theme-color--pop);
   transform: rotate(5deg) scale(1.1);
 }
 
-details[open] > summary::before {
+details[open]>summary::before {
   transform: rotate(90deg);
 }
+
 hr {
   border: 0;
   border-bottom: var(--theme-border--thick);
   border-image: var(--theme-border-image);
-  margin: var(--theme-spacing--6)
-    calc(3 * calc(-1 * var(--theme-spacing--gutter)));
+  margin: var(--theme-spacing--6) calc(3 * calc(-1 * var(--theme-spacing--gutter)));
   max-width: 50%;
+}
+
+.code-block-filename {
+  font-family: var(--theme-font--code);
+  font-size: var(--theme-type-size--5);
+  padding: var(--theme-spacing--1) var(--theme-spacing--2);
+  background: var(--theme-color--paper);
+  border: var(--theme-border);
+  border-bottom: 0;
+  display: inline-block;
+  margin-bottom: -1px;
+  /* Overlap with the code block border */
+  position: relative;
+  z-index: 1;
+}
+
+
+.code-block-filename {
+  font-family: var(--theme-font--code);
+  font-size: var(--theme-type-size--5);
+  padding: var(--theme-spacing--1) var(--theme-spacing--2);
+  background: var(--theme-color--paper);
+  border: var(--theme-border);
+  border-bottom: 0;
+  display: inline-block;
+  margin-bottom: -1px;
+  /* Overlap with the code block border */
+  position: relative;
+  z-index: 1;
 }

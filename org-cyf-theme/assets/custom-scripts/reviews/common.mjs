@@ -13,7 +13,7 @@ function identifyAge(date) {
     }
 }
 
-const apiPrefix = "https://github-issue-proxy.illicitonion.com/cached/2/repos/CodeYourFuture/";
+const apiPrefix = "https://github-issue-proxy.hosting.codeyourfuture.io/cached/2/repos/CodeYourFuture";
 
 class PR {
     // status: one of: "Needs Review", "Reviewed", "Complete", "Closed", "Unknown"
