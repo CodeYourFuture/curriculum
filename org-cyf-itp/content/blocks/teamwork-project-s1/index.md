@@ -32,21 +32,13 @@ Collaborative software development leads to higher-quality products and efficien
 Think about the teams you will work with in tech. Discuss in your team:
 
 - What is your dream job?
-
 - What professional roles will be in your team?
-
 - What other people/teams will you interact with?
-
 - What non-technical skills will you bring?
-
 - What non-technical skills should you develop while at CYF?
-
 - Which of Belbin’s roles do you identify strongest with?
-
 - Define which team member will be the time keeper.
-
 - Work in your teams for about 10 minutes and write down brief answers to each question.
-
 - Assign one team member as speaker to deliver your answers back to the class in a maximum of 2 minutes.
 
 ===[[🧩 2) Discuss the roles in a product team]]===
@@ -58,17 +50,11 @@ Think about the teams you will work with in tech. Discuss in your team:
 The following roles are typically found within a development team. Discuss as a class the responsibilities of each role:
 
 - Front-end web developer
-
 - Back-end web developer
-
 - UX/UI designer
-
 - UX researcher
-
 - Product manager
-
 - Quality Assurance / Quality Engineer (tester)
-
 - Tech lead
 
 Write a brief description for each role on a post-it and share it on a collaborative board.
@@ -84,11 +70,8 @@ Team charters define roles, responsibilities, and ways of working. If these are 
 Discuss as a class:
 
 - Why is it important for your team to understand their main goal?
-
 - Why is it important for everybody on your team to understand the role each other plays?
-
 - What is the importance of having clear ways of working?
-
 - What happens when you are not clear about these three points?
 
 Spend the rest of the time clarifying any questions about the project and the first-week coursework.
