@@ -5,15 +5,23 @@ time=60
 render = "never"
 list = "local"
 publishResources = false
-[objectives]
-1="Discuss hard and soft skills in a tech team"
-2="Describe different roles in tech teams"
-3="Explain the importance of agreeing on clear goals for the team"
 +++
 
 {{<tabs name="Teamwork Project S1" >}}
 
 ===[[👉🏽 PD Session]]===
+ 
+<details>
+
+<summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
+
+```objectives
+- [ ] Discuss hard and soft skills in a tech team
+- [ ] Describe different roles in tech teams
+- [ ] Explain the importance of agreeing on clear goals for the team
+```
+</details>
+
 
 ### Preparation
 
