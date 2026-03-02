@@ -1,9 +1,6 @@
 +++
 title="Asking Good Technical Questions"
 time=60
-modules="JS1"
-week="4"
-skills="Communication"
 [objectives]
 1="Create well constructed questions that provide helpful answers to technical issues"
 [build]

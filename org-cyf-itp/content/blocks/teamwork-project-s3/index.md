@@ -1,9 +1,6 @@
 +++
 title="Teamwork Project Sprint 3"
 time=60
-modules="JS3"
-week="3"
-skills="Teamwork"
 [build]
 render = "never"
 list = "local"

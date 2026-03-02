@@ -1,9 +1,6 @@
 +++
 title = "Fail Fast Prep"
 time = 40
-modules = "JS2"
-week = "1"
-skills = "Confidence"
 [build]
 render = "never"
 list = "local"
