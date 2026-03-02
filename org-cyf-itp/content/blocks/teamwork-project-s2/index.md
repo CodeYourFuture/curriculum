@@ -15,7 +15,7 @@ publishResources = false
 {{<tabs name="Teamwork Project Sprint 2" >}}
 
 ===[[Prep & Introduction]]===
-Prep
+### Prep
 
 Post-its and pens for each team
 
@@ -23,7 +23,7 @@ A collaborative board (physical or digital) for each team
 
 Ensure trainees have completed the required reading on Product/MVP concepts
 
-Introduction
+### Introduction
 
 In this session, we move from theoretical concepts to defining the core of your specific project. We will identify who your users are, what they actually need, and how your product serves them.
 
@@ -32,7 +32,7 @@ In this session, we move from theoretical concepts to defining the core of your 
 
 🎯 Goal: Define and differentiate Product, MVP, Feature, and User Story
 
-Instructions
+#### Instructions
 
 Create a collaborative board with four columns: Product, MVP, Feature, and User Story.
 
@@ -47,15 +47,13 @@ Review the board as a group to clarify any misconceptions.
 
 🎯 Goal: Identify target audiences and their specific needs
 
-Instructions
+#### Instructions
 
 Using the product your team defined in the previous week, discuss the following:
 
-Who are your users? (e.g., students, administrators, casual readers)
-
-What different user profiles exist? (e.g., a "Guest" vs. an "Authenticated User")
-
-What specific needs does your product address?
+- Who are your users? (e.g., students, administrators, casual readers)
+- What different user profiles exist? (e.g., a "Guest" vs. an "Authenticated User")
+- What specific needs does your product address?
 
 Deliverable: Write a short description of your product, its users, and their needs. Choose a spokesperson (ideally someone new) to present this to the class in 1 minute.
 
@@ -64,15 +62,13 @@ Deliverable: Write a short description of your product, its users, and their nee
 
 🎯 Goal: Connect product features to user pain points
 
-Instructions
+#### Instructions
 
 Internal Brainstorm: In your teams, answer:
 
-What is the primary functionality of your product?
-
-How exactly does it solve the user problems identified in Exercise 2?
-
-Peer Review: Pair up with another team.
+- What is the primary functionality of your product?
+- How exactly does it solve the user problems identified in Exercise 2?
+- Peer Review: Pair up with another team.
 
 Feedback Loop: - Share your answers with the other team.
 
