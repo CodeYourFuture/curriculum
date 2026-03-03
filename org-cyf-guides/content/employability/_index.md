@@ -21,7 +21,7 @@ Then before you apply ideally you will have the follow things ready. It is not m
 Once you have prepared the resources and know what sort of jobs you want to apply for, it's time to really start your search
 
 ### [Job Search](./job-search)
-### [Application Tracker](./application-tracker)
+### High Level Application Process (coming soon)
 ### [Cover Letters](./cover-letters)
 ### [Networking](./networking)
 ### [Interview](./interview)

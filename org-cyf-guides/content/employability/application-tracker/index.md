@@ -20,19 +20,17 @@ When you're applying for jobs, it's easy to lose track of where you've sent your
 
 Create a spreadsheet (Excel, Google Sheets) with these columns:
 
-| Column | What Goes Here |
-|--------|----------------|
-| Date Applied | When you sent the application |
-| Company Name | The company you're applying to |
-| Role Title | The exact job title |
-| Job Link | URL to the original posting |
-| Platform | Where you found it (LinkedIn, Indeed, company website) |
-| Status | Applied, Screening, Interview, Offer, Rejected |
-| Salary | If mentioned in the posting |
-| Contact Person | Name of any recruiter or hiring manager |
-| Next Action | What you need to do next |
-| Follow-up Date | When to send a follow-up email |
-| Notes | Any useful info about the role or company |
+- **Date Applied** - When you sent the application
+- **Company Name** - The company you're applying to
+- **Role Title** - The exact job title
+- **Job Link** - URL to the original posting
+- **Platform** - Where you found it (LinkedIn, Indeed, company website)
+- **Status** - Applied, Screening, Interview, Offer, Rejected
+- **Salary** - If mentioned in the posting
+- **Contact Person** - Name of any recruiter or hiring manager
+- **Next Action** - What you need to do next
+- **Follow-up Date** - When to send a follow-up email
+- **Notes** - Any useful info about the role or company
 
 ## Example Tracker
 

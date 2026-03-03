@@ -65,7 +65,7 @@ This approach is helpful if you want to work with a particular language or techn
 
 ## Filters
 
-As well as entering search terms you can usually use filters to save you time and focus on the roles that you’re aiming for, you can usually filter based on the following: 
+As well as entering search terms you can usually use filters to save you time and focus on the roles that you're aiming for, you can usually filter based on the following: 
 
 - Locations
 - Remote/Hybrid/In Person
@@ -82,7 +82,7 @@ Alerts allow you to save your search terms and filters and get notifications whe
 
 It is often also advantageous to be an early applicant to a role and having alerts set up helps you to know as soon as a role goes online.
 
-Each site has different ways of setting up alerts for example see [LinkedIn’s](https://www.linkedin.com/help/linkedin/answer/a511279)) but they normally link to your profile or email.
+Each site has different ways of setting up alerts for example see [LinkedIn's](https://www.linkedin.com/help/linkedin/answer/a511279)) but they normally link to your profile or email.
 
 You may want to experiment tweaking the alerts getting set up so your inbox doesn't get overwhelmed.
 
@@ -108,6 +108,7 @@ is to use an LLM to provide a summary of the company. An example prompt could be
 
 but modify it to include the things that you are interested in.
 Important: Make sure you check that the information from the LLM is correct - you can never trust it blindly. 
+
 ### Understanding whether you are suitable
 
 Often the job specification will include essential and optional requirements. Even when the requirements are stated to be essential, there is often flexibility if you meet most but not all of them.
@@ -119,3 +120,5 @@ It is also important to bear in mind that where a job specification says "strong
 ## Organising your job search
 
 In order to stay on top of your search we advise having a system to keep everything organised, as each application process can take several weeks and so it is easy to get details of roles mixed up or forget things. A simple way is to have a spreadsheet which lists the jobs that you have applied for and on which date, and has a link to the CV you tailored to the job, a cover letter and any other application information. You can then create a document for each application which includes your research about the company, as well as any key questions you want to ask in interviews, and anything else important you discover during the application process and add a link to this in the spreadsheet too.
+
+For a more detailed guide on tracking your applications, see our [Application Tracker](../application-tracker) guide.
