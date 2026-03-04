@@ -14,7 +14,7 @@ It can be easier to work through a problem when working with someone 1-to-1.
 
 Pair programming prepares our trainees for technical interviews when they'll code in front of other people.
 
-### How
+## How
 You can do pair programming in person sharing one computer.
 
 You can also do it remotely:
@@ -22,9 +22,9 @@ You can also do it remotely:
 * Scheduling a google meet, or similar online meeting
 * Using a VS Code extension like [CodeTogether](https://marketplace.visualstudio.com/items?itemName=genuitecllc.codetogether).
 
-A **trainee that wants to do** pair programming should visit the `#cyf-pair-programming` slack channel and book a time using a mentor's calendar.
+A **trainee** that wants to do pair programming should visit the `#cyf-pair-programming` slack channel and book a time using a mentor's calendar.
 
-A **mentor that wants to start** offering pair programming should share a bookable calendar (something like google calendar or calendly works well) in the `#cyf-pair-programming` slack channel, and ask another mentor to shadow them on their first call.
+A **mentor** that wants to start offering pair programming should share a bookable calendar (something like google calendar or calendly works well) in the `#cyf-pair-programming` slack channel, and ask another mentor to shadow them on their first call.
 
 ## Mentored Pair Programming
 We assign **mentored pair programming** as a coursework assignment throughout the course.
@@ -59,7 +59,7 @@ If you jump in to writing code without explaining your thinking, it will be more
 
 **Give honest feedback**: Trainees can't develop if they don't receive honest feedback about their progress.
 
-**Ask questions!**: Asking a clarifying question can help learners discover errors and often promotes more thoughtful responses. **Asking is better than telling.** Asking questions also helps to avoid long silences, and it can help push a trainee who is stuck and doesn't know how to proceed.
+**Ask questions!** Asking a clarifying question can help learners discover errors and often promotes more thoughtful responses. **Asking is better than telling.** Asking questions also helps to avoid long silences, and it can help push a trainee who is stuck and doesn't know how to proceed.
 
 **Encourage re-usable techniques**: Reinforce techniques like reading error messages carefully, looking up documentation, and thinking about edge cases. You might feel tempted to search for something on your own screen, instead ask the trainee to do it and this will help them learn the right kind of things to search for if they get stuck.
 
