@@ -7,9 +7,10 @@ weight: 4
 ## Security checks - Page Overview
 
 When being hired in the UK, there is a range of checks that happen for vetting purposes. Some are mandatory for every company, while others depend on the role or company. And each will be done case-by-case.
+These checks are usually run by third parties, so if you have any concerns, talk to the company hiring you, as they will be making the final decision.
 
 ### Some examples of the checks:
-- Right to work & ID: it’s a mandatory check that all companies must do. 
+- Right to work & ID: it’s a mandatory check that all companies must do. Even if you have a British passport, you may have to complete a separate Right to Work in the UK check.
 - DBS (Disclosure and Barring Service: this is looking into any convictions or conditional cautions you might have had. There are two types: basic or standard/enhanced level. If you are working at an educational organisation, for example, the latter might be needed. 
 - BPSS (Baseline Personnel Security Standard): This is the minimum standard for government and armed forces jobs. It includes employment history as well as the above checks.
 - BS7858 (British standard for high security roles): even more rigorous, this level checks for 5 to 10 years of employment history AND your financial stability (6-year credit search, for example) and sometimes even coverage of any 31+ day employment gaps
@@ -17,7 +18,8 @@ When being hired in the UK, there is a range of checks that happen for vetting p
 ### What kind of information is considered?
 - Nationalities: Some jobs require UK only; others accept dual citizenship, but only from the EU; others, it doesn't matter. There is no one rule that fits all jobs.
 - Time living in the UK: some jobs require you to have lived in the UK for at least three years, others five years.
-- Days away from the UK: if you have been away from the UK for longer than 28 days, this could impact your offer. 
+- Days away from the UK: if you have been away from the UK for longer than 28 days, this could impact your offer.
+- Which other countries have you visited recently (the time frame will depend on the company hiring) 
 - Employment history: career breaks and unemployment could be a deal breaker if you can’t evidence what you were doing in the meantime.
 - Type of industry: different industries have different levels of security. And different roles within that industry might impact this, too.
 
