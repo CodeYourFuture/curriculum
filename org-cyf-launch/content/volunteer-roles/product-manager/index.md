@@ -23,4 +23,4 @@ You can see [The Launch schedule and content](/) to get familiar with what will 
 * Incentivising the team to be self-organised and accountable.
 * Working with the team members on any conflicts.
 * Giving the trainees honest and constructive feedback: if you wouldn't hire them, tell them why so they can work on it.
-* **Write an [assessment](https://docs.google.com/document/d/1sgNNJNsgWprh7VMCbiRgXY1BrqjzqxdWKKxSvTZwcjk/edit?tab=t.0) of every trainee in your team**. This must be done with the other volunteers in your team.
+* Write an assessment of every trainee in your team. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).
