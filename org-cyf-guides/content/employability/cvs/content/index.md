@@ -71,6 +71,18 @@ Here are some further examples of CV statements enhanced by outcomes and metrics
 1. "Mentored an intern"
 2. "Mentored an intern, helping them successfully deliver their project on time, leading to a job offer at the end of their internship"
 
+## Talking about CodeYourFuture
+
+Most employers won't know what CodeYourFuture is. Your CV should make clear what you learnt, and why it's impressive.
+
+You should always include CodeYourFuture under an _education_ section not an _experience_ section - you didn't work for CYF, you studied here.
+
+Make sure you explain in your CYF section what things make this a useful course, and what makes you stand out as a result. Some of the things CYF tells employers is impressive about the course:
+* Self-learning - you're learning to learn new things, you're adaptable, you can get started with new things quickly. You don't rely on other people telling you what to do. You can grow fast.
+* Experience working with legacy code - comfort jumping into existing systems and working with them. This is unusual for junior software engineers.
+* Considering trade-offs, the idea there isn't always one best way to do something, but you can evaluate options. Most junior software engineers cannot do this well.
+* Complexity - you learn about big-O and can compare how different algorithms perform as their input grows. This is common in universities, but rare in bootcamps.
+* Mentored by industry experts. You haven't just been academically learning - the people mentoring you do this professionally and are relevant and up-to-date.
 
 ## Repetition
 
