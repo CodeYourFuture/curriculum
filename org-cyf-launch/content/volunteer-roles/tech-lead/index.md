@@ -40,4 +40,4 @@ You can see [The Launch schedule and content](/) to get familiar with what will 
   * Version Control: Git, GitHub.
   * Deployment Platforms: Netlify, Coolify.
   * RESTful Services & APIs.
-* **Write an [assessment](https://docs.google.com/document/d/1sgNNJNsgWprh7VMCbiRgXY1BrqjzqxdWKKxSvTZwcjk/edit?tab=t.0) of every trainee in your team**. This must be done with the other volunteers in your team.
+* * Write an assessment of every trainee in your team. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).
