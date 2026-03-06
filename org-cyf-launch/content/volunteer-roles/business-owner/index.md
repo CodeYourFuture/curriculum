@@ -9,11 +9,11 @@ It is a role that needs to be able to attend a weekly/bi-weekly meeting with our
 
 The Business Owner is not involved in daily meetings or catch-ups but supports and guides the team whenever they are stuck or want approval.
 
-### Your Role
+## Your Role
 
 The Business Owner must be knowledgeable about the product being built and understand the user's needs and the organisation's strategy. This role must have the authority to make decisions and support the team daily, so must be someone with knowledge about the product's context, users and strategy.
 
-### Your responsibilities
+## Your Responsibilities
 
 * Be available via e-mails, chats or phone to answer questions within a 0.5-1 working day.
 * Responsible for unblocking the team with making necessary decisions.
