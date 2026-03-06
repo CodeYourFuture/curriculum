@@ -2,7 +2,6 @@
 title = "Review your BA tools"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "List all important tools and techniques you learned for business analysis"
 

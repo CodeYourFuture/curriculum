@@ -2,15 +2,41 @@
 ignore = "exit 1" #always build on PR even if you can't detect changes in this folder
 publish = "public"
 command = "./deploy-netlify.sh"
+
+[build.environment]
+  GO_VERSION = "1.24.5"
+  HUGO_VERSION = "0.136.3"
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+
 [dev]
 framework = "hugo"
 targetPort = 3000
 command = "hugo server -p 3000"
+
 [[redirects]]
 from = "/api/*"
 to = "/.netlify/functions/:splat"
 status = 200
+
+[[redirects]]
+from = "/calendar"
+to = "https://docs.google.com/spreadsheets/d/1yI0msIwe8qYn2Nv9WPLwFMTM_Td0TtPvlv17u3B8sS8/edit?gid=0#gid=0"
+status = 302
+
+[[redirects]]
+from = "/other-schools"
+to = "https://docs.google.com/document/d/1gO2iX0aoKyb3yCKmjhTr2FyKgDhnlzXbe0pdYOBzU_E/edit"
+status = 302
+
+[[redirects]]
+from = "/eligibility-docs"
+to = "https://docs.google.com/document/d/1xyNGdHm2qJL5T3z3iQIk9fO9rzwaTbhG92s-wb0YhT8/edit"
+status = 302
+
 [functions]
+directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
 
 [[headers]]

@@ -2,7 +2,6 @@
 title = "Memory consumption"
 description="Memory is finite"
 time = 30
-emoji = "🥪"
 [build]
   render = 'never'
   list = 'local'

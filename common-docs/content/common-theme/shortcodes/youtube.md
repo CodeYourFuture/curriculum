@@ -1,7 +1,6 @@
 +++
 title="YouTube"
 description="Embed a YouTube video"
-emoji="📺"
 menu=["shortcodes"]
 +++
 

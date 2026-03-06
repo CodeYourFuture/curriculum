@@ -1,7 +1,6 @@
 +++
 title = "Get on the CYF Hosted Environment"
 time = 30
-emoji= "👤"
 [build]
   list = "never"
   publishResources = false

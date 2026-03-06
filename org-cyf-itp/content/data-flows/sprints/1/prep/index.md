@@ -1,9 +1,14 @@
 +++
 title = 'prep'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
+[[blocks]]
+name="How the internet works"
+src="module/js3/internet"
+[[blocks]]
+name="Usability Workshop Prep"
+src="module/ux/usability-workshop-prep"
 [[blocks]]
 name="Rendering Data as UI"
 src="module/js3/data-ui"

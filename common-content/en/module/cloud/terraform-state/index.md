@@ -2,7 +2,6 @@
 title = 'Terraform State Management and Backends'
 
 time = 30
-emoji= '🔏'
 [objectives]
     1='Define state locking in Terraform'
 [build]

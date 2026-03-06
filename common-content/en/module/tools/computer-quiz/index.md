@@ -1,7 +1,6 @@
 +++
 title = "How Computer really work? Chapter 1 & 2"
 time = 10
-emoji = "📖"
 
 [build]
   list = "local"

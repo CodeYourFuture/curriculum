@@ -2,13 +2,15 @@
 title = 'Prep'
 description = 'What to do before you come to class'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 theme = "Getting to know how the course works"
 menu_level = ['module']
 weight = 1
 [[blocks]]
 name="Application"
 src="module/onboarding/application"
+[[blocks]]
+name="Notes"
+src="module/onboarding/notes"
 [[blocks]]
 name="Goals"
 src="module/onboarding/goals"

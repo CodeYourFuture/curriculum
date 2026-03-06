@@ -1,7 +1,6 @@
 +++ 
 title="Columns"
 description="Puts anything into columns and distributes them evenly"
-emoji="📊"
 menu=["shortcodes"]
 +++
 

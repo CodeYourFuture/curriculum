@@ -1,7 +1,6 @@
 +++
 title = "Using existing middleware"
 time = 30
-emoji= "⛓️"
 objectives = [
     "Use an existing middleware with Express.",
 ]

@@ -2,7 +2,6 @@
 title = "UX Design and Storyboarding"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Create an interface (UI) using a wireframe or storyboard that represents the desired behaviour of a user"
 ]

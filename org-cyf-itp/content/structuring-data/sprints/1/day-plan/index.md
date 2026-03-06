@@ -1,7 +1,6 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
@@ -12,8 +11,8 @@ time=10
 name="Energiser: Popcorn"
 src="energisers/popcorn-screen-share"
 [[blocks]]
-name="Javascript Test Your Understanding"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/js1-wk1-eval"
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-01/"
 time=65
 [[blocks]]
 name="Morning break"
@@ -31,25 +30,14 @@ src="module/onboarding/blockers"
 time=15
 [[blocks]]
 name="Study Group"
-src="module/onboarding/development"
-time=60
+src="blocks/study-group"
+time=135
 [[blocks.nested.blocks]]
 name="Optional structured activity: Pair Programming"
 src="module/onboarding/pairing"
 [[blocks.nested.blocks]]
 name="Optional structured activity: Code Review"
 src="blocks/mentored-code-review"
-[[blocks]]
-name="Code Review"
-src="https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/pulls"
-time="0"
-[[blocks]]
-name="Afternoon break"
-src="blocks/afternoon-break"
-[[blocks]]
-name="Study Group"
-src="module/onboarding/development"
-time=60
 [[blocks.nested.blocks]]
 name="Optional structured activity: Know Your Computer"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/know-your-computer"

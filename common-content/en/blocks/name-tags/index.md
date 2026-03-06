@@ -1,6 +1,5 @@
 +++
 title = "Name tags"
-emoji = "🏷️"
 time = 5
 tasks = [
   "Make a name tag for yourself.",

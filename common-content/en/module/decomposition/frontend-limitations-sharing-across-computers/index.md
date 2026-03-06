@@ -3,7 +3,6 @@ title = "Limited sharing across computers"
 headless = true
 time = 20
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
     "Explain why sharing state across computers may require us to write (or use) a backend.",

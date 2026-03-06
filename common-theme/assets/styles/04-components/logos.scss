@@ -1,5 +1,6 @@
 .c-logos,
 ul.c-logos {
+  @extend %list-without-list-formatting;
   padding: var(--theme-spacing--4) 0 var(--theme-spacing--6);
   display: flex;
   flex-flow: row wrap;
@@ -9,6 +10,7 @@ ul.c-logos {
   max-width: none;
 
   &__item {
+    @extend %list-without-list-formatting;
     max-width: 200px;
     flex: 1 1 auto;
   }

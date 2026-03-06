@@ -1,7 +1,6 @@
 +++
 title = "Understanding Legacy Code"
 time = 5
-emoji= "🏛️"
 [build]
   render = 'never'
   list = 'local'

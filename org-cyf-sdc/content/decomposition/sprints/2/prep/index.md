@@ -1,16 +1,15 @@
 +++
-title = 'prep'
-description = 'Overview description of the prep work for the sprint'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Overview description of the prep work for the sprint"
+layout = "prep"
+menu_level = ["sprint"]
 weight = 1
 [[blocks]]
-name="Adding quotes"
-src="module/decomposition/adding-quotes"
+name = "Adding quotes"
+src = "module/decomposition/adding-quotes"
 [[blocks]]
-name="Data validation"
-src="module/decomposition/data-validation"
+name = "Data validation"
+src = "module/decomposition/data-validation"
 [[blocks]]
 name = "Chat application requirements"
 src = "module/decomposition/chat-application-requirements"

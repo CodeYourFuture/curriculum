@@ -1,7 +1,6 @@
 +++
-title = "Success"
+title = "End of Sprint Review"
 layout = "success"
-emoji= "✅"
 menu_level = ["sprint"]
 weight = 4
 +++

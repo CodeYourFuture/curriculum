@@ -1,7 +1,6 @@
 +++
 title = "sort and uniq"
 time = 20
-emoji = "💻"
 objectives = [
   "Count the occurrences of different lines within a file using `sort` and `uniq`.",
 ]

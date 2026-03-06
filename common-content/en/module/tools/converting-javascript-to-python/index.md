@@ -3,7 +3,6 @@ title = "Converting JavaScript to Python"
 headless = true
 time = 90
 facilitation = false
-emoji= "📖"
 objectives = [
     "Rewrite JavaScript code as Python"
 ]

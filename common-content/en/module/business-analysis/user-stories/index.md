@@ -2,7 +2,6 @@
 title = "User stories"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Write well-formed user stories based on proposed solutions"
 ]

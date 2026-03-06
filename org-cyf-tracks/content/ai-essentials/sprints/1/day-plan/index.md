@@ -1,7 +1,6 @@
 +++
 title = 'day-plan'
 layout = 'day-plan'
-emoji= '🧑🏾‍🤝‍🧑🏾'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
@@ -15,7 +14,7 @@ time=20
 [[blocks]]
 name="Morning"
 src="blocks/ai-essentials/workshop"
-time=135
+time=60
 [[blocks]]
 name="Module 1: Introduction to AI"
 src="https://www.coursera.org/learn/google-ai-essentials#modules"

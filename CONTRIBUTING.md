@@ -10,11 +10,11 @@ This curriculum compiles narratives and activities developed by hundreds of peop
 
 ## Who runs this?
 
-Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, and do, develop content for the curriculum, and they are encouraged to experiment to see what works. 
+Our Tech Education volunteers teach in our classes. All Tech Ed volunteers can, and do, develop content for the curriculum, and they are encouraged to experiment to see what works. Our trainees also notice problems, and propose or implement solutions!
 
-The Global Syllabus Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Global Syllabus Team will make the ultimate decision. See more info on contributing new content below.
+The Curriculum Team is a group of long term volunteers who are responsible for the overall direction of the curriculum. They decide the strategy and accept new content into the core. Once a Tech Ed volunteer has sufficiently tried out their material, they can propose that it be adopted into the main curriculum, and the Curriculum Team will make the ultimate decision. See more info on contributing new content below.
 
-The Global Syllabus Team is led by the Director, currently [Sally McGrath](https://github.com/SallyMcGrath). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-syllabus and [the minutes](https://curriculum.codeyourfuture.io/guides/contributing/minutes/) are posted on this website. If you'd like to come and talk to us, please do!
+The Curriculum is led by the Director of Education, currently [Daniel Wagner-Hall](https://github.com/illicitonion). We meet every two weeks to discuss the curriculum and make decisions. The agenda is posted in the Slack channel #cyf-curriculum and [the minutes](https://curriculum.codeyourfuture.io/guides/contributing/minutes/) are posted on this website. If you'd like to come and talk to us, please do!
 
 ## About our content
 
@@ -32,68 +32,44 @@ The Global Syllabus Team is led by the Director, currently [Sally McGrath](https
 
 ## Pedagogy
 
-We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework.
+We broadly use the [Teach Tech Together](https://teachtogether.tech/) pedagogical framework, in a [flipped classroom](https://bokcenter.harvard.edu/flipped-classrooms) style.
 
 ## How to contribute
 
-### Propose a new narrative or activity
+Contributions to the curriculum are always welcome. Help in navigating teh directory structure and instructions for local testing can be found in the [contribution guidelines pages](https://curriculum.codeyourfuture.io/guides/contributing/) of our curriculum.
 
-We adopt _tested_ content into the main curriculum, so develop and try out your material first! Come to class, try it, and get feedback from the community. Come talk in #cyf-syllabus-tech on Slack and iterate on your session.
+### Site Search
 
-1. Develop your narrative or activity in a repo. If you're running a workshop, develop in https://github.com/CodeYourFuture/CYF-Workshops. If it's a project, link in https://github.com/CodeYourFuture/CYF-Projects
-2. If you're recording a video, upload it to YouTube and make it public.
-3. Use your material and iterate on it with trainees.
-4. When you're ready to propose adoption, open a PR to this repo.
-5. The Global Tech Ed team will consider your proposal and give you feedback.
+PageFind runs the search. https://pagefind.app/
+It's in the build command on Netlify `hugo && npx pagefind --source "public"`
+If you need to develop on this locally, run:
 
-**We like to experiment.** If you have an idea, try it out and let us know how it goes! Keep your experiments small and test them early. (If you want to try something big, like a new module, come talk to us first.)
-
-Our curriculum threads a coherent line through all of this activity, so whatever worlds we explore, we can all come back here and find out _what_ to do _next_.
-
-_Most_ content we develop and use with classes will not be adopted into the core curriculum -- that's ok! We want to be free to experiment.
-
-## Coursework Template
----
-
-<details>
-<summary>https://github.com/CodeYourFuture/CYF-Coursework-Template</summary>
-
-# COURSEWORK NAME
-
-Replace this readme with the requirements for your coursework
-
-## Learning Objectives
-
-```objectives
-- [ ] Use the [Teach Tech Together](https://teachtogether.tech/en/index.html#s:process-objectives) guide to construct your objectives
-- [ ] Limit the objectives to 3-5 items
-- [ ] Write objectives you can measure
+```bash
+rm -rf public &&
+npm run build:dev &&
+npx pagefind --site "public" --serve
 ```
 
-## Requirements
+And go to http://localhost:1414/ to see the PageFind-served site with search enabled; but there is no hot reload. You can run hugo on http://localhost:1313/ at the same time.
 
-Explain the requirements of the coursework. You might want to talk about goals here.
-You might want to use formal specifications like Given/When/Then. It's ok for requirements to be in different formats.
-We want trainees to learn to interpret requirements in many settings and expressions.
+## Checklist before raising a PR
 
-## Acceptance Criteria
+Please check the following before raising a PR. Unless you have been given permissions to push to the code your future repo you will have to create a fork of the repo and then raise a PR from that to the main repo. You will also not be able to add reviewers yourself unless you have been given permission, but you can mention people in the PR description to bring it to their attention.
 
-- [ ] I have provided clear success criteria
-- [ ] These might be related to the objectives and the requirements
-- [ ] I have given some simple, clear ways for trainees to evaluate their work
-- [ ] I have run Lighthouse and my Accessibility score is 100
+If you are working on a GitHub issue please mention the reference in the PR, but if it is a small improvement it does not need one.
 
-</details>
+- [ ] I have checked my spelling and grammar with an [automated tool](https://www.grammarly.com/grammar-check)
+- [ ] I have previewed my changes to check the [markdown renders](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) as I intend
+- [ ] I have run my code to check it works
+- [ ] My changes follow our [Style Guide](https://curriculum.codeyourfuture.io/guides/code-style-guide)
 
----
+## Deploy preview
 
-## Bugs
+When you raise a PR, Netlify will automatically try and deploy your branch and give you a custom URL so you can view a preview of your changes and anyone reviewing your PR can see the preview without needing to run the branch locally.
 
-If you spot a bug, please let us know by [creating an issue]() or opening a PR with the fix. Bug fixes are super welcome!
+However, if you do not have permissions to push to the CodeYourFuture repo and are creating a PR from a fork of the review, someone with the correct permissions will have to approve the Netlify build. Please ask in the #cyf-curriculum channel in slack to get the build approved. If you have push permissions then the build will happen automatically.
 
-As this front end composes many different repos, please open an issue in the repo where you found the bug. If you're not sure, open an issue in this [main repo]().
-
-(If the content is pulled from another repo, there's a link next to the heading -- follow that link to the source repo and open an issue there.)
+As this repo contains multiple sites, when you create a PR it will create a different Netlify build for each site. Netlify also runs Lighthouse and creates a report on performance, accessibility, SEO and best practices so you can see how your branch performs.
 
 ## Contributors ✨
 

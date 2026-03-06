@@ -1,7 +1,6 @@
 +++
 title="Logos"
 description="A grid of logos with links to external sites."
-emoji="🖼️"
 menu=["shortcodes"]
 +++
 

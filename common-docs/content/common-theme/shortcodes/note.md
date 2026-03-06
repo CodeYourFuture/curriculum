@@ -1,7 +1,6 @@
 +++
 title="Note"
 description="A note with a title and a body"
-emoji="📝"
 menu=["shortcodes"]
 +++
 

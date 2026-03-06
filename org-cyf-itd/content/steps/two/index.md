@@ -1,8 +1,7 @@
 +++
 title = 'Two'
-description = 'Make a Cover Letter with Generative AI'
+description = 'Learn how to use AI appropriately'
 layout = 'prep'
-emoji= '🤖'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 3

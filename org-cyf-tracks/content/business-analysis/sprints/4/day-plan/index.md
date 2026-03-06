@@ -2,7 +2,6 @@
 title = "Day-plan"
 description = "Transforming Requirements to Solution Design"
 layout = "day-plan"
-emoji = "📅"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]

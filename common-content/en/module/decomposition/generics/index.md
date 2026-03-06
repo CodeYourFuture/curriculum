@@ -1,7 +1,6 @@
 +++
 title = "Generics"
 time = 30
-emoji= "🧠"
 objectives = [
   "Define a generic type.",
   "Explain why generics are useful.",

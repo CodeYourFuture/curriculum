@@ -1,7 +1,6 @@
 +++
 title ="Step 4: How to show us"
 description= "Submit your work for review"
-emoji= "📩"
 time= 5
 [build]
   render = 'never'
@@ -13,4 +12,4 @@ time= 5
 
 You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Submit a link to your Event Invite webpage on GitHub Pages
+1. Submit a link to your personal webpage on **CodePen**. 

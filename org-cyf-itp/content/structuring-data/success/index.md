@@ -1,8 +1,7 @@
 +++
-title = 'success'
+title = "End of Module Review"
 description = 'How do we know if we have completed Structuring and Testing Data?'
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 weight = 11
 [[objectives]]
@@ -35,12 +34,16 @@ weight = 11
 1. Make a new issue on your own Coursework Planner.
    - Follow this template for naming your issue: `<COHORT_NAME> | Structuring and testing data | <YOUR_NAME>`
 1. On the issue, add:
-    - Evidence you have completed "[Intro to Python](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/21)".
-    - Links to your _completed_ pull requests for each sprint:
-        1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
-        1. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
-        1. "[Sprint 3 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
-    - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
+   - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** for [sprint 1](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/899), [sprint 2](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/900), and [sprint 3](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/901) of this module. Link should be in the form https://codeyourfuture.github.io/Codewars-Progress-Checker/#YOUR_CODEWARS_USERNAME
+   - Links to your _completed_ pull requests for each sprint:
+     1. "[Sprint 1 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35)".
+     2. "[Sprint 2 Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7)".
+     3. "[Sprint 3 "Implement and Rewrite Tests" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6)".
+     4. "[Sprint 3 "Practice TDD" Coursework Exercises](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695)".
+   - A link to your "[Written Email for an Internship](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/20)".
+   - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
+   - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/897).\
+     This must be at a different demo session than any submitted for previous modules.
 1. Submit the issue link to step 2 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]

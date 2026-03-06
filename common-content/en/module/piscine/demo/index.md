@@ -25,7 +25,7 @@ Split randomly into groups of no more than 4 people. Mix up your teams. Each per
 
 ### 1. Demo {{<timer>}}2{{</timer>}}
 
-You will demo something about your project work this spring to the group.
+You will demo something about your project work this sprint to the group.
 
 You will have 2 minutes to explain what you did and why. It's ok to show broken code or code that doesn't work yet. Just make sure your demo is interesting.
 

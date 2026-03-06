@@ -2,7 +2,6 @@
 title = 'What is GitHub'
 
 time = 25
-emoji= '🐙'
 [objectives]
 1='Set up a GitHub account'
 [build]

@@ -1,6 +1,5 @@
 +++
 title="Flipped classroom"
-emoji='🐬'
 time=10
 [objectives]
     1="Explain how a flipped classroom works"

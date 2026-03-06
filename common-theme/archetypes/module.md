@@ -2,7 +2,6 @@
 title = '{{ replace .Name "-" " " | title }}'
 description = 'The plan for {{ replace .Name "-" " " | title }}'
 layout = 'module'
-emoji= '📚'
 menu = ['syllabus']
 +++
 

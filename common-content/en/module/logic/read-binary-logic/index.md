@@ -5,7 +5,6 @@ title = "Binary Logic recap"
   list = 'local'
   publishResources = false
 time = 60
-emoji= "📖"
 [objectives]
     1="Add together two binary numbers without converting to decimal"
     2="Identify which of two binary numbers is larger without converting to decimal"

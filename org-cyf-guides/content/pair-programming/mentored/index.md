@@ -1,7 +1,6 @@
 +++
 title = 'Mentored pair programming'
 description = 'Practice writing code and getting support'
-emoji = '👥'
 weight = 2
 +++
 

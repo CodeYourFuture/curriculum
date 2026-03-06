@@ -2,7 +2,6 @@
 title = "User journey"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Represent customers’ interactions with the business as user journeys",
     "Create user journeys showing the  “as-is” state with pain points and “to-be” solutions"

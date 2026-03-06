@@ -2,7 +2,6 @@
 title = "Study Case"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Create business analyst artifacts based on this study case.",
 ]

@@ -36,9 +36,14 @@ function computeStatusClass(awaitingReview) {
 const state = {
   "prs": null,
   "reviewer_filter": "",
+  "region_filter": "",
 }
 
 async function onLoad() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const region = urlParams.get("region");
+  state.region_filter = region;
+
   render();
   state.prs = (await fetchPrsWithoutLoadingReviews()).filter((pr) => pr.status === "Needs Review");
   render();
@@ -47,6 +52,18 @@ async function onLoad() {
 }
 
 function render() {
+  const regionSelect = document.querySelector("#region-filter");
+  regionSelect.textContent = "";
+  regionSelect.appendChild(makeRegionOption("All Regions", ""));
+  for (const region of Object.keys(regionAliases)) {
+    regionSelect.appendChild(makeRegionOption(region, region));
+  }
+  regionSelect.appendChild(makeRegionOption("Unknown", "Unknown"));
+  regionSelect.addEventListener("change", (event) => {
+    state.region_filter = event.target.value;
+    render();
+  });
+
   if (state.prs === null) {
     document.querySelector("#pr-list").innerText = "Loading...";
     return;
@@ -66,6 +83,9 @@ function render() {
   }
 
   for (const pr of state.prs) {
+    if (state.region_filter && !regionMatches(state.region_filter, pr.title)) {
+      continue;
+    }
     for (const review of pr.reviews) {
       if (!review.isPrAuthor) {
         reviewers.add(review.userName);
@@ -163,6 +183,36 @@ function render() {
   }
 }
 
+const regionMatches = (regionToFilter, prTitle) => {
+  if (regionToFilter == "Unknown") {
+    for (const region of Object.keys(regionAliases)) {
+      if (regionMatches(region, prTitle)) {
+        return false;
+      }
+    }
+    return true;
+  }
+  const lowerParts = prTitle.toLowerCase().split("|").map((part) => part.trim());
+  for (const alias of [regionToFilter, ...regionAliases[regionToFilter]]) {
+    const lowerAlias = alias.toLowerCase();
+    for (const lowerPart of lowerParts) {
+      if (lowerPart == lowerAlias) {
+        return true;
+      }
+    }
+  }
+  return false;
+};
+
+const regionAliases = {
+  "Cape Town": ["South Africa", "SouthAfrica", "ZA", "ZA Cape Town"],
+  "Glasgow": ["Scotland"],
+  "London": [],
+  "North West": ["NW", "Manchester"],
+  "Sheffield": [],
+  "West Midlands": ["WM", "WestMidlands", "West-Midlands"],
+}
+
 const fillWithModuleHeading = (container, module, pending) => {
   container.innerText = "";
   const link = document.createElement("a");
@@ -170,6 +220,14 @@ const fillWithModuleHeading = (container, module, pending) => {
   link.href = `https://github.com/CodeYourFuture/${module}/pulls`;
   const text = document.createTextNode(` (${pending})`);
   container.append(link, text);
+}
+
+const makeRegionOption = (label, value) => {
+  const option = document.createElement("option");
+  option.textContent = label;
+  option.value = value;
+  option.selected = state.region_filter === value;
+  return option;
 }
 
 onLoad();

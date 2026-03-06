@@ -1,6 +1,5 @@
 +++
 title = "Install Node with nvm"
-emoji = "🧰"
 time = 20 
 [objectives] 
 1="Download and install Node using nvm"

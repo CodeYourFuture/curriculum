@@ -2,7 +2,6 @@
 title = 'Reusable components'
 
 time = 30
-emoji= '🃏'
 [objectives]
     1='Implement components for a user interface'
 [build]

@@ -1,7 +1,6 @@
 +++
 title = "What is Legacy Code?"
 time = 15
-emoji= "🏚️"
 [objectives]
     1="Define legacy code"
 +++

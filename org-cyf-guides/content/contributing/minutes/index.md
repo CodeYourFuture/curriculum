@@ -1,7 +1,7 @@
 ---
 id: minutes
 title: Minutes of the Global Syllabus Team
-weight: 2
+weight: 5
 emoji: 🗒️
 ---
 
@@ -14,6 +14,763 @@ Attendees:
 ### 📝 Agenda points
 
 ### ❗Actions
+
+---
+---
+
+## 2026-02-24
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Colin + CJ: Clarify the Wireframe exercise expectations - gather what different reviewers are looking for, and clarify.
+- [ ] (After this ITP finishes): Swap order of Wireframe and Form-Controls exercises.
+- [ ] Anna: Start trying to collect all of the other repos we pull in, and make pros/cons for each being separate.
+- [x] Colin: Quick-start guides for "I want to X" e.g. "I want to remove something from a day plan"
+- [x] Colin: Step-by-step "How to run" calling out e.g. the hugo version thing (or fixing it)
+- [ ] Daniel: Simplify PR template - yes! The original goals of the template aren't relevant any more.
+- [ ] Daniel: Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+
+### 📝 Agenda points
+
+#### Daniel: SDC afternoon structure
+We discussed adding structured activities to SDC to fill study group in the afternoon. Couple of issues with study groups posited.
+- SDC students are more lost that ITP because volunteers are not needed as much. 
+- The study group doesn't work at all well online.
+- Students leave early 
+- Students/volunteers are tired by the time for study group
+- volunteers aren't good at getting students to help other students and so build community
+
+We came to a rough consensus that the problem is that trainees don't use the time wisely but that that's hard to fix. We agreed the option for structured activities would be useful. Colin suggested that maybe workshops should be more themed to the backlog content that week.
+
+#### Daniel: Splitting up SDC legacy code module into two weeks
+The module is big and overwhelming, we agreed that it would be sensible to split it
+
+#### Recording a "How to orient yourself to a PR video"
+Daniel stated that students find it difficult to navigate the PR page in GitHub - they get confused about what needs responded too etc. He would like someone to record a video guide to that page so it makes more sense for the students. CJ agreed to take on the task.
+
+### ❗Actions
+- [ ] Colin + CJ:  (Carry Over) Clarify the Wireframe exercise expectations - gather what different reviewers are looking for, and clarify.
+- [ ] (After this ITP finishes):  (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Anna: (Carry Over) Start trying to collect all of the other repos we pull in, and make pros/cons for each being separate.
+- [ ] Daniel: (Carry Over) Simplify PR template - yes! The original goals of the template aren't relevant any more.
+- [ ] Daniel: (Carry Over) Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+- [ ] Colin: Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: Split up the SDC legacy code module
+- [ ] CJ: Recording a "How to orient yourself to a PR video"
+
+---
+
+## 2026-02-10
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Poonam Rajput
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+- [x] Colin/Poonam: Update PR template for clarity
+- [x] Ali: Post Slack message in volunteer channel sourcing accessibility resources - done, but no response
+
+### 📝 Agenda points
+
+#### Making Curriculum Contributions Easier
+
+Docs that exist:
+* `CONTRIBUTING.md` gives some overview over the content, but not as much practical advice.
+* https://common.codeyourfuture.io/ exists but is more of a "framework developer" docs than a contributor doc
+
+What things do people need to know to contribute?
+* Do they know they _can_ contribute? Socialising this, making "Edit this page" links, etc
+* Knowing where all the content is (from across the many repos) - maybe a list of repos
+  * Or pull everything into the curriculum repo if there's not a _good_ reason to keep separate - probably fold Workshops, Projects into curriculum. _Maybe_ keep a repo per module for exercises/backlogs
+  * Try to _justify_ why keeping things separate is useful, or fold it together if not
+* A clear and concise guide to how to find the right place to make a change
+* A half-page tl;dr on the framework for common tasks (e.g. "A day plan is made from a list of blocks in an index file", "The top-level sites are ...", etc)
+* Step-by-step "How to run" calling out e.g. the hugo version thing (or fixing it)
+* Simplify PR template - yes! The original goals of the template aren't relevant any more.
+* Easy place to find a backlog of work items to pick up that could be useful
+
+Some discussion:
+
+We think that almost all contributions are around content, not around infrastructure/tooling. So we should focus on making _content_ contributions/fixes easier - we don't see a lot of people who actually want to fix/build the platform.
+
+Migracode consume our content, but we are suffering a lot of extra complexity and they don't really care about. We should simplify our infrastructure as much as possible (but ideally not horribly break them).
+
+Should we fold the site into one domain
+* How do we preserve context? What do nav trees look like?
+* Search - would we want course-specific or -weighted search?
+
+We get a fair few random open source contributions to the platform that don't work - how much do we want to be encouraging these? Do we have time to mentor them properly? General consensus: As a rule, we don't think we have time to mentor a lot of platform contributions from scratch. Things that work (or are close to working) are great, but if people are miles away from a useful contribution, we probably can't invest in them that much. (We probably have more time for people inside the CYF community :)).
+
+### ❗Actions
+
+- [ ] Colin + CJ: Clarify the Wireframe exercise expectations - gather what different reviewers are looking for, and clarify.
+- [ ] (After this ITP finishes): Swap order of Wireframe and Form-Controls exercises.
+- [ ] Anna: Start trying to collect all of the other repos we pull in, and make pros/cons for each being separate.
+- [ ] Colin: Quick-start guides for "I want to X" e.g. "I want to remove something from a day plan"
+- [ ] Colin: Step-by-step "How to run" calling out e.g. the hugo version thing (or fixing it)
+- [ ] Daniel: Simplify PR template - yes! The original goals of the template aren't relevant any more.
+- [ ] Daniel: Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+
+---
+
+## 2026-01-27
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Colin Farquhar, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Update testing content in ITP
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+
+### 📝 Agenda points
+
+#### ITP Testing
+
+CJ Pushed testing content today
+
+#### Adjustments for visually impaired trainees
+
+ITP student in Sheffield has visual impairment and is struggling to read some of the course content (mainly images). Submission deadline already has flexibility built in to accommodate adjustments so no additional time available, but we can make adjustments to exercise criteria.
+
+We'll take each exercise individually and asses any potential changes as we come to them. 
+
+Hugo _should_ have accessibility features built in, but some of our content may need additional descriptions/alt text eg. wireframing task.
+
+#### PR template instructions
+
+Many trainees are not removing the example text when submitting their first PRs. We should add comments/instructions to make it clear what needs to be changed
+
+#### Form Controls Task
+
+Task requires Lighthouse score of 100, but this is tricky to achieve without CSS. Should we remove the "no CSS" restriction?
+
+We could also move it to sprint 1 before wireframing.
+
+We're already past this point with ITP Jan, will revisit before May cohort
+
+#### ITD Eligibility
+
+Sheffield trainee has completed ITD but does not meet eligibility criteria for ITP. Doing checks earlier isn't practical (too many people). Are we communicating eligibility early enough? Criteria are already posted on the website for applicants to read.
+
+#### ITD Slack
+
+Support Qs asked in different channels, but fewer questions these days. We also have a general #question-support channel. Should we keep this one and remove the others?
+
+Previous ITD was quite small so may be distorting the numbers. We'll keep an eye on how the next ITD goes and reassess after.
+
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+- [ ] Colin: Update PR template for clarity
+- [ ] Ali: Post Slack message in volunteer channel sourcing accessibility resources
+
+---
+
+## 2026-01-13
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [x] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [x] Daniel: Add "respond to a bot comment" to the developer specs workshop
+
+### 📝 Agenda points
+
+#### Testing content in ITP
+
+**Why are we introducing `console.assert`?** Avoiding having to pull in dependencies, and all of imports/packages/projects/...
+
+**Should we be focusing on what values to test or how to test or both?** A lot of the testing content is "copy and paste examples with more values". Long-term we want trainees to do both, but we don't necessarily have to do both at the same time.
+
+**Some tests talk about TDD but don't really do it?** We should probably remove the term TDD, but try to get people thinking about test cases before writing code (even if not actually writing them). If we want to introduce TDD, we should probably do so explicitly (and better)!
+
+#### Required demo-giving for people without laptops
+
+We now require giving a demo for each Step in ITP. But we won't lend people laptops until they've submitted Step 1. How should we handle bootstrapping this?
+
+Change the requirement to _attend_ a demo session for Step 1, and _presenting_ a demo session for the subsequent steps. But keep recommending presenting demos as early as possible.
+
+#### Moving Tuesday meetings to 7pm to avoid conflict with demo session
+
+Let's do it. Also, let's only do Tuesdays, they work better for everyone and it will be more predictable.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] CJ (Carry-over): Clean up (and split up) the "How ITD works" section.
+
+---
+
+## 2025-12-16
+
+Attendees: CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein, Léon McGregor
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+  - Daniel will pick this up because we have some funding to get someone to do it!
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [x] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+### 📝 Agenda points
+
+#### Updating ITP backlogs
+
+Colin has been doing an overall audit of the whole curriculum, particularly with a focus on ITP.
+
+Backlogs are currently not amazingly clean - some stuff is duplicated, maybe too much is mandatory, it's hard to see what's meant to be an every week habit.
+
+Colin is drafting cleaning up and organising the backlogs.
+
+A lot of the backlog issues have a lot of overlap.
+
+How do we care about numbering of tasks?
+- Most of the needs are met by the categorisation Colin is now doing.
+- Drawing attention to "Read this before class" could still be useful - maybe an optional section that appears above mandatory.
+
+Will also be running through PD with Karen to work out what is/isn't important and what we may want to change.
+
+#### Tests in the curriculum
+
+We should maybe remove the DOM tests from Data Groups Sprint 3 - they're mostly confusing, and people don't have enough test nous to really reason about them anyway.
+
+#### Tasks for Anna to pick up over Christmas
+
+We discussed a bunch of options, and will forward them on :)
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel: Add "respond to a bot comment" to the developer specs workshop
+
+---
+
+## 2025-12-03
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+
+### 📝 Agenda points
+
+#### ITD folks are getting lost...
+
+... between Slack, Slack Canvases, the curriculum, the course portal, etc.
+
+Maybe we should make an orientation page in the curriculum? Setting the tone, expectations, tools to be used, etc.
+
+Hopefully the new dashboard will help with some of the trainee journey mapping here too.
+
+Also, we're probably going to stop using Slack Canvases soon.
+
+#### ITP folks aren't familiar with the Git command line
+
+People don't really have a mental model of Git, e.g.
+- Understand what happens when you create branches
+- Commonly create branches not from main
+- Can't rebase/revert changes
+- Aren't confident using CLI commands to fix issues they've gotten into
+
+Currently we don't have any hands-on exercises for actually building up a Git mental model. We have some examples to read, and then hope people will pick things up through the other work they're doing.
+
+But we don't want to add _too much_ content e.g. to the Onboarding module.
+
+#### PR bot reviews
+
+We're seeing trainees who aren't acting on the PR bot comments, and it's quite frustrating. It causes quite a lot of noise in reviews.
+
+We probably want to introduce some "Look out for bot comments, and act on them".
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] CJ: Clean up (and split up) the "How ITD works" section.
+- [ ] Daniel/Leon: Update Onboarding to motivate: Look out for and respond to bot comments.
+
+---
+
+## 2025-11-18
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Update testing content in ITP
+- [ ] Colin: Add PR formatting to ITP onboarding
+
+### 📝 Agenda points
+
+#### ITD: Slack on phones
+
+Goal: Have our trainees see our messages more.
+
+We should probably start instructing trainees to install Slack on their phones in ITD, for more reliable communication.
+
+Some people may object to installing apps and enabling notification. We won't check they've installed things, or require notifications - but making sure people see messages is important.
+
+We're pretty sure there's a welcome message when people join the workspace. We don't know what it says - will find out. But may want to modify this.
+
+Canvases confuse people - we probably want a single view (probably not a Slack canvas) which has a "getting started" guide and reference links. Maybe on the start of the ITD curriculum page.
+
+#### Structure of the curriculum - projects, tracks, …
+
+We have quite a chaotic spread of websites at the moment, e.g. https://projects.codeyourfuture.io/ is separate from everything else.
+
+We generally want to merge things together into one site wherever possible, but don't necessarily want to put in much work in migrating. But new content should probably lean in this direction.
+
+#### ITP: Add alumni "This course is tough" to the Welcome sprint of ITP
+
+We notice people dropping out because of incorrect expectations around how much work the course is.
+
+It doesn't help that the difficulty ramps up.
+
+Maybe having people who recently did the course come and report their experience of how much they needed to focus on the course would help expectation set.
+
+Most cohorts don't get an alum into class as it is. But Karen's team can help enable this.
+
+A fallback video could be useful if we can't find someone, too.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Update testing content in ITP
+- [ ] Colin (Carry-over): Add PR formatting to ITP onboarding
+- [ ] Karen: Work out how to better centralise ITD intro information (including a nudge to install Slack on phone)
+- [ ] Karen: Get a "no really, work at ITP" video recorded and added to the curriculum
+
+---
+
+## 2025-11-05
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Improving testing content in ITP
+
+Trainees are taking a very minimalist approach to testing. Checking PRs and marking recent Piscine projects has shown that many of them write as few tests as possible and only do so if prompted.
+
+There is a disconnect between trainees' understanding of _how_ we write tests and _why_ we write tests.
+
+We can update the exercises in ITP module 2, sprint 3 to better guide them towards the benefits of good test coverage
+
+#### Formatting of PR descriptions
+
+Some trainees are not formatting PR descriptions correctly even several weeks into the course.
+
+We can add this to the updated GitHub workshop in the ITP onboarding sprint
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Update testing content in ITP
+- [ ] Colin: Add PR formatting to ITP onboarding
+
+---
+
+## 2025-10-21
+
+Attendees: Ali Smith, CJ Yuan, Daniel Wagner-Hall
+
+### ❗Actions from last time
+
+- [x] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [x] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [x] Daniel: Remove emoji from all the blocks.
+- [x] Karen: Update ITD comms around course platform vs curriculum.
+
+### 📝 Agenda points
+
+#### SDC Retro
+
+We had an SDC retro covering the last two SDCs - Daniel will write up a bunch of tickets soon.
+
+Major themes that emerged:
+* The role of AI across the courses.
+* Lack of independence in interpreting and handling e.g. unexpected errors.
+* Lack of confidence in how good they are and what jobs they should be applying for.
+* When to introduce more "real" statically typed language(s), and which one.
+
+#### Hardcore frontend track
+
+Let's start thinking about what a track to produce really high quality frontend specialists would look like.
+
+Ali's initial thoughts: Knowing the browser inside out. Accessibility. Probably also TypeScript. Will give more thought.
+
+Maybe targeting "Back of the frontend" engineers - folks who are more logic-focused than UX-focused.
+
+#### Debuggers
+
+Our trainees are not very confident with debuggers (both in ITP and SDC). We have [a workshop coming up](https://programming.codeyourfuture.io/data-groups/sprints/2/day-plan/#debugging), but may want to emphasise it or bring it earlier.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
+## 2025-10-08
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+### 📝 Agenda points
+
+#### Introductions - new team members!
+
+Colin joined us!
+
+#### Future of emojis in blocks
+
+We generally find them cute but not super useful, and taking time to pick emoji isn't a great use of time.
+
+Possibly it could be useful to introduce more specific limited indicators e.g. "this is an exercise" or "this is a video".
+
+We will remove the existing emoji for now.
+
+#### Integrating "listening to and understanding questions" to demo practice
+
+Our trainees have gotten much better at presenting, but often stumble when answering questions afterwards.
+
+We probably don't want to assess people on this in the Piscine straight away, but maybe start warning people "You will be asked a question you must respond to", and have the assessor ask a decent question (which we don't assess).
+
+We probably want a workshop on asking and answering questions well. We probably can't rely on _all_ volunteers to run this workshop well.
+
+In demo sessions, we can perhaps re-organise so that we do demo + feedback + questions + feedback on questions. Time-boxing both the feedback and the questions, and having someone experienced be the last person in each segment.
+
+#### Backlog
+
+Daniel cleaned up the backlog, introduced an icebox, and closed a bunch of issues.
+
+We will have more people picking up backlog items - please assign an issue to yourself if you're going to pick it up to avoid duplicate work.
+
+#### Prep for ITD in November
+
+Currently Step 3 (Google Sheets) is the big drop-off point. This aligns with it being the first non-trivial step. This is probably the best place for us to have drop-off.
+
+People get a bit confused between the course platform vs curriculum page. We probably want to update the email we send to new ITD trainees clarifying the difference between the two.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ: Write up new success criteria for ITP modules 3+4 referencing Codewars completion rates.
+- [ ] Daniel: Remove emoji from all the blocks.
+- [ ] Karen: Update ITD comms around course platform vs curriculum.
+
+---
+
+## 2025-09-23
+
+Attendees: Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein
+
+### ❗Actions from last time
+
+- [ ] Daniel: Write up learning objectives for TV Show Project
+- [x] CJ: Write up PR guide for trainees
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [x] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [x] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Introducing Self Workshop
+
+Anna has [a draft](https://docs.google.com/document/d/1O8Or9adI90z4WqrbrlIlNVt3jnxqb8lvihgvNujx64w/edit) - will try to refine tonight and get merged tomorrow!
+
+#### PR Guide for trainees
+
+CJ has [a draft](https://github.com/cjyuan/cyf-notes/blob/main/pr-how-to.md) - looks ready to merge - talked through [where our guides live](https://github.com/CodeYourFuture/curriculum/tree/main/org-cyf-guides/content/reviewing).
+
+We'll transfer the [Codewars Progress Checker](https://cjyuan.github.io/Codewars-Progress-Checker/) into CodeYourFuture, and update the backlogs and success pages for ITP modules 2-4.
+
+### ❗Actions
+
+- [ ] Daniel (Carry-over): Write up learning objectives for TV Show Project
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+
+---
+
+## 2025-08-26
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer
+
+### 📝 Agenda points
+
+#### ITD - Rewriting Steps 4 and 5
+
+CJ has been rewriting Steps 4 and 5 so that 4 is really a focus on HTML+CSS and 5 is really a focus on GitHub.
+
+He's going to try to get it ready for final review on Thursday, but we'll confirm whether we're aiming to merge it for the September or the November ITD :)
+
+#### ITP: Project TV Show
+
+The goals of the partner swapping are for people to get experience working with code they didn't write themselves (and a bit, to either adapt to someone else's coding style, or adapt their code to your style).
+
+We don't give much feedback on the project itself - unclear how much people are learning on the way.
+
+Not sure how much people are learning useful things via the pairing vs just experiencing chaos.
+
+Learning how to use branches and collaborate is probably useful in the Piscine and later. This was one of the goals of the project.
+
+Maybe we should have trainees give presentations of their projects as part of an acceptance criteria. But we should be wary of everyone giving identical presentations - maybe we can prompt them to different specific sub-topics.
+
+Maybe we could split the project up into levels slightly differently, so that one partner is doing logic then the next person is doing UI rendering.
+
+Update reviewer instructions to show that all we really care about in terms of collaboration is that more than one person contributed non-trivial code.
+
+#### AI Strategy feedback
+
+Generally looks good.
+
+#### PR template updates
+
+We workshopped some PR template updates.
+
+#### Piscine in October
+
+Jay and CJ are interested in getting involved, Ali should be around except the 11th
+
+We talked through how the Piscine generally runs.
+
+### ❗Actions from last time
+
+- [ ] Daniel: Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [x] CJ: Finish Google Sheets exercise to replace Step 3 accordingly
+- [x] Anna: Finish off GenAI ITD Step
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### ❗Actions
+
+- [ ] Daniel: Write up learning objectives for TV Show Project
+- [ ] CJ: Write up PR guide for trainees
+- [ ] Daniel (Carry-over): Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
+## 2025-08-13
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Jay Meyer, Karen Klein, Léon McGregor
+
+### ❗Actions from last time
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around structuring code around the idea of testability (Is the [Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list) sufficient?)
+- [x] Jay: Move module-level Prep into Sprint-1 prep, and trim the module-level & Sprint-1 preps in Module-Structuring-and-Testing-Data
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [x] CJ: Prepare a Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Barath (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Put together draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Self-review PR exercises
+
+CJ shared [a draft](https://github.com/cjyuan/Module-Data-Flows/blob/book-library-feedback/debugging/book-library/feedback.md)
+
+Ali wondered whether we want very exercise-specific feedback or something more general.
+
+Maybe we can introduce a more general "Look at your code before making the PR" (including possibly linking to the [style guide](https://curriculum.codeyourfuture.io/guides/reviewing/style-guide/)) and introduce exercise-specific guides where we have them?
+
+Possibly a PR auto-commenter could be helpful. But don't want to be too spammy and desensitise people. Ideally want it to be targeted.
+
+We need to keep focusing on conveying _understanding_ rather than just instructions - they need to understand why something is a problem, not just follow an instruction to follow it.
+
+#### Intro to Léon
+
+Léon has joined CYF as the [Community Education Lead in the Scotland region](https://codeyourfuture.io/community-minded-lead-teacher/) with a focus on giving trainees feedback and helping volunteers to become better teachers.
+
+#### AI Strategy
+
+Daniel has put together a [draft AI strategy for CYF](https://docs.google.com/document/d/16ZFFVPRQ6JL6-kpVdwXndQ1zUo0i9kvP5fQ5c4NE3Nk/edit) - please take a look and leave some comments.
+
+#### Launch Demo Day Feedback
+
+Was really impressive - some of the best projects and demos we've seen at CYF! All of the course changes are paying off - thank you everyone!
+
+People were much better at presenting than in the past, but struggled with the style of answering questions about their demos. (Also, some trainees were asking not amazing questions.) - We should think about how to help people ask and answer questions better after demos.
+
+#### Tony's Problem Solving Workshops
+
+Daniel demo'd [Tony's problem solving workshops](https://deploy-preview-1538--cyf-programming.netlify.app/structuring-data/sprints/1/day-plan/#problem-solving-workshop) - we're all very excited about them.
+
+#### Backlog GitHub Issue Labels
+
+The Size and Priority labels on GitHub issues are probably useful because they help trainees filter in their project boards.
+
+The Topic labels probably are not - we don't use them, that's not how we develop the curriculum. (They used to be useful, but we've changed how we work.) Daniel will clear some out.
+
+#### When will ITD and ITP be done and ready to be uploaded to the dashboard
+
+https://deploy-preview-1548--cyf-itd.netlify.app/ should have all the info needed to update the dashboard.
+
+### ❗Actions
+
+- [ ] Daniel: Look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): Finish workshop around structuring code around the idea of testability ([Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list))
+- [ ] CJ: Finish Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Jay (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Continue draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
+## 2025-07-29
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, Jay Mayer,  Hugo Martínez
+
+### 📝 Agenda points
+
+#### Moving module-level Prep to Sprint 1 Prep in ITP
+
+For each module, Jay suggested moving the module-level Prep into Sprint 1 Prep to keep the weekly study pattern consistent (Prep -> Backlog -> Day Plan -> Success). Everyone thought it was a good idea.
+
+In the Module-Structuring-and-Testing-Data, there is a lot of content in both the module-level Prep and the Sprint 1 Prep. Suggested actions:
+  - Trimming the content by moving some Prep items into a Backlog item.  
+  - Pointing trainees to resources like [javascript.info](http://javascript.info) to learn the fundamentals of JavaScript programming.
+
+#### ITD Google Sheets Step replacement
+
+CJ has found an online [Google Sheets course](https://edu.exceedlms.com/student/path/1606820-google-workspace-sheets-part-1?sid=9f092b41-fdbc-4363-a85d-200f9bcaf22c&sid_i=4) and will prepare an exercise requiring participants to apply what they learn from it.
+
+#### ITD GenAI Step  
+Anna is in the final process of fine-tuning the GenAI Step.
+
+### Pruning the issues in [https://github.com/CodeYourFuture/curriculum](https://github.com/CodeYourFuture/curriculum)
+
+There are about 138 issues in the Curriculum repo. Jay is offering help with cleaning up some of them.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ: look into a workshop around structuring code around the idea of testability (Is the [Building a ToDo List App using ES Modules](https://github.com/cjyuan/Module-Data-Groups/tree/todo-new/Sprint-3/todo-list) sufficient?)
+- [ ] Jay: Move module-level Prep into Sprint-1 prep, and trim the module-level & Sprint-1 preps in Module-Structuring-and-Testing-Data
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ : Prepare a Google Sheets exercise to replace Step 3 accordingly
+- [ ] Anna: Finish off GenAI ITD Step
+- [ ] Barath (Carry-over): Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali) (Carry-over): Put together draft self-review PR exercises.
+- [ ] CJ (Carry-over): Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+---
+
+## 2025-07-16
+
+Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, Jay Mayer
+
+### ❗Actions from last time
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ (Carry-over): Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Finish off GenAI ITD Step.
+- [ ] Barath: Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali): Put together draft self-review PR exercises.
+- [ ] CJ: Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+
+### 📝 Agenda points
+
+#### Structuring code around testing
+
+CJ has been looking into how we can set up a skeleton project structure for ITP exercises. This should encourage trainees to write tests for their logic that doesn't depend on the DOM, and ideally utilise ES Modules. We would like trainees to decouple the DOM and their app's logic, without getting bogged down in teaching sophisticated design jargon. May need to be split into different ITP modules to provide a gentle introduction to different concepts.
+
+The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
+
+#### AI in ITD (Step Two)
+
+Anna shared the latest draft of a new AI step. We agreed this looks good. We could get valuable feedback from upcoming ITD participants by observing them completing the exercise on a call.
+
+Discussed a self-check, where participants could use AI to improve their implementation of previous (non-AI generated) work.
+
+A potential long-term goal for CYF Dashboard is the ability to 'quiz' participants to give automated feedback when an incorrect answer is submitted.
+
+#### Feedback from June Piscine
+
+A retro for Piscine June-2025 took place on 2025-07-15.
+
+Overall, this Piscine went really well. There was a >50% pass rate! With curriculum iterations in Piscine and earlier, this went better than the first Piscine. However there are still some skills that need attention:
+
+- Interviewing. Delivering an elevator pitch should be worked on during ITP. A workshop is ideal, because it gives trainees live feedback from volunteers.
+
+- Demos. The first demo of Piscine is often the first demo ever given. Attending a few weekly demo calls could be mandatory to complete ITP - to practice giving demos and observing others. Any topic is welcome, the key skill is explaining something out loud. Recorded examples of good demos could be useful, but encouraging people to attend a call solves the same challenges in a better way. Attending 'out of class' is an unusual requirement, but not unfeasible. Karen is exploring alternative call times to reach as many trainees as possible.
+
+- Dead code. People keep submitting Piscine projects with dead code (from single variables to whole files). We don't talk about this in ITP, or even point out that faded objects in VS Code are unused. Refactoring might be mentioned, but is rarely seen as a skill worth acquiring (relative to everything else a trainee has to learn). As an exercise, we could ask trainees to clean up some code. Should linting be set up to make these errors even more obvious?
+
+- Creating new repos. This is a surprisingly big problem in Piscine. Collaborating well on GitHub is another aspect.
+
+- Git SHA. Piscine submissions use a SHA to ensure no work after the deadline is assessed. There could be a wider misunderstanding about what a commit represents. The GitHub UI is a useful helping hand for obtaining a SHA.
+
+### ❗Actions
+
+- [ ] Barath (Carry-over): look at tic-tac-toe workshop explaining the breaking down of the problem
+- [ ] CJ (Carry-over): look into a workshop around the structuring code around the idea of testability
+- [ ] Jay (Carry-over): Rename / maybe modify module prep to prereqs
+- [ ] Daniel (Carry-over): Find out if we can get an AI note-taker
+- [ ] CJ (Carry-over): Look at new Google Data Analytics course, update Step 3 accordingly.
+- [ ] Anna: Finish off GenAI ITD Step.
+- [ ] Barath: Reach out to Chris Owen about [AI code review](https://github.com/ChrisOwen101/CodingCoach/).
+- [ ] CJ (+ Ali): Put together draft self-review PR exercises.
+- [ ] CJ: Write a ticket to remove Code In Place for the next ITP, and substitute with a self-learn "try a Codewars in Python" workshop/backlog, and discuss.
+- [ ] Anna (+ Daniel): Explore workshops to improve interviewing skills at Piscine for ITP
+- [ ] Unassigned: Write a small piece of code with dead code to clean up
+- [ ] Barath (hopefully!): Look into exercises to setup a GitHub repo
 
 ---
 
@@ -673,7 +1430,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
 * Sally made [a doc](https://docs.google.com/document/d/1SHjRnvhoMp0NLDzEc8-lLMy4bx_FR87-_QxYRI9qRqY/edit?tab=t.0), but we got no further
 * Naming
   * Sally: Would like to override the vote of naming to be Introduction module
-    * There's too much confusion with _Intro_ to Digital & _Intro_ to Programming as a whole course - "I completed the Introduction module" is too ambigious
+    * There's too much confusion with _Intro_ to Digital & _Intro_ to Programming as a whole course - "I completed the Introduction module" is too ambiguous
   * Decision: Will be called the Onboarding module
     * Reasoning: It ties nicely into onboarding at a company, introduces that jargon
     * Welcome module naming was rejected
@@ -869,7 +1626,7 @@ Three kinds of tracks:
 * Employer/Job/Role-focused tracks after ITP
 * Employer/Job/Role-focused tracks after SDC
 
-Need to be clear what is a direct path to a job, and also that we won't support poeple indefinitely to just keep doing more learning without goals.
+Need to be clear what is a direct path to a job, and also that we won't support people indefinitely to just keep doing more learning without goals.
 
 Daniel will action this on the tracks website.
 
@@ -2095,9 +2852,9 @@ Sprint is basically "review all the things".
 
 - Monorepos make it simpler to do things atomically (e.g. for wide-scale change, for unified previews, etc), and to not need to build tooling around stitching things together.
   - Each time we need to build tooling to bridge gaps, either we need to spend time on that tooling, or we need to be sad because we have to live with the limitations of not having that tooling.
-- Our core model is composibility - separating things around can make it easier for people to focus on just their corner of the world.
+- Our core model is composability - separating things around can make it easier for people to focus on just their corner of the world.
 - Each place we have an extra repo adds complexity - we should be careful to justify why this it's worth adding this complexity for each exception we make.
-- Not super clear what value we get from seprate _repos_ over separate _directories_ (which may have their own permissions)?
+- Not super clear what value we get from separate _repos_ over separate _directories_ (which may have their own permissions)?
   - But Hugo's module system strongly assumes each module has _releases_ of some kind, and we may need to invent some cunning scheme to make this work.
 - Git submodules could potentially help, but also could add complexity.
 - Sally is going to try to build some kind of release system within Hugo and send it out for high-bar review, outside of the curriculum repo so we can experiment and iterate.
@@ -2123,7 +2880,7 @@ Sprint is basically "review all the things".
 - How much should we balance "what we teach" with "how later things will be deployed"?
   - A lot of the higher-level frameworks around React (next, remix, ...) abstract away a lot of the things that are useful to understand.
     - Sally has been migrating React Hotel to Vite - could happily put together a few other examples implementations with frameworks (e.g. Preact) we can compare/contrast.
-  - As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encoutered.
+  - As an example, we've seen trainees struggle with things like "classic" multi-page applications because it's not something they've ever encountered.
 - A few really different concerns for our trainees:
 
   - Can you understand what's going on with a deployment platform?
@@ -2700,7 +3457,7 @@ Ali:
 
 - Trade off between consolidation and momentum
 - Need to make this trade-off clear to the tech-ed volunteers
-- Need to avoid heroic efforts and adding unncessary extra time to the course
+- Need to avoid heroic efforts and adding unnecessary extra time to the course
 
 Mitch:
 
@@ -3049,7 +3806,7 @@ Our best answer so far: Try to be on the ground watching as much as possible.
 
 We need to work out how to introduce Git, but hopefully for the current class can spend some time across HTML/CSS doing so in the background.
 
-Consistent feedback we get from employeers:
+Consistent feedback we get from employers:
 
 - Graduates are too eager to fork repos.
 - Graduates are confused about forks vs branches.
@@ -4464,7 +5221,7 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - [ ] Greg: set up a debrief with ZA (pending) - action!
 - [x] Sally: share intro to CYF slides with Greg
 - [ ] Ali: set up a Blockly Reactification call - action!
-- [ ] Greg: create a ticket for cypress tesing in blockly - action!
+- [ ] Greg: create a ticket for cypress testing in blockly - action!
 - [x] Daniel: progress JS1 module project
 
 ### WMCA deal
@@ -4516,7 +5273,7 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 
 - Arrange CFY teacher training
 
-### Reamining Blockly PRS
+### Remaining Blockly PRS
 
 - Greg to check and merge these PRs
 - Wait for other PRs to get merged before tackling "Greater than 11"
@@ -4607,7 +5364,7 @@ Attendees: Sally, Greg, Daniel, Ali, Sanyia
 - Greg: set up a debrief with ZA
 - Sally: share intro to CYF slides with Greg
 - Ali: set up a Blockly Reactification call
-- Greg: create a ticket for cypress tesing in blockly
+- Greg: create a ticket for cypress testing in blockly
 - Daniel: progress JS1 module project
 
 ## 30-03-2022
@@ -4735,7 +5492,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 - Problem solving
 - Integration with PD
 - Working on students with code reviews
-- Module contracts - Well defined prequisites and outcomes for any module on the course
+- Module contracts - Well defined prerequisites and outcomes for any module on the course
 -
 - Iterate on module template for Code Your Future
 - Succession planning: learning how to hand things over in a sustainable way 🤔
@@ -4846,7 +5603,7 @@ Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth 
     - So we don't overstretch ourselves
     - Sally has talked to some schools about reaching targets before starting new class
       - But it's ultimately up to the volunteers
-    - Oridinarily Cape Town would start new fundamentals first
+    - Ordinarily Cape Town would start new fundamentals first
   - Try to capture some notes - that we could use as a basis for committed volunteer notes
 - Supporting schools with employment
   - Cape Town have access to Barny
@@ -4898,7 +5655,7 @@ Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia 
   - Alternative could be to set up a repo that they all use which we maintain - would keep everyone doing the same, but may take away some of the understanding of how things fit together and what the stages are.
     - Is the Node module the right place to be following Heroku guides, or can we move this somewhere else?
     - One of the really nice things about the current set-up is that it gives rise to a lots of opportunities for discussion.
-  - Thoughts on the City Guide / Paired Progamming piece (one person writes frontend, one writes backend, fit them together)
+  - Thoughts on the City Guide / Paired Programming piece (one person writes frontend, one writes backend, fit them together)
     - Probably the wrong time for it - the person doing React will probably not take as much from it (and may not remember React very well - we should also put in some work to make sure they _don't_ forget React at the end of the module).
       - In the long term, we should probably have them working on frontend and backend in concert to keep them practiced at it (e.g. quote generator, to do list, etc).
       - They'd also forgotten create-react-app, and also didn't know how to integrate a frontend and a backend in one repo.
@@ -4951,7 +5708,7 @@ Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia 
       - Will check.
       - A loop variable is something more than that - more the language storing something for you rather than you storing something.
   - What are the final exercises actually going to be, and do they really need to be as complex (particularly with arrays) as they currently are?
-    - Greg willl look and consider.
+    - Greg will look and consider.
   - What about duplication between Code.org and blockly?
     - Code.org does control flow stuff pretty well, but there's a small subset we actually need.
     - Probably focus as much in Blockly rather than Code.org because Code.org is much nicer and we don't want them getting frustrated.
@@ -5134,7 +5891,7 @@ Sally, Chris, Greg, Daniel
   - People seem to be enjoying Scrimba - maybe we should set more.
     - Scrimba is roughly: Kahn Academy, but you can pause the video, edit the code they're writing, and run it. Interface is magic, and the trainees really like it.
     - We may have an in for a creator account - Chris will coordinate with Sally.
-- Greg: Data sturcture abstractions for Blockly
+- Greg: Data structure abstractions for Blockly
   - Beginners often struggle with classic `for` loops (need to manage a lot of concepts). `while` loops are easier to get started, and upgrading from `while` to `for` generally makes some sense.
   - Put together a linked list implementation using `while` loops.
   - Naming is hard:
@@ -5341,7 +6098,7 @@ Daniel, Chris, Sally, Mitchell, Greg
   - This is a good signal
 - Tech Projects
   - Could we think about running a hackathon around some of these projects?
-  - They're fairly disfunctional right now so could be improved
+  - They're fairly dysfunctional right now so could be improved
     - As in - students could get more out of it, we could get more out of it
 
 ### Actions
@@ -5429,7 +6186,7 @@ We've split at least two London classes, it's probably the best outcome we could
 
 #### Revamping fundamentals
 
-Trying to encompas all of the use-cases all of the different schools have.
+Trying to encompass all of the use-cases all of the different schools have.
 
 London Class 8 starts September 25th and is going to be 66 people going through fundamentals. So unlikely to get revisions in by then. On current track, means 132 1:1 assessments!
 
@@ -5548,14 +6305,14 @@ Sally, Ali, Daniel, Greg, Chris
   - Compromise on the length of the course
     - Max was 24 weeks
     - Now the course "officially" starts after JS3
-  - Fundamentals convertion to a self-paced course
+  - Fundamentals conversion to a self-paced course
     - We'd lose
       - Students get know each other
       - Students getting to know mentors
       - 121 assessments
         - Was originally the core of the idea
       - Team building? Community?
-      - CYF getting to know the students e.g. attendence, punctuality
+      - CYF getting to know the students e.g. attendance, punctuality
       - The chance to remove people from the course
     - We'd gain
       - Less of an odd gap between Fundamentals and JS1
@@ -5833,7 +6590,7 @@ Welcome to Ben
 - Sally: could have teams that are module focused to "garden" the individual modules
   - syllabus team should figure out how to support people in doing this
 - Greg: As well as dependencies: document reasoning
-  - Sally: would also be good to have better communciation/collaboration between modules
+  - Sally: would also be good to have better communication/collaboration between modules
 - Ben: at school of code, similar issues - making things reorderable
 - Greg: concern that "Basics of Javascript" makes it a dumping ground for everything that is conceptually "basic", even if we could delay teaching it
 
@@ -6086,7 +6843,7 @@ The marking guide is the key part needed here.
 Action items:
 
 - Daniel will work on JS3, Matthew will work on JS1. Two assessments of 15 mins each, with a rubric to guide marking.
-- Ali wrote an assessment for React, an open book assesment. Find it, update it, and add it.
+- Ali wrote an assessment for React, an open book assessment. Find it, update it, and add it.
 
 ### Homework marking guide
 
@@ -6221,8 +6978,8 @@ Action for Chris: Get a Gist from Ali and give it to some students.
 ### Sprint planning (Chris)
 
 - Git ticket almost ready
-- introducing funtions, ready for review
-- js excercises 2
+- introducing functions, ready for review
+- js exercises 2
 
 New tickets
 
@@ -6336,7 +7093,7 @@ Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
   - Sometimes distracted by Bootstrap features
 - Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
 - Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
-- Homework for week 3 used Wix templates in the past - needs to change for copyright reaons
+- Homework for week 3 used Wix templates in the past - needs to change for copyright reasons
 
 - May need an additional 4th class
 - Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
@@ -6553,7 +7310,7 @@ Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 
 ### GIT & COMMAND LINE V. GITHUB DESKTOP
 
-Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
+Discussion around whether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
 
 - No final decision was made in the meeting about which technology should be taught.
   - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4.

@@ -1,7 +1,6 @@
 +++
 title="Label Items"
 description="Create a label items task with feedback"
-emoji="🗃️"
 menu=["shortcodes"]
 +++
 

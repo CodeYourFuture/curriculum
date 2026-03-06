@@ -1,7 +1,6 @@
 +++
 title = "Workshop: Process Spelunking"
 time = 90
-emoji= "📖"
 objectives = [
     "Find the PID of a process, using `ps`.",
     "Define a file descriptor.",
@@ -275,7 +274,7 @@ Use what you learned in the previous exercise, to find the *PID* of this program
 Now run `lsof -p 1234` (replace 1234 with the *PID* of the program).
 The `-p` flag tells `lsof` that we're only interested in the files opened by that process; without that option `lsof` will show everything that it can show.
 
-Can you find the FD of the `exercise_2.py` file?
+Can you find the FD of the `exercise_2_file.txt` file?
 
 ===[[Answer]]===
 If I run `lsof` on the program, I see this.
@@ -306,6 +305,8 @@ python3 65262 ariane    3r   REG  253,0        0  262147 /home/ariane/programmin
 The *FD* column says `3r`.
 This means the file is on *FD* 3.
 (The `r` suffix, means it is opened for reading.)
+
+Note that the file `exercise_2.py` does not appear in the list because, by the time lsof is executed, Python has already read its contents into memory and no longer holds an open file descriptor.
 {{</tabs>}}
 
 ### Standard Input, Output, and Error
@@ -559,7 +560,7 @@ We can see the `1`, which is the *file descriptor* to which it is written.
 
 ### What You've Learned
 
-You've learned that the process and the kernel speak with eachother using *system calls*. \
+You've learned that the process and the kernel speak with each other using *system calls*. \
 You can *trace* those *system calls* using `strace`.
 
 You've also seen how a file is opened, and read, by asking the kernel to do that for us, using *system calls*.

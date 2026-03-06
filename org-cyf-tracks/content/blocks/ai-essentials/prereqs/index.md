@@ -1,7 +1,6 @@
 +++
 title="Pre-requisites"
 time=10
-emoji="🧰"
 hide_from_overview=true
 objectives = [
   "List the minimum pre-requisites for this track."

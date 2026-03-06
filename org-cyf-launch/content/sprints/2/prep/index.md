@@ -1,8 +1,7 @@
 +++
-title = 'prep'
+title = 'Prep'
 description='Your product is deployed, but it has no features!'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-The-Launch'

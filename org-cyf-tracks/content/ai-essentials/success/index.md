@@ -1,8 +1,7 @@
 +++
-title = 'success'
+title = "End of Module Review"
 description = 'How do we know if we have completed this track?'
 layout = 'success'
-emoji= '✅'
 menu_level = ['module']
 menu=['success criteria']
 weight = 11

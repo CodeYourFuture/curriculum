@@ -2,7 +2,6 @@
 title = 'Module index'
 description = 'Prep, an ordered list of sprints, a product, and success view'
 layout = 'module'
-emoji= '📚'
 +++
 
 ```mermaid

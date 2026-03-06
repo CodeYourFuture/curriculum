@@ -1,6 +1,5 @@
 +++
 title = "Don't touch a trainee's keyboard"
-emoji = "⌨️"
 weight = 3
 +++
 

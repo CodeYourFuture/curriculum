@@ -1,6 +1,5 @@
 +++
 title="Experts AMA"
-emoji="🧑🏼‍🎓"
 time=45
 [build]
   render = 'never'

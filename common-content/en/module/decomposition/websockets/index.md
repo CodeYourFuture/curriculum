@@ -1,7 +1,6 @@
 +++
 title = "WebSockets"
 time = 120
-emoji= "🔌"
 objectives = [
     "Stream live updates from a server using WebSockets.",
     "Discuss the trade-offs of using WebSockets or polling.",

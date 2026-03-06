@@ -1,7 +1,6 @@
 +++
 title = "Type checking with mypy"
 time = 60
-emoji= "🔎"
 objectives = [
   "Run mypy to detect type errors in Python.",
   "Annotate function signatures with types in Python.",

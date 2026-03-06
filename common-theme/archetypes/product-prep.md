@@ -2,7 +2,6 @@
 title = 'prep'
 description = 'Wire in your repo docs, example given'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['product']
 weight = 1
 [[blocks]]

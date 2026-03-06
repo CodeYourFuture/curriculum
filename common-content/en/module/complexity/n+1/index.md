@@ -1,7 +1,6 @@
 +++
 title = "N+1 Query Problem"
 time = 60
-emoji = "🎟️"
 [build]
   render = 'never'
   list = 'local'

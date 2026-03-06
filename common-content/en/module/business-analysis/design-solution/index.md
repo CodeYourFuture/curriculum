@@ -2,7 +2,6 @@
 title = "Design a solution"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Design a solution for the case study"
 

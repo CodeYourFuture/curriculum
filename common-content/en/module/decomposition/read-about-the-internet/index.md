@@ -2,7 +2,6 @@
 title = "Read about the Internet"
 headless = true
 time = 60
-emoji= "📖"
 objectives = [
     "Define the terms 'host', 'client', and 'server'.",
     "Define the terms 'request' and 'response'.",

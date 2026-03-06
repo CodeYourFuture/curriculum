@@ -2,7 +2,6 @@
 title = 'Menus, menu_level'
 time = 2
 
-emoji= ''
 [build]
   render = 'never'
   list = 'local'

@@ -4,7 +4,7 @@ description="You now have clarity of what your MVP will be like. The next step i
 modules="The Launch"
 week="1"
 skills=["Teamwork","Problem Solving"]
-objectives=["Design a Minimum Viable Product"]
+tasks=["Design a Minimum Viable Product"]
 time=60
 [build]
   render = 'never'

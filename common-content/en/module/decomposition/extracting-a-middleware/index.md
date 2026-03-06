@@ -1,7 +1,6 @@
 +++
 title = "Extracting a middleware"
 time = 105
-emoji= "⛓️"
 objectives = [
     "Identify and explain the risks and costs of manually calling code (e.g. authentication validators/extractors) from multiple route handlers.",
     "Explain the middleware pattern.",

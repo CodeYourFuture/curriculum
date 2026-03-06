@@ -1,7 +1,6 @@
 +++
-title="🎯 Goals"
+title="Goals"
 time=2
-emoji="🎯"
 hide_from_overview=true
 objectives = [
   "List the core goals of the AI Essentials track."

@@ -1,7 +1,6 @@
 +++
 title ="Step 3: Extend Your Skills"
 description= "Make a spreadsheet to track your job applications. Use Google Sheets to evaluate the data in your spreadsheet."
-emoji= "💪🏾"
 time=5
 [build]
   render = 'never'

@@ -1,7 +1,6 @@
 +++
 title = 'Git and Github for poets'
 time = 15
-emoji= '📖 '
 [tasks]
 1='Bookmark GitHub training videos'
 [build]

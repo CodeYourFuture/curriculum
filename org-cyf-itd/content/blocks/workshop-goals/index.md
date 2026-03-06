@@ -1,7 +1,6 @@
 +++
 title = 'Goals'
 time = 5
-emoji= '🎯'
 objectives =['List the goals of the ITD programme']
 [build]
   render = 'never'

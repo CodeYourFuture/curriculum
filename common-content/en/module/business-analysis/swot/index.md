@@ -2,7 +2,6 @@
 title = "SWOT Analysis"
 
 time = 45
-emoji = "🤖"
 objectives = [
     "Gather and summarise information about a business's current business situation, for example with the help of SWOT analysis",
 ]

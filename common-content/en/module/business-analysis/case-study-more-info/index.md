@@ -2,7 +2,6 @@
 title = "Additional info for your study case"
 
 time = 15
-emoji = "🤖"
 objectives = [
     "Understand data related to the product"
 ]

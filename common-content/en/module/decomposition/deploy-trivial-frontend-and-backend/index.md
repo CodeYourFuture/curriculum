@@ -3,7 +3,6 @@ title = "Deploy a frontend and backend"
 headless = true
 time = 60
 facilitation = false
-emoji= "⬆️"
 objectives = [
   "Deploy a frontend and backend",
   "Configure a frontend to talk to a specific deployed backend",

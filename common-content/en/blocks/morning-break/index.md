@@ -1,6 +1,5 @@
 +++
 title="Morning Break"
-emoji="🫖"
 time=15
 hide_from_overview=true
 [build]
@@ -10,4 +9,4 @@ hide_from_overview=true
 
 +++
 
-A quick break of fifteen minutes so we can all concentrate on the next piece of work.
+A quick break so we can all concentrate on the next piece of work.

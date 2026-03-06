@@ -1,8 +1,7 @@
 +++
 title = 'Five'
-description="Build a personal home page with CodePen"
+description="Deploying a webpage on GitHub Pages"
 layout = 'prep'
-emoji= '🏠'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 6

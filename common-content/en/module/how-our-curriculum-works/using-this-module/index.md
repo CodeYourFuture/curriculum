@@ -2,7 +2,6 @@
 title = 'Using this module'
 time = 20
 vocabulary=["Blockers"]
-emoji= '🛣️'
 [objectives]
 1='Explain how to use the rest of this module'
 [build]

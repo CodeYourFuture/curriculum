@@ -1,8 +1,7 @@
 +++
-title = 'day-plan'
+title = 'Day Plan'
 description='Your CI/CD codebase is ready for features'
 layout = 'day-plan'
-emoji= '🧑🏽‍🤝‍🧑🏽'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
@@ -20,6 +19,10 @@ src="blocks/retrospective"
 [[blocks]]
 name="Sprint Planning"
 src="blocks/sprint-planning/"
+[[blocks]]
+name="Development Time"
+src="blocks/development-time"
+time=25
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"

@@ -1,0 +1,6 @@
+{{- $title := or .Attributes.title .Attributes.filename -}}
+
+{{- if $title -}}
+<div class="code-block-filename">{{ $title }}</div>
+{{- end -}}
+{{ (transform.HighlightCodeBlock .).Wrapped }}

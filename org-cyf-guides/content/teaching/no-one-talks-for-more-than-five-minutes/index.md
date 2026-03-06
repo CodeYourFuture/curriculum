@@ -1,6 +1,5 @@
 +++
 title = "No one talks for more than five minutes"
-emoji = "⏰"
 weight = 4
 +++
 

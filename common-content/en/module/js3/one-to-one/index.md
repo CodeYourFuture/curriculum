@@ -2,7 +2,6 @@
 title = 'One-to-one mappings'
 
 time = 15
-emoji= '👭🏾'
 hide_from_overview = true
 [objectives]
     1='Describe how to render a list of data'

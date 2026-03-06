@@ -1,7 +1,6 @@
 +++
 title ="Step 4: Extend Your Skills"
 description= "Build your first portfolio website"
-emoji= "💪🏾"
 time=0
 [build]
   render = 'never'

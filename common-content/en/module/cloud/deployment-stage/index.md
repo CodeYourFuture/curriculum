@@ -2,7 +2,6 @@
 title = 'Adding Deployment Stages'
 
 time = 5
-emoji= '🚀'
 [objectives]
     1='Integrate deployment scripts into the GitHub Actions workflow'
 [build]

@@ -1,9 +1,8 @@
 +++
-title = 'prep'
-description = 'Overview description of the prep work for the sprint'
-layout = 'prep'
-emoji= '🧑🏾‍💻'
-menu_level = ['sprint']
+title = "Prep"
+description = "Overview description of the prep work for the sprint"
+layout = "prep"
+menu_level = ["sprint"]
 weight = 1
 [[blocks]]
 name = "Websockets"

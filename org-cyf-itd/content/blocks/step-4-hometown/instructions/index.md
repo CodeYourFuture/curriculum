@@ -1,7 +1,6 @@
 +++
 title ="Step 4: What to do"
 description= "Complete the final project in Scrimba: Solo Project: Hometown Homepage"
-emoji= "🤖"
 time= 240
 [build]
   render = 'never'

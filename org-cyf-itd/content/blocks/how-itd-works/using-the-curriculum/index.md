@@ -1,6 +1,5 @@
 +++
 title="Using the ITD Curriculum"
-emoji="📚"
 author="Tony Beaumont"
 time=5
 +++

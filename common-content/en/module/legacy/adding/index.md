@@ -1,7 +1,6 @@
 +++
 title = "Extending: Adding Features the Right Way"
 time = 90
-emoji= "🌱"
 [build]
   render = 'never'
   list = 'local'

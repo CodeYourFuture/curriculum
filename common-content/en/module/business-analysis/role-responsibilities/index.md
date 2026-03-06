@@ -2,7 +2,6 @@
 title = "BA Responsibilities"
 
 time = 30
-emoji = "🤖"
 objectives = [
     "Describe the key responsibilities of a Business Analyst",
     "Explain when a Business Analyst would be involved in a project."

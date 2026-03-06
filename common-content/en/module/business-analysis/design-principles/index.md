@@ -2,7 +2,6 @@
 title = "Design princples"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Explain the princples of a good design "
 ]

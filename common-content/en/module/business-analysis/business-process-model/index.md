@@ -2,7 +2,6 @@
 title = "Business process model"
 
 time = 90
-emoji = "🤖"
 objectives = [
     "Represent the business’s internal processes as business process models using an appropriate notation (eg, UML activity diagrams or BPMN)"
 ]

@@ -1,8 +1,7 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
 description='Launching your Agile team'
-emoji= '🧑🏾‍💻'
 menu_level = ['sprint']
 weight = 1
 backlog= 'Module-The-Launch'

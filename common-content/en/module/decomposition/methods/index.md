@@ -1,7 +1,6 @@
 +++
 title = "Methods"
 time = 30
-emoji= "📝"
 objectives = [
   "Define a method.",
   "Define a free function.",

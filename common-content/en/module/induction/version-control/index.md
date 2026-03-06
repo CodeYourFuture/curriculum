@@ -2,7 +2,6 @@
 title = 'Version control software'
 
 time="10"
-emoji= '⌛'
 [objectives]
 1='Define a repository'
 2='Define a commit'

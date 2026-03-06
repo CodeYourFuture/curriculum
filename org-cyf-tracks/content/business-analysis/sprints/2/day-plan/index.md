@@ -2,7 +2,6 @@
 title = "Day-plan"
 description = "Investigating the business domains"
 layout = "day-plan"
-emoji = "📅"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]

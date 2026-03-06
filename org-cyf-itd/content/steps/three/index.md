@@ -1,8 +1,7 @@
 +++
 title = 'Three'
-description = 'Evaluate data with Google Sheets'
+description = 'Working with Google Sheets'
 layout = 'prep'
-emoji= '📊'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 4

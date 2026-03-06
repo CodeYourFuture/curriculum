@@ -1,6 +1,5 @@
 +++
 title="Morning orientation"
-emoji='🎡'
 time=10
 [objectives]
     1="Locate the morning orientation activity in a day plan"

@@ -1,7 +1,6 @@
 +++
 title="Trainer Led Workshop"
 time=0
-emoji="🧑🏿‍🏫"
 hide_from_overview=true
 tasks = [
   "Google AI Essentials workshops with Centre for Public Impact",

@@ -2,7 +2,6 @@
 title = "Communicating effectively"
 
 time = 30
-emoji = "🤖"
 objectives = [
     "Formulate and ask effective, open-ended questions during stakeholder interviews to uncover business needs and pain points."
 ]

@@ -1,7 +1,6 @@
 +++
 title = 'Setup Docker'
 time = 45
-emoji= '🚢'
 [objectives]
     1='Install Docker'
 [build]

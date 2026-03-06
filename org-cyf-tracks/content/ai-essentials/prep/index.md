@@ -2,7 +2,6 @@
 title = 'Prep'
 description = 'Check your eligibility and apply for the AI Essentials Track'
 layout = 'prep'
-emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry for ai track']
 weight = 1

@@ -2,7 +2,6 @@
 title = 'Success'
 description="Composes learning objectives into checklists"
 layout = 'success'
-emoji= '✅'
 menu_level = ['sprint']
 weight = 4
 +++

@@ -2,7 +2,6 @@
 title = 'Grouping data'
 
 time = 15
-emoji= '💾'
 [objectives]
     1='Explain why using multiple variable declarations for related data is problematic'
 [build]
@@ -33,6 +32,6 @@ Each identifier is the word `price` with a numerical suffix to indicate its posi
 
 - If the number of items in the bill is huge, we must keep declaring new variables.
 - If the number of items changes, we must reassign the values of variables so they're in the correct order, and change any place we're using the variables to know about the new one.
-- If we do mutliple things to all of the values (say we have one loop adding them, and one loop printing them), we will need to change all of the places any time we add new values.
+- If we do multiple things to all of the values (say we have one loop adding them, and one loop printing them), we will need to change all of the places any time we add new values.
 
 Instead we have to group the data together using a {{<tooltip title="data structure">}}A **data structure** is a collection of data. It may have functions that can be applied to access or manipulate the data.{{</tooltip>}}

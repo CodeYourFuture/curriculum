@@ -2,7 +2,6 @@
 title = 'One'
 description = 'Using Slack and search engines'
 layout = 'prep'
-emoji= '🧑‍🤝‍🧑'
 menu_level = ['module']
 menu=[ 'steps']
 weight = 2

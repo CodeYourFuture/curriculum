@@ -5,7 +5,7 @@ layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
 menu=['entry']
-weight = 1
+weight = 2
 [[blocks]]
 name="Application"
 src="module/piscine/application"
@@ -27,4 +27,10 @@ src="module/piscine/group-work"
 [[blocks]]
 name="Preparation"
 src="module/piscine/preparation"
+[[blocks]]
+name="Project Submission"
+src="module/piscine/project-submission"
+[[blocks]]
+name="Pre-Piscine Briefing"
+src="module/piscine/pre-piscine-briefing"
 +++
