@@ -1,6 +1,6 @@
 +++
 title = "Jobs after ITP"
-weight = 2
+weight = 4
 description = "These are course materials targeting specific jobs."
 [[details]]
 name = "When"
