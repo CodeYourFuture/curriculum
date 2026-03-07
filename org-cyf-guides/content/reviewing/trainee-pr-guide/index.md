@@ -41,6 +41,7 @@ To keep your exercise branch clean:
 
 3. **Make only related changes**.
     - Add or modify only the files in the folder related to the exercise.
+    - If you accidentally change files for another task, you will need to [revert](https://stackoverflow.com/a/37972822) them before submitting your PR for review
 
 ### Keeping code clean
 
@@ -165,9 +166,19 @@ Reviewers will not check your PR unless it has the right label.
   Guide.
 
 ### Check for automated feedback
+Learning how to respond to automated checks is important, because these kinds of tools are often used in software development work.
+
+At the bottom of the GitHub page there is a summary of automated checks.
+We don't use all of these at CYF, but you should be aware of them as they are useful in software development.
+
+![Checks summary at the bottom of a GitHub pull request](failing-tests.png)
+
+1. **Review Required** This first failed test means no-one has reviewed your PR yet. This is normal when you first submit your PR as no-one has seen it yet. We use labels at CYF to indicate when something is **`complete`** or **`reviewed`**, so you can ignore this for now.
+2. **All checks have failed** This second failed test is the automated testing done by a bot. This needs to be fixed before a volunteer can give you a review. Some tasks might have more than one automated check. Continue reading below to learn how to respond to the bot comments.
+3. **Merging is blocked** This third test means you can't merge your PR. We don't use merging in our sprint backlog, just making PRs, so you can ignore this third test for now. Can you imagine the problem if we merged every single trainee's files at once?
 
 Here at CYF we use bots to do some automated checks on your pull request.
-If you ever get a reply from a bot, that means something needs to be fixed on your pull request.
+If a bot sees a problem, it will leave a reply, telling you something needs to be fixed on your pull request.
 This could mean something is missing from your submission, a problem in the title or description, or an issue with your submitted files.
 
 If you see a comment in your PR from the user called **`github-actions`**, here's what to do:
@@ -178,7 +189,9 @@ If you see a comment in your PR from the user called **`github-actions`**, here'
 - If you still don't understand what needs fixing, ask for help on slack
 - Once you have resolved the issue, add the **`Needs review`** label again to your PR
 
-Learning how to respond to automated checks is important, because these kinds of tools are often used in software development work.
+You might also see comments from **`netlify`**, these are used in tasks where you need to deploy a website.
+Read these comments carefully to see any issues with deployment or accessibility.
+
 
 ### Wait for Review
   - It may take up to a week (sometimes longer) before someone starts reviewing your PR.
@@ -211,7 +224,7 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
     - Example: _"Could you explain what you mean by simplifying this function?"_
     
 After you have taken action and replied to your feedback, you should add the **`Needs review`** label again, so the reviewer knows you are ready for your submission to be checked again.
-
+When you make changes, make them in the same branch and don't create a new pull request each time.
 
 {{<note type="tip" title="Writing on GitHub">}}
 
