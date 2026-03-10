@@ -28,7 +28,7 @@ A **trainee** that wants to do pair programming should:
 * If you do lots of pair programming, try to book with different mentors to get more diverse help
 
 A **mentor** that wants to do pair programming should:
-* Create a bookable calendar for 30 minute appointments, something like google calendar or calendly works well
+* Create a bookable calendar for 30 minute appointments, something like [Google Calendar](https://support.google.com/calendar/answer/10729749?hl=en) or [Calendly](https://calendly.com/integration#calendars) works well
 * Share your calendar in the `#cyf-pair-programming` slack channel and canvas page (link at the top of the channel)
 * For your first pair programming, ask another mentor to shadow you on your first call to get feedback on your approach
 
@@ -48,8 +48,7 @@ Each session should last around 30 minutes.
 The **mentor** should:
 * **Ask questions** to get the trainee thinking. It's always better to _ask_ than tell.
 * Help the trainee think about breaking down the problem
-* Support the trainee as they write code
-* Help the trainee to debug their code
+* Support the trainee if they encounter hurdles
 * Stretch the trainee by bringing up edge cases or complications
 
 ## Tips for learners
