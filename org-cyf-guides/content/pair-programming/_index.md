@@ -5,7 +5,7 @@ description = 'Practice writing code and getting support'
 
 Pair programming is working together with someone else to code a solution to a problem.
 
-There are 2 main types of pair programming: Mentored and Driver/Navigator. At CYF we use **Mentored Pair Programming**.
+There are 2 main types of pair programming: Mentored and Driver/Navigator. At CYF we use **Mentored Pair Programming** with volunteers, and you can do **Driver/Navigator** style when working with other trainees.
 
 ## Why
 Pair programming is an excellent way to develop programming and communication skills.
@@ -20,7 +20,7 @@ You can do pair programming in person sharing one computer.
 You can also do it remotely:
 * By sharing your screen using a slack huddle
 * Scheduling a google meet, or similar online meeting
-* Using a VS Code extension like [CodeTogether](https://marketplace.visualstudio.com/items?itemName=genuitecllc.codetogether).
+* Using a VS Code extension like [CodeTogether](https://marketplace.visualstudio.com/items?itemName=genuitecllc.codetogether) or [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
 
 A **trainee** that wants to do pair programming should:
 * Visit the `#cyf-pair-programming` slack channel
@@ -72,12 +72,17 @@ If you jump in to writing code without explaining your thinking, it will be more
 ## Driver/Navigator Pair Programming
 Driver/Navigator is a different model of pair programming.
 This is the style you would encounter in a workplace.
-As a CYF trainee you might find it useful when working in pairs on a project.
+As a CYF trainee you might find it useful when working in pairs on a project, or trying to get past a blocker.
+There is no single mentor offering support, instead you work together to solve a task.
 
-It differs from the mentored style because both developers in the pair take turns coding. One acts as the **driver** - actually using the keyboard. The other acts as the **navigator** - providing directions and support. There is no single mentor offering support.
+It differs from the mentored style because both developers in the pair take turns coding:
+* One acts as the **driver** - using the keyboard to write code, following the navigator's suggestions.
+* One acts as the **navigator** - providing a high level plan of what to implement, and reviewing what is typed.
+* You swap every 10 minutes.
 
 You can do driver/navigator pair programming regardless of the levels of the pairs. Lots of people do this at work as software engineers. This is not just a learning tool, it is used to make professional code.
 
 You may find these links helpful if you want to learn more about the Driver/Navigator style:
 * [Tips for trainees pair programming together](https://www.csteachingtips.org/tips-pair-programming)
 * [Guidance on pair programming for learning](https://teachtogether.tech/en/#s:classroom-pair)
+* [More tips for pair programming](https://dev.to/documatic/pair-programming-best-practices-and-tools-154j)
