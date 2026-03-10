@@ -22,9 +22,15 @@ You can also do it remotely:
 * Scheduling a google meet, or similar online meeting
 * Using a VS Code extension like [CodeTogether](https://marketplace.visualstudio.com/items?itemName=genuitecllc.codetogether).
 
-A **trainee** that wants to do pair programming should visit the `#cyf-pair-programming` slack channel and book a time using a mentor's calendar.
+A **trainee** that wants to do pair programming should:
+* Visit the `#cyf-pair-programming` slack channel
+* Book a time using a mentor's calendar
+* If you do lots of pair programming, try to book with different mentors to get more diverse help
 
-A **mentor** that wants to start offering pair programming should share a bookable calendar (something like google calendar or calendly works well) in the `#cyf-pair-programming` slack channel, and ask another mentor to shadow them on their first call.
+A **mentor** that wants to do pair programming should:
+* Create a bookable calendar, something like google calendar or calendly works well
+* Share your calendar in the `#cyf-pair-programming` slack channel and canvas page (link at the top of the channel)
+* For your first pair programming, ask another mentor to shadow you on your first call to get feedback on your approach
 
 ## Mentored Pair Programming
 We assign **mentored pair programming** as a coursework assignment throughout the course.
