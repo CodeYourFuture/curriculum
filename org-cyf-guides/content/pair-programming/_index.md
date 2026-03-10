@@ -28,12 +28,13 @@ A **trainee** that wants to do pair programming should:
 * If you do lots of pair programming, try to book with different mentors to get more diverse help
 
 A **mentor** that wants to do pair programming should:
-* Create a bookable calendar, something like google calendar or calendly works well
+* Create a bookable calendar for 30 minute appointments, something like google calendar or calendly works well
 * Share your calendar in the `#cyf-pair-programming` slack channel and canvas page (link at the top of the channel)
 * For your first pair programming, ask another mentor to shadow you on your first call to get feedback on your approach
 
 ## Mentored Pair Programming
 We assign **mentored pair programming** as a coursework assignment throughout the course.
+Each session should last around 30 minutes.
 
 **Before** a mentored pair programming session, learners should decide what they're going to pair on and share this with the volunteer, e.g. by sharing a link to a particular Codewars exercise, a particular piece of coursework, or some other problem.
 
@@ -79,6 +80,7 @@ It differs from the mentored style because both developers in the pair take turn
 * One acts as the **driver** - using the keyboard to write code, following the navigator's suggestions.
 * One acts as the **navigator** - providing a high level plan of what to implement, and reviewing what is typed.
 * You swap every 10 minutes.
+* After you have both had a go, take a 5 minute break.
 
 You can do driver/navigator pair programming regardless of the levels of the pairs. Lots of people do this at work as software engineers. This is not just a learning tool, it is used to make professional code.
 
