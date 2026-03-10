@@ -5,7 +5,7 @@ description = 'Practice writing code and getting support'
 
 Pair programming is working together with someone else to code a solution to a problem.
 
-There are 2 main types of pair programming: Mentored and Driver/Navigator. At CYF we use **Mentored Pair Programming** with volunteers, and you can do **Driver/Navigator** style when working with other trainees.
+There are 2 main types of pair programming: Mentored and Driver/Navigator. At CYF you will use **Mentored Pair Programming** with volunteers, and you can do **Driver/Navigator** style when working with other trainees.
 
 ## Why
 Pair programming is an excellent way to develop programming and communication skills.

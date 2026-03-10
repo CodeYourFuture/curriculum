@@ -43,7 +43,7 @@ Not all technical interviews are the same, but they tend to have similar element
 * You're expected to ask some questions about the problem (they may not tell you this, but it is _always_ expected!)
 * You solve the problem.
   * Maybe this will be pair programming where you're at a keyboard together, maybe you'll be given a laptop or editor like CodeWars to write in online, maybe you'll be given a whiteboard to write on with a pen, or maybe you'll just talk.
-  * Check you understand the expectations for these - will you use the driver/navigator style of pair programming? will you have a time limit?
+  * Check you understand the expectations for these - Will you use the driver/navigator style of pair programming? Will you have a time limit?
   * You are allowed to ask questions, and even if you're writing, you should always talk about what you're writing.
 * The interviewer will ask you some questions about your solution.
 * The interviewer may change the problem a bit, and ask you to solve it (again, either by writing it down, or just by talking about it).
