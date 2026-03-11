@@ -34,7 +34,7 @@ A **mentor** that wants to do pair programming should:
 
 ## Mentored Pair Programming
 We assign **mentored pair programming** as a coursework assignment throughout the course.
-Each session should last around 30 minutes.
+Each session should last between 30-60 minutes.
 
 **Before** a mentored pair programming session, learners should decide what they're going to pair on and share this with the volunteer, e.g. by sharing a link to a particular Codewars exercise, a particular piece of coursework, or some other problem.
 
@@ -57,7 +57,7 @@ When approaching a problem, you need to **explain your thought process**, **plan
 If you jump in to writing code without explaining your thinking, it will be more difficult for the mentor to offer you help.
 
 ## Tips for mentors
-**The goal is teaching**: Rather than driver/navigator programming you may use in your work, where the goal is to produce code for a project, the goal of mentored pair programming is to teach a trainee how to become self sufficient when faced with a programming challenge.
+**The goal is teaching**: Rather than driver/navigator programming you may use in your work, where the goal is to produce code for a project, the goal of mentored pair programming is to teach a trainee how to become self sufficient when faced with a programming challenge. The **ultimate goal** of mentored pair programming is to get the trainee in a position where the next time they encounter a similar problem, they will be able to solve it better than they did this time.
 
 **Help people learn**: Most of the exercises the trainees are doing aren't useful in their own right. The point is for the trainee to learn and grow through them. Focus on understanding, and techniques that will help solve the next problem.
 
