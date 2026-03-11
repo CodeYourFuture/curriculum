@@ -223,6 +223,11 @@ Responding to PR feedback is like a conversation: **listen**, **reply thoughtful
     - If you don't understand a suggestion, ask for clarification.
     - Example: _"Could you explain what you mean by simplifying this function?"_
     
+5. **Respond Promptly**
+    - Our volunteers have a lot of PRs to keep on top of, so the quicker you respond, the sooner you will be finished with tasks
+    - But don't rush through, take the time to make sure your response meets what was being asked
+    - Try to respond within 2 days of a review, if something is blocking you, ask for help in slack
+
 After you have taken action and replied to your feedback, you should add the **`Needs review`** label again, so the reviewer knows you are ready for your submission to be checked again.
 When you make changes, make them in the same branch and don't create a new pull request each time.
 
