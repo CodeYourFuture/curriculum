@@ -15,6 +15,7 @@ import {Auth, google} from "googleapis";
 // Name | Email | Timestamp | Course | Module | Day | Location | Build Time
 // Each spreadsheet must also give write access to the email listed below in CREDENTIALS.
 const COURSE_TO_SPREADSHEET_ID = {
+  "itd": "1TqDGRneZdh-8D61ZIW3kT8UCXL5U3FqNK8ZcV09j6vI",
   "itp": "1YHKPCCN55PJD-o1jg4wbVKI3kbhB-ULiwB5hhG17DcA",
   "piscine": "1XabWuYqvOUiY7HpUra0Vdic4pSxmXmNRZHMR72I1bjk",
   "sdc": "1dPY9Troijh3ZZkXbYkMMS3F5TkG4TKdRzd0Z3d45_gI",
