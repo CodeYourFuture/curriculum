@@ -18,6 +18,58 @@ Attendees:
 ---
 ---
 
+## 2026-03-10
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Léon McGregor
+
+### ❗Actions from last time
+
+- [x] Colin + CJ:  (Carry Over) Clarify the Wireframe exercise expectations - gather what different reviewers are looking for, and clarify.
+- [ ] (After this ITP finishes):  (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [x] Anna: (Carry Over) Start trying to collect all of the other repos we pull in, and make pros/cons for each being separate.
+- [x] Daniel: (Carry Over) Simplify PR template - yes! The original goals of the template aren't relevant any more.
+- [ ] Daniel: (Carry Over) Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+- [ ] Colin: Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: Split up the SDC legacy code module
+- [ ] CJ: Recording a "How to orient yourself to a PR video"
+
+### 📝 Agenda points
+
+#### Wireframing exercise
+
+CJ has [raised an issue](https://github.com/CodeYourFuture/Module-Onboarding/issues/1209#event-23443057767) highlighting the main problems and suggesting some solutions.
+
+#### Repos pulled into curriculum
+
+Anna has put together [a list](https://docs.google.com/document/d/1lNlPgClo1gkW_j6kW4pf6HUivCiRkqa6XrR5tVcHF7A/edit?tab=t.0#heading=h.ota8fjvciqfg). 
+
+There is a lot of inconsistency in how they are handled. Some have lots of text pulled through, some not much. In particular the workshops repo has a lot of unused content. 
+
+Recommend adding a note to imported files indicating where they have come from to avoid accidentally breaking something. There is one external repo being imported into the React track - suggest forking this and referencing the fork.
+
+#### Demos on Saturdays
+
+Following on from previous discussions on Saturday study sessions, the Edu team have been talking about running some demos on Saturdays for trainees who can't attend regular Tues/Fri sessions. Poonam is working on some ideas, nothing concrete yet.
+
+#### Guidelines for code reviewers
+
+Reviewers have mentioned in their weekly meetings that they would like some more guidance on what they should be looking for when reviewing PRs. 
+
+Each repo already has a `solutions` branch but not all reviewers are aware of this. 
+
+Suggestions to collate reviewers thoughts on exercises and identify common themes. Could do this either using a slack canvas or Google doc. Guidance can then be shared in wiki format.
+ 
+### ❗Actions
+
+- [ ] (After this ITP finishes):  (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Daniel: (Carry Over) Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] Anna: Look into updating imported content with reference to where it is imported to
+
+---
+
 ## 2026-02-24
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Karen Klein
