@@ -16,12 +16,12 @@ Then before you apply ideally you will have the follow things ready. It is not m
 ### [CVs](./cvs) 
 ### [GitHub](./github)
 ### [LinkedIn](./linkedin-profile)
-### [Porfolio Site](./portfolio)
+### [Portfolio Site](./portfolio)
 
 Once you have prepared the resources and know what sort of jobs you want to apply for, it's time to really start your search
 
 ### [Job Search](./job-search)
-### High Level Application Process (coming soon)
+### [High Level Application Process](./high-level-process)
 ### [Cover Letters](./cover-letters)
 ### [Networking](./networking)
 ### [Interview](./interview)
@@ -29,6 +29,6 @@ Once you have prepared the resources and know what sort of jobs you want to appl
 Once you have passed the interview process, you should read the
 
 ### Employment Contracts And Offers (coming soon)
-### References And Security Checks (coming soon)
-### First 90 days In A Job (coming soon)
+### [References And Security Checks](./security-checks)
+### [First 90 days In A Job](./90-days)
 ### [Lifelong Learning](./learning)
