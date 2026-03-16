@@ -28,13 +28,23 @@ We should **never** include spurious reformatting changes in the same commit as 
 
 ### Clean PRs
 
-We should (almost!) always work from a clean copy of main.  When you move from one task to the next, do not keep the changes from the previous task.  Often in the real world your last PR will be merged to main before you branch for the new task, so you will have the changes included in the second task's PR, but they are not part of the branch, they are there as part of main.  When doing these exercises (or in real world scenarios where your previous branch hasn't been merged) it is important to start from a clean checkout of main.  You can do this before you start on the second task by using
+We should (almost!) always work from a clean copy of main.  When you move from one task to the next, do not keep the changes from the previous task.  Often in the real world your last PR will be merged to main before you branch for the new task, so you will have the changes included in the second task's PR, but they are not part of the branch, they are there as part of main.  When doing these exercises (or in real world scenarios where your previous branch hasn't been merged) it is important to start from a clean checkout of main.
+
+Ideally you'll think about this immediately after you submit the previous PR and before you make any changes.  In which case the clean route is
+
+```plain
+git switch -c new-branch main
+```
+
+which will remove your committed branch and create a new one based on main.
+
+If you've got random uncommitted changes in your local folder, they will not be removed by the above command.  So before you do that command you can clean things up:
 
 ```plain
 git reset --hard origin/main
 ```
 
-If you realise (as often happens) too late, and you have your task2 changes as well as task1 changes, then if they are in different folders you can reset the task1 folder.  Check the git history for the lsat commit to main and note the commit hash.  Then do
+If you realise (as often happens) too late, and are trying to clean up after you've created your new branch and you have your task2 changes as well as task1 changes, then if they are in different folders you can reset the task1 folder.  Check the git history for the last commit to main and note the commit hash.  Then do
 
 ```plain
 git restore --source=COMMIT_HASH --worktree task1folder
