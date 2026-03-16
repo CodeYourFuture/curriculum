@@ -11,6 +11,8 @@
     {{ end }}
     {{ if .Params.menus_to_map }}
       {{ partial "map-menu.html" .Params.menus_to_map }}
+    {{ else if .Params.menus_to_map_for_courses }}
+      {{ partial "map-menu-for-courses.html" .Params.menus_to_map_for_courses }}
     {{ else if .Params.map }}
       {{ partial "map.html" . }}
     {{ else if .Params.taxonomy_to_map }}
