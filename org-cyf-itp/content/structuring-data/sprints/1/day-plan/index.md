@@ -19,7 +19,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Another Asking Questions Workshop"
-src="https://cyf-pd.netlify.app/blocks/asking-good-technical-questions"
+src="blocks/asking-good-technical-questions"
 time=70
 [[blocks]]
 name="lunch"
