@@ -1,13 +1,17 @@
-{{/* Expects a slice[dict] param containing an ordered list of dicts with the following keys, one per section in the map to render:
-  * title (string) - The heading to display for the section.
-  * values (slice[Page]) - A slice of Pages, one per page in the section which should be listed.
-  * metadata (slice[dict[string, string]]) - Ordered key-value pairs of extra metadata to display about the section. Each dict should contain a key named "name" and a key named "value".
+{{/* Expects a dict param containing:
+  * animation (bool) - Whether to animate description cards
+  * sections (slice[dict]) - an ordered list of dicts with the following keys, one per section in the map to render:
+    * title (string) - The heading to display for the section.
+    * values (slice[Page]) - A slice of Pages, one per page in the section which should be listed.
+    * metadata (slice[dict[string, string]]) - Ordered key-value pairs of extra metadata to display about the section. Each dict should contain a key named "name" and a key named "value".
 */}}
 
+{{ $sections := index . "sections" }}
+{{ $animation := index . "animation" }}
 
 <div class="c-map">
   <h1 class="e-heading c-map__start is-none--lt-container">👉🏾</h1>
-  {{ range $i, $section := index . "sections" }}
+  {{ range $i, $section := $sections }}
     {{ $sectionTitle := index $section "title" }}
     {{ $sectionTermPageLink := index $section "termPageLink" }}
     {{ $sectionValues := index $section "values" }}
@@ -40,7 +44,7 @@
             <li
               class="c-map__stop"
               style="--layer:{{ sub (len $sectionValues) (add $iterator 1) }}">
-              {{ partial "card.html" $module }}
+              {{ partial "card.html" (dict "module" $module "animation" $animation) }}
             </li>
           {{ end }}
         {{ else }}
