@@ -3,7 +3,7 @@ title = 'Prep'
 description = 'Check your eligibility and apply for the ERP: SAP FI/CO Track'
 layout = 'prep'
 menu_level = ['module']
-menu=['entry']
+menu=[]
 weight = 1
 [[blocks]]
 name="Pre-requisites"
