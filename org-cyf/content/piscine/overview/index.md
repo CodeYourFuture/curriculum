@@ -8,9 +8,9 @@ weight = 1
 
 The Piscine is an assessment. The goal is not to learn new things (though people will!), but to test understanding gained so far.
 
-The Piscine is intended to be completed after the [Intro to Programming](https://programming.codeyourfuture.io/overview/) and tests the knowledge gained in that course.
+The Piscine is intended to be completed after the [Intro to Programming](https://curriculum.codeyourfuture.io/itp/overview/) and tests the knowledge gained in that course.
 
-The Piscine acts as an entry test to join the [Software Development Course](https://sdc.codeyourfuture.io/overview/).
+The Piscine acts as an entry test to join the [Software Development Course](https://curriculum.codeyourfuture.io/sdc/overview/).
 
 Each week, trainees:
 * Build an assessed project to a strict spec, either in a group or individually (they will do both).

@@ -1,6 +1,6 @@
 # Code Your Future Curriculum ITP MODULE
 
-https://programming.codeyourfuture.io/
+https://curriculum.codeyourfuture.io/itp/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 

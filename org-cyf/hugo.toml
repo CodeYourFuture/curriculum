@@ -31,27 +31,27 @@ weight = 1
 
 [[menus.syllabus]]
 name = "Intro to Programming"
-url = "https://programming.codeyourfuture.io/"
+url = "https://curriculum.codeyourfuture.io/itp/"
 weight = 2
 
 [[menus.syllabus]]
 name = "The Piscine"
-url = "https://piscine.codeyourfuture.io/"
+url = "https://curriculum.codeyourfuture.io/piscine/"
 weight = 3
 
 [[menus.syllabus]]
 name = "Software Development"
-url = "https://sdc.codeyourfuture.io/"
+url = "https://curriculum.codeyourfuture.io/sdc/"
 weight = 4
 
 [[menus.syllabus]]
 name = "The Launch"
-url = "https://launch.codeyourfuture.io/"
+url = "https://curriculum.codeyourfuture.io/launch/"
 weight = 5
 
 [[menus.syllabus]]
 name = "Tracks"
-url = "https://tracks.codeyourfuture.io/"
+url = "https://curriculum.codeyourfuture.io/tracks/"
 weight = 6
 
 [[menus.syllabus]]

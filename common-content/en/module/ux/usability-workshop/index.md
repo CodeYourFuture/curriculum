@@ -15,7 +15,7 @@ objectives = [
 
 The goal of this workshop is to help trainees understand the usability principles that enable them to create functional and user-friendly digital products.
 
-Trainees should have done [the prep](https://programming.codeyourfuture.io/data-flows/sprints/1/prep/#usability-workshop-prep) before this workshop.
+Trainees should have done [the prep](https://curriculum.codeyourfuture.io/itp/data-flows/sprints/1/prep/#usability-workshop-prep) before this workshop.
 
 This workshop is expected to accompany [the associated slides in Figma](https://www.figma.com/slides/UaetXlZZwG3VGYpdxd84Zm/CYF-Usability?node-id=1-177&t=jWgI37RMiLG5Z1pj-1) (passcode: `cyf2025`) - make sure to present them and work through them.
 

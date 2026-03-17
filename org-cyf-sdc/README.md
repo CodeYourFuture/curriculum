@@ -1,6 +1,6 @@
 # Code Your Future Curriculum SDC MODULE
 
-https://sdc.codeyourfuture.io/
+https://curriculum.codeyourfuture.io/sdc/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 

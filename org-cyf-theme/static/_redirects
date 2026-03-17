@@ -20,23 +20,23 @@
 
 # roughly map to ITP
 
-/html-css/ https://programming.codeyourfuture.io/ 301
-/js1/ https://programming.codeyourfuture.io/ 301
-/js2/ https://programming.codeyourfuture.io/ 301
-/js3/ https://programming.codeyourfuture.io/ 301
+/html-css/ https://curriculum.codeyourfuture.io/itp/ 301
+/js1/ https://curriculum.codeyourfuture.io/itp/ 301
+/js2/ https://curriculum.codeyourfuture.io/itp/ 301
+/js3/ https://curriculum.codeyourfuture.io/itp/ 301
 
 # roughly map to SDC tracks - might repurpose some as tracks
 
-/react/ https://tracks.codeyourfuture.io/ 302
-/servers/ https://tracks.codeyourfuture.io/ 302
-/node/ https://tracks.codeyourfuture.io/ 302
-/databases/ https://tracks.codeyourfuture.io/ 302
-/cloud/ https://tracks.codeyourfuture.io/ 302
+/react/ https://curriculum.codeyourfuture.io/tracks/ 302
+/servers/ https://curriculum.codeyourfuture.io/tracks/ 302
+/node/ https://curriculum.codeyourfuture.io/tracks/ 302
+/databases/ https://curriculum.codeyourfuture.io/tracks/ 302
+/cloud/ https://curriculum.codeyourfuture.io/tracks/ 302
 
 # the launch is 1:1
 
-/the-launch/ https://launch.codeyourfuture.io/ 301
+/the-launch/ https://curriculum.codeyourfuture.io/launch/ 301
 
 # portfolio is a track I guess
 
-/portfolio/ https://tracks.codeyourfuture.io/ 302
+/portfolio/ https://curriculum.codeyourfuture.io/tracks/ 302

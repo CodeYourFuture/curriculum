@@ -1,6 +1,6 @@
 # Code Your Future Curriculum Tracks MODULE
 
-https://tracks.codeyourfuture.io/
+https://curriculum.codeyourfuture.io/tracks/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 

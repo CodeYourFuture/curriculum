@@ -197,8 +197,8 @@ Read these comments carefully to see any issues with deployment or accessibility
   - It may take up to a week (sometimes longer) before someone starts reviewing your PR.
   - Your PR will appear on one of the PRs Needing Review pages -- please do not post messages like 
     "Please review my PR ..." on Slack.
-    - [ITP PRs needing review](https://programming.codeyourfuture.io/prs-needing-review/)
-    - [SDC PRs needing review](https://sdc.codeyourfuture.io/prs-needing-review/)
+    - [ITP PRs needing review](https://curriculum.codeyourfuture.io/itp/prs-needing-review/)
+    - [SDC PRs needing review](https://curriculum.codeyourfuture.io/sdc/prs-needing-review/)
 
 ## Addressing Reviewer Feedback
 

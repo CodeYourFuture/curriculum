@@ -1,6 +1,6 @@
 # Code Your Future Curriculum Piscine MODULE
 
-https://piscine.codeyourfuture.io/
+https://curriculum.codeyourfuture.io/piscine/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 

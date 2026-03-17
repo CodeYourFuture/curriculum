@@ -1,5 +1,5 @@
 title = "ITP"
-baseURL = "https://programming.codeyourfuture.io/"
+baseURL = "https://curriculum.codeyourfuture.io/itp/"
 
 [module]
   [[module.imports]]

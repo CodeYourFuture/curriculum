@@ -488,7 +488,7 @@ Maybe targeting "Back of the frontend" engineers - folks who are more logic-focu
 
 #### Debuggers
 
-Our trainees are not very confident with debuggers (both in ITP and SDC). We have [a workshop coming up](https://programming.codeyourfuture.io/data-groups/sprints/2/day-plan/#debugging), but may want to emphasise it or bring it earlier.
+Our trainees are not very confident with debuggers (both in ITP and SDC). We have [a workshop coming up](https://curriculum.codeyourfuture.io/itp/data-groups/sprints/2/day-plan/#debugging), but may want to emphasise it or bring it earlier.
 
 ### ❗Actions
 
@@ -1506,7 +1506,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
 
 * Demand led - if there's a job, we can create a track for it
 * Sally: Have started on a SAP FI/CO Track
-  * [Curriculum link](https://tracks.codeyourfuture.io/sap-fico/)
+  * [Curriculum link](https://curriculum.codeyourfuture.io/tracks/sap-fico/)
   * If we land a deal with a large enterprise company, then we'll run this Track
   * Financial / Enterprise Resource planning
   * Will run as workshops on Saturdays, with volunteers from the company
@@ -1533,7 +1533,7 @@ Attendees: Ali Smith, Sally McGrath, Mitch Lloyd
   * Sally: Tracks should to be tied to an agreement with CYF - there should be some realistic expectation that there will be X job(s) available to trainees at the end of the track
   * Sally: General expectation is that trainees at this point should be applying for entry level jobs!
   * Sally: Other learning materials created for trainees at this level can go on the curriculum website, but as _self-study_
-    * The [old React module](https://tracks.codeyourfuture.io/react/) is now in the self-study section of the curriculum website
+    * The [old React module](https://curriculum.codeyourfuture.io/tracks/react/) is now in the self-study section of the curriculum website
 
 #### Volunteer onboarding
 

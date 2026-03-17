@@ -1,5 +1,5 @@
 title = "SDC"
-baseURL = "https://sdc.codeyourfuture.io/"
+baseURL = "https://curriculum.codeyourfuture.io/sdc/"
 
 [module]
 [[module.imports]]

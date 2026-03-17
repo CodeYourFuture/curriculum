@@ -37,11 +37,11 @@ Each org or team configures its own Hugo site that mounts the common theme and c
 ## Examples
 
 - https://curriculum.codeyourfuture.io/
-- https://programming.codeyourfuture.io/
+- https://curriculum.codeyourfuture.io/itp/
 - https://curriculum.codeyourfuture.io/guides/
 - https://workshops.codeyourfuture.io/
-- https://piscine.codeyourfuture.io/
-- https://sdc.codeyourfuture.io/
+- https://curriculum.codeyourfuture.io/piscine/
+- https://curriculum.codeyourfuture.io/sdc/
 - https://curriculum.migracode.org/
 
 ## Contributing

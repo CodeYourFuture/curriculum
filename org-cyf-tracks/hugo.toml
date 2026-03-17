@@ -1,6 +1,6 @@
 title = "Tracks"
 description="Short focused courses working towards specific roles"
-baseURL = "https://tracks.codeyourfuture.io/"
+baseURL = "https://curriculum.codeyourfuture.io/tracks/"
 
 [module]
   [[module.imports]]

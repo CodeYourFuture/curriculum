@@ -1,6 +1,6 @@
 # Code Your Future Curriculum Launch MODULE
 
-https://launch.codeyourfuture.io/
+https://curriculum.codeyourfuture.io/launch/
 
 This is a Hugo Module. You can mount this module in your own Hugo site by adding it to your `config.toml` file:
 
