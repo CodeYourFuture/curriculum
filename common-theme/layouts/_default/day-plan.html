@@ -15,6 +15,7 @@
     <time-stamper start-time="{{$startTime}}">
       <div class="c-block__series c-block__series--timeline">
         {{ if ne .Params.noRegister true }}
+          {{ $courseSection := $.Page.Section }}
           {{ $moduleSection := $.Page.CurrentSection }}
           {{/* Most of our modules have two levels of hierarchy - course > module > sprint. But some go straight course > sprint or module > sprint - allow opting into this with a param. */}}
           {{ $parentsToTraverseToModule := $moduleSection.Params.parentsToTraverseToModule }}
@@ -28,7 +29,7 @@
           {{ with $moduleSection.Params.moduleForRegister }}
             {{ $module = . }}
           {{ end }}
-          {{ partial "register-attendance.html" (dict "course" site.Title "module" $module "day" $.Page.CurrentSection.Title) }}
+          {{ partial "register-attendance.html" (dict "course" $courseSection "module" $module "day" $.Page.CurrentSection.Title) }}
         {{ end }}
         {{ range $index, $block := .Params.blocks }}
 
