@@ -3,64 +3,67 @@ baseURL = "https://curriculum.codeyourfuture.io/"
 
 [module]
 [[module.imports]]
-path = "github.com/CodeYourFuture/curriculum/org-cyf-theme" 
+path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
 [[module.imports]]
-path = "github.com/CodeYourFuture/curriculum/org-cyf-guides" 
+path = "github.com/CodeYourFuture/curriculum/org-cyf-guides"
 [[module.imports.mounts]]
 source = "content"
-target = "content/guides"  
-      
+target = "content/guides"
+
 [menus]
-  [[menus.secondary]]
-    name = "CYF 👈🏾"
-    weight = 1
-    url = "https://codeyourfuture.io"
-  [[menus.secondary]]
-    name = "Join Us 👋🏿"
-    weight = 2
-    url = "https://codeyourfuture.io/volunteers/"
-  [[menus.secondary]]
-    name = "Support 🫶🏼"
-    weight = 3
-    url = "https://codeyourfuture.io/donate/"
+[[menus.secondary]]
+name = "CYF 👈🏾"
+weight = 1
+url = "https://codeyourfuture.io"
+[[menus.secondary]]
+name = "Join Us 👋🏿"
+weight = 2
+url = "https://codeyourfuture.io/volunteers/"
+[[menus.secondary]]
+name = "Support 🫶🏼"
+weight = 3
+url = "https://codeyourfuture.io/donate/"
 
 [[menus.syllabus]]
-  name="Intro to Digital"
-  url="https://codeyourfuture.io/itc/"
-  weight = 1
+name = "Intro to Digital"
+url = "https://codeyourfuture.io/itc/"
+weight = 1
 
 [[menus.syllabus]]
-  name="Intro to Programming"
-  url="https://programming.codeyourfuture.io/"
-  weight = 2
+name = "Intro to Programming"
+url = "https://programming.codeyourfuture.io/"
+weight = 2
 
 [[menus.syllabus]]
-  name="The Piscine"
-  url="https://piscine.codeyourfuture.io/"
-  weight = 3
+name = "The Piscine"
+url = "https://piscine.codeyourfuture.io/"
+weight = 3
 
 [[menus.syllabus]]
-  name="Software Development"
-  url="https://sdc.codeyourfuture.io/"
-  weight = 4
+name = "Software Development"
+url = "https://sdc.codeyourfuture.io/"
+weight = 4
 
 [[menus.syllabus]]
-  name="The Launch"
-  url="https://launch.codeyourfuture.io/"
-  weight = 5
+name = "The Launch"
+url = "https://launch.codeyourfuture.io/"
+weight = 5
 
 [[menus.syllabus]]
-  name="Tracks"
-  url="https://tracks.codeyourfuture.io/"
-  weight = 6
+name = "Tracks"
+url = "https://tracks.codeyourfuture.io/"
+weight = 6
 
 [[menus.syllabus]]
-  name="Systems Engineering"
-  url="https://systems.codeyourfuture.io/"
-  weight = 7
+name = "Systems Engineering"
+url = "https://systems.codeyourfuture.io/"
+weight = 7
 
 #this makes the section nav go the right way
 # because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
 [page]
-  nextPrevInSectionSortOrder = 'asc'
-  nextPrevSortOrder = 'asc'
+nextPrevInSectionSortOrder = 'asc'
+nextPrevSortOrder = 'asc'
+
+[taxonomies]
+track_kind = "track_kinds"
