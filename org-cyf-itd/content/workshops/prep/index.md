@@ -7,17 +7,17 @@ layout = 'prep'
 weight = 2
 [[blocks]]
 name="What to do first"
-src="blocks/workshop-prep"
+src="module/itd/workshop-prep"
 [[blocks]]
 name="Goals"
-src="blocks/workshop-goals"
+src="module/itd/workshop-goals"
 [[blocks]]
 name="Teaching Tips"
-src="blocks/values"
+src="module/itd/values"
 [[blocks]]
 name="Common Issues"
-src="blocks/common-issues"
+src="module/itd/common-issues"
 [[blocks]]
 name="Workshop Checklist"
-src="blocks/workshop-checklist"
+src="module/itd/workshop-checklist"
 +++

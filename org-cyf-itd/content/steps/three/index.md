@@ -7,17 +7,17 @@ menu=[ 'steps']
 weight = 4
 [[blocks]]
 name="Instructions"
-src="blocks/step-3/instructions"
+src="module/itd/step-3/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-3/acceptance"
+src="module/itd/step-3/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-3/submission"
+src="module/itd/step-3/submission"
 [[blocks]]
 name="Help"
-src="blocks/help"
+src="module/itd/help"
 [[blocks]]
 name="Extensions"
-src="blocks/step-3/extend"
+src="module/itd/step-3/extend"
 +++
