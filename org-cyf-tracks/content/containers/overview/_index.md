@@ -1,11 +1,10 @@
 +++
-title = "Containers"
-description = "Understand, build, and run containers."
-layout = "module"
-track_kinds = ["jobs-after-sdc"]
-menus = ["containers"]
-weight = 1
+title = "Course overview"
+layout = "overview"
+overview_menu = "containers"
 +++
+
+## Objective
 
 This track introduces building and running containers using Docker and orchestrating them locally with Docker Compose.
 
