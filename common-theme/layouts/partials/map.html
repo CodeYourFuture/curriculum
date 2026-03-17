@@ -2,4 +2,4 @@
 
 {{/* This is legacy support which we will deprecate at some point. */}}
 {{ warnf "Using the map param is deprecated - rename this param to menus_to_map" }}
-{{ partial "map-menu.html" .Params.map }}
+{{ partial "map-menu.html" (dict "menus_to_map" .Params.map "animation" (default true .Page.Params.animation)) }}
