@@ -6,7 +6,7 @@ time=5
 
 ### What is ITD
 
-When people [sign up to study](https://codeyourfuture.io/itc/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course lasts one month, and runs 5 times a year.
+When people [sign up to study](https://codeyourfuture.io/itc/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course lasts one month, and runs 6 times a year.
 
 Learners complete the course on our [Guided Learning platform](https://course1.codeyourfuture.io/) by completing a sequence of steps. Each step is explained clearly in B1 English. The text is reproduced on this site in the [Steps](./steps) section.
 
