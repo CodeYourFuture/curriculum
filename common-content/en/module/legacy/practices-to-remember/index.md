@@ -36,7 +36,7 @@ Ideally you'll think about this immediately after you submit the previous PR and
 git switch -c new-branch main
 ```
 
-which will remove your committed branch and create a new one based on main.
+which will create a new one based on main, and switch to it.
 
 If you've got random uncommitted changes in your local folder, they will not be removed by the above command.  So before you do that command you can clean things up:
 
