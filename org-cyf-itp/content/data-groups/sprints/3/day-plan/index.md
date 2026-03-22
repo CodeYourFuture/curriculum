@@ -20,7 +20,8 @@ src="blocks/morning-break"
 time=20
 [[blocks]]
 name="Interviewing practice"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/interview-workshop/interviewing"
+#TODO change this link to main not the branch
 time=60
 [[blocks]]
 name="lunch"
