@@ -26,6 +26,7 @@ publishResources = false
 ### Preparation
 
 You must have completed the prep work before the session.
+This exercise should be done in small teams of 3 to 5 people. 
 
 ### Introduction
 
