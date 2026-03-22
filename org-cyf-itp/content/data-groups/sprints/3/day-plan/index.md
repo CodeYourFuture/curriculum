@@ -22,7 +22,7 @@ time=20
 name="Interviewing practice"
 src="https://github.com/CodeYourFuture/CYF-Workshops/tree/interview-workshop/interviewing"
 #TODO change this link to main not the branch
-time=60
+time=90
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
