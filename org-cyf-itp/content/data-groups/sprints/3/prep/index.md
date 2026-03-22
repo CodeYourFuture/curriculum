@@ -38,8 +38,11 @@ src="module/js2/reacting"
 name="Reacting to events"
 [[blocks]]
 src="module/js2/check-progress"
-name="check progress"
+name="Check progress"
 [[blocks]]
 src="module/js2/refactor"
 name="Refactor"
+[[blocks]]
+src="module/employability/interviews"
+name="Guide to interviewing"
 +++
