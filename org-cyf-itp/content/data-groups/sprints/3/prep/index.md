@@ -42,4 +42,7 @@ name="Check progress"
 [[blocks]]
 src="module/js2/refactor"
 name="Refactor"
+[[blocks]]
+src="module/employability/interviews
+name"Guide to interviewing"
 +++
