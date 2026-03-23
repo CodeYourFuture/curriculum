@@ -166,9 +166,7 @@ Dead code should be removed from your coursework or re-written so it is used. Ha
 
 ### Coding Standards
 
-<!-- TODO -->
-
-All code written by trainees at Code Your Future should follow our [Coding Standard](./code-style-guide) guidelines.
+All code written by trainees at Code Your Future should follow our [Coding Standard](../style-guide) guidelines.
 
 These guidelines are based on ones used in industry.
 
