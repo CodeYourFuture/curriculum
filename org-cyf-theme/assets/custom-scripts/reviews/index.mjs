@@ -37,6 +37,9 @@ const state = {
   "prs": null,
   "reviewer_filter": "",
   "region_filter": "",
+  "sprint_filter_module": "",
+  "sprint_filter_sprint": "",
+  "sprint_filter_taskname": "",
 }
 
 async function onLoad() {
@@ -46,12 +49,28 @@ async function onLoad() {
 
   render();
   state.prs = (await fetchPrsWithoutLoadingReviews()).filter((pr) => pr.status === "Needs Review");
+
+  // Set up the filter for sprints
+  const sprints = new Set();
+  state.prs.forEach(pr => {
+    sprints.add(`${pr.module} Sprint ${pr.sprint} - ${pr.taskName}`);
+  });
+  const sortedSprints = [...sprints].sort();
+  const sprintFilterElement = document.querySelector("#sprint-filter");
+  for (const sprint of sortedSprints) {
+    const option = document.createElement("option");
+    option.value = sprint;
+    sprintFilterElement.appendChild(option);
+  }
+
   render();
   await Promise.all(state.prs.map((pr) => pr.loadReviews()));
   render();
+
 }
 
 function render() {
+  // Create regions filter object
   const regionSelect = document.querySelector("#region-filter");
   regionSelect.textContent = "";
   regionSelect.appendChild(makeRegionOption("All Regions", ""));
@@ -64,6 +83,7 @@ function render() {
     render();
   });
 
+  // Default loading state
   if (state.prs === null) {
     document.querySelector("#pr-list").innerText = "Loading...";
     return;
@@ -82,8 +102,12 @@ function render() {
     prsByModule[module] = [];
   }
 
+  // Filter all the relevant PRs to show, sorted by oldest first
   for (const pr of state.prs) {
     if (state.region_filter && !regionMatches(state.region_filter, pr.title)) {
+      continue;
+    }
+    if (state.sprint_filter_module && pr.module != state.sprint_filter_module && pr.sprint != state.sprint_filter_sprint){
       continue;
     }
     for (const review of pr.reviews) {
@@ -113,6 +137,7 @@ function render() {
   document.querySelector("#pr-list").innerText = "";
   document.querySelector("#overview").innerText = "";
 
+  // Build each module
   for (const module of modules) {
     const awaitingReview = awaitingReviewByAge[module];
     const totalPending = Object.values(awaitingReview).reduce(
@@ -120,6 +145,7 @@ function render() {
       0
     );
 
+    // Create a traffic light card to show at top of page
     const overviewCard = document
       .querySelector("template.overview-card")
       .content.cloneNode(true);
@@ -138,6 +164,7 @@ function render() {
       .classList.add(computeStatusClass(awaitingReview));
     document.querySelector("#overview").appendChild(overviewCard);
 
+    // Add the PRs for each module
     if (totalPending) {
       const modulePrList = document
         .querySelector("template.pr-list")
@@ -173,6 +200,7 @@ function render() {
     }
   }
 
+  // Set up the filter for reviewers
   const knownReviewersElement = document.querySelector("#known-reviewers");
   knownReviewersElement.innerText = "";
   const sortedReviewers = [...reviewers].sort();
@@ -181,6 +209,7 @@ function render() {
     option.value = reviewer;
     knownReviewersElement.appendChild(option);
   }
+
 }
 
 const regionMatches = (regionToFilter, prTitle) => {
@@ -232,8 +261,21 @@ const makeRegionOption = (label, value) => {
 
 onLoad();
 
+// TODO add a filter for task
 document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
   state.reviewer_filter = event.target.value;
   console.log("Setting filter to " + state.reviewer_filter);
   render();
 });
+const sprintFilterMatch = /(.+) Sprint (\d) - (\w+)/;
+document.querySelector("#sprint-filter").addEventListener("change", (event) => {
+  if(event.target.value){
+    const chosenFilter = sprintFilterMatch.match(event.target.value);
+    state.sprint_filter_module = chosenFilter[1];
+    state.sprint_filter_sprint = chosenFilter[2];
+    state.sprint_filter_taskname = chosenFilter[3];
+  } else {
+    state.sprint_filter_module = state.sprint_filter_sprint = state.sprint_filter_taskname = "";
+  }
+  render();
+})

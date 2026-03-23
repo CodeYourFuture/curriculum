@@ -15,6 +15,10 @@ function identifyAge(date) {
 
 const apiPrefix = "https://github-issue-proxy.hosting.codeyourfuture.io/cached/2/repos/CodeYourFuture";
 
+// PR Title format is 1 Location 2 Cohort 3 Name 4 Sprint # 5 taskname
+const prTitleParse = new RegExp(/.+\|.+\|.+\|[\D]+?(\d)\s?\|\s?(.+)/i);
+const prTaskNameCleaner = new RegExp(/\W|sprint/i);
+
 class PR {
     // status: one of: "Needs Review", "Reviewed", "Complete", "Closed", "Unknown"
     constructor(url, number, userName, userUrl, title, module, createdAge, updatedAge, status) {
@@ -29,6 +33,9 @@ class PR {
         this.status = status;
         this._didLoadReviews = false;
         this.reviews = [];
+        const parsedTitle = prTitleParse.match(title);
+        this.sprint = parsedTitle[1];
+        this.taskName = parsedTitle[2].toLowerCase().replaceAll(prTaskNameCleaner, "");
     }
 
     async loadReviews() {
