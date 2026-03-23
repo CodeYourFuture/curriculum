@@ -151,8 +151,6 @@ Since we use Git to record all of the changes to our code you can always use the
 #### More Reading
 
 - [Please don't comment out code](https://kentcdodds.com/blog/please-dont-commit-commented-out-code)
-- [Putting comments in code: the good, the bad, and the ugly.](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)
-- [Git History](https://syllabus.codeyourfuture.io/git/index#history)
 
 ### Dead Code
 
@@ -168,7 +166,9 @@ Dead code should be removed from your coursework or re-written so it is used. Ha
 
 ### Coding Standards
 
-All code written by Trainees at CodeYourFuture should follow our [Coding Standard](./code-style-guide) guidelines.
+<!-- TODO -->
+
+All code written by trainees at Code Your Future should follow our [Coding Standard](./code-style-guide) guidelines.
 
 These guidelines are based on ones used in industry.
 
