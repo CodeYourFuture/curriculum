@@ -60,6 +60,7 @@ async function onLoad() {
   for (const sprint of sortedSprints) {
     const option = document.createElement("option");
     option.value = sprint;
+    option.innerText = sprint;
     sprintFilterElement.appendChild(option);
   }
 
@@ -107,7 +108,7 @@ function render() {
     if (state.region_filter && !regionMatches(state.region_filter, pr.title)) {
       continue;
     }
-    if (state.sprint_filter_module && pr.module != state.sprint_filter_module && pr.sprint != state.sprint_filter_sprint){
+    if (state.sprint_filter_module && (pr.module != state.sprint_filter_module || pr.sprint != state.sprint_filter_sprint || pr.taskName != state.sprint_filter_taskname)){
       continue;
     }
     for (const review of pr.reviews) {
@@ -270,7 +271,7 @@ document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => 
 const sprintFilterMatch = /(.+) Sprint (\d) - (\w+)/;
 document.querySelector("#sprint-filter").addEventListener("change", (event) => {
   if(event.target.value){
-    const chosenFilter = sprintFilterMatch.match(event.target.value);
+    const chosenFilter = event.target.value.match(sprintFilterMatch);
     state.sprint_filter_module = chosenFilter[1];
     state.sprint_filter_sprint = chosenFilter[2];
     state.sprint_filter_taskname = chosenFilter[3];
