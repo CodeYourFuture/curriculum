@@ -1,1 +1,6 @@
-../tooling/common-config/netlify.toml
+# TODO: Move this file into a less in-your-face directory once the curriculum merge settles.
+
+[[redirects]]
+from = "/*"
+to = "https://curriculum.codeyourfuture.io/itd/:splat"
+status = 302
