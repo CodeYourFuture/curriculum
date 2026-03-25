@@ -8,8 +8,8 @@ backlog= 'Module-The-Launch'
 backlog_filter='📅 Week 2'
 [[blocks]]
 name="Prep your Demo"
-src="blocks/prep-launch-week-2"
+src="module/launch/prep-launch-week-2"
 [[blocks]]
 name="User research"
-src="blocks/user-research"
+src="module/launch/user-research"
 +++
