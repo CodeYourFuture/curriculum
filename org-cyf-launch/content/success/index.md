@@ -4,7 +4,7 @@ description = 'Success means: being employable.'
 layout = 'success'
 emoji= '✅'
 menu_level = ['module']
-menu=['demo']
+menu=['Launch demo']
 weight = 11
 [[objectives]]
 1="Achieve the individual criteria"

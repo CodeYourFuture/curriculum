@@ -4,7 +4,7 @@ description = 'Getting ready to launch'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
-menu=["apply"]
+menu=["Launch apply"]
 weight = 1
 [[blocks]]
 name="Entry Criteria"
