@@ -2,7 +2,7 @@
 title = "Course overview"
 layout = "overview"
 overview_menu = "SDC"
-menus = ["start here"]
+menus = ["SDC start here"]
 +++
 
 ## Objective
