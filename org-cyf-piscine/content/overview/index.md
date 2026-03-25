@@ -2,7 +2,7 @@
 title = "Course overview"
 layout = "overview"
 overview_menu = "Piscine"
-menu = ["entry"]
+menu = ["Piscine entry"]
 weight = 1
 +++
 

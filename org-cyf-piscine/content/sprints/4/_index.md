@@ -4,7 +4,7 @@ description = 'Demo your solo project; undertake a technical interview; enjoy th
 layout = 'sprint'
 emoji= '🧪'
 menu_level = ['module']
-menu=['assessment']
+menu=['Piscine assessment']
 weight = 4
 theme = "Technical interview"
 +++
