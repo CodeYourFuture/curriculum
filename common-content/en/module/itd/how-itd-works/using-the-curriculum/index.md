@@ -12,7 +12,7 @@ This is the ITD syllabus.
 
 Applicants will work through the steps week by week. Each step contains instructions for the applicants to do complete a task which they should then submit. Volunteers can find these submissions on the dashboard and give feedback.
 
-Tip: You can read all the steps right here in the menu ["Steps"](https://itd.codeyourfuture.io/).
+Tip: You can read all the steps right here in the menu ["Steps"](https://curriculum.codeyourfuture.io/itd/).
 
 The Workshops will be organised by each region, and are designed to be face-to-face opportunities for applicants to ask questions and clarify their learning. Workshops will be advertised on Eventbrite and advertised in Slack.
 
