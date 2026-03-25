@@ -1,7 +1,7 @@
 +++
 title="Manual"
 description="How ITD works"
-menu=["syllabus", "start here"]
+menu=["ITD start here"]
 layout = 'prep'
 menu_level = ['module']
 [[blocks]]

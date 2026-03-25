@@ -3,7 +3,7 @@ title = 'Zero'
 description = 'Join the CodeYourFuture Intro to Digital Slack'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 1
 [[blocks]]
 name="Instructions"

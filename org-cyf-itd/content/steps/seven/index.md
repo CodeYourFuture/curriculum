@@ -3,7 +3,7 @@ title = 'Seven'
 description="Check if your English CEFR level is B2 or above"
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 8
 [[blocks]]
 name="Instructions"

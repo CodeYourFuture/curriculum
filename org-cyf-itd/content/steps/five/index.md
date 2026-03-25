@@ -3,7 +3,7 @@ title = 'Five'
 description="Deploying a webpage on GitHub Pages"
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'ITD steps']
 weight = 6
 [[blocks]]
 name="Instructions"

@@ -1,7 +1,7 @@
 +++
 title = 'Prep'
 menu_level = ['module']
-menu = ['workshops']
+menu = ['ITD workshops']
 description = 'Prepare to run an ITD workshop'
 layout = 'prep'
 weight = 2

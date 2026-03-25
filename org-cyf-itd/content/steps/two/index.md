@@ -3,7 +3,7 @@ title = 'Two'
 description = 'Learn how to use AI appropriately'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 3
 [[blocks]]
 name="Instructions"
