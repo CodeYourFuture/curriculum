@@ -12,7 +12,7 @@
 {{ $animation := default true .Page.Params.animation }}
 
 {{ if .Params.menus_to_map }}
-    {{ partial "map-menu.html" (dict "menus_to_map" .Params.menus_to_map "animation" $animation) }}
+    {{ partial "map-menu.html" (dict "menus_to_map" .Params.menus_to_map "menu_prefix_to_strip" (default "" .Page.Params.menu_prefix_to_strip) "animation" $animation) }}
 {{ else if .Params.map }}
     {{ partial "map.html" . }}
 {{ else if .Params.menus_to_map_for_courses }}

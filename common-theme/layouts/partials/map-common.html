@@ -1,5 +1,6 @@
 {{/* Expects a dict param containing:
   * animation (bool) - Whether to animate description cards
+  * menu_prefix_to_strip (string) - Menu prefix to strip for display
   * sections (slice[dict]) - an ordered list of dicts with the following keys, one per section in the map to render:
     * title (string) - The heading to display for the section.
     * values (slice[Page]) - A slice of Pages, one per page in the section which should be listed.
@@ -8,11 +9,12 @@
 
 {{ $sections := index . "sections" }}
 {{ $animation := index . "animation" }}
+{{ $menuPrefixToStrip := index . "menu_prefix_to_strip" }}
 
 <div class="c-map">
   <h1 class="e-heading c-map__start is-none--lt-container">👉🏾</h1>
   {{ range $i, $section := $sections }}
-    {{ $sectionTitle := index $section "title" }}
+    {{ $sectionTitle := strings.TrimPrefix $menuPrefixToStrip (index $section "title") }}
     {{ $sectionTermPageLink := index $section "termPageLink" }}
     {{ $sectionValues := index $section "values" }}
     <section class="c-map__block">
