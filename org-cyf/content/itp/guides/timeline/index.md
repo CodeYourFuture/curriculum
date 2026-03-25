@@ -16,7 +16,7 @@ So that's your rule of thumb for staying on track. What does this look like in p
 
 Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack. You have scheduled your learning weeks in your [classplanner](https://classplanner.codeyourfuture.io/) and your volunteer team has signed up on the schedule so everybody knows the rota.  
 
-## 🤝 Module 1: [Weeks 2, 3, 4](/onboarding)
+## 🤝 Module 1: [Weeks 2, 3, 4](/itp/onboarding)
 
 🤝 Week 2: you have met everyone in person or at Zoomschool
 
@@ -24,28 +24,28 @@ Week 1: you have logged in to the dashboard to see your list of learners and wel
 - Week 2: most people have gotten a code review
 
 🤝 Week 3: 100% of learners have opened a PR or withdrawn/deferred  
-🤝 Week 4: Focus on enrollment: 60% of learners have completed the [Onboarding Module](/onboarding) and enrolled as a trainee
+🤝 Week 4: Focus on enrollment: 60% of learners have completed the [Onboarding Module](/itp/onboarding) and enrolled as a trainee
 
-## 🥚 Module 2: [Weeks 5, 6, 7](/structuring-data)
+## 🥚 Module 2: [Weeks 5, 6, 7](/itp/structuring-data)
 
 🥚 Week 5: 60% of learners have enrolled as a trainee  
-🥚 Week 6: Everybody has begun [Structuring and Testing Data](/structuring-data) at least as we are halfway through the course!  
+🥚 Week 6: Everybody has begun [Structuring and Testing Data](/itp/structuring-data) at least as we are halfway through the course!  
 🥚 Week 7: Focus on step review: keep the momentum going. Advise learners who have made no progress to withdraw as there is no chance of making up the work now.
 
-## 🐣 Module 3: [Weeks 8, 9, 10](/data-groups)
+## 🐣 Module 3: [Weeks 8, 9, 10](/itp/data-groups)
 
-🐣 Week 8: Most people have begun [Data Groups](/data-groups)  
+🐣 Week 8: Most people have begun [Data Groups](/itp/data-groups)  
 🐣 Week 9: Every trainee has benefited from at least 5 pair programming sessions  
 🐣 Week 10: Every trainee has engaged in at least 8 code reviews
 
-## 🐥 Final Module: [Weeks 11, 12, 13](/data-flows)
+## 🐥 Final Module: [Weeks 11, 12, 13](/itp/data-flows)
 
-🐥 Week 11: Everybody has begun [Data Flows](/data-flows).  
+🐥 Week 11: Everybody has begun [Data Flows](/itp/data-flows).  
 🐥 Week 12: Most trainees are completing their TV Show Projects - encourage demos! 
 🐥 Week 13: Most trainees are submitting their final step.
 
 ## 🎁 Wrapping up: Weeks 14, 15, 16
 
-🐟 Week 14: You are reviewing and approving final step submissions. Trainees going for [the Piscine](https://piscine.codeyourfuture.io) have applied.  
+🐟 Week 14: You are reviewing and approving final step submissions. Trainees going for [the Piscine](/piscine/) have applied.  
 👣 Week 15: Trainees who have fallen behind by less than 1 module have caught up and completed. You are wrapping up and supporting trainees to take their next steps.  
 🎉 Week 16 : This course has completed. 100% of learners have completed or withdrawn. Have a party.
