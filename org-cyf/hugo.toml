@@ -64,3 +64,6 @@ target = "content/guides"
 [page]
   nextPrevInSectionSortOrder = 'asc'
   nextPrevSortOrder = 'asc'
+
+[taxonomies]
+track_kind = "track_kinds"
