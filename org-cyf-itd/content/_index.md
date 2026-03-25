@@ -4,4 +4,5 @@ description="How to participate in the Intro to Digital programme as a learner o
 menu="main"
 menus_to_map=['start here', 'steps', 'workshops']
 layout="map"
+animation = false
 +++

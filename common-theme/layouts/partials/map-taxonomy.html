@@ -1,6 +1,12 @@
 {{/* Expects string param which is the (plural) name of the taxonomy to render. */}}
 
-{{ $taxonomy_to_map := . }}
+{{/* Expects dict param containing:
+  * taxonomy_to_map (string) - Names of taxonomy to map.
+  * animation (bool) - Whether to animate descriptions on cards.
+*/}}
+{{ $taxonomy_to_map := index . "taxonomy_to_map" }}
+{{ $animation := index . "animation" }}
+
 
 {{ $sections := slice }}
 
@@ -15,6 +21,6 @@
   {{ $sections = append $section $sections }}
 {{ end }}
 
-{{ $params := dict "sections" $sections }}
+{{ $params := dict "sections" $sections "animation" $animation }}
 
 {{ partial "map-common.html" $params }}
