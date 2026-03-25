@@ -5,13 +5,14 @@
   * animation (bool) - Whether to animate descriptions on cards.
 */}}
 {{ $taxonomy_to_map := index . "taxonomy_to_map" }}
+{{ $section := index . "section" }}
 {{ $animation := index . "animation" }}
 
 
 {{ $sections := slice }}
 
 {{/* You can't ask for a taxonomy to be sorted by weight, so we need to get weights and iterate ourselves - see https://discourse.gohugo.io/t/list-custom-taxonomy-terms-in-a-specific-order-not-alphabetical/18145/5 */}}
-{{ $terms := site.GetPage (printf "/%s" $taxonomy_to_map) }}
+{{ $terms := site.GetPage (printf "%s/%s" $section $taxonomy_to_map) }}
 {{ range $termPage := $terms.Pages.ByWeight }}
   {{ $termID := path.BaseName $termPage.Path }}
   {{ $termTitle := $termPage.Title }}
