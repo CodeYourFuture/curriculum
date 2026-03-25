@@ -16,10 +16,10 @@ Within each course's directory there is a sub-directory for each module.
 
 ```mermaid
 ---
-title: org-cyf-itp structure
+title: ITP structure
 ---
 flowchart TD
-    itp@{ shape: docs, label: org-cyf-itp } --> onboarding@{ shape: docs, label: onboarding }
+    itp@{ shape: docs, label: org-cyf/content/itp } --> onboarding@{ shape: docs, label: onboarding }
     itp --> structuringData@{ shape: docs, label: structuring-data }
     itp --> dataGroups@{ shape: docs, label: data-groups }
     itp --> dataFlows@{ shape: docs, label: data-flows }
@@ -35,7 +35,7 @@ Each module is broken into **sprints**. A sprint represents one week of work. Th
 title: module structure
 ---
 flowchart TD
-    itp@{ shape: docs, label: org-cyf-itp } --> dataGroups@{ shape: docs, label: data-groups }
+    itp@{ shape: docs, label: org-cyf/content/itp } --> dataGroups@{ shape: docs, label: data-groups }
     dataGroups --> success@{ shape: docs, label: success }
     dataGroups --> sprints@{ shape: docs, label: sprints }
     sprints --> sprint1@{ shape: docs, label: "1" }
@@ -50,7 +50,7 @@ Each sprint is made up of **prep** (material to be read before class), **backlog
 title: sprint structure
 ---
 flowchart TD
-    itp2@{ shape: docs, label: org-cyf-itp } --> dataGroups2@{ shape: docs, label: data-groups }
+    itp2@{ shape: docs, label: org-cyf/content/itp } --> dataGroups2@{ shape: docs, label: data-groups }
     dataGroups2 --> sprints2@{ shape: docs, label: sprints }
     sprints2 --> sprint1@{ shape: docs, label: "1" }
     sprint1 --> prep@{shape: docs, label: prep}
