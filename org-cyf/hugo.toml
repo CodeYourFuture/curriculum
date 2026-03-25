@@ -24,41 +24,6 @@ target = "content/guides"
     weight = 3
     url = "https://codeyourfuture.io/donate/"
 
-[[menus.syllabus]]
-  name="Intro to Digital"
-  url="https://codeyourfuture.io/itc/"
-  weight = 1
-
-[[menus.syllabus]]
-  name="Intro to Programming"
-  url="https://programming.codeyourfuture.io/"
-  weight = 2
-
-[[menus.syllabus]]
-  name="The Piscine"
-  url="https://piscine.codeyourfuture.io/"
-  weight = 3
-
-[[menus.syllabus]]
-  name="Software Development"
-  url="https://sdc.codeyourfuture.io/"
-  weight = 4
-
-[[menus.syllabus]]
-  name="The Launch"
-  url="https://launch.codeyourfuture.io/"
-  weight = 5
-
-[[menus.syllabus]]
-  name="Tracks"
-  url="https://tracks.codeyourfuture.io/"
-  weight = 6
-
-[[menus.syllabus]]
-  name="Systems Engineering"
-  url="https://systems.codeyourfuture.io/"
-  weight = 7
-
 #this makes the section nav go the right way
 # because of this 'unexpected behaviour' https://gohugo.io/methods/page/nextinsection/
 [page]
