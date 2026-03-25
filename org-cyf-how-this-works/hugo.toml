@@ -1,7 +1,0 @@
-title = "How this works"
-description="An introductory course explaining the curriculum and day-to-day flow of life at Code Your Future."
-baseURL = "https://curriculum.codeyourfuture.io/"
-
-[module]
-  [[module.imports]]
-    path = "github.com/CodeYourFuture/curriculum/org-cyf-theme"
