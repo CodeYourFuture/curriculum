@@ -3,7 +3,7 @@ title = 'Three'
 description = 'Working with Google Sheets'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 4
 [[blocks]]
 name="Instructions"

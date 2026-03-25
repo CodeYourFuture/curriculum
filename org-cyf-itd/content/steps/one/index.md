@@ -3,7 +3,7 @@ title = 'One'
 description = 'Using Slack and search engines'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=[ 'ITD steps']
 weight = 2
 [[blocks]]
 name="Instructions"

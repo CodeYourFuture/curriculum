@@ -3,7 +3,7 @@ title = 'Agenda'
 description = 'The detailed agenda for a workshop'
 layout = 'day-plan'
 menu_level = ['module']
-menu=["workshops", "syllabus"]
+menu=["ITD workshops"]
 weight = 3
 noRegister=false
 [[blocks]]

@@ -3,7 +3,7 @@ title = 'Four'
 description = 'Build a personal webpage on CodePen'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 5
 [[blocks]]
 name="Instructions"
