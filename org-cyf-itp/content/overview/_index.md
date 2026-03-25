@@ -1,8 +1,8 @@
 +++
 title="Course overview"
 layout="overview"
-overview_menu="course schedule"
-menu=["start here", "syllabus"]
+overview_menu="ITP course schedule"
+menu=["ITP start here"]
 description="4 modules of 3 sprints delivered over 12-16 weeks"
 weight=2
 emoji="🦉"
