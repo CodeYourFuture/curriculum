@@ -22,7 +22,7 @@
       {{ $moduleTitle := .Page.Params.Title }}
       {{/*  <!-- We lazily show the module title only if there's actual content under it.-->  */}}
       {{ $hasShownModuleTitle := false }}
-      {{ range where $site.Pages "Section" .Page.Section }}
+      {{ range .Page.Pages }}
         {{/* ==========================================
           for each page in each sprint in the module <= this isn't looping over the sprints, it's a level higher
           =============================================
