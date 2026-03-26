@@ -5,5 +5,5 @@ layout = 'sprint'
 emoji= '🛺'
 menu_level = ['module']
 weight = 5
-menu=["develop", "syllabus"]
+menu=["Launch develop"]
 +++

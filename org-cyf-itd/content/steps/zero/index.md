@@ -3,18 +3,18 @@ title = 'Zero'
 description = 'Join the CodeYourFuture Intro to Digital Slack'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'steps']
+menu=['ITD steps']
 weight = 1
 [[blocks]]
 name="Instructions"
-src="blocks/step-0/instructions"
+src="module/itd/step-0/instructions"
 [[blocks]]
 name="Acceptance Criteria"
-src="blocks/step-0/acceptance"
+src="module/itd/step-0/acceptance"
 [[blocks]]
 name="Submission"
-src="blocks/step-0/submission"
+src="module/itd/step-0/submission"
 [[blocks]]
 name="Help"
-src="blocks/help"
+src="module/itd/help"
 +++

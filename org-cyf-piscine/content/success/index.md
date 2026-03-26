@@ -4,7 +4,7 @@ description = "What does it mean to pass the Piscine?"
 layout = "success"
 emoji= "✅"
 menu_level = ["module"]
-menu = ["assessment"]
+menu = ["Piscine assessment"]
 weight = 11
 objectives = [[
   "Attend every session.",

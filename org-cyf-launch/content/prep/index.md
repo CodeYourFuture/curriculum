@@ -4,18 +4,18 @@ description = 'Getting ready to launch'
 layout = 'prep'
 emoji= '🧑🏾‍💻'
 menu_level = ['module']
-menu=["apply"]
+menu=["Launch apply"]
 weight = 1
 [[blocks]]
 name="Entry Criteria"
-src="blocks/entry-criteria"
+src="module/launch/entry-criteria"
 [[blocks]]
 name="The Interview"
-src="blocks/interview"
+src="module/launch/interview"
 [[blocks]]
 name="Role Description"
-src="blocks/job-description"
+src="module/launch/job-description"
 [[blocks]]
 name="Application Form"
-src="blocks/application-form"
+src="module/launch/application-form"
 +++

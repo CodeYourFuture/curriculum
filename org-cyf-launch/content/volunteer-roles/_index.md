@@ -3,7 +3,7 @@ title = "Volunteer Roles"
 description = "Different ways to support The Launch"
 emoji= "👥"
 menu_level = ["module"]
-menu=["apply"]
+menu=["Launch apply"]
 weight = 2
 +++
 

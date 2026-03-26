@@ -9,26 +9,26 @@ name="Energiser"
 src="energisers/telephone"
 [[blocks]]
 name="Demo Time"
-src="blocks/demo-time/"
+src="module/launch/demo-time/"
 [[blocks]]
 name="Morning Break"
 src="blocks/morning-break"
 [[blocks]]
 name="Retrospective"
-src="blocks/retrospective"
+src="module/launch/retrospective"
 [[blocks]]
 name="Sprint Planning"
-src="blocks/sprint-planning/"
+src="module/launch/sprint-planning/"
 [[blocks]]
 name="Development Time"
-src="blocks/development-time"
+src="module/launch/development-time"
 time=25
 [[blocks]]
 name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Development Time"
-src="blocks/development-time"
+src="module/launch/development-time"
   [[blocks.nested.blocks]]
     name="Pomodoro"
     src="module/piscine/pomodoro"

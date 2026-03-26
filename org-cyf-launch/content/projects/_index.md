@@ -2,7 +2,7 @@
 title = "Projects"
 description = "Projects for the Launch"
 menu_level = ["module"]
-menu = ["apply"]
+menu = ["Launch apply"]
 weight = 3
 +++
 

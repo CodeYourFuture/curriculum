@@ -1,7 +1,8 @@
 +++
 title = "The Launch"
 description = "Work together in a cross functional Agile team to design, develop, and deliver a unique functioning product"
-layout = "module"
-map = ["apply", "develop", "demo"]
+layout = "map"
+menus_to_map = ["Launch apply", "Launch develop", "Launch demo"]
+menu_prefix_to_strip = "Launch "
 weight = 9
 +++

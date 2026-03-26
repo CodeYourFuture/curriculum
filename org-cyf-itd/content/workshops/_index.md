@@ -1,7 +1,7 @@
 +++
 title = 'Workshops'
 menu_level = ['sprint']
-menu = ['workshops']
+menu = ['ITD workshops']
 description = 'Run an ITD workshop'
 layout = 'module'
 weight = 1

@@ -4,6 +4,6 @@ description = 'The plan for the sprint'
 layout = 'sprint'
 emoji= '🛹'
 menu_level = ['module']
-menu=["develop", "syllabus"]
+menu=["Launch develop"]
 weight = 2
 +++

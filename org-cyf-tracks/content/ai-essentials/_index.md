@@ -7,3 +7,7 @@ track_kinds = ["guided-study-after-itp"]
 menu="AI Essentials"
 weight = 1
 +++
+
+> [!WARNING]
+>
+> This track is currently hosted and run on a different platform. This probably isn't the content you're looking for.
