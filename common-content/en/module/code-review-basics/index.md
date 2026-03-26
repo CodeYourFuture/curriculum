@@ -105,6 +105,13 @@ function getUser(id) {
 - No input validation
 - Hardcoded values that should be configurable
 
+## Further Reading
+
+If you want to dive deeper into code review, check out these resources:
+
+- [CYF Style Guide](https://curriculum.codeyourfuture.io/guides/reviewing/style-guide/) - what code style looks like in the workplace
+- [What to Look For Checklist](https://curriculum.codeyourfuture.io/guides/reviewing/checklist/) - detailed guidance on specific issues to catch during review
+
 ## Practice Exercise
 
 Find an open pull request in the [#cyf-code-review](https://codeyourfuture.slack.com/archives/C07RZA0ERLN) channel and practice reviewing it using this guide.
