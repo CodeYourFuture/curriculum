@@ -10,7 +10,7 @@ In this guide, we will review how to network effectively as an early-career pers
 
 To use this guide you should:
 - Have a basic understanding of the type of role or area in tech you're interested in
-- Have a LinkedIn profile or be in the process of setting one up
+- Have a LinkedIn profile or be in the process of setting one up - if you need help with this, check out the [LinkedIn guide](../linkedin-profile)
 - Be open to having short, low-pressure conversations with people in the industry
 
 After using this guide you will:
@@ -53,13 +53,27 @@ Networking conversations can happen in many places:
 1. **One-to-one coffee chats**, which often feel more comfortable for quieter personalities.
 1. **Online spaces** such as LinkedIn, Slack groups, or tech communities, where engagement can happen at a slower pace.
 
+When thinking about who to connect with, focus on people at a similar level to you — other software engineers, bootcamp graduates, or people a year or two into their careers. Peer connections are often more natural, more likely to lead to genuine relationships, and can be just as valuable as speaking to senior people. Engineering managers and senior leaders can be harder to reach and may have less time, so connecting sideways rather than upwards is usually a more effective place to start.
+
 Good conversations are rarely complicated. They usually involve a few simple questions, careful listening, and a short, clear introduction about where you're at and what you're trying to learn. You don't need to speak to everyone in the room. One conversation that feels real is often enough.
+
+**Starting a conversation** can feel like the hardest part. A simple opener is often enough - commenting on the event, the speaker, or something in the environment gives a natural starting point. If you can find common ground early - even something unrelated to work, like where someone is based or a shared experience - the conversation tends to flow more easily from there.
+
+**Leaving a conversation** gracefully is just as important. You don't need to wait for an awkward silence. A simple close works well: "It was really good to meet you, I'll connect with you on LinkedIn." That's it. It's polite, it's natural, and it sets up the next step without any pressure.
 
 It's also worth remembering that a conversation doesn't need to lead to a job to be valuable. Gaining clarity, hearing a different perspective, or feeling less alone in the process are all meaningful outcomes.
 
 **Exercise:**
 - Draft a short introduction (3–4 sentences) about who you are, what you're learning, and what kind of role you're interested in
 - Write 2–3 questions you could ask someone working in a role you're interested in
+
+Here are some examples of good networking questions to get you started:
+- "What does a typical day look like for you in this role?"
+- "What's been the most useful thing you've learned on the job?"
+- "Is there anything you wish you'd known when you were starting out?"
+- "What kinds of problems does your team spend most of its time solving?"
+
+These work because they invite the other person to share their experience rather than putting them on the spot or asking for favours.
 
 Note: Do your questions invite the other person to share their experience, or do they only ask for help?
 
@@ -71,6 +85,7 @@ A common response is to apply to more roles, faster. While that reaction makes s
 Through conversations, people become more than a CV. Others start to understand how you think, what you care about, and where you're trying to go. These are things automated systems struggle to capture. Over time, this context can make a real difference.
 
 Moving from a conversation to a next step doesn't need to feel awkward:
+- At the end of a conversation, ask for the person's LinkedIn and connect with them on the spot — it's easy to forget names afterwards and LinkedIn is a better first step than asking for a phone number or email, as it feels less personal and more professional.
 - Send a short thank you message after a chat
 - Mention something specific you found helpful — this shows attention and care
 - Stay lightly in touch without asking for anything, allowing the relationship to develop naturally
@@ -81,22 +96,3 @@ When it does feel right to ask for help, asking for **advice** is often easier t
 - After a networking conversation, write a short follow-up message you could send (2–4 sentences)
 
 Note: Does your message mention something specific from the conversation? Does it avoid asking for anything directly?
-
-## Learning Objectives
-Our goal is to collectively do the following:
-- [ ] Identify the difference between asking for a job and asking for advice.
-- [ ] Draft a short personal introduction suitable for a networking conversation.
-- [ ] Write 2–3 questions to use in a networking conversation.
-- [ ] Reach out to at least one person in your network or the CYF community.
-- [ ] Write a follow-up message after a networking conversation.
-
-## Set-Up
-- [ ] Split up into pairs or groups of no more than 3
-- [ ] Set a whole class timer for 20 minutes
-
-## Instructions
-- [ ] Each person drafts a short introduction (who you are, what you're learning, what role you're interested in).
-- [ ] In pairs, practice your introductions with each other.
-- [ ] Ask each other 2–3 networking questions and practice listening and responding naturally.
-- [ ] Write a short follow-up message as if you had just met this person at an event.
-- [ ] Share your follow-up messages with the group and discuss: does it feel natural? Is there anything you would change?
