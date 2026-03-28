@@ -1,4 +1,4 @@
 +++
 title = "Overview of software courses"
-layout = "overview"
+layout = "overview_of_courses"
 +++

@@ -4,12 +4,12 @@
   {{/* timeline of module: prep, sprints, backlog, success
     if there are blocks on this page, pop them in a deselected tab
   */}}
-  {{ $parent := .Section }}
+  {{ $parent := .CurrentSection }}
   {{ if .Params.blocks }}
     {{ partial "module-tabs" . }}
   {{ else }}
     <ol class="c-timeline">
-      {{ range where .Site.Pages "Section" $parent }}
+      {{ range $parent.Pages }}
         {{ if in .Params.menu_level
           "module"
         }}
