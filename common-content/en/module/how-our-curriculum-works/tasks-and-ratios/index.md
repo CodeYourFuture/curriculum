@@ -27,10 +27,10 @@ The basic tasks are:
 
 - [Morning workshop](https://workshops.codeyourfuture.io/) on class day
 - Afternoon study group. You can also do the following tasks during study group, or async online during the week:
-  - [Code review](/prs-needing-review): at least one per learner per sprint
+  - [Code review](/itp/prs-needing-review): at least one per learner per sprint
   - [Step review](https://dashboard.codeyourfuture.io/): one per learner per module
-  - Pair programming: at least one per learner per module
-  - Demo: attend at least one demo by a learner per module
+  - [Pair programming](/guides/pair-programming/): at least one per learner per module
+  - [Demo](/guides/presenting/demoing/): attend at least one demo by a learner per module
 
 There are additional beneficial activities you can support learners with:
 

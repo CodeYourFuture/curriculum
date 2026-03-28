@@ -27,7 +27,7 @@
       line-height: 1;
     }
   }
-  &__description {
+  &__description-animation {
     margin: 0 auto auto 0; // pin top left
     .c-map & {
       position: absolute;
@@ -41,6 +41,17 @@
     @include on-event(false, ".c-map .c-card") {
       animation: text-appear cubic-bezier(0.25, 1.375, 0.25, 1) 0.5s forwards;
     }
+  }
+  &__description-noanimation {
+    margin: 0 auto auto 0; // pin top left
+    .c-map & {
+      position: static;
+      font-size: inherit;
+      opacity: 100%;
+      background-color: transparent;
+      padding: var(--theme-spacing--1);
+    }
+    animation: none;
   }
   &__cta {
     display: flex;

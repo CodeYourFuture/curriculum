@@ -9,7 +9,7 @@
     {{ errorf "You must define a menu in your overview_menu front matter param" }}
   {{ end }}
   {{ if not (index .Site.Menus $overviewMenu) }}
-    {{ errorf "Overview page tried to generate overview for menu %s which is empty" $overviewMenu }}
+    {{ errorf "Overview page at %s tried to generate overview for menu %s which is empty" .Page.Path $overviewMenu }}
   {{ end }}
 
   {{ range index .Site.Menus $overviewMenu }}
@@ -22,7 +22,7 @@
       {{ $moduleTitle := .Page.Params.Title }}
       {{/*  <!-- We lazily show the module title only if there's actual content under it.-->  */}}
       {{ $hasShownModuleTitle := false }}
-      {{ range where $site.Pages "Section" .Page.Section }}
+      {{ range .Page.Pages }}
         {{/* ==========================================
           for each page in each sprint in the module <= this isn't looping over the sprints, it's a level higher
           =============================================

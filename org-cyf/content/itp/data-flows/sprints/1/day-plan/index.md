@@ -1,0 +1,30 @@
++++
+title = 'day-plan'
+layout = 'day-plan'
+menu_level = ['sprint']
+weight = 3
+[[blocks]]
+name="Energiser"
+src="blocks/energiser"
+[[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
+name="Teamwork Project Sprint 1"
+src="blocks/teamwork-project-s1"
+time=50
+[[blocks]]
+name="Usability Workshop"
+src="module/ux/usability-workshop"
+[[blocks]]
+name="Lunch"
+src="blocks/lunch"
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time="150"
+[[blocks]]
+name="Retrospective"
+src="blocks/retro"
++++

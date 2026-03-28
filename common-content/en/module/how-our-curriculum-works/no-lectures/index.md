@@ -14,4 +14,4 @@ We don’t lecture trainees during live sessions. We are not against lectures; i
 
 At {{<our-name>}} we have to _maximise the time we have together_, by working in person on projects, hitting blockers, and learning together. We are not a school. We are a community of professionals coming together to share skills and build real things to help people get real jobs inside one year.
 
-Time is very important at {{<our-name>}}. We try our best to use everyone's time as well as we can. We want to use our time together to help learners with the things they can't do at home: debugging, pair programming, code review, and building projects.
+Time is very important at {{<our-name>}}. We try our best to use everyone's time as well as we can. We want to use our time together to help learners with the things they can't do at home: debugging, pair programming, code review, demos, and building projects.
