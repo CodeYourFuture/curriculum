@@ -30,6 +30,11 @@ from = "/other-schools"
 to = "https://docs.google.com/document/d/1gO2iX0aoKyb3yCKmjhTr2FyKgDhnlzXbe0pdYOBzU_E/edit"
 status = 302
 
+[[redirects]]
+from = "/eligibility-docs"
+to = "https://docs.google.com/document/d/1xyNGdHm2qJL5T3z3iQIk9fO9rzwaTbhG92s-wb0YhT8/edit"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]

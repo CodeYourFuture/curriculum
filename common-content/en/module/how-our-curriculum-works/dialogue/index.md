@@ -18,10 +18,22 @@ We learn best when we ask questions and explore possible answers. Dialogue is a 
 
 #### Code review
 
-- 🧑🏿‍🤝‍🧑🏽 Reviewers on a PR are expected to ask questions and explore the reasoning behind submitted code.
-- 🧑🏿‍🤝‍🧑🏽 PR owners are expected to answer the questions and make revisions to their submitted code.
+- Reviewers on a PR are expected to ask questions and explore the reasoning behind submitted code.
+- PR owners are expected to answer the questions and make revisions to their submitted code.
 
-#### Pair programming
+#### Demos
 
-- 🧑🏿‍🤝‍🧑🏽 Drivers are expected to listen to their navigator and implement their directions
-- 🧑🏿‍🤝‍🧑🏽 Navigators are expected to talk to their drivers and articulate their strategy
+- Presenters are expected to clearly and succinctly explain a topic or project.
+- The audience is expected to give useful constructive feedback.
+
+#### Mentored Pair programming
+
+- Learners are expected to explain their thought processes and understanding
+- Mentors are expected to ask questions and drive learners in the right direction
+
+#### Driver/Navigator Pair programming
+
+- Drivers are expected to listen to their navigator and implement their directions
+- Navigators are expected to talk to their drivers and articulate their strategy
+
+

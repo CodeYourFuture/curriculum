@@ -8,8 +8,8 @@
   <body>
     <a class="c-skip-link e-button" id="skip-link" href="#main">Skip to main</a>
     <div class="l-layout">
-      {{ partialCached "header.html" . }}
-      {{ partialCached "menu.html" . }}
+      {{ partialCached "header.html" . .Section .Title site.Title }}
+      {{ partialCached "menu.html" . site.Menus }}
       <main
         id="main"
         class="l-layout__main l-main"

@@ -93,3 +93,29 @@ Some job boards allow you to create a profile, which is typically similar to you
 Sometimes you can import from your CV but always double check whether it has imported things into the right sections as their import tools can be a bit flakey. You can use the advice in the [CV section](./../cvs) to help you fill out your profile.
 
 Hint: Remember to keep these profiles up to date as you work on projects, gain expertise and learn new skills. Keep a spreadsheet or document in which you know which websites you have signed up for and update them all when something changes.
+
+## Deciding whether to apply
+
+When you have found a job that you think may be a good match, there are a few things to consider as to whether it is right for you.
+
+### Understanding what the company does
+
+Sometimes you will recognise the company you are applying for and it will be clear what they do. Other times it will be less obvious. 
+Even if it is a well known company it is good to do some research to understand the opportunity better. An efficient way to do this
+is to use an LLM to provide a summary of the company. An example prompt could be
+
+**Can you give me a summary of the company XXX, including what is their business model, what are the different products they sell, who owns them and the size and composition of their team.**
+
+but modify it to include the things that you are interested in.
+Important: Make sure you check that the information from the LLM is correct - you can never trust it blindly. 
+### Understanding whether you are suitable
+
+Often the job specification will include essential and optional requirements. Even when the requirements are stated to be essential, there is often flexibility if you meet most but not all of them.
+
+Sometimes job specifications will say that a degree in computer science is necessary, but they will accept a bootcamp course. Sometimes they will say that a particular language is necessary but they will accept experience in a similar language instead. Unfortunately it is impossible to know whether the phrase "or equivalent" has been left out by accident, or intentionally.
+
+It is also important to bear in mind that where a job specification says "strong in X", they mean relative to the role. So if you are applying for a Junior Engineer role and they have "strong in Java", it means that relative to other junior engineers you are strong in Java, not that you are a Java expert as this is not a senior role.
+
+## Organising your job search
+
+In order to stay on top of your search we advise having a system to keep everything organised, as each application process can take several weeks and so it is easy to get details of roles mixed up or forget things. A simple way is to have a spreadsheet which lists the jobs that you have applied for and on which date, and has a link to the CV you tailored to the job, a cover letter and any other application information. You can then create a document for each application which includes your research about the company, as well as any key questions you want to ask in interviews, and anything else important you discover during the application process and add a link to this in the spreadsheet too.
