@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Asking questions</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🧐 Asking questions</h1>
+      <h2>
+        This workshop is on how to ask developer questions as part of problem
+        solving
+      </h2>
+    </header>
+    <main>
+      <h3>🧪 The scientific method</h3>
+      <ol>
+        <li>Make a prediction</li>
+        <li>Test your prediction</li>
+        <li>Update your model</li>
+      </ol>
+      <h3>🎩 Our formal language</h3>
+      <ol>
+        <li>What I <strong>did</strong></li>
+        <li>What I <strong>expected</strong></li>
+        <li>What actually <strong>happened</strong></li>
+      </ol>
+
+      <h2>
+        🤦🏽‍♀️🤦🏿‍♂️🤦🏻 Important: These problems are not meant to trick you or upset you
+      </h2>
+
+      <p>
+        ...But they may feel frustrating at first! You are not expected to know
+        the answers to all these problems. That's why we chose them. They were
+        chosen so that everyone can have (at least one, hopefully more) question
+        you don't know the answer to.
+        <strong
+          >This workshop is on how to ask developer questions as part of problem
+          solving.</strong
+        >
+      </p>
+      <p>
+        The questions stored in the bank are all common blockers. These all
+        expose common, wrong, mental models of HTML and CSS. These are
+        simplified versions of problems that CYF trainees get stuck on for hours
+        (or days) in coursework. Instead of getting frustrated and stuck on your
+        own, let's encounter these collectively and <em>use</em> these blockers
+        to develop our skills in:
+      </p>
+      <ul>
+        <li>Breaking down problems</li>
+        <li>Describing problems to others clearly</li>
+        <li>Using a systematic method of inquiry</li>
+      </ul>
+      <p>
+        Instead of flailing about, randomly trying stuff, attempting to memorise
+        the internet, watching zillions of unrelated tutorials, getting
+        frustrated and quitting coding...or any of the other totally normal,
+        human responses we naturally have to being confounded.
+      </p>
+      <details id="problem-bank" open>
+        <summary><h3>Problem Bank</h3></summary>
+        <p>Use Devtools and look at the code to help you.</p>
+        <ul id="problems" class="problems">
+          <li id="user" class="problem">
+            <p>
+              If you delete all the CSS from the styles.css in the Sources
+              panel, what styles will be applied to this page?
+            </p>
+          </li>
+          <li id="infinite" class="problem">
+            <p>
+              This text has the ruleset
+              <code>ul li.problem:nth-child(2) p { color: red; }</code>
+
+              Why isn't this paragraph red?
+            </p>
+          </li>
+          <li id="fallback" class="problem">
+            <p>What colour is this text?</p>
+          </li>
+          <li id="boolean" class="problem">
+            <p>There's a transition on this text. Why isn't it working?</p>
+          </li>
+          <li id="grid" class="problem">
+            <p>Why <em>isn't</em> this paragraph a grid item?</p>
+          </li>
+          <li id="grid" class="problem">
+            <p>
+              Before running Lighthouse, write down the errors it will give you
+              on this page. Now
+              <a href="https://validator.w3.org/">validate the HTML</a>.
+            </p>
+          </li>
+          <li id="hundred" class="problem">
+            <p>This text is 100% width. 100% of what?</p>
+          </li>
+          <li id="important" class="problem">
+            <p>
+              If you add the rule <code>!important</code> to line 8 of
+              styles.css, what colour will this text be? Why?
+            </p>
+          </li>
+        </ul>
+      </details>
+    </main>
+  </body>
+</html>
