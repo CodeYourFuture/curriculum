@@ -37,9 +37,6 @@ const state = {
   "prs": null,
   "reviewer_filter": "",
   "region_filter": "",
-  "sprint_filter_module": "",
-  "sprint_filter_sprint": "",
-  "sprint_filter_taskname": "",
 }
 
 async function onLoad() {
@@ -49,21 +46,6 @@ async function onLoad() {
 
   render();
   state.prs = (await fetchPrsWithoutLoadingReviews()).filter((pr) => pr.status === "Needs Review");
-
-  // Set up the filter for sprints
-  const sprints = new Set();
-  state.prs.forEach(pr => {
-    sprints.add(`${pr.module} Sprint ${pr.sprint} - ${pr.taskName}`);
-  });
-  const sortedSprints = [...sprints].sort();
-  const sprintFilterElement = document.querySelector("#sprint-filter");
-  for (const sprint of sortedSprints) {
-    const option = document.createElement("option");
-    option.value = sprint;
-    option.innerText = sprint;
-    sprintFilterElement.appendChild(option);
-  }
-
   render();
   await Promise.all(state.prs.map((pr) => pr.loadReviews()));
   render();
@@ -106,9 +88,6 @@ function render() {
   // Filter all the relevant PRs to show, sorted by oldest first
   for (const pr of state.prs) {
     if (state.region_filter && !regionMatches(state.region_filter, pr.title)) {
-      continue;
-    }
-    if (state.sprint_filter_module && (pr.module != state.sprint_filter_module || pr.sprint != state.sprint_filter_sprint || pr.taskName != state.sprint_filter_taskname)){
       continue;
     }
     for (const review of pr.reviews) {
@@ -286,15 +265,3 @@ document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => 
   console.log("Setting filter to " + state.reviewer_filter);
   render();
 });
-const sprintFilterMatch = /(.+) Sprint (\d) - (\w+)/;
-document.querySelector("#sprint-filter").addEventListener("change", (event) => {
-  if(event.target.value){
-    const chosenFilter = event.target.value.match(sprintFilterMatch);
-    state.sprint_filter_module = chosenFilter[1];
-    state.sprint_filter_sprint = chosenFilter[2];
-    state.sprint_filter_taskname = chosenFilter[3];
-  } else {
-    state.sprint_filter_module = state.sprint_filter_sprint = state.sprint_filter_taskname = "";
-  }
-  render();
-})
