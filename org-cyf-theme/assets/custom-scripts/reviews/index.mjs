@@ -171,31 +171,49 @@ function render() {
         .querySelector("template.pr-list")
         .content.cloneNode(true);
       fillWithModuleHeading(modulePrList.querySelector(".module"), module, totalPending);
-      for (const pr of prsByModule[module]) {
-        const prInList = document
-          .querySelector("template.pr-in-list")
-          .content.cloneNode(true);
 
-        const emojiElement = prInList.querySelector(".emoji");
-        if (pr.hasReviewer()) {
-          emojiElement.innerText = "🙋🏾";
-          const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
-          const maybeS = reviewers.length === 1 ? "" : "s";
-          emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
-        } else {
-          emojiElement.innerText = ageToEmoji[pr.updatedAge];
+      const prsBySprint = {};
+      prsByModule[module].forEach(pr => {
+        if(!(pr.sprint in prsBySprint)){
+          prsBySprint[pr.sprint] = [];
         }
+        prsBySprint[pr.sprint].push(pr);
+      });
 
-        const prLink = prInList.querySelector("a.pr-link");
-        prLink.href = pr.url;
-        prLink.innerText = `${pr.title}`;
+      for (const sprint in prsBySprint){
+        const sprintHeading = document.createElement('h3');
+        sprintHeading.innerText = "Sprint " + sprint;
+        modulePrList.querySelector("ul.pr-list").appendChild(sprintHeading);
 
-        const userLink = prInList.querySelector("a.user-link");
-        userLink.href = pr.userUrl;
-        userLink.innerText = `${pr.userName}`;
+        const prsInSprint = prsBySprint[sprint];
+        prsInSprint.sort((a,b) => a.taskName < b.taskName ? -1 : 1);
 
-        prInList.querySelector(".pr-number").innerText = pr.number;
-        modulePrList.querySelector("ul.pr-list").appendChild(prInList);
+        for (const pr of prsInSprint) {
+          const prInList = document
+            .querySelector("template.pr-in-list")
+            .content.cloneNode(true);
+
+          const emojiElement = prInList.querySelector(".emoji");
+          if (pr.hasReviewer()) {
+            emojiElement.innerText = "🙋🏾";
+            const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
+            const maybeS = reviewers.length === 1 ? "" : "s";
+            emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
+          } else {
+            emojiElement.innerText = ageToEmoji[pr.updatedAge];
+          }
+
+          const prLink = prInList.querySelector("a.pr-link");
+          prLink.href = pr.url;
+          prLink.innerText = `${pr.title}`;
+
+          const userLink = prInList.querySelector("a.user-link");
+          userLink.href = pr.userUrl;
+          userLink.innerText = `${pr.userName}`;
+
+          prInList.querySelector(".pr-number").innerText = pr.number;
+          modulePrList.querySelector("ul.pr-list").appendChild(prInList);
+        }
       }
       document.querySelector("#pr-list").appendChild(modulePrList);
     }

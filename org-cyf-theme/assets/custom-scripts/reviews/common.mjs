@@ -17,7 +17,7 @@ const apiPrefix = "https://github-issue-proxy.hosting.codeyourfuture.io/cached/2
 
 // PR Title format is 1 Location 2 Cohort 3 Name 4 Sprint # 5 taskname
 const prTitleParse = new RegExp(/.+\|.+\|.+\|[\D]+?(\d)\s*\|\s*(.+)/i);
-const prTaskNameCleaner = new RegExp(/\W|sprint/gi);
+const prTaskNameCleaner = new RegExp(/\W|sprints?|courseworks?|exercises?|tasks?/gi);
 
 class PR {
     // status: one of: "Needs Review", "Reviewed", "Complete", "Closed", "Unknown"
@@ -35,10 +35,12 @@ class PR {
         this.reviews = [];
         try {
             const parsedTitle = title.match(prTitleParse);
-            this.sprint = parsedTitle[1];
+            this.sprint = parseInt(parsedTitle[1]);
             this.taskName = parsedTitle[2].toLowerCase().replaceAll(prTaskNameCleaner, "");
         } catch (e) {
             console.warn("failed to properly parse ", this.title, this.url);
+            this.sprint = 'unknown';
+            this.taskName = 'unknown';
         }
     }
 
