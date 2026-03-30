@@ -16,6 +16,62 @@ Attendees:
 ### ❗Actions
 
 ---
+
+## 2026-03-24
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Poonam Rajput
+
+### ❗Actions from last time
+
+- [ ] (After this ITP finishes): (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [x] Daniel: (Carry Over) Experiment with seeing how hard it is to fold the curriculum into one site (but without committing to actually do so)
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [~] Anna: Look into updating imported content with reference to where it is imported to
+
+### 📝 Agenda points
+
+#### Onboarding module overhaul
+
+The onboarding module probably doesn't make the best use of the first 3-4 weeks of the course. It doesn't really teach much new, and isn't a great indicator for "Will you succeed at ITP beyond what you did in ITD" (but we use it to gate enrolment).
+
+Do we want to change what's in this module?
+
+Colin has been mapping what gaps we see in the curriculum, and is hoping to use that to help guide any changes.
+
+Also, maybe some things could be pulled back to ITD?
+
+Everyone: Please give some thought to what you may want in the Onboarding module.
+
+Some big gaps in ITP at the moment:
+* Proper testing
+* SQL
+
+CYF Staff are having an in-person get-together on April 20th - people are welcome to come join if useful, but if you can't, please share any thoughts/feedback in the next curriculum meeting.
+
+#### Merging all of the curriculum sites
+
+We should do it. Daniel will.
+
+We should make sure we have a Slack thread / GitHub issue for all of the broken links we will eventually have.
+
+Could also be useful to get a dump of all of our DNS entries for audit.
+
+#### Curriculum repo merging
+
+We discussed all of the repos listed in https://docs.google.com/document/d/1lNlPgClo1gkW_j6kW4pf6HUivCiRkqa6XrR5tVcHF7A/edit - we decided on actions left as comments on that doc. Daniel and Anna will action.
+
+### ❗Actions
+
+- [ ] Everyone: Think about what the Onboarding module should look like. Share thoughts in next meeting (and come join us in person on April 20th if you can!)
+- [ ] (After this ITP finishes): (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] Daniel: Merge all the curricula
+- [ ] Anna: Move all of the CYF-Workshops into the curriculum
+
 ---
 
 ## 2026-03-10

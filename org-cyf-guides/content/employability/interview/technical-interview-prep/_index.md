@@ -145,7 +145,7 @@ Here's an example of how you might talk aloud for our example problem:
 >
 > Ok, so I know I can use `String.replace` to get rid of the punctuation, as long as I know what characters are punctuation... But I'm not sure how to work out which characters are punctuation.
 
-At which point your interviewer may say something like "Let's assume there's no punctuation" (because they're not interested in that part), or "assume you can call a function called `stripPunctuation()`" (because they know we use libraries for lots of things, and this isn't what they want to focucs on), or they may give you a hint, like "could we use a regular expression to find all of the characters that _aren't_ letters or whitespace?". But **if the interviewer doesn't know what you're thinking, they can't help** - and they want to help.
+At which point your interviewer may say something like "Let's assume there's no punctuation" (because they're not interested in that part), or "assume you can call a function called `stripPunctuation()`" (because they know we use libraries for lots of things, and this isn't what they want to focus on), or they may give you a hint, like "could we use a regular expression to find all of the characters that _aren't_ letters or whitespace?". But **if the interviewer doesn't know what you're thinking, they can't help** - and they want to help.
 
 > [!TIP]
 >

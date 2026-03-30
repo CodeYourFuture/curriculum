@@ -24,7 +24,7 @@ The curriculum content is developed in the Hugo module [/common-content](/common
 
 ## About the curriculum platform
 
-Our self-developed curriculum platform is called Common. It is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/) and [Decap CMS](https://decapcms.org/).
+Our self-developed curriculum platform is called Common. It is a white label multi-tenant platform for us and our code school friends to use to manage our curricula. It's built on top of [Hugo](https://gohugo.io/).
 
 The platform, layout, styles and components are all developed in the Hugo module [/common-theme](/common-theme).
 
@@ -37,12 +37,7 @@ Each org or team configures its own Hugo site that mounts the common theme and c
 ## Examples
 
 - https://curriculum.codeyourfuture.io/
-- https://programming.codeyourfuture.io/
-- https://curriculum.codeyourfuture.io/guides/
-- https://workshops.codeyourfuture.io/
-- https://piscine.codeyourfuture.io/
-- https://sdc.codeyourfuture.io/
-- https://curriculum.migracode.org/
+- https://migracode-sdc.netlify.app/
 
 ## Contributing
 
