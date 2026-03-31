@@ -56,3 +56,19 @@ These are some criteria we will be using to assess your demo. You must meet 5 of
   <dt>Stick to your time limit.</dt><dd>You should know how long you have for your demo, and stick to that time. You will be given a warning when you're running low on time.</dd>
   <dt>(Stretch goal): Ask questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". The point of this is to engage the audience and get them thinking/caring about the demo. The question should generally be rhetorical - you don't have time to wait for answers.</dd>
 </dl>
+
+
+## Example topics
+
+Below are some examples of topics you could give a demo on. You aren't limited to things on this list, if you have another idea then you can give your demo on that!
+
+- One feature of your project
+- A bug you encountered
+- A way in which you refactored some code
+- A new concept you learned about
+- How you tested your code
+- Planning your project
+- The project management tools you used 
+- Managing your Git workflow
+- A challenge you encountered during the project
+- How you incorporated feedback from a previous project into this one 
