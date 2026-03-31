@@ -88,7 +88,7 @@ Things you might give feedback on:
 
 1. **Stay constructive**
 
-   Feedback is always here to help people grow. It might grow their confidence by highlighting what went well, or grow their skill by suggesting areas to improve. Regardless of what the feedback is about, it is always with the goal of improving our peers.
+   Whilst it feels nice to just focus on the good bits of a demo, a presenter does need to know what could've been better. To help keep your feedback "constructive" think about "What would I have done differently?" as well as the usual question of "What did they do well?". This should help give you some key points that they can fold into their demo for next time.
 
 1. **Use "I" statements**
 
@@ -96,7 +96,7 @@ Things you might give feedback on:
 
 1. **Highlight what went well!**
 
-   Specific praise helps good behaviour become repeatable — and we often don't realise what we're doing well until it is named.
+   Specific praise helps good behaviour become repeatable — and we often don't realise what we're doing well until it is named by the people around us.
 
 1. **Keep your comments easy to understand**
 
