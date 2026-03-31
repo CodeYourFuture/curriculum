@@ -21,7 +21,9 @@ At {{<our-name>}} we expect you to demo your work to the class. You must have ma
 
 You will demo something about your project work this sprint to the group.
 
-You will have 2 minutes to explain what you did and why. It's ok to show broken code or code that doesn't work yet. Just make sure your demo is interesting.
+You will have 2 minutes to explain what you did and why. Your demo will be assessed according to the rubric below.
+
+Make sure you are comfortable with the tools you use to present your work. If you are giving a demo in-person you will connect your laptop to a screen/projector and present to the room. If you are giving a demo online you will share your screen on the call.
 
 ### 2. Feedback {{<timer>}}3{{</timer>}}
 
