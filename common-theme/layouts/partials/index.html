@@ -8,18 +8,21 @@
     {{ . }}
     </section>
 {{ end }}
+
+{{ $animation := default true .Page.Params.animation }}
+
 {{ if .Params.menus_to_map }}
-    {{ partial "map-menu.html" .Params.menus_to_map }}
+    {{ partial "map-menu.html" (dict "menus_to_map" .Params.menus_to_map "menu_prefix_to_strip" (default "" .Page.Params.menu_prefix_to_strip) "animation" $animation) }}
 {{ else if .Params.map }}
     {{ partial "map.html" . }}
 {{ else if .Params.menus_to_map_for_courses }}
     {{ partial "map-menu-for-courses.html" .Params.menus_to_map_for_courses }}
 {{ else if .Params.taxonomy_to_map }}
-    {{ partial "map-taxonomy.html" .Params.taxonomy_to_map }}
+    {{ partial "map-taxonomy.html" (dict "taxonomy_to_map" .Params.taxonomy_to_map "section" .Page.Section "animation" $animation ) }}
 {{ else }}
     <ol class="c-timeline c-timeline--card">
     {{- range site.Menus.syllabus }}
-        <li class="c-timeline__entry">{{ partial "card.html" . }}</li>
+        <li class="c-timeline__entry">{{ partial "card.html" (dict "module" . "animation" $animation) }}</li>
     {{- end }}
     </ol>
 {{ end }}

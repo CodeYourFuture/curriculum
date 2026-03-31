@@ -1,7 +1,7 @@
 name="Software Development"
 code="sdc"
 emoji="🧑🏾‍🔧"
-url="https://sdc.codeyourfuture.io/"
+url="/sdc/"
 menu="trainees"
 weight=4
 description="A secure grounding in software: binary, logic, systems, and problem solving"

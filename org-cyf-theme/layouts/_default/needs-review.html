@@ -54,7 +54,7 @@
   {{ range $module := .Params.GitHubRepos }}
     {{ $wrappedModules = printf "%s\"%s\"," $wrappedModules $module }}
   {{ end }}
-  {{ $modules := resources.FromString "pr-modules" (printf "const modules = [%s];" $wrappedModules) }}
+  {{ $modules := resources.FromString (printf "%spr-modules" .Page.RelPermalink) (printf "const modules = [%s];" $wrappedModules) }}
   {{ $common := resources.Get "custom-scripts/reviews/common.mjs" }}
   {{ $reviews := resources.Get "custom-scripts/reviews/index.mjs" }}
   <script type="text/javascript" src="{{ $modules.RelPermalink }}"></script>
