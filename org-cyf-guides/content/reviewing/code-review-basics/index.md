@@ -8,11 +8,6 @@ objectives=[
     "Apply constructive feedback in code reviews",
     "Review AI-generated code critically"
 ]
-[build]
-  render = 'never'
-  list = 'local'
-  publishResources = false
-
 +++
 
 # Code Review Basics
