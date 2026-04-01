@@ -9,18 +9,17 @@
     var(--theme-spacing--4);
   overflow-y: auto;
   counter-reset: item;
-  position: relative;
-
   // Gradient fade at bottom to indicate scrollable content (closes #1799)
   &::after {
     content: "";
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    left: 0;
-    right: 0;
+    display: block;
     height: 2em;
+    margin-top: -2em;
     background: linear-gradient(transparent, var(--theme-color--paper));
     pointer-events: none;
+    flex-shrink: 0;
   }
 
   ol {
