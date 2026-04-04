@@ -20,7 +20,7 @@ src="blocks/morning-break"
 time=20
 [[blocks]]
 name="Debugging"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/debugging"
+src="workshops/debugging"
 time=60
 [[blocks]]
 name="lunch"
