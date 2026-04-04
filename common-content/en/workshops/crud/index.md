@@ -18,7 +18,7 @@ Today we will build a CRUD API. CRUD stands for *C*reate, *R*etrieve,* U*pdate, 
 *U*pdate them
 *D*elete them
 
-Make sure you have [a clone of the CYF Curriculum](https://github.com/CodeYourFuture/curriculum) repository on your local machine before starting. The content for this workshop can be found in the `/org-cyf/static/workshops/crud/` subdirectory, including the `server.js` file mentioned below and the associated files required to run the app.
+Make sure you have [a clone of the workshop code repo](https://github.com/Ara225/workshop-code) repository on your local machine before starting. The content for this workshop can be found in the `crud` subdirectory, including the `server.js` file mentioned below and the associated files required to run the app.
 
 ### 🎯 Workshop Objective
 
