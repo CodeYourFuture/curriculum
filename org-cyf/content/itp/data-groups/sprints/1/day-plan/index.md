@@ -12,7 +12,7 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="Giving Feedback"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/feedback"
+src="workshops/feedback"
 time=60
 [[blocks]]
 name="Morning break"
