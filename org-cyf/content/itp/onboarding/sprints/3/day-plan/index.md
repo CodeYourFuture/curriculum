@@ -19,7 +19,7 @@ src="workshops/devtools/"
 time="115"
 [[blocks]]
 name="Workshop: Interview Introductions"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interview-introductions/"
+src="workshops/interview-introductions/"
 time="30"
 [[blocks]]
 name="lunch"
