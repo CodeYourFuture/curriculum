@@ -20,7 +20,7 @@ src="blocks/morning-break"
 time=20
 [[blocks]]
 name="Interviewing practice"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interviewing"
+src="workshops/interviewing"
 time=60
 [[blocks]]
 name="lunch"
