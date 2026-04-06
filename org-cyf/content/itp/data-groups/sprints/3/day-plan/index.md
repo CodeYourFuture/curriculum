@@ -12,7 +12,7 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="DOM merge conflict"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/dom-merge-conflict"
+src="workshops/dom-merge-conflict"
 time=60
 [[blocks]]
 name="Morning break"
