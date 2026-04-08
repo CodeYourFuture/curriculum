@@ -36,7 +36,7 @@ to = "https://docs.google.com/document/d/1xyNGdHm2qJL5T3z3iQIk9fO9rzwaTbhG92s-wb
 status = 302
 
 [[redirects]]
-from = "/how-is-income-defined-docs"
+from = "/eligibility-docs/how-is-income-defined"
 to = "https://docs.google.com/document/d/1kZajo6tnEkHz_KPycPxK0rWyPJezjPNte_q9GF4VVV4/edit?tab=t.0#heading=h.54j2vkidmpne"
 status = 302
 
@@ -46,7 +46,7 @@ to = "https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqL
 status = 302
 
 [[redirects]]
-from = "/how-is-distance-defined-docs"
+from = "/eligibility-docs/how-is-distance-defined"
 to = "https://docs.google.com/document/d/1fENlfajRRTQbxkv5FOvEozs0tu2iRhjRC5VUlpKZVpE/edit?tab=t.0#heading=h.x52toiidficj"
 status = 302
 
