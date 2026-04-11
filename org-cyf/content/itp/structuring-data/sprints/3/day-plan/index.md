@@ -13,7 +13,7 @@ src="energisers/introduce-yourself"
 time=20
 [[blocks]]
 name="Workshop:Playing Computer"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer"
+src="workshops/playing-computer"
 time=65
 [[blocks]]
 name="Morning break"
