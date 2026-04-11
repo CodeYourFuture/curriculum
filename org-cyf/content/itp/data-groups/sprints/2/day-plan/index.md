@@ -12,7 +12,7 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="Objects"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/objects"
+src="workshops/objects"
 time=60
 [[blocks]]
 name="Morning break"
