@@ -35,25 +35,38 @@ This workshop will show you:
 
 ### Exercise: Map the Branch Structure
 
-Look at these two diagrams of a repository.
+Look at this diagram of a repository:
 
-**Diagram 1: Clean branch structure**
-
+```mermaid
+gitGraph
+   commit id: "A"
+   commit id: "B"
+   commit id: "C"
+   commit id: "D"
+   commit id: "F"
+   branch topic-1
+   checkout topic-1
+   commit id: "E"
 ```
-main:      A--B--C--D--F
-                            \
-topic-1:                 E
-```
 
-**Diagram 2: Problem - topic-2 was branched from topic-1, not main**
+And this PR that was submitted:
 
-```
-main:      A--B--C--D--F
-                            \
-topic-1:                 E--G--H
-                                  \
-topic-2:                    (branched from topic-1, not main)
-                                  I--J
+```mermaid
+gitGraph
+   commit id: "A"
+   commit id: "B"
+   commit id: "C"
+   commit id: "D"
+   commit id: "F"
+   branch topic-1
+   checkout topic-1
+   commit id: "E"
+   commit id: "G"
+   commit id: "H"
+   branch topic-2
+   checkout topic-2
+   commit id: "I"
+   commit id: "J"
 ```
 
 **Task:** In your own words, answer these questions:
