@@ -20,6 +20,8 @@ This workshop addresses a problem we see regularly: trainees submit PRs that con
 
 Before this workshop, make sure you have completed [Using GitHub](../using-github) and read the [Trainee PR Guide](../../guides/reviewing/trainee-pr-guide).
 
+Also look at the [branching notes in the Onboarding module](https://curriculum.codeyourfuture.io/itp/onboarding/sprints/1/prep/#branching) for a visual guide to creating branches.
+
 ## The Core Problem
 
 When you submit coursework, each piece should come from its own branch. If you make two pieces of coursework on the same branch, your PR for coursework B will also contain all the commits from coursework A. This makes it impossible to review and merge them separately.
@@ -35,7 +37,9 @@ This workshop will show you:
 
 ### Exercise: Map the Branch Structure
 
-Look at this diagram of a repository:
+Look at these two diagrams of a repository.
+
+**Diagram 1: Clean branch structure**
 
 ```mermaid
 gitGraph
@@ -49,7 +53,7 @@ gitGraph
    commit id: "E"
 ```
 
-And this PR that was submitted:
+**Diagram 2: Problem - topic-2 was branched from topic-1, not main**
 
 ```mermaid
 gitGraph
@@ -87,6 +91,8 @@ Share your answers with your group.
 Your trainer will share a link to a practice repository. For this exercise, you will complete two separate pieces of coursework on two separate branches.
 
 **Important:** Each branch must be created from `main`, not from the other branch.
+
+These steps use the terminal. If you prefer, you can do this in VSCode using the Source Control panel instead -- the concepts are the same, only the interface is different.
 
 **Step 1: Branch for Coursework 1**
 
