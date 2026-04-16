@@ -35,30 +35,32 @@ This workshop will show you:
 
 ### Exercise: Map the Branch Structure
 
-Look at this diagram of a repository:
+Look at these two diagrams of a repository.
+
+**Diagram 1: Clean branch structure**
 
 ```
-main:     A -- B -- C -- D -- F
-                        \
-topic-1:               E
+main:      A--B--C--D--F
+                            \
+topic-1:                 E
 ```
 
-And this PR that was submitted:
+**Diagram 2: Problem - topic-2 was branched from topic-1, not main**
 
 ```
-main:     A -- B -- C -- D -- F
-                        \
-topic-1:               E -- G -- H
-                              \
-topic-2:                  (topic-2 was never branched from main)
-                              G -- H -- I -- J
+main:      A--B--C--D--F
+                            \
+topic-1:                 E--G--H
+                                  \
+topic-2:                    (branched from topic-1, not main)
+                                  I--J
 ```
 
 **Task:** In your own words, answer these questions:
 
-1. Which commits belong to topic-1?
-2. If topic-2 was supposed to be a separate piece of work, what went wrong?
-3. If you submitted a PR for topic-2, what would it contain?
+1. In Diagram 1, which commits belong to topic-1?
+2. In Diagram 2, what went wrong with topic-2?
+3. If you submitted a PR for topic-2 from Diagram 2, what would it contain?
 4. What should topic-2 have been branched from?
 
 Share your answers with your group.
@@ -82,9 +84,9 @@ Your trainer will share a link to a practice repository. For this exercise, you 
 
 **Step 2: Verify your branch is clean**
 
-Before you make any more commits, check what commits are on your branch:
+Before you make any more commits, check what commits are on your branch. In your terminal, run:
 
-```
+```bash
 git log main..HEAD
 ```
 
@@ -92,9 +94,9 @@ This shows commits on your branch that are not on main. If it shows more than th
 
 **Step 3: Create Branch for Coursework 2**
 
-Now create a second branch, also from `main`:
+Now create a second branch, also from `main`. In your terminal:
 
-```
+```bash
 git checkout main
 git pull origin main
 git checkout -b cw2
@@ -104,9 +106,9 @@ Make a different change, commit it, push `cw2`.
 
 **Step 4: Verify cw2 is separate**
 
-Check the log for cw2:
+Check the log for cw2. In your terminal:
 
-```
+```bash
 git log main..HEAD
 ```
 
@@ -125,7 +127,7 @@ Your trainer will share a link to a PR that has a problem. This PR contains comm
 Use the GitHub interface to answer these questions:
 
 1. How many commits does this PR contain?
-2. Look at the commit list -- are there any commits that don't belong to this piece of work?
+2. Look at the commit list. Are there any commits that do not belong to this piece of work?
 3. Can you identify which branch these extra commits came from?
 4. How would you fix this?
 
@@ -133,11 +135,12 @@ Use the GitHub interface to answer these questions:
 
 - Click on the commits tab to see the full list
 - Click on individual commits to see what changed
-- Look for commits with messages that don't match the coursework description
+- Look for commits with messages that do not match the coursework description
 
 ### Discussion (5 minutes)
 
-As a group:
+As a group, discuss:
+
 - What was the problem in this PR?
 - How would you avoid making the same mistake?
 - What command would you run locally to check your PR before submitting?
@@ -146,8 +149,8 @@ As a group:
 
 ## Key Takeaways
 
-- **Every piece of coursework = its own branch, branched from `main`**
+- **Every piece of coursework gets its own branch, branched from `main`**
 - If you need to start new coursework while waiting for a review, always branch from `main`, not from your current work
 - `git log main..HEAD` tells you exactly what commits are on your branch and not on `main`
-- Before submitting a PR, check the commits tab -- does every commit belong to this piece of work?
+- Before submitting a PR, check the commits tab. Does every commit belong to this piece of work?
 - If your PR has extra commits, the fix is: create a new branch from `main`, cherry-pick only the right commits, submit a new PR
