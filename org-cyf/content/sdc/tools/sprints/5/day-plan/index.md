@@ -8,7 +8,7 @@ name = "Morning orientation"
 src = "blocks/morning-orientation"
 [[blocks]]
 name = "TypeScript Workshop"
-src = "blocks/coming-soon"
+src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introduction-to-typescript"
 time = "90"
 [[blocks]]
 name = "Morning break"
