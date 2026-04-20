@@ -8,7 +8,7 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=10
 [[blocks]]
-name="Energiser: Popcorn"
+name="Screen Safari"
 src="energisers/popcorn-screen-share"
 [[blocks]]
 name="Problem Solving Workshop"
