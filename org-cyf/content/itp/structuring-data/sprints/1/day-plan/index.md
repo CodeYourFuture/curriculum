@@ -18,7 +18,7 @@ time=65
 name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
-name="Another Asking Questions Workshop"
+name="Asking Good Technical Questions"
 src="blocks/asking-good-technical-questions"
 time=70
 [[blocks]]
