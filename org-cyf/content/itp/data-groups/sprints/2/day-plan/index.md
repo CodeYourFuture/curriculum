@@ -26,13 +26,9 @@ time=60
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Demo Q&A Practice"
-src="blocks/demo-qa"
-time="60"
-[[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="90"
+time="150"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
