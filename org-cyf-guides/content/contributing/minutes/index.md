@@ -893,7 +893,7 @@ Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, 
 
 CJ has been looking into how we can set up a skeleton project structure for ITP exercises. This should encourage trainees to write tests for their logic that doesn't depend on the DOM, and ideally utilise ES Modules. We would like trainees to decouple the DOM and their app's logic, without getting bogged down in teaching sophisticated design jargon. May need to be split into different ITP modules to provide a gentle introduction to different concepts.
 
-The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
+The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/Checkpoint/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
 
 #### AI in ITD (Step Two)
 

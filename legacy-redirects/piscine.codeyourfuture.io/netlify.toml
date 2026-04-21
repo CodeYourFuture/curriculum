@@ -5,5 +5,5 @@ status = 302
 
 [[redirects]]
 from = "/*"
-to = "https://curriculum.codeyourfuture.io/piscine/:splat"
+to = "https://curriculum.codeyourfuture.io/checkpoint/:splat"
 status = 302
