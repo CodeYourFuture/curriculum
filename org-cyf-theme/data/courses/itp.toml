@@ -1,7 +1,7 @@
 name = "Intro to Programming"
 code = "itp"
 weight = 2
-menu = "start here"
+menu = "Intro Courses"
 url = "/itp/"
 description = "Programming with JavaScript, Python, and SQL; collaborate to deliver working software with tests"
 emoji = "🐣"

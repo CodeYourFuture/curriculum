@@ -1,6 +1,6 @@
 name = "The Launch"
 code = "launch"
-menu = "trainees"
+menu = "Advanced Courses"
 weight = 5
 url = "/launch/"
 description = "In a cross functional Agile team, develop and deliver a real product."
