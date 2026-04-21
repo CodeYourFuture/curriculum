@@ -52,7 +52,7 @@ You will use [GitHub](https://github.com/signup) to store your code and to colla
 
 ### LinkedIn
 
-Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
+Sign up for [LinkedIn](https://www.linkedin.com/). LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
@@ -90,12 +90,12 @@ Use your professional Chrome profile for all your {{<our-name>}} work. You will 
 
 ### VSCode
 
-We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a professional IDE you will use on this course and at work.
+We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a customisable text editor you will use on this course and at work. If you are new to using tools like VSCode there are [video resources](https://www.youtube.com/watch?v=B-s71n0dHUk) which can help you familiarise yourself with the interface.
 
 - [ ] I have downloaded and installed [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Zoom
 
-Usually we use [Meet](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/google-meet-for-beginners/overview.html), but sometimes we use [Zoom for remote sessions](https://zoom.us/download). Install it now.
+Usually we use [Meet](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/google-meet-for-beginners/overview.html), but sometimes we use [Zoom for remote sessions](https://zoom.us/download). If you are using a library computer you can use the web version, if you are using your own computer you should install it now.
 
 - [ ] I have downloaded and installed [Zoom](https://zoom.us/download) onto my computer.
