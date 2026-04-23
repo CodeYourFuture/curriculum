@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ $page := .Page }}
   {{ $currentPath := .Page.RelPermalink }}
   {{ $backlog_filter := .Page.Params.backlog_filter }}
   {{ $repos := .Page.Params.backlog }}
@@ -48,6 +49,7 @@
         {{ end }}
       {{ end }}
     {{ end }}
+    {{ $page.Scratch.Set "backlog-tasks" (dict "setup" $setupTasks "recurring" $recurringTasks "mandatory" $mandatoryTasks "optional" $optionalTasks) }}
     {{ if lt 0 ($setupTasks | len) }}
       <h2>Start Here</h2>
       <p>These tasks should be completed before attempting anything else.</p>
