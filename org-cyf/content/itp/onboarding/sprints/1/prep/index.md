@@ -11,10 +11,6 @@ name="Install VS Code"
 src="module/induction/install-vscode"
 time=10
 [[blocks]]
-name="Check Git"
-src="module/induction/check-git-installation"
-time=5
-[[blocks]]
 name="Create CYF Folder"
 src="module/induction/cyf-folder"
 time=5
@@ -30,18 +26,6 @@ time=15
 name="Set up Planner"
 src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
 time=30
-[[blocks]]
-name="CYF Blog"
-src="module/induction/cyf-blog"
-[[blocks]]
-name="Development Process"
-src="module/induction/development-process"
-[[blocks]]
-name="Version Control"
-src="module/induction/version-control"
-[[blocks]]
-name="Sharing History"
-src="module/induction/sharing-history"
 [[blocks]]
 name="Explore"
 src="module/induction/checkout-a-commit"

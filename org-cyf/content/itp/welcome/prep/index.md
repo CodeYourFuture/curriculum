@@ -29,4 +29,20 @@ src="module/induction/accounts"
 [[blocks]]
 name="House Rules"
 src="blocks/house-rules"
+[[blocks]]
+name="Check Git Installation"
+src="module/induction/check-git-installation"
+time=5
+[[blocks]]
+name="CYF Blog"
+src="module/induction/cyf-blog"
+[[blocks]]
+name="Development Process"
+src="module/induction/development-process"
+[[blocks]]
+name="Version Control"
+src="module/induction/version-control"
+[[blocks]]
+name="Sharing History"
+src="module/induction/sharing-history"
 +++
