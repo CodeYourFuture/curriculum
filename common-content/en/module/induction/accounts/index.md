@@ -79,8 +79,6 @@ See this example fully filled-in Slack profile - make sure yours has at least th
 
 ## Applications
 
-If you're working on a library computer, you can't download these applications. You will use [GitHub Dev](https://github.dev/) to complete coursework instead.
-
 ### Google Chrome
 
 - [ ] I have downloaded and installed Google Chrome.

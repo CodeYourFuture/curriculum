@@ -7,9 +7,6 @@ weight = 1
 name="Do the prep"
 src="module/onboarding/do-the-prep"
 [[blocks]]
-name="GitHub Dot Dev"
-src="module/induction/dot-dev"
-[[blocks]]
 name="Install VS Code"
 src="module/induction/install-vscode"
 time=10
