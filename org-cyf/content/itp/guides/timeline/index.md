@@ -46,6 +46,6 @@ Week 1: you have logged in to the dashboard to see your list of learners and wel
 
 ## 🎁 Wrapping up: Weeks 14, 15, 16
 
-🐟 Week 14: You are reviewing and approving final step submissions. Trainees going for [the Piscine](/piscine/) have applied.  
+🐟 Week 14: You are reviewing and approving final step submissions. Trainees going for [the Checkpoint](/checkpoint/) have applied.  
 👣 Week 15: Trainees who have fallen behind by less than 1 module have caught up and completed. You are wrapping up and supporting trainees to take their next steps.  
 🎉 Week 16 : This course has completed. 100% of learners have completed or withdrawn. Have a party.

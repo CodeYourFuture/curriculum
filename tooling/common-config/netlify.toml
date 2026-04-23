@@ -51,6 +51,11 @@ to = "https://docs.google.com/document/d/1fENlfajRRTQbxkv5FOvEozs0tu2iRhjRC5VUlp
 status = 302
 
 [[redirects]]
+from = "/piscine"
+to = "/checkpoint"
+status = 302
+
+[[redirects]]
 from = "/trainee-expenses-docs"
 to = "https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.7pmxr8snfzh5"
 status = 302
