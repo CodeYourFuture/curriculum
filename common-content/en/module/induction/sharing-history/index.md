@@ -24,15 +24,13 @@ By storing projects on GitHub, multiple users can gain access to the history of 
 On GitHub we call our project and its history a **repository**.
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 1.3">}}
-
-### Explore 🔍
+{{<note type="exercise" title="Exercise - Exploring a Repository">}}
 
 In this exercise, you'll need to explore a **GitHub repository.**
 
 You'll need to look around and figure out where to find different files and find out information about them.
 
-**⚠️ You won't be expected to know what the files do at this stage.**
+**You won't be expected to know what the files do at this stage.**
 
 Go to the following link: https://github.com/CodeYourFuture/education-blog
 
@@ -51,9 +49,7 @@ You'll learn more about these type of files throughout the course.
 
 We can use the Github interface to explore the different **commits** (versions) of a project too.
 
-{{<note type="exercise" title="Exercise 1.4">}}
-
-### Explore 🔍
+{{<note type="exercise" title="Exercise - Exploring a Commit">}}
 
 Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main
 
@@ -65,9 +61,7 @@ Go to the commit that says "add test p element to index page" and try answering 
 
 {{</note>}}
 
-{{<note type="exercise" title="Exercise 1.5">}}
-
-### Explore 🔍
+{{<note type="exercise" title="Exercise - Finding a Commit">}}
 
 Go to the following link: https://github.com/CodeYourFuture/education-blog/commits/main and locate commit that says "remove \ and # from start of paragraph"
 
