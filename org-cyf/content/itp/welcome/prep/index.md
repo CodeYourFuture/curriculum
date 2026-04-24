@@ -30,6 +30,9 @@ src="module/induction/accounts"
 name="House Rules"
 src="blocks/house-rules"
 [[blocks]]
+name="Create CYF Folder"
+src="module/induction/cyf-folder"
+[[blocks]]
 name="Check Git Installation"
 src="module/induction/check-git-installation"
 time=5

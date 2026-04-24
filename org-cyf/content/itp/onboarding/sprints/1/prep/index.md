@@ -7,26 +7,6 @@ weight = 1
 name="Do the prep"
 src="module/onboarding/do-the-prep"
 [[blocks]]
-name="Install VS Code"
-src="module/induction/install-vscode"
-time=10
-[[blocks]]
-name="Create CYF Folder"
-src="module/induction/cyf-folder"
-time=5
-[[blocks]]
-name="Fork your Planner"
-src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
-time=5
-[[blocks]]
-name="Make your Planning Board"
-src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
-time=15
-[[blocks]]
-name="Set up Planner"
-src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
-time=30
-[[blocks]]
 name="Explore"
 src="module/induction/checkout-a-commit"
 [[blocks]]
@@ -45,9 +25,26 @@ src="module/induction/viewing-files"
 name="Branching"
 src="module/induction/branching"
 [[blocks]]
-name="Wrapping up Git"
-src="module/induction/wrapping-up"
+name="Merging"
+src="module/onboarding/git/merging"
+[[blocks]]
+name="Undoing a Commit"
+src="module/onboarding/git/undoing-a-commit"
+[[blocks]]
+name="Ignoring Files"
+src="module/onboarding/git/ignoring-files"
+[[blocks]]
+name="Fork your Planner"
+src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
+time=5
+[[blocks]]
+name="Make your Planning Board"
+src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
 time=15
+[[blocks]]
+name="Set up Planner"
+src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
+time=30
 [[blocks]]
 name="Forms in 25 minutes"
 title="Form building"
