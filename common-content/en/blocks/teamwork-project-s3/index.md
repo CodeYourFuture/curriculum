@@ -14,6 +14,7 @@ publishResources = false
 {{<tabs name="Teamwork Project Sprint 3" >}}
 
 ===[[👉🏽 PD Session]]===
+⏱️ **Time:** 15 minutes
 
 ### Preparation
 
@@ -63,12 +64,13 @@ However, we cannot deliver everything at once. And we also cannot plan every det
 </div>
 This process is often called User Journey Mapping or Story Mapping. Because we cannot deliver everything at once, we must prioritize must-have features first.
 
-===[[🧩 1) What questions should we ask to identify what was built?]]===
+===[[🧩 1) What questions should we ask to understand what we need to build?]]===
 
-### What questions should we ask to identify what was built?
+### What questions should we ask to understand what we need to build?
 
+⏱️ **Time:** 15 minutes
 
-🎯 Goal: To understand the requirements of building a library(5 minutes)
+🎯 Goal: To understand the requirements of building a library
 
 Let’s assume we have been asked to build a library website that allows you to borrow books. 
 
@@ -80,7 +82,9 @@ Instructions
 - Focus is on the questions, not the answers!
 
 ===[[🧩 Exercise 2: What features should this website have?]]===
-🎯 Goal: Learn how to break down a broad product into specific features (10 minutes)
+⏱️ **Time:** 10 minutes
+
+🎯 Goal: Learn how to break down a broad product into specific features
 
 Scenario: Assume we have answers to our product questions. Our goal is to build a website with a catalogue of books that can be borrowed online.
 
@@ -91,6 +95,8 @@ In small groups, identify the main features you would expect on this website.
 Examples: book search, shopping cart, user accounts.
 
 One person from each group shares the group's thoughts with the class.
+
+☕ **15 minute break**
 
 ===[[🧩 Exercise 3: User Stories]]===
 ⏱️ Time: 15 minutes
@@ -114,24 +120,46 @@ Example (Shopping Cart):
 Group representatives volunteer to share their stories with the class.
 
 ===[[🧩 Exercise 4: Task Breakdown]]===
-⏱️ Time: 15 minutes
+⏱️ **Time:** 15 minutes
 
-🎯 Goal: Understand technical tasks and dependencies
+🎯 Goal: Understand how to break a user story into technical tasks and map dependencies between them
 
-Instructions
+### Instructions
 
-In your groups, choose one user story from Exercise 3.
+1. In your groups, choose one user story from Exercise 3.
+2. Identify the technical tasks needed to deliver that user story.
+3. Map dependencies between your tasks:
+   - How does Task A affect other tasks?
+   - Does Task A need to be completed before Task B can start?
+4. Size each task based on complexity — pick **one** sizing approach for this exercise:
+   - **Story points** (relative effort, e.g. 1, 2, 3, 5, 8)
+   - **Days** (rough time estimate, e.g. 0.5d, 1d, 2d)
+   > Real teams use one or the other consistently. Story points are more common in agile teams as they reflect effort rather than time, but both are valid. Just don't mix them!
+5. Discuss: When is the right time to assign tasks? What criteria should you follow?
 
-Identify the tasks needed to deliver that outcome (e.g., "Create database table," "Build UI search bar").
+### Example
 
-Map dependencies:
+**User story:** "As a library user, I want to search for books so that I can find what I need quickly."
 
-How does Task A affect other tasks?
+| Task | Depends on | Size |
+|---|---|---|
+| Agree on frontend/backend API contract | — | 1 point |
+| Build a search bar UI component | API contract | 3 points |
+| Create a `/books/search` API endpoint | API contract | 3 points |
+| Connect the search API to the database | API endpoint | 2 points |
 
-Does Task A need to be completed before Task B can start?
+===[[🎯 Wrap-up: How does this work on real teams?]]===
+⏱️ **Time:** 15 minutes
 
-Size the tasks based on complexity.
+🎯 Goal: Connect today's exercises to real engineering team practice
 
-Discuss: When is the right time to assign tasks? What criteria should you follow?
+Talk with your volunteers about how this works day-to-day:
+
+- How does your team manage user stories and task breakdowns? (Jira, Linear, Notion, etc.)
+- Who writes user stories — product managers, engineers, or both?
+- How do you handle dependencies between tasks in a sprint?
+- What happens when a task turns out to be bigger than expected?
+
+This is a chance to ask questions and hear real examples from people working in tech today.
 
 {{< /tabs >}}
