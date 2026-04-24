@@ -45,4 +45,16 @@ src="module/induction/version-control"
 [[blocks]]
 name="Sharing History"
 src="module/induction/sharing-history"
+[[blocks]]
+name="Configuring Git with VSCode"
+src="module/onboarding/git/vscode-setup"
+[[blocks]]
+name="Creating a Commit"
+src="module/onboarding/git/creating-a-commit"
+[[blocks]]
+name="Remote Repositories"
+src="module/onboarding/git/remote-repositories"
+[[blocks]]
+name="Pushing & Pulling"
+src="module/onboarding/git/pushing-and-pulling"
 +++
