@@ -35,8 +35,8 @@ weight = 11
 1. On the issue, add:
    - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** from across the Data Flows CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Flows/issues/371), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Flows/issues/372), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Flows/issues/373).
      Remember: you are also expected to have completed [at least one mentored pair programming session](https://github.com/CodeYourFuture/Module-Data-Flows/issues/37) on this work too.
-   - A link to your GitHub repo and deployed Netlify site for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
    - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.
+   - A link to your GitHub repository and your deployed Netlify site once you reach Level 500. During development, please work on your local repository to save Netlify build credits. "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)".
    - A link to your issue for "[LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12)". Your issue must show your current index and actions you will take to improve it.
    - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
