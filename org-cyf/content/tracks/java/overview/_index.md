@@ -1,7 +1,7 @@
 +++
 title = "Course overview"
 layout = "overview"
-overview_menu = "java"
+overview_menu = "Java"
 +++
 
 ## Objective
