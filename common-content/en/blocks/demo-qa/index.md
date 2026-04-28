@@ -51,6 +51,7 @@ The feedback and discussion for this workshop should focus on the questions and 
 - If the speaker said something unclear, or that you disagree with, you can ask politely about it at the end
 - A good question is short and to the point. Remember: as the audience you're not the main focus
 
+## Example Questions
 The best questions to ask come from ideas the demo made you curious about.
 If you can't think of any, you can use or adapt one of these, if they're appropriate:
 - If you were to do it again, what would you do differently?
