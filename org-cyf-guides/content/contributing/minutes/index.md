@@ -17,6 +17,60 @@ Attendees:
 
 ---
 
+## 2026-04-07
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
+
+### ❗Actions from last time
+
+- [x] Everyone: Think about what the Onboarding module should look like. Share thoughts in next meeting (and come join us in person on April 20th if you can!)
+- [x] (After this ITP finishes): (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [x] Daniel: Merge all the curricula
+- [ ] Anna: Move all of the CYF-Workshops into the curriculum
+
+### 📝 Agenda points
+
+#### Onboarding module direction
+
+* Maybe have a first PR which is just an "orient yourself to PRs on GitHub".
+* Maybe try to pull some JS back into the Onboarding module, and accordingly a bit meatier actual-useful-work expected PRs.
+* People often struggle with some basic programming fundamentals, e.g. "what is a variable declaration".
+* Better curated resources for people to reference online.
+* Be aware we've swung too far in each direction of "too little" and "too much" over Onboarding iterations.
+* Don't want to lose git from the start.
+* Currently we can't rely on people having laptops in Onboarding - it's possible we could get access to some laptops we're ok with losing to lend out.
+
+#### Workshops move into the curriculum repo
+
+Anna has been working on this! Three things that came up:
+
+* Anna has so far been doing this under her username - will move it over to CYF soon
+* get-forms workshop requires disposable branch previews, which we probably don't want to turn on in the curriculum repo.
+  * Would probably be ok to just remove the workshop, as it's an optional thing in a study group so likely not really done
+
+#### GitHub Projects
+
+We seem to have stopped using our GitHub Project / backlog - how do we feel about that?
+
+Daniel's perspective: People don't often have a lot of time to be browsing for things to pick up, so tend to share out urgent things as they come up.
+
+We have a running list of tasks that we copy forward across meetings, which means we hopefully actually prioritise and get things done.
+
+There can be value in tickets, both for self-organising/documenting (e.g. [Anna's workshop merge ticket](https://github.com/CodeYourFuture/curriculum/issues/1822)), or for getting structured information about problems from volunteers/trainees.
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] Anna: Move all of the CYF-Workshops into the curriculum
+
+---
+
 ## 2026-03-24
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Poonam Rajput
@@ -839,7 +893,7 @@ Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, 
 
 CJ has been looking into how we can set up a skeleton project structure for ITP exercises. This should encourage trainees to write tests for their logic that doesn't depend on the DOM, and ideally utilise ES Modules. We would like trainees to decouple the DOM and their app's logic, without getting bogged down in teaching sophisticated design jargon. May need to be split into different ITP modules to provide a gentle introduction to different concepts.
 
-The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
+The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/Checkpoint/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
 
 #### AI in ITD (Step Two)
 

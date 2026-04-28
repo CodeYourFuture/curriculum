@@ -46,5 +46,8 @@
         {{ end }}
       </section>
     {{ end }}
+    {{ if isset $block.Params "objectives" }}
+    {{ partial "review-objectives.html" $blockData }}
+    {{ end }}
   </div>
 </section>

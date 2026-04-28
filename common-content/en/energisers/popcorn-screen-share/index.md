@@ -1,9 +1,10 @@
 +++
 title="Screen Safari"
 time=15
-[tasks]
-1="Practice screen sharing functionality"
-2="Build comfort with sharing digital workspace"
+objectives = [
+  "Quickly share your screen in a Google Meet call.",
+  "Tell a story to an audience of peers, accounting for (lack of) shared context.",
+]
 [build]
 render = 'never'
 list = 'local'
@@ -12,9 +13,11 @@ publishResources = false
 
 A playful way to practice screen sharing while sharing something personal.
 
-Facilitator, please begin by sharing your screen. Talk through what you are doing and show your favorite website, digital photo, or bookmark. Explain why it's meaningful to you. On gallery view, choose the person "next" to you to share next.
+Facilitator, set up a Google Meet call, and present it to the class on a screen. Please begin by sharing your screen on the call. Have the whole class join the call. (Everyone should mute their microphone and speakers!)
 
-Each participant will have {{<timer>}}1{{</timer>}} minute to:
+Talk through what you are doing and show your favorite website, digital photo, or bookmark. Explain why it's meaningful to you. On gallery view, choose the person "next" to you to share next.
+
+Each participant will have {{<timer>}}1{{</timer>}} to:
 
 1. Share their screen
 1. Show their favorite website, digital photo, or bookmark

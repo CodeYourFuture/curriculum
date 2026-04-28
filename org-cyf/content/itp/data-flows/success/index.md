@@ -39,7 +39,6 @@ weight = 11
    - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.
    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)".
    - A link to your issue for "[LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12)". Your issue must show your current index and actions you will take to improve it.
-   - A screenshot showing that you took part in an online study session with at least one other trainee. This could be a video call, a Slack thread, or something else!
    - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Data-Flows/issues/323).\
      This must be at a different demo session than any submitted for previous modules.
 1. Submit the issue link to step 4 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).

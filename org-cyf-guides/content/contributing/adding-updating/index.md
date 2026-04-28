@@ -26,7 +26,7 @@ flowchart TD
 ```
 
 > [!NOTE]
-> There will be additional folders with other information required to edit the page, eg. details of the next stage of the course in the `piscine` folder
+> There will be additional folders with other information required to edit the page, eg. details of the next stage of the course in the `checkpoint` folder
 
 Each module is broken into **sprints**. A sprint represents one week of work. The `success` folder contains the success criteria for a module.
 

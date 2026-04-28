@@ -15,4 +15,4 @@ You must do this in the [CYF Course Platform](https://application-process.codeyo
 1. Upload a screenshot of your Duolingo test result
 
 > [!NOTE]
-> To qualify as a CYF trainee and access later, funded courses like [The Piscine](https://curriculum.codeyourfuture.io/piscine/), you will be required to take a proctored English exam. This will be a free, certified exam, donated by our partners, Duolingo.
+> To qualify as a CYF trainee and access later, funded courses like [The Checkpoint](https://curriculum.codeyourfuture.io/checkpoint/), you will be required to take a proctored English exam. This will be a free, certified exam, donated by our partners, Duolingo.

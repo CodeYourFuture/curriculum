@@ -1,0 +1,19 @@
+name = "Checkpoint"
+code = "checkpoint"
+emoji = "🐟"
+weight = 3
+description = "In teams and on your own, build working software with tests; explain your work to others."
+menu = "Checkpoint"
+url = "/checkpoint/"
+days = "22"
+commitment = "part time"
+frequency = 3
+locations = [
+    "Birmingham",
+    "Capetown",
+    "Glasgow",
+    "London",
+    "Manchester",
+    "Sheffield",
+]
+key_skills = ["Test understanding with:", "Projects", "Demos", "Interviews"]
