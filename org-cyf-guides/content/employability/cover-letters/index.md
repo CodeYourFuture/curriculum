@@ -35,54 +35,6 @@ A good cover letter or supporting statement should be:
 
 It should also use relevant language from the job description naturally. If AI is used, it should help with editing, structuring, or tailoring the application, not invent experience or produce copy the applicant couldn't explain in interview.
 
-### **General Criteria**
-
-#### Structure
-
-- The opening paragraph makes it clear which role the applicant is applying for.
-- It is usually 3 to 5 paragraphs long and does not exceed 1 page, unless the employer has asked for a supporting statement or a different format.
-- It has a clear structure with little repetition.
-- The middle section focuses on how the applicant matches the most important requirements in the job description or person specification.
-- The closing paragraph reinforces fit and motivation, then invites further contact professionally.
-- It should end professionally, for example:
-  - Thank you for your consideration.
-  - Yours sincerely,
-  - (Your name)
-- If the letter is addressed to a named contact, "Yours sincerely" is appropriate.
-- If it uses a general greeting such as "Dear Hiring Manager", "Yours faithfully" is more appropriate.
-
-#### Tone
-
-- [ ] The tone is confident, professional, and specific.
-  - [ ] It avoids exaggerated claims unless they can be clearly backed up.
-- [ ] It shows genuine interest in the role and organisation.
-- [ ] It avoids cliché, generic praise, jokes, sarcasm, and overly friendly language.
-- [ ] It sounds personal and credible, not copied from a template.
-- [ ] It sounds like the applicant, not like something they would struggle to explain in an interview.
-
-#### Information
-
-- [ ] It includes the name of the hiring manager or relevant team where possible.
-- [ ] It shows evidence of research on the organisation and explains why the applicant wants this specific role.
-- [ ] It shows clearly how the applicant's skills and experience match the role.
-  - [ ] Claims are backed up with examples, results, or figures where possible.
-- [ ] It mentions skills that are relevant to the job description or person specification.
-- [ ] It includes examples that reflect the organisation's values where relevant.
-- [ ] It adds to the CV rather than repeating it.
-- [ ] If a supporting statement is requested, it addresses the person specification directly and stays within any stated word count.
-
-#### AI Use
-
-- [ ] If AI has been used, it has only been used to support editing, structuring, or tailoring.
-- [ ] The applicant has not used AI to invent experience, exaggerate results, or produce content they could not defend in interview.
-- [ ] The final application still sounds authentic and truthful.
-
-#### Formatting and Submission
-
-- [ ] The formatting is clean, professional, and consistent with the CV.
-- [ ] Unless the advert says otherwise, the document is saved as a PDF.
-- [ ] If the employer asks for the letter in the body of an email or in an online form, those instructions are followed exactly.
-
 ### References 📚
 
 - [National Careers Service, Careers advice](https://nationalcareers.service.gov.uk/careers-advice)
