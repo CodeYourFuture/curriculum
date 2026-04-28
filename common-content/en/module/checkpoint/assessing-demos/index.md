@@ -20,7 +20,7 @@ These are typically our trainees' first demos. We expect significant improvement
   <dt>Explain what was done</dt><dd>Someone watching should be able to state what you have done in one sentence.</dd>
   <dt>Explain the reasoning behind a choice.</dt><dd>Someone watching should be able to explain why you did at least one thing a particular way (and why it was a better choice than alternatives).</dd>
   <dt>Show relevant code or artifacts (e.g. a website, a ticket, an discussion).</dt><dd>Someone watching should be able to identify at least one artifact of your work.</dd>
-  <dt>Stick to your time limit.</dt><dd>You should know how long you have for your demo, and stick to that time. You will be given a warning when you're running low on time. If a trainee is not done speaking at the time limit, they missed this. Finishing early is fine.</dd>
+  <dt>Stick to your time limit.</dt><dd>You should know how long you have for your demo, and stick to that time. You will be given a warning when you're running low on time. If a trainee is not done speaking at the time limit, they missed this. If they haven't used the minimum time, they missed this too.</dd>
   <dt>(Stretch goal): Ask questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". The point of this is to engage the audience and get them thinking/caring about the demo. The question should generally be rhetorical - you don't have time to wait for answers.</dd>
 </dl>
 
