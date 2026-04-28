@@ -7,9 +7,6 @@ weight = 1
 name="Spaced Repetition"
 src="blocks/spaced-repetition"
 [[blocks]]
-name="What are Forms"
-src="module/html-css/what-are-forms"
-[[blocks]]
 name="Google Sheets Query Function Explained"
 src="https://www.youtube.com/watch?v=oCKvAcXTLZo"
 time=20
