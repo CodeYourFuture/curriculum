@@ -27,7 +27,7 @@ When building the curriculum content is pulled from a number of different CYF re
 
 1. Click the "Generate new token" button
     - Name can be anything
-    - Duration is not important, but if you are contributing regularly you will need to repeat this process if your token expires
+    - The exact duration is not important, but your token **must** have an expiry date. Tokens without an expiry date will cause errors when building. You will need to repeat this process when your token expires, so if you are contributing regularly consider setting a long duration.
     - Ensure "resource owner" is your own account
     - "Repository access" should be `Public Repositories (read-only)`
     - You do not need account permissions
