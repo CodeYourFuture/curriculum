@@ -2,8 +2,10 @@
 title="Demo Questions & Answers"
 time=60
 objectives = [
-  "Practice thinking of good questions to ask after a demo",
-  "Get experience giving meaningful answers to questions",
+  "Think of a good question to ask after a demo",
+  "Explain what makes a question meaningful",
+  "Give a relevant answer to a question",
+  "Engage an audience in discussion through a Q&A session after a demo"
 ]
 [build]
   render = 'never'
@@ -29,8 +31,7 @@ There are 2 criteria we want to meet:
 Take a moment to read through the tips below before you begin.
 Feel free to refer to these tips during the Q&A if that would help.
 
-If you have a small group, you can have everyone work together.
-If you have a larger group, it may be better to break out into smaller teams, to ensure everyone has a chance to ask and answer.
+To ensure everyone has a chance to take part, get into groups of at most 5 trainees (and ideally at least one volunteer).
 
 Take turns: 
 - Each demo should be no more than 5 minutes long
@@ -49,6 +50,15 @@ The feedback and discussion for this workshop should focus on the questions and 
 - If the speaker says something you would like to know more about, you can remember it and ask at the end
 - If the speaker said something unclear, or that you disagree with, you can ask politely about it at the end
 - A good question is short and to the point. Remember: as the audience you're not the main focus
+
+The best questions to ask come from ideas the demo made you curious about.
+If you can't think of any, you can use or adapt one of these, if they're appropriate:
+- If you were to do it again, what would you do differently?
+- What did you enjoy the most about this?
+- What was your biggest challenge?
+- How does this compare to (some other way of doing something similar)?
+- Could you explain how (this idea) could be used or adapted for (some related setting or project)?
+- When I tried something similar, I encountered (this problem), how did you overcome that?
 
 # Tips for Giving Good Answers
 - Know that you will never be able to prepare for every possible question.
