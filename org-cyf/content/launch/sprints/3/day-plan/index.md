@@ -31,11 +31,11 @@ name="Development Time"
 src="module/launch/development-time"
   [[blocks.nested.blocks]]
     name="Blockers"
-    src="module/piscine/blockers"
+    src="module/checkpoint/blockers"
   [[blocks.nested.blocks]]
     name="Pair Programming"
-    src="module/piscine/pairing"
+    src="module/checkpoint/pairing"
   [[blocks.nested.blocks]]
     name="Code Review"
-    src="module/piscine/review"
+    src="module/checkpoint/review"
 +++

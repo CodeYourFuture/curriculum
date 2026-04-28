@@ -63,5 +63,8 @@
         {{ end }}
       </section>
     {{ end }}
+    {{ if gt (len $extractedObjectives) 0 }}
+    {{ partial "review-objectives.html" $blockData }}
+    {{ end }}
   </section>
 {{ end }}

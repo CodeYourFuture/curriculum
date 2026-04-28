@@ -1,14 +1,21 @@
-name="Software Development"
-code="sdc"
-emoji="🧑🏾‍🔧"
-url="/sdc/"
-menu="trainees"
-weight=4
-description="A secure grounding in software: binary, logic, systems, and problem solving"
-days="84"
-commitment="part time"
-frequency=3
-locations=["Birmingham", "Capetown", "Glasgow", "London", "Manchester", "Sheffield"]
+name = "Software Development"
+code = "sdc"
+emoji = "🧑🏾‍🔧"
+url = "/sdc/"
+menu = "Advanced Courses"
+weight = 4
+description = "A secure grounding in software: binary, logic, systems, and problem solving"
+days = "84"
+commitment = "part time"
+frequency = 3
+locations = [
+    "Birmingham",
+    "Capetown",
+    "Glasgow",
+    "London",
+    "Manchester",
+    "Sheffield",
+]
 key_skills = [
     "Understanding limitations",
     "Considering trade-offs",

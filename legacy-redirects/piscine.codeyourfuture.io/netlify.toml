@@ -1,6 +1,9 @@
-# TODO: Move this file into a less in-your-face directory once the curriculum merge settles.
+[[redirects]]
+from = "/guides/*"
+to = "https://curriculum.codeyourfuture.io/guides/:splat"
+status = 302
 
 [[redirects]]
 from = "/*"
-to = "https://curriculum.codeyourfuture.io/piscine/:splat"
+to = "https://curriculum.codeyourfuture.io/checkpoint/:splat"
 status = 302
