@@ -7,12 +7,11 @@ weight = 1
 name="Spaced Repetition"
 src="blocks/spaced-repetition"
 [[blocks]]
-name="Google Sheets Query Function Explained"
-src="https://www.youtube.com/watch?v=oCKvAcXTLZo"
-time=20
+name="Install a unix based os"
+src="module/js1/check-unix-os"
 [[blocks]]
-name="Databases with Google Sheets"
-src="module/databases/databases-with-sheets"
+name="Install Node"
+src="module/js1/install-node"
 [[blocks]]
 name="Backlog"
 src="blocks/backlog"
