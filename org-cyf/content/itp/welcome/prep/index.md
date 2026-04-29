@@ -18,6 +18,9 @@ src="module/onboarding/goals"
 name="Expectations"
 src="module/onboarding/expectations"
 [[blocks]]
+name="Acceptable AI Use"
+src="module/onboarding/itp-ai-use"
+[[blocks]]
 name="Help"
 src="module/onboarding/help"
 [[blocks]]
