@@ -28,12 +28,6 @@ src="module/induction/branching"
 name="Merging"
 src="module/onboarding/git/merging"
 [[blocks]]
-name="Undoing a Commit"
-src="module/onboarding/git/undoing-a-commit"
-[[blocks]]
-name="Ignoring Files"
-src="module/onboarding/git/ignoring-files"
-[[blocks]]
 name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
 time=5
