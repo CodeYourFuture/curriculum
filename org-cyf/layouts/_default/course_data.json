@@ -1,0 +1,51 @@
+{{- $site := .Site -}}
+
+{{- $courses := dict -}}
+
+{{- range $courseIndex, $course := (sort site.Data.courses "weight" "asc") -}}
+    {{- $modules := slice -}}
+    {{/* We only render courses where their course schedule menu is their course code followed by "course schedule".
+         Ideally this is a convention all courses should follow. If this is a problem, we could add an explicit menu name to the course data.
+         But for now, it's also a handy way of opting courses in-to/out-of listing in this API.
+    */}}
+    {{- $menuName := printf "%s course schedule" $course.code -}}
+    {{- if not (index $site.Menus $menuName) -}}
+        {{- continue -}}
+    {{- end -}}
+    {{- range $moduleIndex, $module := index $site.Menus $menuName -}}
+        {{- $sprints := slice -}}
+        {{- $maybePages := (append $module.Page $module.Page.Pages) -}}
+        {{- range $sprintIndex, $sprint := $maybePages -}}
+            {{/* Handle single-sprint modules which we detect with parentsToTraverseToModule=0 */}}
+            {{- if and (not (eq $sprint.Params.layout "sprint")) (not (eq $sprint.Params.parentsToTraverseToModule 0)) -}}
+                {{- continue -}}
+            {{- end -}}
+            {{- $backlogPage := "" -}}
+            {{- range $pageIndex, $page := $sprint.Pages -}}
+                {{- if eq $page.Params.layout "backlog" -}}
+                    {{- $backlogPage = $page -}}
+                {{- end -}}
+            {{- end -}}
+            {{- if eq $backlogPage "" -}}
+                {{- continue -}}
+            {{- end -}}
+            {{- $backlogTasks := slice -}}
+            {{- range $taskCategory, $tasks := $backlogPage.Scratch.Get "backlog-tasks" -}}
+                {{- range $taskIndex, $task := $tasks -}}
+                    {{- $submit := "" -}}
+                    {{- range $labelIndex, $label := $task.labels.nodes -}}
+                        {{ if hasPrefix $label.name "Submit:" -}}
+                            {{- $submit = strings.TrimPrefix "Submit:" $label.name -}}
+                        {{- end -}}
+                    {{- end -}}
+                    {{- $backlogTasks = append (dict "github_html_url" (index $task "src") "category" $taskCategory "submit" $submit "title" (index $task "name")) $backlogTasks -}}
+                {{- end -}}
+            {{- end -}}
+            {{- $sprints = append (dict "name" $sprint.Title "backlog_tasks" $backlogTasks) $sprints -}}
+        {{- end -}}
+        {{- $modules = append (dict "name" $module.Name "sprints" $sprints) $modules -}}
+    {{- end -}}
+    {{- $courses = merge $courses (dict $course.code (dict "name" $course.name "modules" $modules)) -}}
+{{- end -}}
+
+{{- jsonify (dict "courses" $courses) -}}

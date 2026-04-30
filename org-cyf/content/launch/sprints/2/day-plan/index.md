@@ -31,11 +31,11 @@ name="Development Time"
 src="module/launch/development-time"
   [[blocks.nested.blocks]]
     name="Pomodoro"
-    src="module/piscine/pomodoro"
+    src="module/checkpoint/pomodoro"
   [[blocks.nested.blocks]]
     name="Blockers"
-    src="module/piscine/blockers"
+    src="module/checkpoint/blockers"
   [[blocks.nested.blocks]]
     name="Pair Programming"
-    src="module/piscine/pairing"
+    src="module/checkpoint/pairing"
 +++
