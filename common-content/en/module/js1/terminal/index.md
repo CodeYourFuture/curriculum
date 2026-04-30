@@ -12,6 +12,9 @@ time = 10
 
 +++
 
+>[!CAUTION]
+>**TODO: Rewrite this to use the VSCode terminal**
+
 Programmers need interfaces to ask computers to do things. A computer terminal is an **interface** where programmers can issue commands to a computer. Because users enter text instructions and receive text output, we say that the terminal is a **text-based interface**.
 
 ### Open Your Terminal
