@@ -40,6 +40,27 @@ src="module/js1/variables"
 name="Declarations and Statements"
 src="module/js1/declarations-statements"
 [[blocks]]
+src="module/js1/comparison"
+name="Comparison"
+[[blocks]]
+src="module/js1/strategy"
+name="Strategy"
+[[blocks]]
+src="module/js1/conditionality"
+name="Conditionality"
+[[blocks]]
+name="Errors"
+src="module/js1/errors"
+[[blocks]]
+src="module/js1/interpreting-errors"
+name="Interpreting errors"
+[[blocks]]
+src="module/js1/interpreting-this-error"
+name="Interpreting this error"
+[[blocks]]
+src="module/js1/reusing-variable-names"
+name="Reusing variable names"
+[[blocks]]
 name="Backlog"
 src="blocks/backlog"
 +++

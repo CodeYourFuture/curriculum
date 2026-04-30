@@ -14,6 +14,9 @@ time = 20
 
 +++
 
+>[!caution]
+> Moving this earlier in the course. Update this to use new example from previous page.
+
 We saw this error - let's try to understand it:
 
 ```

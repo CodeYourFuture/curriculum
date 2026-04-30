@@ -13,6 +13,9 @@ hide_from_overview = true
 
 +++
 
+>[!caution]
+> Useful context for the next block but should be rewritten to be less explicitly dependent on the function
+
 Our function works for morning inputs like `"08:00"`. In this case, the function returns the target output of `"08:00 am"` as required. However, at the moment, the output of `formatAs12HourClock("23:00")` is `"23:00 am"`.
 
 > 💡 We need to execute some different logic when the time is beyond midday

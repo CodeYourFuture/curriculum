@@ -11,9 +11,6 @@ src="module/js1/repl"
 name="Functions"
 src="module/js1/functions"
 [[blocks]]
-name="Errors"
-src="module/js1/errors"
-[[blocks]]
 name="Percentages"
 src="module/js1/percentages"
 [[blocks]]
