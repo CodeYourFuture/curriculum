@@ -28,17 +28,19 @@ As you read through the resources below try to answer the following questions:
 - [Writing Java methods](https://www.w3schools.com/java/java_methods.asp)
 - [Introduction to JavaDoc](https://www.baeldung.com/javadoc)
 
-### Exercise 3.1
+{{<note type="exercise" title="Exercise 3.1">}}
 Goal: Write a method signature which takes parameters.
 - Create a private method called greetUser that:
 - Accepts a String name as a parameter.
 - Returns a greeting message like "Hello, Alice!".
 - Call this method from a main method and print the result.
 - Explain each part of the method signature for the name method.
+{{</note>}}
 
-### Exercise 3.2
+{{<note type="exercise" title="Exercise 3.2">}}
 - Create a method calculateSum that takes two integers and returns their sum.
 - Add JavaDoc comments explaining the method.
+{{</note>}}
 
 ## Reflections
 Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop.

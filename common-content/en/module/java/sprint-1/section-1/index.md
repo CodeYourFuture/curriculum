@@ -35,12 +35,14 @@ As you read through the resources below try to answer the following questions:
 - [Top 5 reasons you need an IDE](https://medium.com/@synergenttechsolution30/java-ides-top-5-reasons-you-need-an-ides-95426a0e6d5a)
 - [Java main() Method Explained](https://www.baeldung.com/java-main-method)
 
-### Exercise 1.1
-Goal: Get comfortable with IntelliJ and running Java code.
+{{<note type="exercise" title="Exercise 1.1">}}
+**Goal:** Get comfortable with IntelliJ and running Java code.
+
 - Install IntelliJ IDEA and create a new Java project.
 - Create a main method and add logic so that it prints: "Hello, Java!"
 - You'll need to Google for how to print to the console in Java!
 - Run the program from the IDE.
+{{</note>}}
 
 ## Reflections
 Think about the following questions, make notes and be prepared to talk through your thoughts on the Saturday.

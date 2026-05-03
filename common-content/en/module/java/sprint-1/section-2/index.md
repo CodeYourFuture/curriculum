@@ -47,29 +47,37 @@ As you read through the resources below try to answer the following questions:
 - [Java For Loop](https://www.baeldung.com/java-for-loop)
 - [Decision Making in Java - Conditional Statements](https://www.geeksforgeeks.org/java/decision-making-javaif-else-switch-break-continue-jump/)
 
-### Exercise 2.1: 
-Goal: Practice basic syntax and keywords.
+{{<note type="exercise" title="Exercise 2.1">}}
+**Goal:** Practice basic syntax and keywords.
+
 Create a program that:
 - Declares variables of different primitive types (int, double, boolean, char).
 - Prints their values to the console.
 - Add comments explaining what each keyword does (e.g., public, static, void).
+{{</note>}}
 
-### Exercise 2.2:
-Goal: Identify and fix compilation errors.
+{{<note type="exercise" title="Exercise 2.2">}}
+**Goal:** Identify and fix compilation errors.
+
 - Remove a semicolon or misspell a keyword in your code.
 - Observe the compilation error in IntelliJ.
 - Fix the error and re-run the program
+{{</note>}}
 
-### Exercise 2.2
-Goal: Compare Java control flow with JavaScript.
+{{<note type="exercise" title="Exercise 2.3">}}
+**Goal:** Compare Java control flow with JavaScript.
+
 Write a program that:
 - Uses a for loop to print numbers 1 to 10.
 - Uses an if-else statement to check if a number is even or odd.
-- Bonus: Rewrite the same logic in JavaScript and note the differences in syntax.
 
-### Exercise 2.3: 
+**Bonus:** Rewrite the same logic in JavaScript and note the differences in syntax.
+{{</note>}}
+
+{{<note type="exercise" title="Exercise 2.4">}}
 - Write a program that uses a switch statement to print the name of the day based on an integer (1 = Monday, etc.).
 - Explain why switch in Java differs from JavaScript (e.g. type safety).
+{{</note>}}
 
 ## Reflections
 Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop.

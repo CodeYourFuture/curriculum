@@ -40,14 +40,16 @@ As you read through the resources below try to answer the following questions:
 - [Debugging a Java application with IntelliJ](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
 - [Understanding compilation](https://www.baeldung.com/java-compiled-interpreted)
 
-### Exercise 4.1: 
-Goal: Learn to use breakpoints and inspect variables.
+{{<note type="exercise" title="Exercise 4.1">}}
+**Goal:** Learn to use breakpoints and inspect variables.
+
 - Write a program that calculates the sum of numbers from 1 to 100 and prints the result
 - Introduce a bug (e.g., start the loop at -1 instead of 1).
 - Use IntelliJ’s debugger to:
 - Set a breakpoint inside the loop.
 - Inspect the value of the sum variable and the result variable, seeing how they change as you step through.
 - Step through the code to find the error.
+{{</note>}}
 
 ## Reflections
 Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop.
