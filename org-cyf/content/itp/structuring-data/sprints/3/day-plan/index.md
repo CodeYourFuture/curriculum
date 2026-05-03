@@ -20,7 +20,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name = "Clean Code Workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
+src = "workshops/clean-code"
 time=60
 [[blocks]]
 name="lunch"
