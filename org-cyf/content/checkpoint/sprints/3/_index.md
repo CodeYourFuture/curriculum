@@ -1,10 +1,10 @@
 +++
 title = 'Sprint 3'
-description = 'Demo your team work; kick off your individual project'
+description = 'Demo your project; kick off the next group project'
 layout = 'sprint'
-emoji= '🏃🏾'
+emoji= '🎽'
 menu_level = ['module']
 menu=['Checkpoint sprints']
 weight = 3
-theme = "Build a complete project on your own"
+theme = "Work in a team to deliver working software with tests"
 +++
