@@ -8,7 +8,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="Wordle Hackathon"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/wordle"
+src="workshops/wordle"
 time="120"
 [[blocks]]
 name="Lunch"
