@@ -1,5 +1,5 @@
 +++
-title = 'Section 4: Debugging Java Code Using the IDE'
+title = 'Debugging Java Code Using the IDE'
 
 time = 120
 [objectives] = [

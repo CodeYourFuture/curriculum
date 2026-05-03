@@ -1,5 +1,5 @@
 +++
-title = 'Section 2: Java keywords and syntax'
+title = 'Java keywords and syntax'
 
 time = 120
 [objectives] = [

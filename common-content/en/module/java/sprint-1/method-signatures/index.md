@@ -1,5 +1,5 @@
 +++
-title = 'Section 3: Method Signatures'
+title = 'Method Signatures'
 
 time = 120
 [objectives] = [

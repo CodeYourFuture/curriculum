@@ -4,20 +4,17 @@ layout = 'prep'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Prep for this class"
-src="module/entry-tracks/preparation"
+name="Getting Started with the IDE and main methods"
+src="module/java/sprint-1/ide-and-main-methods"
 [[blocks]]
-name="Section 1: Getting Started with the IDE and main methods"
-src="module/java/sprint-1/section-1"
+name="Java keywords and syntax"
+src="module/java/sprint-1/java-keywords-and-syntax"
 [[blocks]]
-name="Section 2: Java keywords and syntax"
-src="module/java/sprint-1/section-2"
+name="Method Signatures"
+src="module/java/sprint-1/method-signatures"
 [[blocks]]
-name="Section 3: Method Signatures"
-src="module/java/sprint-1/section-3"
-[[blocks]]
-name="Section 4: Debugging Java Code Using the IDE"
-src="module/java/sprint-1/section-4"
+name="Debugging Java Code Using the IDE"
+src="module/java/sprint-1/debugging-java-code-using-the-ide"
 [[blocks]]
 name="Read the day plan"
 src="module/entry-tracks/read-the-day-plan"

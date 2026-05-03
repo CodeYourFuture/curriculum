@@ -1,5 +1,5 @@
 +++
-title = 'Section 1: Getting Started with the IDE and main methods'
+title = 'Getting Started with the IDE and main methods'
 
 time = 120
 [objectives] = [
