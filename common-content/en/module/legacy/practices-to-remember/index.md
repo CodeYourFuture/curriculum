@@ -19,11 +19,38 @@ Some of our standard development practices are _even more important_ when workin
 We should be _consistent_ with our formatting. We may not have any control over what decisions were made in the past. When we're writing brand new code in a new code, we can choose whether we use two spaces or four. But when we jump into an existing codebase, we should use whatever style it already has. If we send a PR fixing a small bug, and it changes every line in the file, it's really hard to see what changed, and what stayed the same. If we have two people joining a codebase, and one is reformatting every file they touch to use two spaces, and the other is reformatting every file they touch to use two spaces, there are going to be lots of spurious changes, and lots of merge conflicts.\
 
 To approach this, we may need to:
+
 * Disable our auto code formatters
 * Change the configuration of our auto code formatters (maybe by finding an existing configuration in the repo, or adding one)
 * Reformat the whole repo with a consistent configuration in one commit, and then keep it formatted.
 
 We should **never** include spurious reformatting changes in the same commit as real code changes.
+
+### Clean PRs
+
+We should (almost!) always work from a clean copy of main.  When you move from one task to the next, do not keep the changes from the previous task.  Often in the real world your last PR will be merged to main before you branch for the new task, so you will have the changes included in the second task's PR, but they are not part of the branch, they are there as part of main.  When doing these exercises (or in real world scenarios where your previous branch hasn't been merged) it is important to start from a clean checkout of main.
+
+Ideally you'll think about this immediately after you submit the previous PR and before you make any changes.  In which case the clean route is
+
+```plain
+git switch -c new-branch main
+```
+
+which will create a new one based on main, and switch to it.
+
+If you've got random uncommitted changes in your local folder, they will not be removed by the above command.  So before you do that command you can clean things up:
+
+```plain
+git reset --hard origin/main
+```
+
+If you realise (as often happens) too late, and are trying to clean up after you've created your new branch and you have your task2 changes as well as task1 changes, then if they are in different folders you can reset the task1 folder.  Check the git history for the last commit to main and note the commit hash.  Then do
+
+```plain
+git restore --source=COMMIT_HASH --worktree task1folder
+```
+
+Whenever you commit, have a look at the changed files.  Check they are only what you need for this task.
 
 ### PR Descriptions
 
