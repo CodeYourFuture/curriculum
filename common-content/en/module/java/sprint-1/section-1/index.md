@@ -13,7 +13,6 @@ time = 120
   publishResources = false
 
 +++
-# Section 1: Getting Started with the IDE and main methods
 
 ## Why Java and How It Differs from JavaScript
 Before diving in, let’s set the stage. Java and other programming languages such as JavaScript share some conceptual similarities—e.g. the use of loops, conditionals, and functions—but Java has its own syntax, type systems, and execution models. Java is a statically typed, compiled language, which means you’ll encounter concepts like compilation errors and method signatures that don’t exist in scripting languages like JavaScript. This sprint will help you make that mental shift.

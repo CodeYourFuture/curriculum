@@ -13,7 +13,6 @@ time = 120
 
 +++
 
-# Section 3: Method Signatures
 Understanding method signatures is essential for ensuring the code is readable & maintainable. When writing code, we should expect that someone else will need to understand and adapt it - we work in teams, not in isolation. Therefore, it's important to write code that is clear and understandable. 
 It's important when writing Java code to document classes and methods so others understand the intended purpose of the code, this can been done with JavaDoc - have a read through how to format different types of JavaDoc.
 

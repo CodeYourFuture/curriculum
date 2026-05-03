@@ -13,7 +13,6 @@ time = 120
 
 +++
 
-# Section 4: Debugging Java Code Using the IDE
 Debugging is an essential skill for any developer. IntelliJ provides powerful tools to help you find and fix issues quickly. In your IDE, there are two ways to run a program:
 - Run 
 - Debug

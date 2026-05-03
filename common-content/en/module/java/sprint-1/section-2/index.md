@@ -15,7 +15,7 @@ time = 120
   publishResources = false
 
 +++
-# Section 2: Java keywords and syntax
+
 Java has strict syntax rules and reserved keywords that define its structure. Understanding these early will prevent common errors. 
 
 Compilation is the process of converting the Java code you write into a format that your computer can execute. Compile time is when Java checks your code for errors before running your program, which is different from languages like Python or JavaScript that check for errors while the program is actually running. This provides us with the significant benefit of being able to spot (some!) errors without running the code. It also means Java IDEs come with a set of powerful tools to aid development. 
