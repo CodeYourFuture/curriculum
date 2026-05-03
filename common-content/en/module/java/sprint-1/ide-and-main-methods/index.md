@@ -2,7 +2,7 @@
 title = 'Getting Started with the IDE and main methods'
 
 time = 120
-[objectives] = [
+objectives = [
     'Install and set up IntelliJ IDEA.',
     'Navigate the IDE interface: project explorer, editor, console, and debugger.',
     'Create a basic Java project and run a simple program.',

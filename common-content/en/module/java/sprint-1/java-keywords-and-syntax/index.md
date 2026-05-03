@@ -2,7 +2,7 @@
 title = 'Java keywords and syntax'
 
 time = 120
-[objectives] = [
+objectives = [
     'Identify Java reserved keywords in an IDE',
     'Explain and use common keywords like public, private, static, void, for, if, and primitive types',
     'Declare variables and print them out to the console.',
@@ -30,7 +30,7 @@ Java has two types of data type: primitive and reference. Without going into too
 Java is a statically typed language, which means that variable types are known at compile time. As such, the type must be provided by the programmer when writing the code. 
 For example, if you are to define a string, you must explicitly state that the variable is of type string:
 
-```
+```java
 String myVariable = "hello world";
 ```
 

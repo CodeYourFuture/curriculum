@@ -2,7 +2,7 @@
 title = 'Method Signatures'
 
 time = 120
-[objectives] = [
+objectives = [
     'Write methods and explain the structure and components of method signatures.',
     'Write and run custom methods with parameters and return types.',
     'Document methods using JavaDoc'

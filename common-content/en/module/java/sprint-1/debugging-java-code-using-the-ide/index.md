@@ -2,7 +2,7 @@
 title = 'Debugging Java Code Using the IDE'
 
 time = 120
-[objectives] = [
+objectives = [
     'Use debugging tools in the IDE to fix runtime issues',
     'Set breakpoints and inspect variables.',
     'Step through code execution to identify logic errors.'
