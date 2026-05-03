@@ -12,7 +12,7 @@ src = "blocks/demo"
 time = "30"
 [[blocks]]
 name = "Explaining code workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/explaining-code"
+src = "workshops/explaining-code"
 time = "90"
 [[blocks]]
 name = "Morning break"
