@@ -2,13 +2,14 @@
 title = 'Section 2: Java keywords and syntax'
 
 time = 120
-[objectives]
-    1='Identify Java reserved keywords in an IDE'
-    2='Explain and use common keywords like public, private, static, void, for, if, and primitive types'
-    3='Declare variables and print them out to the console.'
-    4='Write a conditional statement'
-    5='Write a for loop and a switch statement'
-    6='Explain the trade-offs between switch statements and if/else statements'
+[objectives] = [
+    'Identify Java reserved keywords in an IDE',
+    'Explain and use common keywords like public, private, static, void, for, if, and primitive types',
+    'Declare variables and print them out to the console.',
+    'Write a conditional statement',
+    'Write a for loop and a switch statement',
+    'Explain the trade-offs between switch statements and if/else statements'
+]
 [build]
   render = 'never'
   list = 'local'

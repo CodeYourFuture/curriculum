@@ -2,11 +2,12 @@
 title = 'Section 1: Getting Started with the IDE and main methods'
 
 time = 120
-[objectives]
-    1='Install and set up IntelliJ IDEA.'
-    2='Navigate the IDE interface: project explorer, editor, console, and debugger.'
-    3='Create a basic Java project and run a simple program.'
-    4='Explain the role of the main method in Java applications.'
+[objectives] = [
+    'Install and set up IntelliJ IDEA.',
+    'Navigate the IDE interface: project explorer, editor, console, and debugger.',
+    'Create a basic Java project and run a simple program.',
+    'Explain the role of the main method in Java applications.'
+]
 [build]
   render = 'never'
   list = 'local'

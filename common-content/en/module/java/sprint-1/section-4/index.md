@@ -2,10 +2,11 @@
 title = 'Section 4: Debugging Java Code Using the IDE'
 
 time = 120
-[objectives]
-    1='Use debugging tools in the IDE to fix runtime issues'
-    2='Set breakpoints and inspect variables.'
-    3='Step through code execution to identify logic errors.'
+[objectives] = [
+    'Use debugging tools in the IDE to fix runtime issues',
+    'Set breakpoints and inspect variables.',
+    'Step through code execution to identify logic errors.'
+]
 [build]
   render = 'never'
   list = 'local'

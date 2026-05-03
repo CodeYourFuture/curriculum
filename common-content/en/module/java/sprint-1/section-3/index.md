@@ -2,10 +2,11 @@
 title = 'Section 3: Method Signatures'
 
 time = 120
-[objectives]
-    1='Write methods and explain the structure and components of method signatures.'
-    2='Write and run custom methods with parameters and return types.'
-    3='Document methods using JavaDoc'
+[objectives] = [
+    'Write methods and explain the structure and components of method signatures.',
+    'Write and run custom methods with parameters and return types.',
+    'Document methods using JavaDoc'
+]
 [build]
   render = 'never'
   list = 'local'
