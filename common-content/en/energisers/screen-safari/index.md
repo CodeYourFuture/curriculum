@@ -1,9 +1,10 @@
 +++
 title="Screen Safari"
-time=15
+time=25
 objectives = [
   "Quickly share your screen in a Google Meet call.",
   "Tell a story to an audience of peers, accounting for (lack of) shared context.",
+  "Describe what makes a brief demo engaging.",
 ]
 [build]
 render = 'never'
@@ -36,3 +37,11 @@ Go around the group until everyone has shared.
 - What did you learn about your colleagues through their shares?
 
 </details>
+
+### Demo Engagement Feedback
+
+Everyone just gave a short demo. You probably found some of them more engaging and others less interesting.
+
+You're going to give a lot of demos throughout your time at CodeYourFuture and your career!
+
+Reflect as a group on what aspects helped make short demos more engaging. Discuss these things. Make sure to apply these ideas to your future demos.

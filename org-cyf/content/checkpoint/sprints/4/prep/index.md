@@ -10,6 +10,9 @@ src="module/checkpoint/assessment"
 name="Interview tips"
 src="module/checkpoint/interview-tips"
 [[blocks]]
+name="Mock Interview"
+src="module/checkpoint/mock-interview"
+[[blocks]]
 name="Programming Pre-requisites"
 src="module/checkpoint/programming-prereqs"
 +++
