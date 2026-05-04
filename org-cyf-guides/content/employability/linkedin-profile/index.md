@@ -188,7 +188,9 @@ Note: Does your note explain who you are and why you want to connect?
 ## Stay Visible
 LinkedIn is not only a profile platform. It is a visibility platform. A strong profile helps you get discovered. Activity helps you get remembered.
 
-You do not need to post daily. Consistency matters more than frequency. Even 1 post per week can significantly increase your exposure over time.
+Once you start posting and engaging with others, you can also check your LinkedIn Social Selling Index page to see how your visibility changes over time: https://www.linkedin.com/sales/ssi
+
+You do not need to post daily, but consistency does matter. A practical starting point, suggested by recruiters who use LinkedIn regularly, is around 2 posts per week, supported by 1 small daily interaction, such as liking or commenting on someone else’s content.
 
 Start with practical and realistic actions:
 - Share a project you built — explain the problem, what you implemented, and what you learned
