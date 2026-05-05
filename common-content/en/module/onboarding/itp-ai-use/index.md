@@ -4,7 +4,6 @@ time=5
 objectives = [
   "Explain acceptable and unacceptable uses of AI during the ITP."
 ]
-hide_from_overview="true"
 [build]
   render = 'never'
   list = 'local'
