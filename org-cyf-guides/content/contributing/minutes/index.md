@@ -17,6 +17,89 @@ Attendees:
 
 ---
 
+## 2026-05-05
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Ali Smith, Karen Klein
+
+### ❗Actions from last time
+
+- [x] Daniel: (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [x] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [x] Anna: Move all of the CYF-Workshops into the curriculum
+
+DWH working on splitting up SDC, should be done before the current cohort get there.
+
+CJ is almost done with the PR video
+
+### Onboarding Updates
+
+Colin has mapped out some suggested changes to the Onboarding module of ITP.
+
+Ali highlighted the importance of reinforcing key concepts.
+
+Questions raised about what fills the gaps left by pulling content forward. Testing and databases are current goals, but nothing has been decided yet. Final decision will depend on how much time is available after Onboarding changes.
+
+Karen suggested speaking to trainees who had dropped out before enrolment in previous ITPs to get their opinion on suggested changes
+
+### ITP Coursework
+
+#### Module 2 Coursework
+
+CJ suggested some module 2 coursework could be self-assessed instead of requiring review.
+
+Leon has done some work on automating marking - could this be useful here?
+
+Daniel suggested moving some of the discussion topics into workshops, eg. predicting/explaining output. Code writing tasks could be automated.
+
+Conversations around fundamentals, eg defining a function call, make more sense to have in a group setting or in a pairing session rather than in comments on PRs.
+
+We could factor these changes into changes ahead of Sept ITP.
+
+#### TV Show
+
+The code-swapping element of the project presents some challenges:
+  - Partners getting out of sync causes stress for trainees
+  - How do we assess level 400? Can be difficult to tell how much work was done
+
+Is there enough communication between partners?
+
+This is the only group work in ITP - should we add more? Can we structure this better?
+
+Time pressure at the end of the course affects lots of trainees and lots of tasks, this project isn't the only one. 
+
+We need to revisit these topics in a later meeting.
+
+#### Feedback branch
+
+CJ has created branches in the `Module-XXX` repos with common feedback points for reviewers. 
+
+#### Trainees are good at AI but bad at programming
+
+Many trainees are overly dependent on AI but lacking fundamental skills.
+
+Checkpoint tries to address this in interviews.
+
+Poonam has added some AI guidance to ITP for the next cohort.
+
+### Workshops merging with curriculum repo
+
+This is mostly done, but there are some outstanding questions on the [GitHub issue](https://github.com/CodeYourFuture/curriculum/issues/1822#issue-4214167257).
+
+### Checkpoint prep
+
+Piscine has been renamed! Next Checkpoint will run in June.
+
+Daniel has shared dates in the [team Slack channel](https://codeyourfuture.slack.com/archives/C08B643GY4T) - please let him know if you're able to help.
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+
+
 ## 2026-04-07
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
