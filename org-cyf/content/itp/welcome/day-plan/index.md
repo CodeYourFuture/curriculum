@@ -31,7 +31,7 @@ src="blocks/code-of-conduct"
 name="Graduate conversation"
 src="blocks/graduate-conversation"
 [[blocks]]
-name="lunch"
+name="Lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Traffic Jam"
