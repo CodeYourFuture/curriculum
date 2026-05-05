@@ -12,6 +12,6 @@ time=10
 
 +++
 
-We do at least one active learning [Workshop](https://github.com/CodeYourFuture/CYF-Workshops/) every class day. Workshops are group activities where the community discusses, solves and reflects on problems related to their current sprint. They are an opportunity for practice, critical thinking and dialogue.
+We do at least one active learning every class day. Workshops are group activities where the community discusses, solves and reflects on problems related to their current sprint. They are an opportunity for practice, critical thinking and dialogue.
 
-We collectively develop workshops in this repo: https://github.com/CodeYourFuture/CYF-Workshops/. Check out some examples and raise a PR if you've got an idea for a new workshop.
+We collectively develop workshops in the [curriculum repository][https://github.com/CodeYourFuture/curriculum] The main Markdown files live in sub folders of the [common-content/en/workshops folder](https://github.com/CodeYourFuture/curriculum/tree/main/common-content/en/workshops) Static files such as HTML that needs to be hosted belong in subfolders of the [org-cyf/static/workshops folder](https://github.com/CodeYourFuture/curriculum/tree/main/org-cyf/static/workshops). Code samples that students are expected to edit or run belong in [the workshop code repository](https://github.com/Ara225/workshop-code) Check out some examples and raise a PR if you've got an idea for a new workshop.

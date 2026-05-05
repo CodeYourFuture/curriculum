@@ -4,7 +4,7 @@
 
 - [ ] Re-read this article about [Mental Models](https://jamesclear.com/mental-models)
 - [ ] Watch this video about [VSCode Debugger](https://code.visualstudio.com/docs/introvideos/debugging) and follow along with the mini-workshop
-- [ ] Open this [CYF Workshops repo](https://github.com/CodeYourFuture/CYF-Workshops/) in VSCode and go to the `debugging/bank` folder to find the problem bank.
+- [ ] Open the [workshop code repo](https://github.com/Ara225/workshop-code/tree/main/) in VSCode and go to the `debugging/bank` folder to find the problem bank.
 
 Whew, that's loads! But we did set it all as coursework, so you have done it already, right? 😉
 
