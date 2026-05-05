@@ -141,7 +141,7 @@ Similar to prep work, the `day-plan` directory contains an `index.md` file layin
 
 Workshops can be defined in various places. Some are stored in `common-content/en/module` similar to prep content.
 
-Most workshops are stored in the [CYF-Workshops repository](https://github.com/CodeYourFuture/CYF-Workshops#:~:text=Welcome%20to%20CYF%20Workshops) and imported to `day-plan/index.md` using their url. There are some additional features available through this repository explained in its README. 
+The new standard is to place them in the [curriculum repository][https://github.com/CodeYourFuture/curriculum] The main Markdown files live in sub folders of the [common-content/en/workshops folder](https://github.com/CodeYourFuture/curriculum/tree/main/common-content/en/workshops). Static files such as HTML that needs to be hosted belong in subfolders of the [org-cyf/static/workshops folder](https://github.com/CodeYourFuture/curriculum/tree/main/org-cyf/static/workshops). Code samples that students are expected to edit or run belong in [the workshop code repository](https://github.com/Ara225/workshop-code) 
 
 Workshops may also be created in stand-alone repositories if needed. 
 
