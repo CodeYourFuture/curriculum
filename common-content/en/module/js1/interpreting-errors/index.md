@@ -12,6 +12,9 @@ time = 20
 
 +++
 
+>[!caution]
+> Moving this earlier in the course - will need a new example without using a function
+
 ## An error is thrown
 
 When we run the file with Node, we get an error in the console:

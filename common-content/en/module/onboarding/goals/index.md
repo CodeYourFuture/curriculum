@@ -37,15 +37,11 @@ _By the end of this module_ you will have tracked changes to data (your code) ov
 
 #### Requirements and Testing
 
-_By the end of this module_ you will have tested your work using acceptance criteria, manual testing, and automated testing. Your goal is to interpret requirements and write code to meet acceptance criteria.
+_By the end of this module_ you will have written code to solve specific problems and verified that it does what it is supposed to. Your goal is to interpret requirements and write code to meet acceptance criteria.
 
 #### Code review
 
 _By the end of this module_ you will have revised, refactored, and reviewed code using code review. Your goal is to form the habits of a professional who can think, talk, and write in a technical context.
-
-#### Data
-
-_By the end of this module_ you will have manipulated data with HTML, Git, and Google Sheets. Your goal is to begin to understand how data is structured and how to manipulate it.
 
 #### Scientific method
 

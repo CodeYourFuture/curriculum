@@ -15,16 +15,10 @@ time="10"
 
 To improve their way of working, Ahmed and Naima realise they need the following:
 
-> - a way to both know what the most recent version is
-> - a way to know what the old versions were, and in what order (i.e. how they got to the current version, and what content they may have deleted that they may want to get back)
+- A way to both know what the most recent version is
+- A way to know what the old versions were, and in what order (i.e. how they got to the current version, and what content they may have deleted that they may want to get back)
 
 To manage the different versions of the blog project, they decide to use **Git**.
-
-{{<note type="definition" title="definition: Git">}}
-
-Git is **version control software** that allows developers to create and manage different versions of a project.
-
-{{</note>}}
 
 In Git, we create different versions of a project over time by creating **commits**.
 

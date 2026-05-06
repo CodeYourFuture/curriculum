@@ -12,6 +12,9 @@ time = 20
 
 +++
 
+>[!caution]
+> Moving this earlier in the course - check everything still makes sense
+
 > 🗣️ Recall: A programming language is a set of rules for writing computer instructions.
 
 So we need to understand what happens when we **_break_** those rules.
