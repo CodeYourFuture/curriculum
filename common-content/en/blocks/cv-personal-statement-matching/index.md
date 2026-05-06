@@ -16,15 +16,15 @@ Personal statements should be personal. [They're not generic statements, they're
 
 We're going to play a game to test this.
 
-<!-- TODO: Link to a "match the CVs" game when one exists: https://projects.codeyourfuture.io/briefings/#cv-matching-game -->
-
 ### Set-up (5 minutes)
 
-All trainees should send a copy of their CV personal statement to one volunteer. That volunteer should make a slideshow where each slide shows one personal statement, without a name. It should just show the personal statement, not the whole CV.
+A volunteer should open [the CV Matching Game](https://cv-eval.hosting.codeyourfuture.io/), set up a game, and share a link with all trainees.
+
+All trainees should join the game and paste in their CV personal statement.
 
 ### Playing the game (15 minutes)
 
-Go through as a class one slide at a time. The class should vote on who each statement belongs to. Don't reveal who was correct until the end of the game.
+Play the game - each trainee will be presented with each personal statement, and they should vote on whose personal statement they think it is.
 
 ### Discussion (10 minutes)
 
@@ -35,3 +35,7 @@ How often was this the case for your class?
 What made the personal statements personal? What was generic and hard to identify?
 
 How can you make your personal statement more personal?
+
+### Feedback
+
+This game implementation was built by recent CYF trainees as their Launch project. They would love any feedback on your experience of the game. Please share anything you liked, disliked, found annoying, or bugs on Slack in [#feedback-curriculum](https://codeyourfutur-yov6609.slack.com/archives/C07U0V5A51R).
