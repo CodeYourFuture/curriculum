@@ -48,15 +48,6 @@ src="blocks/afternoon-break"
 name="Study Group"
 src="blocks/study-group"
 time=85
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pomodoro"
-src="module/onboarding/pomodoro"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Bikes for Refugees Project"
-src="https://github.com/CodeYourFuture/Module-Onboarding/issues/22"
 [[blocks]]
 name="Wrap"
 src="blocks/wrap"
