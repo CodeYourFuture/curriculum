@@ -34,19 +34,18 @@
     */}}
     {{ range $repos }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
+      {{ $issueBlocks = (index $issueBlocks 0).backlog_tasks }}
       {{ range $issueBlocks }}
         {{ $issue := . }}
-        {{ range .labels.nodes }}
-          {{if in .name "Recurring"}}
+          {{if eq .category "recurring"}}
             {{ $recurringTasks = $recurringTasks | append $issue }}
-          {{else if in .name "Setup"}}
+          {{else if eq .category "setup"}}
             {{ $setupTasks = $setupTasks | append $issue }}
-          {{else if in .name "Core"}}
+          {{else if eq .category "mandatory"}}
             {{ $mandatoryTasks = $mandatoryTasks | append $issue }}
-          {{else if in .name "Optional"}}
+          {{else if eq .category "optional"}}
             {{ $optionalTasks = $optionalTasks | append $issue }}
           {{ end }}
-        {{ end }}
       {{ end }}
     {{ end }}
     {{ $page.Scratch.Set "backlog-tasks" (dict "setup" $setupTasks "recurring" $recurringTasks "mandatory" $mandatoryTasks "optional" $optionalTasks) }}
