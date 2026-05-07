@@ -38,4 +38,4 @@ How can you make your personal statement more personal?
 
 ### Feedback
 
-This game implementation was built by recent CYF trainees as their Launch project. They would love any feedback on your experience of the game. Please share anything you liked, disliked, found annoying, or bugs on Slack in [#feedback-curriculum](https://codeyourfutur-yov6609.slack.com/archives/C07U0V5A51R).
+This game implementation was built by recent CYF trainees as their Launch project. They would love any feedback on your experience of the game. Please share anything you liked, disliked, found annoying, or bugs as GitHub issues on [the CV Matching Game repo](https://github.com/fatmaevin/cv-statement-detective/issues).
