@@ -54,6 +54,8 @@ Pair programming is very common in industry so it's good to practice it now! Fin
 - Switch between driver and navigator roles after {{<timer>}}10{{</timer>}}
 - Don't dominate - this is teamwork
 
+There are further details in our [Pair Programming Guide](/guides/pair-programming/#drivernavigator-pair-programming).
+
 </details>
 
 <details>
