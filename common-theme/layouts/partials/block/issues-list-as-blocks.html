@@ -1,12 +1,18 @@
 {{/*
   Loading backlog issues from static JSON
 
+  - $courseRegex matches the course name from the url.
+  - $courseName strips the leading/trailing / characters    TODO: This could probably be avoided with a better regex
   - $issuesForModule filters by module name and returns the first element from the resulting array.
   - $IssuesForSprint filters those issues by sprint label
 
 */}}
 
-{{ $issuesForModule := index (where site.Data.backlog.courses.itp.modules "name" .backlog) 0}}
+{{ $courseRegex := `/(.*?)/` }}
+{{ $courseName := (trim (index (findRE $courseRegex .path 1) 0) "/") }}
+
+{{ $courseIssues := index site.Data.backlog.courses $courseName}}
+{{ $issuesForModule := index (where $courseIssues.modules "name" .backlog) 0}}
 {{ $issuesForSprint := where $issuesForModule.sprints "name" .backlog_filter }}
 
 {{ return $issuesForSprint }}
