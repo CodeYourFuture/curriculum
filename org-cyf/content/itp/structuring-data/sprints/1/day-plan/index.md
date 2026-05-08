@@ -9,7 +9,7 @@ src="blocks/morning-orientation"
 time=10
 [[blocks]]
 name="Screen Safari"
-src="energisers/popcorn-screen-share"
+src="energisers/screen-safari"
 [[blocks]]
 name="Problem Solving Workshop"
 src="https://codewars-workshops.codeyourfuture.io/problem-01/"
@@ -20,7 +20,6 @@ src="blocks/morning-break"
 [[blocks]]
 name="Asking Good Technical Questions"
 src="blocks/asking-good-technical-questions"
-time=70
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
@@ -32,15 +31,6 @@ time=15
 name="Study Group"
 src="blocks/study-group"
 time=135
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Code Review"
-src="blocks/mentored-code-review"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Know Your Computer"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/know-your-computer"
 [[blocks]]
 name="Retro"
 src="blocks/retro"

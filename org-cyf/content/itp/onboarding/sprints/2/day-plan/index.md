@@ -28,19 +28,6 @@ src="blocks/working-with-others"
 name="Study Group"
 src="blocks/study-group"
 time=145
-[[blocks.nested.blocks]]
-name="Optional structured activity: Live Code Review"
-src="blocks/mentored-code-review"
-[[blocks.nested.blocks]]
-name="Optional structured activity for consolidating Git"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/git-day-1"
-time=0
-[[blocks.nested.blocks]]
-name="Optional structured activity for consolidating HTML forms"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/get-forms"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"

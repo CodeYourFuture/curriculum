@@ -6,7 +6,7 @@ menu_level = ["sprint"]
 weight = 3
 [[blocks]]
 name="Energiser"
-src="energisers/popcorn-screen-share"
+src="energisers/screen-safari"
 time=20
 [[blocks]]
 name="Presentation: round 1"

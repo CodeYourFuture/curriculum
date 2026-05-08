@@ -33,18 +33,6 @@ time=15
 name="Study Group"
 src="blocks/study-group"
 time=135
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Code Review"
-src="blocks/mentored-code-review"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pomodoro"
-src="module/onboarding/pomodoro"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Kata"
-src="blocks/kata"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
