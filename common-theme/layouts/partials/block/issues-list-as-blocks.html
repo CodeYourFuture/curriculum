@@ -5,7 +5,8 @@
   - $IssuesForSprint filters those issues by sprint label
 
 */}}
-{{ $issuesForModule := index (where site.Data.backlog.courses.itp.modules "name" "Onboarding") 0}}
-{{ $issuesForSprint := where $issuesForModule.sprints "name" "Sprint 1" }}
+
+{{ $issuesForModule := index (where site.Data.backlog.courses.itp.modules "name" .backlog) 0}}
+{{ $issuesForSprint := where $issuesForModule.sprints "name" .backlog_filter }}
 
 {{ return $issuesForSprint }}
