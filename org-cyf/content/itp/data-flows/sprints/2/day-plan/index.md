@@ -11,9 +11,13 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
+name="Demo Q&A Practice"
+src="blocks/demo-qa"
+time="60"
+[[blocks]]
 name= "Teamwork Project Sprint 2"
 src="blocks/teamwork-project-s2"
-time="140"
+time="80"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
