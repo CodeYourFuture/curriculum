@@ -15,4 +15,4 @@
 {{ $issuesForModule := index (where $courseIssues.modules "name" .backlog) 0}}
 {{ $issuesForSprint := where $issuesForModule.sprints "name" .backlog_filter }}
 
-{{ return $issuesForSprint }}
+{{ return (index $issuesForSprint 0).backlog_tasks }}

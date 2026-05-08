@@ -34,7 +34,6 @@
     */}}
     {{ range $repos }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
-      {{ $issueBlocks = (index $issueBlocks 0).backlog_tasks }}
       {{ range $issueBlocks }}
         {{ $issue := . }}
           {{if eq .category "recurring"}}
