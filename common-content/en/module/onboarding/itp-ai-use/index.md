@@ -2,9 +2,8 @@
 title="Acceptable AI Use"
 time=5
 objectives = [
-  "Understand the acceptable and unacceptable uses of AI during the ITP."
+  "Explain acceptable and unacceptable uses of AI during the ITP."
 ]
-hide_from_overview="true"
 [build]
   render = 'never'
   list = 'local'
