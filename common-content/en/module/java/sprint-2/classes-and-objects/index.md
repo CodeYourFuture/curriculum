@@ -46,3 +46,50 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Video Materials
 - (Coding with John - Constructors)[https://www.youtube.com/watch?v=pgBk8HC7jbU]
+
+## Exercises
+
+### Exercise 1.1 - Product Class
+
+Create a Product class with:
+
+- Fields: name, price, stockCount
+- Getters and setters for each field
+- A toString method that includes each of the fields
+- Two constructors:
+
+- Name and price only, defaulting stockCount to 0
+- Name, price and stock
+
+Create several products and print them, then modify your first constructor so that it takes advantage of constructor chaining.
+
+_Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop._
+
+- How did constructor overloading change the way Product objects could be created?
+- What problem does constructor chaining with this() solve?
+- When you created multiple Product objects, how did the constructor arguments affect the state of each object?
+
+### Exercise 1.2 - Reference Behaviour
+
+Starting with the following in your main method:
+
+```java
+Product p1 = new Product("Laptop", 900);
+Product p2 = p1;
+p2.setPrice(1100);
+System.out.println(p1.getPrice());
+System.out.println(p2.getPrice());
+```
+#### Tasks:
+
+- Predict the output
+- Run the code to verify
+- Change how p2 is instantiated so that making changes to it does **not** affect p1
+
+_Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop._
+
+- Why did changing p2 also change p1?
+- What does this tell you about what p1 and p2 actually store?
+- How did your fix prevent changes to p2 from affecting p1?
+- What new object(s) existed after your change compared to before?
+- How could this kind of reference behaviour cause bugs in a larger codebase if it's not well understood?
