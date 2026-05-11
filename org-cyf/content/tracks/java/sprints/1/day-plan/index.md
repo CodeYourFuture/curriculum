@@ -20,7 +20,7 @@ src="blocks/morning-break"
 time=20
 [[blocks]]
 name="Demo"
-src="module/java/demo"
+src="module/java/sprint-1/demo"
 time=60
 [[blocks]]
 name="lunch"
