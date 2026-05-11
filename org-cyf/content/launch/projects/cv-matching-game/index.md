@@ -4,7 +4,7 @@ title = "CV Matching Game"
 
 ## Business problem
 
-CV Personal Statements [should be personal](https://curriculum.codeyourfuture.io/guides/employability/cvs/common-mistakes/#generic-personal-statements). Many of our trainees write really impersonal statements.
+CV Personal Statements [should be personal](/guides/employability/cvs/common-mistakes/#generic-personal-statements). Many of our trainees write really impersonal statements.
 
 We want to be able to run a fun game in class to test how personal their personal statements are.
 

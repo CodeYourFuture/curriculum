@@ -61,6 +61,6 @@ time="30"
     time=0 
 [[blocks]]
 name="Wrap up"
-src="module/piscine/wrap"
+src="module/checkpoint/wrap"
 time=15
 +++

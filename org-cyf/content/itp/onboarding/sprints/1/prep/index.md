@@ -66,10 +66,12 @@ src="module/induction/branching"
 [[blocks]]
 name="Wrapping up Git"
 src="module/induction/wrapping-up"
-[[blocks]]
-name="Using GitHub Dev to complete coursework on a library computer"
-src="https://www.youtube.com/watch?v=qkEL0LaTc4k"
 time=15
+[[blocks]]
+name="Forms in 25 minutes"
+title="Form building"
+src="https://www.youtube.com/watch?v=fNcJuPIZ2WE"
+time=25
 [[blocks]]
 name="Backlog"
 src="blocks/backlog"

@@ -17,6 +17,143 @@ Attendees:
 
 ---
 
+## 2026-05-05
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Ali Smith, Karen Klein
+
+### ❗Actions from last time
+
+- [x] Daniel: (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [x] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [x] Anna: Move all of the CYF-Workshops into the curriculum
+
+DWH working on splitting up SDC, should be done before the current cohort get there.
+
+CJ is almost done with the PR video
+
+### Onboarding Updates
+
+Colin has mapped out some suggested changes to the Onboarding module of ITP.
+
+Ali highlighted the importance of reinforcing key concepts.
+
+Questions raised about what fills the gaps left by pulling content forward. Testing and databases are current goals, but nothing has been decided yet. Final decision will depend on how much time is available after Onboarding changes.
+
+Karen suggested speaking to trainees who had dropped out before enrolment in previous ITPs to get their opinion on suggested changes
+
+### ITP Coursework
+
+#### Module 2 Coursework
+
+CJ suggested some module 2 coursework could be self-assessed instead of requiring review.
+
+Leon has done some work on automating marking - could this be useful here?
+
+Daniel suggested moving some of the discussion topics into workshops, eg. predicting/explaining output. Code writing tasks could be automated.
+
+Conversations around fundamentals, eg defining a function call, make more sense to have in a group setting or in a pairing session rather than in comments on PRs.
+
+We could factor these changes into changes ahead of Sept ITP.
+
+#### TV Show
+
+The code-swapping element of the project presents some challenges:
+  - Partners getting out of sync causes stress for trainees
+  - How do we assess level 400? Can be difficult to tell how much work was done
+
+Is there enough communication between partners?
+
+This is the only group work in ITP - should we add more? Can we structure this better?
+
+Time pressure at the end of the course affects lots of trainees and lots of tasks, this project isn't the only one. 
+
+We need to revisit these topics in a later meeting.
+
+#### Feedback branch
+
+CJ has created branches in the `Module-XXX` repos with common feedback points for reviewers. 
+
+#### Trainees are good at AI but bad at programming
+
+Many trainees are overly dependent on AI but lacking fundamental skills.
+
+Checkpoint tries to address this in interviews.
+
+Poonam has added some AI guidance to ITP for the next cohort.
+
+### Workshops merging with curriculum repo
+
+This is mostly done, but there are some outstanding questions on the [GitHub issue](https://github.com/CodeYourFuture/curriculum/issues/1822#issue-4214167257).
+
+### Checkpoint prep
+
+Piscine has been renamed! Next Checkpoint will run in June.
+
+Daniel has shared dates in the [team Slack channel](https://codeyourfuture.slack.com/archives/C08B643GY4T) - please let him know if you're able to help.
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+
+
+## 2026-04-07
+
+Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar
+
+### ❗Actions from last time
+
+- [x] Everyone: Think about what the Onboarding module should look like. Share thoughts in next meeting (and come join us in person on April 20th if you can!)
+- [x] (After this ITP finishes): (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [x] Daniel: Merge all the curricula
+- [ ] Anna: Move all of the CYF-Workshops into the curriculum
+
+### 📝 Agenda points
+
+#### Onboarding module direction
+
+* Maybe have a first PR which is just an "orient yourself to PRs on GitHub".
+* Maybe try to pull some JS back into the Onboarding module, and accordingly a bit meatier actual-useful-work expected PRs.
+* People often struggle with some basic programming fundamentals, e.g. "what is a variable declaration".
+* Better curated resources for people to reference online.
+* Be aware we've swung too far in each direction of "too little" and "too much" over Onboarding iterations.
+* Don't want to lose git from the start.
+* Currently we can't rely on people having laptops in Onboarding - it's possible we could get access to some laptops we're ok with losing to lend out.
+
+#### Workshops move into the curriculum repo
+
+Anna has been working on this! Three things that came up:
+
+* Anna has so far been doing this under her username - will move it over to CYF soon
+* get-forms workshop requires disposable branch previews, which we probably don't want to turn on in the curriculum repo.
+  * Would probably be ok to just remove the workshop, as it's an optional thing in a study group so likely not really done
+
+#### GitHub Projects
+
+We seem to have stopped using our GitHub Project / backlog - how do we feel about that?
+
+Daniel's perspective: People don't often have a lot of time to be browsing for things to pick up, so tend to share out urgent things as they come up.
+
+We have a running list of tasks that we copy forward across meetings, which means we hopefully actually prioritise and get things done.
+
+There can be value in tickets, both for self-organising/documenting (e.g. [Anna's workshop merge ticket](https://github.com/CodeYourFuture/curriculum/issues/1822)), or for getting structured information about problems from volunteers/trainees.
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Swap order of Wireframe and Form-Controls exercises.
+- [ ] Colin: (Carry Over) Decided that we will make a list of alternative activities to replace/supplement study group
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] Anna: Move all of the CYF-Workshops into the curriculum
+
+---
+
 ## 2026-03-24
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Poonam Rajput
@@ -839,7 +976,7 @@ Attendees: Ali Smith, Anna Aitchison, CJ Yuan, Daniel Wagner-Hall, Karen Klein, 
 
 CJ has been looking into how we can set up a skeleton project structure for ITP exercises. This should encourage trainees to write tests for their logic that doesn't depend on the DOM, and ideally utilise ES Modules. We would like trainees to decouple the DOM and their app's logic, without getting bogged down in teaching sophisticated design jargon. May need to be split into different ITP modules to provide a gentle introduction to different concepts.
 
-The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/The-Piscine/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
+The [Piscine Days Calendar Project](https://github.com/CodeYourFuture/Checkpoint/tree/main/Project-Days-Calendar) is an example of organising a project using ES Modules.
 
 #### AI in ITD (Step Two)
 

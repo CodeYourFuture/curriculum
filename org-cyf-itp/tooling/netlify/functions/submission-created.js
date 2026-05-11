@@ -1,1 +1,0 @@
-../../../../tooling/netlify/functions/submission-created.js

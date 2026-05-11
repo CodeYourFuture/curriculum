@@ -49,9 +49,11 @@ async function onLoad() {
   render();
   await Promise.all(state.prs.map((pr) => pr.loadReviews()));
   render();
+
 }
 
 function render() {
+  // Create regions filter object
   const regionSelect = document.querySelector("#region-filter");
   regionSelect.textContent = "";
   regionSelect.appendChild(makeRegionOption("All Regions", ""));
@@ -64,6 +66,7 @@ function render() {
     render();
   });
 
+  // Default loading state
   if (state.prs === null) {
     document.querySelector("#pr-list").innerText = "Loading...";
     return;
@@ -82,6 +85,7 @@ function render() {
     prsByModule[module] = [];
   }
 
+  // Filter all the relevant PRs to show, sorted by oldest first
   for (const pr of state.prs) {
     if (state.region_filter && !regionMatches(state.region_filter, pr.title)) {
       continue;
@@ -113,6 +117,7 @@ function render() {
   document.querySelector("#pr-list").innerText = "";
   document.querySelector("#overview").innerText = "";
 
+  // Build each module
   for (const module of modules) {
     const awaitingReview = awaitingReviewByAge[module];
     const totalPending = Object.values(awaitingReview).reduce(
@@ -120,6 +125,7 @@ function render() {
       0
     );
 
+    // Create a traffic light card to show at top of page
     const overviewCard = document
       .querySelector("template.overview-card")
       .content.cloneNode(true);
@@ -138,41 +144,61 @@ function render() {
       .classList.add(computeStatusClass(awaitingReview));
     document.querySelector("#overview").appendChild(overviewCard);
 
+    // Add the PRs for each module
     if (totalPending) {
       const modulePrList = document
         .querySelector("template.pr-list")
         .content.cloneNode(true);
       fillWithModuleHeading(modulePrList.querySelector(".module"), module, totalPending);
-      for (const pr of prsByModule[module]) {
-        const prInList = document
-          .querySelector("template.pr-in-list")
-          .content.cloneNode(true);
 
-        const emojiElement = prInList.querySelector(".emoji");
-        if (pr.hasReviewer()) {
-          emojiElement.innerText = "🙋🏾";
-          const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
-          const maybeS = reviewers.length === 1 ? "" : "s";
-          emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
-        } else {
-          emojiElement.innerText = ageToEmoji[pr.updatedAge];
+      const prsBySprint = {};
+      prsByModule[module].forEach(pr => {
+        if(!(pr.sprint in prsBySprint)){
+          prsBySprint[pr.sprint] = [];
         }
+        prsBySprint[pr.sprint].push(pr);
+      });
 
-        const prLink = prInList.querySelector("a.pr-link");
-        prLink.href = pr.url;
-        prLink.innerText = `${pr.title}`;
+      for (const sprint in prsBySprint){
+        const sprintHeading = document.createElement('h3');
+        sprintHeading.innerText = "Sprint " + sprint;
+        modulePrList.querySelector("ul.pr-list").appendChild(sprintHeading);
 
-        const userLink = prInList.querySelector("a.user-link");
-        userLink.href = pr.userUrl;
-        userLink.innerText = `${pr.userName}`;
+        const prsInSprint = prsBySprint[sprint];
+        prsInSprint.sort((a,b) => a.taskName < b.taskName ? -1 : 1);
 
-        prInList.querySelector(".pr-number").innerText = pr.number;
-        modulePrList.querySelector("ul.pr-list").appendChild(prInList);
+        for (const pr of prsInSprint) {
+          const prInList = document
+            .querySelector("template.pr-in-list")
+            .content.cloneNode(true);
+
+          const emojiElement = prInList.querySelector(".emoji");
+          if (pr.hasReviewer()) {
+            emojiElement.innerText = "🙋🏾";
+            const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
+            const maybeS = reviewers.length === 1 ? "" : "s";
+            emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
+          } else {
+            emojiElement.innerText = ageToEmoji[pr.updatedAge];
+          }
+
+          const prLink = prInList.querySelector("a.pr-link");
+          prLink.href = pr.url;
+          prLink.innerText = `${pr.title}`;
+
+          const userLink = prInList.querySelector("a.user-link");
+          userLink.href = pr.userUrl;
+          userLink.innerText = `${pr.userName}`;
+
+          prInList.querySelector(".pr-number").innerText = pr.number;
+          modulePrList.querySelector("ul.pr-list").appendChild(prInList);
+        }
       }
       document.querySelector("#pr-list").appendChild(modulePrList);
     }
   }
 
+  // Set up the filter for reviewers
   const knownReviewersElement = document.querySelector("#known-reviewers");
   knownReviewersElement.innerText = "";
   const sortedReviewers = [...reviewers].sort();
@@ -181,6 +207,7 @@ function render() {
     option.value = reviewer;
     knownReviewersElement.appendChild(option);
   }
+
 }
 
 const regionMatches = (regionToFilter, prTitle) => {
@@ -232,6 +259,7 @@ const makeRegionOption = (label, value) => {
 
 onLoad();
 
+// TODO add a filter for task
 document.querySelector("#reviewer-filter").addEventListener("keyup", (event) => {
   state.reviewer_filter = event.target.value;
   console.log("Setting filter to " + state.reviewer_filter);

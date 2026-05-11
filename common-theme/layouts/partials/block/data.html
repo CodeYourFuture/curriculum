@@ -29,6 +29,7 @@
 {{ .Scratch.SetInMap "blockData" "hasBlocks" .hasBlocks| default "" }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
+{{ .Scratch.SetInMap "blockData" "pageLayout" $pageRef.Page.Params.layout}}
 
 {{/* Now let's do our headers */}}
 {{ $headers := partial "github-auth.html" }}

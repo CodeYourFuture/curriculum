@@ -19,6 +19,6 @@ jobs:
         run: ./tooling/go/local-overrides-enforcer
       - name: Check sprint consistency
         # TODO: The Launch should probably have themes, but for now we'll ignore it so we can be checking the rest of the repo without having to fix this.
-        run: ./tooling/go/sprint-consistency --exclude-roots org-cyf-launch
+        run: ./tooling/go/sprint-consistency --exclude-roots org-cyf/content/launch
       - name: Check site consistency
         run: ./tooling/go/site-consistency

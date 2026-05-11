@@ -1,1 +1,0 @@
-../tooling/common-config/deploy-netlify.sh

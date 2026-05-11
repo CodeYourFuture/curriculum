@@ -7,7 +7,7 @@ time=2
 Here is a quick list of useful links (some are for applicants only, but it is helpful to know them if an applicant has a problem):
 
 **The ITD Syllabus:**  
-[https://itd.codeyourfuture.io/](https://itd.codeyourfuture.io/). It's right here.
+[https://curriculum.codeyourfuture.io/itd/](https://curriculum.codeyourfuture.io/itd/). It's right here.
 
 **ITD signup page (for applicants only):**  
 [https://codeyourfuture.io/itc/](https://codeyourfuture.io/itc/)
@@ -26,12 +26,12 @@ Here is a quick list of useful links (some are for applicants only, but it is he
 
 **Acceptance Criteria:** These are what you refer to when approving applicants work:
 
-- **Step 1**: [https://itd.codeyourfuture.io/steps/one/#acceptance-criteria](https://itd.codeyourfuture.io/steps/one/#acceptance-criteria)
-- **Step 2**: [https://itd.codeyourfuture.io/steps/two/#acceptance-criteria](https://itd.codeyourfuture.io/steps/two/#acceptance-criteria)
-- **Step 3**: [https://itd.codeyourfuture.io/steps/three/#acceptance-criteria](https://itd.codeyourfuture.io/steps/three/#acceptance-criteria)
-- **Step 4**: [https://itd.codeyourfuture.io/steps/four/#acceptance-criteria](https://itd.codeyourfuture.io/steps/four/#acceptance-criteria)
-- **Step 5**: [https://itd.codeyourfuture.io/steps/five/#acceptance-criteria](https://itd.codeyourfuture.io/steps/five/#acceptance-criteria)
-- **Step 6**: [https://itd.codeyourfuture.io/steps/six/#acceptance-criteria](https://itd.codeyourfuture.io/steps/six/#acceptance-criteria)
-- **Step 7**: [https://itd.codeyourfuture.io/steps/seven/#acceptance-criteria](https://itd.codeyourfuture.io/steps/seven/#acceptance-criteria)
+- **Step 1**: [https://curriculum.codeyourfuture.io/itd/steps/one/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/one/#acceptance-criteria)
+- **Step 2**: [https://curriculum.codeyourfuture.io/itd/steps/two/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/two/#acceptance-criteria)
+- **Step 3**: [https://curriculum.codeyourfuture.io/itd/steps/three/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/three/#acceptance-criteria)
+- **Step 4**: [https://curriculum.codeyourfuture.io/itd/steps/four/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/four/#acceptance-criteria)
+- **Step 5**: [https://curriculum.codeyourfuture.io/itd/steps/five/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/five/#acceptance-criteria)
+- **Step 6**: [https://curriculum.codeyourfuture.io/itd/steps/six/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/six/#acceptance-criteria)
+- **Step 7**: [https://curriculum.codeyourfuture.io/itd/steps/seven/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/seven/#acceptance-criteria)
 
 ## To be continued...

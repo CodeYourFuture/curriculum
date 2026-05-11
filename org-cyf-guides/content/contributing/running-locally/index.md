@@ -27,7 +27,7 @@ When building the curriculum content is pulled from a number of different CYF re
 
 1. Click the "Generate new token" button
     - Name can be anything
-    - Duration is not important, but if you are contributing regularly you will need to repeat this process if your token expires
+    - The exact duration is not important, but your token **must** have an expiry date. Tokens without an expiry date will cause errors when building. You will need to repeat this process when your token expires, so if you are contributing regularly consider setting a long duration.
     - Ensure "resource owner" is your own account
     - "Repository access" should be `Public Repositories (read-only)`
     - You do not need account permissions
@@ -39,29 +39,10 @@ When building the curriculum content is pulled from a number of different CYF re
 
 ## Directory Structure
 
-Each part of the CYF course is deployed to its own microsite with its own url. For example, the Intro to Programming content is found at [itp.codeyourfuture.io](https://itp.codeyourfuture.io/) and the Software Development Course is at [sdc.codeyourfuture.io](https://sdc.codeyourfuture.io/). 
+The root of the curriculum is in the `org-cyf` directory in this repo. It has a child `content`, which contains a directory per course. These show up at https://curriculum.codeyourfuture.io/.
 
-Each module has its own directory within `curriculum` named `org-cyf-<MODULE>`, eg. `org-cyf-itp`. 
-
-```mermaid
----
-title: Directory Structure
----
-flowchart TD
-    root@{ shape: docs, label: curriculum } --> guides@{ shape: docs, label: org-cyf-guides }
-    root --> itd@{ shape: docs, label: org-cyf-itd}
-    root --> itp@{ shape: docs, label: org-cyf-itp}
-    root --> sdc@{ shape: docs, label: org-cyf-sdc}
-    root --> remainder@{ shape: docs, label: ...}
-    itp --> content@{ shape: docs, label: content}
-    itp --> package@{ shape: doc, label: package.json}
-    itp --> readme@{ shape: doc, label: README.md}
-    itp --> misc@{ shape: doc, label: ...}
-```
-
-Within each directory is a `content` folder laying out the material for the module and a `package.json` file. To build a module:
-
-- Navigate to `org-cyf-<MODULE>`
+To run the curriculum locally:
+- Navigate to `org-cyf`
 - `npm i` 
 - `npm run start:dev`
 - In a browser, go to `localhost:1313`
