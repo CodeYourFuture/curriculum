@@ -18,7 +18,7 @@ We're going to play a game to test this.
 
 ### Set-up (5 minutes)
 
-A volunteer should open [the CV Matching Game](https://cv-eval.hosting.codeyourfuture.io/), set up a game, and share a link with all trainees.
+A volunteer should open [the CV Matching Game](https://cv-statement-detective.hosting.codeyourfuture.io/), set up a game, and share a link with all trainees.
 
 All trainees should join the game and paste in their CV personal statement.
 
