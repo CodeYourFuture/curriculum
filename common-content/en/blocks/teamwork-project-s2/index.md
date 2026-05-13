@@ -15,7 +15,7 @@ publishResources = false
 {{<tabs name="Teamwork Project Sprint 2" >}}
 
 ===[[Prep & Introduction]]===
-⏱️ **Time:** 15 minutes
+⏱️ **Time:** 15 minutes (for this section - 90 minutes for the whole workshop)
 
 ### Prep
 
