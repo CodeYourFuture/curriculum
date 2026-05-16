@@ -48,9 +48,7 @@ _As you read through the resources below try to answer the following questions:_
 - (Coding with John - Constructors)[https://www.youtube.com/watch?v=pgBk8HC7jbU]
 
 ## Exercises
-
-### Exercise 1.1 - Product Class
-
+{{<note type="exercise" title="Exercise 1.1 - Product Class">}}
 Create a Product class with:
 
 - Fields: name, price, stockCount
@@ -68,9 +66,9 @@ _Think about the following questions, make notes and be prepared to talk through
 - How did constructor overloading change the way Product objects could be created?
 - What problem does constructor chaining with this() solve?
 - When you created multiple Product objects, how did the constructor arguments affect the state of each object?
+{{</note>}}
 
-### Exercise 1.2 - Reference Behaviour
-
+{{<note type="exercise" title="Exercise 1.2 - Reference Behaviour">}}
 Starting with the following in your main method:
 
 ```java
@@ -93,3 +91,4 @@ _Think about the following questions, make notes and be prepared to talk through
 - How did your fix prevent changes to p2 from affecting p1?
 - What new object(s) existed after your change compared to before?
 - How could this kind of reference behaviour cause bugs in a larger codebase if it's not well understood?
+{{</note>}}

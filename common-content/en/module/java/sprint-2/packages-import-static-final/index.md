@@ -41,17 +41,16 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Reading Materials
 
-- [Baeldung - Packages)[https://www.baeldung.com/java-packages]
-- [Baeldung - Static)[https://www.baeldung.com/java-static]
+- (Baeldung - Packages)[https://www.baeldung.com/java-packages]
+- (Baeldung - Static)[https://www.baeldung.com/java-static]
   - Don't worry about static code blocks or inner-classes at this point
-- [Medium - Hazards of global state)[https://medium.com/@obemeuche/the-hazards-of-globalizing-dynamic-variables-in-java-a-code-centric-perspective-fafa625b0a4d]
-- [Baeldung - Final)[https://www.baeldung.com/java-final]
-- [Baeldung - Immutable objects)[https://www.baeldung.com/java-immutable-object]
+- (Medium - Hazards of global state)[https://medium.com/@obemeuche/the-hazards-of-globalizing-dynamic-variables-in-java-a-code-centric-perspective-fafa625b0a4d]
+- (Baeldung - Final)[https://www.baeldung.com/java-final]
+- (Baeldung - Immutable objects)[https://www.baeldung.com/java-immutable-object]
   - For applications of the final keyword to guard against unwanted side-effects
 
 ## Exercises
-
-### Exercise 4.1 - Static Instance Counter
+{{<note type="exercise" title="Exercise 4.1 - Static Instance Counter">}}
 
 Tasks:
 
@@ -73,8 +72,9 @@ _Think about the following questions, make notes and be prepared to talk through
 - Why is it important that getPlanetCount() is static?
 - What are some of the dangers of using global static variables?
 - What would happen if planetCount were an instance field instead?
+{{</note>}}
 
-### Exercise 4.2 - Final Safety
+{{<note type="exercise" title="Exercise 4.2 - Final Safety">}}
 
 This exercise explores the three main uses of final: fields, methods, and classes.
 
@@ -116,3 +116,4 @@ _Think about the following questions, make notes and be prepared to talk through
 - Why can't you add a setter for `numberOfSides`?
 - How do final fields in `Configuration` and `Polygon` serve different purposes?
 - Why might a designer choose to make a class final?
+{{</note>}}

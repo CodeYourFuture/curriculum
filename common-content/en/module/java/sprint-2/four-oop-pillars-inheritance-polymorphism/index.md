@@ -55,7 +55,7 @@ _As you read through the resources below try to answer the following questions:_
 
 ## Exercises
 
-### Exercise 3.1 - From Downcasting to Polymorphism
+{{<note type="exercise" title="Exercise 3.1 - From Downcasting to Polymorphism">}}
 
 Set up a classes for an animal show:
 
@@ -85,8 +85,9 @@ _Think about the following questions, make notes and be prepared to talk through
 - How did moving behaviour into the base `Animal` class change the design?
 - Why did the perform method stop needing to know the concrete animal types?
 - How does this refactor demonstrate the real value of polymorphism?
+{{</note>}}
 
-### Exercise 3.2 - Overloading vs Overriding
+{{<note type="exercise" title="Exercise 3.2 - Overloading vs Overriding">}}
 
 Starting with:
 
@@ -116,8 +117,9 @@ _Think about the following questions, make notes and be prepared to talk through
 - How does Java choose an overridden method at runtime?
 - Why can overloading sometimes be confusing or misleading when reading code?
 - How does this exercise reinforce the difference between "same method name" and "same behaviour"?
+{{</note>}}
 
-### Exercise 3.3 - Composition vs Inheritance
+{{<note type="exercise" title="Exercise 3.3 - Composition vs Inheritance">}}
 
 Building on the last exercise, we now need to support a checkout process. A checkout must be able to take a payment using a payment method.
 
@@ -141,3 +143,4 @@ _Think about the following questions, make notes and be prepared to talk through
 - What would happen if you chose the wrong relationship?
 - How do IS-A and HAS-A relationships help you think about code reuse and composition in real applications?
 - Can you imagine other classes where this distinction is important?
+{{</note>}}

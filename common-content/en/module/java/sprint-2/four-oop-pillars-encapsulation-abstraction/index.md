@@ -52,8 +52,7 @@ _As you read through the resources below try to answer the following questions:_
 
 
 ## Exercises
-
-### Exercise 2.1 - Fix the direct balance access using encapsulation
+{{<note type="exercise" title="Exercise 2.1 - Fix the direct balance access using encapsulation">}}
 
 Starting with:
 ```java
@@ -97,9 +96,9 @@ _Think about the following questions, make notes and be prepared to talk through
 - How did making balance private change how the system had to interact with BankAccount?
 - Why is it better for BankAccount to manage its own deposits and withdrawals rather than BankService?
 - How does this refactor make misuse of BankAccount harder or impossible?
+{{</note>}}
 
-### Exercise 2.2 - Abstraction in Code
-
+{{<note type="exercise" title="Exercise 2.2 - Abstraction in Code">}}
 Start with this class, for a logging system:
 
 ```java
@@ -161,3 +160,4 @@ _Think about the following questions, make notes and be prepared to talk through
 - If the system later logged to a database instead of a file, which class would you change?
 - Why is it useful that `main()` does not know how logging works internally?
 - How does this demonstrate abstraction reducing system complexity?
+{{</note>}}
