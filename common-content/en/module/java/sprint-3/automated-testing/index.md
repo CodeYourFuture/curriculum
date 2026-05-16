@@ -1,5 +1,5 @@
 +++
-title = 'The Four OOP Pillars - Inheritance & Polymorphism'
+title = 'Automated Testing'
 
 time = 120
 objectives = [
