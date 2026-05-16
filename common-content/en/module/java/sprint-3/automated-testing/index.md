@@ -3,12 +3,13 @@ title = 'The Four OOP Pillars - Inheritance & Polymorphism'
 
 time = 120
 objectives = [
-    'Explain the difference between method overriding and overloading',
-    'And write overridden and overloaded methods',
-    'Explain Java decides which method implementation to run',
-    'Explain what upcasting and downcasting are, and when they occur',
-    'Explain how polymorphism enables flexible, reusable designs',
-    'Inspect types using _instance of_'
+  'Understand that annotations can be used to provide meta-data about a class, method, field or other program-element in Java.',
+  'Understand that annotations are often used by frameworks to provide runtime behaviour, e.g. identify methods which represent tests, identify methods to be used for set-up.',
+  'Explain the use of common core annotations; Override, Deprecated.',
+  'Understand the role of tests as the unit where we confirm a specific set of results from an interaction with a class.',
+  'Be aware thatJUnit provides a standard test class lifecycle that allows common set up to be shared between test cases.',
+  'Understand that assertions are the mechanism by which we verify the results of our interactions are the ones we expect. There are a wide variety of assertion capabilities built-in to JUnit.',
+  'Understand that tests can be run in an IDE or in a build system (e.g. Maven)'
 ]
 [build]
   render = 'never'
@@ -45,16 +46,6 @@ Adding well constructed tests for a method, showing the expected results from sp
   - [Creating and running a test](https://www.jetbrains.com/guide/java/tutorials/writing-junit5-tests/creating-and-running-a-test/) (IntelliJ)
   - [JUnit 5 Crash Course](https://www.youtube.com/watch?v=6uSnF6IuWIw) (first ~25mins)
 - More advanced use of JUnit (up to ~30mins when it starts on Mockito) - [Mastering Java Testing](https://www.youtube.com/watch?v=Pmxh-sObDKg)
-
-## Key Concepts
-
-- Annotations can be used to provide meta-data about a class, method, field or other program-element in Java.
-- Annotations are often used by frameworks to provide runtime behaviour, e.g. identify methods which represent tests, identify methods to be used for set-up.
-- Explain the use of common core annotations; Override, Deprecated.
-- A test as the unit where we confirm a specific set of results from an interaction with a class.
-- JUnit provides a standard test class lifecycle that allows common set up to be shared between test cases.
-- Assertions are the mechanism by which we verify the results of our interactions are the ones we expect. There are a wide variety of assertion capabilities built-in to JUnit.
-- Tests can be run in an IDE or in a build system (e.g. Maven)
 
 ## Exercises
 
