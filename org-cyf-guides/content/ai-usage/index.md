@@ -14,13 +14,13 @@ At CYF we have found that AI tools are changing the way people learn in a range 
 - Asking difficult questions.
 - Generating written work, emails etc.
 
-To enable people to learn necessary skills to land good jobs in tech we have to provide guardrails and guidance around what acceptable AI use is across our courses.
+To enable people to learn the fundamental skills needed to land good jobs in tech, we have to provide guardrails and guidance on acceptable AI use throughout our courses.
 
 ## AI Use Guidelines
 
 Read [our full set of AI guidelines](/ai-use-guidelines).
 
-These guidelines should outline to everyone how to spot useful vs unhelpful AI use when it comes to our learning goals. It also outlines how acceptable AI use changes as we progress through the courses, from ITD all the way to Launch. The reason these guidelines change across the courses is because we have found we can use AI more accurately when we have the skills to question, re-prompt, or even correct the output of generative AI tools.
+These guidelines should outline how to spot useful vs unhelpful AI use when it comes to CYF's learning goals. It also outlines how acceptable AI use changes as we progress through the courses, from [ITD](https://curriculum.codeyourfuture.io/itd/) all the way to [Launch](https://curriculum.codeyourfuture.io/launch/). The reason these guidelines change across the courses is because we find AI use is more accurate when we have the skills to question, re-prompt, and correct AI output. This happens when we have stronger core engineering skills.
 
 ## Volunteer Cheatsheet
 
