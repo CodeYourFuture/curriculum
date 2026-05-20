@@ -26,4 +26,4 @@ These guidelines should outline to everyone how to spot useful vs unhelpful AI u
 
 Are you a volunteer who needs a quick reference to help work with students using AI?
 
-Find a shorter "Cheat Sheet" of how to navigate AI usage with trainees across the courses [here](/ai-use-cheat-sheet).
+You can also find a shorter ["Cheat Sheet" of how to navigate AI usage with trainees across the courses](/ai-use-cheat-sheet).
