@@ -18,7 +18,7 @@ To enable people to learn necessary skills to land good jobs in tech we have to 
 
 ## AI Use Guidelines
 
-There is a full set of AI guidelines [here](/ai-use-guidelines).
+Read [our full set of AI guidelines](/ai-use-guidelines).
 
 These guidelines should outline to everyone how to spot useful vs unhelpful AI use when it comes to our learning goals. It also outlines how acceptable AI use changes as we progress through the courses, from ITD all the way to Launch. The reason these guidelines change across the courses is because we have found we can use AI more accurately when we have the skills to question, re-prompt, or even correct the output of generative AI tools.
 
