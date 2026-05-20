@@ -11,8 +11,8 @@ At CYF we have found that AI tools are changing the way people learn in a range 
 - generating code to solve problems we're giving trainees to demonstrate concepts.
 - Using AI to complete large portions of projects.
 - Problem solving a task they can then code based off of.
-- asking difficult questions
-- generating written work, emails etc.
+- Asking difficult questions.
+- Generating written work, emails etc.
 
 To do enable people to learn necessary skills to land good jobs in tech we have to provide guardrails and guidance around what acceptable AI use is across our courses.
 
