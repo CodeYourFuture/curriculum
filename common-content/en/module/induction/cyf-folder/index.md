@@ -27,7 +27,7 @@ For each of the steps below, you'll need to use the command line in your termina
 
 Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/) to remember terminal commands.
 
-2. In your terminal, **p**rint your current **w**orking **d**irectory (by running `pwd`). Make sure you're in your home directory. If you're not, you may need to **c**change **d**irectory with the command `cd` to your home directory.
+2. In your terminal, **p**rint your current **w**orking **d**irectory (by running `pwd`). Make sure you're in your home directory. If you're not, you may need to **c**hange **d**irectory with the command `cd` to your home directory.
 
 3. **M**a**k**e a new **dir**ectory called `{{<our-name>}}` in your home directory (by running `mkdir {{<our-name>}}`).
 
