@@ -9,7 +9,7 @@ At CYF we have found that AI tools are changing the way people learn in a range 
 
 - Making concepts easier to understand, explaining back ideas.
 - generating code to solve problems we're giving trainees to demonstrate concepts.
-- Using AI to complete large portions of projects
+- Using AI to complete large portions of projects.
 - Problem solving a task they can then code based off of.
 - asking difficult questions
 - generating written work, emails etc.
