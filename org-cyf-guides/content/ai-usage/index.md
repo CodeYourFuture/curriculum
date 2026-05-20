@@ -14,7 +14,7 @@ At CYF we have found that AI tools are changing the way people learn in a range 
 - Asking difficult questions.
 - Generating written work, emails etc.
 
-To do enable people to learn necessary skills to land good jobs in tech we have to provide guardrails and guidance around what acceptable AI use is across our courses.
+To enable people to learn necessary skills to land good jobs in tech we have to provide guardrails and guidance around what acceptable AI use is across our courses.
 
 ## AI Use Guidelines
 
