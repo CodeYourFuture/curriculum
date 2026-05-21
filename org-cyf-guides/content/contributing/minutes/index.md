@@ -17,6 +17,31 @@ Attendees:
 
 ---
 
+## 19-05-2026
+
+Attendees: Anna, Daniel, Liam, Ali
+
+### ❗Actions from last time
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+
+### 📝 Agenda points
+#### Actions from last time
+Daniel is working on SDC legacy code module. Recording the video probaly hasn't been done.
+
+#### Slack
+Ali raised discussions re representation of the currlicum team in the other slacks. Should we move curriculum team into the community slack/be more visible in other slacks?
+
+Our current home in the community slack is #curriculum-feedback We don't really do anything there ATM. We agreed that being in the admin slack does offer meaningful benefits such as slack messages being kept but we don't want to be an island either. Ali proposed shared channels as a possible solution to strike the balence between the two extremes. Daniel will explore this. Liam will setup a reminder in the curriculum-feedback channel for now to remind people that we exist and have meetings
+
+### ❗Actions
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: Explore shared channels
+- [ ] Liam: Setup reminder in the curriculum-feedback channel
+
 ## 2026-05-05
 
 Attendees: Anna Aitchison, CJ Yuan, Colin Farquhar, Daniel Wagner-Hall, Ali Smith, Karen Klein
