@@ -20,8 +20,8 @@ We can use the Github interface to check out the files and folders at a previous
 
 Go back to this page https://github.com/CodeYourFuture/education-blog/commits/main
 
-Locate the the commit with hash `4e78b32` and then look for the icon that that says "Browse files".
-Explore the code at this point in the history. What differences do you notice?
+Locate the the commit with hash `4e78b32` and then look for the `<>` icon that says "Browse the repository at this point in the history" when hovered over with your mouse.
+Click this icon to explore the code at this point in the history. What differences do you notice?
 
 Do the same but for the commit `cd981a0`.
 
