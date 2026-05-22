@@ -25,7 +25,9 @@ How to write useful javadoc, how it is structured and why it is important.
 
 Most classes and methods are used by people other than the original developer. Providing a concise description of what a class / method is for and how to use it ensures that the correct expectations are set and that the developer is not surprised by any results/behaviours.
 
-## Reading Materials
+## Self Study
+
+### Reading Materials
 
 - Wikipedia - [Javadoc](https://en.wikipedia.org/wiki/Javadoc)
 - Oracle tool and specification - [overview](https://docs.oracle.com/en/java/javase/17/javadoc/javadoc.html) [javadoc spec](https://docs.oracle.com/en/java/javase/25/docs/specs/javadoc/doc-comment-spec.html)
@@ -34,12 +36,12 @@ Most classes and methods are used by people other than the original developer. P
 - [Java Util](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/package-summary.html)
 - [Apache Commons Lang](https://commons.apache.org/proper/commons-lang/apidocs/index.html)
 
-#### Video Materials
+### Video Materials
 
 - [Javadoc explainer](https://www.youtube.com/watch?v=GM3P5vAOjx8)
 - [Javadoc in IntelliJ](https://www.youtube.com/watch?v=9jtSXcp7u6g)
 
-#### Key Concepts
+### Key Concepts
 
 - Good javadoc is more than comments on the implementation
 - Javadoc should depend on context;
@@ -49,7 +51,7 @@ Most classes and methods are used by people other than the original developer. P
 - Javadoc on tests is as important as on the source;
 - useful javadoc will help provide context around edge cases and unusual assertions of behaviour
 
-#### Exercises
+## Exercises
 
 In these exercises focus on;
 

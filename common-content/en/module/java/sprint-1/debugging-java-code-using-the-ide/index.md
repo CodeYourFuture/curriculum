@@ -40,6 +40,8 @@ As you read through the resources below try to answer the following questions:
 - [Debugging a Java application with IntelliJ](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
 - [Understanding compilation](https://www.baeldung.com/java-compiled-interpreted)
 
+## Exercises
+
 {{<note type="exercise" title="Exercise 4.1">}}
 **Goal:** Learn to use breakpoints and inspect variables.
 

@@ -30,7 +30,9 @@ Any software project of a reasonable size quickly gets past the point where manu
 
 Adding well constructed tests for a method, showing the expected results from specific inputs can help clarify the intent of a method and also lead to confirmation that the method parameters are sensible (e.g. in name, type and order) for its goal.
 
-## Reading Materials
+## Self Study
+
+### Reading Materials
 
 - Annotations - [geeks for geeks annotations in java](https://www.geeksforgeeks.org/java/annotations-in-java/), [dev.java](https://dev.java/learn/annotations/)
   - Don't worry about how to create annotations
@@ -40,7 +42,7 @@ Adding well constructed tests for a method, showing the expected results from sp
 - Maven surefire plugin (reference for how tests are run during a build) [documentation](https://maven.apache.org/surefire/maven-surefire-plugin/index.html)
 - Simple project example [example](https://www.javaguides.net/2018/06/maven-surefire-plugin.html)
 
-## Video Materials
+### Video Materials
 
 - Beginner-friendly tutorials on creating and running your first JUnit 5 tests
   - [Creating and running a test](https://www.jetbrains.com/guide/java/tutorials/writing-junit5-tests/creating-and-running-a-test/) (IntelliJ)
