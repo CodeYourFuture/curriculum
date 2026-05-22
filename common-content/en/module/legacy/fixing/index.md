@@ -1,7 +1,6 @@
 +++
 title = "Fixing: Targeted Changes with Test Support"
 time = 30
-emoji= "🔧"
 [build]
   render = 'never'
   list = 'local'

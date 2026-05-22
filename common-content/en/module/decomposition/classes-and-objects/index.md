@@ -1,7 +1,6 @@
 +++
 title = "Classes and objects"
 time = 30
-emoji= "📝"
 objectives = [
   "Describe the purpose of a class.",
   "Explain the relationship between a class and instances of that class.",

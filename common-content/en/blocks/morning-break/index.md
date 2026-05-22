@@ -1,6 +1,5 @@
 +++
 title="Morning Break"
-emoji="🫖"
 time=15
 hide_from_overview=true
 [build]

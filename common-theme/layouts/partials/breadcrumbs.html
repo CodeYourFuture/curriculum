@@ -1,30 +1,34 @@
 {{ with .Parent }}
   <nav class="c-breadcrumbs">
     <ol class="c-breadcrumbs__list">
+      {{/* Skip the first ancestor which is the root page for the whole site - we already have a link here in the site logo. */}}
       {{- range after 1 .Ancestors.Reverse }}
-        <li class="c-breadcrumbs__item">
-          <a
-            class="c-breadcrumbs__link"
-            href="{{ .RelPermalink }}"
-            {{- if eq (len .Ancestors) 1 -}}
-              data-pagefind-filter="module"
-            {{- end -}}
-            ><span class="c-breadcrumbs__text">{{ .Title }}</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              width="24px"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="c-breadcrumbs__icon">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-            </svg>
-          </a>
-        </li>
+        {{/* Skip any ancestors that don't have a link, e.g. ones that set build.render = "never". */}}
+        {{ if .RelPermalink }}
+          <li class="c-breadcrumbs__item">
+            <a
+              class="c-breadcrumbs__link"
+              href="{{ .RelPermalink }}"
+              {{- if eq (len .Ancestors) 1 -}}
+                data-pagefind-filter="module"
+              {{- end -}}
+              ><span class="c-breadcrumbs__text">{{ .Title }}</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                width="24px"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="c-breadcrumbs__icon">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </a>
+          </li>
+        {{- end }}
       {{- end }}
       {{ if ne .Params.Build.render "never" }}
         <li class="c-breadcrumbs__item">

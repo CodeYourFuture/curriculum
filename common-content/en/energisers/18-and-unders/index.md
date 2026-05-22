@@ -1,6 +1,5 @@
 +++
 title="18 and under" 
-emoji="🧒"
 time=10 
 [tasks] 
 1="Share any interesting fact about you when you were young" 

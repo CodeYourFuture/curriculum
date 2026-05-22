@@ -1,6 +1,5 @@
 +++
 title="Attract Repel Chaos!"
-emoji="🧲"
 time=10
 [objectives]
     1="Select two colleagues as 'attract' and 'repel' targets"

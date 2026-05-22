@@ -1,7 +1,6 @@
 +++
 title = 'Blog'
 time ="5"
-emoji= '📝'
 hide_from_overview = true
 [build]
   render = 'never'

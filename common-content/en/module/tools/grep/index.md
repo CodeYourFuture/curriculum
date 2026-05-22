@@ -1,7 +1,6 @@
 +++
 title = "grep"
 time = 30
-emoji = "💻"
 objectives = [
   "Identify the lines in a file which contain a string using `grep`",
   "Identify which files contain a string using `grep`",

@@ -1,7 +1,6 @@
 +++
 title="Install PostGresQL"
 description="Install PostgreSQL on your computer."
-emoji="🐘"
 +++
 
 # Install PostgreSQL
@@ -55,7 +54,7 @@ This will ask for your Ubuntu login password to run the sudo command. The other 
 
     -u postgres       tells sudo to run createuser as user postgres (set up when you installed postgres)
 
-    createuser        the shell command to create a PostgeSQL user
+    createuser        the shell command to create a PostgreSQL user
 
     -P                (upper case) tells createuser to ask for the new user's password
 

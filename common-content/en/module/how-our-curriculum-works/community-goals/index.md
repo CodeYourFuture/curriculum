@@ -1,7 +1,6 @@
 +++
 title = 'Community goals'
 time = 10
-emoji= '🎯'
 [objectives]
 1='Define our community goals'
 [build]

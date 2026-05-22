@@ -3,7 +3,6 @@ title = 'What is HTML?'
 
 time = 45
 activities = ['defining-key-terms']
-emoji= '😶‍🌫️'
 [objectives]
     1='Define HTML, tags, and nesting'
     2='Explore the semantics of HTML'

@@ -1,7 +1,6 @@
 +++
 title="Link"
 description="Feature a single link to a page or external URL"
-emoji="🔗"
 menu=["blocktypes"]
 [[blocks]]
 name="Featured Link"

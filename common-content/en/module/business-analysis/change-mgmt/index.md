@@ -2,7 +2,6 @@
 title = "Change management"
 
 time = 120
-emoji = "🤖"
 objectives = [
     "List relevant tasks a business analyst will support a change management team with",
     "Apply scope changes to a project"

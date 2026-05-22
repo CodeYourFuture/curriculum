@@ -1,7 +1,6 @@
 +++
 title = "Extracting common functionality"
 time = 30
-emoji= "✂️"
 objectives = [
     "Extract functionality used by multiple route handlers into a common function.",
 ]

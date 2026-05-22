@@ -2,10 +2,9 @@
 title = "Prioritisation"
 
 time = 240
-emoji = "🤖"
 objectives = [
     "Compare six different prioritisation techniques",
-    "Create a priortised backlog for a product",
+    "Create a prioritised backlog for a product",
     "Define the Minimum viable product for the delivery of a backlog",
     "Propose relevant success metrics for a project"
 ]

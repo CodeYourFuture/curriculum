@@ -1,7 +1,6 @@
 +++
 title="Runkit"
 description="Embed a Runkit notebook"
-emoji="📓"
 menu=["hooks"]
 +++
 

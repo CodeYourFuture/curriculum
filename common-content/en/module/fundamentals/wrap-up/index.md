@@ -3,7 +3,6 @@ title = 'Wrap Up'
 
 time = 60
 vocabulary=["Requirements", "User Stories"]
-emoji= '🎉'
 [objectives]
 1='Identify described requirements'
     2='Identify extra requirements from your own experience'

@@ -2,7 +2,6 @@
 title = 'Discuss an app'
 
 time = 85
-emoji= '🪀'
 [objectives]
 1='Discuss problem solving strategies in groups'
 2='Check required functionality against acceptance criteria'

@@ -28,13 +28,11 @@
       </h2>
       {{ partial "time.html" $pageContext }}
     </header>
-    {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $decodedContent }}
+    {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $blockData.api "body" $decodedContent) }}
     {{ if gt (len $extractedObjectives) 0 }}
-      <details>
+      <details open>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
-        {{ range $extractedObjectives }}
-          {{ . | page.RenderString }}
-        {{ end }}
+        {{ partial "objectives/block" $extractedObjectives }}
       </details>
     {{ end }}
     <div class="c-block__content c-copy">
@@ -64,6 +62,9 @@
           {{ end }}
         {{ end }}
       </section>
+    {{ end }}
+    {{ if gt (len $extractedObjectives) 0 }}
+    {{ partial "review-objectives.html" $blockData }}
     {{ end }}
   </section>
 {{ end }}

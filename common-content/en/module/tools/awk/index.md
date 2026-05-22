@@ -1,7 +1,6 @@
 +++
 title = "awk"
 time = 20
-emoji = "💻"
 objectives = [
   "Filter a space-separated file and extract a positional field using `awk`.",
   "Sum the numbers in a column of a space-separated file using `awk`.",

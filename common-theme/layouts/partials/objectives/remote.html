@@ -4,10 +4,12 @@
 
 {{ $response := resources.GetRemote .blockData.api .blockData.headers }}
 {{ $blockType := .blockData.type }}
-{{ $showTitle := .showTitle | default false }}
+{{ $title := .title }}
+{{ $links := .links }}
+{{ $url := .blockData.api }}
 {{/* 404s lead to GetRemote returning nil rather than an error. */}}
 {{ if eq $response nil }}
-  {{ errorf "Couldn't find anything at %s" .blockData.api }}
+  {{ errorf "Couldn't find anything at %s" $url }}
 {{ end }}
 
 {{ with $response }}
@@ -20,11 +22,8 @@
     {{ $response = $response.body }}
   {{ end }}
 
-  {{ $extractedObjectives := partial "strings/extract-github-objectives.html" $response }}
+  {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $url "body" $response) }}
   {{ if gt (len $extractedObjectives) 0 }}
-    {{ if $showTitle }}<h5>{{ $showTitle }}</h5>{{ end }}
-    {{ range $extractedObjectives }}
-      {{ . | page.RenderString }}
-    {{ end }}
+    {{ partial "objectives/for-success.html" (dict "objectives" $extractedObjectives "showTitle" $title "title" $title "links" $links) }}
   {{ end }}
 {{ end }}

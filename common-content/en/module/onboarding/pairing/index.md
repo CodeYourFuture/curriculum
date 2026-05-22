@@ -1,6 +1,5 @@
 +++
 title="Pair programming"
-emoji="🧑🏿‍🔧🧑🏿‍🔧"
 time=25
 objectives = [
     "Drive and navigate in a pair programming session"]

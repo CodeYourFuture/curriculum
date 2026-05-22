@@ -1,6 +1,5 @@
 +++
 title="Bad Interview Answers"
-emoji="🤦‍♂️"
 hide_from_overview=true
 time=15
 [tasks]

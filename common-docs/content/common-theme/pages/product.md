@@ -2,7 +2,6 @@
 title = 'Product'
 description = 'The module project for ...'
 layout = 'product'
-emoji= '🎁'
 +++
 
 In our current curriculum, each module should have a module-length project that produces a tangible product. These products form a starting point for trainee portfolios, and are mandatory for progression. They are always put together in a dedicated project repository and that is the source of truth.

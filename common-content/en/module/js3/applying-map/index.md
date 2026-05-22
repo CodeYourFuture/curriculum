@@ -2,7 +2,6 @@
 title = 'Applying map to our problem'
 
 time = 30
-emoji= '🗺️'
 hide_from_overview = true
 [objectives]
     1='Use map to render multiple film cards'

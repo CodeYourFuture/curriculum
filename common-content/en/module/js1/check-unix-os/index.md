@@ -2,7 +2,6 @@
 title = 'Install a UNIX based operating system'
 
 time = 15
-emoji= '🧰'
 [objectives]
     1='Check you have a Unix based operating system'
     2='If required, setup a Unix based operating system'

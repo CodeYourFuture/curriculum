@@ -1,6 +1,5 @@
 +++
 title="House Rules"
-emoji="🏠"
 time=10
 objectives=["Explain the reason for each house rule"]
 hide_from_overview=true

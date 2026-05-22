@@ -1,7 +1,6 @@
 +++
 title = "Induction"
 time = 45
-emoji= "🍱"
 [build]
   render = 'never'
   list = 'local'

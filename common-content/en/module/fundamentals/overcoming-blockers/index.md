@@ -1,6 +1,5 @@
 +++
 title="Overcoming Blockers"
-emoji="🚧"
 time=20
 facilitation=false
 [build]

@@ -2,7 +2,6 @@
 title = "Waterfall vs Agile"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Explain the differences between agile and waterfall"
 

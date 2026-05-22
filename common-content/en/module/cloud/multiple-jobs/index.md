@@ -2,7 +2,6 @@
 title = 'Creating a Workflow with Multiple Jobs'
 
 time = 15
-emoji= '🔁'
 [objectives]
     1='Implement a multi-job workflow where jobs run sequentially, based on dependencies and requirements'
     2='Use the needs keyword to specify job dependencies'

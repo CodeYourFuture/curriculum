@@ -20,9 +20,6 @@ class LabelItems extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-    <style>
-    .c-quiz { display: grid;gap: var(--theme-spacing--gutter)}
-    </style>
       <section class="c-quiz">
         <slot name="labels"></slot>
         <slot name="heading"></slot>

@@ -2,7 +2,6 @@
 title = 'Importing and Exporting'
 
 time = 5
-emoji= '🚢'
 [objectives]
     1='Export a React component'
     2='Import a React component'

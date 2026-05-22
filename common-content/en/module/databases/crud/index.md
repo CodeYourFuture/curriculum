@@ -2,7 +2,6 @@
 title = 'CRUD operations with NodeJS and PostgreSQL'
 
 time = 120
-emoji= '🪄'
 [objectives]
     1="Create an API endpoint that can create data in a database"
     2="Create an API endpoint that can delete data from a database"

@@ -1,6 +1,5 @@
 +++
 title="Energiser: Wemoji"
-emoji="😀😢😲"
 time=10
 [tasks]
     1="Express emojis using only facial expressions and body language"

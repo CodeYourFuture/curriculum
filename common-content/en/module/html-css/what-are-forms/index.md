@@ -2,7 +2,6 @@
 title = 'What are forms?'
 
 time = 60
-emoji= '🔣'
 hide_from_overview = true
 [objectives]
     1='Define form, field, and input'

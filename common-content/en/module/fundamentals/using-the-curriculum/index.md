@@ -2,7 +2,6 @@
 title = 'Using the curriculum'
 
 time="50"
-emoji= '🗺️'
 [objectives]
    1="Describe our mission"
    2="Identify the key elements of our educational philosophy"

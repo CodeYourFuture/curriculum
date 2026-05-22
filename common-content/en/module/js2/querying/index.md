@@ -2,7 +2,6 @@
 title = 'Querying the DOM'
 
 time = 30
-emoji= '🔍'
 [objectives]
     1='Access elements in the DOM using selector methods'
 [build]

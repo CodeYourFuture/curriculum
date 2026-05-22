@@ -2,7 +2,6 @@
 title = "Use Cases"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Describe the differences between use case, scenario and user story"
 ]

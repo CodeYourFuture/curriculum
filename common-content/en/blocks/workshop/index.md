@@ -2,7 +2,6 @@
 title = 'Workshop Activity'
 
 time = 120
-emoji= '🧰'
 [tasks]
     1='Apply concepts from study to a practical example'
     2='Work together on exercises and activities to find gaps in understanding'

@@ -1,7 +1,6 @@
 +++
 title="Contributors"
 description="List of contributors to a repo"
-emoji="👥"
 menu=["shortcodes"]
 +++
 

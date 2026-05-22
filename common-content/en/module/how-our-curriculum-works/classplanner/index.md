@@ -1,6 +1,5 @@
 +++
 title="Classplanner"
-emoji="📅"
 time=10
 [objectives]
     1="Bookmark the Classplanner"

@@ -2,7 +2,6 @@
 title = 'Parsing multiple parameters'
 
 time = 30
-emoji= '❓❓'
 [objectives]
     1='Describe how to extend a strategy for one item to multiple items'
 [build]

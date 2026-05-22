@@ -2,7 +2,6 @@
 title = 'Databases with Google Sheets'
 description = 'Introduction to databases, using Google Sheets'
 time = 30
-emoji= '🗄️' 
 [objectives]
     1='Identify databases in everyday life'
     2='Explain the difference between a row and column'

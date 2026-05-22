@@ -2,7 +2,6 @@
 title = 'Using Aggregate Functions'
 
 time = 45
-emoji= '🥪'
 [objectives]
     1='Aggregate data over multiple rows and use aggregate values to restrict the results'
 [build]
@@ -29,7 +28,7 @@ The aggregate functions are:
 
 - sum : Calculate the total of the values in a column
 - avg : Calculate the average (mean) of the values in a column
-- min : Determine the mimimum value of a column
+- min : Determine the minimum value of a column
 - max : Determine the maximum value of a column
 - count : Count the number of values (non-null) in a column
 

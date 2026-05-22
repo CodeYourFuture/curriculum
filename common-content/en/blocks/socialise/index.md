@@ -1,6 +1,5 @@
 +++
 title = "Optional: Socialise!"
-emoji = "☕"
 time = 60
 tasks = [
   "Get to know your cohort.",

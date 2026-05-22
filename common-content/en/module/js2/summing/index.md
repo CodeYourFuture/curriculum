@@ -2,7 +2,6 @@
 title = 'Summation'
 
 time = 20
-emoji= '➕'
 hide_from_overview = true
 [objectives]
     1='Describe how to sum the numbers in a list'

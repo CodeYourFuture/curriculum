@@ -2,7 +2,6 @@
 title = 'Anonymous functions'
 
 time = 10
-emoji= '🏷️'
 [objectives]
     1='Explain the difference between a named function and an anonymous function'
 [build]

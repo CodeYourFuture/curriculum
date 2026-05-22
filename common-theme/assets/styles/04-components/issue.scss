@@ -1,10 +1,6 @@
 .c-issue {
-  ~ .c-issue:not(.c-issue--pr) {
-    padding-top: var(--theme-spacing--6);
-  }
   &__title {
     font-weight: 300;
-    margin-bottom: var(--theme-spacing--1);
   }
   &__body {
     padding: var(--theme-spacing--gutter);
@@ -18,12 +14,14 @@
   }
 
   &__labels {
+    @extend %list-without-list-formatting;
     display: flex;
     flex-flow: row wrap;
     gap: var(--theme-spacing--1);
   }
   &__label,
   &__button {
+    @extend %list-without-list-formatting;
     background: var(--github);
     font: 600 var(--theme-type-size--6) system-ui;
     border: 1px solid;

@@ -3,7 +3,6 @@ title = 'Check your Planner'
 
 time = 5
 vocabulary=[]
-emoji= '✅'
 [tasks]
 1='Double check you have set up a planner'
 [build]

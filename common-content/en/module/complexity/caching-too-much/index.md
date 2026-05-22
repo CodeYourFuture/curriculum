@@ -1,7 +1,6 @@
 +++
 title = "Caching too much"
 time = 60
-emoji = "🛍️"
 [build]
   render = "never"
   list = "local"

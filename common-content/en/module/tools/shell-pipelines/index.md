@@ -1,7 +1,6 @@
 +++
 title = "Shell pipelines"
 time = 30
-emoji = "💻"
 objectives = [
   "Describe what a shell pipeline is.",
   "Explain why we use shell pipelines.",

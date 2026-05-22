@@ -1,7 +1,6 @@
 +++
 title = "ls"
 time = 15
-emoji = "💻"
 objectives = [
   "List the files (and directories) in a directory with `ls`.",
 ]

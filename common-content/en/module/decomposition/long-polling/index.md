@@ -3,7 +3,6 @@ title = "Long-polling"
 headless = true
 time = 90
 facilitation = false
-emoji= "⏳"
 objectives = [
     "Stream live updates from a server by using long-polling.",
     "Compare the trade-offs involved with frequent small requests vs long-polling.",

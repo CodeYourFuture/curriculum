@@ -3,7 +3,6 @@ title = "Limitations of backends"
 headless = true
 time = 30
 facilitation = false
-emoji= "✋"
 objectives = [
     "Explain why a backend on its own doesn't provide reliable data persistence.",
     "Explain why we may prefer doing work in a frontend rather than backend to avoid latency.",

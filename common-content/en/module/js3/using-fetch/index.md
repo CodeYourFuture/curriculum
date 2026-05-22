@@ -2,7 +2,6 @@
 title = 'Requesting from a server side API'
 
 time = 20
-emoji= '🌐'
 [objectives]
 1="Fetch data from a server side API using a client side Web API"
 [build]
@@ -54,7 +53,7 @@ const state = {
   searchTerm: "",
 };
 
-const endpoint = "https://programming.codeyourfuture.io/dummy-apis/films.json";
+const endpoint = "https://curriculum.codeyourfuture.io/itp/dummy-apis/films.json";
 
 const fetchFilms = async () => {
   const response = await fetch(endpoint);

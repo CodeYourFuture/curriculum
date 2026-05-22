@@ -1,7 +1,6 @@
 +++
 title="Blocklink"
 description="A blocklink shortcode displays a link with a title and description."
-emoji="🔗"
 menu=["shortcodes"]
 +++
 

@@ -2,7 +2,6 @@
 title = 'Blocks'
 time = 5
 hide_from_overview=false
-emoji= '🧩'
 [build]
   render = 'never'
   list = 'local'

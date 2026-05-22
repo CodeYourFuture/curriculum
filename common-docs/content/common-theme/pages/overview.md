@@ -2,7 +2,6 @@
 title = 'Overview'
 description = 'A course overview generator'
 layout = 'overview'
-emoji= '🦉'
 weight = 4
 overview_menu="content"
 +++
@@ -19,7 +18,6 @@ This page creates a sequenced overview of prep content, to give a sense of the s
 +++
 title = 'Overview'
 description = 'A course overview generator'
-emoji= '🦉'
 layout = 'overview'
 overview_menu='theme'
 +++

@@ -1,6 +1,5 @@
 +++
 title="Importance of prep"
-emoji='🧑🏾‍💻'
 time=10
 [objectives]
     1="Explain the importance of prep"

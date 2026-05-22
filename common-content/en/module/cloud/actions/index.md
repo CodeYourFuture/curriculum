@@ -2,7 +2,6 @@
 title = 'Learning GitHub Actions Basics'
 
 time = 20
-emoji= '🤖'
 [objectives]
     1='Describe GitHub Actions workflows, jobs, steps, and actions.'
     2='Set up a basic CI/CD pipeline using GitHub Actions in a GitHub repository'

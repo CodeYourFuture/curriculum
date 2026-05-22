@@ -2,7 +2,6 @@
 title = 'Introduction to PostgreSQL'
 
 time = 30
-emoji= '🐘'
 [objectives]
     1='Define what SQL is and what it is used for'
     2='Define an RDBMS'

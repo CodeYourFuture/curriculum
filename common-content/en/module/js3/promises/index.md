@@ -2,7 +2,6 @@
 title = 'Promises'
 
 time = 15
-emoji = '🫱🏿‍🫲🏽 '
 [objectives]
     1='Define a Promise'
     2='Log a Promise to the console'

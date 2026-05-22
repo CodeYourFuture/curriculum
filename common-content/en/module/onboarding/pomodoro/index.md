@@ -1,6 +1,5 @@
 +++
 title="Pomodoro"
-emoji="🍅"
 time=60
 objectives = [
     "Complete a small-scoped ticket in 25 minutes"]

@@ -2,7 +2,6 @@
 title = 'GET single movie'
 
 time = 10
-emoji= '🐕'
 [objectives]
     1='Use GET to match a specific query parameter'
 [build]

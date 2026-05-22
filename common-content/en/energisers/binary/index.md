@@ -1,6 +1,5 @@
 +++
 title="Binary Line-Up"
-emoji="⬜ ⬛"
 time=20
 [tasks]
 1="Convert decimal to binary using people"

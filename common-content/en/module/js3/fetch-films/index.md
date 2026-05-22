@@ -2,7 +2,6 @@
 title = 'Fetch Films'
 
 time = 30
-emoji= '🐕 🎞️'
 [objectives]
     1='Apply fetch to get data from an API'
 [build]
@@ -15,7 +14,7 @@ emoji= '🐕 🎞️'
 Now that we have a basic understanding of Web APIs and Promises, let's use look again at our code for fetching film data:
 
 ```js
-const endpoint = "https://programming.codeyourfuture.io/dummy-apis/films.json";
+const endpoint = "https://curriculum.codeyourfuture.io/itp/dummy-apis/films.json";
 
 const fetchFilms = async () => {
   const response = await fetch(endpoint);

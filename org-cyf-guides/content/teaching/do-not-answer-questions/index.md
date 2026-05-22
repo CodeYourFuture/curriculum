@@ -1,6 +1,5 @@
 +++
 title = "Don't answer questions"
-emoji = "❓"
 weight = 1
 +++
 

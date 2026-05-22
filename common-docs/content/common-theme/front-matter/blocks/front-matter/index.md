@@ -2,7 +2,6 @@
 title = 'Front matter'
 time = 1
 hide_from_overview=false
-emoji= ''
 [build]
   render = 'never'
   list = 'local'

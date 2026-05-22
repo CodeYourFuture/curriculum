@@ -2,7 +2,6 @@
 title = 'Synchronous execution'
 
 time = 10
-emoji= '⏳'
 [objectives]
 1="Define asynchrony"
 2="Explain how synchronous execution works"

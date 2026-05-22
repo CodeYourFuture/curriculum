@@ -6,6 +6,10 @@
   padding: var(--gap) var(--gap) var(--gap) 0;
   max-width: var(--theme-spacing--linelength);
 
+  &__list {
+    @extend %list-without-list-formatting;
+  }
+
   &__module {
     font-weight: 600;
     color: var(--theme-color--ink);

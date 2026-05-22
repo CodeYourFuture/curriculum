@@ -2,7 +2,6 @@
 title = 'Implementing a character limit'
 
 time = 20
-emoji= '🛑'
 [objectives]
     1='Define acceptance criteria for the character limit component'
 [build]

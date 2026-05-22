@@ -1,0 +1,17 @@
+.c-course-overview {
+    &__courses {
+        display: flex;
+        flex-direction: row;
+
+        > li {
+            flex: 1;
+            list-style: none;
+        }
+
+        &__course {
+            &__skill {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

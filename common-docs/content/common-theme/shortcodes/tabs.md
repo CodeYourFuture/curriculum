@@ -1,7 +1,6 @@
 +++
 title="Tabs"
 description="Puts anything into tabs"
-emoji="📑"
 menu=["shortcodes"]
 +++
 

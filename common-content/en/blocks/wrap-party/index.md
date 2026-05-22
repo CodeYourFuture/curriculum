@@ -1,6 +1,5 @@
 +++
 title="Wrap Party"
-emoji="🥳"
 time=180
 [build]
   render = 'never'

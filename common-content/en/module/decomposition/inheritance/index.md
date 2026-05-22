@@ -1,7 +1,6 @@
 +++
 title = "Inheritance"
 time = 30
-emoji= "🌳"
 objectives = [
   "Define inheritance.",
   "Write a class which extends another class.",

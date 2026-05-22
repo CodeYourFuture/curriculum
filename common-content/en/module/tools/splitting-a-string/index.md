@@ -3,7 +3,6 @@ title = "Splitting the content of the file up into words"
 headless = true
 time = 5
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
 ]

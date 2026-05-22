@@ -1,7 +1,6 @@
 +++
 title = "wc"
 time = 10
-emoji = "💻"
 objectives = [
   "Count the bytes, words, and lines of a file with `wc`.",
   "Count just the words of a file with `wc`.",

@@ -2,7 +2,6 @@
 title = 'Embedding JavaScript'
 
 time = 30
-emoji= '🐇'
 [objectives]
     1='Embed JavaScript in JSX'
     2='Dynamically specify values in JSX'

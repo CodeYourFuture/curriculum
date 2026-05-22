@@ -2,7 +2,6 @@
 title = 'Wrapping up Git'
 
 time ="20"
-emoji= '🎁'
 hide_from_overview = true
 [objectives]
     1='Commit changes to a local git branch'

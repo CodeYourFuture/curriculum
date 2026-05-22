@@ -1,6 +1,5 @@
 +++
 title="Submitting your steps"
-emoji="👣"
 time=15
 [build]
   render = 'never'

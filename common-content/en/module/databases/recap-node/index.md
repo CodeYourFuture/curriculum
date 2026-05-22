@@ -2,7 +2,6 @@
 title = 'Communicating with the database using SQL'
 
 time = 30
-emoji= '📮'
 [objectives]
     1='Check the database connection'
     2='Get query results from the database with Postman'

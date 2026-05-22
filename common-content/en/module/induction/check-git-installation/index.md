@@ -2,7 +2,6 @@
 title = 'Check Git installation'
 time = 15
 vocabulary=[]
-emoji= '📋'
 [tasks]
 1='Double check Git is installed on your local machine'
 [build]

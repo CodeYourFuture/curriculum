@@ -1,6 +1,5 @@
 +++
 title="Codewars"
-emoji="🥋"
 time= 10
 [objectives]
     1="Define Codewars"

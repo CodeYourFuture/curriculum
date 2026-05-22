@@ -1,6 +1,5 @@
 +++
 title = "Energiser: Favourite dessert"
-emoji = "🍨"
 time = 20
 objectives = [
   "Name 5 people in class with you.",

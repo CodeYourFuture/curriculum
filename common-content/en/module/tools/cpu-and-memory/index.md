@@ -1,7 +1,6 @@
 +++
 title = "CPU and memory"
 time = 60
-emoji = "📖"
 objectives = [
   "Explain the purpose of main memory.",
   "Explain the purpose of a CPU.",

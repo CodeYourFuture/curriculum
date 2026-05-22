@@ -1,7 +1,6 @@
 +++
 title = "Dataclasses"
 time = 30
-emoji= "📝"
 objectives = [
   "Define a value type.",
   "Use `@dataclass` in Python to make a value type.",

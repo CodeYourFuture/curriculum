@@ -3,7 +3,6 @@ title = "Limited information"
 headless = true
 time = 20
 facilitation = false
-emoji= "📖"
 hide_from_overview = true
 objectives = [
     "Identify strategies for updating information in a static website.",

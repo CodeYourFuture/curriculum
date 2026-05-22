@@ -1,6 +1,5 @@
 +++
 title="Demo"
-emoji="🎤"
 time=60
 [build]
   render = 'never'
@@ -31,6 +30,8 @@ After the demo, the group will give you feedback for up to 5 minutes. It's smart
 - I liked the way I did X, but I know there are other approaches, what did you do?
 - I found X really confusing, did anyone else have the same problem?
 - I wasn't sure if I explained what an X was very clearly, how could I have explained it better?
+
+More tips: [A Good Question Can Be the Key to a Successful Presentation](https://www.gsb.stanford.edu/insights/matt-abrahams-good-question-can-be-key-successful-presentation).
 
 ## 💡 Tips:
 

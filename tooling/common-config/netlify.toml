@@ -25,9 +25,55 @@ from = "/calendar"
 to = "https://docs.google.com/spreadsheets/d/1yI0msIwe8qYn2Nv9WPLwFMTM_Td0TtPvlv17u3B8sS8/edit?gid=0#gid=0"
 status = 302
 
+[[redirects]]
+from = "/other-schools"
+to = "https://docs.google.com/document/d/1gO2iX0aoKyb3yCKmjhTr2FyKgDhnlzXbe0pdYOBzU_E/edit"
+status = 302
+
+[[redirects]]
+from = "/eligibility-docs"
+to = "https://docs.google.com/document/d/1xyNGdHm2qJL5T3z3iQIk9fO9rzwaTbhG92s-wb0YhT8/edit"
+status = 302
+
+[[redirects]]
+from = "/eligibility-docs/how-is-income-defined"
+to = "https://docs.google.com/document/d/1kZajo6tnEkHz_KPycPxK0rWyPJezjPNte_q9GF4VVV4/edit?tab=t.0#heading=h.54j2vkidmpne"
+status = 302
+
+[[redirects]]
+from = "/eligibility-docs/how-is-proficient-in-english-defined"
+to = "https://docs.google.com/document/d/1a_BqRRdLOVRHXFDm8HO9riTAr_8M1AFCa2FO2QBd6pg/edit?tab=t.0#heading=h.iyb4okjnzq3p"
+status = 302
+
+[[redirects]]
+from = "/eligibility-docs/how-is-distance-defined"
+to = "https://docs.google.com/document/d/1fENlfajRRTQbxkv5FOvEozs0tu2iRhjRC5VUlpKZVpE/edit?tab=t.0#heading=h.x52toiidficj"
+status = 302
+
+[[redirects]]
+from = "/piscine"
+to = "/checkpoint"
+status = 302
+
+[[redirects]]
+from = "/trainee-expenses-docs"
+to = "https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.7pmxr8snfzh5"
+status = 302
+
+[[redirects]]
+from = "/ai-use-guidelines"
+to = "https://docs.google.com/document/d/1Rq3dh3yE7sqkBM1cTPP6-f2CSO4lhdhi_2yXxAV3EfA/edit?tab=t.0#heading=h.3kept1c7ccss"
+status = 302
+
+[[redirects]]
+from = "/ai-use-cheat-sheet"
+to = "https://docs.google.com/document/d/1RnXEK3BXzfcdr03I9D0hPZn61BbApD3-i76zHGU_hs0/edit?tab=t.0"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
+
 
 [[headers]]
   for = "/dummy-apis/*"

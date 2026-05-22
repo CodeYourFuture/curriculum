@@ -1,6 +1,5 @@
 +++
 title="Popcorn Show and Tell"
-emoji="🍿"
 time=10
 [tasks]
 1="Practice popcorning participation in meetings"

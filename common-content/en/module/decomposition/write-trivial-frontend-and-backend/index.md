@@ -3,7 +3,6 @@ title = "Write a frontend and backend"
 headless = true
 time = 60
 facilitation = false
-emoji= "⌨️"
 [objectives]
     1="Run a frontend and backend which can communicate with each other"
 +++

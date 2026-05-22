@@ -1,7 +1,6 @@
 +++
 title="Goals of Demo Day"
 time= 5
-emoji="🎯"
 hide_from_overview=true
 objectives=["List the goals of Demo Day"]
 [build]

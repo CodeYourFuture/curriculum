@@ -2,7 +2,6 @@
 title = 'Using packages'
 
 time = 5
-emoji= '📦'
 [objectives]
     1='Define a dependency'
     2='Define a package'

@@ -1,7 +1,6 @@
 +++
 title="Objectives"
 description="Passing objectives from GitHub to Hugo"
-emoji="🎯"
 menu=["shortcodes"]
 +++
 

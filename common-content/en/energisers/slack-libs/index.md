@@ -1,10 +1,12 @@
 +++
 title="Slack Libs"
-emoji="💬"
 time=10
-[tasks]
-1="Familiarise participants with Slack features"
-2="Create engaging team communication"
+objectives = [
+    "Find an post to a thread in Slack.",
+    "Use emoji in Slack.",
+    "Format text in Slack.",
+    "Mention a user in Slack.",
+]
 [build]
 render = 'never'
 list = 'local'

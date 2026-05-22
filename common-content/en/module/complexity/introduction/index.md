@@ -5,7 +5,6 @@ title = "Introduction to Complexity"
   list = 'local'
   publishResources = false
 time = 10
-emoji= "🫱🏽‍🫲🏻"
 [tasks]
     1="Identify the main goals of this module"
 +++

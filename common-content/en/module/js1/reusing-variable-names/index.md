@@ -2,7 +2,6 @@
 title = 'Reusing variable names'
 
 time = 30
-emoji= '🔄'
 [objectives]
 1='Fix code which declares the same identifier more than once'
 [build]

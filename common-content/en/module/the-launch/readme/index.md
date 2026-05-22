@@ -1,6 +1,5 @@
 +++
 title="Prep your codebase"
-emoji="🚀"
 time=60
 hide_from_overview=true
 [build]
@@ -21,7 +20,7 @@ Generally imagine that employers are now looking at your work: you are launching
 
 You should also complete [your personal README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 
-A good profile/ Readme has:
+A good profile / Readme has:
 
 - Your name
 - A professional profile picture

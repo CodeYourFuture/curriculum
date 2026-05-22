@@ -1,7 +1,6 @@
 +++
 title="Note"
 description="Github style notes"
-emoji="📝"
 menu=["hooks"]
 +++
 

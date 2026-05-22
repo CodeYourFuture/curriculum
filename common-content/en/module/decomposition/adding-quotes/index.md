@@ -3,7 +3,6 @@ title = "Adding quotes"
 headless = true
 time = 60
 facilitation = false
-emoji= "➕"
 hide_from_overview = true
 objectives = [
     "POST data from a frontend to a backend in JSON format.",

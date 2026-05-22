@@ -1,7 +1,6 @@
 +++
 title = "Refining Purple Forest Bugs"
 time = 30
-emoji= "🐛"
 objectives = [
   "Identify useful elements in a bug report.",
   "Explain what extra information would help make bug reports more clear.",

@@ -17,9 +17,6 @@ src="common-theme/front-matter/blocks/backlog"
 name="Blocks"
 src="common-theme/front-matter/blocks/blocks"
 [[blocks]]
-name="Emoji"
-src="common-theme/front-matter/blocks/emoji"
-[[blocks]]
 name="Taxonomy map"
 src="common-theme/front-matter/blocks/taxonomy-map"
 [[blocks]]

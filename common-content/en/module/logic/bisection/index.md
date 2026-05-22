@@ -1,7 +1,6 @@
 +++
 title = "Bisection"
 time = 10
-emoji= "✂️"
 [build]
   render = 'never'
   list = 'local'

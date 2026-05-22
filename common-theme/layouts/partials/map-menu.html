@@ -1,12 +1,19 @@
-{{/* Expects slice[string] param which is the name of the menus to render as sections. */}}
+{{/* Expects dict param containing:
+  * menus_to_map (slice[string]) - Names of site menus to map.
+  * animation (bool) - Whether to animate descriptions on cards.
+  * menu_prefix_to_strip (string) - Prefix to strip from menu names for display.
+*/}}
+{{ $menusToMap := index . "menus_to_map" }}
+{{ $animation := index . "animation" }}
+{{ $menuPrefixToStrip := index . "menu_prefix_to_strip" }}
 
 {{ $sections := slice }}
 
-{{ range $menuName := . }}
+{{ range $menuName := $menusToMap }}
   {{ $section := dict "title" $menuName "values" (index site.Menus $menuName) }}
   {{ $sections = append $section $sections }}
 {{ end }}
 
-{{ $params := dict "sections" $sections }}
+{{ $params := dict "sections" $sections "animation" $animation "menu_prefix_to_strip" $menuPrefixToStrip }}
 
 {{ partial "map-common.html" $params }}

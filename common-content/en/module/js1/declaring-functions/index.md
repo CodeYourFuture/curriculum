@@ -2,7 +2,6 @@
 title = 'Declaring functions'
 
 time = 20
-emoji= '🪄'
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
 [build]

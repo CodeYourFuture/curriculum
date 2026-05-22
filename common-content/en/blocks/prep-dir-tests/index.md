@@ -1,7 +1,6 @@
 +++
 title = 'Creating test files'
 time = 5
-emoji= '🧪'
 [objectives]
     1='Create files for the first problem'
     2="Open the first problem in your prep directory"

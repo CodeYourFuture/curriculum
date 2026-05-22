@@ -4,5 +4,4 @@ description="Basically, asynchronous programming, templates, and state in JavaSc
 layout="block-viewer"
 hide_from_overview="true"
 noindex="true"
-emoji="🐥"
 +++

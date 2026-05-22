@@ -2,7 +2,6 @@
 title = 'Key-value pairs'
 
 time = 10
-emoji= '🗝️'
 [objectives]
     1='Define an object property'
     2='Identify key-value pairs in an object literal'

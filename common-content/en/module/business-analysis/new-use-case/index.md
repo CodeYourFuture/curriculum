@@ -3,7 +3,6 @@
 title = "New case study"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Implement BA tools you learned in a project"
 ]

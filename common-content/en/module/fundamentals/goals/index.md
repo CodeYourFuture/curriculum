@@ -1,6 +1,5 @@
 +++
 title="Understanding Fundamentals"
-emoji="🎯"
 facilitation=false
 [build]
   render = 'never'

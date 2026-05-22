@@ -1,11 +1,18 @@
 {{/* Expects string param which is the (plural) name of the taxonomy to render. */}}
 
-{{ $taxonomy_to_map := . }}
+{{/* Expects dict param containing:
+  * taxonomy_to_map (string) - Names of taxonomy to map.
+  * animation (bool) - Whether to animate descriptions on cards.
+*/}}
+{{ $taxonomy_to_map := index . "taxonomy_to_map" }}
+{{ $section := index . "section" }}
+{{ $animation := index . "animation" }}
+
 
 {{ $sections := slice }}
 
 {{/* You can't ask for a taxonomy to be sorted by weight, so we need to get weights and iterate ourselves - see https://discourse.gohugo.io/t/list-custom-taxonomy-terms-in-a-specific-order-not-alphabetical/18145/5 */}}
-{{ $terms := site.GetPage (printf "/%s" $taxonomy_to_map) }}
+{{ $terms := site.GetPage (printf "%s/%s" $section $taxonomy_to_map) }}
 {{ range $termPage := $terms.Pages.ByWeight }}
   {{ $termID := path.BaseName $termPage.Path }}
   {{ $termTitle := $termPage.Title }}
@@ -15,6 +22,6 @@
   {{ $sections = append $section $sections }}
 {{ end }}
 
-{{ $params := dict "sections" $sections }}
+{{ $params := dict "sections" $sections "animation" $animation }}
 
 {{ partial "map-common.html" $params }}

@@ -1,7 +1,6 @@
 +++
 title="Tasks"
 description="Inert objectives"
-emoji="✅"
 menu=["shortcodes"]
 +++
 

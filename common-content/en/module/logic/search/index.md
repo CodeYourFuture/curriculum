@@ -1,7 +1,6 @@
 +++
 title = "1000 Bottles of Wine"
 time = 60
-emoji= "🐀"
 [build]
 render = 'never'
 list = 'local'

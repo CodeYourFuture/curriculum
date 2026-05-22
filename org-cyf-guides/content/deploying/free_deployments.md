@@ -24,6 +24,7 @@ If the limitations of Netlify and/or Supabase are not suitable, a good alternati
 | Cloudflare Pages | CDN                               | Automatic from GitHub | Supported, All branches | -                                                                  |
 | Render           | CDN or Frontend served by backend | Automatic from GitHub | Supported, PRs          | Backend is stopped after inactivity, startup time is slow          |
 | Fly.io           | Frontend served by backend        | Manual                | None                    | Free tier limited to two backends, or one backend and one database |
+| GitHub Pages     | Frontend                          | Automatic from GitHub | None                    | Only deploys HTML already present in the repository                |
 
 ## Backend
 

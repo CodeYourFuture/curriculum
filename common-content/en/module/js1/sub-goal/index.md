@@ -2,7 +2,6 @@
 title = 'Forming sub-goals'
 
 time = 20
-emoji= '🧠'
 [objectives]
  1='Define a sub-goal'
  2='Explain why we use sub-goals'

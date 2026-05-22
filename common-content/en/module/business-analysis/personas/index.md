@@ -2,7 +2,6 @@
 title = "Personas"
 
 time = 60
-emoji = "🤖"
 objectives = [
     "Use personas to characterise particular types of user customers’ interactions with the business"
 ]

@@ -3,7 +3,6 @@ title = 'What Is CSS'
 
 time = 60
 vocabulary=['selector', 'property', 'value', 'cascade', 'specificity', 'declarative', 'precedence', 'render', 'block', 'inline']
-emoji= '🎨'
 [objectives]
     1='Define the terms: selector, property, value, cascade, specificity, declarative, precedence, render, block, and inline'
 [build]
@@ -68,7 +67,7 @@ Several rules may apply to one element, and they are applied in a particular ord
 
 It means the order rules are applied.
 
-One way rules are applied in CSS is inheritance: children inherit from parents. If a parent node has red text, all its children will inherit that red text color. But when another rule with higher precendence comes and overrules, it replaces the rule which had lower precedence. An explicit rule targeting an element directly overrules a rule it inherited from its parent.
+One way rules are applied in CSS is inheritance: children inherit from parents. If a parent node has red text, all its children will inherit that red text color. But when another rule with higher precedence comes and overrules, it replaces the rule which had lower precedence. An explicit rule targeting an element directly overrules a rule it inherited from its parent.
 
 Inheritance forms a hierarchy. The elements being styled are hierarchical - with children inheriting from (but perhaps overriding) parents.
 

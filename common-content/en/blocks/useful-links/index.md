@@ -1,6 +1,5 @@
 +++
 title="Useful Links"
-emoji="🔗"
 [build]
   render = 'never'
   list = 'local'

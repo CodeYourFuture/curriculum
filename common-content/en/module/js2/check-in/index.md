@@ -1,6 +1,5 @@
 +++
 title="Check your progress"
-emoji="✏️"
 time=30
 vocabulary="Backlog"
 [objectives]

@@ -2,7 +2,6 @@
 title = 'Reusing the function'
 
 time = 30
-emoji= '♻️'
 [objectives]
     1='Evaluate a function expression'
     2='Call a function with an input in REPL'

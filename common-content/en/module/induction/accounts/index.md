@@ -1,6 +1,5 @@
 +++
 title="Professional Accounts"
-emoji="🔐"
 time=45
 objectives=["Create a professional Google account", "Download and install the apps you will need to complete the course"]
 hide_from_overview=true
@@ -69,10 +68,14 @@ Your cohort is your first network, and this is one of the most valuable things y
 [Slack](https://slack.com/intl/en-gb) is our community space and how we communicate with each other. Download and install it now. If you are not using your own computer, log in to the web version instead.
 
 - [ ] I have downloaded the [Slack](https://slack.com/intl/en-gb) app on my computer and phone.
-- [ ] I have logged in to the {{<our-name>}} workspace.
+- [ ] I have logged in to the {{<our-name>}} ITP workspace.
 - [ ] I have found and joined my class channels.
-- [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile and my class.
+- [ ] I have updated my profile with my picture, my professional email address, my GitHub username, my Linkedin profile, my region, and my cohort.
 - [ ] I have introduced myself on Slack.
+
+See this example fully filled-in Slack profile - make sure yours has at least the same fields filled on:
+
+![Filled-in Slack profile](slack-profile.png)
 
 ## Applications
 

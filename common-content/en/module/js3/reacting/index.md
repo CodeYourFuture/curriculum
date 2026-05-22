@@ -2,7 +2,6 @@
 title = 'Reacting to user input'
 
 time = 5
-emoji= '🪄'
 [objectives]
     1='Explain how JavaScript can react to user input from a search input'
 [build]

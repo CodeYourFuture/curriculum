@@ -3,7 +3,6 @@ title = "Limitations of frontends"
 headless = true
 time = 5
 facilitation = false
-emoji= "✋"
 objectives = [
     "Explain what can't be achieved with just a frontend",
 ]

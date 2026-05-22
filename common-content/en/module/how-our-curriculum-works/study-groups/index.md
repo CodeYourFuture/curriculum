@@ -1,6 +1,5 @@
 +++
 title="Study groups"
-emoji='🫱🏾‍🫲🏿'
 time=10
 [objectives]
     1="Locate a study group activity in a day plan"

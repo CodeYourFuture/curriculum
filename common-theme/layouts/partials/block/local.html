@@ -14,15 +14,12 @@
       <h2
         class="c-block__title e-heading__2"
         id="{{ $blockData.name |urlize }}">
-        {{ with $block.Params.emoji }}
-          <span class="c-emoji">{{ . }}</span>
-        {{ end }}
         {{ $block.Title }}
       </h2>
       {{ partial "time.html" . }}
     </header>
     {{ if or $block.Params.Objectives $block.Params.Tasks }}
-      <details>
+      <details open>
         <summary><h3 class="e-heading__5">Learning Objectives</h3></summary>
         {{ with $block.Params.Objectives }}
           {{ partial "objectives/block.html" . }}
@@ -48,6 +45,9 @@
           {{ end }}
         {{ end }}
       </section>
+    {{ end }}
+    {{ if isset $block.Params "objectives" }}
+    {{ partial "review-objectives.html" $blockData }}
     {{ end }}
   </div>
 </section>

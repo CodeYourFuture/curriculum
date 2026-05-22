@@ -1,7 +1,6 @@
 +++
 title = "Deduction"
 time = 25
-emoji= "🚥"
 [build]
   render = 'never'
   list = 'local'

@@ -2,7 +2,6 @@
 title = 'Re-rendering'
 
 time = 10
-emoji= '🔁'
 [objectives]
     1='Re-render a page based on user input'
     2="Debug why a page isn't re-rendering as expected"

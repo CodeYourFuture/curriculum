@@ -1,15 +1,23 @@
-{{ $url := relURL .Page.RelPermalink }}
-{{ if .Page.Params.external_url }}
-{{ $url = .Page.Params.external_url }}
+{{ $module := index . "module" }}
+{{ $animation := index . "animation" }}
+
+{{ $url := relURL $module.Page.RelPermalink }}
+{{ if $module.Page.Params.external_url }}
+{{ $url = $module.Page.Params.external_url }}
+{{ end }}
+
+{{ $animationClassSuffix := "-noanimation" }}
+{{ if $animation }}
+  {{ $animationClassSuffix = "-animation" }}
 {{ end }}
 
 <a class="c-card" href="{{ $url }}">
-  <h3 class="c-card__title">{{ .Name }}</h3>
-  {{ with .Page.Description }}
-    <p class="c-card__description">{{ . }}</p>
+  <h3 class="c-card__title">{{ $module.Name }}</h3>
+  {{ with $module.Page.Description }}
+    <p class="c-card__description c-card__description{{$animationClassSuffix}}">{{ . }}</p>
   {{ end }}
   <!-- Display emoji -->
   <div class="c-card__image c-emoji">
-    {{ .Page.Params.emoji | default "🤖" }}
+    {{ $module.Page.Params.emoji | default "🤖" }}
   </div>
 </a>

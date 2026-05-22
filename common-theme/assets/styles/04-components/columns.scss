@@ -1,5 +1,9 @@
 // put anything side by side
 
+ol.c-columns {
+  @extend %list-without-list-formatting;
+}
+
 .c-columns {
   display: grid;
   gap: var(--theme-spacing--gutter);

@@ -1,7 +1,6 @@
 +++
 title = 'Taxonomy map'
 time = 2
-emoji= '🗺️'
 [build]
   render = 'never'
   list = 'local'

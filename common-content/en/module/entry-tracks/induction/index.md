@@ -1,5 +1,5 @@
 +++
-title="🫱🏽‍🫲🏾 Induction"
+title="Induction"
 time=15
 [build]
   render = 'never'

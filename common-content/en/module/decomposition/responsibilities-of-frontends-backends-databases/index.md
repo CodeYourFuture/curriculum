@@ -2,7 +2,6 @@
 title = "Responsibilities of frontends, backends, and databases"
 headless = true
 time = 15
-emoji= "❓"
 [objectives]
     1="Categorise functionality into where it should belong"
 +++

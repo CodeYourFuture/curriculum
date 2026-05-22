@@ -2,7 +2,6 @@
 title = 'Identifying missing tests'
 
 time = 30
-emoji= '🔬'
 [objectives]
 1='Define groups of input'
 2='Define edge cases'

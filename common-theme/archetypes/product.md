@@ -2,7 +2,6 @@
 title = 'Product'
 description = 'The module project for {{ replace .Name "-" " " | title }}'
 layout = 'product'
-emoji= '🎁'
 menu_level = ['module']
 +++
 

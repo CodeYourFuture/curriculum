@@ -1,7 +1,6 @@
 +++
 title = "Network as a bottleneck"
 time = 15
-emoji = "⏳"
 [build]
   render = 'never'
   list = 'local'

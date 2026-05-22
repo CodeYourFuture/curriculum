@@ -1,7 +1,6 @@
 +++
 title="Unit Testing with Jest"
 description="Learn how to test your code"
-emoji="🧪"
 +++
 
 ## What does this cover

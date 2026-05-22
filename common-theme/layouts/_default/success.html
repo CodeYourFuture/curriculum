@@ -24,6 +24,7 @@
           <h2 class="e-heading__4 c-objectives__title is-invisible">
             Compiled Learning Objectives
           </h2>
+          <p>At the end of the sprint, you should be able to do the following things. Make sure to check you can do them all, and if not, go back and keep practicing until you can.</p>
           {{/* get the path to the pages that are the siblings of this page */}}
           {{ $prep := .Site.GetPage (printf "%sprep/index.md"
             .CurrentSection.RelPermalink)
@@ -84,11 +85,16 @@
             {{ partial "block/data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}
             {{/* Retrieve the blockData from Scratch */}}
             {{ $blockData := $.Page.Scratch.Get "blockData" }}
+            {{ $links := slice }}
+            {{ $anchorifiedName := $name | urlize }}
+            {{ if in $prep.Params.blocks . }}{{ $links = $links | append (dict "href" (printf "../prep#%s" $anchorifiedName) "text" "Prep") }}{{ end }}
+            {{ if in $issueBlocks . }}{{ $links = $links | append (dict "href" (printf "../backlog#%s" $anchorifiedName) "text" "Backlog") }}{{ end }}
+            {{ if in $dayplan.Params.blocks . }}{{ $links = $links | append (dict "href" (printf "../day-plan#%s" $anchorifiedName) "text" "Day Plan") }}{{ end }}
             {{/* Depending on the type of block, call the appropriate partial */}}
             {{ if or (eq $blockData.type "readme") (eq $blockData.type "issue") }}
-              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" $blockData.name) }}
+              {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "title" $blockData.name "links" $links ) }}
             {{ else }}
-              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true) }}
+              {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true "links" $links) }}
             {{ end }}
 
           {{ end }}

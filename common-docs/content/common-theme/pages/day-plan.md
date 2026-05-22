@@ -3,7 +3,6 @@ title = 'Day plan'
 description = 'A scheduled plan of activities for a class day with times and breaks.'
 layout = 'day-plan'
 noRegister=true
-emoji= '📅'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]

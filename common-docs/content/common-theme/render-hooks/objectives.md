@@ -1,7 +1,6 @@
 +++
 title="Objectives"
 description="Assign learning objectives via render hook"
-emoji="🎯"
 menu=["hooks"]
 +++
 

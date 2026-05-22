@@ -2,7 +2,6 @@
 title = 'Learning as a community'
 
 time="60"
-emoji= '🏫'
 [objectives]
     1='Describe how we learn as a community'
     2='Describe a typical week in our community'

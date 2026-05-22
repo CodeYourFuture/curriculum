@@ -1,7 +1,6 @@
 +++
 title = "Big-O"
 time = 30
-emoji = "📈"
 [build]
   render = 'never'
   list = 'local'

@@ -3,7 +3,6 @@ title="Tell me the target"
 description="State what the target outcome/output is when we run the code"
 activities=["nature"]
 term=true
-emoji="🎯🧑‍💻"
 time=0
 +++
 

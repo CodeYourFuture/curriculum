@@ -1,7 +1,6 @@
 +++
 title="Deploying Express"
 description="How to deploy an Express.JS backend to Netlify"
-emoji="🖥️"
 weight=3
 +++
 

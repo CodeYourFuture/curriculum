@@ -1,6 +1,5 @@
 +++
-title="🚧 Blockers"
-emoji="🚧"
+title="Blockers"
 time=25
 objectives = ["Identify any blockers or dependencies in your project. ", "Sequence the work to be done.","Decouple work to be done in parallel.","Propose solutions to blockers."]
 [build]

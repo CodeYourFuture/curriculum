@@ -1,7 +1,6 @@
 +++
 title = "Cache Invalidation"
 time = 15
-emoji = "⛓️‍💥"
 [build]
   render = 'never'
   list = 'local'

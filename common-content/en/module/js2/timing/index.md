@@ -1,7 +1,6 @@
 +++
 title = 'Timers'
 time = 20
-emoji= '⏰'
 [objectives]
     1='Explain how we can call functions back after a set amount of time'
     2='Describe how to use setTimeout'

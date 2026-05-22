@@ -1,7 +1,6 @@
 +++
 title = "Boolean Logic"
 time = 45
-emoji = "🎭"
 [build]
   render = 'never'
   list = 'local'

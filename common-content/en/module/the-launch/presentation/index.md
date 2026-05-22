@@ -1,7 +1,6 @@
 +++
 title="Presentation"
 time= 10
-emoji="📽️"
 objectives = ["Describe what Demo Day is and what will happen on the day"]
 hide_from_overview=true
 [build]

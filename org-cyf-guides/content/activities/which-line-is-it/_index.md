@@ -3,7 +3,6 @@ title="Which line is it?"
 description="Specify the line in the source code where something is happening."
 activities=["nature"]
 term=true
-emoji="▶️"
 time=0
 +++
 

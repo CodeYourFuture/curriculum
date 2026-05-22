@@ -1,6 +1,5 @@
 +++
 title="Rhythm Master"
-emoji="🎵"
 hide_from_overview=true
 time=15
 [objectives]

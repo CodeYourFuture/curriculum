@@ -1,7 +1,6 @@
 +++
 title = "Introduction"
 time = 5
-emoji= "🧠"
 [build]
 render = 'never'
 list = 'local'

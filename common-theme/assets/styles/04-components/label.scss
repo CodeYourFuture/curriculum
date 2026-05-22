@@ -1,5 +1,6 @@
 //styled after github labels
 .c-label {
+  @extend %list-without-list-formatting;
   background: var(--color);
   font: 600 var(--theme-type-size--6) system-ui;
   border: 1px solid;
@@ -22,6 +23,7 @@
     }
   }
   &__list {
+    @extend %list-without-list-formatting;
     display: flex;
     flex-flow: row wrap;
     gap: var(--theme-spacing--1);

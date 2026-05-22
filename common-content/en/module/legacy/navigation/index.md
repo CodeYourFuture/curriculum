@@ -2,7 +2,6 @@
 title = "Finding things"
 description="Finding Your Way Through Legacy Code"
 time = 45
-emoji= "🧭"
 [build]
   render = 'never'
   list = 'local'
