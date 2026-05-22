@@ -51,9 +51,9 @@ As you read through the resources below try to answer the following questions:
 - Set a breakpoint inside the loop.
 - Inspect the value of the sum variable and the result variable, seeing how they change as you step through.
 - Step through the code to find the error.
-{{</note>}}
 
-## Reflections
+#### Reflections
 Think about the following questions, make notes and be prepared to talk through your thoughts in the workshop.
 - How might you have found the issue if you didn't have a debugger?
 - What was the process you followed when debugging code? e.g. how did you decide where to put breakpoints? 
+{{</note>}}
