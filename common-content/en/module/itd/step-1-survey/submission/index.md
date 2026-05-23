@@ -12,4 +12,4 @@ time= 5
 
 You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Upload a PDF file created from your Score Summary Page
+1. Submit the URL of the completed survey.

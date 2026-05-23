@@ -1,7 +1,7 @@
 +++
 title ="Step 6: How to check your work"
-description= "Acceptance criteria for step six"
-time= 10
+description= "Acceptance criteria for Step 6"
+time= 20
 [build]
   render = 'never'
   list = 'local'
@@ -13,12 +13,7 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- Your Google Doc contains a link to your CodePen containing the solution
-- Your Google Doc contains a screenshot which meets the requirements in the instructions
-- Your Google Doc contains a link to your conversation with the AI
-- Your Google Doc contains answers to the questions in the 5 - Self Check section
-- Your Google Doc has your name in the title
-- Your Google doc is public
-- You have submitted a link to your Google doc
-- You wrote the code in your CodePen yourself. You didn't copy+paste it from an AI tool
+- You have successfully published the personal webpage you created in Step 5 on **GitHub Pages**.
+- The URL of the published webpage includes your first name, last name, or both.
+- A link to the published webpage is submitted on the CYF Course Platform.
 ```

@@ -1,7 +1,7 @@
 +++
 title ="Step 3: How to check your work"
-description= "Acceptance criteria for step three"
-time=10
+description= "Acceptance criteria for Step 3"
+time= 10
 [build]
   render = 'never'
   list = 'local'
@@ -13,8 +13,7 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have edited, formatted, and applied filters on the Sales Data Google Sheet according to the instructions.
-- You have added your name to the Google Sheet's file name (title).
-- You have made the Google sheet publicly viewable.
-- You have submitted the Google Sheet link on the CYF Course Platform
+- You have answered all three questions
+- You have provided one to three sentences explaining each answer
+- You have submitted the Google Doc link on the CYF Course Platform
 ```
