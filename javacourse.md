@@ -2947,8 +2947,6 @@ After completing this sprint, you should understand:
 
 ## Prep
 
-## Sprint 4: Dependency Injection
-
 ### Sprint Overview
 
 This sprint introduces you to a fundamental concept in professional Java development: Dependency Injection (DI). DI is essential for building maintainable, testable applications and is the foundation of frameworks like Spring and Google Guice.
