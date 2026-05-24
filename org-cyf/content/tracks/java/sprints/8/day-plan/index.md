@@ -11,14 +11,6 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Review"
-src="module/java/review"
-time=60
-[[blocks]]
-name="Present"
-src="module/java/present"
-time=80
-[[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
