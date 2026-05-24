@@ -1,5 +1,3 @@
-## Discussion
-
 Come prepared to discuss:
 
 - When would you use a parameterised test? How can the parameters be provided? Why might I choose a particular way of providing parameters (such as from a file)?

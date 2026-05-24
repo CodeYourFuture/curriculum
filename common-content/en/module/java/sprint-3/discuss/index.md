@@ -1,4 +1,3 @@
-## Review
 Come prepared to discuss:
 
 - What is automated testing? what types of automated test are there and how do they differ?
