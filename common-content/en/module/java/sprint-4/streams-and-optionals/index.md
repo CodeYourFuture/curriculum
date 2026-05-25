@@ -10,8 +10,8 @@ objectives = [
   'Use comparators to sort objects',
   'Explain an example of java stream processing in terms of initialisation, intermediate and terminal operations.',
   'Explain what lazy evaluation is and how streams use lazy evaluation for efficiency.',
-  'And contrast this with JS maps / filters etc   'what are the key differences in how they are evaluated?',
-  'Explain what is meant by a programming paradigm, what paradigm is associated with most of the Java you've seen so far, and which is associated with streams and optionals'
+  'And contrast this with JS maps / filters etc - what are the key differences in how they are evaluated?',
+  'Explain what is meant by a programming paradigm, what paradigm is associated with most of the Java you have seen so far, and which is associated with streams and optionals'
 ]
 [build]
   render = 'never'

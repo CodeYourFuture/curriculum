@@ -3,7 +3,7 @@ title = 'Introducing Java Persistence API (JPA) and Spring Data'
 
 time = 120
 objectives = [
-  'Explain what JPA is and why it's important.',
+  'Explain what JPA is and why it is important.',
   'Explain how Spring Data JPA simplifies Create, Read, Update Delete (CRUD) operations.',
   'Explain how Spring Data JPA generates queries based on method names.',
   'Create a database with User & Task tables and the JPA entity classes to represent the data persisted in these tables.',

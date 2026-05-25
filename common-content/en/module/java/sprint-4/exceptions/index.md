@@ -56,6 +56,7 @@ _Create a service that safely reads text files_
   - Create a custom checked exception called `InvalidFileFormatException`
   - Throw this if the file is empty
 - From a main method, call the service with some dummy text files, including an empty file
+{{</note>}}
 
 {{<note type="exercise" title="Exercise 3.2">}}
 

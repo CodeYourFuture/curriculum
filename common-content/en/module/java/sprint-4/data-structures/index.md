@@ -7,7 +7,7 @@ objectives = [
   'And to discuss in Big-O terms, the time complexity of basic insert / update / remove operations on common collections',
   'Given a scenario involving data, to choose the most appropriate data structure based on the above characteristics',
   'Instantiate different implementations of Maps, Lists and Arrays',
-  'Use generics to enforce what can and can't be contained within Collections'
+  'Use generics to enforce what can and can not be contained within Collections'
 ]
 [build]
   render = 'never'

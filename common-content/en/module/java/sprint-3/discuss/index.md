@@ -1,3 +1,15 @@
++++
+title = 'Discuss'
+
+time = 80
+
+[build]
+  render = 'never'
+  list = 'local'
+  publishResources = false
+
++++
+
 Come prepared to discuss:
 
 - What is automated testing? what types of automated test are there and how do they differ?

@@ -3,7 +3,7 @@ title = 'The Service Layer'
 
 time = 120
 objectives = [
-  'Explain what the service layer is, what it's responsible for, where it sits in the architecture hierarchy and why it's used',
+  'Explain what the service layer is, what it is responsible for, where it sits in the architecture hierarchy and why it is used',
   'Explain how DI helps to organise classes within the service layer and the problems it solves',
   'Describe the benefits of using interfaces with dependency injection in services',
   'Build collections of services as interfaces and using dependency injection'

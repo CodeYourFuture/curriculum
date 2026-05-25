@@ -3,7 +3,7 @@ title = 'Layered Architecture'
 
 time = 120
 objectives = [
-  'Explain what the term 'software architecture' means',
+  'Explain what the term software architecture means',
   'Explain the benefits of having a layered architecture, and the responsibilities of the database, service and presentation layers',
   'Describe the architecture of previous projects you have worked on',
 ]

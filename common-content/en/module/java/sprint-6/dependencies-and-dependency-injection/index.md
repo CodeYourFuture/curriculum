@@ -3,8 +3,8 @@ title = 'Dependencies and Dependency Injection'
 
 time = 120
 objectives = [
- 'Explain what dependency injection is and why it's useful',
- 'Compare and contrast the different types of dependency injection : constructor and method based (note field injection does also exist but is generally considered bad practice outside of tests and isn't covered here)',
+ 'Explain what dependency injection is and why it is useful',
+ 'Compare and contrast the different types of dependency injection : constructor and method based (note field injection does also exist but is generally considered bad practice outside of tests and is not covered here)',
  'Refactor Java classes to use dependency injection and write new classes using DI'
 ]
 [build]

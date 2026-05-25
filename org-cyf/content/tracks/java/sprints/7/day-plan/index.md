@@ -16,7 +16,7 @@ src="module/java/review"
 time=60
 [[blocks]]
 name="Present"
-src="module/java/present"
+src="module/java/sprint-7/presentations"
 time=80
 [[blocks]]
 name="lunch"

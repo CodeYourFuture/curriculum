@@ -3,7 +3,7 @@ title = 'Introduction to Design Patterns'
 
 time = 120
 objectives = [
-  'Explain what is meant by the term 'design pattern' and give examples of patterns you've already seen or used',
+  'Explain what is meant by the term design pattern and give examples of patterns you have already seen or used',
   'Explain why software design patterns can be useful, and give examples of appropriate and inappropriate uses of design patterns',
   'Recognise the trade-offs that come with design patterns'
 ]
