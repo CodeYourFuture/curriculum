@@ -34,6 +34,14 @@
     */}}
     {{ range $repos }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
+      {{ if eq 0 ($issueBlocks | len)}}
+        <p>It doesn't look like there are any backlog items for this sprint - is that correct?</p>
+        <p>If you expected to see tasks but they aren't showing up you should check:</p>
+        <ul>
+          <li>There is a GitHub issue in the appropriate repo with teh details of the task</li>
+          <li>The task's title, priority, and GitHub url were all added to backlog.json</li>
+        </ul>
+      {{ end }}
       {{ range $issueBlocks }}
         {{ $issue := . }}
           {{if eq .category "recurring"}}
