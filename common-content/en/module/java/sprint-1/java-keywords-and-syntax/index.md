@@ -22,11 +22,12 @@ Java has strict syntax rules and reserved keywords that define its structure. Un
 Compilation is the process of converting the Java code you write into a format that your computer can execute. Compile time is when Java checks your code for errors before running your program, which is different from languages like Python or JavaScript that check for errors while the program is actually running. This provides us with the significant benefit of being able to spot (some!) errors without running the code. It also means Java IDEs come with a set of powerful tools to aid development. 
 
 Java has two types of data type: primitive and reference. Without going into too much detail right now, primitive types are usually much faster for the computer to deal with and should be used in situations where performance is important. Moreover, the primitive types are the basic 'building blocks' of Java and all reference types are ultimately made up of primitive types. You can identify primitive types because they are always in lowercase, unlike reference types which are in UpperCamelCase. The primitive types are defined by the Java language itself and we cannot create any new ones ourselves or change any existing ones. We'll focus on the following primitive types for now:
-- int
-- long
-- double
-- boolean
-- char
+- `int`
+- `long`
+- `double`
+- `boolean`
+- `char`
+
 Java is a statically typed language, which means that variable types are known at compile time. As such, the type must be provided by the programmer when writing the code. 
 For example, if you are to define a string, you must explicitly state that the variable is of type string:
 
