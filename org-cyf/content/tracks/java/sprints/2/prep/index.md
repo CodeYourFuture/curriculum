@@ -15,7 +15,4 @@ src="module/java/sprint-2/four-oop-pillars-inheritance-polymorphism"
 [[blocks]]
 name="Packages, import, static & final"
 src="module/java/sprint-2/packages-import-static-final"
-[[blocks]]
-name="Read the day plan"
-src="module/entry-tracks/read-the-day-plan"
 +++
