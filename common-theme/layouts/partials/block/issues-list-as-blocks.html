@@ -10,9 +10,22 @@
 
 {{ $courseRegex := `/(.*?)/` }}
 {{ $courseName := (trim (index (findRE $courseRegex .path 1) 0) "/") }}
+{{ $foundIssues := slice}}
+{{ $issuesForModule := slice}}
+{{ $issuesForSprint := slice}}
 
 {{ $courseIssues := index site.Data.backlog.courses $courseName}}
-{{ $issuesForModule := index (where $courseIssues.modules "name" .backlog) 0}}
-{{ $issuesForSprint := where $issuesForModule.sprints "name" .backlog_filter }}
 
-{{ return (index $issuesForSprint 0).backlog_tasks }}
+{{ if $courseIssues.modules }}
+  {{ $issuesForModule = index (where $courseIssues.modules "name" .backlog) 0}}
+{{end}}
+
+{{ if $issuesForModule }}
+  {{ $issuesForSprint = where $issuesForModule.sprints "name" .backlog_filter }}
+{{ end }}
+
+{{ if $issuesForSprint }}
+  {{ $foundIssues = (index $issuesForSprint 0).backlog_tasks}}
+{{ end }}
+
+{{ return $foundIssues }}
