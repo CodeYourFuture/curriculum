@@ -39,13 +39,13 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Reading Materials
 
-- (Baeldung - Classes & Objects)[https://www.baeldung.com/java-classes-objects]- Focus on: fields, methods, constructors
-- (Baeldung - Constructors)[https://www.baeldung.com/java-constructors] - Focus on: overloading and chaining
-- (W3Schools - Constructors)[https://www.w3schools.com/java/java_constructors.asp] - An alternative resource for classes, objects and constructor material
-- (Baeldung - Immutable Objects)[https://www.baeldung.com/java-immutable-object] - Focus on: how objects can be immutable, and the benefits of that immutability
+- [Baeldung - Classes & Objects](https://www.baeldung.com/java-classes-objects) - Focus on: fields, methods, constructors
+- [Baeldung - Constructors](https://www.baeldung.com/java-constructors) - Focus on: overloading and chaining
+- [W3Schools - Constructors](https://www.w3schools.com/java/java_constructors.asp) - An alternative resource for classes, objects and constructor material
+- [Baeldung - Immutable Objects](https://www.baeldung.com/java-immutable-object) - Focus on: how objects can be immutable, and the benefits of that immutability
 
 ### Video Materials
-- (Coding with John - Constructors)[https://www.youtube.com/watch?v=pgBk8HC7jbU]
+- [Coding with John - Constructors](https://www.youtube.com/watch?v=pgBk8HC7jbU)
 
 ## Exercises
 {{<note type="exercise" title="Exercise 1.1 - Product Class">}}

@@ -45,9 +45,9 @@ Mocks make it easy for a test to focus on the processing of a specific service w
 - Test doubles (terminology around mocks) - [Test Double](https://martinfowler.com/bliki/TestDouble.html)
 - Test layers - [Martin Fowler test-pyramid](https://martinfowler.com/articles/practical-test-pyramid.html), 
 - [Google beyond the test pyramid](https://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html)
-- (Martin Fowler Unit Test)[https://martinfowler.com/bliki/UnitTest.html]
-- (Martin Fowler Integration Test)[https://martinfowler.com/bliki/IntegrationTest.html]
-- (Test Driven Development)[https://martinfowler.com/bliki/TestDrivenDevelopment.html]
+- [Martin Fowler Unit Test](https://martinfowler.com/bliki/UnitTest.html)
+- [Martin Fowler Integration Test](https://martinfowler.com/bliki/IntegrationTest.html)
+- [Test Driven Development](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
 
 ### Video Materials
 

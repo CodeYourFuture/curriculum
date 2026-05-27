@@ -41,12 +41,12 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Reading Materials
 
-- (Baeldung - Packages)[https://www.baeldung.com/java-packages]
-- (Baeldung - Static)[https://www.baeldung.com/java-static]
+- [Baeldung - Packages](https://www.baeldung.com/java-packages)
+- [Baeldung - Static](https://www.baeldung.com/java-static)
   - Don't worry about static code blocks or inner-classes at this point
-- (Medium - Hazards of global state)[https://medium.com/@obemeuche/the-hazards-of-globalizing-dynamic-variables-in-java-a-code-centric-perspective-fafa625b0a4d]
-- (Baeldung - Final)[https://www.baeldung.com/java-final]
-- (Baeldung - Immutable objects)[https://www.baeldung.com/java-immutable-object]
+- [Medium - Hazards of global state](https://medium.com/@obemeuche/the-hazards-of-globalizing-dynamic-variables-in-java-a-code-centric-perspective-fafa625b0a4d)
+- [Baeldung - Final](https://www.baeldung.com/java-final)
+- [Baeldung - Immutable objects](https://www.baeldung.com/java-immutable-object)
   - For applications of the final keyword to guard against unwanted side-effects
 
 ## Exercises

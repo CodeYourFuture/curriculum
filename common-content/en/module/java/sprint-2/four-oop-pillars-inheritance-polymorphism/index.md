@@ -38,18 +38,18 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Reading Materials
 
-- (Baeldung - Inheritance)[https://www.baeldung.com/java-inheritance]
-- (Baeldung - Polymorphism)[https://www.baeldung.com/java-polymorphism]
-- (GeeksForGeeks - Upcasting Vs Downcasting in Java)[https://www.geeksforgeeks.org/java/upcasting-vs-downcasting-in-java/]
-- (Baeldung - Overloading vs Overriding)[https://www.baeldung.com/java-method-overload-override]
-- (Medium - Composition: Understanding Has-A vs. Is-A in Java)[https://medium.com/@noble_frost_lion_664/composition-understanding-has-a-vs-is-a-in-java-1a1d8e2eab50]
+- [Baeldung - Inheritance](https://www.baeldung.com/java-inheritance)
+- [Baeldung - Polymorphism](https://www.baeldung.com/java-polymorphism)
+- [GeeksForGeeks - Upcasting Vs Downcasting in Java](https://www.geeksforgeeks.org/java/upcasting-vs-downcasting-in-java/)
+- [Baeldung - Overloading vs Overriding](https://www.baeldung.com/java-method-overload-override)
+- [Medium - Composition: Understanding Has-A vs. Is-A in Java](https://medium.com/@noble_frost_lion_664/composition-understanding-has-a-vs-is-a-in-java-1a1d8e2eab50)
 
 ### Video Materials
 
-- (Java Polymorphism Fully Explained In 7 Minutes)[https://www.youtube.com/watch?v=jhDUxynEQRI]
-- (Programming with Mosh)[https://www.youtube.com/watch?v=pTB0EiLXUC8]
+- [Java Polymorphism Fully Explained In 7 Minutes](https://www.youtube.com/watch?v=jhDUxynEQRI)
+- [Programming with Mosh](https://www.youtube.com/watch?v=pTB0EiLXUC8)
   - Focus on the principles in the video rather than the javascript coding examples
-- (Java OOP in 10 minutes)[https://www.youtube.com/watch?v=CWYv7xlKydw]
+- [Java OOP in 10 minutes](https://www.youtube.com/watch?v=CWYv7xlKydw)
   - May be useful to help solidify concepts with java examples
 
 

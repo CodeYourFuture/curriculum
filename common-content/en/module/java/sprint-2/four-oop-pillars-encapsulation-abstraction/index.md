@@ -42,13 +42,13 @@ _As you read through the resources below try to answer the following questions:_
 
 ### Reading Materials
 
-- (Baeldung - OOP Concepts)[https://www.baeldung.com/java-oop]
+- [Baeldung - OOP Concepts](https://www.baeldung.com/java-oop)
   - Focus on: abstraction and encapsulation
   - Skip: advanced class types
-- (GeeksforGeeks - OOP Concepts)[https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/]
+- [GeeksforGeeks - OOP Concepts](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
   - Focus on: abstraction and encapsulation
-- (Baeldung - Access Modifiers)[https://www.baeldung.com/java-access-modifiers]
-- (Baeldung - Encapsulation & Information Hiding)[https://www.baeldung.com/java-information-hiding-vs-encapsulation]
+- [Baeldung - Access Modifiers](https://www.baeldung.com/java-access-modifiers)
+- [Baeldung - Encapsulation & Information Hiding](https://www.baeldung.com/java-information-hiding-vs-encapsulation)
 
 
 ## Exercises
