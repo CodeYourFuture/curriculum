@@ -1,18 +1,15 @@
 +++
 title ="Step 6: Extend Your Skills"
-description= "Optionally add responsive design for smaller screens"
-time=5
+description= "Deploy your personal webpage on GitHub Pages"
+time= 60
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-#### Add Responsive Design 
-This is an additional task for those who want to stretch themselves and try something else. It is not compulsory in anyway.
+#### Use your new skill in real life:
 
-The task is to make the page look like the below on screen sizes below 500px wide:
+This step is just for you. You don't need to submit it.
 
-![alt text](animals-mobile.png)
-
-You will need to use media queries.
+Now that your webpage is live, you can make it even better by adding images and organizing your files like a developer. Try uploading your own images to your repository and updating your HTML so they appear on your site. You can also create folders (for example, `/images` or `/css`) to keep your project tidy. This is how professional developers structure their projects, and it will make your code easier to manage as your website grows. 

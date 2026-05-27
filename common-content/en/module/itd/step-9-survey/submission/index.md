@@ -1,5 +1,5 @@
 +++
-title ="Step 6: How to show us"
+title ="Step 1: How to show us"
 description= "Submit your work for review"
 time= 5
 [build]
@@ -12,4 +12,4 @@ time= 5
 
 You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Submit a link to your personal webpage on **GitHub Pages**.   
+1. Submit the URL of the completed survey.

@@ -1,7 +1,7 @@
 +++
 title ="Step 6: What to do"
-description= "Use AI appropriately to solve a noval CSS problem"
-time= 90
+description= "Deploying a webpage on GitHub Pages"
+time= 300
 [build]
   render = 'never'
   list = 'local'
@@ -9,75 +9,112 @@ time= 90
 +++
 
 ### Overview
-As covered in step 2, generative AI tools such as ChatGPT can be a great help in your studies with CodeYourFuture. However, the way you use them is very important. These tools can just as easily be a great obstacle to your learning if you let them do your thinking for you.
 
-This step is an opportunity to practice this with a practical task which is outside your current knowledge of CSS and HTML. We have provided a [CodePen](https://codepen.io/Ara225/pen/JoYbRVd) which contains some HTML code. Your task is to use CSS to style the HTML so that:
-- The element with the class of "parent" has a dotted border
-- The element with the class of "parent" is centered on the page even if the screen size changes
-- The div elements with the class "child" have background colors, borders, rounded corners and margins between them.
-- The div elements with the class "child" stay inside the element with the class parent even if the screen size changes
-
-You must not change the HTML in anyway.
-
-You may use any colors you like - they aren't the important bit in this task.
-
-Here are some visual examples:
-
-#### On a large screen
-![alt text](animals-larger-screen.png)
-#### On a much smaller screen
-![alt text](animals-smaller-screen.png)
-
-Assuming you were new to HTML and CSS when you started this course, this task is outside your current knowledge. This makes it an excellent candidate for AI assistance, as you can use AI to help you understand the new concepts.
-
+In this exercise, you will:
+- Upload and manage your project files on GitHub
+- Publish your webpage (from Step 5) using GitHub Pages
+  
 ### What Should You Do?
 
-**You are not allowed to have AI write code for you. You must write your own code.**
+#### 1. Sign up a GitHub account
 
-#### 1 - Fork the CodePen
-Fork the [exercise CodePen](https://codepen.io/Ara225/pen/JoYbRVd) into the CodePen account you created in step 4. 
+Create a free account on [GitHub](https://github.com/).
 
-#### 2 - Make a Plan 
-Start by thinking about what you need to know to solve this problem. What might be a good first question to ask the AI? How can you avoid having the AI do your thinking for you?
+{{<note type="tip" title="Ask AI">}}
+- Need to choose a **professional GitHub username**? Ask an AI assistant for tips on picking one that's clear, simple, and career-friendly.
+- Curious **why a professional username matters**? Let AI explain how it can impact your credibility, discoverability, and personal brand.  
 
-#### 3 - Interact with the AI
-Use an AI tool to help you solve the problem. This can mean asking it to explain concepts, provide examples, explain code, etc. It must not mean copying code from the AI or blindly following its advice without understanding why. You may wish to look at step 2 again and/or search resources for using AI appropriately. If you're stuck, Google or ask in the #step-6-questions-support channel on Slack.
-
-> [!NOTE]
-> You will need to submit a link to your AI chat, so please use an AI tool which allows for chats to be shared by link, such as ChatGPT or Gemini. 
-
-#### 5 - Self Check
-Look over the code you have written. Do you understand it all? Has any been pasted from an AI tool or elsewhere? What worked and what didn’t work when prompting the AI?
-
-#### 4. Create a Google Doc
-Create a Google Doc
-
-> [!NOTE]
-> If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
-
-#### 5. Put your name in the document name 
-
-Include your given name or your family name in the title of the Google Doc.
-
-{{<note type="tip" title="Search the Web">}}
-`How to change document name in Google Docs`
+**Tip:** Avoid including your birth year in your username - this information could be misused for discrimination.
 {{</note>}}
 
-#### 6. Make your Google Doc public
+> [!IMPORTANT]
+>
+> People sometimes use different names in different contexts (nicknames, shortened versions, or using first and middle names differently).  
+>
+> For professional purposes, **choose one consistent name** for your accounts and CV. It doesn't have to match your legal name, but consistency helps employers recognize you.  
+>
+> Decide on the professional name you will use now and stick with it across all professional contexts.
 
-Change the sharing settings of your Google Doc to "Anyone with the link can view".
+#### 2. Use AI to learn about GitHub
 
-{{<note type="tip" title="Search the Web">}}
-`How to share Google Docs to public`
+Before you start uploading files, use AI to explore some key concepts and terminology.
+Understanding these will make GitHub easier to use.
+
+Here are some questions you can ask AI:
+- What is **GitHub**, and why is it useful for projects like a website?
+- What is a **repository** (or **repo**), and how is it similar to a project folder on my computer?
+- What is a **commit** and a **commit message**?
+- When should I make a **commit**?
+- What is **GitHub Pages**, and how is it different from **GitHub** itself?
+
+#### 3. Practice managing a repository on GitHub
+
+##### A. Create a repository with a `README.md` file
+
+Follow this guide to create your first repository:  
+👉 [Quickstart for repositories - Create a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#create-a-repository)
+
+##### B. Edit the `README.md` file
+
+Follow this guide to make your first edit in GitHub:  
+👉 [Quickstart for repositories - Commit your first change](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#commit-your-first-change)
+
+{{<note type="tip" title="Ask AI">}}
+While editing the `README.md`, ask AI these questions to understand it better:
+
+- What is the purpose of the `README.md` file in a repository?
+- What information is usually included in `README.md`?
+- What is **Markdown**, and how is it different from **plain text**?
 {{</note>}}
 
-#### 7 - Fill out your Doc
-Please add the following to your google doc:
-- A link to your CodePen (please note that volunteers probably won't give you a full code review but this is useful context for them)
-- A link to your chat with the AI - Instructions to share links [to Gemini chats are here](https://support.google.com/gemini/answer/13743730) and [to ChatGPT chats are here](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq)
-- A screen shot of the output in CodePen
-- Your answers to the questions in the '5 - Self Check' section above 
+##### C. Managing files
 
-#### 4. Submit the Google Doc link
+Read: [Managing Files -- GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files)  
+This explains how to **add**, **edit**, **rename**, and **delete** files.
 
-Submit the link to the Google Doc in Step 6 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+👉 Important:
+  - Follow only the instructions for using the GitHub website.
+  - Skip anything that involves the command line or the `git` command.
+
+#### 4. Create a repository for your website
+
+1. **Create a repository** and include your name in the repository name.
+    - The repository name will appear in the link to your webpage.
+    - This helps identify your work. You can use your first name, last name, or a combination.
+
+2. **Download your webpage files from CodePen**
+    - Go to the CodePen page you prepared in Step 5 and **export** your webpage as a ZIP file.
+    - The **Export** button is located in the lower-right corner of the CodePen page. (See [Exporting Pens](https://blog.codepen.io/documentation/exporting-pens/) for more information.)
+  
+3. **Unzip the downloaded file** into a local folder on your computer.
+   
+4. **Upload your webpage files to GitHub**
+   - **Important**: Only upload the files in the `dist/` subfolder to your repository.
+   - Optionally, you can add your own images to your repository and edit your code on GitHub to use them.
+
+5. **Add a brief description** of your project in the `README.md` file.
+
+
+#### 5. Deploy your webpage on GitHub Pages
+
+![Configuring Github Page settings](github-pages-settings.png)
+
+1. In your repository, click **Settings**.
+2. Select **Pages** from the sidebar.
+3. Choose the branch you want to deploy. Typically, this is the `main` branch.
+4. Click **Save** to apply the branch setting.
+5. Reload the settings page every few minutes until you see the message: "Your page is live at ..."
+   - Click the link to visit your webpage. (**This is the link you will submit**.)
+   - Deployment may take a few minutes.
+
+For detailed instructions, see: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+#### 6. Submit your webpage link  
+
+Submit the link to your deployed webpage in Step 6 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+
+{{<note type="tip" title="Ask AI">}}
+If you're not sure where to find your links, try asking AI:
+- How do I find out the link to my repository?
+- How do I find out the link to my webpage deployed on GitHub Pages?
+{{</note>}}

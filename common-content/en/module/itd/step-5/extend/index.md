@@ -1,7 +1,7 @@
 +++
 title ="Step 5: Extend Your Skills"
-description= "Deploy your personal webpage on GitHub Pages"
-time= 60
+description= "Build your first portfolio website"
+time=0
 [build]
   render = 'never'
   list = 'local'
@@ -10,6 +10,9 @@ time= 60
 
 #### Use your new skill in real life:
 
-This step is just for you. You don't need to submit it.
+This optional step is just for you. You don't need to submit it. Next, build a website to show your skills and experience. It's a great way to show potential employers what you can do.
 
-Now that your webpage is live, you can make it even better by adding images and organizing your files like a developer. Try uploading your own images to your repository and updating your HTML so they appear on your site. You can also create folders (for example, `/images` or `/css`) to keep your project tidy. This is how professional developers structure their projects, and it will make your code easier to manage as your website grows. 
+A site like this is called a portfolio. It's a collection of your work and skills. Start now and keep adding to it as you learn new things.
+
+> [!TIP]
+> This four hour video course [Learn HTML: Full Tutorial for Beginners (2022)](https://www.youtube.com/watch?v=kUMe1FH4CHE) answers most of the common questions beginners have.

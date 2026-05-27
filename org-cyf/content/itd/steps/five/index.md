@@ -1,9 +1,9 @@
 +++
 title = 'Five'
-description="Deploying a webpage on GitHub Pages"
+description = 'Build a personal webpage on CodePen'
 layout = 'prep'
 menu_level = ['module']
-menu=[ 'ITD steps']
+menu=['ITD steps']
 weight = 6
 [[blocks]]
 name="Instructions"

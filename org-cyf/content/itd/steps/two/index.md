@@ -1,9 +1,9 @@
 +++
 title = 'Two'
-description = 'Learn how to use AI appropriately'
+description = 'Using Slack and search engines'
 layout = 'prep'
 menu_level = ['module']
-menu=['ITD steps']
+menu=[ 'ITD steps']
 weight = 3
 [[blocks]]
 name="Instructions"
@@ -17,7 +17,4 @@ src="module/itd/step-2/submission"
 [[blocks]]
 name="Help"
 src="module/itd/help"
-[[blocks]]
-name="Extensions"
-src="module/itd/step-2/extend"
 +++

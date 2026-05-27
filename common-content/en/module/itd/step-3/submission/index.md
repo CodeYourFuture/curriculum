@@ -12,4 +12,5 @@ time= 5
 
 You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Submit a link to your Google Sheet
+1. Submit a link to your Google Doc
+
