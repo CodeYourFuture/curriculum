@@ -22,7 +22,7 @@ src="module/js1/interface"
 name="Terminal"
 src="module/js1/terminal"
 [[blocks]]
-name="Prep dir"
+name="Prep Directory"
 src="blocks/prep-dir"
 [[blocks]]
 name="Scripts"
