@@ -35,7 +35,7 @@ time=45
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=115
+time=85
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"
