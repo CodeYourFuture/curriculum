@@ -25,13 +25,17 @@ time="30"
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
+name="Workshop: Introducing AI Guidelines"
+src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introducing-ai-guidelines/"
+time=30
+[[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
 time=45
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=115
+time=85
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"
