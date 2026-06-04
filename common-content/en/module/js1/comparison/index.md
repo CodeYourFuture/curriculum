@@ -13,13 +13,6 @@ time = 40
 
 +++
 
->[!caution]
-> This block is currently in two places and both need to be updated:
-> 
-> **In Onboarding**: Rewrite as a general intro to comparing values. Trainees have not covered functions at this point
-> 
-> **In Structuring & Testing Data**: This would be a useful refresher before we start testing, but needs the context that trainees will already be familiar with teh concept
-
 ### Comparing values
 
 We have learned how to store values in a program and how to access them again when we need them. At some point we will need to **compare** two values. Often our program will need to change its behaviour depending on that comparison. 
