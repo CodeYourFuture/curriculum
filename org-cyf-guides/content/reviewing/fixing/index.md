@@ -9,7 +9,7 @@ objectives=[
 ]
 +++
 
-# Making a new branch 
+## Making a new branch 
 
 As part of your learning at Code Your Future, you will be developing lots of projects and backlog tasks.
 While you're working on projects you will probably be using branches and PRs.
@@ -25,7 +25,7 @@ PRs are made in GitHub.
 Branches are made in Git, on your own machine.
 To avoid problems, you should only create a new branch when you are on the *`main`* branch.
 
-## In VS Code
+### In VS Code
 1. You are ready to start a new piece of work
 2. Switch back to the main branch in VS Code by clicking on the branch name
 3. Create a new branch, named for the thing you are about to work on
@@ -35,10 +35,10 @@ You can see extra guidance for how to [manage branches on VS Code here](https://
 
 If you are working on multiple tasks at once, always check which branch you are currently working in, so you do not commit to the wrong one.
 
-## Command line
+### Command line
 If you are using the command line, you do it this way:
 
-```
+```sh
 # move to the right directory
 cd your-code-directory
 
@@ -60,18 +60,20 @@ Before you make a commit, you can always check which branch you are currently on
 Take care to do this if you are working on multiple tasks at once.
 
 
-# Spotting Problems with Branches
+## Spotting Problems with Branches
 When you are [submitting a PR on GitHub](/guides/reviewing/trainee-pr-guide/), you should always check to see if you received automated feedback from tests or bots.
 
 Sometimes, a bot will leave a comment like this:
 
-> The files changed in this PR don't match what is expected for this task.
-> 
-> Please check that you committed the right files for the task, and that there are no accidentally committed files from other sprints.
-> 
-> Please review the 'files changed' tab at the top of the page.
-> 
-> Here is an example of a file that has been incorrectly committed: 
+```text
+The files changed in this PR don't match what is expected for this task.
+
+Please check that you committed the right files for the task, and that there are no accidentally committed files from other sprints.
+
+Please review the 'files changed' tab at the top of the page.
+
+Here is an example of a file that has been incorrectly committed: 
+```
 
 The first thing you should do is have a look for the example file given in the _files changed_ tab on your PR.
 This tab shows you everything you have changed in the branch you are submitting to the PR.
@@ -98,7 +100,7 @@ Your own personal projects may not have a bot to check this, so it is worth doub
 Read on to learn how to resolve this problem:
 
 
-# Fixing a branch which changed the wrong files
+## Fixing a branch which changed the wrong files
 
 The most common cause of branches having the wrong files are:
 * You forgot to go back to `main` before branching
@@ -108,19 +110,19 @@ To solve the problem, what we want to do is put the files back the way they were
 This is called "reverting".
 There are several ways to do this with git and VS code, the simplest one requires you to use the terminal.
 
+### Using the terminal
 1. Identify which branches are your "original branch", and which one is your "pr branch" with changes
-  * For this example, we will imagine the original is `main` and the pr branch is `wireframe`
+    * For this example, we will imagine the original is `main` and the pr branch is `wireframe`
 2. Identify which directory or file has the incorrectly changed files we want to revert
-  * For this example, we will be reverting the `Form-Controls/` directory, which includes all files inside it
+    * For this example, we will be reverting the `Form-Controls/` directory, which includes all files inside it
 3. Open the terminal in VS Code
-4. Make sure you are in the right directory with your code
-5. Make sure you are on your `wireframe` branch by typing `git status` or `git branch`
-6. This will give you a line that says something like `Your branch is up-to-date with 'origin/wireframe'.` or `*   wireframe`
-7. If you are not on the right branch, change to it now using `git switch wireframe`
-8. We now check out all the original files from the `main` branch, using this command: `git checkout main Form-Control`
-9. This will then state what files were changed: `Updated 4 paths from 052d202`
-10. You now need to re-commit the original files and push them. You can do this the normal way in VS Code, or in the command line.
+4. Check you are in the right directory where your code exists
+5. Go to the branch by typing `git switch wireframe`
+6. Check out all the original files using this command: `git checkout main Form-Control`
+    * This tells git to look at the main branch, and check out every file in the Form-Control directory, into the current wireframe branch
 
+You now need to re-commit the original files and push them.
+You can do this the normal way in VS Code, or in the command line.
 Once you have done these steps, go back to the PR page on GitHub and check the "files changed" tab.
 It should no longer show the incorrectly changed files and only have the ones you intended.
 
