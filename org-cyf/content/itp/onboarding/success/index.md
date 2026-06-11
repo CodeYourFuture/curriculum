@@ -45,6 +45,6 @@ weight = 11
 1. **[Apply to enroll as a Trainee](https://forms.gle/vRuofa7aeL5DsbhGA)**.
 
 > [!NOTE]
-> A pull request is _completed_ when a volunteer has added the "Complete" tag. If nobody has reviewed your PR after one week, please ask on Slack in #cyf-code-review.
+> A pull request is _completed_ when a volunteer has added the "Complete" tag.
 
 Celebrate your hard work by checking off the objectives below!
