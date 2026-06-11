@@ -7,11 +7,13 @@ p {
 }
 
 blockquote {
-  font-size: var(--theme-type-size--4);
+  font-size: var(--theme-type-size--5);
   margin: var(--theme-spacing--4) 0 var(--theme-spacing--6);
-  @include pattern(dots, var(--theme-color--pop), b, false, 0.2);
-  border-bottom: var(--theme-border--thick);
+  border-top: var(--theme-border);
+  border-bottom: var(--theme-border);
   border-image: var(--theme-border-image);
+  background-color: var(--theme-color--accent-shade);
+  padding-left: var(--theme-spacing--3);
 }
 
 iframe {
