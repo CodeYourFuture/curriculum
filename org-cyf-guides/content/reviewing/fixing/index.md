@@ -28,7 +28,7 @@ To avoid problems, you should only create a new branch when you are on the *`mai
 Here is a summary of the correct way to make a branch in VS Code:
 
 1. You are ready to start a new piece of work
-2. Switch back to the main branch in VS Code by clicking on the branch name
+2. Switch back to the main branch in VS Code by clicking on the branch name in the bottom left corner
 3. Create a new branch, named for the thing you are about to work on
 4. Start editing and making commits
 
