@@ -32,7 +32,7 @@ Here is a summary of the correct way to make a branch in VS Code:
 3. Create a new branch, named for the thing you are about to work on
 4. Start editing and making commits
 
-You can see extra guidance for how to [manage branches on VS Code here](https://code.visualstudio.com/docs/sourcecontrol/branches-worktrees).
+You can find extra guidance by reading the [official docs on managing branches in VS Code](https://code.visualstudio.com/docs/sourcecontrol/branches-worktrees).
 
 If you are working on multiple tasks at once, always check which branch you are currently working in, so you do not commit to the wrong one.
 
