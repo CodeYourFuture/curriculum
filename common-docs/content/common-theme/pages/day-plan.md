@@ -10,7 +10,7 @@ name="Energiser"
 src="common-content/blocks/energiser"
 [[blocks]]
 name="Placeholder Workshop"
-src="workshops/template"
+src="common-content/workshops/template"
 time="120"
 [[blocks]]
 name="Lunch"
