@@ -5,6 +5,10 @@ emoji: 📝
 weight: 5
 ---
 
+> [!NOTE]
+>
+> CodeYourFuture has [an automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/) which can detect many of the problems listed on this page. Run your CV through it before working through this checklist.
+
 Things to check in your CV before sending it to an employer:
 
 * [ ] There are no spelling or grammar errors (confirm this using[ Grammarly](https://www.grammarly.com/grammar-check) or any other AI grammar tool).

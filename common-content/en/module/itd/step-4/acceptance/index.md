@@ -1,7 +1,7 @@
 +++
 title ="Step 4: How to check your work"
-description= "Acceptance criteria for step four"
-time= 5
+description= "Acceptance criteria for Step 3"
+time=10
 [build]
   render = 'never'
   list = 'local'
@@ -13,14 +13,8 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You prepared your personal webpage on CodePen.
-- Your webpage meets all the criteria
-- You have submitted the webpage link on the CYF Course Platform.
+- You have edited, formatted, and applied filters on the Sales Data Google Sheet according to the instructions.
+- You have added your name to the Google Sheet's file name (title).
+- You have made the Google Sheet public.
+- You have submitted the Google Sheet link on the CYF Course Platform.
 ```
-
-#### Webpage Criteria
-1. It contains **at least 100 words**.
-2. It includes **at least three images**, and **at least one image is centered** on the page.
-3. It includes a **list**.
-4. All CSS code is written **inside the CSS tab**.
-5. All code is **free of syntax errors**.

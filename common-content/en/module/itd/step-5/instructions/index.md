@@ -1,7 +1,7 @@
 +++
 title ="Step 5: What to do"
-description= "Deploying a webpage on GitHub Pages"
-time= 300
+description= "Build a personal webpage on CodePen"
+time= 480
 [build]
   render = 'never'
   list = 'local'
@@ -11,110 +11,113 @@ time= 300
 ### Overview
 
 In this exercise, you will:
-- Upload and manage your project files on GitHub
-- Publish your webpage (from Step 4) using GitHub Pages
-  
+- Build your first webpage using **HTML** and **CSS**
+- Practice editing your webpage and instantly see results
+- Share your work with others using **CodePen**
+
+
 ### What Should You Do?
 
-#### 1. Sign up a GitHub account
+#### 1. Sign up a CodePen account
 
-Create a free account on [GitHub](https://github.com/).
+[CodePen.io](https://codepen.io) is an online playground where you can:
+- Write HTML and CSS code
+- See the results instantly
+- Share your work with others
 
-{{<note type="tip" title="Ask AI">}}
-- Need to choose a **professional GitHub username**? Ask an AI assistant for tips on picking one that's clear, simple, and career-friendly.
-- Curious **why a professional username matters**? Let AI explain how it can impact your credibility, discoverability, and personal brand.  
+👉 While you are learning, CodePen lets you experiment and get instant feedback.
 
-**Tip:** Avoid including your birth year in your username - this information could be misused for discrimination.
+#### 2. Learn HTML and CSS
+
+You can use any resource you like, but here are two free and beginner-friendly options:
+
+##### Option 1: Khan Academy
+
+- [Create an account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
+- Take the course: [Computer Programming: Unit 2: Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+
+##### Option 2: W3Schools
+
+- [HTML Tutorial](https://www.w3schools.com/html/)
+- [CSS Tutorial](https://www.w3schools.com/css/)
+
+##### How much do I need to learn?
+
+Here is a self-checklist to check if you understand HTML and CSS well enough to produce the webpage in this Step.
+
+✅ **HTML Basics**
+
+- [ ] I know what HTML is used for.
+- [ ] I know how `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` make up the basic structure of an HTML document.
+- [ ] I can add a **title** inside the `<head>` tag.
+- [ ] I know these key terminologies: **element**, **tag**, **attribute**, **opening tag**, **closing tag**.
+- [ ] I can add text using `<h1>` to `<h6>` headings and `<p>` paragraphs.
+- [ ] I can add a **link** with `<a href="...">`.
+- [ ]  I can add an **image** with `<img src="..." alt="...">`.
+- [ ] I can create a **list** using `<ul>` (unordered) or `<ol>` (ordered) with `<li>`.
+- [ ] I know how to group content with `<div>` and highlight text with `<span>`.
+- [ ] I know the differences between **block-level** and **inline** elements (e.g., `<div>` vs `<span>`).
+
+✅ **CSS Basics**
+- [ ] I know what CSS is used for.
+- [ ] I can connect CSS to HTML using a `<style>` tag or an external `.css` file.
+- [ ] I understand the advantages of specifying CSS styles in an external `.css` file.
+- [ ] I understand the basic structure of a CSS rule.
+- [ ] I know how to select elements using 
+    - **Element selectors** (e.g., `p`)
+    - **Class selectors** (e.g., `.classname`)
+    - **ID selectors** (e.g., `#idname`)
+- [ ] I can change text **color**, **size**, and **font** with CSS.
+- [ ] I can change the **background color** of a page or element.
+- [ ] I can add **borders**, **margins**, and **padding**.
+- [ ] I can centre text and image.
+
+#### 3. Prepare a webpage on CodePen
+
+Your webpage should meet all of the following criteria:
+
+- It is about something you like (e.g., a hobby, a city, a person, an animal, a flower, or food).
+- It contains **at least 100 words**.
+- It includes **at least three images**, and **at least one image must be centred** on the page:
+  - The image should remain centred regardless of the ***viewport*** **width**.
+  - Free-tier CodePen users cannot upload images. Use **publicly accessible image URLs** instead.
+- It includes an **ordered** (`<ol>`) or **unordered** (`<ul>`) list.
+- All CSS should be written **inside the CSS tab** on CodePen (not inline).
+- Both HTML and CSS should be **free of syntax errors**.
+
+{{<note type="tip" title="Using AI to help you understand and fix coding errors">}}
+If you do not know how to fix an error in your code, show your code to AI and ask it to help you understand the cause of the error.
+
+Remember that the purpose of this exercise is learning - you shouldn't have AI write code for you. But it can help you understand problems.
 {{</note>}}
 
-> [!IMPORTANT]
->
-> People sometimes use different names in different contexts (nicknames, shortened versions, or using first and middle names differently).  
->
-> For professional purposes, **choose one consistent name** for your accounts and CV. It doesn’t have to match your legal name, but consistency helps employers recognize you.  
->
-> Decide on the professional name you will use now and stick with it across all professional contexts.
 
-#### 2. Use AI to learn about GitHub
+#### 4. Submit your CodePen page link  
 
-Before you start uploading files, use AI to explore some key concepts and terminology.
-Understanding these will make GitHub easier to use.
-
-Here are some questions you can ask AI:
-- What is **GitHub**, and why is it useful for projects like a website?
-- What is a **repository** (or **repo**), and how is it similar to a project folder on my computer?
-- What is a **commit** and a **commit message**?
-- When should I make a **commit**?
-- What is **GitHub Pages**, and how is it different from **GitHub** itself?
-
-#### 3. Practice managing a repository on GitHub
-
-##### A. Create a repository with a `README.md` file
-
-Follow this guide to create your first repository:  
-👉 [Quickstart for repositories - Create a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#create-a-repository)
-
-##### B. Edit the `README.md` file
-
-Follow this guide to make your first edit in GitHub:  
-👉 [Quickstart for repositories - Commit your first change](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories#commit-your-first-change)
-
-{{<note type="tip" title="Ask AI">}}
-While editing the `README.md`, ask AI these questions to understand it better:
-
-- What is the purpose of the `README.md` file in a repository?
-- What information is usually included in `README.md`?
-- What is **Markdown**, and how is it different from **plain text**?
-{{</note>}}
-
-##### C. Managing files
-
-Read: [Managing Files -- GitHub Docs](https://docs.github.com/en/repositories/working-with-files/managing-files)  
-This explains how to **add**, **edit**, **rename**, and **delete** files.
-
-👉 Important:
-  - Follow only the instructions for using the GitHub website.
-  - Skip anything that involves the command line or the `git` command.
-
-#### 4. Create a repository for your website
-
-1. **Create a repository** and include your name in the repository name.
-    - The repository name will appear in the link to your webpage.
-    - This helps identify your work. You can use your first name, last name, or a combination.
-
-2. **Download your webpage files from CodePen**
-    - Go to the CodePen page you prepared in Step 4 and **export** your webpage as a ZIP file.
-    - The **Export** button is located in the lower-right corner of the CodePen page. (See [Exporting Pens](https://blog.codepen.io/documentation/exporting-pens/) for more information.)
-  
-3. **Unzip the downloaded file** into a local folder on your computer.
-   
-4. **Upload your webpage files to GitHub**
-   - **Important**: Only upload the files in the `dist/` subfolder to your repository.
-   - Optionally, you can add your own images to your repository and edit your code on GitHub to use them.
-
-5. **Add a brief description** of your project in the `README.md` file.
+Submit the link to your CodePen page in Step 5 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
 
-#### 5. Deploy your webpage on GitHub Pages
+### Important Notes About CodePen
 
-![Configuring Github Page settings](github-pages-settings.png)
+CodePen provides two editing experiences: **Classic Pen** and **Pen 2.0**. The requirements for each are slightly different.
 
-1. In your repository, click **Settings**.
-2. Select **Pages** from the sidebar.
-3. Choose the branch you want to deploy. Typically, this is the `main` branch.
-4. Click **Save** to apply the branch setting.
-5. Reload the settings page every few minutes until you see the message: "Your page is live at ..."
-   - Click the link to visit your webpage. (**This is the link you will submit**.)
-   - Deployment may take a few minutes.
+#### Classic Pen
 
-For detailed instructions, see: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- In the HTML editor, you only need to enter the content that belongs inside the `<body>` element. Do not include `<!DOCTYPE html>`, `<html>`, `<head>`, or `<body>` tags.
 
-#### 6. Submit your webpage link  
+- To check your code for errors:
+    - **Analyze HTML** - validates your HTML and identifies potential issues.
+    - <img src="https://www.freecodecamp.org/news/content/images/2021/03/analyze-before-option.png" alt="HTML Analyzer" width="600">    
+    - **Analyze CSS** - validates your CSS and identifies potential issues.
 
-Submit the link to your deployed webpage in Step 5 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
+- For a complete overview of Classic Pen features, see: [How to Use CodePen – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-use-codepen/).
 
-{{<note type="tip" title="Ask AI">}}
-If you’re not sure where to find your links, try asking AI:
-- How do I find out the link to my repository?
-- How do I find out the link to my webpage deployed on GitHub Pages?
-{{</note>}}
+#### Pen 2.0
+
+- The `index.html` file must contain a complete HTML document, including `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags.
+
+- To validate your code, use the W3C validation services. Open the Direct Input tab, then copy and paste your code into the validator:
+    - **HTML validation** -- https://validator.w3.org/
+    - **CSS validation** -- https://jigsaw.w3.org/css-validator/
+
+    

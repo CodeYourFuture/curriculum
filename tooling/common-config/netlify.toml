@@ -60,9 +60,25 @@ from = "/trainee-expenses-docs"
 to = "https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.7pmxr8snfzh5"
 status = 302
 
+[[redirects]]
+from = "/ai-use-guidelines"
+to = "https://docs.google.com/document/d/1Rq3dh3yE7sqkBM1cTPP6-f2CSO4lhdhi_2yXxAV3EfA/edit?tab=t.0#heading=h.3kept1c7ccss"
+status = 302
+
+[[redirects]]
+from = "/ai-use-cheat-sheet"
+to = "https://docs.google.com/document/d/1RnXEK3BXzfcdr03I9D0hPZn61BbApD3-i76zHGU_hs0/edit?tab=t.0"
+status = 302
+
+[[redirects]]
+from = "/curriculum-team-meeting-agenda"
+to = "https://docs.google.com/document/d/1JQ9Wz_E9VRumqOf8tjLh9Ngt_UgNSlOQhARE6CxY1hg/edit"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
+
 
 [[headers]]
   for = "/dummy-apis/*"

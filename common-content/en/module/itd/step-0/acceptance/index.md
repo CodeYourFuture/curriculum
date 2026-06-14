@@ -1,6 +1,6 @@
 +++
 title ="Step 0: How to check your work"
-description= "Acceptance criteria for step zero"
+description= "Acceptance criteria for Step 0"
 time= 10
 [build]
   render = 'never'

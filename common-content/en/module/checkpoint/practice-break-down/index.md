@@ -24,7 +24,7 @@ We will practice this together on the two of the requirements of the project:
 
 To complete these requirements we'd need to build most of the project! So we'll focus on simplified versions of these requirements:
 
-- When the page loads, display one bookmark from User 1's stored agenda
+- When the page loads, display one bookmark from User 1's stored bookmarks
 - When clicking a button, add a {{<tooltip title="hard-coded">}}Hard-coding refers to when developers directly write values or data into code, often replacing variables or user input with static values.{{</tooltip>}} bookmark to User 1
 
 To complete the full requirements, you can build on the tasks we decide on today.

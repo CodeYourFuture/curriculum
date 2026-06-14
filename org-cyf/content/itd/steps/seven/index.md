@@ -1,6 +1,6 @@
 +++
 title = 'Seven'
-description="Check if your English CEFR level is B2 or above"
+description="Use AI appropriately to solve a novel CSS problem"
 layout = 'prep'
 menu_level = ['module']
 menu=['ITD steps']

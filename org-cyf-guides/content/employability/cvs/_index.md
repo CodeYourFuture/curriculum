@@ -13,3 +13,7 @@ A recruiter will typically skim through your CV for 5-10 seconds before making a
 Typically after your CV has been approved by a recruiter, it may then be reviewed by a hiring manager, senior level engineers, product managers or equivalent and possible senior management or managers from different domains who may be involved in the interview process. If you are applying for a technical role it is important your CV is accessible enough to be understood by someone who is not an engineer, but has enough specific information for a senior engineer to have a high level understanding of your technical capabilities.
 
 It is likely you will want to create different versions of your CV highlighting different aspects that may be more relevant for different jobs. It should be a living document that you frequently refine as you get more experience.
+
+> [!NOTE]
+>
+> CodeYourFuture has [an automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/) which can help you improve your CV. Make sure to run your CV through this tool and act on its feedback (ideally before getting a volunteer to review it). If you're not sure about any of the feedback, reach out on Slack in [#cyf-profile-review](https://codeyourfutur-yov6609.slack.com/archives/C07PK9JUVUL).

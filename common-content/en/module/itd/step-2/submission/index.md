@@ -12,5 +12,4 @@ time= 5
 
 You must do this on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
 
-1. Submit a link to your Google Doc
-
+1. Upload a PDF file created from your Score Summary Page
