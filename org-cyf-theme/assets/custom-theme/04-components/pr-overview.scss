@@ -12,6 +12,7 @@
     padding: var(--theme-spacing--1);
     display: grid;
     gap: var(--theme-spacing--1);
+    max-width: 285px;
   }
 
   &__age {
