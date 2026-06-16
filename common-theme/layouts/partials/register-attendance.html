@@ -71,12 +71,16 @@
   const handleSubmit = (event) => {
     event.preventDefault();
     const registration = event.target;
+    const requestBody = {};
     const formData = new FormData(registration);
+    for (const [key, value] of formData.entries()) {
+      requestBody[key] = value;
+    }
   
-    fetch("/", {
+    fetch("https://portal-backend.codeyourfuture.io/functions/v1/submit-class-register-form", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({"payload": {"data": requestBody}}),
     })
     .then(() => register.innerHTML = "<h3>✅ You signed in</h3>")
     .catch((error) => alert(error));
