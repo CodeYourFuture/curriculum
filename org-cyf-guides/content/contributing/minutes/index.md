@@ -16,6 +16,47 @@ Attendees:
 ### ❗Actions
 
 ---
+## 16-06-2026
+
+Attendees: Anna, Daniel, Colin, Ali, CJ, Poonam
+
+### ❗Actions from last time
+- [ ] Daniel: Split up the SDC legacy code module
+- [ ] CJ: Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+- [x] Daniel: Explore shared channels
+- [ ] Liam: Setup reminder in the curriculum-feedback channel
+
+### 📝 Agenda points
+
+#### Actions from last time
+Daniel suggested moving the curriculum channel to the Community workspace to broaden participation in curriculum discussions, and to avoid maintaining multiple channels.
+
+To address the message longevity issue on the community workspace, a mirroring bot to back up channel messages will be explored. 
+
+#### Simplifying the CSS in the ITP Module-Onboarding Wireframe exercise
+CJ pointed out that the current CSS is considered too advanced and cannot be validated using the W3C validation service, limiting its usefulness as a learning tool.
+
+Follow-up action: Remove the provided CSS and require trainees to create the CSS from scratch.
+
+#### AI goings on within curriculum
+Poonam prepared and incorporated [AI guidance](https://docs.google.com/document/d/1Rq3dh3yE7sqkBM1cTPP6-f2CSO4lhdhi_2yXxAV3EfA/edit?tab=t.0#heading=h.3kept1c7ccss) materials into the curriculum, including 
+- an ["Introducing AI Guideline"](https://curriculum.codeyourfuture.io/itp/onboarding/sprints/3/day-plan/#workshop-introducing-ai-guidelines) workshop in an ITP day plan
+- an [AI Usage Guide](https://curriculum.codeyourfuture.io/guides/ai-usage/) summarizing the full guidelines
+- a [volunteer cheat sheet](https://docs.google.com/document/d/1RnXEK3BXzfcdr03I9D0hPZn61BbApD3-i76zHGU_hs0/edit?tab=t.0#heading=h.lefftmpzlphe)
+
+She also created a new "Topic AI" label for tracking AI-related issues.
+
+#### Progress on merging workshop content into the curriculum repo
+Anna reported that the workshop-content merge is complex, with some links not yet functioning until deployment.
+
+### ❗Actions
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Liam: (Carry Over) Setup reminder in the curriculum-feedback channel
+- [ ] CJ: Remove CSS from the Wireframe exercise
+- [ ] Daniel: Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
 
 ## 19-05-2026
 
