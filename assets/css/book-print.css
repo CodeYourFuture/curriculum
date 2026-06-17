@@ -1,0 +1,16 @@
+@media print {
+  body {
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #000;
+  }
+
+  header, footer, nav {
+    page-break-after: always;
+  }
+
+  article {
+    page-break-before: always;
+  }
+}
