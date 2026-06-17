@@ -24,7 +24,10 @@
   }
   &__start {
     position: absolute;
-    left: 0;
+    z-index: 7;
+    top: 309px;
+    left: -12px;
+    font-size: 60px;
   }
 
   &__stop {
