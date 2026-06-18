@@ -1,7 +1,7 @@
 +++
 title = 'Viewing files from a git clone'
 time ="20"
-objectives=["Open a cloned repository in your IDE","Explore the repository in your IDE","Open the Integrated Terminal in VSCode"]
+objectives=["Open a cloned repository in VSCode","Explore the repository in VSCode","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'
   list = 'local'
@@ -9,13 +9,9 @@ objectives=["Open a cloned repository in your IDE","Explore the repository in yo
 
 +++
 
-Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase. You can use a code editor like VSCode.
+Once you've got a local copy of a codebase on your local machine you can start to view the files and folders in that codebase using VSCode.
 
-VSCode is an application that enables developers to view and edit files on their local machine.
-
-{{<note type="exercise" title="Exercise">}}
-
-### Explore VSCode
+{{<note type="exercise" title="Exercise - Explore a repo using VSCode">}}
 
 1. Figure out how to open the cloned repository on your local machine in VSCode.
 
@@ -23,9 +19,6 @@ VSCode is an application that enables developers to view and edit files on their
 
 3. Try opening the Integrated Terminal in your VSCode window
 
-🤔 If you get stuck on any of these exercises, it's a good idea to search online. For example, you could Google "opening terminal in vscode"
+If you get stuck on any of these exercises, it's a good idea to search online. For example, you could Google "opening terminal in vscode"
 
 {{</note>}}
-
-> [!NOTE]
-> If you're working on a library computer, use dot dev to open the repo in your browser, and navigate the files and folder there. You cannot open a terminal in the library, so come to class to try this part out.

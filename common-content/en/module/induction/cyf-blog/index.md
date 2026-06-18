@@ -1,5 +1,5 @@
 +++
-title = 'Blog'
+title = 'CYF Blog'
 time ="5"
 hide_from_overview = true
 [build]
@@ -14,6 +14,6 @@ Ahmed and Naima are writing a blog together about their struggles learning codin
 
 The published blog is live here 👉 [Educational blog](https://git-demo-week1.netlify.app/)
 
-{{<note type="exercise" title="exercise 1.1">}}
+{{<note type="exercise" title="Exercise - Investigate the Resources">}}
 Explore the [Educational blog](https://git-demo-week1.netlify.app/). Click on the link on the site and check to see if it is working.
 {{</note>}}

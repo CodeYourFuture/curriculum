@@ -11,6 +11,9 @@ time = 10
 
 +++
 
+>[!caution]
+> Should combine this with scripts section
+
 ### Printing to the terminal
 
 To look at values when our program runs, we can use a function called `console.log`.

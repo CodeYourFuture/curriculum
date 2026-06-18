@@ -11,6 +11,10 @@ time = 30
 
 +++
 
+
+>[!caution]
+> This may not make sense with the updated error example but should still be covered alongside variables. Move this earlier with a different example if necessary.
+
 We saw this error:
 
 ```

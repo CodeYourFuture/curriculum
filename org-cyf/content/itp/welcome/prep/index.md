@@ -32,4 +32,35 @@ src="module/induction/accounts"
 [[blocks]]
 name="House Rules"
 src="blocks/house-rules"
+[[blocks]]
+name="Create CYF Folder"
+src="module/induction/cyf-folder"
+[[blocks]]
+name="Check Git Installation"
+src="module/induction/check-git-installation"
+time=5
+[[blocks]]
+name="CYF Blog"
+src="module/induction/cyf-blog"
+[[blocks]]
+name="Development Process"
+src="module/induction/development-process"
+[[blocks]]
+name="Version Control"
+src="module/induction/version-control"
+[[blocks]]
+name="Sharing History"
+src="module/induction/sharing-history"
+[[blocks]]
+name="Configuring Git with VSCode"
+src="module/onboarding/git/vscode-setup"
+[[blocks]]
+name="Creating a Commit"
+src="module/onboarding/git/creating-a-commit"
+[[blocks]]
+name="Remote Repositories"
+src="module/onboarding/git/remote-repositories"
+[[blocks]]
+name="Pushing & Pulling"
+src="module/onboarding/git/pushing-and-pulling"
 +++

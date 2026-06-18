@@ -18,29 +18,29 @@ Check if you already have NodeJS installed by running `node -v` in a terminal. T
 
 {{</note>}}
 
-## 🐧 On Ubuntu
+### 🐧 On Ubuntu
 
 1. Install nvm by running the following commands in your terminal:
 
-```terminal
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 2. After the installation is complete, you'll need to source the nvm script by running:
 
-```terminal
+```bash
 source ~/.bashrc
 ```
 
 3. Install the latest LTS version of Node.js by running:
 
-```terminal
+```bash
 nvm install --lts
 ```
 
 4. Check that you have successfully installed Node.js by running:
 
-```terminal
+```bash
 node -v
 ```
 
@@ -48,17 +48,17 @@ You should see a version number like `v22.11.0`.
 
 5. Check that you have successfully installed npm by running:
 
-```terminal
+```bash
 npm -v
 ```
 
 You should see a version number like `10.9.0`.
 
-##  On Mac
+###  On Mac
 
 1. Install the the Xcode Command Line Developer Tools by running the following command in your terminal:
 
-```terminal
+```bash
 xcode-select --install
 ```
 
@@ -66,31 +66,31 @@ These may already be installed, in which case you will see "xcode-select: note: 
 
 2. Create a (Non-Login Interactive) Shell Configuration File:
 
-```terminal
+```bash
 touch ~/.zshrc
 ```
 
 3. Install nvm:
 
-```terminal
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 4. After the installation is complete, you'll need to source the nvm script by running:
 
-```terminal
+```bash
 source ~/.zshrc
 ```
 
 5. Install the latest LTS version of Node.js by running:
 
-```terminal
+```bash
 nvm install --lts
 ```
 
 6. Check that you have successfully installed Node.js by running:
 
-```terminal
+```bash
 node -v
 ```
 
@@ -98,7 +98,7 @@ You should see a version number like `v22.11.0`.
 
 7. Check that you have successfully installed npm by running:
 
-```terminal
+```bash
 npm -v
 ```
 

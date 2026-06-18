@@ -11,6 +11,10 @@ time = 10
 
 +++
 
+>[!Caution]
+> - Remove references to REPL - we haven't covered that
+> - Combine with next section (logging)
+
 So far we’ve seen how expressions can be evaluated using the Node REPL. The Node REPL is useful for evaluating expressions quickly.
 
 But usually, our programs have many instructions, and we want to keep and re-run them instead of typing them out each time. So we save our instructions in files. Node can also execute instructions written in a file.

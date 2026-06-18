@@ -3,9 +3,9 @@ title = 'Comparing current and target output'
 
 time = 40
 [objectives]
-    1='Evaluate an expression that uses a comparison operator'
-    2='Explain when to use the === operator in a program'
-    3='List the values of the boolean type'
+    1='List the values of the boolean type'
+    2='Evaluate an expression that uses a comparison operator'
+    3='Explain the difference between strict and loose equality'
 [build]
   render = 'never'
   list = 'local'
@@ -13,76 +13,15 @@ time = 40
 
 +++
 
-{{<tabs name="current">}}
-===[[Define current and target]]===
-Let's start with a function declaration of `formatAs12HourClock`:
+### Comparing values
 
-```js
-function formatAs12HourClock() {}
-```
+We have learned how to store values in a program and how to access them again when we need them. At some point we will need to **compare** two values. Often our program will need to change its behaviour depending on that comparison. 
 
-Whenever we call `formatAs12HourClock` we expect it to return a particular value, which we call the 🎯 **target output**. For example, we expect `formatAs12HourClock("08:00")` to return `"08:00 am"`. `"08:00 am"` is the 🎯 **target output**.
+For example, think about what happens when you switch on your laptop. Before you do anything else you are asked to enter a password. Whatever you type is compared against a value stored on the computer and if the two match you can carry on using your computer. If they are different you won't be able to access files or use any programs.
 
-However, the **current output** is what the function _actually_ returns right now.
+We use comparison operators to compare two expressions. We use the equality operator `==` to check if two values are the same.
 
-👉🏼 [Work through the exercises](#current-1)
-===[[Exercise 1]]===
-
-Let's start with `formatAs12HourClock` defined like this:
-
-```js
-function formatAs12HourClock() {}
-```
-
-Suppose we now call the function like this:
-
-```js
-formatAs12HourClock("05:30");
-```
-
-{{<multiple-choice question="When calling formatAs12HourClock('05:30'), what is the 🎯 target output?" answers="`'05:30 am'` | `'05:30 AM'` | `'5:30 am'` | `'17:30'`" feedback="Correct! The target output should append 'am' to maintain the 12-hour clock format. | Not quite - based on the examples, we use lowercase 'am'. | No - we want to preserve the leading zero. | No - we want 12-hour format, not 24-hour format." correct="0" >}}
-
-👉🏼 [Keep going](#current-2)
-===[[Exercise 2]]===
-
-Let's continue with `formatAs12HourClock` defined like this:
-
-```js
-function formatAs12HourClock() {}
-```
-
-Suppose we call the function like this:
-
-```js
-formatAs12HourClock("20:10");
-```
-
-{{% multiple-choice question="When calling formatAs12HourClock('05:30'), what is the current output?" answers="undefined | '05:30 am' | null | An error is thrown" feedback="Correct! Since the function is empty and has no return statement, it returns undefined by default. | Not quite - remember that the function is currently empty with no implementation. | No - an empty function returns undefined, not null. | No - an empty function executes successfully but returns undefined." correct="0" %}}
-
-{{</tabs>}}
-
-## 🧩 Comparing values
-
-We have learned how to log values to the console. We can also **compare** two values. We check that a function produces some target output with a comparison.
-
-We compare the current output of `formatAs12HourClock("08:00")` with the target output of `"08:00 am"` and ask: **are these two values the same?** We use a comparison operator to compare two expressions and check if they evaluate to the same value. We use the strict equality operator `===` to check if two values are the same.
-
-### Left equals Right
-
-```js
-formatAs12HourClock("08:00") === "8:00 am";
-```
-
-`===` checks if the values on the left and right of the operator are the same. We can think of `formatAs12HourClock("08:00") === "8:00 am"` as the question: "Is the return value of `formatAs12HourClock("08:00")` equal to `"8:00 am"` ?" This leads to the question:
-
-> What will the expression `formatAs12HourClock("08:00") === "8:00 am"` evaluate to?
-
-## ✅ ❌ Boolean values
-
-{{<tabs name="booleans">}}
-===[[Define Boolean]]===
-
-### Does 1 equal 0? Yes or No? True or False?
+### Boolean values
 
 Some values are best represented as strings: any piece of text, a name, address, etc will most likely be stored using the string data type. The number data type can store numbers we use in calculations.
 
@@ -91,55 +30,68 @@ If we're comparing two things, there are only two different states: **true** or 
 ```js
 // using the strict equality comparison expression
 
-console.log(42 === 10 + 32);
+console.log(42 == 10 + 32);
 // logs true
 
-console.log(10 * 5 === 60);
+console.log(10 * 5 == 60);
 // logs false
 ```
 
-👉🏾 [Now work through the exercises](#booleans-1)
-===[[Exercise 1]]===
-Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before.
+{{<note type="exercise" title="Exercise - Comparing Values">}}
 
-```js {linenos=table,linenostart=1}
-true === false;
-5 == 2 + 4;
-4 * 5 == "20";
-3 * 2 === 6;
-Math.min(3, 4, 5) === 4;
-let mhairiName = "Mhairi";
-typeof mhairiName === "string";
-let mhairiAge = 28;
-let isMhairiOldEnoughToDrive = true;
-let kilometersMhairiDrivesToWork = 9.4;
+Create a new file to work in and use `console.log` to print the values of these expressions. Try to predict the result before you run the code!
+
+```js
+// 1
+"hello" == "hello"
+
+// 2
+"CYF" == "cyf"
+
+// 3
+const homeTown = "Newcastle"
+homeTown == "Liverpool"
+
+// 4
+42 == "42"
 ```
+{{</note>}}
 
-👉🏿 [Keep Going](#booleans-2)
-===[[Exercise 2]]===
-Look at the code below and predict what each expression will evaluate to. Write your prediction down. Use the Node REPL to check your answers. Check out [some relevant documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) if you've not seen a particular operator before
+### Strict Equality
 
-```js {linenos=table,linenostart=1}
-"hello Mhairi" === `hello ${mhairiName}`;
-"${mhairiName} is 28" === `Mhairi is ${mhairiAge}`;
-isMhairiOldEnoughToDrive;
-isMhairiOldEnoughToDrive === true;
-mhairiAge >= 18;
-29 <= mhairiAge;
-Math.round(kilometersMhairiDrivesToWork) === 9;
+Did anything surprise you about the outputs in that exercise? Number four probably looked strange - the two values have different types, so how can they be equal?
+
+We were using **loose equality** in these examples. Loose equality compares the _value_ of two terms but not their _type_. This might work in our code but it also makes our code vulnerable to bugs.
+
+To avoid this we will use **strict equality** instead. This checks both value _and_ type and will only evaluate as `true` if both are the same. The strict equality operator is `===`.
+
+{{<note type="exercise" title="Exercise - Strictly Comparing Values">}}
+
+Modify your code from the previous exercise to use the strict equality operator `===`. What do you see that is different in the outputs?
+
+{{</note>}}
+
+### Comparing Unequal Values
+
+Often the condition we want to check isn't about equality. It can be useful to know if a value is greater or less than another. There are four conditions we can check:
+
+- `value1` is **greater than** `value2`: `value1 > value2`
+- `value1` is **greater than or equal to** `value2`: `value1 >= value2`
+- `value1` is **less than** `value2`: `value1 < value2`
+- `value1` is **less than or equal to** `value2`: `value1 <= value2`
+
+These expressions all evaluate to `true` or `false`, just like the equality operators.
+
+### Negation
+
+We can also explicitly check that two values are **not** equal to each other. This might sound strange but it is an important part of comparing values which we will use often throughout this course. The `not` operator is the symbol `!` and it replaces the first `=` symbol in an equality operator. For example:
+
+```js
+// check if two strings are equal
+"hello world" === "Hello World!"
+// false
+
+// check if two strings are not equal
+"hello world" !== "Hello World!"
+// true
 ```
-
-👉🏿 [Keep Going](#booleans-3)
-===[[Exercise 3]]===
-
-### Checking misconceptions 🤔
-
-Look at the code below and then predict what the expression will evaluate to. Be sure to explain your answer too. Use the Node Repl to check your answer. Does the REPL output make sense?
-
-Try using the Node Repl to check your answer. Does the REPL output make sense?
-
-```js {linenos=table,linenostart=1}
-console.log(10 + 32) === 42;
-```
-
-{{</tabs>}}

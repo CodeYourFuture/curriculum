@@ -20,7 +20,7 @@ On the left page of the page, we see additional information:
 
 ![main-branch-highlighted](main-branch-highlighted.png)
 
-> So what is **`main`**?
+So what is `main`?
 
 `main` is a **branch**.
 
@@ -35,7 +35,7 @@ gitGraph
 
 A branch represents a particular history of development in a project - the different versions there have been.
 
-{{<note type="definition" title="definition: Branch">}}
+{{<note type="definition" title="Definition: Branch">}}
 
 A **branch** is a sequence of commits in a project.
 
@@ -50,14 +50,18 @@ gitGraph
         commit
         commit
         branch "try-purple"
+        checkout "try-purple"
         commit
         commit
         checkout main
         branch "try-blue"
         commit
+        checkout main
+        commit
+        commit
 ```
 
-The **`main`** branch is often treated as a special branch - it's where we put commits which people working on the project have agreed on. Other branches (e.g. the experimental purple branch) may have extra changes that have not been agreed on. If people working on the project agree the changes from the purple branch are good, we'll add those changes to the main branch.
+The `main` branch is often treated as a special branch - it's where we put commits which people working on the project have agreed on. Other branches (e.g. the `try-purple` branch) may have extra changes that have not been agreed on. If people working on the project agree the changes from the purple branch are good, we'll add those changes to the main branch.
 
 When we're working on something new, we haven't agreed with other people that our new thing is good yet, so we often don't add our changes to the main branch straight away. Instead we make our own branch to experiment on.
 
@@ -75,13 +79,11 @@ gitGraph
 
 In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
 
-{{<note type="exercise" title="exercise 8.1">}}
-
-### Creating a local branch
+{{<note type="exercise" title="Exercise - Creating a local branch">}}
 
 1. Open the `education-blog` repository in VSCode.
 
-2. Using this clip, create a new branch called `update-blog-1` in your local repository 👉 https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw
+2. Using [this clip](https://youtube.com/clip/UgkxvXsnm_98Rx0NUZq25apQWA6POccRoQzw), create a new branch called `update-blog-1` in your local repository.
 
 📋 How can you check that you've successfully created a branch?
 
