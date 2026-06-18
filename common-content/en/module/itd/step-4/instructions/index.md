@@ -1,7 +1,7 @@
 +++
 title ="Step 4: What to do"
-description= "Build a personal webpage on CodePen"
-time= 480
+description= "Working with Google Sheets"
+time= 120
 [build]
   render = 'never'
   list = 'local'
@@ -10,100 +10,74 @@ time= 480
 
 ### Overview
 
-In this exercise, you will:
-- Build your first webpage using **HTML** and **CSS**
-- Practice editing your webpage and instantly see results
-- Share your work with others using **CodePen**
-
+This exercise introduces the basics of Google Sheets — an online tool for organizing data, performing calculations, and managing information efficiently.
 
 ### What Should You Do?
 
-#### 1. Sign up a CodePen account
+#### Watch the videos in the Google short courses 
 
-[CodePen.io](https://codepen.io) is an online playground where you can:
-- Write HTML and CSS code
-- See the results instantly
-- Share your work with others
+1. [Google Workspace: Sheets - Part 1](https://edu.exceedlms.com/student/path/1606820-google-workspace-sheets-part-1) (equivalent [YouTube video](https://www.youtube.com/watch?v=2jlgKEx9j_k))
+2. [Google Workspace: Sheets - Part 2](https://edu.exceedlms.com/student/path/1606732-google-workspace-sheets-part-2) (equivalent [YouTube video](https://www.youtube.com/watch?v=rRPEDMHdOWY))
+   - Only the "Create Filters and Use Filter Views" section
 
-👉 While you are learning, CodePen lets you experiment and get instant feedback.
+**Note**: If you want to practice with the Google Sheets used in the videos, you can access them through the YouTube links.
 
-#### 2. Learn HTML and CSS
+#### Apply What You Learned 
 
-You can use any resource you like, but here are two free and beginner-friendly options:
+1. Make a copy of **[this Google Sheet](https://docs.google.com/spreadsheets/d/1uPnnoEbn_YdMp_Wx4oTFgIAV7E5zd8ubFZ_e4Od_pn4/copy?usp=sharing)**
 
-##### Option 1: Khan Academy
+1. In your own copy, replace "YOUR_NAME" in the document title with your own name
 
-- [Create an account on Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css)
-- Take the course: [Computer Programming: Unit 2: Intro to HTML/CSS: Making webpages](https://www.khanacademy.org/computing/computer-programming/html-css)
+1. Row and Column insertion, and AutoFill
+    - Insert a column before column A
+    - Insert a row before row 1
+    - Enter "Shirt Sales Information" in cell B1 and set the font size to 24
+    - Use AutoFill to fill cells A4:A103 with the numbers 1 to 100
 
-##### Option 2: W3Schools
+1. Format and Freeze Headers
+    - Fill rows 1-3 with three different background colors
+    - Change the font weight of rows 1-3 to bold
+    - Centre the text in rows 2-3
+    - Freeze rows 1-3 so they remain visible at the top when scrolling vertically
 
-- [HTML Tutorial](https://www.w3schools.com/html/)
-- [CSS Tutorial](https://www.w3schools.com/css/)
+1. Edit Cells
+    - Enter "Sale ID" in cell A3
+    - Enter "Other Information" in cell K2
+    - Change the value in cell K3 to "Payment"
+    - Change the value in cell L3 to "Source"
 
-##### How much do I need to learn?
+1. Merge Cells
+    - Merge cells E2:G2 (three cells, from E2 to G2)
+    - Merge cells H2:J2 (three cells, from H2 to J2)
+    - Merge cells K2:L2 (two cells, K2 and L2)
 
-Here is a self-checklist to check if you understand HTML and CSS well enough to produce the webpage in this Step.
+1. Adjust Columns and Delete Unwanted Columns
+    - Adjust column widths to remove extra space
+    - Delete all columns beyond column L (do not delete column L)
 
-✅ **HTML Basics**
+1. Apply Border
+    - Apply top and bottom borders to rows 2-3
+    - Apply left and right borders to columns A-D
+    - Apply right borders to columns G, J, and L
+    - On row 1, clear all borders except the bottom border
+    - On row 3, apply borders to every cell
 
-- [ ] I know what HTML is used for.
-- [ ] I know how `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` make up the basic structure of an HTML document.
-- [ ] I can add a **title** inside the `<head>` tag.
-- [ ] I know these key terminologies: **element**, **tag**, **attribute**, **opening tag**, **closing tag**.
-- [ ] I can add text using `<h1>` to `<h6>` headings and `<p>` paragraphs.
-- [ ] I can add a **link** with `<a href="...">`.
-- [ ]  I can add an **image** with `<img src="..." alt="...">`.
-- [ ] I can create a **list** using `<ul>` (unordered) or `<ol>` (ordered) with `<li>`.
-- [ ] I know how to group content with `<div>` and highlight text with `<span>`.
-- [ ] I know the differences between **block-level** and **inline** elements (e.g., `<div>` vs `<span>`).
+1. Create Filter
+    - Filter the Point of Sale column to show both London and Glasgow
+    - Filter the Date column to show dates between 1 June 2024 and 31 December 2024
+    - Use a filter to order the rows by Date, from earliest to latest
 
-✅ **CSS Basics**
-- [ ] I know what CSS is used for.
-- [ ] I can connect CSS to HTML using a `<style>` tag or an external `.css` file.
-- [ ] I understand the advantages of specifying CSS styles in an external `.css` file.
-- [ ] I understand the basic structure of a CSS rule.
-- [ ] I know how to select elements using 
-    - **Element selectors** (e.g., `p`)
-    - **Class selectors** (e.g., `.classname`)
-    - **ID selectors** (e.g., `#idname`)
-- [ ] I can change text **color**, **size**, and **font** with CSS.
-- [ ] I can change the **background color** of a page or element.
-- [ ] I can add **borders**, **margins**, and **padding**.
-- [ ] I can center text and image.
+    **Note**: Please use "Create a filter" and not "Create filter view". The latter cannot be shared.
 
-#### 3. Prepare a webpage on CodePen
+---
+Here is a reference screenshot (sample) for you to check if you have successfully applied all the changes.
 
-Your webpage should meet all of the following criteria:
+![Sample Output](sample-output.png)
 
-- It is about something you like (e.g., a hobby, a city, a person, an animal, a flower, or food).
-- It contains **at least 100 words**.
-- It includes **at least three images**, and **at least one image must be centered** on the page:
-  - The image should remain centered regardless of the ***viewport*** **width**.
-  - Free-tier CodePen users cannot upload images. Use **publicly accessible image URLs** instead.
-- It includes an **ordered** (`<ol>`) or **unordered** (`<ul>`) list.
-- All CSS should be written **inside the CSS tab** on CodePen (not inline).
-- Both HTML and CSS should be **free of syntax errors**.
+#### Share your Google Sheet to Public
 
-{{<note type="tip" title="Using AI to help you understand and fix coding errors">}}
-If you do not know how to fix an error in your code, show your code to AI and ask it to help you understand the cause of the error.
+Set the sharing settings of your Google Sheet to "Anyone with the link can view".
 
-Remember that the purpose of this exercise is learning - you shouldn't have AI write code for you. But it can help you understand problems.
-{{</note>}}
+#### Submit the Google Sheet link
 
-
-#### 4. Submit your CodePen page link  
-
-Submit the link to your CodePen page in Step 4 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
-
-
-### Important Notes About CodePen
-
-- When writing your code in CodePen, you do not need to include `<!DOCTYPE html>`, `<html>`, `<head>`, or `<body>` tags (the editor adds them automatically).
-
-- CodePen has built-in features to help you check your code for errors:
-  - **Analyze HTML** → checks your HTML for mistakes
-  - <img src="https://www.freecodecamp.org/news/content/images/2021/03/analyze-before-option.png" alt="HTML Analyzer" width="600">
-  - **Analyze CSS** → checks your CSS for mistakes
-
-- To learn more about CodePen features, see: [How to Use CodePen – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-use-codepen/).
+Submit the shared link of your Google Sheet in Step 4 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).

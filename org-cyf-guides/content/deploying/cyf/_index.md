@@ -9,7 +9,7 @@ CodeYourFuture has [a hosting service](https://hosting.codeyourfuture.io/) which
 
 We attempt to make this environment reliable, fast to load, and simple to deploy to.
 
-If you need support, please ask [on Slack in #cyf-devops](https://codeyourfuture.slack.com/archives/CB8NTK7PW).
+If you need support, please ask [on Slack in #cyf-devops](https://codeyourfutur-yov6609.slack.com/archives/C0B5EMQ5MPB).
 
 The CYF hosting service is a shared environment. You can access other users' project config, and other users can access your project config. You should not host anything sensitive on it. We trust you to only modify your own projects.
 

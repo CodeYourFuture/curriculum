@@ -16,7 +16,7 @@ Some of our standard development practices are _even more important_ when workin
 
 ### Formatting
 
-We should be _consistent_ with our formatting. We may not have any control over what decisions were made in the past. When we're writing brand new code in a new code, we can choose whether we use two spaces or four. But when we jump into an existing codebase, we should use whatever style it already has. If we send a PR fixing a small bug, and it changes every line in the file, it's really hard to see what changed, and what stayed the same. If we have two people joining a codebase, and one is reformatting every file they touch to use two spaces, and the other is reformatting every file they touch to use two spaces, there are going to be lots of spurious changes, and lots of merge conflicts.\
+We should be _consistent_ with our formatting. We may not have any control over what decisions were made in the past. When we're writing brand new code in a new code, we can choose whether we use two spaces or four. But when we jump into an existing codebase, we should use whatever style it already has. If we send a PR fixing a small bug, and it changes every line in the file, it's really hard to see what changed, and what stayed the same. If we have two people joining a codebase, and one is reformatting every file they touch to use two spaces, and the other is reformatting every file they touch to use four spaces, there are going to be lots of spurious changes, and lots of merge conflicts.
 
 To approach this, we may need to:
 * Disable our auto code formatters

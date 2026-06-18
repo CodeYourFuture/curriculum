@@ -50,6 +50,7 @@ ul.c-block, ol.c-block, li.c-block {
     padding: 0;
     border: 0;
     box-shadow: none;
+    margin: var(--theme-spacing--2) 0;
   }
 
   &--pullreq {

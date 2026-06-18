@@ -8,6 +8,7 @@ GitHubRepos = [
     "Module-Structuring-And-Testing-Data",
     "Module-Data-Groups",
     "Module-Data-Flows",
+    "Project-TV-Show"
 ]
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = 'Four'
-description = 'Build a personal webpage on CodePen'
+description = 'Working with Google Sheets'
 layout = 'prep'
 menu_level = ['module']
 menu=['ITD steps']
@@ -20,5 +20,4 @@ src="module/itd/help"
 [[blocks]]
 name="Extensions"
 src="module/itd/step-4/extend"
-time=5
 +++

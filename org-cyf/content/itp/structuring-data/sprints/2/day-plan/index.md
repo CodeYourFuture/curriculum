@@ -33,16 +33,6 @@ time=30
 name="Study Group"
 src="blocks/study-group"
 time=120
-[[blocks.nested.blocks]]
-name="Optional structured activity: Code Review"
-src="blocks/mentored-code-review"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Pair Programming"
-src="module/onboarding/pairing"
-[[blocks.nested.blocks]]
-name="Optional structured activity: Predict Explain exercises"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/questions-and-reviews/"
-time=0
 [[blocks]]
 name="Retro"
 src="blocks/retro"

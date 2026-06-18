@@ -1,6 +1,6 @@
 +++
 title = 'Three'
-description = 'Working with Google Sheets'
+description = 'Learn how to use AI appropriately'
 layout = 'prep'
 menu_level = ['module']
 menu=['ITD steps']

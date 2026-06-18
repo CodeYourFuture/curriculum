@@ -1,9 +1,9 @@
 +++
 title = 'Six'
-description="Practice using AI appropriately"
+description="Deploying a webpage on GitHub Pages"
 layout = 'prep'
 menu_level = ['module']
-menu=['ITD steps']
+menu=[ 'ITD steps']
 weight = 7
 [[blocks]]
 name="Instructions"

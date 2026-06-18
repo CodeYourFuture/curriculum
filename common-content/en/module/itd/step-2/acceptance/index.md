@@ -1,6 +1,6 @@
 +++
 title ="Step 2: How to check your work"
-description= "Acceptance criteria for step two"
+description= "Acceptance criteria for Step 2"
 time= 10
 [build]
   render = 'never'
@@ -13,7 +13,7 @@ A volunteer will review your submission and check that it meets the acceptance c
 Here are the criteria you need to meet:
 
 ```objectives
-- You have answered all three questions
-- You have provided one to three sentences explaining each answer
-- You have submitted the Google Doc link on the CYF Course Platform
+- You have submitted your answers in the "Slack and Search Engine Exercise" and scored at least 25/30.
+- You have saved your Result Page (Score Summary Page) as a PDF file. The PDF file includes your **name**, your **score**, and your **answers**.
+- You have uploaded the PDF file to the CYF Course Platform.
 ```
