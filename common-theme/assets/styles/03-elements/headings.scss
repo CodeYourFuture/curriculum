@@ -22,17 +22,6 @@ h2,
 .e-heading__2 {
   font-weight: 700;
 }
-h2:not([class])::after {
-  content: "";
-  width: 4ch;
-  height: 4px;
-  display: block;
-  background-image: linear-gradient(
-    45deg,
-    var(--theme-color--accent),
-    var(--theme-color--pop)
-  );
-}
 
 h1,
 .e-heading__1 {
