@@ -1,0 +1,58 @@
+{{ $block := .block }}
+{{ $blockData := .blockData }}
+{{ $filePath := "" }}
+
+{{ if $block }}
+  {{ if $block.File }}
+    {{ $filename := $block.File.Filename }}
+    {{ if strings.Contains $filename "common-content" }}
+      {{ $filePath = index (findRE "common-content/.*" $filename 1) 0 }}
+    {{ else if strings.Contains $filename "org-cyf-guides" }}
+      {{ $filePath = index (findRE "org-cyf-guides/.*" $filename 1) 0 }}
+    {{ else if strings.Contains $filename "common-theme" }}
+      {{ $filePath = index (findRE "common-theme/.*" $filename 1) 0 }}
+    {{ else if strings.Contains $filename "org-cyf" }}
+      {{ $filePath = index (findRE "org-cyf/.*" $filename 1) 0 }}
+    {{ else if strings.Contains $filename "common-docs" }}
+      {{ $filePath = index (findRE "common-docs/.*" $filename 1) 0 }}
+    {{ else }}
+      {{ $filePath = $block.File.Path }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $editUrl := "" }}
+{{ $issueUrl := "" }}
+
+{{ if $filePath }}
+  {{ $repoUrl := .Site.Params.repo | default "https://github.com/CodeYourFuture/curriculum/" }}
+  {{ $editUrl = printf "%sedit/main/%s" $repoUrl $filePath }}
+  {{ $issueUrl = printf "%sissues/new?title=Feedback+on:+%s&body=Block+source:+%s" $repoUrl (urlquery $block.Title) (urlquery $filePath) }}
+{{ else if eq $blockData.type "readme" }}
+  {{ $editUrl = .html_url }}
+  {{ if $editUrl }}
+    {{ $editUrl = replace $editUrl "blob/main" "edit/main" }}
+    {{ $repoUrl := .Site.Params.repo | default "https://github.com/CodeYourFuture/curriculum/" }}
+    {{ $issueUrl = printf "%sissues/new?title=Feedback+on:+%s&body=Readme+source:+%s" $repoUrl (urlquery $blockData.name) (urlquery .html_url) }}
+  {{ end }}
+{{ end }}
+
+{{ if or $editUrl $issueUrl }}
+<details class="c-block__actions">
+  <summary class="e-button e-button--icon" title="Block Options">
+    ⚙️
+  </summary>
+  <ul>
+    {{ if $editUrl }}
+    <li>
+      <a href="{{ $editUrl }}" target="_blank" rel="noopener noreferrer">✏️ Edit on GitHub</a>
+    </li>
+    {{ end }}
+    {{ if $issueUrl }}
+    <li>
+      <a href="{{ $issueUrl }}" target="_blank" rel="noopener noreferrer">💬 Report Issue</a>
+    </li>
+    {{ end }}
+  </ul>
+</details>
+{{ end }}
