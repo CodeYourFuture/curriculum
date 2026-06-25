@@ -79,7 +79,7 @@
           {{ $blocks = $dedupedBlocks }}
 
           {{ range $blocks }}
-            {{ $name := .name }}
+            {{ $name := .title }}
             {{ $src := .src }}
             {{/* Call our scratch function */}}
             {{ partial "block/data.html" (dict "Scratch" $.Page.Scratch "src" $src  "name" $name "page" .) }}

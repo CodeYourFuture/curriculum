@@ -34,19 +34,25 @@
     */}}
     {{ range $repos }}
       {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
+      {{ if eq 0 ($issueBlocks | len)}}
+        <p>It doesn't look like there are any backlog items for this sprint - is that correct?</p>
+        <p>If you expected to see tasks but they aren't showing up you should check:</p>
+        <ul>
+          <li>There is a GitHub issue in the appropriate repo with teh details of the task</li>
+          <li>The task's title, priority, and GitHub url were all added to backlog.json</li>
+        </ul>
+      {{ end }}
       {{ range $issueBlocks }}
         {{ $issue := . }}
-        {{ range .labels.nodes }}
-          {{if in .name "Recurring"}}
+          {{if eq .category "recurring"}}
             {{ $recurringTasks = $recurringTasks | append $issue }}
-          {{else if in .name "Setup"}}
+          {{else if eq .category "setup"}}
             {{ $setupTasks = $setupTasks | append $issue }}
-          {{else if in .name "Core"}}
+          {{else if eq .category "mandatory"}}
             {{ $mandatoryTasks = $mandatoryTasks | append $issue }}
-          {{else if in .name "Optional"}}
+          {{else if eq .category "optional"}}
             {{ $optionalTasks = $optionalTasks | append $issue }}
           {{ end }}
-        {{ end }}
       {{ end }}
     {{ end }}
     {{ $page.Scratch.Set "backlog-tasks" (dict "setup" $setupTasks "recurring" $recurringTasks "mandatory" $mandatoryTasks "optional" $optionalTasks) }}
