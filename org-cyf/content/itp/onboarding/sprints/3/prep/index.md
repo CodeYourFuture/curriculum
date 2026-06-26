@@ -14,8 +14,8 @@ src="module/induction/interview-introductions"
 name="Functions"
 src="module/js1/functions"
 [[blocks]]
-name="Percentages"
-src="module/js1/percentages"
+name="Planning a function"
+src="module/onboarding/pseudocode"
 [[blocks]]
 name="Defining functions"
 src="module/js1/declaring-functions"
@@ -40,9 +40,6 @@ src="module/js1/functions-workshop"
 [[blocks]]
 name="Throwing Errors"
 src="module/onboarding/throwing-errors"
-[[blocks]]
-name="Pseudocode"
-src="module/onboarding/pseudocode"
 [[blocks]]
 name="Breaking Down Problems"
 src="module/onboarding/problem-solving"
