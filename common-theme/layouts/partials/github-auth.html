@@ -3,6 +3,6 @@
 {{ if ne $token "" }}
   {{ $headers = dict "headers" (dict "Authorization" (print "Bearer " $token)) }}
 {{ else }}
-  {{ errorf "🏷️ Site needs a HUGO_CURRICULUM_GITHUB_BEARER_TOKEN. Check the README" }}
+  {{ errorf "🏷️ Site needs a HUGO_CURRICULUM_GITHUB_BEARER_TOKEN. See https://curriculum.codeyourfuture.io/guides/contributing/running-locally/" }}
 {{ end }}
 {{ return $headers }}
