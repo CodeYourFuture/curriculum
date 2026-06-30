@@ -12,23 +12,44 @@ time = 20
 
 +++
 
-The function `convertToPercentage` will only be useful if we can access the `percentage` string that it creates. Otherwise, we won't be able to use the result of `convertToPercentage` in other parts of our code. We can try accessing the `percentage` variable outside the function body like this:
+At the moment our password checking function does what we need it to but is quite limited. The only way it can let us know if the input was correct or not is by printing a message, but what if another part of the program needs to know?
 
-```js {linenos=table,hl_lines=["8"],linenostart=1}
-const decimalNumber = 0.5;
+For that to happen we will need to store the response in a variable, so let's make some changes to our code:
 
-function convertToPercentage() {
-  const percentage = `${decimalNumber * 100}%`;
+```js {title="passwordCheckerFunction.js"}
+const password = "secretword123";
+
+function checkPassword(userInput){
+
+  let response;
+
+  if (userInput === password) {
+    response = "Correct password entered";
+  } else {
+    response = "Incorrect password, please try again";
+  }
 }
-
-convertToPercentage(0.5);
-console.log(percentage);
 ```
 
-However if we run the code above, we get an error:
+Now we can call our function then try printing `response`:
+
+```js {title="passwordCheckerFunction.js"}
+checkPassword("secretword123");
+
+console.log(response);
+```
+
+It looks like we have a problem though...
 
 ```console
-ReferenceError: percentage is not defined
+ReferenceError: response is not defined
 ```
 
-We get an error because of {{<tooltip title="scope">}}Scope means where variables are and what you can access. {{</tooltip>}}. When we define `convertToPercentage` we also define a **local scope** - the region of code enclosed inside `convertToPercentage`'s function body. This region is `convertToPercentage`'s **local scope**. This means any variables we declare inside `convertToPercentage`'s **local scope** can only be accessed within this region. If we attempt to reference a variable outside the scope where it was declared, then get a `ReferenceError`.
+We definitely did define `response` though, it's right there above the `if` statement! It's the only variable which throws this error: if we print `password` the value will be displayed. So why does it work for one and not the other?
+
+We get an error because of the variable's **scope**. Scope determines where a variable can be accessed from in our code. When we define `passwordChecker` we also define a **local scope** - the region of code enclosed inside `passwordChecker`'s function body. This means any variables we declare inside that local scope can only be accessed within the same block. If we attempt to reference a variable from outside the scope where it was declared we get a `ReferenceError`.
+
+The `response` variable is declared _inside_ `passwordChecker`'s local scope so when we try to print it the `ReferenceError` is thrown. The `password` variable is declared _outside_ the function's local scope so we can access it without the error being thrown. 
+
+### Global Scope
+
