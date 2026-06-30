@@ -30,18 +30,38 @@ weight = 11
 
 ## ✅ To complete _this_ module, you must:
 
-1. Make a new issue on your own Coursework Planner.
-   - Follow this template for naming your issue: `<COHORT_NAME> | Data flows | <YOUR_NAME>`
-1. On the issue, add:
+## 1. Make a new issue on your own Coursework Planner.
+
+    Follow this template for naming your issue:
+
+    `<COHORT_NAME> | Data flows | <YOUR_NAME>`
+
+
+## 2. On the issue, add:
+
    - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** from across the Data Flows CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Flows/issues/371), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Flows/issues/372), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Flows/issues/373).
      Remember: you are also expected to have completed [at least one mentored pair programming session](https://github.com/CodeYourFuture/Module-Data-Flows/issues/37) on this work too.
-   - A link to your GitHub repo and deployed Netlify site for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
+
+      ---
    - A link to your level 400 and level 500 pull requests for the "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)", to show both you and your partner contributed.
+
+      ---
+   - A link to your GitHub repository 
+   
+   - A link to your 500 Level Netlify deployment "[TV Show Project](https://github.com/CodeYourFuture/Project-TV-Show)".
+
+      ---
    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)".
+
+      ---
    - A link to your issue for "[LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12)". Your issue must show your current index and actions you will take to improve it.
+
+      ---
    - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Data-Flows/issues/323).\
      This must be at a different demo session than any submitted for previous modules.
-1. Submit the issue link to step 4 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
+
+  ---
+## 3. Submit the issue link to step 4 of ITP on [CYF Course Portal](https://application-process.codeyourfuture.io/).
 
 > [!NOTE]
 > A pull request is _completed_ when a volunteer has added the "Complete" tag.
