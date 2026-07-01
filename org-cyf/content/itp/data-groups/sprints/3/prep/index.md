@@ -37,6 +37,9 @@ name="DOM events"
 src="module/js2/reacting"
 name="Reacting to events"
 [[blocks]]
+src="module/js2/auditing-the-dom"
+name="Auditing changes to the DOM"
+[[blocks]]
 src="module/js2/check-progress"
 name="check progress"
 [[blocks]]
