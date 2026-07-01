@@ -3,7 +3,7 @@ title="Acceptable AI Use"
 time=5
 objectives = [
   "Explain acceptable and unacceptable uses of AI during the SDC.",
-  "Recognise how to check whether your AI use is appropriate or not for the SDC."
+  "Check whether your AI use is appropriate or not for the SDC."
 
 ]
 [build]
