@@ -7,6 +7,10 @@ weight = 3
 name = "Morning orientation"
 src = "blocks/morning-orientation"
 [[blocks]]
+name = "Demo"
+src = "blocks/demo"
+time = "30"
+[[blocks]]
 name = "Refining poorly specified bugs"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
 time = "60"
@@ -17,10 +21,6 @@ src = "blocks/morning-break"
 name = "Refining Purple Forest bugs"
 src = "module/legacy/refining-purple-forest-bugs"
 [[blocks]]
-name = "Discussion: Behavioural Interviews"
-src = "blocks/discuss-behavioural-interviews"
-time = "30"
-[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
 time = "25"
@@ -28,8 +28,8 @@ time = "25"
 name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
-name = "Demo"
-src = "blocks/demo"
+name = "Discussion: Behavioural Interviews"
+src = "blocks/discuss-behavioural-interviews"
 time = "30"
 [[blocks]]
 name = "Study Group"
