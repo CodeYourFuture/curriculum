@@ -17,12 +17,12 @@ name = "Demo"
 src = "blocks/demo"
 time = "30"
 [[blocks]]
+name = "Morning break"
+src = "blocks/morning-break"
+[[blocks]]
 name = "Using a project board workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
 time = "45"
-[[blocks]]
-name = "Morning break"
-src = "blocks/morning-break"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
