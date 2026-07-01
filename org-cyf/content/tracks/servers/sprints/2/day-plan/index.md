@@ -8,7 +8,7 @@ name="Energiser"
 src="blocks/energiser"
 [[blocks]]
 name="CRUD Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/crud"
+src="workshops/crud"
 time="120"
 [[blocks]]
 name="Lunch"

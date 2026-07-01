@@ -15,7 +15,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Placeholder Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/template"
+src="workshops/template"
 time="60"
 [[blocks]]
 name="Lunch"

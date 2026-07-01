@@ -106,7 +106,7 @@ To best help facilitate playing computer, here are some tips:
 * Encourage trainees who are working in pairs to take turns. Switch between tracking the global frame and local frame(s) of different programs
 * Trainees may be tempted to guess what code is doing, or skip parts that seem obvious. Recommend that trainees do everything, otherwise they might miss key learning opportunities
 
-Playing computer is available as a [workshop](https://github.com/CodeYourFuture/CYF-Workshops/tree/main/playing-computer) you can use in-class.
+Playing computer is available as a [workshop](https://github.com/CodeYourFuture/curriculum/blob/main/common-content/en/workshops/playing-computer/index.md) you can use in-class.
 
 ## Step-By-Step Example
 

@@ -12,7 +12,7 @@ time = 30
 +++
 
 {{<issue src="https://github.com/CodeYourFuture/Module-Legacy-Code/issues/3" name="Bug Report">}}
-(You could take a moment to [refine the issue report](https://workshops.codeyourfuture.io/#reporting-bugs).
+(You could take a moment to [refine the issue report](https://curriculum.codeyourfuture.io/sdc/legacy/sprints/1/day-plan/#refining-poorly-specified-bugs).
 )
 
 > 🧠 Recall that debugging is about forming and testing hypotheses. Each test brings you closer to understanding the system's intended and actual behaviour.

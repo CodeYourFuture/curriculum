@@ -1,0 +1,183 @@
+/* Here's our design 
+It's fonts, colours, and spacing.
+Every design is made of these basic building blocks.
+Change the values in Devtools */
+
+:root {
+  /* fonts */
+  --copy: "Lato";
+  /* colours */
+  --paper: hsla(260, 35%, 90%, 0.95);
+  --ink: hsla(270, 8%, 20%, 0.98);
+  --brand: hsla(0, 100%, 67%, 0.98);
+  --shade: hsla(270, 8%, 20%, 0.1);
+  /* spacing */
+  --space: 2rem;
+  --box: 18rem;
+  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
+  --finger: 48px;
+  --line-length: 60ch;
+}
+/* What does this rule do? Try removing it. */
+* {
+  box-sizing: border-box;
+}
+/* What about this one? 
+Make a prediction first and then find and uncheck this rule in Devtools */
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+/* Rules for interactive elements like links and buttons. 
+What happens when you change the order of these rules around? */
+a,
+a:any-link,
+button {
+  color: currentColor;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+:focus {
+  outline: none;
+}
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: var(--brand);
+}
+a:focus,
+button:focus {
+  outline: 2px dashed var(--brand);
+}
+button {
+  grid-area: button;
+  appearance: none;
+  border: none;
+  background: transparent;
+}
+/* This is a "reset" rule. Google this idea. */
+ul,
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* LAYOUT 
+Set up the body rules: fonts, colours, and spacing. 
+Everything inside the body will inherit these basic styles
+*/
+body {
+  font: 100%/1.5 var(--copy), system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  /* Let's also write a layout for the whole site.  */
+  display: grid;
+  gap: var(--space);
+  grid-template:
+    ". ...... ." var(--space)
+    ". header ." min-content
+    ". main   ." minmax(75vh, 1fr)
+    ". footer ." min-content
+    ". ...... ." var(--space) /
+    minmax(var(--space), 1fr) var(--container) minmax(var(--space), 1fr);
+  place-content: center;
+}
+/* Now let's add each component to this grid layout 
+And give them their own layouts inside. */
+header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo space button" var(--finger) /
+    var(--finger) 1fr var(--finger);
+}
+header h1 {
+  grid-area: logo;
+  margin: 0;
+}
+main {
+  grid-area: main;
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--space);
+}
+main h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template: "github space" var(--finger) / var(--finger) 1fr;
+}
+footer a {
+  grid-area: github;
+}
+/* This is the most complicated one! 
+How will you write yours? */
+.menu {
+  background-color: var(--ink);
+  color: var(--paper);
+  height: 100vh;
+  width: max-content;
+  padding: var(--space);
+  z-index: 1;
+  position: absolute;
+  left: -100vw;
+}
+.menu.is-active {
+  left: 0;
+}
+/* Now inside main we have a deck/list/array we can stuff some objects in */
+.deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--box), 1fr));
+  gap: var(--space);
+  flex-grow: 1;
+}
+
+/* This time we will fill this with cards.
+You will write a lot of card components as a developer. 
+Every time you look at a website, find the cards and inspect them in Devtools 
+to see how they are made. Notice how my cards don't have a size. */
+.card {
+  background-color: var(--paper);
+  padding: var(--space);
+  box-shadow: 2px 4px 16px var(--shade);
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+}
+.card:hover,
+.card:focus {
+  box-shadow: 1px 1px 2px var(--shade);
+}
+.emoji {
+  font-size: clamp(64px, calc(64px + 5vw), 144px);
+}
+/* Now some body copy.
+ Why have I constrained this box? Google it!  */
+.copy {
+  max-width: var(--line-length);
+}
+.copy p:first-of-type::first-letter {
+  initial-letter: 2;
+  margin: 0 0.5ch 0 0;
+  padding: 0.5ch;
+  background-color: var(--brand);
+  color: var(--paper);
+}
+/* Now some states
+Why are these things invisible?
+What is this for and why did we not use display:none? */
+.is-invisible {
+  position: absolute;
+  left: -100vw;
+}
+.is-invisible:focus {
+  left: 0;
+}

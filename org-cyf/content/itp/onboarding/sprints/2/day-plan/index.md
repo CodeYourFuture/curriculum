@@ -12,7 +12,7 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="Workshop: Asking Questions"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/asking-questions/"
+src="workshops/asking-questions"
 time="120"
 [[blocks]]
 name="Blockers! Getting Unstuck"
