@@ -3,7 +3,7 @@ title="Acceptable AI Use"
 time=5
 objectives = [
   "Explain acceptable and unacceptable uses of AI during the SDC.",
-  "Recognise how to check whether your AI use is appropriate or not for the SDC."
+  "Check whether your AI use is appropriate or not for the SDC."
 
 ]
 [build]
@@ -20,7 +20,7 @@ To read the full AI guidelines for trainees please see here: [AI Use Guidelines 
 
 - Exploring architectural approaches and trade-offs ("What are the pros and cons of approach A vs B for this problem?")
 - Generating repetitive code that you already understand and could write yourself.
-- Reviewing and improving code you have already written. _Example prompts: “Here is my code. What improvements could make it more readable or maintainable?”_
+- Reviewing and improving code you have already written. Example prompts: _“Here is my code. What improvements could make it more readable or maintainable?”_
 - Identifying potential edge cases you might not have considered, after you have already attempted to think through them yourself.
 - Using AI APIs to build ambitious project features
 
