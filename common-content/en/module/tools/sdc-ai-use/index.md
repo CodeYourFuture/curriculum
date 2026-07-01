@@ -12,11 +12,11 @@ objectives = [
   publishResources = false
 +++
 
-By the SDC, you have the foundational understanding needed to use AI more actively because you can now evaluate and challenge what it produces. This is where learning to use AI as a professional tool becomes part of your training. Your responsibility does not change. You must be able to **explain, modify, debug, and defend any code you submit**, regardless of whether AI helped produce it.
+By the SDC, you have the foundational understanding needed to evaluate and challenge what AI tooling produces. This is where learning when and when not to use AI as a professional tool becomes part of your training. Your responsibility does not change. You must be able to **explain, modify, debug, and defend any code you submit**, regardless of whether AI helped produce it.
 
-To read the full AI guidelines for trainees please see here: [AI Use Guidelines for Trainees](/ai-use-guidelines). This page is the SDC-specific guidance for AI use.
+To read the full AI guidelines for trainees please see here: [AI Use Guidelines for Trainees](/ai-use-guidelines).
 
-#### AI IS appropriate for:
+#### AI is appropriate for:
 
 - Exploring architectural approaches and trade-offs ("What are the pros and cons of approach A vs B for this problem?")
 - Generating repetitive code that you already understand and could write yourself.
