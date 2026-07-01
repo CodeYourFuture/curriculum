@@ -1,0 +1,190 @@
+:root {
+  --copy: "Lato";
+  --paper: hsla(260, 35%, 90%, 0.95);
+  --ink: hsla(270, 8%, 20%, 0.98);
+  --brand: hsla(0, 100%, 67%, 0.98);
+  --shade: hsla(270, 8%, 20%, 0.1);
+  --space: 2rem;
+  --box: 18rem;
+  --container: clamp(var(--box), calc(100vw - calc(var(--space) * 2)), 74rem);
+  --finger: 48px;
+  --line-length: 60ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:any-link,
+button {
+  color: currentColor;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+:focus {
+  outline: none;
+}
+
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: var(--brand);
+}
+
+a:focus,
+button:focus {
+  outline: 2px dashed var(--brand);
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: transparent;
+}
+
+ul,
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100%/1.5 var(--copy), system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  display: grid;
+  gap: var(--space);
+  grid-template:
+    ". ...... ." var(--space)
+    ". header ." min-content
+    ". main   ." minmax(75vh, 1fr)
+    ". footer ." min-content
+    ". ...... ." var(--space) /
+    minmax(var(--space), 1fr) var(--container) minmax(var(--space), 1fr);
+  place-content: center;
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template:
+    "logo space button" var(--finger) /
+    var(--finger) 1fr var(--finger);
+}
+
+header h1 {
+  grid-area: logo;
+  margin: 0;
+}
+
+main {
+  grid-area: main;
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--space);
+}
+
+main h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template: "github space" var(--finger) / var(--finger) 1fr;
+}
+
+footer a {
+  grid-area: github;
+}
+
+.menu {
+  background-color: var(--ink);
+  color: var(--paper);
+  height: 100vh;
+  width: max-content;
+  padding: var(--space);
+  z-index: 1;
+  position: absolute;
+  left: -100vw;
+}
+
+.menu.is-active {
+  left: 0;
+}
+
+.copy {
+  max-width: var(--line-length);
+}
+
+.is-invisible {
+  position: absolute;
+  left: -100vw;
+}
+
+.is-invisible:focus {
+  left: 0;
+}
+
+#toggle {
+  grid-area: button;
+}
+
+.logo,
+footer svg {
+  width: var(--finger);
+  height: var(--finger);
+}
+
+.copy ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+.copy ol li {
+  margin-bottom: 0.5rem;
+}
+
+#add {
+  background-color: var(--ink);
+  color: var(--paper);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+#add:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+#status {
+  font-weight: bold;
+  min-height: 1.5rem;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space);
+  margin-top: var(--space);
+}
+
+.added-item {
+  background-color: #ffffff;
+  padding: var(--space);
+  box-shadow: 2px 4px 16px var(--shade);
+}
