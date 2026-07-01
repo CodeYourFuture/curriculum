@@ -9,6 +9,11 @@ src = "blocks/morning-orientation"
 [[blocks]]
 name = "Energiser"
 src = "energisers/binary"
+
+[[blocks]]
+name = "Demo"
+src = "blocks/demo"
+time = "30"
 [[blocks]]
 name = "Workshop: Bits and Rats"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/bits-and-rats"
@@ -16,18 +21,14 @@ time = "90"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "50"
+time = "20"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
-name = "Demo"
-src = "module/logic/demo"
-time = "75"
-[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "85"
+time = "160"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"
