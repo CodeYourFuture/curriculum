@@ -7,6 +7,10 @@ weight = 3
 name = "Morning orientation"
 src = "blocks/morning-orientation"
 [[blocks]]
+name = "Demo"
+src = "blocks/demo"
+time = "30"
+[[blocks]]
 name = "Value/Prioritisation/Estimation workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/prioritisation-and-estimating"
 time = "90"
@@ -16,18 +20,15 @@ src = "blocks/morning-break"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "55"
+time = "25"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"
-[[blocks]]
-name = "Demo"
-src = "blocks/demo"
-time = "30"
+
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "130"
+time = "160"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"
