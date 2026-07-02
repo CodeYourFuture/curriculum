@@ -19,18 +19,18 @@ src="module/onboarding/pseudocode"
 [[blocks]]
 name="Defining functions"
 src="module/js1/declaring-functions"
-[[blocks]]
-name="Playing computer"
-src="module/js1/playing-computer"
+# [[blocks]]
+# name="Playing computer"
+# src="module/js1/playing-computer"
 [[blocks]]
 name="Scope"
 src="module/js1/scope"
 [[blocks]]
 name="Return"
 src="module/js1/return"
-[[blocks]]
-name="Reuse"
-src="module/js1/reuse"
+# [[blocks]]
+# name="Reuse"
+# src="module/js1/reuse"
 [[blocks]]
 name="Parameters"
 src="module/js1/parameters"

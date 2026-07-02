@@ -1,13 +1,10 @@
 +++
 title = 'Parameterising a function'
 
-time = 40
+time = 30
 [objectives]
-    1='Define a parameter'
-    2='Identify the value assigned to a parameter when a function is invoked'
-    3='Differentiate between parameters and arguments'
-    4='Invoke a given function with an appropriate argument to produce some target output'
-    5='Reuse code to perform the same calculation with different inputs'
+    1='Identify the value assigned to a parameter when a function is invoked'
+    2='Explain how the output of a function will change with the ordering of its parameters'
 
 [build]
   render = 'never'
@@ -16,68 +13,111 @@ time = 40
 
 +++
 
-At the moment, `decimalNumber` is a variable in the global scope of our program:
+Our `checkPassword` function is nice and reusable now with its ability to check any value we pass to it as an argument, but in practice we will see lots of functions which need more than one piece of information to do their job. How we provide this information is critical. In a future sprint we will look at ways of testing our code to ensure we have set everything up correctly but we can avoid a lot of problems by paying close attention to how we use our functions.
+
+Let's create a new function to work with for this example. In a new file let's define a function which will print a greeting for someone with a different message depending on what time of day it is.
 
 ```js
-const decimalNumber = 0.5; // defined in the global scope of our program
-
-function convertToPercentage() {
-  const percentage = `${decimalNumber * 100}%`;
-  return percentage;
+function greet(timeOfDay, name){
+  console.log(`Good ${timeOfDay}, ${name}.`);
 }
-
-const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.231);
 ```
 
-So long as `decimalNumber` is always in the global scope, `convertToPercentage` will always go to the global scope to get the value of `decimalNumber`.
+#### Ordering
 
-> However, we want `convertToPercentage` to work for _any_ input we pass to it.
+If a function expects to receive two pieces of information then it expects to receive them in the order they are defined. In our example we have said the first argument `greet` receives will represent the `timeOfDay` parameter and the second argument will be for `name`. We can test it to see what happens:
 
-To make a function work for any number, we need to handle inputs. We do this using a {{<tooltip title="parameter">}} A parameter is a special kind of variable: its value is defined by the caller.
-{{</tooltip>}}.
-
-`decimalNumber` is still a variable - but as a **parameter** we don't assign `decimalNumber` a value inside the function's body. It is a placeholder. When we call the function, we pass an input to the function, and the value of that input is assigned to the `decimalNumber` parameter when the function is called. This happens automatically.
-
-We can add a parameter `decimalNumber` to our function:
-
-```js {linenos=table,hl_lines=["1"] ,linenostart=1}
-function convertToPercentage(decimalNumber) {
-  // now decimalNumber is a parameter of convertToPercentage
-  const percentage = `${decimalNumber * 100}%`;
-  return percentage;
-}
-
-const output1 = convertToPercentage(0.5);
-const output2 = convertToPercentage(0.231);
+```js
+greet("afternoon", "Colin");
+// "Good afternoon, Colin."
 ```
 
-In the example above, we're calling `convertToPercentage` twice: first with an **input** of `0.5` and second with an **input** of `0.231`. In JavaScript instead of **input** we use the word {{<tooltip title="argument">}} Arguments are inputs given to a function inside `()`. An argument means an input.{{</tooltip>}}.
+{{<note type="exercise" title="Exercise: Changing the order of arguments">}}
+Try to predict what will happen if we swap the order of the arguments when calling the function. 
 
-We're calling `convertToPercentage` twice: first with an **argument** of `0.5` and next with an **argument** of `0.231`.
+<details>
+  <summary>Answer:</summary>
 
-Think of a function as a box. We put data in and then act on it using the rules in the box; at the end, the box gives us new data back. In programming we say that we _pass arguments_ into a function, the function's code is executed and we get a return value after the function has finished executing. Here's a diagram:
+  ```js
+  greet("Colin", "afternoon");
+  // "Good Colin, afternoon."
+  ```
+</details>
+{{</note>}}
 
-```mermaid
+As far as the function is concerned everything is fine: it needed two pieces of information and it got two, so it's happy. The output doesn't make sense to us as users though! 
 
-flowchart LR
-    A[argument] --> B{function}
-    B --> C[return]
-```
+The output may not make much sense, but it could be worse. What might happen if one of the arguments was expected to be a number? If we're not careful when passing arguments we can cause errors by trying to do something we're not able to do to a value. 
 
-Here's a diagram of what happens when `convertToPercentage` is passed a specific **argument**:
+#### Wrong number of arguments
 
-```mermaid
+Some languages are very strict about passing the right number of arguments to a function when it is called. JavaScript is not one of those languages. JavaScript is quite forgiving and will do its best with what we give it.
 
-flowchart LR
-    A[0.231] --> B{convertToPercentage}
-    B --> C[23.1%]
-```
+{{<note type="exercise" title="Exercise: Missing arguments">}}
+Try to predict what will happen if we omit the second argument when calling our function. **Hint**: think about the value of a variable which we declare but never initialise. 
 
-In this interactive widget we have defined a parameter `decimalNumber` in the function declaration inside parentheses after the function name `convertToPercentage`. In our mental model, a function call means going to `convertToPercentage` and running the code inside the function.
+<details>
+  <summary>Answer:</summary>
 
-### 🎮 Play computer
+  ```js
+  greet("afternoon");
+  // "Good afternoon, undefined."
+  ```
 
-<iframe title="interactive widget" width="1100" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=function%20convertToPercentage%28decimalNumber%29%20%7B%0A%20%20const%20percentage%20%3D%20%60%24%7BdecimalNumber%20*%20100%7D%25%60%3B%0A%20%20return%20percentage%3B%0A%7D%0A%0Aconst%20output1%20%3D%20convertToPercentage%280.5%29%3B%0Aconst%20output2%20%3D%20convertToPercentage%280.231%29%3B&codeDivHeight=400&codeDivWidth=500&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+  When the function is called `timeOfDay` and `name` are both declared but we only have a value to assign to `timeOfDay`. `name` will remain `undefined` while the code is executed.
+</details>
 
-Use the interactive widget to see what happens when the code above is executed. Pay close attention to what happens inside the `convertToPercentage` frame.
+Now predict what will happen if we omit the _first_ argument. 
+
+<details>
+  <summary>Answer:</summary>
+
+  ```js
+  greet("Colin");
+  // "Good Colin, undefined."
+  ```
+
+  Remember that ordering matters. The interpreter will assign the first value it receives to the first parameter, it doesn't know there was meant to be something else there first.
+</details>
+
+{{</note>}}
+
+{{<note type="exercise" title="Exercise: Extra arguments">}}
+Try to predict what will happen if we pass a third argument to our function. 
+
+<details>
+  <summary>Answer:</summary>
+
+  ```js
+  greet("afternoon", "Colin", 2026);
+  // "Good afternoon, Colin."
+  ```
+
+  The function only expects two pieces of information and once it has them it doesn't care about anything else we give it. Remember about the ordering though! It only expects two values and it will take the **first** two values, whatever they are.
+</details>
+
+{{</note>}}
+
+#### Default values
+
+There are many reasons why we might be missing a piece of data which is actually quite important for our program. In production code we would usually have several checks in place to ensure we didn't even try to call our function if something was missing but it never hurts to have another one.
+
+In our `greet` example we were able to get away with the missing value because we can still print `undefined` but that won't always be the case. We can't add two numbers together if once of them is `undefined`, for example. To help avoid this we can assign **default values** to parameters when we define a function. If a function expects to receive a value when it is called but doesn't it will substitute the parameter's default, avoiding the value being `undefined`.
+
+{{<note type="exercise" title="Exercise: Assigning defaults">}}
+Research how to assign default values to a parameter and update the function definition so that it prints "user" instead of "undefined" if the `name` argument is not passed. **Hint**: The [functions page of the MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) could be a good place to start!
+
+<details>
+  <summary>Solution:</summary>
+
+  ```js
+  function greet(timeOfDay, name="user"){
+    console.log(`Good ${timeOfDay}, ${name}.`)
+  }
+  ```
+
+</details>
+
+{{</note>}}
+
+
