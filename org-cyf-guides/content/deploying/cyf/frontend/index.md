@@ -45,7 +45,7 @@ If your frontend is located in a subdirectory of the repo, you should set the **
 
 ![Set Base Directory](set-base-directory.png)
 
-You may want to choose a friendly/memorable **Domain**:
+You may want to choose a friendly/memorable **Domain** - you can choose anything `.hosting.cyf.academy` e.g. `ahmad-quote-server.hosting.cyf.academy`.
 
 ![Choose a friendly domain](choose-friendly-domain.png)
 
@@ -66,7 +66,7 @@ If you want to deploy from a branch that isn't `main`, you need to configure thi
 
 3. Fill in the form:
    - **Name:** `NODE_ENV`
-   - **Value:** `{{team.NODE_ENV}}`
+   - **Value:** `production`
    - Make sure **"Available at Build time" is not checked** ❌  
    - Make sure **"Available at Runtime"** is checked ✅ 
 

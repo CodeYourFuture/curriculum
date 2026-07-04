@@ -5,6 +5,33 @@ description: Learn how to deploy a backend to CYF's hosted environment
 weight: 1
 ---
 
+## Building your backend
+
+If your backend uses NodeJS (i.e. is written in JavaScript), you should make sure you build it with Docker. For most projects, this means you need to:
+
+**Create a Dockerfile**
+
+This is a filed named `Dockerfile` in the directory of your project. The following contents will probably work (you may need to change the `"index.mjs"` to be the entry-point of your project):
+
+```dockerfile
+FROM node:alpine
+ENV NODE_ENV=production
+COPY . /app
+WORKDIR /app
+RUN npm install
+ENTRYPOINT ["node", "index.mjs"]
+```
+
+Check this file into your repository.
+
+To test this locally before deploying, `cd` into the file containing the `Dockerfile` and run the following command:
+
+```
+docker build -t test-build . && docker run -it --rm -p 3000:3000 test-build
+```
+
+If your program successfully starts and runs, you're set. If not, you'll need to debug this (and if you're stuck, ask on Slack!)
+
 ## Creating a backend
 
 **Click "Add New Resource"**
@@ -33,7 +60,19 @@ Go back to the CYF Hosting and **paste the URL into the "Repository URL" field**
 
 If your backend is in a sub-directory of your GitHub repository, update the **Base Directory** (e.g. to `/quote-server/backend` if that's where your backend is).
 
-Make sure the **Port** field contains the correct port number that your backend will listen on.
+> [!IMPORTANT]
+>
+> **For NodeJS projects**
+>
+> Make sure to select "Dockerfile" from the "Build Pack" menu:
+>
+> ![Select "Dockerfile" from the "Build Pack" menu](configure_build_pack_dockerfile.png)
+>
+> **For projects that are not NodeJS**
+>
+> Make sure the **Port** field contains the correct port number that your backend will listen on.
+
+**For everyone**
 
 Press **Continue**.
 
@@ -54,27 +93,6 @@ If things aren't auto-detected properly, you may need to explicitly enter the co
 If you want to deploy from a branch that isn't `main`, you need to configure this in the Git Source tab:
 
 ![Configure git branch](customise-branch.png)
-
-## Add NODE_ENV to Your Project
-
-**Required for:** All Node.js projects (anything that has a `package.json` file)
-
-### Steps
-
-1. Click on **"Environment Variables"** in the left sidebar
-2. Click the **"+ Add"** button
-
-![Environment Variables](click_environment_variables.png)
-
-3. Fill in the form:
-   - **Name:** `NODE_ENV`
-   - **Value:** `{{team.NODE_ENV}}`
-   - Make sure **"Available at Build time" is not checked** ❌  
-   - Make sure **"Available at Runtime"** is checked ✅ 
-
-![Fill the new environment variables form](fill_the_form.png)
-
-4. Click **"Save"**
 
 ## Deploying the backend
 
