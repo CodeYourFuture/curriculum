@@ -70,7 +70,7 @@ If your backend is in a sub-directory of your GitHub repository, update the **Ba
 
 > [!IMPORTANT]
 >
-> **For projects building with Docker (e.g. NodeJS projects)**
+> **For projects building with Docker (e.g. Node.js projects)**
 >
 > Make sure to select "Dockerfile" from the "Build Pack" menu:
 >
