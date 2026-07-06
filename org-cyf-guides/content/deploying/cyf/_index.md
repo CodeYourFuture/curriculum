@@ -5,7 +5,7 @@ description: Learn how to deploy your website to CYF's hosted environment
 weight: 1
 ---
 
-CodeYourFuture has [a hosting service](https://hosting.codeyourfuture.io/) which is offered to current trainees and recent graduates.
+CodeYourFuture has a hosting service which is offered to current trainees and recent graduates.
 
 We attempt to make this environment reliable, fast to load, and simple to deploy to.
 
@@ -23,9 +23,11 @@ Because the CYF hosting service is a shared resource, you **must** start your pr
 
 ### Making a project
 
-After logging into https://hosting.codeyourfuture.io/:
+After logging into https://app.coolify.io/login:
 
-**Make sure your "Current Team" is set to "Hosting"**
+**Pick the right team**
+
+If you are currently a trainee, you should make sure your "Current Team" is set to "Trainees". If you have graduated, you should make sure your "Current Team" is set to "Graduates".
 
 ![Select your team](select-team.png)
 
