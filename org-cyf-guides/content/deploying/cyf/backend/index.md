@@ -9,9 +9,9 @@ weight: 1
 
 It is easier for us to run this service if you use a Dockerfile to build your project. How you do this depends on the language you're using.
 
-### NodeJS / JavaScript
+### Node.js / JavaScript
 
-If your backend uses NodeJS (i.e. is written in JavaScript), you should make sure you build it with Docker. For most projects, this means you need to:
+If your backend uses Node.js (i.e. is written in JavaScript), you should make sure you build it with Docker. For most projects, this means you need to:
 
 **Create a Dockerfile**
 
