@@ -33,6 +33,12 @@ Go back to the CYF Hosting and **paste the URL into the "Repository URL" field**
 
 Click **It is a static site?**.
 
+> [!WARNING]
+>
+> If your project isn't just a static site (e.g. it has a build step, like a React app may have), you will need to configure your project more.
+>
+> Please make a `Dockerfile` for your application and configure it to build with Docker ([the backend instructions](../backend) have more information on this).
+
 Press **Continue**.
 
 ## Configuring the frontend
@@ -52,27 +58,6 @@ You may want to choose a friendly/memorable **Domain** - you can choose anything
 If you want to deploy from a branch that isn't `main`, you need to configure this in the Git Source tab:
 
 ![Configure git branch](customise-branch.png)
-
-## Add NODE_ENV to Your Project
-
-**Required for:** All Node.js projects (anything that has a `package.json` file) 
-
-### Steps
-
-1. Click on **"Environment Variables"** in the left sidebar
-2. Click the **"+ Add"** button
-
-![Environment Variables](click_environment_variables.png)
-
-3. Fill in the form:
-   - **Name:** `NODE_ENV`
-   - **Value:** `production`
-   - Make sure **"Available at Build time" is not checked** ❌  
-   - Make sure **"Available at Runtime"** is checked ✅ 
-
-![Fill the new environment variables form](fill_the_form.png)
-
-4. Click **"Save"**
 
 ## Deploying the frontend
 

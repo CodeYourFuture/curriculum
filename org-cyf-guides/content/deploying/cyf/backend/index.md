@@ -7,6 +7,10 @@ weight: 1
 
 ## Building your backend
 
+It is easier for us to run this service if you use a Dockerfile to build your project. How you do this depends on the language you're using.
+
+### NodeJS / JavaScript
+
 If your backend uses NodeJS (i.e. is written in JavaScript), you should make sure you build it with Docker. For most projects, this means you need to:
 
 **Create a Dockerfile**
@@ -31,6 +35,10 @@ docker build -t test-build . && docker run -it --rm -p 3000:3000 test-build
 ```
 
 If your program successfully starts and runs, you're set. If not, you'll need to debug this (and if you're stuck, ask on Slack!)
+
+### Other languages
+
+You may need to research how to dockerise your backend. If you're stuck, ask for help on Slack.
 
 ## Creating a backend
 
@@ -62,13 +70,13 @@ If your backend is in a sub-directory of your GitHub repository, update the **Ba
 
 > [!IMPORTANT]
 >
-> **For NodeJS projects**
+> **For projects building with Docker (e.g. NodeJS projects)**
 >
 > Make sure to select "Dockerfile" from the "Build Pack" menu:
 >
 > ![Select "Dockerfile" from the "Build Pack" menu](configure_build_pack_dockerfile.png)
 >
-> **For projects that are not NodeJS**
+> **For projects that are not using Docker**
 >
 > Make sure the **Port** field contains the correct port number that your backend will listen on.
 
