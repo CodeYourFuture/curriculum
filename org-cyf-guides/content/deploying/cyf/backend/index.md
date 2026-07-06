@@ -22,7 +22,7 @@ FROM node:alpine
 ENV NODE_ENV=production
 COPY . /app
 WORKDIR /app
-RUN npm install
+RUN npm --omit=dev ci
 ENTRYPOINT ["node", "index.mjs"]
 ```
 
