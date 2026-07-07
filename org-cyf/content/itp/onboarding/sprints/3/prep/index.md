@@ -34,9 +34,9 @@ src="module/js1/return"
 [[blocks]]
 name="Parameters"
 src="module/js1/parameters"
-[[blocks]]
-name="Solving problems with functions 📼"
-src="module/js1/functions-workshop"
+# [[blocks]]
+# name="Solving problems with functions 📼"
+# src="module/js1/functions-workshop"
 [[blocks]]
 name="Throwing Errors"
 src="module/onboarding/throwing-errors"
