@@ -36,6 +36,14 @@ Depending on your volunteer role you will see the group interacting in various w
 
 This is not an exhaustive list. If you observe anything (good or bad) which you feel needs to be highlighted and which doesn't fall into one of these categories you should still include it in any feedback.
 
+## Regular feedback
+
+The frequency of feedback is just as important as what it contains. If a trainee doesn't get feedback early in the project then their work won't improve.
+
+You should aim to give every trainee some feedback every week. It doesn't have to be exhaustive, but any issues need to be highlighted early. It's just as important to celebrate success and let trainees know they're doing a good job. 
+
+Each trainee will receive a summary of their feedback at the end of the Launch (see "Assessment Criteria" below). Nothing in this document should come as a surprise to them, and it won't if they are getting regular feedback from their mentors.
+
 ## Assessment criteria
 
 At the end of the module we ask all volunteers to write an assessment of each trainee in their group. This should be done as a team and include feedback from each volunteer. The assessment should include three things:

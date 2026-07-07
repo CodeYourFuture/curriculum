@@ -20,4 +20,4 @@ You will build an MVP product in a cross-functional Agile team. The project is 5
 
 ### Requirements and qualifications
 
-You must have fulfilled all [entry criteria](/prep/#entry-criteria).
+You must have fulfilled all [entry criteria](/launch/prep/#entry-criteria).
