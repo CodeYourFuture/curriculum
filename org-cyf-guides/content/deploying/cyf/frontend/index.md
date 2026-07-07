@@ -37,7 +37,7 @@ Click **It is a static site?**.
 >
 > If your project isn't just a static site (e.g. it has a build step, like a React app may have), you will need to configure your project more.
 >
-> Please make a `Dockerfile` for your application and configure it to build with Docker ([the backend instructions](../backend) have more information on this).
+> Please make a `Dockerfile` for your application and configure it to build with Docker ([the backend instructions](../backend) have more information on this - just be aware you'll need to implement your own Dockerfile configuration that matches your application's needs).
 
 Press **Continue**.
 
