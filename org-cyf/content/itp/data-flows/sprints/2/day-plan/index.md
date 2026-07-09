@@ -13,11 +13,14 @@ time=15
 [[blocks]]
 name="Demo Q&A Practice"
 src="blocks/demo-qa"
-time="60"
+time="75"
 [[blocks]]
-name= "Teamwork Project Sprint 2"
-src="blocks/teamwork-project-s2"
-time="80"
+name="Morning break"
+src="blocks/morning-break"
+time=15
+[[blocks]]
+name="Breaking down a project to work in parallel"
+src="workshops/breaking-down-a-project"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
