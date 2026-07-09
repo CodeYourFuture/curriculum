@@ -15,6 +15,8 @@ The goal of the Software Development Course is for you to learn transferable fun
 
 The course uses JavaScript and Python, but gives you foundations to learn any language you need. You can apply for jobs in languages you don't know. (But make sure you know what they expect you to use in an interview!)
 
+Because there are many technologies that employers may want, we don't try to teach you, or expect you to know, everything.  Instead the CYF "special sauce" is that you have had to acquire technology skills yourselves, motivating yourselves, and seeking out the learning materials.  On sheer volume of technology learnt, you are not going to compete with someone who has spent 3 years studying full time for a degree.  Where you will compete is in the demonstrated ability to learn for yourself.  No-one hiring a junior dev should expect them to know everything (compsci graduate or otherwise).  Finding a junior dev with a track record of teaching themselves more is an absolute win.  This is where you should aim for.  To be able to demonstrate, convincingly, that you can learn.  You can admit when you don't know something, you can attempt to learn it yourself, and you can ask for help if you need it.  That is the perfect junior dev.
+
 {{<note type="Discussion (10 minutes)">}}
 Discuss in your cohort what kind of sector you each want to work in (e.g. Finance, Cloud Infrastructure, Education, Green Energy, Mobile Games, ...). Find out what your volunteers do (and have done).
 {{</note>}}

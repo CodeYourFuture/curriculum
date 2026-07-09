@@ -6,6 +6,7 @@ weight = 3
 [[blocks]]
 name = "Morning orientation"
 src = "blocks/morning-orientation"
+
 [[blocks]]
 name = "Value/Prioritisation/Estimation workshop"
 src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/prioritisation-and-estimating"

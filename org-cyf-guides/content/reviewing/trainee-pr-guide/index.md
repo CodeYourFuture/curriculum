@@ -42,7 +42,7 @@ To keep your exercise branch clean:
 
 3. **Make only related changes**.
    - Add or modify only the files in the folder related to the exercise.
-   - If you accidentally change files for another task, you will need to [revert](https://stackoverflow.com/a/37972822) them before submitting your PR for review
+   - If you accidentally change files for another task, you will need to [revert](/guides/reviewing/fixing) them before submitting your PR for review
 
 ### Keeping code clean
 
