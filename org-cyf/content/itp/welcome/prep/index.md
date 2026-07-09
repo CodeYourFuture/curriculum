@@ -53,7 +53,7 @@ name="Sharing History"
 src="module/induction/sharing-history"
 [[blocks]]
 name="Configuring Git with VSCode"
-src="module/onboarding/git/vscode-setup"
+src="module/onboarding/git/configuring-git-vscode"
 [[blocks]]
 name="Creating a Commit"
 src="module/onboarding/git/creating-a-commit"
