@@ -38,6 +38,9 @@ src="module/js1/parameters"
 # name="Solving problems with functions 📼"
 # src="module/js1/functions-workshop"
 [[blocks]]
+name="Refactoring"
+src="module/js1/refactoring"
+[[blocks]]
 name="Throwing Errors"
 src="module/onboarding/throwing-errors"
 [[blocks]]
