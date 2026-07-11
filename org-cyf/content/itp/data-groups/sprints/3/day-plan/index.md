@@ -26,9 +26,12 @@ time=60
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
+name="Accessibility and the DOM"
+src="workshops/accessibility-and-the-dom"
+[[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time="150"
+time="130"
 [[blocks]]
 name="Retro"
 src="blocks/retro"
