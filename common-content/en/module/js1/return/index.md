@@ -47,7 +47,7 @@ Now the value returned by our function is stored in the `output` variable and ca
 
 ```js {title="passwordCheckerFunction.js"}
 console.log(output);
-// "correct"
+// "Correct password entered"
 ```
 
 Success!
