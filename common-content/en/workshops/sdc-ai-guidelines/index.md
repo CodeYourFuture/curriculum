@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 ```objectives
-- [ ] Have a broad overview of what AI is
+- [ ] Start defining key terms: LLM and Machine Learning.
 - [ ] Read through the [AI guidelines for SDC](https://curriculum.codeyourfuture.io/sdc/tools/prep/)
 - [ ] Explain how we can use AI in acceptable ways whilst we're learning on the SDC
 - [ ] Give examples of how we can check we're using AI in acceptable ways for our learning journey
@@ -11,23 +11,28 @@
 
 ### What is AI? (5 minutes)
 
-(5 Minutes) Start forming a definition on a shared board: Facilitator, popcorn around the group, what kind of definitions can we come up for "Artificial Intelligence"? Write down common themes.
+Start forming a definition of AI on a shared board.
 
-What does the group think of this definition? Discuss any similarities to the above work or differences:
+Facilitator should popcorn around the group asking: **what kind of definitions can we come up for "Artificial Intelligence"?** Write down any common themes.
 
-> A system we cannot imagine writing an algorithm for.
+What does the group think of this definition: **A system we cannot imagine writing an algorithm for.**
 
-The point is, the definition of AI is fuzzy and hard to nail down, it seems to change as technology change. Similarly industry is constantly moving and shifting, ask 5 different industry professionals and they're likely to have different approaches and opinions on AI use. Their companies most likely have different policies on its use. They might have very different definitions of it too.
+Discuss any similarities or differences this definition has with the definition created by the class.
+
+The point is, the definition of AI is fuzzy and hard to nail down, it seems to change as technology change. Similarly industry is constantly moving and shifting, ask 5 different industry professionals and they're likely to have different approaches and opinions on AI use. Their companies most likely have different policies on its use.
 
 #### Let's nail down two fundamental ideas (max 20 minutes)
 
-For each of these questions, spend some time first discussing _how everyone might answer them_ and note down on a shared Miro board what ideas the group has. Then discuss the defined idea below the question - does it match what the group said?
+For each of the following questions:
+
+1. First, spend some time discussing people might answer the question. Note down on a shared Miro board what ideas the group has.
+2. Then discuss the defined idea written below the question - does it match what the group said?
 
 Spend 5 - 10 minutes per question depending on class needs.
 
 1. **What is machine learning?**
 
-> Broadly defined as a form of training allows an algorithm to learn patterns through training existing data to the point where it can make more accurate predictions on new data.
+> Broadly defined as a form of training that allows an algorithm to learn patterns through training with existing data - to the point where the algorithm can make more accurate predictions on new data.
 
 2. **What is an LLM?**
 
@@ -38,7 +43,7 @@ Spend 5 - 10 minutes per question depending on class needs.
 
 **Individually, for maximum 5 minutes** read through the [guidelines for AI use on the SDC](https://curriculum.codeyourfuture.io/sdc/tools/prep/).
 
-<!--{{<note type="activity" title="Class Discussion, 10m" >}}-->
+{{<note type="activity" title="Class Discussion, 10m" >}}
 
 After the 5 minutes is up, **set a timer for max 10 minutes.** As a class discuss the following questions:
 
@@ -48,7 +53,7 @@ After the 5 minutes is up, **set a timer for max 10 minutes.** As a class discus
 
 There might be multiple different approaches to the questions. Discuss and see if there is a consensus or disagreement across the group.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### How has AI tooling worked for you so far (15 minutes)
 
