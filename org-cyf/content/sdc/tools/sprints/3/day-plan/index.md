@@ -27,11 +27,11 @@ src = "blocks/lunch"
 [[blocks]]
 name = "Workshop: SDC AI Guidelines"
 src = "workshops/sdc-ai-guidelines"
-time = "160"
+time = "60"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "160"
+time = "100"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"

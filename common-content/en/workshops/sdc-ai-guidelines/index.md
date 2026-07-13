@@ -30,15 +30,20 @@ For each of the following questions:
 
 Spend 5 - 10 minutes per question depending on class needs.
 
-1. **What is machine learning?**
+<details>
+<summary>1. What is machine learning?</summary>
 
 > Broadly defined as a form of training that allows an algorithm to learn patterns through training with existing data - to the point where the algorithm can make more accurate predictions on new data.
 
-2. **What is an LLM?**
+</details>
+
+<details>
+<summary>2. What is an LLM?</summary>
 
 > A large language model, is a type of model trained, through machine learning, to predict the next word in a sentence. It's often trained on huge amounts of data, often the internet. It is often seen to understand and generate human-like text content.
 > Importantly, LLMs work by predicting the words that should follow an input, like a massive autocorrect. **Knowing this: how important is the quality of the prompt you give it?**
 
+</details>
 ### Read + discuss the SDC AI guidelines (max 15 minutes)
 
 **Individually, for maximum 5 minutes** read through the [guidelines for AI use on the SDC](https://curriculum.codeyourfuture.io/sdc/tools/prep/).
