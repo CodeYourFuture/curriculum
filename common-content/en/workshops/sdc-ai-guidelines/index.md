@@ -44,6 +44,7 @@ Spend 5 - 10 minutes per question depending on class needs.
 > Importantly, LLMs work by predicting the words that should follow an input, like a massive autocorrect. **Knowing this: how important is the quality of the prompt you give it?**
 
 </details>
+
 ### Read + discuss the SDC AI guidelines (max 15 minutes)
 
 **Individually, for maximum 5 minutes** read through the [guidelines for AI use on the SDC](/sdc/tools/prep/#read-the-sdc-ai-guidelines).
