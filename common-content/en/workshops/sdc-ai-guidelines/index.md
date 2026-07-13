@@ -61,8 +61,8 @@ We're at a stage in our learning journey where we have more foundational skills.
 
 As a group, share your experiences of AI tooling use in and out of your CYF journey so far. Consider the following questions:
 
-- Have any experiences been extremely positive for you in navigating something you previously would not have been able to do?
-- Has you ever used AI tooling and been more confused or "in the dark"?
+- Has it ever helped you in navigating something you previously would not have been able to do?
+- Has you ever used AI tooling and been more confused or "in the dark" than when you started or when you had to revisit the topic?
 - How have your uses of AI matched with the guidance given? Would this use be acceptable or not?
 - If it was not acceptable use of AI - what could we change to make that use more acceptable?
 
