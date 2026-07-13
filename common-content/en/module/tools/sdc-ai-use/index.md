@@ -50,6 +50,6 @@ Ask AI to review your code rather than write new code. Frame it like this:
 
 {{<multiple-choice
   question="What is NOT an example of acceptable use of AI in the SDC?"
-  answers="Here is my code. What improvements could make it more readable or maintainable? | Explain the security implications of this approach [paste]. | Here's the task, generate a a function that passes the requirements."
+  answers="Here is my code. What improvements could make it more readable or maintainable? | Explain the security implications of this approach [paste]. | Here's the task, generate a function that passes the requirements."
   feedback="This is actually a good way to use AI to improve code you've already written. | This prompt is a good way to check how you could improve your approach to be more secure. | Correct, this is an unacceptable way to use AI, you skip the problem solving and understanding aspects of the work - both are important to your learning."
   correct="3" >}}
