@@ -46,7 +46,7 @@ Spend 5 - 10 minutes per question depending on class needs.
 </details>
 ### Read + discuss the SDC AI guidelines (max 15 minutes)
 
-**Individually, for maximum 5 minutes** read through the [guidelines for AI use on the SDC](https://curriculum.codeyourfuture.io/sdc/tools/prep/).
+**Individually, for maximum 5 minutes** read through the [guidelines for AI use on the SDC](/sdc/tools/prep/#read-the-sdc-ai-guidelines).
 
 {{<note type="activity" title="Class Discussion, 10m" >}}
 
