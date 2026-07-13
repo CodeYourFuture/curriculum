@@ -25,9 +25,9 @@ The process of finding the nearest whole number to a decimal number is called **
 
 We can add or multiply numbers with operators, like `10 + 32` or `36 * 45`. But there is no operator for rounding the number `10.3` in JavaScript. And we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
 
-We don't need to declare this function ourselves. JavaScript comes with many **built-in** functions, ready for us to use, and rounding is so common that there is already one for it: `Math.round`. Because a function is a _reusable_ set of instructions, `Math.round` rounds any number.
+We don't need to declare this function ourselves. JavaScript comes with many **built-in** functions, ready for us to use, and rounding is so common that there is already one for it: `Math.round`.
 
-Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
+Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**. `Math.round` takes a number as an input and produces the nearest whole number as its output. Because the number is an input, and not fixed inside the instructions, `Math.round` can round _any_ number we give it, not just `10.3`.
 
 {{<tabs name="Functions in REPL">}}
 ===[[Try it yourself]]===
