@@ -1,21 +1,21 @@
 // 400/700/900
 function badness(name, count) {
-  if ((name === "old" || name == "this month") && count > 0) {
+  if ((name === "old" || name == "week") && count > 0) {
     return 900;
   }
-  if (name === "this week" && count > 20) {
+  if (name === "recent" && count > 20) {
     return 900;
   }
-  if (name === "this week" && count > 10) {
+  if (name === "recent" && count > 10) {
     return 700;
   }
   return 400;
 }
 
 const ageToEmoji = {
-  "this week": "🟢",
-  "this month": "🟠",
-  old: "🔴",
+  "recent": "🟢",
+  "week": "🟠",
+  "old": "🔴",
 };
 
 function computeStatusClass(awaitingReview) {
@@ -78,9 +78,9 @@ function render() {
 
   for (const module of modules) {
     awaitingReviewByAge[module] = {
-      "this week": 0,
-      "this month": 0,
-      old: 0,
+      "recent": 0,
+      "week": 0,
+      "old": 0,
     };
     prsByModule[module] = [];
   }
