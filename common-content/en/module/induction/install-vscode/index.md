@@ -5,6 +5,7 @@ time = 15
 [objectives]
     1='Download and install VSCode'
     2='Identify the key parts of the VSCode interface'
+    3='Install the CodeYourFuture Extension Pack'
 [build]
   render = 'never'
   list = 'local'
@@ -15,6 +16,10 @@ time = 15
 We use VS Code to write all of our code in the course. It is known as an Integrated Development Environment (IDE) and really helps you write great code.
 
 > [🔗 Download and install VSCode now](https://code.visualstudio.com/)
+
+Once VS Code is installed, add the CodeYourFuture Extension Pack. It installs the extensions you will use throughout the course and sets up sensible editor defaults.
+
+> [🔗 Install the CodeYourFuture Extension Pack now](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack)
 
 {{<columns>}}
 
