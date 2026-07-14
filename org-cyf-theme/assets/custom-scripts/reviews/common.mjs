@@ -4,7 +4,7 @@ function daysToMilliseconds(days) {
 
 function identifyAge(date) {
     const millis = new Date() - date;
-    if (millis < daysToMilliseconds(3)) {
+    if (millis < daysToMilliseconds(4)) {
         return "recent";
     } else if (millis < daysToMilliseconds(7)) {
         return "week";

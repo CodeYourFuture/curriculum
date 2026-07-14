@@ -174,13 +174,12 @@ function render() {
             .content.cloneNode(true);
 
           const emojiElement = prInList.querySelector(".emoji");
+          emojiElement.innerText = ageToEmoji[pr.updatedAge];
           if (pr.hasReviewer()) {
-            emojiElement.innerText = "🙋🏾";
+            emojiElement.innerText += "🙋🏾";
             const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
             const maybeS = reviewers.length === 1 ? "" : "s";
             emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
-          } else {
-            emojiElement.innerText = ageToEmoji[pr.updatedAge];
           }
 
           const prLink = prInList.querySelector("a.pr-link");
