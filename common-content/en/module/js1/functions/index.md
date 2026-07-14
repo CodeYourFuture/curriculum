@@ -3,9 +3,9 @@ title = 'Functions'
 
 time = 20
 [objectives]
-    1='Define a function in programming'
-    2='Evaluate a function expression'
-    3='Call a function with an input in REPL'
+    1='Explain what a function is in programming'
+    2='Call a built-in function with an input in the REPL'
+    3='Evaluate a call expression to the value it returns'
 [build]
   render = 'never'
   list = 'local'
@@ -13,7 +13,7 @@ time = 20
 
 +++
 
-Now, instead of adding or multiplying numbers, we’ll consider `10.3`.
+Consider the number `10.3`.
 
 > 🤔 "What is the nearest whole number to `10.3`?"
 
@@ -23,11 +23,11 @@ The process of finding the nearest whole number to a decimal number is called **
 
 ## ♻️ Reusing instructions
 
-There is no operator for rounding the number `10.3` in JavaScript. But we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
+We can add or multiply numbers with operators, like `10 + 32` or `36 * 45`. But there is no operator for rounding the number `10.3` in JavaScript. And we will want to round numbers **again and again**. We should use a {{<tooltip title="function">}}A **function** is a reusable set of instructions.{{</tooltip>}}.
 
-`Math.round` is a function. Because a function is a _reusable_ set of instructions, `Math.round` rounds any number.
+We don't need to declare this function ourselves. JavaScript comes with many **built-in** functions, ready for us to use, and rounding is so common that there is already one for it: `Math.round`.
 
-Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
+Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**. `Math.round` takes a number as an input and produces the nearest whole number as its output. Because the number is an input, and not fixed inside the instructions, `Math.round` can round _any_ number we give it, not just `10.3`.
 
 {{<tabs name="Functions in REPL">}}
 ===[[Try it yourself]]===
