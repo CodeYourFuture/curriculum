@@ -130,6 +130,7 @@ function render() {
       .querySelector("template.overview-card")
       .content.cloneNode(true);
     fillWithModuleHeading(overviewCard.querySelector(".module"), module, totalPending);
+    overviewCard.querySelector('.pr-total-count').innerText = totalPending;
     for (const [age, count] of Object.entries(awaitingReview)) {
       const bucket = overviewCard.querySelector(
         `.age-bucket.${age.replaceAll(" ", "-")} + .count`
@@ -243,10 +244,9 @@ const regionAliases = {
 const fillWithModuleHeading = (container, module, pending) => {
   container.innerText = "";
   const link = document.createElement("a");
-  link.innerText = module;
+  link.innerText = module.replace("Module-","");
   link.href = `https://github.com/CodeYourFuture/${module}/pulls`;
-  const text = document.createTextNode(` (${pending})`);
-  container.append(link, text);
+  container.append(link);
 }
 
 const makeRegionOption = (label, value) => {
