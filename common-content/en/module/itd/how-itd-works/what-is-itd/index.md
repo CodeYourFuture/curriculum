@@ -19,7 +19,7 @@ Volunteers review the submissions and guide learners via:
 1. [drop-in sessions](./workshops) organised in-person or online by respective regional CYF teams
 1. calling and SMS messaging directly from the dashboard
 
-If you'd like to help, please [sign up as a volunteer](https://codeyourfuture.io/volunteer/).
+If you'd like to help, please [sign up as a volunteer](https://codeyourfuture.io/volunteers/).
 
 ---
 
@@ -29,19 +29,19 @@ If you'd like to help, please [sign up as a volunteer](https://codeyourfuture.io
 
 ### 📅 Open
 
-January
-March
-May
-July
+February
+April
+June
 September
 November
 <--->
 
 ### ⛔ Closed
 
-February
-April
-June
+January
+March
+May
+July
 August
 October
 December
