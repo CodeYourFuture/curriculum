@@ -14,7 +14,7 @@ We can also use code that other people have written, which isn't built into Node
 
 This can be really useful - it means we can benefit from work others have already done, and focus on just solving the part of a problem which is unique to us. It's like making shell pipelines - instead of having to solve every problem from scratch, we can plug together different tools that other people have already made.
 
-Let's expand the functionality of our program. Rather than always searching for words containing the letter e, let's allow the user to specify what character they're searching for.
+Let's expand the functionality of our program. Rather than always searching for words containing the letter `e`, let's allow the user to specify what character they're searching for.
 
 This means we want to introduce a flag. And programs that accept flags, should also document themselves. One common convention is that if you run a program with the flag `--help`, it will tell you how to use it.
 

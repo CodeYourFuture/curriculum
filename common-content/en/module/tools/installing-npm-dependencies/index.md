@@ -16,7 +16,7 @@ Make this `package.json` file in the same directory as your e-word-counting prog
 
 ```json
 {
-    "type": "module"
+  "type": "module"
 }
 ```
 
@@ -25,6 +25,7 @@ The `package.json` contains a JSON object with information about your project. F
 From a terminal which is `cd`'d to the same directory as your `package.json` file, run `npm install commander`.
 
 This command does two things:
+
 1. Look in your `package.json` file - notice that now has a `dependencies` section listing `commander`. This means that if someone else downloads your program, they know they need to install `commander` to use it.
 2. There's now a `node_modules` directory alongside your `package.json`. Inside that is a directory named `commander` which contains the code for the `commander` library. This means `node` now knows how to find the code when you try to import it.
 
@@ -44,17 +45,19 @@ import { promises as fs } from "node:fs";
 import process from "node:process";
 
 program
-    .name("count-containing-words")
-    .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "e")
-    .argument("<path>", "The file path to process");
+  .name("count-containing-words")
+  .description("Counts words in a file that contain a particular character")
+  .option("-c, --char <char>", "The character to search for", "e")
+  .argument("<path>", "The file path to process");
 
 program.parse();
 
 const argv = program.args;
 if (argv.length != 1) {
-    console.error(`Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`);
-    process.exit(1);
+  console.error(
+    `Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`,
+  );
+  process.exit(1);
 }
 const path = argv[0];
 const char = program.opts().char;
@@ -62,8 +65,7 @@ const char = program.opts().char;
 const content = await fs.readFile(path, "utf-8");
 const countOfWordsContainingChar = content
   .split(" ")
-  .filter((word) => word.includes(char))
-  .length;
+  .filter((word) => word.includes(char)).length;
 console.log(countOfWordsContainingChar);
 ```
 
@@ -85,13 +87,13 @@ Let's run through what we changed:
 
 ```js
 program
-    .name("count-containing-words")
-    .description("Counts words in a file that contain a particular character")
-    .option("-c, --char <char>", "The character to search for", "e")
-    .argument("<path>", "The file path to process");
+  .name("count-containing-words")
+  .description("Counts words in a file that contain a particular character")
+  .option("-c, --char <char>", "The character to search for", "e")
+  .argument("<path>", "The file path to process");
 ```
 
-We told `commander` information about our program. We gave it a name, a description, and told it that it should allow a user to pass a flag name `-c` (or equivalently `--char`), and use a default value of `-` for that flag if it's not specified, and also told it that it should allow a user to pass the path to process as an argument.
+We told `commander` information about our program. We gave it a name, a description, and told it that it should allow a user to pass a flag name `-c` (or equivalently `--char`), and use a default value of `e` for that flag if it's not specified, and also told it that it should allow a user to pass the path to process as an argument.
 
 ```js
 program.parse();
@@ -116,17 +118,17 @@ We are getting the `char` flag that `commander` interpreted and storing it in a 
 ```js
 const countOfWordsContainingChar = content
   .split(" ")
-  .filter((word) => word.includes(char))
-  .length;
+  .filter((word) => word.includes(char)).length;
 console.log(countOfWordsContainingChar);
 ```
 
 We have renamed our `countOfWordsContainingEs` variable to `countOfWordsContainingChar` because we're no longer always looking for hyphens, and changed the `includes` call to look for the value of the `char` variable instead of always an `e`.
 
 We only needed to make a few small changes to get all of this new functionality:
-* Support for accepting a new command line flag.
-* `--help` support explaining how to use the program.
-* Detection for if someone passes flags that aren't known, and warning them about this (and even suggesting what they maybe meant).
+
+- Support for accepting a new command line flag.
+- `--help` support explaining how to use the program.
+- Detection for if someone passes flags that aren't known, and warning them about this (and even suggesting what they maybe meant).
 
 We could have written all of this code ourselves. But using a library meant we could focus on what's unique about our problem, rather than spending time implementing flag parsing.
 

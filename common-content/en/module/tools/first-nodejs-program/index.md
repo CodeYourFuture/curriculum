@@ -13,7 +13,7 @@ Below we have a small NodeJS program. It is a bit like `wc`. It counts words in 
 
 Our program accepts one command line argument - the path of the file to read and count.
 
-Our program's output to stdout is just the number of words which contain an e.
+Our program's output to stdout is just the number of words which contain an `e`.
 
 Our program uses the same language (JavaScript) as we've written before, but uses some different APIs.
 
@@ -23,16 +23,17 @@ import { promises as fs } from "node:fs";
 
 const argv = process.argv.slice(2);
 if (argv.length != 1) {
-    console.error(`Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`);
-    process.exit(1);
+  console.error(
+    `Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`,
+  );
+  process.exit(1);
 }
 const path = argv[0];
 
 const content = await fs.readFile(path, "utf-8");
 const countOfWordsContainingEs = content
   .split(" ")
-  .filter((word) => word.includes("e"))
-  .length;
+  .filter((word) => word.includes("e")).length;
 console.log(countOfWordsContainingEs);
 ```
 
@@ -63,8 +64,9 @@ This time, we're not importing the whole module. We are {{<tooltip text="destruc
 It is like writing `import { promises } from "node:fs"; const fs = promises;`.
 
 The `fs` module exposes two alternate APIs with functions with the same name (like `readFile`):
-* The default `fs` module was written before `async`/`await` was added to JavaScript, and requires using callbacks, which can be annoying.
-* `fs` has a submodule called `promises` which can be used with `async`/`await`, and is generally much more convenient.
+
+- The default `fs` module was written before `async`/`await` was added to JavaScript, and requires using callbacks, which can be annoying.
+- `fs` has a submodule called `promises` which can be used with `async`/`await`, and is generally much more convenient.
 
 We want to use the `promises` submodule, because it's much more convenient for us to use `async`/`await`. But if we just wrote `import { promises } from "node:fs";`, we'd be binding the submodule to the name `promises`, and everywhere we used it we'd need to write `promises.readFile`. This is less clear than `fs.readFile`, because `promises` is a very general name. So we rename `promises` to `fs`, and can use it like `fs.readFile`.
 
@@ -93,10 +95,13 @@ Play computer with the rest of the program - read each line, and explain what yo
 
 ```js
 if (argv.length != 1) {
-    console.error(`Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`);
-    process.exit(1);
+  console.error(
+    `Expected exactly 1 argument (a path) to be passed but got ${argv.length}.`,
+  );
+  process.exit(1);
 }
 ```
+
 </summary>
 We always expect our program to be given exactly one argument. Here we check this using an `if` statement, just like we've seen before.
 
@@ -112,9 +117,11 @@ We always expect our program to be given exactly one argument. Here we check thi
 ```js
 const path = argv[0];
 ```
+
 </summary>
 
 Giving a useful name to our argument.
+
 </details>
 
 <details>
@@ -123,11 +130,13 @@ Giving a useful name to our argument.
 ```js
 const content = await fs.readFile(path, "utf-8");
 ```
+
 </summary>
 
 Reading the file at the path passed as an argument. We're using the `fs` module here from `node`, but everything else is just JavaScript - declaring a variable, using `await` because `fs.promises.readFile` is an `async` function, calling a function.
 
 You can read more about this in [the documentation for `fs.promises.readFile`](https://nodejs.org/api/fs.html#fspromisesreadfilepath-options).
+
 </details>
 
 <details>
@@ -136,12 +145,13 @@ You can read more about this in [the documentation for `fs.promises.readFile`](h
 ```js
 const countOfWordsContainingEs = content
   .split(" ")
-  .filter((word) => word.includes("e"))
-  .length;
+  .filter((word) => word.includes("e")).length;
 ```
+
 </summary>
 
-Just some regular JavaScript. Taking a string, splitting it into an array, filtering the array, searching strings to see if they contain any e characters, and getting the length of an array.
+Just some regular JavaScript. Taking a string, splitting it into an array, filtering the array, searching strings to see if they contain any `e` characters, and getting the length of an array.
+
 </details>
 
 <details>
@@ -150,9 +160,11 @@ Just some regular JavaScript. Taking a string, splitting it into an array, filte
 ```js
 console.log(countOfWordsContainingEs);
 ```
+
 </summary>
 
 `console.log` in a NodeJS environment logs to stdout, so this outputs our result to stdout.
+
 </details>
 
 {{<note type="Exercise">}}
