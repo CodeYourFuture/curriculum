@@ -14,7 +14,7 @@ hide_from_overview=true
 
 - [ ] You must have a UNIX operating system (MacOS or Linux). Don't use Windows.
 - [ ] You must have [VSCode](https://code.visualstudio.com/) installed. Don't use another editor.
-- [ ] You must have the **CYF [VS Code extension pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack)** installed and Prettier enabled. Don't use another formatter.
+- [ ] You must have the **[CodeYourFuture Extension Pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack)** installed (you set this up during onboarding) and Prettier enabled. Don't use another formatter.
 
 ### 🧹 Linting and formatting
 
