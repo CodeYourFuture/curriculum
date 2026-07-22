@@ -12,7 +12,7 @@ src = "blocks/demo"
 time = "30"
 [[blocks]]
 name = "User Needs and Acceptance Criteria Workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/user-needs-and-acceptance-criteria"
+src = "workshops/user-needs-and-acceptance-criteria"
 time = "60"
 [[blocks]]
 name = "Morning break"
@@ -26,7 +26,7 @@ name = "Lunch"
 src = "blocks/lunch"
 [[blocks]] 
 name = "Clean Code Workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/clean-code"
+src = "workshops/clean-code"
 time = "45"
 [[blocks]]
 name = "Study Group"
