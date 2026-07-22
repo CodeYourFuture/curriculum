@@ -4,10 +4,10 @@ function daysToMilliseconds(days) {
 
 function identifyAge(date) {
     const millis = new Date() - date;
-    if (millis < daysToMilliseconds(7)) {
-        return "this week";
-    } else if (millis < daysToMilliseconds(7 * 4)) {
-        return "this month";
+    if (millis < daysToMilliseconds(4)) {
+        return "recent";
+    } else if (millis < daysToMilliseconds(8)) {
+        return "week";
     } else {
         return "old";
     }
