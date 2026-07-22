@@ -27,7 +27,7 @@ name="lunch"
 src="blocks/lunch"
 [[blocks]]
 name="Stand Up"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/stand-up"
+src="workshops/stand-up"
 time=30
 [[blocks]]
 name="Study Group"

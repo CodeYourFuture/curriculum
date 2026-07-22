@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CYF Random Product Factory</title>
+    <style>
+      body {
+        font: 150%/1.5 Monaco, monospace;
+        display: grid;
+        place-content: center;
+        min-height: 100vh;
+      }
+      h1 {
+        position: absolute;
+        left: -9999em;
+      }
+      blockquote {
+        padding: 20px;
+        margin: auto;
+        border: 2px double black;
+        background: #222;
+        color: lawngreen;
+        animation: appear 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      @keyframes appear {
+        from {
+          opacity: 0;
+          transform: scale3d(0.95, 0.95, 0.85);
+          box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+        }
+        to {
+          opacity: 1;
+          transform: scale3d(1, 1, 1);
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CYF Random Product Factory</h1>
+    <blockquote>
+      <random-product></random-product>
+    </blockquote>
+    <script type="module" src="random-product.js"></script>
+  </body>
+</html>
