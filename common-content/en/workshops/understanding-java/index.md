@@ -1,19 +1,23 @@
-# Understanding Java
++++
+title = "Understanding Java"
+time = 90
+objectives = [
+    "Make sense of code in a language you don't know.",
+    "Identify similarities and differences between programming languages.",
+    "Use documentation, debugging, and search techniques to fix a bug in a program in a language you don't know.",
+    "Use documentation, debugging, and search techniques to extend a program in a language you don't know.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 No one (neither trainees nor volunteers) involved in this workshop needs to know Java.
 
 The goal of this workshop is to work with code _even though we don't know the language_.
 
 Trainees should be familiar with any programming language (e.g. JavaScript or Python), and should be comfortable searching for and reading documentation.
-
-## Learning objectives
-
-```objectives
-- [ ] Make sense of code in a language you don't know.
-- [ ] Identify similarities and differences between programming languages.
-- [ ] Use documentation, debugging, and search techniques to fix a bug in a program in a language you don't know.
-- [ ] Use documentation, debugging, and search techniques to extend a program in a language you don't know.
-```
 
 ## Introduction
 

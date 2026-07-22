@@ -1,3 +1,17 @@
++++
+title = "Interview Introductions"
+time = 30
+objectives = [
+    "Tailor an introduction to job requirements",
+    "Describe what makes an introduction engaging or boring",
+    "Deliver an introduction out-loud",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Interview Introductions
 
 Before starting this workshop, you should have reviewed the interview introductions prep item.
@@ -6,13 +20,7 @@ For this workshop you need to break up into groups of 3-4 trainees, each with at
 
 Jane is a fictional person who has completed a software development programme. Jane is applying for a Junior Software Developer role with the fictional company, Software for Lawyers Ltd. You don’t need to understand all of the technical terms in these two pieces of text to complete the task. 
 
-```objectives
-- [ ] Tailor an introduction to job requirements
-- [ ] Describe what makes an introduction engaging or boring
-- [ ] Deliver an introduction out-loud
-```
-
-<!-- {{<note type="exercise" title="Introduce Jane">}}-->
+{{<note type="exercise" title="Introduce Jane">}}
 
 In small groups, ideally with a volunteer in each group if possible.
 
@@ -28,7 +36,7 @@ In small groups, ideally with a volunteer in each group if possible.
 
 6. If you have time, try making an introduction for yourself and share it with the group 
 
-<!-- {{</note>}}-->
+{{</note>}}
 
 ### Jane’s summary
 Jane has recently completed the part time Super Coders Software Development programme. During this time, she was also working full-time and caring for her two children. The course teaches full stack web development and general programming concepts. It teaches HTML, CSS, JavaScript, Node.js, Express, React and PostgreSQL. 

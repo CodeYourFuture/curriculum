@@ -1,15 +1,19 @@
-# Pokedex 1
++++
+title = "Pokedex 1"
+time = 90
+objectives = [
+    "Build basic React components.",
+    "Pass data between components using props.",
+    "Render lists in React and use keys properly.",
+    "Split code into separate files and import/export components.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Stepping through the Pokedex app, we will learn about React components, props, and state. This workshop takes at minimum 90 minutes.
-
-## Learning Objectives
-
-```objectives
-- [ ] Build basic React components
-- [ ] Pass data between components using props
-- [ ] Render lists in React and use keys properly
-- [ ] Split code into separate files and import/export components
-```
 
 ## Requirements
 
@@ -19,7 +23,7 @@ This workshop is to practice building a React app from scratch. You will be buil
 
 In this exercise we replace the placeholder React app found in [the workshop-code repository](https://github.com/Ara225/workshop-code) with our own. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
 
-<!--{{<note type="activity" title="Exercise 1">}}-->
+{{<note type="activity" title="Exercise 1">}}
 
 1. First off, clone the [the workshop-code repository](https://github.com/Ara225/workshop-code) if you haven't already cloned it
 2. Head to the `react-pokedex` folder of your `workshop-code` repo and start the app using `npm start`.
@@ -32,13 +36,13 @@ In this exercise we replace the placeholder React app found in [the workshop-cod
 9. Below the `<h1>` element (but within the `<div>`), create an `<img>` element. Then make its `src` attribute equal to `https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png`. What do you expect to see in your web browser?
 10. Now create a `<header>` element to wrap both the `<h1>` element **and** the `<img>` element.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Breaking down the App component
 
 In this exercise, we will split out a new `Logo` component from the `App` component. And then we'll add a new `BestPokemon` component. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
 
-<!--{{<note type="activity" title="Exercise 2">}}-->
+{{<note type="activity" title="Exercise 2">}}
 
 1. In your `pokedex` React app, open the `src/App.js` file.
 2. Create a new function named `Logo`.
@@ -47,13 +51,13 @@ In this exercise, we will split out a new `Logo` component from the `App` compon
 5. Create a new component function named `BestPokemon` and return a `<p>` element with some text saying which is your favorite Pokemon (e.g. "My favorite Pokemon is Squirtle").
 6. _Render_ your new `BestPokemon` component below the `Logo` component within the `App` component.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Composing components, rendering lists with keys
 
 In this exercise, we'll change the `Logo` component to use a variable for the app name. Then we'll add a new component `CaughtPokemon` which displays today's date. And finally we'll make `BestPokemon` show a list of abilities. Set a whole [class timer for 20 minutes](https://www.google.com/search?q=timer+20+minutes).
 
-<!--{{<note type="activity" title="Exercise 3">}}-->
+{{<note type="activity" title="Exercise 3">}}
 
 1. Using the `pokedex` React app that you created earlier, open the `src/App.js` file.
 2. Inside the `Logo` component create a new variable called `appName` and assign it to `"[YOUR_NAME]'s Pokedex"`.
@@ -65,7 +69,7 @@ In this exercise, we'll change the `Logo` component to use a variable for the ap
 8. Change the `BestPokemon` component to return a `<div>` element with the existing `<p>` element inside it. Then add a `<ul>` element underneath the `<p>` element.
 9. Now use the `.map()` method on the `abilities` variable to loop over each name and return a `<li>` element for each within the `<ul>` element.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 You may have noticed that we are now seeing a red error message in the Dev Tools: `Warning: Each child in a list should have a unique "key" prop.`. What did you learn about this in your prep work? How can you fix it?
 
@@ -73,7 +77,7 @@ You may have noticed that we are now seeing a red error message in the Dev Tools
 
 In this exercise, we'll split the Pokedex app into separate files. It should still look the same in your browser as before. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
 
-<!--{{<note type="activity" title="Exercise 4">}}-->
+{{<note type="activity" title="Exercise 4">}}
 
 1. Open the `pokedex` React app that you created earlier.
 2. Create a new file within the `src` directory named `Logo.js`.
@@ -84,13 +88,13 @@ In this exercise, we'll split the Pokedex app into separate files. It should sti
 7. Import the `Logo` component into `App.js` .
 8. Repeat this process with the `BestPokemon` and `CaughtPokemon` components. What do you think the files should be called?
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Props
 
 In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtPokemon` to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as before. Set a whole [class timer for 15 minutes](https://www.google.com/search?q=timer+15+minutes).
 
-<!--{{<note type="activity" title="Exercise 5">}}-->
+{{<note type="activity" title="Exercise 5">}}
 
 1. Using the `pokedex` React app that you created earlier, open the `App.js` file.
 2. Pass a prop `appName="Pokedex"` to the `Logo` component.
@@ -105,7 +109,7 @@ In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtP
 11. In the `BestPokemon.js` file replace the existing usage of `abilities` with the `abilities` **prop**. You should still see the Pokemon ability names in your web browser.
 12. **(STRETCH GOAL)** Repeat the process with the `date` variable in the `CaughtPokemon.js` file.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Acceptance Criteria
 

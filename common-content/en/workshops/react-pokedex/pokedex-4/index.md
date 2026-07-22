@@ -1,15 +1,20 @@
-# Pokedex 4
++++
+title = "Pokedex 4"
+time = 45
+objectives = [
+    "Fetch data from an API and render it.",
+    "Update state on input changes.",
+    "Conditionally render UI based on state.",
+    "Control form inputs with state.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 
 Stepping through the Pokedex app, we will learn about routing with [React Router](https://v5.reactrouter.com/web/guides/quick-start). This workshop takes at minimum 30 minutes.
-
-## Learning Objectives
-
-```objectives
-- [ ] Fetch data from an API and render it
-- [ ] Update state on input changes
-- [ ] Conditionally render UI based on state
-- [ ] Control form inputs with state
-```
 
 ## Requirements
 
@@ -25,7 +30,7 @@ React Router provides some default React components that you can use to enable r
 
 Open the `pokedex` React application. Instead of displaying all your components in the same page, we will use React Router to define different pages in the `pokedex` application. Set a whole [class timer for 20 minutes](https://www.google.com/search?q=timer+20+minutes).
 
-<!--{{<note type="activity" title="Exercise 1 (20m)">}}-->
+{{<note type="activity" title="Exercise 1 (20m)">}}
 
 1. In the terminal, install React Router with `npm install --save react-router-dom`.
 2. Open `src/App.js` and import BrowserRouter, Route, Routes and Link components from React Router (hint: `import { BrowserRouter, Routes, Route, Link } from "react-router-dom";`)
@@ -36,7 +41,7 @@ Open the `pokedex` React application. Instead of displaying all your components 
 7. Now let's define the routes to map a path to a React component. First, create a route to map `/best-pokemon` to the `BestPokemon` component. Then, use another route to map `/caught-pokemon` to the `CaughtPokemon` component (Hint: move the component inside the `element` key, as in `<Route element={...} path="/my-path" />`).
 8. Open the `pokedex` in your browser and verify that when clicking on each link, `BestPokemon` and `CaughtPokemon` are rendered accordingly.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## URL parameters
 
@@ -44,14 +49,14 @@ Open the `pokedex` React application. Instead of displaying all your components 
 
 In this exercise, we will create a new component to display a Pokemon information. The Pokemon name will be passed through the URL and displayed on the screen. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
 
-<!--{{<note type="activity" title="Exercise 2 (10m)">}}-->
+{{<note type="activity" title="Exercise 2 (10m)">}}
 
 1. Create a new component `PokemonInfo`.
 2. In `src/App.js`, create a new route which maps the path `/pokemon/:name` to the previously created component `PokemonInfo` (hint: `<Route path="/pokemon/:name" element={<PokemonInfo />} />`).
 3. In the `render` method of `PokemonInfo` component, display the name of the Pokemon which is passed in the URL parameter (hint: use the hook `useParams()` and extract `name` from the object it returns ).
 4. Open the `pokedex` in your browser and try several URLs (such as `http://localhost:3000/pokemon/Pikachu` and see if the Pokemon name is displayed accordingly on your screen.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Stretch goal
 

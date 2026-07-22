@@ -1,3 +1,19 @@
++++
+title = "Debugging"
+time = 60
+objectives = [
+    "Set a breakpoint in a debugger.",
+    "Identify the value of a variable at a breakpoint in a debugger.",
+    "Step through several statements in a debugger.",
+    "Step through several loop iterations in a debugger.",
+    "Identify the root cause of a bug by considering the scientific method.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Debugging is Asking Questions
 
 ## Prep
@@ -68,7 +84,7 @@ Set a whole class timer for [10 minutes](https://www.google.com/search?q=timer+f
 
 ## Stepping
 
-<!--{{<note type="activity" title="Understanding Variables and Flow, 10m" >}}-->
+{{<note type="activity" title="Understanding Variables and Flow, 10m" >}}
 
 ### Identify the value of variables at each step in a loop.
 
@@ -97,13 +113,13 @@ console.log(sumArray([1, 2, 3]));
 1. Step Over through iteration until your loop is complete.
 1. Monitor `total` and `i` in the Variables section.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ## Debugging
 
 Okay, swap roles. Set a whole class timer for [15 minutes](https://www.google.com/search?q=timer+for+15+minutes).
 
-<!--{{<note type="activity" title="Finding an Error, 15m" >}}-->
+{{<note type="activity" title="Finding an Error, 15m" >}}
 
 ```js
 const findLargest = (numbers) => {
@@ -139,17 +155,17 @@ Both (briefly) write up your mental model using this format:
 1. What I _expected_. Make sure you include your prediction here
 1. What actually _happened_
 
-<!--{{</note>}}-->
+{{</note>}}
 
 Okay, swap roles. If you have time left and you're into this, there are many problems stored in [the debugging problem bank](https://github.com/Ara225/workshop-code/debugging/bank). Set a whole class timer for [15 minutes](https://www.google.com/search?q=timer+for+30+minutes).
 
-<!--{{<note type="activity" title="Problem Bank, 30m" >}}-->
+{{<note type="activity" title="Problem Bank, 30m" >}}
 
 Pick any problem from the bank and work through it together. Use the debugger and the scientific method to find and fix the bug.
 
 Write up your findings in the developer question format. Swap roles and repeat until we run out of time.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 <details>
 <summary>🧑🏾‍💻🙋 Developer questions contain</summary>

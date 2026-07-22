@@ -1,4 +1,15 @@
-# Using (and getting value from) a project boards
++++
+title = "Using (and getting value from) a project board"
+time = 45
+objectives = [
+    "Explain why software teams use project boards.",
+    "Explain what WIP limits are and why they are useful.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Project boards are a key tool used by teams to manage their work. Let's find out together why.
 

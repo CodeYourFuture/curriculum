@@ -1,19 +1,21 @@
-# 🎮 Playing computer
++++
+title = "Playing Computer Workshop"
+time = 65
+objectives = [
+    "Play computer with a few short programs to work out what happens when they run.",
+    "Keep track of your place in a running program using frames.",
+    "Describe what happens when a function is called during runtime.",
+    "Check your understanding using an application like the Python visualiser.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 ## 💡 Purpose
 
 This workshop is designed to develop your understanding of **playing computer**. **Playing computer** means simulating how the computer executes our code. We "step through" the code, line by line, and work out what the computer does when it follows each instruction. Once we develop a better intuition for how our code runs it becomes easier to debug code, reason about it and write more complex programs.
-
-## 📝 Learning objectives
-
-During this session, you will:
-
-```objectives
-- [ ] Play computer with a few short programs to work out what happens when they run
-- [ ] Keep track of your place in a running program using frames
-- [ ] Describe what happens when a function is called during runtime
-- [ ] Check your understanding using an application like the Python visualiser
-```
 
 ### Resources
 

@@ -1,13 +1,20 @@
++++
+title = "CRUD 101"
+time = 120
+objectives = [
+    "Define the acronym CRUD",
+    "Process a GET request using Express and Node to retrieve data from memory",
+    "Process a POST request using Express and Node and store data in memory",
+    "Process a DELETE request using Express and Node to remove data from memory",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
+
 # CRUD 101
-
-## Learning Objectives
-
-```objectives
-- [ ] Define the acronym CRUD
-- [ ] Process a GET request using Express and Node to retrieve data from memory
-- [ ] Process a POST request using Express and Node and store data in memory
-- [ ] Process a DELETE request using Express and Node to remove data from memory
-```
 
 ## Requirements
 

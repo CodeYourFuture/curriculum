@@ -1,13 +1,17 @@
-# Sorting Cards
-
-## Learning objectives
-
-```objectives
-- [ ] Analyse the actual cost (comparisons + swaps) of particular sorting algorithms.
-- [ ] Categorise different sorting algorithms by computational complexity.
-- [ ] Identify when different sorting algorithms are suitable.
-- [ ] Devise a specialised sorting algorithm for specific kinds of data.
-```
++++
+title = "Sorting Cards"
+time = 90
+objectives = [
+    "Analyse the actual cost (comparisons + swaps) of particular sorting algorithms.",
+    "Categorise different sorting algorithms by computational complexity.",
+    "Identify when different sorting algorithms are suitable.",
+    "Devise a specialised sorting algorithm for specific kinds of data.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 ## Outline
 

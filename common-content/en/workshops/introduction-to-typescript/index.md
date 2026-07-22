@@ -1,12 +1,17 @@
-# Introduction to TypeScript
-
-## Learning objectives
-```objectives
-- [ ] Explain what TypeScript is and how it differs from JavaScript.
-- [ ] Add sensible and predictable types to JavaScript variables.
-- [ ] Define JavaScript functions with parameter types and return types.
-- [ ] Explain the value of using TypeScript over JavaScript.
-```
++++
+title = "Introduction to TypeScript"
+time = 90
+objectives = [
+    "Explain what TypeScript is and how it differs from JavaScript.",
+    "Add sensible and predictable types to JavaScript variables.",
+    "Define JavaScript functions with parameter types and return types.",
+    "Explain the value of using TypeScript over JavaScript.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 <details>
   <summary>How to run these exercises locally</summary>

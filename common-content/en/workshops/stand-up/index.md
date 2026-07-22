@@ -1,14 +1,18 @@
-# Stand-up [30 minutes]🧍‍♂️
++++
+title = "Workshop: Stand Up"
+time = 30
+objectives = [
+    "Explain the format of a stand-up meeting.",
+    "Identify the purpose of a stand-up meeting.",
+    "Share a progress update in a stand-up meeting.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Most software development teams have a "[stand-up](https://en.wikipedia.org/wiki/Stand-up_meeting)" every day. Even if a team does not follow the [agile methodology](https://en.wikipedia.org/wiki/Agile_software_development), stand-ups are used to discuss progress and identify blockers.
-
-## Learning Objectives 🙆
-
-```objectives
-- [ ] Explain the format of a stand-up meeting
-- [ ] Identify the purpose of a stand-up meeting
-- [ ] Share a progress update in a stand-up meeting
-```
 
 ## What is a stand-up meeting?
 

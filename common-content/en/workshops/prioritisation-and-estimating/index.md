@@ -1,4 +1,17 @@
-# Prioritisation & Estimation
++++
+title = "Prioritisation and Estimatino"
+time = 90
+objectives = [
+    "Explain why prioritisaiton matters in software development.",
+    "Categorise features into a value vs effort matrix.",
+    "Determine the business values of a potential feature.",
+    "Prioritise a list of features.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 ## Introduction to Prioritisation (20 mins)
 

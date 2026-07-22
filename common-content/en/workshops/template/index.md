@@ -1,14 +1,18 @@
-# Workshop Name
++++
+title = "Workshop Name"
+time = 60
+objectives = [
+    "Use the Teach Tech Together guide to construct your objectives.",
+    "Limit the objectives to 3-5 items.",
+    "Write objectives you can measure.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Replace this index.md with the requirements for your workshop
-
-## Learning Objectives
-
-```objectives
-- [ ] Use the Teach Tech Together guide to construct your objectives
-- [ ] Limit the objectives to 3-5 items
-- [ ] Write objectives you can measure
-```
 
 ## Requirements
 

@@ -30,7 +30,7 @@ Begin with the server challenge.
 
 https://london-mini-guide-challenge.netlify.app/
 
-![project screenshot](https://curriculum.codeyourfuture.io/workshops/node-challenge-london-mini-guide/demo-screenshot.png)
+![project screenshot](/workshops/node-challenge-london-mini-guide/demo-screenshot.png)
 
 ## Data Source
 

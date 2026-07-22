@@ -1,3 +1,17 @@
++++
+title = "Asking Questions"
+time = 120
+objectives = [
+   "Describe the \"Predict and Explain\" methodology.",
+   "Describe what makes a good technical question for getting help when you're stuck.",
+   "Ask a technical question including all necessary context.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Asking Questions 101
 
 ## Prep
@@ -61,25 +75,25 @@ When we ask questions, it's important that we share our current mental model as 
 
 Let's look at how asking questions helps you update your mental model with an example.
 
-<!--{{% note type="activity" title="Inversion, 5m" %}}-->
+{{<note type="activity" title="Inversion, 5m" >}}
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 2. Popcorn around the room and each person give an example of a bad way to ask a question until the timer goes off. For example:
 
 > Argh I can't make it work please help me!
 
-<!--{{% /note %}}-->
+{{</note>}}
 
 ### Why are these not useful?
 
-<!--{{<note type="activity" title="Inversion 2, 10m" >}}-->
+{{<note type="activity" title="Inversion 2, 10m" >}}
 
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2.  Popcorn around the room and each person give a reason that one of the previous questions was bad until the timer goes off. For example:
 
 > What is _it_? What are you trying to do? In what way is it not working? Be specific! Share what you see. Do you have a link? What do you want it to do?
 
- <!--{{</note>}}-->
+{{</note>}}
 
 ### Exercise ground rules
 
@@ -88,7 +102,7 @@ Before we get to the next exercise, let's just set some ground rules here:
 1. The goal is not to complete the exercise; the goal is to _learn_
 1. The smart thing to do is to focus on the questions you cannot (yet) answer
 
-<!--{{<note type="activity" title="Framing questions systematically, 30m" >}}-->
+{{<note type="activity" title="Framing questions systematically, 30m" >}}
 
 Split into groups of 2-5 people.
 Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+for+30+minutes).
@@ -112,7 +126,7 @@ Include as much context as you can, including links, line numbers, sample code, 
 
 Now post your write up of the question in [#cyf-ask-tech-stuff](https://codeyourfuture.slack.com/archives/C59R2722F).
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### 🧑🏾‍💻🙋 Developer questions contain
 

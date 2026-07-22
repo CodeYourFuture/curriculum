@@ -1,14 +1,18 @@
-# Interviewing [Professional Development] [60 minutes] 🧑‍💻
++++
+title = "Interviewing"
+time = 60
+objectives = [
+    "Introduce themselves in 2 minutes.",
+    "Answer soft skill interview questions using the STAR method.",
+    "Prepare a strategy to get ready for  technical interviews.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Acing job interviews is a skill that can be learned like any other. Today we will pair up to practice interviewing.
-
-## Objective 💬
-
-At the end of this workshop, participants can:
-
-- [] Introduce themselves in 2 minutes
-- [] Answer soft skill interview questions using the STAR method
-- [] Prepare a strategy to get ready for  technical interviews
 
 ## Setup 🌼
 

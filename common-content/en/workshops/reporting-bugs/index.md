@@ -1,3 +1,17 @@
++++
+title = "Refining Poorly Specified Bugs"
+time = 60
+objectives = [
+   "Report a high quality bug, including reproduction steps, expectations, observations, and environment.",
+   "Identify key information from an error message.",
+   "Improve a poor quality bug report with extra context.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Asking Questions 101
 
 ## Prep
@@ -47,25 +61,25 @@ Here's an example of steps to reproduce:
 
 ### Bad bug reports
 
-<!--{{<note type="activity" title="Inversion, 5m" >}}-->
+{{<note type="activity" title="Inversion, 5m" >}}
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 2. Popcorn around the room and each person give an example of a bad way to ask a question until the timer goes off. For example:
 
 "I was on the site, and then I clicked something, and it didn't work!"
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### Why are these not useful?
 
-<!--{{<note type="activity" title="Inversion 2, 10m" >}}-->
+{{<note type="activity" title="Inversion 2, 10m" >}}
 
 1.  Set a [timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
 2.  Popcorn around the room and each person give a reason the previous question was bad until the timer goes off. For example:
 
 "What site are you on? What are you trying to do? How can I read your post and re-create the circumstances. Be specific! Share what you see."
 
- <!--{{</note>}}-->
+{{</note>}}
 
 ### Expected behavior
 
@@ -85,14 +99,14 @@ Here's an example of actual behavior:
 
 "Instead, I was redirected back to the login page with an error message that says `To confirm your identity, sign in with the same account you used originally.`"
 
-<!--{{<note type="activity" title="Spot the difference, 5m" >}}-->
+{{<note type="activity" title="Spot the difference, 5m" >}}
 
 Look at the difference between the two examples above. What do you notice? _Apart from the user's reported problem_, what is the difference between the actual behaviour and the expected behaviour? It's subtle.
 
 1. Set a [timer for 3 minutes](https://www.google.com/search?q=timer+for+3+minutes).
 1. Popcorn around the room until you spot the difference.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### Error messages
 
@@ -131,12 +145,12 @@ What happened when you followed the suggestion in the error message?
 
 </details>
 
-<!--{{<note type="activity" title="Spot the instruction, 3m">}}-->
+{{<note type="activity" title="Spot the instruction, 3m">}}
 
 1. Set a [timer for 3 minutes](https://www.google.com/search?q=timer+for+3+minutes).
 1. Popcorn around the room and find the instruction in the error message.
 
-<!--{{</note>}}>-->
+{{</note>}}>
 
 Error messages aren't always correct, but they are a valuable clue.
 
@@ -186,14 +200,14 @@ Instead, I got an error message
 
 OK now we have some more information given. We've got some steps to reproduce and some expected and actual behaviour. But it's still not great.
 
-<!--{{<note type="activity" title="Step by step improvement, 5m" >}}-->
+{{<note type="activity" title="Step by step improvement, 5m" >}}
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 1. Popcorn around the room and name three problems with this bug report. How should it be improved?
 
 Send it back!
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### 🐛 Bug Report Improvement 2
 
@@ -214,14 +228,14 @@ Send it back!
 
 - Instead, I got an error message `'touch' is not recognized as an internal or external command, operable program or batch file.`
 </details>
-<!--{{<note type="activity" title="Precision and clarity, 5m" >}}-->
+{{<note type="activity" title="Precision and clarity, 5m" >}}
 
 Our bug reporter has worked hard on improving their bug report. But there is one crucial detail missing.
 
 1. Set a [timer for 5 minutes](https://www.google.com/search?q=timer+for+5+minutes).
 1. Popcorn around the room and guess/suggest how this bug report could be improved with one more detail.
 
-<!--{{</note>}}-->
+{{</note>}}
 
 ### 🐛 Bug Report Final Form
 

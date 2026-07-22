@@ -1,15 +1,21 @@
++++
+title = "Wordle CLI"
+time = 120
+objectives = [
+    "Build a fully playable game from scratch, starting with nothing but an idea.",
+    "Locate and make use of NPM dependencies in a project.",
+    "Step through the process of breaking down a high-level idea into smaller, manageable units of functionality.",
+    "Get inspired to take ideas and build something cool.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Wordle CLI Workshop
 
 This is a workshop where we, as a class, build a Wordle CLI clone in Node JS.
-
-## Learning Objectives
-
-```objectives
-- [ ] Build a fully playable game from scratch, starting with nothing but an idea
-- [ ] Locate and make use of NPM dependencies in a project
-- [ ] Step through the process of breaking down a high-level idea into smaller, manageable units of functionality
-- [ ] Get inspired to take ideas and build something cool
-```
 
 ## Requirements
 

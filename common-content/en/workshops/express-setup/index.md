@@ -1,4 +1,16 @@
-# Express Workshop
++++
+title = "Express Workshop"
+time = 90
+objectives = [
+    "Initialise a project with npm",
+    "Install Express as a dependency",
+    "Build a server using Express",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 > This workshop is based on the [Node Girls Express Workshop](https://github.com/node-girls/express-workshop)
 
@@ -10,14 +22,6 @@ git clone https://github.com/YOUR-USERNAME/express-workshop
 
 ```sh
 git clone https://github.com/YOUR-USERNAME/express-workshop
-```
-
-## Learning Objectives
-
-```objectives
-- [ ] Initialise a project with npm
-- [ ] Install Express as a dependency
-- [ ] Build a server using Express
 ```
 
 ## Requirements

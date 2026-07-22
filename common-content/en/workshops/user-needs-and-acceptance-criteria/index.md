@@ -1,14 +1,18 @@
-# User Needs and Acceptance Criteria
-
-## Learning objectives
-
-```objectives
-- [ ] Identify user personas.
-- [ ] Define user needs for different user personas.
-- [ ] Identify the benefits of using Who/What/Why in user stories.
-- [ ] Write acceptance criteria in Given/When/Then format.
-- [ ] Identify the benefits of using Given/When/Then in acceptance criteria.
-```
++++
+title = "User Needs and Acceptance Criteria"
+time = 60
+objectives = [
+    "Identify user personas.",
+    "Define user needs for different user personas.",
+    "Identify the benefits of using Who/What/Why in user stories.",
+    "Write acceptance criteria in Given/When/Then format.",
+    "Identify the benefits of using Given/When/Then in acceptance criteria.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 ## Introduction
 

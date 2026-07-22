@@ -1,3 +1,19 @@
++++
+title = "Breaking down features"
+time = 90
+objectives = [
+   "Compare different ways of breaking down a project.",
+   "Identify the best way of breaking down a particular project.",
+   "Map a user journey.",
+   "Break dependencies to unlock parallel work opportunities.",
+   "Describe what dummy data is and how it can help unlock parallel work.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # Breaking down the quote generator
 
 You should have already followed the prep to design, write, and deploy a quote generator.

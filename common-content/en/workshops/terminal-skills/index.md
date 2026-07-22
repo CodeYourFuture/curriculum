@@ -1,23 +1,27 @@
-# Terminal skills
++++
+title = "Terminal Skills"
+time = 60
+objectives = [
+    "Explain why people use a terminal.",
+    "Write and run a shell script.",
+    "Add a shell script to $PATH and run it by invoking just its name.",
+    "Find, modify, and re-run previously run shell commands from a terminal prompt.",
+    "Navigate to the start or end of a single command at a prompt without using the left/right arrows.",
+    "Navigate left and right in a single command by single words without using the left/right arrows.",
+    "Fill in file names using tab completion in a terminal prompt.",
+    "Expand file names using shell glob expansion with the `*` character.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Developers frequently use the terminal to interact with their computer. It is a useful job skill to get comfortable doing this.
 
 In this workshop you will experiment with a terminal while there are volunteers around who can help you.
 
 Split into groups, one volunteer per group. Volunteers, please follow along on your own machine, and be ready to offer help, ask helpful questions, and unblock. (But please also keep your hands off the keyboards of your group. )
-
-## Learning objectives
-
-```objectives
-- [ ] Explain why people use a terminal.
-- [ ] Write and run a shell script.
-- [ ] Add a shell script to $PATH and run it by invoking just its name.
-- [ ] Find, modify, and re-run previously run shell commands from a terminal prompt.
-- [ ] Navigate to the start or end of a single command at a prompt without using the left/right arrows.
-- [ ] Navigate left and right in a single command by single words without using the left/right arrows..
-- [ ] Fill in file names using tab completion in a terminal prompt.
-- [ ] Expand file names using shell glob expansion with the `*` character.
-```
 
 ## Why do we use the terminal?
 

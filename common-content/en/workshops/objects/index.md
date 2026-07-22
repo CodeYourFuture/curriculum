@@ -1,4 +1,16 @@
-## Instructions
++++
+title = "Objects"
+time = 60
+objectives = [
+    "Write an object literal.",
+    "Access values in objects using [] syntax.",
+    "Access values in objects using . syntax.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 This workshop aims to _check your understanding_.
 

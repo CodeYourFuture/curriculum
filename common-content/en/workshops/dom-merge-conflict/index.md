@@ -1,4 +1,16 @@
-# DOM Merge Conflicts
++++
+title = "DOM Merge Conflicts"
+time = 60
+objectives = [
+    "Describe how merge conflicts can occur in a development setting.",
+    "Interpret a merge conflict message.",
+    "Resolve a merge conflict while preserving changes to the code.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 This workshop contains a collection of DOM components. For this workshop, you will be creating branches for refactoring and updating the components and then resolving the merge conflicts that arise. You'll be working in pairs, learning how to handle branching, refactoring, and creating pull requests.
 
@@ -7,12 +19,6 @@ This workshop contains a collection of DOM components. For this workshop, you wi
 - **Objective**: Learn to resolve merge conflicts that arise during software development
 - **Activity**: Update and refactor DOM components in two different Git branches
 - **Duration**: 1 hour
-
-## Learning Objectives
-
-- Describe how merge conflicts can occur in a development setting
-- Interpret a merge conflict message
-- Resolve a merge conflict while preserving changes to the code
 
 ## Prerequisites
 

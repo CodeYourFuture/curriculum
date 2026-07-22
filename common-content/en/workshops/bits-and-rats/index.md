@@ -1,16 +1,22 @@
++++
+title = "Bits and Rats"
+time = 90
+objectives = [
+   "Use binary number representation to pinpoint an issue.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
+
 # 🧪 The Poisoned Wine Puzzle Workshop
 
 ## Prerequisites
 
-To get the most out of this workshop, you should have done the [Logic prep from the SDC](https://sdc.codeyourfuture.io/logic/), and worked through the 1000 wine bottle problem already. If you haven't done that course, this game will be a bit bewildering, so you might want to watch this video together first:
+To get the most out of this workshop, you should have done the [Logic prep from the SDC](/sdc/logic/sprints/1/prep), and worked through the 1000 wine bottle problem already. If you haven't done that course, this game will be a bit bewildering, so you might want to watch this video together first:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N3qmN6pYhi0?si=c4pdiu8JwCHJtGfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## 🎯 Learning Objectives
-
-```objectives
-- [ ] Transform physical locations to binary patterns
-```
 
 ## 🎭 The Story
 

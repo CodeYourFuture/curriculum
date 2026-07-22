@@ -1,4 +1,14 @@
-# Feedback Workshop 🗣️
++++
+title = "Giving Feedback"
+time = 60
+objectives = [
+    "Give actionable feedback using a structured framework.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 Feedback is the foundation of effective collaboration. Both giving and receiving feedback are important communication skills to master. 
 

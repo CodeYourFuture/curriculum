@@ -1,12 +1,16 @@
-# Explaining code
-
-## Learning objectives
-
-```objectives
-- [ ] Make a strategy for how to explain code.
-- [ ] Explain the big picture (what not how) of a software system.
-- [ ] Explain how functions and lines of code in a software system work.
-```
++++
+title = "Explaining Code Workshop"
+time = 90
+objectives = [
+    "Make a strategy for how to explain code.",
+    "Explain the big picture (what not how) of a software system.",
+    "Explain how functions and lines of code in a software system work.",
+]
+[build]
+  list = "local"
+  publishResources = false
+  render = "never"
++++
 
 We often need to explain our code to others. Some examples of when we need to do this:
 1. When someone else is going to start working on it with us.
