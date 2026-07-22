@@ -396,7 +396,8 @@ After that, if you run `echo $?`, you should get `0`, indicating the program ran
 
 {{<tabs>}}
 ===[[Exercise]]===
-Run `strace -o strace.output python3 exercise_3.py`.
+Run `strace -o strace.output python3 exercise_3.py`
+
 `strace` will write each and every *system call* that the process makes to the `strace.output` file.
 
 Look at the `strace.output` file.
