@@ -180,6 +180,6 @@ Write up your findings in the developer question format. Swap roles and repeat u
 
 - [How to ask](https://stackoverflow.com/help/how-to-ask)
 - [The programming duck](https://rubberduckdebugging.com/)
-- [Asking Questions](https://curriculum.codeyourfuture.io/guides/asking-questions/)
+- [Asking Questions](/guides/asking-questions/)
 
 </details>

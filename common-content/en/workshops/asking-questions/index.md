@@ -17,7 +17,7 @@ objectives = [
 ## Prep
 
 - [ ] Read this article about [Mental Models](https://jamesclear.com/mental-models)
-- [ ] Load this webpage, which stores the problems we will work on today. [https://curriculum.codeyourfuture.io/workshops/asking-questions](https://curriculum.codeyourfuture.io/workshops/asking-questions)
+- [ ] Load [this webpage, which stores the problems we will work on today](/workshops/asking-questions).
 
 Today we're going to start learning a formal language of developer questions. We will begin with this basic format:
 
@@ -109,7 +109,7 @@ Set a whole class timer for [30 minutes](https://www.google.com/search?q=timer+f
 
 ### Confound yourselves
 
-- Pick a problem from the [bank](https://curriculum.codeyourfuture.io/workshops/asking-questions#problem-bank).
+- Pick a problem from the [bank](/workshops/asking-questions#problem-bank).
 - As a group, make a prediction about what you think the answer is, and write it down.
 - Test your prediction. Try it out using the dev tools.
 - Compare your prediction with the outcome.
@@ -140,4 +140,4 @@ Now post your write up of the question in [#cyf-ask-tech-stuff](https://codeyour
 
 - [How to ask](https://stackoverflow.com/help/how-to-ask)
 - [The programming duck](https://rubberduckdebugging.com/)
-- [Asking Questions](https://curriculum.codeyourfuture.io/guides/asking-questions/)
+- [Asking Questions](/guides/asking-questions/)

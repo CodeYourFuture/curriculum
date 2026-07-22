@@ -284,7 +284,7 @@ Include as much context as you can, including links, line numbers, sample code, 
 
 - [How to ask](https://stackoverflow.com/help/how-to-ask)
 - [The programming duck](https://rubberduckdebugging.com/)
-- [Asking Questions](https://curriculum.codeyourfuture.io/guides/asking-questions/)
+- [Asking Questions](/guides/asking-questions/)
 - [Reading Error Messages](https://www.codementor.io/@erikpukinskis/how-to-read-an-error-message-6sebm8ik3)
 - [Writing the perfect question](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
 - [Smart Questions](http://catb.org/esr/faqs/smart-questions.html) NOTE: this is an old-fashioned text so it's very blunt. It is also really honest and maybe that is helpful for some people.

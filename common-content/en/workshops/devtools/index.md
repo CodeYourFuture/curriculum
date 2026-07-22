@@ -52,7 +52,7 @@ In groups of no more than five.
 Take it in turns to swap the driver for each section of this workshop
 
 1.  Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-1.  [Inspect the page](https://curriculum.codeyourfuture.io/workshops/devtools/) with Devtools.
+1.  [Inspect the page](/workshops/devtools/) with Devtools.
 1.  _Write down_ the answers to these questions:
 
     - What is the name of the font used on the page?
@@ -69,7 +69,7 @@ So we've seen that fonts, colours, and spacing are often stored as CSS Variables
 {{<note type="exercise" title="Experiment">}}
 
 1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-2. Inspect the [CSS of the page](https://curriculum.codeyourfuture.io/workshops/devtools/) with Devtools.
+2. Inspect the [CSS of the page](/workshops/devtools/) with Devtools.
 3. Find the CSS Variables (hint: variables start with `--`, for example, `--paper`)
 4. Try changing the values of these variables and see how it affects the page.
 5. Some questions to answer. (Make a prediction about what you think will happen first, and then test it)
@@ -96,7 +96,7 @@ Next, let's see how the page layout is handled. Modern websites use the CSS Grid
 {{<note type="exercise" title="Grid Editor">}}
 
 1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-2. With Devtools, locate a grid element on [the workshop page](https://curriculum.codeyourfuture.io/workshops/devtools/).
+2. With Devtools, locate a grid element on [the workshop page](/workshops/devtools/).
 3. Activate the [Grid Badge](https://developer.chrome.com/docs/devtools/css/grid/) in the Elements panel.
 4. Use the Grid Editor to try changing the layout.
 5. Go straight to the next challenge!
@@ -115,7 +115,7 @@ It's important that software works and that people can use it. Lighthouse can he
 {{<note type="exercise" title="Audit">}}
 
 1. Set a [whole class timer for 10 minutes](https://www.google.com/search?q=timer+for+10+minutes).
-1. Run a Lighthouse audit on [the workshop page](https://curriculum.codeyourfuture.io/workshops/devtools/).
+1. Run a Lighthouse audit on [the workshop page](/workshops/devtools/).
 1. Look at the results and identify the issue.
 1. Now, how will you fix it? Click on the error. Lighthouse explains what is wrong and provides a link to a detailed explanation on why it's wrong, how serious it is, and how to fix it!
 1. If you have time, fix the error, but in any case, once the timer goes off, paste the link to the detailed explanation page into the workshop thread in Slack.
