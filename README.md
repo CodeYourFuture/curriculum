@@ -34,6 +34,10 @@ Common is tightly integrated with GitHub. Really the main content should always 
 
 Each org or team configures its own Hugo site that mounts the common theme and content modules, and then makes any customisations they need and deploys it wherever they want. You can use any repo to do this and your site can be as simple as a `hugo.toml` and a `content/_index.md`. We'd love for you to use Common, too!
 
+## Running locally
+
+To build and run the curriculum on your own machine (install Hugo/Go/npm, create a GitHub token, and start the dev server), follow our [Building the Curriculum Locally](https://curriculum.codeyourfuture.io/guides/contributing/running-locally/) guide. The source for that guide lives at [`org-cyf-guides/content/contributing/running-locally/index.md`](org-cyf-guides/content/contributing/running-locally/index.md).
+
 ## Examples
 
 - https://curriculum.codeyourfuture.io/
