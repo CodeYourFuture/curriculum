@@ -108,4 +108,4 @@ You can work on your own or in groups to do this.
 
 ## Sample implementation
 
-A sample complete implementation of this exercise can be found here [https://github.com/Ara225/workshop-code/tree/main/understanding-java](https://github.com/Ara225/workshop-code/tree/main/understanding-java) but we recommend you try to completely solve the exercises yourself rather than looking at the sample implementation.
+A sample complete implementation of this exercise can be found here [https://github.com/CodeYourFuture/workshop-code/tree/main/understanding-java](https://github.com/CodeYourFuture/workshop-code/tree/main/understanding-java) but we recommend you try to completely solve the exercises yourself rather than looking at the sample implementation.

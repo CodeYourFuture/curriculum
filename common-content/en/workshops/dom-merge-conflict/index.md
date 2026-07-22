@@ -29,7 +29,7 @@ This workshop contains a collection of DOM components. For this workshop, you wi
 ## Setup
 
 - Get into pairs
-- Before starting, ensure you create a fork of the [workshop code repository on Github](https://github.com/Ara225/workshop-code) to use as a pair. Each person in the pair must clone down the fork of this repository from Github and navigate to the project directory
+- Before starting, ensure you create a fork of the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) to use as a pair. Each person in the pair must clone down the fork of this repository from Github and navigate to the project directory
 
 ## Instructions
 
@@ -44,7 +44,7 @@ git pull origin main
 
 ### 2. Choose a task
 
-As a pair, choose one task from the the `dom-merge-conflict/tasks` folder in the [workshop code repository on Github](https://github.com/Ara225/workshop-code) that you will both follow.
+As a pair, choose one task from the the `dom-merge-conflict/tasks` folder in the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) that you will both follow.
 
 ### 3. Follow the task instructions until the end
 

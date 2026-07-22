@@ -23,7 +23,7 @@ You will need:
 
 - A piece of paper saying "memory" - where we store variables
 - A piece of paper saying "console" - where we print to the console
-- Some example programs like the ones here 👉 [Playing computer workshop](https://github.com/Ara225/workshop-code/tree/main/playing-computer)
+- Some example programs like the ones here 👉 [Playing computer workshop](https://github.com/CodeYourFuture/workshop-code/tree/main/playing-computer)
 - [Optional] A set of functions in envelopes ( this isn't essential but a nice thing to have to reinforce the idea of instructions being "opened" up when a function is called )
 
 ( If you don't have any paper/pens you can create plain text files for "memory" and "console" and write your work out in there! )

@@ -19,7 +19,7 @@ Please follow the steps below:
 1. In your pairs, label yourselves person 1 and person 2 - it doesn't matter who is 1 or 2, you'll end up swapping. 😄
 
 2. You will end up swapping roles frequently during this activity.
-To begin with, **Person 1** **fork** [the workshop code repository](https://github.com/Ara225/workshop-code) and **clone** it to your local machine.
+To begin with, **Person 1** **fork** [the workshop code repository](https://github.com/CodeYourFuture/workshop-code) and **clone** it to your local machine.
 
 3. Person 2 should clone **Person 1's fork** to their local machine.
 

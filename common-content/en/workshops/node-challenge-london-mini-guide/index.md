@@ -6,11 +6,11 @@ This exercise is designed to develop your pair programming skills and to get you
 
 ## Server
 
-[The Server Challenge](https://github.com/Ara225/workshop-code/blob/main/node-challenge-london-mini-guide/SERVER.md)
+[The Server Challenge](https://github.com/CodeYourFuture/workshop-code/blob/main/node-challenge-london-mini-guide/SERVER.md)
 
 ## Client
 
-[The Client Challenge](https://github.com/Ara225/workshop-code/blob/main/node-challenge-london-mini-guide/SERVER.md)
+[The Client Challenge](https://github.com/CodeYourFuture/workshop-code/blob/main/node-challenge-london-mini-guide/SERVER.md)
 
 ## Time to Complete
 

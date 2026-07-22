@@ -20,7 +20,7 @@ objectives = [
 
 - [ ] Re-read this article about [Mental Models](https://jamesclear.com/mental-models)
 - [ ] Watch this video about [VSCode Debugger](https://code.visualstudio.com/docs/introvideos/debugging) and follow along with the mini-workshop
-- [ ] Open the [workshop code repo](https://github.com/Ara225/workshop-code/tree/main/) in VSCode and go to the `debugging/bank` folder to find the problem bank.
+- [ ] Open the [workshop code repo](https://github.com/CodeYourFuture/workshop-code/tree/main/) in VSCode and go to the `debugging/bank` folder to find the problem bank.
 
 Whew, that's loads! But we did set it all as coursework, so you have done it already, right? 😉
 
@@ -157,7 +157,7 @@ Both (briefly) write up your mental model using this format:
 
 {{</note>}}
 
-Okay, swap roles. If you have time left and you're into this, there are many problems stored in [the debugging problem bank](https://github.com/Ara225/workshop-code/debugging/bank). Set a whole class timer for [15 minutes](https://www.google.com/search?q=timer+for+30+minutes).
+Okay, swap roles. If you have time left and you're into this, there are many problems stored in [the debugging problem bank](https://github.com/CodeYourFuture/workshop-code/debugging/bank). Set a whole class timer for [15 minutes](https://www.google.com/search?q=timer+for+30+minutes).
 
 {{<note type="activity" title="Problem Bank, 30m" >}}
 

@@ -21,11 +21,11 @@ This workshop is to practice building a React app from scratch. You will be buil
 
 ## My first Component
 
-In this exercise we replace the placeholder React app found in [the workshop-code repository](https://github.com/Ara225/workshop-code) with our own. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
+In this exercise we replace the placeholder React app found in [the workshop-code repository](https://github.com/CodeYourFuture/workshop-code) with our own. Set a whole [class timer for 10 minutes](https://www.google.com/search?q=timer+10+minutes).
 
 {{<note type="activity" title="Exercise 1">}}
 
-1. First off, clone the [the workshop-code repository](https://github.com/Ara225/workshop-code) if you haven't already cloned it
+1. First off, clone the [the workshop-code repository](https://github.com/CodeYourFuture/workshop-code) if you haven't already cloned it
 2. Head to the `react-pokedex` folder of your `workshop-code` repo and start the app using `npm start`.
 3. In the `pokedex` React app that you just created, open the `src/App.js` file.
 4. Delete everything in the file except the line containing `export default App`. You should see an error in your terminal and in your web browser - don't panic! We're going to remake the `App` component ourselves.

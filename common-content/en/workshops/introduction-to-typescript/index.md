@@ -16,7 +16,7 @@ objectives = [
 <details>
   <summary>How to run these exercises locally</summary>
 
-Once you have cloned this repository locally, you'll need to install all dependencies for this project. You can do this via your terminal by navigating to your local project's `introduction-to-typescript` directory and then running:
+Once you have cloned [the workshop code repository](https://github.com/CodeYourFuture/workshop-code) locally, you'll need to install all dependencies for this project. You can do this via your terminal by navigating to your local project's `introduction-to-typescript` directory and then running:
 
 `npm install`
 
@@ -239,7 +239,7 @@ Since we have to `await` the user being fetched, `Promise<>` tells us that our `
 ### Setup
 
 - Breakout into groups of ideally 2, and no more than 3 trainees.
-- Ideally each group should have a single fork of [the exercise repository](https://github.com/Ara225/workshop-code/tree/main/introduction-to-typescript) from where every member collaborates.
+- Ideally each group should have a single fork of [the exercise repository](https://github.com/CodeYourFuture/workshop-code/tree/main/introduction-to-typescript) from where every member collaborates.
 - Each member should clone the forked repository to a local project.
 - Navigate to the `introduction-to-typescript` directory.
 - Follow the instructions in the `README.md` to setup the project and run the exercise.

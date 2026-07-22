@@ -24,11 +24,11 @@ Don't use ChatGPT or any other AI tool to help you.
 ## 🧰 Setup
 
 1. Get into pairs or groups of up to three.
-2. Make sure you have [a clone of the workshop code](https://github.com/Ara225/workshop-code/) repository on your local machine
+2. Make sure you have [a clone of the workshop code](https://github.com/CodeYourFuture/workshop-code/) repository on your local machine
 
-This workshop can be found here 👉 https://github.com/Ara225/workshop-code/tree/main/objects
+This workshop can be found here 👉 https://github.com/CodeYourFuture/workshop-code/tree/main/objects
 In this workshop, each file contains a different problem at a particular level.
 
 You should start this project at **Level 100** and then move through the levels in ascending order, **level 200**, **300** etc.
 
-➡️ [Go to Level 100](https://github.com/Ara225/workshop-code/blob/main/objects/100.js)
+➡️ [Go to Level 100](https://github.com/CodeYourFuture/workshop-code/blob/main/objects/100.js)

@@ -20,7 +20,7 @@ Explain the requirements of the workshop. You might want to talk about goals her
 
 Write your workshop in a index.md in a folder under `common-content/en/workshops` in the [curriculum repository](https://github.com/CodeYourFuture/curriculum)with the same name as the workshop. This makes it easy to find and easy to show on the curriculum website.
 
-Place any static files for your workshop in a folder named the same name under the `org-cyf/static/workshops` folder. Any code that the students need to edit or run on their machine should be in the [workshop code repository](https://github.com/Ara225/workshop-code)
+Place any static files for your workshop in a folder named the same name under the `org-cyf/static/workshops` folder. Any code that the students need to edit or run on their machine should be in the [workshop code repository](https://github.com/CodeYourFuture/workshop-code)
 
 ## Acceptance Criteria
 
