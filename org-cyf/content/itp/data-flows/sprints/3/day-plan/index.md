@@ -11,9 +11,13 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
+name="Your First Interview"
+src="blocks/your-first-interview"
+time=10
+[[blocks]]
 name= "Teamwork Project"
 src="blocks/teamwork-project-s3"
-time=140
+time=130
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
