@@ -20,8 +20,14 @@ Interviews can be stressful, especially if you have not done one before. That's 
 Being able to answer questions in an interview setting is a vital skill for employability, you won't get a job without this! It will also help to build on the earlier "Answering demo questions" workshop, and improve your ability to communicate about code with colleagues. This also acts as some practice in advance of the checkpoint that follows ITP.
 
 The key to interviews is being able to convince the interviewer that you fully understand the code in a project. We want to practice with a decent sized project, so here are some of the ones you could use:
-* From Data Groups: tic tac toe, alarm clock, quote generator, reading list, todo list, slideshow
-* From Data Flows: The TV Project (however much you have completed so far), the codewars API project
+* From Data Groups: [Tic Tac Toe](https://github.com/CodeYourFuture/Project-terminal-tic-tac-toe),
+[Alarm clock](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/alarmclock),
+[Quote generator](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/quote-generator),
+[Reading list](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/reading-list),
+[TODO list](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/todo-list),
+[Slideshow](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/slideshow)
+* From Data Flows: [The TV Project](https://github.com/CodeYourFuture/Project-TV-Show),
+[The Codewars API Project](https://github.com/CodeYourFuture/Project-Codewars-API)
 
 
 ## How the interview will go
