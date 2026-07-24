@@ -32,9 +32,10 @@ But what should it do with input like this?
 calculateMedian([]);
 calculateMedian("banana");
 calculateMedian("apple");
+calculateMedian(["ten", "twenty", "thirty"]);
 ```
 
-There is no median of an empty list. And a string isn't a list of numbers at all. But our implementation doesn't know that. It will happily return `NaN` for the empty array, `NaN` again for `"banana"`, and a plausible-looking `"p"` for `"apple"`. The results aren't just wrong, they're unpredictable: the same kind of bad input produces a different kind of bad output depending on exactly what you pass in.
+There is no median of an empty list. A string isn't a list of numbers at all. And a list of strings isn't a list of numbers either, even though it _is_ a list. But our implementation doesn't know any of that. It will happily return `NaN` for the empty array, `NaN` again for `"banana"`, a plausible-looking `"p"` for `"apple"`, and `"twenty"` for the list of strings, a value that looks entirely plausible, so nobody would even think to question it. The results aren't just wrong, they're unpredictable: the same kind of bad input produces a different kind of bad output depending on exactly what you pass in.
 
 This is a problem. The {{<tooltip title="caller">}}The caller of a function is the code that calls it, not a person. If `main` calls `calculateMedian(list)`, then `main` is the caller.{{</tooltip>}} of `calculateMedian` gets back a value that _looks_ like an answer, and carries on using it. The program doesn't fail here, where the mistake happened. It fails later, somewhere else, when that nonsense value gets used. Bugs like this are hard to track down because the error trace points far away from the real cause.
 
@@ -46,11 +47,19 @@ In Structuring Data, you interpreted error traces when JavaScript threw a `Synta
 
 ```js
 function calculateMedian(list) {
+  // Checking for a non-array
   if (!Array.isArray(list)) {
     throw new Error("calculateMedian requires an array of numbers");
   }
+  // Checking for an empty array
   if (list.length === 0) {
     throw new Error("calculateMedian requires a non-empty array");
+  }
+  // Checking for non-number items in the array
+  for (const item of list) {
+    if (typeof item !== "number") {
+      throw new Error("calculateMedian requires an array of numbers");
+    }
   }
   const middleIndex = Math.floor(list.length / 2);
   if (list.length % 2 === 0) {
@@ -60,13 +69,13 @@ function calculateMedian(list) {
 }
 ```
 
-[`Array.isArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) checks whether a value is an array. If the input isn't an array, or is an empty one, we `throw` a new [`Error`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) with a message explaining what went wrong.
+[`Array.isArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) checks whether a value is an array. We also check every element is a number, using `typeof`. If the input isn't an array, is empty, or contains anything that isn't a number, we `throw` a new [`Error`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) with a message explaining what went wrong.
 
 Save this in a file and try calling `calculateMedian([])`. The program stops and prints an error trace, just like the ones you interpreted before, except this time the message is one we wrote ourselves:
 
 ```console
 Error: calculateMedian requires a non-empty array
-    at calculateMedian (/Users/cyf/prep/median.js:6:11)
+    at calculateMedian (/Users/cyf/prep/median.js:8:11)
 ```
 
 Now the error points at the exact place the problem was detected, with a message saying what the problem is. That's much more useful to whoever calls our function than a mysterious `NaN`.
@@ -78,6 +87,10 @@ We can assert that a function throws using the [`toThrow`](https://jestjs.io/doc
 ```js
 test("throws an error when given an empty list", () => {
   expect(() => calculateMedian([])).toThrow();
+});
+
+test("throws an error when given an array with a non-number", () => {
+  expect(() => calculateMedian(["ten", "twenty", "thirty"])).toThrow("array of numbers");
 });
 ```
 
