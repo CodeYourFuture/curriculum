@@ -14,18 +14,6 @@ hide_from_overview = true
 
 +++
 
-TODO:
-
-- Initialise a repository in an empty folder
-- Create a text file
-- Add some content
-- Screenshots of UI changes
-- Make a commit
-- Add more content
-- Show changes in UI
-- Make another commit
-- Show history
-
 A **commit** is a saved version of your project at a particular moment in time. Think of it like saving a document, but with a detailed message explaining what changed and why.
 
 ### Understanding the Three States
