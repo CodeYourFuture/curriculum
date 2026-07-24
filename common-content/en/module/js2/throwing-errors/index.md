@@ -124,4 +124,4 @@ test("throws an error when given no argument", () => {
 });
 ```
 
-Note that we wrap the call in a function. If we called `calculateMedian([])` directly, the error would be thrown before `expect` could check anything.
+Note that we wrap the call in a function. When we call a function with arguments, those arguments get evaluated before the function is called. If we called `expect(calculateMedian([])).toThrow()` directly, the error would be thrown before `expect` was called, and so before `expect` could check anything.
