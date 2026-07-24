@@ -15,18 +15,18 @@ src="blocks/morning-orientation"
 time=15
 [[blocks]]
 name="Workshop: Developer Tools"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/devtools/"
+src="workshops/devtools/"
 time="115"
 [[blocks]]
 name="Workshop: Interview Introductions"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/interview-introductions/"
+src="workshops/interview-introductions/"
 time="30"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
-name="Workshop: Introducing AI Guidelines"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introducing-ai-guidelines/"
+name="Workshop: ITP AI Guidelines"
+src="workshops/itp-ai-guidelines"
 time=30
 [[blocks]]
 name="Blockers! Getting Unstuck"

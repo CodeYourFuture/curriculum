@@ -11,12 +11,15 @@ name = "Energiser"
 src = "energisers/binary"
 [[blocks]]
 name = "Workshop: Bits and Rats"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/bits-and-rats"
+src = "workshops/bits-and-rats"
 time = "90"
+[[blocks]]
+name = "Morning break"
+src = "blocks/morning-break"
 [[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "50"
+time = "35"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"

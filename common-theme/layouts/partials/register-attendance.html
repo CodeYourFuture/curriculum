@@ -62,7 +62,7 @@
   </datalist>
   </div>
   {{ end }}
-  <button class="e-button">Register</button>
+  <button type="submit" class="e-button">Register</button>
 </form>
 </section>
 
@@ -71,19 +71,30 @@
   const handleSubmit = (event) => {
     event.preventDefault();
     const registration = event.target;
+    const submitButton = registration.querySelector("button[type=submit]");
+    const originalLabel = submitButton.textContent;
+    submitButton.disabled = true;
+    submitButton.style.cursor = "not-allowed";
+    submitButton.textContent = "Saving…";
+
     const requestBody = {};
     const formData = new FormData(registration);
     for (const [key, value] of formData.entries()) {
       requestBody[key] = value;
     }
-  
+
     fetch("https://portal-backend.codeyourfuture.io/functions/v1/submit-class-register-form", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({"payload": {"data": requestBody}}),
     })
     .then(() => register.innerHTML = "<h3>✅ You signed in</h3>")
-    .catch((error) => alert(error));
+    .catch((error) => {
+      submitButton.disabled = false;
+      submitButton.style.cursor = "";
+      submitButton.textContent = originalLabel;
+      alert(error);
+    });
 };
 const register = document.getElementById("{{ $course }}")
 register.addEventListener("submit", handleSubmit);

@@ -19,7 +19,7 @@ name="Morning break"
 src="blocks/morning-break"
 [[blocks]]
 name="Pokedex Workshop"
-src="https://github.com/CodeYourFuture/CYF-Workshops/tree/main/react-pokedex/pokedex-4"
+src="workshops/react-pokedex/pokedex-4"
 time="45"
 [[blocks]]
 name="Lunch"
