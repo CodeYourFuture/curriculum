@@ -46,7 +46,7 @@ In Structuring Data, you [interpreted error traces](/itp/structuring-data/sprint
 
 ```js
 function calculateMedian(list) {
-  if (Array.isArray(list) === false) {
+  if (!Array.isArray(list)) {
     throw new Error("calculateMedian requires an array of numbers");
   }
   if (list.length === 0) {
