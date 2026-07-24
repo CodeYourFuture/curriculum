@@ -41,13 +41,27 @@ This is a problem. The {{<tooltip title="caller">}}The caller of a function is t
 
 When a function cannot do its job, it shouldn't guess. It should fail immediately and loudly, at the point where the problem is. We call this {{<tooltip title="failing fast">}}Failing fast means stopping as soon as we know something is wrong, instead of carrying on with bad data and failing later somewhere confusing.{{</tooltip>}}.
 
+What about calling it with no argument at all?
+
+```js
+calculateMedian();
+```
+
+This time our implementation does crash, straight away:
+
+```console
+TypeError: Cannot read properties of undefined (reading 'length')
+```
+
+Here, at least, we get an error message. But it comes from the JavaScript engine, not from us, and it doesn't explain what's wrong: it doesn't mention `calculateMedian`, or say that a list was expected. Whoever hits this has to read our code to work out what actually went wrong. If we check for a missing argument ourselves, we can throw a message that says exactly that, straight away.
+
 ### Using `throw`
 
 In Structuring Data, you interpreted error traces when JavaScript threw a `SyntaxError` at you. We can also {{<tooltip title="throw">}}Throwing an error stops normal execution immediately. The error travels up through the calling functions until something handles it. If nothing handles it, the program crashes and prints the error trace.{{</tooltip>}} errors from our own code, using the `throw` keyword:
 
 ```js
 function calculateMedian(list) {
-  // Checking for a non-array
+  // Checking for a non-array (including no argument at all)
   if (!Array.isArray(list)) {
     throw new Error("calculateMedian requires an array of numbers");
   }
@@ -91,6 +105,10 @@ test("throws an error when given an empty list", () => {
 
 test("throws an error when given an array with a non-number", () => {
   expect(() => calculateMedian(["ten", "twenty", "thirty"])).toThrow("array of numbers");
+});
+
+test("throws an error when given no argument", () => {
+  expect(() => calculateMedian()).toThrow("array of numbers");
 });
 ```
 
