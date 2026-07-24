@@ -1,7 +1,7 @@
 +++
 title = 'Throwing errors'
 
-time = 15
+time = 20
 [objectives]
     1='Explain what happens when an error is thrown'
     2='Throw an error when a function cannot do its job'
@@ -100,15 +100,27 @@ We can assert that a function throws using the [`toThrow`](https://jestjs.io/doc
 
 ```js
 test("throws an error when given an empty list", () => {
-  expect(() => calculateMedian([])).toThrow();
+  expect(() => calculateMedian([])).toThrow(
+    new Error("calculateMedian requires a non-empty array")
+  );
+});
+
+test("throws an error when given something that isn't an array", () => {
+  expect(() => calculateMedian("banana")).toThrow(
+    new Error("calculateMedian requires an array of numbers")
+  );
 });
 
 test("throws an error when given an array with a non-number", () => {
-  expect(() => calculateMedian(["ten", "twenty", "thirty"])).toThrow("array of numbers");
+  expect(() => calculateMedian(["ten", "twenty", "thirty"])).toThrow(
+    new Error("calculateMedian requires an array of numbers")
+  );
 });
 
 test("throws an error when given no argument", () => {
-  expect(() => calculateMedian()).toThrow("array of numbers");
+  expect(() => calculateMedian()).toThrow(
+    new Error("calculateMedian requires an array of numbers")
+  );
 });
 ```
 
