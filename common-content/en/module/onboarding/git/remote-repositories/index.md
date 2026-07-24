@@ -26,6 +26,8 @@ So far, our commits are saved on our computer. A **remote repository** is a copy
 
 ### Local vs Remote
 
+TODO: fix diagram
+
 ```mermaid
 
 flowchart LR
@@ -48,7 +50,7 @@ B--"pull"-->A
 7. **Don't** initialize with README, .gitignore, or license
 8. Click **"Create repository"**
 
-{{<note type="info" title="Why Not Initialize with README?">}}
+{{<note type="info" title="Why not initialize with README?">}}
 If you initialize with files on GitHub, your local and remote repositories will be different, which causes conflicts. Since we already have commits locally, we'll connect them directly.
 {{</note>}}
 
@@ -56,63 +58,38 @@ If you initialize with files on GitHub, your local and remote repositories will 
 
 GitHub will show you a page with instructions. You need to tell your local Git about this remote repository.
 
-In your terminal, run:
+First copy the url to your clipboard.
 
-```
-git remote add origin https://github.com/YOUR-USERNAME/my-first-project.git
-```
+![github url for a newly created repo](github-new-repo.png)
 
-Replace `YOUR-USERNAME` with your GitHub username and `my-first-project` with your repository name.
+Then go back to VSCode's version control tab, expand the menu next to the repo name and go down to "remotes". Select "Add remote".
 
-**What does this do?**
-- `git remote add` - Add a new remote
-- `origin` - The name of the remote (default name)
-- The URL - Where the remote repository lives
+![adding a remote in VSCode](add-remote-vscode.png)
 
-### Step 3: Verify the Connection
+In the dialogue box which appears paste the url you copied from GitHub.
 
-Check that the connection was made:
+![pasting remote url](remote-url.png)
 
-```
-git remote -v
-```
+Finally give the remote a name. For now we will give it the name `origin`. We _could_ name it anything we like, but we will follow convention.
 
-You should see:
-```
-origin  https://github.com/YOUR-USERNAME/my-first-project.git (fetch)
-origin  https://github.com/YOUR-USERNAME/my-first-project.git (push)
-```
+![naming the remote](naming-remote.png)
 
-This means your local repository knows how to reach GitHub!
+We have now linked our local repository with our GitHub repository!
 
-### Step 4: Set Your Default Branch
+#### Understanding "origin" and "main"
 
-By default, Git uses "main" as the primary branch. Let's set this:
+There are two terms we have seen now which are probably unfamiliar. Both are important and we'll learn more about why in the coming weeks.
 
-```
-git branch -M main
-```
+- `origin` - The name used to refer to your remote repository (GitHub). 
+- `main` - The name of your default **branch**. 
 
-### Understanding "origin" and "main"
-
-- **origin** - The name of your remote repository (GitHub)
-- **main** - The name of your default branch (like the main storyline of your project)
-
-Think of it like:
-- You have a story (your project)
-- It lives in two places: Your notebook (local) and a backup server (origin/main)
-
-{{<note type="tip" title="Branches">}}
+{{<note type="definition" title="Definition: Branches">}}
 A branch is like an alternative version of your project. Most projects have a "main" branch (the stable version) and feature branches (experimental versions). For now, you'll only use "main".
 {{</note>}}
 
-### Checking Your Remote
-
-If you ever want to see details about your remote:
-
-```
-git remote show origin
-```
+{{<note type="definition" title="Definition: Remotes">}}
+A remote is a place we can upload our code to. We have already created our `origin` remote but we may also want to create others if we want to share our code somewhere else. For example, if we wanted to host a website on AWS we would need to create a remote there too.
+{{</note>}}
 
 ### What's Next?
 
@@ -121,20 +98,3 @@ Now that your repositories are connected, you're ready to:
 - **Pull** - Get updates from GitHub
 - **Collaborate** - Work with other developers
 
-You'll learn these in the next module!
-
-### Common Commands
-
-| Command                       | What it does                 |
-| ----------------------------- | ---------------------------- |
-| `git remote add origin <url>` | Connect local repo to GitHub |
-| `git remote -v`               | Show all remote connections  |
-| `git remote show origin`      | Show details about origin    |
-| `git branch -M main`          | Set main as default branch   |
-
-### Further Reading
-
-- [GitHub Docs - Adding a Repository](https://docs.github.com/en/migrations/importing-your-projects-to-github/importing-a-repository-with-github-importer)
-- [Atlassian - Git Remote](https://www.atlassian.com/git/tutorials/syncing)
-- [GitHub Docs - Managing Remote Repositories](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
-```
