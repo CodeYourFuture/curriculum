@@ -12,7 +12,7 @@ src = "blocks/demo"
 time = "30"
 [[blocks]]
 name = "TypeScript Workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/introduction-to-typescript"
+src = "workshops/introduction-to-typescript"
 time = "90"
 [[blocks]]
 name = "Morning break"

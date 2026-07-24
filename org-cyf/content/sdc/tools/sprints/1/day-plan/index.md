@@ -21,7 +21,7 @@ name = "Morning break"
 src = "blocks/morning-break"
 [[blocks]]
 name = "Using a project board workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
+src = "workshops/projectboard"
 time = "45"
 [[blocks]]
 name = "Study Group"
@@ -32,7 +32,7 @@ name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
 name = "Terminal skills workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
+src = "workshops/terminal-skills"
 time = "60"
 [[blocks]]
 name = "Study Group"

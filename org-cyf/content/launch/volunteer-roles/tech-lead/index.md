@@ -42,6 +42,6 @@ You can see [The Launch schedule and content](/) to get familiar with what will 
   * RESTful Services & APIs.
 * **Ensure the application is ready for production deployment**. Your team will have limited experience of a deployment workflow without many of the steps typically involved in an industry setting.
   * Support the team in their research of CYF's production stack.
-  * We don't expect applications to be fully ready for deployment at the end of the project, but they should be designed with that ultimate goal in mind and any remaining steps should be clearly documented.
+  * We don't expect applications to be fully ready for production-grade deployment at the end of the project, but they should be deployed, and should be designed with production-grade deployment in mind and any remaining steps should be clearly documented.
   * A production-ready MVP is the preferred outcome compared to a feature-complete application which would need changes before deployment.
 * **Write an assessment of every trainee in your team**. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).

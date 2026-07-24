@@ -39,7 +39,7 @@ A successful Launch Project must meet these criteria:
 ## 🧑🏾‍🤝‍🧑🏼 Team criteria {#team}
 
 - The Launch Project trainees must work together in an Agile team.
-- Developers must meet [the contribution guidelines](/sprints/1/prep/#contributions).
+- Developers must meet [the contribution guidelines](/launch/sprints/1/prep/#contributions).
 
 ## In other words
 
