@@ -42,7 +42,7 @@ When a function cannot do its job, it shouldn't guess. It should fail immediatel
 
 ### Using `throw`
 
-In Structuring Data, you [interpreted error traces](/itp/structuring-data/sprints/2/prep/#interpreting-this-error) when JavaScript threw a `SyntaxError` at you. Now we can {{<tooltip title="throw">}}Throwing an error stops normal execution immediately. The error travels up through the calling functions until something handles it. If nothing handles it, the program crashes and prints the error trace.{{</tooltip>}} errors from our own code, using the `throw` keyword:
+In Structuring Data, you [interpreted error traces](/itp/structuring-data/sprints/2/prep/#interpreting-this-error) when JavaScript threw a `SyntaxError` at you. We can also {{<tooltip title="throw">}}Throwing an error stops normal execution immediately. The error travels up through the calling functions until something handles it. If nothing handles it, the program crashes and prints the error trace.{{</tooltip>}} errors from our own code, using the `throw` keyword:
 
 ```js
 function calculateMedian(list) {
