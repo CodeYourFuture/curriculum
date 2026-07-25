@@ -26,17 +26,12 @@ So far, our commits are saved on our computer. A **remote repository** is a copy
 
 ### Local vs Remote
 
-TODO: fix diagram
-
 ```mermaid
-
 flowchart LR
-
-A["`Local Repository
-(On your computer)`"] --"push"--> B["`Remote Repository
-(GitHub)`"]
-B--"pull"-->A
-
+  A["`Local Repository
+  (On your computer)`"] --"push"--> B["`Remote Repository
+  (GitHub)`"]
+  B--"pull"-->A
 ```
 
 ### Step 1: Create a Repository on GitHub
