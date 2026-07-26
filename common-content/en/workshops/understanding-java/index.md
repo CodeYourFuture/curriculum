@@ -56,7 +56,7 @@ Identify what things you don't know, or haven't seen before in another language.
 
 Identify what things you _have_ seen in another language, and what the equivalent code in that language may be.
 
-## Discuss new is similar and what is new (15 minutes)
+## Discuss what is similar and what is new (15 minutes)
 
 Popcorn around your group discussing what things in this code are _similar_ to what you've seen in other languages, and what things are different.
 
