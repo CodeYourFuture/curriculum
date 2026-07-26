@@ -1,0 +1,1311 @@
+{
+    "courses": {
+        "itp": {
+            "modules": [
+                {
+                    "name": "Welcome to Code Your Future",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Welcome/issues/3",
+                                    "submit": "None",
+                                    "title": "Complete the start survey"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Welcome/issues/2",
+                                    "submit": "None",
+                                    "title": "Fill out the GitHub Username Form"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Welcome/issues/1",
+                                    "submit": "None",
+                                    "title": "Join Slack channels for your region and batch"
+                                }
+                            ],
+                            "name": "Welcome to Code Your Future"
+                        }
+                    ]
+                },
+                {
+                    "name": "Onboarding",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/108",
+                                    "submit": "None",
+                                    "title": "Fill out the GitHub Username Form"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/19",
+                                    "submit": "PR",
+                                    "title": "Form Controls"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/67",
+                                    "submit": "Issue",
+                                    "title": "Help me with my kid's homework"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/44",
+                                    "submit": "Issue",
+                                    "title": "Manage time with your calendar"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/9",
+                                    "submit": "None",
+                                    "title": "Naming accounts consistently"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/73",
+                                    "submit": "None",
+                                    "title": "Plan your life as a tech professional"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/68",
+                                    "submit": "Issue",
+                                    "title": "Tell us about yourself using GitHub"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/22",
+                                    "submit": "PR",
+                                    "title": "Bikes for Refugees"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/918",
+                                    "submit": "None",
+                                    "title": "Attend a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/34",
+                                    "submit": "None",
+                                    "title": "Do the Prep"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/734",
+                                    "submit": "None",
+                                    "title": "Get Code Review and Iterate"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/60",
+                                    "submit": "None",
+                                    "title": "Check module success criteria"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/70",
+                                    "submit": "None",
+                                    "title": "Read and watch How This Works"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/46",
+                                    "submit": "Issue",
+                                    "title": "Create your Development Plan"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/4",
+                                    "submit": "Issue",
+                                    "title": "Format data with Google Sheets"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/8",
+                                    "submit": "None",
+                                    "title": "Prepare for the Asking Questions workshop"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/17",
+                                    "submit": "PR",
+                                    "title": "Wireframe to Web Code"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/62",
+                                    "submit": "Slack",
+                                    "title": "Optional Coursework feedback"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/58",
+                                    "submit": "None",
+                                    "title": "Prepare to enroll as a trainee"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/34",
+                                    "submit": "None",
+                                    "title": "Do the Prep"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/734",
+                                    "submit": "None",
+                                    "title": "Get Code Review and Iterate"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/38",
+                                    "submit": "Issue",
+                                    "title": "Communicate at work using Google Doc and Slides"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/40",
+                                    "submit": "Slack",
+                                    "title": "Developing a growth mindset "
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/5",
+                                    "submit": "Issue",
+                                    "title": "Evaluate, and interpret data with Google Sheets"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/935",
+                                    "submit": "None",
+                                    "title": "Mandatory Onboarding Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/53",
+                                    "submit": "None",
+                                    "title": "Prepare for the Devtools workshop"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/6",
+                                    "submit": "Issue",
+                                    "title": "Query Data in Google Sheets with SQL"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/26",
+                                    "submit": "Slack",
+                                    "title": "Record a Goose"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/54",
+                                    "submit": "Issue",
+                                    "title": "Reflect on your plan to live as a tech professional"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/7",
+                                    "submit": "Issue",
+                                    "title": "SQL Problems using Google Sheets"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/221",
+                                    "submit": "Slack",
+                                    "title": "Collect your self study courses"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/918",
+                                    "submit": "None",
+                                    "title": "Attend a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/34",
+                                    "submit": "None",
+                                    "title": "Do the Prep"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/734",
+                                    "submit": "None",
+                                    "title": "Get Code Review and Iterate"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/39",
+                                    "submit": "Slack",
+                                    "title": "Enrolment Part 1: Join Codewars"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/570",
+                                    "submit": "None",
+                                    "title": "Enrolment Part 2: Complete Step1 - Onboarding"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Onboarding/issues/72",
+                                    "submit": "None",
+                                    "title": "Enrolment Part 3: Enroll as a Trainee"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structuring and testing data",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/35",
+                                    "submit": "PR",
+                                    "title": "Complete Sprint 1 Coursework"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/899",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 1 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/9",
+                                    "submit": "None",
+                                    "title": "Review your development plan"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/906",
+                                    "submit": "None",
+                                    "title": "Workshop Preparation: Asking Questions"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/1295",
+                                    "submit": "None",
+                                    "title": "Workshop Preparation: Screen Safari"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/449",
+                                    "submit": "Issue",
+                                    "title": "Writing an email for an internship"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/902",
+                                    "submit": "None",
+                                    "title": "Stretch Codewars Katas"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/897",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/28",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/3",
+                                    "submit": "None",
+                                    "title": "Check module success criteria"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/218",
+                                    "submit": "None",
+                                    "title": "Check your setup"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/39",
+                                    "submit": "None",
+                                    "title": "Do you need support to continue studying?"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/11",
+                                    "submit": "Issue",
+                                    "title": "Ask a good question for real"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/16",
+                                    "submit": "None",
+                                    "title": "Asking for feedback"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/7",
+                                    "submit": "PR",
+                                    "title": "Complete Sprint 2 coursework"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/900",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 2 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/24",
+                                    "submit": "None",
+                                    "title": "Play the CLI Treasure Hunt"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/18",
+                                    "submit": "Issue",
+                                    "title": "Writing a meeting request email"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/902",
+                                    "submit": "None",
+                                    "title": "Stretch Codewars Katas"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/28",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/6",
+                                    "submit": "PR",
+                                    "title": "Complete Sprint 3 implement and rewrite tests coursework"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/695",
+                                    "submit": "PR",
+                                    "title": "Complete Sprint 3 practice TDD coursework"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/1291",
+                                    "submit": "None",
+                                    "title": "Complete the mid-way survey"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/15",
+                                    "submit": "Issue",
+                                    "title": "Learn from rejections"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/901",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 3 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/1",
+                                    "submit": "None",
+                                    "title": "Play the Bandit"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/696",
+                                    "submit": "PR",
+                                    "title": "Complete Sprint 3 stretch coursework"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/903",
+                                    "submit": "PR",
+                                    "title": "Refactoring Dead Code"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/902",
+                                    "submit": "None",
+                                    "title": "Stretch Codewars Katas"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/2",
+                                    "submit": "None",
+                                    "title": "Watch the VSCode Debugger Video"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/897",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Structuring-and-Testing-Data/issues/28",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Data groups",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/15",
+                                    "submit": "PR",
+                                    "title": "Complete sprint 1 exercises"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/23",
+                                    "submit": "Issue",
+                                    "title": "Create or review your CV"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/5",
+                                    "submit": "None",
+                                    "title": "Explore the network tab"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/936",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 1 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/34",
+                                    "submit": "None",
+                                    "title": "Play the Bandit"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/22",
+                                    "submit": "None",
+                                    "title": "Read and practice: The Cycles of TDD"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/29",
+                                    "submit": "Issue",
+                                    "title": "Review your development plan"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/939",
+                                    "submit": "None",
+                                    "title": "Stretch Sprint 1 Codewars Katas"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/31",
+                                    "submit": "None",
+                                    "title": "Codewars: Data Groups and Demos"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/794",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/38",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/6",
+                                    "submit": "None",
+                                    "title": "Check module success criteria"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/14",
+                                    "submit": "PR",
+                                    "title": "Complete sprint 2 exercises"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/49",
+                                    "submit": "None",
+                                    "title": "Group Project: Tic-Tac-Toe - Steps 1 to 6"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/937",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 2 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/34",
+                                    "submit": "None",
+                                    "title": "Play the Bandit"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/601",
+                                    "submit": "None",
+                                    "title": "Read about Mental Models"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/13",
+                                    "submit": "Issue",
+                                    "title": "Review a fellow trainee's CV"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/944",
+                                    "submit": "Issue",
+                                    "title": "Working with your team"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/945",
+                                    "submit": "Issue",
+                                    "title": "Giving feedback on the e-mails"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/53",
+                                    "submit": "Issue",
+                                    "title": "LinkedIn research "
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/12",
+                                    "submit": "Slack",
+                                    "title": "Make a business proposal to take a risk"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/940",
+                                    "submit": "None",
+                                    "title": "Stretch Sprint 2 Codewars Katas"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/32",
+                                    "submit": "None",
+                                    "title": "Codewars: Time traveller"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/38",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/20",
+                                    "submit": "PR",
+                                    "title": "Build a quote generator app"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/8",
+                                    "submit": "PR",
+                                    "title": "Build a todo-list app"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/26",
+                                    "submit": "PR",
+                                    "title": "Build an alarm clock app"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/2",
+                                    "submit": "None",
+                                    "title": "Do the Chrome Debugger Mini Workshop"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/50",
+                                    "submit": "Issue",
+                                    "title": "Group Project: Tic-Tac-Toe - Steps 7 to 10"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/938",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 3 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/9",
+                                    "submit": "Slack",
+                                    "title": "Share one resource to the CYF community on Slack"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/10",
+                                    "submit": "None",
+                                    "title": "The Brag Diary"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/16",
+                                    "submit": "Slack",
+                                    "title": "Apply Magic Sauce"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/18",
+                                    "submit": "PR",
+                                    "title": "Build a reading list display"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/7",
+                                    "submit": "PR",
+                                    "title": "Build a slideshow app"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/941",
+                                    "submit": "None",
+                                    "title": "Stretch Sprint 3 Codewars Katas"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/794",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Groups/issues/38",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Data flows",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/30",
+                                    "submit": "Slack",
+                                    "title": "Check out an API response"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/371",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 1 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/24",
+                                    "submit": "PR",
+                                    "title": "Object Destructuring"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/26",
+                                    "submit": "None",
+                                    "title": "Play the Bandit"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/247",
+                                    "submit": "None",
+                                    "title": "Read about team roles"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/44",
+                                    "submit": "Issue",
+                                    "title": "TV Show Project"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/474",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 0: Set up project"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/475",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 100: Display information about every episode of a single TV show."
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/6",
+                                    "submit": "None",
+                                    "title": "Technical Writing"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/323",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/37",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                },
+                                {
+                                    "category": "setup",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/5",
+                                    "submit": "None",
+                                    "title": "Check module success criteria"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/31",
+                                    "submit": "PR",
+                                    "title": "Book Library"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/12",
+                                    "submit": "Issue",
+                                    "title": "Linkedin Social Selling Index"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/372",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 2 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/484",
+                                    "submit": "None",
+                                    "title": "Prepare a demo for Q&A workshop"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/476",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 200: Swap Codebases"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/477",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 300: Swap back to your old codebase"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/8",
+                                    "submit": "Issue",
+                                    "title": "Your LinkedIn tips"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/13",
+                                    "submit": "Issue",
+                                    "title": "Your SWOT analysis"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/7",
+                                    "submit": "None",
+                                    "title": "Review your Development Plan"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/37",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/373",
+                                    "submit": "None",
+                                    "title": "Mandatory Sprint 3 Codewars Katas"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/26",
+                                    "submit": "None",
+                                    "title": "Play the Bandit"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/25",
+                                    "submit": "PR",
+                                    "title": "Programmer Humour"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/11",
+                                    "submit": "Issue",
+                                    "title": "Review your peers' LinkedIn profile"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/51",
+                                    "submit": "None",
+                                    "title": "Think about what to do next"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/478",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 400:  Fetch much more data"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/479",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 500: Build a front page"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/1",
+                                    "submit": "PR",
+                                    "title": "Codewars API Project"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/23",
+                                    "submit": "None",
+                                    "title": "Hammock Driven Development"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/21",
+                                    "submit": "PR",
+                                    "title": "JavaScript Challenges"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/480",
+                                    "submit": "None",
+                                    "title": "TV Show Project Level 999: Stretch"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/323",
+                                    "submit": "None",
+                                    "title": "Give a demo in a demo session"
+                                },
+                                {
+                                    "category": "recurring",
+                                    "src": "https://github.com/CodeYourFuture/Module-Data-Flows/issues/37",
+                                    "submit": "None",
+                                    "title": "Mentored pair programming"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        }
+                    ]
+                }
+            ],
+            "name": "Intro to Programming"
+        },
+        "sdc": {
+            "modules": [
+                {
+                    "name": "Tools",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/4",
+                                    "submit": "PR",
+                                    "title": "Individual shell tools exercises"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/3",
+                                    "submit": "PR",
+                                    "title": "Number systems exercises"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/6",
+                                    "submit": "PR",
+                                    "title": "jq exercises"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/12",
+                                    "submit": "None",
+                                    "title": "Prepare for programming language concepts discussion"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/5",
+                                    "submit": "PR",
+                                    "title": "Shell pipelines exercises"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/8",
+                                    "submit": "PR",
+                                    "title": "Implement shell tools (cat, ls, wc) in JavaScript with NodeJS"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/10",
+                                    "submit": "PR",
+                                    "title": "Implement cowsay in Python"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/9",
+                                    "submit": "PR",
+                                    "title": "Implement shell tools (cat, ls, wc) in Python"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/480",
+                                    "submit": "None",
+                                    "title": "Install a JDK"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/137",
+                                    "submit": "Slack",
+                                    "title": "Write a general CV"
+                                }
+                            ],
+                            "name": "Sprint 4"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/178",
+                                    "submit": "PR",
+                                    "title": "Prep Exercises"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Tools/issues/179",
+                                    "submit": "PR",
+                                    "title": "Implement laptop allocation"
+                                }
+                            ],
+                            "name": "Sprint 5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Logic",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Logic/issues/2",
+                                    "submit": "None",
+                                    "title": "Prepare your lesson on logic"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Logic/issues/3",
+                                    "submit": "None",
+                                    "title": "Solve the 1000 Wine Bottle Problem"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Decomposition",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/1",
+                                    "submit": "Issue",
+                                    "title": "Deploy Quote Frontend and Backend"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/22",
+                                    "submit": "None",
+                                    "title": "Make sure you have your CV Personal Statement"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/5",
+                                    "submit": "None",
+                                    "title": "Read about User Journey Mapping"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/2",
+                                    "submit": "PR",
+                                    "title": "Chat App"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/6",
+                                    "submit": "None",
+                                    "title": "Read about Feature Prioritisation"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/3",
+                                    "submit": "Issue",
+                                    "title": "Refine your Chat Application ticket"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Decomposition/issues/4",
+                                    "submit": "PR",
+                                    "title": "Middleware exercises"
+                                }
+                            ],
+                            "name": "Sprint 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Legacy code",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/24",
+                                    "submit": "None",
+                                    "title": "Practice a mock Behavioural Interview"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/6",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: Bug Report: Can't log in from profile page"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/4",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: Bug Report: Extra long blooms?"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/5",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: Bug Report: Hashtag link doesn't work correctly"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/3",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: Bug Report: Hashtag slowing down my browser"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/9",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: New Feature: Rebloom"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Legacy-Code/issues/8",
+                                    "submit": "PR",
+                                    "title": "Purple Forest: New Feature: Unfollow"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Complexity",
+                    "sprints": [
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/3",
+                                    "submit": "PR",
+                                    "title": "Analyse and Refactor Functions"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/1",
+                                    "submit": "None",
+                                    "title": "Complete Space and Time Complexity in Data Structure and Algorithms"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/25",
+                                    "submit": "None",
+                                    "title": "Practice a mock Technical Interview"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/4",
+                                    "submit": "None",
+                                    "title": "Prepare your lesson on complexity"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/6",
+                                    "submit": "None",
+                                    "title": "Read Chapter 8 of How Computers Really Work"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/2",
+                                    "submit": "None",
+                                    "title": "Research Complexity using the Google DSA path"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/5",
+                                    "submit": "None",
+                                    "title": "Codewars Fibonacci Series"
+                                }
+                            ],
+                            "name": "Sprint 1"
+                        },
+                        {
+                            "backlog_tasks": [
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/9",
+                                    "submit": "PR",
+                                    "title": "Implement a linked list in Python"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/10",
+                                    "submit": "PR",
+                                    "title": "Implement an LRU cache in Python"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/11",
+                                    "submit": "PR",
+                                    "title": "Improve code with caches"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/12",
+                                    "submit": "PR",
+                                    "title": "Improve code with precomputing"
+                                },
+                                {
+                                    "category": "mandatory",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/7",
+                                    "submit": "None",
+                                    "title": "Read about Acceptance Criteria"
+                                },
+                                {
+                                    "category": "optional",
+                                    "src": "https://github.com/CodeYourFuture/Module-Complexity/issues/13",
+                                    "submit": "PR",
+                                    "title": "Implement a Skip List"
+                                }
+                            ],
+                            "name": "Sprint 2"
+                        }
+                    ]
+                }
+            ],
+            "name": "Software Development"
+        }
+    }
+}

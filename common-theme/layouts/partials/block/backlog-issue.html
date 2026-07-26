@@ -1,6 +1,6 @@
 <details class="c-issue">
     <summary class="c-issue__title e-heading__3">
-        {{ .block.name }}
+        {{ .block.title }}
         <a class="c-issue__link" href="{{ .block.src }}">🔗</a>
         <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .block.number "module" .block.repo "sprint"
             .sprint "prevURL" (urls.AbsLangURL .path) | jsonify }}" class="e-button"
