@@ -5,7 +5,7 @@ objectives = [
   "Define a method.",
   "Define a free function.",
   "Explain why methods can be more useful than free functions.",
-  "Explain how encapsulation can .",
+  "Explain how encapsulation can benefit class design.",
   "Amend a method on a class.",
 ]
 
