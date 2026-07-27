@@ -21,7 +21,7 @@ That's why we're doing one now!
 There is no pass or fail here, and you can share your experiences with the rest of the class.
 
 Being able to answer questions in an interview setting is a vital skill for employability, you won't get a job without this!
-It will also help to build on the earlier "Answering demo questions" workshop, and improve your ability to communicate about code with colleagues.
+This will build on the earlier "Answering demo questions" workshop, and improve your ability to communicate about code with colleagues.
 This is also practice before the Checkpoint stage.
 
 The key to interviews is being able to convince the interviewer that you fully understand the code in a project.
