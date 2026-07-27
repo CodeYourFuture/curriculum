@@ -99,14 +99,14 @@ function render() {
       continue;
     }
 
-    awaitingReviewByAge[pr.module][pr.updatedAge]++;
+    awaitingReviewByAge[pr.module][pr.createdAge]++;
     prsByModule[pr.module].push(pr);
   }
   for (const module of modules) {
     prsByModule[module].sort((l, r) => {
-      if (l.updatedAge > r.updatedAge) {
+      if (l.createdAge > r.createdAge) {
         return 1;
-      } else if (l.updatedAge < r.updatedAge) {
+      } else if (l.createdAge < r.createdAge) {
         return -1;
       } else {
         return l.number - r.number;
@@ -174,7 +174,7 @@ function render() {
             .content.cloneNode(true);
 
           const emojiElement = prInList.querySelector(".emoji");
-          emojiElement.innerText = ageToEmoji[pr.updatedAge];
+          emojiElement.innerText = ageToEmoji[pr.createdAge];
           if (pr.hasReviewer()) {
             emojiElement.innerText += "🙋🏾";
             const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
