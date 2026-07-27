@@ -13,7 +13,7 @@ objectives = [
   publishResources = false
 +++
 
-Throughout ITP you have now had experience building projects, giving demos, and now it's time to put it all together.
+Throughout ITP you have had experience building projects, giving demos, and now it's time to put it all together.
 During today's class, you will take part in a very short interview where you can practice with an interviewer during a discussion about a recent project you built.
 
 Interviews can be stressful, especially if you have not done one before.
