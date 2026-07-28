@@ -1,21 +1,21 @@
 // 400/700/900
 function badness(name, count) {
-  if ((name === "old" || name == "this month") && count > 0) {
+  if ((name === "old" || name == "week") && count > 0) {
     return 900;
   }
-  if (name === "this week" && count > 20) {
+  if (name === "recent" && count > 20) {
     return 900;
   }
-  if (name === "this week" && count > 10) {
+  if (name === "recent" && count > 10) {
     return 700;
   }
   return 400;
 }
 
 const ageToEmoji = {
-  "this week": "🟢",
-  "this month": "🟠",
-  old: "🔴",
+  "recent": "🟢",
+  "week": "🟠",
+  "old": "🔴",
 };
 
 function computeStatusClass(awaitingReview) {
@@ -78,9 +78,9 @@ function render() {
 
   for (const module of modules) {
     awaitingReviewByAge[module] = {
-      "this week": 0,
-      "this month": 0,
-      old: 0,
+      "recent": 0,
+      "week": 0,
+      "old": 0,
     };
     prsByModule[module] = [];
   }
@@ -130,6 +130,7 @@ function render() {
       .querySelector("template.overview-card")
       .content.cloneNode(true);
     fillWithModuleHeading(overviewCard.querySelector(".module"), module, totalPending);
+    overviewCard.querySelector('.pr-total-count').innerText = totalPending;
     for (const [age, count] of Object.entries(awaitingReview)) {
       const bucket = overviewCard.querySelector(
         `.age-bucket.${age.replaceAll(" ", "-")} + .count`
@@ -173,13 +174,12 @@ function render() {
             .content.cloneNode(true);
 
           const emojiElement = prInList.querySelector(".emoji");
+          emojiElement.innerText = ageToEmoji[pr.updatedAge];
           if (pr.hasReviewer()) {
-            emojiElement.innerText = "🙋🏾";
+            emojiElement.innerText += "🙋🏾";
             const reviewers = [...new Set(pr.reviews.filter((reviewer) => !reviewer.isPrAuthor).map((reviewer) => reviewer.userName))];
             const maybeS = reviewers.length === 1 ? "" : "s";
             emojiElement.title = `Has reviewer${maybeS}: ${reviewers.join(", ")}`;
-          } else {
-            emojiElement.innerText = ageToEmoji[pr.updatedAge];
           }
 
           const prLink = prInList.querySelector("a.pr-link");
@@ -243,10 +243,9 @@ const regionAliases = {
 const fillWithModuleHeading = (container, module, pending) => {
   container.innerText = "";
   const link = document.createElement("a");
-  link.innerText = module;
+  link.innerText = module.replace("Module-","");
   link.href = `https://github.com/CodeYourFuture/${module}/pulls`;
-  const text = document.createTextNode(` (${pending})`);
-  container.append(link, text);
+  container.append(link);
 }
 
 const makeRegionOption = (label, value) => {

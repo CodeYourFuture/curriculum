@@ -1,6 +1,6 @@
 +++
 title = "Falsification"
-time = 45
+time = 30
 [build]
   render = 'never'
   list = 'local'
@@ -34,7 +34,7 @@ stateDiagram-v2
 
 {{</columns>}}
 
-This is a subtle distinction: _dis_ confirmation is the mental model we must build here. In 20 Questions we discovered our problem space by confirming _and_ disconfirming our guesses. In [Zendo](https://www.looneylabs.com/games/zendo), we will try to discover the rule governing pyramid patterns not by _confirming_ our guesses, but by _eliminating_ what's impossible
+This is a subtle distinction: _dis_ confirmation is the mental model we must build here. In 20 Questions we discovered our problem space by confirming _and_ disconfirming our guesses. In the game [Zendo](https://www.looneylabs.com/games/zendo), players try to discover the rule governing pyramid patterns not by _confirming_ their guesses, but by _eliminating_ what's impossible
 
 Here's a [classic example](https://simple.wikipedia.org/wiki/Falsifiability):
 
@@ -62,10 +62,12 @@ flowchart TD
 
 It is more efficient to find a way to disprove your hypothesis or falsify your proposition, if you can. This is because you only need to disprove something once to discard it, but you may apparently verify a hypothesis many times in many different ways and still be wrong.
 
-Now, practice eliminating possibilities in [Zendo](https://www.koryheath.com/zendo/). For this game you need a group, so post in Slack to find others to play with.
+Now practice eliminating possibilities with this short puzzle, based on a famous 1960 experiment by the psychologist Peter Wason. Before you test each sequence, ask yourself: what result would prove my idea _wrong_?
 
 {{<blocklink
-  src="https://www.perlkonig.com/zendo/"
-  name="Zendo"
+  src="https://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html"
+  name="Guess the rule"
   caption="Eliminate to learn"
-  time="30" >}}
+  time="15" >}}
+
+If you ever get the chance to play [Zendo](https://www.koryheath.com/zendo/) in person, for example at your weekly class or whenever a group of you are together, take it. It's a brilliant way to practice falsification with a group.

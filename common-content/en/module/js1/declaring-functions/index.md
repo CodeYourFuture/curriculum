@@ -4,6 +4,7 @@ title = 'Declaring functions'
 time = 40
 [objectives]
     1='Label and describe the syntactic features of a function declaration'
+    2='Declare your own function using a function declaration'
 [build]
   render = 'never'
   list = 'local'

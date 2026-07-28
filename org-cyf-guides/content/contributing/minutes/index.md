@@ -16,6 +16,53 @@ Attendees:
 ### ❗Actions
 
 ---
+## 14-07-2026
+
+Attendees: Abdishakoor, Daniel, Colin, CJ, Ali
+
+### ❗Actions from last time
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [x] Liam: (Carry Over) Setup reminder in the curriculum-feedback channel
+- [x] CJ: Remove CSS from the Wireframe exercise
+- [ ] Daniel: Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+Daniel continues splitting up the SDC legacy code module and is getting help with a second legacy module.
+
+CJ is taking a break from preparing the "How to orient yourself to a PR" video.
+
+The curriculum-feedback Slack channel has been set up to post reminders about the curriculum meeting.
+
+Colin agreed to review the "Remove CSS from the Wireframe exercise" PR.
+
+#### Trainees using **Windows**
+
+Question: Should we require or encourage trainees to switch to a Linux-based system at the start of the ITP?
+
+There was no consensus among the committees in attendance.
+
+Colin suggested preparing a poll to gather more feedback.
+
+#### Update on Checkpoint
+Summary from Daniel:
+- No major change
+- Having more interviewers helped
+- Most trainees agreed with the outcome
+- A CheckPoint Retro was scheduled on 20 July 2026
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [ ] Colin: Set up a poll to gather feedback on trainees' use of Windows
+
 ## 16-06-2026
 
 Attendees: Anna, Daniel, Colin, Ali, CJ, Poonam

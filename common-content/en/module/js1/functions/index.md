@@ -22,9 +22,9 @@ This applies to any repeated process. Let's look at how we can round a decimal t
 
 There is no operator for rounding a number in JavaScript, but we will want to round numbers **again and again**. We can use a **function** to do this. A function is a reusable set of instructions.
 
-`Math.round` is a function. Because a function is a _reusable_ set of instructions, `Math.round` rounds any number.
+We don't need to declare this function ourselves. JavaScript comes with many **built-in** functions, ready for us to use, and rounding is so common that there is already one for it: `Math.round`.
 
-Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**.
+Functions usually take **inputs** and then **apply their set of instructions to the inputs** to produce an **output**. `Math.round` takes a number as an input and produces the nearest whole number as its output. Because the number is an input, and not fixed inside the instructions, `Math.round` can round _any_ number we give it, not just `10.3`.
 
 {{<note type="exercise" title="Exercise: Using a function">}}
 Create a new file to work in and add the following line:
