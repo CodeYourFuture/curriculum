@@ -22,7 +22,7 @@ TODO:
 
 Now that your local and remote repositories are connected, you need to learn how to synchronize them. **Pushing** sends your local commits to GitHub, and **pulling** gets updates from GitHub.
 
-## The Git Workflow
+### The Git Workflow
 
 ```mermaid
 flowchart LR
@@ -33,22 +33,16 @@ flowchart LR
 
 ### Step 1: Push Your Commits to GitHub
 
-You have commits on your local machine, but they're not on GitHub yet. Let's send them:
+You have commits on your local machine, but they're not on GitHub yet. Send them using the "Publish Branch" button.
 
-```
-git push -u origin main
-```
+![publish branch button in VSCode](publish-branch.png)
 
-What does this mean?
-- `git push` - Send commits to a remote
-- `-u` - Set up tracking (remember this remote/branch combo)
-- `origin` - Push to the remote named "origin" (GitHub)
-- `main` - Push to the "main" branch
+This is called **pushing**. We don't need to push every time we commit, but our colleagues won't be able to access it if we don't.
 
-You might be asked to authenticate. Follow GitHub's instructions.
+You might be asked to authenticate. Follow GitHub's instructions. Depending on how you linked the repositories you may be able to authenticate using SSH instead of entering a username and password.
 
-{{<note type="tip" title="First Push Only">}}
-The `-u` flag is only needed the first time. After that, you can just type: `git push`
+{{<note type="tip" title="SSH">}}
+The **Secure Shell Protocol** (SSH) enables encrypted connections between two computers. We recommend taking the time to [configure SSH with GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) which will avoid the need to keep entering passwords when pushing and pulling.
 {{</note>}}
 
 ### Step 2: View Your Code on GitHub
