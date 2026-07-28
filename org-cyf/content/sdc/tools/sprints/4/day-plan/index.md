@@ -12,7 +12,7 @@ src = "blocks/demo"
 time = "30"
 [[blocks]]
 name = "Java workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/understanding-java"
+src = "workshops/understanding-java"
 time = "90"
 [[blocks]]
 name = "Morning break"

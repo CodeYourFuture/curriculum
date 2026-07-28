@@ -12,7 +12,7 @@ src = "blocks/demo"
 time = "30"
 [[blocks]]
 name = "Refining poorly specified bugs"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/tree/main/reporting-bugs"
+src = "workshops/reporting-bugs"
 time = "60"
 [[blocks]]
 name = "Morning break"
