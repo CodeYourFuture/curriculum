@@ -1,4 +1,4 @@
-import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs";
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.16.0/dist/mermaid.esm.min.mjs";
 
 mermaid.initialize({ startOnLoad: false });
 // Prevent automatic loading so that mermaid only renders on intersection
