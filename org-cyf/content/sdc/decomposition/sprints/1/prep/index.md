@@ -50,7 +50,7 @@ src = "module/decomposition/backend-limitations"
 name = "Responsibilities of frontends, backends, and databases"
 src = "module/decomposition/responsibilities-of-frontends-backends-databases"
 [[blocks]]
-name = "Design a frontend and backend"
+name = "Aligning a frontend and backend"
 src = "module/decomposition/design-trivial-frontend-and-backend"
 [[blocks]]
 name = "Write a frontend and backend"
