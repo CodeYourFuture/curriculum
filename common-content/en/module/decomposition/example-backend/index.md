@@ -19,7 +19,8 @@ const port = 3000;
 
 const quotes = [
   {
-    quote: "Either write something worth reading or do something worth writing.",
+    quote:
+      "Either write something worth reading or do something worth writing.",
     author: "Benjamin Franklin",
   },
   {
@@ -69,6 +70,16 @@ app.get("/", (req, res) => {
 This code is instructing Express how to handle a request. It says "If you get a GET request for the path `/`, call this callback function".
 
 What this callback function does is pick a random quote from an array, format it as a string, and send it as the body of an HTTP response. It also logs to stderr when it does this.
+
+> [!NOTE]
+> We're logging information about the process to `stderr` in this example using `console.error`.
+>
+> Recall what we said in [Tools Sprint 2 Prep](https://curriculum.codeyourfuture.io/sdc/tools/sprints/2/prep/#shell-pipelines): we "write error messages, progress messages, and other information that isn’t in the main output to stderr."
+>
+> We interact with backend servers using HTTP requests, not directly. So there isn't an expected "main output".
+> This means `stdout` is expected to remain empty here. This is a convention generally agreed on about backend servers - if interested, you can read around this online. Look out for whether people have different opinions on how to use logs in backend servers.
+>
+> But if you don't read around, just remember we use `stderr` here as an output for anything that isn't the main output (which is everything as backend servers don't have a main output).
 
 {{<note type="Exercise">}}
 Run this code on your computer.
