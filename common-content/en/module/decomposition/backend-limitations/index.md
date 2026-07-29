@@ -35,7 +35,7 @@ In contrast, a web frontend's code runs in the user's web browser.
 
 One problem here is latency.
 
-You've already seen latency problems when using `fetch`. We used `Promises` or `async`/`await` to handle a latency problem. And we did things like set placeholder text while waiting for data from a `fetch`.
+You've already seen latency problems when using `fetch`. We used `Promise`s or `async`/`await` to handle a latency problem. And we did things like set placeholder text while waiting for data from a `fetch`.
 
 Imagine if you had a "dark mode" button on a website, but clicking it required making a request to a backend.
 
