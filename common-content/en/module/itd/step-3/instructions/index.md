@@ -28,7 +28,7 @@ At {{<our-name>}}, we prioritise building understanding so trainees can be emplo
 
 **Why does it matter how we learn at {{<our-name>}}? What does it have to do with AI?**
 
-Well, it can be easy for AI tools to do the hard work for us, e.g. solving the problem, fixing errors, and writing emails for us. But by making sure we do that work ourselves, we build the skills that will help us in our careers. When AI does the work for us, we may think we're progressing when we're actually not building skills that will make us employable.
+Well, it can be easy for AI tools to do the hard work for us, e.g. solving the problem, fixing errors, and writing emails for us. But when AI does the work for us, we may think we're making progress and learning when we're not. We're actually not building skills that will make us employable. Instead we need to make sure we do that work ourselves, so that we build the skills that will help us in our careers.
 
 AI can make mistakes when it's guessing what output to return to the user, but it can also be led to give incorrect information when a prompt isn't accurate. Which means we need to ask good questions (or prompts). As ITD learners, we are early in the {{<our-name>}} journey, so we are still building our foundational knowledge, which means it is more likely we will ask AI inaccurate questions and AI will give misleading results. It's something to be aware of and cautious about - the accuracy of the questions we ask is important.
 
