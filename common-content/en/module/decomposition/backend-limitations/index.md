@@ -35,7 +35,7 @@ In contrast, a web frontend's code runs in the user's web browser.
 
 One problem here is latency.
 
-You've already seen latency problems when using `fetch`. We used Promises or `async`/`await` to handle a latency problem. And we did things like set placeholder text while waiting for data from a `fetch`.
+You've already seen latency problems when using `fetch`. We used `Promise`s or `async`/`await` to handle a latency problem. And we did things like set placeholder text while waiting for data from a `fetch`.
 
 Imagine if you had a "dark mode" button on a website, but clicking it required making a request to a backend.
 
@@ -54,6 +54,7 @@ Because web frontends run in the user's own browser, they have easy access to lo
 If our frontend code were instead running in a backend, the browser may need to include all of this information in every request it makes, just in case the backend needs to know it. This has a couple of drawbacks: It makes the requests bigger (which makes them slower, and maybe cost more), and it ends up sharing lots of data with the server that it may not need, which may compromise the user's privacy.
 
 Imagine you're trying to buy a sofa. There are a few ways we could do this:
+
 1. We could take the entire architectural plans for our home to a shop, and for each sofa work out where it could fit.
 2. We could go to the shop, and for each sofa we may like, go home and see if the sofa would fit into our space.
 3. We could measure the space we want to put it in, and then go to a shop where you can compare all of the available sofas against those measurements.
