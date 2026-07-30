@@ -28,9 +28,6 @@ src="blocks/prep-dir"
 name="Scripts"
 src="module/js1/scripts"
 [[blocks]]
-name="Logging"
-src="module/js1/logging"
-[[blocks]]
 name="Data"
 src="module/js1/data"
 [[blocks]]
