@@ -42,7 +42,7 @@ Open your new file in VSCode.
 
 JavaScript prints values to the terminal using a function called `console.log`.
 
-{{<note type="tip" title="console.log">}}
+{{<note type="definition" title="Definition: console.log">}}
 **console** usually means _a text interface_ like a terminal. A **log** is a written record of something that happened.
 
 So `console.log` will _record something that happens in our program_ and print it to a _text based interface_.
