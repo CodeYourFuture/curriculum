@@ -57,6 +57,12 @@ Let's see how to use `console.log` . In your `hello_world.js` file write the nam
 console.log("Hello World!");
 ```
 
+{{<note type="note" title="Note: Semicolons">}}
+Note that we have added a semicolon (`;`) at the end of the expression. Different programming languages handle semicolons in different ways: in some languages they are essential, in others including them will cause an error.
+
+JavaScript code will run with or without a semicolon at the end of expressions but it's good practice to include them. They help to keep your code organised and are helpful for anyone reviewing your code. Plus it's good practice if you ever use a language like Java where they are required! 
+{{</note>}}
+
 Now switch to the terminal and run the file using `node`:
 
 ```sh {title="Terminal"}
