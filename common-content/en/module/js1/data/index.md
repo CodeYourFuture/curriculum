@@ -11,19 +11,19 @@ time = 15
 
 +++
 
-We’re going to focus on the JavaScript programming language.
+We can do a lot more than just print text with the JavaScript programming language. First we need to understand some of the rules we need to follow.
 
-A programming language organises data with rules so we understand what we can and cannot do with it. Languages split data up into different categories called {{<tooltip title="data types">}}
-A **data type** is a grouping of data with some particular properties{{</tooltip>}}. In JavaScript, we have five data types. We will look first at numbers and strings.
+A programming language organises data with rules so we understand what we can and cannot do with it. Languages split data up into different categories called **data types**. A data type is a grouping of data with some particular properties. We will look first at **numbers** and **strings**.
 
-#### Number data type
+### Number data type
 
 `10` is an example of the number data type.
+
 `3.14` is also part of the number data type; both integers (whole numbers) and non-integers are types of number.
 
 `-15` is also part of the number data type. Positive and negative numbers, as well as `0`, are all types of number.
 
-#### String data type
+### String data type
 
 A string is a sequence of characters demarcated by quotes.
 
@@ -31,7 +31,7 @@ A string is a sequence of characters demarcated by quotes.
 "Code Your Future";
 ```
 
-### 🧮 Creating expressions
+### Creating expressions
 
 Think of the numbers `10` and `32`. We could ask questions about these numbers, like: _What is the **sum** of 10 and 32?_
 
@@ -41,9 +41,9 @@ Another way to say this is _what do 10 and 32 add up to?_ In English we can say 
 10 + 32;
 ```
 
-In JavaScript, `+` is an {{<tooltip title="operator">}} An **operator** represents an operation, or act. {{</tooltip>}}. It's a symbol. In this example, `+` represents the operation “make the sum of the numbers”. It symbolises addition.
+In JavaScript, `+` is an **operator**. An operator represents an operation, or act. It's a symbol. In this example `+` represents the operation “calculate the sum of the numbers”. It symbolises addition.
 
-The combination of symbols `10 + 32` is an {{<tooltip title="expression">}}An **expression** is a value or any valid combination of values and symbols that results in a single value.{{</tooltip>}} We say that expressions **evaluate** to a single value. So we say that `10 + 32` **evaluates** to the value `42`.
+The combination of symbols `10 + 32` is an **expression**. An expression is a value or any valid combination of values and symbols that results in a single value. We say that expressions **evaluate** to a single value. So we say that `10 + 32` **evaluates** to the value `42`.
 
 `10` is also an expression. It **evaluates** to the value `10`.
 
