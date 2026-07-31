@@ -1,0 +1,24 @@
+{{ $slice := .slice }}
+{{ $key := .key }}
+{{ $target_value := .target_value }}
+{{ $error_template := .error_template }}
+
+{{ $found := "PLACEHOLDER_NOT_FOUND_BECAUSE_HUGO_DOES_NOT_ALLOW_NIL" }}
+
+{{ range $slice }}
+  {{ if eq (index . $key) $target_value }}
+    {{ $found = . }}
+    {{ break }}
+  {{ end }}
+{{ end }}
+
+{{ if eq $found "PLACEHOLDER_NOT_FOUND_BECAUSE_HUGO_DOES_NOT_ALLOW_NIL" }}
+  {{ errorf $error_template $target_value }}
+{{ end }}
+
+{{/*
+  If you're anything like me, you're going to want to early-return the value from the loop.
+  Hugo partials must always contain exactly one return statement, and it must always be the last thing in the partial.
+  Sorry.
+*/}}
+{{ return $found }}
