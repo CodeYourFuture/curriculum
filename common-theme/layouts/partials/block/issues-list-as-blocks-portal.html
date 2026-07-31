@@ -1,0 +1,45 @@
+{{ $page := .Page }}
+{{ $courseName := .course_name }}
+{{/* TODO: Update the pages to use the proper module and sprint names from the Portal, rather than doing string manipulation, when we no longer have GitHub equivalents */}}
+{{ $repoName := .backlog }}
+{{ $moduleName := substr $repoName (len "Module-") }}
+{{ $sprintName := strings.TrimPrefix "📅 " .backlog_filter }}
+{{ if eq $moduleName "Legacy-Code" }}
+  {{ $moduleName = "Legacy code" }}
+  {{/* TODO: Remove this when there are actually issues for Legacy Code sprint 2 */}}
+  {{ if eq $sprintName "Sprint 2"}}
+    {{ $sprintName = "Sprint 1" }}
+  {{ end }}
+{{ end }}
+
+{{ $issueBlocks := slice }}
+
+{{ with resources.GetRemote "https://portal-backend.codeyourfuture.io/functions/v1/coursework-index" }}
+  {{ with .Content | unmarshal }}
+    {{ $courseData := index (index . "courses") $courseName }}
+
+    {{ $moduleData := partial "slices/find-by-key.html" (dict "slice" $courseData.modules "key" "name" "target_value" $moduleName "error_template" (printf "Couldn't find module %%s in backlog data from portal for course %s" $courseName)) }}
+    {{ $sprintData := partial "slices/find-by-key.html" (dict "slice" $moduleData.sprints "key" "name" "target_value" $sprintName "error_template" (printf "Couldn't find sprint %%s in backlog data from portal for course %s module %s" $courseName $moduleName)) }}
+
+    {{ range $sprintData.backlog_tasks }}
+      {{ $github_issue_number := int (index (last 1 (split .github_html_url "/")) 0) }}
+      {{ $labels := dict "nodes" slice }}
+      {{ if eq .category "mandatory" }}
+        {{ $labels = dict "nodes" (slice (dict "name" "Core")) }}
+      {{ else if eq .category "optional" }}
+        {{ $labels = dict "nodes" (slice (dict "name" "Optional")) }}
+      {{ else if eq .category "recurring" }}
+        {{ $labels = dict "nodes" (slice (dict "name" "Recurring")) }}
+      {{ else if eq .category "setup" }}
+        {{ $labels = dict "nodes" (slice (dict "name" "Setup")) }}
+      {{ end }}
+      {{ $time := .time_hours }}
+      {{ if $time }}
+        {{ $time = mul $time 60 }}
+      {{ end }}
+      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "Page" $page) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $issueBlocks }}
