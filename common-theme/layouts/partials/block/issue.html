@@ -27,6 +27,12 @@
   </header>
 
   <div class="c-block__content c-copy">
+    {{ if .code }}
+      <h3>Task code</h3>
+      {{ .code }} - make sure to include this in your PR title or description.
+      <br /><br />
+    {{ end }}
+
     {{ .body | page.RenderString }}
   </div>
 </section>
