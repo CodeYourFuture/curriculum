@@ -34,9 +34,6 @@ src="module/js1/data"
 name="Variables"
 src="module/js1/variables"
 [[blocks]]
-name="Declarations and Statements"
-src="module/js1/declarations-statements"
-[[blocks]]
 src="module/js1/comparison"
 name="Comparison"
 [[blocks]]
