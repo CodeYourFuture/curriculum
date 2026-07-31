@@ -52,8 +52,8 @@ name="Interpreting errors"
 src="module/js1/interpreting-this-error"
 name="Interpreting this error"
 [[blocks]]
-src="module/js1/reusing-variable-names"
-name="Reusing variable names"
+src="module/js1/fixing-the-error"
+name="Fixing the error"
 [[blocks]]
 name="Backlog"
 src="blocks/backlog"
