@@ -37,7 +37,7 @@
       {{ if $time }}
         {{ $time = mul $time 60 }}
       {{ end }}
-      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "Page" $page) }}
+      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "code" .code "Page" $page) }}
     {{ end }}
   {{ end }}
 {{ end }}
