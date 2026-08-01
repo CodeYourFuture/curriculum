@@ -22,9 +22,9 @@ Once you have cloned [the workshop code repository](https://github.com/CodeYourF
 
 You should then be able to run the tests for each respective exercise by running:
 
-`npm run test-exercise1`
-`npm run test-exercise2`
-`npm run test-exercise3`
+- `npm run test-exercise1`
+- `npm run test-exercise2`
+- `npm run test-exercise3`
 
 Expect to see red text complaining about errors until you have fixed all of the problems within the relevant exercise files `exercise1.ts`, `exercise2.ts`, `exercise3.ts`.
 
