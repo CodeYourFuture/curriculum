@@ -13,26 +13,6 @@ objectives = [
   render = "never"
 +++
 
-<details>
-  <summary>How to run these exercises locally</summary>
-
-Once you have cloned [the workshop code repository](https://github.com/CodeYourFuture/workshop-code) locally, you'll need to install all dependencies for this project. You can do this via your terminal by navigating to your local project's `introduction-to-typescript` directory and then running:
-
-`npm install`
-
-You should then be able to run the tests for each respective exercise by running:
-
-- `npm run test-exercise1`
-- `npm run test-exercise2`
-- `npm run test-exercise3`
-
-Expect to see red text complaining about errors until you have fixed all of the problems within the relevant exercise files `exercise1.ts`, `exercise2.ts`, `exercise3.ts`.
-
-There are also TypeScript syntax examples available within `src/examples` should you need a hint.
-
-Best of luck!
-</details>
-
 ## What is TypeScript and why do we use it?
 
 <details>
@@ -239,10 +219,25 @@ Since we have to `await` the user being fetched, `Promise<>` tells us that our `
 ### Setup
 
 - Breakout into groups of ideally 2, and no more than 3 trainees.
-- Ideally each group should have a single fork of [the exercise repository](https://github.com/CodeYourFuture/workshop-code/tree/main/introduction-to-typescript) from where every member collaborates.
-- Each member should clone the forked repository to a local project.
+- Clone [the exercise repository](https://github.com/CodeYourFuture/workshop-code/tree/main/introduction-to-typescript).
+- Each member should clone the repository to a local project.
 - Navigate to the `introduction-to-typescript` directory.
-- Follow the instructions in the `README.md` to setup the project and run the exercise.
+
+Once you have cloned [the workshop code repository](https://github.com/CodeYourFuture/workshop-code) locally, you'll need to install all dependencies for this project. You can do this via your terminal by navigating to your local project's `introduction-to-typescript` directory and then running:
+
+`npm install`
+
+You should then be able to run the tests for each respective exercise by running:
+
+- `npm run test-exercise1`
+- `npm run test-exercise2`
+- `npm run test-exercise3`
+
+Expect to see red text complaining about errors until you have fixed all of the problems within the relevant exercise files `exercise1.ts`, `exercise2.ts`, `exercise3.ts`.
+
+There are also TypeScript syntax examples available within `src/examples` should you need a hint.
+
+Best of luck!
 
 ### Fixing errors
 
