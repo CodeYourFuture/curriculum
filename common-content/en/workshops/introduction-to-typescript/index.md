@@ -180,6 +180,14 @@ Since we have to `await` the user being fetched, `Promise<>` tells us that our `
 
 ## Fixing TypeScript errors (30 minutes)
 
+> [!WARNING]
+>
+> You must be using a recent version of `node` for this workshop - at least version 22.
+>
+> You can check your node version by running `node --version`.
+>
+> If your `node` version is less than 22, you should update (perhaps using `nvm` if needed). If you run into difficulty with this, use your partner's laptop.
+
 <details>
   <summary>
     <em>Tips for volunteers</em>
