@@ -63,7 +63,7 @@ TypeScript supports static types, which means variable types are known at compil
 let name: string = "Luke";
 let age: number = 30;
 let isTrainee: boolean = true;
-let completedCourses: string[] = ['ITD', 'ITP', 'Piscine']
+let completedCourses: string[] = ['ITD', 'ITP', 'Checkpoint']
 ```
 
 TypeScript also supports type inference. This means that TypeScript can determine (infer) the type of variables based on their initial value:
@@ -72,7 +72,7 @@ TypeScript also supports type inference. This means that TypeScript can determin
 let name = "Luke"; // inferred as string
 let age = 30; // inferred as number
 let isTrainee = true; // inferred as boolean
-let completedCourses = ['ITD', 'ITP', 'Piscine'] // inferred as string[]
+let completedCourses = ['ITD', 'ITP', 'Checkpoint'] // inferred as string[]
 
 age = "Thirty" // TypeScript will error here: "Type 'string' is not assignable to type 'number'".
 ```
@@ -82,17 +82,17 @@ Notice how not everything needs to be explicit. TypeScript is very smart and wil
 In our previous examples we said `completedCourses` is of type `string[]`. TypeScript lets us be even more specific by leaning on literal types:
 
 ```TS
-type Course = 'ITD' | 'ITP' | 'Piscine' | 'SDC'
+type Course = 'ITD' | 'ITP' | 'Checkpoint' | 'SDC'
 
-let completedCourses: Course[] = ['ITD', 'ITP', 'Piscine']
+let completedCourses: Course[] = ['ITD', 'ITP', 'Checkpoint']
 ```
 
-In our example above we are defining our own type `Course` which permits a number of specific strings. It uses the union type operator `|` somewhat similarly to how we might use the logical OR operator `||`. We are stating that a variable of type `Course` may be `'ITD'` OR `'ITP'` OR `'Piscine'` OR `'SDC'`.
+In our example above we are defining our own type `Course` which permits a number of specific strings. It uses the union type operator `|` somewhat similarly to how we might use the logical OR operator `||`. We are stating that a variable of type `Course` may be `'ITD'` OR `'ITP'` OR `'Checkpoint'` OR `'SDC'`.
 
 We can also define an object type. For example, maybe we want to wrap our earlier fields within an object:
 
 ```TS
-type Course = 'ITD' | 'ITP' | 'Piscine' | 'SDC'
+type Course = 'ITD' | 'ITP' | 'Checkpoint' | 'SDC'
 
 type User = {
   id: number;
@@ -107,16 +107,16 @@ const myTrainee: User = {
   name: 'Luke',
   age: 30,
   isTrainee: true,
-  completedCourses: ['ITD', 'ITP', 'Piscine']
+  completedCourses: ['ITD', 'ITP', 'Checkpoint']
 }
 ```
 
-If we tried to create a `User` but didn't give them a name, TypeScript would tell us. If we did the same in JavaScript, nothing would tell us we missed anything, but when we tried to get a `User`'s name, we'd get `undefined`. Even this probably wouldn't be an error - we may only find out when our UI tries to use this data and says _"undefined, aged 30, has done ITD, ITP, and Piscine"_.
+If we tried to create a `User` but didn't give them a name, TypeScript would tell us. If we did the same in JavaScript, nothing would tell us we missed anything, but when we tried to get a `User`'s name, we'd get `undefined`. Even this probably wouldn't be an error - we may only find out when our UI tries to use this data and says _"undefined, aged 30, has done ITD, ITP, and Checkpoint"_.
 
 TypeScript also supports optional properties. For example our `User` type might have an optional `address` property that can be left out from instances of the `User` type:
 
 ```TS
-type Course = 'ITD' | 'ITP' | 'Piscine' | 'SDC'
+type Course = 'ITD' | 'ITP' | 'Checkpoint' | 'SDC'
 
 type User = {
   id: number;
@@ -133,7 +133,7 @@ const myTrainee: User = {
   name: 'Luke',
   age: 30,
   isTrainee: true,
-  completedCourses: ['ITD', 'ITP', 'Piscine']
+  completedCourses: ['ITD', 'ITP', 'Checkpoint']
 }
 ```
 
@@ -175,7 +175,7 @@ const user = fetchUser(0);
 What is a `user`? What does this data look like? We might have the answer in our head but TypeScript gives us the ability to define it in code. Let's have a look at the same example but in TypeScript:
 
 ```TS
-type Course = 'ITD' | 'ITP' | 'Piscine' | 'SDC'
+type Course = 'ITD' | 'ITP' | 'Checkpoint' | 'SDC'
 
 type User = {
   id: number;
