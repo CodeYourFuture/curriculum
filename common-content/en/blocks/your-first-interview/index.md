@@ -3,8 +3,8 @@ title="Your First Interview"
 time=10
 objectives = [
   "Introduce yourself to a prospective employer",
-  "Answer a question about code you have written",
-  "Convince an interviewer that you understand a project",
+  "Answer technical questions about code",
+  "Convince an interviewer that you fully understand a project",
   "Experience a professional interview"
 ]
 [build]
@@ -14,49 +14,49 @@ objectives = [
 +++
 
 Throughout ITP you have had experience building projects, giving demos, and now it's time to put it all together.
-During today's class, you will take part in a very short interview where you can practice with an interviewer during a discussion about a recent project you built.
+Now you are at the end of ITP you will take part in a very short interview.
+This will let you practice answering technical questions about the TV Shows project you built.
 
 Interviews can be stressful, especially if you have not done one before.
 That's why we're doing one now!
 There is no pass or fail here, and you can share your experiences with the rest of the class.
 
 Being able to answer questions in an interview setting is a vital skill for employability, you won't get a job without this!
-This will build on the earlier "Answering demo questions" workshop, and improve your ability to communicate about code with colleagues.
-This is also practice before the Checkpoint stage.
+This builds on the earlier "Answering demo questions" workshop, and improve your ability to communicate about code with colleagues.
+This is also practice before the Checkpoint stage, as completing an interview is a mandatory step before going on to the SDC.
 
-The key to interviews is being able to convince the interviewer that you fully understand the code in a project.
-We want to practice with a decent sized project, so here are some of the ones you could use:
-* From Data Groups:
-[Tic Tac Toe](https://github.com/CodeYourFuture/Project-terminal-tic-tac-toe),
-[The todo list](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/todo-list),
-[Slideshow with stretch tasks](https://github.com/CodeYourFuture/Module-Data-Groups/tree/main/Sprint-3/slideshow)
-* From Data Flows:
-[The TV Project](https://github.com/CodeYourFuture/Project-TV-Show),
-[The Codewars API Project](https://github.com/CodeYourFuture/Project-Codewars-API)
+In interviews it is important to convince the interviewer that you fully understand the code in a project.
+You need to be able to explain _any_ of the code in your project, even if someone else wrote it.
+We want to practice with a decent sized group project, so you will use your TV Shows project.
 
 
 ## What trainees will do
 Here's how the interview will go, it should last no longer than 10 minutes:
 * The interviewer will ask you to introduce yourself in 30 seconds, like you have been practising during the "Introduce Yourself!" energisers at the start of classes
-* As part of your backlog, earlier in the week you shared the project to talk about in a slack thread
+* As part of your backlog, earlier in the week you shared the project to talk about in a slack thread and organised an interview time
 * For up to 5 minutes, answer questions the interviewer has about the project you shared
 * You should check the sections below to get an idea for the kind of things we are looking for, and what to avoid
 * At the end, the interviewer will give you some feedback on how things went
 
 
 
-## Advice for the facilitator
-The goal is to give everyone in the group experience with a short one on one interview.
-You will need to do this in parallel while the trainees are working on their group work tasks or self study.
-If you have multiple volunteers or staff in a large class, share the interviews out.
+## Instructions for the facilitator
+The goal is to give all trainees experience with a short one on one interview.
+Trainees will share their projects and book meeting times throughout the week.
+
+Follow this script so all the interviews are consistent:
+1. (30 seconds) Ask the trainee to introduce themselves 
+2. (up to 5 minutes) Pick one piece of functionality (e.g. "searching for an episode"), and ask the trainee to show the code and explain how it works.
+3. (up to 5 minutes) Share feedback to the trainee as a basis for a short discussion on how to improve their interviewing
 
 Here are some tips:
-* Check the slack beforehand, to familiarise yourself with the project each trainee wants to talk about
-* Ask the trainee to open up the code on their machine, and discuss it there, don't take over controlling their machine
+* Check out the [TV Show project](https://github.com/CodeYourFuture/Project-TV-Show) beforehand, to familiarise yourself with what they have implemented
+* Ask the trainee to present the code on their machine, and discuss it there
 * We don't want to give trainees undue stress, so keep to the time limits suggested
 * When asking questions, try to focus on more complex, non-trivial, or interesting parts of code
-* If you see issues that would benefit everyone, you can share feedback to the whole group, but don't single any individuals out
 * See the pointers below for the main thngs we are looking for from trainees
+
+After you've completed your interviews, share any particularly good outcomes or repeated issues from your interviews back to the education team so we can address them.
 
 
 ## Evidence of good understanding
@@ -73,7 +73,7 @@ Trainees should aim to show they can:
 If interviewers spot these, it could be a sign a trainee doesn't understand code.
 Trainees should practice and avoid:
 * Being unsure where different parts of code are, or having difficulty navigating a project
-* Spending too much time reading code line by line, unable to give a high level overview
+* Just reading what the code does, without being able to explain _why_ and _how_ it works
 * Using JavaScript APIs while being unable to explain how they work
 * Knowing jargon and buzzwords but unable to explain code with simple language
 * Confusion over complex syntax like ternary, boolean, destructuring expressions, higher order functions
