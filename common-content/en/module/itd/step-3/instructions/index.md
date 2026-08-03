@@ -107,6 +107,317 @@ And what happens when AI writes a CV for us:
 - Your CV lacks personalised tone of voice that reflects how you write. CV comes out generic. Harder to catch the eye of recruiters, easier for recruiters to spot AI generation as it will sound like AI model output, easier for the recruiter to discount your CV.
 - Big risk of AI making things up about your background - remember AI hallucinates.
 
+### CV writing: Human vs AI
+
+Let's compare three CVs, one made by a human, and two made by ChatGPT using different kinds of prompts.
+
+{{<tabs name="Comparing CVs" >}}
+===[[Human Written CV]]===
+**Jaya Shankar**
+
+London | jaya.shankar@generic_email.com | https://www.linkedin.com/ | www.github.com | 07123456789
+
+**Summary**
+
+A keen software engineer with a particular strength in testing, security and quality assurance to maintain robust applications. Recently completed an internship with Microsoft, achieved full test coverage and strong QA practices across a full-stack application redirecting customer queries, and prevented 5 production-critical bugs in one month, saving the team 1 week of total downtime in that month.
+
+**Experience**
+
+QA and Testing Intern, Microsoft, June 2026 - August 2026:
+
+- Implemented and maintained test pipelines to ensure test coverage and security of the application before the production environment.
+- Led agile ceremonies with the QA team.
+- Spotted and intervened on 5 occurrences of critical bugs, communicated intervention to stakeholders and the team.
+- Saved the customer service team 1 week in downtime through my work implementing a new test pipeline.
+
+Shop assistant, Tesco, May 2024 - February 2026:
+
+- Communication and relationship building across store team, delegating tasks to relevant departments.
+- Quickly upskilling in self-checkout management, picking duties, and stock management to allow cover for store manager.
+- Took on team leadership responsibilities as management cover for the holiday period, managed leave for the team, payroll, and rota.
+
+**Projects**
+
+To-do list for engineers, www.github.com:
+
+- Learnt React in 4 days to spin up this app in one week
+- Full-coverage testing and lint check
+- Working GitHub pipeline for automated testing and QA processes.
+- Prisma backend with TypeScript.
+
+**Education**
+
+A levels, College, June 2024: Maths, English, Music (ABB)
+GCSEs, School, July 2022
+
+**Interests**
+
+- Languages: English (fluent), Gujarati (fluent), Swahili (intermediate), Hindi (intermediate)
+- Volunteers as a magistrate (2024 - Present)
+- Clarinet player for an amateur theatre company
+
+**References available upon request**
+
+===[[Prompt 1: ChatGPT generated CV]]===
+
+#### Prompt given to ChatGPT
+
+Make a cv for me, I'm Jaya Shankar, I want to be a software enegineer, particularly testing, security, quality. I'm in London and worked for Microsoft as a a QA intern, and tescos as a shop assistant. I've done a levels and gcses and I'm a magistrate
+
+What employment details should I include? Provide dates and key achievements
+What are your key technical skills? Programming languages
+What programming languages do you know? JavaScript
+
+#### Generated CV
+
+**Jaya Shankar**
+
+**Location:** London, United Kingdom
+**Email:** [your.email@example.com](mailto:your.email@example.com) | **Phone:** your phone number
+**LinkedIn:** linkedin.com/in/yourprofile | **GitHub:** github.com/yourusername
+
+**Professional Profile**
+
+Motivated and detail-oriented aspiring Software Engineer with a strong interest in Software Testing, Quality Assurance, and Cyber Security. Experience gained through a QA internship at Microsoft and customer-facing retail work at Tesco has developed my analytical thinking, attention to detail, communication, and problem-solving skills. Passionate about delivering high-quality software and building a career in software quality, testing, and security.
+
+**Technical Skills**
+
+- **Programming:** JavaScript
+- Software Testing
+- Quality Assurance
+- Bug Identification and Reporting
+- Problem Solving
+- Attention to Detail
+- Microsoft Office
+
+**Professional Experience**
+
+**QA Intern | Microsoft**
+
+**[Month Year] – [Month Year]**
+
+- Assisted the Quality Assurance team in testing software applications.
+- Identified, documented, and tracked software defects.
+- Performed manual testing to verify application functionality and quality.
+- Worked with developers to help reproduce and resolve issues.
+- Contributed to improving software reliability before release.
+
+**Shop Assistant | Tesco**
+
+**[Month Year] – Present (or Month Year)**
+
+- Delivered excellent customer service in a fast-paced retail environment.
+- Handled stock replenishment and maintained store presentation.
+- Processed customer transactions accurately.
+- Worked collaboratively with colleagues to meet daily operational targets.
+- Developed strong communication, teamwork, and time management skills.
+
+**Education**
+
+**A Levels**
+
+**[School/College Name]**
+Completed A Levels.
+
+**GCSEs**
+
+**[School Name]**
+Completed GCSE qualifications.
+
+**Additional Experience**
+
+**Magistrate**
+
+- Serve as a Magistrate, demonstrating integrity, impartiality, sound judgement, and responsibility.
+- Assess evidence and contribute to fair legal decisions.
+- Apply critical thinking and communicate effectively while working as part of a judicial panel.
+
+**Key Strengths**
+
+- Software Testing
+- Quality Assurance
+- Security-focused mindset
+- Analytical Thinking
+- Attention to Detail
+- Teamwork
+- Communication
+- Problem Solving
+- Adaptability
+- Customer Service
+
+**Career Objective**
+
+To begin a career as a Software Engineer with a focus on Software Testing, Quality Assurance, or Cyber Security, where I can continue developing my technical skills while contributing to the delivery of secure, reliable, and high-quality software.
+
+===[[Prompt 2: ChatGPT generated CV]]===
+
+#### Prompt given to ChatGPT
+
+Build a CV following this brief:
+
+- Jaya Shankar, London, GitHub and LinkedIn links needed for profile
+- Education up to A levels (maths, eng, music, ABB) (A levels completed June 2024, GCSEs completed July 2022)
+- Work experience as QA and Testing Intern, Microsoft, June 2026 - August 2026. Key skills: implemented test pipelines for test coverage and security checks. Led agile ceremonies for qa team. Spotted and intervened in 5 critical bugs, communicated intervention to stakeholders. Saved 1 week of downtime for the team.
+- Work experience: Shop assistant, Tesco, May 2024 - February 2026. Key skills: communication and relationship building, delegating tasks, upskilling quickly to self-checkout management, picking, stock management to cover for manager. Team lead responsibilities for holiday management cover, managed leave, payroll and rota.
+- Project -> todo list for engineers: React, Prisma, TypeScript. Learnt React in 4 days, 1-week project. Full coverage testing and lint checks, GitHub pipeline for automated testing and qa processes.
+- volunteered as a magistrate (20224 to current)
+- Languages: English (fluent), Gujarati (fluent), Swahili (intermediate), Hindi (intermediate)
+- Clarinet player for an amateur theatre company tech interest
+- Testing, security, quality.
+
+#### Generated CV
+
+**Jaya Shankar**
+
+London, UK
+Email: [your.email@example.com](mailto:your.email@example.com) | Phone: +44 XXXX XXX XXX
+LinkedIn: https://linkedin.com/in/yourprofile
+GitHub: https://github.com/yourusername
+
+**Profile**
+
+Aspiring Software Quality Assurance and Test Engineer with hands-on experience in automated testing, quality processes, and Agile delivery through a QA internship at Microsoft. Passionate about software testing, security, and building reliable applications with strong automated quality pipelines. Recognised for quickly learning new technologies, identifying critical defects, and communicating effectively with both technical teams and stakeholders. Brings additional leadership and customer service experience from retail management responsibilities.
+
+**Technical Skills**
+
+- Testing & QA: Test automation, test pipelines, test coverage, quality assurance, security checks
+- Languages: TypeScript, JavaScript
+- Frameworks & Tools: React, Prisma, Git, GitHub Actions
+- Methodologies: Agile, Scrum, CI/CD, Code Reviews
+- Additional: Linting, automated testing, stakeholder communication
+
+**Professional Experience**
+
+**QA & Testing Intern**
+
+**Microsoft** | June 2026 – August 2026
+
+- Implemented automated test pipelines to improve test coverage and integrate security checks into the development workflow.
+- Led Agile QA ceremonies, coordinating testing priorities and improving team collaboration.
+- Identified and intervened on five critical software defects before release.
+- Communicated testing outcomes and risk assessments effectively to technical and business stakeholders.
+- Prevented approximately one week of potential team downtime through proactive quality assurance and issue resolution.
+
+**Shop Assistant**
+
+**Tesco** | May 2024 – February 2026
+
+- Delivered excellent customer service through strong communication and relationship-building skills.
+- Quickly progressed to managing self-checkout operations and supporting wider store operations.
+- Assisted with stock management, order picking, and managerial duties during periods of absence.
+- Coordinated holiday cover, managed staff leave requests, payroll support, and rota planning.
+- Delegated tasks effectively while supporting team performance in a fast-paced retail environment.
+
+**Projects**
+
+**Todo List for Engineers**
+
+**React • TypeScript • Prisma**
+
+- Designed and built a full-stack engineering task management application within one week.
+- Self-taught React in four days before delivering the completed application.
+- Implemented comprehensive automated test coverage and linting throughout the project.
+- Built a GitHub Actions CI pipeline to automate testing and quality assurance processes.
+- Applied software engineering best practices with a strong focus on maintainability and code quality.
+
+**Education**
+
+**A Levels**
+
+Completed June 2024
+
+- Mathematics – A
+- English – B
+- Music – B
+
+**GCSEs**
+
+Completed July 2022
+
+**Volunteering**
+
+**Magistrate**
+
+2024 – Present
+
+- Contribute to the justice system through fair, impartial decision-making and community service.
+- Develop strong analytical thinking, communication, and professional judgement.
+
+**Additional Information**
+
+**Languages**
+
+- English – Fluent
+- Gujarati – Fluent
+- Swahili – Intermediate
+- Hindi – Intermediate
+
+**Interests**
+
+- Software testing
+- Application security
+- Software quality engineering
+- Continuous improvement and automation
+
+**Extracurricular Activities**
+
+- Clarinet player for an amateur theatre company.
+
+{{< /tabs >}}
+
+<!-- And let's explain why this is bad - that it will generate generic CVs which don't sell you, which aren't personal, that use filler words, that make things up about your background, etc.
+
+Maybe we could even include side-by-side a bad AI generated CV and a good personally written CV, and give trainees a prompt for some criteria to use to compare them, and have them submit their comparison? (On average our ITD trainees don't know what a good CV looks like, so I think we would need to give them criteria to evaluate from) -->
+
+### How to check if you're using AI right
+
+Ask yourself: **Will you need to ask AI this question again the next time you face this task?**
+
+If the answer is:
+
+- No - you've learned the skill and can demonstrate it without AI.
+- Yes - you didn't understand and have to ask again, try to recap this question with less AI assistance.
+- Depends - did you learn the research skill to help you find answers in the future without AI help?
+
+### Questions
+
+#### Question One
+
+A {{<our-name>}} trainee is assigned coursework on a {{<our-name>}} course. The assignment is to build a homepage for a library that displays its twenty newest books. It requires that they use CSS Grid (a CSS feature used to display HTML elements in a grid format). They think that ChatGPT could help them complete this task.
+
+Which of the prompts below is an appropriate use of AI by the trainee?
+
+1. Generate a webpage to display information about books in a grid format.
+2. Use CSS Grid to build a webpage to display twenty digital books.
+3. Build a homepage for a library website.
+4. I want to learn more about CSS Grid. Please explain the core concepts simply with examples.
+
+#### Question Two
+
+A {{<our-name>}} trainee asks an AI tool to help them understand a complex CSS topic. The information the AI gives doesn't sound right.
+
+Which of the below might be appropriate reactions from the trainee?
+
+1. Googling the topic and looking for reliable sources to clarify the point.
+2. Trying to persuade the AI to check again.
+3. Accepting this as the truth because the AI seemed to know what it was talking about.
+4. Asking a volunteer whether the AI is right.
+5. Asking another AI tool. 
+
+#### Question Three
+
+A {{<our-name>}} trainee balances full-time work and family responsibilities with studying at {{<our-name>}}. They are struggling to keep up with the course. In particular, they are struggling to understand some fundamental concepts.
+
+Which of the below are NOT appropriate actions by the trainee?
+
+1. Asking volunteers for guidance at a session.
+2. Giving an AI tool their assigned problems and asking it to solve them for them. They then copy and paste the output, making no edits.
+3. Asking an AI tool to explain the concepts they find difficult to understand.
+4. Attempting to solve the problems, then giving up and asking an AI tool to fix their code. Then copying and pasting the answer without understanding the changes it made.
+5. Using Google to find articles on the topics they are struggling with. 
+6. Copying another trainee’s answers.
+7. Sending a direct message to an active volunteer.
+
 ### What Should You Do?
 
 #### 1. Create a Google Doc
