@@ -14,16 +14,25 @@
 -*/}}
 {{- $blockData := .Page.Scratch.Get "blockData" -}}
 {{/* Sometimes we're not using blocks, but local pages, and we might want time then too */}}
-{{- $localBlock := "0" -}}
+{{- $localBlock := 0 -}}
 {{- if not $blockData -}}
-  {{ $localBlock = .Site.GetPage .File.Path }}
-  {{ $localBlock = $localBlock.Params.Time }}
+  {{- $localBlock = .Site.GetPage .File.Path -}}
+  {{- $localBlock = $localBlock.Params.Time -}}
 {{- end -}}
 {{- if eq $blockData.type "local" -}}
   {{- $localBlock = .Site.GetPage $blockData.api -}}
   {{- $localBlock = $localBlock.Params.Time -}}
 {{- end -}}
-{{- $time := $blockData.time | default $localBlock | default 60 -}}
-<!-- prettier-ignore --><time class="c-block__time" tabindex="0" role="timer" aria-label="{{ $time }} minutes countdown" datetime="P{{ $time }}M">{{- $time -}}&nbsp;minutes ⏱</time>
+{{- $time := (int $blockData.time) | default $localBlock | default 60 -}}
+{{- $timeLabel := printf "%d\u00A0minutes" $time -}}
+{{- if and $time (gt $time 100) -}}
+  {{- $hours := int (math.Floor (math.Div $time 60)) -}}
+  {{- $minutes := int (math.Floor (math.Mod $time 60)) -}}
+  {{- $timeLabel = printf "%d\u00A0hours" $hours -}}
+  {{- if ne $minutes 0 -}}
+    {{- $timeLabel = printf "%s\u00A0%d\u00A0minutes" $timeLabel $minutes -}}
+  {{- end -}}
+{{- end -}}
+<!-- prettier-ignore --><time class="c-block__time" tabindex="0" role="timer" aria-label="{{ $time }} minutes countdown" datetime="P{{ $time }}M">{{- $timeLabel -}}&nbsp;⏱</time>
 {{- $stopwatch := resources.GetMatch "/scripts/stop-watch.js" | resources.Minify -}}
 <script type="module" defer>import StopWatch from "{{ $stopwatch.RelPermalink }}";</script>

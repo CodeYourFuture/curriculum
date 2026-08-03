@@ -103,10 +103,13 @@ class StopWatch {
       return 0;
     }
 
-    const minutes = Math.floor(remainingTime / 60000);
+    const hours = Math.floor(remainingTime / (60 * 60 * 1000));
+    const minutes = Math.floor((remainingTime % (60 * 60 * 1000)) / 60000);
     const seconds = Math.floor((remainingTime % 60000) / 1000);
 
-    element.textContent = `${minutes} minutes ${
+    const hoursText = hours > 0 ? `${hours} hours ` : "";
+
+    element.textContent = `${hoursText}${minutes} minutes ${
       seconds < 10 ? "0" : ""
     }${seconds} seconds ⏱`;
     return remainingTime;

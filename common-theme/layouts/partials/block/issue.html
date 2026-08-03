@@ -1,44 +1,38 @@
-{{/* This block expects the github issue api */}}
-{{ $blockData := .Page.Scratch.Get "blockData" }}
-{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
-
-{{ if $response }}
-  {{ $response = $response.Content | transform.Unmarshal }}
-  <section class="c-block c-block--{{ $blockData.type }}">
-    <header class="c-block__header">
-      <h2
-        class="c-block__title e-heading__2"
-        id="{{ $blockData.name |urlize }}">
-        <a href="{{ $response.html_url }}">{{ $blockData.name }} 🔗</a>
-      </h2>
-      {{/* TODO - lookup time from label dictionary */}}
-      {{ if $blockData.time }}
-        {{ partial "time.html" . }}
-      {{ else }}
-        {{ range $response.labels }}
-          {{ if in .name "Size" }}
-            <time class="c-block__time" datetime="P60M">{{ .name }}</time>
-          {{ end }}
+{{/* This block expects a dict with: title, time OR a Size label, labels ([{name: str}]), learning_objectives, body (markdown), url */}}
+<section class="c-block c-block--issue">
+  <header class="c-block__header">
+    <h2
+      class="c-block__title e-heading__2"
+      id="{{ .title | urlize }}">
+      <a href="{{ .url }}">{{ .title }} 🔗</a>
+    </h2>
+    {{ if .time }}
+      {{ partial "time.html" . }}
+    {{ else }}
+      {{ range .labels }}
+        {{ if in .name "Size" }}
+          <time class="c-block__time" datetime="P60M">{{ .name }}</time>
         {{ end }}
       {{ end }}
+    {{ end }}
 
-      {{/* extract objectives */}}
-      {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $blockData.api "body" $response.body) }}
-      {{/* remove "Learning Objectives" heading from remaining text */}}
-      {{ $strippedBody := replace $response.body "### Learning Objectives" "" }}
+    {{ if gt (len .learning_objectives) 0 }}
+      <details open class="c-block__objectives">
+        <summary>
+          <h3 class="e-heading__4">Learning Objectives</h3>
+        </summary>
+        {{ partial "objectives/block" .learning_objectives }}
+      </details>
+    {{ end }}
+  </header>
 
-      {{ if gt (len $extractedObjectives) 0 }}
-        <details open class="c-block__objectives">
-          <summary>
-            <h3 class="e-heading__4">Learning Objectives</h3>
-          </summary>
-          {{ partial "objectives/block" $extractedObjectives }}
-        </details>
-      {{ end }}
-    </header>
+  <div class="c-block__content c-copy">
+    {{ if .code }}
+      <h3>Task code</h3>
+      {{ .code }} - make sure to include this in your PR title or description.
+      <br /><br />
+    {{ end }}
 
-    <div class="c-block__content c-copy">
-      {{ $strippedBody | page.RenderString }}
-    </div>
-  </section>
-{{ end }}
+    {{ .body | page.RenderString }}
+  </div>
+</section>
