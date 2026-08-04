@@ -49,9 +49,9 @@ For the person receiving feedback, remember to:
 
 The [SBI Framework](https://www.revolutionlearning.co.uk/article/the-sbi-feedback-model/) structures feedback in the following order:
 
-- Situation: Describe the situation
-- Behavior: Describe the behavior observed
-- Impact: Explain the effect of the behavior on you, your team, or the organization
+- **Situation**: Describe the situation. This should be objective - no personal interpretations or feelings.
+- **Behavior**: Describe the behavior observed. This should also be objective.
+- **Impact**: Explain the effect of the behavior on you, your team, or the organization. This can be subjective - it's ok to talk about how things made you feel. But don't guess _why_ someone else did something.
 
 **Scenario**: A teammate consistently misses deadlines and when they finally do deliver their tasks, they are often not of good quality tasks requiring the rest of the team to redo portions of their work.
 
