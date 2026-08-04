@@ -17,8 +17,8 @@ Once you've got a local copy of a codebase on your local machine you can start t
 
 2. Explore the repository in VSCode and use the code editor to look at the various files and folders.
 
-3. Try opening the Integrated Terminal in your VSCode window
+3. Use the Source Control tab to view the commit history and explore file changes.
 
-If you get stuck on any of these exercises, it's a good idea to search online. For example, you could Google "opening terminal in vscode"
+If you get stuck on any of these exercises, it's a good idea to search online. For example, you could Google "viewing commit in vscode"
 
 {{</note>}}
