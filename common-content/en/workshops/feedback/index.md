@@ -2,7 +2,10 @@
 title = "Giving Feedback"
 time = 60
 objectives = [
-    "Give actionable feedback using a structured framework.",
+    "Choose a framework for giving clear, direct feedback depending on the scenario",
+    "Reflect on the impact of feedback on personal growth and team dynamics",
+    "Apply feedback techniques to real-world situations, balancing critique with encouragement",
+    "Apply techniques for receiving tough feedback",
 ]
 [build]
   list = "local"
@@ -13,15 +16,6 @@ objectives = [
 Feedback is the foundation of effective collaboration. Both giving and receiving feedback are important communication skills to master.
 
 We will practice giving and receiving feedback today.
-
-## Learning Objectives 💡
-
-After the workshop today, participants will be able to:
-
-- [ ] Choose a framework for giving clear, direct feedback depending on the scenario.
-- [ ] Reflect on the impact of feedback on personal growth and team dynamics
-- [ ] Apply feedback techniques to real-world situations, balancing critique with encouragement
-- [ ] Apply techniques for receiving tough feedback
 
 ## Set up 🌼
 
