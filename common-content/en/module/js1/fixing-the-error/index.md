@@ -41,5 +41,5 @@ console.log(response);
 {{<note type="exercise" title="Exercise: Fix the error">}}
 Using what you have learned about variables already in this sprint, try to fix the error.
 
-If you see a different error message you can apply the same techniques we used in teh last section to understand it.
+If you see a different error message you can apply the same techniques we used in the last section to understand it.
 {{</note>}}
