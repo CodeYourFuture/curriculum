@@ -16,6 +16,8 @@ We can check the commits on the remote repository as before:
 
 ![commit-history](commit-history.png)
 
+> When you check the history today your view will be slightly different. The commits in the screenshot will still be there, but there will be newer commits too.
+
 On the left page of the page, we see additional information:
 
 ![main-branch-highlighted](main-branch-highlighted.png)
@@ -79,7 +81,7 @@ gitGraph
 
 In the diagram above, we can continue to commit on the "week-1-coursework" branch without altering the history of the `main` branch.
 
-{{<note type="exercise" title="Exercise - Creating a local branch">}}
+{{<note type="exercise" title="Exercise: Creating a local branch">}}
 
 1. Open the `education-blog` repository in VSCode.
 
