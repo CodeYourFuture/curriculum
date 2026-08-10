@@ -23,31 +23,51 @@ AI assistants, like those mentioned above, are often large language models (LLMs
 
 #### Our priority is building understanding
 
-At {{<our-name>}}, we prioritise building understanding so our trainees can be employable in the tech industry. Employability in software engineering involves knowing how to debug broken code, find information you might not already know, and break down problems to find a solution. {{<our-name>}} mentors during the ITD and beyond will try to help you without giving away the answers or writing the code for you so you learn how to overcome hurdles yourself and apply that skill in the workplace.
+At {{<our-name>}}, we prioritise building understanding so our trainees can be employable in the tech industry. Employability in software engineering involves knowing how to debug broken code, find new information, and break down problems to find a solution. {{<our-name>}} mentors will try to help you without giving away the answers or writing the code for you so you learn how to overcome hurdles yourself and apply that skill in the workplace.
 
-It can be easy for AI tools to do the hard work for us, e.g. solving the problem, fixing errors, or even writing emails and messages for us. When AI does the work for us, we may think we're making progress and learning when we're not. We're actually not building skills that will make us employable. We're not understanding why we do certain things and what happens when we do them incorrectly. Instead, we need to do that work ourselves, so that **we build the deeper skills that will help us in our careers**.
+It can be easy for AI tools to do the hard work for us, e.g. solving the problem, fixing errors, or even writing emails for us. When AI does the work for us, we may think we're making progress and learning when we're not.
+
+- We're actually not building skills that will make us employable.
+- We're not understanding why we do certain things and what happens when we do them incorrectly.
+
+Instead, we need to do that work ourselves, so that **we build the deeper skills that will help us in our careers**.
 
 ##### How do we use AI to build understanding?
 
-###### 1. Ask "why" not "how"
+###### 1. Ask "why", not "how"
 
-AI is very good at answering "how do I do X?". It is less good at explaining the deeper principles. Develop the habit of following up: "Why does this approach work? What are the alternatives? When would this not work?"
+AI is very good at answering "how do I do X?" questions. It is less good at explaining the deeper principles behind how we do things.
+
+Develop the habit of following up with questions the go deeper into understanding, e.g:
+
+- "Why does this approach work?"
+- "What are the alternatives?"
+- "When would this not work?"
 
 ###### 2. Check if you've learnt something
 
 There is a meaningful difference between "I used AI to help me understand this concept" and "I used AI to avoid engaging with this concept."
 
-The first makes you stronger. The second leaves a gap that will show itself later, often at the worst moment like a job interview. **Ask yourself: “Will I need to ask AI the same question tomorrow?”** If yes, you're using it to do the work rather than to build your understanding. That's going to lead to you needing to do the learning again rather than learning the first time.
+The first makes you stronger. The second leaves a gap that will show itself later, often at the worst moment, like a job interview.
 
-**Challenge yourself:** check you have learnt by deleting the AI output and rewriting it yourself. You should know how to write it without AI assistance if you have picked up the knowledge.
+**Ask yourself: “Will I need to ask AI the same question tomorrow?”**
 
-If you don't know how - go back to the learning material, ask "why" to AI instead of "how" and use alternative resources like articles, YouTube, documentation and volunteer insights to get more insight.
+If the answer's _yes_, you're using AI to do the work rather than to build your understanding. That's going to lead to you needing to do the learning again rather than learning the first time.
+
+> [!TIP]
+> **Challenge yourself 🧠**
+>
+> Check you have learnt by deleting the AI output and rewriting it yourself. You should know how to write it without AI assistance if you have picked up the knowledge.
+>
+> If you don't know how - go back to the learning material, ask "why" instead of "how" and use alternative resources like articles, YouTube, documentation and volunteer insights to get more insight.
 
 #### AI makes mistakes
 
-Because AI tools "guess" the text to generate, they can make mistakes or make up things that don’t exist (hallucinations). For instance, a famous hallucination from 2024 was that many AI tools said there were two 'r's in the word strawberry. Data AI is trained on could be out of date or not accurate itself.
+Because AI tools "guess" the text to generate and are trained on a potentially out of date, limited data set, they can make mistakes or make up things that don’t exist ({{<tooltip name="hallucination">}}When a large language model (LLM) perceives patterns or objects that are nonexistent, creating nonsensical or inaccurate outputs. {{</tooltip>}}). For instance, a famous hallucination from 2024 was that many AI tools said there were two 'r's in the word strawberry.
 
-**AI hallucinations can be costly to a programmer.** For instance, it has been reported that AI can make up names of code packages which don't exist, and direct a programmer to use the package in their code. This comes with a security risk: malicious packages can get created with names often generated by AI to exploit their "predictions" and get coders to import viruses into their code.
+**AI hallucinations can be costly to a programmer.**
+
+For instance, it has been reported that AI can make up names of code packages which don't exist, and direct a programmer to use the package in their code. This comes with a security risk: people can create malicious packages with names often generated by AI to exploit their "predictions" and get coders to import viruses into their code.
 
 This means that all output from AI is potentially untrustworthy, we should **keep a critical eye on the output of AI tools**.
 
@@ -55,7 +75,7 @@ Being able to spot issues with AI output will become more and more of a key skil
 
 ##### 1. Challenge output
 
-Volunteers and staff have observed that more experienced developers interact with AI very differently from novices: they push back, ask for alternatives, cross-check against documentation, and spot when something is wrong.
+We have observed that more experienced developers interact with AI very differently from novices: they push back, ask for alternatives, cross-check against documentation, and spot when something is wrong. **They can think critically about AI output.**
 
 Build this habit early. Don't just defer to AI output without questioning it.
 
@@ -63,7 +83,7 @@ Ask AI for a different approach. Ask it to defend its answer. Ask it what could 
 
 ##### 2. Always Verify
 
-AI makes mistakes. It can produce code that looks correct but contains subtle errors, outdated practices, or security vulnerabilities. It can confidently state things that are wrong. Your job is always to check against documentation, against your own understanding, by running tests.
+AI makes mistakes. It can produce code that looks correct but contains subtle errors, outdated practices, or security vulnerabilities. It can confidently agree with ideas that are wrong. Your job is always to check against documentation, against your own understanding, by running tests and more.
 
 Look for **verified sources**:
 
@@ -115,210 +135,194 @@ Let's compare three CVs, one made by a human, and two made by ChatGPT using diff
 ===[[Human Written CV]]===
 **Jaya Shankar**
 
-London | jaya.shankar@generic_email.com | https://www.linkedin.com/ | www.github.com | 07123456789
+London | jaya.shankar@generic_email.com | 07123456789
 
 **Summary**
 
-A keen software engineer with a particular strength in testing, security and quality assurance to maintain robust applications. Recently completed an internship with Microsoft, achieved full test coverage and strong QA practices across a full-stack application redirecting customer queries, and prevented 5 production-critical bugs in one month, saving the team 1 week of total downtime in that month.
+A representative who can put customer needs first and is looking for their next step into helping people access the services they need. Can hold difficult conversations to solve customer-facing blockers; retained 90% of clients who were ready to leave the business in 2 months. Holds a track record for adapting to busy workloads to allow for team success; reduced a 5-day backlog in customer communication requests to 0 days overnight.
 
 **Experience**
 
-QA and Testing Intern, Microsoft, June 2026 - August 2026:
+Shop assistant part-time, Tesco, May 2024 - February 2026:
 
-- Implemented and maintained test pipelines to ensure test coverage and security of the application before the production environment.
-- Led agile ceremonies with the QA team.
-- Spotted and intervened on 5 occurrences of critical bugs, communicated intervention to stakeholders and the team.
-- Saved the customer service team 1 week in downtime through my work implementing a new test pipeline.
-
-Shop assistant, Tesco, May 2024 - February 2026:
-
-- Communication and relationship building across store team, delegating tasks to relevant departments.
-- Quickly upskilling in self-checkout management, picking duties, and stock management to allow cover for store manager.
-- Took on team leadership responsibilities as management cover for the holiday period, managed leave for the team, payroll, and rota.
-
-**Projects**
-
-To-do list for engineers, www.github.com:
-
-- Learnt React in 4 days to spin up this app in one week
-- Full-coverage testing and lint check
-- Working GitHub pipeline for automated testing and QA processes.
-- Prisma backend with TypeScript.
+- Built relationships across the store team to understand business layout, connected three disparate teams who subsequently found five common blockers that could be solved to save the business £50,000 a year.
+- Increased efficiency of in-store team by 70% through delegation of tasks across the team.
+- Upskilled over two weeks in self-checkout management, picking duties, and stock management to allow cover for the store manager.
+- Led a 15-person team as management cover for the holiday period in-store.
+- Managed leave for the team, payroll, and rota.
+- Rotated within the customer service team at HQ to clear a backlog of customer service issues.
+- Reduced the backlog from a 5-day delay to 0 days within two working days.
+- Handled difficult conversations both face-to-face and over the phone to retain the customer base through excellent support.
 
 **Education**
 
 A levels, College, June 2024: Maths, English, Music (ABB)
+
 GCSEs, School, July 2022
 
 **Interests**
 
 - Languages: English (fluent), Gujarati (fluent), Swahili (intermediate), Hindi (intermediate)
-- Volunteers as a magistrate (2024 - Present)
 - Clarinet player for an amateur theatre company
 
 **References available upon request**
 
 ===[[Prompt 1: ChatGPT generated CV]]===
 
-#### Prompt given to ChatGPT
+#### Prompt 1 given to ChatGPT
 
-Make a cv for me, I'm Jaya Shankar, I want to be a software enegineer, particularly testing, security, quality. I'm in London and worked for Microsoft as a a QA intern, and tescos as a shop assistant. I've done a levels and gcses and I'm a magistrate
+> Make a cv for me, I'm Jaya Shankar, I want to be a customer service advisor. I'm in London and worked for Tesco as a shop assistant. I've done A levels and GCSEs and I can play the clarinet.
 
-What employment details should I include? Provide dates and key achievements
-What are your key technical skills? Programming languages
-What programming languages do you know? JavaScript
-
-#### Generated CV
+#### First Generated CV
 
 **Jaya Shankar**
 
-**Location:** London, United Kingdom
-**Email:** [your.email@example.com](mailto:your.email@example.com) | **Phone:** your phone number
-**LinkedIn:** linkedin.com/in/yourprofile | **GitHub:** github.com/yourusername
+**Location:** London, UK
+**Phone:** [Your Phone Number]
+**Email:** [Your Email Address]
 
 **Professional Profile**
 
-Motivated and detail-oriented aspiring Software Engineer with a strong interest in Software Testing, Quality Assurance, and Cyber Security. Experience gained through a QA internship at Microsoft and customer-facing retail work at Tesco has developed my analytical thinking, attention to detail, communication, and problem-solving skills. Passionate about delivering high-quality software and building a career in software quality, testing, and security.
+Friendly, reliable, and customer-focused individual with experience working in retail as a Shop Assistant at Tesco. Skilled in helping customers, handling transactions, and working effectively as part of a team in a busy environment. Looking to secure a Customer Service Advisor role where I can provide excellent service and contribute to a positive customer experience.
 
-**Technical Skills**
+**Key Skills**
 
-- **Programming:** JavaScript
-- Software Testing
-- Quality Assurance
-- Bug Identification and Reporting
-- Problem Solving
-- Attention to Detail
-- Microsoft Office
+- Excellent customer service
+- Strong communication skills
+- Cash handling and till operation
+- Teamwork and collaboration
+- Problem-solving
+- Time management
+- Friendly and professional attitude
+- Able to work in fast-paced environments
 
-**Professional Experience**
+**Work Experience**
 
-**QA Intern | Microsoft**
+**Shop Assistant**
+**Tesco**
+_Dates: [Month/Year] – [Month/Year or Present]_
 
-**[Month Year] – [Month Year]**
-
-- Assisted the Quality Assurance team in testing software applications.
-- Identified, documented, and tracked software defects.
-- Performed manual testing to verify application functionality and quality.
-- Worked with developers to help reproduce and resolve issues.
-- Contributed to improving software reliability before release.
-
-**Shop Assistant | Tesco**
-
-**[Month Year] – Present (or Month Year)**
-
-- Delivered excellent customer service in a fast-paced retail environment.
-- Handled stock replenishment and maintained store presentation.
-- Processed customer transactions accurately.
-- Worked collaboratively with colleagues to meet daily operational targets.
-- Developed strong communication, teamwork, and time management skills.
+- Assisted customers with enquiries and provided friendly service.
+- Operated tills and processed cash and card payments accurately.
+- Replenished shelves and ensured products were well presented.
+- Maintained a clean, safe, and organised shop floor.
+- Worked as part of a team to meet daily store targets.
 
 **Education**
 
 **A Levels**
-
-**[School/College Name]**
-Completed A Levels.
+[School or College Name]
+_Completed: [Year]_
 
 **GCSEs**
+[School Name]
+_Completed: [Year]_
 
-**[School Name]**
-Completed GCSE qualifications.
+**Additional Skills & Interests**
 
-**Additional Experience**
+- Clarinet player with experience performing and practising regularly.
+- Enjoy working with people and providing excellent customer service.
+- Willing to learn new skills and take on new responsibilities.
 
-**Magistrate**
+**References**
 
-- Serve as a Magistrate, demonstrating integrity, impartiality, sound judgement, and responsibility.
-- Assess evidence and contribute to fair legal decisions.
-- Apply critical thinking and communicate effectively while working as part of a judicial panel.
-
-**Key Strengths**
-
-- Software Testing
-- Quality Assurance
-- Security-focused mindset
-- Analytical Thinking
-- Attention to Detail
-- Teamwork
-- Communication
-- Problem Solving
-- Adaptability
-- Customer Service
-
-**Career Objective**
-
-To begin a career as a Software Engineer with a focus on Software Testing, Quality Assurance, or Cyber Security, where I can continue developing my technical skills while contributing to the delivery of secure, reliable, and high-quality software.
+Available upon request.
 
 ===[[Prompt 2: ChatGPT generated CV]]===
 
-#### Prompt given to ChatGPT
+#### Prompt 2 given to ChatGPT
 
-Build a CV following this brief:
+> I need to write a CV for this job description:
 
-- Jaya Shankar, London, GitHub and LinkedIn links needed for profile
-- Education up to A levels (maths, eng, music, ABB) (A levels completed June 2024, GCSEs completed July 2022)
-- Work experience as QA and Testing Intern, Microsoft, June 2026 - August 2026. Key skills: implemented test pipelines for test coverage and security checks. Led agile ceremonies for qa team. Spotted and intervened in 5 critical bugs, communicated intervention to stakeholders. Saved 1 week of downtime for the team.
-- Work experience: Shop assistant, Tesco, May 2024 - February 2026. Key skills: communication and relationship building, delegating tasks, upskilling quickly to self-checkout management, picking, stock management to cover for manager. Team lead responsibilities for holiday management cover, managed leave, payroll and rota.
-- Project -> todo list for engineers: React, Prisma, TypeScript. Learnt React in 4 days, 1-week project. Full coverage testing and lint checks, GitHub pipeline for automated testing and qa processes.
-- volunteered as a magistrate (20224 to current)
-- Languages: English (fluent), Gujarati (fluent), Swahili (intermediate), Hindi (intermediate)
-- Clarinet player for an amateur theatre company tech interest
-- Testing, security, quality.
+<details>
+<summary>Job Description</summary>
+As a Customer Service Advisor, you will be the first point of contact for our customers, providing essential advice and assistance, predominantly over the phone, or email and web chat.
+
+Your can-do attitude and passion for helping people will be key, as we fully train you to navigate various conversations and provide clear, quick information.
+
+You Will Be Responsible For
+
+Speaking to customers on the phone, helping them with their questions or issues.
+Helping customers to pay the correct amount of tax at the right time.
+Taking payments by phone and via our online services.
+Creating customer records and keeping them up to date.
+Using webchat and email to support our customers online.
+
+What are we looking for?
+No experience is necessary as you will be fully trained, but we would like you to be comfortable talking on the phone and discussing debt with our customers.
+You will also need to be comfortable writing up notes, as this is mainly a phone-based role.
+We are looking for individuals with the drive and passion to make a difference to people's lives, and need people:
+
+With great verbal and written communication skills in English. Dedicated to providing brilliant customer service.
+With a can-do attitude and passion for supporting people.
+With a resilience to work in a demanding and rewarding environment.
+With the ability to provide information quickly and clearly.
+Comfortable in handling various types of conversations.
+To have basic maths skills.
+
+</details>
+
+> Here is my candidate profile:
+
+<details>
+<summary>Candidate Profile</summary>
+
+- Jaya Shankar, London.
+- Education up to A levels (maths, eng, music, ABB) (A levels completed June 2024, GCSEs completed July 2022).
+- Work experience: Shop assistant, Tesco, May 2024 - present. Key skills: communication and relationship building, delegating tasks, upskilling quickly to self-checkout management, picking, stock management to cover for manager. Team lead responsibilities for holiday management cover, managed leave, payroll and rota.
+- Volunteer at a food bank (2024 to current).
+- Languages: English (fluent), Gujarati (fluent), Swahili (intermediate), Hindi (intermediate).
+- Clarinet player for an amateur theatre company.
+</details>
 
 #### Generated CV
 
 **Jaya Shankar**
 
-London, UK
-Email: [your.email@example.com](mailto:your.email@example.com) | Phone: +44 XXXX XXX XXX
-LinkedIn: https://linkedin.com/in/yourprofile
-GitHub: https://github.com/yourusername
+London
 
-**Profile**
+**Personal Profile**
 
-Aspiring Software Quality Assurance and Test Engineer with hands-on experience in automated testing, quality processes, and Agile delivery through a QA internship at Microsoft. Passionate about software testing, security, and building reliable applications with strong automated quality pipelines. Recognised for quickly learning new technologies, identifying critical defects, and communicating effectively with both technical teams and stakeholders. Brings additional leadership and customer service experience from retail management responsibilities.
+Friendly, reliable and customer-focused individual with experience working in a busy retail environment and volunteering within the local community. Confident communicating with a wide range of people, resolving customer queries, and working under pressure while maintaining a professional and positive attitude. A quick learner who takes pride in providing excellent service, keeping accurate records, and supporting colleagues. Fluent in English and committed to helping people, making me well suited to a Customer Service Advisor role.
 
-**Technical Skills**
+**Key Skills**
 
-- Testing & QA: Test automation, test pipelines, test coverage, quality assurance, security checks
-- Languages: TypeScript, JavaScript
-- Frameworks & Tools: React, Prisma, Git, GitHub Actions
-- Methodologies: Agile, Scrum, CI/CD, Code Reviews
-- Additional: Linting, automated testing, stakeholder communication
+- Excellent verbal and written communication skills
+- Strong customer service and problem-solving abilities
+- Confident speaking with customers both in person and over the phone
+- Ability to explain information clearly and patiently
+- Accurate record keeping and attention to detail
+- Good organisational and time management skills
+- Teamwork and leadership experience
+- Basic mathematical and cash handling skills
+- Able to remain calm and professional in busy environments
+- Fast learner who adapts quickly to new systems and responsibilities
 
-**Professional Experience**
-
-**QA & Testing Intern**
-
-**Microsoft** | June 2026 – August 2026
-
-- Implemented automated test pipelines to improve test coverage and integrate security checks into the development workflow.
-- Led Agile QA ceremonies, coordinating testing priorities and improving team collaboration.
-- Identified and intervened on five critical software defects before release.
-- Communicated testing outcomes and risk assessments effectively to technical and business stakeholders.
-- Prevented approximately one week of potential team downtime through proactive quality assurance and issue resolution.
+**Work Experience**
 
 **Shop Assistant**
 
-**Tesco** | May 2024 – February 2026
+**Tesco** | May 2024 – Present
 
-- Delivered excellent customer service through strong communication and relationship-building skills.
-- Quickly progressed to managing self-checkout operations and supporting wider store operations.
-- Assisted with stock management, order picking, and managerial duties during periods of absence.
-- Coordinated holiday cover, managed staff leave requests, payroll support, and rota planning.
-- Delegated tasks effectively while supporting team performance in a fast-paced retail environment.
+- Provide friendly and professional customer service in a fast-paced retail environment.
+- Assist customers with enquiries and resolve issues efficiently.
+- Trained quickly to manage the self-checkout area, supporting customers and troubleshooting problems.
+- Carry out stock replenishment and picking duties while maintaining accuracy.
+- Help ensure shelves are well stocked and products are available for customers.
+- Cover management responsibilities during holidays, including supporting payroll, managing staff leave, and assisting with rotas.
+- Delegate tasks to colleagues and help maintain an organised and productive team.
+- Build positive relationships with customers and colleagues through clear communication and teamwork.
 
-**Projects**
+**Volunteering**
 
-**Todo List for Engineers**
+**Food Bank Volunteer**
 
-**React • TypeScript • Prisma**
+2024 – Present
 
-- Designed and built a full-stack engineering task management application within one week.
-- Self-taught React in four days before delivering the completed application.
-- Implemented comprehensive automated test coverage and linting throughout the project.
-- Built a GitHub Actions CI pipeline to automate testing and quality assurance processes.
-- Applied software engineering best practices with a strong focus on maintainability and code quality.
+- Support members of the local community by preparing and distributing food parcels.
+- Communicate respectfully and sensitively with people from a variety of backgrounds.
+- Work as part of a team to organise stock and ensure efficient service.
+- Demonstrate empathy, reliability and a commitment to helping others.
 
 **Education**
 
@@ -334,15 +338,6 @@ Completed June 2024
 
 Completed July 2022
 
-**Volunteering**
-
-**Magistrate**
-
-2024 – Present
-
-- Contribute to the justice system through fair, impartial decision-making and community service.
-- Develop strong analytical thinking, communication, and professional judgement.
-
 **Additional Information**
 
 **Languages**
@@ -354,16 +349,43 @@ Completed July 2022
 
 **Interests**
 
-- Software testing
-- Application security
-- Software quality engineering
-- Continuous improvement and automation
+**Clarinet Player – Amateur Theatre Company**
 
-**Extracurricular Activities**
-
-- Clarinet player for an amateur theatre company.
+- Perform regularly as part of an orchestra, demonstrating commitment, teamwork, discipline and the ability to work collaboratively towards shared goals.
 
 {{< /tabs >}}
+
+#### Let's review these CVs
+
+We have a [guide on how to write a great CV](https://cyf-curriculum.netlify.app/guides/employability/cvs/), use this to help assess what's good or bad about the CVs.
+
+##### Human generated CV
+
+When passed through the [automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/)
+
+##### Prompt 1 CV
+
+When passed through the [automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/)
+
+- Contact details
+- Unexplained gaps
+- No personal pronouns
+- unclear tense
+- no buzzwords
+- generic summary
+- no outcomes
+- no metrics or benefits from experience stated
+- Project is missing links
+
+##### Prompt 2 CV
+
+When passed through the [automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/)
+
+- Unexplained gaps
+- Project is missing links
+
+<!-- What to look out for -->
+<!-- Summary of findings according to us -->
 
 <!-- And let's explain why this is bad - that it will generate generic CVs which don't sell you, which aren't personal, that use filler words, that make things up about your background, etc.
 
