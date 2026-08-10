@@ -13,27 +13,31 @@ src = "module/sdc-induction/how-we-work"
 name = "Goals"
 src = "module/sdc-induction/goals"
 [[blocks]]
-name = "Using a project board workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/projectboard"
-time = "45"
-[[blocks]]
-name = "Morning break"
-src = "blocks/morning-break"
-[[blocks]]
-name = "Terminal skills workshop"
-src = "https://github.com/CodeYourFuture/CYF-Workshops/readme/terminal-skills"
-time = "60"
-[[blocks]]
-name = "Lunch"
-src = "blocks/lunch"
-[[blocks]]
 name = "Demo"
 src = "blocks/demo"
 time = "30"
 [[blocks]]
+name = "Morning break"
+src = "blocks/morning-break"
+[[blocks]]
+name = "Using a project board workshop"
+src = "workshops/projectboard"
+time = "45"
+[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "130"
+time = "30"
+[[blocks]]
+name = "Lunch"
+src = "blocks/lunch"
+[[blocks]]
+name = "Terminal skills workshop"
+src = "workshops/terminal-skills"
+time = "60"
+[[blocks]]
+name = "Study Group"
+src = "blocks/study-group"
+time = "100"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"

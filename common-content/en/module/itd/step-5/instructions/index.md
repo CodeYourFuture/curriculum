@@ -99,11 +99,25 @@ Submit the link to your CodePen page in Step 5 on the [CYF Course Platform](http
 
 ### Important Notes About CodePen
 
-- When writing your code in CodePen, you do not need to include `<!DOCTYPE html>`, `<html>`, `<head>`, or `<body>` tags (the editor adds them automatically).
+CodePen provides two editing experiences: **Classic Pen** and **Pen 2.0**. The requirements for each are slightly different.
 
-- CodePen has built-in features to help you check your code for errors:
-  - **Analyze HTML** → checks your HTML for mistakes
-  - <img src="https://www.freecodecamp.org/news/content/images/2021/03/analyze-before-option.png" alt="HTML Analyzer" width="600">
-  - **Analyze CSS** → checks your CSS for mistakes
+#### Classic Pen
 
-- To learn more about CodePen features, see: [How to Use CodePen – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-use-codepen/).
+- In the HTML editor, you only need to enter the content that belongs inside the `<body>` element. Do not include `<!DOCTYPE html>`, `<html>`, `<head>`, or `<body>` tags.
+
+- To check your code for errors:
+    - **Analyze HTML** - validates your HTML and identifies potential issues.
+    - <img src="https://www.freecodecamp.org/news/content/images/2021/03/analyze-before-option.png" alt="HTML Analyzer" width="600">    
+    - **Analyze CSS** - validates your CSS and identifies potential issues.
+
+- For a complete overview of Classic Pen features, see: [How to Use CodePen – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-use-codepen/).
+
+#### Pen 2.0
+
+- The `index.html` file must contain a complete HTML document, including `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags.
+
+- To validate your code, use the W3C validation services. Open the Direct Input tab, then copy and paste your code into the validator:
+    - **HTML validation** -- https://validator.w3.org/
+    - **CSS validation** -- https://jigsaw.w3.org/css-validator/
+
+    

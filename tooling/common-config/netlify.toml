@@ -31,6 +31,11 @@ to = "https://docs.google.com/document/d/1gO2iX0aoKyb3yCKmjhTr2FyKgDhnlzXbe0pdYO
 status = 302
 
 [[redirects]]
+from = "/improving-english"
+to = "https://docs.google.com/document/d/1XKpjtFTtvYf_j6hlLwEoiQ_ujSFv12P_WL0Th2wml1Y/edit"
+status = 302
+
+[[redirects]]
 from = "/eligibility-docs"
 to = "https://docs.google.com/document/d/1xyNGdHm2qJL5T3z3iQIk9fO9rzwaTbhG92s-wb0YhT8/edit"
 status = 302
@@ -68,6 +73,11 @@ status = 302
 [[redirects]]
 from = "/ai-use-cheat-sheet"
 to = "https://docs.google.com/document/d/1RnXEK3BXzfcdr03I9D0hPZn61BbApD3-i76zHGU_hs0/edit?tab=t.0"
+status = 302
+
+[[redirects]]
+from = "/curriculum-team-meeting-agenda"
+to = "https://docs.google.com/document/d/1JQ9Wz_E9VRumqOf8tjLh9Ngt_UgNSlOQhARE6CxY1hg/edit"
 status = 302
 
 [functions]

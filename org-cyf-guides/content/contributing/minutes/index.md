@@ -16,6 +16,141 @@ Attendees:
 ### ❗Actions
 
 ---
+## 28-07-2026
+
+Attendees: Abdishakoor, Colin, CJ
+
+### ❗Actions from last time
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [x] Colin: Set up a poll to gather feedback on trainees' use of Windows
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+Daniel was away, so the SDC legacy code module split and the Slack channel migration were not discussed. Both will be revisited at the next meeting.
+
+CJ has postponed the "How to orient yourself to a PR" video, and will aim to record it before the next ITP start.
+
+Colin posted the Windows poll in the ITP volunteer channel, but only two volunteers responded. That is not enough to act on, so we agreed to leave things as they are: CYF policy is to support Linux, and trainees are welcome to use whatever they like.
+
+#### Time pressure and group work late in the ITP
+
+The group agreed this is better discussed with a wider group.
+
+Two observations were raised:
+
+- Group work is a flare up point because trainees have to find groups, and this happens towards the end of the course where there is no room to sort problems out.
+- The majority of trainees are completing each sprint's PRs during the following sprint, so they are already several sprints behind by the time they reach the group project. That pushes the group project down their list of priorities and increases the chance it is abandoned in the rush to submit work before the course ends.
+
+#### Mermaid issues in the curriculum
+
+CF raised the Mermaid rendering issues in a Slack thread. Upgrading to the latest version of Mermaid may fix them, and CJ will attempt this.
+
+#### Future topics
+
+- Feedback and ideas from Martim's experience
+- ITD SQLification (with Shivani)
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [ ] CJ: Upgrade Mermaid to the latest version in an attempt to fix the Mermaid rendering issues
+
+## 14-07-2026
+
+Attendees: Abdishakoor, Daniel, Colin, CJ, Ali
+
+### ❗Actions from last time
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [x] Liam: (Carry Over) Setup reminder in the curriculum-feedback channel
+- [x] CJ: Remove CSS from the Wireframe exercise
+- [ ] Daniel: Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+Daniel continues splitting up the SDC legacy code module and is getting help with a second legacy module.
+
+CJ is taking a break from preparing the "How to orient yourself to a PR" video.
+
+The curriculum-feedback Slack channel has been set up to post reminders about the curriculum meeting.
+
+Colin agreed to review the "Remove CSS from the Wireframe exercise" PR.
+
+#### Trainees using **Windows**
+
+Question: Should we require or encourage trainees to switch to a Linux-based system at the start of the ITP?
+
+There was no consensus among the committees in attendance.
+
+Colin suggested preparing a poll to gather more feedback.
+
+#### Update on Checkpoint
+Summary from Daniel:
+- No major change
+- Having more interviewers helped
+- Most trainees agreed with the outcome
+- A CheckPoint Retro was scheduled on 20 July 2026
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [ ] Colin: Set up a poll to gather feedback on trainees' use of Windows
+
+## 16-06-2026
+
+Attendees: Anna, Daniel, Colin, Ali, CJ, Poonam
+
+### ❗Actions from last time
+- [ ] Daniel: Split up the SDC legacy code module
+- [ ] CJ: Recording a "How to orient yourself to a PR video"
+- [ ] All: Future discussion of how we address time pressure late in the course and including group work
+- [x] Daniel: Explore shared channels
+- [ ] Liam: Setup reminder in the curriculum-feedback channel
+
+### 📝 Agenda points
+
+#### Actions from last time
+Daniel suggested moving the curriculum channel to the Community workspace to broaden participation in curriculum discussions, and to avoid maintaining multiple channels.
+
+To address the message longevity issue on the community workspace, a mirroring bot to back up channel messages will be explored. 
+
+#### Simplifying the CSS in the ITP Module-Onboarding Wireframe exercise
+CJ pointed out that the current CSS is considered too advanced and cannot be validated using the W3C validation service, limiting its usefulness as a learning tool.
+
+Follow-up action: Remove the provided CSS and require trainees to create the CSS from scratch.
+
+#### AI goings on within curriculum
+Poonam prepared and incorporated [AI guidance](https://docs.google.com/document/d/1Rq3dh3yE7sqkBM1cTPP6-f2CSO4lhdhi_2yXxAV3EfA/edit?tab=t.0#heading=h.3kept1c7ccss) materials into the curriculum, including 
+- an ["Introducing AI Guideline"](https://curriculum.codeyourfuture.io/itp/onboarding/sprints/3/day-plan/#workshop-introducing-ai-guidelines) workshop in an ITP day plan
+- an [AI Usage Guide](https://curriculum.codeyourfuture.io/guides/ai-usage/) summarizing the full guidelines
+- a [volunteer cheat sheet](https://docs.google.com/document/d/1RnXEK3BXzfcdr03I9D0hPZn61BbApD3-i76zHGU_hs0/edit?tab=t.0#heading=h.lefftmpzlphe)
+
+She also created a new "Topic AI" label for tracking AI-related issues.
+
+#### Progress on merging workshop content into the curriculum repo
+Anna reported that the workshop-content merge is complex, with some links not yet functioning until deployment.
+
+### ❗Actions
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Liam: (Carry Over) Setup reminder in the curriculum-feedback channel
+- [ ] CJ: Remove CSS from the Wireframe exercise
+- [ ] Daniel: Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
 
 ## 19-05-2026
 

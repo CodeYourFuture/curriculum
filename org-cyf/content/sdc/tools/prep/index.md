@@ -5,6 +5,9 @@ layout = "prep"
 menu_level = ["module"]
 weight = 1
 [[blocks]]
+name = "Read the SDC AI Guidelines"
+src = "module/tools/sdc-ai-use"
+[[blocks]]
 name = "Install a unix based os"
 src = "module/js1/check-unix-os"
 [[blocks]]

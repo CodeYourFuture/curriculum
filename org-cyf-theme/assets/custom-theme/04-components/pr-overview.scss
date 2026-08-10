@@ -1,26 +1,43 @@
 .c-pr-overview {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(var(--theme-spacing--container-min), 1fr)
-  );
+  grid-template-columns: auto;
+  grid-auto-flow: column;
   gap: var(--theme-spacing--2);
   margin-bottom: var(--theme-spacing--4);
+
+  dd {
+    margin-inline-start: 10px;
+  }
 
   &__card {
     box-shadow: var(--theme-box-shadow--slim);
     padding: var(--theme-spacing--1);
     display: grid;
     gap: var(--theme-spacing--1);
+    max-width: 285px;
   }
 
   &__age {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     margin: auto 0 0;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__bucket {
     text-align: center;
   }
+
+  &__module {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
+
+

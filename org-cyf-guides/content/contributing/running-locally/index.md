@@ -14,7 +14,7 @@ Our curriculum is built on top of [Hugo](https://gohugo.io/) and requires some p
 - `npm`
 
 > [!WARNING]
-> We require `v0.136.5-extended` of `hugo` which can be downloaded from [GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.136.5) and manually added to your `$PATH`.
+> We require `v0.136.3-extended` of `hugo` (the version pinned in `netlify.toml`), which can be downloaded from [GitHub](https://github.com/gohugoio/hugo/releases/tag/v0.136.3) and manually added to your `$PATH`.
 > 
 > Later versions will induce an error and building will fail.
 > 

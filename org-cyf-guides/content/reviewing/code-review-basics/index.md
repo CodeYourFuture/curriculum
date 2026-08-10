@@ -109,6 +109,6 @@ If you want to dive deeper into code review, check out these resources:
 
 ## Practice Exercise
 
-Find an open pull request in the [#cyf-code-review](https://codeyourfutur-yov6609.slack.com/archives/C07QX99JK7B) channel and practice reviewing it using this guide.
+Find an open pull request by joining the [#cyf-code-review-volunteer-team](https://codeyourfutur-yov6609.slack.com/archives/C0A1E83EZRP) channel and following one of the links in the **Code Review Resources** tab. Once you've chosen one, practice reviewing it using this guide.
 
 Remember: Code review is a conversation, not a judgment. We're all learning!

@@ -44,7 +44,7 @@ src="module/js1/errors"
 name="Percentages"
 src="module/js1/percentages"
 [[blocks]]
-name="Defining functions"
+name="Declaring functions"
 src="module/js1/declaring-functions"
 [[blocks]]
 name="Playing computer"
