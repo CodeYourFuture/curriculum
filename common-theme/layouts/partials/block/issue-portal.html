@@ -1,0 +1,5 @@
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $block := $blockData.block }}
+
+{{ $url := strings.TrimPrefix "portal-issue://" $block.src }}
+{{ partial "block/issue.html" (dict "title" $block.name "labels" $block.labels.nodes "learning_objectives" $block.learning_objectives "body" $block.body "url" $url "time" $block.time "code" $block.code "Page" $block.Page) }}

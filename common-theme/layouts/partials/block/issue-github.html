@@ -1,0 +1,14 @@
+{{/* This block expects the github issue api */}}
+{{ $blockData := .Page.Scratch.Get "blockData" }}
+{{ $response := resources.GetRemote $blockData.api $blockData.headers }}
+
+{{ if $response }}
+  {{ $response = $response.Content | transform.Unmarshal }}
+
+  {{/* extract objectives */}}
+  {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $blockData.api "body" $response.body) }}
+  {{/* remove "Learning Objectives" heading from remaining text */}}
+  {{ $strippedBody := replace $response.body "### Learning Objectives" "" }}
+
+  {{ partial "block/issue.html" (dict "title" $blockData.name "labels" $response.labels "learning_objectives" $extractedObjectives "body" $strippedBody "url" $response.html_url) }}
+{{ end }}

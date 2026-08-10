@@ -3,6 +3,7 @@
   {{ $currentPath := .Page.RelPermalink }}
   {{ $backlog_filter := .Page.Params.backlog_filter }}
   {{ $repos := .Page.Params.backlog }}
+  {{ $courseName := .Section }}
   {{ if not (reflect.IsSlice $repos) }}
     {{ $repos = slice $repos }}
   {{ end }}
@@ -29,11 +30,17 @@
     {{ $mandatoryTasks := slice }}
     {{ $optionalTasks := slice }}
 
+    {{ $partial := "block/issues-list-as-blocks-github.html"}}
+
+    {{ if eq .Section "sdc" }}
+      {{ $partial = "block/issues-list-as-blocks-portal.html" }}
+    {{ end }}
+
     {{/* you can have multiple repos but probably for sanity let's just stick with one label filter
       for each repo, grab the issues that match the filter
     */}}
     {{ range $repos }}
-      {{ $issueBlocks := partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlog_filter "path" $currentPath) }}
+      {{ $issueBlocks := partial $partial (dict "course_name" $courseName "backlog" . "backlog_filter" $backlog_filter "path" $currentPath "Page" $page) }}
       {{ range $issueBlocks }}
         {{ $issue := . }}
         {{ range .labels.nodes }}

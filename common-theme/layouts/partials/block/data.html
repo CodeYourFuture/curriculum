@@ -14,7 +14,6 @@
 {{ $displayName := .name | default "warning: name is empty" }}
 {{/* REQUIRED INPUT in [[blocks]] src */}}
 {{ $src := .src | default "warning: src is empty" }}
-{{ $pageRef := .page }}
 {{/* Initialize the blockData map */}}
 {{ .Scratch.Set "blockData" (dict) }}
 {{/* Stuff blockData with default keys and vals */}}
@@ -29,7 +28,9 @@
 {{ .Scratch.SetInMap "blockData" "hasBlocks" .hasBlocks| default "" }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
-{{ .Scratch.SetInMap "blockData" "pageLayout" $pageRef.Page.Params.layout}}
+{{ .Scratch.SetInMap "blockData" "block" .block }}
+{{ .Scratch.SetInMap "blockData" "Page" .block.Page }}
+{{ .Scratch.SetInMap "blockData" "pageLayout" .block.Page.Params.layout }}
 
 {{/* Now let's do our headers */}}
 {{ $headers := partial "github-auth.html" }}
@@ -47,12 +48,12 @@
 {{ if or (in $src "png") (in $src "webp") (in $src "jpg") (in $src "jpeg") (in $src "gif") }}
   {{ .Scratch.SetInMap "blockData" "type" "slide" }}
 {{ else }}
-  {{ if "https://github.com" | in $src }}
+  {{ if hasPrefix $src "https://github.com" }}
     {{/* Change base URL to api.github.com */}}
     {{ $newSrc := replace $src "https://github.com/" "https://api.github.com/repos/" }}
 
     {{ if (in $src "issues") }}
-      {{ .Scratch.SetInMap "blockData" "type" "issue" }}
+      {{ .Scratch.SetInMap "blockData" "type" "github-issue" }}
     {{ else if (in $src "pulls") }}
       {{ $newSrc = print $newSrc "?per_page=5&state=open" }}
       {{ .Scratch.SetInMap "blockData" "type" "pullreq" }}
@@ -63,6 +64,9 @@
 
     {{ .Scratch.SetInMap "blockData" "api" $newSrc }}
     {{/* TODO pull time from commented out front matter in Github readmes */}}
+  {{ else if hasPrefix $src "portal-issue://" }}
+    {{ .Scratch.SetInMap "blockData" "type" "portal-issue" }}
+    {{ .Scratch.SetInMap "blockData" "body" .body }}
   {{ end }}
 
   {{ if "codewars-workshops." | in $src }}

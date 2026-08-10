@@ -1,10 +1,13 @@
 +++
-title = "Write a frontend and backend"
+title = "Write a linked frontend and backend"
 headless = true
 time = 60
 facilitation = false
-[objectives]
-    1="Run a frontend and backend which can communicate with each other"
+objectives = [
+    "Redesign a backend to an updated API design",
+    "Design a frontend that can interact with a local backend API",
+    "Run a frontend and backend which can communicate with each other",
+]
 +++
 
 {{<note type="Exercise">}}
@@ -12,8 +15,8 @@ Take the example stateful backend we already saw, and adapt it so that it serves
 
 You can test it by running your backend and making the following requests to it:
 
-* `curl http://127.0.0.1:3000/`
-* `curl -X POST --data '{"author": "Ibrahim", "quote": "Hello"}' http://127.0.0.1:3000/`
+- `curl http://127.0.0.1:3000/`
+- `curl -X POST --data '{"author": "Ibrahim", "quote": "Hello"}' http://127.0.0.1:3000/`
 
 Make sure the responses you get match the API specification we designed.
 {{</note>}}
@@ -38,6 +41,7 @@ You don't need to support adding new quotes yet - we'll do that later.
 > You will probably hit errors when your frontend tries to talk to your backend due to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
 >
 > You can work around these by adding the following lines of code to your backend:
+>
 > ```js
 > import cors from "cors";
 > app.use(cors());
