@@ -1,6 +1,6 @@
 +++
 title = 'Creating a Commit'
-time ="45"
+time = 45
 objectives = [
     "Use Git to identify which files have been changed",
     "Selected files to be included in a commit",

@@ -1,7 +1,7 @@
 +++
 title = 'Working locally'
 
-time ="20"
+time = 20
 [objectives]
     1='Clone a remote repository from GitHub into a local folder'
     2="Define the terms 'remote' and 'local' in the context of GitHub"

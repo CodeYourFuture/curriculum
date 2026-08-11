@@ -1,6 +1,6 @@
 +++
 title = 'Pushing and Pulling'
-time ="30"
+time = 30
 objectives = [
     "Link local and remote repositories",
     "Upload files to GitHub"

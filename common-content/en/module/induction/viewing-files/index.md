@@ -1,6 +1,6 @@
 +++
 title = 'Viewing files from a git clone'
-time ="20"
+time = 20
 objectives=["Open a cloned repository in VSCode","Explore the repository in VSCode","Open the Integrated Terminal in VSCode"]
 [build]
   render = 'never'

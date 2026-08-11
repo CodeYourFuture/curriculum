@@ -1,6 +1,6 @@
 +++
 title = 'Remote Repositories'
-time ="20"
+time = 20
 objectives = [
   "Understand what a remote repository is",
   "Create a new repository on GitHub",

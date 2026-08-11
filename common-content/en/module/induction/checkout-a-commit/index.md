@@ -1,7 +1,7 @@
 +++
 title = 'Inspecting a commit'
 
-time ="15"
+time = 15
 [objectives]
     1='Given a remote repository on GitHub, identify the files and folders from any commit in a version timeline'
 [build]
