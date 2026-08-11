@@ -10,12 +10,6 @@ time =45
 
 +++
 
-TODO:
-
-- Add some extra content to an existing repo (education blog?)
-- Revert a commit and examine history
-- Reset to a previous commit and examine history
-
 One of the great things about Git is that it captures the complete history of a project. Because we know exactly what was changed with each commit we are able to deconstruct the changes made to a project and revert it to a previous state. We can jumping back and forth between versions if we need to see what our project looked like before some changes were made.
 
 We can also _undo_ those changes, acting as if they never actually happened. This is particularly useful in a situation where we accidentally commit something we didn't mean to, which can easily happen!

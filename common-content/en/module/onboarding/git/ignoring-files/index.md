@@ -10,13 +10,6 @@ time =45
 
 +++
 
-TODO:
-
-- Create an additional file in a repo - **do not commit**
-- Explain why we may not want to commit it
-- Create `.gitignore`
-- Use `git status` (or equivalent in VSCode) to show file is being ignored
-
 We can avoid situations like our password mistake if we tell Git not to pay attention to files containing sensitive data in the first place. First of all we're going to delete `passwords.json` as this isn't typically how we would store this data. Instead create a file called `.env` and copy the values there instead.
 
 ```sh {title=".env"}
