@@ -18,7 +18,7 @@ From that point on, your web browser works on its own. Any event handlers, timer
 
 The job of the server was just to hand over files. Those files are the same, no matter what user asked for them, or what computer they were using.
 
-We often call these static files a **frontend**.
+We often call these static files a {{<tooltip title="Frontend" text="frontend">}}A software interface that a user can interact with, see, hear, and/or make changes on.{{</tooltip>}} .
 
 We can build impressive, useful websites with just a frontend. We can include images, videos, and sounds. We can react to user input. We can change what we show on the page. We can even use things like [the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) to store data so that if you leave the page and come back, your data is still there.
 
@@ -29,6 +29,7 @@ But frontends also have limitations.
 ### Limitations of a frontend
 
 Four major limitations of a website which only has a frontend are:
+
 1. We only have access to information we knew when we made the frontend.
 2. We can't share information across computers.
 3. We can't interact with other users.

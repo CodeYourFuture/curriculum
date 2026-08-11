@@ -16,6 +16,53 @@ Attendees:
 ### ❗Actions
 
 ---
+## 28-07-2026
+
+Attendees: Abdishakoor, Colin, CJ
+
+### ❗Actions from last time
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [x] Colin: Set up a poll to gather feedback on trainees' use of Windows
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+Daniel was away, so the SDC legacy code module split and the Slack channel migration were not discussed. Both will be revisited at the next meeting.
+
+CJ has postponed the "How to orient yourself to a PR" video, and will aim to record it before the next ITP start.
+
+Colin posted the Windows poll in the ITP volunteer channel, but only two volunteers responded. That is not enough to act on, so we agreed to leave things as they are: CYF policy is to support Linux, and trainees are welcome to use whatever they like.
+
+#### Time pressure and group work late in the ITP
+
+The group agreed this is better discussed with a wider group.
+
+Two observations were raised:
+
+- Group work is a flare up point because trainees have to find groups, and this happens towards the end of the course where there is no room to sort problems out.
+- The majority of trainees are completing each sprint's PRs during the following sprint, so they are already several sprints behind by the time they reach the group project. That pushes the group project down their list of priorities and increases the chance it is abandoned in the rush to submit work before the course ends.
+
+#### Mermaid issues in the curriculum
+
+CF raised the Mermaid rendering issues in a Slack thread. Upgrading to the latest version of Mermaid may fix them, and CJ will attempt this.
+
+#### Future topics
+
+- Feedback and ideas from Martim's experience
+- ITD SQLification (with Shivani)
+
+### ❗Actions
+
+- [ ] Daniel: (Carry Over) Split up the SDC legacy code module
+- [ ] CJ: (Carry Over) Recording a "How to orient yourself to a PR video"
+- [ ] All: (Carry Over) Future discussion of how we address time pressure late in the course and including group work
+- [ ] Daniel: (Carry Over) Move the curriculum channel to Community Slack workspace + explore the use of mirroring bot to backup messages
+- [ ] CJ: Upgrade Mermaid to the latest version in an attempt to fix the Mermaid rendering issues
+
 ## 14-07-2026
 
 Attendees: Abdishakoor, Daniel, Colin, CJ, Ali

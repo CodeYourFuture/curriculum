@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ $pageContext := . }}
+  {{ $courseName := .Section }}
   <article>
     {{ partial "page-header.html" . }}
     {{ with .Content }}
@@ -37,15 +38,19 @@
           }}
           {{ $issueBlocks := slice }}
           {{ if $backlogPage }}
+            {{ $backlogPartial := "block/issues-list-as-blocks-github.html" }}
+            {{ if eq .Section "sdc" }}
+              {{ $backlogPartial = "block/issues-list-as-blocks-portal.html" }}
+            {{ end }}
             {{ $backlogs := $backlogPage.Params.backlog }}
             {{ if $backlogs }}
               {{ if reflect.IsSlice $backlogs }}
                 {{ range $backlogs }}
-                  {{ $issueBlocks = append (partial "block/issues-list-as-blocks.html" (dict "backlog" . "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
+                  {{ $issueBlocks = append (partial $backlogPartial (dict "course_name" $courseName "backlog" . "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
                 {{ end }}
               {{ else }}
                 {{ $backlog := $backlogs }}
-                {{ $issueBlocks = append (partial "block/issues-list-as-blocks.html" (dict "backlog" $backlog "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
+                {{ $issueBlocks = append (partial $backlogPartial (dict "course_name" $courseName "backlog" $backlog "backlog_filter" $backlogPage.Params.backlog_filter "path" $pageContext.Path)) $issueBlocks }}
               {{ end }}
             {{ end }}
           {{ end }}
@@ -93,6 +98,10 @@
             {{/* Depending on the type of block, call the appropriate partial */}}
             {{ if or (eq $blockData.type "readme") (eq $blockData.type "issue") }}
               {{ partial "objectives/remote" (dict "blockData" $blockData "pageContext" $pageContext "title" $blockData.name "links" $links ) }}
+            {{ else if eq $blockData.type "portal-issue" }}
+              {{ if .learning_objectives }}
+                {{ partial "objectives/for-success.html" (dict "objectives" .learning_objectives "showTitle" .name "title" .name "links" $links) }}
+              {{ end }}
             {{ else }}
               {{ partial "objectives/local.html" (dict "blockData" $blockData "pageContext" $pageContext "showTitle" true "links" $links) }}
             {{ end }}
