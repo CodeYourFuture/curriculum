@@ -1,7 +1,7 @@
 +++
 title = 'Sharing history'
 
-time="30"
+time= 30
 [objectives]
 1='Identify the number of commits on the main branch of a remote repository'
 2='Identify the author, time and message of a given commit on GitHub'

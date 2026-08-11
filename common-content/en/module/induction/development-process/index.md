@@ -1,6 +1,6 @@
 +++
 title = 'Development process'
-time ="10"
+time = 10
 hide_from_overview = true
 [build]
   render = 'never'

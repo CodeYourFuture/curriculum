@@ -1,7 +1,7 @@
 +++
 title = 'Version control software'
 
-time="10"
+time= 10
 [objectives]
 1='Define a repository'
 2='Define a commit'
