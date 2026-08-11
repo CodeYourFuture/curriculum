@@ -19,33 +19,18 @@ src="module/onboarding/pseudocode"
 [[blocks]]
 name="Defining functions"
 src="module/js1/declaring-functions"
-# [[blocks]]
-# name="Playing computer"
-# src="module/js1/playing-computer"
 [[blocks]]
 name="Scope"
 src="module/js1/scope"
 [[blocks]]
 name="Return"
 src="module/js1/return"
-# [[blocks]]
-# name="Reuse"
-# src="module/js1/reuse"
 [[blocks]]
 name="Parameters"
 src="module/js1/parameters"
-# [[blocks]]
-# name="Solving problems with functions 📼"
-# src="module/js1/functions-workshop"
 [[blocks]]
 name="Refactoring"
 src="module/js1/refactoring"
-[[blocks]]
-name="Throwing Errors"
-src="module/onboarding/throwing-errors"
-[[blocks]]
-name="Breaking Down Problems"
-src="module/onboarding/problem-solving"
 [[blocks]]
 name="Undoing a Commit"
 src="module/onboarding/git/undoing-a-commit"
