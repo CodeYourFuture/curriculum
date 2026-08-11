@@ -70,7 +70,7 @@ node hello_world.js
 ```
 
 {{<note type="tip" title="'Error: Cannot find module">}}
-You may see an error message saying "cannot find module" when you run this command. That means Node can't find the file you have asked it to run. Use `pwd` to check you are in the right directory. If not, navigate to teh correct place using `cd` and try again.
+You may see an error message saying "cannot find module" when you run this command. That means Node can't find the file you have asked it to run. Use `pwd` to check you are in the right directory. If not, navigate to the correct place using `cd` and try again.
 {{</note>}}
 
 We should see the string `"Hello World!"` logged out in the terminal. Congratulations, you have written your first JavaScript program!
@@ -81,7 +81,8 @@ We should see the string `"Hello World!"` logged out in the terminal. Congratula
 Let's try again from the beginning
 
 1. In your terminal, create a new file called `facts.js`.
-2. Pick one of your fun facts from the Git sections in the first sprint
-3. Run the file using Node.
+2. Pick one of your fun facts from the Git sections in the first sprint.
+3. Write the instruction to print your fact to the terminal.
+4. Run the file using Node.
 
 {{</note>}}
