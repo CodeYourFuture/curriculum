@@ -8,7 +8,7 @@ time=5
 
 When people [sign up to study](https://codeyourfuture.io/itc/) on our website, they are invited to begin our Intro To Digital (ITD) Course. This course lasts one month, and runs 5 times a year.
 
-Learners complete the course on our [Guided Learning platform](https://course1.codeyourfuture.io/) by completing a sequence of steps. Each step is explained clearly in B1 English. The text is reproduced on this site in the [Steps](./steps) section.
+Learners complete the course on our [Guided Learning platform](https://course1.codeyourfuture.io/) by completing a sequence of steps. Each step is explained clearly in B1 English. The text is reproduced on [our ITD curriculum](https://curriculum.codeyourfuture.io/itd/).
 
 These submissions are passed to our internal dashboard, where volunteers can track the progress of each person and help them move forward.
 
