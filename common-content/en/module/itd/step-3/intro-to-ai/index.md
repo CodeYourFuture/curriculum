@@ -45,7 +45,7 @@ AI makes mistakes. It can produce code that looks correct but contains subtle er
 
 Look for **verified sources**:
 
-- Ask AI to cite it's sources, where has it found it's information?
+- Ask AI to cite its sources and then check you trust where it found its information.
 - Cross-check what you're reading with real documentation straight from the creators of the library/language/software you're using. A core coding skill.
 - Use Slack to ask questions to your ITD peers and volunteers, what insights can you gain from the community.
 

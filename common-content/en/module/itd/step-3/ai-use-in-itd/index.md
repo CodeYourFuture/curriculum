@@ -48,7 +48,7 @@ Let's take the example of a CV. We ask you to write your CV and keep it updated.
 And what happens when AI writes a CV for us:
 
 - You don't build English language instincts, you only read an example of written English. You don't make your own mistakes so you don't learn what is right or wrong. If you get a perfect instance of English generated in the first go, you are less likely to know what mistakes to correct in the future when you write your own words.
-- You don't build a mental map of your CV through structuring it yourself. Harder to recall your own CV in interviews.
+- You don't build a mental map of your CV through structuring it yourself. This makes it harder to recall your own CV in interviews.
 - Your CV lacks personalised tone of voice. CV comes out generic. Harder to catch the eye of recruiters, easier for recruiters to spot AI generation as it will sound like generated output, easier for the recruiter to discount your CV.
 - Big risk of AI making things up about your background - remember AI hallucinates.
 
