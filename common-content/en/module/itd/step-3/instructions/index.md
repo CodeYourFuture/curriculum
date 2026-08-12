@@ -1,147 +1,19 @@
 +++
 title ="Step 3: What to do"
-description= "Learn what is acceptable AI use within the ITD."
-time= 90
+description= "Complete the tasks for Step Three"
+time= 60
 [build]
   render = 'never'
   list = 'local'
   publishResources = false 
 +++
 
-You may have heard of, or used, generative AI tools (shortened to AI or AI tools from now on) like ChatGPT, Copilot or Gemini. These are powerful tools that we have seen both disrupt and assist the learning of trainees at {{<our-name>}}. This page aims to guide you in best practices for AI use in the ITD.
-
-To read the full AI guidelines for education at {{<our-name>}}, please access the [AI Use Guidelines for Trainees](/ai-use-guidelines).
+## CV writing: Human vs AI
 
 > [!WARNING]
 > Protect sensitive information: Never paste personal data, private project code, or information belonging to organisations into public AI tools. This includes anything related to your employer or work placement.
 
-### AI: A predictive word-generator
-
-AI assistants, like those mentioned above, are often large language models (LLMs). LLMs are "trained" on huge amounts of data to predict what word should come next in a sentence. Because they can read and generate text data, it feels like you're messaging a smart "person", but it is just software that has an algorithm for guessing what words should follow your input ({{<tooltip title="prompt">}} The input we give an AI assistant. {{</tooltip>}}).
-
-### Why do we need to be careful as ITD trainees?
-
-#### Our priority is building understanding
-
-At {{<our-name>}}, we prioritise building understanding so our trainees can be employable in the tech industry. Employability in software engineering involves knowing how to debug broken code, find new information, and break down problems to find a solution. {{<our-name>}} mentors will try to help you without giving away the answers or writing the code for you so you learn how to overcome hurdles yourself and apply that skill in the workplace.
-
-It can be easy for AI tools to do the hard work for us, e.g. solving the problem, fixing errors, or even writing emails for us. When AI does the work for us, we may think we're making progress and learning when we're not.
-
-- We're actually not building skills that will make us employable.
-- We're not understanding why we do certain things and what happens when we do them incorrectly.
-
-We need to do that work ourselves, so that **we build the deeper skills that will help us in our careers**.
-
-##### How do we use AI to build understanding?
-
-**1. Ask "why", not "how"**
-
-AI is very good at answering "how do I do X?" questions. It is less good at explaining the deeper principles behind how we do things.
-
-Develop the habit of following up with questions that go deeper into understanding, e.g:
-
-- "Why does this approach work?"
-- "What are the alternatives?"
-- "When would this not work?"
-
-**2. Check if you've learnt something**
-
-There is a meaningful difference between "I used AI to help me understand this concept" and "I used AI to avoid engaging with this concept."
-
-The first makes you stronger. The second leaves a gap that will show itself later, often at the worst moment, like a job interview.
-
-**Ask yourself: “Will I need to ask AI the same question tomorrow?”**
-
-If the answer's _yes_, you're using AI to do the work rather than to build your understanding. That's going to lead to more misunderstanding, longer time to learn core concepts, and weaker skills in employment.
-
-> [!TIP]
-> **Challenge yourself 🧠**
->
-> Check you have learnt by deleting the AI output and rewriting it yourself. You should know how to write it without AI assistance if you have picked up the knowledge.
->
-> If you don't know how - go back to the learning material, ask "why" instead of "how" and use alternative resources like articles, YouTube, documentation and volunteer insights to get more insight.
-
-#### AI makes mistakes
-
-Because AI tools predict the text to generate and could be trained on a out of date, limited or even wrong data set, they can make mistakes or make up things that don’t exist ({{<tooltip title="hallucination">}}When a large language model (LLM) perceives patterns or objects that are nonexistent, creating nonsensical or inaccurate outputs. {{</tooltip>}}). For instance, a famous hallucination from 2024 was that many AI tools said there were two 'r's in the word strawberry.
-
-**AI hallucinations can be costly to a programmer.**
-
-It has been reported that AI can make up names of code packages which don't exist, and direct a programmer to use the package in their code. This comes with a security risk: people can create malicious packages with names AI tends to generate often to exploit their "predictions" and get coders to import viruses into their code.
-
-This means we should **keep a critical eye on all output from AI tools**.
-
-Spotting issues with AI output will increasingly become a key skill in technical fields, especially fields where AI is used as a core tool. To thrive as a professional you need to have good judgement of what is a correct output. This skill builds over time with feedback, discussion, insight from people with more experience than you, and constant questioning of "why" things are built the way they are.
-
-Here are two ways to think critically about AI output:
-
-##### 1. Challenge output
-
-We have observed that more experienced developers interact with AI very differently from novices: they push back, ask for alternatives, get justification for the response from AI tooling.
-
-Build this habit early. Don't just defer to AI output without questioning it.
-
-Ask AI for a different approach. Ask it to defend its answer. Ask it what could go wrong.
-
-##### 2. Always Verify
-
-AI makes mistakes. It can produce code that looks correct but contains subtle errors, outdated practices, or security vulnerabilities. It can confidently agree with ideas that are wrong. Your job is always to check against documentation, against your own understanding, by running tests and more.
-
-Look for **verified sources**:
-
-- Ask AI to cite it's sources, where has it found it's information?
-- Cross-check what you're reading with real documentation straight from the creators of the library/language/software you're using. A core coding skill.
-- Use Slack to ask questions to your ITD peers and volunteers, what insights can you gain from the community.
-
-#### Our prompts can create bad AI output
-
-AI can also be led to give incorrect information when a prompt isn't accurate. Which means we need to **ask good questions** (or prompts). As ITD learners, we are early in the {{<our-name>}} journey, so we are still building our foundational knowledge. This means it is more likely we will ask AI inaccurate questions and AI will give misleading results. It's something to be aware of and cautious about - the accuracy of the questions we ask is important.
-
-For now, remember to question and verify what AI tools give us back. If we can't explain it, or verify the information with our own fact-finding, we shouldn't use it.
-
-### What's acceptable AI use in ITD
-
-Generally, AI might be a good tool for:
-
-- Explaining tech concepts in plain language
-- Answering "what does this mean?" questions
-- Getting a starting point for research
-
-You need to exercise CAUTION and avoid the following situations:
-
-- Letting AI write something for you (e.g. your CV)
-- Copying AI explanations without checking your understanding
-- Just accepting the AI answer without exploring further
-
-#### Why is it bad for AI to write for us?
-
-Let's take the example of a CV. We ask you to write your CV and keep it updated. This has the following knock on benefits to your skills:
-
-- You improve your written English skills.
-- You are forced to think about your skills history and create your own narrative about your skills.
-- By writing it yourself you will remember your CV content more, which helps with interview technique (recall of your skills).
-- By writing it yourself you understand the structure and content of the CV, making it easier to make quick edits and updates.
-
-And what happens when AI writes a CV for us:
-
-- You don't build English language instincts, you only read an example of written English. You don't make your own mistakes so you don't learn what is right or wrong. If you get a perfect instance of English generated in the first go, you are less likely to know what mistakes to correct in the future when you write your own words.
-- You don't build a mental map of your CV through structuring it yourself. Harder to recall your own CV in interviews.
-- Your CV lacks personalised tone of voice. CV comes out generic. Harder to catch the eye of recruiters, easier for recruiters to spot AI generation as it will sound like generated output, easier for the recruiter to discount your CV.
-- Big risk of AI making things up about your background - remember AI hallucinates.
-
-#### How to check if you're using AI right
-
-Ask yourself: **Can you do this task next time without using AI?**
-
-If the answer is:
-
-- Yes - you've learned the skill and can demonstrate it without AI.
-- No - you didn't understand and have to ask again, try to recap this question with less AI assistance.
-- Depends - did you learn the research skill to help you find answers in the future without AI help?
-
-### CV writing: Human vs AI
-
-#### Read three CVs
+### Read three CVs
 
 Let's compare three CVs, one made by a human, and two made by ChatGPT using different kinds of prompts.
 
@@ -363,7 +235,7 @@ Friendly, reliable and customer-focused individual with experience working in a 
 
 {{< /tabs >}}
 
-#### Review the CVs
+### Review the CVs
 
 We have a [guide on how to write a great CV](https://cyf-curriculum.netlify.app/guides/employability/cvs/), use this to help assess what's good or bad about the CVs.
 
@@ -411,9 +283,9 @@ The second AI generated CV is even more generic, to the point of having almost n
 
 The first human-written CV is shorter, but to the point. It backs up skills with evidence and doesn't use fluffy language to look impressive. It only lacks a bit in experience which is more reflective of the experience of the person than the quality of writing. Because the applicant wrote this CV they could provide more accurate context and data to backup skills.
 
-### Questions
+## Questions
 
-#### Question One
+### Question One
 
 A {{<our-name>}} trainee is assigned coursework on a {{<our-name>}} course. The assignment is to build a homepage for a library that displays its twenty newest books. It requires that they use CSS Grid (a CSS feature used to display HTML elements in a grid format). They think that ChatGPT could help them complete this task.
 
@@ -424,7 +296,7 @@ Which of the prompts below is an appropriate use of AI by the trainee?
 3. "Build a homepage for a library website."
 4. "I want to learn more about CSS Grid. Please explain the core concepts simply with examples."
 
-#### Question Two
+### Question Two
 
 A {{<our-name>}} trainee prompts an AI tool to help them understand a complex CSS topic. The information the AI gives doesn't sound right.
 
@@ -436,7 +308,7 @@ Which of the below might be appropriate reactions from the trainee?
 4. Asking a volunteer whether the AI is right.
 5. Asking another AI tool. 
 
-#### Question Three
+### Question Three
 
 A {{<our-name>}} trainee balances full-time work and family responsibilities with studying at {{<our-name>}}. They are struggling to keep up with the course. In particular, they are struggling to understand some fundamental concepts.
 
@@ -450,9 +322,9 @@ Which of the below are NOT appropriate actions by the trainee?
 6. Copying another trainee’s answers.
 7. Sending a direct message to an active volunteer.
 
-### What Should You Do?
+## What Should You Do?
 
-#### 1. Create a Google Doc
+### 1. Create a Google Doc
 
 1. Create a Google Doc
 2. Place your answers for each of the questions above into the doc
@@ -461,7 +333,7 @@ Which of the below are NOT appropriate actions by the trainee?
 > [!NOTE]
 > If you are new to Google Docs, you may find this [guide on what Google Docs is and how to use it](https://support.google.com/docs/answer/7068618?hl=en-GB&co=GENIE.Platform%3DDesktop) useful.
 
-#### 2. Put your name in the document name
+### 2. Put your name in the document name
 
 Include your given name or your family name in the title of the Google Doc.
 
@@ -469,7 +341,7 @@ Include your given name or your family name in the title of the Google Doc.
 `How to change document name in Google Docs`
 {{</note>}}
 
-#### 3. Make your Google Doc public
+### 3. Make your Google Doc public
 
 Change the sharing settings of your Google Doc to "Anyone with the link can view".
 
@@ -477,6 +349,6 @@ Change the sharing settings of your Google Doc to "Anyone with the link can view
 `How to share Google Docs to public`
 {{</note>}}
 
-#### 4. Submit the Google Doc link
+### 4. Submit the Google Doc link
 
 Submit the link to the Google Doc in Step 3 on the [CYF Course Platform](https://application-process.codeyourfuture.io/).
