@@ -1,8 +1,8 @@
 +++
-title = 'Welcome to Code Your Future'
-description = 'Our first day together '
+title = 'Onboarding'
+description = 'Learn about the tools you will use at CYF'
 layout = 'module'
-emoji= '🫶🏽'
+emoji= '🫱🏾‍🫲🏿'
 menu = ['itp course schedule']
 weight='1'
 parentsToTraverseToModule = 0

@@ -1,8 +1,8 @@
 +++
-title = 'Onboarding'
-description = 'Evaluate and fix code with Lighthouse; use version control with Git and GitHub; Plan your study and set goals; Enroll as a Trainee'
+title = 'JavaScript Fundamentals'
+description = 'Write your first JavaScript programs; learn more about Git; enrol as a Trainee'
 layout = 'module'
-emoji= '🫱🏾‍🫲🏿'
+emoji= '🧱'
 menu = ['itp course schedule']
 weight='2'
 +++
