@@ -1,5 +1,5 @@
 +++
-title = 'day-plan'
+title = 'Day Plan'
 layout = 'day-plan'
 menu_level = ['sprint']
 weight = 3
