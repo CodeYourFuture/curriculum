@@ -4,7 +4,7 @@ description = 'The plan for the sprint'
 layout = 'sprint'
 menu_level = ['module']
 weight = 3
-theme = "Collecting and formatting data"
+theme = "Storing values in variables; conditional logic"
 +++
 
 
