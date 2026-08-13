@@ -1,8 +1,10 @@
 +++
-title = 'JavaScript Fundamentals'
-description = 'Write your first JavaScript programs; learn more about Git; enrol as a Trainee'
+title = 'Onboarding'
+description = 'Learn about the tools you will use at CYF'
 layout = 'module'
-emoji= '🧱'
+emoji= '🫱🏾‍🫲🏿'
 menu = ['itp course schedule']
-weight='2'
+weight='1'
+parentsToTraverseToModule = 0
+moduleForRegister = "Welcome"
 +++
