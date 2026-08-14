@@ -40,7 +40,11 @@ time=25
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
-time=75
+time=25
+[[blocks]]
+name="Practising Git Fundamentals"
+src="workshops/git-fundamentals"
+time=50
 [[blocks]]
 name="Afternoon break"
 src="blocks/afternoon-break"
