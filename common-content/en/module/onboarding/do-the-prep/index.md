@@ -8,11 +8,11 @@ hide_from_overview="true"
   publishResources = false
 +++
 
-You should have completed the prep listed in [Welcome to CodeYourFuture](/itp/welcome/prep). If you haven't done that yet, go back and complete it now.
+You should have completed the prep listed in [Onboarding](/itp/onboarding/prep). If you haven't done that yet, go back and complete it now.
 
 > 🧠 You must always do the prep.
 
-If you have worked through the Welcome prep, begin the prep for the first Onboarding sprint (which starts here!).
+If you have worked through the Onboarding prep, begin the prep for the first JavaScript Fundamentals sprint (which starts here!).
 
 {{<multiple-choice
   question="Where do you start with a new module?"

@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 ```objectives
-- [ ] Read through the [AI guidelines for ITP](https://curriculum.codeyourfuture.io/itp/welcome/prep/#acceptable-ai-use)
+- [ ] Read through the [AI guidelines for ITP](https://curriculum.codeyourfuture.io/itp/onboarding/prep/#acceptable-ai-use)
 - [ ] Explain how we can use AI in acceptable ways whilst we're learning on the ITP
 - [ ] Give examples of how we can check we're using AI in acceptable ways for our learning journey.
 ```
@@ -12,7 +12,7 @@ In this workshop we will read guidelines, discuss, and ask questions around how 
 
 ### Read through our ITP AI use guidelines and discuss (15 minutes)
 
-**Individually, for 5 minutes** read through the [guidelines for AI use on the ITP](https://curriculum.codeyourfuture.io/itp/welcome/prep/#acceptable-ai-use).
+**Individually, for 5 minutes** read through the [guidelines for AI use on the ITP](https://curriculum.codeyourfuture.io/itp/onboarding/prep/#acceptable-ai-use).
 
 <!--{{<note type="activity" title="Class Discussion, 10m" >}}-->
 
