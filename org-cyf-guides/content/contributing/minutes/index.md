@@ -55,7 +55,7 @@ Some objectives identified by the group:
 
 Ali volunteered to continue developing the learning objectives.
 
-The group also discussed the possibility of requiring trainees to reflect on what they learned from the project.
+The group also recognised the difficulty of assessing the group-work aspect of the project and discussed the possibility of requiring trainees to reflect on what they learned from the project.
 
 #### Future topics
 
