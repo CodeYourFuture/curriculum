@@ -29,7 +29,10 @@ As a class, can you call out definitions of the following terms (definition is i
 
 <details>
 <summary>LLM</summary>
-Large Language Model - deep learning model trained on huge data sets. Can understand and generate human language content. 
+Large Language Model - deep learning model trained on huge data sets. Can understand and generate human language content.
+
+_Optional: [Read more about Deep Learning](https://www.v7darwin.com/blog/deep-learning-guide)_
+
 </details>
 
 <details>
