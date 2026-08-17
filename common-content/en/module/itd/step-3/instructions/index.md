@@ -312,10 +312,10 @@ Which of the below might be appropriate reactions from the trainee?
 
 A {{<our-name>}} trainee balances full-time work and family responsibilities with studying at {{<our-name>}}. They are struggling to keep up with the course. In particular, they are struggling to understand some fundamental concepts.
 
-Which of the below are NOT appropriate actions by the trainee?
+Which of the below are appropriate actions that the trainee could take?
 
 1. Asking volunteers for guidance at a session.
-2. Giving an AI tool their assigned problems and asking it to solve them for them. They then copy and paste the output, making no edits.
+2. Giving an AI tool their assigned problems and asking it to solve them. They then copy and paste the output, making no edits.
 3. Asking an AI tool to explain the concepts they find difficult to understand.
 4. Attempting to solve the problems, then giving up and asking an AI tool to fix their code. Then copying and pasting the answer without understanding the changes it made.
 5. Using Google to find articles on the topics they are struggling with. 
