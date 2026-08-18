@@ -53,8 +53,18 @@ weight = 11
       ---
    - A link to your _completed_ pull request for "[Book Library Project](https://github.com/CodeYourFuture/Module-Data-Flows/issues/31)".
 
+   - A link to your _completed_ pull request for "[Object Destructuring](https://github.com/CodeYourFuture/Module-Data-Flows/issues/24)".
+
+   - A link to your _completed_ pull request for "[Programmer Humour](https://github.com/CodeYourFuture/Module-Data-Flows/issues/25)".
+
       ---
    - A link to your issue for "[LinkedIn Social Selling Index](https://github.com/CodeYourFuture/Module-Data-Flows/issues/12)". Your issue must show your current index and actions you will take to improve it.
+
+   - A link to your issue for "[Your LinkedIn tips](https://github.com/CodeYourFuture/Module-Data-Flows/issues/8)". Your issue must show the link to your document.
+
+   - A link to your issue for "[Your SWOT analysis](https://github.com/CodeYourFuture/Module-Data-Flows/issues/13)". Your issue must show the link to your document, which anyone with the link can comment on.
+
+   - A link to your issue for "[Review your peers' LinkedIn profile](https://github.com/CodeYourFuture/Module-Data-Flows/issues/11)". Your issue must show the feedback you gave.
 
       ---
    - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Data-Flows/issues/323).\
