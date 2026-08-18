@@ -7,9 +7,6 @@ weight = 1
 src="module/js1/clocks"
 name="Clocks"
 [[blocks]]
-src="module/js1/comparison"
-name="Comparison"
-[[blocks]]
 src="module/js1/assertions"
 name="Assertions"
 [[blocks]]
