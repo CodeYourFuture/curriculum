@@ -4,23 +4,23 @@ layout = 'day-plan'
 menu_level = ['sprint']
 weight = 3
 [[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
 name="Energiser"
 src="energisers/start-thinking-of-your-own"
 [[blocks.nested.blocks]]
 name="Energiser: Telephone!"
 src="energisers/telephone"
 [[blocks]]
-name="Morning orientation"
-src="blocks/morning-orientation"
-time=15
-[[blocks]]
-name="Workshop: Developer Tools"
-src="workshops/devtools/"
-time="115"
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-01/"
+time="90"
 [[blocks]]
 name="Workshop: Interview Introductions"
 src="workshops/interview-introductions/"
-time="30"
+time="55"
 [[blocks]]
 name="lunch"
 src="blocks/lunch"
