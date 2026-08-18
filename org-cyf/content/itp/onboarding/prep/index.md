@@ -27,7 +27,7 @@ src="module/onboarding/help"
 name="Preparation"
 src="module/onboarding/preparation"
 [[blocks]]
-name="Professional Accounts"
+name="Creating Accounts & Installing Tools"
 src="module/induction/accounts"
 [[blocks]]
 name="House Rules"

@@ -1,5 +1,5 @@
 +++
-title="Professional Accounts"
+title="Creating Accounts & Installing Tools"
 time=45
 objectives=["Create a professional Google account", "Download and install the apps you will need to complete the course"]
 hide_from_overview=true
@@ -90,7 +90,10 @@ Use your professional Chrome profile for all your {{<our-name>}} work. You will 
 
 We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a customisable text editor you will use on this course and at work. If you are new to using tools like VSCode there are [video resources](https://www.youtube.com/watch?v=B-s71n0dHUk) which can help you familiarise yourself with the interface.
 
+We will customise VSCode by installing some extensions. These will add some tools which will support your learning through teh course. Once you have installed VSCode you can [install the CodeYourFuture Extension Pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack).
+
 - [ ] I have downloaded and installed [Visual Studio Code](https://code.visualstudio.com/).
+- [ ] I have downloaded and installed [the extension pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack).
 
 ### Zoom
 
