@@ -32,8 +32,11 @@ weight = 11
    - A link to the [Codewars Progress Checker](https://codeyourfuture.github.io/Codewars-Progress-Checker/) showing you have completed **all katas** from across the Data Groups CodeWars Collections for [sprint 1](https://github.com/CodeYourFuture/Module-Data-Groups/issues/936), [sprint 2](https://github.com/CodeYourFuture/Module-Data-Groups/issues/937), and [sprint 3](https://github.com/CodeYourFuture/Module-Data-Groups/issues/938).
      Remember: you are also expected to have completed [at least one mentored pair programming session](https://github.com/CodeYourFuture/Module-Data-Groups/issues/38) on this work too.
    - A link to your _completed_ pull request for "[Alarm Clock App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/26)".
+   - A link to your _completed_ pull request for "[Sprint 1 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/15)".
    - A link to your _completed_ pull request for "[Sprint 2 Coursework](https://github.com/CodeYourFuture/Module-Data-Groups/issues/14)".
    - A link to your _completed_ pull request for "[Quote Generator App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/20)".
+   - A link to your _completed_ pull request for "[Todo List App](https://github.com/CodeYourFuture/Module-Data-Groups/issues/8)".
+   - A link to your issue for "[Group Project: Tic-Tac-Toe](https://github.com/CodeYourFuture/Module-Data-Groups/issues/50)". Your issue must show the link to the final, combined repository containing the work of all three team members.
    - A link to your "[Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10)". (It's ok if this is a private document, you don't need to share it if you don't want to, but please include the link for your own reference).
    - An explanation of how you have used your "[Brag Diary](https://github.com/CodeYourFuture/Module-Data-Groups/issues/10)" to record your progress.
    - A screenshot showing that you [gave a demo in a demo session with particular members of staff present](https://github.com/CodeYourFuture/Module-Data-Groups/issues/794).\
