@@ -18,6 +18,8 @@ We now have two ways for a function to respond when it meets a problem: return a
 
 If a situation is a normal part of using the function, handle it with ordinary code. Searching an array for a value that isn't there is not an error; that's why [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) returns `-1` rather than throwing. The caller expects both outcomes and can check with an `if`.
 
+Choose a return value the caller can't mistake for a real result. Array indices are never negative, so `-1` can only mean "not found", and the caller can check with `if (index === -1)`. A string method that searches for a match has a similar choice to make: returning `''` treats "no match" as an empty result of the same type as a real one, while returning `null` marks it as a different case the caller must check for separately. Either can be the right choice for a given function, but make the choice deliberately, and stay consistent with what similar functions in the same codebase already do.
+
 ### Broken expectations: throw
 
 If the function _cannot do what its name promises_, throw. `calculateMedian("apple")` can't calculate any median; returning a made-up value would hide a bug in the caller's code. Throwing makes the problem loud and points at where it was detected.
