@@ -4,7 +4,7 @@ time=10
 hide_from_overview=true
 objectives = [
   "List the core goals of the module",
-  "Find the learning objectives for Sprint 1 of the Onboarding module",
+  "Find the learning objectives for the Onboarding module",
   "Describe what you need to do in order to complete the Onboarding module"
 ]
 [build]
@@ -15,38 +15,34 @@ objectives = [
 
 You have joined us as a trainee. Your overall goal for this module is to understand how to succeed at the ITP course.
 
-To demonstrate you know how to succeed at the course, you should apply to enrol as a Trainee within the next three weeks. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
+To demonstrate you know how to succeed at the course, you should apply to enrol as a Trainee before the end of the JavaScript Fundamentals module. To do this, you will need to do show up every week, learn, get work done, and get your work reviewed.
 
-You should enrol as a Trainee within the next three weeks. _If you do not enrol as a trainee by week 6 of this course, you will be removed from it. You can request to restart in the next ITP course._
+_If you do not enrol as a trainee by week 6 of this course, you will be removed from it. You can request to restart in the next ITP course._
 
-> 🎯 Complete onboarding and enrol as a Trainee
+> 🎯 Complete Onboarding
 
 **Find the learning objectives for the text you are reading now.** These are the goals for this text. This is what you should be able to do after completing this text.
 
-**Now find the learning objectives for Sprint 1 of the Onboarding module**. We call these the "success criteria". These are the goals for the first sprint of the module. This is what you should be able to do after completing Sprint 1.
+**Now find the learning objectives for the Onboarding module**. We call these the "success criteria". These are the goals for this module. This is what you should be able to do after completing this module. In later modules each sprint will have its own success criteria.
 
 This formal structure might be new to you. **It is a way to help you evaluate for yourself whether you have achieved the goals of the module.** If you have done (and can do) the things listed in the learning objectives, you have gained the skill. If you have not, you have not yet gained the skill, and should keep working at it.
 
-As we are just meeting this idea, let's go over them here too. The skills you'll learn in this module are based around these themes: version control, requirements and testing, code review, data, and scientific method. Write each of these themes down in your notebook.
+As we are just meeting this idea, let's go over them here too. The skills you'll learn in each module are based around different themes which you can find on the ITP home page. Write each of these themes down in your notebook when you start a new module.
 
-To complete the module, you will need to demonstrate you have learnt these skills, and apply to enrol as a Trainee.
+To complete each module you will need to demonstrate you have learnt these skills.
+
+#### Developer tools
+
+_By the end of this module_ you will have set up your computer with the tools you need to complete this course
+
+#### Meet your classmates
+
+_By the end of this module_ you will have attended your first Saturday class and met your colleagues
 
 #### Version control
 
 _By the end of this module_ you will have tracked changes to data (your code) over time with Git and GitHub. Your goal is to build a mental model of Git "trees" and begin learning ways to travel through files using the "time machine" of Git.
 
-#### Requirements and Testing
+#### Planning future work
 
-_By the end of this module_ you will have written code to solve specific problems and verified that it does what it is supposed to. Your goal is to interpret requirements and write code to meet acceptance criteria.
-
-#### Code review
-
-_By the end of this module_ you will have revised, refactored, and reviewed code using code review. Your goal is to form the habits of a professional who can think, talk, and write in a technical context.
-
-#### Scientific method
-
-_By the end of this module_ you will have written and asked well-structured developer questions. Your goal is to build a strategy to methodically solve problems.
-
-#### Enrolment
-
-_By the end of this module_ you will have enrolled as a Trainee. Your goal is to complete the onboarding process and enrol as a Trainee.
+_By the end of this module_ you will be able to find the learning objectives for your next sprint (JavaScript Fundamentals sprint 1)
