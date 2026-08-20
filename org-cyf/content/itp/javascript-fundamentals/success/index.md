@@ -1,6 +1,6 @@
 +++
 title = "End of Module Review"
-description = 'How do we know if we have completed Onboarding?'
+description = 'How do we know if we have completed JavaScript Fundamentals?'
 layout = 'success'
 menu_level = ['module']
 weight = 11

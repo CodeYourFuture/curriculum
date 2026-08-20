@@ -33,7 +33,7 @@ const firstName = "Francesco;
 Uncaught SyntaxError: Invalid or unexpected token
 ```
 
-We get a **SyntaxError** message. This error message is telling us that we've broken one of the rules of the language. In this case the interpreter didn't expect to see the semicolon - it needs us to add the missing `"` before the expression makes sense.
+We get a **SyntaxError** message. This error message is telling us that we've broken one of the rules of the language. In this case the interpreter got to the end of the line without seeing a `"` marking the end of the string. It needs us to add the missing `"` before the expression makes sense.
 
 {{<note type="exercise" title="Exercise: Predict and Explain">}}
 

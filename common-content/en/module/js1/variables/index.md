@@ -2,12 +2,14 @@
 title = 'Saving expressions'
 
 time = 25
-[objectives]
-1='Identify the syntactic features of a variable declaration'
-2='Explain why we use variable declarations'
-3='Create strings using variables and template literals'
-4='Describe the difference between `const` and `let`'
-5='Describe the difference between a declaration and a statement'
+objectives = [
+  'Identify the syntactic features of a variable declaration',
+  'Explain why we use variable declarations',
+  'Define a literal',
+  'Create strings using variables and template literals',
+  'Describe the difference between `const` and `let`',
+  'Describe the difference between a declaration and a statement',
+]
 [build]
   render = 'never'
   list = 'local'
@@ -67,7 +69,7 @@ console.log(`${greeting}, ${name}`);
 We just used backticks to create a template literal.
 
 ```js
-A template literal places ${expressions} inside strings;
+A template literal evaluates ${expressions} inside strings;
 ```
 
 With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign `$` and a set of curly braces `{}`. We can put any expression (e.g. a variable name) inside the curly braces. The value that expression evaluates to is then placed inside the string.
@@ -112,3 +114,5 @@ greeting = "Good morning"
 Now it works! 
 
 The first line of this block is the variable **declaration**, the second line is a **statement**. Note that we don't need to use `let` again when reassigning the variable.
+
+Knowing that something won't change can make it easier to write and reason about a program. We try to declare them with `const` wherever we can. But if a variable is going to need to change, we need to use `let` to declare it.

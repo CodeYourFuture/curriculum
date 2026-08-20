@@ -80,6 +80,4 @@ function checkPassword(userInput){
 }
 ```
 
-Now it's even shorter! If we _really_ wanted to we could get the whole thing on one line but we'll leave that for now. We'll find out how we can do that with a different way of declaring functions in a future module. 
-
-There is a trade-off here. We have made our function much shorter but this often happens at the expense of readability. Don't be tempted to refactor too far and make things difficult for anyone (including yourself) reading your code in the future.
+Now it's even shorter. There is a trade-off here. We have made our function much shorter but this often happens at the expense of readability. Don't be tempted to refactor too far and make things difficult for anyone (including yourself) reading your code in the future.

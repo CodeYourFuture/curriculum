@@ -55,7 +55,7 @@ The `response` variable is declared _inside_ `passwordChecker`'s local scope so 
 
 There are two ways in which we could fix this. The first is to move the `response` declaration outside of the function. That means it is no longer within the function's scope but that could cause some problems for us in future. What happens if the code in the function isn't executed? Our variable would always have the value `undefined` and we may not be prepared to handle that. 
 
-The second is to remove the declaration altogether and handle declaration and assignment at the same time in the `if` block. TRy it now and see what happens!
+The second is to remove the declaration altogether and handle declaration and assignment at the same time in the `if` block. Try it now and see what happens!
 
 ```js {title="passwordCheckerFunction.js"}
 const password = "secretword123";
@@ -75,6 +75,6 @@ console.log(response);
 
 No error, and the correct value is printed. So why does this work?
 
-When we declare a variable using `const` or `let` it gives the variable local scope. When we don't use a keyword the variable has **global** scope instead. Now there are no restrictions, the variable can be accessed from anywhere. That doesn't sound very secure though, does it?
+When we declare a variable using `const` or `let` it gives the variable local scope. When we don't use a keyword the variable has **global** scope instead. Now there are no restrictions, the variable can be accessed from anywhere. It's even worse than if we made our `response` variable outside of the function - at different points in our program, we don't even know whether the `response` variable exists!
 
-We have a stand-off: on one side our code is secure but we can't access the value we need, on the other we can access the value but so can everything else. We need to make some changes to our function to fix this.
+We have a stand-off: on one side our code is well scoped but we can't access the value we need, on the other we can access the value but so can everything else. We need to make some changes to our function to fix this.

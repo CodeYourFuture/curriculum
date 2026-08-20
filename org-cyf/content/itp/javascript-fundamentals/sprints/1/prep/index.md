@@ -40,11 +40,6 @@ name="Set up Planner"
 src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
 time=30
 [[blocks]]
-name="Forms in 25 minutes"
-title="Form building"
-src="https://www.youtube.com/watch?v=fNcJuPIZ2WE"
-time=25
-[[blocks]]
 name="What are Forms"
 src="module/html-css/what-are-forms"
 [[blocks]]

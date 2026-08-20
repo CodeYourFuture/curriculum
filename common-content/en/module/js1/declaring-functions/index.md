@@ -44,7 +44,7 @@ The `function` declaration consists of the following syntactic elements:
 
 - `function` keyword - begins the function declaration
 - `checkPassword` - the **name** of the function
-- `()` - any input to the function will go between these parentheses. We still need them if a function has no input, we just leave them empty. We call these inputs **parameters**.
+- `()` - any input to the function will go between these parentheses. We still need them if a function has no input, we just leave them empty. We call these inputs **parameters**. Each parameter is a variable name, but we don't give them values in the function - we give them values when we _call_ the function.
 - `{}` - the **body** of the function is written inside the braces. The code we want to execute will be written here.
 
 {{<note type="note" title="Functions in other languages">}}
