@@ -14,7 +14,7 @@ time = 20
 
 When we are writing programs we often find ourselves needing to do the same thing over and over again. Think back to our password checker from the previous sprint: there are lots of places where you need to enter a password!
 
-We could re-write the code to check a password every time we needed to use it but that wouldn't be very efficient. It would take a long time to write and there's a chance we could make a mistake and introduce a bug. It would be much easier if we could write the code once and reuse it anywhere it was needed.
+We could re-write the code to check a password every time we needed to use it but that wouldn't be a good use of our time. It would take a long time to write and there's a chance we could make a mistake and introduce a bug. It would be much easier if we could write the code once and reuse it anywhere it was needed.
 
 This applies to any repeated process. Let's look at how we can round a decimal to the nearest whole number.
 
