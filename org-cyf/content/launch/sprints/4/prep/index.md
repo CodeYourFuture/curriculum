@@ -1,7 +1,7 @@
 +++
 title = 'Prep'
 layout = 'prep'
-description='Your product is viable and the team is ready to launch'
+description='Building features and reviewing PRs'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]

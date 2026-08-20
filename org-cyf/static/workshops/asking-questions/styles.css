@@ -1,0 +1,102 @@
+/* ===========================
+WORKSHOP STARTS HERE LOOK HERE HI
+Here are all the rules we are 
+looking at in this workshop 
+=========================== */
+/* What would happen if you added !important to this color:red */
+#important {
+  color: red;
+}
+#important p {
+  color: var(--ink);
+}
+main ul {
+  display: grid;
+}
+#hundred {
+  width: 100%;
+}
+#infinite {
+  color: var(--ink);
+}
+.problems li.problem:nth-child(2) {
+  color: red;
+}
+#boolean {
+  min-height: 1.5em;
+}
+#boolean p {
+  opacity: 1;
+  transition: opacity 0.3s;
+  display: block;
+}
+#boolean:hover p,
+#boolean:focus p {
+  display: none;
+  opacity: 0;
+}
+#fallback {
+  color: var(--black);
+}
+
+/* Here's our design 
+It's fonts, colours, and spacing.
+Every design is made of these basic building blocks.
+ */
+:root {
+  /* fonts */
+  --copy: "Lato", system-ui;
+  /* colours */
+  --paper: hsla(260, 35%, 90%, 0.95);
+  --ink: hsla(270, 8%, 20%, 0.98);
+  --brand: hsla(0, 100%, 67%, 0.98);
+  /* spacing */
+  --space: 1rem;
+  --container: clamp(240px, calc(100vw - calc(var(--space) * 2)), 74rem);
+  --finger: 48px;
+  --line-length: 60ch;
+}
+/* Rules for interactive elements like links and buttons.  */
+a,
+a:any-link {
+  color: currentColor;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  color: var(--brand);
+}
+a:focus {
+  outline: 2px dashed var(--brand);
+}
+/* LAYOUT 
+Set up the body rules: fonts, colours, and spacing. 
+Everything inside the body will inherit these basic styles
+*/
+body {
+  font: 100%/1.5 var(--copy), system-ui, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  padding: var(--space);
+}
+/* Now the components, which in this case are just html elements */
+header {
+  max-width: var(--container);
+  margin: auto;
+}
+main {
+  max-width: var(--container);
+  margin: auto;
+}
+summary > * {
+  display: inline-block;
+}
+main p,
+main li {
+  max-width: var(--line-length);
+}
