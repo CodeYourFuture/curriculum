@@ -33,7 +33,7 @@ greet("afternoon", "Colin");
 ```
 
 {{<note type="exercise" title="Exercise: Changing the order of arguments">}}
-Try to predict what will happen if we swap the order of the arguments when calling the function. 
+Try to predict what will happen if we swap the order of the arguments when calling the function : `greet("Colin", "afternoon")`.
 
 <details>
   <summary>Answer:</summary>
@@ -54,7 +54,7 @@ The output may not make much sense, but it could be worse. What might happen if 
 Some languages are very strict about passing the right number of arguments to a function when it is called. JavaScript is not one of those languages. JavaScript is quite forgiving and will do its best with what we give it.
 
 {{<note type="exercise" title="Exercise: Missing arguments">}}
-Try to predict what will happen if we omit the second argument when calling our function. **Hint**: think about the value of a variable which we declare but never initialise. 
+Try to predict what will happen if we omit the second argument when calling our function: `greet("afternoon")`. **Hint**: think about the value of a variable which we declare but never initialise.
 
 <details>
   <summary>Answer:</summary>
@@ -67,7 +67,7 @@ Try to predict what will happen if we omit the second argument when calling our 
   When the function is called `timeOfDay` and `name` are both declared but we only have a value to assign to `timeOfDay`. `name` will remain `undefined` while the code is executed.
 </details>
 
-Now predict what will happen if we omit the _first_ argument. 
+Now predict what will happen if we omit the _first_ argument: `greet("Colin")`. 
 
 <details>
   <summary>Answer:</summary>
@@ -83,7 +83,7 @@ Now predict what will happen if we omit the _first_ argument.
 {{</note>}}
 
 {{<note type="exercise" title="Exercise: Extra arguments">}}
-Try to predict what will happen if we pass a third argument to our function. 
+Try to predict what will happen if we pass a third argument to our function: `greet("afternoon", "Colin", 2026)`.
 
 <details>
   <summary>Answer:</summary>

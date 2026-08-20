@@ -43,7 +43,7 @@ When we run the file with Node we get an error in the console:
            ^
 
 TypeError: Assignment to constant variable.
-    at Object.<anonymous> (/Users/colinfarquhar/clients/cyf/content_testing/passwordChecker.js:11:12)
+    at Object.<anonymous> (/Users/yourname/cyf/passwordChecker.js:11:12)
     at Module._compile (node:internal/modules/cjs/loader:1829:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
     at Module.load (node:internal/modules/cjs/loader:1552:32)

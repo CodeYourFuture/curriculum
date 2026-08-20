@@ -8,8 +8,9 @@ objectives = [[
   "Come to class.",
   "Name 5 people in your class.",
   "Have a plan for how to make progress, and how to get help.",
-  "Find and begin your prep for the first sprint of the Onboarding Module.",
+  "Find and begin your prep for the first sprint of the JavaScript Fundamentals Module.",
   "Set up Slack and join your class channels.",
+  "Create a git commit and push it to a remote repository.",
 ]]
 +++
 

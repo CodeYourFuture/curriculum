@@ -15,7 +15,11 @@ hide_from_overview = true
 
 +++
 
-These questions and answers are compiled from recorded sessions on HTML forms, and are the collective contribution of several mentors and students. This time we've included a trainee answer and a mentor answer, per question.
+Watch this video about HTML forms:
+
+{{<youtube>}}https://www.youtube.com/watch?v=fNcJuPIZ2WE{{</youtube>}}
+
+After you've watched this video, consider the following questions. Try to answer them yourself. After you've answered each question for yourself, expand others' answers which have been compiled from other trainees and volunteers.
 
 {{<note type="question" title="10 Things About Forms">}}
 
