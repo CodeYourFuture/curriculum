@@ -63,7 +63,15 @@ This is your planner and it's up to you to keep it up to date! The defaults are 
 
 ### 4. Creating an issue
 
-It's time to add some things to our backlog. Hover your cursor over the `Backlog` column and you will see an "add item" button appear. Click it and a text field will appear at the bottom of the page.
+> [!NOTE]
+>
+> Mostly, your coursework planner is a tool for you. You can choose how you want to use it. Each sprint, we suggest adding one item for each backlog item you have, so you can keep a to do list, and keep track of the status of everything you have to do.
+>
+> Over time, you may decide you want to use it differently. Maybe you just want to track each week's work as a single item. Or break bigger tasks down into multiple items. That's up to you.
+>
+> Sometimes your backlog items will ask you to create a specific item on your coursework planner and link to it.
+
+It's time to practice adding something to our backlog. Hover your cursor over the `Backlog` column and you will see an "add item" button appear. Click it and a text field will appear at the bottom of the page.
 
 Type "my first task" in the text field and take a look at the popup which appears. Ensure "create new issue" is selected and press the enter key, or click the plus sign next to the text field.
 
@@ -71,9 +79,8 @@ Type "my first task" in the text field and take a look at the popup which appear
 
 Now we can add details of the task. The screenshot below shows an example, but when you add something to your planner you should include all the relevant details from the backlog ticket.
 
-> **Read the instructions carefully!** Some backlog items will ask you to give an issue a specific title, or to include specific information
-
 ![issue details](issue-details.png)
 
-Once you have finished adding the relevant information you can click the "Create" button to add the issue to your backlog. Now you can click and drag it between boards as you work on it.
+Once you have finished adding the relevant information you can click the "Create" button to add the issue to your backlog. Now you can click and drag it between columns as you work on it.
 
+> **When you're asked to add something to your coursework planner, read the instructions carefully!** Some backlog items will ask you to give an issue a specific title, or to include specific information
