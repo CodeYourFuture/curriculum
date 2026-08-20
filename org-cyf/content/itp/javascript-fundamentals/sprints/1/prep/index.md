@@ -28,17 +28,9 @@ src="module/induction/branching"
 name="Merging"
 src="module/onboarding/git/merging"
 [[blocks]]
-name="Fork your Planner"
-src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
-time=5
-[[blocks]]
-name="Make your Planning Board"
-src="https://www.youtube.com/watch?v=Hbtfil-G0h0"
-time=15
-[[blocks]]
-name="Set up Planner"
-src="https://github.com/CodeYourFuture/Coursework-Planner/tree/main"
-time=30
+name="Set up your planner"
+src="module/induction/planner"
+time=45
 [[blocks]]
 name="Forms in 25 minutes"
 title="Form building"
