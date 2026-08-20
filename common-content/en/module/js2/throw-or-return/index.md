@@ -60,6 +60,6 @@ For each scenario, decide what the code should do before you check the answer. S
 {{<multiple-choice
   question="divide(a, b) is called with b equal to 0. What should divide do?"
   answers="Throw an error | Return 0 | Return Infinity because that is what JavaScript does"
-  feedback="Right. divide cannot do what its name promises with a zero divisor, and a zero here usually means a bug in the calling code. Some teams make a different, documented choice, but it must be a deliberate one. | Zero is a made-up answer that hides the caller's bug and will be used as if it were real. | JavaScript's own operator does evaluate to Infinity, but for our function that quietly passes a strange value along instead of surfacing the problem where it happened."
+  feedback="Right. divide cannot do what its name promises with a zero divisor, and a zero here usually means a bug in the calling code. Some teams make a different, documented choice, but it must be a deliberate one. | Zero is a made-up answer that hides the caller's bug and will be used as if it were real. | JavaScript's own operator does evaluate to Infinity, but for our function that would quietly pass a strange value along instead of surfacing the problem where it happened."
   correct="0"
 >}}
