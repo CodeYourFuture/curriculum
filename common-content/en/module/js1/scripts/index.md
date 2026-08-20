@@ -14,8 +14,6 @@ time = 20
 
 It's time to write our first lines of JavaScript! 
 
-There are some tools available which will enable us to write code and instantly see the results. These are called **REPL**s - **R**ead, **E**valuate, **P**rint and  **L**oop. These are great for quickly checking something but not very practical for production uses.
-
 Usually our programs will have many instructions which we want to keep and re-run instead of typing them out each time. So we save our instructions in files. We can run these files from the terminal.
 
 We use the `node` command to run a JavaScript file in the terminal. A JavaScript file ends with the `.js` file extension.
