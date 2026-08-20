@@ -10,15 +10,6 @@ time =45
 
 +++
 
-We can avoid situations like our password mistake if we tell Git not to pay attention to files containing sensitive data in the first place. First of all we're going to delete `passwords.json` as this isn't typically how we would store this data. Instead create a file called `.env` and copy the values there instead.
-
-```sh {title=".env"}
-  DB="storage_is_awesome"
-  APIKEY="acbd1234"
-```
-
-The `.env` file will store **environment variables**. These typically hold values necessary to configure parts of our application and by following convention in how we store them we minimise the risk of issues when we deploy an application.
-
 At the moment we have `.env` waiting for staging, but if we create a commit we will have exactly the same problem as in the last section. How can we avoid accidentally committing our passwords?
 
 ### Using `.gitignore`
