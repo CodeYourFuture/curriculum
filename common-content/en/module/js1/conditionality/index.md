@@ -51,6 +51,10 @@ const password = "secretword123";
 const userInput = "secretword123";
 ```
 
+{{<note type="definition" title="Definition: Hard-coding">}}
+In a real application we wouldn't have the user's input written here, we would receive it from another part of the application. Instead we have **hard-coded** a value and stored it in a variable. Hard-coding can be useful for debugging and demonstration purposes, but it means the value won't ever change.
+{{</note>}}
+
 We'll assume for now that the user has entered the correct password and we're storing that value in `userInput`. The `password` variable contains the value that we want to compare it to. Let's add an `if` statement and compare the two variables as our `condition`.
 
 ```js {title="passwordChecker.js"}
