@@ -94,6 +94,20 @@ Error: calculateMedian requires a non-empty array
 
 Now the error points at the exact place the problem was detected, with a message saying what the problem is. That's much more useful to whoever calls our function than a mysterious `NaN`.
 
+{{<note type="tip" title="What makes a good error message?">}}
+A good error message says what went wrong, and ideally, what the actual bad value was. Compare:
+
+```
+Error: expected a positive number
+```
+
+```
+Error: expected a positive number, but got -5
+```
+
+The second message saves the reader a trip into the debugger. They can see exactly what was passed in, not just what should have been passed in instead.
+{{</note>}}
+
 ### Testing that a function throws
 
 We can assert that a function throws using the [`toThrow`](https://jestjs.io/docs/expect#tothrowerror) matcher:
