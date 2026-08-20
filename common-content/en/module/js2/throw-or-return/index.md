@@ -53,7 +53,7 @@ For each scenario, decide what the code should do before you check the answer. S
 {{<multiple-choice
   question="A program producing a summary of 100 data files finds that one file is corrupted. What should the summary loop do?"
   answers="Catch the error, report the bad file, and continue | Let the whole program crash | Silently skip the file"
-  feedback="Right. The loop can do something useful with the error: skip the bad file, tell the user about it, and still summarise the other 99. | Crashing throws away 99 files of good work when the loop could recover and report the problem instead. | This swallows the error: the summary is quietly missing a file and nobody knows to fix it."
+  feedback="Right, this is usually the more useful choice for a summary: the loop can skip the bad file, tell the user about it, and still summarise the other 99. But it depends on the situation. If a single bad file means the whole summary can't be trusted, crashing loudly is the better choice instead. | This is the right call when a partial summary would be misleading or unsafe to use. For a plain summary like this one though, recovering and reporting the problem is usually more useful than throwing away 99 files of good work. | This swallows the error: the summary is quietly missing a file and nobody knows to fix it. Whether you continue or crash, don't do it silently."
   correct="0"
 >}}
 
