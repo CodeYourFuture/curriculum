@@ -19,7 +19,7 @@ We have learned how to store values in a program and how to access them again wh
 
 For example, think about what happens when you switch on your laptop. Before you do anything else you are asked to enter a password. Whatever you type is compared against a value stored on the computer and if the two match you can carry on using your computer. If they are different you won't be able to access files or use any programs.
 
-We use comparison operators to compare two expressions. We use the equality operator `==` to check if two values are the same.
+We use comparison operators to compare two expressions. We use the equality operator `===` to check if two values are the same.
 
 ### Boolean values
 
@@ -28,12 +28,12 @@ Some values are best represented as strings: any piece of text, a name, address,
 If we're comparing two things, there are only two different states: **true** or **false**. This leads us to the **boolean** datatype, which only has true or false values. Whenever we compare two values with a comparison operator, we end up with a boolean value: `true` or `false`. It's one or the other. It's boolean.
 
 ```js
-// using the strict equality comparison expression
+// using the equality comparison expression
 
-console.log(42 == 10 + 32);
+console.log(42 === 10 + 32);
 // logs true
 
-console.log(10 * 5 == 60);
+console.log(10 * 5 === 60);
 // logs false
 ```
 
@@ -43,33 +43,44 @@ Create a new file to work in and use `console.log` to print the values of these 
 
 ```js
 // 1
-"hello" == "hello"
+"hello" === "hello"
 
 // 2
-"CYF" == "cyf"
+"CYF" === "cyf"
 
 // 3
 const homeTown = "Newcastle"
-homeTown == "Liverpool"
+homeTown === "Liverpool"
 
 // 4
+42 === 42
+```
+
+<details>
+<summary>Solution</summary>
+
+- 1 - `true`
+- 2 - `false` - remember that casing matters!
+- 3 - `false`
+- 4 - `true`
+
+</details>
+
+{{</note>}}
+
+### Strict vs Loose Equality
+
+There are two things we need to consider when checking equality: **value** and **type**. When using `===` both have to match for the expression to be `true`. We call this **strict equality**.
+
+JavaScript has a second type of equality called **loose equality**, represented by `==`. This only compares values. Try evaluating the expression below:
+
+```js
 42 == "42"
 ```
-{{</note>}}
 
-### Strict Equality
+This will evaluate to `true`, since the values match. It doesn't matter that one value is a number and the other is a string. 
 
-Did anything surprise you about the outputs in that exercise? Number four probably looked strange - the two values have different types, so how can they be equal?
-
-We were using **loose equality** in these examples. Loose equality compares the _value_ of two terms but not their _type_. This might work in our code but it also makes our code vulnerable to bugs.
-
-To avoid this we will use **strict equality** instead. This checks both value _and_ type and will only evaluate as `true` if both are the same. The strict equality operator is `===`.
-
-{{<note type="exercise" title="Exercise - Strictly Comparing Values">}}
-
-Modify your code from the previous exercise to use the strict equality operator `===`. What do you see that is different in the outputs?
-
-{{</note>}}
+In practice we will always use strict equality when comparing values. Loose equality may work but it makes our code vulnerable to bugs, which we don't want.
 
 ### Comparing Unequal Values
 
