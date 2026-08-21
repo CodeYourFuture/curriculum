@@ -32,7 +32,7 @@
 
     {{ $partial := "block/issues-list-as-blocks-github.html"}}
 
-    {{ if eq .Section "sdc" }}
+    {{ if or (eq .Section "sdc") (eq .Section "itp") }}
       {{ $partial = "block/issues-list-as-blocks-portal.html" }}
     {{ end }}
 

@@ -4,6 +4,21 @@
 {{ $repoName := .backlog }}
 {{ $moduleName := substr $repoName (len "Module-") }}
 {{ $sprintName := strings.TrimPrefix "📅 " .backlog_filter }}
+
+{{ if eq $moduleName "Welcome" }}
+  {{ $moduleName = "Welcome to Code Your Future" }}
+{{ end }}
+
+{{ if eq $moduleName "Structuring-and-Testing-Data" }}
+  {{ $moduleName = "Structuring and testing data" }}
+{{ end }}
+{{ if eq $moduleName "Data-Flows" }}
+  {{ $moduleName = "Data flows" }}
+{{ end }}
+{{ if eq $moduleName "Data-Groups" }}
+  {{ $moduleName = "Data groups" }}
+{{ end }}
+
 {{ if eq $moduleName "Legacy-Code" }}
   {{ $moduleName = "Legacy code" }}
   {{/* TODO: Remove this when there are actually issues for Legacy Code sprint 2 */}}
@@ -22,6 +37,9 @@
     {{ $sprintData := partial "slices/find-by-key.html" (dict "slice" $moduleData.sprints "key" "name" "target_value" $sprintName "error_template" (printf "Couldn't find sprint %%s in backlog data from portal for course %s module %s" $courseName $moduleName)) }}
 
     {{ range $sprintData.backlog_tasks }}
+      {{ if in (slice "CYF-1001" "CYF-1003" "CYF-1012" "CYF-1009" "CYF-1016" "CYF-1018" "CYF-1019" "CYF-1022" "CYF-1023" "CYF-1025" "CYF-1027" "CYF-1028" "CYF-1029" "CYF-1030" "CYF-1031" "CYF-1035" "CYF-1037") .code }}
+        {{ continue }}
+      {{ end }}
       {{ $github_issue_number := int (index (last 1 (split .github_html_url "/")) 0) }}
       {{ $labels := dict "nodes" slice }}
       {{ if eq .category "mandatory" }}
