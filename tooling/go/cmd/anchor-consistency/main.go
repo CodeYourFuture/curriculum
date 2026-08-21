@@ -30,7 +30,7 @@ func main() {
 	flag.StringVar(
 		&rootDirectory,
 		"root-dir",
-		"../..",
+		".",
 		"Root directory",
 	)
 
