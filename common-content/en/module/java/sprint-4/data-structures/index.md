@@ -39,7 +39,7 @@ _As you read through the resources below try to answer the following questions:_
 ### Reading Materials
 
 #### Collections
-- [GeeksforGeeks - Collections Framework](https://www.geeksforgeeks.org/collections-in-java-2/)
+- [GeeksforGeeks - Collections Framework](https://www.geeksforgeeks.org/java/java-collection-tutorial/)
   - Read the motivation for why Collections are useful (remember, we always want to start with _why_!)
   - Look at the sections on the main interfaces and implementations, and look at the class diagrams to see how they relate to one another
   - **Just focus on Sets, Lists, Maps for now; ignore queues and concurrency.**
