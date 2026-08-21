@@ -53,7 +53,7 @@ If you initialize with files on GitHub, your local and remote repositories will 
 
 GitHub will show you a page with instructions. You need to tell your local Git about this remote repository.
 
-First copy the url to your clipboard.
+First copy the url to your clipboard. Make sure you have selected the `HTTPS` option and the url begins with `https://`. 
 
 ![github url for a newly created repo](github-new-repo.png)
 

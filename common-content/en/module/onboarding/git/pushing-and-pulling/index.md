@@ -30,13 +30,11 @@ You have commits on your local machine, but they're not on GitHub yet. Send them
 
 ![publish branch button in VSCode](publish-branch.png)
 
+> If you don't see the "Publish Branch" button you can click the three dots again to access the menu and select "push"
+
 This is called **pushing**. We don't need to push every time we commit, but our colleagues won't be able to access it if we don't.
 
 You might be asked to authenticate. Follow GitHub's instructions. Depending on how you linked the repositories you may be able to authenticate using SSH instead of entering a username and password.
-
-{{<note type="tip" title="SSH">}}
-The **Secure Shell Protocol** (SSH) enables encrypted connections between two computers. We recommend taking the time to [configure SSH with GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) which will avoid the need to keep entering passwords when pushing and pulling.
-{{</note>}}
 
 ### Step 2: View Your Code on GitHub
 
