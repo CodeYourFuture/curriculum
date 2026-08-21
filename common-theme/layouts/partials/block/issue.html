@@ -1,4 +1,5 @@
 {{/* This block expects a dict with: title, time OR a Size label, labels ([{name: str}]), learning_objectives, body (markdown), url */}}
+{{/* It also expects a "submit" key if the task has a code */}}
 <section class="c-block c-block--issue">
   <header class="c-block__header">
     <h2
@@ -27,7 +28,7 @@
   </header>
 
   <div class="c-block__content c-copy">
-    {{ if .code }}
+    {{ if and (.code) (eq .submit "PR") }}
       <h3>Task code</h3>
       {{ .code }} - make sure to include this in your PR title or description.
       <br /><br />

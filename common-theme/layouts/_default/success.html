@@ -39,7 +39,7 @@
           {{ $issueBlocks := slice }}
           {{ if $backlogPage }}
             {{ $backlogPartial := "block/issues-list-as-blocks-github.html" }}
-            {{ if eq .Section "sdc" }}
+            {{ if or (eq .Section "sdc") (eq .Section "itp") }}
               {{ $backlogPartial = "block/issues-list-as-blocks-portal.html" }}
             {{ end }}
             {{ $backlogs := $backlogPage.Params.backlog }}
