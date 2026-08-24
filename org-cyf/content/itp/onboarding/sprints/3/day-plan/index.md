@@ -27,7 +27,7 @@ src="blocks/lunch"
 [[blocks]]
 name="Workshop: ITP AI Guidelines"
 src="workshops/itp-ai-guidelines"
-time=30
+time=35
 [[blocks]]
 name="Blockers! Getting Unstuck"
 src="module/onboarding/blockers"
@@ -35,7 +35,7 @@ time=45
 [[blocks]]
 name="Study Group"
 src="blocks/study-group"
-time=85
+time=80
 [[blocks]]
 name="Wrap"
 src="module/onboarding/wrap"
