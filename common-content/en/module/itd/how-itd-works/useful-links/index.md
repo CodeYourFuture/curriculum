@@ -15,11 +15,11 @@ Here is a quick list of useful links (some are for applicants only, but it is he
 **CYF Learning Platform (for applicants only):**  
 [https://course1.codeyourfuture.io/](https://course1.codeyourfuture.io/)
 
-**ITD Slack Channel:**  
-[https://codeyourfuture.slack.com/archives/C01332PNRTN](https://codeyourfuture.slack.com/archives/C01332PNRTN). Post into the slack channel if you have questions or problems.
+**ITD Slack Workspace:**  
+[https://cyf-introtodigital.slack.com](https://cyf-introtodigital.slack.com) for all communication around the ITD.
 
-**ITD Canvas:**  
-[https://codeyourfuture.slack.com/canvas/C01332PNRTN](https://codeyourfuture.slack.com/canvas/C01332PNRTN). The canvas is the official CYF information about ITD. The canvas is attached to the ITD slack channel.
+**ITD Canvas for Volunteers:**  
+[https://cyf-introtodigital.slack.com/docs/TNZ5MU8DD/F0AMT9D0406](https://cyf-introtodigital.slack.com/docs/TNZ5MU8DD/F0AMT9D0406). The canvas is the official CYF information about ITD for volunteers.
 
 **CYF Dashboard:**  
  [https://dashboard.codeyourfuture.io/](https://dashboard.codeyourfuture.io/). Use the dashboard to view applicant progress.
@@ -33,5 +33,3 @@ Here is a quick list of useful links (some are for applicants only, but it is he
 - **Step 5**: [https://curriculum.codeyourfuture.io/itd/steps/five/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/five/#acceptance-criteria)
 - **Step 6**: [https://curriculum.codeyourfuture.io/itd/steps/six/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/six/#acceptance-criteria)
 - **Step 7**: [https://curriculum.codeyourfuture.io/itd/steps/seven/#acceptance-criteria](https://curriculum.codeyourfuture.io/itd/steps/seven/#acceptance-criteria)
-
-## To be continued...

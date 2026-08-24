@@ -6,6 +6,12 @@ menu_level = ['module']
 menu=['ITD steps']
 weight = 4
 [[blocks]]
+name="Introduction to AI"
+src="module/itd/step-3/intro-to-ai"
+[[blocks]]
+name="AI Use in the ITD"
+src="module/itd/step-3/ai-use-in-itd"
+[[blocks]]
 name="Instructions"
 src="module/itd/step-3/instructions"
 [[blocks]]
