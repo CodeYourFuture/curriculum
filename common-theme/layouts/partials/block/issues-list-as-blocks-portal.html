@@ -2,8 +2,21 @@
 {{ $courseName := .course_name }}
 {{/* TODO: Update the pages to use the proper module and sprint names from the Portal, rather than doing string manipulation, when we no longer have GitHub equivalents */}}
 {{ $repoName := .backlog }}
-{{ $moduleName := substr $repoName (len "Module-") }}
+{{ $moduleName := $repoName }}
+{{ if hasPrefix $repoName "Module-" }}
+  {{ $moduleName = substr $repoName (len "Module-") }}
+{{ end }}
 {{ $sprintName := strings.TrimPrefix "📅 " .backlog_filter }}
+
+{{ if eq $moduleName "Welcome" }}
+  {{ $moduleName = "Welcome to Code Your Future" }}
+{{ end }}
+
+{{/* TODO: Remove this when the Testing module is properly published */}}
+{{ if eq $moduleName "Structuring-and-Testing-Data" }}
+  {{ $moduleName = "Structuring and testing data" }}
+{{ end }}
+
 {{ if eq $moduleName "Legacy-Code" }}
   {{ $moduleName = "Legacy code" }}
   {{/* TODO: Remove this when there are actually issues for Legacy Code sprint 2 */}}
@@ -37,7 +50,7 @@
       {{ if $time }}
         {{ $time = mul $time 60 }}
       {{ end }}
-      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "code" .code "Page" $page) }}
+      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "code" .code "submit" .submit "Page" $page) }}
     {{ end }}
   {{ end }}
 {{ end }}

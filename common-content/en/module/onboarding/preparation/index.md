@@ -14,7 +14,7 @@ Double-check you have everything you need to start this course.
 - [ ] You have signed the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/)
 - [ ] You have signed the Learner agreement sent to you by email
 - [ ] You know how to get to class in person
-- [ ] You have read and understood the success criteria
+- [ ] You have read and understood the success criteria for the Onboarding sprint
 
 If you need help with any of these, ask in Slack or go to the [Signposts website](https://signposts.codeyourfuture.io/).
 

@@ -20,7 +20,7 @@ This workshop addresses a problem we see regularly: trainees submit PRs that con
 
 Before this workshop, make sure you have completed [Using GitHub](../using-github) and read the [Trainee PR Guide](../../guides/reviewing/trainee-pr-guide).
 
-Also look at the [branching notes in the Onboarding module](https://curriculum.codeyourfuture.io/itp/onboarding/sprints/1/prep/#branching) for a visual guide to creating branches.
+Also look at the [branching notes in the JavaScript Fundamentals module](https://curriculum.codeyourfuture.io/itp/javascript-fundamentals/sprints/1/prep/#branching) for a visual guide to creating branches.
 
 ## The Core Problem
 

@@ -35,15 +35,9 @@ We can help you with data access if you need support with it. See our [internet 
 
 It will always be provided in class.
 
-{{<note type="Borrowing a computer">}}
-
-If you need a computer, you must be enrolled as a trainee before we can help you.
-
 #### 💻 A computer
 
-The onboarding module can be completed entirely on a library computer. Once you have completed this module and enrolled as a Trainee, we can lend you a laptop if you need. 
-
-{{</note>}}
+If you do not have access to a computer, or if you are worried your computer won't be able to run everything needed during the course, we can lend you a laptop. Let us know **as soon as possible** if you need to borrow one.
 
 We ask that you complete the onboarding module step before we enrol you as a Trainee. We are obliged to only enrol people we have a reasonable expectation of being able to complete the whole course. But predicting the future is a challenge! We have created this module to try to give as many people as possible a fair chance to show they can do this.
 

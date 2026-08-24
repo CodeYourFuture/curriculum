@@ -1,6 +1,6 @@
 +++
 title="Acceptable AI Use"
-time=5
+time=15
 objectives = [
   "Explain acceptable and unacceptable uses of AI during the ITP."
 ]
