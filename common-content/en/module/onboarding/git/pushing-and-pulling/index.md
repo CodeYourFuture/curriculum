@@ -3,7 +3,7 @@ title = 'Pushing and Pulling'
 time = 30
 objectives = [
     "Link local and remote repositories",
-    "Upload files to GitHub"
+    "Push files to GitHub"
 ]
 hide_from_overview = true
 [build]

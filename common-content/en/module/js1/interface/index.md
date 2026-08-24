@@ -2,8 +2,9 @@
 title = 'Using an interface'
 
 time = 15
-[objectives]
-    1='Categorise different interfaces'
+objectives = [
+    "Describe the user interface of different devices.",
+]
 [build]
   render = 'never'
   list = 'local'

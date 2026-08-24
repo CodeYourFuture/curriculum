@@ -2,7 +2,7 @@
 title = 'Planning a function'
 time = 30
 [objectives]
-    1="Define 'pseudocode'"
+    1="Define pseudocode"
     2="Plan code using pseudocode" 
 [build]
   render = 'never'

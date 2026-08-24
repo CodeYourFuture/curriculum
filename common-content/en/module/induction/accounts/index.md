@@ -1,7 +1,7 @@
 +++
 title="Creating Accounts & Installing Tools"
 time=45
-objectives=["Create a professional Google account", "Download and install the apps you will need to complete the course"]
+objectives=["Create a professional Google account if you don't already have one", "Download and install the apps you will need to complete the course"]
 hide_from_overview=true
 [build]
   render = 'never'

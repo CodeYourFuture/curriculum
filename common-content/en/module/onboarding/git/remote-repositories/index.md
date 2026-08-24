@@ -5,7 +5,7 @@ objectives = [
   "Understand what a remote repository is",
   "Create a new repository on GitHub",
   "Connect your local repository to GitHub",
-  "Verify the connection"
+  "Verify the connection between a local and remote repository"
 ]
 hide_from_overview = true
 [build]

@@ -13,6 +13,7 @@ hide_from_overview="true"
 
 ### Learners, we expect you to:
 
+- Show up to class every week having read all of the Prep, and attempted all of the Backlog exercises.
 - Work in groups and individually, in class and during the week.
 - Show up on time and participate in all activities, including helping others.
 - Complete the work in the way it is specified.
@@ -29,7 +30,6 @@ hide_from_overview="true"
 
 - Follow the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/).
 - Help each other.
-- Do the prep.
 
 {{<multiple-choice
   question="Do you have to attend all the classes?"

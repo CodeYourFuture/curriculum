@@ -3,7 +3,7 @@ title = 'Refactoring'
 
 time = 20
 [objectives]
-1='Define "refactoring"'
+1='Define refactoring'
 2='Modify code to change its structure without changing its functionality'
 [build]
   render = 'never'

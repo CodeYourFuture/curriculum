@@ -15,7 +15,7 @@
         </section>
       {{ end }}
 
-      {{ if in .Params.menu_level "module" }}
+      {{ if and (in .Params.menu_level "module") (not .Params.single_sprint_module) }}
         {{ if not .Params.Objectives }}
           {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." .Page.RelPermalink }}
         {{ end }}

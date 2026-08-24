@@ -2,8 +2,11 @@
 title = 'Classifying data'
 
 time = 15
-[objectives]
-    1='Define data type, expression, and operator'
+objectives = [
+    "Define a data type.",
+    "Define an expression.",
+    "Define an operator.",
+]
 [build]
   render = 'never'
   list = 'local'

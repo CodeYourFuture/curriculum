@@ -1,6 +1,6 @@
 +++
-title = "End of Module Review"
-description = 'How do we know if we have completed day one successfully?'
+title = "End of Sprint Review"
+description = 'How do we know if we have completed onboarding successfully?'
 layout = 'success'
 menu_level = ['module']
 weight = 11

@@ -28,4 +28,4 @@ If it is installed successfully, you should get a version number (which may not 
 git version 2.40.0
 ```
 
-Otherwise, you will need to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) it or ask for support on your Slack channel.
+Otherwise, you will need to [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or ask for support on your Slack channel.

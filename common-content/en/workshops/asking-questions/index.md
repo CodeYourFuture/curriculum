@@ -17,7 +17,7 @@ objectives = [
 ## Prep
 
 - [ ] Read this article about [Mental Models](https://jamesclear.com/mental-models)
-- [ ] Load [this webpage, which stores the problems we will work on today](/workshops/asking-questions).
+- [ ] Load this webpage, which stores the problems we will work on today: https://curriculum.codeyourfuture.io/workshops/asking-questions.
 
 Today we're going to start learning a formal language of developer questions. We will begin with this basic format:
 

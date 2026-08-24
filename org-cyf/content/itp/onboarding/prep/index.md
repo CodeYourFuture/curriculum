@@ -9,6 +9,9 @@ weight = 1
 name="Application"
 src="module/onboarding/application"
 [[blocks]]
+name="Course Portal"
+src="module/onboarding/course-portal"
+[[blocks]]
 name="Notes"
 src="module/onboarding/notes"
 [[blocks]]

@@ -5,7 +5,7 @@ objectives = [
   "Create a new directory",
   "Create files in the directory",
   "Initialise a Git repository",
-  "Edit the files and commit the changes",
+  "Edit files in a Git repository and commit the changes",
 ]
 [build]
   render = "never"
