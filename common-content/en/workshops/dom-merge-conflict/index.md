@@ -29,35 +29,35 @@ This workshop contains a collection of DOM components. For this workshop, you wi
 ## Setup
 
 - Get into pairs
-- Before starting, ensure you create a fork of the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) to use as a pair. Each person in the pair must clone down the fork of this repository from Github and navigate to the project directory
+- To make it easier to follow instructions, you might want to decide who is Person A and who is Person B.
+- Before starting, Person A should create a fork of the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) - you will use this as a pair.
+- Person A should add Person B to the new fork as a collaborator.
+- Each person in the pair must now clone down this fork of the repository from Github and navigate to the project directory on their own computer.
+
+Once you have followed the steps above, one person in the pair will own the forked repository and both people will have a cloned copy of the repository on their own laptops.
 
 ## Instructions
 
 ### 1. Start Branching from `main`
 
-Each pair will need to branch off from `main`. Firstly, make sure you both start on the main branch and it's up to date:
+Each pair will need to branch off from `main` when they begin the task. Firstly, make sure you both start on the main branch and it's up to date using the following instructions:
 
 ```
 git switch main
 git pull origin main
 ```
 
-### 2. Choose a task
+### 2. Complete the Buttons and Counter task
 
-As a pair, choose one task from the the `dom-merge-conflict/tasks` folder in the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) that you will both follow.
+As a pair, work on the `dom-merge-conflict/buttons-and-counter` folder in the [workshop code repository on Github](https://github.com/CodeYourFuture/workshop-code) that you will both follow.
 
-### 3. Follow the task instructions until the end
+You will both work on this task at the same time on separate branches. The instructions in the repo explain this fully. There is one task for Person A and another for Person B.
 
-Choose who will be Person 1 and who will be Person 2 and then follow the instructions in your task's directory.
-Once finished, continue the instructions on this page.
-
-Some tasks will ask you to unskip tests, remove the skip before from the appropriate describe block in this case.
-
-### 4. Test your changes
+### 3. Test your changes
 
 Use the provided test suite to ensure your app works correctly. Run the tests according to the task's testing instructions.
 
-### 5. Raise a pull request
+### 4. Raise a pull request
 
 Once you have tested your changes and are satisfied with the changes, commit your changes and push your branch to the remote repository:
 
@@ -67,24 +67,30 @@ git commit -m "<description of change>"
 git push origin [your-branch-name]
 ```
 
-You should raise a pull request on your pair's fork of this repository.
+When you have both done this, there should be two branches on Person A's fork now, not including `main`.
 
-### 6. Handling merge conflicts
+Each of you should raise a pull request from your branch on Person A's fork of this repository.
 
-Once you have both raised your pull requests, choose one Pull Request to review first and then merge it.
+### 5. Handling merge conflicts
 
-Now you will need to handle the second pull request. For this pull request, you should now have a [merge conflict](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) in the remaining pull request.
+Once you have both raised your pull requests on Person A's fork, as a pair, choose one Pull Request to review first and then merge it.
 
-On the branch to be merged run:
+Once you've merged the first branch you will need to handle the second pull request. For this remaining pull request, you should now have a [merge conflict](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts).
+
+In your pair, locally on one computer, on the branch that will be merged, run the following command:
 
 ```
 git pull origin main
 ```
 
-So that you can resolve the changes locally using Git.
+By pulling `main` into the branch, you're pulling in the updated merged changes from the first branch you merged. You should see merge conflicts locally now.
+
+We're doing this locally so you can resolve the changes using Git.
 
 Use [this guide from GitHub to resolve the conflict using Git](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line).
 
 When you come to resolve the merge conflict, you need to make sure to keep the updates and refactors. Make sure to test that your app still works.
 
 Once you've resolved the conflict, you should be ready to merge the second PR. Discuss with your partner whether the tasks assigned have been completed after both merges.
+
+_This is one way to solve merge conflicts, not the only way, you can also do this on GitHub. We're doing it locally so we know how that feels._
