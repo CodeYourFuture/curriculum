@@ -10,6 +10,10 @@ time= 90
 
 ### Overview
 
+In this task we're going to build a small page using HTML and CSS, two techniques we don't know yet. We're intentionally building with something we haven't learnt yet so you can explore how to look for information using the internet.
+
+This step is an opportunity to practice this with a practical task which is outside your current knowledge of CSS and HTML. We have provided a **[CodePen](https://codepen.io/Ara225/pen/JoYbRVd)** which contains some HTML code. Your task is to use CSS to style the HTML so that:
+
 - The element with the class of "parent" has a dotted border.
 - The element with the class of "parent" is centred on the page even if the screen size changes.
 - The div elements with the class "child" have background colors, borders, rounded corners and margins between them.
