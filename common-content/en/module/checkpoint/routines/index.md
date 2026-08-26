@@ -15,7 +15,12 @@ To smoothly run a Checkpoint, we ask that that the volunteers running it:
   * Use the shared template for writing up feedback - this helps us to be consistent, to prepare for interviews, and to collate feedback to present to trainees at the end of the course.
 * Fill in the trainee tracker spreadsheet as we go.
 
-On class days, we:
+### Before class days
+
+* Tell the trainees what time they should expect to do demos, particularly if they're doing remote demos.
+
+### On class days
+
 * Attend each week.
 * Start punctually at 10:00.
 * Assign trainees to groups randomly. Make sure that trainees are working in different groups each week. Ideally there should be 0 overlap week-to-week.

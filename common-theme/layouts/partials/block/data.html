@@ -26,6 +26,7 @@
 {{ .Scratch.SetInMap "blockData" "isShortcode" false }}
 {{ .Scratch.SetInMap "blockData" "caption" .caption | default "" }}
 {{ .Scratch.SetInMap "blockData" "hasBlocks" .hasBlocks| default "" }}
+{{ .Scratch.SetInMap "blockData" "nestedTitle" (.nestedTitle | default "Options") }}
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 {{ .Scratch.SetInMap "blockData" "block" .block }}
