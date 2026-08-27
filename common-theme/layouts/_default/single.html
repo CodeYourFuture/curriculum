@@ -6,6 +6,29 @@
         {{ . }}
       </section>
     {{ end }}
+
+    <!-- GitHub Buttons -->
+    <div style="margin-top: 2rem; text-align: center;">
+      <a 
+        class="e-button"
+        href="https://github.com/CodeYourFuture/curriculum/issues/new"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="margin-right: 1rem;"
+      >
+        Open an Issue
+      </a>
+      <a 
+        class="e-button"
+        href="https://github.com/CodeYourFuture/curriculum/edit/main/{{ .File.Path }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+         Edit this page
+      </a>
+    </div>
+    <!-- End Buttons -->
+
     <div class="c-block__list">
       <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
       {{ range .Params.blocks }}
