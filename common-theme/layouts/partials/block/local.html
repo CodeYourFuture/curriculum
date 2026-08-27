@@ -16,7 +16,10 @@
         id="{{ $blockData.name |urlize }}">
         {{ $block.Title }}
       </h2>
-      {{ partial "time.html" . }}
+      <div style="display: flex; align-items: center; gap: var(--theme-spacing--1);">
+        {{ partial "time.html" . }}
+        {{ partial "block/actions.html" (dict "block" $block "blockData" $blockData "Site" site) }}
+      </div>
     </header>
     {{ if or $block.Params.Objectives $block.Params.Tasks }}
       <details open>

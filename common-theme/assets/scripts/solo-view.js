@@ -141,6 +141,9 @@ class SoloView extends HTMLElement {
   }
 
   handleKeydown = (event) => {
+    if (event.target.closest('input, textarea, select, [contenteditable]')) {
+      return;
+    }
     if (event.key === "ArrowLeft") {
       this.navigateBack(event);
     }
