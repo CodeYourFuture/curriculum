@@ -1,10 +1,8 @@
 +++
 title = 'Installing Jest'
-
 time = 20
 [objectives]
-    1='Outline the effects of running an installation command, e.g. npm install'
-    2='Install a dependency with npm'
+    1='Explain the difference between `dependencies` and `devDependencies`'
 [build]
   render = 'never'
   list = 'local'
@@ -12,92 +10,32 @@ time = 20
 
 +++
 
-Jest is a package used to help us to write and run test cases in JavaScript.
-Our next step will be to figure out how to install the Jest package on our machine, so that we can use it in our project.
+We will test our code using a **testing framework** and there are lots to choose from. We're going to use Jest, which is one of the most popular JavaScript testing frameworks. We can find out more about Jest from the [documentation](https://jestjs.io/docs/getting-started).
 
-We can find out more about the Jest framework from the [documentation online](https://jestjs.io/docs/getting-started).
+### Installing Jest
 
-In the **Getting started** section of the documentation, Jest gives us the following command:
+We're going to install Jest using npm. First we need to use `npm init -y` to create `package.json` like before, then we install Jest. There's going to be a slight difference this time though:
 
-```console
-npm install jest --save-dev
-```
-
-Let's break down the different parts of this command.
-
-- `npm` - `npm` is the package management tool we are using, so we need to run it.
-
-- `install` - `npm` has a subcommand called `install`. We use it to download a package from the [**npm** registry](https://www.npmjs.com/) onto our machine and install it.
-
-- `jest` - this is the name of the package we want to install on our machine.
-
-- `--save-dev` - this means the package is needed for development but _not_ needed in production. Our ordinal app doesn't need `jest` to run, but we need it to help us develop it.
-
-So overall we can think of this command as saying:
-_"Please go to the npm database, find the Jest package and install it on my local machine"_
-
-Let's execute this command in the same directory as the `package.json`.
-To double check we're in the correct directory, we can run `pwd`:
-
-```console
-$ pwd
-.../{{<our-name>}}/ordinal-testing-example
-```
-
-`pwd` is telling us we're in the `ordinal-testing-example` directory.
-
-We need to double check the `package.json` is also there too.
-
-```console
-$ ls
-package.json
-```
-
-Now we can execute the command
-
-```bash
+```sh {title="username/cyf-work/time-conversion"}
+npm init -y
 npm install --save-dev jest
 ```
 
-Our project structure will now look as follows:
+This time we have included the `--save-dev` flag with the install command. Let's see what that changed in `package.json`:
 
-```raw
-ordinal-testing-example
-├── node_modules
-├── package-lock.json
-└── package.json
-
-1 directory, 3 files
-```
-
-After running the command, we now have a directory called `node_modules` in our project too.
-
-> The `node_modules` directory contains all the code from the{{<tooltip title="dependencies">}}A **dependency** is a package that your project depends upon.{{</tooltip>}}we installed in our project. You won't need to look inside the `node_modules` directory - you just need to know it contains the code for Jest and any other dependencies we install in our project.
-
-Running the `npm` command also updated our `package.json` file for us:
-
-```json
+```json {title="package.json"}
 {
-  "name": "week-4-test-example",
-  "description": "An example application showing how to write tests using the jest framework",
+  // ...
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^30.5.0"
   }
 }
 ```
 
-We've now got some additional information inside the `package.json`:
+This time we have a `devDependencies` key instead of `dependencies`. There won't be a difference in terms of how we use the packages while we are writing code, but the two are handled differently when the time comes to deploy our code. Certain dependencies support core parts of our program, such as checking if a number is odd in the [previous example](itp/testing/sprints/1/prep/#using-a-package). Others are only useful while we are still developing. Testing falls into the second category: our end users won't need to run the tests when they have the finished app in front of them. Those dependencies are marked as `devDependencies`. 
 
-```json
-"devDependencies": {
-  "jest":  "^29.5.0"
-}
-```
+### Version numbers
 
-{{<note type="exercise" title="🕹️ Follow along">}}
+Every dependency we install has an associated version number. In this example we have installed version `30.5.0` of Jest. If a new version of a package is released these digits will change and npmjs has an[article explaining what each digit represents](https://docs.npmjs.com/about-semantic-versioning). It's important to keep a record of which version of a package we have used in development.
 
-###
-
-Install Jest on your local machine. Double check you've got the correct files and folders written to your local machine.
-
-{{</note>}}
+That applies to our packages' dependencies too, which is where the `package-lock.json` file comes in. This keeps track of the version numbers of _every_ dependency in our tree so we can exactly recreate the structure of our program later, even if something in the middle of the tree receives an update.

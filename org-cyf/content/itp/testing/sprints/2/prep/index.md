@@ -4,9 +4,6 @@ layout = 'prep'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-src="module/js1/clocks"
-name="Clocks"
-[[blocks]]
 src="module/js1/assertions"
 name="Assertions"
 [[blocks]]
