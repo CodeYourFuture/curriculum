@@ -3,12 +3,8 @@ title = 'First test case'
 
 time = 40
 [objectives]
-    1='Outline the effect of running npm test'
-    2='Interpret documentation to determine how part of a third-party API behaves'
-    3='Describe what toEqual checks in the Jest library'
-    4='State the current return value of a function and the target output for a given test'
-    5='Implement a test case to describe the behaviour of a function'
-
+    1='Export a function from a file'
+    2='Implement a test case to describe the behaviour of a function'
 [build]
   render = 'never'
   list = 'local'
@@ -16,107 +12,120 @@ time = 40
 
 +++
 
-> 🎯 Goal: Write a test for the case below, using Jest:
+It's time to write our first test! We're going to start off by checking something we know already works: `formatAs12HourClock("23:00")`.
 
-#### Case 1 💼
+{{<note type="caution" title="Testing in practice">}}
+We wouldn't usually test our code by writing the tests _after_ we have written the code. We're doing it here so that we're only covering one new concept at a time, but in practice it can lead to us writing tests which just tell us what we want to hear.
 
-Our first case is that the ordinal number for `1` should equal `"1st"`.
-
-We can create a file called `get-ordinal-number.test.js` and write our first test there.
-We can use [documentation](https://jestjs.io/docs/getting-started) to work out how to write our first test using Jest.
-
-`get-ordinal-number.test.js`:
-
-```js
-test("converts 1 to an ordinal number", function () {});
-```
-
-Let's break down this syntax.
-
-The `test` function is part of the Jest API, a function we use to perform a particular task.
-In particular, we're using `test` to create a test case.
-Before, we could use `Math.round` and `console.log` because `Math` and `console` are provided for us by Node.
-
-`test` isn't provided by Node, but when we ask Jest to run our tests, it will make sure the `test` function exists and that our code can use it.
-
-Let's break down the arguments we're passing to `test`:
-
-- 1st argument: `"converts 1 to an ordinal number"`, a string which describes the behaviour we're testing for
-- 2nd argument: `function() {}`, we will write some assertions in this `function() {}` to check the behaviour
-
-### ⚖️ Creating assertions
-
-We need to write an **assertion** inside the body of `function() {}` inside `get-ordinal-number.test.js`
-
-`get-ordinal-number.test.js`:
-
-```js
-test("converts 1 to an ordinal number", function () {});
-```
-
-{{<note type="tip" title="Recall">}}
-The assertion is the part of the test code that checks if a particular thing is true or not.
+Instead developers aim to write the tests first according to the product specification, then write the code to make the tests pass. This is called **test-driven development** and we'll look at it in the next sprint.
 {{</note>}}
 
-In this example, we want to check that the following is true:
+We're going to need a file to write our tests in. Create a new file called `timeConverter.test.js`.
 
-We expect `getOrdinalNumber(1)` to be `"1st"`
+{{<note type="tip" title="Directory structure">}}
+As your projects get bigger you will likely want to separate your testing files into a separate `testing` directory to keep things organised
+{{</note>}}
 
-An assertion in Jest looks like this:
+We need to access our function from our test file which means we'll need to `import` it, but before we can do that we need to make it accessible using `export`. Add the following line to the bottom of `timeConverter.js`:
 
-```js
-expect(currentOutput).toEqual(targetOutput);
+```js {title="timeConverter.js"}
+// ...
+export {formatAs12HourClock};
 ```
 
-The function `toEqual` is used to check that the current output of `getOrdinalNumber(1)` and the target output of `"1st"` are equal to each other.
+Now we can import it at the top of our test file:
 
-`toEqual` is just one example of a function called a [matcher](https://jestjs.io/docs/using-matchers).
-A matcher is a function we use to compare values in Jest.
+```js {title="timeConverter.test.js"}
+import {formatAs12HourClock} from "./timeConverter";
+```
 
-So the whole test looks like this:
+### Defining a test
 
-```js
-test("converts 1 to an ordinal number", function () {
-  expect(getOrdinalNumber(1)).toEqual("1st");
+We're going to use Jest's `test()` function to define our test. Jest is a little different from other packages in that we don't need to import the functions to be able to use them.
+
+Every time we use `test()` we need to pass it two arguments:
+- A string describing what we're testing
+- A function where we will call the function we are testing and define the expected outcome
+
+Passing a function into another function like this may look strange but is a very common pattern in JavaScript. We will look at it in more detail in a future module.
+
+We'll start by providing the string and an empty function.
+
+```js {title="timeConverter.test.js"}
+import {formatAs12HourClock} from "./timeConverter";
+
+test("correctly convert time after 12:00", function(){
+  // TODO
 });
 ```
 
-### 👟 Running tests
+Inside the function we are going to use two more functions from Jest:
+- `expect()` will be used to call the function we are testing and capture the _actual_ value returned
+- `toEqual()` will be used to provide the _expected_ value
 
-We can try running the file `get-ordinal-number.test.js` with node in the following way:
+```js {title="timeConverter.test.js"}
+import {formatAs12HourClock} from "./timeConverter";
 
-```bash
-node get-ordinal-number.test.js
+test("correctly convert time after 12:00", function(){
+  expect(formatAs12HourClock("23:00")).toEqual("11:00 pm");
+});
 ```
 
-but we get an error:
+When we run our test:
+1. The value `"23:00"` will be passed to `formatAs12HourClock`
+2. The code in the function will be executed and the returned value will be stored as the _actual_ value by `expect()`
+3. The _actual_ value will be compared to the _expected_ value passed to `toEqual()`
+4. The test will **pass** if the two values match. If they don't it will **fail**.
 
-```bash
-ReferenceError: test is not defined
-```
 
-Googling "ReferenceError JavaScript", [MDN tells us this is because we're referring to a variable that doesn't exist](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError). This is because `test` isn’t defined anywhere in the file.
+### Running the test
 
-We need to execute this file so that the Jest API is available in our file. We can do this by running the test file using Jest: we do this using an npm script.
+If we try to run `timeConverter.test.js` using Node we'll get an error. That's because Jest isn't designed to be run in teh same way as a typical program, we'll need to use npm to help us out.
 
-The "scripts" section of the `package.json` is where we can write useful commands we'll use in our project. We can add a "scripts" section to the `package.json` so that it reads as follows:
+Take a look at `package.json` and you'll see a `scripts` property with a nested object as its value. We can define scripts which can execute larger processes when we type `npm run {scriptName}`. We already have a value defined for `test`:
 
-```json {linenos=table,hl_lines=["4-6"],linenostart=1}
+```json {title="package.json"}
 {
-  "name": "week-4-test-example",
-  "description": "An example application showing how to write tests using the jest framework",
   "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^29.5.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
 ```
 
-Finally, we'll need to run our tests.
-Now we can run the command `npm test`.
+Try running it by typing `npm test` in the terminal and see what happens:
 
-When we execute the command, `npm test`, we will run `npm`, and `npm` will look inside the "scripts" section of the `package.json` and look up the command for "test" - in this case, "jest". `npm` will then run "jest".
+```console
+npm test
 
-We can't ourselves just run `jest` on the command line, because it isn't installed in a place our terminal knows about. But when `npm` runs a script, it will make sure all dependencies installed for the project are available.
+Error: no test specified
+```
+
+This is a useful default, but now that we have a test we don't want to see an error message when we try to run it. Replace the string associated with `test` with the one shown below:
+
+```json {title="package.json"}
+{
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  }
+}
+```
+
+Remember to also update the `type` value to `"module"`.
+
+Now try running `npm test` again. This time the test should run successfully and log the results to the terminal. You should see the string you passed to `test()` copied there with a check mark beside it to indicate that the test passed. Success!
+
+{{<note type="exercise" title="Exercise: More than just equality">}}
+The `toEqual()` function is an example of a **matcher**. Using the [Jest documentation](https://jestjs.io/docs/using-matchers) read about some other matchers which are available and identify which one would be most appropriate to use in each of these tests:
+1. Checking if a function returns a value above a given minimum
+2. Adding two decimal numbers
+3. A function's return value **isn't** `null`
+
+<details>
+<summary>Solutions:</summary>
+
+1. `toBeGreaterThan()`
+2. `toBeCloseTo()`
+3. `not.toBeNull()`
+  
+</details>
+{{</note>}}

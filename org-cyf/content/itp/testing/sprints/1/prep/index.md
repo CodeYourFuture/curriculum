@@ -19,4 +19,10 @@ name="Intro to testing"
 [[blocks]]
 src="module/js1/installing"
 name="Installing Jest"
+[[blocks]]
+src="module/js1/cases"
+name="First test case"
+[[blocks]]
+src="module/js1/failing-tests"
+name="Failing tests"
 +++

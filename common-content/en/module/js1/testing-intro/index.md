@@ -61,7 +61,7 @@ function formatAs12HourClock(time) {
     return `${hours - 12}:00 pm`;
   }
   // add am and return value
-  return `${time} am`;
+  return `${hours} am`;
 }
 ```
 
@@ -79,7 +79,7 @@ We can check that our function works by calling it a couple of times and using `
 // ...
 
 console.log(formatAs12HourClock("23:00"));
-console.log(formatAs12HourClock("08:00"));
+console.log(formatAs12HourClock("14:00"));
 ```
 
 This does the job, but it doesn't scale well at all. Imagine we have a lot of functions to test - that would mean lots of `console.log()` calls cluttering up our files. It also relies on people running the file using Node, so if our tests require anything more complex like a database integration it won't be possible to run them properly. We're going to move our tests into an environment where it's much easier to keep track of everything.
