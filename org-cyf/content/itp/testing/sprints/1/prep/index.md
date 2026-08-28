@@ -13,4 +13,7 @@ src="module/package-management/npm/index.md"
 [[blocks]]
 name="Using a package"
 src="module/package-management/using-a-package/index.md"
+[[blocks]]
+src="module/js1/testing-intro"
+name="Intro to testing"
 +++
