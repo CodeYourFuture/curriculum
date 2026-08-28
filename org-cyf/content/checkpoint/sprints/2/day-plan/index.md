@@ -13,6 +13,7 @@ src="module/checkpoint/demo"
 [[blocks.nested.blocks]]
 name="Solo project"
 src="module/checkpoint/solo-project"
+time=-1
 [[blocks]]
 name="Socialise"
 src="blocks/socialise"

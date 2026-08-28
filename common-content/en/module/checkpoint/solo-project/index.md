@@ -1,6 +1,5 @@
 +++
 title="Solo Project"
-time=8640
 [build]
   render = 'never'
   list = 'local'

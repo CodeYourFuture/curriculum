@@ -13,7 +13,7 @@ src="module/checkpoint/demo"
 [[blocks.nested.blocks]]
 name="Group Project: Shared Bookmarks"
 src="https://github.com/CodeYourFuture/Checkpoint/tree/main/Project-Shared-Bookmarks"
-time=8640
+time=-1
 [[blocks]]
 name="Socialise"
 src="blocks/socialise"
