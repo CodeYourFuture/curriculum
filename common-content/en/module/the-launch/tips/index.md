@@ -21,6 +21,7 @@ hide_from_overview=true
 ### Demo
 
 - Have a script for the demo and practice it! You should be able to talk without thinking too much about it
+- Use one laptop for your whole demo. Do not switch laptops during your demo.
 - Practice switching between demo and slides so that you don't waste too much time on it
 - Use tabs to pre-fill forms - we don't need to see you type out stuff, especially if you don't explain it
 - Use Incognito mode to prevent logging into/out. With incognito mode, you can be logged into multiple accounts at once
