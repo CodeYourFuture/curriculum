@@ -46,6 +46,7 @@ Each pair will need to branch off from `main` when they begin the task. Firstly,
 git switch main
 git pull origin main
 ```
+Then each create your own branch with a unique name.
 
 ### 2. Complete the Buttons and Counter task
 
