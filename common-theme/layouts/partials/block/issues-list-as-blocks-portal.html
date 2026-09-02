@@ -17,14 +17,6 @@
   {{ $moduleName = "Structuring and testing data" }}
 {{ end }}
 
-{{ if eq $moduleName "Legacy-Code" }}
-  {{ $moduleName = "Legacy code" }}
-  {{/* TODO: Remove this when there are actually issues for Legacy Code sprint 2 */}}
-  {{ if eq $sprintName "Sprint 2"}}
-    {{ $sprintName = "Sprint 1" }}
-  {{ end }}
-{{ end }}
-
 {{ $issueBlocks := slice }}
 
 {{ with resources.GetRemote "https://portal-backend.codeyourfuture.io/functions/v1/coursework-index" }}

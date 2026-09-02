@@ -4,38 +4,27 @@ layout = "day-plan"
 menu_level = ["sprint"]
 weight = 3
 [[blocks]]
-name = "Coming soon"
-src = "blocks/coming-soon"
-time = "420"
-[[blocks]]
 name = "Demo"
 src = "blocks/demo"
 time = "30"
 [[blocks]]
-name = "Refining poorly specified bugs"
-src = "workshops/reporting-bugs"
+name = "Discussion: Behavioural Interviews"
+src = "blocks/discuss-behavioural-interviews"
 time = "60"
 [[blocks]]
 name = "Morning break"
 src = "blocks/morning-break"
 [[blocks]]
-name = "Refining Purple Forest bugs"
-src = "module/legacy/refining-purple-forest-bugs"
-[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "25"
+time = "70"
 [[blocks]]
 name = "Lunch"
 src = "blocks/lunch"
 [[blocks]]
-name = "Discussion: Behavioural Interviews"
-src = "blocks/discuss-behavioural-interviews"
-time = "30"
-[[blocks]]
 name = "Study Group"
 src = "blocks/study-group"
-time = "130"
+time = "160"
 [[blocks]]
 name = "Retro"
 src = "blocks/retro"

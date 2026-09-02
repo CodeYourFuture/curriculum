@@ -3,6 +3,6 @@ title = "Backlog"
 layout = "backlog"
 menu_level = ["sprint"]
 weight = 2
-backlog = "Module-Legacy-Code"
+backlog = "Legacy code"
 backlog_filter = "📅 Sprint 2"
 +++

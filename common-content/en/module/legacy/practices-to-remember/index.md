@@ -1,15 +1,15 @@
 +++
 title = "Practices to remember"
 time = 30
-[build]
-  render = "never"
-  list = "local"
-  publishResources = false
 objectives = [
     "Explain differences in approaching formatting of legacy vs greenfield projects.",
     "List what should be included in a PR description and why.",
     "Consider risk trade-offs when changing legacy code.",
 ]
+[build]
+  render = "never"
+  list = "local"
+  publishResources = false
 +++
 
 Some of our standard development practices are _even more important_ when working with legacy code. These are things you should already be doing, but you should remember.
