@@ -60,6 +60,12 @@ from = "/piscine"
 to = "/checkpoint"
 status = 302
 
+# We renamed this so that the module name - path name mapping is consistent. Keep the old URLs working.
+[[redirects]]
+from = "/sdc/legacy/*"
+to = "/sdc/legacy-code/:splat"
+status = 302
+
 [[redirects]]
 from = "/trainee-expenses-docs"
 to = "https://docs.google.com/document/d/1UuPLflvuSED3XczbzGzgj2utwzXbWP-fxKMkqLaqHo4/edit?tab=t.0#heading=h.7pmxr8snfzh5"
