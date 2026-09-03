@@ -65,11 +65,11 @@ In this example we added `-y` to the end of the setup command. This was optional
 
 We're going to add our first package. We're going to use [is-odd](https://www.npmjs.com/package/is-odd) which provides logic to check if a number is odd or not. This is a very simple example of the workflow, but the process would be the same if we were adding a more complex package. 
 
-{{<note type="tip" title="npmjs.org">}}
+{{<note type="tip" title="npmjs.com">}}
 The link above leads to [www.npmjs.com](https://www.npmjs.com). This site has a searchable list of packages available to install through npm - if you're looking for something specific you should start here!
 {{</note>}}
 
-Switch back to your terminal and make sure you are in teh same directory as `package.json`, then type the command below:
+Switch back to your terminal and make sure you are in the same directory as `package.json`, then type the command below:
 
 ```sh
 npm install --save is-odd
