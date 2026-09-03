@@ -12,7 +12,7 @@ hide_from_overview = true
 
 +++
 
-Now we know how to use packages in our projects we have opened the door to make them much more complex. Many of the applications you use every day will make use of third-party packages, with potentially hundreds of dependencies in total. That's a lot of things which all have to work together correctly - how can we make sure that happens?
+In the last module we introduced the idea of writing functions to help us reuse blocks of code. We can build a complete application using these blocks, and even incorporate blocks built by other people. That's a lot of things which all have to work together correctly - how can we make sure that happens?
 
 ### Testing
 
@@ -24,7 +24,7 @@ Testing code is something that every developer should be doing, but it wouldn't 
 
 ### Our function
 
-Before we start writing tests we're going to write the function which we will be testing. In this example we're going to create a function which will take a time in 24-hour format (eg. `15:00`) and convert it to 12-hour format (`3:00 pm`). We will name our function `formatAs12HourClock`. Create a new directory to store your files (make sure you aren't in the `packages-practice` folder) and a new `timeConverter.js` file.
+Before we start writing tests we're going to write the function which we will be testing. In this example we're going to create a function which will take a time in 24-hour format (eg. `15:00`) and convert it to 12-hour format (`3:00 pm`). We will name our function `formatAs12HourClock`. Create a new directory to store your files and a new `timeConverter.js` file.
 
 Stating our problem in the given-when-then structure:
 

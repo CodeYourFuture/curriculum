@@ -7,12 +7,12 @@ weight = 1
 [[blocks]]
 name="Playing computer"
 src="module/js1/playing-computer"
-[[blocks]]
-name="Package management"
-src="module/package-management/npm/index.md"
-[[blocks]]
-name="Using a package"
-src="module/package-management/using-a-package/index.md"
+# [[blocks]]
+# name="Package management"
+# src="module/package-management/npm/index.md"
+# [[blocks]]
+# name="Using a package"
+# src="module/package-management/using-a-package/index.md"
 [[blocks]]
 src="module/js1/testing-intro"
 name="Intro to testing"
