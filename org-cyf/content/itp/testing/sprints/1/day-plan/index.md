@@ -6,10 +6,15 @@ weight = 3
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
-time=10
+time=5
+[[blocks]]
+name="Prep quiz"
+src="blocks/prep-quiz"
+time=15
 [[blocks]]
 name="Screen Safari"
 src="energisers/screen-safari"
+time=15
 [[blocks]]
 name="Problem Solving Workshop"
 src="https://codewars-workshops.codeyourfuture.io/problem-01/"
