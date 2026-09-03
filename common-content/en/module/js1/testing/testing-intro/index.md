@@ -24,7 +24,7 @@ Testing code is something that every developer should be doing, but it wouldn't 
 
 ### Our function
 
-Before we start writing tests we're going to write the function which we will be testing. In this example we're going to create a function which will take a time in 24-hour format (eg. `15:00`) and convert it to 12-hour format (`3:00 pm`). We will name our function `formatAs12HourClock`. Create a new directory to store your files and a new `timeConverter.js` file.
+Before we start writing tests we're going to write the function which we will be testing. In this example we're going to create a function which will take a time in 24-hour format (eg. `15:00`) and convert it to 12-hour format (`3:00 pm`). We will name our function `formatAs12HourClock`. Create a new directory to store your files (make sure you're not in the `packages-practice` folder) and a new `timeConverter.js` file.
 
 Stating our problem in the given-when-then structure:
 
