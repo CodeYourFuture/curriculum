@@ -1,8 +1,9 @@
 +++
-title = 'Installing Jest'
+title = 'Using a Testing Library'
 time = 20
 [objectives]
-    1='Explain the difference between `dependencies` and `devDependencies`'
+    1='Explain why we need to use testing libraries'
+    2='Explain the difference between `dependencies` and `devDependencies`'
 [build]
   render = 'never'
   list = 'local'
@@ -10,9 +11,18 @@ time = 20
 
 +++
 
-We will test our code using a **testing framework** and there are lots to choose from. We're going to use Jest, which is one of the most popular JavaScript testing frameworks. We can find out more about Jest from the [documentation](https://jestjs.io/docs/getting-started).
+Last sprint we wrote our first unit tests using the assertion libraries built in to Node. They did the job for us, but they can't do everything. There will be times when we need to bring in specialised tools to help.
+
+In this section we will look at how we can test our code using a **testing framework**. We're going to use Jest, which is one of the most popular JavaScript testing frameworks. We can find out more about Jest from the [documentation](https://jestjs.io/docs/getting-started). We're going to recreate the tests we wrote last sprint using Jest and see how it compare to using `node:test`.
 
 ### Installing Jest
+
+Before we can start using Jest we need a fresh directory to work in.
+
+- Create a new directory called `testing-with-jest`. Make you are **outside** the `packages-practice` directory.
+- Copy the `timeConverter.js` file from the last sprint into this directory.
+- Create a new file called `timeConverter.test.js`
+- Import `formatAs12HourClock()` into the test file
 
 We're going to install Jest using npm. First we need to use `npm init -y` to create `package.json` like before, then we install Jest. There's going to be a slight difference this time though:
 
@@ -32,7 +42,7 @@ This time we have included the `--save-dev` flag with the install command. Let's
 }
 ```
 
-This time we have a `devDependencies` key instead of `dependencies`. There won't be a difference in terms of how we use the packages while we are writing code, but the two are handled differently when the time comes to deploy our code. Certain dependencies support core parts of our program, such as checking if a number is odd in the [previous example](itp/testing/sprints/1/prep/#using-a-package). Others are only useful while we are still developing. Testing falls into the second category: our end users won't need to run the tests when they have the finished app in front of them. Those dependencies are marked as `devDependencies`. 
+This time we have a `devDependencies` key instead of `dependencies`. There won't be a difference in terms of how we use the packages while we are writing code, but the two are handled differently when the time comes to deploy our code. Certain dependencies support core parts of our program, such as checking if a number is odd in the [previous example](itp/testing/sprints/2/prep/#using-a-package). Others are only useful while we are still developing. Testing falls into the second category: our end users won't need to run the tests when they have the finished app in front of them. Those dependencies are marked as `devDependencies`. 
 
 ### Version numbers
 

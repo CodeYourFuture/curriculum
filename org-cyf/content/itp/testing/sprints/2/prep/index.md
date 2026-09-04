@@ -1,27 +1,18 @@
 +++
-title = 'prep'
+title = 'Prep'
 layout = 'prep'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-src="module/js1/assertions"
-name="Assertions"
+name="Package management"
+src="module/package-management/npm/index.md"
 [[blocks]]
-src="module/js1/sub-goal"
-name="Sub-goal"
+name="Using a package"
+src="module/package-management/using-a-package/index.md"
 [[blocks]]
-src="module/js1/strings"
-name="Strings"
+src="module/js1/jest/installing"
+name="Testing libraries"
 [[blocks]]
-src="module/js1/testing-a-sub-goal"
-name="Testing a sub-goal"
-[[blocks]]
-src="module/js1/sub-goal-2"
-name="Sub-goal #2"
-[[blocks]]
-src="module/js1/refactoring-repetition"
-name="Refactoring repetition"
-[[blocks]]
-src="module/js1/identifying-missing-tests"
-name="Identifying missing tests"
+src="module/js1/jest/cases"
+name="First Jest test case"
 +++
