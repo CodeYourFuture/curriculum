@@ -17,9 +17,9 @@ The navigator is responsible for outlining the approach to solving the current p
 
 Tips for being a good navigator:
 
-- Avoid going into specific syntactic detail unless required, i.e. you should favour "we should loop through this array" rather than "you should write 'for' and then an opening bracket, then the `let` keyword...", unless the driver has asked for specifics
+- Focus on the broader guidlines and avoid specifics, i.e. you should favour "we should loop through this array" rather than "you should write 'for' and then an opening bracket, then the `let` keyword...", unless the driver has asked for specifics
 - Listen and respond to questions or requests for clarification from the driver
-- Be open to discussing different approaches, but know that it is your responsibility in that moment to be decisive
+- Don't dominate; whilst it's your responsibility to guide the solution, you should still be open and receptive to suggestions from the driver
 - Resist temptation to write code, including avoiding sending code to the driver to be copied into the codebase
 
 ### The Driver
