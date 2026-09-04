@@ -73,4 +73,4 @@ test("can correctly convert midnight", function(){
 
 {{</note>}}
 
-If a function has multiple inputs then it's possible that two or more of these could represent edge cases. We call these scenarios **corner cases** - multiple edges are meeting each other
+If a function has multiple inputs then it's possible that two or more of these could represent edge cases. We call these scenarios **corner cases** - multiple edges are meeting each other.

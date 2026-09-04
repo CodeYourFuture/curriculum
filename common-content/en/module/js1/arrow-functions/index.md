@@ -1,9 +1,10 @@
 +++
 title = 'Arrow functions'
 
-time = 5
+time = 20
 [objectives]
     1='Write an arrow function'
+    2="Call a function which has been stored in a variable"
 [build]
   render = 'never'
   list = 'local'
@@ -11,9 +12,11 @@ time = 5
 
 +++
 
-As we write more code, we are going to write lots and lots of {{<tooltip title="anonymous functions">}}An anonymous function is a function which is not bound to a name in the scope where it is defined.{{</tooltip>}}.
+As we progress through this course we will find lots of situations where we can use anonymous functions. In this section we'll see how we can make them even shorter by removing the `function` keyword and in some cases reducing everything to a single line.
 
-JavaScript has even shorter ways of writing an anonymous function. These four functions all do the same thing:
+### Types of functions
+
+We have already seen lots of examples of **named functions**. These are functions defined like we did in the previous module.
 
 ```js
 function convertToPercentage(decimalNumber) {
@@ -21,46 +24,70 @@ function convertToPercentage(decimalNumber) {
 }
 ```
 
+In the last section we introduced the concept of **anonymous functions** where we don't need to assign a name to the function.
+
 ```js
-// We can skip the name of the function if we don't need it to have a name.
 function (decimalNumber) {
   return `${decimalNumber * 100}%`;
 }
 ```
 
+The `function` keyword isn't the only way for us to define a function. In modern versions of JavaScript we can leave it out, but we still need a way of linking the list of parameters to the function body. We use an arrow symbol (`=>`) to do so and this is why we call anonymous functions defined this way **arrow functions**.
+
 ```js
-// We can also skip the keyword 'function'.
-// If we do this, we need an arrow between our parameters and the function body.
 (decimalNumber) => {
   return `${decimalNumber * 100}%`;
 };
 ```
 
+When using arrow functions we can go a step further and omit the braces and `return` keyword too. This is called an **implicit return** but it can only be used when the function body contains a single expression. 
+
 ```js
-// If our function just returns a single value,
-// without needing any other statements in our function,
-// we can even skip the return keyword.
 (decimalNumber) => `${decimalNumber * 100}%`;
 ```
 
 This can make it easier and quicker to write functions. It also reduces the number of things we need to read in a function.
 
-Applying all of these techniques, we can rewrite our Jest test with fewer words:
+{{<note type="exercise" title="Exercise: Using arrow functions">}}
+Rewrite your tests in `timeConverter.test.js` to use arrow functions.
 
-```js
-test("works for any number ending in 1", () => {
-  expect(getOrdinalNumber(1)).toEqual("1st");
-  expect(getOrdinalNumber(11)).toEqual("11th");
-  expect(getOrdinalNumber(21)).toEqual("21st");
-});
+<details>
+<summary>Solution:</summary>
+
+```js {title="timeConverter.test.js"}
+test("correctly convert time after 12:00", () => assert.equal(formatAs12HourClock("23:00"), "11:00 pm"));
+
+test("can correctly convert morning time", () => assert.equal(formatAs12HourClock("08:00"),"08:00 am"));
+
+test("can correctly convert midnight", () => assert.equal(formatAs12HourClock("00:00"),"12:00 am"));
 ```
 
-It doesn't matter whether you use arrow functions or use the `function` keyword - they work the same.
+We can use the implicit return syntax here because the `assert.equal()` call is the only expression in the function body.
 
-Not all arrow functions are anonymous - you can assign them to a variable too:
+</details>
 
-```js
-const convertToPercentage = (decimalNumber) => `${decimalNumber * 100}%`;
+{{</note>}}
+
+### Assigning functions to a variable
+
+Our anonymous functions don't need to stay anonymous - we can assign them to a variable if we need to. When we want to call the function we can do so using the variable name, just like we would if it was a named function.
+
+Create a new file to try this in.
+
+```js {title="modifyingNumbers.js"}
+const doubleNumber = function(number){
+    return number *2;
+}
+
+const halfNumber = (number) => number / 2;
+
+console.log("doubled number:", doubleNumber(2));
+console.log("halved number:", halfNumber(2));
 ```
 
-Anonymous vs named refers to whether the function is bound to a name, not whether it was defined with the `function` keyword or an `=>`.
+Running the file prints:
+
+```console
+doubled number: 4
+halved number: 1
+```
