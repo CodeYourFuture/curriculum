@@ -1,6 +1,6 @@
 +++
 title = 'Pair programming'
-description = 'Practice writing code and getting support'
+description = 'Solving coding problems in a pair'
 +++
 
 Pair programming is working together with someone else to code a solution to a problem. It is a common industry practice and can be used effectively by engineers spanning all skill levels, not just as a learning tool but as a means of writing high quality, professional code.
