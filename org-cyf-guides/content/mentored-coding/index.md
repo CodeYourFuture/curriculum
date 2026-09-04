@@ -18,7 +18,7 @@ Mentored coding prepares our trainees for technical interviews when they'll code
 We assign mentored coding as a coursework assignment throughout the course.
 Each session should last between 30-60 minutes.
 
-**Before** a mentored coding session, learners should decide what they're going to pair on and share this with the volunteer, e.g. by sharing a link to a particular Codewars exercise, a particular piece of coursework, or some other problem.
+**Before** a mentored coding session, learners should decide what they're going to pair on and share this with the mentor, e.g. by sharing a link to a particular Codewars exercise, a particular piece of coursework, or some other problem.
 
 **During** mentored coding, the **learner** should:
 
