@@ -26,23 +26,33 @@
     {{ $moduleData := partial "slices/find-by-key.html" (dict "slice" $courseData.modules "key" "name" "target_value" $moduleName "error_template" (printf "Couldn't find module %%s in backlog data from portal for course %s" $courseName)) }}
     {{ $sprintData := partial "slices/find-by-key.html" (dict "slice" $moduleData.sprints "key" "name" "target_value" $sprintName "error_template" (printf "Couldn't find sprint %%s in backlog data from portal for course %s module %s" $courseName $moduleName)) }}
 
-    {{ range $sprintData.backlog_tasks }}
-      {{ $github_issue_number := int (index (last 1 (split .github_html_url "/")) 0) }}
-      {{ $labels := dict "nodes" slice }}
-      {{ if eq .category "mandatory" }}
-        {{ $labels = dict "nodes" (slice (dict "name" "Core")) }}
-      {{ else if eq .category "optional" }}
-        {{ $labels = dict "nodes" (slice (dict "name" "Optional")) }}
-      {{ else if eq .category "recurring" }}
-        {{ $labels = dict "nodes" (slice (dict "name" "Recurring")) }}
-      {{ else if eq .category "setup" }}
-        {{ $labels = dict "nodes" (slice (dict "name" "Setup")) }}
+    {{/*
+      Right now the Portal sets whole-module tasks as an anonymous extra sprint in the sprints list.
+      We've asked them to set a sibling key to sprints within a module, rather than making a phantom sprint.
+      TODO: Update this to $moduleData.backlog_tasks when the portal sets this differently.
+      */}}
+    {{ $moduleBacklogTasksSprint := partial "slices/find-by-key.html" (dict "slice" $moduleData.sprints "key" "name" "target_value" nil "default" (dict "backlog_tasks" slice)) }}
+    {{ range $type, $issues := (dict "sprint" $sprintData.backlog_tasks "module" $moduleBacklogTasksSprint.backlog_tasks) }}
+      {{ range $issue := $issues }}
+        {{ $github_issue_number := int (index (last 1 (split $issue.github_html_url "/")) 0) }}
+        {{ $labels := dict "nodes" slice }}
+        {{ if eq $type "module" }}
+          {{ $labels = dict "nodes" (slice (dict "name" "Module")) }}
+        {{ else if eq $issue.category "mandatory" }}
+          {{ $labels = dict "nodes" (slice (dict "name" "Core")) }}
+        {{ else if eq $issue.category "optional" }}
+          {{ $labels = dict "nodes" (slice (dict "name" "Optional")) }}
+        {{ else if eq $issue.category "recurring" }}
+          {{ $labels = dict "nodes" (slice (dict "name" "Recurring")) }}
+        {{ else if eq $issue.category "setup" }}
+          {{ $labels = dict "nodes" (slice (dict "name" "Setup")) }}
+        {{ end }}
+        {{ $time := $issue.time_hours }}
+        {{ if $time }}
+          {{ $time = mul $time 60 }}
+        {{ end }}
+        {{ $issueBlocks = $issueBlocks | append (dict "name" $issue.title "src" (printf "portal-issue://%s" $issue.github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" $issue.body "learning_objectives" $issue.learning_outcomes "time" $time "code" $issue.code "submit" $issue.submit "Page" $page) }}
       {{ end }}
-      {{ $time := .time_hours }}
-      {{ if $time }}
-        {{ $time = mul $time 60 }}
-      {{ end }}
-      {{ $issueBlocks = $issueBlocks | append (dict "name" .title "src" (printf "portal-issue://%s" .github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" .body "learning_objectives" .learning_outcomes "time" $time "code" .code "submit" .submit "Page" $page) }}
     {{ end }}
   {{ end }}
 {{ end }}
