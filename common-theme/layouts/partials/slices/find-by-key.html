@@ -1,7 +1,11 @@
 {{ $slice := .slice }}
 {{ $key := .key }}
 {{ $target_value := .target_value }}
+
+{{/* Exactly one of error_template or default should be set */}}
 {{ $error_template := .error_template }}
+{{ $hasDefault := isset . "default" }}
+{{ $default := .default }}
 
 {{ $found := "PLACEHOLDER_NOT_FOUND_BECAUSE_HUGO_DOES_NOT_ALLOW_NIL" }}
 
@@ -13,7 +17,10 @@
 {{ end }}
 
 {{ if eq $found "PLACEHOLDER_NOT_FOUND_BECAUSE_HUGO_DOES_NOT_ALLOW_NIL" }}
-  {{ errorf $error_template $target_value }}
+  {{ $found = $default }}
+  {{ if not $hasDefault }}
+    {{ errorf $error_template $target_value }}
+  {{ end }}
 {{ end }}
 
 {{/*

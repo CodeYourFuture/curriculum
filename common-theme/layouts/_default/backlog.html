@@ -29,6 +29,7 @@
     {{ $recurringTasks := slice }}
     {{ $mandatoryTasks := slice }}
     {{ $optionalTasks := slice }}
+    {{ $moduleTasks := slice }}
 
     {{ $partial := "block/issues-list-as-blocks-github.html"}}
 
@@ -52,6 +53,8 @@
             {{ $mandatoryTasks = $mandatoryTasks | append $issue }}
           {{else if in .name "Optional"}}
             {{ $optionalTasks = $optionalTasks | append $issue }}
+          {{else if in .name "Module"}}
+            {{ $moduleTasks = $moduleTasks | append $issue }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -61,6 +64,19 @@
       <h2>Start Here</h2>
       <p>These tasks should be completed before attempting anything else.</p>
       {{range $setupTasks}}
+        {{ partial "block/backlog-issue.html" (dict
+          "block" .
+          "Page" $.Page
+          "Site" site
+          "sprint" $backlog_filter
+          "path" $currentPath
+        ) }}
+      {{ end }}
+    {{ end }}
+    {{ if lt 0 ($moduleTasks | len) }}
+      <h2>During this module</h2>
+      <p>These tasks can be completed at any point during this module. Don't leave them to the last minute!</p>
+      {{range $moduleTasks}}
         {{ partial "block/backlog-issue.html" (dict
           "block" .
           "Page" $.Page
