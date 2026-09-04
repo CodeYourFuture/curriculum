@@ -17,7 +17,7 @@ We have written a test and it passed, so can we say that our function works?
 The answer is no! We have only tested one aspect of our function: converting an afternoon time. We need to check that it works for morning times as well. We're going to need a second test.
 
 {{<note type="exercise" title="Exercise: Write another test">}}
-Write another test to check that `"08:00"` will be correctly converted to `"8:00 am"`
+Write another test to check that `"08:00"` will be correctly converted to `"08:00 am"`
 
 <details>
 <summary>Solution:</summary>
