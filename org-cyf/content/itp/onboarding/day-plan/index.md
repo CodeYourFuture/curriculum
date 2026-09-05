@@ -10,9 +10,14 @@ src="blocks/name-tags"
 [[blocks]]
 name="Energiser"
 src="energisers/favourite-dessert"
+time=15
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
+time=5
+[[blocks]]
+name="Prep quiz"
+src="blocks/prep-quiz"
 time=15
 [[blocks]]
 name="Welcome to Code Your Future"

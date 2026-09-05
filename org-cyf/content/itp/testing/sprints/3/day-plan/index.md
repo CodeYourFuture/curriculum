@@ -6,11 +6,15 @@ weight = 3
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
+time=5
+[[blocks]]
+name="Prep quiz"
+src="blocks/prep-quiz"
 time=15
 [[blocks]]
 name="Energiser: Introduce Yourself"
 src="energisers/introduce-yourself"
-time=20
+time=15
 [[blocks]]
 name="Workshop:Playing Computer"
 src="workshops/playing-computer"
