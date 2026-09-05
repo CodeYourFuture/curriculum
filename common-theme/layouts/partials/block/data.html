@@ -30,8 +30,8 @@
 {{/* Override any block time */}}
 {{ .Scratch.SetInMap "blockData" "time" .time | default "" }}
 {{ .Scratch.SetInMap "blockData" "block" .block }}
-{{ .Scratch.SetInMap "blockData" "Page" .block.Page }}
-{{ .Scratch.SetInMap "blockData" "pageLayout" .block.Page.Params.layout }}
+{{ .Scratch.SetInMap "blockData" "Page" page }}
+{{ .Scratch.SetInMap "blockData" "pageLayout" page.Params.layout }}
 
 {{/* Now let's do our headers */}}
 {{ $headers := partial "github-auth.html" }}
