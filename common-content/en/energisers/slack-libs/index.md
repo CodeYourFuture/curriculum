@@ -2,7 +2,7 @@
 title="Slack Libs"
 time=10
 objectives = [
-    "Find an post to a thread in Slack.",
+    "Find and post to a thread in Slack.",
     "Use emoji in Slack.",
     "Format text in Slack.",
     "Mention a user in Slack.",
