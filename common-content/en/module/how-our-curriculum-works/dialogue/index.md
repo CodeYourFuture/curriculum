@@ -26,7 +26,7 @@ We learn best when we ask questions and explore possible answers. Dialogue is a 
 - Presenters are expected to clearly and succinctly explain a topic or project.
 - The audience is expected to give useful constructive feedback.
 
-#### Mentored Pair programming
+#### Mentored coding
 
 - Learners are expected to explain their thought processes and understanding
 - Mentors are expected to ask questions and drive learners in the right direction
@@ -35,5 +35,3 @@ We learn best when we ask questions and explore possible answers. Dialogue is a 
 
 - Drivers are expected to listen to their navigator and implement their directions
 - Navigators are expected to talk to their drivers and articulate their strategy
-
-
