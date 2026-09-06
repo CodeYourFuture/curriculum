@@ -90,3 +90,5 @@ You should have in mind the aim of making your CV as easy to read as possible. T
 It should also be a single column throughout. It's ok to make your CV stand out - it can be beautiful and interesting but never at the expensive of ease of reading and understanding. Make sure someone can quickly read your CV and understand everything in it.
 
 Your CV should be 2 pages maximum, but could be shorter depending on experience. As you get more experience you will consolidate and summarise your experience and often chop off earlier experience that is no longer relevant, so even in very senior positions it is still common to have 2 page long CVs.
+
+Before submitting, you can use a [frontend-focused CV linter](https://frontendatlas.com/tools/cv) to check ATS-style structure, parsing, readability, role-specific keywords, and evidence in your CV; uploaded files are processed to text and not stored.
