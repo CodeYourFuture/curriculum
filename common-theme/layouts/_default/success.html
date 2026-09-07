@@ -15,7 +15,7 @@
         </section>
       {{ end }}
 
-      {{ if in .Params.menu_level "module" }}
+      {{ if and (in .Params.menu_level "module") (not .Params.single_sprint_module) }}
         {{ if not .Params.Objectives }}
           {{ errorf "There are no learning objectives on the %s page. Make sure this module has learning objectives." .Page.RelPermalink }}
         {{ end }}
@@ -39,7 +39,7 @@
           {{ $issueBlocks := slice }}
           {{ if $backlogPage }}
             {{ $backlogPartial := "block/issues-list-as-blocks-github.html" }}
-            {{ if eq .Section "sdc" }}
+            {{ if or (eq .Section "sdc") (eq .Section "itp") }}
               {{ $backlogPartial = "block/issues-list-as-blocks-portal.html" }}
             {{ end }}
             {{ $backlogs := $backlogPage.Params.backlog }}

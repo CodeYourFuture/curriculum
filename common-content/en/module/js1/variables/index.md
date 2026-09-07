@@ -1,11 +1,15 @@
 +++
 title = 'Saving expressions'
 
-time = 15
-[objectives]
-1='Identify the syntactic features of a variable declaration'
-2='Explain why we use variable declarations'
-3='Create strings using variables and template literals'
+time = 25
+objectives = [
+  'Identify the syntactic features of a variable declaration',
+  'Explain why we use variable declarations',
+  'Define a literal',
+  'Create strings using variables and template literals',
+  'Describe the difference between `const` and `let`',
+  'Describe the difference between a declaration and a statement',
+]
 [build]
   render = 'never'
   list = 'local'
@@ -15,13 +19,15 @@ time = 15
 
 In programming we often want to _reuse_ our work. Consider the string: `"Hello there"`
 
-Suppose we want to create different greetings for different people, like: `"Hello there, Alicia"` `"Hello there, Barny"`
+Suppose we want to create different greetings for different people, like: `"Hello there, Alicia"` or `"Hello there, Barney"`
 
-We can use a **variable** to store this string and reuse it. How can we create a {{<tooltip title="variable" emoji="🏷️">}}A **variable** is a label for a piece of data. We assign a piece of data to a label and then refer back to this label, in place of the data.{{</tooltip>}}
+We can use a **variable** to store this string and reuse it. A variable is a label for a piece of data. We assign a piece of data to a label and then refer back to this label, in place of the data.
 
-We can create a variable in our program by writing a **variable** {{<tooltip title="declaration" type="definition">}}A _declaration_ is an instruction that binds an identifier to a value.{{</tooltip>}}, like this:
+### Declaring variables
 
-```js title="variable declaration"
+We can create a variable in our program by writing a **variable declaration**. A declaration is an instruction that binds an identifier to a value, like this:
+
+```js
 const greeting = "Hello there";
 ```
 
@@ -32,65 +38,81 @@ Break down the different syntactic elements of this variable declaration:
 - `=` is the assignment operator. It means assign to the label `greeting` the value of the expression on the right hand side.
 - `"Hello there"` - this is the expression whose value we're assigning to the label `greeting`.
 
-{{<tabs name="greeting">}}
+{{<note type="exercise" title="Exercise: Declare a variable">}}
+In your terminal create a new file called `greeting.js`. Open the file in VSCode and declare a variable called `greeting` like we did above.
+{{</note>}}
 
-===[[Try it yourself]]===
-Type this variable declaration into the REPL:
 
+### Accessing variables
+
+Our data is stored in a variable, so how can we use it again later?
+
+To access the data stored in a variable we just need to type the variable's name. When our code is executed the appropriate value will be inserted and the expression will be evaluated. Try it now with your new variable:
+
+```js {title="greeting.js"}
+console.log(greeting);
 ```
+
+`"Hello there"` has been printed to the terminal even though we didn't explicitly write that in the code.
+
+
+### Using variables in expressions
+
+Accessing variables can form part of complex expressions. Let's add a second variable called `name` to our program. We'll also add this variable to our `console.log` call so we print the greeting and the name together.
+
+```js {title="greeting.js"}
 const greeting = "Hello there";
+const name = "Alicia";
+console.log(`${greeting}, ${name}`);
 ```
-
-Now refer to the label `greeting` in the REPL:
-
-```
-`${greeting}, Alicia`
-```
-
-Our `greeting` variable is stored in memory. We can reuse it to build more expressions:
-
-```
-`${greeting}, Barny`
-```
-
-===[[Watch and follow along]]===
-
-![greeting](greeting.gif "Store your string in a variable and reuse it")
-
-{{</tabs>}}
 
 We just used backticks to create a template literal.
 
 ```js
-`A template literal places ${expressions} inside strings;
+A template literal evaluates ${expressions} inside strings;
 ```
 
 With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign `$` and a set of curly braces `{}`. We can put any expression (e.g. a variable name) inside the curly braces. The value that expression evaluates to is then placed inside the string.
 
-When an operation uses an expression, that expression is immediately evaluated, and how it was written is forgotten about. That means that the `greetAlicia` variable is the same in all three of these cases:
+When an operation uses an expression, that expression is immediately evaluated, and how it was written is forgotten about. Each of these expressions evaluates to the same thing:
 
 ```js
-const greetAlicia = "Hello there, Alicia";
+"Hello there, Alicia";
+`Hello there, ${name}`;
+`${greeting}, ${name}`;
+greeting + ", " + name;
 ```
 
-{{<note type="note" title="string literal">}}
-In this example, we don't use a variable or a template to create a string. Instead we write a string `"Hello there, Alicia"`.
+{{<note type="definition" title="Definition: String literal">}}
+In the first example we don't use a variable or a template to create a string. Instead we write a string `"Hello there, Alicia"`.
 
 A sequence of characters enclosed in quotation marks is called a **string literal**. `"Hello there, Alicia"` is a string literal.
 
 Similarly, `10` is a **number literal**.
-
 ## {{</note>}}
 
-```js
-const name = "Alicia";
-const greetAlicia = `Hello there, ${name}`;
-```
+### Reassigning a variable
 
-```js
+Let's say we want to greet people in a different way. That would mean changing the value of our `greeting` variable. This is a very common thing to do, in fact many of the programs you write will need you to do this. 
+
+We reassign a variable using the `=` operator:
+
+```js {title="greeting.js"}
 const greeting = "Hello there";
-const name = "Alicia";
-const greetAlicia = `${greeting}, ${name}`;
+greeting = "Good morning"
 ```
 
-The `greetAlicia` variable doesn't remember whether you used variables to make it or not - in all three cases, `greetAlicia` contains the string `"Hello there, Alicia"`. Once a value is made, it doesn't matter _how_ it was made.
+If we try to run our code now we'll see an error (more on these at the end of this sprint). What went wrong?
+
+The `const` keyword means that our variable is a **constant** - we can't change its value! If we need to reassign a variable we need to use the `let` keyword when declaring the function instead.
+
+```js {title="greeting.js"}
+let greeting = "Hello there";
+greeting = "Good morning"
+```
+
+Now it works! 
+
+The first line of this block is the variable **declaration**, the second line is a **statement**. Note that we don't need to use `let` again when reassigning the variable.
+
+Knowing that something won't change can make it easier to write and reason about a program. We try to declare them with `const` wherever we can. But if a variable is going to need to change, we need to use `let` to declare it.

@@ -15,7 +15,7 @@ objectives = [
 
 _Everyone_ at {{<our-name>}} has barriers to education. We can help with some things, and can recommend where to get help with others. Our [signpost website](https://signposts.codeyourfuture.io/) has more details.
 
-The support _we_ can offer is around your ability to come to class, or follow the course material. We can support you financially with the following things for the first 5 weeks of ITP. In this time, we expect you to enroll as a trainee - after 5 weeks, we can only continue supporting enrolled trainees.
+The support _we_ can offer is around your ability to come to class, or follow the course material. We can support you financially with the following things for the first 6 weeks of ITP. In this time, we expect you to enroll as a trainee - after 6 weeks, we can only continue supporting enrolled trainees.
 
 If you cannot come to an in-person class because you can't afford:
 
@@ -35,15 +35,9 @@ We can help you with data access if you need support with it. See our [internet 
 
 It will always be provided in class.
 
-{{<note type="Borrowing a computer">}}
-
-If you need a computer, you must be enrolled as a trainee before we can help you.
-
 #### 💻 A computer
 
-The onboarding module can be completed entirely on a library computer. Once you have completed this module and enrolled as a Trainee, we can lend you a laptop if you need. 
-
-{{</note>}}
+If you do not have access to a computer, or if you are worried your computer won't be able to run everything needed during the course, we can lend you a laptop. Let us know **as soon as possible** if you need to borrow one.
 
 We ask that you complete the onboarding module step before we enrol you as a Trainee. We are obliged to only enrol people we have a reasonable expectation of being able to complete the whole course. But predicting the future is a challenge! We have created this module to try to give as many people as possible a fair chance to show they can do this.
 

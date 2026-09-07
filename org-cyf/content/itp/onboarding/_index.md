@@ -1,8 +1,10 @@
 +++
 title = 'Onboarding'
-description = 'Evaluate and fix code with Lighthouse; use version control with Git and GitHub; Plan your study and set goals; Enroll as a Trainee'
+description = 'Learn about the tools you will use at CYF'
 layout = 'module'
 emoji= '🫱🏾‍🫲🏿'
 menu = ['itp course schedule']
-weight='2'
+weight='1'
+parentsToTraverseToModule = 0
+moduleForRegister = "Welcome"
 +++

@@ -149,5 +149,3 @@ Workshops may also be created in stand-alone repositories if needed.
 ## Updating Success Criteria
 
 At the sprint level, the [End of Sprint Review](https://curriculum.codeyourfuture.io/itp/data-groups/sprints/1/success/) page lists all learning objectives defined in prep work and backlog exercises. This is generated at build time and does not need to be manually edited. If your learning objectives are not showing up here check they are formatted correctly.
-
-The [End of Module Review](https://curriculum.codeyourfuture.io/itp/data-groups/success/) lists the criteria for passing the module. These criteria are referenced by other teams within the organisation - please **do not edit them** without prior discussion with a member of the core team.

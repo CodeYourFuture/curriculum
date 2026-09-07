@@ -1,7 +1,7 @@
 +++
-title="Professional Accounts"
+title="Creating Accounts & Installing Tools"
 time=45
-objectives=["Create a professional Google account", "Download and install the apps you will need to complete the course"]
+objectives=["Create a professional Google account if you don't already have one", "Download and install the apps you will need to complete the course"]
 hide_from_overview=true
 [build]
   render = 'never'
@@ -52,7 +52,7 @@ You will use [GitHub](https://github.com/signup) to store your code and to colla
 
 ### LinkedIn
 
-Sign up for LinkedIn. LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
+Sign up for [LinkedIn](https://www.linkedin.com/). LinkedIn is the largest professional social network. You will use it to help you get a job and to advance your career.
 
 Make a LinkedIn account. Use your real name. Sign in with Google. Connect with your cohort.
 
@@ -79,8 +79,6 @@ See this example fully filled-in Slack profile - make sure yours has at least th
 
 ## Applications
 
-If you're working on a library computer, you can't download these applications. You will use [GitHub Dev](https://github.dev/) to complete coursework instead.
-
 ### Google Chrome
 
 - [ ] I have downloaded and installed Google Chrome.
@@ -90,12 +88,15 @@ Use your professional Chrome profile for all your {{<our-name>}} work. You will 
 
 ### VSCode
 
-We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a professional IDE you will use on this course and at work.
+We will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a customisable text editor you will use on this course and at work. If you are new to using tools like VSCode there are [video resources](https://www.youtube.com/watch?v=B-s71n0dHUk) which can help you familiarise yourself with the interface.
+
+We will customise VSCode by installing some extensions. These will add some tools which will support your learning through teh course. Once you have installed VSCode you can [install the CodeYourFuture Extension Pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack).
 
 - [ ] I have downloaded and installed [Visual Studio Code](https://code.visualstudio.com/).
+- [ ] I have downloaded and installed [the extension pack](https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack).
 
 ### Zoom
 
-Usually we use [Meet](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/google-meet-for-beginners/overview.html), but sometimes we use [Zoom for remote sessions](https://zoom.us/download). Install it now.
+Usually we use [Meet](https://applieddigitalskills.withgoogle.com/c/college-and-continuing-education/en/google-meet-for-beginners/overview.html), but sometimes we use [Zoom for remote sessions](https://zoom.us/download). If you are using a library computer you can use the web version, if you are using your own computer you should install it now.
 
 - [ ] I have downloaded and installed [Zoom](https://zoom.us/download) onto my computer.

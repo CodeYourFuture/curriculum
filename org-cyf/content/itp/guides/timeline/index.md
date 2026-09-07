@@ -16,20 +16,20 @@ So that's your rule of thumb for staying on track. What does this look like in p
 
 Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack. You have scheduled your learning weeks in your [classplanner](https://classplanner.codeyourfuture.io/) and your volunteer team has signed up on the schedule so everybody knows the rota.  
 
-## 🤝 Module 1: [Weeks 2, 3, 4](/itp/onboarding)
+## 🤝 Module 1: [Weeks 2, 3, 4](/itp/javascript-fundamentals)
 
-🤝 Week 2: you have met everyone in person or at Zoomschool
+🤝 Week 2: you have met everyone in class
 
 - Week 2: most people have opened a PR
 - Week 2: most people have gotten a code review
 
 🤝 Week 3: 100% of learners have opened a PR or withdrawn/deferred  
-🤝 Week 4: Focus on enrollment: 60% of learners have completed the [Onboarding Module](/itp/onboarding) and enrolled as a trainee
+🤝 Week 4: Focus on enrolment: 60% of learners have completed the [JavaScript Fundamentals Module](/itp/javascript-fundamentals) and enrolled as a trainee
 
-## 🥚 Module 2: [Weeks 5, 6, 7](/itp/structuring-data)
+## 🥚 Module 2: [Weeks 5, 6, 7](/itp/testing)
 
 🥚 Week 5: 60% of learners have enrolled as a trainee  
-🥚 Week 6: Everybody has begun [Structuring and Testing Data](/itp/structuring-data) at least as we are halfway through the course!  
+🥚 Week 6: Everybody has begun [Testing](/itp/testing) at least as we are halfway through the course!  
 🥚 Week 7: Focus on step review: keep the momentum going. Advise learners who have made no progress to withdraw as there is no chance of making up the work now.
 
 ## 🐣 Module 3: [Weeks 8, 9, 10](/itp/data-groups)

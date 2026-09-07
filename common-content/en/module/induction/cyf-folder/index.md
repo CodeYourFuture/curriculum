@@ -38,6 +38,3 @@ Use this [cli documentation](https://www.techrepublic.com/article/16-terminal-co
 6. Double check you're in the right place by **p**rinting your current **w**orking **d**irectory (by running `pwd`) again.
 
 </details>
-
-> [!TIP]
-> If you're working on a library computer, skip this step. You will store your work in your GitHub account.

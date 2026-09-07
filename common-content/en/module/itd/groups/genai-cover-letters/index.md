@@ -18,4 +18,4 @@ Discuss what makes for good and bad professional writing. Come up with examples 
 
 Look at someone's example generated cover letter (or have ChatGPT generate one to use in the workshop) and reflect on it together.
 
-How well does it achieve the goals of a cover letter? How professional is the writing? What things does it do badly? How does it make the applicant stand out compare to other generic letters?
+How well does the AI-generated cover letter achieve the goals of a cover letter? How professional is the writing? What things does it do badly? Is it generic or is it unique to the person?

@@ -37,7 +37,7 @@
     */}}
     {{ with $blockData.hasBlocks }}
       <section class="c-block__nested">
-        <h3>🗂️ Options</h3>
+        <h3>🗂️ {{ $blockData.nestedTitle }}</h3>
         {{ range . }}
           {{ range $block := . }}
             {{ $blockDict := dict "block" $block "Page" $.Page "Site" site }}

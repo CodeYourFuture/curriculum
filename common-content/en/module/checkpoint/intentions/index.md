@@ -19,6 +19,5 @@ Below is a list of learning objectives that are not currently taught in ITP, and
 
 | Learning Objective | How we handle it |
 | -------------------|------------------|
-| [Break down a project to work on as a group in parallel](https://github.com/CodeYourFuture/curriculum/issues/1441) | We teach this in a workshop in sprint 1 |
 | [Test a project reasonably thoroughly](https://github.com/CodeYourFuture/curriculum/issues/1616) | We only require one non-trivial test |
-| Anticipate and prevent time-zone and daylight-savings bugs | Time-related project briefings, contain warnings and guidance |
+| Anticipate and prevent time-zone and daylight-savings bugs | Time-related project briefings contain warnings and guidance |

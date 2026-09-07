@@ -11,6 +11,7 @@ objectives = [
 +++
 
 For all projects in the Checkpoint:
+* The project must be written in JavaScript.
 * The project must be in its own repository. That repository must not contain other projects. Do not fork this `CodeYourFuture/Checkpoint` repo - make a new repository for your project.
   * There should not be any dead code or unused code in your repository. All code should be used, all tests should run and pass.
 * For team projects, all members of the team should work in the same repository.

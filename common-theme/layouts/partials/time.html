@@ -24,15 +24,19 @@
   {{- $localBlock = $localBlock.Params.Time -}}
 {{- end -}}
 {{- $time := (int $blockData.time) | default $localBlock | default 60 -}}
-{{- $timeLabel := printf "%d\u00A0minutes" $time -}}
-{{- if and $time (gt $time 100) -}}
-  {{- $hours := int (math.Floor (math.Div $time 60)) -}}
-  {{- $minutes := int (math.Floor (math.Mod $time 60)) -}}
-  {{- $timeLabel = printf "%d\u00A0hours" $hours -}}
-  {{- if ne $minutes 0 -}}
-    {{- $timeLabel = printf "%s\u00A0%d\u00A0minutes" $timeLabel $minutes -}}
+{{/* Ideally we'd just hide 0s, but Go's default/fallback rules mean a missing time is a 0 time we we can't treat it specially.
+     Hide negative times, though. */}}
+{{- if gt $time 0 -}}
+  {{- $timeLabel := printf "%d\u00A0minutes" $time -}}
+  {{- if and $time (gt $time 100) -}}
+    {{- $hours := int (math.Floor (math.Div $time 60)) -}}
+    {{- $minutes := int (math.Floor (math.Mod $time 60)) -}}
+    {{- $timeLabel = printf "%d\u00A0hours" $hours -}}
+    {{- if ne $minutes 0 -}}
+      {{- $timeLabel = printf "%s\u00A0%d\u00A0minutes" $timeLabel $minutes -}}
+    {{- end -}}
   {{- end -}}
+  <!-- prettier-ignore --><time class="c-block__time" tabindex="0" role="timer" aria-label="{{ $time }} minutes countdown" datetime="P{{ $time }}M">{{- $timeLabel -}}&nbsp;⏱</time>
+  {{- $stopwatch := resources.GetMatch "/scripts/stop-watch.js" | resources.Minify -}}
+  <script type="module" defer>import StopWatch from "{{ $stopwatch.RelPermalink }}";</script>
 {{- end -}}
-<!-- prettier-ignore --><time class="c-block__time" tabindex="0" role="timer" aria-label="{{ $time }} minutes countdown" datetime="P{{ $time }}M">{{- $timeLabel -}}&nbsp;⏱</time>
-{{- $stopwatch := resources.GetMatch "/scripts/stop-watch.js" | resources.Minify -}}
-<script type="module" defer>import StopWatch from "{{ $stopwatch.RelPermalink }}";</script>

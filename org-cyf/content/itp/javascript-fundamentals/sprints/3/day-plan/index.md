@@ -1,0 +1,45 @@
++++
+title = 'Day Plan'
+layout = 'day-plan'
+menu_level = ['sprint']
+weight = 3
+[[blocks]]
+name="Morning orientation"
+src="blocks/morning-orientation"
+time=15
+[[blocks]]
+name="Energiser"
+src="energisers/start-thinking-of-your-own"
+[[blocks.nested.blocks]]
+name="Energiser: Telephone!"
+src="energisers/telephone"
+[[blocks]]
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-01/"
+time="90"
+[[blocks]]
+name="Workshop: Interview Introductions"
+src="workshops/interview-introductions/"
+time="55"
+[[blocks]]
+name="lunch"
+src="blocks/lunch"
+[[blocks]]
+name="Workshop: ITP AI Guidelines"
+src="workshops/itp-ai-guidelines"
+time=35
+[[blocks]]
+name="Blockers! Getting Unstuck"
+src="module/onboarding/blockers"
+time=45
+[[blocks]]
+name="Study Group"
+src="blocks/study-group"
+time=80
+[[blocks]]
+name="Wrap"
+src="module/onboarding/wrap"
+[[blocks]]
+name="Socialise"
+src="blocks/socialise"
++++

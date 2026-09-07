@@ -25,7 +25,7 @@ _ You can see that `Applicant 1` has submitted work for Step 0 but it hasn't yet
 ### How to view submissions
 
 - Click on the **name** of one of the applicants. You will see a menu appear like this one:<br/>
-  ![review options](reviewOptions.png).
+  ![review options](reviewOptions.png)
 - If you click on **Steps** you will see what the applicant has submitted for the ITD steps. The example below shows the applicant has submitted work for three steps and you are looking at their submission link for STEP 1:
   ![reviewing steps](reviewSteps.png)
   Clicking the **Submitted** link will allow you to see their submitted work.

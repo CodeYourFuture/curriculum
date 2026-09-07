@@ -1,7 +1,7 @@
 +++
 title = 'Working locally'
 
-time ="20"
+time = 20
 [objectives]
     1='Clone a remote repository from GitHub into a local folder'
     2="Define the terms 'remote' and 'local' in the context of GitHub"
@@ -12,27 +12,30 @@ time ="20"
 
 +++
 
-GitHub is an really useful tool for aiding collaboration, but when it comes to writing and updating the code for a project, we tend to want the flexibility that comes with working on our {{<tooltip title="local machines">}}A **machine** in this context is any computer, and your **local machine** is the computer (laptop or desktop) on which you do your work.{{</tooltip>}}. So we need to address the following question:
+Before we can work on it we need to get a **local copy** of the education blog repo. A repository on GitHub is said to be **remote** and a repository on our own computer is said to be **local**.
+
+We call a local copy of a GitHub repository a **clone**. The process of copying a remote repository on to a local machine is called **cloning**.
+
+GitHub is an really useful tool for aiding collaboration, but when it comes to writing and updating the code for a project we tend to want the flexibility that comes with working on our computer. So we need to address the following question:
 
 > How can we get a copy of an existing GitHub repository on our local machine?
 
-In other words, we need to get a {{<tooltip title="local copy">}}A repository on GitHub is said to be **remote**. A repository on our own computer is said to be **local**.{{</tooltip>}} of the repository which is on GitHub.
+In other words, we need to get a **local copy** of the repository which is on GitHub.
 
-We call a local copy of a GitHub repository a **clone**. The process of copying a remote repository on to a local machine is called **cloning**. Watch the video below to see instructions on one of the ways you can clone a repo: using the Visual Studio Code interface.
+Watch the video below to see instructions on one of the ways you can clone a repo: using the Visual Studio Code interface.
 
 {{<youtube>}}https://www.youtube.com/watch?v=ILJ4dfOL7zs{{</youtube>}}
 
-{{<note type="exercise" title="Exercise">}}
-
-##### 🐑 Clone a Repo
+{{<note type="exercise" title="Exercise: Clone a repo">}}
 
 Follow the steps in the above video to make a local copy of the education blog repo that you forked in the previous step.
 
-##### Reminders:
+#### Reminders:
 
+- The "Clone Repository" button won't be visible if you are already working in another repository. If you are already working in a repo you can close it by selecting `File --> Close Folder`
 - Use the URL for **your fork** of the `education-blog` repo when you are cloning, not the URL for the original CYF repo
 - When selecting the location to clone your files, choose the `CYF` folder you created in an earlier task
-- If you are working on a library computer, you won't be able to clone the repo so come to class to try cloning out. In the meantime, you can explore the files using dot dev in the same way as you would in Visual Studio Code
+
 
 {{</note>}}
 
@@ -61,4 +64,4 @@ flowchart TD
     linkStyle 0,1 stroke:#0d6efd,stroke-width:2px
 ```
 
-Sketch this diagram in your notebook. When you inevitably get mixed up or lost about where your changes are, you can refer back to this diagram to help you understand what's happening.
+Sketch this diagram in your notebook. If you get confused about where your changes are you can refer back to this diagram to help you understand what's happening.

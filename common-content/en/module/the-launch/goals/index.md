@@ -17,4 +17,5 @@ The goals of Demo Day are:
 
 1. **Celebrate your achievements**: You've worked hard over the module, and this is a chance to show off what you've learned and built.
 1. **Explain your work to others**: You need to be able to discuss your work fluently. This project will be the key part of your portfolio, so you need to be able to talk about it confidently in interviews.
+1. **Make people want to hire you**: There will be potential hiring managers watching your demo. Ideally at the end of your demo, they will want to talk to you and hire you.
 1. **Get feedback**: You'll get feedback from your peers, mentors and other guests. This feedback will help you improve your project and your presentation skills for the real challenge: job interviews.

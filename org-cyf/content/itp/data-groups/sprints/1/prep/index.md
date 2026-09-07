@@ -43,6 +43,15 @@ src="module/js2/side-effects"
 name="Implementing all the cases"
 src="module/js2/more-median-cases"
 [[blocks]]
+name="Throwing errors"
+src="module/js2/throwing-errors"
+[[blocks]]
+name="try/catch"
+src="module/js2/try-catch"
+[[blocks]]
+name="Throw or return?"
+src="module/js2/throw-or-return"
+[[blocks]]
 name="Solving problems with arrays 📼"
 src="module/js2/arrays-workshop"
 [[blocks]]

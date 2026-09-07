@@ -17,6 +17,8 @@ If something goes completely wrong (e.g. internet connections drop), try to reco
 
 Try to leave the interviewee feeling positive (that they could complete some tasks), but do not mislead them about outcomes. Do not share the outcome of their interview with them in the interview.
 
+Try to come to a clear yes/no conclusion, but it's ok if you can't - someone else can re-watch the interview and give a second opinion (or if needs be, we can even do a follow-up interview).
+
 After all of the interviews are completed, we gather (ideally on the same day) to make final decisions as a group.
 
 We record all interviews, so that we can get second opinions if needed. We make sure we're calibrated such that everyone would give the same pass/fail decision.

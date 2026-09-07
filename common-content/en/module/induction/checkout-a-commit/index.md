@@ -1,7 +1,7 @@
 +++
 title = 'Inspecting a commit'
 
-time ="15"
+time = 15
 [objectives]
     1='Given a remote repository on GitHub, identify the files and folders from any commit in a version timeline'
 [build]
@@ -16,7 +16,7 @@ Recall that a commit is a snapshot of our project at some point in time.
 Therefore, we should be able to check out a previous version of our project and look at the files and folders there.
 We can use the Github interface to check out the files and folders at a previous commit.
 
-{{<note type="exercise">}}
+{{<note type="exercise" title="Exercise - Explore a Commit">}}
 
 Go back to this page https://github.com/CodeYourFuture/education-blog/commits/main
 

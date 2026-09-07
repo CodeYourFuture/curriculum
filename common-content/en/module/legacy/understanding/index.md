@@ -20,6 +20,12 @@ Legacy code isn't necessarily bad or even that old. It's code that:
 1. **Powers important systems** - It can't simply be deleted or replaced.
 1. **Contains institutional knowledge** - Sometime undocumented! Decisions were often made for good reasons which we may not remember any more, and changing those decisions may be risky.
 
+In this module, you'll be working with an application called [Purple Forest](https://github.com/CodeYourFuture/Module-Legacy-Code) - an basic application much like Twitter or BlueSky.
+
+{{<note type="exercise">}}
+Clone Purple Forest onto your computer now.
+{{</note>}}
+
 The Purple Forest application is now your legacy code. Someone else designed and built it, and you need to maintain and extend it.
 
 ## Working with Purple Forest
@@ -28,6 +34,7 @@ Purple Forest has:
 
 - **Established architecture** - It follows defined patterns
 - **Functional system** - It mostly works, even if you don't understand how
+- **Bugs** - Not _everything_ works!
 - **Multiple components** - Changes might have unexpected side effects
 - **Documented design** - But the documentation might be incomplete or out of date
 
