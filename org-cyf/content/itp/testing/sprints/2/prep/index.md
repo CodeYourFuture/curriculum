@@ -15,4 +15,7 @@ name="Testing libraries"
 [[blocks]]
 src="module/js1/jest/cases"
 name="First Jest test case"
+[[blocks]]
+src="module/js1/testing/tdd-intro"
+name="TDD"
 +++
