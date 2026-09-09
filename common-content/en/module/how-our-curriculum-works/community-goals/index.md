@@ -18,7 +18,7 @@ To achieve our mission, we bring people together to build self-empowered communi
 
 ### We build communities that can **🕐 self-coordinate**
 
-**Self-coordinate** means the ability to make things happen with the people we have. Code Your Future isn't a large company with lots of staff. (1-2 technical people on staff, worldwide.) We're a community of motivated people who want to help each other. We can't expect someone else will do everything - we need to make sure we get it done ourselves.
+**Self-coordinate** means the ability to make things happen with the people we have. Code Your Future isn't a large company with lots of staff (5-6 technical people on staff, worldwide). We're a community of motivated people who want to help each other. We can't expect someone else will do everything - we need to make sure we get it done ourselves.
 
 We use the collective intelligence we have built up over the years to coordinate our courses. This means many problems _have_ been solved by others and many logistical "rules of the road" have been discovered collectively. We all use tools like [classplanner](https://classplanner.codeyourfuture.io/), [dashboard](https://dashboard.codeyourfuture.io/), Slack, [GitHub](https://github.com/CodeYourFuture/Table-of-Contents), and most importantly the curriculum plan to coordinate courses and help new people join our community. But on the ground, there are always unique learning journeys that need supporting, arising from the unique mix of people in each class.
 
