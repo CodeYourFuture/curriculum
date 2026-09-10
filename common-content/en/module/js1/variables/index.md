@@ -116,3 +116,29 @@ Now it works!
 The first line of this block is the variable **declaration**, the second line is a **statement**. Note that we don't need to use `let` again when reassigning the variable.
 
 Knowing that something won't change can make it easier to write and reason about a program. We try to declare them with `const` wherever we can. But if a variable is going to need to change, we need to use `let` to declare it.
+
+### Putting it into practice
+
+You can use an LLM such as Claude or ChatGPT as an interactive tutor. For example, copy this prompt:
+
+```text
+I am a {{<our-name>}} trainee learning JavaScript variables. Quiz me one question at a time about
+const, let, declarations, reassignment, literals, and template literals. Use this example:
+
+const name = "Alicia";
+let greeting = "Hello";
+console.log(`${greeting}, ${name}`);
+
+Ask me to predict what the code prints and explain each concept. Give me hints before
+revealing any answers.
+```
+
+#### Sample discussion
+
+> **LLM:** What will the example print?
+>
+> **Learner:** `Hello, Alicia`.
+>
+> **LLM:** Correct. Why is `name` declared with `const`, while `greeting` uses `let`?
+>
+> **Learner:** `name` will not change, but `greeting` can be reassigned later.
