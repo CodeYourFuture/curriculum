@@ -15,15 +15,15 @@ name="Starting a project"
 [[blocks]]
 src="module/js1/packages"
 name="Using packages"
-[[blocks]]
-src="module/js1/installing"
-name="Installing Jest"
-[[blocks]]
-src="module/js1/api"
-name="Jest's API"
-[[blocks]]
-src="module/js1/cases"
-name="First test case"
+# [[blocks]]
+# src="module/js1/installing"
+# name="Installing Jest"
+# [[blocks]]
+# src="module/js1/api"
+# name="Jest's API"
+# [[blocks]]
+# src="module/js1/cases"
+# name="First test case"
 [[blocks]]
 src="module/js1/feedback"
 name="Interpreting feedback"
