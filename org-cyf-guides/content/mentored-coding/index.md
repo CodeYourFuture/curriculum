@@ -45,7 +45,7 @@ A **trainee** that wants to do mentored coding should:
 
 A **volunteer** that wants to be a coding mentor should:
 
-- Create a bookable calendar for 30 minute appointments, something like [Google Calendar](https://support.google.com/calendar/answer/10729749?hl=en) or [Calendly](https://calendly.com/integration#calendars) works well
+- Create a bookable calendar for 45-60 minute appointments, something like [Google Calendar](https://support.google.com/calendar/answer/10729749?hl=en) or [Calendly](https://calendly.com/integration#calendars) works well
 - Share your calendar in the `#cyf-mentored-coding` slack channel and canvas page (link at the top of the channel)
 - For your first mentored coding sessions, ask another mentor to shadow you to get feedback on your approach
 
