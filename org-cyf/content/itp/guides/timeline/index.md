@@ -6,7 +6,7 @@ time = 30
 
 ## Timeline of ITP, staying on track:
 
-The course starts on the 1st of the month but there may be 7 days until the first Saturday, so we have written this to follow that timeline. 
+The course starts on the 1st of the month but there may be 7 days until the first Saturday, so we have written this to follow that timeline.
 
 There are 12 learning weeks in the curriculum, which you will schedule over a maximum of 16 weeks. This padding will help you account for things like Christmas, or Eid and other movable feasts. The course allows for variance in ability and previous experience. Most people should complete this course in 12 weeks of classes. Some will go faster (and this is encouraged). A few people will have adverse life events and need a couple of weeks to catch up. Once a learner is a full module behind, it's not realistic for them to catch up.
 
@@ -14,7 +14,7 @@ So that's your rule of thumb for staying on track. What does this look like in p
 
 ## 🫶🏽 Day 1 Week 1
 
-Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack. You have scheduled your learning weeks in your [classplanner](https://classplanner.codeyourfuture.io/) and your volunteer team has signed up on the schedule so everybody knows the rota.  
+Week 1: you have logged in to the dashboard to see your list of learners and welcomed them by name in Slack. You have scheduled your learning weeks in your [classplanner](https://classplanner.codeyourfuture.io/) and your volunteer team has signed up on the schedule so everybody knows the rota.
 
 ## 🤝 Module 1: [Weeks 2, 3, 4](/itp/javascript-fundamentals)
 
@@ -35,13 +35,13 @@ Week 1: you have logged in to the dashboard to see your list of learners and wel
 ## 🐣 Module 3: [Weeks 8, 9, 10](/itp/data-groups)
 
 🐣 Week 8: Most people have begun [Data Groups](/itp/data-groups)  
-🐣 Week 9: Every trainee has benefited from at least 5 pair programming sessions  
+🐣 Week 9: Every trainee has benefited from at least 5 mentored coding sessions  
 🐣 Week 10: Every trainee has engaged in at least 8 code reviews
 
 ## 🐥 Final Module: [Weeks 11, 12, 13](/itp/data-flows)
 
 🐥 Week 11: Everybody has begun [Data Flows](/itp/data-flows).  
-🐥 Week 12: Most trainees are completing their TV Show Projects - encourage demos! 
+🐥 Week 12: Most trainees are completing their TV Show Projects - encourage demos!
 🐥 Week 13: Most trainees are submitting their final step.
 
 ## 🎁 Wrapping up: Weeks 14, 15, 16
