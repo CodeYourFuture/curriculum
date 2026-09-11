@@ -20,9 +20,6 @@ src="module/business-analysis/use-case-prep"
 name="Specification"
 src="module/business-analysis/specification"
 [[blocks]]
-name="Acceptance criteria"
-src="module/business-analysis/acceptance-criteria"
-[[blocks]]
 name="Presentation"
 src="module/business-analysis/presentation"
 +++
