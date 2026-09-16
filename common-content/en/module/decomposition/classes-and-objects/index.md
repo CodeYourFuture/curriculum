@@ -83,7 +83,7 @@ The method called `__init__` is called a constructor - it is what is called when
   question="What of the following best describes an 'instance' of a class?"
   answers="The variables that are accessed using self, like `self.name` | A class with attributes set to values passed into the constructor | The __init__ function that takes some values as arguments | A description of what a class contains"
   feedback=" No, these are called class attributes | Yes, an instance is one specific copy of a class | __init__ is the constructor of a class in python | No, a class already is a description of what it contains. An instance is more specific."
-  correct="2" >}}
+  correct="1" >}}
 
 
 You can use the names of classes in type annotations just like you can use types like `str` or `int`:
