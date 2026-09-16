@@ -27,7 +27,7 @@ Equality is one: ideally two value objects are the same if their fields are the 
 class Person:
     def __init__(self, name: str, age: int, preferred_operating_system: str):
         self.name = name
-        self.age = age 
+        self.age = age
         self.preferred_operating_system = preferred_operating_system
 
 imran = Person("Imran", 22, "Ubuntu")
@@ -54,16 +54,17 @@ Python has a useful {{<tooltip text="decorator" title="Decorator">}}A decorator 
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class Person:
+class Animal:
     name: str
+    species: str
     age: int
-    preferred_operating_system: str
+    noise: str
 
-imran = Person("Imran", 22, "Ubuntu")  # We can call this constructor - @dataclass generated it for us.
-print(imran)  # Prints Person(name='Imran', age=22, preferred_operating_system='Ubuntu')
+indigo = Animal("indigo", "cat", 2, "meow")  # We can call this constructor - @dataclass generated it for us.
+print(indigo)  # Prints Animal(name='Indigo', species='cat', age=2, noise='meow')
 
-imran2 = Person("Imran", 22, "Ubuntu")
-print(imran == imran2)  # Prints True
+indigo2 = Animal("indigo", "cat", 2, "meow")
+print(indigo == indigo2)  # Prints True
 ```
 
 The `dataclass` decorator generated a constructor, a `__str__` method (which is called when string formatting the value), and a custom `__eq__` method (which is called when comparing two values). This saves us having to write all of that code.
@@ -71,7 +72,9 @@ The `dataclass` decorator generated a constructor, a `__str__` method (which is 
 Other languages have a similar idea of a value type, and tools to help make them, such as [Java's record classes](https://docs.oracle.com/en/java/javase/17/language/records.html) and [C#'s' structure types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct).
 
 {{<note type="exercise">}}
-Write a `Person` class using `@datatype` which uses a `datetime.date` for date of birth, rather than an `int` for age.
+Convert your existing `Person` class into a value type using `@datatype` so you can print the class (and see it's type and fields) and compare class instances that are identical. Make sure your `is_adult` method and `drivers_license_check` free function both work as normal.
 
-Re-add the `is_adult` method to it.
+Make a new method on your Person class - `greet` which should return `"Hello <person name>!"` when used.
+
+Take a look at the [`@datatype` documentation](https://docs.python.org/3/library/dataclasses.html) - what does `frozen=True` do to the class? What other options could you play around with and explore?
 {{</note>}}
