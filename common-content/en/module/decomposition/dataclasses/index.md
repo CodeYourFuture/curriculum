@@ -72,6 +72,11 @@ The `dataclass` decorator generated a constructor, a `__str__` method (which is 
 Other languages have a similar idea of a value type, and tools to help make them, such as [Java's record classes](https://docs.oracle.com/en/java/javase/17/language/records.html) and [C#'s' structure types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct).
 
 {{<note type="exercise">}}
+
+**Task 9**
+
+Work in file `09-implement.py` for this task.
+
 Convert your existing `Person` class into a value type using `@datatype` so you can print the class (and see it's type and fields) and compare class instances that are identical. Make sure your `is_adult` method and `drivers_license_check` free function both work as normal.
 
 Make a new method on your Person class - `greet` which should return `"Hello <person name>!"` when used.
