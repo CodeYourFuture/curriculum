@@ -18,4 +18,7 @@ name="First Jest test case"
 [[blocks]]
 src="module/js1/testing/tdd-intro"
 name="TDD"
+[[blocks]]
+src="module/js1/testing/fizzbuzz"
+name="TDD in practice"
 +++
