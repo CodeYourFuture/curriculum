@@ -9,4 +9,7 @@ src="module/js1/dead-code"
 [[blocks]]
 name="Git in the terminal"
 src="module/git-cli/initialisation"
+[[blocks]]
+name="Adding and committing"
+src="module/git-cli/adding-committing"
 +++
