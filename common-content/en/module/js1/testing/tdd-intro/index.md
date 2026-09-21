@@ -38,7 +38,16 @@ An important aspect of TDD is the need to verify that our code is what's making 
 
 Watching the tests fail first is part of the **red-green-refactor** cycle:
 
-![red green refactor cycle](red-green-refactor.png)
+```mermaid
+graph
+    red[Write a failing test] --> green[Write code to pass the test];
+    green --> Refactor;
+    Refactor --> red;
+
+    style red fill:#FFC9C9
+    style green fill:#B3F2BB
+    style Refactor fill:#A5D8FE
+```
 
 - Write a test
 - Run the test file and watch the test fail

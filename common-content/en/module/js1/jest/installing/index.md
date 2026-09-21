@@ -19,7 +19,7 @@ In this section we will look at how we can test our code using a **testing frame
 
 Before we can start using Jest we need a fresh directory to work in.
 
-- Create a new directory called `testing-with-jest`. Make you are **outside** the `packages-practice` directory.
+- Create a new directory called `testing-with-jest`. Make sure you are **outside** the `packages-practice` directory.
 - Copy the `timeConverter.js` file from the last sprint into this directory.
 - Create a new file called `timeConverter.test.js`
 - Import `formatAs12HourClock()` into the test file
@@ -30,6 +30,10 @@ We're going to install Jest using npm. First we need to use `npm init -y` to cre
 npm init -y
 npm install --save-dev jest
 ```
+
+> [!WARNING]
+>
+> Make sure to also set the `type` key to the value `"module"` - we always want to do this when making a new package.
 
 This time we have included the `--save-dev` flag with the install command. Let's see what that changed in `package.json`:
 
@@ -46,6 +50,6 @@ This time we have a `devDependencies` key instead of `dependencies`. There won't
 
 ### Version numbers
 
-Every dependency we install has an associated version number. In this example we have installed version `30.5.0` of Jest. If a new version of a package is released these digits will change and npmjs has an[article explaining what each digit represents](https://docs.npmjs.com/about-semantic-versioning). It's important to keep a record of which version of a package we have used in development.
+Every dependency we install has an associated version number. In this example we have installed version `30.5.0` of Jest. If a new version of a package is released these digits will change and npmjs has an [article explaining what each digit represents](https://docs.npmjs.com/about-semantic-versioning). It's important to keep a record of which version of a package we have used in development.
 
 That applies to our packages' dependencies too, which is where the `package-lock.json` file comes in. This keeps track of the version numbers of _every_ dependency in our tree so we can exactly recreate the structure of our program later, even if something in the middle of the tree receives an update.

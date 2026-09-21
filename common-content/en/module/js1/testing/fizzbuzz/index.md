@@ -42,7 +42,16 @@ As a general rule we don't want to add any more to our projects than we need to.
 
 Before writing any test in this exercise, think back to the diagram in the previous section:
 
-![red-green-refactor cycle](red-green-refactor.png)
+```mermaid
+graph
+    red[Write a failing test] --> green[Write code to pass the test];
+    green --> Refactor;
+    Refactor --> red;
+
+    style red fill:#FFC9C9
+    style green fill:#B3F2BB
+    style Refactor fill:#A5D8FE
+```
 
 When we write our first test we should **watch it fail** before starting to work on the function. Let's start with the first case in our specification: division by 3.
 
@@ -109,33 +118,11 @@ function fizzbuzz(){
 export {fizzbuzz};
 ```
 
-Our test passes, and it's time to write some more. 
+Our test passes, so let's move on to the next requirement.
 
 {{<note type="tip" title="Using Git with TDD">}}
-We have a test and it's passing, so now would be an _excellent_ time to make a commit! Our commits should represent stable points we can roll back to if necessary, so committing when all our tests pass means that our code was working at that point in time. If we make a change and something goes wrong we know that everything will be fine if we revert to this commit.  
+We have a test and it's passing, so now would be an _excellent_ time to make a commit! Our commits should represent stable points we can roll back to if necessary, so committing when all our current tests pass means that our code was working at that point in time. If we make a change and something goes wrong we know that everything will be fine if we revert to this commit.  
 {{</note>}}
-
-Only testing a behaviour for one possible input is quite risky so we'll write some more tests for division by three.
-
-```js {title="fizzbuzz.test.js"}
-describe('division by 3', () => { 
-
-    test('3 returns fizz', () => {
-        assert.equal(fizzbuzz(3), "fizz");
-    });
-
-    test('6 returns fizz', () => {
-      assert.equal(fizzbuzz(6), "fizz");
-    });
-
-    test('99 returns fizz', () => {
-      assert.equal(fizzbuzz(99), "fizz");
-    });
-
-});
-```
-
-Three tests, three passes! Time to check out those other behaviours.
 
 ### Testing the next requirement
 
@@ -177,9 +164,19 @@ function fizzbuzz(number){
 
 Note that we still run all of our tests. We need to be sure we haven't introduced a bug anywhere else when making changes.
 
-It's time to write more tests for division by 5:
+We know this implementation isn't correct, though. The test cases we've written are examples, but they're only testing one example. As we saw in this implementation, we can just hard-code results for individual values, but this isn't a _general_ solution!
+
+So let's write tests for a few more examples, to make sure we're not hard-coding answers:
 
 ```js {title="fizzbuzz.test.js"}
+describe('division by 3', () => { 
+
+    test('3 returns fizz', () => {
+        assert.equal(fizzbuzz(3), "fizz");
+    });
+
+});
+
 describe('division by 5', () => { 
 
     test('5 returns buzz', () => {
@@ -199,7 +196,7 @@ describe('division by 5', () => {
 
 We have failing tests again, with the same assertion error as before.
 
-This time our fix is a bit more complicated than it was when we added more tests for division by three. We _could_ add `else-if` clauses for each additional number we test but that wouldn't scale well at all. Instead we need to make our check more generic to account for _any_ number which is divisible by five.
+We _could_ add `else-if` clauses for each additional number we test but that wouldn't scale well at all. Instead we need to make our check more general to account for _any_ number which is divisible by five.
 
 {{<note type="exercise" title="Exercise: Make the check generic">}}
 Research how to check if one number is divisible by another and update the `if` statement to return `"buzz"` for any value divisible by five.
@@ -208,7 +205,7 @@ Research how to check if one number is divisible by another and update the `if` 
 <summary>Solution:</summary>
 
 ```js {title="fizzbuzz.js"}
-function fizzbuzz(number){
+function fizzbuzz(number) {
   if (number % 5 === 0){
     return "buzz";
   }
@@ -218,13 +215,6 @@ function fizzbuzz(number){
 
 </details>
 {{</note>}}
-
-
-### Refactoring to meet requirements
-
-Refactoring is an important part of the development lifecycle. Solving a problem is one thing, but solving it _well_ often needs us to make changes for efficiency. We need to consider our future selves too - we need to be able to understand what we wrote!
-
-Often we will be forced into a refactor by the discovery of a bug. These could be fairly small changes but they could also be pretty big. By following TDD we aim to catch as many of these while still in development and get most of our refactoring done as early as possible.
 
 {{<note type="exercise" title="Exercise: Testing the next requirement">}}
 Create another `describe` block and write tests for the `"fizzbuzz"` output. Use `15`, `30` and `90` as the inputs.
@@ -343,7 +333,9 @@ function fizzbuzz(number){
 
 ### Refactoring for quality
 
-Remember what we said earlier: refactoring is an important step in writing good-quality code. At the moment we have a solution which works, but could it be better? 
+Refactoring is an important part of the development lifecycle. Solving a problem is one thing, but solving it _well_ often needs us to make changes for efficiency. We need to consider our future selves too - we need to be able to understand what we wrote!
+
+At the moment we have a solution which works, but could it be better? 
 
 We can start by looking at the conditions we are checking. The first clause may be technically correct, but our specification didn't say anything about checking for division by 15. Instead it spoke about division by 3 **and** by 5. Mathematically speaking it may be the same thing, but we can certainly make it clearer that this clause relates to that requirement.
 
@@ -360,24 +352,7 @@ function fizzbuzz(number){
 };
 ```
 
-We can do something about the length of the function too. 
-
-{{<note type="exercise" title="Exercise: Guard clauses">}}
-[Guard clauses](https://blog.webdevsimplified.com/2020-01/guard-clauses/) are a useful tool to avoid overly-complex conditional statements. Read the linked article and use guard clauses to condense the logic in the function to four lines.
-
-<details>
-<summary>Solution:</summary>
-
-```js {title="fizzbuzz.js"}
-function fizzbuzz(number){
-  if (number % 3 === 0 && number % 5 === 0) return "fizzbuzz";
-  if (number % 5 === 0) return "buzz";
-  if (number % 3 === 0) return "fizz";
-  return number.toString();
-};
-```
-</details>
-{{</note>}}
+We should look for refactorings every time all of our tests are passing. The first couple of tests we wrote didn't have any refactorings, because the code was so simple, but we still want to look out for opportunities to make our code better whenever it works.
 
 ### Summary
 

@@ -3,7 +3,7 @@ title = 'Testing with Jest'
 
 time = 40
 [objectives]
-    1='Define test cases using Jest'
+    1='Write test cases using Jest'
 [build]
   render = 'never'
   list = 'local'
@@ -38,7 +38,7 @@ Inside the function we are going to use two more functions from Jest:
 ```js {title="timeConverter.test.js"}
 import {formatAs12HourClock} from "./timeConverter";
 
-test("correctly convert time after 12:00", function(){
+test("correctly convert time after 12:00", () => {
   expect(formatAs12HourClock("23:00")).toEqual("11:00 pm");
 });
 ```
@@ -64,15 +64,15 @@ Take a look at `package.json` and you'll see a `scripts` property with a nested 
 }
 ```
 
-Try running it by typing `npm test` in the terminal and see what happens:
+Try running it by typing `npm run test` in the terminal and see what happens:
 
 ```console
-npm test
+npm run test
 
 Error: no test specified
 ```
 
-This is a useful default, but now that we have a test we don't want to see an error message when we try to run it. Replace the string associated with `test` with the one shown below:
+This is telling us that we haven't told `npm` _how_ to run our tests. There may be different ways (e.g. if we were using `node:test` we should run `node timeConverter.test.js`). We need to tell `npm` how it should run our tests. Replace the string associated with `test` with the one shown below:
 
 ```json {title="package.json"}
 {
@@ -82,9 +82,7 @@ This is a useful default, but now that we have a test we don't want to see an er
 }
 ```
 
-Remember to also update the `type` value to `"module"`.
-
-Now try running `npm test` again. This time the test should run successfully and log the results to the terminal. You should see the string you passed to `test()` copied there with a check mark beside it to indicate that the test passed. Success!
+Now try running `npm run test` again. This time the test should run successfully and log the results to the terminal. You should see the string you passed to `test()` copied there with a check mark beside it to indicate that the test passed. Success!
 
 {{<note type="exercise" title="Exercise: More than just equality">}}
 The `toEqual()` function is an example of a **matcher**. Using the [Jest documentation](https://jestjs.io/docs/using-matchers) read about some other matchers which are available and identify which one would be most appropriate to use in each of these tests:

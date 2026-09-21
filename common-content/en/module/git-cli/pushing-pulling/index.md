@@ -27,7 +27,7 @@ We only have one of each at the moment so our command will be pretty straight-fo
 git push origin main
 ```
 
-This will take every commit on `mian` which has not yet been pushed and upload it to the url specified as `origin`. In our case this will be GitHub and if we check the repository now we will see our files there, just like when we used VSCode.
+This will take every commit on `main` which has not yet been pushed and upload it to the url specified as `origin`. In our case this will be GitHub and if we check the repository now we will see our files there, just like when we used VSCode.
 
 {{<note type="exercise" title="Exercise: Practice the workflow again">}}
 1. Create a file called `facts.txt`
@@ -49,6 +49,8 @@ We can set a default by using the `-u` flag when we push.
 git push -u origin main
 ```
 
+After doing this we can just run `git push` without naming a remote or branch.
+
 ### Pulling
 
 The commands to pull are similar but use the `pull` keyword instead of `push`.
@@ -57,4 +59,4 @@ The commands to pull are similar but use the `pull` keyword instead of `push`.
 git pull origin main
 ```
 
-It is possible to pull one branch from GitHub onto another locally, eg. pull the remote `main` onto the local `my-feature-branch`. This can lead to conflicts though and is best avoided in favour of managing branches properly.
+It is possible to pull one branch from GitHub onto another locally, eg. pull the remote `main` onto the local `my-feature-branch`. This can lead to conflicts though and is best avoided in favour of keeping each local+remote branch pair in sync.

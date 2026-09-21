@@ -4,9 +4,6 @@ layout = 'prep'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Playing computer"
-src="module/js1/playing-computer"
-[[blocks]]
 src="module/js1/testing/testing-intro"
 name="Intro to testing"
 [[blocks]]

@@ -23,8 +23,8 @@ Write another test to check that `"08:00"` will be correctly converted to `"08:0
 <summary>Solution:</summary>
 
 ```js {title="timeConverter.test.js"}
-test("can correctly convert morning time", function(){
-    assert.equal(formatAs12HourClock("08:00"),"08:00 am");
+test("can correctly convert morning time", function() {
+    assert.equal(formatAs12HourClock("08:00"), "08:00 am");
 });
 ```
 
@@ -49,12 +49,14 @@ The next section tells us exactly what has caused our test to fail.
 
 This is an example of an **assertion error**. Our function is returning a value, but not the one that it should be. Recall from the last section that our _actual_ value is what is returned to us by the function and in this example it's `"8 am"`. The _expected_ value was `"08:00 am"`. Our function is returning the wrong thing.
 
+This is good! Our test is telling us that our implementation is wrong. This is useful - it tells us we need to fix our implementation!
+
 ### Fixing the bug
 
 It can be surprisingly hard to identify the root cause of an assertion error. It could be the case that there is a flaw in our logic, for example a condition in an `if`-statement is not defined correctly, but it could just as easily be a typo. We should start by examining the two values and seeing if there are any obvious errors to fix.
 
 {{<note type="tip" title="Debugging tools">}}
-Your backlog tasks this week include an exercise using VSCode's built-in debugging tools (TODO: link to the ticket after it's been moved). These are very useful in situations like this where we need to observe how values change as we progress through a program.
+Your backlog tasks this week include an exercise using VSCode's built-in debugging tools. These are very useful in situations like this where we need to observe how values change as we progress through a program.
 {{</note>}}
 
 - **The numbers match**, which indicates that we aren't accidentally subtracting 12 from the value.
@@ -85,8 +87,10 @@ This is where the debugging tools would be particularly useful. Without them we 
 Think back to your research on `Number()` earlier in the sprint. What did you find out about it? Can you find anything in the documentation that would explain why lose the first digit in this case, but it worked in the first test?
 
 <details>
-    <summary>Solution:</summary>
-    The `Number()` converts a string into a number, but this isn't always straight-forward. When we call the `.slice()` function we extract the first two characters of the string representing the time. For `"23:00"` this was `"23"` and everything was fine, but for `"08:00"` it is `"08"`. We don't usually write numbers with a leading 0, so what should `Number()` do with it here? It simply ignores it, returning the value `8` that we are more familiar with. 
+  <summary>Solution:</summary>
+
+  The `Number()` converts a string into a number, but this isn't always straight-forward. When we call the `.slice()` function we extract the first two characters of the string representing the time. For `"23:00"` this was `"23"` and everything was fine, but for `"08:00"` it is `"08"`. We don't usually write numbers with a leading 0, so what should `Number()` do with it here? It simply ignores it, returning the value `8` that we are more familiar with.
+
 </details>
 {{</note>}}
 

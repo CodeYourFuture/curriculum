@@ -13,7 +13,7 @@ time = 20
 
 +++
 
-By now you have had lots of experience creating branches and raising pull requests on GitHub. When it comes to merging work we won't make any fundamental changes: we will still use Github to manage PRs and to complete any merges when working on group projects. Pull requests are a feature of GitHub specifically rather than Git so we can't recreate them exactly using the terminal, but in this section we'll look at how we can create and merge branches.
+By now you have had lots of experience creating branches and raising pull requests on GitHub. When it comes to merging work we won't make any fundamental changes: we will still use GitHub to manage PRs and to complete any merges when working on group projects. Pull requests are a feature of GitHub specifically rather than Git so we can't recreate them exactly using the terminal, but in this section we'll look at how we can create and merge branches.
 
 ### Creating a branch
 
@@ -47,7 +47,7 @@ Checking `git branch` will confirm the change.
 * update-blog-2
 ```
 
-If we know we're going to switch immediately we can do both steps at once by adding the `-c` flag to the switch command and providing the name of the branch.
+If we know we're going to switch immediately we can do both steps at once by adding the `-c` flag (for "create") to the switch command and providing the name of the branch.
 
 ```sh
 git switch -c update-blog-2
@@ -59,9 +59,9 @@ Add some more unblocking tips to the list and commit your changes.
 
 ### Merging
 
-With the tools we have had at our disposal so far, at this point we would publish our branch to Github and raise a pull request. Once everything was reviewed and merged we would pull the updated version of `main` and continue. To be clear, **this is still the recommended way of working!**
+With the tools we have had at our disposal so far, at this point we would publish our branch to GitHub and raise a pull request. Once everything was reviewed and merged we would pull the updated version of `main` and continue. To be clear, **this is still the recommended way of working!**
 
-It's not the only way of working though. We can use `git merge` to complete the merge locally and bypass Github. This has its drawbacks though, in particular the fact it is only possible to get your changes reviewed if your colleague is in the room with you. 
+It's not the only way of working though. We can use `git merge` to complete the merge locally and bypass GitHub. This has its drawbacks though, in particular the fact it is only possible to get your changes reviewed if your colleague is in the room with you. 
 
 We need to think carefully about how we manage the merge. We don't want to end up with any broken code on our `main` branch, so if there are any issues it's better to sort them out before they get there. How will we know there are going to be issues?
 
@@ -108,7 +108,7 @@ And now our changes are visible in VSCode while we're on `main`.
 
 When working on longer projects we will likely end up with a _lot_ of branches. This can get very confusing very quickly so we're going to practice good Git hygiene by deleting branches we no longer need.
 
-We're going to use the `git branch` command again but this time we're going to add a flag. By including `-d` before a branch name we will delete the branch locally, but **not** on Github. Likewise if we delete a branch on Github the local version will remain. Let's delete `update-blog-2` since we're done updating our list for now.
+We're going to use the `git branch` command again but this time we're going to add a flag. By including `-d` before a branch name we will delete the branch locally, but **not** on GithHub. Likewise if we delete a branch on GitHub the local version will remain. Let's delete `update-blog-2` since we're done updating our list for now.
 
 ```sh {title="education-blog"}
 git branch -d update-blog-2

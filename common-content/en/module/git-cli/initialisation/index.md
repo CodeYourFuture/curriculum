@@ -13,7 +13,7 @@ time = 10
 
 So far you have seen two ways of interacting with your file system: your computer's terminal application and its explorer GUI. You probably have a preference and you probably prefer using one over the other for particular tasks. Neither is the "correct" way of working, but it's useful to know about both.
 
-We have similar options for Git. So far we have been working with VSCode's version control tools and they're fine for what we need, but there are some things that are quite fiddly and some things we we can't do at all. In this sprint we'll look at using Git in the terminal and recreate our VSCode workflow, looking at some of the differences as we go.
+We have similar options for Git. So far we have been working with VSCode's version control tools and they're fine for what we need, but there are some things that are quite fiddly and some things we we can't do at all. In this sprint we'll look at using Git in the terminal and recreate our VSCode workflow, looking at some of the differences as we go. Both are using git.
 
 ### Preparation
 

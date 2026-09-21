@@ -31,7 +31,7 @@ It's going well so far!
 
 ### Staging changes
 
-Let's move back to the terminal. If your terminal may have some sort of indication that something has changed, but it may not. We can always use `git status` again to check the state of our repository. This time the output will look like this:
+Let's move back to the terminal. Your terminal may have some sort of indication that something has changed, but it may not. We can always use `git status` again to check the state of our repository. This time the output will look like this:
 
 ```console {title="git-cli-practice"}
 On branch main
@@ -63,10 +63,10 @@ Changes to be committed:
 	new file:   notes.txt
 ```
 
-We can add multiple files at once if we want to by passing multiple arguments to `git add`:
+We can add multiple files at once if we want to by passing multiple arguments to `git add` (this is what the `...` in the status message's command suggestion meant):
 
 ```sh
-git add file1.txt file2.txt #...
+git add file1.txt file2.txt
 ```
 
 {{<note type="tip" title="Other ways to stage changes">}}
@@ -94,7 +94,7 @@ Our commit has now been made.
 Forgetting to add the `-m` flag is another common error when learning Git. A commit _must_ have a message associated with it, so if you forget to include one you will be prompted to add one before the commit is made. Git will open your default text editor and prompt you to add the message. When you are done you can save and close the file and you will be in the same place you would have been using the flag.
 {{</note>}}
 
-Another `git status` check will have us back at the "nothing to commit" stage.
+Another `git status` check will tell us we're back at "nothing to commit".
 
 ### Viewing the commit history
 

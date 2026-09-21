@@ -26,7 +26,7 @@ We also need to make a change to the `package.json` file. The way we load the pa
 }
 ```
 
-Now we can hook up our package. At the top of `checkingOddNumbers.js` we need to add an `import` statement. Any time we need to use code which is defined in a different file we need to import it.
+Now we can start using the `is-odd` package. At the top of `checkingOddNumbers.js` we need to add an `import` statement. Any time we need to use code which is defined in a different file we need to import it.
 
 ```js {title="checkingOddNumbers.js"}
 import isOdd from 'is-odd';

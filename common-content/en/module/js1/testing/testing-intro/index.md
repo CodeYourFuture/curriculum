@@ -20,7 +20,7 @@ We make sure by **testing** our code! Testing doesn't have any special meaning i
 
 In this module we are going to concentrate on **unit testing**. That means we are testing the individual components of a program - our functions - to ensure they work correctly. In a real project we would also consider how these components work together and with other systems (known as **integration testing**).
 
-Testing code is something that every developer should be doing, but it wouldn't make much sense for every developer to write their own tools to test their code. We're going to use a package to help us write our tests.
+Testing code is something that every developer should be doing, but it wouldn't make much sense for every developer to write their own tools to test their code. We're going to rely on code other people wrote to help us write our tests.
 
 ### Our function
 
@@ -82,4 +82,4 @@ console.log(formatAs12HourClock("23:00"));
 console.log(formatAs12HourClock("14:00"));
 ```
 
-This does the job, but it doesn't scale well at all. Imagine we have a lot of functions to test - that would mean lots of `console.log()` calls cluttering up our files. It also relies on people running the file using Node, so if our tests require anything more complex like a database integration it won't be possible to run them properly. We're going to move our tests into an environment where it's much easier to keep track of everything.
+This does the job, but it doesn't scale well at all. Imagine we have a lot of functions to test - that would mean lots of `console.log()` calls cluttering up our files. It also relies on people running the file using Node and knowing what the correct output should look like. Additionally, if our tests require anything more complex like a database integration it won't be possible to run them properly. We're going to move our tests into an environment where it's much easier to keep track of everything.
