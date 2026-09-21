@@ -12,7 +12,7 @@ name="Screen Safari"
 src="energisers/screen-safari"
 [[blocks]]
 name="Problem Solving Workshop"
-src="https://codewars-workshops.codeyourfuture.io/problem-01/"
+src="https://codewars-workshops.codeyourfuture.io/problem-02/"
 time=65
 [[blocks]]
 name="Morning break"
