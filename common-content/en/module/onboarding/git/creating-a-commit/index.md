@@ -39,11 +39,23 @@ B --> C["`Git Repository
 
 A repository is a folder where Git tracks all your files and their changes.
 
-1. Create a new folder for your project called `my-first-repository`. Open it in VSCode.
+1. Create a new folder for your project called `my-first-repository`.
 
-2. We're going to **initialise a Git repository** in this folder. Open the `Source Control` tab on the left of the VSCode window (highlighted red in the screenshot below) then click the `Initialize Repository` button.
+2. Open the folder in VSCode. In VSCode, go to `File` > `Open Folder...` and choose your `my-first-repository` folder. Make sure you open the folder itself, not a file inside it. You should see the folder name at the top of the Explorer tab.
+
+3. We're going to **initialise a Git repository** in this folder. Open the `Source Control` tab on the left of the VSCode window (highlighted red in the screenshot below) then click the `Initialize Repository` button.
 
 ![VSCode source control tab for repo initialisation](initialise-repo.png)
+
+{{<note type="tip" title="Can't see the Initialize Repository button?">}}
+If the Source Control tab only shows an `Open Remote Repository` button, VSCode is not able to use Git in your folder yet. Check these things in order:
+
+1. **Is a folder open?** If you opened a file instead of a folder, or nothing at all, go to `File` > `Open Folder...` and open `my-first-repository`.
+2. **Can VSCode find Git?** Open a terminal and run `git --version`. If you get an error instead of a version number, go back to the Check Git Installation section and install Git.
+3. **Restart VSCode.** If you installed Git while VSCode was open, VSCode will not know about it until you fully quit and reopen it.
+
+If you still can't see the button, post a screenshot of your Source Control tab in Slack and ask for help.
+{{</note>}}
 
 The tab should now look like this:
 

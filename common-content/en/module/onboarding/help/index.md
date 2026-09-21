@@ -15,7 +15,7 @@ objectives = [
 
 _Everyone_ at {{<our-name>}} has barriers to education. We can help with some things, and can recommend where to get help with others. Our [signpost website](https://signposts.codeyourfuture.io/) has more details.
 
-The support _we_ can offer is around your ability to come to class, or follow the course material. We can support you financially with the following things for the first 5 weeks of ITP. In this time, we expect you to enroll as a trainee - after 5 weeks, we can only continue supporting enrolled trainees.
+The support _we_ can offer is around your ability to come to class, or follow the course material. We can support you financially with the following things for the first 6 weeks of ITP. In this time, we expect you to enroll as a trainee - after 6 weeks, we can only continue supporting enrolled trainees.
 
 If you cannot come to an in-person class because you can't afford:
 

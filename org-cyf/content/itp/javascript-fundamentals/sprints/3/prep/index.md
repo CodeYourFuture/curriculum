@@ -4,10 +4,6 @@ layout = 'prep'
 menu_level = ['sprint']
 weight = 1
 [[blocks]]
-name="Enroll as a Trainee"
-src="https://github.com/CodeYourFuture/Module-JavaScript-Fundamentals/issues/72"
-time=30
-[[blocks]]
 name="Learn about Interview Introductions"
 src="module/induction/interview-introductions"
 [[blocks]]

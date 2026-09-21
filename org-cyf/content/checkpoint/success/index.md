@@ -1,5 +1,5 @@
 +++
-title = "End of Module Review"
+title = "End of Course Review"
 description = "What does it mean to pass the Checkpoint?"
 layout = "success"
 emoji= "✅"

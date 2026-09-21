@@ -4,7 +4,7 @@ layout="needs-review"
 weight=2
 emoji="🧑🏾‍🤝‍🧑🏾"
 GitHubRepos = [
-    "Module-Onboarding",
+    "Module-JavaScript-Fundamentals",
     "Module-Structuring-And-Testing-Data",
     "Module-Data-Groups",
     "Module-Data-Flows",

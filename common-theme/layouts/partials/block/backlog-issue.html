@@ -3,11 +3,16 @@
     <summary class="c-issue__title e-heading__3">
         {{ .block.name }}
         <a class="c-issue__link" href="{{ $url }}">🔗</a>
-        <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .block.number "module" .block.repo "sprint"
-            .sprint "prevURL" (urls.AbsLangURL .path) | jsonify }}" class="e-button"
-            data-props="{{ .Page.RelPermalink }}">
-            Clone
-        </a>
+        {{ $parts := split $url "/" }}
+        {{/* https://github.com/CodeYourFuture/Module-Foo/issues/3 */}}
+        {{ if eq (len $parts) 7 }}
+            {{ $module := index $parts 4 }}
+            <a href="https://curriculum.codeyourfuture.io/api/clone?state={{ dict "issue" .block.number "module" $module "sprint"
+                .sprint "prevURL" (urls.AbsLangURL .path) | jsonify }}" class="e-button"
+                data-props="{{ .Page.RelPermalink }}">
+                Clone
+            </a>
+        {{ end }}
     </summary>
     <div class="c-issue__body">
         {{ partial "block/block.html" (dict

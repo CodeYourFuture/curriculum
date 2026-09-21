@@ -25,7 +25,7 @@ Pair up with a new person. In pairs, complete the following tasks:
 > [!WARNING]
 > If you're unsure about the answer to any of the questions below, ask the other people in your class for help!
 
-1. Starting from the home page of this website, locate the end of module sprint page for the _next_ sprint. Can you already do any of the learning objectives?
+1. Starting from the home page of this website, locate the end of sprint review page for the _next_ sprint. Can you already do any of the learning objectives?
 1. Starting from the home page of this website, locate the prep page for sprint 1 of the next module.
 1. Check you can find the backlog page for the next sprint.
 1. When should you start the prep work for the upcoming sprint?

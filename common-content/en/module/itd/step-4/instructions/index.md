@@ -16,11 +16,11 @@ This exercise introduces the basics of Google Sheets — an online tool for orga
 
 #### Watch the videos in the Google short courses 
 
-1. [Google Workspace: Sheets - Part 1](https://edu.exceedlms.com/student/path/1606820-google-workspace-sheets-part-1) (equivalent [YouTube video](https://www.youtube.com/watch?v=2jlgKEx9j_k))
-2. [Google Workspace: Sheets - Part 2](https://edu.exceedlms.com/student/path/1606732-google-workspace-sheets-part-2) (equivalent [YouTube video](https://www.youtube.com/watch?v=rRPEDMHdOWY))
-   - Only the "Create Filters and Use Filter Views" section
+1. [Google Workspace: Sheets - Part 1](https://edu.exceedlms.com/student/path/1606820-google-workspace-sheets-part-1) <!--(equivalent [YouTube video](https://www.youtube.com/watch?v=2jlgKEx9j_k)) -->
+2. [Google Workspace: Sheets - Part 2](https://edu.exceedlms.com/student/path/1606732-google-workspace-sheets-part-2) <!-- (equivalent [YouTube video](https://www.youtube.com/watch?v=rRPEDMHdOWY)) -->
+   - Up to the "Create Filters and Use Filter Views" section
 
-**Note**: If you want to practice with the Google Sheets used in the videos, you can access them through the YouTube links.
+Here is the [Google Sheets](https://docs.google.com/spreadsheets/d/1LZAvJXVGF7DO_j3pOc7Epo5Fx2WzgPUFKgB-z9Bpaak/edit?gid=1980894547#gid=1980894547) file used in the instructional videos. You can make a copy of it for practice. **However, this is not the Google Sheets file you should use for this exercise.**
 
 #### Apply What You Learned 
 

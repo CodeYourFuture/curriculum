@@ -28,4 +28,14 @@ If it is installed successfully, you should get a version number (which may not 
 git version 2.40.0
 ```
 
-Otherwise, you will need to [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or ask for support on your Slack channel.
+If Git is not installed, you will see an error instead, saying that `git` was not found or not recognised. In that case you will need to [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or ask for support on your Slack channel.
+
+{{<note type="tip" title="Installed Git but the command still fails?">}}
+A terminal that was already open before you installed Git cannot see it. After installing:
+
+1. Close your terminal completely and open a new one.
+2. Run `git --version` again.
+3. If it still fails, restart your computer and try once more.
+
+If VSCode was open while you installed Git, fully quit and reopen it too, or it will not find Git either.
+{{</note>}}
