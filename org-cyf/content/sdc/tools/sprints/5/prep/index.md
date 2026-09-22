@@ -32,3 +32,10 @@ src = "module/decomposition/enums"
 name = "Inheritance"
 src = "module/decomposition/inheritance"
 +++
+## Static checking
+
+You have now seen how to handle errors when your program is running, using exceptions and `try`/`catch`. This is called **dynamic checking** because the problem is found while the program runs.
+
+With static checking, tools such as `mypy` can find some problems before the program runs. This means we can catch certain errors earlier, rather than waiting for them to happen at runtime.
+
+Think about the errors you have just learned to handle: which of these could we catch before running our program?
