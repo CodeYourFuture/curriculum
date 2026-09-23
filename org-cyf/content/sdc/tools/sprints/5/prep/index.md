@@ -1,6 +1,5 @@
 +++
 title = "Prep"
-description = "Overview description of the prep work for the sprint"
 layout = "prep"
 menu_level = ["sprint"]
 weight = 1

@@ -12,6 +12,19 @@ objectives = [
   render = "never"
 +++
 
+## Support for type checking
+
+Different languages have different levels of support for checking types.
+
+Some languages, like Java, C++, Rust, and Go, _require_ you to write what types you expect function parameters to have.
+
+Other languages, like JavaScript and Python, _don't require_ this but they have tools which _allow_ you to add this information by using a tool like mypy or JSDoc.
+
+Some very low level machine languages like assembly don't have any typing at all.
+
+Languages with optional type checking perform good checks when you add this type information. If you don't add type annotations in your code, they will perform fewer checks. Sometimes they will infer the correct types based on what you _have_ annotated. Other times they will just ignore code with no annotations and not give you errors about it even if it's wrong.
+
+## Trying out Mypy
 Mypy is a tool which enables type checking in Python code.
 
 {{<note type="Reading">}}
@@ -19,42 +32,12 @@ Read the first sections of [The Comprehensive Guide to mypy](https://dev.to/tush
 {{</note>}}
 
 {{<note type="exercise">}}
-Do not run the following code.
+
+**Task 4**:
+
+Have a look at `04-addmypy.py`
 
 This code contains bugs related to types. They are bugs mypy can catch.
 
 Read this code to understand what it's trying to do. Add type annotations to the method parameters and return types of this code. Run the code through mypy, and fix all of the bugs that show up. When you're confident all of the type annotations are correct, and the bugs are fixed, run the code and check it works.
-
-```python
-def open_account(balances, name, amount):
-    balances[name] = amount
-
-def sum_balances(accounts):
-    total = 0
-    for name, pence in accounts.items():
-        print(f"{name} had balance {pence}")
-        total += pence
-    return total
-
-def format_pence_as_string(total_pence):
-    if total_pence < 100:
-        return f"{total_pence}p"
-    pounds = int(total_pence / 100)
-    pence = total_pence % 100
-    return f"£{pounds}.{pence:02d}"
-
-balances = {
-    "Sima": 700,
-    "Linn": 545,
-    "Georg": 831,
-}
-
-open_account("Tobi", 9.13)
-open_account("Olya", "£7.13")
-
-total_pence = sum_balances(balances)
-total_string = format_pence_as_str(total_pence)
-
-print(f"The bank accounts total {total_string}")
-```
 {{</note>}}
