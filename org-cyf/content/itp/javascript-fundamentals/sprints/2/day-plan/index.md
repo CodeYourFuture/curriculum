@@ -6,9 +6,14 @@ weight = 3
 [[blocks]]
 name="Energiser"
 src="energisers/wemoji"
+time=5
 [[blocks]]
 name="Morning orientation"
 src="blocks/morning-orientation"
+time=5
+[[blocks]]
+name="Prep quiz"
+src="blocks/prep-quiz"
 time=15
 [[blocks]]
 name="Workshop: Asking Questions"
