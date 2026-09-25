@@ -1,0 +1,4 @@
+[[menu.main]]
+name = "Book"
+url = "/book/"
+weight = 10

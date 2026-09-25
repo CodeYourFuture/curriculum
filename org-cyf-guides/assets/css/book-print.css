@@ -1,0 +1,14 @@
+/* book-print.css - print-focused rules */
+@page { size: A4; margin: 20mm; }
+
+@media print {
+  body { font-family: Georgia, "Times New Roman", serif; font-size: 12pt; color: #000; background:#fff; margin: 0; }
+  header, .site-header, .site-footer, nav, .no-print { display: none !important; }
+  .toc { page-break-after: always; }
+  .chapter { page-break-before: always; }
+  h1, h2 { break-inside: avoid; page-break-after: avoid; }
+  p { orphans: 3; widows: 3; }
+  pre { white-space: pre-wrap; word-wrap: break-word; font-family: monospace; font-size: 10pt; }
+  img { max-width: 100%; height: auto; }
+  table { page-break-inside: avoid; border-collapse: collapse; }
+}
