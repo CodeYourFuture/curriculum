@@ -31,7 +31,7 @@ Make sure to answer the following questions during the briefing.
   - This expectation is a requirement of passing Checkpoint, we will try to accommodate extenuating circumstances if they let us know with ample advance but generally trainees will not pass Checkpoint if they don't attend as requested.
 - What should people do before the first session?
   - In their own time, they should work through the [preparation steps](https://curriculum.codeyourfuture.io/checkpoint/prep/#preparation) to ensure everything is covered.
-  - Make sure to explain the prep for the first demo; all other demos will be about Checkpoint projects, this one will be based on some ITP work.
+  - Make sure to explain the prep for the first demo; all other demos will be about Checkpoint projects, this one will be based on something they've already done (e.g. in ITP).
 - What's expected of trainees in the first session, and in the first week?
   - They must deliver a demo and be prepared to engage in their first group project.
 - How should trainees be working as a team?
