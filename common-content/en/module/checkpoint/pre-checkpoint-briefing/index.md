@@ -41,7 +41,7 @@ Make sure to answer the following questions during the briefing.
 - How will trainees be assessed?
   - Projects - A passing project must meet the rubric points listed for the specific project, as well as the [project submission guidelines](https://curriculum.codeyourfuture.io/checkpoint/prep/#project-submission) which apply to all three. They must pass their solo project and **at least one** of the two group projects. _Note:_ projects are not marked for their styling, so CSS should be minimal and only serve to achieve basic usability and accessibility of the app.
   - Demos - Checkpoint demos are different from those they did in ITP, they are marked against a [very specific rubric](https://curriculum.codeyourfuture.io/checkpoint/sprints/1/day-plan/#demo). To pass, they must hit five of the six rubric points. They will be given up to 4 chances to deliver a passing demo.
-  - Interview - The interview will take 15 minutes, and they will be asked [three questions](https://curriculum.codeyourfuture.io/checkpoint/sprints/4/day-plan/) during it. They should be prepared to be asked about code and/or feature of any of their submitted projects.
+  - Interview - The interview will take 15 minutes, and they will be asked [three questions](https://curriculum.codeyourfuture.io/checkpoint/sprints/4/day-plan/) during it. They should be prepared to be asked about code and/or feature of any of their submitted projects, including code they themselves did not write.
 - How do trainees hand in their projects?
   - Instructions for handing in projects will be given on Slack - pay attention!
   - Generally they amount to sharing a link to the repo, the hosted version of the app, and a GitHub SHA of the relevant commit from which we want to mark the project.
