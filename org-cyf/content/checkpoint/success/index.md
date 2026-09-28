@@ -9,7 +9,7 @@ weight = 11
 objectives = [[
   "Attend every session.",
   "Complete one solo and two group projects on time and according to their rubrics. Only one of the group projects needs to pass, but you must attempt two.",
-  "Pass at least one demo (which means getting at least 5/6 against the rubric for that demo). You will have up to 4 opportunities to have your demos assessed.",
+  "Pass at least one demo (which means getting at least 5/6 against the rubric for that demo). You will have up to 3 opportunities to have your demos assessed.",
   "Pass a technical interview.",
 ]]
 +++
