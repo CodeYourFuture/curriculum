@@ -12,8 +12,8 @@ name="Morning orientation"
 src="blocks/morning-orientation"
 time=15
 [[blocks]]
-name="Problem Solving Workshop"
-src="https://codewars-workshops.codeyourfuture.io/problem-02/"
+name="Workshop: Playing Computer"
+src="workshops/playing-computer"
 time=60
 [[blocks]]
 name="Morning break"
