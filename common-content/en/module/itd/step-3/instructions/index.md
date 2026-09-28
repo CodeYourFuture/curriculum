@@ -239,7 +239,7 @@ Friendly, reliable and customer-focused individual with experience working in a 
 
 We have a [guide on how to write a great CV](https://cyf-curriculum.netlify.app/guides/employability/cvs/), use this to help assess what's good or bad about the CVs.
 
-We also have a [automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/) that can help give us feedback on the CV. We can even post a job description to the tool. All of the CVs above are for the job description as below:
+We also have a [automated CV feedback tool](https://cv-eval.hosted.codeyourfuture.io/) that can help give us feedback on the CV. We can even post a job description to the tool. All of the CVs above are for the job description as below:
 
 <details>
 <summary>Job Description</summary>
