@@ -18,52 +18,7 @@ We previously saw that using methods instead of free functions can help us to en
 
 Type checking can help us with this. If you have some code which accesses `imran.age`, and we remove the `age` field, we can run mypy: It will tell us "Here are all of the places that reference `age` you also need to change your code".
 
-Take this file as an example. It is a program that works out what laptops could be allocated to what people based on their preferred operating system.
-
-```python
-from dataclasses import dataclass
-from typing import List
-
-@dataclass(frozen=True)
-class Person:
-    name: str
-    age: int
-    preferred_operating_system: str
-
-
-@dataclass(frozen=True)
-class Laptop:
-    id: int
-    manufacturer: str
-    model: str
-    screen_size_in_inches: float
-    operating_system: str
-
-
-def find_possible_laptops(laptops: List[Laptop], person: Person) -> List[Laptop]:
-    possible_laptops = []
-    for laptop in laptops:
-        if laptop.operating_system == person.preferred_operating_system:
-            possible_laptops.append(laptop)
-    return possible_laptops
-
-
-people = [
-    Person(name="Imran", age=22, preferred_operating_system="Ubuntu"),
-    Person(name="Eliza", age=34, preferred_operating_system="Arch Linux"),
-]
-
-laptops = [
-    Laptop(id=1, manufacturer="Dell", model="XPS", screen_size_in_inches=13, operating_system="Arch Linux"),
-    Laptop(id=2, manufacturer="Dell", model="XPS", screen_size_in_inches=15, operating_system="Ubuntu"),
-    Laptop(id=3, manufacturer="Dell", model="XPS", screen_size_in_inches=15, operating_system="ubuntu"),
-    Laptop(id=4, manufacturer="Apple", model="macBook", screen_size_in_inches=13, operating_system="macOS"),
-]
-
-for person in people:
-    possible_laptops = find_possible_laptops(laptops, person)
-    print(f"Possible laptops for {person.name}: {possible_laptops}")
-```
+Look at file `13-refactor.py` as an example. It is a program that works out what laptops could be allocated to what people based on their preferred operating system.
 
 Let's imagine we want to change our code. We don't want to say "Every person has one preferred operating system" any more. We want to let people have a list of operating systems they prefer (in order). So we could say "Imran prefers Ubuntu most of all, and then Arch Linux, but will not use macOS".
 
@@ -71,7 +26,7 @@ Let's imagine we want to change our code. We don't want to say "Every person has
 **Task 13**
 A copy of this file is present in `13-refactor.py`.
 
-Try changing the type annotation of `Person.preferred_operating_system` from `str` to `List[str]`.
+Change the type annotation of `Person.preferred_operating_system` from `str` to `List[str]`.
 
 Run mypy on the code.
 

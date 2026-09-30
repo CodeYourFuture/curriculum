@@ -16,6 +16,9 @@ src = "module/decomposition/classes-and-objects"
 name = "Methods"
 src = "module/decomposition/methods"
 [[blocks]]
+name = "Encapsulation"
+src = "module/decomposition/encapsulation"
+[[blocks]]
 name = "Dataclasses"
 src = "module/decomposition/dataclasses"
 [[blocks]]
@@ -25,7 +28,7 @@ src = "module/decomposition/generics"
 name = "Type-guided refactoring"
 src = "module/decomposition/type-guided-refactorings"
 [[blocks]]
-name = "enums"
+name = "Enums"
 src = "module/decomposition/enums"
 [[blocks]]
 name = "Inheritance"

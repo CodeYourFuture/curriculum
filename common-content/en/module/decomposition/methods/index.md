@@ -6,7 +6,6 @@ objectives = [
   "Define a free function.",
   "Explain why methods can be more useful than free functions.",
   "Amend a method on a class.",
-  "Explain how encapsulation can benefit class design.",
 ]
 
 [build]
@@ -81,93 +80,12 @@ print(drivers_license_check(imran)) # returns 'Valid drivers license'
 
 Work inside the `08-implement.py` file for this task.
 
-1. Add the `drivers_license_check` free function and an `is_adult` method into your code, and make sure your code currently gives the expected output.
-1. Change the `Person` class to take a date of birth (using [the standard library's `datetime.date` class](https://docs.python.org/3/library/datetime.html#datetime.date)) and store the `date of birth` in a property instead of `age` (it should be a `str`). Don't change anything else.
-1. **Try to run your code**, how does this change break your code. What kind of error do you get? Is it helpful in identifying where your next change needs to be?
-1. Update the `is_adult` method so the error is fixed. Using the `drivers_license_check` function check everything runs as expected, it should return "Valid drivers license". _You should not change `drivers_license_check`_.
-{{</note>}}
+Add an `is_adult` method into the class, and make sure your code gives the expected output.
 
+Change the `Person` class to take a date of birth (using [the standard library's `datetime.date` class](https://docs.python.org/3/library/datetime.html#datetime.date)) and store the `date of birth` instead of `age`.
 
+**Try to run your code now** and observe how this change breaks your code. What kind of error do you get? Is it helpful in identifying where your next change needs to be?
 
-## Encapsulation
-
-An advantage of classes over objects is encapsulation.
-
-Imagine you have written your Person class that stores age information.
-
-For privacy reasons, you don't want to reveal the exact age of the person, only whether they are or are not over 18 years old.
-
-This means we need to store the "age" value in a class, but somehow keep it _private_ to that class. The only _public_ information we want is whether or not they are over 18. How can we achieve this?
-
-Look at the following code:
-
-```python
-class Person:
-    def __init__(self, name: str, age: int):
-        self.name = name
-        self.__age = age
-        
-    def is_adult(self):
-      return self.__age >= 18
-
-imran = Person("Imran", 22)
-print(imran.name)
-# print(imran.age) # fails
-# print(imran.__age) # fails
-print(imran.is_adult()) # works and prints True
-
-eliza = Person("Eliza", 12)
-print(eliza.name)
-# print(eliza.age) # fails
-# print(imran.__age) # fails
-print(eliza.is_adult()) # works and prints False
-```
-
-> [!NOTE]
-> 
-> It is important to be clear about the wording here as there are some subtle differences between fields and properties as used in classes.
-> A "field" is the underlying part of a class that stores some value.
-> A "property" is the publicly accessible part that you can access from outside the class.
->
-
-In python, any field that begins with two underscores is considered _private_, i.e. it can only be used within that specific class instance.
-
-
-> [!NOTE]
-> 
-> Using underscores, Python doesn't have a clear way of marking something as private.
-> Other programming languages like Java mark this more explicitly with keywords like "private" and "public".
-> It's worth becoming familiar with this private/public language even if you're not using it right now.
->
-
-You can now program classes to change behaviour based on the information stored within them.
-Compare this with objects, which can only ever store data, and behave the same every time.
-
-Another benefit of encapsulation is letting you make "read only" properties.
-Think about the example above.
-Imagine you wanted to check if a `Person` class had a certain name using an equality test, but accidentally used a single `=` symbol:
-```python
-imran.name = "Eliza"
-```
-Python allows you to update public fields whenever you want.
-If `name` were private, and the only way to access it was through a `get_name()` method that returns a string, it would be impossible to accidentally change the value.
-In this way, encapsulation can be used to prevent accidental errors in code.
-
-{{<note type="Reading">}}
-Read through [Python encapsulation](https://www.w3schools.com/python/python_encapsulation.asp).
-
-Do some further research of your own to learn about encapsulation.
-{{</note>}}
-
-{{<note type="exercise">}}
-**Task 9**
-
-Having done some research on encapsulation, think about the benefits.
-
-Think of some examples and in your own words write down some benefits and trade-offs of using encapsulation in classes in the file `09-encapsulation.py`
-
-**Stretch Task**
-
-Make the `name` field private, and add a `get_name()` method to allow read-only access.
+Now update _only_ the `is_adult` method to fix the error and check everything works correctly.
 {{</note>}}
 

@@ -36,40 +36,15 @@ That's what's happening in task 11. `FamilyTree.members` is a `list`, but mypy d
 
 ## Using Generics
 
-We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list:
+We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list. We could add an import and modify the `FamilyTree` class from task 11 as follows:
 
 ```python
-from dataclasses import dataclass
 from typing import List
-
-@dataclass(frozen=True)
-class Animal:
-    name: str
-    species: str
-
-@dataclass(frozen=True)
-class Person:
-    name: str
-    age: int
 
 @dataclass(frozen=True)
 class FamilyTree:
     parent: Person
     members: List[Person]
-    
-pet = Animal(name="Gromit", species="Dog")
-fatma = Person(name="Fatma", age=4)
-aisha = Person(name="Aisha", age=6)
-imran = Person(name="Imran", age=30)
-
-family = FamilyTree(parent=imran, members=[fatma, aisha, pet])
-
-def print_family_tree(family: FamilyTree):
-    print(family.parent.name)
-    for child in family.members:
-        print(f"{child.name} ({child.age} years old)")
-        
-print_family_tree(family)
 ```
 
 Try updating your code for task 11 with this change and see if mypy spots the problem
@@ -79,9 +54,8 @@ Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can
 
 > [!NOTE]
 >
-> Most generics don't need the types to be quoted. For example, you can write `List[Person]`.
-> But if you want to recursively reference a type within the class, before the class has been defined, we need to quote it for mypy to recognise it.
-> So for example, if we wanted a family tree to go several levels deep, e.g. to include grandchildren, we would write it as `List["FamilyTree"]`.
+> I you want to _recursively_ reference a type within a class, we need to quote it for mypy to recognise it.
+> So for example, if we wanted a `Person` object to include a list of children, we would write it as `List["Person"]`.
 >
 > It's kind of annoying, but don't worry about it too much.
 
@@ -141,13 +115,13 @@ It also means instead of having to create a new method to print out every single
 {{<note type="exercise">}}
 **Task 12**
 
-Experiment with mypy and make sure that the family tree only takes `Person` types and the species tree only takes `Animal` types.
+We are going to improve the printing in the above code, you can find a copy in `12-fix.py`.
 
-We are going to improve the printing in the above code, you can find a copy in `12-fix.py`
+Experiment with mypy and make sure that the family tree only takes `Person` types and the species tree only takes `Animal` types.
 
 Currently the `Tree.print_tree()` method doesn't look very pretty.
 
-Change the Animal and Person classes, using whichever approach you think is best, to allow the `Tree.print_tree()` method to display an output that looks like this:
+Change only the Animal and Person classes to allow the `Tree.print_tree()` method to display an output that looks like this:
 
 ```
 Imran (30 years old)
