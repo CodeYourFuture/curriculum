@@ -152,6 +152,9 @@ Start by reading [Python encapsulation](https://www.w3schools.com/python/python_
 
 Do some further research of your own to learn about encapsulation.
 
-Think of some examples and in your own words write down some benefits and trade-offs of using encapsulation in classes in the file `09-encapsulation.txt`
+Think of some examples and in your own words write down some benefits and trade-offs of using encapsulation in classes in the file `09-encapsulation.py`
+
+**Stretch Task**
+Make the name property private, and add a get_name() method to make it read only.
 {{</note>}}
 
