@@ -22,7 +22,7 @@ src = "module/decomposition/dataclasses"
 name = "Generics"
 src = "module/decomposition/generics"
 [[blocks]]
-name = "Type-guided refactorings"
+name = "Type-guided refactoring"
 src = "module/decomposition/type-guided-refactorings"
 [[blocks]]
 name = "enums"

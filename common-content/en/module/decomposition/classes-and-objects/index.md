@@ -45,7 +45,7 @@ This code contains some untyped objects.
 Try checking it with mypy before running the code and predict what you think will happen when you run the code.
 {{</note>}}
 
-This code doesn't work, but mypy can't tell us this. Remember how we said that type checking has its limits?
+The code in the above exercise doesn't work, but mypy can't tell us this. Remember how we said that type checking has its limits?
 As far as mypy is concerned, a dictionary is a dictionary - it could contain any keys!
 
 Instead, we can use a {{<tooltip title="class">}}A class is a template for an object. It lets us say what properties (and methods) all instances of that class will contain.{{</tooltip>}}.
@@ -81,8 +81,8 @@ The method called `__init__` is called a constructor - it is what is called when
 
 {{<multiple-choice
   question="What of the following best describes an 'instance' of a class?"
-  answers="The variables that are accessed using self, like `self.name` | A class with attributes set to values passed into the constructor | The __init__ function that takes some values as arguments | A description of what a class contains"
-  feedback=" No, these are called class attributes | Yes, an instance is one specific copy of a class | __init__ is the constructor of a class in python | No, a class already is a description of what it contains. An instance is more specific."
+  answers="The variables that are accessed using self, like `self.name` | An object with properties set to values passed into the constructor of a class | The __init__ method that takes some values as arguments | A description of what a class contains"
+  feedback=" No, these are called properties | Yes, an instance is an object representing one specific copy of a class | __init__ is the constructor of a class in python | No, a class already is a description. An instance is more specific."
   correct="1" >}}
 
 
@@ -102,7 +102,7 @@ Have a look at file `06-classes.py`.
 
 Run mypy and fix any errors.
 
-Add a new function called `likes_apple` which takes a person as parameter and returns true only if the preferred operating system is either `iOS` or `macOS`. Add all the appropriate type annotations and make sure mypy has no errors.
+Add a new function called `likes_apple` which takes a `Person` as parameter and returns true only if the preferred operating system is either `iOS` or `macOS`. Add all the appropriate type annotations and make sure mypy has no errors.
 
 Compare objects and classes and explain some advantages and disadvantages of each.
 

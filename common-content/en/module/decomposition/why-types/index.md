@@ -15,12 +15,12 @@ objectives = [
 
 In real life, as well as programming, there are some impossible operations. Can you divide seven by yellow? Can you set fire to a sound? These don't make sense. The same is true in programming.
 
-We are going to look at some functions which you can find in the file `SDC-Tools/sprint-5` directory.
+Throughout this sprint we are going to look at some code which you can find in the file `SDC-Tools/sprint-5` directory of [the Module-Tools repository](https://github.com/CodeYourFuture/Module-Tools).
 
 {{<note type="exercise">}}
 **Task 1**
 
-Have a look now at `01-predict.py`.
+Have a look at `01-predict.py`.
 
 Take a moment to make predictions about what function calls will and will not work.
 

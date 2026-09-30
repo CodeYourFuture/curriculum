@@ -101,7 +101,7 @@ The method implementations are different for the two classes. They have differen
 
 **Task 15**
 
-A copy of this code is in file `14-analyse.py`
+A copy of this code is in file `15-analyse.py`
 
 Try using this code and make sure you understand how it works and what it does
 
@@ -117,7 +117,7 @@ Q2: If you know in advance you will be initialising many of them repeatedly, whi
 Q1: `SortedImmutableNumberList` sorts the numbers in advance, and the method implementation for largest item only needs to look at the final item of the sorted list. This means accessing it is faster.
 Q2: `ImmutableNumberList` doesn't need to sort the numbers immediately on creation. If you only intended to use `first` and `last`, it may be faster.
 
-Of course, it all depends on which functions you think you will need.
+Of course, it all depends on which functionality you think you will need.
 You will learn more about these efficiency concepts in the upcoming complexity module.
 
 </details>
@@ -131,7 +131,7 @@ Inheritance is a great way of helping you achieve this.
 {{<note type="exercise">}}
 **Task 16**
 
-Look at file `15-playcomputer.py`
+Look at file `16-playcomputer.py`
 
 Play computer with this code
 

@@ -19,7 +19,7 @@ Our `Person` class is an example of this. We just store some data in it (and may
 
 If a class is just a place to group related data, it is sometimes called a {{<tooltip title="Value object" text="value object">}}A value object is an object which exists just to store data. They are normally immutable (never change).{{</tooltip>}}. We normally consider two value objects to be equal to each other if their fields contain the same values.
 
-There are several functions we can implement on classes that have obvious implementations for value objects.
+There are several methods we can implement on classes that have obvious implementations for value objects.
 
 Equality is one: ideally two value objects are the same if their fields are the same. But this is not the case with objects by default:
 
@@ -35,7 +35,7 @@ imran2 = Person("Imran", 22, "Ubuntu")
 print(imran == imran2)  # Prints False
 ```
 
-Similarly, it's useful when we print a value object to see its type and fields. But this is not the case with objects by default:
+Similarly, it's useful when we print a value object to see its type and properties. But this is not the case with objects by default:
 
 ```python
 class Person:
@@ -48,7 +48,7 @@ imran = Person("Imran", 22, "Ubuntu")
 print(imran)  # Prints <__main__.Person object at 0x1048b5a90>
 ```
 
-Python has a useful {{<tooltip text="decorator" title="Decorator">}}A decorator is an annotation you can add to some Python code to give it extra behaviour.{{</tooltip>}} called `dataclass` which generates some of these functions for us. In fact, it even generates the constructor for us.
+Python has a useful {{<tooltip text="decorator" title="Decorator">}}A decorator is an annotation you can add to some Python code to give it extra behaviour.{{</tooltip>}} called `dataclass` which generates some of these methods for us. In fact, it even generates the constructor for us.
 
 ```python
 from dataclasses import dataclass
@@ -75,9 +75,9 @@ Other languages have a similar idea of a value type, and tools to help make them
 
 **Task 10**
 
-Work in file `09-implement.py` for this task.
+Work in file `10-implement.py` for this task.
 
-Convert your existing `Person` class into a value type using `@datatype` so you can print the class (and see it's type and fields) and compare class instances that are identical. Make sure your `is_adult` method and `drivers_license_check` free function both work as normal.
+Convert your existing `Person` class into a value type using `@datatype` so you can print the class (and see it's type and properties) and compare class instances that are identical. Make sure your `is_adult` method and `drivers_license_check` free function both work as normal.
 
 Make a new method on your Person class - `greet` which should return `"Hello <person name>!"` when used.
 

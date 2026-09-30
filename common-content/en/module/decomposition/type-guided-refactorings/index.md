@@ -69,7 +69,7 @@ Let's imagine we want to change our code. We don't want to say "Every person has
 
 {{<note type="exercise">}}
 **Task 13**
-A copy of this file is present in `12-refactor.py`.
+A copy of this file is present in `13-refactor.py`.
 
 Try changing the type annotation of `Person.preferred_operating_system` from `str` to `List[str]`.
 
@@ -77,7 +77,7 @@ Run mypy on the code.
 
 It tells us different places that our code is now wrong. Fix it to remove any errors.
 
-Now we changed the types, we probably also want to _rename_ our fields to something appropriate.
+Now we changed the types, we probably also want to _rename_ our field to something appropriate.
 
 Run mypy again.
 
