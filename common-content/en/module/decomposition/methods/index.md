@@ -49,17 +49,11 @@ This has a few advantages over {{<tooltip text="free functions" title="Free func
 
 What is the difference between methods and free functions?
 
-Do some research and think of the advantages of using methods instead of free functions.
+Do some research about the differences.
+
+Can you give some advantages of methods over functions?
 
 Write your thoughts down in `07-methods.txt`
-
-<details>
-
-<summary>Expand for some answers after you've listed your own.</summary>
-
-- Encapsulation - if we change the implementation of `Person` (e.g. we start storing a date of birth instead of an age), it's more obvious what things we need to change.
-- Ease of documentation - it makes it easier to find all of the things related to a string (or a Person) if they're attached to that type.
-</details>
 {{</note>}}
 
 Consider this free function called `drivers_license_check` which uses the Person class method `is_adult` outside of the class:

@@ -49,7 +49,7 @@ Have a look now at `02-playcomputer.py`.
 
 Read through this file and predict what it does.
 
-Leave a comment if you spot any errors.
+Leave a comment on any lines if you spot any errors, offering an explanation of the problem.
 
 {{</note>}}
 
