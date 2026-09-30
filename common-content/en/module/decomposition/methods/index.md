@@ -82,4 +82,3 @@ Change the `Person` class to take a date of birth (using [the standard library's
 
 Now update _only_ the `is_adult` method to fix the error and check everything works correctly.
 {{</note>}}
-

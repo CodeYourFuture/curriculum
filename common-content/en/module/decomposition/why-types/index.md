@@ -34,7 +34,7 @@ What if we did `double("hello")` instead? What do you expect it to return?
 
 How about `second(22)`? Should it treat 22 like a stringified version of the decimal representation of the number 22 and return 2? If so - `22` is the same as `0x16`. Should `second(0x16)` convert `0x16` to decimal before returning the second character? Or should it remember that the original number was input as hexadecimal and return `6`?
 
-## Intent
+### Intent
 
 The _intent_ of these functions is probably that `half` and `double` are expected to operate on numbers, and `second` is expected to operate on strings (and/or maybe lists). We don't know for sure what the author intended just by looking at the function names.
 
@@ -74,7 +74,7 @@ How easy was it to spot this bug in your testing?
 
 The code in this file was wrong. It could never have been correct. After a `fetch`, `response.body.toLowerCase()` _never_ makes sense. Ideally we shouldn't have needed to wait until running the code, and using that exact input, to find this out.
 
-## Types
+### Types
 
 This is where types come in.
 
@@ -83,9 +83,9 @@ Imagine if we could analyse our code and find out "You're calling `double` with 
 We wouldn't need to keep executing our program with lots of different inputs every time we change it. The type analysis could tell us "You have a bug here, you should fix it". Without having to run the program, and without having to think about different possible inputs.
 
 
-## Limits of type checking
+### Limits of type checking
 
-Types can be really useful for detecting bugs. But there are limits to what kind of bugs type checking can detect.
+Types can be really useful for detecting bugs. But there are limits to what kind of bugs type checking can detect. 
 
 {{<note type="exercise">}}
 **Task 3**:
@@ -100,5 +100,4 @@ Are there multiple ways you could fix it?
 {{</note>}}
 
 Type checking can't catch this type of bug - as long as you give it a number as input, it gives you a number as output. All of the types are correct. Not all bugs are type errors. But checking for type errors can get rid of a lot of them.
-
 

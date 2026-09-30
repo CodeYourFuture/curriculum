@@ -22,6 +22,8 @@ Look at file `13-refactor.py` as an example. It is a program that works out what
 
 Let's imagine we want to change our code. We don't want to say "Every person has one preferred operating system" any more. We want to let people have a list of operating systems they prefer (in order). So we could say "Imran prefers Ubuntu most of all, and then Arch Linux, but will not use macOS".
 
+The bigger (and more complicated) our codebase is, the more useful it is that mypy tells us what code needs changing. This is even more useful when we start working with code we didn't write ourselves, or we wrote long ago. Instead of needing to read all of the code and search around to try to work out where we need to change an `age` to `date_of_birth`, or how to access a single variable that has become a list of many, mypy can tell us "here are all of the places that are wrong".
+
 {{<note type="exercise">}}
 **Task 13**
 A copy of this file is present in `13-refactor.py`.
@@ -40,5 +42,3 @@ Fix all of the places that mypy tells you need changing.
 
 Then, make sure the program works as you'd expect.
 {{</note>}}
-
-The bigger (and more complicated) our codebase is, the more useful it is that mypy tells us what code needs changing. This is even more useful when we start working with code we didn't write ourselves, or we wrote long ago. Instead of needing to read all of the code and search around to try to work out where we need to change an `age` to `date_of_birth`, or how to access a single variable that has become a list of many, mypy can tell us "here are all of the places that are wrong".

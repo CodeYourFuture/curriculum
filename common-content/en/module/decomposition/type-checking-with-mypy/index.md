@@ -12,7 +12,7 @@ objectives = [
   render = "never"
 +++
 
-## Support for type checking
+### Support for type checking
 
 Different languages have different levels of support for checking types.
 
@@ -24,8 +24,8 @@ Some very low level machine languages like assembly don't have any typing at all
 
 Languages with optional type checking perform good checks when you add this type information. If you don't add type annotations in your code, they will perform fewer checks. Sometimes they will infer the correct types based on what you _have_ annotated. Other times they will just ignore code with no annotations and not give you errors about it even if it's wrong.
 
-## Trying out Mypy
-Mypy is a tool which enables type checking in Python code.
+### Trying out Mypy
+Mypy is a tool which enables type checking in Python code. It works best if you can build up a habit of integrating it into your workflow.
 
 {{<note type="Reading">}}
 Read the first sections of [The Comprehensive Guide to mypy](https://dev.to/tusharsadhwani/the-comprehensive-guide-to-mypy-561m) up to and including the "Any type" section.

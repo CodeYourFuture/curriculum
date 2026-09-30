@@ -92,4 +92,3 @@ Think of some examples and in your own words write down some benefits and trade-
 
 Working in file `09-encapsulation.py`, make the `name` field private, and add a `get_name()` method to allow read-only access.
 {{</note>}}
-

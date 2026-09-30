@@ -13,7 +13,7 @@ objectives = [
   render = "never"
 +++
 
-## A problem type checking can't spot
+### A problem type checking can't spot
 
 Sometimes we want to reason about more complicated type relationships than "this field is a string". Lists and dicts are examples of this. We may want to reason that every value in a list is a string.
 
@@ -34,7 +34,7 @@ In other languages, like Python and JavaScript, type information is _optional_. 
 
 That's what's happening in task 11. `FamilyTree.members` is a `list`, but mypy doesn't know what type of thing is in the list. It doesn't even know that everything in the list has the same type = `["hello", 7, True]` is a legal list in Python. Many people would consider a pet to be a member of the family, so it seems correct, but due to the different types, this code breaks down and mypy can't spot the problem.
 
-## Using Generics
+### Using Generics
 
 We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list. We could add an import and modify the `FamilyTree` class from task 11 as follows:
 
@@ -60,7 +60,7 @@ Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can
 > It's kind of annoying, but don't worry about it too much.
 
 
-## Writing our own classes that use generics
+### Writing our own classes that use generics
 
 The kind of relationship structure we created with families and members, a {{<tooltip title="Trees" text="tree">}}A list can store a linear array of values. A tree stores values in a heirarchy, like a family tree.{{</tooltip>}}, is common across many types of data, for example how species of animal are related to each other, or how a dictionary might store words.
 
