@@ -1,11 +1,11 @@
-{{/* This block expects a dict with: title, time OR a Size label, labels ([{name: str}]), learning_objectives, body (markdown), url */}}
+{{/* This block expects a dict with: title, time OR a Size label, labels ([{name: str}]), learning_objectives, body (markdown), optional url */}}
 {{/* It also expects a "submit" key if the task has a code */}}
 <section class="c-block c-block--issue">
   <header class="c-block__header">
     <h2
       class="c-block__title e-heading__2"
       id="{{ .title | urlize }}">
-      <a href="{{ .url }}">{{ .title }} 🔗</a>
+      {{ if .url }} <a href="{{ .url }}">{{ .title }} 🔗</a> {{ else }} {{ .title }} {{ end }}
     </h2>
     {{ if .time }}
       {{ partial "time.html" . }}
