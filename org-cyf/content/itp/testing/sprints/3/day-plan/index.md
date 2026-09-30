@@ -12,8 +12,8 @@ name="Energiser: Introduce Yourself"
 src="energisers/introduce-yourself"
 time=20
 [[blocks]]
-name="Workshop:Playing Computer"
-src="workshops/playing-computer"
+name="Workshop: DevTools"
+src="workshops/devtools"
 time=65
 [[blocks]]
 name="Morning break"
@@ -26,13 +26,17 @@ time=60
 name="lunch"
 src="blocks/lunch"
 [[blocks]]
+name="Problem Solving Workshop"
+src="https://codewars-workshops.codeyourfuture.io/problem-03/"
+time=60
+[[blocks]]
 name="Stand Up"
 src="blocks/standup"
 time=15
 [[blocks]] 
 name="Study Group"
 src="blocks/study-group"
-time=135
+time=75
 [[blocks]]
 name="Retro"
 src="blocks/retro"

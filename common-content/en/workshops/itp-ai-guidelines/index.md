@@ -16,7 +16,7 @@ Learning a new computing language is not a quick task, and software engineering 
 
 Building understanding is why we:
 
-- Prioritise feedback at all times with demos, pair programming, mock interviews, and pull request code reviews etc.
+- Prioritise feedback at all times with demos, mentored coding, mock interviews, and pull request code reviews etc.
 - Avoid giving answers and instead ask more questions when you have blockers in your work.
 - Run [Checkpoint](https://curriculum.codeyourfuture.io/checkpoint/) before people can progress to [SDC](https://curriculum.codeyourfuture.io/sdc/).
 - Build up your knowledge from fundamental HTML+CSS, into JavaScript, and then into wider and deeper computer concepts in the SDC.

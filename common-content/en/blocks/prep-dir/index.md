@@ -14,8 +14,9 @@ We will provide some code examples as you progress through the course but you wi
 ### Create a working directory for the module
 
 1. Fork the coursework module (always linked in every backlog), clone it to your laptop and open it in VSCode.
-2. In your VSCode terminal, navigate to the root of your project directory.
-3. Create a new directory called `prep` to store all the files you'll be working on for this module.
+2. Create or switch to a branch named `prep` and ensure that all your prep work is carried out on this branch.
+3. In your VSCode terminal, navigate to the root of your project directory.
+4. Create a new directory called `prep` to store all the files you'll be working on for this module.
 
 As you work through the module, you'll be creating files in this directory to code along with the prep content. You are expected to code along with the prep content.
 

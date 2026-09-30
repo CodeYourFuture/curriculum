@@ -4,5 +4,5 @@ description = 'The plan for this sprint'
 layout = 'sprint'
 menu_level = ['module']
 weight = 1
-theme = "Programming fundamentals"
+theme = "Testing our code"
 +++
