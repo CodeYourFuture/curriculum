@@ -1,8 +1,8 @@
 +++
-title = "Type-guided refactorings"
+title = "Type-guided refactoring"
 time = 30
 objectives = [
-  "Explain how type annotations and type checking can guide refactorings.",
+  "Explain how type annotations and type checking can guide refactoring.",
   "Use mypy to guide a refactoring.",
 ]
 
@@ -75,7 +75,7 @@ Try changing the type annotation of `Person.preferred_operating_system` from `st
 
 Run mypy on the code.
 
-It tells us different places that our code is now wrong. Fix it to remov eany errors.
+It tells us different places that our code is now wrong. Fix it to remove any errors.
 
 Now we changed the types, we probably also want to _rename_ our fields to something appropriate.
 

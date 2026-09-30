@@ -129,7 +129,7 @@ In python, any class property that begins with two underscores is considered _pr
 >
 > Using underscores, Python doesn't have a clear way of marking something as private.
 > Other programming languages like Java mark this more explicitly with keywords like "private" and "public".
-> It's worth becoming familair with this private/public language even if you're not using it right now.
+> It's worth becoming familiar with this private/public language even if you're not using it right now.
 >
 
 You can now program classes to change behaviour based on the information stored within them.

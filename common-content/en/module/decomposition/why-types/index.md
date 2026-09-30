@@ -29,7 +29,7 @@ Then try running the file and see what happens.
 
 In that file, is `half("22")` hoping to return 11 (because the string should be converted to a number)? Or return 2 (because it's the first half of the string)? Or error, because it doesn't make sense?
 
-What if we tried to run `half("hello")`? Try to give part of a word, or error because it can'tbe split evenly in half? Does this input even make sense?
+What if we tried to run `half("hello")`? Try to give part of a word, or error because it can't be split evenly in half? Does this input even make sense?
 What if we did `double("hello")` instead? What do you expect it to return?
 
 How about `second(22)`? Should it treat 22 like a stringified version of the decimal representation of the number 22 and return 2? If so - `22` is the same as `0x16`. Should `second(0x16)` convert `0x16` to decimal before returning the second character? Or should it remember that the original number was input as hexadecimal and return `6`?

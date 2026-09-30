@@ -127,7 +127,7 @@ Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can
 
 The kind of relationship structure we created with families and members, a {{<tooltip title="Trees" text="tree">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}}, is common across many types of data, for example how species of animal are related to each other, or how a dictionary might store words.
 
-Thinking about keeping our code reusable, is there a way we could define such structures, and be able to force them to work with certain types, without needing to write a special class for each individual data type? Just like lists can takea generic to force them to be a certain type, we can write classes that accept generics.
+Thinking about keeping our code reusable, is there a way we could define such structures, and be able to force them to work with certain types, without needing to write a special class for each individual data type? Just like lists can take a generic to force them to be a certain type, we can write classes that accept generics.
 
 Look at the following code:
 
@@ -173,7 +173,7 @@ The Tree here has a special type annotation given by `T`. This is a generic, tel
 
 Observe that we then create two different trees: a `Tree<Person>` and a `Tree<Animal>`. In these trees, the parent and list of children must contain `Person` and `Animal` types respectively.
 
-It also means instead of having to create a new function torpint out every single tree type, we can create a single function - `Tree.print_tree()`.
+It also means instead of having to create a new function to print out every single tree type, we can create a single function - `Tree.print_tree()`.
 
 {{<note type="exercise">}}
 **Task 12**
