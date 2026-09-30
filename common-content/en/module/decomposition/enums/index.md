@@ -5,7 +5,7 @@ objectives = [
   "Identify risks of using strings to represent data.",
   "Define an enum.",
   "Explain how an enum addresses the risks of using strings to represent data.",
-  "Write code which checks string validity once, and then uses type-checking to avoid further validity checks.",
+  "Write code which validates input and then uses appropriate enums.",
 ]
 
 [build]

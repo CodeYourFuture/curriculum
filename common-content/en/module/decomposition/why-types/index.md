@@ -2,6 +2,7 @@
 title = "Why we use types"
 time = 30
 objectives = [
+  "Explain what a type is.",
   "Explain how type annotations help understand a function's expectations.",
   "Explain how type annotations help prevent bugs.",
 ]
