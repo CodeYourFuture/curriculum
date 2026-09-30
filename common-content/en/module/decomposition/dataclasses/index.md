@@ -73,7 +73,7 @@ Other languages have a similar idea of a value type, and tools to help make them
 
 {{<note type="exercise">}}
 
-**Task 9**
+**Task 10**
 
 Work in file `09-implement.py` for this task.
 

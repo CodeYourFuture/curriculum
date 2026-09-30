@@ -5,8 +5,8 @@ objectives = [
   "Define a method.",
   "Define a free function.",
   "Explain why methods can be more useful than free functions.",
-  "Explain how encapsulation can benefit class design.",
   "Amend a method on a class.",
+  "Explain how encapsulation can benefit class design.",
 ]
 
 [build]
@@ -87,11 +87,71 @@ Work inside the `08-implement.py` file for this task.
 1. Update the `is_adult` method so the error is fixed. Using the `drivers_license_check` function check everything runs as expected, it should return "Valid drivers license". _You should not change `drivers_license_check`_.
 {{</note>}}
 
-{{<note type="Encapsulation in play 👀">}}
-Take a moment to consider what we've done here. How has **encapsulation** helped us make changes to our class?
 
-We've changed a property of Person, seen errors inform us about how that change affected a method on the class, and then amended that method so we were maintaining the behaviour of the class. The behaviour of `drivers_license_check` did not need to change - we can change the internal implementation of the class without affecting external code.
 
-_Encapsulation is a widely known principle in object-oriented programming, consider reading around online to find out more_
+## Encapsulation
 
+An advantage of classes over objects is encapsulation.
+
+Imagine you have written your Person class that stores age information.
+
+For privacy reasons, you don't want to reveal the exact age of the person, only whether they are or are not over 18 years old.
+
+This means we need to store the "age" value in a class, but somehow keep it _private_ to that class. The only _public_ information we want is whether or not they are over 18. How can we achieve this?
+
+Look at the following code:
+
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.__age = age
+        
+    def is_adult(self):
+      return self.__age >= 18
+
+imran = Person("Imran", 22)
+print(imran.name)
+# print(imran.age) # fails
+# print(imran.__age) # fails
+print(imran.is_adult()) # works and prints True
+
+eliza = Person("Eliza", 12)
+print(eliza.name)
+# print(eliza.age) # fails
+# print(imran.__age) # fails
+print(eliza.is_adult()) # works and prints False
+```
+
+In python, any class property that begins with two underscores is considered _private_, i.e. it can only be used within that specific class instance.
+
+> [!NOTE]
+>
+> Using underscores, Python doesn't have a clear way of marking something as private.
+> Other programming languages like Java mark this more explicitly with keywords like "private" and "public".
+> It's worth becoming familair with this private/public language even if you're not using it right now.
+>
+
+You can now program classes to change behaviour based on the information stored within them.
+Compare this with objects, which can only ever store data, and behave the same every time.
+
+Another benefit of encapsulation is letting you make "read only" properties.
+Think about the example above.
+Imagine you wanted to check if a `Person` class had a certain name using an equality test, but accidentally only used a single `=` symbol:
+```python
+imran.name = "Eliza"
+```
+Python allows you to change properties whenever you want.
+If `name` were private, and the only way to access it was through a `get_name()` method that returns a string, it would be impossible to accidentally change the value.
+In this way, encapsulation can be used to prevent accidental errors in code.
+
+{{<note type="exercise">}}
+**Task 9**
+
+Start by reading [Python encapsulation](https://www.w3schools.com/python/python_encapsulation.asp) and think about some of the benefits that encapsulation can add to a class.
+
+Do some further research of your own to learn about encapsulation.
+
+Think of some examples and in your own words write down some benefits and trade-offs of using encapsulation in classes in the file `09-encapsulation.txt`
 {{</note>}}
+

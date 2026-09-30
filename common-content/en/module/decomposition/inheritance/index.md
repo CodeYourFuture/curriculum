@@ -99,7 +99,7 @@ The method implementations are different for the two classes. They have differen
 
 {{<note type="exercise">}}
 
-**Task 14**
+**Task 15**
 
 A copy of this code is in file `14-analyse.py`
 
@@ -129,7 +129,7 @@ Inheritance is a great way of helping you achieve this.
 
 
 {{<note type="exercise">}}
-**Task 15**
+**Task 16**
 
 Look at file `15-playcomputer.py`
 

@@ -53,7 +53,7 @@ print_family_tree(family)
 ```
 
 {{<note type="exercise">}}
-**Task 10**
+**Task 11**
 Have a look at the above code, you can find a copy in `10-predict.py`
 
 There is a bug in this code. Can you spot it?
@@ -176,7 +176,7 @@ Observe that we then create two different trees: a `Tree<Person>` and a `Tree<An
 It also means instead of having to create a new function torpint out every single tree type, we can create a single function - `Tree.print_tree()`.
 
 {{<note type="exercise">}}
-**Task 11**
+**Task 12**
 Experiment with mypy and make sure that the family tree only takes `Person` types and the species tree only takes `Animal` types.
 
 We are going to improve the printing in the above code, you can find a copy in `11-fix.py`

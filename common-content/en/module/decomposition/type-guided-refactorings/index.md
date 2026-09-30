@@ -68,7 +68,7 @@ for person in people:
 Let's imagine we want to change our code. We don't want to say "Every person has one preferred operating system" any more. We want to let people have a list of operating systems they prefer (in order). So we could say "Imran prefers Ubuntu most of all, and then Arch Linux, but will not use macOS".
 
 {{<note type="exercise">}}
-**Task 12**
+**Task 13**
 A copy of this file is present in `12-refactor.py`.
 
 Try changing the type annotation of `Person.preferred_operating_system` from `str` to `List[str]`.
