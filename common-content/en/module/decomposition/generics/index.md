@@ -13,75 +13,128 @@ objectives = [
   render = "never"
 +++
 
+### A problem type checking can't spot
+
 Sometimes we want to reason about more complicated type relationships than "this field is a string". Lists and dicts are examples of this. We may want to reason that every value in a list is a string.
 
-Consider this code:
-
-```python
-from dataclasses import dataclass
-
-@dataclass(frozen=True)
-class Person:
-    name: str
-    children: list
-
-fatma = Person(name="Fatma", children=[])
-aisha = Person(name="Aisha", children=[])
-
-imran = Person(name="Imran", children=[fatma, aisha])
-
-def print_family_tree(person: Person) -> None:
-    print(person.name)
-    for child in person.children:
-        print(f"- {child.name} ({child.age})")
-
-print_family_tree(imran)
-```
+{{<note type="exercise">}}
+**Task 11**
+Have a look at the code in `11-predict.py`
 
 There is a bug in this code. Can you spot it?
 
 Run your code through mypy. Does mypy spot it?
 
+Offer an explanation for what is happening.
+{{</note>}}
+
 In some languages, like Java, C#, Rust, or Go, type information is _required_ - you can't write code without it. This means those languages can do more checks, and give better error messages. We call these {{<tooltip text="statically typed languages" title="Static typing">}}A statically typed language is a language where every variable has a fixed type. It is an error to try to assign a value to a variable with a different type.{{</tooltip>}}
 
 In other languages, like Python and JavaScript, type information is _optional_. Because of this, tools that check types are sometimes less strict. If they don't know what type something has, they stop doing any checks.
 
-That's what's happening here. `Person.children` is a `list`, but mypy doesn't know what type of thing is in the list. It doesn't even know that everything in the list has the same type = `["hello", 7, True]` is a legal list in Python.
+That's what's happening in task 11. `FamilyTree.members` is a `list`, but mypy doesn't know what type of thing is in the list. It doesn't even know that everything in the list has the same type = `["hello", 7, True]` is a legal list in Python. Many people would consider a pet to be a member of the family, so it seems correct, but due to the different types, this code breaks down and mypy can't spot the problem.
 
-We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list:
+### Using Generics
 
-```python {linenos=table}
+We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list. We could add an import and modify the `FamilyTree` class from task 11 as follows:
+
+```python
+from typing import List
+
+@dataclass(frozen=True)
+class FamilyTree:
+    parent: Person
+    members: List[Person]
+```
+
+Try updating your code for task 11 with this change and see if mypy spots the problem
+
+Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can identify that the `child` variable printed out must be of type `Person`. Because of this, it can tell us that `child.age` on doesn't exist when the pet is accidentally included in the list.
+
+
+> [!NOTE]
+>
+> I you want to _recursively_ reference a type within a class, we need to quote it for mypy to recognise it.
+> So for example, if we wanted a `Person` object to include a list of children, we would write it as `List["Person"]`.
+>
+> It's kind of annoying, but don't worry about it too much.
+
+
+### Writing our own classes that use generics
+
+The kind of relationship structure we created with families and members, a {{<tooltip title="Trees" text="tree">}}A list can store a linear array of values. A tree stores values in a heirarchy, like a family tree.{{</tooltip>}}, is common across many types of data, for example how species of animal are related to each other, or how a dictionary might store words.
+
+Thinking about keeping our code reusable, is there a way we could define such structures, and be able to force them to work with certain types, without needing to write a special class for each individual data type? Just like lists can take a generic to force them to be a certain type, we can write classes that accept generics.
+
+Look at the following code:
+
+```python
 from dataclasses import dataclass
 from typing import List
 
 @dataclass(frozen=True)
+class Animal:
+    name: str
+    size: str
+
+@dataclass(frozen=True)
 class Person:
     name: str
-    children: List["Person"]
+    age: int
 
-fatma = Person(name="Fatma", children=[])
-aisha = Person(name="Aisha", children=[])
+@dataclass(frozen=True)
+class Tree[T]:
+    parent: T
+    children: List[T]
 
-imran = Person(name="Imran", children=[fatma, aisha])
+    def print_tree(self):
+        print(self.parent)
+        for child in self.children:
+            print(child)
 
-def print_family_tree(person: Person) -> None:
-    print(person.name)
-    for child in person.children:
-        print(f"- {child.name} ({child.age})")
+fatma = Person(name="Fatma", age=4)
+aisha = Person(name="Aisha", age=6)
+imran = Person(name="Imran", age=30)
+family_tree = Tree[Person](parent=imran, children=[fatma, aisha])
 
-print_family_tree(imran)
+cats = Animal(name="Cat", size="Small")
+dogs = Animal(name="Dog", size="Medium")
+mammals = Animal(name="Mammals", size="Variable")
+species_tree = Tree[Animal](parent=mammals, children=[cats, dogs])
+
+family_tree.print_tree()
+species_tree.print_tree()
 ```
 
-Run this code through mypy.
+The Tree here has a special type annotation given by `T`. This is a generic, telling python that whatever type is given, every reference to `T` within the class becomes that type.
 
-Now that we've told mypy `Person.children` is a list of type `Person` (line 7), it can identify that the `child` variable on line 16 is of type `Person`. Because of this, it can tell us that `child.age` on line 17 doesn't exist.
+Observe that we then create two different trees: a `Tree<Person>` and a `Tree<Animal>`. In these trees, the parent and list of children must contain `Person` and `Animal` types respectively.
 
-> [!NOTE]
->
-> Most generics don't need the types to be quoted. Normally you'd just write `List[Person]`. But inside a type definition itself (i.e. inside the `Person` class), the `Person` type doesn't exist yet, so we need to quote it.
->
-> It's kind of annoying, but don't worry about it too much.
+It also means instead of having to create a new method to print out every single tree type, we can create a single method - `Tree.print_tree()`.
 
 {{<note type="exercise">}}
-Fix the above code so that it works. You must not change the `print` on line 17 - we _do_ want to print the children's ages. (Feel free to invent the ages of Imran's children.)
+**Task 12**
+
+We are going to improve the printing of the code in the file in `12-fix.py`.
+
+Experiment with mypy and make sure that the family tree only takes `Person` types and the species tree only takes `Animal` types.
+
+Currently the `Tree.print_tree()` method doesn't look very pretty.
+
+Update the code, using __str__ methods in `Animal` and `Person` to allow the `Tree.print_tree()` method to display an output that looks like this:
+
+```
+Imran (30 years old)
+- Fatma (4 years old)
+- Aisha (6 years old))
+Mammals (Variable size)
+- Cat (Small size)
+- Dog (Medium size)
+```
+
+**Stretch task**
+
+Think of another type of data that can be organised into a tree.
+
+Add a new class for this, instantiate some variables, and have the existing `Tree` class print it out.
 {{</note>}}
