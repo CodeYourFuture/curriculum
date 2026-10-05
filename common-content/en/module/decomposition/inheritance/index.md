@@ -40,6 +40,7 @@ Q2: If you know in advance you will be initialising many of them repeatedly, whi
 <details>
 
 <summary>Expand for some answers after you've listed your own.</summary>
+
 Q1: `SortedImmutableNumberList` sorts the numbers in advance, and the method implementation for largest item only needs to look at the final item of the sorted list. This means accessing it is faster.
 Q2: `ImmutableNumberList` doesn't need to sort the numbers immediately on creation. If you only intended to use `first` and `last`, it may be faster.
 
