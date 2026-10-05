@@ -3,8 +3,7 @@ title = "Why we use types"
 time = 30
 objectives = [
   "Explain what a type is.",
-  "Explain how type annotations help understand a function's expectations.",
-  "Explain how type annotations help prevent bugs.",
+  "Demonstrate why knowing types can help prevent bugs.",
 ]
 
 [build]
@@ -16,7 +15,7 @@ objectives = [
 
 In real life, as well as programming, there are some impossible operations. Can you divide seven by yellow? Can you set fire to a sound? These don't make sense. The same is true in programming.
 
-Throughout this sprint we are going to look at some code which you can find in the file `SDC-Tools/sprint-5` directory of [the Module-Tools repository](https://github.com/CodeYourFuture/Module-Tools).
+Throughout this sprint we are going to look at some code which you can find in the `types` directory of [the Module-Tools repository](https://github.com/CodeYourFuture/Module-Tools).
 
 {{<note type="exercise">}}
 **Task 1**
@@ -46,7 +45,7 @@ In such a simple program as in `01-predict.py`, it's easy for us to run the prog
 {{<note type="exercise">}}
 **Task 2**
 
-Have a look now at `02-playcomputer.py`.
+Have a look now at `02-playcomputer.js`.
 
 Read through this file and predict what it does.
 
@@ -57,7 +56,7 @@ Leave a comment on any lines if you spot any errors, offering an explanation of 
 How many errors did you find in your testing? There is one big bug here which doesn't always show. `response.body` is a _stream_ not a _string_. So if a user ever tries to fetch a URL which returns a non-200 status code, our program will crash:
 
 ```console
-% node fetch.js
+% node 02-playcomputer.js
 What URL should we fetch?
 > http://www.google.com/beepboop
 file:///Users/dwh/tmp/jsplay/fetch.js:12
