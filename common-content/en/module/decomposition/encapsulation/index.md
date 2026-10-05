@@ -92,3 +92,29 @@ Think of some examples and in your own words write down some benefits and trade-
 
 Working in file `09-encapsulation.py`, make the `name` field private, and add a `get_name()` method to allow read-only access.
 {{</note>}}
+
+### Why encapsulate?
+
+In your career you will rarely be building code used only once.
+It is likely the code you write will sit alongside code written by others as part of a large long-lived codebase.
+Classes and encapsulation are really important techniques as you move towards thinking about how others will use your code, and how you plan to make your code maintainable and reusable for future use.
+
+Classes with encapsulation clearly define the outward-facing interface of what you are building.
+Think about the documentation you may have read for well-defined APIs like [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) or [argparse](https://docs.python.org/3/library/argparse.html).
+You don't need to know how they work internally to make use of them, and the methods and their parameters are clearly stated.
+If `argparse` is updated, e.g. to make it more efficient, your code won't break as the public interface won't change.
+If `fetch` is changed, e.g. adding a new parameter, type checking will immediately highlight everywhere you need to update your code.
+
+Encapsulation also makes it easy to swap different implementations.
+Imagine you started a big project with a python `dict` but later on needed to change it to an [OrderedDict](https://docs.python.org/3/library/collections.html#collections.OrderedDict).
+The interfaces are almost exactly the same, so you wouldn't need to change any of the method invocations, making the change much easier and safer.
+
+Encapsulation also helps with testing.
+Only the public interface, methods and properties, need to be tested.
+You can write the test before you start using test-driven development, defining the public interface and behaviour.
+Then you can focus on the implementation inside, and when the test passes you know your class works.
+Testing a single class with a well defined interface is much easier than needing to test lots of interconnected separate free functions.
+
+Until now you have been solving small coding challenges with the aim of solving the specific task.
+From now on you will start to think more about how you can build a solution that will adapt well to future changes.
+Well defined classes that encapsulate your implementations will be a big help.
