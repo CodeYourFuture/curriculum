@@ -34,7 +34,6 @@
     {{ $moduleBacklogTasksSprint := partial "slices/find-by-key.html" (dict "slice" $moduleData.sprints "key" "name" "target_value" nil "default" (dict "backlog_tasks" slice)) }}
     {{ range $type, $issues := (dict "sprint" $sprintData.backlog_tasks "module" $moduleBacklogTasksSprint.backlog_tasks) }}
       {{ range $issue := $issues }}
-        {{ $github_issue_number := int (index (last 1 (split $issue.github_html_url "/")) 0) }}
         {{ $labels := dict "nodes" slice }}
         {{ if eq $type "module" }}
           {{ $labels = dict "nodes" (slice (dict "name" "Module")) }}
@@ -51,7 +50,14 @@
         {{ if $time }}
           {{ $time = mul $time 60 }}
         {{ end }}
-        {{ $issueBlocks = $issueBlocks | append (dict "name" $issue.title "src" (printf "portal-issue://%s" $issue.github_html_url) "number" $github_issue_number "labels" $labels "repo" $repoName "body" $issue.body "learning_objectives" $issue.learning_outcomes "time" $time "code" $issue.code "submit" $issue.submit "Page" $page) }}
+        {{ $issueDict := (dict "name" $issue.title "labels" $labels "repo" $repoName "body" $issue.body "learning_objectives" $issue.learning_outcomes "time" $time "code" $issue.code "submit" $issue.submit "Page" $page) }}
+        {{ if $issue.github_html_url }}
+          {{ $issueDict = merge $issueDict (dict "src" (printf "portal-issue://%s" $issue.github_html_url)) }}
+        {{ else }}
+          {{/* For issues without a matching GitHub URL we just give a scheme showing where they're from (so blocks can know what block kind to render), and let blocks detect the empty-ness of the suffix if they want to condition behaviour on whether there's a GitHub issue link. */}}
+          {{ $issueDict = merge $issueDict (dict "src" (printf "portal-issue://")) }}
+        {{ end }}
+        {{ $issueBlocks = $issueBlocks | append $issueDict }}
       {{ end }}
     {{ end }}
   {{ end }}

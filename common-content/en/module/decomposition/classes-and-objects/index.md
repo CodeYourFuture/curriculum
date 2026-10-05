@@ -81,8 +81,8 @@ The method called `__init__` is called a constructor - it is what is called when
 
 {{<multiple-choice
   question="What of the following best describes an 'instance' of a class?"
-  answers="The variables that are accessed using self, like `self.name` | An object with properties set to values passed into the constructor of a class | The __init__ method that takes some values as arguments | A description of what a class contains"
-  feedback=" No, these are called properties | Yes, an instance is an object representing one specific copy of a class | __init__ is the constructor of a class in python | No, a class already is a description. An instance is more specific."
+  answers="The variables that are accessed using self, like `self.name` | An object with properties set to values passed into the constructor of a class | The `__init__` method that takes some values as arguments | A description of what a class contains"
+  feedback=" No, these are called properties | Yes, an instance is an object representing one specific copy of a class | `__init__` is the constructor of a class in python | No, a class already is a description. An instance is more specific."
   correct="1" >}}
 
 

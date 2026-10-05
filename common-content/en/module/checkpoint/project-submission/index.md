@@ -26,6 +26,7 @@ For all projects in the Checkpoint:
 * You have a copy of the rubric for each project - this is how we will test your project. Your project must meet _all_ criteria in order to pass. We **highly recommend** that you run through the test steps yourself just before submitting the project.
 * We expect you to include a file named `TESTING.md` in your repository. For each rubric point, you should include an entry in your `TESTING.md` explaining how you tested that rubric item.
   * For at least one rubric point, the answer must be "Unit tests in `[some filename]`".
+* Your project must not contain any dead code. All written JavaScript and CSS must be used.
 * You will get instructions for when and how to submit your projects on Slack.
 * When you submit your project, you must include the git sha of the commit you're submitting. You can get this by going to your project in GitHub, and looking at the latest commit (see screenshot below). If you want to submit a different sha than the latest one, you can open the list of commits, and copy the sha associated with that commit.
   * Once you submit your project, any changes you make after will be ignored for assessing the project. Do not submit the project until you are sure it's complete.
