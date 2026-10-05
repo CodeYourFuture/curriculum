@@ -44,7 +44,7 @@ Q1: `SortedImmutableNumberList` sorts the numbers in advance, and the method imp
 Q2: `ImmutableNumberList` doesn't need to sort the numbers immediately on creation. If you only intended to use `first` and `last`, it may be faster.
 
 Of course, it all depends on which functionality you think you will need.
-You will learn more about these efficiency concepts in the upcoming complexity module.
+You will learn more about these efficiency concepts in the Complexity module.
 
 </details>
 {{</note>}}
