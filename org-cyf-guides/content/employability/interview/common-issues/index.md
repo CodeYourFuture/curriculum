@@ -14,13 +14,13 @@ Every Tuesday evening and Friday morning CYF hosts demo/presentation practice se
 
 ## Problem solving / Turning ideas into code
 
-Mentored Pair Programming sessions are great ways to practice problem solving skills. They're organised in [#cyf-pair-programming on Slack](https://codeyourfutur-yov6609.slack.com/archives/C07PA66MQMC).
+Mentored Coding sessions are great ways to practice problem solving skills. They're organised in [#cyf-mentored-coding on Slack](https://codeyourfutur-yov6609.slack.com/archives/C07PA66MQMC).
 
 Trainees can also practice exercises on their own on [Codewars](https://www.codewars.com/) (which they should be used to). We strongly encourage people to make a plan, write it down, test it by hand with examples, then turn it into code.
 
 ## Code explanation
 
-Mentored Pair Programming sessions are great ways to practice code explanation skills. They're organised in [#cyf-pair-programming on Slack](https://codeyourfutur-yov6609.slack.com/archives/C07PA66MQMC).
+Mentored Coding sessions are great ways to practice code explanation skills. They're organised in [#cyf-mentored-coding on Slack](https://codeyourfutur-yov6609.slack.com/archives/C07PA66MQMC).
 
 ## CV tailoring
 

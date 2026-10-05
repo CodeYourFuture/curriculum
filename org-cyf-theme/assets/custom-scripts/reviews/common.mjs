@@ -13,7 +13,7 @@ function identifyAge(date) {
     }
 }
 
-const apiPrefix = "https://github-issue-proxy.hosting.codeyourfuture.io/cached/2/repos/CodeYourFuture";
+const apiPrefix = "https://github-issue-proxy.hosted.codeyourfuture.io/cached/2/repos/CodeYourFuture";
 
 // PR Title format is 1 Location 2 Cohort 3 Name 4 Sprint # 5 taskname
 const prTitleParse = new RegExp(/.+\|.+\|.+\|[\D]+?(\d)\s*\|\s*(.+)/i);
