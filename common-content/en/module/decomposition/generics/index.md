@@ -54,7 +54,7 @@ Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can
 
 > [!NOTE]
 >
-> I you want to _recursively_ reference a type within a class, we need to quote it for mypy to recognise it.
+> If you want to _recursively_ reference a type within a class, we need to quote it for mypy to recognise it.
 > So for example, if we wanted a `Person` object to include a list of children, we would write it as `List["Person"]`.
 >
 > It's kind of annoying, but don't worry about it too much.
