@@ -14,7 +14,7 @@ objectives = [
   render = "never"
 +++
 
-In this prep we have seen how add methods to classes to encapsulate functionality. We have seen how to use generics to force classes to work with certain types. Keeping code reusability and maintainability in mind, what if we wanted to add a new class that did mostly the same as an existing class, but with some slight changes?
+In this prep we have seen how to add methods to classes to encapsulate functionality. We have seen how to use generics to force classes to work with certain types. Keeping code reusability and maintainability in mind, what if we wanted to add a new class that did mostly the same as an existing class, but with some slight changes?
 
 Classes can _extend_ other classes to share most of their functionality but add or replace some of it. A class that carries over something from another class is called _inheritance_.
 
