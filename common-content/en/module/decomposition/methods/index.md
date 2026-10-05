@@ -60,7 +60,7 @@ Consider this free function called `drivers_license_check` which uses the Person
 
 ```python
 def drivers_license_check(person: Person):
-  if person.is_adult() == True:
+  if person.is_adult():
     return 'Valid drivers license'
 
   return 'This person is underage!'
