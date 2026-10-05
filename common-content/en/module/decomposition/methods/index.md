@@ -76,7 +76,7 @@ Work inside the `08-implement.py` file for this task.
 
 Add an `is_adult` method into the class, and make sure your code gives the expected output.
 
-Change the `Person` class to take a date of birth (using [the standard library's `datetime.date` class](https://docs.python.org/3/library/datetime.html#datetime.date)) and store the `date of birth` instead of `age`.
+Change the `Person` class to take a date of birth (using [the standard library's `datetime.date` class](https://docs.python.org/3/library/datetime.html#datetime.date)) and store the `date_of_birth` instead of `age`.
 
 **Try to run your code now** and observe how this change breaks your code. What kind of error do you get? Is it helpful in identifying where your next change needs to be?
 
