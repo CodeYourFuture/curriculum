@@ -16,4 +16,4 @@ It is likely you will want to create different versions of your CV highlighting 
 
 > [!NOTE]
 >
-> CodeYourFuture has [an automated CV feedback tool](https://cv-eval.hosting.codeyourfuture.io/) which can help you improve your CV. Make sure to run your CV through this tool and act on its feedback (ideally before getting a volunteer to review it). If you're not sure about any of the feedback, reach out on Slack in [#cyf-profile-review](https://codeyourfutur-yov6609.slack.com/archives/C07PK9JUVUL).
+> CodeYourFuture has [an automated CV feedback tool](https://cv-eval.hosted.codeyourfuture.io/) which can help you improve your CV. Make sure to run your CV through this tool and act on its feedback (ideally before getting a volunteer to review it). If you're not sure about any of the feedback, reach out on Slack in [#cyf-profile-review](https://codeyourfutur-yov6609.slack.com/archives/C07PK9JUVUL).
