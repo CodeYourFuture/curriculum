@@ -86,6 +86,11 @@ from = "/curriculum-team-meeting-agenda"
 to = "https://docs.google.com/document/d/1JQ9Wz_E9VRumqOf8tjLh9Ngt_UgNSlOQhARE6CxY1hg/edit"
 status = 302
 
+[[redirects]]
+from = "/student-email-form"
+to = "https://docs.google.com/forms/d/e/1FAIpQLSeYr9i3CA49QTJ3icE37gnxc0CFmMXThL2TtjJsegZpVquthA/viewform"
+status = 302
+
 [functions]
 directory = "tooling/netlify/functions"
 external_node_modules = ["node-fetch"]
