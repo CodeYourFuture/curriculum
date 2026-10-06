@@ -1,6 +1,5 @@
 +++
 title = "Prep"
-description = "Overview description of the prep work for the sprint"
 layout = "prep"
 menu_level = ["sprint"]
 weight = 1
@@ -17,16 +16,19 @@ src = "module/decomposition/classes-and-objects"
 name = "Methods"
 src = "module/decomposition/methods"
 [[blocks]]
+name = "Encapsulation"
+src = "module/decomposition/encapsulation"
+[[blocks]]
 name = "Dataclasses"
 src = "module/decomposition/dataclasses"
 [[blocks]]
 name = "Generics"
 src = "module/decomposition/generics"
 [[blocks]]
-name = "Type-guided refactorings"
+name = "Type-guided refactoring"
 src = "module/decomposition/type-guided-refactorings"
 [[blocks]]
-name = "enums"
+name = "Enums"
 src = "module/decomposition/enums"
 [[blocks]]
 name = "Inheritance"
