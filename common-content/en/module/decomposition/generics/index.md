@@ -5,6 +5,7 @@ objectives = [
   "Define a generic type.",
   "Explain why generics are useful.",
   "Use a generic in a type annotation.",
+  "Create your own generics.",
 ]
 
 [build]
@@ -13,12 +14,12 @@ objectives = [
   render = "never"
 +++
 
-### A problem type checking can't spot
-
-Sometimes we want to reason about more complicated type relationships than "this field is a string". Lists and dicts are examples of this. We may want to reason that every value in a list is a string.
+### Limitations of Type Annotations
+Sometimes we want to reason about more complicated type relationships than "this field is a string". Lists and dictionaries are examples of this. We may want to reason that every value in a list is a certain type. We could model a family as being a list of members all of type `Person`, for instance.
 
 {{<note type="exercise">}}
 **Task 11**
+
 Have a look at the code in `11-predict.py`
 
 There is a bug in this code. Can you spot it?
@@ -39,12 +40,10 @@ That's what's happening in task 11. `FamilyTree.members` is a `list`, but mypy d
 We can use {{<tooltip title="Generic types" text="generics">}}A list could store numbers, or strings. We use generic types to say which type a particular instance of a list stores. Even though we can have a list of strings, and a list of numbers, the code for finding the first element is the same. But knowing that a list _only_ contains strings is useful.{{</tooltip>}} to tell mypy what type of thing is in the list. We could add an import and modify the `FamilyTree` class from task 11 as follows:
 
 ```python
-from typing import List
-
 @dataclass(frozen=True)
 class FamilyTree:
     parent: Person
-    members: List[Person]
+    members: list[Person]
 ```
 
 Try updating your code for task 11 with this change and see if mypy spots the problem
@@ -60,7 +59,39 @@ Now that we've told mypy `FamilyTree.members` is a list of type `Person`, it can
 > It's kind of annoying, but don't worry about it too much.
 
 
-### Writing our own classes that use generics
+
+### Generic Functions
+
+You have seen how we can use generics in type annotations. But what if we wanted to make the code we write support generics as well?
+
+Think about a common task you may have done, getting the last element from a list. You can do this using indexing: `[-1]`.
+It should be pretty simple to turn this into a free function, but how do we annotate the types?
+This function needs to work with any typed list, not just lists of integers or strings.
+It would be too much work to write a separate function for every possible type of list.
+
+Instead, we write a _generic function_.
+To make a generic function we pick a symbol, like the letter `T`, to represent a given type.
+After the function name, we add {{<tooltip text="type parameters" title="Type Parameters">}}Just like you can define parameters for the values passed to a function, you can define parameters that describe the generic types used within a function. These come before the main parameters and use square brackets: `[T]`. Some languages use angle brackets instead: `<T>`.{{</tooltip>}} the function using `[T]`.
+From then on, everywhere in the function that has a `T` becomes the given type.
+
+Here is an example of a generic function:
+
+```py
+def get_last[T](my_list: list[T]) -> T:
+  return -1
+
+get_last([0,1,2,3,4,5])
+get_last(["a","b","c"])
+```
+
+This function contains a bug.
+Mypy can find the error that this function always returns an integer, rather than returning the same type as is held in the list.
+In this way we can write a generic free function that can be used with any type, and which works well with mypy.
+
+
+### Writing a Generic Class
+
+We're starting to move beyond writing free functions, though. How does this work with classes?
 
 The kind of relationship structure we created with families and members, a {{<tooltip title="Trees" text="tree">}}A list can store a linear array of values. A tree stores values in a heirarchy, like a family tree.{{</tooltip>}}, is common across many types of data, for example how species of animal are related to each other, or how a dictionary might store words.
 
@@ -70,7 +101,6 @@ Look at the following code:
 
 ```python
 from dataclasses import dataclass
-from typing import List
 
 @dataclass(frozen=True)
 class Animal:
@@ -85,7 +115,7 @@ class Person:
 @dataclass(frozen=True)
 class Tree[T]:
     parent: T
-    children: List[T]
+    children: list[T]
 
     def print_tree(self):
         print(self.parent)
@@ -106,9 +136,9 @@ family_tree.print_tree()
 species_tree.print_tree()
 ```
 
-The Tree here has a special type annotation given by `T`. This is a generic, telling python that whatever type is given, every reference to `T` within the class becomes that type.
+The Tree here has the type paramter `T`. Just like with a generic function, this tells python that every reference to `T` within the class becomes a given type.
 
-Observe that we then create two different trees: a `Tree<Person>` and a `Tree<Animal>`. In these trees, the parent and list of children must contain `Person` and `Animal` types respectively.
+See we then create two different trees: a `Tree[Person]` and a `Tree[Animal]`. In these trees, the parent and list of children must contain `Person` and `Animal` types respectively.
 
 It also means instead of having to create a new method to print out every single tree type, we can create a single method - `Tree.print_tree()`.
 
@@ -121,12 +151,12 @@ Experiment with mypy and make sure that the family tree only takes `Person` type
 
 Currently the `Tree.print_tree()` method doesn't look very pretty.
 
-Update the code, using __str__ methods in `Animal` and `Person` to allow the `Tree.print_tree()` method to display an output that looks like this:
+Update the code, adding `__str__()` methods in `Animal` and `Person` to allow the `Tree.print_tree()` method to display an output that looks like this:
 
-```
+```text
 Imran (30 years old)
 - Fatma (4 years old)
-- Aisha (6 years old))
+- Aisha (6 years old)
 Mammals (Variable size)
 - Cat (Small size)
 - Dog (Medium size)
