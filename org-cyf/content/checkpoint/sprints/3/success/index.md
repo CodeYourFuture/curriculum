@@ -4,7 +4,7 @@ layout = 'success'
 menu_level = ['sprint']
 weight = 4
 backlog= 'Checkpoint'
-backlog_filter='📅 Sprint 2'
+backlog_filter='📅 Sprint 3'
 +++
 
 > Your key goal this sprint is to complete your team project.
