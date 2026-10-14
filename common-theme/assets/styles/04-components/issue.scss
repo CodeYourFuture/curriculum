@@ -11,6 +11,11 @@
     h3 {
       font-size: var(--theme-type-size--4);
     }
+
+    hr {
+      margin: var(--theme-spacing--6) 0;
+      max-width: 100%;
+    }
   }
 
   &__labels {

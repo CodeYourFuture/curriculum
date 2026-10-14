@@ -26,7 +26,10 @@
         id="{{ $blockData.name |urlize }}">
         <a href="{{ $response.html_url }}">🔗 {{ $blockData.name }}</a>
       </h2>
-      {{ partial "time.html" $pageContext }}
+      <div style="display: flex; align-items: center; gap: var(--theme-spacing--1);">
+        {{ partial "time.html" $pageContext }}
+        {{ partial "block/actions.html" (dict "block" nil "blockData" $blockData "html_url" $response.html_url "Site" site) }}
+      </div>
     </header>
     {{ $extractedObjectives := partial "strings/extract-github-objectives.html" (dict "URL" $blockData.api "body" $decodedContent) }}
     {{ if gt (len $extractedObjectives) 0 }}
