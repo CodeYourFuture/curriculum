@@ -11,6 +11,4 @@ objectives = [
   publishResources = false
 +++
 
-Learn about formulating a clear vision and goals for a project or product when faced with the assorted needs and desires of a group of stakeholders.  
-
-[This resource](https://agile.appliedframeworks.com/applied-frameworks-agile-blog/why-the-product-goal-is-not-the-product-vision-in-scrum) might help you understand the differences.
+Learn about formulating a clear vision and goals for a project or product when faced with the assorted needs and desires of a group of stakeholders.  [This resource](https://agile.appliedframeworks.com/applied-frameworks-agile-blog/why-the-product-goal-is-not-the-product-vision-in-scrum) might help you understand the differences.

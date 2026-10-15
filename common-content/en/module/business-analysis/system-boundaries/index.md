@@ -12,6 +12,6 @@ objectives = [
   publishResources = false
 +++
 
-Read about system boundaries and context diagrams in sections 2.1.4 - 2.1.5.2 of the IREB [RE@Agile Handbook](https://cpre.ireb.org/en/downloads-and-resources/downloads#cpre-re-agile-handbook).
+Read about system boundaries and context diagrams in sections 2.2 "Specifying the system boundary", including sections 2.2.1.1 "Context diagram" and 2.2.1.2 "Natural language documentation of scope and system boundary", of the [IREB RE@Agile Handbook](https://cpre.ireb.org/en/downloads-and-resources/downloads#cpre-re-agile-handbook).
 
 
