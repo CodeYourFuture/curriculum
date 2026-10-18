@@ -3,7 +3,9 @@ title = "Requirements"
 
 time = 60
 objectives = [
-    "Identify, document, and refine different types of requirements (functional, non-functional/quality, constraint)"
+    "Identify different types of requirements (functional, non-functional/quality, constraint)",
+    "Document different types of requirements",
+    "Refine requirements to address ambiguities, gaps, or missing details"
 ]
 [build]
   render = "never"
