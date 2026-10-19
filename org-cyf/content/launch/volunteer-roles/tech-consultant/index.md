@@ -7,7 +7,7 @@ The Tech Consultant will be part of an Agile Scrum Team supporting the developer
 
 The **time commitment is 2-4 hours per week plus Saturday all day**. It is a 5-week long commitment.
 
-You can see [The Launch schedule and content](/) to get familiar with what will be expected.
+You can see [The Launch schedule and content](/launch) to get familiar with what will be expected.
 
 ## Who are you?
 
