@@ -11,7 +11,7 @@ You can see [The Launch schedule and content](/launch) to get familiar with what
 
 ## Who are you?
 
-- **Developers with at least two years of experience in a mid-level that want to take the next step in their career** or **experienced Tech Consultants**.
+- **Developers with at least two years of experience in a mid-level that want to take the next step in their career** or **experienced Tech Lead**.
 - Excellent problem-solving skills to break down the delivery and architecture/design of software.
 
 ## Your responsibilities
