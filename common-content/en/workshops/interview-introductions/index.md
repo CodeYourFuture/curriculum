@@ -43,7 +43,7 @@ Jane has recently completed the part time Super Coders Software Development prog
 
 Jane is very passionate about programming. She taught herself the Python programming language before starting the course.
 
-Her portfolio includes many full stack applications. This includes projects she has built with other students, as well as some solo projects. She’s especially proud of a project called Pin the Mood. This project stores book recommendations until the user has time to read the books. The project used React, Express, Node.js and PostgresSQL. The project team was an agile team made up of two trainees, a scrum master and a tech lead.
+Her portfolio includes many full stack applications. This includes projects she has built with other students, as well as some solo projects. She’s especially proud of a project called Pin the Mood. This project stores book recommendations until the user has time to read the books. The project used React, Express, Node.js and PostgresSQL. The project team was an agile team made up of two trainees, a project manager and a tech consultant.
 
 After leaving school seven years ago, she joined Lawyers 4U as a call handler. She has developed excellent interpersonal skills and has gained experience working under pressure.
 
