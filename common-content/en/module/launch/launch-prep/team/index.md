@@ -19,8 +19,8 @@ This exercise will explain your team formation and give tips on what you should 
 Your team will have:
 
 - 2-4 Developers: these will be other trainees you might know.
-- 1 [Tech Consultant](https://curriculum.codeyourfuture.io/launch/volunteer-roles/tech-consultant/): a volunteer who will support your team with the architecture and design of your product
-- 1 [Product Manager](https://curriculum.codeyourfuture.io/launch/volunteer-roles/product-manager/): a volunteer who will work with you to detail the scope and define the user stories
+- 1 [Tech Consultant](/launch/volunteer-roles/tech-consultant/): a volunteer who will support your team with the architecture and design of your product
+- 1 [Product Manager](/launch/volunteer-roles/product-manager/): a volunteer who will work with you to detail the scope and define the user stories
 
 You might have a [Business Owner](https://curriculum.codeyourfuture.io/launch/volunteer-roles/business-owner/) representing the charity or organisation you are doing this briefing for. They will give your team insight into the users' needs and the value the product will deliver.
 
