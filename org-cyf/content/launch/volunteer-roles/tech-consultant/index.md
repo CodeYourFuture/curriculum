@@ -16,7 +16,7 @@ You can see [The Launch schedule and content](/launch) to get familiar with what
 
 ## Your responsibilities
 
-- **Write an assessment of every trainee in your team**. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).
+- **Write an assessment of every trainee in your team**. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/launch/volunteer-roles/feedback/).
 - **Being part of the Product Team motivating team members and creating a space where they can ask questions and voice their concerns.**
   - The team own their solutions, and it should be them writing all the code but you are there to support them with suggested approaches when they get stuck.
 - **Being transparent with the team about challenges, failures, and successes.**
