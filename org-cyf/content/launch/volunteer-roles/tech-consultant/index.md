@@ -16,6 +16,7 @@ You can see [The Launch schedule and content](/launch) to get familiar with what
 
 ## Your responsibilities
 
+- **Write an assessment of every trainee in your team**. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).
 - **Being part of the Product Team motivating team members and creating a space where they can ask questions and voice their concerns.**
   - The team own their solutions, and it should be them writing all the code but you are there to support them with suggested approaches when they get stuck.
 - **Being transparent with the team about challenges, failures, and successes.**
@@ -24,6 +25,7 @@ You can see [The Launch schedule and content](/launch) to get familiar with what
 - **Supporting the team to understand the requirements and approving the technical implementation solutions the teams come up with.**
   - Help with breaking tasks down into tickets.
   - Take teams through the agile workflow: Assigning themselves to tickets, creating PRs, getting reviews, merging and deploying code.
+  - Participate in code review but, importantly, ensure it is a shared responsibility across the team. Code review is not solely your responsibility, it's the job of the team too. 
 - **Oversee and define the architecture of the application.**
   - Help the team avoid getting stuck when building the solutions. They are juniors, and your experience will help them clarify how things should fit together, especially when integrating 3rd party APIs or setting up authentication.
   - Identifying risks that could jeopardise delivery.
@@ -44,4 +46,3 @@ You can see [The Launch schedule and content](/launch) to get familiar with what
   - Support the team in their research of CYF's production stack.
   - We don't expect applications to be fully ready for production-grade deployment at the end of the project, but they should be deployed, and should be designed with production-grade deployment in mind and any remaining steps should be clearly documented.
   - A production-ready MVP is the preferred outcome compared to a feature-complete application which would need changes before deployment.
-- **Write an assessment of every trainee in your team**. This must be done with the other volunteers in your team. The assessment criteria can be found on the [feedback page](/volunteer-roles/feedback/).
