@@ -40,7 +40,7 @@ This is not an exhaustive list. If you observe anything (good or bad) which you 
 
 The frequency of feedback is just as important as what it contains. If a trainee doesn't get feedback early in the project then their work won't improve.
 
-You should aim to give every trainee some feedback every week. It doesn't have to be exhaustive, but any issues need to be highlighted early. It's just as important to celebrate success and let trainees know they're doing a good job. 
+You should aim to give every trainee some feedback every week. It doesn't have to be exhaustive, but any issues need to be highlighted early. It's just as important to celebrate success and let trainees know they're doing a good job.
 
 Each trainee will receive a summary of their feedback at the end of the Launch (see "Assessment Criteria" below). Nothing in this document should come as a surprise to them, and it won't if they are getting regular feedback from their mentors.
 
@@ -49,16 +49,16 @@ Each trainee will receive a summary of their feedback at the end of the Launch (
 At the end of the module we ask all volunteers to write an assessment of each trainee in their group. This should be done as a team and include feedback from each volunteer. The assessment should include three things:
 
 1. An overall recommendation for the trainee's next steps. This should be one of the following options:
-    
-    - **A** - The trainee is ready for employment. Someone in this category has been an effective team member and has shown strong technical aptitude. 
-    - **B** - The trainee is nearly ready for employment but would benefit from an additional project with the CYF Tech Products team. A trainee in this category may need further exposure to a professional group dynamic or experience working with an unfamiliar tech stack.
-    - **C** - The trainee is not ready for employment and needs to work on further projects with the CYF Tech Products team. A trainee in this category has demonstrated some technical aptitude but found the group environment challenging. They need time to practice working in a team before applying for jobs.
-    - **D** - The trainee is not ready for group work. They have not demonstrated a sufficient level of technical understanding and need to develop their coding skills before joining another team.
+
+   - **A** - The trainee is ready for employment. Someone in this category has been an effective team member and has shown strong technical aptitude.
+   - **B** - The trainee is nearly ready for employment but would benefit from an additional project with the CYF Tech Products team. A trainee in this category may need further exposure to a professional group dynamic or experience working with an unfamiliar tech stack.
+   - **C** - The trainee is not ready for employment and needs to work on further projects with the CYF Tech Products team. A trainee in this category has demonstrated some technical aptitude but found the group environment challenging. They need time to practice working in a team before applying for jobs.
+   - **D** - The trainee is not ready for group work. They have not demonstrated a sufficient level of technical understanding and need to develop their coding skills before joining another team.
 
 2. An explanation of the recommendation. This should highlight the trainee's strengths and any areas for improvement. It should cover two categories:
 
-    - Technical skills
-    - Soft skills
+   - Technical skills
+   - Soft skills
 
 3. The assessors' names and roles in the team
 
@@ -72,5 +72,4 @@ At the end of the module we ask all volunteers to write an assessment of each tr
 
 **Soft Skills**: Pedrita displayed initiative by suggesting improvements whenever she identified opportunities. Namely, she did a very good job improving the look-and-feel of our front-end. She occasionally missed team responsibilities, such as writing standup notes, or communicating with the team about problems attending meetings. She needs to enhance her attention to detail, as I often had to repeat instructions multiple times, particularly during code reviews.
 
-**Assessors**: Karen Klein (Product Manager), Colin Farquhar (Tech Lead)
-
+**Assessors**: Karen Klein (Product Manager), Colin Farquhar (Tech Consultant)
