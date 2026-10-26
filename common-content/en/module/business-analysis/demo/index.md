@@ -28,7 +28,7 @@ Then the next person will demo their work.
 
 ### 1. Demo {{<timer>}}10{{</timer>}}
 
-You will demo the work you did for this sprint as if you were presenting it to Brighsparks stakeholders.
+You will demo the work you did for this sprint as if you were presenting it to BrightStar stakeholders.
 
 You will have 10 minutes to explain run the stakeholders through your findings and logic behind it.
 
