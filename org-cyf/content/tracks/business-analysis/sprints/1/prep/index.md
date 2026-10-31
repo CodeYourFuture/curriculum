@@ -17,7 +17,7 @@ src="module/business-analysis/user-research"
 name="Communicating effectively"
 src="module/business-analysis/communication"
 [[blocks]]
-name="SWOT Analysis"
+name="SWOT Analysis and RAID Log"
 src="module/business-analysis/swot"
 [[blocks]]
 name="Business Requirements"

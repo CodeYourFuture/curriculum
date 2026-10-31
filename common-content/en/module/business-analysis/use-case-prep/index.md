@@ -11,7 +11,7 @@ objectives = [
   publishResources = false
 +++
 
-Read about use cases and use case diagrams as another way of representing the scope of a solution (e.g. in section 2.1.5.3 in the [RE@Agile Handbook](https://cpre.ireb.org/en/downloads-and-resources/downloads#cpre-re-agile-handbook)). 
+Read about use cases and use case diagrams as another way of representing the scope of a solution (e.g. in section 2.2.1.3 "Use case diagram" in the [IREB RE@Agile Handbook](https://cpre.ireb.org/en/downloads-and-resources/downloads#cpre-re-agile-handbook)).
 
 Describe in your own words the differences between a use case, a scenario and a user story.
 
