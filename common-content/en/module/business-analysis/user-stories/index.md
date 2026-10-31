@@ -3,7 +3,8 @@ title = "User stories"
 
 time = 60
 objectives = [
-    "Write well-formed user stories based on proposed solutions"
+    "Write well-formed user stories based on proposed solutions",
+    "Write acceptance criteria using Gherkin"
 ]
 [build]
   render = "never"
