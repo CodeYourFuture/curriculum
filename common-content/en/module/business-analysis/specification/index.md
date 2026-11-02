@@ -21,4 +21,5 @@ Explore different requirements documentation formats and examples:
 4. [Product Requirements Document (PRD)](https://www.atlassian.com/software/confluence/templates/product-requirements)
 
 How do these documents differ in purpose, content, and level of detail? Where do they overlap?
-How do these differ from your understanding of a product backlog, as used in an agile approach?
+How do these differ from your understanding of a product backlog as used in an agile approach?
+Focus on understanding very well the type of documentation used by the company you are being hired by.
