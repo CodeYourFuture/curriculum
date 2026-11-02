@@ -20,4 +20,5 @@ You can also refer to this page to understand the differences between BPMN & UML
 
 1. Create a simple **As-is business process model** for one existing business process within BrightStar
 2. Use swimlanes within the model to show where the responsibility for carrying out individual steps lies, taking care that swimlanes represent organisational units (organisation, department, role) and not systems
-3. Create a **To-be business process model** showing how the process could be improved. Briefly explain the key differences between the two models.
+3. Create a **To-be business process model** showing how the process could be improved. Briefly explain the key differences between the two models. 
+4. Review your processes now, thinking about the technical implementation, including system architecture, automation opportunities, and integration points, when applicable. What would you change and why? 
