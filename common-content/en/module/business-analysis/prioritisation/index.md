@@ -27,7 +27,6 @@ Now let’s try and apply our knowledge of Agile business analysis in the Bright
 
 5. Describe the **MVP** for your planned BrightStar development
 
-6. Formulate a **Definition of Done** for backlog items.
-Consider how you would measure the success of your initial deliverables, using [OKR/KPI](https://agilemania.com/difference-between-okr-vs-kpi#:~:text=OKRs%20involve%20setting%20new%20objectives,collaborate%20on%20defining%20relevant%20KPIs.) where relevant.
+6. Formulate a **Definition of Done** for backlog items. Define clear criteria that must be met for each item to be considered complete.
 
 7. Consider how feedback from your sprint deliverables would affect your prioritisation and goal setting for later sprints
