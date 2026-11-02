@@ -4,7 +4,7 @@ title = "User research"
 time = 60
 objectives = [
     "Describe different methods of user research and requirements gathering (e.g., interviews, surveys, usability testing)",
-    "Explain the  purpose and benefit of each user research method",
+    "Explain the purpose and benefit of each user research method",
     "Explain how requirements refinement helps clarify stakeholder needs and address ambiguities"
 ]
 [build]
