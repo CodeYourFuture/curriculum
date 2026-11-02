@@ -17,7 +17,7 @@ Read about and describe the Business Analyst role in product development, and na
 
 ### Recognise Your Existing Skills
 
-Think about your experience during the Intro to Programming course, at work, or in everyday life.
+Think about your experience during your CodeYourFuture courses, at work, or in everyday life.
 1. Have you ever had to figure out why something wasn't working, even when the cause wasn't obvious? How did you approach it?
 2. Have you ever had to break a complicated task or problem into smaller parts? How did that help you?
 3. Have you ever made a change that unexpectedly affected something else? How did you identify the connections?
