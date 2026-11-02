@@ -19,5 +19,5 @@ You were given a lot of information on the case study. Considering everything yo
 **RAID Log**
 Read about [RAID Log.](https://neuralprojectinstitute.com/project-management/raid-log/)
 Using the BrightStar case study and your SWOT analysis:
-1. Create a RAID log with at least one risk, assumption, issue, and dependency.
+1. Create a RAID log with at least one risk, assumption, issue, and dependency. This should include business or technical risks and mitigation strategies.
 2. For each item, describe its impact, identify a responsible stakeholder, and suggest a next action.
