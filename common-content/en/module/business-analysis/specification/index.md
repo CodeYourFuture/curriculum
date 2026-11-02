@@ -12,7 +12,7 @@ objectives = [
   publishResources = false
 +++
 
-Read Section [3.6 "Requirements Documents and Documentation Structures"](https://cockpit.ireb.org/en/resources/all-resources/cpre-foundation-level-handbook?lang=en) of the IREB CPRE Foundation Level Handbook.
+Read Section [3.6 "Requirements Documents and Documentation Structures"](https://cockpit.ireb.org/en/resources/all-resources/cpre-foundation-level-handbook?lang=en) of the IREB CPRE Foundation Level Handbook. _You will have to create an account with them, it must be free - if you are asked for payment details, please let the CYF Team know._
 
 Explore different requirements documentation formats and examples:
 1. [Business Requirements Document (BRD)](https://www.smartsheet.com/content/business-requirement-document-templates)
