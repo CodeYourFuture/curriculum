@@ -35,8 +35,10 @@ Fix your code!
 
 On line 20 of `views/hashtag.mjs`, only fetch if the hashtag has changed.
 
+The router passes the tag without a `#`, for example `trees`. `getBloomsByHashtag` stores `state.currentHashtag` with a `#`, for example `#trees`. Compare those two values in the same form. If you leave the `#` off one side, the check is always true and the requests never stop.
+
 ```js
-if (hashtag !== state.currentHashtag) {
+if (`#${hashtag}` !== state.currentHashtag) {
   apiService.getBloomsByHashtag(hashtag);
 }
 ```
