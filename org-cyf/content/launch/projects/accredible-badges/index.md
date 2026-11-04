@@ -22,8 +22,12 @@ The main things we need you to do are:
 2. Compare the different types of API connections we already have: Docuseal and Duolingo are the two main ones we want you to look into. You should use one of them to reuse the logic.
 3. Interpret how the Accredible API works
 4. Think about the solutions for the below edge (and there might be more):
-    a. An admin can unfile a completion. What happens to a badge we've already issued?
-    b. Graduates who already have a badge issued by hand. How do we stop the automation from issuing them a second one? A cut-over date would probably be enough to cover this.
+
+        a. An admin can unfile a completion. What happens to a badge we've already issued?
+
+        
+        b. Graduates who already have a badge issued by hand. How do we stop the automation from issuing them a second one? A cut-over date would probably be enough to cover this.
+
 5. Create an ADR (Architecture Decision Record) suggesting which of the existing API connection types will be reused for the Accredible badge connection. This must be approved by the core Portal team before development starts.
 6. Develop the connection to Accredible and save data, if needed, against each user/course completion
 7. Design, using the existing library, the front end in which trainees can view and the link to download their badge once they finish a course 
