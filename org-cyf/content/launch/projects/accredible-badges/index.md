@@ -25,7 +25,6 @@ The main things we need you to do are:
 
         a. An admin can unfile a completion. What happens to a badge we've already issued?
 
-        
         b. Graduates who already have a badge issued by hand. How do we stop the automation from issuing them a second one? A cut-over date would probably be enough to cover this.
 
 5. Create an ADR (Architecture Decision Record) suggesting which of the existing API connection types will be reused for the Accredible badge connection. This must be approved by the core Portal team before development starts.
