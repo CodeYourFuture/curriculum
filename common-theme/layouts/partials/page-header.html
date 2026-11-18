@@ -91,6 +91,7 @@ then go ahead and make a TOC */}}
                   <a href="#{{ .name | urlize }}" data-pagefind-weight="5"
                     >{{ .name }}</a
                   >
+                  {{ if eq $.Page.Layout "day-plan"}}<span class="c-toc__time"></span>{{ end }}
                   {{ if "youtu" | in .src }}📼{{ end }}
                 </li>
               {{ end }}
