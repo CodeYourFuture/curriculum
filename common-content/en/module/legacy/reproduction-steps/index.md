@@ -11,7 +11,7 @@ objectives = [
 
 It's easier to fix a bug if you can reproduce it. Reproducing a bug allows you to see what's happening, inspect what assumptions are incorrect, and verify that you have actually fixed it when you think you have.
 
-Bugs without reproduction steps are often harder to debug and fix that ones with reproduction steps. Ideally reproduction steps tell you _everything_ you need to do to reproduce the bug.
+Bugs without reproduction steps are often harder to debug and fix than ones with reproduction steps. Ideally reproduction steps tell you _everything_ you need to do to reproduce the bug.
 
 But it's important to remember: reproduction steps are just an example. Our goal in debugging isn't just to make the reproduction steps no longer show the bug. It's to understand what the underlying problem was, and prevent that.
 

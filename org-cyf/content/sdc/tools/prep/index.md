@@ -14,6 +14,9 @@ src = "module/js1/check-unix-os"
 name = "Check Git"
 src = "module/induction/check-git-installation"
 [[blocks]]
+name = "Check Python"
+src = "module/induction/check-py"
+[[blocks]]
 name = "Install VS Code"
 src = "module/induction/install-vscode"
 [[blocks]]
