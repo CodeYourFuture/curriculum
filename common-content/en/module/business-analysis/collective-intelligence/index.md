@@ -18,7 +18,7 @@ Work together to understand the theory from your prep and today's activities. Br
 
 Set a timer for {{<timer>}}5{{</timer>}}.
 
-Write down questions individually, then share and group related questions. Choose which to discuss first.
+Write down questions individually that came up during the prep for the BrightStar case. Then share and group related questions. Choose which to discuss first.
 
 ## Explore together
 
