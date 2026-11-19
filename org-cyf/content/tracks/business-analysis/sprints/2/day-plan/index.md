@@ -17,7 +17,7 @@ name="Morning break"
 src="blocks/morning-break"
 time=15
 [[blocks]]
-name="From Discovery to BA Artefacts – Workshop"
+name="From Discovery to BA Artefacts Workshop – Part 1"
 src="module/business-analysis/discovery-artefacts-workshop"
 time=60
 [[blocks]]
@@ -25,8 +25,8 @@ name="Lunch"
 src="blocks/lunch"
 time=60
 [[blocks]]
-name="Demo"
-src="module/business-analysis/demo"
+name="From Discovery to BA Artefacts Workshop – Part 2"
+src="module/business-analysis/discovery-artefacts-workshop-part-2"
 time=60
 [[blocks]]
 name="Afternoon Break"

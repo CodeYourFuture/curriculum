@@ -24,11 +24,15 @@ the end of each interview, the BA should be able to describe:
 - the stakeholders involved or affected; and
 - the high-level outcomes a future solution should support.
 
-## Set-up – 5 minutes
+## Set-up
+
+Set a timer for {{<timer>}}5{{</timer>}}.
 
 Work in pairs. Each person chooses a different domain they know from work or personal experience, such as travel, education, a hobby, a club or a regular service. Choose a real, familiar situation and explain it in your own words. No specialist knowledge or preparation is needed. Do not share confidential or sensitive information.
 
-## Discovery interviews – 20 minutes
+## Discovery interviews
+
+Allow 20 minutes for this activity. Set a timer for {{<timer>}}10{{</timer>}} for each interview.
 
 Interview the first domain expert for 10 minutes. Then switch roles and interview your partner about their different domain for 10 minutes.
 
@@ -71,7 +75,7 @@ Use the prompts below as a guide, not a script:
 6. **Priorities and constraints:** Which pain point matters most, and why?
    What rules, timing, resources, or external factors shape the situation?
 
-### Ten-minute interview plan
+### 10-minute interview plan
 
 | Time | Focus |
 |---|---|
@@ -83,16 +87,22 @@ Use the prompts below as a guide, not a script:
 
 After the first 10-minute interview, switch roles and interview your partner. 
 
-## Analyse your notes – 15 minutes
+## Analyse your notes
+
+Set a timer for {{<timer>}}15{{</timer>}}.
 
 Individually, each BA reviews the notes from their own interview. Summarise the scope, stakeholders, main process, entities, pain points and desired outcomes. Identify gaps and assumptions to check.
 
-## Follow-up and validation – 15 minutes
+## Follow-up and validation
+
+Allow 15 minutes for this activity.
 
 Take turns as the BA and the domain expert, allowing roughly half the time for each domain. Ask follow-up questions, share your summary, invite corrections and record any uncertainty.
 
 Keep the notes from the interview you conducted as the BA for the next workshop.
 
-## Reflection – 5 minutes
+## Reflection
+
+Allow 5 minutes for this activity.
 
 Briefly compare notes: What question uncovered the most useful detail? What assumption did the BA need to check? Did the interview stay focused on the business problem rather than a proposed solution? Name one question or listening technique to use in a future discovery conversation.
