@@ -8,9 +8,12 @@
 
       <div slot="header">{{ partial "page-header.html" . }}</div>
       <div slot="blocks">
-        {{ with .Content }}
-          <section class="l-page__main c-block c-copy">{{ . }}</section>
+              {{ with .Content }}
+        {{ if not (in . "<h2") }}
+          {{ errorf "This prep page %s has content but no h2. This page prefers blocks, but if you must add content directly, begin with an h2" $.Page.RelPermalink }}
         {{ end }}
+        <section class="l-page__main c-block c-copy">{{ . }}</section>
+      {{ end }}
         <!-- Blocks will appear here in order listed in the blocks list in the sprint front matter -->
         {{ range .Params.blocks }}
           {{ partial "block/block.html" (dict "block" . "Page"
