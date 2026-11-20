@@ -21,6 +21,8 @@ Make sure you attend the meeting.
 
 Make sure to answer the following questions during the briefing.
 
+- How will I find out information about Checkpoint?
+  - Lots will be communicated over Slack. Make sure to check Slack _every day_ during Checkpoint. Information will be shared, and actions will be requested. If you do not complete those actions in a timely manner, you will be removed from this Checkpoint.
 - What is the schedule of Checkpoint? When are people expected where?
   - Demos happen on the first three Saturdays - they are expected to be available online/in-person from 10am-5pm and will be notified when demos are happening.
   - Projects begin on each Saturday and are due in the following Thursday - they have six days to complete them, and should be available for communication from their team during this period.
@@ -45,3 +47,7 @@ Make sure to answer the following questions during the briefing.
 - How do trainees hand in their projects?
   - Instructions for handing in projects will be given on Slack - pay attention!
   - Generally they amount to sharing a link to the repo, the hosted version of the app, and a GitHub SHA of the relevant commit from which we want to mark the project.
+- What happens if I fail Checkpoint?
+  - That's ok! The goal of Checkpoint is to work out what the right next steps are for you, together with you. We'll give you a feedback document, and set up a 1:1 call to work out together what went well, and could have gone better, and what would help you fill any gaps you have. That may mean taking time to brush up on some topics, practicing working in groups, or something else entirely!
+  - If through that discussion, we determine that moving on to SDC is the right next step, that's a possibility.
+  - _Everyone_ who has had one of these conversations and has taken time to practice what didn't go so well has been glad they did.
