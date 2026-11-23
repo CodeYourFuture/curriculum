@@ -75,5 +75,8 @@
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
     white-space: nowrap;
+    min-width: 11ch;
+    text-align: left;
+    margin-inline-start: var(--theme-spacing--1);
   }
 }
