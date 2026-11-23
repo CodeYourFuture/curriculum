@@ -24,6 +24,7 @@
   ol > li {
     font: var(--theme-font--ui);
     font-weight: 300;
+    display: flex;
     &:before {
       display: inline-block;
       content: counter(item) ". ";
@@ -36,6 +37,8 @@
     a:link {
       text-decoration: none;
       position: relative;
+      flex: 1;
+      min-width: 0;
       &.is-active {
         color: var(--theme-color--pop);
         border-bottom: 1px solid var(--theme-color--pop);
@@ -69,7 +72,8 @@
   }
 
   &__time {
-    float: right;
     font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+    white-space: nowrap;
   }
 }
