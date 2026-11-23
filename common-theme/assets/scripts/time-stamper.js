@@ -11,7 +11,8 @@ class TimeStamper extends HTMLElement {
   }
 
   connectedCallback() {
-    this.stampTime();
+    const blockTimes = this.stampTime();
+    this.updateTocTimes(blockTimes);
   }
 
   formatTime(date) {
@@ -27,6 +28,7 @@ class TimeStamper extends HTMLElement {
   stampTime() {
     let currentTime = new Date(`1970-01-01T${this.startTime}`); // Set initial time to 10:00 AM
 
+    // Stores blocks as an array of objects. { id, start, end }.
     const blockTimes = [];
 
     this.timelineEntries.forEach((entry) => {
@@ -47,6 +49,7 @@ class TimeStamper extends HTMLElement {
       // Increment the currentTime by the given minutes
       currentTime.setMinutes(currentTime.getMinutes() + minutes);
 
+      // Adds blocks to the blockTimes array.
       if (blockId) {
         blockTimes.push({
           id: blockId,
@@ -54,6 +57,20 @@ class TimeStamper extends HTMLElement {
           end: this.formatTime(currentTime),
         });
       }
+    });
+
+    return blockTimes;
+  }
+
+  updateTocTimes(blockTimes) {
+    blockTimes.forEach((block) => {
+      const tocLink = document.querySelector(`a[href="#${block.id}"]`);
+
+      if (!tocLink) return;
+
+      const tocSpan = tocLink?.parentElement.querySelector(".c-toc__time");
+
+      tocSpan.textContent = `${block.start} - ${block.end}`;
     });
   }
 }

@@ -9,7 +9,7 @@
     var(--theme-spacing--4);
   overflow-y: auto;
   counter-reset: item;
-//
+  //
   ol {
     color: var(--theme-color--ink);
     padding: 0;
@@ -22,7 +22,6 @@
   // so instead of writing all that I'm resetting the counter and running them together that way
   // feel free to tackle if you have spare time
   ol > li {
-    
     font: var(--theme-font--ui);
     font-weight: 300;
     &:before {
@@ -61,10 +60,16 @@
             var(--theme-spacing--container)
         ) - calc(var(--bookmark) / 2)
     );
-    text-shadow: 0.5px 0.5px var(--theme-color--ink),
+    text-shadow:
+      0.5px 0.5px var(--theme-color--ink),
       -0.5px 1px var(--theme-color--pop),
       0px 3.25px 6px var(--theme-color--outline);
     font-size: var(--bookmark);
     transform: translateY(calc(-1 * calc(var(--bookmark) / 2)));
+  }
+
+  &__time {
+    float: right;
+    font-variant-numeric: tabular-nums;
   }
 }
