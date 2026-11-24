@@ -36,6 +36,8 @@ In small groups, ideally with a volunteer in each group if possible.
 
 6. If you have time, try making an introduction for yourself and share it with the group 
 
+If you have time to repeat an introduction, use a stopwatch or the [manual Interview Answer Timer](https://makeinterview.com/en/tools/interview-answer-timer) to compare the two tries. Choose three points from the first try and ask your group whether you kept them in the second. A shorter answer is not always clearer. The optional tool needs no account or microphone; its notes disappear when you refresh the page.
+
 {{</note>}}
 
 ### Jane’s summary
