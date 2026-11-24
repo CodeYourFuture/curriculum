@@ -11,8 +11,8 @@ name = "Demo"
 src = "blocks/demo"
 time = "30"
 [[blocks]]
-name = "Java workshop"
-src = "workshops/understanding-java"
+name = "C# workshop"
+src = "workshops/understanding-csharp"
 time = "90"
 [[blocks]]
 name = "Morning break"
