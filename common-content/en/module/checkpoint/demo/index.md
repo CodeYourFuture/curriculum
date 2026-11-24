@@ -56,7 +56,7 @@ These are some criteria we will be using to assess your demo. You must meet at l
   <dt>Explain the reasoning behind a choice.</dt><dd>Someone watching should be able to explain why you did at least one thing a particular way (and why it was a better choice than alternatives).</dd>
   <dt>Show relevant code or artifacts (e.g. a website, a ticket, an discussion).</dt><dd>Someone watching should be able to identify at least one artifact of your work. Slides don't count as an artifact. Make sure any code / text is readable when presenting.</dd>
   <dt>Stick to your time limit.</dt><dd>Your demo must be 90-120 seconds long. You will be given a warning at 90 seconds. If a trainee finished before 90 seconds, they missed this point.<br /><br />If a trainee is not done speaking at the time limit, they missed this rubric point, and anything they said afterwards will not be counted towards the rubric.</dd>
-  <dt>Ask engaging questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". The point of this is to engage the audience and get them thinking/caring about the demo. The question should be rhetorical - you don't have time to wait for answers.</dd>
+  <dt>Ask engaging questions.</dt><dd>Someone watching can state at least one question that was asked of the audience that is not "any questions?". A question can be asked at the start, middle, or end of the demo. In any case, the point of it should be to engage the audience and get them thinking/caring about the demo. Any questions should be rhetorical - you don't have time to wait for answers.</dd>
 </dl>
 
 
