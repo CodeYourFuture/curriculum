@@ -96,7 +96,7 @@ Discuss with your group:
 
 **Scenario 2: Positive feedback**: A colleague handled a difficult question from a client very well in a meeting. They stayed calm, said what they did not know, and sent a full answer later the same day. Give them feedback so they know exactly what to keep doing. (Positive feedback also needs a Situation, a Behavior and an Impact. "Great job!" does not tell anyone what to repeat.)
 
-**Scenario 3: The long presentation**: A team member gives a useful presentation, but it is too long. It lasts more than an hour and the audience loses focus. The team will use the same presentation at the next client meeting. That meeting is only 1 hour long and needs to cover many other topics.
+**Scenario 3: The long presentation**: A team member gives a useful presentation, but it is too long. It lasted more than an hour and the audience lost focus. The team will use the same presentation at the next client meeting. That meeting is only 1 hour long and needs to cover many other topics.
 
 **Scenario 4: Interrupting others**: A colleague often interrupts others in team discussions. They also reject other people's ideas without thinking about them. The team finds this frustrating. (Be careful: "rude" is an opinion. What did you actually see and hear?)
 
